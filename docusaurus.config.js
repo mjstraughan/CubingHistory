@@ -13,7 +13,7 @@ const config = {
   favicon: "img/Favicon.png",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://cubinghistory.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -44,8 +44,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/mjstraughan/CubingHistory/tree/main/",
         },
         blog: false,
         //blog: {
@@ -74,23 +73,28 @@ const config = {
           src: "img/Favicon.png",
         },
         items: [
-          {
+          /*{
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Tutorial",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "Blog", position: "left" },*/
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/mjstraughan/CubingHistory",
             label: "GitHub",
+            position: "right",
+          },
+          {
+            href: "https://discord.gg/GJB2ER2Q3M",
+            label: "Discord",
             position: "right",
           },
         ],
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} James Straughan.`,
+        copyright: `Copyright © ${new Date().getFullYear()} James Straughan`,
       },
       prism: {
         theme: prismThemes.github,
