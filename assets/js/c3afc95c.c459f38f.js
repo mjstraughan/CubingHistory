@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcubing_history=self.webpackChunkcubing_history||[]).push([[12],{8242:e=>{e.exports=JSON.parse('{"title":"3x3 Methods","slug":"/category/3x3-methods","permalink":"/category/3x3-methods","navigation":{"previous":{"title":"3x3","permalink":"/category/3x3"},"next":{"title":"2GR","permalink":"/3x3/3x3 Methods/2GR"}}}')}}]);

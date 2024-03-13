@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcubing_history=self.webpackChunkcubing_history||[]).push([[835],{1966:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
