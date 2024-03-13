@@ -64,4 +64,4 @@ Ron van Bruchem also provided me some information about early method development
 
 Others have been very willing to explain the origin of their own developments. Each person is credited on the site in the area in which they provided help.
 
-Thanks to err0r for recommending Docusaurus for the site and for helping me fix the problems that I ran into when getting it set up
+Thanks to err0r for recommending Docusaurus for the site and for helping me fix the problems that I ran into when getting it set up.
