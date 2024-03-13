@@ -11,9 +11,9 @@ This website was created to serve as an archive of methods and their presentatio
 
 If you want to use anything from this website, feel free to do so. I only ask that you credit the site and me for the research that I have done (my name is James Straughan). If you want to contact me, send me an email at athefre@gmail.com. I go by the username Athefre in the various puzzle communities such as speedsolving.com and various Discord servers, so you can also contact me there. Some of the images may be more complicated, so please talk to me before using those.
 
-Most of the information on the site comes from personal research. But there are some things that I wouldn't have been able to completely verify without the help of others. Georges Helm in particular was a great help. He was kind enough to look through the books that he owns and confirm my suspicions and provide me details. Ron van Bruchem also provided me some information about early method development. Others have been very willing to explain the origin of their own developments. Each person is credited on the site in the area in which they provided help.
-
 ## Major Historical Discoveries
+
+Below are some of the historical discoveries that have been uncovered while building Cubing History.
 
 - The origin of the F2L pair technique. Many thought that it was from Rene Schoof because he was credited in the September 1981 issue of Cubism For Fun. But there are several publications of the technique before then. The earliest known publication is by John Conway, David Benson, and David Seal in 1979 that included a complete table of every possible case. It also did PLL then OLL as the last layer method.
 - Cross and the Layer By Layer method wasn't first created by Singmaster as the community believes. Nor did Singmaster claim to have created them. He states in Notes on Rubik’s ‘Magic Cube’ that he had seen the method before and changed his method to his own version of that. The earliest known publication of the Layer By Layer method, starting with cross, is by Donald Taylor in 1978.
@@ -53,3 +53,15 @@ Since I joined the community, I have always been interested in method developmen
 
 - https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368431
 - https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368527
+
+## Credit
+
+Most of the information on the site comes from personal research. But there are some things that I wouldn't have been able to completely verify without the help of others.
+
+Georges Helm in particular was a great help. He was kind enough to look through the books that he owns and confirm my suspicions and provide me details.
+
+Ron van Bruchem also provided me some information about early method development.
+
+Others have been very willing to explain the origin of their own developments. Each person is credited on the site in the area in which they provided help.
+
+Thanks to err0r for recommending Docusaurus for the site and for helping me fix the problems that I ran into when getting it set up.
