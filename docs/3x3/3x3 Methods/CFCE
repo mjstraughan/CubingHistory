@@ -1,0 +1,28 @@
+---
+sidebar_position: 5
+---
+
+# CFCE
+
+## Description
+
+**Proposer:** Guus Razoux Schultz
+
+**Proposed:** 1981
+
+**Steps:**
+
+1. Cross: Solve the four bottom layer edges.
+2. First Two Layers (F2L): Solve the four corner and edge pairs around the bottom two layers.
+3. Corners of the Last Layer (CLL): Solve the corners of the upper layer.
+4. Edges of the Last Layer (ELL): Solve the edges of the upper layer.
+
+[Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/2GR_Method)
+
+## Proposal
+
+Guus Razoux Schultz started developing CFCE in September, 1981. A few months later, Schultz learned of the F2L pair concept and integrated it into his method.
+
+
+
+![Proposal 1](img/2GR/Proposal1.png)

@@ -61,7 +61,9 @@ In June, 2011, Mariano Aquino proposed an early corner permutation method that i
 ![](img/CEOR/AquinoProposal1.png)
 ![](img/CEOR/AquinoProposal2.png)
 https://www.speedsolving.com/threads/cpls-and-2gll-discussion.24125/post-594576
+
 https://sites.google.com/site/recursoscuberos/f2g
+
 https://www.youtube.com/watch?v=xLu7yQLS24Q
 
 ### Joseph Briggs
