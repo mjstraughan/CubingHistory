@@ -17,7 +17,7 @@
 
 ### Ernő Rubik
 
-On page 40 of David Singmaster's *Notes on Rubik's 'Magic Cube'*, the steps of Rubik's method are written as described by Zoltán Perjés.
+On page 40 of David Singmaster's *Notes on Rubik's 'Magic Cube'*, the steps of Rubik's method are written as described by Zoltán Perjés. This makes Ernő Rubik the first to have created the corners first method and also corners first as the first method created to solve the cube.
 
 ![](img/CornersFirst/Rubik1.png)
 
@@ -32,4 +32,8 @@ In May, 2003, Dan Knights stated that in 1999 he saw Rubik solve the cube. He ou
 
 ### First Published
 
-The first known published Corners First method came in 1978 by Hanke Bremer in Ein Paar Würfeldrehungen.
+The first known published Corners First method came in 1978 by Hanke Bremer in *Ein Paar Würfeldrehungen*.
+
+![](img/CornersFirst/Bremer.png)
+
+>I contacted Georges Helm to ask the method steps in all of the books he owns from 1980 and earlier. This is a handwritten list of steps. "K" is for edges and "E" is for corners. The numbers on the left indicate the bottom, middle, and upper layer. "P" is for "position" and "O" is for "orient". Hanke Bremer's publication is the earliest of the books he owns that describes corners first.

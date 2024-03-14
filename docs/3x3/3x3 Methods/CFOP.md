@@ -21,7 +21,7 @@ The first known publication of the cross step is Donald Taylor's *The Group of a
 
 ![](img/CFOP/Cross/HelmTaylor.jpg)
 
->I contacted Georges Helm to ask the method steps in all of the books he owns from 1980 and earlier. This is a handwritten list of steps. "K" is for edges and "E" is for corners. The numbers on the left indicate the bottom, middle, and upper layer. "P" is for "position" and "O" is for "orient". Donald Taylor's publication is the earliest of the books he owns. However, it is likely that the cross had been used even earlier.
+>I contacted Georges Helm to ask the method steps in all of the books he owns from 1980 and earlier. This is a handwritten list of steps. "K" is for edges and "E" is for corners. The numbers on the left indicate the bottom, middle, and upper layer. "P" is for "position" and "O" is for "orient". Donald Taylor's publication is the earliest of the books he owns that describes a method starting with cross. However, it is likely that cross had been used even earlier.
 
 ## First Two Layers
 
