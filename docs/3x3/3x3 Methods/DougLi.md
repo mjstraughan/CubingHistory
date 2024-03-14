@@ -1,4 +1,4 @@
-# Doug Lis
+# Doug Li
 
 ## Description
 
