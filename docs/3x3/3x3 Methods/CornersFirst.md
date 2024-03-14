@@ -30,7 +30,7 @@ In May, 2003, Dan Knights stated that in 1999 he saw Rubik solve the cube. He ou
 
 ![](img/CornersFirst/Rubik3.png)
 
-### First Published
+### First Publication
 
 The first known published Corners First method came in 1978 by Hanke Bremer in *Ein Paar Würfeldrehungen*.
 
