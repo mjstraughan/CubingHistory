@@ -4,7 +4,13 @@ sidebar_position: 1
 
 # 2GR
 
-## Steps
+## Description
+
+**Proposer:** John Li
+
+**Proposed:** 2017
+
+**Steps:**
 
 1. EOPair: Solve the pair at bDL while orienting all edges of the cube. The edges are oriented along the z axis.
 2. Extend the pair to a 1x1x3 line at DL while permuting all remaining corners along the z axis. Afterward, the corners are solvable using turns of just the U and R layers.
