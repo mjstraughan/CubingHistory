@@ -7,7 +7,7 @@ slug: /
 
 ## Purpose
 
-This website was created to serve as an archive of methods and their presentations and changes over time. Method development has been poorly documented so this is an attempt to recover and preserve the important information. This is the result of many hours of studying various message boards, mailing lists, newsletters, books, conversing with others through private messages, and many years of my own experience and knowledge since joining the community in 2005. Method development has moved from being in books in the late 70s and early 80s to now being within internet discussions. So Cubing History consists of book references and screenshots and links from the original online messages
+This website was created to serve as an archive of methods and their presentations and changes over time. Method development has been poorly documented so this is an attempt to recover and preserve the important information. This is the result of many hours of studying various message boards, mailing lists, newsletters, books, conversing with others through private messages, and many years of my own experience and knowledge since joining the community in 2005. Method development has moved from being in books in the late 70s and early 80s to now being within internet discussions. So Cubing History consists of book references and screenshots and links from the original online messages.
 
 If you want to use anything from this website, feel free to do so. I only ask that you credit the site and me for the research that I have done (my name is James Straughan). If you want to contact me, send me an email at athefre@gmail.com. I go by the username Athefre in the various puzzle communities such as speedsolving.com and various Discord servers, so you can also contact me there. Some of the images may be more complicated, so please talk to me before using those.
 
@@ -64,4 +64,4 @@ Ron van Bruchem also provided me some information about early method development
 
 Others have been very willing to explain the origin of their own developments. Each person is credited on the site in the area in which they provided help.
 
-Thanks to err0r for recommending Docusaurus for the site and for helping me fix the proble.
+Thanks to err0r for recommending Docusaurus for the site and for helping me fix problems during the setup process.
