@@ -17,12 +17,19 @@ sidebar_position: 5
 3. Corners of the Last Layer (CLL): Solve the corners of the upper layer.
 4. Edges of the Last Layer (ELL): Solve the edges of the upper layer.
 
-[Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/2GR_Method)
+[Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/CFCE)
 
 ## Proposal
 
 Guus Razoux Schultz started developing CFCE in September, 1981. A few months later, Schultz learned of the F2L pair concept and integrated it into his method.
 
+![](img/CFCE/Proposal.png)
 
+> Schultz described the method's origins to me in the above private message.
 
-![Proposal 1](img/2GR/Proposal1.png)
+## World Rubik's Cube Championship 1982
+
+Schultz used CFCE at the World Rubik's Cube Championship 1982. This makes Schultz the first person to have used the F2L pairing technique in an official World Cube Association competition.
+
+![](img/CFCE/WorldChampionship.png)
+https://www.jaapsch.net/puzzles/cubic3.htm#p4
