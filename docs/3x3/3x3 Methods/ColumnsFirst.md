@@ -2,24 +2,36 @@
 
 ## Description
 
-**Proposer:** John Li
+**Proposer:** Masayuki Akimoto, others
 
-**Proposed:** 2017
+**Proposed:** ~1980
 
 **Steps:**
 
-1. EOPair: Solve the pair at bDL while orienting all edges of the cube. The edges are oriented along the z axis.
-2. Extend the pair to a 1x1x3 line at DL while permuting all remaining corners along the z axis. Afterward, the corners are solvable using turns of just the U and R layers.
-3. Extend the 1x1x3 block to a 2x2x3 block at dl.
-4. Complete the first two layers by solving the 1x2x3 block at dR.
-5. Solve the last layer.
+1. Four Pairs: Solve the four corner and edge pairs of the first two layers.
+2. Corners of the Last Layer (CLL): Solve the four corners of the last layer.
+3. Edges: Solve the remaining edges.
 
-[Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/2GR_Method)
+[Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/Columns_First_Methods)
 
-## Proposal
+## Origin
 
-In April, 2017 John Li proposed 2GR.
+### Masayuki Akimoto
 
-![Proposal 1](img/2GR/Proposal1.png)
-![Proposal 1](img/2GR/Proposal2.png)
-![Proposal 1](img/2GR/Proposal3.png)
+The earliest known use of the method is by Masayuki Akimoto in 1980.
+
+![](img/ColumnsFirst/Akimoto1.png)
+![](img/ColumnsFirst/Akimoto2.png)
+https://web.archive.org/web/20040409235900/http://rokumentai.akimoto3.com/methode.htm
+
+https://web.archive.org/web/20040705200720/http://rokumentai.akimoto3.com/step1-2.htm
+
+### Others
+
+![](img/ColumnsFirst/Others1.png)
+![](img/ColumnsFirst/Others2.png)
+![](img/ColumnsFirst/Others3.png)
+![](img/ColumnsFirst/Others4.png)
+
+### PCMS
+
