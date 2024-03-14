@@ -58,10 +58,6 @@ Other points that indicate the year of publication:
 - Solving the Hungarian Cube in Less Than 100 Moves states on the second page "In fact we have now produced a proof using these methods that the cube can always be restored to its original position in at most 85 moves". In 1982's Winning Ways for Your Mathematical Plays Volume 4 in the Rubik's Hungarian Cube — Bűvös Kocka subchapter, it states "In the Extras you'll find lists of the shortest known words (improvements welcome!) to achieve any rearrangement, or any reorientation of the top layer. These are quoted from an algorithm due to Benson, Conway and Seal which guarantees to cure the cube in at most 85 moves". This is likely a reference to Solving the Hungarian Cube in Less Than 100 Moves. The bibliography of Notes on Rubik's 'Magic Cube' states for Winning Ways "This [is] said to be at the publishers and may appear in 1980...First draft, 16pp, 1979; Second draft, 15pp, 1980."
 - With Solving the Hungarian Cube having likely been published in 1979 and Solving the Hungarian Cube in Less Than 100 Moves having an actual published first draft of 1979, that makes two publications in 1979 by Benson, Conway, and Seal that described the F2L pair technique along with cross and PLL then OLL.
 
-Interestingly, the Conway, Benson, and Seal publications also included all of the algorithms for PLL then OLL as the last layer method.
-
-
-
 ### Later Publications
 
 The second known publication of the corner and edge pairs technique comes in June 1981 on page 41 of James G. Nourse's *The Simple Solution to Rubik's Cube*.
@@ -104,6 +100,8 @@ Fridrich developed the website for the method in January, 1997.
 
 ## OLL and PLL
 
+### Origin
+
 OLL then PLL was independently developed starting in 1981. By Hans Dockhorn and Anneke Treep and also by Jessica Fridrich and Mirek Goljan.
 
 ![](img/CFOP/OLLPLL/Independent1.png)
@@ -123,6 +121,19 @@ http://www.ws.binghamton.edu/fridrich/history.html#last
 Jessica Fridrich states on her website "Most of the algorithms were developed by myself during the time period between the summer 1981 and the spring of 1983. However, other speed cubists, most noticeably Mirek Goljan, have also significantly contributed with important moves."
 
 http://www.ws.binghamton.edu/fridrich/system.html
+
+Interestingly, the Conway, Benson, and Seal publications included all of the algorithms for PLL then OLL as the last layer method (not OLL then PLL).
+
+**Solving the Hungarian Cube**
+
+![](img/CFOP/OLLPLL/PLLOLL1.png)
+![](img/CFOP/OLLPLL/PLLOLL2.png)
+![](img/CFOP/OLLPLL/PLLOLL3.png)
+
+**Solving the Hungarian Cube in Less Than 100 Moves**
+
+![](img/CFOP/OLLPLL/PLLOLL4.png)
+![](img/CFOP/OLLPLL/PLLOLL5.png)
 
 ### OLL Numbering System
 
