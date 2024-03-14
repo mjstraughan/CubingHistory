@@ -19,4 +19,4 @@
 
 The first known publication of an Edges First method is from June 1979. The method appeared in Ulrich Roddewig's *Solution Guide for the Hungarian Magic Cube*.
 
-![](img/DougLi/Roddewig.jpg)
+![](img/EdgesFirst/Roddewig.jpg)
