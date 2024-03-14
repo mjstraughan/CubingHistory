@@ -19,10 +19,8 @@ sidebar_position: 4
 
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/CEOR)
 
-## Proposal
+## Origin and Proposal
 
-In August, 2017 Joseph Briggs proposed 42.
+In April, 2012, Noah Arthurs proposed a method called Noah's CP Block. This was a method that permuted all corners after solving a 2x2x2 block.
 
-![Proposal 1](img/42/Proposal.png)
-
-- https://www.speedsolving.com/threads/42-method-proposal.66052/
+![Proposal 1](img/CEOR/Proposal.png)

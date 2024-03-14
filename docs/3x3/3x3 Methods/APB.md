@@ -4,8 +4,6 @@ sidebar_position: 3
 
 # APB
 
-[APB Website](https://sites.google.com/view/apb-system)
-
 ## Description
 
 **Proposer:** James Straughan
@@ -19,6 +17,8 @@ sidebar_position: 3
 3. Edge Orientation (EO): Orient all remaining edges.
 4. Last Extended Slot (LXS): Solve the final square of the first two layers using a single algorithm.
 5. Last Layer (LL): Solve the last layer.
+
+[APB Website](https://sites.google.com/view/apb-system)
 
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/APB)
 
