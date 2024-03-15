@@ -18,7 +18,7 @@
 
 ### Development
 
-In August, 2023, Eric Fattah claimed that he had independently invented the Waterman method in 1981. Fattah would have been around six years old at the time.
+In August, 2023, Eric Fattah stated that he had independently invented the Waterman method in 1981. Fattah would have been around six years old at the time.
 
 ![](img/LMCF/Fattah1.png)
 https://www.speedsolving.com/threads/technique-pushed-in-1981.90636/post-1553358
