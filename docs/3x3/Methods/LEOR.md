@@ -27,7 +27,7 @@ In May, 2013, Noah Arthurs proposed Noah's CP Block 2.0. That method includes a 
 
 It wasn't until August, 2017 that the method idea resurfaced. Community member Pyjam began posting example solves, with the first one posted on August 26, 2017 on the French forum francocube.com. Pyjam called the method "Zzoux".
 
-![](img/LEOR/Pyjam.png)
+![](img/LEOR/Pyjam1.png)
 https://forum.francocube.com/viewtopic.php?f=20&p=270364#p270364
 
 A few days after the initial example solve, Pyjam described the steps of the method as it was being developed.
