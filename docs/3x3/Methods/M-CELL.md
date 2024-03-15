@@ -3,6 +3,7 @@
 ## Description
 
 **Proposer:** [Joseph Briggs](CubingContributors/MethodDevelopers.md#briggs-joseph-shadowslice)
+
 **Proposed:** 2015
 
 **Steps:**
