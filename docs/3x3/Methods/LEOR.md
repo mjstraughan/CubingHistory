@@ -35,6 +35,8 @@ A few days after the initial example solve, Pyjam described the steps of the met
 ![](img/LEOR/Pyjam2.png)
 https://forum.francocube.com/viewtopic.php?p=270483#p270483
 
+Pyjam arrived at the idea of the method based on the thought that the first step of the ZZ method makes it difficult to preserve any pre-made corner and edge pairs or other blocks. Pyjam's idea was to have a 1x2x3 blockbuilding start to take advantage of any pre-made or easy to make blocks. This can be seen as the left block of the original ZZ EOLine proposal, but without the EOLine step. The idea is to then solve EOLine after the 1x2x3 block.
+
 After starting development of the method and posting several example solves, Pyjam discovered that another community member by the name of Arc had also been developing the method. Pyjam and Arc began discussing the method on Discord. Pyjam suggested the new name "LEOR".
 
 ![](img/LEOR/Pyjam3.png)
