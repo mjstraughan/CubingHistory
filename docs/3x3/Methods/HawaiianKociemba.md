@@ -23,7 +23,7 @@ On April 1, 2016 The Cubicle posted a video titled *Michael Humuhumunukunukuapua
 
 https://www.youtube.com/watch?v=JuqPJxmeR7E
 
-The same day, Stachu Korick shared a bit more on the mystery story on Reddit.
+Stachu Korick shared the video and a bit more on the mystery story on Reddit.
 
 ![](img/HawaiianKociemba/Korick.png)
 https://www.reddit.com/r/Cubers/comments/4cqj3p/michael_humuhumunukunukuapuaa_speedcubing_prodigy/
