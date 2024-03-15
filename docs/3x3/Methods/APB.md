@@ -2,7 +2,7 @@
 
 ## Description
 
-**Proposer:** [James Straughan](CubingContributors/MethodDevelopers.md#james-straughan)
+**Proposer:** [James Straughan](CubingContributors/MethodDevelopers.md#straughan,-james)
 
 **Proposed:** 2021
 
