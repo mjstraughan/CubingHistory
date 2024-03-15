@@ -42,7 +42,7 @@ After starting development of the method and posting several example solves, Pyj
 
 In May, 2020, Arc stated that they derived LEOR from the method named Briggs. Interestingly, Briggs is a method that follows almost exactly the steps of Noah's CP Block 2.0. This means that Arc followed the same thought process as Arthurs in reaching the idea.
 
->Noah's CP Block 2.0, Briggs, and other similar early corner permutation methods were later combined into a single method named CEOR. LEOR was derived by two people from the steps of CEOR, but the name CEOR was derived from the LEOR name. The steps of CEOR existed first, but went by several names. The LEOR method was proposed later than the steps of CEOR, but was the first to have a singular name.
-
 ![](img/LEOR/Arc.png)
 https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/page-5#post-1367918
+
+>Noah's CP Block 2.0, Briggs, and other similar early corner permutation methods were later combined into a single method named CEOR. LEOR was derived by two people from the steps of CEOR, but the name CEOR was derived from the LEOR name. The steps of CEOR existed first, but went by several names. The LEOR method was proposed later than the steps of CEOR, but was the first to have a singular name.
