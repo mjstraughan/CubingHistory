@@ -16,7 +16,7 @@
 
 [Heise Website](https://www.ryanheise.com/cube/heise_method.html)
 
-[Click here for more step details on the SpeedSolving wiki](Click here for a description of the method on the SpeedSolving.com wiki)
+[Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/Heise_method)
 
 ## Origin
 
