@@ -17,8 +17,6 @@
 
 ## Origin
 
-### The Cubicle Video
-
 On April 1, 2016 The Cubicle posted a video titled *Michael Humuhumunukunukuapua'a's International Debut*. This video featured several solves with solutions that the community couldn't match to any known method.
 
 https://www.youtube.com/watch?v=JuqPJxmeR7E
