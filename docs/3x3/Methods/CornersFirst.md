@@ -2,7 +2,7 @@
 
 ## Description
 
-**Proposer:** Ernő Rubik, others
+**Proposer:** [Ernő Rubik](CubingContributors/MethodDevelopers.md#rubik-ernő), others
 
 **Proposed:** ~1974
 

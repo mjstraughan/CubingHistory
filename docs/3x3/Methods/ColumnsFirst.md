@@ -2,7 +2,7 @@
 
 ## Description
 
-**Proposer:** Masayuki Akimoto, others
+**Proposer:** [Masayuki Akimoto](CubingContributors/MethodDevelopers.md#akimoto-masayuki), others
 
 **Proposed:** ~1980
 

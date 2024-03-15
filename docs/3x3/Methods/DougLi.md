@@ -2,7 +2,7 @@
 
 ## Description
 
-**Proposer:** Doug Li
+**Proposer:** [Doug Li](CubingContributors/MethodDevelopers.md#li-doug)
 
 **Proposed:** 2002
 

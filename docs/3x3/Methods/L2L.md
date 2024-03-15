@@ -2,7 +2,7 @@
 
 ## Description
 
-**Proposer:** Duncan Dicks
+**Proposer:** [Duncan Dicks](CubingContributors/MethodDevelopers.md#dicks-duncan)
 
 **Proposed:** 2004
 

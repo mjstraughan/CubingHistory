@@ -2,7 +2,7 @@
 
 ## Description
 
-**Proposer:** John Li
+**Proposer:** [John Li](CubingContributors/MethodDevelopers.md#li-john-teoidus)
 
 **Proposed:** 2017
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-**Proposer:** [Donald Taylor](https://www.maths.usyd.edu.au/u/don/), others
+**Proposer:** [Donald Taylor](CubingContributors/MethodDevelopers.md#taylor-donald), others
 
 **Proposed:** 1978
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-**Proposer:** Noah Arthurs, others
+**Proposer:** [Noah Arthurs](CubingContributors/MethodDevelopers.md#arthurs-noah), others
 
 **Proposed:** 2013
 
