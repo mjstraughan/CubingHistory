@@ -67,6 +67,7 @@ Keyhole appears in March 1981 in Pierre Julien's *Le Cube Hongrois*. This public
 ![](img/LBL/Pierre2.png)
 ![](img/LBL/Pierre3.png)
 https://www.jaapsch.net/puzzles/cubic3.htm
+
 https://forum.francocube.com/viewtopic.php?t=11468
 
 An early version of Keyhole also appeared in the September, 1981 issue of Cubism for Fun and is credited to Marko van Eekelen.
