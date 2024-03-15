@@ -2,7 +2,7 @@
 
 ## Description
 
-**Proposer:** [Rowe Hessler](CubingContributors/MethodDevelopers.md#hessler-rowe), [Brayden Mossey]((CubingContributors/MethodDevelopers.md#mossey-brayden))
+**Proposer:** [Rowe Hessler](CubingContributors/MethodDevelopers.md#hessler-rowe), [Brayden Mossey]((CubingContributors/MethodDevelopers.md#mossey-brayden)
 
 **Proposed:** 2016
 
