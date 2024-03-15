@@ -2,7 +2,9 @@
 
 ## Description
 
-**Proposer:** James Straughan
+**Proposer:** [James Straughan](MethodDevelopers.md#james-straughan)
+
+
 
 **Proposed:** 2021
 
