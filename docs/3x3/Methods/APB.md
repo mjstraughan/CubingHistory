@@ -4,8 +4,6 @@
 
 **Proposer:** [James Straughan](CubingContributors/MethodDevelopers.md#james-straughan)
 
-
-
 **Proposed:** 2021
 
 **Steps:**
