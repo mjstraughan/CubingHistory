@@ -107,7 +107,7 @@ export default {
   scripts: [
     // Add AnimCube.js
     {
-      src: '../AnimCube3.js',
+      src: 'AnimCube3.js',
       async: true,
     },
   ],
