@@ -241,8 +241,8 @@ https://sites.google.com/site/athefre/roux/cmll-prediction?authuser=0
 
 In July, 2022, Straughan developed a corner orientation prediction system. The stickers of the corners are tracked during the final pair of the second block.
 
-![](img/Roux/CO1.png)
-![](img/Roux/CO2.png)
+![](img/Roux/COPrediction1.png)
+![](img/Roux/COPrediction2.png)
 
 https://docs.google.com/spreadsheets/d/146FzKPkKbtBILeU4jSt5sFPYXj8U5ovNDzT8iGR3yK4/edit#gid=0
 
