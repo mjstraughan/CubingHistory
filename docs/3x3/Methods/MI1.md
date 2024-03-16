@@ -17,7 +17,7 @@
 
 >There are several variants of the method, including those that are more advanced. The presented steps are the original from 2006.
 
-[Mehta Website](https://sites.google.com/site/athefre/3x3-methods/mi1?authuser=0)
+[MI1 Website](https://sites.google.com/site/athefre/3x3-methods/mi1?authuser=0)
 
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/MI1)
 
