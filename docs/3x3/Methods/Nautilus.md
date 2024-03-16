@@ -13,7 +13,7 @@
 3. Solve the upper layer corners.
 4. Solve the last five edges.
 
-[MI2 Website](https://sites.google.com/view/nautilus-method)
+[Nautilus Website](https://sites.google.com/view/nautilus-method)
 
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/Nautilus)
 
