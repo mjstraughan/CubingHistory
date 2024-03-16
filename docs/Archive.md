@@ -6,3 +6,4 @@ sidebar_position: 4
 
 ## Waterman and Corners First
 
+[Josef Jelinek Website](../waterman/index.html)
