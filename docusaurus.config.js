@@ -103,4 +103,12 @@ const config = {
     }),
 };
 
-export default config;
+export default {
+  scripts: [
+    // Add AnimCube.js
+    {
+      src: '../AnimCube3.js',
+      async: true,
+    },
+  ],
+};
