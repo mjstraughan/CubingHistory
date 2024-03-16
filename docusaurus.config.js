@@ -94,7 +94,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} James Straughan`,
+        copyright: `Copyright © ${new Date().getFullYear()} Michael James Straughan`,
       },
       prism: {
         theme: prismThemes.github,

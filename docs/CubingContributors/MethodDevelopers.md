@@ -303,7 +303,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 ## Sosič, Rok and Polona
 - F2L paring technique (independent 1981 development after the Conway, Benson, and Seal group's 1979 development)
 
-## Straughan, James (Athefre)
+## Straughan, Michael James (Athefre)
 - EOLR for the Roux method
 - Union Principle
 - Nautilus method
