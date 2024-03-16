@@ -37,6 +37,9 @@ In March, 1997, Petrus developed a website for the method.
 
 ![](img/Petrus/Website1.png)
 https://web.archive.org/web/19981201224552/http://u1.netgate.net/~mette/lars/cubedude/
+
+Petrus later moved the website to a custom domain.
+
 ![](img/Petrus/Website2.png)
 https://lar5.com/cube/index.html
 
