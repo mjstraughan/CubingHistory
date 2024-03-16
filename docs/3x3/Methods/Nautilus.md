@@ -26,6 +26,8 @@ During development of the MI1 method, Michael James Straughan determined that th
 ![](img/MI1/Site.png)
 https://web.archive.org/web/20110224050936/http://athefre.110mb.com/
 
+### Re-Development
+
 In 2020, it was decided to re-develop the method. New algorithms were generated and new variants were added.
 
 ![](img/Nautilus/2020.png)
