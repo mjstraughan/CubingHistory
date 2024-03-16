@@ -57,7 +57,7 @@ https://web.archive.org/web/20071211051539/http://grrroux.free.fr/method/Step_3.
 
 ### Gilles Roux's Speed Progression
 
-An interesting fact is that Gilles Roux was once second in the world unofficially. In the early days of the online community, an unofficial leaderboard on speedcubing.com had a high level of popularity.
+An interesting fact is that Gilles Roux was once second in the world unofficially using his method. In the early days of the online community, an unofficial leaderboard on speedcubing.com had a high level of popularity.
 
 ![](img/Roux/GillesRecord.png)
 https://speedcubing.com/news_archive_2005.html
