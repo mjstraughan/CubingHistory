@@ -231,11 +231,10 @@ https://discord.com/channels/416929203607568404/416932528059056140/7765348454925
 
 #### ATCRM
 
-With ATCRM having a second step involving checking just two stickers, compared to NMCMLL's four, Straughan suggested that Sun's thought process may apply even more.
+With ATCRM having a second step involving checking just two stickers, compared to NMCMLL's four, Sun's thought process may apply even more.
 
 ![](img/Roux/CMLLPrediction2.png)
 https://sites.google.com/site/athefre/roux/cmll-prediction?authuser=0
-
 
 #### Corner Orientation Prediction
 
