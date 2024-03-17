@@ -60,4 +60,4 @@ Other Waterman-like methods had been published in 1981 or prior.
   - Bottom layer corners
   - Remaining edges.
 
->Much of this information is found in David Singmaster's *Notes on Rubik's 'Magic Cube'*. I reached out to Georges Helm, who owns copies of these books. He kindly wrote out the steps of the methods in each book.
+>Much of this information is found in David Singmaster's *Notes on Rubik's 'Magic Cube'*. I reached out to Georges Helm, who owns copies of these books. He kindly wrote out the steps of the methods in each book. Waterman and Kraamer's development of the Waterman method is likely the most thorough of them all with hundreds of edge solving algorithms developed, full CLL, and a recognition method for CLL.
