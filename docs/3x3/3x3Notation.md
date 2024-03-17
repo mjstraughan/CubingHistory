@@ -24,4 +24,4 @@ Originally, the steps of APB involved solving a 2x2x3 block, setting up a pair b
 
 APB started from the thought that the EO step of Petrus should be simultaneously accomplishing something other than only edge orientation.
 
-![Origin](img/APB/APBOrigin.png)
+![Origin](img/Notation/APBOrigin.png)
