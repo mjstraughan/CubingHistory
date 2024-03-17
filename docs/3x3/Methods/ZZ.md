@@ -114,9 +114,44 @@ In May, 2014, speedsolving.com user elrog had proposed a method called Navi.[<su
 ![](img/ZZ/Navi2.png)
 ![](img/ZZ/Tran2.png)
 
-In May, 2016, Tran incorporated elrog's step from the Navi method into a ZZ variant called CT.[<sup>17</sup>][17] The step came to be named TTLL, after Tran and Blake Thompson. The step was now part of Trans ZZ variant proposal and Thompson generated most of the algorithms.
+In May, 2016, Tran incorporated elrog's step from the Navi method into a ZZ variant called CT.[<sup>17</sup>][17] The step came to be named TTLL, after Tran and Blake Thompson. The step was now part of Trans ZZ variant proposal and Thompson generated most of the algorithms. The step before TTLL solves the edge of the last slodt while orienting all corners.
 
 ![](img/ZZ/Tran3.png)
+
+### ZZ-EF
+
+On December 30, 2014 SpeedSolving.com user MrMan proposed a ZZ variant that solves all edges and ends with two COLL algorithms.[<sup>18</sup>][18] On that same day, Matt DiPalma refined MrMan's idea into a usable variant with no parity issues.[<sup>19</sup>][19] The next day, DiPalama posted an official proposal for the variant.[<sup>20</sup>][20]
+
+![](img/ZZ/ZZ-EF.png)
+![](img/ZZ/DiPalma1.png)
+![](img/ZZ/DiPalma2.png)
+
+### ZZ-Portico
+
+In May, 2012, DiPalma proposed a new variant.[<sup>21</sup>][21] Only the DB edge is solved along with the edge orientation step. Then the rest of the first two layers is completed minus the DF edge, the last layer corners are solved, then the last five edges are permuted.
+
+![](img/ZZ/Portico.png)
+
+### WaterZZ
+
+In June, 2018, Tudor suggested a variant that leaves out two edges of the first two layers on the right side.[<sup>22</sup>][22] The solve ends with permuting the last layer edges and the two missing edges of the first two layers.
+
+![](img/ZZ/WaterZZ1.png)
+![](img/ZZ/WaterZZ2.png)
+
+### Tripod
+
+#### NLS
+
+The idea for adapting the Tripod method to ZZ has been a commonly suggested one. In August, 2017 Max Garza developed an algorithm set to solve the final first two layers slot while preserving a 1x2x2 block on the U layer.[<sup>23</sup>][23] The step is called NLS, or Neuro's Last Slot, after Garza's speedsolving.com profile name Neuro.
+
+![](img/ZZ/NLS.png)
+
+#### TLS
+
+In September, 2023, Ryan Hudgens developed an alternate way of solving the last slot and a 1x2x2 block on the U layer.[<sup>24</sup>][24] [<sup>25</sup>][24] The user intuitively builds a U layer pair into the last slot of the first two layers, then an algorithm is used to simultaneously solve the correct last slot of the first two layers and add the other edge to the U layer pair to form a 1x2x2 block.
+
+![](img/ZZ/TLS.png)
 
 ### Credit
 
@@ -145,3 +180,11 @@ Dylan Nyein: Provided information on the ZZ-D variant.
 [15]: https://www.speedsolving.com/threads/navi-speedsolving-method.47685/
 [16]: https://www.speedsolving.com/threads/navi-speedsolving-method.47685/post-1163282
 [17]: https://www.speedsolving.com/threads/15-827-ao12-using-zz-ct-the-ll-skip-method.60972/
+[18]: https://www.speedsolving.com/threads/new-method.50959/post-1045938
+[19]: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1045948
+[20]: https://www.speedsolving.com/threads/zz-edges-first-discussion.50964/post-1046110
+[21]: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-744158
+[22]: https://discord.com/channels/455707295205294081/462589850525368321/462589939150880778
+[23]: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1220389
+[24]: https://discord.com/channels/455707295205294081/462589850525368321/1147127419040436254
+[25]: https://docs.google.com/spreadsheets/d/1aIysCr8xDY9b8052BYDb1r6rFzITWCRyAjJD-lpflm0/edit?usp=sharing
