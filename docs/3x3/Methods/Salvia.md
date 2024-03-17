@@ -21,8 +21,6 @@
 
 ## Origin
 
-### Development
-
 On the webpage for the Salvia method, Salvia states that he first got a cube in 1981. It is possible that the method was developed in that same year.
 
 ![](img/Salvia/Salvia1.png)
