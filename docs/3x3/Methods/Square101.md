@@ -4,7 +4,7 @@
 
 **Proposer:** [Vincent Trang](CubingContributors/MethodDevelopers.md#trang-vincent-trangium)
 
-**Proposed:** ~2020
+**Proposed:** 2020
 
 **Steps:**
 
