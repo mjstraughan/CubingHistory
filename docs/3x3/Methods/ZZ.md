@@ -108,7 +108,7 @@ On March 31, 2016, Chris Tran posted a ZZ variant called HW to speedsolving.com.
 
 ![](img/ZZ/Tran1.png)
 
-In May, 2014, speedsolving.com user elrog had proposed a method called Navi.[<sup>15</sup>][15] One of the steps of this method permutes the last layer and the DFR corner. In March, 2016, Tran took notice of this step after the thread had received replies, moving the thread to the top of the visible threads. Tran stated that the step solves every issue with the HW variant that Tran had recently proposed.[<sup>16</sup>][16]
+In May, 2014, speedsolving.com user elrog proposed a method called Navi.[<sup>15</sup>][15] One of the steps of this method permutes the last layer and the DFR corner. In March, 2016, Tran took notice of this step after the thread had received replies, moving the thread to the top of the visible threads. Tran stated that the step solves every issue with the HW variant that Tran had recently proposed.[<sup>16</sup>][16]
 
 ![](img/ZZ/Navi1.png)
 ![](img/ZZ/Navi2.png)
