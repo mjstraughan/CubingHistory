@@ -46,12 +46,20 @@ Eventually, Bruchem began experimenting with solving the first two layers after 
 
 ![](img/ZZ/Bruchem4.png)
 
-At the European Rubik's Games Championship 2004 (August 7-8, 2004)[<sup>2</sup>][2], Zbigniew Zborowski observed Bruchem demonstrating the methods involving EOLine and or EOCross.[<sup>3</sup>][1] Zborowski thought the concept was the future of speedcubing, and so he created a website describing the steps of EOLine, first two layers, then last layer and named the method ZZ.
+>This message is from July, 2005, which is before the creation of the ZZ website.
 
+At the European Rubik's Games Championship 2004 (August 7-8, 2004)[<sup>2</sup>][2], Zbigniew Zborowski observed Bruchem demonstrating the methods involving EOLine and or EOCross.[<sup>3</sup>][3] Zborowski thought the concept was the future of speedcubing, and so he created a website describing the steps of EOLine, first two layers, then last layer and named the method ZZ. Searching the website for "2006" indicates that the website was published in December, 2006.
 
+Before publishing the website, Zborowski had been discussing the method within the Polish community. The speedcubing.com.pl website in particular included some of these discussions.[<sup>4</sup>][4] However, speedcubing.com.pl wasn't well preserved on archive.org, so reading all discussions isn't possible.
+
+**Polish Version**
+![](img/ZZ/Zborowski1.png)
+**English Translation**
+![](img/ZZ/Zborowski2.png)
 
 <!-- References -->
 
 [1]: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368143
 [2]: https://www.worldcubeassociation.org/competitions/Euro2004/results/by_person
 [3]: https://web.archive.org/web/20070428175325/http://www.speedcubing.com.pl/nooks_zz.htm#zzspeed
+[4]: https://web.archive.org/web/20080731021124/http://forum.speedcubing.com.pl/viewtopic.php?t=491
