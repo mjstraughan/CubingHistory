@@ -29,11 +29,9 @@ In January, 2003 Ryan Heise came across the video. Heise noticed that Géhin use
 
 ![](img/ZZ/Heise.png)
 
-The link to the video by Géhin no longer works. However, Roux himself confirmed the contents of the video.
+The link to the video by Géhin no longer works. However, Roux himself confirmed the contents of the video.[<sup>1</sup>][1]
 
 ![](img/ZZ/Gilles2.png)
-
-[Source](https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368143)
 
 In June, 2004, Ron van Bruchem began submitting to the Speed Solving Rubik's Cube Yahoo group method ideas that started with EOLine.
 
@@ -48,10 +46,12 @@ Eventually, Bruchem began experimenting with solving the first two layers after 
 
 ![](img/ZZ/Bruchem4.png)
 
-At the European Rubik's Games Championship 2004 (August 7-8, 2004), Zbigniew Zborowski observed Bruchem demonstrating the methods involving EOLine and or EOCross.[1][1] Zborowski thought the concept was the future of speedcubing, and so he created a website describing the steps of EOLine, first two layers, then last layer and named the method ZZ.
+At the European Rubik's Games Championship 2004 (August 7-8, 2004)[<sup>2</sup>][2], Zbigniew Zborowski observed Bruchem demonstrating the methods involving EOLine and or EOCross.[<sup>3</sup>][1] Zborowski thought the concept was the future of speedcubing, and so he created a website describing the steps of EOLine, first two layers, then last layer and named the method ZZ.
 
-x^2^
 
-**References**
 
-[1]: https://web.archive.org/web/20070428175325/http://www.speedcubing.com.pl/nooks_zz.htm#zzspeed
+<!-- References -->
+
+[1]: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368143
+[2]: https://www.worldcubeassociation.org/competitions/Euro2004/results/by_person
+[3]: https://web.archive.org/web/20070428175325/http://www.speedcubing.com.pl/nooks_zz.htm#zzspeed
