@@ -13,7 +13,7 @@
 3. Solve the upper layer corners.
 4. Solve the last seven edges.
 
-[SSRC Algorithm PDF](../)
+[SSRC Algorithm PDF](/Archive/SSRC/SSRC%20Algs%20v1.pdf)
 
 ## Origin
 
