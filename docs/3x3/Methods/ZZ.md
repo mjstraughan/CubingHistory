@@ -155,7 +155,7 @@ In September, 2023, Ryan Hudgens developed an alternate way of solving the last 
 
 ### Credit
 
-Others have provided some information on the variants of ZZ.
+Others have provided some information on the variants of ZZ:
 
 Joseph Tudor: Provided many details on the modern variant classification system.
 
