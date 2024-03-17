@@ -9,9 +9,9 @@
 **Steps:**
 
 1. Reduce the cube to the move group \<U, D, L, R, F2, B2>. This means to orient all edges along the z axis.
-2. Reduce to the U, D, L2, R2, F2, B2 move group. U/D layer edges are moved to U/D and all corners are oriented to U/D.
-3. Reduce to the U2, D2, L2, R2, F2, B2 move group. The corners are permuted to have opposite stickers on all sides and all edges are moved to their native inner layers.
-4. Permute all pieces using the U2, D2, L2, R2, F2, B2 move group.
+2. Reduce to the \<U, D, L2, R2, F2, B2> move group. U/D layer edges are moved to U/D and all corners are oriented to U/D.
+3. Reduce to the \<U2, D2, L2, R2, F2, B2> move group. The corners are permuted to have opposite stickers on all sides and all edges are moved to their native inner layers.
+4. Permute all pieces using the \<U2, D2, L2, R2, F2, B2> move group.
 
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/Human_Thistlethwaite_Algorithm)
 
