@@ -102,7 +102,7 @@ In 2020, Dylan Nyein decided to develop the complete version for any last pair c
 ![](img/ZZ/Nyein3.png)
 ![](img/ZZ/Nyein4.png)
 
-## ZZ-CT
+### ZZ-CT
 
 On March 31, 2016, Chris Tran posted a ZZ variant called HW to speedsolving.com.[<sup>14</sup>][14] This variant solved the final last slot corner while orienting the last layer corners. Then everything is solved in a single step.
 
