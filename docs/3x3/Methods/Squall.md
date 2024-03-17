@@ -32,3 +32,5 @@ In January, 2021, Vincent Trang joined the 2021 Method Development Competition. 
 In 2022, Trang was interviewed as part of the Methodical Cubing Podcast. Trang described in detail the thought process behind the method.
 
 https://www.youtube.com/watch?v=IGOAQc3l_jg&t=262s
+
+[![Methodical Cubing Podcast](http://img.youtube.com/vi/IGOAQc3l_jg/0.jpg%29)](https://www.youtube.com/watch?v=IGOAQc3l_jg&t=262s "Methodical Cubing Podcast")
