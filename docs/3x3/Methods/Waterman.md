@@ -2,7 +2,7 @@
 
 ## Description
 
-**Proposer:** [Marc Waterman](CubingContributors/MethodDevelopers.md#waterman-marc)
+**Proposer:** [Marc Waterman](CubingContributors/MethodDevelopers.md#waterman-marc), [Daan Krammer](CubingContributors/MethodDevelopers.md#krammer-daan)
 
 **Proposed:** 1981
 
