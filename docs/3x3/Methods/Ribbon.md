@@ -4,7 +4,7 @@
 
 **Proposer:** [Justin Taylor](CubingContributors/MethodDevelopers.md#taylor-justin)
 
-**Proposed:** 
+**Proposed:** 2017
 
 **Steps:**
 
@@ -20,3 +20,4 @@
 Waiting on information:
 
 ![](img/Ribbon/Waiting.png)
+![](img/Ribbon/FollowUp.png)
