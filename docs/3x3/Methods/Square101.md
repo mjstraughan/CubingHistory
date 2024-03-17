@@ -24,10 +24,11 @@
 
 ### Development
 
-In 2020, Vincent Trang joined the August 2020 Method Development Competition. Trang developed Square 101 as the submission. At the end of the competition, Square 101 was chosen by a community vote as the most unique method.
+In 2020, Vincent Trang joined the August 2020 Method Development Competition. Trang developed Square 101 as the submission. At the end of the competition, Square 101 was chosen by a community vote as the most unique method and the best for FMC.
 
 ![](img/Square101/Comp.png)
 ![](img/Square101/Doc.png)
 ![](img/Square101/Results.png)
 https://www.speedsolving.com/threads/method-development-competition-august-2020.78368/post-1392585
+
 https://www.speedsolving.com/threads/method-development-competition-august-2020.78368/post-1392723
