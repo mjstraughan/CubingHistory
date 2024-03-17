@@ -108,13 +108,13 @@ On March 31, 2016, Chris Tran posted a ZZ variant called HW to speedsolving.com.
 
 ![](img/ZZ/Tran1.png)
 
-In May, 2014, speedsolving.com user elrog had proposed a method called Navi.[<sup>15</sup][15] One of the steps of this method permutes the last layer and the DFR corner. In March, 2016, Tran took notice of this step after the thread had received replies, moving the thread to the top of the visible threads. Tran stated that the step solves every issue with the HW variant that Tran had recently proposed.[<sup>16</sup][16]
+In May, 2014, speedsolving.com user elrog had proposed a method called Navi.[<sup>15</sup>][15] One of the steps of this method permutes the last layer and the DFR corner. In March, 2016, Tran took notice of this step after the thread had received replies, moving the thread to the top of the visible threads. Tran stated that the step solves every issue with the HW variant that Tran had recently proposed.[<sup>16</sup>][16]
 
 ![](img/ZZ/Navi1.png)
 ![](img/ZZ/Navi2.png)
 ![](img/ZZ/Tran2.png)
 
-In May, 2016, Tran incorporated elrog's step from the Navi method into a ZZ variant called CT.[<sup>17</sup>][17] The step came to be named TTLL, after Tran and Blake Thompson. The step was now part of Trans ZZ variant proposal and Thompson generated most of the algorithms. The step before TTLL solves the edge of the last slodt while orienting all corners.
+In May, 2016, Tran incorporated elrog's step from the Navi method into a ZZ variant called CT.[<sup>17</sup>>][17] The step came to be named TTLL, after Tran and Blake Thompson. The step was now part of Trans ZZ variant proposal and Thompson generated most of the algorithms. The step before TTLL solves the edge of the last slodt while orienting all corners.
 
 ![](img/ZZ/Tran3.png)
 
