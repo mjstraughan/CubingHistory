@@ -12,7 +12,7 @@
 2. Solve the four corner and edge pairs of the first two layers.
 3. Solve the last layer.
 
-[ZZ Website](zzmethod.com)
+[ZZ Website](https://www.zzmethod.com/)
 
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/APB)
 
