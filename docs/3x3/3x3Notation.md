@@ -44,6 +44,9 @@ The use of appending a "w" to the end of an outer layer turn for wide turns orig
 
 In December, 2010, Michael James Straughan proposed combining outer, inner, and wide turn notation to describe groups of pieces or stickers.[<sup>10</sup>][10] In March, 2021, Straughan fully developed the notation and added it to a webpage.[<sup>11</sup>][11] [<sup>12</sup>][12]
 
+![](img/Notation/Groups1.png)
+![](img/Notation/Groups2.png)
+
 ## References
 
 1. David Singmaster, Notes on Rubik’s “Magic Cube” (Hillside, NJ: Enslow Publishers, 1981).
