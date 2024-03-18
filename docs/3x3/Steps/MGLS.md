@@ -31,13 +31,13 @@ From 2006-2007 Lucas Garron completed development and the set of steps were name
 
 ## Other MGLS Information
 
-### Makisumi MGLS Algorithms
+### Makisumi's Algorithms
 
 ![](img/MGLS/MakisumiAlgs.png)
 
 [Source](https://cubefreak.net/speed/mgls/f2lc_llco.php)
 
-### Google Sheets MGLS Algorithms
+### Google Sheets
 
 ![](img/MGLS/GoogleSheets.png)
 
