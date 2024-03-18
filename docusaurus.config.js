@@ -96,10 +96,10 @@ const config = {
         style: "dark",
         copyright: `Copyright © ${new Date().getFullYear()} Michael James Straughan`,
       },
-      prism: {
+      /* prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-      },
+      },*/
       theme: '@docusaurus/theme-bootstrap',
       colorMode: {
         defaultMode: 'dark',
