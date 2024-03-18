@@ -97,7 +97,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Michael James Straughan`,
       },
       prism: {
-        theme: 'dracula',
+        theme: prismThemes.dracula,
         darkTheme: prismThemes.dracula,
       },
     }),
