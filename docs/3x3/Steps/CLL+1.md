@@ -23,7 +23,7 @@ CLL+1 is a method for solving the last layer.
 
 ### Idea
 
-Thom Barlow started discussing the idea around 2010.[<sup>1</sup>][1] However, there wasn't a system to make it work. Discussions for the idea were occurring in IRC and on speedsolving.com.
+Thom Barlow started discussing the idea around 2010.[<sup>1</sup>][1] However, there wasn't a system to make it work. Solving the corners while solving a specific edge every solve was obvious, but Barlow wanted to solve any of the four U layer edges and reduce the number of algorithms to learn. Discussions for the idea were occurring in IRC and on speedsolving.com.
 
 ![](img/CLL+1/Barlow1.png)
 
