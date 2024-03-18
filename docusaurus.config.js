@@ -101,11 +101,13 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  customFields: {
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
+  }
 };
 
 export default config;
