@@ -4,9 +4,11 @@
 
 CLL+1 is a method for solving the last layer.
 
-**Proposer:** [Thom Barlow](CubingContributors/MethodDevelopers.md#barlow-thom-kirjava), [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre)
+**Proposer:** [Thom Barlow](CubingContributors/MethodDevelopers.md#barlow-thom-kirjava)
 
 **Proposed:** 2010
+
+**Developer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre)
 
 **Developed:** 2020
 
