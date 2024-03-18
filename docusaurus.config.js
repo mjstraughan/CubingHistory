@@ -100,7 +100,7 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-      theme: '@docusaurus/theme-default',
+      theme: '@docusaurus/theme-bootstrap',
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
