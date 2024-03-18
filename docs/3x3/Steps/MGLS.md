@@ -53,15 +53,14 @@ From 2006-2007 Lucas Garron completed development and the set of steps were name
 
 ### Pronunciation
 
-In June, 2010, Garron declared the official pronunciation of MGLS to be "muggles".
+In June, 2010, Garron declared the official pronunciation of MGLS to be "muggles".[<sup>3</sup>][3]
 
 ![](img/MGLS/Pronunciation.png)
-
-[Source](https://www.speedsolving.com/threads/mgls-now-with-pronunciation.21922/)
-
-[1]: https://web.archive.org/web/20070913114107/http://cubefreak.net:80/f2lc_llco.html
-[2]: https://cube.garron.us/MGLS/
 
 ## Credit
 
 Thanks to Lucas Garron for providing links to the sources on this page.
+
+[1]: https://web.archive.org/web/20070913114107/http://cubefreak.net:80/f2lc_llco.html
+[2]: https://cube.garron.us/MGLS/
+[3]: https://www.speedsolving.com/threads/mgls-now-with-pronunciation.21922/
