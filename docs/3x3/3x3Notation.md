@@ -40,7 +40,7 @@ The use of appending a "w" to the end of an outer layer turn for wide turns orig
 ![](img/Notation/Wide2.png)
 ![](img/Notation/Wide3.png)
 
-### Groups
+## Groups
 
 In December, 2010, Michael James Straughan proposed combining outer, inner, and wide turn notation to describe groups of pieces or stickers.[<sup>10</sup>][10] In March, 2021, Straughan fully developed the notation and added it to a webpage.[<sup>11</sup>][11] [<sup>12</sup>][12]
 
