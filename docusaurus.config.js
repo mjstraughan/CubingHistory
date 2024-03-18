@@ -36,7 +36,7 @@ const config = {
 
   presets: [
     [
-      "default",
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -99,6 +99,9 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      theme: {
+        '@docusaurus/theme-default',
       },
       colorMode: {
         defaultMode: 'dark',
