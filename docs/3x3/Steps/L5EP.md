@@ -6,11 +6,6 @@
 
 **Proposed:** 2005
 
-**Steps:**
-
-1. Solve the last layer corners and one edge.
-2. Solve the last three edges.
-
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/L5E#L5EP)
 
 ## L5EP 4U + 1D
