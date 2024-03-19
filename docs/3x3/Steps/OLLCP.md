@@ -4,7 +4,7 @@
 
 OLLCP is a method for solving the last layer.
 
-**Proposer:** [Masayuki Akimoto](CubingContributors/MethodDevelopers.md#akimoto-masayuki)
+**Proposer:** [Masayuki Akimoto](CubingContributors/MethodDevelopers.md#akimoto-masayuki), others
 
 **Proposed:** Early 2000s.
 
