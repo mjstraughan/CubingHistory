@@ -4,10 +4,6 @@
 
 OLS is a collection of systems for orienting the last layer while solving the final corner and edge pair of the first two layers.
 
-**Proposer:** Variant dependent
-
-**Proposed:** Variant dependent
-
 [Click here for the general OLS page on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/OLS)
 
 ## Vandenberg-Harris Last Slot
