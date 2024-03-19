@@ -68,7 +68,7 @@ Zborowski starts using the acronym despite having previously acknowledged that H
 
 ![](img/ZBLL/ZborowskiSmiles.png)
 
-## Author Comments
+### Author Comments
 
 Although the Petrus method already existed with an all edges oriented last layer, Bernard Helmstetter generated all of the algorithms to solve the Petrus method's last layer in a single step, and both Zborowski and Bruchem provided and recommended Helmstetter's algorithms on their own websites, the community named the step ZBLL. This is likely due to the popularity of CFOP at the time, the excitement at the time by CFOP users for ZBLS / ZBF2L, and some being unaware of Helmstetter's algorithms. There was more interest at the time for ZBLS / ZBF2L, so the CFOP community misnamed the last layer step ZBLL to match with ZBLS / ZBF2L.
 
@@ -101,15 +101,16 @@ No Corner Permutation (NCP) was developed in November, 2021 by Ryan Hudgens.[<su
 TV2 was proposed by Ryan Hudgens in September 2022.[<sup>9</sup>][9] [<sup>10</sup>][10]
 
 ![](img/ZBLL/TV21.png)
->This is a screenshot of a private conversation between Hudgens and Joseph Tudor.
+>This is from a private conversation between Hudgens and Joseph Tudor.
 ![](img/ZBLL/TV22.png)
 ![](img/ZBLL/TV23.png)
 
 ### Polar
 
-Polar was documented in August 2023.[<sup>11</sup>][11] Although documented in 2023, the idea goes back to around 2010-2012 when NMLL, the MI2 method, and the second version of NMCLL recognition were developed. Each of those have a focus on positioning stickers or pieces on the left and right sides of the cube. Polar is similar to Tran V2, which was published first. The major difference is the CLL recognition system.
+Polar was documented by Michael James Straughan in August 2023.[<sup>11</sup>][11] Although documented in 2023, the idea goes back to around 2010-2012 when NMLL, the MI2 method, and the second version of NMCLL recognition were developed. Each of those have a focus on positioning stickers or pieces on the left and right sides of the cube. Polar is similar to Tran V2, which was published first. The major difference is the CLL recognition system.
 
 ![](img/ZBLL/Polar1.png)
+>This is from a private conversation between Tim Mosher and Straughan.
 ![](img/ZBLL/Polar2.png)
 
 ## References
