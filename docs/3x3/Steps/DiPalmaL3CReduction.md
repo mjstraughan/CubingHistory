@@ -46,6 +46,17 @@ In July, 2012, DiPalma posted a couple of messages to speedsolving.com that may 
 ![](img/DiPalmaL3CReduction/Origin1.png)
 ![](img/DiPalmaL3CReduction/Origin2.png)
 
+## References
+
+1. https://www.speedcubing.it/forum/Thread-Algoritmi-Speed-Heise
+2. https://dipalm.wordpress.com/2015/03/03/speed-heise-algorithms-en/
+3. https://dipalm.wordpress.com/2015/03/04/complete-speed-heise/
+4. https://dipalm.wordpress.com/2015/03/05/tripod-method-supplement-en/
+5. https://www.speedsolving.com/threads/cardan-reduction-novel-ls-ll-approach.64042/post-1222235
+6. https://www.speedsolving.com/threads/simple-ll-variant-revamped-fish-chips.65978/post-1249243
+7. https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-767013
+8. https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-767137
+
 [1]: https://www.speedcubing.it/forum/Thread-Algoritmi-Speed-Heise
 [2]: https://dipalm.wordpress.com/2015/03/03/speed-heise-algorithms-en/
 [3]: https://dipalm.wordpress.com/2015/03/04/complete-speed-heise/

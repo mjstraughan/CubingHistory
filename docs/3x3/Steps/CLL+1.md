@@ -1,7 +1,5 @@
 # CLL+1
 
-## Description
-
 CLL+1 is a method for solving the last layer.
 
 **Proposer:** [Thom Barlow](CubingContributors/MethodDevelopers.md#barlow-thom-kirjava)
@@ -53,6 +51,18 @@ In July, 2020, Straughan discovered the algorithm union concept while trying to 
 In September, 2020, Straughan completed development of CLL+1 and COLL+1.[<sup>9</sup>][9]
 
 ![](img/CLL+1/Straughan6.png)
+
+## References
+
+1. https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-495052
+2. https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-495230
+3. https://www.speedsolving.com/threads/random-cubing-discussion.22862/page-21#post-496431
+4. https://www.speedsolving.com/threads/random-cubing-discussion.22862/page-85#post-741058
+5. https://www.speedsolving.com/threads/need-help-list-of-all-zz-variants.63869/post-1220062
+6. https://www.speedsolving.com/threads/need-help-list-of-all-zz-variants.63869/post-1220075
+7. https://discord.com/channels/416929203607568404/416933073893195779/712514867403423765
+8. https://discord.com/channels/416929203607568404/416933092620500992/730053033626435661
+9. https://www.speedsolving.com/threads/cll-1-an-advanced-ll-method-complete-and-fully-generated.78631/#post-1394716
 
 [1]: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-495052
 [2]: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-495230

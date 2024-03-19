@@ -1,7 +1,5 @@
 # NMLL
 
-## Description
-
 NMLL is a method for solving the last layer.
 
 **Proposer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre)
@@ -29,6 +27,15 @@ NMLL was moved to a Google site in June, 2011.[<sup>3</sup>][3] [<sup>4</sup>][4
 ![](img/NMLL/NewSite1.png)
 ![](img/NMLL/NewSite2.png)
 ![](img/NMLL/NewSite3.png)
+
+## References
+
+1. https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-509957
+2. https://web.archive.org/web/20110224050936/http://athefre.110mb.com/
+3. https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-598864
+4. https://sites.google.com/site/athefre/steps/nmll?authuser=0
+5. https://docs.google.com/spreadsheets/d/1Z-rJzroZ7QrGcqd2RvZ5P3OW7DyX7H-GpT-dK-xWZgA/edit?hl=en_US&hl=en_US#gid=0
+
 
 [1]: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-509957
 [2]: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/

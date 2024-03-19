@@ -9,5 +9,10 @@ The acronym 2GLL was created by Timothy Sun in July, 2007. Sun posted a message 
 ![](img/2GLL/Name1.png)
 ![](img/2GLL/Name2.png)
 
+## References
+
+1. https://www.twistypuzzles.com/forum/viewtopic.php?p=67102#p67102
+2. https://www.twistypuzzles.com/forum/viewtopic.php?p=73596#p73596
+
 [1]: https://www.twistypuzzles.com/forum/viewtopic.php?p=67102#p67102
 [2]: https://www.twistypuzzles.com/forum/viewtopic.php?p=73596#p73596

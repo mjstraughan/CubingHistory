@@ -1,7 +1,5 @@
 # MGLS
 
-## Description
-
 MGLS is a system for orienting last layer while solving the last slot of the first two layers.
 
 **Proposer:** [Shotaro Makisumi](CubingContributors/MethodDevelopers.md#makisumi-shotaro), [Lukas Garron](CubingContributors/MethodDevelopers.md#garron-lukas)
@@ -60,6 +58,12 @@ In June, 2010, Garron declared the official pronunciation of MGLS to be "muggles
 ## Credit
 
 Thanks to Lucas Garron for providing links to the sources on this page.
+
+## References
+
+1. https://web.archive.org/web/20070913114107/http://cubefreak.net:80/f2lc_llco.html
+2. https://cube.garron.us/MGLS/
+3. https://www.speedsolving.com/threads/mgls-now-with-pronunciation.21922/
 
 [1]: https://web.archive.org/web/20070913114107/http://cubefreak.net:80/f2lc_llco.html
 [2]: https://cube.garron.us/MGLS/
