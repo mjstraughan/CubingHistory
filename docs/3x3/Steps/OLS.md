@@ -133,7 +133,7 @@ Jack Johnston proposed the idea in August, 2013 and Michael Gottlieb developed t
 
 After development, Johnston presented JJLS to the community in September, 2013.[<sup>12</sup>][12]
 
-![](img/OLS/BLE-JJLS.png)
+![](img/OLS/JJLS.png)
 
 #### Anthony Brooks
 
