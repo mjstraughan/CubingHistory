@@ -102,6 +102,7 @@ TV2 was proposed by Ryan Hudgens in September 2022.[<sup>9</sup>][9] [<sup>10</s
 
 ![](img/ZBLL/TV21.png)
 >This is from a private conversation between Hudgens and Joseph Tudor.
+
 ![](img/ZBLL/TV22.png)
 ![](img/ZBLL/TV23.png)
 
@@ -111,6 +112,7 @@ Polar was documented by Michael James Straughan in August 2023.[<sup>11</sup>][1
 
 ![](img/ZBLL/Polar1.png)
 >This is from a private conversation between Tim Mosher and Straughan.
+
 ![](img/ZBLL/Polar2.png)
 
 ## References
