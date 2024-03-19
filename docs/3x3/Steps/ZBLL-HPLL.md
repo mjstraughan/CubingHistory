@@ -115,6 +115,13 @@ Polar was documented by Michael James Straughan in August 2023.[<sup>11</sup>][1
 
 ![](img/ZBLL/Polar2.png)
 
+### Resources
+
+In September, 2022, Hudgens created a guide that describes the various ZBLL recognition systems.[<sup>12</sup>][12] [<sup>13</sup>][13] [<sup>14</sup>][14]
+
+![](img/ZBLL/Guide1.png)
+![](img/ZBLL/Guide2.png)
+
 ## References
 
 1. https://web.archive.org/web/20030404233432/http://www.ai.univ-paris8.fr/~bh/cube/
@@ -128,6 +135,9 @@ Polar was documented by Michael James Straughan in August 2023.[<sup>11</sup>][1
 9. https://orecubingprojects.github.io./OreKehStrah%27s%20ZBLL%20Recognition%20Guide.html
 10. https://docs.google.com/spreadsheets/d/1nrrO2xaIHcI8EKaJUxj0PDzx4CJ58jqhsFDZSbxQaoQ/edit#gid=1778839486
 11. https://sites.google.com/site/athefre/other/polar-recognition
+12. https://www.speedsolving.com/threads/how-to-recognize-zbll-an-explanation-and-comparison-of-the-main-systems-2022-edition.87814/
+13. https://docs.google.com/spreadsheets/d/1nrrO2xaIHcI8EKaJUxj0PDzx4CJ58jqhsFDZSbxQaoQ/edit#gid=1778839486
+14. https://orecubingprojects.github.io./OreKehStrah%27s%20ZBLL%20Recognition%20Guide.html
 
 [1]: https://web.archive.org/web/20030404233432/http://www.ai.univ-paris8.fr/~bh/cube/
 [2]: https://web.archive.org/web/20020305024947/https://lar5.com/cube/xMain.html
@@ -140,3 +150,6 @@ Polar was documented by Michael James Straughan in August 2023.[<sup>11</sup>][1
 [9]: https://orecubingprojects.github.io./OreKehStrah%27s%20ZBLL%20Recognition%20Guide.html
 [10]: https://docs.google.com/spreadsheets/d/1nrrO2xaIHcI8EKaJUxj0PDzx4CJ58jqhsFDZSbxQaoQ/edit#gid=1778839486
 [11]: https://sites.google.com/site/athefre/other/polar-recognition
+[12]: https://www.speedsolving.com/threads/how-to-recognize-zbll-an-explanation-and-comparison-of-the-main-systems-2022-edition.87814/
+[13]: https://docs.google.com/spreadsheets/d/1nrrO2xaIHcI8EKaJUxj0PDzx4CJ58jqhsFDZSbxQaoQ/edit#gid=1778839486
+[14]: https://orecubingprojects.github.io./OreKehStrah%27s%20ZBLL%20Recognition%20Guide.html
