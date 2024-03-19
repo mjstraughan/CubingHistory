@@ -28,9 +28,3 @@ Provided are some of the early resources for ZBLS.
 ## Author Comments
 
 ZBLS was originally proposed as the ZB method, a complete 3x3 method of its own that consisted of two steps. The first step was ZBLS (or ZBF2L as it was called around the time of proposal), and ZBLL. Nowadays the classification is more complicated. There are many methods that use F2L-1 as the base then the last slot and last layer are solved in some order. Winter Variation, MGLS, L5C > L5E, and various other ways of orienting/permuting the F2L corner/edge while manipulating the last layer pieces. In recent years the community has moved more into classifying each of these as last slot last layer (LSLL) systems to be used with CFOP + CFCE, ZZ, or other distinct and established ways of reaching the F2L-1 state. So for that reason, ZBLS is placed as a step on the website. Otherwise there would be hundreds or thousands of methods which are simply F2L -1 > solve the last slot and last layer in some way.
-
-## References
-
-1. 
-
-[1]: 
