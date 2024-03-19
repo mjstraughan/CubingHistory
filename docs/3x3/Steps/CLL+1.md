@@ -1,5 +1,7 @@
 # CLL+1
 
+## Description
+
 CLL+1 is a method for solving the last layer.
 
 **Proposer:** [Thom Barlow](CubingContributors/MethodDevelopers.md#barlow-thom-kirjava)

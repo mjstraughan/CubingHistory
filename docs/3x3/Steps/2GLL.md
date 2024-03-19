@@ -1,5 +1,7 @@
 # 2GLL
 
+## Description
+
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php?title=2GLL)
 
 ## Name Origin

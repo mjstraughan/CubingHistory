@@ -1,5 +1,7 @@
 # MGLS
 
+## Description
+
 MGLS is a system for orienting last layer while solving the last slot of the first two layers.
 
 **Proposer:** [Shotaro Makisumi](CubingContributors/MethodDevelopers.md#makisumi-shotaro), [Lukas Garron](CubingContributors/MethodDevelopers.md#garron-lukas)

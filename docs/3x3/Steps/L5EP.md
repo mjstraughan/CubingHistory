@@ -1,5 +1,7 @@
 # L5EP
 
+## Description
+
 **Proposer:** [Mike Bennett](CubingContributors/MethodDevelopers.md#bennett-mike)
 
 **Proposed:** 2005

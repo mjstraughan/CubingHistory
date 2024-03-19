@@ -1,5 +1,7 @@
 # NMLL
 
+## Description
+
 NMLL is a method for solving the last layer.
 
 **Proposer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre)
