@@ -18,17 +18,22 @@
 
 ## Proposal
 
-In April, 2017 John Li proposed 2GR.
+In April, 2017 John Li proposed 2GR.[<sup>1</sup>][1] [<sup>2</sup>][2]
 
-![Proposal 1](img/2GR/Proposal1.png)
-![Proposal 1](img/2GR/Proposal2.png)
-![Proposal 1](img/2GR/Proposal3.png)
+![](img/2GR/Proposal1.png)
+![](img/2GR/Proposal2.png)
+![](img/2GR/Proposal3.png)
 
-- https://www.reddit.com/r/Cubers/comments/63y9sy/2gr_method_text_tutorial/
-- https://web.archive.org/web/20170417185044/http://teoidus.github.io/dump/2GR/2GR.html
+2GR was eventually moved to a new site.[<sup>3</sup>][3]
 
-2GR was eventually moved to a new site.
+![](img/2GR/NewSite.png)
 
-![Proposal 1](img/2GR/NewSite.png)
+## References
 
-- https://john-ml.github.io/2GR/CPLine/CPLine.html
+1. https://www.reddit.com/r/Cubers/comments/63y9sy/2gr_method_text_tutorial/
+2. https://web.archive.org/web/20170417185044/http://teoidus.github.io/dump/2GR/2GR.html
+3. https://john-ml.github.io/2GR/CPLine/CPLine.html
+
+[1]: https://www.reddit.com/r/Cubers/comments/63y9sy/2gr_method_text_tutorial/
+[2]: https://web.archive.org/web/20170417185044/http://teoidus.github.io/dump/2GR/2GR.html
+[3]: https://john-ml.github.io/2GR/CPLine/CPLine.html
