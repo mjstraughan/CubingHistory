@@ -10,7 +10,7 @@
 
 ## Origin
 
-In October, 2003, Ron van Bruchem described the origin as himself and Zbigniew Zborowski independly had the idea around the same time. This was posted to the Speed Solving Rubik's Cube Yahoo group.
+In October, 2003, Ron van Bruchem described the origin as himself and Zbigniew Zborowski independly having had the idea around the same time. This was posted to the Speed Solving Rubik's Cube Yahoo group. 1.5 years of messages were deleted from the group sometime prior to Bruchem's message. This means that some of the origin is no longer viewable.
 
 ![](img/ZBLS/Origin.png)
 
