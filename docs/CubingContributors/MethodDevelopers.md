@@ -305,9 +305,8 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 ## Straughan, Michael James (Athefre)
 - EOLR for the Roux method
-- Union Principle
-- Nautilus method
 - APB method
+- Nautilus method
 - MI1 method
 - MI2 method
 - MI4 method
@@ -323,6 +322,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - L5C and SL5C for the 42 method
 - CLL+1 and COLL+1 (development based on Thom Barlow's idea)
 - DFDB recognition for the Roux method
+- Algorithm Unions
 - L7E iterative EO and method
 - A2 method
 - ACMLL for the Roux method
