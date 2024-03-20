@@ -251,7 +251,7 @@ Pseudo slotting went through a few name changes over time. Olly Hayden called it
 40. Jessica Fridrich, message to Speed Solving Rubik's Cube, August 26, 2002, screenshot.
 41. Shotaro Makisumi, "Cube Glossary," https://web.archive.org/web/20090131154731/http://cubefreak.net/other/glossary.html
 42. Doug Li, message to Speed Solving Rubik's Cube, August 30, 2003, screenshot.
-43. Doug Li, message to Speed Solving Rubik's Cube, September 26, 2005, screenshot.
+43. Chris Hardwick, message to Speed Solving Rubik's Cube, September 26, 2005, screenshot.
 
 [16]: http://www.math.rwth-aachen.de/homes/Martin.Schoenert/Cube-Lovers/[unknown_name]__Re__Methods_(Re__Speed_cubing).html.
 [17]: http://www.ws.binghamton.edu/fridrich/history.html.
