@@ -67,16 +67,16 @@ Vincent Trang pushed for the 1x2x3 start to be the standard for the method.[<sup
 
 ## Refrences
 
-1. https://www.speedsolving.com/threads/the-disadvantage-of-block-building.7071/post-97217
-2. https://discord.com/channels/95625180205813760/373480359280640001/838755756505169940
-3. https://discord.com/channels/95625180205813760/373480359280640001/844259035300626432
-4. https://discord.com/channels/95625180205813760/373480359280640001/838827839050088451
-5. https://www.speedsolving.com/threads/apb-an-efficient-ergonomic-algorithmic-2x2x3-based-method.85409/
-6. https://discord.com/channels/455707295205294081/538836158344331306/888472853375221840
-7. https://discord.com/channels/885722463521103892/885783926541529109/906955240631337011
-8. https://discord.com/channels/769483322278805504/769491580762456104/926557167060910090
-9. https://discord.com/channels/769483322278805504/783035653947523073/916844822621458452
-10. https://discord.com/channels/926220744193622049/926224908369948672/926318861454835743
+1. Michael Straughan, message to speedsolving.com, October 25, 2008, https://www.speedsolving.com/threads/the-disadvantage-of-block-building.7071/post-97217
+2. Michael Straughan, message to Discord, May 3, 2021, https://discord.com/channels/95625180205813760/373480359280640001/838755756505169940
+3. Michael Straughan, message to Discord, May 19, 2021, https://discord.com/channels/95625180205813760/373480359280640001/844259035300626432
+4. Michael Straughan, message to Discord, May 4, 2021, https://discord.com/channels/95625180205813760/373480359280640001/838827839050088451
+5. Michael Straughan, message to speedsolving.com, September 17, 2021, https://www.speedsolving.com/threads/apb-an-efficient-ergonomic-algorithmic-2x2x3-based-method.85409/
+6. Ryan Hudgens, message to Discord, September 18, 2021, https://discord.com/channels/455707295205294081/538836158344331306/888472853375221840
+7. "Melkor", message to Discord, November 8, 2021, https://discord.com/channels/885722463521103892/885783926541529109/906955240631337011
+8. Liam Highducheck, message to Discord, January 1, 2022, https://discord.com/channels/769483322278805504/769491580762456104/926557167060910090
+9. Vincent Trang, message to Discord, December 5, 2021, https://discord.com/channels/769483322278805504/783035653947523073/916844822621458452
+10. Vincent Trang, message to Discord, December 31, 2021, https://discord.com/channels/926220744193622049/926224908369948672/926318861454835743
 
 [1]: https://www.speedsolving.com/threads/the-disadvantage-of-block-building.7071/post-97217
 [2]: https://discord.com/channels/95625180205813760/373480359280640001/838755756505169940
