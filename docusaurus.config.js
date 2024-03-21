@@ -108,4 +108,14 @@ const config = {
     }),
 };
 
-export default config;
+export default {
+  scripts: [
+    // String format.
+    '../AnimCube3.js',
+    // Object format.
+    {
+      src: '../AnimCube3.js',
+      async: true,
+    },
+  ],
+};
