@@ -67,7 +67,8 @@ Vincent Trang pushed for the 1x2x3 start to be the standard for the method [9]. 
 
 ## References
 
-1. M. J. Straughan, SpeedSolving.com, 25 October 2008. [Online]. Available: https://www.speedsolving.com/threads/the-disadvantage-of-block-building.7071/post-97217.
+[1] M. J. Straughan, SpeedSolving.com, 25 October 2008. [Online]. Available: https://www.speedsolving.com/threads/the-disadvantage-of-block-building.7071/post-97217.
+
 2. M. J. Straughan, Discord, 3 May 2021. [Online]. Available: https://discord.com/channels/95625180205813760/373480359280640001/838755756505169940.
 3. M. J. Straugham, Discord, 19 May 2021. [Online]. Available: https://discord.com/channels/95625180205813760/373480359280640001/844259035300626432.
 4. M. J. Straughan, Discord, 4 May 2021. [Online]. Available: https://discord.com/channels/95625180205813760/373480359280640001/838827839050088451.
