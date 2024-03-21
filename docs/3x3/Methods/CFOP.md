@@ -218,32 +218,32 @@ Pseudo slotting went through a few name changes over time. Olly Hayden called it
 7.  J. Nourse, in The Simple Solution to Rubik's Cube, Toronto, Bantam, 1981, p. 41.
 8.  R. Sosič and P. Sosič, "Article on Rubik’s Cube," Teleks, July 1981. 
 9.  A. Treep and J. v. Rossum, Cubism For Fun, September 1981. 
-10.  R. v. Bruchem, "Re: F2L system - where did it come from?," Yahoo! Groups - Speed Solving Rubik's Cube, 24 July 2003. Online.. 
+10.  R. v. Bruchem, "Re: F2L system - where did it come from?," Yahoo! Groups - Speed Solving Rubik's Cube, 24 July 2003. [Online]. 
 11.  F. Schiereck, De Hongaarse Kubus Voor Doordraaiers!, Mondria, 1981. 
-12.  R. Heise, "F2L system - where did it come from?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 July 2003. Online.. 
-13.  J. Fridrich, "Re: F2L system - where did it come from?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 July 2003. Online.. 
-14.  J. Fridrich, Cube Lovers, 10 June 1996. Online.. Available: http://www.math.rwth-aachen.de/homes/Martin.Schoenert/Cube-Lovers/[unknown_name]__Re__Methods_(Re__Speed_cubing).html.
-15.  J. Fridrich, "20 years of speedcubing," Online.. Available: http://www.ws.binghamton.edu/fridrich/history.html.
-16.  G. R. Shultz, "Origins of CFOP," Personal Communication, 22 August 2022. Online.. 
-17.  J. Fridrich, Cube Lovers, 24 June 1996. Online.. Available: http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/%5bunknown_name%5d__Re__Thistlethwaites_algorithm_(and_others).html.
-18.  J. Fridrich, "My system for solving Rubik's cube," Online.. Available: http://www.ws.binghamton.edu/fridrich/system.html.
-19.  J. Fridrich, "Orienting The Last Layer," Online.. Available: http://www.ws.binghamton.edu/fridrich/Mike/orient.html.
-20.  Naitsu, "３段目のキューブの色を合わせる," Online.. Available: https://web.archive.org/web/20040810081051/http://naitsu.hp.infoseek.co.jp/orient.htm.
-21.  K. Konishi, "ＯＬＬ～上面の色合わせ（向き合わせ）," Online.. Available: https://web.archive.org/web/20040605045823fw_/http://www2.u-netsurf.ne.jp/~katsu-k/cubeoll.html.
-22.  S. Makisumi, "Orientation of Last Layer (OLL)," Online.. Available: https://web.archive.org/web/20040602231224/http://cubefreak.hp.infoseek.co.jp/OLL.html.
-23.  J. Fridrich, "Permuting The Last Layer," Online.. Available: http://www.ws.binghamton.edu/fridrich/Mike/permute.html.
-24.  C. Hardwick, "New F2L method (sort of)," Yahoo! Groups - Speed Solving Rubik's Cube, 15 February 2003. Online.. 
-25.  C. Hardwick, "double extended cross," Yahoo! Groups - Speed Solving Rubik's Cube, 5 September 2004. Online.. 
-26.  D. Knights, "Re: Solving the first two layers," Yahoo! Groups - Speed Solving Rubik's Cube, 30 June 2000. Online.. 
-27.  L. Vandenbergh, "Some thoughts on learning the ZB system," Yahoo! Groups - Speed Solving Rubik's Cube, 27 October 2003. Online.. 
-28.  S. Makisumi, Yahoo! Groups - Speed Solving Rubik's Cube, 2 July 2004. Online.. 
-29.  S. Makisumi, "Re: Macky's New Average," Yahoo! Groups - Speed Solving Rubik's Cube, 13 April 2005. Online.. 
-30.  C. Hardwick, "The ZBF2L," Online.. Available: https://web.archive.org/web/20050320040335/https://www.speedcubing.com/chris/zbf2l.html.
-31.  O. Hayden, "Re: Tactics on the F2L???," Yahoo! Groups - Speed Solving Rubik's Cube, 5 May 2002. Online.. 
-32.  O. Hayden, "Non-matching pairs," Online.. Available: https://web.archive.org/web/20021002082650/http://homepage.ntlworld.com/angela.hayden/cube/speed4.html.
-33.  J. Fridrich, "First 2 Layers: Examples," Online.. Available: http://www.ws.binghamton.edu/fridrich/examples.html.
-34.  J. Fridrich, "Re: Looking ahead: a practice routine?," Yahoo! Groups - Speed Solving Rubik's Cube, 26 August 2002. Online.. 
-35.  J. Fridrich, "See how I solve the F2L," Yahoo! Groups - Speed Solving Rubik's Cube, 26 August 2002. Online.. 
-36.  S. Makisumi, "Cube Glossary," Online.. Available: https://web.archive.org/web/20090131154731/http://cubefreak.net/other/glossary.html.
-37.  D. Li, "Re: Simple to get to 1 min," Yahoo! Groups - Speed Solving Rubik's Cube, 30 August 2003. Online.. 
-38.  C. Hardwick, "Re: Advanced F2L," Yahoo! Groups - Speed Solving Rubik's Cube, 26 September 2005. Online.
+12.  R. Heise, "F2L system - where did it come from?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 July 2003. [Online]. 
+13.  J. Fridrich, "Re: F2L system - where did it come from?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 July 2003. [Online].
+14.  J. Fridrich, Cube Lovers, 10 June 1996. [Online]. Available: http://www.math.rwth-aachen.de/homes/Martin.Schoenert/Cube-Lovers/[unknown_name]__Re__Methods_(Re__Speed_cubing).html.
+15.  J. Fridrich, "20 years of speedcubing," [Online]. Available: http://www.ws.binghamton.edu/fridrich/history.html.
+16.  G. R. Shultz, "Origins of CFOP," Personal Communication, 22 August 2022. [Online]. 
+17.  J. Fridrich, Cube Lovers, 24 June 1996. [Online]. Available: http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/%5bunknown_name%5d__Re__Thistlethwaites_algorithm_(and_others).html.
+18.  J. Fridrich, "My system for solving Rubik's cube," [Online]. Available: http://www.ws.binghamton.edu/fridrich/system.html.
+19.  J. Fridrich, "Orienting The Last Layer," [Online]. Available: http://www.ws.binghamton.edu/fridrich/Mike/orient.html.
+20.  Naitsu, "３段目のキューブの色を合わせる," [Online]. Available: https://web.archive.org/web/20040810081051/http://naitsu.hp.infoseek.co.jp/orient.htm.
+21.  K. Konishi, "ＯＬＬ～上面の色合わせ（向き合わせ）," [Online]. Available: https://web.archive.org/web/20040605045823fw_/http://www2.u-netsurf.ne.jp/~katsu-k/cubeoll.html.
+22.  S. Makisumi, "Orientation of Last Layer (OLL)," [Online]. Available: https://web.archive.org/web/20040602231224/http://cubefreak.hp.infoseek.co.jp/OLL.html.
+23.  J. Fridrich, "Permuting The Last Layer," [Online]. Available: http://www.ws.binghamton.edu/fridrich/Mike/permute.html.
+24.  C. Hardwick, "New F2L method (sort of)," Yahoo! Groups - Speed Solving Rubik's Cube, 15 February 2003. [Online]. 
+25.  C. Hardwick, "double extended cross," Yahoo! Groups - Speed Solving Rubik's Cube, 5 September 2004. [Online]. 
+26.  D. Knights, "Re: Solving the first two layers," Yahoo! Groups - Speed Solving Rubik's Cube, 30 June 2000. [Online]. 
+27.  L. Vandenbergh, "Some thoughts on learning the ZB system," Yahoo! Groups - Speed Solving Rubik's Cube, 27 October 2003. [Online]. 
+28.  S. Makisumi, Yahoo! Groups - Speed Solving Rubik's Cube, 2 July 2004. [Online]. 
+29.  S. Makisumi, "Re: Macky's New Average," Yahoo! Groups - Speed Solving Rubik's Cube, 13 April 2005. [Online]. 
+30.  C. Hardwick, "The ZBF2L," [Online]. Available: https://web.archive.org/web/20050320040335/https://www.speedcubing.com/chris/zbf2l.html.
+31.  O. Hayden, "Re: Tactics on the F2L???," Yahoo! Groups - Speed Solving Rubik's Cube, 5 May 2002. [Online]. 
+32.  O. Hayden, "Non-matching pairs," [Online]. Available: https://web.archive.org/web/20021002082650/http://homepage.ntlworld.com/angela.hayden/cube/speed4.html.
+33.  J. Fridrich, "First 2 Layers: Examples," [Online]. Available: http://www.ws.binghamton.edu/fridrich/examples.html.
+34.  J. Fridrich, "Re: Looking ahead: a practice routine?," Yahoo! Groups - Speed Solving Rubik's Cube, 26 August 2002. [Online]. 
+35.  J. Fridrich, "See how I solve the F2L," Yahoo! Groups - Speed Solving Rubik's Cube, 26 August 2002. [Online]. 
+36.  S. Makisumi, "Cube Glossary," [Online]. Available: https://web.archive.org/web/20090131154731/http://cubefreak.net/other/glossary.html.
+37.  D. Li, "Re: Simple to get to 1 min," Yahoo! Groups - Speed Solving Rubik's Cube, 30 August 2003. [Online]. 
+38.  C. Hardwick, "Re: Advanced F2L," Yahoo! Groups - Speed Solving Rubik's Cube, 26 September 2005. [Online].
