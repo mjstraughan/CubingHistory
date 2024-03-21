@@ -18,22 +18,18 @@
 
 ## Proposal
 
-In April, 2017 John Li proposed 2GR.[<sup>1</sup>][1] [<sup>2</sup>][2]
+In April, 2017 John Li proposed 2GR [1, 2].
 
 ![](img/2GR/Proposal1.png)
 ![](img/2GR/Proposal2.png)
 ![](img/2GR/Proposal3.png)
 
-2GR was eventually moved to a new site.[<sup>3</sup>][3]
+2GR was eventually moved to a new site [3].
 
 ![](img/2GR/NewSite.png)
 
 ## References
 
-1. John Li, message to Reddit, April 7, 2017, https://www.reddit.com/r/Cubers/comments/63y9sy/2gr_method_text_tutorial/
-2. John Li, message to Reddit, April 7, 2017, https://web.archive.org/web/20170417185044/http://teoidus.github.io/dump/2GR/2GR.html
-3. John Li, "2GR (2-generator reduction)", https://john-ml.github.io/2GR/CPLine/CPLine.html
-
-[1]: https://www.reddit.com/r/Cubers/comments/63y9sy/2gr_method_text_tutorial/
-[2]: https://web.archive.org/web/20170417185044/http://teoidus.github.io/dump/2GR/2GR.html
-[3]: https://john-ml.github.io/2GR/CPLine/CPLine.html
+1. J. Li, "2GR Method Text Tutorial," Reddit, 7 April 2017. [Online]. Available: https://www.reddit.com/r/Cubers/comments/63y9sy/2gr_method_text_tutorial/.
+2. J. Li, "2GR (2-generator reduction)," [Online]. Available: https://web.archive.org/web/20170417185044/http://teoidus.github.io/dump/2GR/2GR.html.
+3. J. Li, "2GR (2-generator reduction)," [Online]. Available: https://johnm.li/2GR/2GR.html.
