@@ -208,6 +208,7 @@ Pseudo slotting went through a few name changes over time. Olly Hayden called it
 ![](img/CFOP/Techniques/PseudoSlotting7.png)
 
 ## References
+
 1.  D. Taylor, in The Group of a Coloured Cube, New South Wales, Pure Mathematics, 1978. 
 2.  J. H. Conway, D. Benson and D. Seal, in Solving the Hungarian Cube, Cambridge, UK, 1979, p. 15.
 3.  J. H. Conway, D. Benson and D. Seal, in Solving the Hungarian Cube in Less Than 100 Moves, Cambridge, UK, 1979, p. 2.
