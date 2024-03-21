@@ -221,7 +221,7 @@ Pseudo slotting went through a few name changes over time. Olly Hayden called it
 11.  F. Schiereck, De Hongaarse Kubus Voor Doordraaiers!, Mondria, 1981. 
 12.  R. Heise, "F2L system - where did it come from?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 July 2003. Online.. 
 13.  J. Fridrich, "Re: F2L system - where did it come from?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 July 2003. Online.. 
-14.  J. Fridrich, Cube Lovers, 10 June 1996. Online.. Available: http://www.math.rwth-aachen.de/homes/Martin.Schoenert/Cube-Lovers/[unknown_name]__Re__Methods_(Re__Speed_cubing).html.html.
+14.  J. Fridrich, Cube Lovers, 10 June 1996. Online.. Available: http://www.math.rwth-aachen.de/homes/Martin.Schoenert/Cube-Lovers/[unknown_name]__Re__Methods_(Re__Speed_cubing).html.
 15.  J. Fridrich, "20 years of speedcubing," Online.. Available: http://www.ws.binghamton.edu/fridrich/history.html.
 16.  G. R. Shultz, "Origins of CFOP," Personal Communication, 22 August 2022. Online.. 
 17.  J. Fridrich, Cube Lovers, 24 June 1996. Online.. Available: http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/%5bunknown_name%5d__Re__Thistlethwaites_algorithm_(and_others).html.
