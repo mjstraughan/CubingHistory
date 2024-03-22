@@ -25,7 +25,7 @@
 
 ### First Description
 
-Doug Li revealed his method in August, 2006. He stated that it was created in 2002.
+Doug Li revealed his method in August, 2006 [1]. He stated that it was created in 2002.
 
 ![](img/DougLi/Li1.png)
 
@@ -35,6 +35,11 @@ https://web.archive.org/web/20050403232005/http://www-personal.umich.edu:80/~dll
 
 ### Doug Li Block
 
-Doug Li requested that a 2x2x3 block minus the edge between the two corners be called a "Doug Li Block".
+Doug Li requested that a 2x2x3 block minus the edge between the two corners be called a "Doug Li Block" [2].
 
 ![](img/DougLi/Li2.png)
+
+## References
+
+1. D. Li, "Mysterious DougLi Method Unveiled (ane Re: A history of solving techniques)," Yahoo! Groups - Speed Solving Rubik's Cube, 21 August 2006. [Online]. 
+2. D. Li, "Mysterious DougLi Method Unveiled (ana Re: A history of solving techniques)," Yahoo! Groups - Speed Solving Rubik's Cube, 21 August 2006. [Online].

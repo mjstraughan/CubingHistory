@@ -61,7 +61,7 @@ Various Corners First methods were published in 1979.
 
 >The steps for Claxton's method were provided to me by Georges Helm. The others can be found in Notes on Rubik's 'Magic Cube'.
 
-Bibliography
+## References
 
 1. D. Singmaster, in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 40.
 2. P. Forgács, "fizikai szemle," January 2007. [Online]. Available: http://www.epa.oszk.hu/00300/00342/00200/pdf/FizSzem_EPA00342_2007_01.pdf.
