@@ -33,5 +33,5 @@ Schultz used CFCE at the World Rubik's Cube Championship 1982 [2]. This makes Sc
 
 Bibliography
 
-1. G. R. Shultz, "Origins of CFOP," Personal communication with M. J. Straughan, 25 August 2022. [Online].  
+1. G. R. Schultz, "Origins of CFOP," Personal communication with M. J. Straughan, 25 August 2022. [Online].  
 2. D. Singmaster, "THE FIRST WORLD CHAMPIONSHIP," Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p4.
