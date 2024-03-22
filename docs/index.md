@@ -1,5 +1,4 @@
 ---
-author: Michael James Straughan
 sidebar_position: 1
 slug: /
 ---
