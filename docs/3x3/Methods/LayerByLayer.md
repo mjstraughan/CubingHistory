@@ -91,7 +91,7 @@ This version is more like the current basic keyhole methods:
 4. Last edge of the second layer.
 5. Last layer.
 
-References
+## References
 
 1. D. Taylor, in The Group of a Coloured Cube, New South Wales, Pure Mathematics, 1978. 
 2. D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 24.
