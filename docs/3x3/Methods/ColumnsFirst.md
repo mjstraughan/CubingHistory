@@ -49,8 +49,6 @@ In 2011, Michael Gottlieb added a variant of PCMS to his website [9, 10].
 
 ## References
 
-Bibliography
-
 1. M. Akimoto, "Original corner first method," rokumentai.akimoto3.com, [Online]. Available: https://web.archive.org/web/20040409235900/http://rokumentai.akimoto3.com/methode.htm.
 2. M. Akimoto, "Original corner first method," rokumentai.akimoto3.com, [Online]. Available: https://web.archive.org/web/20040705200720/http://rokumentai.akimoto3.com/step1-2.htm.
 3. J. Rueth, "corner method," Yahoo! Groups - Speed Solving Rubik's Cube, 20 June 2002. [Online]. 
