@@ -17,22 +17,21 @@
 
 ### Ernő Rubik
 
-On page 40 of David Singmaster's *Notes on Rubik's 'Magic Cube'*, the steps of Rubik's method are written as described by Zoltán Perjés. This makes Ernő Rubik the first to have created the corners first method and also corners first as the first method created to solve the cube.
+On page 40 of David Singmaster's *Notes on Rubik's 'Magic Cube'* [1], the steps of Erno Rubik's method are written as described by Zoltán Perjés, a relative of Rubik [2]. This makes Ernő Rubik the first to have created the corners first method and also corners first as the first method created to solve the cube.
 
 ![](img/CornersFirst/Rubik1.png)
 
 Zoltán Perjés was a relative of Rubik.
 
 ![](img/CornersFirst/Rubik2.png)
-http://www.epa.oszk.hu/00300/00342/00200/pdf/FizSzem_EPA00342_2007_01.pdf
 
-In May, 2003, Dan Knights stated that in 1999 he saw Rubik solve the cube. He outlined the steps that he saw. The steps are slightly different when comparing with Perjés' description. In Knights' description, three edges of the first layer are solved before the last layer corners.
+In May, 2003, Dan Knights stated that in 1999 he observed Rubik solve the cube [3]. He outlined the steps that he saw. The steps are slightly different when comparing with Perjés' description. In Knights' description, three edges of the first layer are solved before the last layer corners.
 
 ![](img/CornersFirst/Rubik3.png)
 
 ### First Publication
 
-The first known published Corners First method came in 1978 by Hanke Bremer in *Ein Paar Würfeldrehungen*.
+The first known published Corners First method came in 1978 by Hanke Bremer in *Ein Paar Würfeldrehungen* [4].
 
 ![](img/CornersFirst/Bremer.jpg)
 
@@ -40,10 +39,9 @@ The first known published Corners First method came in 1978 by Hanke Bremer in *
 
 ### Minh Thai
 
-Minh Thai used Corners First to win the Rubik's Cube World Championship on June 5, 1982. This is where he achieved the 22.95 seconds world record. His method was then published in The Winning Solution in 1982.
+Minh Thai used Corners First to win the Rubik's Cube World Championship on June 5, 1982 [5]. This is where he achieved the 22.95 seconds world record. His method was then published in The Winning Solution in 1982 [6].
 
 ![](img/CornersFirst/Thai.png)
-https://www.jaapsch.net/puzzles/cubic3.htm
 
 ### Others
 
@@ -62,3 +60,12 @@ Various Corners First methods were published in 1979.
   - Similar to Bremer’s method according to Singmaster in *Notes on Rubik's 'Magic Cube'*.
 
 >The steps for Claxton's method were provided to me by Georges Helm. The others can be found in Notes on Rubik's 'Magic Cube'.
+
+Bibliography
+
+1. D. Singmaster, in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 40.
+2. P. Forgács, "fizikai szemle," January 2007. [Online]. Available: http://www.epa.oszk.hu/00300/00342/00200/pdf/FizSzem_EPA00342_2007_01.pdf.
+3. D. Knights, "Re: Mr. Rubik's solving system," Yahoo! Groups - Speed Solving Rubik's Cube, 18 May 2003. [Online]. 
+4. H. Bremer, Ein Paar Würfeldrehungen, Frankfurt, Germany, 1978. 
+5. D. Singmaster, Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm.
+6. M. Thai, The Winning Solution, Wayne, PA: Banbury Books, 1982.
