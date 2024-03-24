@@ -30,4 +30,27 @@ const sidebars = {
    */
 };
 
+module.exports = {
+  docs: {
+    // Sidebar label
+    'Getting Started': [
+      // First-level header
+      'getting-started', // Markdown file without extension
+
+      // Second-level headers (nested list)
+      {
+        type: 'category', // Indicates a category with nested items
+        label: 'Installation', // Category label
+        items: [
+          // Sub-sections (Markdown files)
+          'installation/installation-overview',
+          'installation/step-by-step-guide',
+        ],
+      },
+    ],
+
+    // More sidebar categories...
+  },
+};
+
 export default sidebars;
