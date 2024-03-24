@@ -100,15 +100,24 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
+
       tableOfContents: {
         minHeadingLevel: 2,
         maxHeadingLevel: 5,
       },
+
+      scripts: [
+        {
+          src: 'AnimCube3.js',
+          async: true,
+        },
+      ],
     }),
 };
 

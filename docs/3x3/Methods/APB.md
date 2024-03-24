@@ -1,5 +1,9 @@
 # APB
 
+<div style="width:200px; height:219px">
+    <script>AnimCube3("move=RUR'URU2R'U2&initrevmove=#")</script>
+</div>
+
 ## Description
 
 **Proposer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre)
