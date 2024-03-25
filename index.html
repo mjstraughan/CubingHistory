@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<title>Waterman's Solution Method - Introduction</title>
+<style type="text/css">
+  body{background:#CDE;color:#000;font:100% Tahoma,Verdana,Arial,Helvetica,sans-serif;margin:3em 0;text-align:center}
+  #main{width:55em;margin:0 auto;text-align:left;background:#FFF;padding:2.5em 2em;font-size: 77%}
+  a:link,a:visited,a:active,a:hover{color:#128;text-decoration:none}a:hover{color:#78C;}img{border:0}
+  h1{font-size:1.4em;margin:1em 0;padding:0 0 0.5em;border:0;border-bottom:2px solid #BCF;font-weight:normal}
+  h2{font-size:1.1em;margin:0.8em 0;padding:0.15em 0.3em;font-weight:bold;background:#DEF}h3{font-size:1.1em;margin:0.8em 0;padding:0;font-weight:bold}
+  h4{font-size:1.1em;margin:0.8em 0;padding:0;font-weight:bold;color:#456}h5{font-size:1em;margin:0.8em 0;padding:0;font-weight:bold;color:#567}
+  p{font-size:1em;text-align:justify;margin:0.8em 0;padding:0}.note{font-size:0.9em;margin:0;padding:0;color:#678}
+  ul,li{margin:0;padding:0;border:0;list-style:none}ul{padding-left:1em;border-left:2px solid #BCE}
+  .icons{text-align:right}.home{text-align:center}.homet{text-align: right;margin:-12px 0 -9px}
+</style>
+</head>
+<body>
+<div id="main"> 
+<p class="homet"><a href="http://rubikscube.info/"><img src="http://rubikscube.info/icon/logobut.gif" alt="rubikscube.info home" height="21" width="189"></a></p>
+<h1>Waterman's Solution Method for Rubik's Cube</h1>
+<p>Completed by Josef Jelinek</p>
+<h2>Contents</h2>
+<ul>
+<li><a href="index.html"><b>Introduction</b></a></li>
+<li><a href="stage1.html">Stage I: L Layer</a></li>
+<li><a href="stage2.html">Stage II: Corners of R Layer</a></li>
+<li><a href="stage3.html">Stage III: Redges and Midges</a></li>
+</ul>
+<h2>Introduction</h2>
+<h3>History</h3>
+<p>Thanks to its author Marc Waterman you can read the history of the method: [09/06/2004]</p>
+<p>I somehow obtained a Japanese copy of the Rubik's cube in 1981 or 1982. For
+4 weeks, day and night, I tried to solve it. During this period I had three
+ideas.</p>
+<ul>
+<li>First: I found the corners of the U-face difficult to solve, so I decided
+that you have more freedom if you can neglect the M-ring.</li>
+<li>Second: If you take out one corner from the D-face and put it back in an
+other way, something will change. So I found one process:<br>
+<tt>R U R' U' F' U' F</tt><br>
+I could solve the U- corners, using only this!</li>
+</ul>
+<p>(I turned the whole cube, so that D becomes L)</p>
+<ul>
+<li>Third: I found out that, after turning U2 R2, you have a lot of freedom to
+move edges.</li>
+</ul>
+<p>With this basic method I could solve the cube in 20 minutes.
+Then friends came up with processes to speed up this method. They had found
+these processes themselves, or from books.
+So after a while I speeded up to 1 minute. I won two regional contests.</p>
+<p>At this point, Daan Krammer, a friend and math-genius, became enthusiast.
+Together we made the table for solving the corners of the U-face, finding
+lots of new processes. In the books were only processes which kept the M
+intact. Neglecting the M-ring made the processes shorter.</p>
+<p>Then Daan started to work on solving the edges. He made tables of possible
+situations, and found many processes to solve them. During this period, Daan
+and I were cubing more than 4 hours a day, mostly in the classroom. Some
+teachers became annoyed, but others let us do it, as long as we did not
+disturb the lessons, and as long as we passed our testpapers. We held
+marathons very often. That was a good exercise. We tried to do 41 cubes in
+less then 15 minutes, we nearly succeeded!</p>
+<p>In this period I met Anneke Treep and entered CFF (Cubism For Fun, the Dutch
+cube association). I did contests with Guus Razoux-Schultz at his home, and
+won most times. We practised together very often, we learned each others
+method. We even did contests, using each others method, and became as fast
+as 40 seconds!</p>
+<p>Guus is more of a sportsman than I. This came out during the Dutch
+championship. I had been computergaming the whole night before, and came at
+the contest very sleepy, excited and nervous. Guus was used to doing
+long-distance-swimming contests. He has strong hands and very good stamina,
+and he was ready for it. For him it was easier to solve new, ungreased
+cubes. He won the contest by half a second. Daan became third.</p>
+<p>After the Dutch championship, I kept on speedcubing for a year or so, and I
+won all the contests of the CFF. When I was 19, I slowly lost interest and
+went to Israel for half a year, studied chemical engineering and
+philosophy. After that I worked as a CAD-designer for 3 years. Then I
+decided to do something which I could do from my heart and I started an
+organic vegetable farm, together with my girlfriend. We have the farm now
+for 8 years. It is called Tuinderij De Ketel (<a href="http://www.deketel.nl">www.deketel.nl</a>). My two little
+boys, 2 and 5 years old, play with the Rubik's Cube sometimes.</p>
+<p>Marc Waterman</p>
+<h3>Method Description from Author</h3>
+<p>Let us look at a brief description of this method from Marc Waterman himself: [08/25/2004]</p>
+<p>How did my method really work in practice?</p>
+<p>What takes most time in cube-contests is Looking at the Cube. I try to
+foretell the positions of corners and edges while turning. That saves time,
+because turning a process can be done blindfolded.</p>
+<p>Once I solve the corners of the first face I watch the edges. When solving
+one edge, the centre can sometimes be taken along. When a red and an orange
+edge of the first (white) face are in the same slice, they can be solved
+together. Etc. I practiced very much on this kind of routines, because the
+first face makes up half of the solving time.</p>
+<p>Solving the U-corners:<br>
+First look at the orientation. There are only 8 situations, which you can
+recognise very fast. For each of these basic situations there is a special
+way of recognising the positions. You don't have to see all the faces of the
+corners.<br>
+This saves precious time.</p>
+<p>When solving the corners of the the U-face, it is sometimes possible to
+transport one edge from the M-ring to U. I found out that it is often faster
+when there are many U-edges already in the U-face (although perhaps in the
+wrong place or position. When all U-edges are in the M-ring, you have a case
+of bad luck. I desperately tried to avoid that. But that meant that
+sometimes all U-edges were in the U-face, which was also a case of bad
+luck, because I did not have good routine in U-processes.</p>
+<p>From here on U becomes R</p>
+<p>When solving the first two redges, I try to make sure, that at least one of
+the other pair of redges stays in the right face. That means that I often
+start solving redges in the ring.</p>
+<p>For solving the other pair of redges, together with orienting the edges in
+the ring I had to learn many formula's by heart, which were very similar.
+So I often got confused. This table of formula's took very much practicing,
+and now, 20 years later, I cannot reproduce any of those formula's anymore!
+So I'm glad you have found shorter solutions, but I am not going to learn
+them!</p>
+<p>I tried to improve my method by avoiding this table. I left out one edge of
+the first face. This edge is called a "ledge". This ledge is solved,
+together with one redge, after solving the corners of the R-face. In the
+booklet of Anneke Treep there is a table for solving the ledge and the
+redge.</p>
+<p>The placing of the midges takes three slices. Sometimes it is possible to
+eliminate or shorten this by anticipating. This is often possible when you
+solve one redge, together with the midges. Or when you have to solve only
+two midges.<br>
+Sometimes you can see during a process, where the midges will be.</p>
+<p>On the amount of turns:<br>
+I had many discussions with Guus about this. A slice is officially counted
+as 2 turns. But using only UMR means very fast slices, faster than many of
+sequences of regular turns in the U-processes that Guus used.
+If you count a slice as one turn, I solved the cube in 40 to 45 turns. But
+sometimes in so-called "badlucksituations" it could be more than 50.</p>
+<p>I have tried computing the first face. The corners can be done in maximum 8
+turns. The edges+centre should be possible in 12 turns. I have no proof for
+this, but the total amount for the first face never exeeded 20 turns.
+In the booklet of Anneke Treep a table is included for solving the second
+pair of corners of the first face.</p>
+<p>Yo can see the original booklet written by Anneke Treep here:</p>
+<ul>
+<li><a href="booklet.php">Original Booklet (HTML/GIF)</a></li>
+<li><a href="booklet.pdf">Original Booklet (PDF)</a> (~2MB)</li>
+</ul>
+<p>In the method described here we use the same notation, thus you should be familiar at least with the notation used in the booklet.</p>
+<p class="home"><a href="http://rubikscube.info/"><img src="http://rubikscube.info/icon/logobut.gif" alt="rubikscube.info home" height="21" width="189"></a></p>
+<p class="icons"><a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" height="31" width="88"></a></p>
+</div> 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7991812-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
