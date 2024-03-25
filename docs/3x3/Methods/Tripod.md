@@ -44,6 +44,12 @@ It may be questioned whether Gottlieb had been inspired by Heise's post of the i
 
 On Jessica Fridrich's website there exists a set of algorithms for solving the last layer when a 1x2x2 block is built [7]. This includes cases when the edges are in any orientation. These algorithms are attributed to Mirek Goljan [8]. It is unknown whether Goljan developed this for a method resembling Tripod or if the algorithms were generated for use in case a CFOP user noticed a pre-built 1x2x2 block when arriving at the last layer.
 
+## Extra
+
+In November, 2007, Jack Eisenmann proposed a method called Fridrus [9]. In this method, a 2x2x3 block is built vertically at bl. Then the DF and DR edges are solved and the three corner and edge pairs of the first two layers are placed. This leaves a last layer with a 1x2x2 block and can be solved in a single step.
+
+![](img/Tripod/Fridrus.png)
+
 ## References
 
 1. R. Heise, Yahoo! Groups - Speed Solving Rubik's Cube, 11 December 2002. [Online]. 
@@ -54,3 +60,4 @@ On Jessica Fridrich's website there exists a set of algorithms for solving the l
 6. M. Gottlieb, "Petrus Variation- does it have any potential?," SpeedSolving.com, 18 June 2009. [Online]. Available: https://www.speedsolving.com/threads/petrus-variation-does-it-have-any-potential.12940/post-194502.
 7. J. Fridrich and M. Goljan, "One corner and two adjoining edges are correct," Jessica Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/L1/ece.htm.
 8. J. Fridrich, "My speed cubing page," Jessica Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/cube.html.
+9. J. Eisenmann, "Fridrus Method," SpeedSolving.com, 21 November 2007. [Online]. Available: https://www.speedsolving.com/threads/fridrus-method.1990/.
