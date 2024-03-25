@@ -106,7 +106,7 @@ const config = {
         respectPrefersColorScheme: false,
       },
       tableOfContents: {
-        minHeadingLevel: 2,
+        minHeadingLevel: 1,
         maxHeadingLevel: 5,
       },
     }),
