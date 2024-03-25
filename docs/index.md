@@ -68,4 +68,4 @@ Others have been very willing to explain the origin of their own developments. E
 
 Thanks to err0r for recommending Docusaurus for the site and for helping me fix problems during the setup process.
 
-[Waterman](/CubingHistory/README)
+[Waterman](/README)
