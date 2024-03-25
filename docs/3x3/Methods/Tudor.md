@@ -18,18 +18,19 @@
 
 ### Proposal
 
-In October, 2018, Joseph Tudor presented the idea of the method. An analysis was included and some algorithms were generated.
+In October, 2018, Joseph Tudor presented the idea of the method [1]. An analysis was included and some algorithms were generated.
 
 ![](img/Tudor/Tudor.png)
-https://www.speedsolving.com/threads/a-new-speedcubing-method-the-tudor-method.71463/
 
 ### Other Proposals
 
-The steps of the Tudor method have been proposed. The first known proposal is by Kenneth Gustavsson. Another mention of the idea appeared in 2016 by Brayden Mossey. Because the method had been proposed by others before Joseph Tudor, attribution is difficult in this case. The difference in Tudor's suggestion of the method lies in the analysis, effort, and promotion. Tudor independently had the idea, generated algorithms, and has promoted the idea the most. So it may be best known by the name Tudor.
+The steps of the Tudor method have been proposed. The first known proposal is by Kenneth Gustavsson [2]. Another mention of the idea appeared in 2016 by Brayden Mossey [3]. Because the method had been proposed by others before Joseph Tudor, attribution is difficult in this case. The difference in Tudor's suggestion of the method lies in the analysis, effort, and promotion. Tudor independently had the idea, generated algorithms, and has promoted the idea the most. So it may be best known by the name Tudor.
 
 ![](img/Tudor/Kenneth.png)
 ![](img/Tudor/Mossey.png)
 
-https://www.speedsolving.com/threads/petrus-cf-method.2177/
+## References
 
-https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1167804
+1. J. Tudor, "A New Speedcubing Method, the Tudor Method," SpeedSolvng.com, 29 October 2018. [Online]. Available: https://www.speedsolving.com/threads/a-new-speedcubing-method-the-tudor-method.71463/.
+2. K. Gustavsson, "Petrus + CF method," SpeedSolving.com, 12 December 2007. [Online]. Available: https://www.speedsolving.com/threads/petrus-cf-method.2177/.
+3. B. Mossey, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 20 April 2016. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1167804.
