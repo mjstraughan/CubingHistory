@@ -3,6 +3,7 @@
  * @version 3.5b
  * Conversion to JavaScript by Michael Feather
  * 2024/03/25: Added ES6 module export (by err0rcuber)
+ * 2024/03/26: Moved event listeners to canvas instead of document (by err0rcuber)
  */
 "use strict";
 
@@ -2737,14 +2738,6 @@ export default function AnimCube3(params) {
     initInfoText(mv);
   }
 
-  document.addEventListener("touchstart", mousedown);
-  document.addEventListener("touchmove", mousemove, { passive: false });
-  document.addEventListener("touchend", mouseup);
-  document.addEventListener("mousedown", mousedown);
-  document.addEventListener("mousemove", mousemove);
-  document.addEventListener("mouseup", mouseup);
-  document.addEventListener("contextmenu", contextmenu);
-
   var offsetX, offsetY;
   var mouseIsDown = false;
   var showContextMenu = true;
@@ -3099,13 +3092,13 @@ export default function AnimCube3(params) {
 
   function removeListeners() {
     stopAnimation();
-    document.removeEventListener("touchstart", mousedown);
-    document.removeEventListener("touchmove", mousemove);
-    document.removeEventListener("touchend", mouseup);
-    document.removeEventListener("mousedown", mousedown);
-    document.removeEventListener("mousemove", mousemove);
-    document.removeEventListener("mouseup", mouseup);
-    document.removeEventListener("contextmenu", contextmenu);
+    canvas.removeEventListener("touchstart", mousedown);
+    canvas.removeEventListener("touchmove", mousemove);
+    canvas.removeEventListener("touchend", mouseup);
+    canvas.removeEventListener("mousedown", mousedown);
+    canvas.removeEventListener("mousemove", mousemove);
+    canvas.removeEventListener("mouseup", mouseup);
+    canvas.removeEventListener("contextmenu", contextmenu);
     window.removeEventListener("resize", resize);
   }
 
@@ -3139,6 +3132,14 @@ export default function AnimCube3(params) {
     originalAngle = 0;
     onModuleLoad();
     if (parNode.id != null) init_direct_access(parNode.id);
+
+    canvas.addEventListener("touchstart", mousedown);
+    canvas.addEventListener("touchmove", mousemove, { passive: false });
+    canvas.addEventListener("touchend", mouseup);
+    canvas.addEventListener("mousedown", mousedown);
+    canvas.addEventListener("mousemove", mousemove);
+    canvas.addEventListener("mouseup", mouseup);
+    canvas.addEventListener("contextmenu", contextmenu);
   }
 
   function init_direct_access(id) {
