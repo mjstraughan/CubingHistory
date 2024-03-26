@@ -9,7 +9,6 @@ import AnimCube from "@site/src/components/AnimCube";
 
 <a href="/archive/waterman.html">Link to Waterman's Solution Method</a>
 <AnimCube params="move=RUR'URU2R'U2&initrevmove=#" />
-<AnimCube params="move=R&initrevmove=#" width="400px" height="300px" />
 
 ## Purpose
 
