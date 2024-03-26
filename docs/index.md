@@ -58,7 +58,7 @@ Since I joined the community, I have always been interested in method developmen
 
 ## Credit
 
-Thanks to err0r for helping me with numerous things to get the site looking the way it does:
+Thanks to err0r for assisting with numerous things to get the site looking the way it does:
 - Recommended Docusaurus for the site.
 - Helped fix problems during the setup process.
 - Set up AnimCubeJS on the site to allow cube applets to be used.
