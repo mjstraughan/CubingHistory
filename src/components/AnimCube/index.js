@@ -16,7 +16,7 @@ export default function AnimCube({
   const id = "animcube_" + useId();
   useEffect(() => {
     AnimCube3(`id=${id}&${params}`);
-  }, [id, params]);
+  }, [params]);
 
   return <div style={{ width, height }} id={id} />;
 }
