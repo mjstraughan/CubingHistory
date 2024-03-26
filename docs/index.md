@@ -3,12 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-import AnimCube from "@site/src/components/AnimCube";
-
 # Cubing History
-
-<a href="/archive/waterman.html">Link to Waterman's Solution Method</a>
-<AnimCube params="move=RUR'URU2R'U2&initrevmove=#" />
 
 ## Purpose
 
@@ -63,6 +58,12 @@ Since I joined the community, I have always been interested in method developmen
 
 ## Credit
 
+Thanks to err0r for helping me with numerous things to get the site looking the way it does:
+- Recommended Docusaurus for the site.
+- Helped fix problems during the setup process.
+- Set up AnimCubeJS on the site to allow cube applets to be used.
+- Got archive html links working. This allowed for linking to html pages of old websites that are now stored here.
+
 Most of the information on the site comes from personal research. But there are some things that I wouldn't have been able to completely verify without the help of others.
 
 Georges Helm in particular was a great help. He was kind enough to look through the books that he owns and confirm my suspicions and provide me details.
@@ -70,5 +71,3 @@ Georges Helm in particular was a great help. He was kind enough to look through 
 Ron van Bruchem also provided me some information about early method development.
 
 Others have been very willing to explain the origin of their own developments. Each person is credited on the site in the area in which they provided help.
-
-Thanks to err0r for recommending Docusaurus for the site and for helping me fix problems during the setup process.
