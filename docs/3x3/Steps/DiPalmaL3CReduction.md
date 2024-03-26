@@ -1,4 +1,8 @@
+import AnimCube from "@site/src/components/AnimCube";
+
 # DiPalma L3C Reduction
+
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=ryoyyyyybwwwwwwwwwybbbbbbbbygggggggggooooooooyrrrrrrrr" width="400px" height="400px" />
 
 A collection of L3C reduction strategies proposed by [Matt DiPalma](CubingContributors/MethodDevelopers.md#dipalma-matt).
 
