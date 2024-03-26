@@ -19,12 +19,9 @@ Below are some of the historical discoveries that have been uncovered while buil
 
 - The origin of the F2L pair technique. Many thought that it was from Rene Schoof because he was credited in the September 1981 issue of Cubism For Fun. But there are several publications of the technique before then. The earliest known publication is by John Conway, David Benson, and David Seal in 1979 that included a complete table of every possible case. It also did PLL then OLL as the last layer method.
 - Cross and the Layer By Layer method wasn't first created by Singmaster as the community believes. Nor did Singmaster claim to have created them. He states in Notes on Rubik’s ‘Magic Cube’ that he had seen the method before and changed his method to his own version of that. The earliest known publication of the Layer By Layer method, starting with cross, is by Donald Taylor in 1978.
-- The standard notation isn’t all Singmaster. Only the U, D, L, R, F, B outer turn notation, the apostrophe for inverse, and the 2 for double turns are attributed to Singmaster. Rotations, wide turns, and others were created by other people.
+- The standard notation isn’t all Singmaster. Only the U, D, L, R, F, B outer turn notation, the apostrophe for inverse, and the 2 for double turns are attributed to Singmaster. Rotations, wide turns, and other parts of the notation were created by other people.
 - The earliest known published Corners First and Edges First methods. One of the early Edges First methods was published by Zoltán Perjés, a relative of Ernő Rubik.
-- Pseudo slotting was created by Olly Hayden around 2001-2002. It was then called “Non-Matching Pairs”. CFOP users were aware of Hayden’s website and had been implementing it into their solves. The name of the technique was later changed to “Slant Pairing” by the community. Then changed once again to “Pseudo Slotting”.
 - An instance of early corner permutation by Lars Petrus in 1996.
-- Many Waterman-like methods before the Waterman method was created.
-- A Doug Li block isn’t F2L minus a first layer edge as commonly thought. It is a 2x2x3 minus the edge between the two corners.
 
 ## Cubing History Standards
 
