@@ -1,4 +1,4 @@
-import { useEffect, useId } from "react";
+import { useEffect, useId, useRef } from "react";
 import AnimCube3 from "./AnimCube3";
 
 /**
@@ -14,9 +14,14 @@ export default function AnimCube({
   height = "219px",
 }) {
   const id = "animcube_" + useId();
+  const divRef = useRef();
   useEffect(() => {
     AnimCube3(`id=${id}&${params}`);
+    const canvas = divRef.current?.childNodes[0];
+    if (canvas) {
+      canvas.style.maxWidth = "100%";
+    }
   }, [params]);
 
-  return <div style={{ width, height }} id={id} />;
+  return <div ref={divRef} style={{ width, height, maxWidth: "100%" }} id={id} />;
 }
