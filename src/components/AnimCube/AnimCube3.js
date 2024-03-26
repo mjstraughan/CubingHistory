@@ -1522,7 +1522,7 @@ export default function AnimCube3(params) {
         ? height - dpr
         : height;
     setClip(graphics, 0, 0, width, h);
-    graphics.fillRect(0, 0, width, h); // cube background
+    graphics.clearRect(0, 0, width, h); // cube background
     dragAreas = 0;
     if (natural) {
       // compact cube
