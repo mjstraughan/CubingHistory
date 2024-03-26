@@ -7,7 +7,7 @@ slug: /
 
 ## Purpose
 
-This website was created to serve as an archive of cubing history. The history of the community has been poorly documented so this is an attempt to recover and preserve the important information. This is the result of many hours of studying various message boards, mailing lists, newsletters, books, conversing with others through private messages, and many years of my own experience and knowledge since joining the community in 2005. Cubing has moved from being in books in the late 70s and early 80s to now being within internet discussions. So Cubing History consists of book references and screenshots and links from the original online messages.
+This website was created to serve as an archive of cubing history. The history of the community has been poorly documented so this is an attempt to recover and preserve the important information. This is the result of many hours of studying various message boards, mailing lists, newsletters, books, conversing with others through private messages, and many years of my own experience and knowledge since joining the community in 2005. Cubing has moved from being in books in the late 70s and early 80s to now being within internet discussions. Cubing History consists of book references and screenshots and links from the original online messages. All content on the site is original research starting from the very beginning of every subject. Nothing is taken from any wiki pages or similar sources.
 
 If you want to use anything from this website, feel free to do so. I only ask that you credit the site and me for the research that I have done (my name is Michael James Straughan). If you want to contact me, send me an email at athefre@gmail.com. I go by the username Athefre in the various puzzle communities such as speedsolving.com and various Discord servers, so you can also contact me there. Some of the images may be more complicated, so please talk to me before using those.
 
@@ -50,11 +50,8 @@ Cubing History follows a classification standard based on the modern development
 
 Since I joined the community, I have always been interested in method development. From the very beginning I was trying out others' methods, developing my own methods, and updating the SpeedSolving.com wiki with the origins of methods. In May of 2020 I decided to start working on a timeline that covers the very beginning through now. That simple idea, and the subsequent research, turned into a 47 page Word document full of notes, links, and ideas. I decided that all of that content would be great to have in book form. I started structuring and writing the book and created a website on Google Sites just as a way to organize my resources for the book. I then realized that the website would be exactly what the community needed as a way to view the history of methods. Over time the site expanded to include more than just the history of methods. In 2024 I moved the website to a custom domain with a focus on the history of every aspect of cubing.
 
-![Origin post 1](img/HomePage/Origin1.png)
-![Origin post 2](img/HomePage/Origin2.png)
-
-- https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368431
-- https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368527
+[![](img/HomePage/Origin1.png)](https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368431)
+[![](img/HomePage/Origin2.png)](https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368527)
 
 ## Credit
 
