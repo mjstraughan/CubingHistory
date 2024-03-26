@@ -31,7 +31,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 In early 2006, Michael James Straughan started using the Roux method [1]. Straughan had been exchanging emails with Gilles Roux to learn tips as to how to become faster [2]. Around the same time, Straughan took an interest in method development and started sharing ideas with Roux. Roux mentioned an idea for a method that started with a step of solving the bottom layer minus the DF and DR edges and the DFR corner. This allowed for interesting move sequences such as R u R' or F' u F. Straughan thought the idea was interesting, but didn't like that there were many blind spots after the first step. Straughan decided to double the shape of the first step to make a wall around the cube, removing blind spots. This resulted in the primary shape of MI1.
 
-<div style="display: flex;">
+<div style={{ display: 'flex' }}>
 <AnimCube params="facelets=LLLLYLLLLWWWLWWLLWLLBLBLLLLLLGLGGLLGLLLLOLOOOLLLLRLLLR&position=lluuu&hint=10&scale=6&buttonbar=0" width="400px" height="300px" />
 <AnimCube params="facelets=LLLLYLLLLWWWLWWLLWLBBLBLLLLLGGLGGLGGLLLOOOOOOLLLLRLLRR&position=lluuu&hint=10&scale=6&buttonbar=0" width="400px" height="300px" />
 </div>
