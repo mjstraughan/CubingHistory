@@ -80,14 +80,14 @@ const config = {
             label: "Tutorial",
           },
           { to: "/blog", label: "Blog", position: "left" },*/
-          /*{
-            href: "https://github.com/mjstraughan/CubingHistory",
-            label: "GitHub",
-            position: "right",
-          },*/
           {
             href: "https://discord.gg/GJB2ER2Q3M",
             label: "Discord",
+            position: "right",
+          },
+          {
+            href: "https://github.com/mjstraughan/CubingHistory",
+            label: "GitHub",
             position: "right",
           },
         ],
