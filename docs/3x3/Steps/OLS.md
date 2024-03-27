@@ -34,11 +34,9 @@ VHLS was proposed in October, 2003 on the Speed Solving Rubik's Cube Yahoo group
 
 ## Winter Variation
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=yyyyyyyyywwwwwwlwwdbbdbbdlldggdggdggdddoooooodlldrrdrr" width="400px" height="400px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=bbdyyydydwwwwwwdwwrbbrbbdyddggdggdggwddooooooddddrrdrr" width="400px" height="400px" />
 
 ### Description
-
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=bbdyyydydwwwwwwdwwrbbrbbdyddggdggdggwddooooooddddrrdrr" width="400px" height="400px" />
 
 Winter Variation orients all last layer corners when the final F2L pair is in the pre-built state.
 
@@ -97,7 +95,7 @@ Chester Lian proposed the Summer Variation on speedsolving.com in January, 2009.
 
 ## Valk's Last Slot
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=bbllyllllwwwwwwlwwrbbrbbdlddggdggdggwddooooooddddrrdrr" width="200px" height="200px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=bbllyllllwwwwwwlwwrbbrbbdlddggdggdggwddooooooddddrrdrr" width="400px" height="400px" />
 
 ### Description
 
@@ -112,7 +110,7 @@ In 2009, Mats Valk began incorporating algorithms that orient the last layer pie
 
 ## Hessler's Last Slot
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=llrlyllblwwwwwwlwwdbbdbbblddggrggdggdddoooooowdddrrdrr" width="200px" height="200px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=llrlyllblwwwwwwlwwdbbdbbblddggrggdggdddoooooowdddrrdrr" width="400px" height="400px" />
 
 ### Description
 
@@ -124,7 +122,7 @@ In 2013, Rowe Hessler had the same idea as Valk for VLS. Hessler developed the a
 
 ## Magic Wondeful
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=llbyybyylwwwwwwlwwdbbdbbwlddggdggdggdddoooooorddrrrdrr" width="200px" height="200px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=llbyybyylwwwwwwlwwdbbdbbwlddggdggdggdddoooooorddrrrdrr" width="400px" height="400px" />
 
 ### Description
 
@@ -140,7 +138,7 @@ David Gomes, Jeremy Fleischman, and Devin Corr-Robinett developed the idea in 20
 
 ## Brooks Last Edge / Jack Johnston Last Slot
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=lylyyblylwwwwwwwwwdbbdbbdybdggdggdggdddooooooddrrrrdrr" width="200px" height="200px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=lylyyblylwwwwwwwwwdbbdbbdybdggdggdggdddooooooddrrrrdrr" width="400px" height="400px" />
 
 ### Description
 
