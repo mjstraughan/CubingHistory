@@ -13,12 +13,12 @@ OLS is a collection of systems for orienting the last layer while solving the fi
 ## Vandenberg-Harris Last Slot
 
 <div style={{ display: 'flex' }}>
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=bbddyddddwwwwwwdwwrbbrbbddddggdggdggwddooooooddddrrdrr" width="400px" height="400px" />
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=ddddyrddrwwwwwwdwwdbbdbbdddwggdggdggdddoooooodddbrrbrr" width="400px" height="400px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=bbddyddddwwwwwwdwwrbbrbbddddggdggdggwddooooooddddrrdrr" width="200px" height="200px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=ddddyrddrwwwwwwdwwdbbdbbdddwggdggdggdddoooooodddbrrbrr" width="200px" height="200px" />
 </div>
 <div style={{ display: 'flex' }}>
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=ddrdyddbdwwwwwwdwwdbbdbbbdddggrggdggdddoooooowdddrrdrr" width="400px" height="400px" />
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=ddbryddddwwwwwwdwwdbbdbbwdddggdggdggdbdoooooordddrrdrr" width="400px" height="400px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=ddrdyddbdwwwwwwdwwdbbdbbbdddggrggdggdddoooooowdddrrdrr" width="200px" height="200px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=ddbryddddwwwwwwdwwdbbdbbwdddggdggdggdbdoooooordddrrdrr" width="200px" height="200px" />
 </div>
 
 ### Description
