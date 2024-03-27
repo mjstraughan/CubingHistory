@@ -23,8 +23,6 @@ OLS is a collection of systems for orienting the last layer while solving the fi
 
 ### Description
 
-![](img/OLS/VHLSTypes.png)
-
 VHLS orients all edges of the last layer when the final F2L pair is already built on the last layer or when the pair is in the three turns away from solved state (R U R' or F' U' F).
 
 ### Origin
@@ -36,9 +34,11 @@ VHLS was proposed in October, 2003 on the Speed Solving Rubik's Cube Yahoo group
 
 ## Winter Variation
 
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=yyyyyyyyywwwwwwlwwdbbdbbdlldggdggdggdddoooooodlldrrdrr" width="400px" height="400px" />
+
 ### Description
 
-![](img/OLS/WVType.png)
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=bbdyyydydwwwwwwdwwrbbrbbdyddggdggdggwddooooooddddrrdrr" width="400px" height="400px" />
 
 Winter Variation orients all last layer corners when the final F2L pair is in the pre-built state.
 
@@ -48,26 +48,29 @@ Winter Variation was proposed in January, 2005 on the Speed Solving Rubik's Cube
 
 ![](img/OLS/WV.png)
 
-## CLS
+## MGLS
+
+<div style={{ display: 'flex' }}>
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=dldlyldldwwwwwwdwwdbbdbbdlddggdggdggdddoooooodlddrrdrr" width="200px" height="200px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=lylyyylylwwwwwwlwwdbbdbbdbldggdggdggdddoooooodrldrrdrr" width="200px" height="200px" />
+</div>
 
 ### Description
 
-![](img/OLS/CLSType.png)
-
-CLS orients the last layer corners while placing the final corner of the first two layers. The prerequisite is that the last layer edges are already oriented and the final F2L edge is already solved. This was proposed as the second step of MGLS.
+MGLS consists of two steps. The first step, called ELS, orients the last layer edges while solving the final edge of the first two layers. The second step, called CLS, orients the last layer corners while placing the final corner of the first two layers.
 
 ### Origin
 
-Shotaro Makisumi and Lucas Garron developed CLS from 2004 - 2007.[<sup>1</sup>][1]
-
-![](img/OLS/CLS1.png)
-![](img/OLS/CLS2.png)
+Shotaro Makisumi and Lucas Garron developed CLS from 2004 - 2007. See the [MGLS](3x3/Steps/MGLS.md) page for a detailed history.
 
 ## Erik Johnson Last Slot
 
-### Description
+<div style={{ display: 'flex' }}>
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=lylyyylylwwwwwwrwwdbbdbbdbwdggdggdggdddoooooodrbdrrdrr" width="200px" height="200px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=lylyyylylwwwwwwbwwdbbdbbdbrdggdggdggdddoooooodrwdrrdrr" width="200px" height="200px" />
+</div>
 
-![](img/OLS/EJLSType.png)
+### Description
 
 EJLS orients the last layer corners when there is a single misoriented corner in the first two layers and the last layer edges are already oriented. It is similar to the "I" and "Im" subsets of CLS. However, the difference is that the goal is to take advantage of easy situations in blockbuilding in Petrus, ZZ, or even CFOP where a corner can be placed misoriented at any point and save moves versus correctly solving the corner.
 
@@ -80,9 +83,9 @@ Erik Johnson proposed EJLS on speedsolving.com in September, 2008.[<sup>2</sup>]
 
 ## Summer Variation
 
-### Description
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=dyryyydbdwwwwwwdwwdbbdbbbyddggrggdggdddoooooowdddrrdrr" width="400px" height="400px" />
 
-![](img/OLS/SVType.png)
+### Description
 
 Summer Variation orients the last layer corners when all edges are already oriented and the final F2L pair is in the three turns away from solved state (R U R').
 
@@ -92,25 +95,38 @@ Chester Lian proposed the Summer Variation on speedsolving.com in January, 2009.
 
 ![](img/OLS/SV.png)
 
-## Valk's Last Slot and Hessler's Last Slot
+## Valk's Last Slot
+
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=bbllyllllwwwwwwlwwrbbrbbdlddggdggdggwddooooooddddrrdrr" width="200px" height="200px" />
 
 ### Description
 
-![](img/OLS/SVType.png)
-
-VLS orients the last layer edges and corners when the final F2L pair is pre-built. HLS orients the last layer pieces when the pair is R U R' away from solved.
+Valk's Last Slot (VLS) orients the last layer edges and corners when the final F2L pair is pre-built.
 
 ### Origin
 
-VLS was proposed by Mats Valk in 2009. HLS was proposed by Rowe Hessler in 2013.[<sup>5</sup>][5]
+In 2009, Mats Valk began incorporating algorithms that orient the last layer pieces when placing a built F2L pair. Valk had been using the algorithms in solves, but didn't publish an algorithm list at the time.
 
 ![](img/OLS/VLS-HLS.png)
 
-## Magic Wondeful
+
+## Hessler's Last Slot
+
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=llrlyllblwwwwwwlwwdbbdbbblddggrggdggdddoooooowdddrrdrr" width="200px" height="200px" />
 
 ### Description
 
-![](img/OLS/MWType.png)
+HLS orients the last layer pieces when the pair is R U R' away from solved.
+
+### Origin
+
+In 2013, Rowe Hessler had the same idea as Valk for VLS. Hessler developed the algorithms and called them RLS. After publishing the algorithms, Valk contacted Hessler to describe how he had been using the idea and algorithms prior to Hessler's development. They decided to split the idea into two subsets - VLS when the pair is pre-built, and Hessler's Last Slot (HLS) when the pair is R U R' away from solved.
+
+## Magic Wondeful
+
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=llbyybyylwwwwwwlwwdbbdbbwlddggdggdggdddoooooorddrrrdrr" width="200px" height="200px" />
+
+### Description
 
 Magic Wondeful orients all last last layer pieces when there is an oriented 1x2x2 block of pieces on the last layer and the final F2L pair is pre-built.
 
@@ -124,9 +140,9 @@ David Gomes, Jeremy Fleischman, and Devin Corr-Robinett developed the idea in 20
 
 ## Brooks Last Edge / Jack Johnston Last Slot
 
-### Description
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=lylyyblylwwwwwwwwwdbbdbbdybdggdggdggdddooooooddrrrrdrr" width="200px" height="200px" />
 
-![](img/OLS/BLE-JJLSType.png)
+### Description
 
 BLE / JJLS orients all last layer corners during insertion of the final F2L edge. The prerequisite is that the corner of the final F2L pair is already solved, all edges are already oriented, and the edge of the F2L pair is currently in the last layer.
 
