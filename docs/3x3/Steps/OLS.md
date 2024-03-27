@@ -27,7 +27,7 @@ VHLS orients all edges of the last layer when the final F2L pair is already buil
 
 ### Origin
 
-VHLS was proposed in October, 2003 on the Speed Solving Rubik's Cube Yahoo group by Lars Vandenberg and Dan Harris.
+VHLS was proposed in October, 2003 on the Speed Solving Rubik's Cube Yahoo group by Lars Vandenberg and Dan Harris [1].
 
 ![](img/OLS/VHLS1.png)
 ![](img/OLS/VHLS2.png)
@@ -42,7 +42,7 @@ Winter Variation orients all last layer corners when the final F2L pair is in th
 
 ### Origin
 
-Winter Variation was proposed in January, 2005 on the Speed Solving Rubik's Cube Yahoo group by Lucas Winter.
+Winter Variation was proposed in January, 2005 on the Speed Solving Rubik's Cube Yahoo group by Lucas Winter [2].
 
 ![](img/OLS/WV.png)
 
@@ -74,7 +74,7 @@ EJLS orients the last layer corners when there is a single misoriented corner in
 
 ### Origin
 
-Erik Johnson proposed EJLS on speedsolving.com in September, 2008.[<sup>2</sup>][2] [<sup>3</sup>][3]
+Erik Johnson proposed EJLS on speedsolving.com in September, 2008 [3, 4].
 
 ![](img/OLS/EJLS1.png)
 ![](img/OLS/EJLS2.png)
@@ -89,7 +89,7 @@ Summer Variation orients the last layer corners when all edges are already orien
 
 ### Origin
 
-Chester Lian proposed the Summer Variation on speedsolving.com in January, 2009.[<sup>4</sup>][4]
+Chester Lian proposed the Summer Variation on speedsolving.com in January, 2009 [5].
 
 ![](img/OLS/SV.png)
 
@@ -103,10 +103,12 @@ Valk's Last Slot (VLS) orients the last layer edges and corners when the final F
 
 ### Origin
 
-In 2009, Mats Valk began incorporating algorithms that orient the last layer pieces when placing a built F2L pair. Valk had been using the algorithms in solves, but didn't publish an algorithm list at the time.
+In 2009, Mats Valk began incorporating algorithms that orient the last layer pieces when placing a built F2L pair [6]. Valk had been using the algorithms in solves [7, 8, 9], but didn't publish an algorithm list at the time.
 
 ![](img/OLS/VLS-HLS.png)
-
+![](img/OLS/Valk1.png)
+![](img/OLS/Valk2.png)
+![](img/OLS/Valk3.png)
 
 ## Hessler's Last Slot
 
@@ -118,7 +120,7 @@ HLS orients the last layer pieces when the pair is R U R' away from solved.
 
 ### Origin
 
-In 2013, Rowe Hessler had the same idea as Valk for VLS. Hessler developed the algorithms and called them RLS. After publishing the algorithms, Valk contacted Hessler to describe how he had been using the idea and algorithms prior to Hessler's development. They decided to split the idea into two subsets - VLS when the pair is pre-built, and Hessler's Last Slot (HLS) when the pair is R U R' away from solved.
+In 2013, Rowe Hessler had the same idea as Valk for VLS [6]. Hessler developed the algorithms and called them RLS [10]. After publishing the algorithms, Valk contacted Hessler to describe how he had been using the idea and algorithms prior to Hessler's development. They decided to split the idea into two subsets - VLS when the pair is pre-built, and Hessler's Last Slot (HLS) when the pair is R U R' away from solved [11].
 
 ## Magic Wondeful
 
@@ -126,11 +128,11 @@ In 2013, Rowe Hessler had the same idea as Valk for VLS. Hessler developed the a
 
 ### Description
 
-Magic Wondeful orients all last last layer pieces when there is an oriented 1x2x2 block of pieces on the last layer and the final F2L pair is pre-built.
+Magic Wondeful orients all last layer pieces when there is an oriented 1x2x2 block of pieces on the last layer and the final F2L pair is pre-built.
 
 ### Origin
 
-David Gomes, Jeremy Fleischman, and Devin Corr-Robinett developed the idea in 2011 and it was presented on Shotaro Makisumi's website.[<sup>6</sup>][6] [<sup>7</sup>][7] [<sup>8</sup>][8]
+David Gomes, Jeremy Fleischman, and Devin Corr-Robinett developed the idea in 2011 and it was presented on Shotaro Makisumi's website [12, 13, 14].
 
 ![](img/OLS/MW1.png)
 ![](img/OLS/MW2.png)
@@ -148,51 +150,42 @@ BLE / JJLS orients all last layer corners during insertion of the final F2L edge
 
 #### Jack Johnston and Michael Gottlieb
 
-Jack Johnston proposed the idea in August, 2013 and Michael Gottlieb developed the algorithms.[<sup>9</sup>][9] [<sup>10</sup>][10] [<sup>11</sup>][11]
+Jack Johnston proposed the idea in August, 2013 and Michael Gottlieb developed the algorithms [15, 16, 17].
 
 ![](img/OLS/BLE-JJLS1.png)
 ![](img/OLS/BLE-JJLS2.png)
 ![](img/OLS/BLE-JJLS3.png)
 
-After development, Johnston presented JJLS to the community in September, 2013.[<sup>12</sup>][12]
+After development, Johnston presented JJLS to the community in September, 2013 [18].
 
 ![](img/OLS/JJLS.png)
 
 #### Anthony Brooks
 
-In 2014, Anthony Brooks independently proposed and developed the first two layer edge placement and last layer corner orientation step of JJLS.[<sup>13</sup>][13] [<sup>14</sup>][14]
+In 2014, Anthony Brooks independently proposed and developed the first two layer edge placement and last layer corner orientation step of JJLS [19, 20].
 
 ![](img/OLS/BLE1.png)
 ![](img/OLS/BLE2.png)
 
 ## References
 
-1. https://web.archive.org/web/20070913114107/http://cubefreak.net:80/f2lc_llco.html
-2. https://www.speedsolving.com/threads/secret-petrus-technique-revealed.6276/post-84298
-3. https://www.speedsolving.com/threads/secret-petrus-technique-revealed.6276/post-84523
-4. https://www.speedsolving.com/threads/cols-summer-variation-set-of-algs-without-a-name.8820/
-5. https://www.speedsolving.com/threads/ols-vls-hls-algorithms-by-mats-valk-and-rowe-hessler.44642/post-916360
-6. https://www.speedsolving.com/threads/introducing-magic-wondeful.29464/post-578938
-7. http://cubefreak.net/speed/advancedf2l/mw.php
-8. http://www.cyotheking.com/magic-wondeful/
-9. https://web.archive.org/web/20130919142035/https://johnstoncubing.webs.com/jjls.htm
-10. https://johnstoncubing.webs.com/jjlsstep1f2lcornereo.htm
-11. https://johnstoncubing.webs.com/jjlsstep2f2ledgeco.htm
-12. https://www.speedsolving.com/threads/new-ls-ll-approach.43862/post-897109
-13. https://web.archive.org/web/20140913231837/http://www.brookscubing.com/ble-brooks-last-edge.html
-14. https://www.speedsolving.com/threads/2-look-ls-ll-combinations.36468/post-1108339
-
-[1]: https://web.archive.org/web/20070913114107/http://cubefreak.net:80/f2lc_llco.html
-[2]: https://www.speedsolving.com/threads/secret-petrus-technique-revealed.6276/post-84298
-[3]: https://www.speedsolving.com/threads/secret-petrus-technique-revealed.6276/post-84523
-[4]: https://www.speedsolving.com/threads/cols-summer-variation-set-of-algs-without-a-name.8820/
-[5]: https://www.speedsolving.com/threads/ols-vls-hls-algorithms-by-mats-valk-and-rowe-hessler.44642/post-916360
-[6]: https://www.speedsolving.com/threads/introducing-magic-wondeful.29464/post-578938
-[7]: http://cubefreak.net/speed/advancedf2l/mw.php
-[8]: http://www.cyotheking.com/magic-wondeful/
-[9]: https://web.archive.org/web/20130919142035/https://johnstoncubing.webs.com/jjls.htm
-[10]: https://johnstoncubing.webs.com/jjlsstep1f2lcornereo.htm
-[11]: https://johnstoncubing.webs.com/jjlsstep2f2ledgeco.htm
-[12]: https://www.speedsolving.com/threads/new-ls-ll-approach.43862/post-897109
-[13]: https://web.archive.org/web/20140913231837/http://www.brookscubing.com/ble-brooks-last-edge.html
-[14]: https://www.speedsolving.com/threads/2-look-ls-ll-combinations.36468/post-1108339
+1. L. Vandenbergh and D. Harris, "Some thoughts on learning the ZB system," Yahoo! Groups - Speed Solving Rubik's Cube, 27 October 2003. [Online]. 
+2. L. Winter, "A variation on the Petrus Method.," Yahoo! Groups - Speed Solving Rubik's Cube, 27 January 2005. [Online]. 
+3. E. Johnson, "Secret Petrus technique REVEALED," SpeedSolving.com, 8 September 2008. [Online]. Available: https://www.speedsolving.com/threads/secret-petrus-technique-revealed.6276/.
+4. E. Johnson, "Secret Petrus technique REVEALED," SpeedSolving.com, 9 September 2008. [Online]. Available: https://www.speedsolving.com/threads/secret-petrus-technique-revealed.6276/post-84523.
+5. C. Lian, "COLS/"Summer Variation"/set of algs without a name," SpeedSolving.com, 19 January 2009. [Online]. Available: https://www.speedsolving.com/threads/cols-summer-variation-set-of-algs-without-a-name.8820/.
+6. R. Hessler, "OLS (VLS + HLS) Algorithms: by Mats Valk and Rowe Hessler," SpeedSolving.com, 30 October 2013. [Online]. Available: https://www.speedsolving.com/threads/ols-vls-hls-algorithms-by-mats-valk-and-rowe-hessler.44642/.
+7. M. Valk, "Mats Valk 3x3 9.43 avg and 6.41 single!," SpeedSolving.com, 30 October 2011. [Online]. Available: https://www.speedsolving.com/threads/mats-valk-3x3-9-43-avg-and-6-41-single.33243/post-662179.
+8. R. Stuart and M. Valk, "Mats Valk 3x3 9.43 avg and 6.41 single!," SpeedSolving.com, 31 October 2011. [Online]. Available: https://www.speedsolving.com/threads/mats-valk-3x3-9-43-avg-and-6-41-single.33243/post-662386.
+9. R. Stuart and M. Valk, "Mats Valk 3x3 average: 7.77," SpeedSolving.com, 17 September 2012. [Online]. Available: https://www.speedsolving.com/threads/mats-valk-3x3-average-7-77.38613/post-782931.
+10. R. Hessler, "RLS," Hessler's Website, 2013. [Online]. Available: https://rowe.cubing.net/rls/.
+11. R. Hessler and M. Valk, "Introduction," YouTube, 30 October 2013. [Online]. Available: https://www.youtube.com/watch?v=dDLv3duiu5o.
+12. S. Makisumi, "Introducing Magic Wondeful," SpeedSolving.com, 20 May 2011. [Online]. Available: https://www.speedsolving.com/threads/introducing-magic-wondeful.29464/.
+13. D. Gomes, J. Fleischman, D. Corr-Robinett and S. Makisumi, "Magic Wondeful," Makisumi's Website, 20 May 2011. [Online]. Available: http://cubefreak.net/speed/advancedf2l/mw.php.
+14. C. Olson, "Magic Wondeful," Olson's Website, [Online]. Available: http://www.cyotheking.com/magic-wondeful/.
+15. J. Johnston and M. Gottlieb, "JJLS," Johnston's Website, [Online]. Available: https://web.archive.org/web/20130919142035/https://johnstoncubing.webs.com/jjls.htm.
+16. J. Johnston and M. Gottlieb, "STEP 1: F2L CORNER + EO," Johnston's Website, [Online]. Available: https://web.archive.org/web/20131209052835/https://johnstoncubing.webs.com/jjlsstep1f2lcornereo.htm.
+17. J. Johnston and M. Gottlieb, "STEP 2: F2L EDGE + CO," Johnston's Website, [Online]. Available: https://web.archive.org/web/20210119190659/https://johnstoncubing.webs.com/jjlsstep2f2ledgeco.htm.
+18. J. Johnston, "New(?) LS + LL Approach," SpeedSolving.com, 4 September 2013. [Online]. Available: https://www.speedsolving.com/threads/new-ls-ll-approach.43862/.
+19. A. Brooks, "Brooks Last Edge (BLE)," Brooks' Website, [Online]. Available: https://web.archive.org/web/20140913231837/http://www.brookscubing.com/ble-brooks-last-edge.html.
+20. J. Johnston, "2-look LS+LL combinations," SpeedSolving.com, 11 August 2015. [Online]. Available: https://www.speedsolving.com/threads/2-look-ls-ll-combinations.36468/post-1108339.
