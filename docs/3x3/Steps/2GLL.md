@@ -14,7 +14,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 [Click here for more step details on the SpeedSolving wiki]( https://www.speedsolving.com/wiki/index.php?title=2GLL)
 
-## Origin
+## Development
 
 ### Petrus Method
 
