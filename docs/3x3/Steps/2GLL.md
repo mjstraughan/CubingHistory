@@ -8,6 +8,12 @@ import AnimCube from "@site/src/components/AnimCube";
 
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php?title=2GLL)
 
+https://web.archive.org/web/20020305024947/https://lar5.com/cube/xMain.html
+
+https://lar5.com/cube/xMain.html
+
+https://web.archive.org/web/20010428080630/http://www.ens-lyon.fr/~bhelmste/
+
 ## Name Origin
 
 The acronym 2GLL was created by Timothy Sun in July, 2007. Sun posted a message to twistypuzzles.com using the acronym and explaining what it stands for [1, 2].

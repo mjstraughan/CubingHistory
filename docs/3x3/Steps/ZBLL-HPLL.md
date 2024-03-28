@@ -1,4 +1,8 @@
+import AnimCube from "@site/src/components/AnimCube";
+
 # ZBLL / HPLL
+
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=lylyyylylwwwwwwwwwlbblbblbblgglgglggllloooooolrrlrrlrr" width="400px" height="400px" />
 
 ## Description
 
@@ -6,7 +10,7 @@ ZBLL solves the last layer in one step when all last layer edges are oriented.
 
 **Proposer:** [Lars Petrus](CubingContributors/MethodDevelopers.md#petrus-lars), [Bernard Helmstetter](CubingContributors/MethodDevelopers.md#helmstetter-bernard)
 
-**Proposed:** 1981, 2000.
+**Proposed:** 1981 - 2000.
 
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/ZBLL)
 
@@ -16,19 +20,25 @@ ZBLL solves the last layer in one step when all last layer edges are oriented.
 
 In 1981, Lars Petrus developed the [Petrus method](3x3/Methods/Petrus.md), a method that intentionally orients all of the last layer edges early in the solve. The last layer can be solved in a single step. However, the algorithms hadn't yet been developed.
 
+### Anneke Treep, Kurt Dockhorn, and Hans Dockhorn
+
+In the 1980s, Anneke Treep, Kurt Dockhorn, and Hans Dockhorn generated all possible last layer solutions. This team had previously developed OLL and PLL for the [CFOP method](3x3/Methods/CFOP.md). In *Cracking the Cube*, Ian Scheffler recounts a conversation with Treep, stating that after developing OLL and PLL the team “went even further, delineating not only the orientation and permutation cases but the nearly 1,200 possible arrangements of the last layer, devising an algorithm for each of them.” [1]
+
+In actuality, there are 3,916 last layer cases and 1,212 when symmetries and inverses are counted as the same case. In the early days of the community, it was common to create and learn algorithm sets from this reduced form. The development of the 1,212 cases may seem in modern times to be an incomplete development. But it is important to consider the mindset at the time.
+
 ### Bernard Helmstetter
 
-From 2000 to 2001, Bernard Helmstetter generated the algorithms to solve the last layer in one step when all edges are oriented.[<sup>1</sup>][1] The algorithms were specifically targeting the Petrus method.
+From 2000 to 2001, Bernard Helmstetter also generated the algorithms to solve the last layer in one step. As part of the algorithm sets, Helmstetter specifically separated out the cases where all edges are oriented [2]. The all edges oriented cases were, as displayed on the site, targeting the Petrus method and its unique and intentional advantage of pre-orienting the last layer edges.
 
 ![](img/ZBLL/Helmstetter.png)
 
 ### Lars Petrus Comments
 
-In May, 2003, stated on the Speed Solving Rubik's Cube Yahoo group that Helmstetter's algorithms would be a great way to exploit the Petrus method's advantage of having all last layer edges already oriented. Petrus had planned to learn the algorithm set to use at an upcoming competition, but felt that he no longer had time.
+In May, 2003, stated on the Speed Solving Rubik's Cube Yahoo group that Helmstetter's algorithms would be a great way to exploit the Petrus method's advantage of having all last layer edges already oriented [3]. Petrus had planned to learn the algorithm set to use at an upcoming competition, but felt that he no longer had time.
 
 ![](img/ZBLL/PetrusHelmstetter1.png)
 
-Petrus also has Helmstetter's algorithms linked on the Petrus method website.[<sup>2</sup>][2]
+Petrus also has Helmstetter's algorithms linked on the Petrus method website [4].
 
 ![](img/ZBLL/PetrusHelmstetter2.png)
 
@@ -36,7 +46,7 @@ Petrus also has Helmstetter's algorithms linked on the Petrus method website.[<s
 
 ### Edge Orientation
 
-In 2001, Zbigniew Zborowski and Ron van Bruchem incorporated edge orientation into the last layer of CFOP, similar to the Petrus method. Zborowski and Bruchem independently had the idea to orient all last layer edges while solving the final pair of the first two layers.
+In 2001, Zbigniew Zborowski and Ron van Bruchem incorporated edge orientation into the last layer of CFOP, similar to the Petrus method. Zborowski and Bruchem independently had the idea to orient all last layer edges while solving the final pair of the first two layers [5].
 
 ![](img/ZBLL/ZB1.png)
 
@@ -44,13 +54,13 @@ In 2001, Zbigniew Zborowski and Ron van Bruchem incorporated edge orientation in
 
 #### Zborowski
 
-Zborowski stated on his website for ZBLS for readers of the site to use Helmstetter's algorithms that were developed for the Petrus method.[<sup>3</sup>][3] Zborowski stated "The conception of [solving the last layer in one step] is not new! Bernard Helmstetter has created this for Lars Petrus a few years ago. This is the Helmstetter index called 'Lars method steps 5, 6, and 7 simultaneously." Zborowski then links to Helmstetter's website and algorithms.
+Zborowski stated on his website for ZBLS for readers of the site to use Helmstetter's algorithms that were developed for the Petrus method [6]. Zborowski stated "The conception of [solving the last layer in one step] is not new! Bernard Helmstetter has created this for Lars Petrus a few years ago. This is the Helmstetter index called 'Lars method steps 5, 6, and 7 simultaneously." Zborowski then links to Helmstetter's website and algorithms.
 
 ![](img/ZBLL/ZCredit.png)
 
 #### Bruchem
 
-In the early 2000s, Helmstetter's algorithms were added to speedcubing.com, a site owned by Ron van Bruchem.[<sup>4</sup>][4]
+In the early 2000s, Helmstetter's algorithms were added to speedcubing.com, a site owned by Ron van Bruchem [7].
 
 ![](img/ZBLL/BCredit.png)
 
@@ -58,13 +68,13 @@ In the early 2000s, Helmstetter's algorithms were added to speedcubing.com, a si
 
 ### Acronym
 
-The community eventually started calling the step ZBLL. The first known use of the acronym is by Shotaro Makisumi. However, the acronym may have been used even earlier during the 1.5 year time period of message that were deleted from the Speed Solving Rubik's Cube Yahoo group.
+The community eventually started calling the step ZBLL. The first known use of the acronym is by Shotaro Makisumi [8]. However, the acronym may have been used even earlier during the 1.5 year time period of messages that were deleted from the Speed Solving Rubik's Cube Yahoo group.
 
 ![](img/ZBLL/ZBName.png)
 
 ### Zborowski Adopts Acronym
 
-Zborowski starts using the acronym despite having previously acknowledged that Helmstetter and Petrus are who put in the work to create it.[<sup>5</sup>][5]
+Zborowski starts using the ZBLL acronym after having previously acknowledged that Helmstetter and Petrus are who put in the work to develop the step [9].
 
 ![](img/ZBLL/ZborowskiSmiles.png)
 
@@ -80,7 +90,7 @@ Several recognition methods have been developed to quickly determine the current
 
 ### Baum Harris (BH)
 
-BH was proposed in 2007-2008 by Jason Baum and Dan Harris.[<sup>6</sup>][6]
+BH was proposed in 2007-2008 by Jason Baum and Dan Harris [10].
 
 ![](img/ZBLL/BH.png)
 
@@ -88,17 +98,19 @@ BH was proposed in 2007-2008 by Jason Baum and Dan Harris.[<sup>6</sup>][6]
 
 Tran Style recognition was first mentioned in 2015 in a seminar by Chris Tran then detailed in February 2016.
 
-https://www.youtube.com/watch?v=JyW1dm6mG-s
+<iframe width="640" height="360" src="https://www.youtube.com/embed/JyW1dm6mG-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### No Corner Permutation (NCP)
 
-No Corner Permutation (NCP) was developed in November, 2021 by Ryan Hudgens.[<sup>7</sup>][7] [<sup>8</sup>][8]
+No Corner Permutation (NCP) was developed in November, 2021 by Ryan Hudgens [11].
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/6fMDp5o2Ca8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![](img/ZBLL/NCP.png)
 
 ### Tran Style V2
 
-TV2 was proposed by Ryan Hudgens in September 2022.[<sup>9</sup>][9] [<sup>10</sup>][10]
+TV2 was proposed by Ryan Hudgens in September 2022 [12, 13, 14].
 
 ![](img/ZBLL/TV21.png)
 >This is from a private conversation between Hudgens and Joseph Tudor.
@@ -108,48 +120,36 @@ TV2 was proposed by Ryan Hudgens in September 2022.[<sup>9</sup>][9] [<sup>10</s
 
 ### Polar
 
-Polar was documented by Michael James Straughan in August 2023.[<sup>11</sup>][11] Although documented in 2023, the idea goes back to around 2010-2012 when NMLL, the MI2 method, and the second version of NMCLL recognition were developed. Each of those have a focus on positioning stickers or pieces on the left and right sides of the cube. Polar is similar to Tran V2, which was published first. The major difference is the CLL recognition system.
+Polar was documented by Michael James Straughan in August 2023 [15]. Although documented in 2023, the idea goes back to around 2010-2012 when NMLL, the MI2 method, and the second version of NMCLL recognition were developed [16]. Each of those have a focus on positioning stickers or pieces on the left and right sides of the cube. Polar is similar to Tran V2, which was published first. The major difference is the CLL recognition system.
 
 ![](img/ZBLL/Polar1.png)
->This is from a private conversation between Tim Mosher and Straughan.
+>This is from a private conversation between Straughan and Tim Mosher.
 
 ![](img/ZBLL/Polar2.png)
 
 ### Resources
 
-In September, 2022, Hudgens created a guide that describes the various ZBLL recognition systems.[<sup>12</sup>][12] [<sup>13</sup>][13] [<sup>14</sup>][14]
+In September, 2022, Hudgens created a guide that describes the various ZBLL recognition systems [17, 13, 12].
 
 ![](img/ZBLL/Guide1.png)
 ![](img/ZBLL/Guide2.png)
 
 ## References
 
-1. https://web.archive.org/web/20030404233432/http://www.ai.univ-paris8.fr/~bh/cube/
-2. https://web.archive.org/web/20020305024947/https://lar5.com/cube/xMain.html
-3. https://web.archive.org/web/20031004211939/http://www.zborowski.republika.pl/expert3x3x3methodstep3.html
-4. https://web.archive.org/web/20020219153732/http://www.speedcubing.com:80/finallayer.html
-5. https://web.archive.org/web/20070428175325/http://www.speedcubing.com.pl/nooks_zz.htm#wprowadzenie_systemy_zb
-6. https://web.archive.org/web/20100430213941/http://jmbaum.110mb.com/zbll.htm
-7. https://www.speedsolving.com/threads/ncp-a-cp-less-zbll-recognition-system.85816/
-8. https://www.youtube.com/watch?v=6fMDp5o2Ca8
-9. https://orecubingprojects.github.io./OreKehStrah%27s%20ZBLL%20Recognition%20Guide.html
-10. https://docs.google.com/spreadsheets/d/1nrrO2xaIHcI8EKaJUxj0PDzx4CJ58jqhsFDZSbxQaoQ/edit#gid=1778839486
-11. https://sites.google.com/site/athefre/other/polar-recognition
-12. https://www.speedsolving.com/threads/how-to-recognize-zbll-an-explanation-and-comparison-of-the-main-systems-2022-edition.87814/
-13. https://docs.google.com/spreadsheets/d/1nrrO2xaIHcI8EKaJUxj0PDzx4CJ58jqhsFDZSbxQaoQ/edit#gid=1778839486
-14. https://orecubingprojects.github.io./OreKehStrah%27s%20ZBLL%20Recognition%20Guide.html
-
-[1]: https://web.archive.org/web/20030404233432/http://www.ai.univ-paris8.fr/~bh/cube/
-[2]: https://web.archive.org/web/20020305024947/https://lar5.com/cube/xMain.html
-[3]: https://web.archive.org/web/20031004211939/http://www.zborowski.republika.pl/expert3x3x3methodstep3.html
-[4]: https://web.archive.org/web/20020219153732/http://www.speedcubing.com:80/finallayer.html
-[5]: https://web.archive.org/web/20070428175325/http://www.speedcubing.com.pl/nooks_zz.htm#wprowadzenie_systemy_zb
-[6]: https://web.archive.org/web/20100430213941/http://jmbaum.110mb.com/zbll.htm
-[7]: https://www.speedsolving.com/threads/ncp-a-cp-less-zbll-recognition-system.85816/
-[8]: https://www.youtube.com/watch?v=6fMDp5o2Ca8
-[9]: https://orecubingprojects.github.io./OreKehStrah%27s%20ZBLL%20Recognition%20Guide.html
-[10]: https://docs.google.com/spreadsheets/d/1nrrO2xaIHcI8EKaJUxj0PDzx4CJ58jqhsFDZSbxQaoQ/edit#gid=1778839486
-[11]: https://sites.google.com/site/athefre/other/polar-recognition
-[12]: https://www.speedsolving.com/threads/how-to-recognize-zbll-an-explanation-and-comparison-of-the-main-systems-2022-edition.87814/
-[13]: https://docs.google.com/spreadsheets/d/1nrrO2xaIHcI8EKaJUxj0PDzx4CJ58jqhsFDZSbxQaoQ/edit#gid=1778839486
-[14]: https://orecubingprojects.github.io./OreKehStrah%27s%20ZBLL%20Recognition%20Guide.html
+1. I. Scheffler, in Cracking the Cube: Going Slow to Go Fast and Other Unexpected Turns in the World of Competitive Rubik's Cube Solving, Atria Books, 2016, p. 153.
+2. B. Helmstetter, Helmstetter's Website, 2001. [Online]. Available: https://web.archive.org/web/20030404233432/http://www.ai.univ-paris8.fr/~bh/cube/.
+3. L. Petrus, "Re: [Speed cubing group] Re: Solving the last layer in one step," Yahoo! Groups - Speed Solving Rubik's Cube, 16 May 2003. [Online]. 
+4. L. Petrus, "Final layer position index for step 6," Yahoo! Groups - Speed Solving Rubik's Cube, 2002. [Online]. Available: https://web.archive.org/web/20020305024947/https://lar5.com/cube/xMain.html.
+5. R. v. Bruchem and Z. Zborowski, "Back to cubing! What is everyone doing after WC 2003?," Yahoo! Groups - Speed Solving Rubik's Cube, 24 October 2003. [Online]. 
+6. Z. Zborowski, "Expert method to solve the 3x3x3 Rubik’s cube – step 3," Yahoo! Groups - Speed Solving Rubik's Cube, 2003. [Online]. Available: https://web.archive.org/web/20031004211939/http://www.zborowski.republika.pl/expert3x3x3methodstep3.html.
+7. R. v. Bruchem, "Algorithms for the final layer," SpeedCubing.com, 2002. [Online]. Available: https://web.archive.org/web/20020219153732/http://www.speedcubing.com:80/finallayer.html.
+8. S. Makisumi, "Re: Oll+corners algs?," Yahoo! Groups - Speed Solving Rubik's Cube, 5 February 2005. [Online]. 
+9. Z. Zborowski, "zz speedcubing system - 1.7.6 Classic system collection," Zborowski's Website, 2006. [Online]. Available: https://web.archive.org/web/20070428175325/http://www.speedcubing.com.pl/nooks_zz.htm#wprowadzenie_systemy_zb.
+10. J. Baum and D. Harris, "ZBLL," Baum's Website, 2006. [Online]. Available: https://web.archive.org/web/20100430213941/http://jmbaum.110mb.com/zbll.htm.
+11. R. Hudgens, "NCP - A CP-Less ZBLL Recognition System!," SpeedSolving.com, 27 November 2021. [Online]. Available: https://www.speedsolving.com/threads/ncp-a-cp-less-zbll-recognition-system.85816/.
+12. R. Hudgens, "OreKehStrah’s ZBLL Recognition Guide," Hudgens' ZBLL recognition guide, 2022. [Online]. Available: https://orecubingprojects.github.io./OreKehStrah%27s%20ZBLL%20Recognition%20Guide.html.
+13. R. Hudgens, "Tran-Style (V1 and V2)," OreKehStrah's ZBLL Recognition Method Comparison, 2022. [Online]. Available: https://docs.google.com/spreadsheets/d/1nrrO2xaIHcI8EKaJUxj0PDzx4CJ58jqhsFDZSbxQaoQ/edit#gid=1778839486.
+14. R. Hudgens and J. Tudor, Personal communication, 1 September 2022. [Online]. 
+15. M. J. Straughan, "Polar ZBLL Recognition," Straughan's Website, 2023. [Online]. Available: https://sites.google.com/site/athefre/other/polar-recognition.
+16. M. J. Straughan and T. Mosher, Personal communication, 21 September 2022. [Online]. 
+17. R. Hudgens, "How to Recognize ZBLL: An Explanation and comparison of the Main Systems (2022 Edition)," SpeedSolving.com, 14 September 2022. [Online]. Available: https://www.speedsolving.com/threads/how-to-recognize-zbll-an-explanation-and-comparison-of-the-main-systems-2022-edition.87814/.

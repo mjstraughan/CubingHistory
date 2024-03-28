@@ -58,10 +58,8 @@ Thanks to err0rcuber for assisting with numerous things to get the site looking 
 - Set up AnimCubeJS on the site to allow cube applets to be used.
 - Got archive html links working. This allowed for linking to html pages of old websites that are now stored here.
 
-Most of the information on the site comes from personal research. But there are some things that I wouldn't have been able to completely verify without the help of others.
+Georges Helm was kind enough to look through the books that he owns and confirm my suspicions and provide me details. Helm sent me a lot of information and hand written descriptions of the steps within numerous books. Some of this information changed the history that was previously thought, especially as it relates to Layer By Layer and CFOP.
 
-Georges Helm in particular was a great help. He was kind enough to look through the books that he owns and confirm my suspicions and provide me details.
-
-Ron van Bruchem also provided me some information about early method development.
+Ron van Bruchem also provided some information about early method development.
 
 Others have been very willing to explain the origin of their own developments. Each person is credited on the site in the area in which they provided help.
