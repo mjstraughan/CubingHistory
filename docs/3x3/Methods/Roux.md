@@ -94,7 +94,7 @@ In April, 2010, Straughan developed a new recognition method [14, 15]. This reco
 
 #### Third Recognition Method
 
-Another recognition method for NMCMLL was developed by Straughan and Tim Mosher in December, 2021 [16, 17]. This recognition method is a refinement of the previous one. Instead of checking four pre-determined positions for a pattern, only two positions need to be checked.
+Another recognition method for NMCMLL was devised by Straughan and developed into a table of algorithms and guide by Tim Mosher in December, 2021 [16, 17]. This recognition method is a refinement of the previous system. Instead of checking four pre-determined positions for a pattern, only two positions need to be checked.
 
 ![](img/Roux/ATCRMRelease.png)
 ![](img/Roux/NMCMLL7.png)
@@ -142,7 +142,7 @@ The community had long doubted the viability of the Roux method for use in one-h
 
 #### First Proposal and Development
 
-EOLR was first proposed and developed by Straughan in August, 2012 [29]. EOLR is now split into two types. EOLR orients all edges and places the UL and UR edges on the bottom layer. EOLRb orients all edges and directly solves the UL and UR edges. Straughan's initial proposal was for both types. All of EOLR was developed, including all possible edge orientation angles. Straughan's version of EOLR intentionally left out the final M or M' move [30]. This allowed the user to determine if the UL and UR edges do need to be placed on the bottom layer or if there is the opportunity to directly solve the two edges with a final M or M' turn. Some cases orient all edges or lead to an alternate EO arrow state. Half of EOLRb was developed, with the expressed plan being to complete the other half [30].
+EOLR was first proposed and developed by Straughan in August, 2012 [29]. EOLR is now split into two types. EOLR orients all edges and places the UL and UR edges on the bottom layer. EOLRb orients all edges and directly solves the UL and UR edges. Straughan's initial proposal was for both types. All of EOLR was developed, including all possible edge orientation angles. Straughan's version of EOLR sets up to the final arrow EO state [30]. This allows the user to determine if the UL and UR edges do need to be placed on the bottom layer or if there is the opportunity to directly solve the two edges. Half of EOLRb was developed, with the expressed plan being to complete the other half [30].
 
 ![](img/Roux/EOLR1.png)
 ![](img/Roux/EOLR2.png)
