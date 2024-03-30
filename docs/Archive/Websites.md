@@ -1,4 +1,4 @@
-import SortableTable from "@site/src/components/SortableTable";
+import SortableTable from "../../../src/components/SortableTable";
 
 # Websites
 
