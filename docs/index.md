@@ -3,26 +3,6 @@ sidebar_position: 1
 slug: /
 ---
 
-<script>
-var acjs_removeListeners = [];
-var arr = [
-  'ddddydddddwdwwwdwdddddbbdddddddggdddddddoddodddddrrddd',
-  'ddddyddddwwwwwwwwwdbbdbbdbbdggdggdggdddoooooodrrdrrdrr',
-  'yyyyyyyyywwwwwwwwwdbbdbbdbbdggdggdggdddoooooodrrdrrdrr',
-  'yyyyyyyyywwwwwwwwwbbbbbbbbbgggggggggooooooooorrrrrrrrr'
-];
-var rate = 1;
-var n = 0;
-AnimCube3('id=c1');
-f();
-function f() {
-  acjs_removeListeners['c1']();
-  var params = 'id=c1&facelets=' + arr[n++%4];
-  AnimCube3(params);
-  setTimeout(f, rate*1000);
-}
-</script>
-
 # Cubing History
 
 ## Purpose
