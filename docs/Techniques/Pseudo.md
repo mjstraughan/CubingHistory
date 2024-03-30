@@ -107,7 +107,7 @@ An earlier mention of the idea can be found in 2003. This comes from a short dis
 
 ## Retroactive Solving
 
-<AnimCube params="buttonbar=1&position=lluuu&scale=6&hint=10&hintborder=1&movetext=3&initrevmove=U'R'FRU'R'FRURUR'F'&facelets=ydydydydywwwdwdwwwbbbdbdbbbgggdgdgggodooooooorrrdrrrrr" width="400px" height="400px" />
+<AnimCube params="buttonbar=1&position=lluuu&scale=6&hint=10&hintborder=1&move=U'R'FRU'R'FRURUR'F'&movetext=3&initrevmove=U'R'FRU'R'FRURUR'F'&facelets=ydydydydywwwdwdwwwbbbdbdbbbgggdgdgggodooooooorrrdrrrrr" width="400px" height="400px" />
 
 ### Description
 
