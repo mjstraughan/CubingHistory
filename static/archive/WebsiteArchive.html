@@ -15,20 +15,26 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
 
   <style>
+    /* Table styles */
+    table.dataTable {
+      background-color: white;
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      margin-top: 20px;
+    }
+
     table.dataTable thead th {
       font-weight: bold;
+      background-color: #f0f0f0;
     }
 
-    /* Add background color for header */
-    #myTable_wrapper .dataTables_scrollHeadInner {
-      background-color: #f0f0f0;
-      padding: 10px;
+    table.dataTable tbody tr:nth-child(odd) {
+      background-color: #f9f9f9;
     }
 
-    /* Add background color for footer */
-    #myTable_paginate {
-      background-color: #f0f0f0;
-      padding: 10px;
+    table.dataTable tbody tr:nth-child(even) {
+      background-color: white;
     }
   </style>
 </head>
