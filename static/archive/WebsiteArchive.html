@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Archive</title>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- DataTables -->
+  <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+
+  <style>
+    table.dataTable thead th {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<table id="myTable" class="display">
+  <thead>
+    <tr>
+      <th>Creator</th>
+      <th>Content</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lars Petrus</td>
+      <td>Petrus method</td>
+      <td>https://lar5.com/cube/index.html</td>
+    </tr>
+    <tr>
+      <td>Jessica Fridrich</td>
+      <td>Fridrich method</td>
+      <td>http://www.ws.binghamton.edu/fridrich/cube.html</td>
+    </tr>
+  </tbody>
+</table>
+
+<script>
+  $(document).ready(function() {
+    $('#myTable').DataTable();
+  });
+</script>
+
+</body>
+</html>
