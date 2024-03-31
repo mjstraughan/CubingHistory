@@ -8,7 +8,7 @@ import AnimCube2 from "./AnimCube2";
  * @example
  * <AnimCube2 params="move=RUR'URU2R'U2&initrevmove=#" width="400px" height="300px"/>
  */
-export default function AnimCube2({
+export default function AnimCube2x2({
   params,
   width = "200px",
   height = "219px",
@@ -16,7 +16,7 @@ export default function AnimCube2({
   const id = "animcube_" + useId();
   const divRef = useRef();
   useEffect(() => {
-    AnimCube2(`id=${id}&${params}`);
+    AnimCube2x2(`id=${id}&${params}`);
     const canvas = divRef.current?.childNodes[0];
     if (canvas) {
       canvas.style.maxWidth = "100%";
