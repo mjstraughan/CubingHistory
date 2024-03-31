@@ -69,7 +69,7 @@ On May 24, 1992, Dik Winter ran an extensive calculation of the first phase of K
 
 ![](img/ComputerAlgorithms/Winter.png)
 
-## Silviu Radu (2005, 2006)
+## Silviu Radu (2005-2006)
 
 In December, 2005, using the same method as Mike Reid, Silviu Radu reduced the maximum to 28 moves [12, 4]. This was accomplished by implementing methods to avoid the cube positions that had previously been calculated to require 29 moves.
 
@@ -85,7 +85,7 @@ The upper bound was further lowered to 26 in 2007, thanks to the work of Daniel 
 
 ![](img/ComputerAlgorithms/KunkleCooperman.png)
 
-## Tomas Rokicki, Herbert Kociemba, Morley Davidson, John Dethridge (2007)
+## Tomas Rokicki, Herbert Kociemba, Morley Davidson, John Dethridge (2007-2010)
 
 In 2006, a team consisting of Tomas Rokicki, Herbert Kociemba, Morley Davidson, John Dethridge set out to further reduce the number [17].
 
