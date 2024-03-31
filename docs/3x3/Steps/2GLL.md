@@ -6,7 +6,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 ## Description
 
-2GLL solves the last layer in one step when the corners have previously been permuted.
+2GLL solves the last layer in one step when the edges are oriented and the corners are correctly permuted.
 
 **Proposer:** [Lars Petrus](CubingContributors/MethodDevelopers.md#petrus-lars), [Bernard Helmstetter](CubingContributors/MethodDevelopers.md#helmstetter-bernard)
 
