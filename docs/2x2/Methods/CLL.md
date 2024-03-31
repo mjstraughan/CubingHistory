@@ -1,5 +1,5 @@
-import AnimCube from "@site/src/components/AnimCube";
+import AnimCube2 from "@site/src/components/AnimCube2";
 
 # CLL
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ywyyywwywwwywwyyywogbrbgrbbgbgogrrgrgbboorobbgroorgoor" width="400px" height="400px" />
+<AnimCube2 params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=yrogwwwwbbybrgygogoobryr" width="400px" height="400px" />
