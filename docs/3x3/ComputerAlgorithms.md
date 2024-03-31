@@ -7,7 +7,7 @@ import AnimCube from "@site/src/components/AnimCube";
 # Computer Algorithms
 A history of algorithms and their role in proving God's number.
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=yyyyyyyyywwwwwwwwwdbbdbbdbbdggdggdggdddoooooodrrdrrdrr" width="400px" height="400px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ywyyywwywwwywwyyywogbrbgrbbgbgogrrgrgbboorobbgroorgoor" width="400px" height="400px" />
 
 ## Morwen Thistlethwaite (1980)
 
@@ -27,7 +27,7 @@ In 1980, Thistlethwaite created a new strategy for solving the cube [2, 3, 4]. T
 3. Move all edges into their correct inner slices and position all corner stickers to their matching or opposite layers. (Group 2: \<L2, R2, F2, B2, U2, D2\>). Moves: 15.
 4. Solve using the move group from step 3. Moves: 17.
 
-![](img/ComputerAlgorithms /Thistlethwaite.png)
+![](img/ComputerAlgorithms/Thistlethwaite1.png)
 
 ## Hans Kloosterman (1990)
 
@@ -38,7 +38,7 @@ In 1990, Hans Kloosterman improved upon Thistlethwaite's algorithm [5, 3, 6, 4].
 3. Move U and D pieces to their correct layers.
 4. Finish.
 
-![](img/ComputerAlgorithms /Kloosterman.png)
+![](img/ComputerAlgorithms/Kloosterman.png)
 
 ## Herbert Kociemba (1992)
 
@@ -47,7 +47,7 @@ In 1992, another improvement upon Thistlethwaite's algorithm was published in Cu
 1. Orient edges, move all U/D pieces to U/D, and orient all corners to U/D. (Group 1: \<U, D, L2, R2, F2, B2\>)
 2. Solve using the move group from step 1.
 
-![](img/ComputerAlgorithms /Kociemba.png)
+![](img/ComputerAlgorithms/Kociemba.png)
 
 ## Mike Reid (1992, 1994)
 
@@ -57,11 +57,11 @@ On May 22, 1992, Mike Reid submitted an alternative algorithm to the Cube Lovers
 2. Orient all edges and corners and move all U/D pieces to U/D. (Group 2: \<U, R2, F2\>). Moves: 13.
 3. Solve using the move group from step 2. Moves: 19.
 
-![](img/ComputerAlgorithms /Reid1.png)
+![](img/ComputerAlgorithms/Reid1.png)
 
 In 1995, Reid ran a calculation on the \<U, D, F2, R2, B2, L2\> group, reducing the maximum to 29 moves [10, 4].
 
-![](img/ComputerAlgorithms /Reid2.png)
+![](img/ComputerAlgorithms/Reid2.png)
 
 new upper bounds, Cube Lovers, January 7, 1995
 
@@ -69,39 +69,39 @@ new upper bounds, Cube Lovers, January 7, 1995
 
 On May 24, 1992, Dik Winter ran an extensive calculation of the first phase of Kociemba's algorithm. This provided a maximum distance of 12 moves. Winter combined this with the results of the final two phases of Kloosterman's algorithm, which was 25. The final result was a maximum distance of 37 [11, 4], which was the record at the time.
 
-![](img/ComputerAlgorithms /Winter.png)
+![](img/ComputerAlgorithms/Winter.png)
 
 ## Silviu Radu (2005, 2006)
 
 In December, 2005, using the same method as Mike Reid, Silviu Radu reduced the maximum to 28 moves [12, 4]. This was accomplished by implementing methods to avoid the cube positions that had previously been calculated to require 29 moves.
 
-![](img/ComputerAlgorithms /Radu1.png)
+![](img/ComputerAlgorithms/Radu1.png)
 
 In 2005, Radu further decreased the number to 27 moves [13, 14, 4].
 
-![](img/ComputerAlgorithms /Radu2.png)
+![](img/ComputerAlgorithms/Radu2.png)
 
 ## Daniel Kunkle and Gene Cooperman (2007)
 
 The upper bound was further lowered to 26 in 2007, thanks to the work of Daniel Kunkle and Gene Cooperman [15, 16, 4].
 
-![](img/ComputerAlgorithms /KunkleCooperman.png)
+![](img/ComputerAlgorithms/KunkleCooperman.png)
 
 ## Tomas Rokicki, Herbert Kociemba, Morley Davidson, John Dethridge (2007)
 
 In 2006, a team consisting of Tomas Rokicki, Herbert Kociemba, Morley Davidson, John Dethridge set out to further reduce the number [17].
 
-![](img/ComputerAlgorithms /Team1.png)
+![](img/ComputerAlgorithms/Team1.png)
 
 Over a five month period in 2008, the team gradually reduced the maximum from 25 [18], to 23 [19], and then to 22 [20].
 
-![](img/ComputerAlgorithms /Team2.png)
-![](img/ComputerAlgorithms /Team3.png)
-![](img/ComputerAlgorithms /Team4.png)
+![](img/ComputerAlgorithms/Team2.png)
+![](img/ComputerAlgorithms/Team3.png)
+![](img/ComputerAlgorithms/Team4.png)
 
 Finally, in July, 2010, the team proved that the maximum is 20 moves [21, 22, 4].
 
-![](img/ComputerAlgorithms /Team5.png)
+![](img/ComputerAlgorithms/Team5.png)
 
 
 ## References
