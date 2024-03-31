@@ -1,5 +1,5 @@
 "use strict";
-function AnimCube2(params) {
+export default function AnimCube2(params) {
   var cubeDim = 2,
     config = [],
     bgColor,
