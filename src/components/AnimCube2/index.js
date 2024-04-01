@@ -6,7 +6,7 @@ import AnimCube2 from "./AnimCube2";
  * Documentation for parameters: https://animcubejs.cubing.net/animcubejs.html#usage
  * @author err0rcuber
  * @example
- * <AnimCube2 params="move=RUR'URU2R'U2&initrevmove=#" width="400px" height="300px"/>
+ * <AnimCube2x2 params="move=RUR'URU2R'U2&initrevmove=#" width="400px" height="300px"/>
  */
 export default function AnimCube2x2({
   params,
@@ -16,7 +16,7 @@ export default function AnimCube2x2({
   const id = "animcube_" + useId();
   const divRef = useRef();
   useEffect(() => {
-    AnimCube2x2(`id=${id}&${params}`);
+    AnimCube2(`id=${id}&${params}`);
     const canvas = divRef.current?.childNodes[0];
     if (canvas) {
       canvas.style.maxWidth = "100%";
