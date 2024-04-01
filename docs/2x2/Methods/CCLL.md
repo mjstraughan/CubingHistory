@@ -6,7 +6,7 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 ## Description
 
-**Proposer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre)
+**Proposer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre), [Joseph Briggs](CubingContributors/MethodDevelopers.md#briggs-joseph-shadowslice)
 
 **Proposed:** 2012
 
