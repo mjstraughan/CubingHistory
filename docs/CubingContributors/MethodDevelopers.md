@@ -50,6 +50,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - 42 method
 - SSC method
 - M-CELL method
+- CCxLL
 - Briggs method (later combined with other previous and later similar methods to become CEOR)
 - B2 (Briggs 2) method
 - Transformation (independent from Straughan's prior development)
