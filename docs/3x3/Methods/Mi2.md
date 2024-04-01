@@ -25,7 +25,22 @@ import AnimCube from "@site/src/components/AnimCube";
 
 ### Development
 
-In late 2009, Michael James Straughan began experimenting with combining the EOLine step of ZZ with Corners First. The result was a method that solved all corners after EOLine, then the permutation of all remaining edges [1, 2].
+In late 2009, Michael James Straughan began experimenting with combining the EOLine step of ZZ with Corners First. The result was a method that solved all corners after EOLine, then the permutation of all remaining edges [1, 2]. The two initial ideas were:
+
+**Idea 1**
+
+1. EOLine on the bottom.
+2. Solve all corners.
+3. Solve the UF and UB edges.
+4. Permute the left and right side edges.
+
+**Idea 2**
+
+1. EOLine on the left.
+2. Solve two corners at the bottom left, avoiding having the FR or BR edges connected to the corners.
+3. Solve the two pairs at dFR and dBR.
+4. Solve the U layer corners.
+5. Permute the U and D edges.
 
 ![](img/MI2/Origin1.png)
 ![](img/MI2/Origin2.png)
