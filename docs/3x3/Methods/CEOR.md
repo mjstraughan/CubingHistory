@@ -90,19 +90,34 @@ In December, 2021, James Straughan proposed combining all of the similar methods
 
 ## References
 
-1. N. Arthurs, "Noah's CP-Block Method," SpeedSolving.com, 22 April 2012. [Online]. Available: https://www.speedsolving.com/threads/noahs-cp-block-method.36538/.
-2. N. Arthurs, "Noah's CP Block Method 2.0," SpeedSolving.com, 14 May 2013. [Online]. Available: https://www.speedsolving.com/threads/noahs-cp-block-method-2-0.41986/.
-3. N. Arthurs, "Noah's CP Block Method 2.0," SpeedSolving, 14 May 2013. [Online]. Available: https://www.speedsolving.com/threads/noahs-cp-block-method-2-0.41986/post-853203.
-4. L. Petrus, "Re: Speed cubing," Cube Lovers, 10 June 1996. [Online]. Available: http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/Lars_Petrus__Re__Speed_cubing.html.
-5. G. Roux, "Results for 23/05/03 FMC," Fewest Moves Competition, 23 May 2003. [Online]. Available: https://web.archive.org/web/20040211055843/http://homepage.ntlworld.com/dan_j_harris/fmcresults/230503results.html.
-6. M. Aquino, "CPLS and 2GLL discussion," SpeedSolving.com, 20 June 2011. [Online]. Available: https://www.speedsolving.com/threads/cpls-and-2gll-discussion.24125/page-4#post-594576.
-7. M. Aquino, "F2G (MAF2L c/ FRUM Variation)," Google Sites, 20 June 2011. [Online]. Available: https://sites.google.com/site/recursoscuberos/f2g.
-8. M. Aquino, "Solve with F2G method - By DrMaquino," YouTube, 20 June 2011. [Online]. Available: https://www.youtube.com/watch?v=xLu7yQLS24Q.
-9. J. Briggs, "Briggs (3x3x3 method)," SpeedSolving.com, 19 September 2015. [Online]. Available: https://www.speedsolving.com/threads/briggs-3x3x3-method.55156/.
-10. K. Hedrick, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 2013 September 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1116703.
-11. J. Briggs, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 13 September 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1116737.
-12. Z. Zborowski, "Complex 2-Move Generator Reduction Method (c2gr)," SpeedSolving.com, 20 August 2017. [Online]. Available: https://www.speedsolving.com/threads/complex-2-move-generator-reduction-method-c2gr.66089/.
-13. Z. Zborowski, "Complex 2-Move Generator Reduction Method (c2gr)," OneDrive, 20 August 2017. [Online]. Available: https://onedrive.live.com/view.aspx?resid=A768425208665B6D!428&ithint=file%2cdocx&authkey=!AMvcyyr1lbYsxzk.
-14. Y. Mehta, "Roux-breaker? The YruRU method," SpeedSolving.com, 27 April 2020. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/.
-15. M. J. Straughan, "CP Method History - Noah’s CP Block, Briggs, YruRU, ZZ, and all others described," SpeedSolving.com, 13 December 2021. [Online]. Available: https://www.speedsolving.com/threads/cp-method-history-noah%E2%80%99s-cp-block-briggs-yruru-zz-and-all-others-described.85927/.
-16. J. Tudor, "CP Method History - Noah’s CP Block, Briggs, YruRU, ZZ, and all others described," SpeedSolving.com, 13 December 2021. [Online]. Available: https://www.speedsolving.com/threads/cp-method-history-noah%E2%80%99s-cp-block-briggs-yruru-zz-and-all-others-described.85927/post-1464625.
+[1] N. Arthurs, "Noah's CP-Block Method," SpeedSolving.com, 22 April 2012. [Online]. Available: https://www.speedsolving.com/threads/noahs-cp-block-method.36538/.
+
+[2] N. Arthurs, "Noah's CP Block Method 2.0," SpeedSolving.com, 14 May 2013. [Online]. Available: https://www.speedsolving.com/threads/noahs-cp-block-method-2-0.41986/.
+
+[3] N. Arthurs, "Noah's CP Block Method 2.0," SpeedSolving, 14 May 2013. [Online]. Available: https://www.speedsolving.com/threads/noahs-cp-block-method-2-0.41986/post-853203.
+
+[4] L. Petrus, "Re: Speed cubing," Cube Lovers, 10 June 1996. [Online]. Available: http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/Lars_Petrus__Re__Speed_cubing.html.
+
+[5] G. Roux, "Results for 23/05/03 FMC," Fewest Moves Competition, 23 May 2003. [Online]. Available: https://web.archive.org/web/20040211055843/http://homepage.ntlworld.com/dan_j_harris/fmcresults/230503results.html.
+
+[6] M. Aquino, "CPLS and 2GLL discussion," SpeedSolving.com, 20 June 2011. [Online]. Available: https://www.speedsolving.com/threads/cpls-and-2gll-discussion.24125/page-4#post-594576.
+
+[7] M. Aquino, "F2G (MAF2L c/ FRUM Variation)," Google Sites, 20 June 2011. [Online]. Available: https://sites.google.com/site/recursoscuberos/f2g.
+
+[8] M. Aquino, "Solve with F2G method - By DrMaquino," YouTube, 20 June 2011. [Online]. Available: https://www.youtube.com/watch?v=xLu7yQLS24Q.
+
+[9] J. Briggs, "Briggs (3x3x3 method)," SpeedSolving.com, 19 September 2015. [Online]. Available: https://www.speedsolving.com/threads/briggs-3x3x3-method.55156/.
+
+[10] K. Hedrick, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 2013 September 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1116703.
+
+[11] J. Briggs, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 13 September 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1116737.
+
+[12] Z. Zborowski, "Complex 2-Move Generator Reduction Method (c2gr)," SpeedSolving.com, 20 August 2017. [Online]. Available: https://www.speedsolving.com/threads/complex-2-move-generator-reduction-method-c2gr.66089/.
+
+[13] Z. Zborowski, "Complex 2-Move Generator Reduction Method (c2gr)," OneDrive, 20 August 2017. [Online]. Available: https://onedrive.live.com/view.aspx?resid=A768425208665B6D!428&ithint=file%2cdocx&authkey=!AMvcyyr1lbYsxzk.
+
+[14] Y. Mehta, "Roux-breaker? The YruRU method," SpeedSolving.com, 27 April 2020. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/.
+
+[15] M. J. Straughan, "CP Method History - Noah’s CP Block, Briggs, YruRU, ZZ, and all others described," SpeedSolving.com, 13 December 2021. [Online]. Available: https://www.speedsolving.com/threads/cp-method-history-noah%E2%80%99s-cp-block-briggs-yruru-zz-and-all-others-described.85927/.
+
+[16] J. Tudor, "CP Method History - Noah’s CP Block, Briggs, YruRU, ZZ, and all others described," SpeedSolving.com, 13 December 2021. [Online]. Available: https://www.speedsolving.com/threads/cp-method-history-noah%E2%80%99s-cp-block-briggs-yruru-zz-and-all-others-described.85927/post-1464625.

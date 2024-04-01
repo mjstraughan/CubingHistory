@@ -71,13 +71,22 @@ Vincent Trang pushed for the 1x2x3 start to be the standard for the method [9]. 
 
 ## References
 
-1. M. J. Straughan, SpeedSolving.com, 25 October 2008. [Online]. Available: https://www.speedsolving.com/threads/the-disadvantage-of-block-building.7071/post-97217.
-2. M. J. Straughan, Discord, 3 May 2021. [Online]. Available: https://discord.com/channels/95625180205813760/373480359280640001/838755756505169940.
-3. M. J. Straugham, Discord, 19 May 2021. [Online]. Available: https://discord.com/channels/95625180205813760/373480359280640001/844259035300626432.
-4. M. J. Straughan, Discord, 4 May 2021. [Online]. Available: https://discord.com/channels/95625180205813760/373480359280640001/838827839050088451.
-5. M. J. Straughan, SpeedSolving.com, 17 September 2021. [Online]. Available: https://www.speedsolving.com/threads/apb-an-efficient-ergonomic-algorithmic-2x2x3-based-method.85409/.
-6. R. Hudgens, Discord, 18 September 2021. [Online]. Available: https://discord.com/channels/455707295205294081/538836158344331306/888472853375221840.
-7. Melkor, Discord, 8 November 2021. [Online]. Available: https://discord.com/channels/885722463521103892/885783926541529109/906955240631337011.
-8. L. Highducheck, Discord, 1 January 2022. [Online]. Available: https://discord.com/channels/769483322278805504/769491580762456104/926557167060910090.
-9. V. Trang, Discord, 5 December 2021. [Online]. Available: https://discord.com/channels/769483322278805504/783035653947523073/916844822621458452.
-10. V. Trang, Discord, 31 December 2021. [Online]. Available: https://discord.com/channels/926220744193622049/926224908369948672/926318861454835743.
+[1] M. J. Straughan, SpeedSolving.com, 25 October 2008. [Online]. Available: https://www.speedsolving.com/threads/the-disadvantage-of-block-building.7071/post-97217.
+
+[2] M. J. Straughan, Discord, 3 May 2021. [Online]. Available: https://discord.com/channels/95625180205813760/373480359280640001/838755756505169940.
+
+[3] M. J. Straugham, Discord, 19 May 2021. [Online]. Available: https://discord.com/channels/95625180205813760/373480359280640001/844259035300626432.
+
+[4] M. J. Straughan, Discord, 4 May 2021. [Online]. Available: https://discord.com/channels/95625180205813760/373480359280640001/838827839050088451.
+
+[5] M. J. Straughan, SpeedSolving.com, 17 September 2021. [Online]. Available: https://www.speedsolving.com/threads/apb-an-efficient-ergonomic-algorithmic-2x2x3-based-method.85409/.
+
+[6] R. Hudgens, Discord, 18 September 2021. [Online]. Available: https://discord.com/channels/455707295205294081/538836158344331306/888472853375221840.
+
+[7] Melkor, Discord, 8 November 2021. [Online]. Available: https://discord.com/channels/885722463521103892/885783926541529109/906955240631337011.
+
+[8] L. Highducheck, Discord, 1 January 2022. [Online]. Available: https://discord.com/channels/769483322278805504/769491580762456104/926557167060910090.
+
+[9] V. Trang, Discord, 5 December 2021. [Online]. Available: https://discord.com/channels/769483322278805504/783035653947523073/916844822621458452.
+
+[10] V. Trang, Discord, 31 December 2021. [Online]. Available: https://discord.com/channels/926220744193622049/926224908369948672/926318861454835743.

@@ -52,9 +52,14 @@ In May, 2020, Arc stated that they derived LEOR from the method named Briggs [6]
 
 ## References
 
-1. N. Arthurs, "Noah's CP Block Method 2.0," SpeedSolving.com, May 2013. [Online]. Available: https://www.speedsolving.com/threads/noahs-cp-block-method-2-0.41986/.
-2. N. Arthurs, "Noah's CP Block Method 2.0," SpeedSolving.com, May 2013. [Online]. Available: https://www.speedsolving.com/threads/noahs-cp-block-method-2-0.41986/post-853211.
-3. Pyjam, "Exemples de solves (résolutions détaillées, critiques, conseils, partage) [Version 3x3 UNIQUEMENT]," FrancoCube, 26 August 2017. [Online]. Available: https://forum.francocube.com/viewtopic.php?f=20&p=270364#p270364.
-4. Pyjam, "Les méthodes principales du 3x3x3 et leurs variantes," FrancoCube, 29 August 2017. [Online]. Available: https://forum.francocube.com/viewtopic.php?p=270483#p270483.
-5. Pyjam, "LEOR Origin," SpeedSolving.com, 27 December 2021. [Online]. 
-6. Arc, "Roux-breaker? The YruRU method," SpeedSolving.com, 4 May 2020. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/page-5#post-1367918.
+[1] N. Arthurs, "Noah's CP Block Method 2.0," SpeedSolving.com, May 2013. [Online]. Available: https://www.speedsolving.com/threads/noahs-cp-block-method-2-0.41986/.
+
+[2] N. Arthurs, "Noah's CP Block Method 2.0," SpeedSolving.com, May 2013. [Online]. Available: https://www.speedsolving.com/threads/noahs-cp-block-method-2-0.41986/post-853211.
+
+[3] Pyjam, "Exemples de solves (résolutions détaillées, critiques, conseils, partage) [Version 3x3 UNIQUEMENT]," FrancoCube, 26 August 2017. [Online]. Available: https://forum.francocube.com/viewtopic.php?f=20&p=270364#p270364.
+
+[4] Pyjam, "Les méthodes principales du 3x3x3 et leurs variantes," FrancoCube, 29 August 2017. [Online]. Available: https://forum.francocube.com/viewtopic.php?p=270483#p270483.
+
+[5] Pyjam, "LEOR Origin," SpeedSolving.com, 27 December 2021. [Online]. 
+
+[6] Arc, "Roux-breaker? The YruRU method," SpeedSolving.com, 4 May 2020. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/page-5#post-1367918.

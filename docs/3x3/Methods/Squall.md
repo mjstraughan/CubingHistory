@@ -41,4 +41,4 @@ Squall was developed backwards, with a focus on ending with a quality 2-gen step
 
 ## References
 
-1.	M. J. Straughan, "Method Development Competition January 2021 - The winner receives a $10 gift card! - Sponsored by SpeedCubeShop.com," SpeedSolving.com, 27 February 2021. [Online]. Available: https://www.speedsolving.com/threads/method-development-competition-january-2021-the-winner-receives-a-10-gift-card-sponsored-by-speedcubeshop-com.79437/post-1421151.
+[1]	M. J. Straughan, "Method Development Competition January 2021 - The winner receives a $10 gift card! - Sponsored by SpeedCubeShop.com," SpeedSolving.com, 27 February 2021. [Online]. Available: https://www.speedsolving.com/threads/method-development-competition-january-2021-the-winner-receives-a-10-gift-card-sponsored-by-speedcubeshop-com.79437/post-1421151.

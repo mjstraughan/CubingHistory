@@ -36,8 +36,12 @@ NMLL was moved to a Google site in June, 2011 [3, 4, 5].
 
 ## References
 
-1. M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 31 December 2010. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-509957.
-2. M. J. Straughan, Straughan's Original Website, 2010. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
-3. M. J. Straughan, "ZZ and ZB Discussion," SpeedSolving.com, 28 June 2011. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-598864.
-4. M. J. Straughan, "NMLL," Straughan's Website, June 2011. [Online]. Available: https://sites.google.com/site/athefre/steps/nmll?authuser=0.
-5. M. J. Straughan, "NMLL Recognition," Google Docs, 14 September 2011. [Online]. Available: https://docs.google.com/spreadsheets/d/1Z-rJzroZ7QrGcqd2RvZ5P3OW7DyX7H-GpT-dK-xWZgA/edit?hl=en_US&hl=en_US#gid=0.
+[1] M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 31 December 2010. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-509957.
+
+[2] M. J. Straughan, Straughan's Original Website, 2010. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
+
+[3] M. J. Straughan, "ZZ and ZB Discussion," SpeedSolving.com, 28 June 2011. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-598864.
+
+[4] M. J. Straughan, "NMLL," Straughan's Website, June 2011. [Online]. Available: https://sites.google.com/site/athefre/steps/nmll?authuser=0.
+
+[5] M. J. Straughan, "NMLL Recognition," Google Docs, 14 September 2011. [Online]. Available: https://docs.google.com/spreadsheets/d/1Z-rJzroZ7QrGcqd2RvZ5P3OW7DyX7H-GpT-dK-xWZgA/edit?hl=en_US&hl=en_US#gid=0.

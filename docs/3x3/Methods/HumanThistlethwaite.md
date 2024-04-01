@@ -43,7 +43,10 @@ In late April or early May, 2006, Heise added the method to his website [3, 4]. 
 
 ## References
 
-1.	R. Heise, "Re: [Speed cubing group] Looking ahead: how good are you?," Yahoo! Groups - Speed Solving Rubik's Cube, 20 June 2003. [Online].
-2.	R. Heise, "Thistlethwaite, human version," Yahoo! Groups - Speed Solving Rubik's Cube, 1 July 2003. [Online].
-3.	R. Heise, "Re: [Speed cubing group] Noob Cuber looking for new solution…," Yahoo! Groups - Speed Solving Rubik's Cube, 2 May 2006. [Online]. 
-4.	R. Heise, " Human Thistlethwaite Algorithm," ryanheise.com. [Online]. Available: https://web.archive.org/web/20060703235037/http://www.ryanheise.com/cube/human_thistlethwaite_algorithm.html.
+[1]	R. Heise, "Re: [Speed cubing group] Looking ahead: how good are you?," Yahoo! Groups - Speed Solving Rubik's Cube, 20 June 2003. [Online].
+
+[2]	R. Heise, "Thistlethwaite, human version," Yahoo! Groups - Speed Solving Rubik's Cube, 1 July 2003. [Online].
+
+[3]	R. Heise, "Re: [Speed cubing group] Noob Cuber looking for new solution…," Yahoo! Groups - Speed Solving Rubik's Cube, 2 May 2006. [Online]. 
+
+[4]	R. Heise, " Human Thistlethwaite Algorithm," ryanheise.com. [Online]. Available: https://web.archive.org/web/20060703235037/http://www.ryanheise.com/cube/human_thistlethwaite_algorithm.html.

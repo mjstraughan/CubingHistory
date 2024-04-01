@@ -167,39 +167,74 @@ Dylan Nyein: Provided information on the ZZ-D variant.
 
 ## References
 
-1. M. J. Straughan and G. Roux, Personal communication, 24 August 2022. [Online]. 
-2. A. Géhin, "The Mythical Rubik's Cube," June 2003. [Online]. Available: https://web.archive.org/web/20030620092845/http://borntodie.free.fr/.
-3. R. Heise, ""line"," Yahoo! Groups - Speed Solving Rubik's Cube, 1 July 2003. [Online]. 
-4. G. Roux, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 5 May 2020. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368143.
-5. R. v. Bruchem, "Yet another method," Yahoo! Groups - Speed Solving Rubik's Cube, 13 June 2004. [Online]. 
-6. R. v. Bruchem, "Re: [Speed cubing group] Yet another method," Yahoo! Groups - Speed Solving Rubik's Cube, 26 July 2004. [Online]. 
-7. R. v. Bruchem, "Re: [Speed cubing group] Re: orient edges first method," Yahoo! Groups - Speed Solving Rubik's Cube, 14 October 2006. [Online]. 
-8. J. v. Noort, "Re: EOCross," Yahoo! Groups - Speed Solving Rubik's Cube, 25 July 2005. [Online]. 
-9. WCA, "European Rubik's Games Championship 2004," World Cube Association, 2004. [Online]. Available: https://www.worldcubeassociation.org/competitions/Euro2004/results/by_person.
-10. Z. Zborowski, "zz speedcubing system," Zborowski's Website, 2006. [Online]. Available: https://web.archive.org/web/20070428175325/http://www.speedcubing.com.pl/nooks_zz.htm#zzspeed.
-11. Z. Zborowski, "zz speedcubing system," Zborowski's Website, 2006. [Online]. Available: https://web.archive.org/web/20070428175325/http://www.speedcubing.com.pl/nooks_zz.htm.
-12. "Metoda ZZ," speedcubing.com.pl, September 2006. [Online]. Available: https://web.archive.org/web/20080731021124/http://forum.speedcubing.com.pl/viewtopic.php?t=491.
-13. Z. Zborowski, "Wersja hardcore (wariant a)," Zborowski's Website, [Online]. Available: https://web.archive.org/web/20090302093157/http://speedcubing.com.pl/nooks_zz.htm#zzspeed_warianty_a.
-14. Z. Zborowski, "Wersja rekomendowana (wariant b)," Zborowski's Website, [Online]. Available: https://web.archive.org/web/20090302093157/http://speedcubing.com.pl/nooks_zz.htm#zzspeed_warianty_b.
-15. Z. Zborowski, "Wersja dla fridrich'owców (wariant c) by Mitchell Stern," Zborowski's Website, [Online]. Available: https://web.archive.org/web/20090302093157/http://speedcubing.com.pl/nooks_zz.htm#zzspeed_warianty_c.
-16. Z. Zborowski, "Wersja klasyczna (wariant d)," Zborowski's Website, [Online]. Available: https://web.archive.org/web/20090302093157/http://speedcubing.com.pl/nooks_zz.htm#zzspeed_warianty_d.
-17. Z. Zborowski, "Wersja pośrednia do klasyka (wariant e)," Zborowski's Website, [Online]. Available: https://web.archive.org/web/20090302093157/http://speedcubing.com.pl/nooks_zz.htm#zzspeed_warianty_e.
-18. Z. Zborowski, "Wersja pośrednia do klasyka (wariant f) by Grzegorz Łuczyna," Zborowski's Website, [Online]. Available: https://web.archive.org/web/20090302093157/http://speedcubing.com.pl/nooks_zz.htm#zzspeed_warianty_f.
-19. K. Orbit, "At last, ZZ-D method has been COMPLETED!," SpeedSolving.com, 25 January 2012. [Online]. Available: https://www.speedsolving.com/threads/at-last-zz-d-method-has-been-completed.34994/.
-20. J. Tudor, Discord, 13 July 2018. [Online]. Available: https://discord.com/channels/455707295205294081/462589831051214858/467419861266464780.
-21. D. Nyein, Discord, 26 April 2020. [Online]. Available: https://discord.com/channels/455707295205294081/455708462870167556/703780071319666718.
-22. J. Tudor, Discord, 27 April 2020. [Online]. Available: https://discord.com/channels/455707295205294081/455708462870167556/704262054554632264.
-23. D. Nyein, Discord, 1 January 2023. [Online]. Available: https://discord.com/channels/455707295205294081/455708462870167556/1059113938861695017.
-24. C. Tran, "A Novel ZZ Variant with a 1LLL, 72 cases, and easy recognition," SpeedSolving.com, 15 March 2016. [Online]. Available: https://www.speedsolving.com/threads/a-novel-zz-variant-with-a-1lll-72-cases-and-easy-recognition.60281/.
-25. elrog, "Navi Speedsolving Method," SpeedSolving.com, 19 May 2014. [Online]. Available: https://www.speedsolving.com/threads/navi-speedsolving-method.47685/.
-26. C. Tran, "Navi Speedsolving Method," SpeedSolving.com, 31 March 2016. [Online]. Available: https://www.speedsolving.com/threads/navi-speedsolving-method.47685/post-1163282.
-27. C. Tran, "15.827 Ao12 using ZZ-CT: The LL-Skip Method.," SpeedSolving.com, 16 May 2016. [Online]. Available: https://www.speedsolving.com/threads/15-827-ao12-using-zz-ct-the-ll-skip-method.60972/.
-28. MrMan, "New Method?," SpeedSolving.com, 30 December 2014. [Online]. Available: https://www.speedsolving.com/threads/new-method.50959/post-1045938.
-29. M. DiPalma, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 14 December 2014. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1045948.
-30. M. DiPalma, "ZZ-Edges First discussion," SpeedSolving.com, 30 December 2014. [Online]. Available: https://www.speedsolving.com/threads/zz-edges-first-discussion.50964/.
-31. M. DiPalma, "ZZ and ZB Discussion," SpeedSolving.com, 15 May 2012. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-744158.
-32. J. Tudor, Discord, 30 June 2018. [Online]. Available: https://discord.com/channels/455707295205294081/462589850525368321/462589939150880778.
-33. J. Tudor, Discord, 23 November 2018. [Online]. Available: https://discord.com/channels/455707295205294081/462589850525368321/515655057518100480.
-34. M. Garza, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 18 February 2017. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1220389.
-35. R. Hudgens, Discord, 1 September 2023. [Online]. Available: https://discord.com/channels/455707295205294081/462589850525368321/1147127419040436254.
-36. R. Hudgens, "ZZ Tripod Formation + Last Slot Sheet," Google Docs, 2 September 2023. [Online]. Available: https://docs.google.com/spreadsheets/d/1aIysCr8xDY9b8052BYDb1r6rFzITWCRyAjJD-lpflm0/edit?usp=sharing.
+[1] M. J. Straughan and G. Roux, Personal communication, 24 August 2022. [Online]. 
+
+[2] A. Géhin, "The Mythical Rubik's Cube," June 2003. [Online]. Available: https://web.archive.org/web/20030620092845/http://borntodie.free.fr/.
+
+[3] R. Heise, ""line"," Yahoo! Groups - Speed Solving Rubik's Cube, 1 July 2003. [Online]. 
+
+[4] G. Roux, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 5 May 2020. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368143.
+
+[5] R. v. Bruchem, "Yet another method," Yahoo! Groups - Speed Solving Rubik's Cube, 13 June 2004. [Online]. 
+
+[6] R. v. Bruchem, "Re: [Speed cubing group] Yet another method," Yahoo! Groups - Speed Solving Rubik's Cube, 26 July 2004. [Online]. 
+
+[7] R. v. Bruchem, "Re: [Speed cubing group] Re: orient edges first method," Yahoo! Groups - Speed Solving Rubik's Cube, 14 October 2006. [Online]. 
+
+[8] J. v. Noort, "Re: EOCross," Yahoo! Groups - Speed Solving Rubik's Cube, 25 July 2005. [Online]. 
+
+[9] WCA, "European Rubik's Games Championship 2004," World Cube Association, 2004. [Online]. Available: https://www.worldcubeassociation.org/competitions/Euro2004/results/by_person.
+
+[10] Z. Zborowski, "zz speedcubing system," Zborowski's Website, 2006. [Online]. Available: https://web.archive.org/web/20070428175325/http://www.speedcubing.com.pl/nooks_zz.htm#zzspeed.
+
+[11] Z. Zborowski, "zz speedcubing system," Zborowski's Website, 2006. [Online]. Available: https://web.archive.org/web/20070428175325/http://www.speedcubing.com.pl/nooks_zz.htm.
+
+[12] "Metoda ZZ," speedcubing.com.pl, September 2006. [Online]. Available: https://web.archive.org/web/20080731021124/http://forum.speedcubing.com.pl/viewtopic.php?t=491.
+
+[13] Z. Zborowski, "Wersja hardcore (wariant a)," Zborowski's Website, [Online]. Available: https://web.archive.org/web/20090302093157/http://speedcubing.com.pl/nooks_zz.htm#zzspeed_warianty_a.
+
+[14] Z. Zborowski, "Wersja rekomendowana (wariant b)," Zborowski's Website, [Online]. Available: https://web.archive.org/web/20090302093157/http://speedcubing.com.pl/nooks_zz.htm#zzspeed_warianty_b.
+
+[15] Z. Zborowski, "Wersja dla fridrich'owców (wariant c) by Mitchell Stern," Zborowski's Website, [Online]. Available: https://web.archive.org/web/20090302093157/http://speedcubing.com.pl/nooks_zz.htm#zzspeed_warianty_c.
+
+[16] Z. Zborowski, "Wersja klasyczna (wariant d)," Zborowski's Website, [Online]. Available: https://web.archive.org/web/20090302093157/http://speedcubing.com.pl/nooks_zz.htm#zzspeed_warianty_d.
+
+[17] Z. Zborowski, "Wersja pośrednia do klasyka (wariant e)," Zborowski's Website, [Online]. Available: https://web.archive.org/web/20090302093157/http://speedcubing.com.pl/nooks_zz.htm#zzspeed_warianty_e.
+
+[18] Z. Zborowski, "Wersja pośrednia do klasyka (wariant f) by Grzegorz Łuczyna," Zborowski's Website, [Online]. Available: https://web.archive.org/web/20090302093157/http://speedcubing.com.pl/nooks_zz.htm#zzspeed_warianty_f.
+
+[19] K. Orbit, "At last, ZZ-D method has been COMPLETED!," SpeedSolving.com, 25 January 2012. [Online]. Available: https://www.speedsolving.com/threads/at-last-zz-d-method-has-been-completed.34994/.
+
+[20] J. Tudor, Discord, 13 July 2018. [Online]. Available: https://discord.com/channels/455707295205294081/462589831051214858/467419861266464780.
+
+[21] D. Nyein, Discord, 26 April 2020. [Online]. Available: https://discord.com/channels/455707295205294081/455708462870167556/703780071319666718.
+
+[22] J. Tudor, Discord, 27 April 2020. [Online]. Available: https://discord.com/channels/455707295205294081/455708462870167556/704262054554632264.
+
+[23] D. Nyein, Discord, 1 January 2023. [Online]. Available: https://discord.com/channels/455707295205294081/455708462870167556/1059113938861695017.
+
+[24] C. Tran, "A Novel ZZ Variant with a 1LLL, 72 cases, and easy recognition," SpeedSolving.com, 15 March 2016. [Online]. Available: https://www.speedsolving.com/threads/a-novel-zz-variant-with-a-1lll-72-cases-and-easy-recognition.60281/.
+
+[25] elrog, "Navi Speedsolving Method," SpeedSolving.com, 19 May 2014. [Online]. Available: https://www.speedsolving.com/threads/navi-speedsolving-method.47685/.
+
+[26] C. Tran, "Navi Speedsolving Method," SpeedSolving.com, 31 March 2016. [Online]. Available: https://www.speedsolving.com/threads/navi-speedsolving-method.47685/post-1163282.
+
+[27] C. Tran, "15.827 Ao12 using ZZ-CT: The LL-Skip Method.," SpeedSolving.com, 16 May 2016. [Online]. Available: https://www.speedsolving.com/threads/15-827-ao12-using-zz-ct-the-ll-skip-method.60972/.
+
+[28] MrMan, "New Method?," SpeedSolving.com, 30 December 2014. [Online]. Available: https://www.speedsolving.com/threads/new-method.50959/post-1045938.
+
+[29] M. DiPalma, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 14 December 2014. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1045948.
+
+[30] M. DiPalma, "ZZ-Edges First discussion," SpeedSolving.com, 30 December 2014. [Online]. Available: https://www.speedsolving.com/threads/zz-edges-first-discussion.50964/.
+
+[31] M. DiPalma, "ZZ and ZB Discussion," SpeedSolving.com, 15 May 2012. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-744158.
+
+[32] J. Tudor, Discord, 30 June 2018. [Online]. Available: https://discord.com/channels/455707295205294081/462589850525368321/462589939150880778.
+
+[33] J. Tudor, Discord, 23 November 2018. [Online]. Available: https://discord.com/channels/455707295205294081/462589850525368321/515655057518100480.
+
+[34] M. Garza, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 18 February 2017. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1220389.
+
+[35] R. Hudgens, Discord, 1 September 2023. [Online]. Available: https://discord.com/channels/455707295205294081/462589850525368321/1147127419040436254.
+
+[36] R. Hudgens, "ZZ Tripod Formation + Last Slot Sheet," Google Docs, 2 September 2023. [Online]. Available: https://docs.google.com/spreadsheets/d/1aIysCr8xDY9b8052BYDb1r6rFzITWCRyAjJD-lpflm0/edit?usp=sharing.

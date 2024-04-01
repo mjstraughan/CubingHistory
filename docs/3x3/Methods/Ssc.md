@@ -64,10 +64,16 @@ Officially, the SSC name stands for Shadowslice Snow Columns. However, Briggs ha
 
 ## References
 
-1. J. Briggs, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 16 June 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1091705.
-2. J. Briggs, "SSC (Shadowslice Snow Columns) 3x3x3 Method," SpeedSolving.com, 11 July 2015. [Online]. Available: https://www.speedsolving.com/threads/ssc-shadowslice-snow-columns-3x3x3-method.54056/.
-3. M. J. Straughan and J. Briggs, Personal communication, 17 September 2022. [Online]. 
-4. J. Adam, "ECE - New 3x3 Solving Method," SpeedSolving.com, 17 November 2015. [Online]. Available: https://www.speedsolving.com/threads/ece-new-3x3-solving-method.55898/.
-5. K. Jaehne, "SSC (Shadowslice Snow Columns) 3x3x3 Method," SpeedSolving.com, 10 April 2016. [Online]. Available: https://www.speedsolving.com/threads/ssc-shadowslice-snow-columns-3x3x3-method.54056/post-1165524.
-6. J. Briggs, "SSC (Shadowslice Snow Columns) 3x3x3 Method," SpeedSolving.com, 14 April 2016. [Online]. Available: https://www.speedsolving.com/threads/ssc-shadowslice-snow-columns-3x3x3-method.54056/post-1166364.
-7. J. Briggs, Discord, 16 June 2020. [Online]. Available: https://discord.com/channels/416929203607568404/416933092620500992/722174765414088725.
+[1] J. Briggs, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 16 June 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1091705.
+
+[2] J. Briggs, "SSC (Shadowslice Snow Columns) 3x3x3 Method," SpeedSolving.com, 11 July 2015. [Online]. Available: https://www.speedsolving.com/threads/ssc-shadowslice-snow-columns-3x3x3-method.54056/.
+
+[3] M. J. Straughan and J. Briggs, Personal communication, 17 September 2022. [Online]. 
+
+[4] J. Adam, "ECE - New 3x3 Solving Method," SpeedSolving.com, 17 November 2015. [Online]. Available: https://www.speedsolving.com/threads/ece-new-3x3-solving-method.55898/.
+
+[5] K. Jaehne, "SSC (Shadowslice Snow Columns) 3x3x3 Method," SpeedSolving.com, 10 April 2016. [Online]. Available: https://www.speedsolving.com/threads/ssc-shadowslice-snow-columns-3x3x3-method.54056/post-1165524.
+
+[6] J. Briggs, "SSC (Shadowslice Snow Columns) 3x3x3 Method," SpeedSolving.com, 14 April 2016. [Online]. Available: https://www.speedsolving.com/threads/ssc-shadowslice-snow-columns-3x3x3-method.54056/post-1166364.
+
+[7] J. Briggs, Discord, 16 June 2020. [Online]. Available: https://discord.com/channels/416929203607568404/416933092620500992/722174765414088725.

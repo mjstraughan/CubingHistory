@@ -37,6 +37,8 @@ In 2020, Straughan again began experimenting with the method [2]. It was then de
 
 ## References
 
-1. M. J. Straughan, 110mb.com, March 2010. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
-2. M. J. Straughan, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 5 September 2020. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1391229.
-3. M. J. Straughan, Nautilus Website, [Online]. Available: https://sites.google.com/view/nautilus-method.
+[1] M. J. Straughan, 110mb.com, March 2010. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
+
+[2] M. J. Straughan, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 5 September 2020. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1391229.
+
+[3] M. J. Straughan, Nautilus Website, [Online]. Available: https://sites.google.com/view/nautilus-method.

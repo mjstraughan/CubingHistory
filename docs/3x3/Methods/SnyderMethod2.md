@@ -33,5 +33,6 @@ Around 2011, Snyder placed the method on a website [2].
 
 ## References
 
-1. R. v. Bruchem, "Tony Snyder's System (36 moves!) [Yahoo! Clubs: Speed Solving Rubik's Cube]," Yahoo! Groups - Speed Solving Rubik's Cube, 19 September 2000. [Online]. 
-2. A. Snyder, "Snyder Method 2," Anthony Snyder's Website, 2011. [Online]. Available: http://www.snydermind.com/cube/snydermethod2.html.
+[1] R. v. Bruchem, "Tony Snyder's System (36 moves!) [Yahoo! Clubs: Speed Solving Rubik's Cube]," Yahoo! Groups - Speed Solving Rubik's Cube, 19 September 2000. [Online]. 
+
+[2] A. Snyder, "Snyder Method 2," Anthony Snyder's Website, 2011. [Online]. Available: http://www.snydermind.com/cube/snydermethod2.html.

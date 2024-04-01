@@ -53,13 +53,22 @@ In 2011, Michael Gottlieb added a variant of PCMS to his website [9, 10].
 
 ## References
 
-1. M. Akimoto, "Original corner first method," rokumentai.akimoto3.com, [Online]. Available: https://web.archive.org/web/20040409235900/http://rokumentai.akimoto3.com/methode.htm.
-2. M. Akimoto, "Original corner first method," rokumentai.akimoto3.com, [Online]. Available: https://web.archive.org/web/20040705200720/http://rokumentai.akimoto3.com/step1-2.htm.
-3. J. Rueth, "corner method," Yahoo! Groups - Speed Solving Rubik's Cube, 20 June 2002. [Online]. 
-4. juggleman411, "new speedsolving method...what do you think?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 May 2004. [Online]. 
-5. juggleman411, "Re: new speedsolving method...what do you think?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 May 2004. [Online]. 
-6. rotomx2, "Method I invented(recomended that you know a lot of stuff)," Yahoo! Groups - Speed Solving Rubik's Cube, 11 October 2007. [Online]. 
-7. K. Gustavsson, "Pairs first.," SpeedSolving.com, 6 November 2007. [Online]. Available: https://www.speedsolving.com/threads/pairs-first.1869/.
-8. K. Gustavsson, "Columns first," Google Sites, 6 November 2007. [Online]. Available: https://web.archive.org/web/20110405232707/https://sites.google.com/site/kubbuth/columns-first.
-9. M. Gottlieb, "Documented some methods on my website...," SpeedSolving.com, 19 March 2011. [Online]. Available: https://www.speedsolving.com/threads/documented-some-methods-on-my-website.28156/.
-10. M. Gottlieb, "Columns First," mzrg.com, 19 March 2011. [Online]. Available: https://mzrg.com/rubik/methods/col3/.
+[1] M. Akimoto, "Original corner first method," rokumentai.akimoto3.com, [Online]. Available: https://web.archive.org/web/20040409235900/http://rokumentai.akimoto3.com/methode.htm.
+
+[2] M. Akimoto, "Original corner first method," rokumentai.akimoto3.com, [Online]. Available: https://web.archive.org/web/20040705200720/http://rokumentai.akimoto3.com/step1-2.htm.
+
+[3] J. Rueth, "corner method," Yahoo! Groups - Speed Solving Rubik's Cube, 20 June 2002. [Online]. 
+
+[4] juggleman411, "new speedsolving method...what do you think?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 May 2004. [Online]. 
+
+[5] juggleman411, "Re: new speedsolving method...what do you think?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 May 2004. [Online]. 
+
+[6] rotomx2, "Method I invented(recomended that you know a lot of stuff)," Yahoo! Groups - Speed Solving Rubik's Cube, 11 October 2007. [Online]. 
+
+[7] K. Gustavsson, "Pairs first.," SpeedSolving.com, 6 November 2007. [Online]. Available: https://www.speedsolving.com/threads/pairs-first.1869/.
+
+[8] K. Gustavsson, "Columns first," Google Sites, 6 November 2007. [Online]. Available: https://web.archive.org/web/20110405232707/https://sites.google.com/site/kubbuth/columns-first.
+
+[9] M. Gottlieb, "Documented some methods on my website...," SpeedSolving.com, 19 March 2011. [Online]. Available: https://www.speedsolving.com/threads/documented-some-methods-on-my-website.28156/.
+
+[10] M. Gottlieb, "Columns First," mzrg.com, 19 March 2011. [Online]. Available: https://mzrg.com/rubik/methods/col3/.

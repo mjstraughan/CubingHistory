@@ -52,11 +52,18 @@ In July, 2012, DiPalma posted a couple of messages to speedsolving.com that may 
 
 ## References
 
-1. M. DiPalma, "Algoritmi "Speed-Heise"," SpeedCubing.it, 4 December 2014. [Online]. Available: https://www.speedcubing.it/forum/Thread-Algoritmi-Speed-Heise.
-2. M. DiPalma, "Simplified Speed-Heise (EN)," WordPress - DiPalma, 3 March 2015. [Online]. Available: https://dipalm.wordpress.com/2015/03/03/speed-heise-algorithms-en/.
-3. M. DiPalma, "Complete Speed-Heise (EN)," WordPress - DiPalma, 4 March 2015. [Online]. Available: https://dipalm.wordpress.com/2015/03/04/complete-speed-heise/.
-4. M. DiPalma, "Tripod Method Supplement (EN)," WordPress - DiPalma, 5 March 2015. [Online]. Available: https://dipalm.wordpress.com/2015/03/05/tripod-method-supplement-en/.
-5. M. DiPalma, "Cardan Reduction (novel LS/LL approach)," SpeedSolving.com, 1 March 2017. [Online]. Available: https://www.speedsolving.com/threads/cardan-reduction-novel-ls-ll-approach.64042/.
-6. M. DiPalma, "[SIMPLE] LL Variant (Revamped 'Fish & Chips')," SpeedSolving.com, 10 August 2017. [Online]. Available: https://www.speedsolving.com/threads/simple-ll-variant-revamped-fish-chips.65978.
-7. M. DiPalma, "ZZ and ZB Discussion," SpeedSolving.com, 30 July 2012. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-767013.
-8. M. DiPalma, "ZZ and ZB Discussion," SpeedSolving.com, 30 July 2012. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-767137.
+[1] M. DiPalma, "Algoritmi "Speed-Heise"," SpeedCubing.it, 4 December 2014. [Online]. Available: https://www.speedcubing.it/forum/Thread-Algoritmi-Speed-Heise.
+
+[2] M. DiPalma, "Simplified Speed-Heise (EN)," WordPress - DiPalma, 3 March 2015. [Online]. Available: https://dipalm.wordpress.com/2015/03/03/speed-heise-algorithms-en/.
+
+[3] M. DiPalma, "Complete Speed-Heise (EN)," WordPress - DiPalma, 4 March 2015. [Online]. Available: https://dipalm.wordpress.com/2015/03/04/complete-speed-heise/.
+
+[4] M. DiPalma, "Tripod Method Supplement (EN)," WordPress - DiPalma, 5 March 2015. [Online]. Available: https://dipalm.wordpress.com/2015/03/05/tripod-method-supplement-en/.
+
+[5] M. DiPalma, "Cardan Reduction (novel LS/LL approach)," SpeedSolving.com, 1 March 2017. [Online]. Available: https://www.speedsolving.com/threads/cardan-reduction-novel-ls-ll-approach.64042/.
+
+[6] M. DiPalma, "[SIMPLE] LL Variant (Revamped 'Fish & Chips')," SpeedSolving.com, 10 August 2017. [Online]. Available: https://www.speedsolving.com/threads/simple-ll-variant-revamped-fish-chips.65978.
+
+[7] M. DiPalma, "ZZ and ZB Discussion," SpeedSolving.com, 30 July 2012. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-767013.
+
+[8] M. DiPalma, "ZZ and ZB Discussion," SpeedSolving.com, 30 July 2012. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-767137.

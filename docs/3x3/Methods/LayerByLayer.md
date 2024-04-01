@@ -97,13 +97,22 @@ This version is more like the current basic keyhole methods:
 
 ## References
 
-1. D. Taylor, in The Group of a Coloured Cube, New South Wales, Pure Mathematics, 1978. 
-2. D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 24.
-3. D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 16.
-4. W. Johnson, "INTERVIEW WITH DAVID SINGMASTER," TwistyPuzzles, 6 January 2002. [Online]. Available: https://twistypuzzles.com/articles/spotlight-singmaster/.
-5. W. Johnson, "3x3x2, 2x2x3 cuboid article now on Twisty," TwistyPuzzles, 6 January 2002. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=1514.
-6. D. Singmaster, "Cubic Circular," Jaap's Puzzle Page, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p4.
-7. Keima, "Bonjours les cubeurs," FrancoCube, 11 March 2014. [Online]. Available: https://forum.francocube.com/viewtopic.php?t=11468.
-8. D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 61.
-9. A. Treep and J. v. Rossum, Cubism For Fun, September 1981. 
-10. M. v. Eekelen and M. Vincent, Het Geheim Van De Wonderbaarlijke Kubus, 1981.
+[1] D. Taylor, in The Group of a Coloured Cube, New South Wales, Pure Mathematics, 1978. 
+
+[2] D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 24.
+
+[3] D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 16.
+
+[4] W. Johnson, "INTERVIEW WITH DAVID SINGMASTER," TwistyPuzzles, 6 January 2002. [Online]. Available: https://twistypuzzles.com/articles/spotlight-singmaster/.
+
+[5] W. Johnson, "3x3x2, 2x2x3 cuboid article now on Twisty," TwistyPuzzles, 6 January 2002. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=1514.
+
+[6] D. Singmaster, "Cubic Circular," Jaap's Puzzle Page, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p4.
+
+[7] Keima, "Bonjours les cubeurs," FrancoCube, 11 March 2014. [Online]. Available: https://forum.francocube.com/viewtopic.php?t=11468.
+
+[8] D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 61.
+
+[9] A. Treep and J. v. Rossum, Cubism For Fun, September 1981. 
+
+[10] M. v. Eekelen and M. Vincent, Het Geheim Van De Wonderbaarlijke Kubus, 1981.

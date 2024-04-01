@@ -60,12 +60,20 @@ In September, 2020, Straughan completed development of CLL+1 and COLL+1 [9].
 
 ## References
 
-1. T. Barlow, "Random Cubing Discussion," SpeedSolving.com, 2 December 2010. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-495052.
-2. M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 2 December 2010. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-495230.
-3. M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 5 December 2010. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/page-21#post-496431.
-4. M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 4 May 2012. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/page-85#post-741058.
-5. L. d. Mendonça, "(Need help) List of all ZZ variants," SpeedSolving.com, 15 February 2017. [Online]. Available: https://www.speedsolving.com/threads/need-help-list-of-all-zz-variants.63869/post-1220062.
-6. L. d. Mendonça, "(Need help) List of all ZZ variants," SpeedSolving.com, 15 February 2017. [Online]. Available: https://www.speedsolving.com/threads/need-help-list-of-all-zz-variants.63869/post-1220075.
-7. M. J. Straughan, L. d. Mendonça and J. Tudor, Discord, 20 May 2020. [Online]. Available: https://discord.com/channels/416929203607568404/416933073893195779/712514867403423765.
-8. M. J. Straughan, Discord, 7 July 2020. [Online]. Available: https://discord.com/channels/416929203607568404/416933092620500992/730053033626435661.
-9. M. J. Straughan, "CLL+1: An Advanced LL Method (Complete and fully generated!)," SpeedSolving.com, 26 September 2020. [Online]. Available: https://www.speedsolving.com/threads/cll-1-an-advanced-ll-method-complete-and-fully-generated.78631/.
+[1] T. Barlow, "Random Cubing Discussion," SpeedSolving.com, 2 December 2010. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-495052.
+
+[2] M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 2 December 2010. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-495230.
+
+[3] M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 5 December 2010. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/page-21#post-496431.
+
+[4] M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 4 May 2012. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/page-85#post-741058.
+
+[5] L. d. Mendonça, "(Need help) List of all ZZ variants," SpeedSolving.com, 15 February 2017. [Online]. Available: https://www.speedsolving.com/threads/need-help-list-of-all-zz-variants.63869/post-1220062.
+
+[6] L. d. Mendonça, "(Need help) List of all ZZ variants," SpeedSolving.com, 15 February 2017. [Online]. Available: https://www.speedsolving.com/threads/need-help-list-of-all-zz-variants.63869/post-1220075.
+
+[7] M. J. Straughan, L. d. Mendonça and J. Tudor, Discord, 20 May 2020. [Online]. Available: https://discord.com/channels/416929203607568404/416933073893195779/712514867403423765.
+
+[8] M. J. Straughan, Discord, 7 July 2020. [Online]. Available: https://discord.com/channels/416929203607568404/416933092620500992/730053033626435661.
+
+[9] M. J. Straughan, "CLL+1: An Advanced LL Method (Complete and fully generated!)," SpeedSolving.com, 26 September 2020. [Online]. Available: https://www.speedsolving.com/threads/cll-1-an-advanced-ll-method-complete-and-fully-generated.78631/.

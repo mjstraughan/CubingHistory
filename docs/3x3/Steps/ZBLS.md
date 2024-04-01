@@ -35,4 +35,4 @@ ZBLS was originally proposed as the ZB method, a complete 3x3 method of its own 
 
 ## References
 
-1.	R. v. Bruchem and Z. Zborowski, "Back to cubing! What is everyone doing after WC 2003?," Yahoo! Groups - Speed Solving Rubik's Cube, 24 October 2003. [Online].
+[1]	R. v. Bruchem and Z. Zborowski, "Back to cubing! What is everyone doing after WC 2003?," Yahoo! Groups - Speed Solving Rubik's Cube, 24 October 2003. [Online].

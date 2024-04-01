@@ -76,13 +76,24 @@ In 1979 in David Singmaster's *Notes on Rubik's 'Magic Cube'*, Singmaster descri
 
 ## References
 
-1. L. Petrus, "Re: Speed cubing," Cube Lovers, 10 June 1996. [Online]. Available: http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/Lars_Petrus__Re__Speed_cubing.html.
-2. L. Petrus, "[Speed cubing group] Re: 4x4 thoughts....," Yahoo! Groups - Speed Solving Rubik's Cube, 1 August 2004. [Online]. 
-3. L. Petrus, Lars Petrus, March 1997. [Online]. Available: https://web.archive.org/web/19981201224552/http://u1.netgate.net/~mette/lars/cubedude/.
-4. L. Petrus, "[Speed Solving Rubik's Cube] Re: beginner needs some advice," Yahoo! Groups - Speed Solving Rubik's Cube, 5 April 2002. [Online]. 
-5. L. Petrus, Petrus Method, 2002. [Online]. Available: https://lar5.com/cube/index.html.
-6. D. Singmaster, Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm.
-7. L. Petrus, "Step 3," Lars Petrus, [Online]. Available: https://lar5.com/cube/fas3_2.html.
-8. J. Laire, "Petrus method, and getting it fast," TwistyPuzzles.com, 26 October 2006. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=40293#p40293.
-9. J. Laire, "Some videos," TwistyPuzzles.com, 5 April 2007. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=54631#p54631.
-10. Various, "Petrus Method," TwistyPuzzles.com, 2007. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=67431p67431.[11] 	D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 32.
+[1] L. Petrus, "Re: Speed cubing," Cube Lovers, 10 June 1996. [Online]. Available: http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/Lars_Petrus__Re__Speed_cubing.html.
+
+[2] L. Petrus, "[Speed cubing group] Re: 4x4 thoughts....," Yahoo! Groups - Speed Solving Rubik's Cube, 1 August 2004. [Online]. 
+
+[3] L. Petrus, Lars Petrus, March 1997. [Online]. Available: https://web.archive.org/web/19981201224552/http://u1.netgate.net/~mette/lars/cubedude/.
+
+[4] L. Petrus, "[Speed Solving Rubik's Cube] Re: beginner needs some advice," Yahoo! Groups - Speed Solving Rubik's Cube, 5 April 2002. [Online]. 
+
+[5] L. Petrus, Petrus Method, 2002. [Online]. Available: https://lar5.com/cube/index.html.
+
+[6] D. Singmaster, Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm.
+
+[7] L. Petrus, "Step 3," Lars Petrus, [Online]. Available: https://lar5.com/cube/fas3_2.html.
+
+[8] J. Laire, "Petrus method, and getting it fast," TwistyPuzzles.com, 26 October 2006. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=40293#p40293.
+
+[9] J. Laire, "Some videos," TwistyPuzzles.com, 5 April 2007. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=54631#p54631.
+
+[10] Various, "Petrus Method," TwistyPuzzles.com, 2007. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=67431p67431.
+
+[11] 	D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 32.

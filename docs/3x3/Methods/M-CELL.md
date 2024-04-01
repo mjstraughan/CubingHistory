@@ -34,5 +34,6 @@ The previous idea was refined into a more unique method. M-CELL was proposed on 
 
 ## References
 
-1. J. Briggs, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 21 August 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1111041.
-2. J. Briggs, "Immune System (solving method+ potential 1LLL)," SpeedSolving.com, 31 August 2015. [Online]. Available: https://www.speedsolving.com/threads/immune-system-solving-method-potential-1lll.54872/.
+[1] J. Briggs, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 21 August 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1111041.
+
+[2] J. Briggs, "Immune System (solving method+ potential 1LLL)," SpeedSolving.com, 31 August 2015. [Online]. Available: https://www.speedsolving.com/threads/immune-system-solving-method-potential-1lll.54872/.

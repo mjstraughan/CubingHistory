@@ -49,19 +49,34 @@ In December, 2010, Michael James Straughan proposed combining outer, inner, and 
 
 ## References
 
-1. D. Singmaster, "Notation," in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 3.
-2. W. Johnson, "INTERVIEW WITH DAVID SINGMASTER," TwistyPuzzles, 6 January 2002. [Online]. Available: https://twistypuzzles.com/articles/spotlight-singmaster/.
-3. J. H. Conway, D. Benson and D. Seal, in Solving the Hungarian Cube, Cambridge, UK, 1979, pp. 3, 6.
-4. M. Waterman and A. Treep, "Waterman Method," Cubsim For Fun, 1987. [Online]. Available: https://web.archive.org/web/20071029152943/http://rubikscube.info/waterman/booklet.php.
-5. R. v. Bruchem, "Re: Periodicity of algorithms," Yahoo! Groups - Speed Solving Rubik's Cube, 27 June 2002. [Online]. 
-6. F. Schiereck, De Hongaarse Kubus Voor Doordraaiers!, Mondria, 1981. 
-7. P. Jansen, "SPEEDSOLVING RUBIK'S CUBE," Peter Jansen's Website, 2002. [Online]. Available: https://web.archive.org/web/20020112153806/http://home01.wxs.nl/~janse625/PetersCubePage.html.
-8. P. Jansen, "SPEEDSOLVING RUBIK'S CUBE," SpeedCubing.com, 2002. [Online]. Available: https://www.speedcubing.com/peter.
-9. "Overview of all moves on the cube, and their results," SpeedCubing.com, February 2002. [Online]. Available: https://web.archive.org/web/20020202155737/https://www.speedcubing.com/moves.html.
-10. "Overview of all moves on the cube, and their results," SpeedCubing.com, April 2002. [Online]. Available: https://web.archive.org/web/20020405074048/https://www.speedcubing.com/moves.html.
-11. D. Orser, "Advanced tricks for F2L," SpeedCubing.com, 2002. [Online]. Available: https://web.archive.org/web/20021208035826fw_/http://www.speedcubing.com/f2l_advanced.html.
-12. S. Makisumi, "Re: Wide turns (was:New OLL for fridrich method)," Yahoo! Groups - Speed Solving Rubik's Cube, 1 February 2007. [Online]. 
-13. S. Makisumi, "Notation," Makisumi's Website, [Online]. Available: https://web.archive.org/web/20070915082213/http://www.cubefreak.net/notation.html.
-14. M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 1 December 2010. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-494718.
-15. M. J. Straughan, "Notation Based Reference System (NBRS): A standard for defining methods and states," SpeedSolving.com, 4 March 2021. [Online]. Available: https://www.speedsolving.com/threads/notation-based-reference-system-nbrs-a-standard-for-defining-methods-and-states.79862/.
-16. M. J. Straughan, "Notation Based Reference System," Google Sites, 2021. [Online]. Available: https://sites.google.com/site/athefre/concepts/nbrs?authuser=0.
+[1] D. Singmaster, "Notation," in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 3.
+
+[2] W. Johnson, "INTERVIEW WITH DAVID SINGMASTER," TwistyPuzzles, 6 January 2002. [Online]. Available: https://twistypuzzles.com/articles/spotlight-singmaster/.
+
+[3] J. H. Conway, D. Benson and D. Seal, in Solving the Hungarian Cube, Cambridge, UK, 1979, pp. 3, 6.
+
+[4] M. Waterman and A. Treep, "Waterman Method," Cubsim For Fun, 1987. [Online]. Available: https://web.archive.org/web/20071029152943/http://rubikscube.info/waterman/booklet.php.
+
+[5] R. v. Bruchem, "Re: Periodicity of algorithms," Yahoo! Groups - Speed Solving Rubik's Cube, 27 June 2002. [Online]. 
+
+[6] F. Schiereck, De Hongaarse Kubus Voor Doordraaiers!, Mondria, 1981. 
+
+[7] P. Jansen, "SPEEDSOLVING RUBIK'S CUBE," Peter Jansen's Website, 2002. [Online]. Available: https://web.archive.org/web/20020112153806/http://home01.wxs.nl/~janse625/PetersCubePage.html.
+
+[8] P. Jansen, "SPEEDSOLVING RUBIK'S CUBE," SpeedCubing.com, 2002. [Online]. Available: https://www.speedcubing.com/peter.
+
+[9] "Overview of all moves on the cube, and their results," SpeedCubing.com, February 2002. [Online]. Available: https://web.archive.org/web/20020202155737/https://www.speedcubing.com/moves.html.
+
+[10] "Overview of all moves on the cube, and their results," SpeedCubing.com, April 2002. [Online]. Available: https://web.archive.org/web/20020405074048/https://www.speedcubing.com/moves.html.
+
+[11] D. Orser, "Advanced tricks for F2L," SpeedCubing.com, 2002. [Online]. Available: https://web.archive.org/web/20021208035826fw_/http://www.speedcubing.com/f2l_advanced.html.
+
+[12] S. Makisumi, "Re: Wide turns (was:New OLL for fridrich method)," Yahoo! Groups - Speed Solving Rubik's Cube, 1 February 2007. [Online]. 
+
+[13] S. Makisumi, "Notation," Makisumi's Website, [Online]. Available: https://web.archive.org/web/20070915082213/http://www.cubefreak.net/notation.html.
+
+[14] M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 1 December 2010. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-494718.
+
+[15] M. J. Straughan, "Notation Based Reference System (NBRS): A standard for defining methods and states," SpeedSolving.com, 4 March 2021. [Online]. Available: https://www.speedsolving.com/threads/notation-based-reference-system-nbrs-a-standard-for-defining-methods-and-states.79862/.
+
+[16] M. J. Straughan, "Notation Based Reference System," Google Sites, 2021. [Online]. Available: https://sites.google.com/site/athefre/concepts/nbrs?authuser=0.

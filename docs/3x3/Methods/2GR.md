@@ -34,6 +34,8 @@ In April, 2017 John Li proposed 2GR [1, 2].
 
 ## References
 
-1. J. Li, "2GR Method Text Tutorial," Reddit, 7 April 2017. [Online]. Available: https://www.reddit.com/r/Cubers/comments/63y9sy/2gr_method_text_tutorial/.
-2. J. Li, "2GR (2-generator reduction)," [Online]. Available: https://web.archive.org/web/20170417185044/http://teoidus.github.io/dump/2GR/2GR.html.
-3. J. Li, "2GR (2-generator reduction)," [Online]. Available: https://johnm.li/2GR/2GR.html.
+[1] J. Li, "2GR Method Text Tutorial," Reddit, 7 April 2017. [Online]. Available: https://www.reddit.com/r/Cubers/comments/63y9sy/2gr_method_text_tutorial/.
+
+[2] J. Li, "2GR (2-generator reduction)," [Online]. Available: https://web.archive.org/web/20170417185044/http://teoidus.github.io/dump/2GR/2GR.html.
+
+[3] J. Li, "2GR (2-generator reduction)," [Online]. Available: https://johnm.li/2GR/2GR.html.

@@ -52,10 +52,16 @@ Hungarian physicist Zoltán Perjés, a relative of Ernő Rubik [6], published an
 
 ## References
 
-1. U. Roddewig, Solution Guide for the Hungarian Magic Cube, Cologne, Germany, 1979. 
-2. B. Easter, Magic Cube Solution, San Francisco, 1979. 
-3. S. Isaacs, "misc," Cube Lovers, 8 September 1981. [Online]. Available: https://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/Stan_Isaacs__misc.html.
-4. D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 26.
-5. D. Singmaster, in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 29.
-6. P. Forgács, "fizikai szemle," January 2007. [Online]. Available: http://www.epa.oszk.hu/00300/00342/00200/pdf/FizSzem_EPA00342_2007_01.pdf.
-7. D. Singmaster, in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 40.
+[1] U. Roddewig, Solution Guide for the Hungarian Magic Cube, Cologne, Germany, 1979. 
+
+[2] B. Easter, Magic Cube Solution, San Francisco, 1979. 
+
+[3] S. Isaacs, "misc," Cube Lovers, 8 September 1981. [Online]. Available: https://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/Stan_Isaacs__misc.html.
+
+[4] D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 26.
+
+[5] D. Singmaster, in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 29.
+
+[6] P. Forgács, "fizikai szemle," January 2007. [Online]. Available: http://www.epa.oszk.hu/00300/00342/00200/pdf/FizSzem_EPA00342_2007_01.pdf.
+
+[7] D. Singmaster, in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 40.

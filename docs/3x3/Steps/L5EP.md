@@ -46,12 +46,20 @@ An alternate set of names for each case was developed by Andrew Mahovich and Cub
 
 ## References
 
-1. M. Bennett, "Re: (Another VERY) Big Post about Step 4," Yahoo! Groups - Speed Solving Rubik's Cube, 13 December 2005. [Online]. 
-2. M. Bennett, "New Site up (Formerly: Shortest move Count...)," Yahoo! Groups - Speed Solving Rubik's Cube, 18 January 2006. [Online]. 
-3. M. Bennett, "MSM Step 6," Geocities - Bennet's Website, 18 January 2006. [Online]. Available: https://web.archive.org/web/20090807121113/http:/geocities.com/cubiks_ruber/msm6.html.
-4. M. J. Straughan, Straughan's Website, 2006. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
-5. K. Gustavsson, "Last edges (Roux amoung other methods)," SpeedSolving.com, 6 October 2008. [Online]. Available: https://www.speedsolving.com/threads/last-edges-roux-amoung-other-methods.6754/post-91969.
-6. M. J. Straughan, "L5E," PhotoBucket, [Online]. Available: https://i140.photobucket.com/albums/r25/Athefre/L5EFinal.png.
-7. M. J. Straughan, "Last edges (Roux amoung other methods)," SpeedSolving.com, 7 November 2008. [Online]. Available: https://www.speedsolving.com/threads/last-edges-roux-amoung-other-methods.6754/post-100400.
-8. A. Mahovich and Cubingcubecuber, "L5EP," Google Docs, 8 May 2020. [Online]. Available: https://docs.google.com/document/d/1kb4JFX2WY5mh0gchb9gkbI-RoINaFfX5w0i4VJ1z5ek/edit.
-9. A. Mahovich and Cubingcubecuber, "Quest For Sub 10 Hawaiian Kociemba | New Directions," SpeedSolving.com, 5 June 2020. [Online]. Available: https://www.speedsolving.com/threads/quest-for-sub-10-hawaiian-kociemba-new-directions.76602/post-1376723.
+[1] M. Bennett, "Re: (Another VERY) Big Post about Step 4," Yahoo! Groups - Speed Solving Rubik's Cube, 13 December 2005. [Online]. 
+
+[2] M. Bennett, "New Site up (Formerly: Shortest move Count...)," Yahoo! Groups - Speed Solving Rubik's Cube, 18 January 2006. [Online]. 
+
+[3] M. Bennett, "MSM Step 6," Geocities - Bennet's Website, 18 January 2006. [Online]. Available: https://web.archive.org/web/20090807121113/http:/geocities.com/cubiks_ruber/msm6.html.
+
+[4] M. J. Straughan, Straughan's Website, 2006. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
+
+[5] K. Gustavsson, "Last edges (Roux amoung other methods)," SpeedSolving.com, 6 October 2008. [Online]. Available: https://www.speedsolving.com/threads/last-edges-roux-amoung-other-methods.6754/post-91969.
+
+[6] M. J. Straughan, "L5E," PhotoBucket, [Online]. Available: https://i140.photobucket.com/albums/r25/Athefre/L5EFinal.png.
+
+[7] M. J. Straughan, "Last edges (Roux amoung other methods)," SpeedSolving.com, 7 November 2008. [Online]. Available: https://www.speedsolving.com/threads/last-edges-roux-amoung-other-methods.6754/post-100400.
+
+[8] A. Mahovich and Cubingcubecuber, "L5EP," Google Docs, 8 May 2020. [Online]. Available: https://docs.google.com/document/d/1kb4JFX2WY5mh0gchb9gkbI-RoINaFfX5w0i4VJ1z5ek/edit.
+
+[9] A. Mahovich and Cubingcubecuber, "Quest For Sub 10 Hawaiian Kociemba | New Directions," SpeedSolving.com, 5 June 2020. [Online]. Available: https://www.speedsolving.com/threads/quest-for-sub-10-hawaiian-kociemba-new-directions.76602/post-1376723.

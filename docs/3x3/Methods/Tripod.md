@@ -56,12 +56,20 @@ In November, 2007, Jack Eisenmann proposed a method called Fridrus [9]. In this 
 
 ## References
 
-1. R. Heise, Yahoo! Groups - Speed Solving Rubik's Cube, 11 December 2002. [Online]. 
-2. M. Gottlieb, "Supercritical Method," SpeedSolving.com, 23 December 2008. [Online]. Available: https://www.speedsolving.com/threads/supercritical-method.8065/post-114169.
-3. M. Gottlieb, "Tripod," Michael Gottlieb's Website, 2011. [Online]. Available: https://mzrg.com/rubik/methods/tripod/.
-4. J. Eisenmann, "Tripod Method," SpeedSolving.com, 14 February 2009. [Online]. Available: https://www.speedsolving.com/threads/tripod-method.9545/.
-5. J. Eisenmann, "TRIPOD METHOD," 14 February 2009. [Online]. Available: https://web.archive.org/web/20100616003611/http://web.mac.com/teisenmann/Tripod/main.html.
-6. M. Gottlieb, "Petrus Variation- does it have any potential?," SpeedSolving.com, 18 June 2009. [Online]. Available: https://www.speedsolving.com/threads/petrus-variation-does-it-have-any-potential.12940/post-194502.
-7. J. Fridrich and M. Goljan, "One corner and two adjoining edges are correct," Jessica Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/L1/ece.htm.
-8. J. Fridrich, "My speed cubing page," Jessica Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/cube.html.
-9. J. Eisenmann, "Fridrus Method," SpeedSolving.com, 21 November 2007. [Online]. Available: https://www.speedsolving.com/threads/fridrus-method.1990/.
+[1] R. Heise, Yahoo! Groups - Speed Solving Rubik's Cube, 11 December 2002. [Online]. 
+
+[2] M. Gottlieb, "Supercritical Method," SpeedSolving.com, 23 December 2008. [Online]. Available: https://www.speedsolving.com/threads/supercritical-method.8065/post-114169.
+
+[3] M. Gottlieb, "Tripod," Michael Gottlieb's Website, 2011. [Online]. Available: https://mzrg.com/rubik/methods/tripod/.
+
+[4] J. Eisenmann, "Tripod Method," SpeedSolving.com, 14 February 2009. [Online]. Available: https://www.speedsolving.com/threads/tripod-method.9545/.
+
+[5] J. Eisenmann, "TRIPOD METHOD," 14 February 2009. [Online]. Available: https://web.archive.org/web/20100616003611/http://web.mac.com/teisenmann/Tripod/main.html.
+
+[6] M. Gottlieb, "Petrus Variation- does it have any potential?," SpeedSolving.com, 18 June 2009. [Online]. Available: https://www.speedsolving.com/threads/petrus-variation-does-it-have-any-potential.12940/post-194502.
+
+[7] J. Fridrich and M. Goljan, "One corner and two adjoining edges are correct," Jessica Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/L1/ece.htm.
+
+[8] J. Fridrich, "My speed cubing page," Jessica Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/cube.html.
+
+[9] J. Eisenmann, "Fridrus Method," SpeedSolving.com, 21 November 2007. [Online]. Available: https://www.speedsolving.com/threads/fridrus-method.1990/.

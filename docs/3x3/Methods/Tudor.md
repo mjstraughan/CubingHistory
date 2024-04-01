@@ -35,6 +35,8 @@ The steps of the Tudor method have been proposed. The first known proposal is by
 
 ## References
 
-1. J. Tudor, "A New Speedcubing Method, the Tudor Method," SpeedSolvng.com, 29 October 2018. [Online]. Available: https://www.speedsolving.com/threads/a-new-speedcubing-method-the-tudor-method.71463/.
-2. K. Gustavsson, "Petrus + CF method," SpeedSolving.com, 12 December 2007. [Online]. Available: https://www.speedsolving.com/threads/petrus-cf-method.2177/.
-3. B. Mossey, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 20 April 2016. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1167804.
+[1] J. Tudor, "A New Speedcubing Method, the Tudor Method," SpeedSolvng.com, 29 October 2018. [Online]. Available: https://www.speedsolving.com/threads/a-new-speedcubing-method-the-tudor-method.71463/.
+
+[2] K. Gustavsson, "Petrus + CF method," SpeedSolving.com, 12 December 2007. [Online]. Available: https://www.speedsolving.com/threads/petrus-cf-method.2177/.
+
+[3] B. Mossey, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 20 April 2016. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1167804.

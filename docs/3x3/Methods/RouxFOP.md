@@ -38,4 +38,4 @@ A variant that is sometimes proposed instead is to solve the corners before plac
 
 ## References
 
-1. Systemdertoten, "Does this (sub) method have a name?," SpeedSolving.com, 29 June 2010. [Online]. Available: https://www.speedsolving.com/threads/does-this-sub-method-have-a-name.22232/.
+[1] Systemdertoten, "Does this (sub) method have a name?," SpeedSolving.com, 29 June 2010. [Online]. Available: https://www.speedsolving.com/threads/does-this-sub-method-have-a-name.22232/.

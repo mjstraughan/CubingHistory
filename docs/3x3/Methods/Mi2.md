@@ -40,7 +40,10 @@ In October, 2011 Straughan discovered the oriented blockbuilding concept and inc
 
 ## References
 
-1. M. J. Straughan, "ZZ and ZB Discussion," SpeedSolving.com, 4 May 2010. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-374352.
-2. M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 6 September 2011. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-638800.
-3. M. J. Straughan, 110mb.com, March 2010. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
-4. M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 3 October 2011. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-650817.
+[1] M. J. Straughan, "ZZ and ZB Discussion," SpeedSolving.com, 4 May 2010. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-374352.
+
+[2] M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 6 September 2011. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-638800.
+
+[3] M. J. Straughan, 110mb.com, March 2010. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
+
+[4] M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 3 October 2011. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-650817.

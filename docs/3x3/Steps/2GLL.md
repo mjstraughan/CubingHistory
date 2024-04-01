@@ -41,9 +41,14 @@ The acronym 2GLL was created by Timothy Sun in July, 2007. Sun posted a message 
 
 ## References
 
-1. L. Petrus, "Step 5," Petrus' Website, [Online]. Available: https://lar5.com/cube/fas5.html.
-2. L. Petrus, "Solving Rubik's Cube for speed.," Petrus' Website, [Online]. Available: https://lar5.com/cube/.
-3. B. Helmstetter, Helmstetter's Website, 2000. [Online]. Available: https://web.archive.org/web/20010428080630/http://www.ens-lyon.fr/~bhelmste/.
-4. L. Petrus, "Step 6 - Final layer position index," Petrus' Website, 2002. [Online]. Available: https://lar5.com/cube/xMain.html.
-5. T. Sun, "Speed Cubing Methods," TwistyPuzzles.com, 5 July 2007. [Online]. Available: https://www.twistypuzzles.com/forum/viewtopic.php?p=67102#p67102.
-6. J. Gouly, "What Method Do you Use?," TwistyPuzzles.com, 10 September 2007. [Online]. Available: https://www.twistypuzzles.com/forum/viewtopic.php?p=73596#p73596.
+[1] L. Petrus, "Step 5," Petrus' Website, [Online]. Available: https://lar5.com/cube/fas5.html.
+
+[2] L. Petrus, "Solving Rubik's Cube for speed.," Petrus' Website, [Online]. Available: https://lar5.com/cube/.
+
+[3] B. Helmstetter, Helmstetter's Website, 2000. [Online]. Available: https://web.archive.org/web/20010428080630/http://www.ens-lyon.fr/~bhelmste/.
+
+[4] L. Petrus, "Step 6 - Final layer position index," Petrus' Website, 2002. [Online]. Available: https://lar5.com/cube/xMain.html.
+
+[5] T. Sun, "Speed Cubing Methods," TwistyPuzzles.com, 5 July 2007. [Online]. Available: https://www.twistypuzzles.com/forum/viewtopic.php?p=67102#p67102.
+
+[6] J. Gouly, "What Method Do you Use?," TwistyPuzzles.com, 10 September 2007. [Online]. Available: https://www.twistypuzzles.com/forum/viewtopic.php?p=73596#p73596.

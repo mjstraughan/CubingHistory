@@ -45,5 +45,6 @@ Doug Li requested that a 2x2x3 block minus the edge between the two corners be c
 
 ## References
 
-1. D. Li, "Mysterious DougLi Method Unveiled (ane Re: A history of solving techniques)," Yahoo! Groups - Speed Solving Rubik's Cube, 21 August 2006. [Online]. 
-2. D. Li, "Mysterious DougLi Method Unveiled (ana Re: A history of solving techniques)," Yahoo! Groups - Speed Solving Rubik's Cube, 21 August 2006. [Online].
+[1] D. Li, "Mysterious DougLi Method Unveiled (ane Re: A history of solving techniques)," Yahoo! Groups - Speed Solving Rubik's Cube, 21 August 2006. [Online]. 
+
+[2] D. Li, "Mysterious DougLi Method Unveiled (ana Re: A history of solving techniques)," Yahoo! Groups - Speed Solving Rubik's Cube, 21 August 2006. [Online].

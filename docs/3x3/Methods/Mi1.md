@@ -52,8 +52,12 @@ In July, 2021 Shrihari Kavale (CubingForever) proposed an advanced version of th
 
 ## References
 
-1. M. J. Straughan, "Petrus or Roux?," TwistyPuzzles.com, 22 February 2006. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=28141#p28141.
-2. M. J. Straughan and G. Roux, "Method Discussions," Emails between Michael James Straughan and Gilles Roux, February 2006. [Online]. 
-3. M. J. Straughan and J. Laire, "Method Discussions," Emails between Michael James Straughan and Johannes Laire, August 2006. [Online]. 
-4. M. J. Straughan, 110mb.com, March 2010. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
-5. Shrihari Kavale (CubingForever), Discord, 28 July 2021. [Online].
+[1] M. J. Straughan, "Petrus or Roux?," TwistyPuzzles.com, 22 February 2006. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=28141#p28141.
+
+[2] M. J. Straughan and G. Roux, "Method Discussions," Emails between Michael James Straughan and Gilles Roux, February 2006. [Online]. 
+
+[3] M. J. Straughan and J. Laire, "Method Discussions," Emails between Michael James Straughan and Johannes Laire, August 2006. [Online]. 
+
+[4] M. J. Straughan, 110mb.com, March 2010. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
+
+[5] Shrihari Kavale (CubingForever), Discord, 28 July 2021. [Online].

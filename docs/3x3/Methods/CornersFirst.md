@@ -67,9 +67,14 @@ Various Corners First methods were published in 1979.
 
 ## References
 
-1. D. Singmaster, in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 40.
-2. P. Forgács, "fizikai szemle," January 2007. [Online]. Available: http://www.epa.oszk.hu/00300/00342/00200/pdf/FizSzem_EPA00342_2007_01.pdf.
-3. D. Knights, "Re: Mr. Rubik's solving system," Yahoo! Groups - Speed Solving Rubik's Cube, 18 May 2003. [Online]. 
-4. H. Bremer, Ein Paar Würfeldrehungen, Frankfurt, Germany, 1978. 
-5. D. Singmaster, Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm.
-6. M. Thai, The Winning Solution, Wayne, PA: Banbury Books, 1982.
+[1] D. Singmaster, in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 40.
+
+[2] P. Forgács, "fizikai szemle," January 2007. [Online]. Available: http://www.epa.oszk.hu/00300/00342/00200/pdf/FizSzem_EPA00342_2007_01.pdf.
+
+[3] D. Knights, "Re: Mr. Rubik's solving system," Yahoo! Groups - Speed Solving Rubik's Cube, 18 May 2003. [Online]. 
+
+[4] H. Bremer, Ein Paar Würfeldrehungen, Frankfurt, Germany, 1978. 
+
+[5] D. Singmaster, Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm.
+
+[6] M. Thai, The Winning Solution, Wayne, PA: Banbury Books, 1982.

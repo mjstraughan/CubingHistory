@@ -67,8 +67,12 @@ Thanks to Lucas Garron for providing links to the sources on this page.
 
 ## References
 
-1. S. Makisumi, "F2L Last Corner + LLCO," Makisumi's Website, 2004. [Online]. Available: https://web.archive.org/web/20070913114107/http://cubefreak.net:80/f2lc_llco.html.
-2. L. Garron, "MGLS - Makisumi-Garron Last Slot," Garron's Website, 2007. [Online]. Available: https://cube.garron.us/MGLS/.
-3. L. Garron, "[Speed cubing group] MGLS speedcubing method," Yahoo! Groups - Speed Solving Rubik's Cube, 15 June 2007. [Online]. 
-4. R. Heise, "Re: [Speed cubing group] MGLS speedcubing method," Yahoo! Groups - Speed Solving Rubik's Cube, 15 June 2007. [Online]. 
-5. L. Garron, "MGLS: Now with pronunciation!," SpeedSolving.com, 16 June 2010. [Online]. Available: https://www.speedsolving.com/threads/mgls-now-with-pronunciation.21922/.
+[1] S. Makisumi, "F2L Last Corner + LLCO," Makisumi's Website, 2004. [Online]. Available: https://web.archive.org/web/20070913114107/http://cubefreak.net:80/f2lc_llco.html.
+
+[2] L. Garron, "MGLS - Makisumi-Garron Last Slot," Garron's Website, 2007. [Online]. Available: https://cube.garron.us/MGLS/.
+
+[3] L. Garron, "[Speed cubing group] MGLS speedcubing method," Yahoo! Groups - Speed Solving Rubik's Cube, 15 June 2007. [Online]. 
+
+[4] R. Heise, "Re: [Speed cubing group] MGLS speedcubing method," Yahoo! Groups - Speed Solving Rubik's Cube, 15 June 2007. [Online]. 
+
+[5] L. Garron, "MGLS: Now with pronunciation!," SpeedSolving.com, 16 June 2010. [Online]. Available: https://www.speedsolving.com/threads/mgls-now-with-pronunciation.21922/.
