@@ -1068,7 +1068,7 @@ export default function AnimCube2(params) {
         : height - dpr;
     if (
       (setClip(graphics, 0, 0, width, e),
-      graphics.fillRect(0, 0, width, e),
+      graphics.clearRect(0, 0, width, e),
       (dragAreas = 0),
       natural)
     )
