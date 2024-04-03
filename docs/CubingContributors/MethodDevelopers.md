@@ -135,6 +135,9 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 ## Grangeiro, Iuri
 - EOLR for the Roux method (independent from Straughan's prior development)
 
+## Guimond, Gaétan
+- Guimond method
+
 ## Gustavsson, Kenneth
 - KCBM method
 - OLLCP (The second known proposal and the first publication of algorithms using the name XCLL)
