@@ -6,10 +6,10 @@ In September, 2006, Michael James Straughan and Johannes Laire began discussing 
 
 The notation assigns numbers to each piece starting from the left. +, -, and x are attched to each number to notate the direction that a piece is to be turned. + = clockwise, - = counter-clockwise, and x = turn a piece twice.
 
-![](img/Notation1.png)
-![](img/Notation2.png)
-![](img/Notation3.png)
-![](img/Notation4.png)
+![](img/Notation/Notation1.png)
+![](img/Notation/Notation2.png)
+![](img/Notation/Notation3.png)
+![](img/Notation/Notation4.png)
 
 ## References
 

@@ -4,7 +4,7 @@ When speed solving the Rubik's Snake, the common end state is to from the ball s
 
 ## Michael James Straughan
 
-![](img/Straughan.png)
+![](img/BallShape/Straughan.png)
 
 Another way to read the solution, with more numbers included:
 
@@ -12,7 +12,7 @@ Another way to read the solution, with more numbers included:
 
 ## Johannes Laire
 
-![](img/Laire.png)
+![](img/BallShape/Laire.png)
 
 ## References
 
