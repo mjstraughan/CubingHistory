@@ -2,7 +2,7 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 # NMEG
 
-<AnimCube2x2 params=" position=lluuu&scale=6&hint=10&hintborder=1&move=U'RUR'U'RU2RU'.R&initrevmove=#&facelets=yyyywwwwbbbbggggoooorrrr" width="400px" height="400px" />
+<AnimCube2x2 params="position=lluuu&scale=6&hint=10&hintborder=1&move=U'RUR'U'RU2RU'.R&initrevmove=#&facelets=yyyywwwwbbbbggggoooorrrr" width="400px" height="400px" />
 
 ## Description
 
