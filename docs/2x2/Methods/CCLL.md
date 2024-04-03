@@ -2,7 +2,7 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 # CCLL
 
-<AnimCube2x2 params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ogrowwgrybywgybgbwoorryg" width="400px" height="400px" />
+<AnimCube2x2 params="position=lluuu&scale=6&hint=10&hintborder=1&move=FRUR'U'F'.R'U'&initrevmove=#&facelets=yyyywwwwbbbbggggoooorrrr" width="400px" height="400px" />
 
 ## Description
 

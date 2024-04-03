@@ -2,7 +2,7 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 # NMCLL
 
-<AnimCube2x2 params=" buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=borbwwggybywoybgrwoogryr" width="400px" height="400px" />
+<AnimCube2x2 params="position=lluuu&scale=6&hint=10&hintborder=1&move=RUR'URU2R'.U'R'&initrevmove=#&facelets=yyyywwwwbbbbggggoooorrrr" width="400px" height="400px" />
 
 ## Description
 
