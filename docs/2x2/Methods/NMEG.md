@@ -21,9 +21,9 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 Non-Matching EG (NMEG) was developed by Michael James Straughan in June, 2012 [1, 2]. NMEG was released as part of the development of NMEG, NMCLL, and LEG-1.
 
-![](img/NMEG /NMEG1.png)
-![](img/NMEG /NMEG2.png)
-![](img/NMEG /NMEG3.png)
+![](img/NMEG/NMEG1.png)
+![](img/NMEG/NMEG2.png)
+![](img/NMEG/NMEG3.png)
 
 ## References
 
