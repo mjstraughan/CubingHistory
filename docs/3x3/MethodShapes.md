@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-import AnimCube2x2 from "@site/src/components/AnimCube2";
+import AnimCube from "@site/src/components/AnimCube";
 
 # Method Shapes
 
