@@ -6,9 +6,9 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 ## Description
 
-**Creator:** Various
+**Proposer:** Various
 
-**Created:** Numerous
+**Proposed:** Numerous
 
 **Steps:**
 
