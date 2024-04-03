@@ -19,12 +19,16 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 ## Origin and Development
 
+### Gunnar Krig
+
 The idea of the method and intent to develop was first expressed by Gunnar Krig in April, 2006. At the German Open 2006 competition, Tobias Daneels noticed that Krig was using a method for the 2x2x2 that was different from other competitors. Daneels didn't have the details for steps, so a question was posed to the Speed Solving Rubik's Cube Yahoo group [1]. Krig responded by describing a basic form of the method done in three steps. Krig noted the desire to combine the final two steps, forming the steps of what is now known as EG [2]. Later that year, Krig developed algorithms for the method and discussed with the community that he was using the method [3, 4].
 
 ![](img/EG/Gunnar1.png)
 ![](img/EG/Gunnar2.png)
 ![](img/EG/Gunnar3.png)
 ![](img/EG/Gunnar4.png)
+
+### Erik Akkersdijk
 
 Within the same discussion thread where Krig provided a link to his website with algorithms, Erik Akkersdijk stated that he was already aware of the method, but hadn’t yet learned it [5]. Kenneth Gustavsson also replied, stating that he had generated all of the algorithms himself earlier in the year [6].
 
@@ -36,6 +40,8 @@ Less than two weeks after the discussion thread, Akkersdijk posted a new thread 
 ![](img/EG/Akkersdijk2.png)
 ![](img/EG/Akkersdijk3.png)
 ![](img/EG/Akkersdijk4.png)
+
+### EG2
 
 The credit for who first developed EG2 is complicated. In July, 2008, David Woner generated all of the algorithms and posted a thread on speedsolving.com suggesting that he could be credited in the method name for having developed the final piece of the method [10]. Woner stated that all of the algorithms were in a spreadsheet and that he had contacted Akkersdijk, requesting that the algorithms be added to Akkersdijk’s site to fill in the gap and have the full EG method available [11]. Akkersdijk responded to the thread, stating that Henrik Buus-Aagaard had generated the algorithms around a year before Woner and that EG0, EG1, and EG2 are all about the idea and not who developed them [12].
 
