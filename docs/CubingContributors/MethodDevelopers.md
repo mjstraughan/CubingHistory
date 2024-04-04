@@ -163,6 +163,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 ## Helmstetter, Bernard
 - ZBLL (Developed for the Petrus method. However, the community named the step after Zborowski and Bruchem.)
+- 2GLL
 
 ## Hessler, Rowe
 - HLS
@@ -245,6 +246,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - 2x2x2 block
 - 2x2x3 block
 - Edge orientation for speedsolving
+- 2GLL
 - COLL
 - Algorithm Combination (Petrus 270)
 - Early CP (idea, but no development)
