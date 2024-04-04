@@ -4,4 +4,4 @@ Websites that are no longer reachable on their previous domain are stored here. 
 
 ## rubikscube.info
 
-<a href="/archive/index.php">rubikscube.info</a>
+<a href="/archive/waterman.html">rubikscube.info</a>
