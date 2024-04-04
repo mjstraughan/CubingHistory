@@ -6,9 +6,9 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 ## Description
 
-**Creator:** [Gaétan Guimond](CubingContributors/MethodDevelopers.md#guimond-gaétan)
+**Proposer:** [Gaétan Guimond](CubingContributors/MethodDevelopers.md#guimond-gaétan)
 
-**Created:** 1982
+**Proposed:** 1982
 
 **Steps:**
 

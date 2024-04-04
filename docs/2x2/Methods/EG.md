@@ -6,9 +6,9 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 ## Description
 
-**Creator:** [Gunnar Krig](CubingContributors/MethodDevelopers.md#krig-gunnar), [Erik Akkersdijk](CubingContributors/MethodDevelopers.md#akkersdijk-erik)
+**Proposer:** [Gunnar Krig](CubingContributors/MethodDevelopers.md#krig-gunnar), [Erik Akkersdijk](CubingContributors/MethodDevelopers.md#akkersdijk-erik)
 
-**Created:** 2006
+**Proposed:** 2006
 
 **Steps:**
 
