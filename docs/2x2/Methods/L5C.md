@@ -25,13 +25,9 @@ The idea for solving five remaining corners has been suggested by various member
 
 ![](img/L5C/OldIdea1.png)
 ![](img/L5C/OldIdea2.png)
-https://www.speedsolving.com/threads/quadleaks-the-gosbee-notice-i-said-the-way-i-do-it-and-not-my-method-method.26423/
 ![](img/L5C/OldIdea3.png)
-https://www.speedsolving.com/threads/does-anyone-else-do-this-for-2x2-solve-3-corners-winter-variation-permute.26983/#post-522498
 ![](img/L5C/OldIdea4.png)
-https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1226463
 ![](img/L5C/OldIdea5.png)
-https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1232297
 
 ## Development
 
