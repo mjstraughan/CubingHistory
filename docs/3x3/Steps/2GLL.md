@@ -8,7 +8,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 2GLL solves the last layer in one step when the edges are oriented and the corners are correctly permuted.
 
-**Proposer:** [Lars Petrus](CubingContributors/MethodDevelopers.md#petrus-lars), [Bernard Helmstetter](CubingContributors/MethodDevelopers.md#helmstetter-bernard)
+**Proposer:** [Bernard Helmstetter](CubingContributors/MethodDevelopers.md#helmstetter-bernard)
 
 **Proposed:** 2000.
 
