@@ -65,6 +65,9 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 ## Bruchem, Ron van
 - ZBLS (along with Zbigniew Zborowski)
 
+## Callan, Will
+- 1LLS / LS (2x2 method and L5C subset)
+
 ## Conway, John
 - F2L pairing technique (first known development)
 - OLL (OLL preserving PLL)
@@ -213,6 +216,9 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 ## Makisumi, Shotaro
 - MGLS (along with Lucas Garron)
 
+## McGruddy, Jacob
+- 1LLS / LS (2x2 method and L5C subset, developed two sets out of nine)
+
 ## McNeill, Jayden
 - Twisted TTLL
 
@@ -246,7 +252,6 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - 2x2x2 block
 - 2x2x3 block
 - Edge orientation for speedsolving
-- 2GLL
 - COLL
 - Algorithm Combination (Petrus 270)
 - Early CP (idea, but no development)
