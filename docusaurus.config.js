@@ -46,7 +46,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/mjstraughan/CubingHistory/tree/main/",
         },
-        blog: false,
+        //blog: false,
         //blog: {
         //showReadingTime: true,
         // Please change this to your repo.
@@ -78,8 +78,8 @@ const config = {
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Tutorial",
-          },
-          { to: "/blog", label: "Blog", position: "left" },*/
+          },*/
+          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://discord.gg/GJB2ER2Q3M",
             label: "Discord",
