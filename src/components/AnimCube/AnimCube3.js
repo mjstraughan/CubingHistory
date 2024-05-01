@@ -2751,7 +2751,6 @@ export default function AnimCube3(params) {
 
   function mouseup(e) {
     if (mouseIsDown && typeof e.touches != "undefined") {
-      e.preventDefault();
       touchfunc("auto");
     }
     if (mouseIsDown)
