@@ -2030,7 +2030,7 @@ export default function AnimCube2(params) {
     if (
       (mouseIsDown &&
         void 0 !== e.touches &&
-        (e.preventDefault(), touchfunc("auto")),
+        (touchfunc("auto")),
       mouseIsDown
         ? setTimeout(function () {
             showContextMenu = !0;
