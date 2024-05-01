@@ -16,6 +16,24 @@ export default function AnimCube({
   const id = "animcube_" + useId();
   const divRef = useRef();
   useEffect(() => {
+
+    // define global variables used for removing listeners
+
+    if (typeof acjs_removeListeners == 'undefined')
+      window.acjs_removeListeners = [];
+
+    if (typeof gpath == 'undefined')
+      window.gpath = location.pathname;
+
+    // if new page then remove listeners from previous page
+
+    if (gpath != location.pathname) {
+      for(var i in acjs_removeListeners)
+        acjs_removeListeners[i]();
+      acjs_removeListeners = [];
+      gpath = location.pathname;
+    }
+
     AnimCube3(`id=${id}&${params}`);
     const canvas = divRef.current?.childNodes[0];
     if (canvas) {
