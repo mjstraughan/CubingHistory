@@ -3,6 +3,10 @@ sidebar_position: 1
 slug: /
 ---
 
+import AnimCubeDemo from "@site/src/components/AnimCubeDemo";
+
+<AnimCubeDemo params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10" width="400px" height="400px" facelets="ddddydddddwdwwwdwdddddbbdddddddggdddddddoddodddddrrddd,ddddyddddwwwwwwwwwdbbdbbdbbdggdggdggdddoooooodrrdrrdrr,yyyyyyyyywwwwwwwwwdbbdbbdbbdggdggdggdddoooooodrrdrrdrr,yyyyyyyyywwwwwwwwwbbbbbbbbbgggggggggooooooooorrrrrrrrr"/>
+
 # Cubing History
 
 ## Purpose
