@@ -4,9 +4,13 @@ sidebar_position: 1
 
 # Rubik's Cube History
 
-## 15 Puzzle
+## Pre Rubik's Cube
 
-The 15 puzzle is often regarded as the predecessor to the Rubik's Cube. The Rubik's Cube allows for movement of its individual pieces because of a layer's freedom to rotate around the surface of the two layers below it. The 15 puzzle is instead two dimensional and the pieces move around within the single plane.
+Before the 3x3x3 puzzle was patented by Ernő Rubik, there were other similar puzzles. There were also designs patented or demonstrated that resembled Rubik's Cube. Interestingly, one was a spherical version of the 3x3x3 and two others were versions of the 2x2x2.
+
+### 15 Puzzle
+
+The 15 puzzle is often regarded as the predecessor to Rubik's Cube. Rubik's Cube allows for movement of its individual pieces because of a layer's freedom to rotate around the surface of the two layers below it. The 15 puzzle is instead two dimensional and the pieces move around within the single plane.
 
 The origin of the 15 puzzle is unknown. Much research has been performed by Jerry Slocum and Dic Sonneveld. Together in 2006 they published The *15 Puzzle Book: How it Drove the World Crazy*. This book covers the introduction and spread of the puzzle across the United States and eventually to the rest of the world [1].
 
@@ -19,10 +23,6 @@ Another account is that a puzzle designer from the late 1800s, Sam Loyd, is the 
 ![](img/Hardware/Loyd.png)
 
 However, Slocum and Sonneveld noted many other claims to the invention of the puzzle. Reports were published in various newspapers and other publications. The last of these provided in the book comes from Lee Yee Dian in a 1996 edition of Cubism For Fun. It is stated that a sliding block puzzle "in which the object was arranging nine digits by sliding them around" and that it originates in the Sung Dynasty in the 10th to 12th centuries. The puzzle goes by the name Chong Pai Jiu Gong (重排九宫). With the magic square, and the puzzle of arranging the numbers within the square, thought to have originated in China, this does open up a new possibility.
-
-## Pre Rubik's Cube
-
-Before the 3x3x3 puzzle was patented by Ernő Rubik, there were other similar designs patented or demonstrated. Interestingly, one was a spherical version of the 3x3x3 and two others were versions of the 2x2x2.
 
 ### Gustafson's Manipulable Toy
 
