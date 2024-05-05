@@ -56,7 +56,7 @@ Later in the patent description, Fox details that one possible production of the
 
 ![](img/Hardware/Fox.png)
 
-### Pyraminx (1970 - 1981)
+### Pyraminx
 
 In 1970, Uwe Meffert designed the Pyraminx puzzle [6]. In the early 1970s, Meffert was studying the effects that various shapes have on the energy field of the human body. He had been trying to prove that the pyramid shape had no difference in energy properties when compared to the other shapes. It was during this line of work that the idea for the Pyraminx occurred to Meffert.
 
@@ -108,12 +108,12 @@ However, Rubik only applied for the patent in Hungary and not an international p
 
 Throughout the years after the production of Rubik's Cube, some came forward to claim that the puzzle design had existed before Rubik’s' patent and development, and even before the prior similar patents. Most notably, in *Rubik's Cubic Compendium* and also issues 5 and 6 of Cubic Circular, David Singmaster recounts that in the French book on Rubik's Cube, *Le Cube Hongrois*, authors André Deledicq and Jean-Baptiste Touchard reported a story by Inspector General Semah [8, 12]. Semah stated that in 1920 he had played with a similar wooden cube in Istanbul. Then again in 1935 in Marseilles, Semah encountered another similar cube with five white faces and one green face.
 
-Another interesting note is a series of patents filed by Terotoshi Ishige (石毛照敏). In November, 1975, Ishige filed a patent for a 2x2x2 puzzle with a ball shaped core and interconnected pieces [13]. In October, 1976, Ishige filed a patent for a 3x3x3 version [14]. In 1977, Ishige filed patents for modified versions of each puzzle that look closer to the Rubik’s Cube internal design [15, 16].
+Another interesting note is a series of patents filed by Terutoshi Ishige (石毛照敏). In November, 1975, Ishige filed a patent for a 2x2x2 puzzle with a ball shaped core and interconnected pieces [13]. In October, 1976, Ishige filed a patent for a 3x3x3 version [14]. In 1977, Ishige filed patents for modified versions of each puzzle that look closer to the Rubik’s Cube internal design [15, 16].
 
 ![](img/Hardware/Ishige2-1.png)
 ![](img/Hardware/Ishige2-2.png)
 ![](img/Hardware/Ishige3-1.png)
-![](img/Hardware/Ishige3-1.png)
+![](img/Hardware/Ishige3-2.png)
 
 Although the history of Rubik's Cube is complicated with various similar or matching prior patents and claims, Rubik is the one who took action to develop a working product and find a manufacturer to produce and market the cube as a product. It is also clear that Rubik's development was of major influence. Rubik's Cube captivated the entire world and inspired an entirely new category of three-dimensional twisty puzzles.
 
