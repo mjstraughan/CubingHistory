@@ -20,8 +20,6 @@ Another account is that a puzzle designer from the late 1800s, Sam Loyd, is the 
 
 However, Slocum and Sonneveld noted many other claims to the invention of the puzzle. Reports were published in various newspapers and other publications. The last of these provided in the book comes from Lee Yee Dian in a 1996 edition of Cubism For Fun. It is stated that a sliding block puzzle "in which the object was arranging nine digits by sliding them around" and that it originates in the Sung Dynasty in the 10th to 12th centuries. The puzzle goes by the name Chong Pai Jiu Gong (重排九宫). With the magic square, and the puzzle of arranging the numbers within the square, thought to have originated in China, this does open up a new possibility.
 
-http://www.drhuang.com/chinese/science/mathematics/%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E6%89%8B%E5%86%8C/%E7%AC%AC%E4%B8%89%E9%83%A8%E5%88%86%20%E8%B5%84%E6%96%99%E7%AF%87/%E4%B8%93%E9%A2%98%E4%B8%89%20%E8%B5%84%E6%96%99/%E7%BA%B5%E6%A8%AA%E5%9B%BE.htm
-
 ## Pre Rubik's Cube
 
 Before the 3x3x3 puzzle was patented by Ernő Rubik, there were other similar designs patented or demonstrated. Interestingly, one was a spherical version of the 3x3x3 and two others were versions of the 2x2x2.
@@ -90,7 +88,7 @@ Rubik continues by describing the formation of the idea of Rubik's Cube. Rubik h
 Rubik then set out to find a way to construct the 2x2x2 cube in a way that both allowed for the pieces to stay together by themselves and also to allow for the observed turning possibilities. Rubik drilled holes diagonally through each of the eight cubes then threaded strips of rubber from one diagonal cube to the other. Rubik was also interested in knowing the effects upon individual cubes as the layers of the 2x2x2 was turned. So, he applied colored pieces of paper to each of the individual cubes.
 
 ![](img/Hardware/2x2Prototype.png)
-Image credit Liberty Science Center: https://lsc.org/news-and-social/news/beyond-rubiks-cube-day-30-prototype-rubiks-cube
+Image from [Liberty Science Center](https://lsc.org/news-and-social/news/beyond-rubiks-cube-day-30-prototype-rubiks-cube)
 
 After applying several turns to the 2x2x2, Rubik was surprised to discover just how difficult it was to return the pieces to the original state. In trying to find a solution, the rubber strips holding the pieces together tangled and broke, collapsing the 2x2x2. Rubik then set about finding a better way to hold the pieces together.
 
@@ -120,10 +118,12 @@ Although the history of Rubik's Cube is complicated with various similar or matc
 
 ## Sources and Credit
 
-A few sources have been of great help in putting together the major historical points and finding the starting points for research.
+A few sources have been of great help in putting together some of the major historical points and finding the starting points for additional research.
 
 http://cubeman.org/cchrono.txt
+
 https://www.calormen.com/twistypuzzles/twisty.htm#Patents
+
 https://jipel.law.nyu.edu/the-legal-puzzle-of-the-rubiks-cube/
 
 ## References
