@@ -1,0 +1,146 @@
+---
+sidebar_position: 1
+---
+
+# Rubik's Cube History
+
+## 15 Puzzle
+
+The 15 puzzle is often regarded as the predecessor to the Rubik's Cube. The Rubik's Cube allows for movement of its individual pieces because of a layer's freedom to rotate around the surface of the two layers below it. The 15 puzzle is instead two dimensional and the pieces move around within the single plane.
+
+The origin of the 15 puzzle is unknown. Much research has been performed by Jerry Slocum and Dic Sonneveld. Together in 2006 they published The *15 Puzzle Book: How it Drove the World Crazy*. This book covers the introduction and spread of the puzzle across the United States and eventually to the rest of the world [1].
+
+A few standout potential sources were uncovered by Slocum and Sonneveld. One of the possible sources comes in late 1879 to early 1880. Matthias J. Rice, a man with woodworking skills, and who became ill and bedridden, commissioned a window worker to look for some kind of small wooden item that Rice could easily reproduce and sell. The window worker returned with an item that had been constructed and sold by deaf students. This item was of the form of the 15 puzzle.
+
+Another account is that a puzzle designer from the late 1800s, Sam Loyd, is the creator. Loyd states in his book *Sam Loyd's Cyclopedia of 5000 Puzzles, Tricks, and Conundrums With Answers* that he designed the puzzle and caused the world to become infatuated [2].
+
+>The older inhabitants of Puzzleland will remember how in the early seventies I drove the entire world crazy over a little box of movable blocks which became known as the "14-15 Puzzle."
+
+![](img/Hardware/Loyd.png)
+
+However, Slocum and Sonneveld noted many other claims to the invention of the puzzle. Reports were published in various newspapers and other publications. The last of these provided in the book comes from Lee Yee Dian in a 1996 edition of Cubism For Fun. It is stated that a sliding block puzzle "in which the object was arranging nine digits by sliding them around" and that it originates in the Sung Dynasty in the 10th to 12th centuries. The puzzle goes by the name Chong Pai Jiu Gong (重排九宫). With the magic square, and the puzzle of arranging the numbers within the square, thought to have originated in China, this does open up a new possibility.
+
+http://www.drhuang.com/chinese/science/mathematics/%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E6%89%8B%E5%86%8C/%E7%AC%AC%E4%B8%89%E9%83%A8%E5%88%86%20%E8%B5%84%E6%96%99%E7%AF%87/%E4%B8%93%E9%A2%98%E4%B8%89%20%E8%B5%84%E6%96%99/%E7%BA%B5%E6%A8%AA%E5%9B%BE.htm
+
+## Pre Rubik's Cube
+
+Before the 3x3x3 puzzle was patented by Ernő Rubik, there were other similar designs patented or demonstrated. Interestingly, one was a spherical version of the 3x3x3 and two others were versions of the 2x2x2.
+
+### Gustafson's Manipulable Toy
+
+The earliest known patent for a three-dimensional twisty puzzle comes from William Gustafson. In February, 1960, Gustafson filed a patent for a "manipulable toy" [3]. It is a puzzle that resembles a spherical form of what is now commonly called the 2x2x2. Not only is this clear from the patent images, but also from the patent description:
+
+> Accordingly, it is an object of the present invention to provide a manipulatable toy having a plurality of varicolored parts movable relative to each other to form various patterns.
+
+> Other objects are to provide a puzzle or toy which is economical to manufacture, challenging to use, and which is adapted for use by persons of all ages.
+
+![](img/Hardware/Gustafson.png)
+
+### Nichols' Pattern Forming Puzzle
+
+In March, 1970, Larry Nichols applied for a patent for a "pattern forming puzzle and method with pieces rotatable in groups" [4]. This is another version of a 2x2x2 puzzle. The primary differences in comparison to Gustafson's patent are that Nichols' design is cubic in shape and the parts are held together using magnetic force. Nichols' patent also included ideas for additional sizes, spherical 2x2x2 variants, and mechanical piece attachment instead of magnetic.
+
+> For example, referring to FIG. 3 additional sets of cubes are added to the basic embodiment to provide additional planes within which various sets of pieces may rotate or twist with respect to other sets. In any of these three-dimensional embodiments it is also possible to achieve engagement by mechanical rather than magnetic means, as for example by using a pop-in snap linkage, or a tongue-in-groove arrangement allowing rotation without disengagement.
+
+![](img/Hardware/Nichols.png)
+
+### Fox's Amusement Device
+
+In April, 1970, Frank Fox applied for a patent for an "amusement device" [5]. The device is a spherical shape segmented into a 3x3x3 group of pieces. The initially described function is for use as a more complex, three-dimensional version of noughts and crosses (or tic tac toe).
+
+Later in the patent description, Fox details that one possible production of the puzzle is to have individual pieces connected together using interlocking tongues and grooves, similar to the later patented Rubik's Cube. Fox's patent also describes a configuration where the individual pieces may be given different colors. Manipulation, or turning, will then result in a large variety of patterns. This makes Fox's patent the first known introduction and patent of the 3x3x3 puzzle.
+
+> In a more complex form the sphere may be formed of twenty-six interlocking parts each constituting on its outer surface one of the play positions of the complete sphere. In such a form the sphere is hollow and has a wall thickness sufficient to accommodate interengaging formations on confronting inwardly extending faces of the various parts. All of the parts except those forming the eight "corner" positions common to three different fields have four such inwardly extending faces, the eight exceptions having only three such faces. The interengaging formations serve to lock the parts together and in a preferred embodiment of this variant of the device the formations are keys and keyways formed by tongues and grooves of "keyhole" configuration.
+
+> Thus with the assembled sphere positions with one such pare of dividing planes horizontal the top and bottom sections of the sphere may be rotated relative to the horizontal centre section, the left and right sections may be rotated relative to the vertical center section and the back and front sections may be rotated relative to the vertical centre section between them.
+
+> With this variant the possible number of different "moves" is considerably increased...For example with the twenty-six individual pieces in different colours the device can be manipulated to make up a wide variety of coloured patterns
+
+![](img/Hardware/Fox.png)
+
+### Pyraminx (1970 - 1981)
+
+In 1970, Uwe Meffert designed the Pyraminx puzzle [6]. In the early 1970s, Meffert was studying the effects that various shapes have on the energy field of the human body. He had been trying to prove that the pyramid shape had no difference in energy properties when compared to the other shapes. It was during this line of work that the idea for the Pyraminx occurred to Meffert.
+
+However, it wasn't until 1981 when Meffert applied for a patent [7]. Meffert credits the Rubik's Cube for providing him the motivation to patent his own puzzle [6].
+
+![](img/Hardware/Pyraminx.png)
+
+## Leading Up to Rubik's Cube
+
+In *Rubik's Cubic Compendium (Recreations in Mathematics)*, Rubik describes the origin of the idea of the puzzle [8]. In the late 60s to early 70s, Rubik studied Interior Architecture and Design at the Hungarian Academy of Applied Arts. One of the involved subjects was geometry and Rubik found it to be a fascinating subject. Another important subject that Rubik studied was one of forms and materials.
+
+After graduation, Rubik became a lecturer and was asked to teach the subject. In this class, students were given exercises that involved the manipulation of paper and other materials to form shapes and solve problems. Rubik states that "colour had an important part to play in these exercises" and that "Colour must not contradict the form but interpret and enhance it." Rubik also taught a "preparatory course in descriptive geometry" and believes that this also played a part in the idea of Rubik's Cube because within the subject of descriptive geometry "One must know the possibilities and limitations of the construction and assembly of spatial objects."
+
+Rubik also notes several earlier puzzles that may have had an influence. The first of these is the tangram. A tangram consists of several sharply angled shapes, such as triangles, rectangles, or trapezoids, that are positioned and connected to form a larger shape. A similar puzzle is the pentomino. In this puzzle, the piece arrangement and connection goals are the same but the individual pieces are formed of several connected squares. Taking the pentomino into the third dimension, there is also the Soma cube. Instead of the pentomino shapes always forming a two-dimensional line and arranged on a flat surface, the pieces of the Soma cube are connected in three dimensions to build a cube shape.
+
+![](img/Hardware/Tangram.png)
+![](img/Hardware/Pentominos.png)
+
+Rubik points out another cube shaped puzzle called MacMahon's Cubes. In this puzzle, there are 30 different cubes, each with various color combinations on the six sides. The object of the game is to start by picking a single cube. Then, using that cube as a reference, pick out eight other cubes and try to stack them to form a 2x2x2 (or 3x3x3) with the same outer, and matching inner, colors as the reference cube.
+
+![](img/Hardware/MacMahon.png)
+
+A final puzzle mentioned by Rubik is the 15 puzzle. Known worldwide, the 15 puzzle can be compared to a two-dimensional version of Rubik's Cube. Pieces are rotated and positioned along a two-dimensional plane. In order to distinguish each piece, like the colors of Rubik's Cube, numbers from 1-15 are applied.
+
+## Idea and Prototypes
+
+Rubik continues by describing the formation of the idea of Rubik's Cube. Rubik had been experimenting with the construction of three-dimensional geometric shapes. Rubik thought it was interesting that, after assembling eight cubes to form a 2x2x2 cube, each side of this new cube could be turned along three different axes.
+
+Rubik then set out to find a way to construct the 2x2x2 cube in a way that both allowed for the pieces to stay together by themselves and also to allow for the observed turning possibilities. Rubik drilled holes diagonally through each of the eight cubes then threaded strips of rubber from one diagonal cube to the other. Rubik was also interested in knowing the effects upon individual cubes as the layers of the 2x2x2 was turned. So, he applied colored pieces of paper to each of the individual cubes.
+
+![](img/Hardware/2x2Prototype.png)
+Image credit Liberty Science Center: https://lsc.org/news-and-social/news/beyond-rubiks-cube-day-30-prototype-rubiks-cube
+
+After applying several turns to the 2x2x2, Rubik was surprised to discover just how difficult it was to return the pieces to the original state. In trying to find a solution, the rubber strips holding the pieces together tangled and broke, collapsing the 2x2x2. Rubik then set about finding a better way to hold the pieces together.
+
+The use of magnets, possibly similar to Nichols' 1970 patent application, was considered by Rubik. However, because the strength of the magnetic force greatly decreased at the peak of a turn, the pieces would then fall apart. Rubik felt that it was important that the pieces remain together not only for ease of use, but also to avoid any additional rules. Rubik wanted to avoid needing to specify that turning the layers of the puzzle is ok, but pulling the pieces apart isn't.
+
+Rubik decided to focus on the inner edges of each of the eight cubes. He realized that because each turn moves in a circular direction, "tracks" could be implemented on the inner side of each layer. The inner edges of the corner pieces could be modified to move along the tracks. This eventually led to the dovetail connections in the final cube. For the 3x3x3 version, Rubik's Cube, Rubik fitted spring-loaded screws into the six center pieces to keep all pieces at an even tension and avoid difficult turning or loose, rattling movement.
+
+## Introduction of Rubik's Cube
+
+In the Spring of 1974, Rubik realized that the cube is an object that could be produced and marketed. Before this, Rubik had been using it only as a geometric and spatial demonstration tool. On January 30, 1975, Rubik applied for a patent [9]. In 1977, Rubik partnered with Politechnika Cooperative to get the cube to market under the name "Magic Cube" [8]. Ideal Toy Corporation later became the distributor where it was renamed to "Rubik's Cube" [10].
+
+![](img/Hardware/Rubik1.png)
+![](img/Hardware/Rubik2.png)
+
+However, Rubik only applied for the patent in Hungary and not an international patent. Once Rubik's Cube started reaching the rest of the world, litigations occurred. Moleculon Research Corporation obtained ownership of Nichols' 2x2x2 puzzle patent and sued Ideal Toy Corporation in a $60 million dollar patent infringement case [11]. Moleculon's president stated that Moleculon had approached Ideal Toy Corporation in 1969 to start a potential deal to create and market the puzzle described in Nichols' patent. The final decision of the courts was that the Rubik's Pocket Cube, the 2x2x2 cube, infringed upon Nichols' patent. The Rubik's Cube, 3x3x3 cube, was deemed as not infringing upon Nichols' patent [10].
+
+Throughout the years after the production of Rubik's Cube, some came forward to claim that the puzzle design had existed before Rubik’s' patent and development, and even before the prior similar patents. Most notably, in *Rubik's Cubic Compendium* and also issues 5 and 6 of Cubic Circular, David Singmaster recounts that in the French book on Rubik's Cube, *Le Cube Hongrois*, authors André Deledicq and Jean-Baptiste Touchard reported a story by Inspector General Semah [8, 12]. Semah stated that in 1920 he had played with a similar wooden cube in Istanbul. Then again in 1935 in Marseilles, Semah encountered another similar cube with five white faces and one green face.
+
+Although the history of Rubik's Cube is complicated with various similar or matching prior patents and claims, Rubik is the one who took action to develop a working product and find a manufacturer to produce and market the cube as a product. It is also clear that Rubik's development was of major influence. Rubik's Cube captivated the entire world and inspired an entirely new category of three-dimensional twisty puzzles.
+
+## Sources and Credit
+
+A few sources have been of great help in putting together the major historical points and finding the starting points for research.
+
+http://cubeman.org/cchrono.txt
+https://www.calormen.com/twistypuzzles/twisty.htm#Patents
+https://jipel.law.nyu.edu/the-legal-puzzle-of-the-rubiks-cube/
+
+## References
+
+[1] 	J. Slocum and D. Sonneveld, The 15 Puzzle Book: How it Drove the World Crazy, Beverly Hills, CA: The Slocum Puzzle Foundation, 2006. 
+
+[2] 	S. Loyd, Sam Loyd's Cyclopedia of 5000 Puzzles, Tricks, and Conundrums With Answers, New York: The Lamb Publishing Company, 1914. 
+
+[3] 	W. Gustafson, "Manipulatable toy," 2 February 1960. [Online]. Available: https://patents.google.com/patent/US3081089A/en?oq=3%2c081%2c089.
+
+[4] 	L. Nichols, "Pattern forming puzzle and method with pieces rotatable in groups," 4 March 1970. [Online]. Available: https://patents.google.com/patent/US3655201.
+
+[5] 	F. Fox, "AMUSEMENT DEVICE," 9 April 1970. [Online]. Available: https://www.jaapsch.net/puzzles/patents/gb1344259.pdf.
+
+[6] 	J. O'Connor and U. Meffert, "Uwe Meffert’s Amazing Mind at Rubik's Cube Worlds 2013," YouTube, 19 December 2013. [Online]. Available: https://www.youtube.com/watch?v=X8CRld9CCnQ.
+
+[7] 	U. Meffert, "Puzzle toy," 6 October 1981. [Online]. Available: https://patentimages.storage.googleapis.com/45/5a/0d/07c7c8b964a460/EP0042695A3.pdf.
+
+[8] 	E. Rubik, T. Varga, G. Keri, G. Marx and T. Vekerdy, Rubik's Cubic Compendium (Recreations in Mathematics), New York: Oxford University Press, 1987. 
+
+[9] 	E. Rubik, "térbeli logikai játék," 30 January 1975. [Online]. Available: https://www.sztnh.gov.hu/sites/default/files/anim/pics/HU-170062.pdf.
+
+[10] 	C. Chen, "The Legal Puzzle of the Rubik’s Cube," NYU Journal of Intellectual Property & Entertainment Law, 2 October 2015. [Online]. Available: https://jipel.law.nyu.edu/the-legal-puzzle-of-the-rubiks-cube/.
+
+[11] 	C. George, "Cambridge firm seeks $60m in Rubik's Cube suit," The Boston Globe, 27 May 1982.
+
+[12] 	D. Singmaster, "PREHISTORY OF THE CUBE," Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic5.htm.
