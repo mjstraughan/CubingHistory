@@ -109,6 +109,13 @@ However, Rubik only applied for the patent in Hungary and not an international p
 
 Throughout the years after the production of Rubik's Cube, some came forward to claim that the puzzle design had existed before Rubik’s' patent and development, and even before the prior similar patents. Most notably, in *Rubik's Cubic Compendium* and also issues 5 and 6 of Cubic Circular, David Singmaster recounts that in the French book on Rubik's Cube, *Le Cube Hongrois*, authors André Deledicq and Jean-Baptiste Touchard reported a story by Inspector General Semah [8, 12]. Semah stated that in 1920 he had played with a similar wooden cube in Istanbul. Then again in 1935 in Marseilles, Semah encountered another similar cube with five white faces and one green face.
 
+Another interesting note is a series of patents filed by Terotoshi Ishige (石毛照敏). In November, 1975, Ishige filed a patent for a 2x2x2 puzzle with a ball shaped core and interconnected pieces [13]. In October, 1976, Ishige filed a patent for a 3x3x3 version [14]. In 1977, Ishige filed patents for modified versions of each puzzle that look closer to the Rubik’s Cube internal design [15, 16].
+
+![](img/Hardware/Ishige2-1.png)
+![](img/Hardware/Ishige2-2.png)
+![](img/Hardware/Ishige3-1.png)
+![](img/Hardware/Ishige3-1.png)
+
 Although the history of Rubik's Cube is complicated with various similar or matching prior patents and claims, Rubik is the one who took action to develop a working product and find a manufacturer to produce and market the cube as a product. It is also clear that Rubik's development was of major influence. Rubik's Cube captivated the entire world and inspired an entirely new category of three-dimensional twisty puzzles.
 
 ## Sources and Credit
@@ -141,6 +148,14 @@ https://jipel.law.nyu.edu/the-legal-puzzle-of-the-rubiks-cube/
 
 [10] 	C. Chen, "The Legal Puzzle of the Rubik’s Cube," NYU Journal of Intellectual Property & Entertainment Law, 2 October 2015. [Online]. Available: https://jipel.law.nyu.edu/the-legal-puzzle-of-the-rubiks-cube/.
 
-[11] 	C. George, "Cambridge firm seeks $60m in Rubik's Cube suit," The Boston Globe, 27 May 1982.
+[11] 	C. George, "Cambridge firm seeks $60m in Rubik's Cube suit," The Boston Globe, 27 May 1982. 
 
 [12] 	D. Singmaster, "PREHISTORY OF THE CUBE," Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic5.htm.
+
+[13] 	T. Ishige, "サイコロガタカイテンシキクミアワセガング," 25 November 1975. [Online]. Available: https://www.j-platpat.inpit.go.jp/c1801/PU/JP-S52-066038/11/ja.
+
+[14] 	T. Ishige, "サイコロ型回転式組合せ玩具," 12 October 1976. [Online]. Available: https://www.j-platpat.inpit.go.jp/c1801/PU/JP-S53-046833/11/ja.
+
+[15] 	T. Ishige, "回転式組合わせ玩具," 12 March 1977. [Online]. Available: https://www.j-platpat.inpit.go.jp/c1801/PU/JP-S53-113642/11/ja.
+
+[16] 	T. Ishige, "回転式立体組合わせ玩具," 29 March 1977. [Online]. Available: https://www.j-platpat.inpit.go.jp/c1801/PU/JP-S53-120946/11/ja.
