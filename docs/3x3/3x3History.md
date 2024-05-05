@@ -12,7 +12,7 @@ Before the 3x3x3 puzzle was patented by Ernő Rubik, there were other similar pu
 
 The 15 puzzle is often regarded as the predecessor to Rubik's Cube. Rubik's Cube allows for movement of its individual pieces because of a layer's freedom to rotate around the surface of the two layers below it. The 15 puzzle is instead two dimensional and the pieces move around within the single plane.
 
-The origin of the 15 puzzle is unknown. Much research has been performed by Jerry Slocum and Dic Sonneveld. Together in 2006 they published The *15 Puzzle Book: How it Drove the World Crazy*. This book covers the introduction and spread of the puzzle across the United States and eventually to the rest of the world [1].
+The origin of the 15 puzzle is unknown. Much research has been performed by Jerry Slocum and Dic Sonneveld. Together in 2006 they published *The 15 Puzzle Book: How it Drove the World Crazy*. This book covers the introduction and spread of the puzzle across the United States and eventually to the rest of the world [1].
 
 A few standout potential sources were uncovered by Slocum and Sonneveld. One of the possible sources comes in late 1879 to early 1880. Matthias J. Rice, a man with woodworking skills, and who became ill and bedridden, commissioned a window worker to look for some kind of small wooden item that Rice could easily reproduce and sell. The window worker returned with an item that had been constructed and sold by deaf students. This item was of the form of the 15 puzzle.
 
