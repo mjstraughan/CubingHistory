@@ -97,6 +97,10 @@ The use of magnets, possibly similar to Nichols' 1970 patent application, was co
 
 Rubik decided to focus on the inner edges of each of the eight cubes. He realized that because each turn moves in a circular direction, "tracks" could be implemented on the inner side of each layer. The inner edges of the corner pieces could be modified to move along the tracks. This eventually led to the dovetail connections in the final cube. For the 3x3x3 version, Rubik's Cube, Rubik fitted spring-loaded screws into the six center pieces to keep all pieces at an even tension and avoid difficult turning or loose, rattling movement.
 
+![](img/Hardware/3x3Prototype.png)
+
+Image from [Liberty Science Center](https://lsc.org/news-and-social/news/beyond-rubiks-cube-day-24-production-prototype-cube)
+
 ## Introduction of Rubik's Cube
 
 In the Spring of 1974, Rubik realized that the cube is an object that could be produced and marketed. Before this, Rubik had been using it only as a geometric and spatial demonstration tool. On January 30, 1975, Rubik applied for a patent [9]. In 1977, Rubik partnered with Politechnika Cooperative to get the cube to market under the name "Magic Cube" [8]. Ideal Toy Corporation later became the distributor where it was renamed to "Rubik's Cube" [10].
