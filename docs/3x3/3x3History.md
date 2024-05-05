@@ -88,6 +88,7 @@ Rubik continues by describing the formation of the idea of Rubik's Cube. Rubik h
 Rubik then set out to find a way to construct the 2x2x2 cube in a way that both allowed for the pieces to stay together by themselves and also to allow for the observed turning possibilities. Rubik drilled holes diagonally through each of the eight cubes then threaded strips of rubber from one diagonal cube to the other. Rubik was also interested in knowing the effects upon individual cubes as the layers of the 2x2x2 was turned. So, he applied colored pieces of paper to each of the individual cubes.
 
 ![](img/Hardware/2x2Prototype.png)
+
 Image from [Liberty Science Center](https://lsc.org/news-and-social/news/beyond-rubiks-cube-day-30-prototype-rubiks-cube)
 
 After applying several turns to the 2x2x2, Rubik was surprised to discover just how difficult it was to return the pieces to the original state. In trying to find a solution, the rubber strips holding the pieces together tangled and broke, collapsing the 2x2x2. Rubik then set about finding a better way to hold the pieces together.
