@@ -60,7 +60,7 @@ Later in the patent description, Fox details that one possible production of the
 
 In 1970, Uwe Meffert designed the Pyraminx puzzle [6]. In the early 1970s, Meffert was studying the effects that various shapes have on the energy field of the human body. He had been trying to prove that the pyramid shape had no difference in energy properties when compared to the other shapes. It was during this line of work that the idea for the Pyraminx occurred to Meffert.
 
-However, it wasn't until 1981 when Meffert applied for a patent [7]. Meffert credits the Rubik's Cube for providing him the motivation to patent his own puzzle [6].
+However, it wasn't until 1981 when Meffert applied for a patent [7]. Meffert credits Rubik's Cube for providing him the motivation to patent his own puzzle [6].
 
 ![](img/Hardware/Pyraminx.png)
 
