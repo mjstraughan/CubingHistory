@@ -12,10 +12,6 @@ Before the formation of the World Cube Association, the landscape of world recor
 
 In 2004, the World Cube Association was formed by Ron van Bruchem and Tyson Mao. Initially the name of the organization was "World Rubik's Cube Association", but was later changed to its current name.
 
-![](img/OfficialWorldRecords/Mao1.png)
-![](img/OfficialWorldRecords/Mao2.png)
-![](img/OfficialWorldRecords/Mao3.png)
-
 ### Competition Format
 
 1982 champs format plus new additions such as Fridrich's average of 10 or 12 minus best and worst solve.
