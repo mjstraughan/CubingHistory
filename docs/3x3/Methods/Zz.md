@@ -65,6 +65,8 @@ Before publishing the website, Zborowski had been discussing the method within t
 **English Translation**
 ![](img/ZZ/Zborowski2.png)
 
+[With Applets](/archive/nooks_zz_new.htm)
+
 ## Variants
 
 ### ZZ-A (α)
