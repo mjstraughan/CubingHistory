@@ -58,14 +58,16 @@ At the European Rubik's Games Championship 2004 (August 7-8, 2004) [9], Zbigniew
 
 Zborowski thought the concept demonstrated by Bruchem was the future of speedcubing, so Zborowski created a website describing the steps of EOLine, first two layers, then last layer and named the method ZZ [11]. Searching the website for "2006" indicates that the website was published in December, 2006.
 
+edward_9x on the speedsolving.com forum restored the applet functionality of the original website. It can be viewed below.
+
+<a href="/archive/nooks_zz_new.htm">Original site with applets</a>
+
 Before publishing the website, Zborowski had been discussing the method within the Polish community. The speedcubing.com.pl website in particular included some of these discussions [12]. However, speedcubing.com.pl wasn't well preserved on archive.org, so reading all discussions isn't possible.
 
 **Polish Version**
 ![](img/ZZ/Zborowski1.png)
 **English Translation**
 ![](img/ZZ/Zborowski2.png)
-
-<a href="/archive/nooks_zz_new.htm">With Applets</a>
 
 ## Variants
 
