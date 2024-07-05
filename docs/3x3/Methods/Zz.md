@@ -62,6 +62,7 @@ edward_9x on the speedsolving.com forum restored the applet functionality of the
 
 <a href="/archive/nooks_zz_new.htm">Original site with applets</a>
 
+
 Before publishing the website, Zborowski had been discussing the method within the Polish community. The speedcubing.com.pl website in particular included some of these discussions [12]. However, speedcubing.com.pl wasn't well preserved on archive.org, so reading all discussions isn't possible.
 
 **Polish Version**
