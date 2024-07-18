@@ -8,7 +8,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 **Proposer:** [Ryan Heise](CubingContributors/MethodDevelopers.md#heise-ryan)
 
-**Proposed:** 2016
+**Proposed:** 2003
 
 **Steps:**
 
