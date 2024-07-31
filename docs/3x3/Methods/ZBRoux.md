@@ -30,7 +30,7 @@ ZBRoux is a method that continues to be proposed numerous times. The first known
 
 ## References
 
-[1] M. J. Straughan, "Does this (sub) method have a name?," SpeedSolving.com, 30 June 201. [Online]. Available: https://www.speedsolving.com/threads/does-this-sub-method-have-a-name.22232/#post-407245.
+[1] M. J. Straughan, "Does this (sub) method have a name?," SpeedSolving.com, 30 June 2010. [Online]. Available: https://www.speedsolving.com/threads/does-this-sub-method-have-a-name.22232/#post-407245.
 
 [2] S. Gu, "Random Cubing Discussion," SpeedSolving.com, 20 August 2010. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/page-7#post-438312.
 
