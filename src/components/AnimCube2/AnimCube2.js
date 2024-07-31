@@ -732,7 +732,7 @@ export default function AnimCube2(params) {
     function paint() {
         graphics.save(), graphics.fillStyle = bgColor;
         var e = 1 != buttonBar || 0 != progressHeight && !demo && 0 != move[curMove].length ? height : height - dpr;
-        if (setClip(graphics, 0, 0, width, e), graphics.fillRect(0, 0, width, e), dragAreas = 0, natural) fixBlock(eye, eyeX, eyeY, cubeBlocks, 3);
+        if (setClip(graphics, 0, 0, width, e), graphics.clearRect(0, 0, width, e), dragAreas = 0, natural) fixBlock(eye, eyeX, eyeY, cubeBlocks, 3);
         else {
             for (var t = Math.cos(originalAngle + currentAngle), r = Math.sin(originalAngle + currentAngle) * rotSign[twistedLayer], o = 0; o < 3; o++) {
                 tempEye[o] = 0, tempEyeX[o] = 0;
