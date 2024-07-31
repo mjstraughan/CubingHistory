@@ -2,7 +2,7 @@
 
 alert('test');
 
-function AnimCube2(params) {
+export default function AnimCube2(params) {
     var cubeDim = 2,
         config = [],
         bgColor, hlColor, textColor, buttonBgColor, sliderColor, sliderBgColor, buttonBorderColor, cubeColor, colors = [],
