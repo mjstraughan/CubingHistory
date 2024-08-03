@@ -315,13 +315,13 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - F2L paring technique (independent 1981 development after the Conway, Benson, and Seal group's 1979 development)
 
 ## Straughan, Michael James (Athefre)
-- EOLR for the Roux method
 - APB method
 - Nautilus method
 - MI1 method
 - MI2 method
-- MI4 method
-- Extended Slot (LXS)
+- Nautilus for FTO
+- Nautilus for big cubes
+- EOLR for the Roux method
 - Block referencing for the standard notation
 - Transformation
 - LEG-1 and Non-Matching LEG-1
