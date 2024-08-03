@@ -20,7 +20,7 @@ Just two weeks after Hewlett's patent application, on February 24, 1982, Karl Ro
 
 ### Ernő Rubik's Development Intent
 
-In Rubik's Cubic Compendium, Rubik expressed interest in developing a face turning octahedron puzzle [3]. It appears that the smaller version, consisting of just corners and edges, was the planned starting point.
+In Rubik's Cubic Compendium, Rubik expressed interest in developing a face turning octahedron puzzle [3]. It appears that the smaller version, consisting of just corners and centers, was the planned starting point.
 
 ![](img/Hardware/Rubik.png)
 
@@ -32,12 +32,12 @@ Rubik stated that readers may soon see the puzzle on shelves. In fact, a patent 
 
 ### Xie Zongliang
 
-In September 15, 1997, Xie Zongliang (謝宗良) from Taiwan applied for a patent for the face turning octahedron [5].
+On September 15, 1997, Xie Zongliang (謝宗良) from Taiwan applied for a patent for the face turning octahedron [5].
 
 ![](img/Hardware/Xie.png)
 ![](img/Hardware/Xie2.png)
 
-According to a post on ptt.cc, 1000 units of the puzzle were produced in Taiwan in 2008 [5]. The post also states that the puzzle was made as early as 10 years before then. It is unclear whether this refers to the puzzle being physically created or whether it refers to the patent. News of the 1000 produced puzzles soon reached the Twisty Puzzles forum [7, 8], leading to many wanting to buy one of their own.
+According to a post on ptt.cc, 1000 units of the puzzle were produced in Taiwan by Xie Zongliang in 2008 [5]. The post also states that the puzzle was made as early as 10 years before then. It is unclear whether this refers to the puzzle being physically created or whether it refers to the patent. News of the 1000 produced puzzles soon reached the Twisty Puzzles forum [7, 8], leading to many wanting to buy one of their own.
 
 ![](img/Hardware/Xie3.png)
 ![](img/Hardware/Xie4.png)
@@ -47,7 +47,7 @@ According to a post on ptt.cc, 1000 units of the puzzle were produced in Taiwan 
 
 ### David Pitcher
 
-On July 9, 2003 David Pitcher filed an application for the puzzle [9]. According to the Twisty Puzzles Twistypedia, Pitcher developed a working version of the puzzle between 2001 and 2003 [10]. Pitcher himself stated the same in a message to the Twisty Puzzles forum, saying that he created “the first working design for a face-turning octahedron” [11]. However, the puzzle wasn't mass produced by Pitcher. Pitcher’s prototype may or may not have been the first physical face turning octahedron, depending on when Xie first created a prototype.
+On July 9, 2003, David Pitcher filed an application for the puzzle [9]. According to the Twisty Puzzles Twistypedia, Pitcher developed a working version of the puzzle between 2001 and 2003 [10]. Pitcher himself stated the same in a message to the Twisty Puzzles forum, saying that he created “the first working design for a face-turning octahedron” [11]. However, the puzzle wasn't mass produced by Pitcher. Pitcher’s prototype may or may not have been the first physical face turning octahedron, depending on when Xie Zongliang first created a prototype.
 
 ![](img/Hardware/Pitcher.png)
 
