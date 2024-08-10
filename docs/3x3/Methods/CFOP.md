@@ -80,14 +80,14 @@ In the September, 1981 issue of Cubism for Fun, the technique is described and c
 
 >Thanks to Georges Helm and Ron van Bruchem for this information.
 
-According to Ron van Bruchem, the technique appears two months later in December 1981 in a book by Frans Schiereck called De Hongaarse Kubus Voor Doordraaiers [10, 11]. 
+According to Ron van Bruchem, the technique appears two months later in December 1981 in a book by Frans Schiereck called *De Hongaarse Kubus Voor Doordraaiers* [10, 11]. 
 
 ![](img/CFOP/F2L/Schiereck1.png)
 ![](img/CFOP/F2L/Schiereck2.png)
 
 ### Jessica Fridrich's Story
 
-For several years in the online community, it was believed that the totality of CFOP had been created by Jessica Fridrich. However, some in the community were aware of the 1981 Cubism for Fun newsletter and the appearance of the F2L pair technique in the mentioned books. In July, 2003, Ryan Heise posed the question to the community as to the origin of the F2L pair technique [12]. Jessica Fridrich responded by saying that she wasn't sure of the origin and that she learned of the technique from friends in college [13]. They had been using the technique, although in a basic form. Fridrich found solutions for additional cases to speed up solving the first two layers.
+For several years in the online community, it was believed that the totality of CFOP had been created by Jessica Fridrich. However, some in the community were aware of the 1981 Cubism for Fun newsletter and the appearance of the F2L pair technique in *De Hongaarse Kubus Voor Doordraaiers*. In July, 2003, Ryan Heise posed the question to the community as to the origin of the F2L pair technique [12]. Jessica Fridrich responded by saying that she wasn't sure of the origin and that she learned of the technique from friends in college [13]. They had been using the technique, although in a basic form. Fridrich found solutions for additional cases to speed up solving the first two layers.
 
 ![](img/CFOP/F2L/Fridrich1.png)
 
