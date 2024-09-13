@@ -106,6 +106,14 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 **Proposer:** Gilles Roux (2003)
 
+## Four Squares
+
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddyddddrbbrwodwodb3d33ddddggdggdwwdddwoowooddddrrdww" width="400px" height="400px" />
+
+**Method:** Heise
+
+**Proposer:** Ryan Heise (2003)
+
 ## Cross + One Corner
 
 <AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddydddddwwwwwdwdddddbbdddddddggddgddddoddooddddrrddd" width="400px" height="400px" />
@@ -142,7 +150,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 <AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=dldlyldlddldwwwdlddlddbbdlddlddggdldddddoddddddddrdddd" width="400px" height="400px" />
 
-**Method:** ZZ, MI2, SSC
+**Method:** ZZ
 
 **Proposer:** Gilles Roux and Adam Géhin (~2003), Ryan Heise (2004, based on Géhin's video)
 
