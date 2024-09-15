@@ -108,7 +108,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Four Squares
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddyddddrbbrwodwodb3d33ddddggdggdwwdddwoowooddddrrdww" width="400px" height="400px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddyddddrbbrwodwodbbdbbddddggdggdwwdddwoowooddddrrdww" width="400px" height="400px" />
 
 **Method:** Heise
 
