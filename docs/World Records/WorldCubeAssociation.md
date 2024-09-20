@@ -10,7 +10,7 @@ Before the formation of the World Cube Association, the landscape of world recor
 
 Several competitions were held during the early years of the cube, with each having the potential to be considered official. However, the Rubik’s Cube World Championship held in 1982 is the only competition of those early years considered official by the World Cube Association (WCA). In 2003, the World Rubik’s Games Championship 2003 was held and considered official due to it being a championship and the association with the Rubik name. Smaller competition results weren’t yet considered official. Only solves performed at championships were eligible for world record status.
 
-## First Association Proposal
+## Association Proposal
 
 In January 2003, Ron van Bruchem proposed the idea of an official association that defines the official regulations [1]. Bruchem’s name suggestion was “World SpeedCubing Association”. This proposal spawned several discussions [2]. After a few months, the discussions went quiet.
 
