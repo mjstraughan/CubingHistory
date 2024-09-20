@@ -1,7 +1,8 @@
 ---
 sidebar_position: 2
-import AnimCube from "@site/src/components/AnimCube";
 ---
+
+import AnimCube from "@site/src/components/AnimCube";
 
 # World Record Singles (2H)
 
