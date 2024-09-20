@@ -10,7 +10,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 <AnimCube params="position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&move=x2 y.D' R u D R' y' D' R D R'.y D r' E' L.z2 U y l D R' z' R' x z' r' R2 U2 z D R2 D2.R' l' z M D2 M'.z2 y R z' M z R'.z' r' L' z D R' E R.U' u' R E' R'.u R' E' R E2 R E R'.R2 E E' r2 E M2 E'&yz=1&initmove=U L2 D' B2 U' R2 B2 F2 D' F2 L2 R2 F R2 D L2 R2 B' L' D' R F'&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
 
-> 22.95 solve by Minh Thai
+> 22.95 second solve by Minh Thai
 
 The first officially recognized competition is the Rubik's Cube World Championship held in 1982. Although there were many small and large competitions held before this one, the 1982 championship was likely chosen as the first official one due to the involvement and presence of many high profile names and organizers, such as Ernő Rubik and David Singmaster, the competition being highly organized and filmed, and its bringing together of competitors from around the world.
 
