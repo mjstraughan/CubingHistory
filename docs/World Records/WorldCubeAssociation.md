@@ -49,12 +49,6 @@ In January 2005, Mao asked if anyone was interested in designing the logo for th
 ![](img/WCA/Logo1.png)
 ![](img/WCA/Logo2.gif)
 
-<VIDEO>
-<SOURCE SRC="wcb4.avi" TYPE="video/avi">
-</VIDEO>
-
-> One of Gilles Roux’s designs:
-
 ## References
 
 [1] R. v. Bruchem, "Re: [Speed cubing group] Re: World Records," 26 April 2004. [Online]. 
