@@ -4,11 +4,13 @@ sidebar_position: 1
 
 # World Cube Association
 
-## Origin
+## Before the World Cube Association
 
 Before the formation of the World Cube Association, the landscape of world records was a sort of wild west. Many claimed to be the world record holder - some with absurdly low solving time claims - and keeping track of the records was close to impossible.
 
 Several competitions were held during the early years of the cube, with each having the potential to be considered official. However, the Rubik’s Cube World Championship held in 1982 is the only competition of those early years considered official by the World Cube Association (WCA). In 2003, the World Rubik’s Games Championship 2003 was held and considered official due to it being a championship and the association with the Rubik name. Smaller competition results weren’t yet considered official. Only solves performed at championships were eligible for world record status.
+
+## First Association Proposal
 
 In January 2003, Ron van Bruchem proposed the idea of an official association that defines the official regulations [1]. Bruchem’s name suggestion was “World SpeedCubing Association”. This proposal spawned several discussions [2]. After a few months, the discussions went quiet.
 
@@ -16,6 +18,8 @@ In January 2003, Ron van Bruchem proposed the idea of an official association th
 
 ![](img/WCA/Bruchem2.png)
 ![](img/WCA/WSCA.png)
+
+## What Should Be Considered Official?
 
 In January 2004, the Caltech Winter competition was held. The record times set by Makisumi at the Caltech Winter competition in January 2004 coudn’t counted as official world records at the time. Lars Petrus was the first to question why Makisumi’s solves wouldn’t be considered official [3]. Others also questioned the reasoning [4]. Tyson Mao responded by stating the intent to make the results official [5].
 
@@ -29,6 +33,8 @@ A day prior to everyone’s questioning of what counts as official, Mao asked th
 ![](img/WCA/Jones1.png)
 ![](img/WCA/Mao6.png)
 
+## Association Proposals Reappear
+
 On April 26, 2004, just after the Caltech Spring competition, Mao proposed a committee to determine the official competition standard format [9]. This would be a similar proposal to the official association idea suggested by Ron around a year earlier. Ron van Bruchem then suggested that Mao, Chris Hardwick, and himself form the World Speedcubing Union [10].
 
 ![](img/WCA/Mao7.png)
@@ -37,6 +43,8 @@ On April 26, 2004, just after the Caltech Spring competition, Mao proposed a com
 Chris Hardwick started a discussion around the World Speedcubing Union idea [11]. Influenced by the cup stacking community, Hardwick suggested creating a separate website to hold the official records. At this time, records had been recorded on speedcubing.com.
 
 ![](img/WCA/Hardwick1.png)
+
+## Formation of the World Cube Association
 
 The World Cube Association was formed in 2004 by Ron van Bruchem and Tyson Mao. Initially the name of the organization was "World Rubik's Cube Association" [12], but was later changed to its current name [13] [14]. This created an organization whereby standards can be followed and records can be considered official.
 
