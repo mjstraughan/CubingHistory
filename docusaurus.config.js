@@ -112,4 +112,13 @@ const config = {
     }),
 };
 
+module.exports = {
+  plugins: ['docusaurus-plugin-goatcounter'],
+  themeConfig: {
+    goatcounter: {
+      code: 'cubinghistory',
+    },
+  },
+};
+
 export default config;
