@@ -34,6 +34,13 @@ const config = {
     locales: ["en"],
   },
 
+  plugins: ['docusaurus-plugin-goatcounter'],
+    themeConfig: {
+      goatcounter: {
+        code: 'cubinghistory',
+      },
+    },
+
   presets: [
     [
       "classic",
@@ -110,15 +117,6 @@ const config = {
         maxHeadingLevel: 5,
       },
     }),
-
-  module.exports = {
-    plugins: ['docusaurus-plugin-goatcounter'],
-    themeConfig: {
-      goatcounter: {
-        code: 'your-goatcounter-code',
-      },
-    },
-  },
 };
 
 export default config;
