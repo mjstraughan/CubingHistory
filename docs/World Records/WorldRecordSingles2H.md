@@ -97,7 +97,7 @@ On May 5 2007, the first ever sub-10 world record single solve was set by Thibau
 
 > 8.72 second solve by Yu Nakajima
 
-The world record was further reduced to 8.87 seconds from October 2007 to May 2008. This started with a 9.77 from Erik Akkersdijk and was followed by a 9.55 by Ron van Bruchem, a 9.18 by Edouard Chambon, and an 8.72 by Yu Nakajima.
+The world record was further reduced to 8.87 seconds from October 2007 to May 2008. This started with a 9.77 from Erik Akkersdijk and was followed by a 9.55 by Ron van Bruchem, a 9.18 by Edouard Chambon, and two 8.72 solves by Yu Nakajima at a single competition in the final two rounds.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/JqFFXs0RAnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
