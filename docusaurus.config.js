@@ -61,6 +61,8 @@ const config = {
     ],
   ],
 
+  plugins: ['docusaurus-plugin-goatcounter'],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -108,6 +110,9 @@ const config = {
       tableOfContents: {
         minHeadingLevel: 2,
         maxHeadingLevel: 5,
+      },
+      goatcounter: {
+        code: 'cubinghistory',
       },
     }),
 };
