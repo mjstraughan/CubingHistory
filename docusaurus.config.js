@@ -34,13 +34,6 @@ const config = {
     locales: ["en"],
   },
 
-  plugins: ['docusaurus-plugin-goatcounter'],
-    themeConfig: {
-      goatcounter: {
-        code: 'cubinghistory',
-      },
-    },
-
   presets: [
     [
       "classic",
