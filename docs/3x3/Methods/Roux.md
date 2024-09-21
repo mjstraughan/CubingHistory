@@ -147,9 +147,9 @@ EOLR was first proposed and developed by Straughan in August, 2012 [29]. EOLR is
 ![](img/Roux/EOLR1.png)
 ![](img/Roux/EOLR2.png)
 
-#### Re-Development
+#### Second Proposal and Development
 
-EOLR, the edge orientation and placing the LR edges on the bottom layer version, was re-developed by Iuri Grangeiro with some assistance from Kian Mansour in August 2016 [31, 32]. Kian Mansour's use of EOLR helped popularize the technique.
+The edge orientation plus placement of the LR edges on the bottom layer version of EOLR was re-proposed and re-developed by Iuri Grangeiro with some assistance from Kian Mansour in August 2016 [31, 32]. Kian Mansour's use of EOLR helped popularize the technique. This is where the name EOLR originated.
 
 ![](img/Roux/EOLR3.png)
 ![](img/Roux/EOLR4.png)
