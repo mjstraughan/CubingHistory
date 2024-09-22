@@ -131,7 +131,16 @@ The world record was further reduced to 8.87 seconds from October 2007 to May 20
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/JqFFXs0RAnI
+    src="https://www.youtube.com/embed/JqFFXs0RAnI"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/PLOT1Z_c1Dc"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -139,15 +148,7 @@ The world record was further reduced to 8.87 seconds from October 2007 to May 20
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/PLOT1Z_c1Dc
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
-
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/J25n7OOdnMI
+    src="https://www.youtube.com/embed/J25n7OOdnMI"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -163,7 +164,7 @@ On July 12, 2008, Erik Akkersdijk set a world record of 7.08 seconds. This is on
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/VzGjbjUPVUo
+    src="https://www.youtube.com/embed/VzGjbjUPVUo"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -185,7 +186,7 @@ Interestingly, when the 7.08 world record was set, Zemdegs commented that he did
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/TiFwEBUKcsY
+    src="https://www.youtube.com/embed/TiFwEBUKcsY"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -193,7 +194,7 @@ Interestingly, when the 7.08 world record was set, Zemdegs commented that he did
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/t32VQ2HeELA
+    src="https://www.youtube.com/embed/t32VQ2HeELA"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -201,7 +202,7 @@ Interestingly, when the 7.08 world record was set, Zemdegs commented that he did
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/Vn_-253xO4s
+    src="https://www.youtube.com/embed/Vn_-253xO4s"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -209,7 +210,7 @@ Interestingly, when the 7.08 world record was set, Zemdegs commented that he did
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/X6zjv-PP24g
+    src="https://www.youtube.com/embed/X6zjv-PP24g"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -217,7 +218,7 @@ Interestingly, when the 7.08 world record was set, Zemdegs commented that he did
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/wIvHw17vuGU
+    src="https://www.youtube.com/embed/wIvHw17vuGU"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -225,7 +226,7 @@ Interestingly, when the 7.08 world record was set, Zemdegs commented that he did
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/uIcbAsoT8y0
+    src="https://www.youtube.com/embed/uIcbAsoT8y0"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -233,7 +234,7 @@ Interestingly, when the 7.08 world record was set, Zemdegs commented that he did
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/3v_Km6cv6DU
+    src="https://www.youtube.com/embed/3v_Km6cv6DU"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -249,7 +250,7 @@ The 5.66 world record from Zemdegs stood for almost two years before being broke
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/nn7svkdrE7I
+    src="https://www.youtube.com/embed/nn7svkdrE7I"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -259,7 +260,7 @@ This was followed by a 5.25 second solve from Collin Burns on April 25, 2015.
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/i8RBl7NmL8g
+    src="https://www.youtube.com/embed/i8RBl7NmL8g"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -275,7 +276,7 @@ On November 21, 2015, the first ever sub-5 second official solve was achieved. T
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/vh0W8E4cNkQ
+    src="https://www.youtube.com/embed/vh0W8E4cNkQ"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -291,7 +292,7 @@ From December 2016 to May 2018, the world record was dropped to 4.22 seconds. St
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/R07JiT0PlcE
+    src="https://www.youtube.com/embed/R07JiT0PlcE"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -301,7 +302,7 @@ Ten months later, on September 2, 2017, Patrick Ponce achieved a world record of
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/np2G0yr5xI0
+    src="https://www.youtube.com/embed/np2G0yr5xI0"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -309,7 +310,7 @@ Ten months later, on September 2, 2017, Patrick Ponce achieved a world record of
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/5x8jgGX3iNM
+    src="https://www.youtube.com/embed/5x8jgGX3iNM"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -317,7 +318,7 @@ Ten months later, on September 2, 2017, Patrick Ponce achieved a world record of
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/Sz67ipXnKNg
+    src="https://www.youtube.com/embed/Sz67ipXnKNg"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -325,7 +326,7 @@ Ten months later, on September 2, 2017, Patrick Ponce achieved a world record of
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/NevGDFBfQGw
+    src="https://www.youtube.com/embed/NevGDFBfQGw"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -345,7 +346,7 @@ The solve was also the subject of some controversy. Yusheng Du’s averages at t
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/SB3ut65SFUU
+    src="https://www.youtube.com/embed/SB3ut65SFUU"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
@@ -360,7 +361,7 @@ The world record was finally beaten again on June 11, 2023. After years of attai
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/gh8HX4itF_w
+    src="https://www.youtube.com/embed/gh8HX4itF_w"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
