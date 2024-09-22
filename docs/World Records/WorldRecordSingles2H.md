@@ -22,10 +22,11 @@ Today, Minh Thai’s 22.95 solve time is considered the first ever official worl
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/kRs3u54kMbI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
     src="https://www.youtube.com/embed/kRs3u54kMbI"
-    frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0">
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
 </div>
 
