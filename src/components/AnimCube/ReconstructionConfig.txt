@@ -1,0 +1,11 @@
+position=lluuu
+scale=5
+align=35
+hint=10
+hintborder=1
+hinthoriz=3
+buttonheight=25
+textsize=16
+yz=1
+snap=1
+facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr
