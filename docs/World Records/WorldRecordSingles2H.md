@@ -8,7 +8,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 ## 22.95 (Minh Thai) - Rubik's Cube World Championship (1982)
 
-<AnimCube params="config=ReconstructionConfig.txt&move=x2 y.D' R u D R' y' D' R D R'.y D r' E' L.z2 U y l D R' z' R' x z' r' R2 U2 z D R2 D2.R' l' z M D2 M'.z2 y R z' M z R'.z' r' L' z D R' E R.U' u' R E' R'.u R' E' R E2 R E R'.R2 E E' r2 E M2 E'&initmove=U L2 D' B2 U' R2 B2 F2 D' F2 L2 R2 F R2 D L2 R2 B' L' D' R F'" width="400px" height="400px" />
+<AnimCube params="config=src/components/AnimCube/ReconstructionConfig.txt&move=x2 y.D' R u D R' y' D' R D R'.y D r' E' L.z2 U y l D R' z' R' x z' r' R2 U2 z D R2 D2.R' l' z M D2 M'.z2 y R z' M z R'.z' r' L' z D R' E R.U' u' R E' R'.u R' E' R E2 R E R'.R2 E E' r2 E M2 E'&initmove=U L2 D' B2 U' R2 B2 F2 D' F2 L2 R2 F R2 D L2 R2 B' L' D' R F'" width="400px" height="400px" />
 
 > 22.95 second solve by Minh Thai
 
@@ -246,7 +246,7 @@ Interestingly, when the 7.08 world record was set, Zemdegs commented that he did
 
 > 5.25 second solve by Collin Burns
 
-The 5.66 world record from Zemdegs stood for almost two years before being broken. On March 2, 2013, Mats Valk achieved a new world record time of 5.55 seconds.
+The 5.66 world record from Zemdegs stood for almost two years before being broken. On March 2, 2013, Mats Valk achieved a new world record time of 5.55 seconds. This was followed by a 5.25 second solve from Collin Burns on April 25, 2015.
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
@@ -255,8 +255,6 @@ The 5.66 world record from Zemdegs stood for almost two years before being broke
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
 </div>
-
-This was followed by a 5.25 second solve from Collin Burns on April 25, 2015.
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe width="100%" height="100%"
