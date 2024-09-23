@@ -60,6 +60,8 @@ Thanks to crystalcuber for assisting with numerous things to get the site lookin
 
 Georges Helm was kind enough to look through the books that he owns and confirm my suspicions and provide me details. Helm sent me a lot of information and hand written descriptions of the steps within numerous books. Some of this information changed the history that was previously thought, especially as it relates to Layer By Layer and CFOP.
 
+Michael Feather and bcube for additional assistance ensuring proper functionality of AnimCubeJS.
+
 Ron van Bruchem also provided some information about early method development.
 
 Others have been very willing to explain the origin of their own developments. Each person is credited on the site in the area in which they provided help.
