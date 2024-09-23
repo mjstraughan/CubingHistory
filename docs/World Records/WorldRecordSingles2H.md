@@ -59,7 +59,7 @@ https://www.worldcubeassociation.org/competitions/CaltechWinter2004/results/all?
 
 ## 13.93 and 12.11 (Shotaro Makisumi)
 
-<AnimCube params="position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&move=z2 y'.R F R U' R.R' U2 R2 U R'.d R U' R' U2 F' U' F.L' U' L2 U L'.U L' U L.y2 F R U R' U' F'.U y R B' R F2 R' B R F2 R2&yz=1&initmove=B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&move=z2 y'.R F R U' R.R' U2 R2 U R'.d R U' R' U2 F' U' F.L' U' L2 U L'.U L' U L.y2 F R U R' U' F'.U y R B' R F2 R' B R F2 R2&initmove=B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
 
 > 12.11 second solve by Shotaro Makisumi
 
@@ -71,7 +71,7 @@ At Caltech Spring 2004, Makisumi set a record of 13.93 seconds during the first 
 
 ## 11.75, 11.13, 10.48, and 10.36
 
-<AnimCube params="position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&move=z2 y'.R F R U' R.R' U2 R2 U R'.d R U' R' U2 F' U' F.L' U' L2 U L'.U L' U L.y2 F R U R' U' F'.U y R B' R F2 R' B R F2 R2&yz=1&initmove=B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&move=z2 y'.R F R U' R.R' U2 R2 U R'.d R U' R' U2 F' U' F.L' U' L2 U L'.U L' U L.y2 F R U R' U' F'.U y R B' R F2 R' B R F2 R2&initmove=B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
 
 > 11.75 second solve by Jean Pons
 
@@ -123,7 +123,7 @@ On May 5 2007, the first ever sub-10 world record single solve was set by Thibau
 
 ## 9.77, 9.55, 9.18, and 8.72
 
-<AnimCube params="position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&move=u'R'Fl'LD2x'u'.yU'RUR'd'R'U'R.yU'R'U'RU'R'UR.y'URU'R'U'L'U'L.U'd'L'UL.UyR2URUR'U'R'U'R'UR'&yz=1&initmove=R' F' L' F U' D2 R D' L' U2 B2 D' F2 L' U' F' B2 L2&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&move=u'R'Fl'LD2x'u'.yU'RUR'd'R'U'R.yU'R'U'RU'R'UR.y'URU'R'U'L'U'L.U'd'L'UL.UyR2URUR'U'R'U'R'UR'&initmove=R' F' L' F U' D2 R D' L' U2 B2 D' F2 L' U' F' B2 L2&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
 
 > 8.72 second solve by Yu Nakajima
 
@@ -156,7 +156,7 @@ The world record was further reduced to 8.87 seconds from October 2007 to May 20
 
 ## 7.08 (Erik Akkersdijk)
 
-<AnimCube params="position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&move=y'xU'R2x'UR'u.U'RU'R'.U'y'RU2R'U'RUR'.L'UL2U'L'.UL'U2LU'L'ULU'.U'FRUR'U'RUR'U'F'U2&yz=1&initmove=D' R2 D L2 B2 L2 D' R2 F' L2 R' F D F' D' L' U2 F' R&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&move=y'xU'R2x'UR'u.U'RU'R'.U'y'RU2R'U'RUR'.L'UL2U'L'.UL'U2LU'L'ULU'.U'FRUR'U'RUR'U'F'U2&initmove=D' R2 D L2 B2 L2 D' R2 F' L2 R' F D F' D' L' U2 F' R&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
 
 > 7.08 second solve by Erik Akkersdijk
 
@@ -172,7 +172,7 @@ On July 12, 2008, Erik Akkersdijk set a world record of 7.08 seconds. This is on
 
 ## 7.03 to 5.66 (Feliks Zemdegs)
 
-<AnimCube params="position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&move=y' R U' R d R' U R D.U' y' R' U R U' R' U' R.R U R' U2 R U' R'.L' U L U L' U' L.U' R' U' F U R U' R' F' R.R' U R' U' R' U' R' U R U R2 U&yz=1&initmove=D2 L2 D2 R2 B' R2 F2 L2 U2 F' R2 U B D U' L' U F' U2 L2 F'&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&move=y' R U' R d R' U R D.U' y' R' U R U' R' U' R.R U R' U2 R U' R'.L' U L U L' U' L.U' R' U' F U R U' R' F' R.R' U R' U' R' U' R' U R U R2 U&initmove=D2 L2 D2 R2 B' R2 F2 L2 U2 F' R2 U B D U' L' U F' U2 L2 F'&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
 
 > 5.66 second solve by Feliks Zemdegs
 
@@ -242,7 +242,7 @@ Interestingly, when the 7.08 world record was set, Zemdegs commented that he did
 
 ## 5.55 (Mats Valk) and 5.25 (Collin Burns)
 
-<AnimCube params="position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&move=x2.F' R D L' D2.R U' R' U' L' U' L.U L U' L'.R' U' U' R U' U' R' U R.U' R U R'.U' U R' F R U R U' R2 F' R2 U' R' U R U R'&yz=1&initmove=U2 R2 U B2 L2 R2 U2 F2 U' F R2 B2 R2 U' L' D2 U' R F2 L2&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&move=x2.F' R D L' D2.R U' R' U' L' U' L.U L U' L'.R' U' U' R U' U' R' U R.U' R U R'.U' U R' F R U R U' R2 F' R2 U' R' U R U R'&initmove=U2 R2 U B2 L2 R2 U2 F2 U' F R2 B2 R2 U' L' D2 U' R F2 L2&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
 
 > 5.25 second solve by Collin Burns
 
@@ -266,7 +266,7 @@ The 5.66 world record from Zemdegs stood for almost two years before being broke
 
 ## 4.90 (Lucas Etter)
 
-<AnimCube params="position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&move=z2.D' L' R' F R D2.U2 L' U' L.U' U' U' F' U' F U R U' R'.y R U R'.U' y U' U' R U R'.U r U r' R U R' U' r U' r'&yz=1&initmove=R2 B D2 F2 U2 R D2 L' B L' B D R' F' U B2 F L&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&move=z2.D' L' R' F R D2.U2 L' U' L.U' U' U' F' U' F U R U' R'.y R U R'.U' y U' U' R U R'.U r U r' R U R' U' r U' r'&initmove=R2 B D2 F2 U2 R D2 L' B L' B D R' F' U B2 F L&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
 
 > 4.90 second solve by Lucas Etter
 
@@ -282,7 +282,7 @@ On November 21, 2015, the first ever sub-5 second official solve was achieved. T
 
 ## 4.73 to 4.22
 
-<AnimCube params="position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&move=F' R' D' R.y R U' R' u'.U' R U R'.y' L' U2 L U' L' U L.d U R' U' R U R' U' R.U' R U2' R' R' F R F' R U2' R'&yz=1&initmove=R2 L' F2 D2 F' D L2 B' D L U B2 U B2 D2 L2 D' F2 D&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&move=F' R' D' R.y R U' R' u'.U' R U R'.y' L' U2 L U' L' U L.d U R' U' R U R' U' R.U' R U2' R' R' F R F' R U2' R'&initmove=R2 L' F2 D2 F' D L2 B' D L U B2 U B2 D2 L2 D' F2 D&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
 
 > 4.22 second solve by Feliks Zemdegs
 
@@ -332,7 +332,7 @@ Ten months later, on September 2, 2017, Patrick Ponce achieved a world record of
 
 ## 3.47 (Yusheng Du)
 
-<AnimCube params="position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&move=y x'.U R2 U' F' L F' U' L'.U' R U R'.R' U R U' U' R' U R.U R' U' R U' R' U2 R.U&yz=1&initmove=F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&move=y x'.U R2 U' F' L F' U' L'.U' R U R'.R' U R U' U' R' U R.U R' U' R U' R' U2 R.U&initmove=F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
 
 > 3.47 second solve by Yusheng Du
 
@@ -352,7 +352,7 @@ The solve was also the subject of some controversy. Yusheng Du’s averages at t
 
 ## 3.13 (Max Park)
 
-<AnimCube params="position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&move=x2.R' D2 R' D L' U L D R' U' R D.L U' L'.U' R U R' d R' U' R.r' U' R U' R' U2 r U&yz=1&initmove=D R' U2 F2 D U' B2 R2 L' F U' B2 U2 F L F' D'&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&move=x2.R' D2 R' D L' U L D R' U' R D.L U' L'.U' R U R' d R' U' R.r' U' R U' R' U2 r U&initmove=D R' U2 F2 D U' B2 R2 L' F U' B2 U2 F L F' D'&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
 > 3.13 second solve by Max Park
 
 The world record was finally beaten again on June 11, 2023. After years of attaining world records in the 3x3 2H average category and in other events, Max Park set a world record single solve time of 3.13 seconds.
