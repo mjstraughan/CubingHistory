@@ -44,305 +44,305 @@ To view a transcribed table of the F2L algorithms click below.
 
 <table border="1">
     <tr>
-        <td rowspan=3><strong>Corner</strong</td>
-        <td colspan=5 align=center><strong>Edge (In First Two Layers)</strong></td>
+        <td rowspan="3"><strong>Corner</strong</td>
+        <td colspan="5" align="center"><strong>Edge (In First Two Layers)</strong></td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td><strong>FR<strong></td>
         <td><strong>FL</strong></td>
         <td><strong>BR</strong></td>
         <td><strong>BL</strong></td>
         <td><strong>FU</strong></td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td><strong>RF</strong></td>
         <td><strong>LF</strong></td>
         <td><strong>RB</strong></td>
         <td><strong>LB</strong></td>
         <td><strong>UF</strong></td>
     </tr>
-    <tr  align=center>
-        <td   rowspan=2><strong>DFR</strong></td>
+    <tr  align="center">
+        <td   rowspan="2"><strong>DFR</strong></td>
         <td>No move required</td>
         <td>F2 U2 F2 U2 F2</td>
         <td>R2 U2 R2 U2 R2</td>
         <td>F&#39; U&#39; F L U L&#39; R U R&#39;</td>
         <td>U R&#39; U&#39; R&#39; U&#39; F&#39; U F</td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>R U&#39; R&#39; U F&#39; U2 F U2 F&#39; U F</td>
         <td>R F U&#39; F&#39; R&#39;</td>
         <td>F&#39; R&#39; U R F</td>
         <td>R U&#39; R&#39; F&#39; U L U&#39; L&#39; F</td>
         <td>U2 F&#39; U F U R U&#39; R&#39;</td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>RDF</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>RDF</strong></td>
         <td>R U2 B U&#39; B&#39; R&#39; U2 R U R&#39;</td>
         <td>L&#39; F&#39; U F L R U R&#39;</td>
         <td>F&#39; U&#39; B U2 B&#39; F</td>
         <td>F&#39; B&#39; L F&#39; L&#39; F U2 B F</td>
         <td>R U2 R&#39; F&#39; U2 F</td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>F&#39; U2 L&#39; U&#39; L2 F&#39; L&#39; F2</td>
         <td>F U F2 U F R U R&#39;</td>
         <td>B U&#39; B&#39; F&#39; U F R U R&#39;</td>
         <td>B&#39; U&#39; B F&#39; U F R U R&#39;</td>
         <td>U F&#39; U F R U R&#39;</td>
     </tr>
-    <tr  rowspan=2 align=center>
-        <td  rowspan=2 align=center><strong>FRD</strong></td>
+    <tr  rowspan="2" align="center">
+        <td  rowspan="2" align="center"><strong>FRD</strong></td>
         <td>F&#39; U2 L&#39; U L F U2 F&#39; U&#39; F</td>
         <td>R U L&#39; U2 L R&#39;</td>
         <td>B R U&#39; R&#39; B&#39; F&#39; U&#39; F</td>
         <td>R L B&#39; R B R&#39; U2 L&#39; R&#39;</td>
         <td>U2 R U&#39; R&#39; F&#39; U&#39; F</td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>R U2 B U B2 R B R2</td>
         <td>L&#39; U L R U&#39; R&#39; F&#39; U&#39; F</td>
         <td>R&#39; U&#39; R2 U&#39; R&#39; F&#39; U&#39; F</td>
         <td>L U L&#39; R U&#39; R&#39; F&#39; U&#39; F</td>
         <td>U&#39; F&#39; U2 F R U2 R&#39;</td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>DLF</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>DLF</strong></td>
         <td>L&#39; R U L U&#39; R&#39;</td>
         <td>F U2 F&#39; U F U2 F2 U&#39; F</td>
         <td>L&#39; R&#39; U R U2 L R U R&#39;</td>
         <td>L U2 L2 U&#39; L R U R&#39;</td>
         <td>U2 F U F&#39; U2 F&#39; U&#39; F</td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>F&#39; U&#39; F L&#39; U&#39; L R U R&#39;</td>
         <td>R F U2 F&#39; U R&#39;</td>
         <td>B U B&#39; L&#39; U&#39; L R U R&#39;</td>
         <td>B&#39; U B L&#39; U&#39; L R U R&#39;</td>
         <td>U&#39; L&#39; U&#39; L R U R&#39;</td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>FDL</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>FDL</strong></td>
         <td>F&#39; U F2 U2 F2 U F</td>
         <td>R F U&#39; F&#39; U2 R&#39; F&#39; U&#39; F</td>
         <td>B U&#39; B&#39; F U2 F2 U F</td>
         <td>B&#39; U&#39; B F U2 F2 U F</td>
         <td>U F U2 F2 U F</td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>R U2 R&#39; F U2 F2 U F</td>
         <td>F U2 R U&#39; R&#39; F&#39; U R U R&#39;</td>
         <td>R&#39; U2 R F U2 F2 U F</td>
         <td>L U&#39; L&#39; U F U2 F2 U F</td>
         <td>U&#39; F U2 F&#39; U R U R&#39;</td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>LFD</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>LFD</strong></td>
         <td>R U L&#39; U&#39; L R&#39;</td>
         <td>L&#39; U L U F&#39; U&#39; F R U R&#39;</td>
         <td>R&#39; U R2 L&#39; U&#39; L R&#39;</td>
         <td>L U&#39; L2 R U&#39; L R&#39;</td>
         <td>U L&#39; U&#39; L F&#39; U&#39; F</td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>F U2 F2 U2 F R U R&#39;</td>
         <td>L&#39; U2 B&#39; U B L U F&#39; U&#39; F</td>
         <td>B U2 B&#39; R L&#39; U&#39; L R&#39;</td>
         <td>B&#39; U2 B R L&#39; U&#39; L R&#39;</td>
         <td>R L&#39; U&#39; L R&#39;</td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>DRB</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>DRB</strong></td>
         <td>B F&#39; U&#39; B&#39; U F</td>
         <td>B F U&#39; F&#39; U2 B&#39; F&#39; U&#39; F</td>
         <td>R&#39; U2 R U&#39; R&#39; U2 R2 U R&#39;</td>
         <td>B&#39; U2 B2 U B&#39; F&#39; U&#39; F</td>
         <td>B U B&#39; F&#39; U&#39; F</td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>R U R&#39; B U B&#39; F&#39; U&#39; F</td>
         <td>L&#39; U&#39; L B U B&#39; F&#39; U&#39; F</td>
         <td>F&#39; R&#39; U2 R U&#39; F</td>
         <td>L U&#39; L&#39; B U B&#39; F&#39; U&#39; F</td>
         <td>U R&#39; U&#39; R U2 R U R&#39;</td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>BDR</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>BDR</strong></td>
         <td>F&#39; U&#39; B U B&#39; F</td>
         <td>F U&#39; F2 B U B&#39; F</td>
         <td>B U&#39; B&#39; U&#39; R U R&#39; F&#39; U&#39; F</td>
         <td>B&#39; U B2 F&#39; U B&#39; F</td>
         <td>U&#39; F&#39; B U B&#39; F</td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>R&#39; U2 R2 U2 R&#39; F&#39; U&#39; F</td>
         <td>L&#39; U2 L F&#39; B U B&#39; F</td>
         <td>B U2 L U&#39; L&#39; B&#39; U&#39; R U R&#39;</td>
         <td>L U2 L&#39; F&#39; B U B&#39; F</td>
         <td>U2 B U B&#39; R U R&#39;</td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>RBD</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>RBD</strong></td>
         <td>R U&#39; R2 U2 R2 U&#39; R&#39;</td>
         <td>L&#39; U L R&#39; U2 R2 U&#39; R&#39;</td>
         <td>F&#39; R&#39; U R U2 F R U R&#39;</td>
         <td>L U L&#39; R&#39; U2 R2 U&#39; R&#39;</td>
         <td>R&#39; U2 R U&#39; F&#39; U&#39; F</td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>F&#39; U2 F R&#39; U2 R2 U&#39; R&#39;</td>
         <td>F U2 F&#39; R&#39; U2 R2 U&#39; R&#39;</td>
         <td>F&#39; U2 F&#39; U F R U&#39; F&#39; U&#39; F</td>
         <td>B&#39; U B U&#39; R&#39; U2 R2 U&#39; R&#39;</td>
         <td>U2 R&#39; U2 R2 U&#39; R&#39;</td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>DBL</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>DBL</strong></td>
         <td>F&#39; U F L U2 L&#39; F&#39; U&#39; F</td>
         <td>F U F&#39; L U2 L&#39; F&#39; U&#39; F</td>
         <td>R&#39; U&#39; R B&#39; U2 B R U R&#39;</td>
         <td>L R U2 R&#39; L&#39;</td>
         <td>U L U2 L&#39; F&#39; U&#39; F</td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>R U2 R&#39; L U2 L&#39; F&#39; U&#39; F</td>
         <td>F U2 F&#39; B&#39; U2 B R U R&#39;</td>
         <td>R&#39; U2 R L U2 L&#39; F&#39; U&#39; F</td>
         <td>B&#39; U2 R&#39; U2 R2 U R&#39; B</td>
         <td>B2 B&#39; U2 B R U R&#39;</td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>LDB</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>LDB</strong></td>
         <td>F&#39; U2 L U2 L&#39; F</td>
         <td>L&#39; U&#39; L2 U2 L&#39; R U R&#39;</td>
         <td>R&#39; U R L U2 L&#39; R U R&#39;</td>
         <td>L U2 F U&#39; F&#39; L&#39; R U R&#39;</td>
         <td>U2 L U L&#39; F&#39; U F</td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>R U&#39; R&#39; L U L&#39; F&#39; U F</td>
         <td>L&#39; U L2 U L&#39; F&#39; U F</td>
         <td>B U2 B&#39; L U2 L&#39; R U R&#39;</td>
         <td>L U&#39; L&#39; R U R&#39; F&#39; U&#39; F</td>
         <td>L U2 L&#39; R U R&#39;</td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>BLD</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>BLD</strong></td>
         <td>R U2 B&#39; U2 B R&#39;</td>
         <td>F U&#39; F&#39; B&#39; U2 B F&#39; U&#39; F</td>
         <td>B U B2 U2 B F&#39; U&#39; F</td>
         <td>B&#39; U2 R&#39; U R B F&#39; U&#39; F</td>
         <td>U&#39; B&#39; U2 B F&#39; U&#39; F</td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>F&#39; U F B&#39; U&#39; B R U&#39; R&#39;</td>
         <td>L&#39; U2 L B&#39; U2 B F&#39; U&#39; F</td>
         <td>B U&#39; B2 U&#39; B R U&#39; R&#39;</td>
         <td>B&#39; U B F&#39; U&#39; F R U R&#39;</td>
         <td>U B&#39; U&#39; B R U&#39; R&#39;</td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>URF</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>URF</strong></td>
         <td>U2 R F&#39; U B U&#39; B&#39; F R&#39;</td>
         <td>U F U&#39; F2 U F</td>
         <td>U&#39; R&#39; U R2 U&#39; R&#39;</td>
         <td>L2 U F U&#39; F2 U F U&#39; L2</td>
         <td></td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>U&#39; F&#39; U2 F R U R&#39;</td>
         <td>U2 F&#39; U&#39; F2 U2 F&#39; R U R&#39;</td>
         <td>U2 R U R2 U2 R F&#39; U&#39; F</td>
         <td>U2 R B&#39; U B R&#39;</td>
         <td></td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>FUR</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>FUR</strong></td>
         <td>U&#39; F&#39; U2 L&#39; U2 L F</td>
         <td>U&#39; F U&#39; F&#39; U2 F&#39; U&#39; F</td>
         <td>U B U&#39; B&#39; F&#39; U&#39; F</td>
         <td>U B&#39; U&#39; B F&#39; U&#39; F</td>
         <td></td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>U2 R U&#39; R&#39; U&#39; F&#39; U&#39; F</td>
         <td>L&#39; F&#39; U&#39; F L</td>
         <td>F&#39; U&#39; R&#39; U R F</td>
         <td>L F&#39; U&#39; F L&#39;</td>
         <td></td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>RFU</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>RFU</strong></td>
         <td>U R U2 B U2 B&#39; R&#39;</td>
         <td>U&#39; L&#39; U L R U R&#39;</td>
         <td>U R&#39; U R U2 R U R&#39;</td>
         <td>U&#39; L U L&#39; R U R&#39;</td>
         <td></td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>U2 F&#39; U F U R U R&#39;</td>
         <td>R U F U&#39; F&#39; R&#39;</td>
         <td>B R U R&#39; B&#39;</td>
         <td>B&#39; R U R&#39; B</td>
         <td></td>
     </tr>
-    <tr align=center>
-        <td rowspan=3 align=center><strong>Corner</strong></td>
-        <td colspan=5 align=center><strong>Edge (In U Layer)</strong></td>
+    <tr align="center">
+        <td rowspan="3" align="center"><strong>Corner</strong></td>
+        <td colspan="5" align="center"><strong>Edge (In U Layer)</strong></td>
     </tr>
-    <tr align=center>
-        <td align=center><strong>FU</strong></td>
-        <td align=center><strong>LU</strong></td>
-        <td align=center><strong>BU</strong></td>
-        <td align=center><strong>RU</strong></td>
-        <td align=center></td>
+    <tr align="center">
+        <td align="center"><strong>FU</strong></td>
+        <td align="center"><strong>LU</strong></td>
+        <td align="center"><strong>BU</strong></td>
+        <td align="center"><strong>RU</strong></td>
+        <td align="center"></td>
     </tr>
-    <tr align=center>
-        <td align=center><strong>UF</strong></td>
-        <td align=center><strong>UL</strong></td>
-        <td align=center><strong>UB</strong></td>
-        <td align=center><strong>UR</strong></td>
+    <tr align="center">
+        <td align="center"><strong>UF</strong></td>
+        <td align="center"><strong>UL</strong></td>
+        <td align="center"><strong>UB</strong></td>
+        <td align="center"><strong>UR</strong></td>
         <td></td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>URF</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>URF</strong></td>
         <td>F&#39; U2 F U F&#39; U&#39; F</td>
         <td>U&#39; F&#39; U2 F U&#39; F&#39; U F</td>
         <td>U2 F&#39; L F&#39; L&#39; F2</td>
         <td>U2 R U R U B&#39; U&#39; B&#39; R2</td>
         <td></td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>U2 F&#39; U&#39; F&#39; U&#39; L&#39; U L F2</td>
         <td>U2 R B&#39; R B R2</td>
         <td>U R U2 R&#39; U R U&#39; R&#39;</td>
         <td>R U2 R&#39; U&#39; R U R&#39;</td>
         <td></td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>FUR</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>FUR</strong></td>
         <td>U F&#39; U F U&#39; F&#39; U&#39; F</td>
         <td>F&#39; U&#39; F</td>
         <td>R2 U B U&#39; B&#39; R2</td>
         <td>U&#39; R U2 R&#39; U F&#39; U&#39; F</td>
         <td></td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>U&#39; F&#39; L&#39; U&#39; L F R U R&#39;</td>
         <td>U&#39; R U2 R&#39; U2 R U&#39; R&#39;</td>
         <td>F2 L&#39; U&#39; L U F2</td>
         <td>U R U&#39; R&#39;</td>
         <td></td>
     </tr>
-    <tr align=center>
-        <td  rowspan=2 align=center><strong>RFU</strong></td>
+    <tr align="center">
+        <td  rowspan="2" align="center"><strong>RFU</strong></td>
         <td>U&#39; F&#39; U F</td>
         <td>R2 B U B&#39; U&#39; R2</td>
         <td>U F&#39; U2 F U2 F&#39; U F</td>
         <td>U R B U B&#39; R&#39; F&#39; U&#39; F</td>
         <td></td>
     </tr>
-    <tr align=center>
+    <tr align="center">
         <td>U F&#39; U2 F U&#39; R U R&#39;</td>
         <td>F2 U&#39; L&#39; U L F2</td>
         <td>R U R&#39;</td>
