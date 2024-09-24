@@ -832,7 +832,7 @@ export default function AnimCube3(params) {
     function paint() {
         graphics.save(), graphics.fillStyle = bgColor;
         var e = 1 != buttonBar || 0 != progressHeight && !demo && 0 != move[curMove].length ? height : height - dpr;
-        if (setClip(graphics, 0, 0, width, e), graphics.fillRect(0, 0, width, e), dragAreas = 0, natural) fixBlock(eye, eyeX, eyeY, cubeBlocks, 3);
+        if (setClip(graphics, 0, 0, width, e), graphics.clearRect(0, 0, width, e), dragAreas = 0, natural) fixBlock(eye, eyeX, eyeY, cubeBlocks, 3);
         else {
             for (var r = Math.cos(originalAngle + currentAngle), t = Math.sin(originalAngle + currentAngle) * rotSign[twistedLayer], o = 0; o < 3; o++) {
                 tempEye[o] = 0, tempEyeX[o] = 0;
@@ -1315,20 +1315,31 @@ export default function AnimCube3(params) {
             for (var t = 0; t < 9; t++) cube[r][t] = initialCube[r][t], scube[r][t] = initialSCube[r][t];
         initialMove.length > 0 && void 0 !== initialMove[curMove] && doMove(cube, initialMove[curMove], 0, initialMove[curMove].length, !1), initialReversedMove.length > 0 && void 0 !== initialReversedMove[curMove] && doMove(cube, initialReversedMove[curMove], 0, initialReversedMove[curMove].length, !0), initInfoText(e)
     }
-    document.addEventListener("touchstart", mousedown), document.addEventListener("touchmove", mousemove, {
+    document.addEventListener("touchstart", touchstart0), document.addEventListener("touchmove", mousemove, {
         passive: !1
-    }), document.addEventListener("touchend", mouseup), document.addEventListener("mousedown", mousedown), document.addEventListener("mousemove", mousemove), document.addEventListener("mouseup", mouseup), document.addEventListener("contextmenu", contextmenu);
+    }), document.addEventListener("touchend", mouseup), document.addEventListener("mousedown", mousedown0), document.addEventListener("mousemove", mousemove), document.addEventListener("mouseup", mouseup), document.addEventListener("contextmenu", contextmenu);
     var mouseIsDown = !1,
         showContextMenu = !0,
         divs = document.getElementsByTagName("div"),
-        wrapDiv = divs.length > 0 && "wrap" == divs[0].className;
+        wrapDiv = divs.length > 0 && "wrap" == divs[0].className,
+        isTouch = false;
+
+    function touchstart0(e) {
+      isTouch = true;
+      mousedown(e);
+    }
+  
+    function mousedown0(e) {
+      if (!isTouch)
+        mousedown(e);
+    }
 
     function touchfunc(e) {
         wrapDiv ? divs[0].style.overflow = e : document.body.style.overflow = e
     }
 
     function mouseup(e) {
-        if (mouseIsDown && void 0 !== e.touches && (e.preventDefault(), touchfunc("auto")), mouseIsDown ? setTimeout((function() {
+        if (mouseIsDown && void 0 !== e.touches && (touchfunc("auto")), mouseIsDown ? setTimeout((function() {
                 showContextMenu = !0
             }), 100) : showContextMenu = !0, mouseIsDown = !1, dragging = !1, pushed) pushed = !1, drawButtons = !0, paint();
         else if (twisting && !spinning) {
