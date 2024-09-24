@@ -48,7 +48,7 @@ To view a transcribed table of the F2L algorithms click below.
         <td colspan="5" align="center"><strong>Edge (In First Two Layers)</strong></td>
     </tr>
     <tr align="center">
-        <td><strong>FR<strong></td>
+        <td><strong>FR</strong></td>
         <td><strong>FL</strong></td>
         <td><strong>BR</strong></td>
         <td><strong>BL</strong></td>
