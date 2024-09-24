@@ -42,7 +42,7 @@ To view a transcribed table of the F2L algorithms click below.
 <details>
   <summary>Transcribed F2L Algorithms</summary>
 
-<table border=1>
+<table border="1">
     <tr>
         <td rowspan=3><strong>Corner</strong</td>
         <td colspan=5 align=center><strong>Edge (In First Two Layers)</strong></td>
