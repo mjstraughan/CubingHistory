@@ -7,7 +7,7 @@ slug: /
 
 ## Purpose
 
-This website was created to serve as an archive of cubing history. The history of the community has been poorly documented so this is an attempt to recover and preserve the important information. This is the result of many hours of studying various message boards, mailing lists, newsletters, books, conversing with others through private messages, and many years of my own experience and knowledge since joining the community in 2005. Cubing has moved from being in books in the late 70s and early 80s to now being within internet discussions. All content on the site is original research starting from the very beginning of each subject. Nothing is taken from any wiki pages or similar sources.
+This website was created to serve as an archive of cubing history. The history of the community has been poorly documented so this is an attempt to recover and preserve everyone's contributions. Information has been compiled from various message boards, mailing lists, newsletters, books, conversing with others through private messages, and many years of my own experience and knowledge since joining the community in 2005. All content on the site is original research starting from the very beginning of each subject. Nothing is taken from any wiki pages or similar sources.
 
 If you want to use information from this website, I would love to work with you. Send me an email at athefre@gmail.com or contact me on one of the various puzzle communities such as speedsolving.com or Discord. My username everywhere is Athefre. My real name is Michael James Straughan.
 
@@ -21,7 +21,6 @@ Below are some of the historical discoveries that have been uncovered while buil
 - Cross and the Layer By Layer method wasn't first created by Singmaster as the community believes. Nor did Singmaster claim to have created them. He states in Notes on Rubik’s ‘Magic Cube’ that he had seen the method before and changed his method to his own version of that. The earliest known publication of the Layer By Layer method, starting with cross, is by Donald Taylor in 1978.
 - The standard notation isn’t all Singmaster. Only the U, D, L, R, F, B outer turn notation, the apostrophe for inverse, and the 2 for double turns are attributed to Singmaster. Rotations, wide turns, and other parts of the notation were created by other people.
 - The earliest known published Corners First and Edges First methods. One of the early Edges First methods was published by Zoltán Perjés, a relative of Ernő Rubik.
-- An instance of early corner permutation by Lars Petrus in 1996.
 
 ## Cubing History Standards
 
@@ -45,7 +44,7 @@ Cubing History follows a classification standard based on the modern development
 
 ## Cubing History Origin
 
-Since I joined the community, I have always been interested in method development. From the very beginning I was trying out others' methods, developing my own methods, and updating the SpeedSolving.com wiki with the origins of methods. In May of 2020 I decided to start working on a timeline that covers the very beginning through now. That simple idea, and the subsequent research, turned into a 47 page Word document full of notes, links, and ideas. I decided that all of that content would be great to have in book form. I started structuring and writing the book and created a website on Google Sites just as a way to organize my resources for the book. I then realized that the website would be exactly what the community needed as a way to view the history of methods. Over time the site expanded to include more than just the history of methods. In 2024 I moved the website to a custom domain with a focus on the history of every aspect of cubing.
+Since I joined the community, I have always been interested in method development. From the very beginning I was trying out others' methods, developing my own methods, and updating the SpeedSolving.com wiki with the origins of methods. In May of 2020 I decided to start working on a timeline that covers the history of method development. That simple idea, and the subsequent research, turned into a 47 page Microsoft Word document full of notes, links, and ideas. I decided that all of that content would be great to have in book form. I started structuring and writing the book and created a website on Google Sites just as a way to organize my resources for the book. I then realized that the website would be exactly what the community needed as a way to view the history of methods. Over time the site expanded to include more than just the history of methods. In 2024 I moved the website to a custom domain, cubinghistory.com, that covers the history of every aspect of cubing.
 
 [![](img/HomePage/Origin1.png)](https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368431)
 [![](img/HomePage/Origin2.png)](https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368527)
