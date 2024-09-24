@@ -25,7 +25,7 @@ Throughout 2004, Shotaro Makisumi reduced the world record average to 14.52. Sta
 | 14.52 | (13.16) 13.77 15.49 14.29 (15.60) | October 16, 2004 |
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/aOmgT6GjZIg"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -42,7 +42,7 @@ On March 18, 2006, a year and a half after the 14.52 second average was set, the
 | 13.22 | 14.08 12.81 12.77 (12.47) (14.09) | March 18, 2006 |
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/eX-LRl6JA1Y"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -67,7 +67,7 @@ From January 2007 to September 2009, the record was reduced to 10.07 seconds. Th
 | Tomasz Żołnowski | 10.07 | 10.80 (12.08) 9.77 (8.68) 9.65 | September 26, 2009 |
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/bZv_YtXwKzo"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -75,7 +75,7 @@ From January 2007 to September 2009, the record was reduced to 10.07 seconds. Th
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/MUP0T_bH7Vc"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -83,7 +83,7 @@ From January 2007 to September 2009, the record was reduced to 10.07 seconds. Th
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/id2xtbfVbn8"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -91,7 +91,7 @@ From January 2007 to September 2009, the record was reduced to 10.07 seconds. Th
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/WYL2Gmpn0sA"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -99,7 +99,7 @@ From January 2007 to September 2009, the record was reduced to 10.07 seconds. Th
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/YJdGN0Opuvc"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -107,7 +107,7 @@ From January 2007 to September 2009, the record was reduced to 10.07 seconds. Th
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/Kfvz0EU7_-Y"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -135,7 +135,7 @@ In 2010, the sub-10 second barrier for the world record average was broken for t
 | 6.45 | (7.16) 6.58 6.79 (5.88) 5.99 | July 9, 2016 |
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/Lv54OeFQZOk"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -143,7 +143,7 @@ In 2010, the sub-10 second barrier for the world record average was broken for t
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/93KEXSfKp4c"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -163,7 +163,7 @@ In 2017, for the first time in over seven years, Zemdegs’ streak was broken. O
 | 6.39 | 6.41 (7.26) 6.63 6.12 (5.60) | April 23, 2017 |
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/7hEVhvpcFZI"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -186,7 +186,7 @@ In 2017, for the first time in over seven years, Zemdegs’ streak was broken. O
 | 5.53 | (7.16) 5.04 (4.67) 6.55 4.99 | November 10, 2019 |
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/kWUQbhbqvqo"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -194,7 +194,7 @@ In 2017, for the first time in over seven years, Zemdegs’ streak was broken. O
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/Pj796Dd95-w"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -217,7 +217,7 @@ From June 2021 to April 2022, the world record average was brought down to 5.08 
 | Max Park | 5.08 | 4.88 (5.70) 5.56 (4.53) 4.80 | April 3, 2022 |
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/UDbTMnGBuEQ"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -225,7 +225,7 @@ From June 2021 to April 2022, the world record average was brought down to 5.08 
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/QMRDcx0iTBc"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -233,7 +233,7 @@ From June 2021 to April 2022, the world record average was brought down to 5.08 
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/BxWbYB4kI8M"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -241,7 +241,7 @@ From June 2021 to April 2022, the world record average was brought down to 5.08 
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/X3UFiUnWIqc"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -267,7 +267,7 @@ On July 30, 2022, Kolasiński broke the sub-5 barrier with a 4.86 second average
 | Max Park | 4.86 | 4.62 4.78 (5.68) 5.19 (4.50) | September 24, 2022 |
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/yZywq-ROTbg"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -275,7 +275,7 @@ On July 30, 2022, Kolasiński broke the sub-5 barrier with a 4.86 second average
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/s3ypNkatnwg"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -301,7 +301,7 @@ The 4.69 second average was the first of several world records. From June 2023 t
 | 4.09 | 3.83 (5.16) 4.55 (3.71) 3.88 | September 21, 2024 |
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/TODS4WQVIGY"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -309,7 +309,7 @@ The 4.69 second average was the first of several world records. From June 2023 t
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/RcIFY4_PO3E"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
