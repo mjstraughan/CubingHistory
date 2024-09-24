@@ -1,4 +1,5 @@
 import AnimCube from "@site/src/components/AnimCube";
+import styles from "./CFOP.module.css";
 
 # CFOP
 
@@ -42,24 +43,24 @@ To view a transcribed table of the F2L algorithms click below.
 <details>
   <summary>Transcribed F2L Algorithms</summary>
 
-<table border="1">
+<table border="1" className={styles.table}>
     <tr>
-        <td rowspan="3"><strong>Corner</strong></td>
-        <td colspan="5" align="center"><strong>Edge (In First Two Layers)</strong></td>
+        <th rowspan="3">Corner</th>
+        <th colspan="5">Edge (In First Two Layers)</th>
     </tr>
-    <tr align="center">
-        <td><strong>FR</strong></td>
-        <td><strong>FL</strong></td>
-        <td><strong>BR</strong></td>
-        <td><strong>BL</strong></td>
-        <td><strong>FU</strong></td>
+    <tr>
+        <th>FR</th>
+        <th>FL</th>
+        <th>BR</th>
+        <th>BL</th>
+        <th>FU</th>
     </tr>
-    <tr align="center">
-        <td><strong>RF</strong></td>
-        <td><strong>LF</strong></td>
-        <td><strong>RB</strong></td>
-        <td><strong>LB</strong></td>
-        <td><strong>UF</strong></td>
+    <tr>
+        <th>RF</th>
+        <th>LF</th>
+        <th>RB</th>
+        <th>LB</th>
+        <th>UF</th>
     </tr>
     <tr  align="center">
         <td   rowspan="2"><strong>DFR</strong></td>
@@ -286,23 +287,23 @@ To view a transcribed table of the F2L algorithms click below.
         <td>B&#39; R U R&#39; B</td>
         <td></td>
     </tr>
-    <tr align="center">
-        <td rowspan="3" align="center"><strong>Corner</strong></td>
-        <td colspan="5" align="center"><strong>Edge (In U Layer)</strong></td>
+    <tr>
+        <th rowspan="3">Corner</th>
+        <th colspan="5">Edge (In U Layer)</th>
     </tr>
-    <tr align="center">
-        <td align="center"><strong>FU</strong></td>
-        <td align="center"><strong>LU</strong></td>
-        <td align="center"><strong>BU</strong></td>
-        <td align="center"><strong>RU</strong></td>
-        <td align="center"></td>
+    <tr>
+        <th>FU</th>
+        <th>LU</th>
+        <th>BU</th>
+        <th>RU</th>
+        <th></th>
     </tr>
-    <tr align="center">
-        <td align="center"><strong>UF</strong></td>
-        <td align="center"><strong>UL</strong></td>
-        <td align="center"><strong>UB</strong></td>
-        <td align="center"><strong>UR</strong></td>
-        <td></td>
+    <tr>
+        <th>UF</th>
+        <th>UL</th>
+        <th>UB</th>
+        <th>UR</th>
+        <th></th>
     </tr>
     <tr align="center">
         <td  rowspan="2" align="center"><strong>URF</strong></td>
