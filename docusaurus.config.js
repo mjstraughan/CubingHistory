@@ -82,7 +82,11 @@ const config = {
             label: "Tutorial",
           },*/
           { to: "/blog", label: "Blog", position: "left" },
-          { to: "/donate", label: "Donate", position: "left" },
+          {
+            href: "https://www.paypal.com/donate/?hosted_button_id=LPH7YYQBTM6L4",
+            label: "Donate",
+            position: "left",
+          },
           {
             href: "https://discord.gg/GJB2ER2Q3M",
             label: "Discord",
