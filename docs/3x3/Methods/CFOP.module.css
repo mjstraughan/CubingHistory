@@ -1,0 +1,8 @@
+.table {
+    overflow-x: auto;
+    position: relative;
+}
+
+.table td {
+    white-space: nowrap;
+}
