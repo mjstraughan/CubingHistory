@@ -21,7 +21,7 @@ In January 2003, Ron van Bruchem proposed the idea of an official association th
 
 ## What Should Be Considered Official?
 
-In January 2004, the Caltech Winter competition was held. The record times set by Makisumi at the Caltech Winter competition in January 2004 coudn’t counted as official world records at the time. Lars Petrus was the first to question why Makisumi’s solves wouldn’t be considered official [3]. Others also questioned the reasoning [4]. Tyson Mao responded by stating the intent to make the results official [5].
+In January 2004, the Caltech Winter competition was held. The record times set by Makisumi at the Caltech Winter competition in January 2004 couldn’t be counted as official world records at the time. Lars Petrus was the first to question why Makisumi’s solves wouldn’t be considered official [3]. Others also questioned the reasoning [4]. Tyson Mao responded by stating the intent to make the results official [5].
 
 ![](img/WCA/Petrus1.png)
 ![](img/WCA/Fridrich1.png)
