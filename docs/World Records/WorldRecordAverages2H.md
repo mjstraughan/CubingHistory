@@ -24,6 +24,14 @@ Throughout 2004, Shotaro Makisumi reduced the world record average to 14.52. Sta
 | 15.38 | 15.29 16.64 17.65 (18.05) (14.76) | April 3, 2004 |
 | 14.52 | (13.16) 13.77 15.49 14.29 (15.60) | October 16, 2004 |
 
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/aOmgT6GjZIg"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
 ## 14.40 and 13.22 (Anssi Vanhala)
 
 On March 18, 2006, a year and a half after the 14.52 second average was set, the world record average was broken. During the second round of the SveKub Annual Meeting competition, Vanhala set a record of 14.40 seconds. Then in the final round, further reduced the record to 13.22 seconds.
@@ -32,6 +40,14 @@ On March 18, 2006, a year and a half after the 14.52 second average was set, the
 | -------- | ------- | ---------- |
 | 14.40 | (16.59) 14.18 15.29 (13.08) 13.74 | March 18, 2006 |
 | 13.22 | 14.08 12.81 12.77 (12.47) (14.09) | March 18, 2006 |
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/eX-LRl6JA1Y"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
 
 ## 11.76 to 10.07
 
@@ -49,6 +65,54 @@ From January 2007 to September 2009, the record was reduced to 10.07 seconds. Th
 | Yumu Tabuchi| 10.83 | 9.30 (9.19) 11.03 (13.11) 12.16) | March 28, 2009 |
 | Tomasz Żołnowski | 10.63 | 10.88 10.19 10.81 (9.43) (DNF) | April 4, 2009 |
 | Tomasz Żołnowski | 10.07 | 10.80 (12.08) 9.77 (8.68) 9.65 | September 26, 2009 |
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/bZv_YtXwKzo"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/MUP0T_bH7Vc"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/id2xtbfVbn8"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/WYL2Gmpn0sA"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/YJdGN0Opuvc"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/Kfvz0EU7_-Y"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
 
 ## 9.21 to 6.45 (Feliks Zemdegs)
 
@@ -70,6 +134,22 @@ In 2010, the sub-10 second barrier for the world record average was broken for t
 | 6.54 | 6.91 6.41 (6.25) (7.30) 6.31 | November 16, 2013 |
 | 6.45 | (7.16) 6.58 6.79 (5.88) 5.99 | July 9, 2016 |
 
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/Lv54OeFQZOk"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/93KEXSfKp4c"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
 ## 6.39 (Max Park)
 
 <AnimCube params="config=../../ReconstructionConfig.txt&move=z2.r D R D D F.L U L'.U R' U R2 U' R'.U U L' U L R' U R.U' U' L' U U L U' L' U L.U U' F U R U' R' F'.U' U' U' R2 U R' U R' U' R U' R2' (U' D) R' U R D';z2.(r' L') U x R r U' r'.y U R U' R' u'.U L' U U L U L' U' L.R U' R' d R' U' R U' R' U' R.U L' U' L U L' U' L.R' U' R' F R F' U R.U' U L U' R U' U' L' U L R' U' R U' U' L' U l';y2 x'.D' L2' U' R' F R D'.R' U R.U' U' R U R' U R U' R'.y' U' R U R'.y' R U' R' U R U' U' R' U R U' R'.U U r U' r2' U r2 U r2' U' r.U U' R' U L' U U R U' R' L U L' U U R U' L U U;y'.R' U' B' R U' R' F R2 U' R'.y U R U' R' U U R U' R2'.U R y U R' U R.U U R U' U' R' U R U' R'.U U r' U' R U' R' U R U' R' U U r.U' R' U U R U' U' R' F R U R' U' R' F' R2 U';R U r U' r' D' R' u.U R' U' R.U' R U' R' U' L U' L'.R U' U' R' U U R U' R'.U L' U L d R U R'.U R U R' U' M' U R U' r'.U' R2 U R' U R' U' R U' R2' (U' D) R' U R (U D') &initmove=U2 F2 B2 D' F2 L B D' F D R' L2 B2 U2 D2 L' U2 D2 F2;D F2 R2 U F' B2 U2 R' U2 L B' R2 U' F2 L2 F2 R2 D' R2 L2;D U R2 U' B2 D' F2 D2 R' U B' U' F2 D2 R F2 L' F' U;D F2 U2 R2 U2 L2 B2 L2 U2 B R' U2 F' R2 D' F2 U' L F' U;R2 B' R2 D2 B' R2 F L2 B L' U' B2 U F D' F' D' U' L2 D'" width="600px" height="400px" />
@@ -81,6 +161,14 @@ In 2017, for the first time in over seven years, Zemdegs’ streak was broken. O
 | Average | Solves | Date |
 | -------- | ------- | ---------- |
 | 6.39 | 6.41 (7.26) 6.63 6.12 (5.60) | April 23, 2017 |
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/7hEVhvpcFZI"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
 
 ## 5.97 to 5.53 (Feliks Zemdegs)
 
@@ -97,6 +185,22 @@ In 2017, for the first time in over seven years, Zemdegs’ streak was broken. O
 | 5.69 | (6.90) 5.64 (5.57) 5.79 5.63 | April 6, 2019 |
 | 5.53 | (7.16) 5.04 (4.67) 6.55 4.99 | November 10, 2019 |
 
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/kWUQbhbqvqo"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/Pj796Dd95-w"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
 ## 5.48 to 5.08
 
 <AnimCube params="config=../../ReconstructionConfig.txt&move=x' z2.R' F R' F R L D.R U' R' U R U R'.y' d R' U' R.U L' U L U' y' R U R2' U' R2 U' R'.U R' U' R U' R' U U R.U l' U R' D D R U' R' D D R2;z y2.R' r D' R' F R D.R' U R U' R' U' R2 R'.L' U L U R U' R' F U F'.U' R U' U' R' d' R' U' R.y' U' U' R U R' U U R U' R'.U U R' U' R' F R F' U R.U x R2' D D R U R' D D R U' R x' U';x y2.U r' R2 D L2' R U R' d' R' U' R u'.U' F U F' U' L' U L.U R U R' U U R U R'.U' U' R U R' U R U' U' R' F R U R' U' F'.U F R U' R' U' R U R' R R' F' R U R' U' R' F R F' U;z.r' F R U R2 D' L.U R U' R' U R U R'.y' U L' U U L U L' U' L.d U R' U' R U U R' U R.U' U' R U R' U' R' F R F'.L' U R' U' U' z U R' U' R2 D U;z2.D D x' U' R' F.U' L' U L U R' U R2.U' U' R' d' R' U' R.U D d R U R' D'.U' R U' U' R' U U R U' R'.r U R' U R U' U' r'.R U R' F' R U R' U' R' F R2 U' R' &initmove=L2 B2 L2 D B2 F2 D2 R' F2 D2 L U2 B U' R' F' L2 U2 L';U F2 U' L2 D' F2 D' R2 B' L' F D R U2 B' L' F' R' F2;D2 L2 B2 F2 D' F2 U L2 D' B2 L' U' F' D B2 R' U' B D2 L2 R2 U';L2 B2 D' U' L2 F2 U F2 D' U2 B' U' B L' U2 L F D L' F' U2;R B2 L2 B2 R B2 R D2 U' L2 B' F2 D2 B' U R B' U2 L F2" width="600px" height="400px" />
@@ -111,6 +215,38 @@ From June 2021 to April 2022, the world record average was brought down to 5.08 
 | Max Park | 5.32 | 5.34 5.50 5.12 (4.54) (5.96) | November 6, 2021 |
 | Tymon Kolasiński | 5.09 | (4.73) 4.83 5.24 (6.57) 5.20 | December 18, 2021 |
 | Max Park | 5.08 | 4.88 (5.70) 5.56 (4.53) 4.80 | April 3, 2022 |
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/UDbTMnGBuEQ"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/QMRDcx0iTBc"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/BxWbYB4kI8M"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/X3UFiUnWIqc"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
 
 ## 4.86 (Tymon Kolasiński and Max Park)
 
@@ -130,6 +266,22 @@ On July 30, 2022, Kolasiński broke the sub-5 barrier with a 4.86 second average
 | Tymon Kolasiński | 4.86 | (4.02) 4.68 5.33 4.56 (5.59) | July 30, 2022 |
 | Max Park | 4.86 | 4.62 4.78 (5.68) 5.19 (4.50) | September 24, 2022 |
 
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/yZywq-ROTbg"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/s3ypNkatnwg"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
 ## 4.69 to 4.09
 
 <AnimCube params="config=../../ReconstructionConfig.txt&move=x'.r R2' F' D R.U' L U L'.U' d' R U2' R' U R' F R F'.y' U' R U R'.U' L F' L' F U' U U2' L' U2 L.U' L' U' L U' L' U2 L.R U' R' U' R U R D R' U' R D' R' U2 R';x y2.U2 l D2 F R.u L U L' D'.R U' R' U R U' R'.U L' U L2 U' L2'.U2 L U' L' U L.U' F R U R' U' F'.U R2' U R U R' U' R3 U' R' U R' U';D2 U' R2' L.U L' U L U' R U R'.U R' U R d U R U' U' R'.y' R U R'.L F' L' F U' L' U L.L' U' L U L F' L' F U' r' U2' R U R' U r.R U R' U' R' F R2 U' R' U' R U R' F' U';x'.R' D2 U' r'.U' R' U R.L U L2' U' L.U' R U R' U' L U' L'.R U R2' F R F' R U' R'.U' r U R' U' r' F R F'.U L' U' L F L' U' L U L F' L2' U L U;x' z2.U' R2 D2 r'.U R U R' L' U L.U R U' R'.U R' U R U' L U L'.U' R' U R U R' U' R.U2 L' U R U' L U R'.U x R2' D2 R U R' D2 R U' R&initmove=L2 U R2 B2 L2 F2 U' F2 L2 U2 F' U L' U' L' R F U L2 U;D' U' B2 L2 U L2 F2 D L2 U' R F D' F L U' R2 D' U' L D';B2 U2 L2 B2 D' B2 U' F2 U R2 B' D L2 R' B2 L2 U2 B2 U R' D2;L2 R2 U2 F2 U' L2 D' L2 R2 U' L' F' U' F' U' L2 R D2 R2 B' R2;L2 R2 U' B2 D2 B2 F2 D L2 F2 L' D2 U L B' U2 B' R' D' F R'" width="600px" height="400px" />
@@ -147,6 +299,22 @@ The 4.69 second average was the first of several world records. From June 2023 t
 | 4.36 | (6.11) (3.97) 4.48 4.59 4.02 | July 5, 2024 |
 | 4.25 | 4.76 3.98 (4.81) 4.00 (3.96) | August 25, 2024 |
 | 4.09 | 3.83 (5.16) 4.55 (3.71) 3.88 | September 21, 2024 |
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/TODS4WQVIGY"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/RcIFY4_PO3E"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
 
 ## Sources
 
