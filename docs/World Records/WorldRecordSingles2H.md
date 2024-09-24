@@ -72,7 +72,7 @@ At Caltech Spring 2004, Makisumi set a record of 13.93 seconds during the first 
 ![](img/WRSingles2H/Makisumi3.png)
 ![](img/WRSingles2H/Makisumi4.png)
 
-## 11.75, 11.13, 10.48, and 10.36
+## 11.75 to 10.36
 
 <AnimCube params="config=../../ReconstructionConfig.txt&move=z2 y'.R F R U' R.R' U2 R2 U R'.d R U' R' U2 F' U' F.L' U' L2 U L'.U L' U L.y2 F R U R' U' F'.U y R B' R F2 R' B R F2 R2&initmove=B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
 
@@ -124,7 +124,7 @@ On May 5 2007, the first ever sub-10 world record single solve was set by Thibau
 ![](img/WRSingles2H/Jacquinot.png)
 ![](img/WRSingles2H/Dzoan.png)
 
-## 9.77, 9.55, 9.18, and 8.72
+## 9.77 to 8.72
 
 <AnimCube params="config=../../ReconstructionConfig.txt&move=u'R'Fl'LD2x'u'.yU'RUR'd'R'U'R.yU'R'U'RU'R'UR.y'URU'R'U'L'U'L.U'd'L'UL.UyR2URUR'U'R'U'R'UR'&initmove=R' F' L' F U' D2 R D' L' U2 B2 D' F2 L' U' F' B2 L2&facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr" width="400px" height="400px" />
 
