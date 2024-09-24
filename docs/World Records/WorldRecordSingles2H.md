@@ -74,7 +74,7 @@ At Caltech Spring 2004, Makisumi set a record of 13.93 seconds during the first 
 
 ## 11.75 to 10.36
 
-<AnimCube params="config=../../ReconstructionConfig.txt&move=z2 y'.R F R U' R.R' U2 R2 U R'.d R U' R' U2 F' U' F.L' U' L2 U L'.U L' U L.y2 F R U R' U' F'.U y R B' R F2 R' B R F2 R2&initmove=B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2" width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&move=y2.r U x' U R' U R' z2 y' D2'.U R' U' R2 U R'.U' y' U' R U' R' U2 R U' R'.U y R' U2 R U R' U' R.U' y U' R' U R U' R' U' R.U' R' U' R' F R F' U R.R U R' U' R' F R2 U' R' U' R U R' F'&initmove=D2 L D2 U2 F' U R2 B L R' B2 L F' L R D' U2" width="600px" height="400px" />
 
 > 11.75 second solve by Jean Pons
 

@@ -9,6 +9,8 @@ slug: /
 
 This website was created to serve as an archive of cubing history. The history of the community has been poorly documented so this is an attempt to recover and preserve everyone's contributions. Information has been compiled from various message boards, mailing lists, newsletters, books, conversing with others through private messages, and many years of my own experience and knowledge since joining the community in 2005. All content on the site is original research starting from the very beginning of each subject. Nothing is taken from any wiki pages or similar sources.
 
+If you would like to support the hard work behind this project, a donation link is provided at the top of the page. This website is the result of hundreds of hours of research, writing, and website development.
+
 If you want to use information from this website, I would love to work with you. Send me an email at athefre@gmail.com or contact me on one of the various puzzle communities such as speedsolving.com or Discord. My username everywhere is Athefre. My real name is Michael James Straughan.
 
 [Visit my personal website to see my method developments](https://sites.google.com/site/athefre)
