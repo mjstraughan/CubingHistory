@@ -85,7 +85,7 @@ const config = {
           {
             href: "https://www.paypal.com/donate/?hosted_button_id=LPH7YYQBTM6L4",
             label: "Donate",
-            position: "left",
+            position: "right",
           },
           {
             href: "https://discord.gg/GJB2ER2Q3M",
