@@ -24,7 +24,7 @@ The competition featured three rounds with each competitor solving the cube once
 Today, Minh Thai’s 22.95 solve time is considered the first ever official world record because it was performed in the first competition to be officially recognized by the WCA. Lower record solve times were achieved in the early 1980s, such as a 17.04 second solve by Robert Pergl in the 1983 Czechoslovakian Championship [3]. However, these other solves aren’t considered by the WCA to be official.
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/kRs3u54kMbI"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -83,7 +83,7 @@ From October 2005 to February 2007, the world record single was reduced to 10.36
  ![](img/WRSingles2H/11.75to10.36.png)
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/2BcxVZvIxTI"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -91,7 +91,7 @@ From October 2005 to February 2007, the world record single was reduced to 10.36
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/uNBFGl7ErJE"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -99,7 +99,7 @@ From October 2005 to February 2007, the world record single was reduced to 10.36
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/zHTuvB9Vm9s"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
@@ -107,7 +107,7 @@ From October 2005 to February 2007, the world record single was reduced to 10.36
 </div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe width="100%" height="100%"
+  <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/WpqYc_P51N4"
     frameborder="0" allowfullscreen
     style={{position: 'absolute', top: 0, left: 0}}>
