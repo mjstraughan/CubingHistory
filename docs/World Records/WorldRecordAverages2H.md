@@ -130,7 +130,7 @@ On July 30, 2022, Kolasiński broke the sub-5 barrier with a 4.86 second average
 | Tymon Kolasiński | 4.86 | (4.02) 4.68 5.33 4.56 (5.59) | July 30, 2022 |
 | Max Park | 4.86 | 4.62 4.78 (5.68) 5.19 (4.50) | September 24, 2022 |
 
-## 4.69 to 4.25
+## 4.69 to 4.09
 
 <AnimCube params="config=../../ReconstructionConfig.txt&move=x'.r R2' F' D R.U' L U L'.U' d' R U2' R' U R' F R F'.y' U' R U R'.U' L F' L' F U' U U2' L' U2 L.U' L' U' L U' L' U2 L.R U' R' U' R U R D R' U' R D' R' U2 R';x y2.U2 l D2 F R.u L U L' D'.R U' R' U R U' R'.U L' U L2 U' L2'.U2 L U' L' U L.U' F R U R' U' F'.U R2' U R U R' U' R3 U' R' U R' U';D2 U' R2' L.U L' U L U' R U R'.U R' U R d U R U' U' R'.y' R U R'.L F' L' F U' L' U L.L' U' L U L F' L' F U' r' U2' R U R' U r.R U R' U' R' F R2 U' R' U' R U R' F' U';x'.R' D2 U' r'.U' R' U R.L U L2' U' L.U' R U R' U' L U' L'.R U R2' F R F' R U' R'.U' r U R' U' r' F R F'.U L' U' L F L' U' L U L F' L2' U L U;x' z2.U' R2 D2 r'.U R U R' L' U L.U R U' R'.U R' U R U' L U L'.U' R' U R U R' U' R.U2 L' U R U' L U R'.U x R2' D2 R U R' D2 R U' R&initmove=L2 U R2 B2 L2 F2 U' F2 L2 U2 F' U L' U' L' R F U L2 U;D' U' B2 L2 U L2 F2 D L2 U' R F D' F L U' R2 D' U' L D';B2 U2 L2 B2 D' B2 U' F2 U R2 B' D L2 R' B2 L2 U2 B2 U R' D2;L2 R2 U2 F2 U' L2 D' L2 R2 U' L' F' U' F' U' L2 R D2 R2 B' R2;L2 R2 U' B2 D2 B2 F2 D L2 F2 L' D2 U L B' U2 B' R' D' F R'" width="400px" height="400px" />
 
@@ -138,7 +138,7 @@ On July 30, 2022, Kolasiński broke the sub-5 barrier with a 4.86 second average
 
 Six months after the world record of 4.86 seconds was tied, a new world record was achieved. On March 1, 2023, Yiheng Wang set a new world record average of 4.69 seconds. This record really brought to everyone’s attention the high turns per second within Yiheng Wang’s solves. Similar to Max Park, the focus was less on move efficiency and more on turning as fast as possible.
 
-The 4.69 second average was the first of several world records. From June 2023 to August 2024, Yiheng Wang achieved 4.48, 4.36, and 4.25 second averages.
+The 4.69 second average was the first of several world records. From June 2023 to September 2024, Yiheng Wang achieved 4.48, 4.36, 4.25, and 4.09 second averages.
 
 | Average | Solves | Date |
 | -------- | ------- | ---------- |
@@ -146,6 +146,7 @@ The 4.69 second average was the first of several world records. From June 2023 t
 | 4.48 | 4.72 4.72 3.99 (3.95) (5.99) | June 19, 2023 |
 | 4.36 | (6.11) (3.97) 4.48 4.59 4.02 | July 5, 2024 |
 | 4.25 | 4.76 3.98 (4.81) 4.00 (3.96) | August 25, 2024 |
+| 4.09 | 3.83 (5.16) 4.55 (3.71) 3.88 | September 21, 2024 |
 
 ## Sources
 
