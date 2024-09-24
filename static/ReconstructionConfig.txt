@@ -8,4 +8,5 @@ buttonheight=25
 textsize=16
 yz=1
 snap=1
+metric=3
 facelets=wwwwwwwwwyyyyyyyyygggggggggbbbbbbbbbooooooooorrrrrrrrr
