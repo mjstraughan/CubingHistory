@@ -1,4 +1,4 @@
-import AnimCube from "@site/src/components/AnimCube";
+config=../../ExhibitConfig.txtimport AnimCube from "@site/src/components/AnimCube";
 
 # CLL+1
 

@@ -1,0 +1,8 @@
+position=lluuu
+scale=5
+align=35
+hint=10
+hintborder=1
+hinthoriz=3
+snap=1
+buttonbar=0
