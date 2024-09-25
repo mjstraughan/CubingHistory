@@ -1,4 +1,4 @@
-config=../../ExhibitConfig.txtimport AnimCube from "@site/src/components/AnimCube";
+import AnimCube from "@site/src/components/AnimCube";
 
 # DiPalma L3C Reduction
 
