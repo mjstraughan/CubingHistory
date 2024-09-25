@@ -2,7 +2,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 # OLLCP
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=yyyyyyyyywwwwwwwwwbbbdbbbbbgggdgggggodooooooorrrdrrrrr" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=yyyyyyyyywwwwwwwwwbbbdbbbbbgggdgggggodooooooorrrdrrrrr" width="400px" height="400px" />
 
 ## Description
 

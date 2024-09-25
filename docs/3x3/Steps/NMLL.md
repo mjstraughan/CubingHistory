@@ -4,7 +4,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 ## Description
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=bygyyybygwwwwwwwwwybbgbbybbyggbggyggroooooooorrrrrrorr" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=bygyyybygwwwwwwwwwybbgbbybbyggbggyggroooooooorrrrrrorr" width="400px" height="400px" />
 
 NMLL is a method for solving the last layer.
 

@@ -12,7 +12,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Eight Corners
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ydydydydywdwdwdwdwbdbdbdbdbgdgdgdgdgododododordrdrdrdr" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ydydydydywdwdwdwdwbdbdbdbdbgdgdgdgdgododododordrdrdrdr" width="400px" height="400px" />
 
 **Method:** Corners First
 
@@ -20,7 +20,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Twelve Edges
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=dydyyydyddwdwwwdwddbdbbbdbddgdgggdgddodooododdrdrrrdrd" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=dydyyydyddwdwwwdwddbdbbbdbddgdgggdgddodooododdrdrrrdrd" width="400px" height="400px" />
 
 **Method:** Edges First
 
@@ -28,7 +28,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Cross
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddydddddwdwwwdwdddddbbdddddddggdddddddoddodddddrrddd" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddydddddwdwwwdwdddddbbdddddddggdddddddoddodddddrrddd" width="400px" height="400px" />
 
 **Method:** Layer By Layer, CFOP, CFCE
 
@@ -36,7 +36,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Cross + F2L Pairs
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddyddddlwlwwwlwldlldbbdlldlldggdlldddlolloldlldrrdll" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddlwlwwwlwldlldbbdlldlldggdlldddlolloldlldrrdll" width="400px" height="400px" />
 
 **Method:** CFOP, CFCE
 
@@ -44,7 +44,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Oriented State
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ywyyywwywwwywwyyywogbrbgrbbgbgogrrgrgbboorobbgroorgoor" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ywyyywwywwwywwyyywogbrbgrbbgbgogrrgrgbboorobbgroorgoor" width="400px" height="400px" />
 
 **Method:** Thistlethwaite, Kociemba, Human Thistlethwaite, MI2, SSC
 
@@ -52,7 +52,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## EOLine > Oriented State
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=llllylllllwllwlllldbddbddlddlddgddgddddooodddddddrdddd" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=llllylllllwllwlllldbddbddlddlddgddgddddooodddddddrdddd" width="400px" height="400px" />
 
 **Method:** MI2, SSC
 
@@ -60,7 +60,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Layer + LL Corners
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ydydydydywwwwwwwwwbdbdbbbdbgdgdgggdgodododooordrdrrrdr" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ydydydydywwwwwwwwwbdbdbbbdbgdgdgggdgodododooordrdrrrdr" width="400px" height="400px" />
 
 **Method:** Waterman
 
@@ -68,7 +68,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## 2x2x3 Block
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddyddddwwwwwwddddbbdbbdddddddggdggdddooooooddddrdddd" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwwwwddddbbdbbdddddddggdggdddooooooddddrdddd" width="400px" height="400px" />
 
 **Method:** Petrus, early unnamed methods by Thistlethwaite and Jackson
 
@@ -76,7 +76,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## XCross
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddydddddwwwwwdwdddddbbdddddddggdggddddoodooddddrrddd" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddydddddwwwwwdwdddddbbdddddddggdggddddoodooddddrrddd" width="400px" height="400px" />
 
 **Method:** CFOP, CFCE, Snyder Method 2
 
@@ -84,7 +84,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Tripod
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=dddyydyydwwwwwwdwwdbbdbbddddggggggggdooooooooddddrrdrr" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=dddyydyydwwwwwwdwwdbbdbbddddggggggggdooooooooddddrrdrr" width="400px" height="400px" />
 
 **Method:** Tripod
 
@@ -92,7 +92,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Doug Li Block
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddyddddwdwwwwddddbbdbbdddddddggdggdddoooododdddrdddd" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwdwwwwddddbbdbbdddddddggdggdddoooododdddrdddd" width="400px" height="400px" />
 
 **Method:** Doug Li
 
@@ -100,7 +100,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## 1x2x3 Block
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddyddddwwwdwdddddbbdbddddddddgddggdddooooooddddrdddd" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwdwdddddbbdbddddddddgddggdddooooooddddrdddd" width="400px" height="400px" />
 
 **Method:** Roux
 
@@ -108,7 +108,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Four Squares
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddyddddrbbrwodwodbbdbbddddggdggdwwdddwoowooddddrrdww" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddrbbrwodwodbbdbbddddggdggdwwdddwoowooddddrrdww" width="400px" height="400px" />
 
 **Method:** Heise
 
@@ -116,7 +116,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Cross + One Corner
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddydddddwwwwwdwdddddbbdddddddggddgddddoddooddddrrddd" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddydddddwwwwwdwdddddbbdddddddggddgddddoddooddddrrddd" width="400px" height="400px" />
 
 **Method:** L2L
 
@@ -124,7 +124,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Columns
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ydydydydywdwdwdwdwbbbdbdbbbgggdgdgggodooooodorrrdrdrrr" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ydydydydywdwdwdwdwbbbdbdbbbgggdgdgggodooooodorrrdrdrrr" width="400px" height="400px" />
 
 **Method:** Columns First
 
@@ -132,7 +132,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## 1x2x3 + adjacent 1x2x2 block
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddyddddwwwdwwddwdbbdbdddddggdggdggdddooooooddddrddrr" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwdwwddwdbbdbdddddggdggdggdddooooooddddrddrr" width="400px" height="400px" />
 
 **Method:** MI1
 
@@ -140,7 +140,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## 1x2x3 + 2x2x2 block
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddyddddwwwdwwdwwdbbdbdddddggdggdggdddooooooddddrrdrr" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwdwwdwwdbbdbdddddggdggdggdddooooooddddrrdrr" width="400px" height="400px" />
 
 **Method:** Nautilus, M-CELL
 
@@ -148,7 +148,7 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## EOLine
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=dldlyldlddldwwwdlddlddbbdlddlddggdldddddoddddddddrdddd" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=dldlyldlddldwwwdlddlddbbdlddlddggdldddddoddddddddrdddd" width="400px" height="400px" />
 
 **Method:** ZZ
 
@@ -158,7 +158,7 @@ Published by: Zbigniew Zborowski (Zborowski learned of the step from others in 2
 
 ## 2x2x3 + Corners
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ydydydydywwwwwwwdwbbbdbbbdbgdgdgggggodooooooordrdrdrdr" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ydydydydywwwwwwwdwbbbdbbbdbgdgdgggggodooooooordrdrdrdr" width="400px" height="400px" />
 
 **Method:** Tudor
 
@@ -166,7 +166,7 @@ Published by: Zbigniew Zborowski (Zborowski learned of the step from others in 2
 
 ## 1x2x3 + opposite 1x2x2 block
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddyddddwwwdwddwwdbbdbdddddggdgddggdddooooooddddrrdrr" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwdwddwwdbbdbdddddggdgddggdddooooooddddrrdrr" width="400px" height="400px" />
 
 **Method:** 42
 
@@ -174,7 +174,7 @@ Published by: Zbigniew Zborowski (Zborowski learned of the step from others in 2
 
 ## 2x2x3 + EOBelt
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=dldlyldldwwwwwwdlddbbdbbdbddgddggdggdddoooooodrddrddrd" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=dldlyldldwwwwwwdlddbbdbbdbddgddggdggdddoooooodrddrddrd" width="400px" height="400px" />
 
 **Method:** Mehta
 
@@ -182,7 +182,7 @@ Published by: Zbigniew Zborowski (Zborowski learned of the step from others in 2
 
 ## EOSquare
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=dldlyldlddwwlwldlddlddbddlddlddgddggddddoodooddddrdddd" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=dldlyldlddwwlwldlddlddbddlddlddgddggddddoodooddddrdddd" width="400px" height="400px" />
 
 **Method:** Squall
 
