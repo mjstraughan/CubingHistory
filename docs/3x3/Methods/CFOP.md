@@ -3,7 +3,7 @@ import styles from "./CFOP.module.css";
 
 # CFOP
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=yyyyyyyyywwwwwwwwwdbbdbbdbbdggdggdggdddoooooodrrdrrdrr" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=yyyyyyyyywwwwwwwwwdbbdbbdbbdggdggdggdddoooooodrrdrrdrr" width="400px" height="400px" />
 
 ## Description
 

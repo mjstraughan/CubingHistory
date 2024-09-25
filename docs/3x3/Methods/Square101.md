@@ -2,7 +2,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 # Square 101
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=wydyyldbdwwyywwdldddddbddlddldrgddddddwdoddddddddrdddd" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=wydyyldbdwwyywwdldddddbddlddldrgddddddwdoddddddddrdddd" width="400px" height="400px" />
 
 ## Description
 

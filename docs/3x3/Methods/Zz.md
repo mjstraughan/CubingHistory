@@ -2,7 +2,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 # ZZ
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=dldlyldlddwdwwwdwddlddbbdlddlddggdldddddoddodddddrrddd" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=dldlyldlddwdwwwdwddlddbbdlddlddggdldddddoddodddddrrddd" width="400px" height="400px" />
 
 ## Description
 
