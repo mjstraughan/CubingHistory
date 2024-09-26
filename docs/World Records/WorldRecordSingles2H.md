@@ -62,10 +62,11 @@ https://www.worldcubeassociation.org/competitions/CaltechWinter2004/results/all?
 
 ## 13.93 and 12.11 (Shotaro Makisumi)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&move=z2 y'.R F R U' R.R' U2 R2 U R'.d R U' R' U2 F' U' F.L' U' L2 U L'.U L' U L.y2 F R U R' U' F'.U y R B' R F2 R' B R F2 R2&initmove=B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2" width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&move={Scramble: B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2}{Inspection: z2 y'}z2 y'.{Cross: R F R U' R}R F R U' R.{First Pair: R' U2 R2 U R'}R' U2 R2 U R'.{Second Pair: d R U' R' U2 F' U' F}d R U' R' U2 F' U' F.{Third Pair: L' U' L2 U L'}L' U' L2 U L'.{Fourth Pair: U L' U L}U L' U L.{OLL: y2 F R U R' U' F'}y2 F R U R' U' F'.{PLL: U y R B' R F2 R' B R F2 R2}U y R B' R F2 R' B R F2 R2&initmove=B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2" width="600px" height="400px" />
 
-> 12.11 second solve by Shotaro Makisumi
-
+**12.11 second solve by Shotaro Makisumi**
+- **Method:** CFOP
+- **Statistics:** 43 moves STM | 47 moves ETM | 12.11 seconds | 3.55 TPS (STM)
 
 At Caltech Spring 2004, Makisumi set a record of 13.93 seconds during the first round. In the third round, Makisumi set yet another world record of 12.11 seconds.
 
