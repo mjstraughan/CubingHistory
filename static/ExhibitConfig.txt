@@ -5,4 +5,5 @@ hint=10
 hintborder=1
 hinthoriz=3
 snap=1
+edit=0
 buttonbar=0
