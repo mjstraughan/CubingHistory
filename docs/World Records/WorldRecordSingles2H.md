@@ -187,9 +187,12 @@ On July 12, 2008, Erik Akkersdijk set a world record of 7.08 seconds. This is on
 
 ## 7.03 to 5.66 (Feliks Zemdegs)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&move=y' R U' R d R' U R D.U' y' R' U R U' R' U' R.R U R' U2 R U' R'.L' U L U L' U' L.U' R' U' F U R U' R' F' R.R' U R' U' R' U' R' U R U R2 U&initmove=D2 L2 D2 R2 B' R2 F2 L2 U2 F' R2 U B D U' L' U F' U2 L2 F'" width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D2 L2 D2 R2 B' R2 F2 L2 U2 F' R2 U B D U' L' U F' U2 L2 F'&move={Scramble: D2 L2 D2 R2 B' R2 F2 L2 U2 F' R2 U B D U' L' U F' U2 L2 F'}{Inspection: y'}y'.{Xcross: R U' R U y' R' U R D}R U' R U y' R' U R D.{2nd pair: U' y' R' U R U' R' U' R}U' y' R' U R U' R' U' R.{3rd pair: R U R' U2 R U' R'}R U R' U2 R U' R'.{4th pair: L' U L U r' F' r}L' U L U r' F' r.{OLL: U' R' U' F U R U' R' F' R}U' R' U' F U R U' R' F' R.{PLL: R' U R' U' R' U' R' U R U R2 U}R' U R' U' R' U' R' U R U R2 U." width="600px" height="400px" />
 
-> 5.66 second solve by Feliks Zemdegs
+**5.66 second solve by Feliks Zemdegs**
+| **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
+|------|------|----|-----|------|-----|------|
+| CFOP | Dayan ZhanChi | 5.66 | 52 | 9.19 | 54 | 9.54 |
 
 After standing for almost 2.5 years, the 7.08 world record was beaten on November 13, 2010. At Melbourne Cube Day 2010, Feliks Zemdegs set a single solve world record of 7.03 seconds. This marked the start of Zemdegs’ long run of dominance and barrier breaking.
 
@@ -257,9 +260,12 @@ Interestingly, when the 7.08 world record was set, Zemdegs commented that he did
 
 ## 5.55 (Mats Valk) and 5.25 (Collin Burns)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&move=x2.F' R D L' D2.R U' R' U' L' U' L.U L U' L'.R' U' U' R U' U' R' U R.U' R U R'.U' U R' F R U R U' R2 F' R2 U' R' U R U R'&initmove=U2 R2 U B2 L2 R2 U2 F2 U' F R2 B2 R2 U' L' D2 U' R F2 L2" width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=U2 R2 U B2 L2 R2 U2 F2 U' F R2 B2 R2 U' L' D2 U' R F2 L2&move={Scramble: U2 R2 U B2 L2 R2 U2 F2 U' F R2 B2 R2 U' L' D2 U' R F2 L2}{Inspection: x2}x2.{Cross: F' R D L' D2'}F' R D L' D2'.{1st pair: R U' R' U' L' U' L}R U' R' U' L' U' L.{2nd pair: U L U' L'}U L U' L'.{3rd pair: R' U' U' R U' U' R' U R}R' U' U' R U' U' R' U R.{4th pair: U' R U R'}U' R U R'.{OLL(CP): U' U R' F R U R U' R2 F' R2 U' R' U R U R'}U' U R' F R U R U' R2 F' R2 U' R' U R U R'." width="600px" height="400px" />
 
-> 5.25 second solve by Collin Burns
+**5.25 second solve by Collin Burns**
+| **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
+|------|------|----|-----|------|-----|------|
+| CFOP | Yuxin 3x3 | 5.25 | 46 | 8.76 | 46 | 8.76 |
 
 The 5.66 world record from Zemdegs stood for almost two years before being broken. On March 2, 2013, Mats Valk achieved a new world record time of 5.55 seconds. This was followed by a 5.25 second solve from Collin Burns on April 25, 2015.
 
@@ -281,9 +287,12 @@ The 5.66 world record from Zemdegs stood for almost two years before being broke
 
 ## 4.90 (Lucas Etter)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&move=z2.D' L' R' F R D2.U2 L' U' L.U' U' U' F' U' F U R U' R'.y R U R'.U' y U' U' R U R'.U r U r' R U R' U' r U' r'&initmove=R2 B D2 F2 U2 R D2 L' B L' B D R' F' U B2 F L" width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=R2 B D2 F2 U2 R D2 L' B L' B D R' F' U B2 F L&move={Scramble: R2 B D2 F2 U2 R D2 L' B L' B D R' F' U B2 F L}{Inspection: z2}z2.{Cross: D' L' R' F R D2'}D' L' R' F R D2'.{1st pair: U2 L' U' L}U2 L' U' L.{2nd pair: U' U' U' F' U' F U R U' R'}U' U' U' F' U' F U R U' R'.{3rd pair: y R U R'}y R U R'.{4th pair: U' y U' U' R U R'}U' y U' U' R U R'.{OLL(CP): U r U r' R U R' U' r U' r'}U r U r' R U R' U' r U' r'." width="600px" height="400px" />
 
-> 4.90 second solve by Lucas Etter
+**4.90 second solve by Lucas Etter**
+| **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
+|------|------|----|-----|------|-----|------|
+| CFOP | Moyu Aolong v2 | 4.90 | 40 | 8.16 | 42 | 8.57 |
 
 On November 21, 2015, the first ever sub-5 second official solve was achieved. This world record was set by Lucas Etter.
 
@@ -297,9 +306,12 @@ On November 21, 2015, the first ever sub-5 second official solve was achieved. T
 
 ## 4.73 to 4.22
 
-<AnimCube params="config=../../ReconstructionConfig.txt&move=F' R' D' R.y R U' R' u'.U' R U R'.y' L' U2 L U' L' U L.d U R' U' R U R' U' R.U' R U2' R' R' F R F' R U2' R'&initmove=R2 L' F2 D2 F' D L2 B' D L U B2 U B2 D2 L2 D' F2 D" width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=R2 L' F2 D2 F' D L2 B' D L U B2 U B2 D2 L2 D' F2 D&move={Scramble: R2 L' F2 D2 F' D L2 B' D L U B2 U B2 D2 L2 D' F2 D}{Xcross: F' R' D' R y R U' R' u'}F' R' D' R y R U' R' u'.{2nd pair: U' R U R'}U' R U R'.{3rd pair: y' L' U2 L U' L' U L}y' L' U2 L U' L' U L.{4th pair: d (U R' U' R)2}d (U R' U' R)2.{OLL(CP): U' R U2' R' R' F R F' R U2' R'}U' R U2' R' R' F R F' R U2' R'." width="600px" height="400px" />
 
-> 4.22 second solve by Feliks Zemdegs
+**4.22 second solve by Feliks Zemdegs**
+| **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
+|------|------|----|-----|------|-----|------|
+| CFOP | Angstrom Gan Air SM | 4.22 | 35 | 8.29 | 37 | 8.77 |
 
 From December 2016 to May 2018, the world record was dropped to 4.22 seconds. Starting it off was Zemdegs with a 4.73 second solve, just .01 seconds faster than the world record at the time. This was the return of Zemdegs to the single solve world records, having not set one in around five and a half years.
 
@@ -347,9 +359,12 @@ Ten months later, on September 2, 2017, Patrick Ponce achieved a world record of
 
 ## 3.47 (Yusheng Du)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&move=y x'.U R2 U' F' L F' U' L'.U' R U R'.R' U R U' U' R' U R.U R' U' R U' R' U2 R.U&initmove=F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2" width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2&move={Scramble: F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2}{Inspection: y x'}y x'.{Xcross: U R2 U' F' L F' L'}U R2 U' F' L F' L'.{2nd pair: L U' L'}L U' L'.{3rd pair: U' R U R'}U' R U R'.{4th pair: R' U R U' U' R' U R}R' U R U' U' R' U R.{OLL(CP): U R' U' R U' R' U2 R}U R' U' R U' R' U2 R.{AUF: U}U." width="600px" height="400px" />
 
-> 3.47 second solve by Yusheng Du
+**3.47 second solve by Yusheng Du**
+| **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
+|------|------|----|-----|------|-----|------|
+| CFOP | MoYu Weilong GTS2M | 3.47 | 31 | 8.93 | 31 | 8.93 |
 
 On November 24, 2018, Yusheng Du set a new world record of 3.47 seconds. This record is notable not only for its large solve time drop compared to the previous world record, but also for how long it stood. It took over five and a half years for it to be broken.
 
@@ -367,8 +382,12 @@ The solve was also the subject of some controversy. Yusheng Du’s averages at t
 
 ## 3.13 (Max Park)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&move=x2.R' D2 R' D L' U L D R' U' R D.L U' L'.U' R U R' d R' U' R.r' U' R U' R' U2 r U&initmove=D R' U2 F2 D U' B2 R2 L' F U' B2 U2 F L F' D'" width="600px" height="400px" />
-> 3.13 second solve by Max Park
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D U F2' L2 U' B2 F2 D L2 U R' F' D R' F' U L D' F' D R2&move={Scramble: D U F2' L2 U' B2 F2 D L2 U R' F' D R' F' U L D' F' D R2}{Inspection: x2}x2.{Xxcross: R' D D R' D L' U L D R' U' R D}R' D D R' D L' U L D R' U' R D.{3rd pair: L U' L'}L U' L'.{4th pair: U' R U R' d R' U' R}U' R U R' d R' U' R.{OLL(CP): r' U' R U' R' U U r U}r' U' R U' R' U U r U." width="600px" height="400px" />
+
+**3.13 second solve by Max Park**
+| **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
+|------|------|----|-----|------|-----|------|
+| CFOP | Tornado V3 | 3.13 | 33 | 10.54 | 33 | 10.54 |
 
 The world record was finally beaten again on June 11, 2023. After years of attaining world records in the 3x3 2H average category and in other events, Max Park set a world record single solve time of 3.13 seconds.
 
