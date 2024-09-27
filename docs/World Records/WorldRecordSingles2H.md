@@ -75,7 +75,7 @@ At Caltech Spring 2004, Makisumi set a record of 13.93 seconds during the first 
 
 ## 11.75 to 10.36
 
-<AnimCube params="config=../../ReconstructionConfig.txt&move=y2.r U x' U R' U R' z2 y' D2'.U R' U' R2 U R'.U' y' U' R U' R' U2 R U' R'.U y R' U2 R U R' U' R.U' y U' R' U R U' R' U' R.U' R' U' R' F R F' U R.R U R' U' R' F R2 U' R' U' R U R' F'&initmove=D2 L D2 U2 F' U R2 B L R' B2 L F' L R D' U2" width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D2 L D2 U2 F' U R2 B L R' B2 L F' L R D' U2&move={Scramble: D2 L D2 U2 F' U R2 B L R' B2 L F' L R D' U2}{Inspection: y2}y2.{Cross: r U x' U R' U R' z2 y' D2'}r U x' U R' U R' z2 y' D2'.{1st pair: U R' U' R2 U R'}U R' U' R2 U R'.{2nd pair: U' y' U' R U' R' U2 R U' R'}U' y' U' R U' R' U2 R U' R'.{3rd pair: U y R' U2 R U R' U' R}U y R' U2 R U R' U' R.{4th pair: U' y U' R' U R U' R' U' R}U' y U' R' U R U' R' U' R.{OLL: U' R' U' R' F R F' U R}U' R' U' R' F R F' U R.{PLL: R U R' U' R' F R2 U' R' U' R U R' F'}R U R' U' R' F R2 U' R' U' R U R' F'." width="600px" height="400px" />
 
 > 11.75 second solve by Jean Pons
 
