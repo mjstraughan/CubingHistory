@@ -9,4 +9,4 @@ textsize=16
 yz=1
 snap=1
 metric=3
-colorscheme=ywbgor
+colorscheme=wygbor
