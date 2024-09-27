@@ -68,7 +68,7 @@ https://www.worldcubeassociation.org/competitions/CaltechWinter2004/results/all?
 **12.11 second solve by Shotaro Makisumi**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
 |------|------|----|-----|------|-----|------|
-| CFOP | Unnknown | 12.11 | 43 | 3.55 | 47 | 3.88 |
+| CFOP | Unknown | 12.11 | 43 | 3.55 | 47 | 3.88 |
 
 At Caltech Spring 2004, Makisumi set a record of 13.93 seconds during the first round. In the third round, Makisumi set yet another world record of 12.11 seconds.
 
@@ -82,7 +82,7 @@ At Caltech Spring 2004, Makisumi set a record of 13.93 seconds during the first 
 **11.75 second solve by Jean Pons**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
 |------|------|----|-----|------|-----|------|
-| CFOP | Unnknown | 11.75 | 62 | 5.28 | 69 | 5.87 |
+| CFOP | Unknown | 11.75 | 62 | 5.28 | 69 | 5.87 |
 
 From October 2005 to February 2007, the world record single was reduced to 10.36. The starting point was the first sub-12 single at 11.75 accomplished by Jean Pons. This was followed by an 11.13 by Leyan Lo, a 10.48 by Toby Mao, and a 10.36 by Edouard Chambon.
 
@@ -132,9 +132,12 @@ On May 5 2007, the first ever sub-10 world record single solve was set by Thibau
 
 ## 9.77 to 8.72
 
-<AnimCube params="config=../../ReconstructionConfig.txt&move=u'R'Fl'LD2x'u'.yU'RUR'd'R'U'R.yU'R'U'RU'R'UR.y'URU'R'U'L'U'L.U'd'L'UL.UyR2URUR'U'R'U'R'UR'&initmove=R' F' L' F U' D2 R D' L' U2 B2 D' F2 L' U' F' B2 L2" width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=R' F' L' F U' D2 R D' L' U2 B2 D' F2 L' U' F' B2 L2&move={Scramble: R' F' L' F U' D2 R D' L' U2 B2 D' F2 L' U' F' B2 L2}{Cross: u' R' F l' L D2 x' u'}u' R' F l' L D2 x' u'.{1st pair: y U' R U R' d' R' U' R}y U' R U R' d' R' U' R.{2nd pair: y U' R' U' R U' R' U R}y U' R' U' R U' R' U R.{3rd pair: y' U R U' R' U' L' U' L}y' U R U' R' U' L' U' L.{4th pair: U' d' L' U L}U' d' L' U L.{PLL: U y R2 U R U R' U' R' U' R' U R'}U y R2 U R U R' U' R' U' R' U R'." width="600px" height="400px" />
 
-> 8.72 second solve by Yu Nakajima
+**8.72 second solve by Yu Nakajima**
+| **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
+|------|------|----|-----|------|-----|------|
+| CFOP | Unknown | 8.72 | 48 | 5.50 | 53 | 6.08 |
 
 The world record was further reduced to 8.87 seconds from October 2007 to May 2008. This started with a 9.77 from Erik Akkersdijk and was followed by a 9.55 by Ron van Bruchem, a 9.18 by Edouard Chambon, and two 8.72 solves by Yu Nakajima at a single competition in the final two rounds.
 
