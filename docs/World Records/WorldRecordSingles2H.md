@@ -306,7 +306,7 @@ On November 21, 2015, the first ever sub-5 second official solve was achieved. T
 
 ## 4.73 to 4.22
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=R2 L' F2 D2 F' D L2 B' D L U B2 U B2 D2 L2 D' F2 D&move={Scramble: R2 L' F2 D2 F' D L2 B' D L U B2 U B2 D2 L2 D' F2 D}{Xcross: F' R' D' R y R U' R' u'}F' R' D' R y R U' R' u'.{2nd pair: U' R U R'}U' R U R'.{3rd pair: y' L' U2 L U' L' U L}y' L' U2 L U' L' U L.{4th pair: d (U R' U' R)2}d (U R' U' R)2.{OLL(CP): U' R U2' R' R' F R F' R U2' R'}U' R U2' R' R' F R F' R U2' R'." width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=R2 L' F2 D2 F' D L2 B' D L U B2 U B2 D2 L2 D' F2 D&move={Scramble: R2 L' F2 D2 F' D L2 B' D L U B2 U B2 D2 L2 D' F2 D}{Xcross: F' R' D' R y R U' R' u'}F' R' D' R y R U' R' u'.{2nd pair: U' R U R'}U' R U R'.{3rd pair: y' L' U2 L U' L' U L}y' L' U2 L U' L' U L.{4th pair: d U R' U' R U R' U' R}d U R' U' R U R' U' R.{OLL(CP): U' R U2' R' R' F R F' R U2' R'}U' R U2' R' R' F R F' R U2' R'." width="600px" height="400px" />
 
 **4.22 second solve by Feliks Zemdegs**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -359,7 +359,7 @@ Ten months later, on September 2, 2017, Patrick Ponce achieved a world record of
 
 ## 3.47 (Yusheng Du)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2&move={Scramble: F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2}{Inspection: y x'}y x'.{Xcross: U R2 U' F' L F' L'}U R2 U' F' L F' L'.{2nd pair: L U' L'}L U' L'.{3rd pair: U' R U R'}U' R U R'.{4th pair: R' U R U' U' R' U R}R' U R U' U' R' U R.{OLL(CP): U R' U' R U' R' U2 R}U R' U' R U' R' U2 R.{AUF: U}U." width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2&move={Scramble: F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2}{Inspection: y x'}y x'.{Xcross: U R2 U' F' L F' L'}U R2 U' F' L F' L'.{2nd pair: L U' L'}L U' L'.{3rd pair: U' R U R'}U' R U R'.{4th pair: R' U R U' U' R' U R}R' U R U' U' R' U R.{OLL(CP): U R' U' R U' R' U2 R}U R' U' R U' R' U2 R U." width="600px" height="400px" />
 
 **3.47 second solve by Yusheng Du**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
