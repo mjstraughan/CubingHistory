@@ -10,10 +10,11 @@ import AnimCube from "@site/src/components/AnimCube";
 
 <AnimCube params="config=../../ReconstructionConfig.txt&move={Scramble: U L2 D' B2 U' R2 B2 F2 D' F2 L2 R2 F R2 D L2 R2 B' L' D' R F'}{Inspection: x2 y}x2 y.{First layer corners and one edge: D' R u D R' y' D' R D R'}D' R u D R' y' D' R D R'.{First layer center and second edge: y D r' E' L}y D r' E' L.{CLL: z2 U y l D R' z' R' x z' r' R2 U2 z D R2 D2}z2 U y l D R' z' R' x z' r' R2 U2 z D R2 D2.{First layer third edge: R' l' z M D2 M'}R' l' z M D2 M'.{Last layer first edge: z2 y R z' M z R'}z2 y R z' M z R'.{Last layer second edge: z' r' L' z D R' E R}z' r' L' z D R' E R.{Last layer third edge: U' u' R E' R'}U' u' R E' R'.{Last six edges: u R' E' R E2 R E R'}u R' E' R E2 R E R'.{Last four centers: R2 E E' r2 E M2 E'}R2 E E' r2 E M2 E'&initmove=U L2 D' B2 U' R2 B2 F2 D' F2 L2 R2 F R2 D L2 R2 B' L' D' R F'" width="600px" height="400px" />
 
+
 **22.95 second solve by Minh Thai**
-- **Method:** Corners First
-- **Cube:** Provided by the competition organizers
-- **Statistics:** 58 moves STM | 75 moves ETM | 22.95 seconds | 2.53 TPS (STM)
+| **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
+|------|------|----|-----|------|-----|------|
+| Corners First | Provided by competition | 22.95 | 58 | 2.53 | 75 | 3.27 |
 
 The first officially recognized competition is the Rubik's Cube World Championship held in 1982. Although there were many small and large competitions held before this one, the 1982 championship was likely chosen as the first official one due to the involvement and presence of many high profile names and organizers, such as Ernő Rubik and David Singmaster, the competition being highly organized and filmed, and its bringing together of competitors from around the world.
 
@@ -65,8 +66,9 @@ https://www.worldcubeassociation.org/competitions/CaltechWinter2004/results/all?
 <AnimCube params="config=../../ReconstructionConfig.txt&move={Scramble: B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2}{Inspection: z2 y'}z2 y'.{Cross: R F R U' R}R F R U' R.{First Pair: R' U2 R2 U R'}R' U2 R2 U R'.{Second Pair: d R U' R' U2 F' U' F}d R U' R' U2 F' U' F.{Third Pair: L' U' L2 U L'}L' U' L2 U L'.{Fourth Pair: U L' U L}U L' U L.{OLL: y2 F R U R' U' F'}y2 F R U R' U' F'.{PLL: U y R B' R F2 R' B R F2 R2}U y R B' R F2 R' B R F2 R2&initmove=B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2" width="600px" height="400px" />
 
 **12.11 second solve by Shotaro Makisumi**
-- **Method:** CFOP
-- **Statistics:** 43 moves STM | 47 moves ETM | 12.11 seconds | 3.55 TPS (STM)
+| **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
+|------|------|----|-----|------|-----|------|
+| CFOP | Unnknown | 12.11 | 43 | 3.55 | 47 | 3.88 |
 
 At Caltech Spring 2004, Makisumi set a record of 13.93 seconds during the first round. In the third round, Makisumi set yet another world record of 12.11 seconds.
 
@@ -77,7 +79,10 @@ At Caltech Spring 2004, Makisumi set a record of 13.93 seconds during the first 
 
 <AnimCube params="config=../../ReconstructionConfig.txt&initmove=D2 L D2 U2 F' U R2 B L R' B2 L F' L R D' U2&move={Scramble: D2 L D2 U2 F' U R2 B L R' B2 L F' L R D' U2}{Inspection: y2}y2.{Cross: r U x' U R' U R' z2 y' D2'}r U x' U R' U R' z2 y' D2'.{1st pair: U R' U' R2 U R'}U R' U' R2 U R'.{2nd pair: U' y' U' R U' R' U2 R U' R'}U' y' U' R U' R' U2 R U' R'.{3rd pair: U y R' U2 R U R' U' R}U y R' U2 R U R' U' R.{4th pair: U' y U' R' U R U' R' U' R}U' y U' R' U R U' R' U' R.{OLL: U' R' U' R' F R F' U R}U' R' U' R' F R F' U R.{PLL: R U R' U' R' F R2 U' R' U' R U R' F'}R U R' U' R' F R2 U' R' U' R U R' F'." width="600px" height="400px" />
 
-> 11.75 second solve by Jean Pons
+**11.75 second solve by Jean Pons**
+| **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
+|------|------|----|-----|------|-----|------|
+| CFOP | Unnknown | 11.75 | 62 | 5.28 | 69 | 5.87 |
 
 From October 2005 to February 2007, the world record single was reduced to 10.36. The starting point was the first sub-12 single at 11.75 accomplished by Jean Pons. This was followed by an 11.13 by Leyan Lo, a 10.48 by Toby Mao, and a 10.36 by Edouard Chambon.
 
