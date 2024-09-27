@@ -137,7 +137,7 @@ On May 5 2007, the first ever sub-10 world record single solve was set by Thibau
 **8.72 second solve by Yu Nakajima**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
 |------|------|----|-----|------|-----|------|
-| CFOP | Unknown | 8.72 | 48 | 5.50 | 53 | 6.08 |
+| CFOP | Rubik's DIY | 8.72 | 48 | 5.50 | 53 | 6.08 |
 
 The world record was further reduced to 8.87 seconds from October 2007 to May 2008. This started with a 9.77 from Erik Akkersdijk and was followed by a 9.55 by Ron van Bruchem, a 9.18 by Edouard Chambon, and two 8.72 solves by Yu Nakajima at a single competition in the final two rounds.
 
@@ -168,9 +168,12 @@ The world record was further reduced to 8.87 seconds from October 2007 to May 20
 
 ## 7.08 (Erik Akkersdijk)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&move=y'xU'R2x'UR'u.U'RU'R'.U'y'RU2R'U'RUR'.L'UL2U'L'.UL'U2LU'L'ULU'.U'FRUR'U'RUR'U'F'U2&initmove=D' R2 D L2 B2 L2 D' R2 F' L2 R' F D F' D' L' U2 F' R" width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D' R2 D L2 B2 L2 D' R2 F' L2 R' F D F' D' L' U2 F' R&move={Scramble: D' R2 D L2 B2 L2 D' R2 F' L2 R' F D F' D' L' U2 F' R}{Cross: y' x U' R2 x' U R' u}y' x U' R2 x' U R' u.{1st pair: U' R U' R'}U' R U' R'.{2nd pair: U' y' R U2 R' U' R U R'}U' y' R U2 R' U' R U R'.{3rd pair: L' U L2 U' L'}L' U L2 U' L'.{4th pair: U L' U2 L U' L' U L U'}U L' U2 L U' L' U L U'.{OLL: U' F R U R' U' R U R' U' F' U2}U' F R U R' U' R U R' U' F' U2." width="600px" height="400px" />
 
-> 7.08 second solve by Erik Akkersdijk
+**7.08 second solve by Erik Akkersdijk**
+| **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
+|------|------|----|-----|------|-----|------|
+| CFOP | Rubik's DIY Core, Type B Cubies | 7.08 | 43 | 6.07 | 47 | 6.64 |
 
 On July 12, 2008, Erik Akkersdijk set a world record of 7.08 seconds. This is one of the most famous world records due to the large solve time drop compared to the previous world record.
 
