@@ -2,7 +2,7 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 # CCLL
 
-<AnimCube2x2 params="config=../../InteractConfig.txt&move={CCLL: F R U R' U' F'}F R U R' U' F'.{Undo Pseudo: R' U'}R' U'" width="400px" height="400px" />
+<AnimCube2x2 params="config=../../InteractConfig.txt&move={CCLL: F R U R' U' F'}F R U R' U' F'.{Undo Pseudo: R' U'}R' U'" width="600px" height="400px" />
 
 ## Description
 

@@ -2,7 +2,7 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 # CLL
 
-<AnimCube2x2 params="position=lluuu&scale=6&hint=10&hintborder=1&move=RUR'URU2R'U2&initrevmove=#&facelets=yyyywwwwbbbbggggoooorrrr" width="400px" height="400px" />
+<AnimCube2x2 params="config=../../InteractConfig.txt&move={CLL: R U R' U R U2 R' U2}R U R' U R U2 R' U2" width="600px" height="400px" />
 
 ## Description
 

@@ -2,7 +2,7 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 # RoFL
 
-<AnimCube2x2 params="position=lluuu&scale=6&hint=10&hintborder=1&move=FU'RUR'&initrevmove=#&facelets=yyyywwwwbbbbggggoooorrrr" width="400px" height="400px" />
+<AnimCube2x2 params="config=../../InteractConfig.txt&move={Solve both layers: F U' R U R'}F U' R U R'" width="600px" height="400px" />
 
 ## Description
 

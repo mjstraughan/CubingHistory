@@ -2,7 +2,7 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 # Guimond
 
-<AnimCube2x2 params="position=lluuu&scale=6&hint=10&hintborder=1&move=RU'R'.UR2U'R2.R'FR'F2RU'R&initrevmove=#&facelets=yyyywwwwbbbbggggoooorrrr" width="400px" height="400px" />
+<AnimCube2x2 params="config=../../InteractConfig.txt&move={Orient both layers: R U' R'}R U' R'.{Separate both layers: U R2 U' R2}U R2 U' R2.{Permute both layers: R' F R' F2 R U' R}R' F R' F2 R U' R" width="600px" height="400px" />
 
 ## Description
 

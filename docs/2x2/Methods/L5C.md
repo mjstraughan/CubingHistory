@@ -2,7 +2,7 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 # L5C
 
-<AnimCube2x2 params="position=lluuu&scale=6&hint=10&hintborder=1&move=RU'R2FRF'U2RU'R'&initrevmove=#&facelets=yyyywwwwbbbbggggoooorrrr" width="400px" height="400px" />
+<AnimCube2x2 params="config=../../InteractConfig.txt&move={Last five corners: R U' R2 F R F' U2 R U' R'}R U' R2 F R F' U2 R U' R'" width="600px" height="400px" />
 
 ## Description
 

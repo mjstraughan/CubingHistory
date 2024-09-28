@@ -2,7 +2,7 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 # NMCLL
 
-<AnimCube2x2 params="position=lluuu&scale=6&hint=10&hintborder=1&move=RUR'URU2R'.U'R'&initrevmove=#&facelets=yyyywwwwbbbbggggoooorrrr" width="400px" height="400px" />
+<AnimCube2x2 params="config=../../InteractConfig.txt&move={Solve last layer corners: R U R' U R U2 R'}R U R' U R U2 R'.{Undo pseudo: U' R'}U' R'" width="600px" height="400px" />
 
 ## Description
 
