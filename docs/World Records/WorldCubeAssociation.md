@@ -12,7 +12,9 @@ Several competitions were held during the early years of the cube, with each hav
 
 ## Association Proposal
 
-In January 2003, Ron van Bruchem proposed the idea of an official association that defines the official regulations [1]. Bruchem’s name suggestion was “World SpeedCubing Association”. This proposal spawned several discussions [2]. After a few months, the discussions went quiet.
+In January 2003, Ron van Bruchem proposed the idea of an association that defines official regulations [1]. At the time, the community relied upon Guinness to be the certifier of world records. Many disagreed with the conditions set by Guiness and so the goal became to create a dedicated organization separate from Guinness World Records. This would be an organization that defines standards agreed upon by the community and certifies records that follow those standards.
+
+Bruchem’s name suggestion was “World SpeedCubing Association”. This proposal spawned several discussions [2]. After a few months, the discussions went quiet.
 
 > According to Bruchem, this was the second time he had made the proposal. However, the previous message may have been part of the series of deleted messages from when Yahoo! purchased the mailing group website.
 
