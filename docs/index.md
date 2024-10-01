@@ -53,18 +53,19 @@ Since I joined the community, I have always been interested in method developmen
 
 ## Credit
 
-Thanks to crystalcuber for assisting with numerous things to get the site looking the way it does:
-- Recommended Docusaurus for the site.
-- Helped fix problems during the setup process.
-- Set up AnimCubeJS on the site to allow cube applets to be used.
-- Got archive html links working. This allowed for linking to html pages of old websites that are now stored here.
+- Thanks to crystalcuber for assisting with numerous things to get the site looking the way it does:
 
-Georges Helm was kind enough to look through the books that he owns and confirm my suspicions and provide me details. Helm sent me a lot of information and hand written descriptions of the steps within numerous books. Some of this information changed the history that was previously thought, especially as it relates to Layer By Layer and CFOP.
+  - Recommended Docusaurus for the site.
+  - Helped fix problems during the setup process.
+  - Set up AnimCubeJS on the site to allow cube applets to be used.
+  - Got archive html links working. This allowed for linking to html pages of old websites that are now stored here.
 
-Michael Feather provided assistance ensuring proper functionality of AnimCubeJS.
+- Georges Helm: Has been kind enough to look through the books that he owns and confirm my suspicions and provide me details. Helm sent me a lot of information and hand written descriptions of the steps within numerous books. Some of this information changed the history that was previously thought, especially as it relates to Layer By Layer and CFOP.
 
-bcube provided ideas to take full advantage of AnimCube JS features.
+- Ron van Bruchem: Has been very helpful in providing information about early method development and locating information in the books that he owns.
 
-Ron van Bruchem also provided some information about early method development.
+- Michael Feather: Provided assistance ensuring proper functionality of AnimCubeJS.
 
-Others have been very willing to explain the origin of their own developments. Each person is credited on the site in the area in which they provided help.
+- bcube: Provided ideas to take full advantage of AnimCube JS features.
+
+- Others have been very willing to explain the origin of their own developments. Each person is credited on the site in the area in which they provided help.
