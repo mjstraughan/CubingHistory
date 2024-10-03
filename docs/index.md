@@ -57,7 +57,7 @@ Since I joined the community, I have always been interested in method developmen
 
   - Recommended Docusaurus for the site.
   - Helped fix problems during the setup process.
-  - Set up AnimCubeJS on the site to allow cube applets to be used.
+  - Set up AnimCubeJS and Twisty Player on the site to allow cube applets to be used.
   - Got archive html links working. This allowed for linking to html pages of old websites that are now stored here.
 
 - Georges Helm: Has been kind enough to look through the books that he owns and confirm my suspicions and provide me details. Helm sent me a lot of information and hand written descriptions of the steps within numerous books. Some of this information changed the history that was previously thought, especially as it relates to Layer By Layer and CFOP.
