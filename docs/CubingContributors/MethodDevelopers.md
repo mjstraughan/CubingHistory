@@ -404,8 +404,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - Block referencing for the standard notation
 - Transformation
 - LEG-1 and Non-Matching LEG-1
-- Non-Matching CLL (2x2)
-- Non-Matching EG
+- Non-Matching CLL, EG, and LEG-1
 - Conjugated CLL (2x2)
 - Non-matching corner recognition - NMCMLL / ATCRM
 - Transformed corner recognition (CCMLL) - ATCRM
@@ -414,11 +413,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - DFDB recognition for the Roux method
 - Algorithm Unions
 - L7E iterative EO and method
-- A2 method
 - ACMLL for the Roux method
 - AOLL and ACLL for the CFOP and CFCE methods
 - NMLL
-- Slice Derived EO (any axis edge orientation determination system for methods such as ZZ)
+- Slice Derived EO
 - Rubik's Snake notation (in collaboration with Johannes Laire)
 
 ## Taylor, Donald
