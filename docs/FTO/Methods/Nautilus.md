@@ -4,7 +4,7 @@ import TwistyPlayer from "@site/src/components/TwistyPlayer";
 
 <TwistyPlayer
  puzzle="fto"
- experimentalStickeringMaskOrbits="C4RNER:-III-I,CENTERS:-----III--III-----I-IIII,EDGES:------I-I--I"
+ experimentalStickeringMaskOrbits="C4RNER:-III-I,CENTERS:-----III--III-----I--I--,EDGES:------------"
  controlPanel="none"
 />
 
