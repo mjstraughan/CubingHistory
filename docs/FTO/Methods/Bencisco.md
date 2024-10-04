@@ -44,6 +44,7 @@ In September of 2019, Streeter officially revealed the steps of the method to th
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
 </div>
+
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/dOx2mqe6cTw"
@@ -51,7 +52,9 @@ In September of 2019, Streeter officially revealed the steps of the method to th
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
 </div>
+
 ![](img/Bencisco/Streeter1.png)
+
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe loading="lazy" width="100%" height="100%"
     src="https://www.youtube.com/embed/tYeV8LvqVDY"
@@ -62,7 +65,7 @@ In September of 2019, Streeter officially revealed the steps of the method to th
 
 ## Name Origin
 
-The Bencisco method is a portmanteau of Streeter’s first name and the name of the 3x3 method Triangular Francisco. The Triangular Francisco name has spun off into a couple of other varieties, including Quadrangular Francisco and Hexagonal Francisco. In May 2024, Streeter stated that while streaming solves on Twitch, a chat member suggested to name the method Octagonal Francisco, combining the FTO’s shape with the running Francisco name. Then another person took the idea further to create the portmanteau Bencisco.
+The Bencisco method is a portmanteau of Streeter’s first name and the name of the 3x3 method Triangular Francisco. The Triangular Francisco name has spun off into a couple of other varieties, including Quadrangular Francisco and Hexagonal Francisco. In May 2024, Streeter stated that while streaming solves on Twitch, a chat member suggested to name the method Octagonal Francisco, combining the FTO’s shape with the running Francisco name. Then another person took the idea further to create the portmanteau Bencisco [7].
 
 ![](img/Bencisco/NameOrigin.png)
 
@@ -79,3 +82,5 @@ The Bencisco method is a portmanteau of Streeter’s first name and the name of 
 [5] B. Streeter, "My Face-Turning Octahedron (FTO) Solution," TwistyPuzzles.com, 8 September 2019. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=392974.
 
 [6] B. Streeter, "How to Solve an FTO (Bencisco Method)," YouTube, 2 February 2020. [Online]. Available: https://www.youtube.com/watch?v=tYeV8LvqVDY.
+
+[7] B. Streeter, Discord, 10 May 2024. [Online]. Available: https://discord.com/channels/737435949381976147/737442120683618345/1238676079053504543.
