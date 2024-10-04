@@ -36,7 +36,8 @@ After considering the best way to adapt Nautilus to the FTO, the initial steps b
 ![](img/Nautilus/Straughan2.png)
 
 After discussion and further development of the method, it was decided to narrow down the steps to their current form [3].
-![](img/Nautilus /Straughan3.png)
+
+![](img/Nautilus/Straughan3.png)
 
 ### Last Layer
 
