@@ -210,6 +210,12 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 - HLS
 
+## Highducheck, Liam
+
+- HOPE parity avoidance technique
+- Nautilus for FTO (with Michael James Straughan and Vincent Trang)
+- APB development assistance
+
 ## Hudgens, Ryan (OreKehStrah)
 
 - PCS+1 for Square-1
@@ -397,8 +403,8 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - Nautilus method
 - MI1 method
 - MI2 method
-- Nautilus for FTO
-- Nautilus for big cubes
+- Nautilus method for FTO
+- Nautilus method for big cubes
 - EOLR for the Roux method
 - Straughan recognition
 - Block referencing for the standard notation
@@ -418,6 +424,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - NMLL
 - Slice Derived EO
 - Rubik's Snake notation (in collaboration with Johannes Laire)
+
+## Streeter, Ben
+
+- Bencisco method for FTO
 
 ## Taylor, Donald
 
@@ -457,6 +467,8 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - TDR variant for the Mehta method
 - CDRLL variant for the Mehta method
 - Movecount Coefficient Calculator
+- Nautilus for FTO (with Michael James Straughan and Liam Highducheck)
+- APB development assistance
 
 ## Treep, Anneke
 
