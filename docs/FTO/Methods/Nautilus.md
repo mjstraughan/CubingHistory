@@ -4,8 +4,8 @@ import TwistyPlayer from "@site/src/components/TwistyPlayer";
 
 <TwistyPlayer
  puzzle="fto"
- alg="R U' F r U' R' U r' F' R U R'"
- control-panel="none"
+ experimentalStickeringMaskOrbits="C4RNER:-III-I,CENTERS:-----III--III-----I-IIII,EDGES:------I-I--I"
+ controlPanel="none"
 />
 
 ## Description
