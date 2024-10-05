@@ -410,7 +410,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - Block referencing for the standard notation
 - Transformation
 - LEG-1 and Non-Matching LEG-1
-- Non-Matching CLL, EG, and LEG-1
+- Non-Matching CLL and EG
 - Conjugated CLL (2x2)
 - Non-matching corner recognition - NMCMLL / ATCRM
 - Transformed corner recognition (CCMLL) - ATCRM
