@@ -19,7 +19,7 @@ The first officially recognized competition is the Rubik's Cube World Championsh
 
 The competition was held on June 5, 1982 in Budapest, Hungary. Competitors from various countries were chosen to participate. In order to qualify, a competitor must have been able to solve the cube in under one minute [1].
 
-The competition featured three rounds with each competitor solving the cube once each round. The best time of the competition was 22.95, achieved by Minh Thai in the second round. This resulted in Minh Thai winning the competition and setting the first ever official world record. The competitors all used varying solving methods, with Minh Thai using Corners First to win the competition [2]. A couple of months before the championship, in April of 1982, Minh Thai published the method that he uses in a book called *The Winning Solution*. The book was titled such due to Minh Thai having won the U.S. National Rubik's Cube-A-Thon.
+The competition featured three rounds with each competitor solving the cube once each round. The best time of the competition was 22.95, achieved by Minh Thai in the second round. This resulted in Minh Thai winning the competition and setting the first ever official world record. The competitors all used varying solving methods, with Minh Thai using Corners First to win the competition [2]. A couple of months before the championship, in April of 1982, Minh Thai published the method that he uses in a book called _The Winning Solution_. The book was titled such due to Minh Thai having won the U.S. National Rubik's Cube-A-Thon.
 
 Today, Minh Thai’s 22.95 solve time is considered the first ever official world record because it was performed in the first competition to be officially recognized by the WCA. Lower record solve times were achieved in the early 1980s, such as a 17.04 second solve by Robert Pergl in the 1983 Czechoslovakian Championship [3]. However, these other solves aren’t considered by the WCA to be official.
 
@@ -76,7 +76,7 @@ At Caltech Spring 2004, Makisumi set a record of 13.93 seconds during the first 
 
 ## 11.75 to 10.36
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D2 L D2 U2 F' U R2 B L R' B2 L F' L R D' U2&move={Scramble: D2 L D2 U2 F' U R2 B L R' B2 L F' L R D' U2}{Inspection: y2}y2.{Cross: r U x' U R' U R' z2 y' D2'}r U x' U R' U R' z2 y' D2'.{1st pair: U R' U' R2 U R'}U R' U' R2 U R'.{2nd pair: U' y' U' R U' R' U2 R U' R'}U' y' U' R U' R' U2 R U' R'.{3rd pair: U y R' U2 R U R' U' R}U y R' U2 R U R' U' R.{4th pair: U' y U' R' U R U' R' U' R}U' y U' R' U R U' R' U' R.{OLL: U' R' U' R' F R F' U R}U' R' U' R' F R F' U R.{PLL: R U R' U' R' F R2 U' R' U' R U R' F'}R U R' U' R' F R2 U' R' U' R U R' F'." width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D2 L D2 U2 F' U R2 B L R' B2 L F' L R D' U2&move={Scramble: D2 L D2 U2 F' U R2 B L R' B2 L F' L R D' U2}{Inspection: y2}y2.{Cross: r U x' U R' U R' z2 y' D2'}r U x' U R' U R' z2 y' D2'.{1st pair: U R' U' R2 U R'}U R' U' R2 U R'.{2nd pair: U' y' U' R U' R' U2 R U' R'}U' y' U' R U' R' U2 R U' R'.{3rd pair: U y R' U2 R U R' U' R}U y R' U2 R U R' U' R.{4th pair: U' y U' R' U R U' R' U' R}U' y U' R' U R U' R' U' R.{OLL: U' R' U' R' F R F' U R}U' R' U' R' F R F' U R.{PLL: R U R' U' R' F R2 U' R' U' R U R' F'}R U R' U' R' F R2 U' R' U' R U R' F'" width="600px" height="400px" />
 
 **11.75 second solve by Jean Pons**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -85,7 +85,7 @@ At Caltech Spring 2004, Makisumi set a record of 13.93 seconds during the first 
 
 From October 2005 to February 2007, the world record single was reduced to 10.36. The starting point was the first sub-12 single at 11.75 accomplished by Jean Pons. This was followed by an 11.13 by Leyan Lo, a 10.48 by Toby Mao, and a 10.36 by Edouard Chambon.
 
- ![](img/WRSingles2H/11.75to10.36.png)
+![](img/WRSingles2H/11.75to10.36.png)
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe loading="lazy" width="100%" height="100%"
@@ -131,7 +131,7 @@ On May 5 2007, the first ever sub-10 world record single solve was set by Thibau
 
 ## 9.77 to 8.72
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=R' F' L' F U' D2 R D' L' U2 B2 D' F2 L' U' F' B2 L2&move={Scramble: R' F' L' F U' D2 R D' L' U2 B2 D' F2 L' U' F' B2 L2}{Cross: u' R' F l' L D2 x' u'}u' R' F l' L D2 x' u'.{1st pair: y U' R U R' d' R' U' R}y U' R U R' d' R' U' R.{2nd pair: y U' R' U' R U' R' U R}y U' R' U' R U' R' U R.{3rd pair: y' U R U' R' U' L' U' L}y' U R U' R' U' L' U' L.{4th pair: U' d' L' U L}U' d' L' U L.{PLL: U y R2 U R U R' U' R' U' R' U R'}U y R2 U R U R' U' R' U' R' U R'." width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=R' F' L' F U' D2 R D' L' U2 B2 D' F2 L' U' F' B2 L2&move={Scramble: R' F' L' F U' D2 R D' L' U2 B2 D' F2 L' U' F' B2 L2}{Cross: u' R' F l' L D2 x' u'}u' R' F l' L D2 x' u'.{1st pair: y U' R U R' d' R' U' R}y U' R U R' d' R' U' R.{2nd pair: y U' R' U' R U' R' U R}y U' R' U' R U' R' U R.{3rd pair: y' U R U' R' U' L' U' L}y' U R U' R' U' L' U' L.{4th pair: U' d' L' U L}U' d' L' U L.{PLL: U y R2 U R U R' U' R' U' R' U R'}U y R2 U R U R' U' R' U' R' U R'" width="600px" height="400px" />
 
 **8.72 second solve by Yu Nakajima**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -147,7 +147,6 @@ The world record was further reduced to 8.87 seconds from October 2007 to May 20
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
 </div>
-
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe loading="lazy" width="100%" height="100%"
@@ -167,7 +166,7 @@ The world record was further reduced to 8.87 seconds from October 2007 to May 20
 
 ## 7.08 (Erik Akkersdijk)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D' R2 D L2 B2 L2 D' R2 F' L2 R' F D F' D' L' U2 F' R&move={Scramble: D' R2 D L2 B2 L2 D' R2 F' L2 R' F D F' D' L' U2 F' R}{Cross: y' x U' R2 x' U R' u}y' x U' R2 x' U R' u.{1st pair: U' R U' R'}U' R U' R'.{2nd pair: U' y' R U2 R' U' R U R'}U' y' R U2 R' U' R U R'.{3rd pair: L' U L2 U' L'}L' U L2 U' L'.{4th pair: U L' U2 L U' L' U L U'}U L' U2 L U' L' U L U'.{OLL: U' F R U R' U' R U R' U' F' U2}U' F R U R' U' R U R' U' F' U2." width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D' R2 D L2 B2 L2 D' R2 F' L2 R' F D F' D' L' U2 F' R&move={Scramble: D' R2 D L2 B2 L2 D' R2 F' L2 R' F D F' D' L' U2 F' R}{Cross: y' x U' R2 x' U R' u}y' x U' R2 x' U R' u.{1st pair: U' R U' R'}U' R U' R'.{2nd pair: U' y' R U2 R' U' R U R'}U' y' R U2 R' U' R U R'.{3rd pair: L' U L2 U' L'}L' U L2 U' L'.{4th pair: U L' U2 L U' L' U L U'}U L' U2 L U' L' U L U'.{OLL: U' F R U R' U' R U R' U' F' U2}U' F R U R' U' R U R' U' F' U2" width="600px" height="400px" />
 
 **7.08 second solve by Erik Akkersdijk**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -186,7 +185,7 @@ On July 12, 2008, Erik Akkersdijk set a world record of 7.08 seconds. This is on
 
 ## 7.03 to 5.66 (Feliks Zemdegs)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D2 L2 D2 R2 B' R2 F2 L2 U2 F' R2 U B D U' L' U F' U2 L2 F'&move={Scramble: D2 L2 D2 R2 B' R2 F2 L2 U2 F' R2 U B D U' L' U F' U2 L2 F'}{Inspection: y'}y'.{Xcross: R U' R U y' R' U R D}R U' R U y' R' U R D.{2nd pair: U' y' R' U R U' R' U' R}U' y' R' U R U' R' U' R.{3rd pair: R U R' U2 R U' R'}R U R' U2 R U' R'.{4th pair: L' U L U r' F' r}L' U L U r' F' r.{OLL: U' R' U' F U R U' R' F' R}U' R' U' F U R U' R' F' R.{PLL: R' U R' U' R' U' R' U R U R2 U}R' U R' U' R' U' R' U R U R2 U." width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D2 L2 D2 R2 B' R2 F2 L2 U2 F' R2 U B D U' L' U F' U2 L2 F'&move={Scramble: D2 L2 D2 R2 B' R2 F2 L2 U2 F' R2 U B D U' L' U F' U2 L2 F'}{Inspection: y'}y'.{Xcross: R U' R U y' R' U R D}R U' R U y' R' U R D.{2nd pair: U' y' R' U R U' R' U' R}U' y' R' U R U' R' U' R.{3rd pair: R U R' U2 R U' R'}R U R' U2 R U' R'.{4th pair: L' U L U r' F' r}L' U L U r' F' r.{OLL: U' R' U' F U R U' R' F' R}U' R' U' F U R U' R' F' R.{PLL: R' U R' U' R' U' R' U R U R2 U}R' U R' U' R' U' R' U R U R2 U" width="600px" height="400px" />
 
 **5.66 second solve by Feliks Zemdegs**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -259,7 +258,7 @@ Interestingly, when the 7.08 world record was set, Zemdegs commented that he did
 
 ## 5.55 (Mats Valk) and 5.25 (Collin Burns)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=U2 R2 U B2 L2 R2 U2 F2 U' F R2 B2 R2 U' L' D2 U' R F2 L2&move={Scramble: U2 R2 U B2 L2 R2 U2 F2 U' F R2 B2 R2 U' L' D2 U' R F2 L2}{Inspection: x2}x2.{Cross: F' R D L' D2'}F' R D L' D2'.{1st pair: R U' R' U' L' U' L}R U' R' U' L' U' L.{2nd pair: U L U' L'}U L U' L'.{3rd pair: R' U' U' R U' U' R' U R}R' U' U' R U' U' R' U R.{4th pair: U' R U R'}U' R U R'.{OLL(CP): U' U R' F R U R U' R2 F' R2 U' R' U R U R'}U' U R' F R U R U' R2 F' R2 U' R' U R U R'." width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=U2 R2 U B2 L2 R2 U2 F2 U' F R2 B2 R2 U' L' D2 U' R F2 L2&move={Scramble: U2 R2 U B2 L2 R2 U2 F2 U' F R2 B2 R2 U' L' D2 U' R F2 L2}{Inspection: x2}x2.{Cross: F' R D L' D2'}F' R D L' D2'.{1st pair: R U' R' U' L' U' L}R U' R' U' L' U' L.{2nd pair: U L U' L'}U L U' L'.{3rd pair: R' U' U' R U' U' R' U R}R' U' U' R U' U' R' U R.{4th pair: U' R U R'}U' R U R'.{OLL(CP): U' U R' F R U R U' R2 F' R2 U' R' U R U R'}U' U R' F R U R U' R2 F' R2 U' R' U R U R'" width="600px" height="400px" />
 
 **5.25 second solve by Collin Burns**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -286,7 +285,7 @@ The 5.66 world record from Zemdegs stood for almost two years before being broke
 
 ## 4.90 (Lucas Etter)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=R2 B D2 F2 U2 R D2 L' B L' B D R' F' U B2 F L&move={Scramble: R2 B D2 F2 U2 R D2 L' B L' B D R' F' U B2 F L}{Inspection: z2}z2.{Cross: D' L' R' F R D2'}D' L' R' F R D2'.{1st pair: U2 L' U' L}U2 L' U' L.{2nd pair: U' U' U' F' U' F U R U' R'}U' U' U' F' U' F U R U' R'.{3rd pair: y R U R'}y R U R'.{4th pair: U' y U' U' R U R'}U' y U' U' R U R'.{OLL(CP): U r U r' R U R' U' r U' r'}U r U r' R U R' U' r U' r'." width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=R2 B D2 F2 U2 R D2 L' B L' B D R' F' U B2 F L&move={Scramble: R2 B D2 F2 U2 R D2 L' B L' B D R' F' U B2 F L}{Inspection: z2}z2.{Cross: D' L' R' F R D2'}D' L' R' F R D2'.{1st pair: U2 L' U' L}U2 L' U' L.{2nd pair: U' U' U' F' U' F U R U' R'}U' U' U' F' U' F U R U' R'.{3rd pair: y R U R'}y R U R'.{4th pair: U' y U' U' R U R'}U' y U' U' R U R'.{OLL(CP): U r U r' R U R' U' r U' r'}U r U r' R U R' U' r U' r'" width="600px" height="400px" />
 
 **4.90 second solve by Lucas Etter**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -305,7 +304,7 @@ On November 21, 2015, the first ever sub-5 second official solve was achieved. T
 
 ## 4.73 to 4.22
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=R2 L' F2 D2 F' D L2 B' D L U B2 U B2 D2 L2 D' F2 D&move={Scramble: R2 L' F2 D2 F' D L2 B' D L U B2 U B2 D2 L2 D' F2 D}{Xcross: F' R' D' R y R U' R' u'}F' R' D' R y R U' R' u'.{2nd pair: U' R U R'}U' R U R'.{3rd pair: y' L' U2 L U' L' U L}y' L' U2 L U' L' U L.{4th pair: d U R' U' R U R' U' R}d U R' U' R U R' U' R.{OLL(CP): U' R U2' R' R' F R F' R U2' R'}U' R U2' R' R' F R F' R U2' R'." width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=R2 L' F2 D2 F' D L2 B' D L U B2 U B2 D2 L2 D' F2 D&move={Scramble: R2 L' F2 D2 F' D L2 B' D L U B2 U B2 D2 L2 D' F2 D}{Xcross: F' R' D' R y R U' R' u'}F' R' D' R y R U' R' u'.{2nd pair: U' R U R'}U' R U R'.{3rd pair: y' L' U2 L U' L' U L}y' L' U2 L U' L' U L.{4th pair: d U R' U' R U R' U' R}d U R' U' R U R' U' R.{OLL(CP): U' R U2' R' R' F R F' R U2' R'}U' R U2' R' R' F R F' R U2' R'" width="600px" height="400px" />
 
 **4.22 second solve by Feliks Zemdegs**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -358,7 +357,7 @@ Ten months later, on September 2, 2017, Patrick Ponce achieved a world record of
 
 ## 3.47 (Yusheng Du)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2&move={Scramble: F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2}{Inspection: y x'}y x'.{Xcross: U R2 U' F' L F' L'}U R2 U' F' L F' L'.{2nd pair: L U' L'}L U' L'.{3rd pair: U' R U R'}U' R U R'.{4th pair: R' U R U' U' R' U R}R' U R U' U' R' U R.{OLL(CP): U R' U' R U' R' U2 R}U R' U' R U' R' U2 R U." width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2&move={Scramble: F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2}{Inspection: y x'}y x'.{Xcross: U R2 U' F' L F' L'}U R2 U' F' L F' L'.{2nd pair: L U' L'}L U' L'.{3rd pair: U' R U R'}U' R U R'.{4th pair: R' U R U' U' R' U R}R' U R U' U' R' U R.{OLL(CP): U R' U' R U' R' U2 R}U R' U' R U' R' U2 R U" width="600px" height="400px" />
 
 **3.47 second solve by Yusheng Du**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -381,7 +380,7 @@ The solve was also the subject of some controversy. Yusheng Du’s averages at t
 
 ## 3.13 (Max Park)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D U F2' L2 U' B2 F2 D L2 U R' F' D R' F' U L D' F' D R2&move={Scramble: D U F2' L2 U' B2 F2 D L2 U R' F' D R' F' U L D' F' D R2}{Inspection: x2}x2.{Xxcross: R' D D R' D L' U L D R' U' R D}R' D D R' D L' U L D R' U' R D.{3rd pair: L U' L'}L U' L'.{4th pair: U' R U R' d R' U' R}U' R U R' d R' U' R.{OLL(CP): r' U' R U' R' U U r U}r' U' R U' R' U U r U." width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D U F2' L2 U' B2 F2 D L2 U R' F' D R' F' U L D' F' D R2&move={Scramble: D U F2' L2 U' B2 F2 D L2 U R' F' D R' F' U L D' F' D R2}{Inspection: x2}x2.{Xxcross: R' D D R' D L' U L D R' U' R D}R' D D R' D L' U L D R' U' R D.{3rd pair: L U' L'}L U' L'.{4th pair: U' R U R' d R' U' R}U' R U R' d R' U' R.{OLL(CP): r' U' R U' R' U U r U}r' U' R U' R' U U r U" width="600px" height="400px" />
 
 **3.13 second solve by Max Park**
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -412,7 +411,7 @@ https://www.reddit.com/r/Cubers/comments/i9gez/566_single_wr_feliks_zemdegs/
 
 ## References
 
-[1] "Rubikmania: Lots of New Twists," Newsweek, vol. 19, p. April, 1982. 
+[1] "Rubikmania: Lots of New Twists," Newsweek, vol. 19, p. April, 1982.
 
 [2] M. Thai, "Issue 1," Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p4.
 
