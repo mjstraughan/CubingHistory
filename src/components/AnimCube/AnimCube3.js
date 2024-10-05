@@ -3,6 +3,7 @@
  * Conversion to JavaScript by Michael Feather
  * 2024/03/25: Added ES6 module export (by crystalcuber)
  */
+
 "use strict";
 
 export default function AnimCube3(params) {
@@ -2169,7 +2170,10 @@ export default function AnimCube3(params) {
                 (natural = !0),
                 twistLayers(cube, i, o, a),
                 (spinning = !1),
-                moveAnimated && paint(),
+                moveAnimated &&
+                  (!moveOne && g > 0 && movePos++,
+                  paint(),
+                  !moveOne && g > 0 && movePos--),
                 moveOne && (u = !0)),
               g > 0
                 ? (++movePos < t.length &&
