@@ -1,8 +1,11 @@
 import AnimCube from "@site/src/components/AnimCube";
+import AnimCubeDemo from "@site/src/components/AnimCubeDemo";
 
 # Roux
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ydydydydywwwdwdwwwbbbdbdbbbgggdgdgggodooooooorrrdrrrrr" width="400px" height="400px" />
+<AnimCubeDemo params="config=../../ExhibitConfig.txt"
+facelets="dddddddddwwwdddddddbbdddddddddddddggdddooooooddddrdddd,dddddddddwwwdddwwwdbbddddbbdggddddggdddoooooodrrdrrdrr,ydydddydywwwdddwwwbbbdddbbbgggdddgggodooooooorrrdrrrrr,yyyyyyyyywwwwwwwwwbbbbbbbbbgggggggggooooooooorrrrrrrrr"
+width="400px" height="400px"/>
 
 ## Description
 
@@ -33,7 +36,7 @@ Roux had realized that the process of building the first two layers in CFOP had 
 
 ![](img/Roux/Origin.png)
 
->This is from a private conversation between Roux and I.
+> This is from a private conversation between Roux and I.
 
 ### Proposal
 
@@ -161,8 +164,6 @@ The first known suggestion of the idea behind Pinkie Pie is by Rob Stuart in Oct
 ![](img/Roux/PinkiePie1.png)
 ![](img/Roux/PinkiePie2.png)
 
-
-
 ### ACMLL
 
 ACMLL was proposed by Straughan in April, 2020 then developed and presented in January, 2021 [35, 36, 37]. The concept is to solve the two 1x2x3 blocks in pseudo configurations then correct the blocks during the CMLL algorithm.
@@ -194,9 +195,9 @@ In July, 2022, Straughan developed a corner orientation prediction system [40, 4
 
 ## References
 
-[1] M. J. Straughan and G. Roux, "Origin of the Roux method," Personal communication, 24 August 2022. [Online]. 
+[1] M. J. Straughan and G. Roux, "Origin of the Roux method," Personal communication, 24 August 2022. [Online].
 
-[2] G. Roux, "Another method," Yahoo! Groups - Speed Solving Rubik's Cube, 12 August 2003. [Online]. 
+[2] G. Roux, "Another method," Yahoo! Groups - Speed Solving Rubik's Cube, 12 August 2003. [Online].
 
 [3] G. Roux, Roux Method Website, [Online]. Available: https://web.archive.org/web/20040227193924/http://grrroux.free.fr/method/Step_1.html.
 
@@ -212,15 +213,15 @@ In July, 2022, Straughan developed a corner orientation prediction system [40, 4
 
 [9] G. Roux, "Step 4," Roux Method Website, 2004. [Online]. Available: https://web.archive.org/web/20040906064311/http://grrroux.free.fr:80/method/Step_4.html.
 
-[10] G. Roux, ""LL" corners," Yahoo! Groups - Speed Solving Rubik's Cube, 6 December 2004. [Online]. 
+[10] G. Roux, ""LL" corners," Yahoo! Groups - Speed Solving Rubik's Cube, 6 December 2004. [Online].
 
 [11] G. Roux, "Step 3," Roux Method Website, 2004. [Online]. Available: https://web.archive.org/web/20041214140729/http://grrroux.free.fr:80/method/Step_3.html.
 
-[12] M. J. Straughan, "NMCMLL," Personal communication, 3 October 2006. [Online]. 
+[12] M. J. Straughan, "NMCMLL," Personal communication, 3 October 2006. [Online].
 
 [13] G. Roux, "Step 3," Roux Method Website, 2006. [Online]. Available: http://grrroux.free.fr/method/Step_3.html.
 
-[14] M. J. Straughan, "I found a new way to recognize NMCMLL," Personal communication, 26 April 2010. [Online]. 
+[14] M. J. Straughan, "I found a new way to recognize NMCMLL," Personal communication, 26 April 2010. [Online].
 
 [15] G. Roux, "Step 3," Roux Method Website, 2011. [Online]. Available: https://web.archive.org/web/20111204185452/http://grrroux.free.fr/method/Step_3.html.
 
