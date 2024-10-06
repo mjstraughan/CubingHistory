@@ -1,11 +1,8 @@
 import AnimCube from "@site/src/components/AnimCube";
-import AnimCubeDemo from "@site/src/components/AnimCubeDemo";
 
 # Roux
 
-<AnimCubeDemo params="config=../../ExhibitConfig.txt"
-facelets="dddddddddwwwdddddddbbdddddddddddddggdddooooooddddrdddd,dddddddddwwwdddwwwdbbddddbbdggddddggdddoooooodrrdrrdrr,ydydddydywwwdddwwwbbbdddbbbgggdddgggodooooooorrrdrrrrr,yyyyyyyyywwwwwwwwwbbbbbbbbbgggggggggooooooooorrrrrrrrr"
-width="400px" height="400px"/>
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ydydydydywwwdwdwwwbbbdbdbbbgggdgdgggodooooooorrrdrrrrr" width="400px" height="400px" />
 
 ## Description
 
