@@ -19,7 +19,7 @@ If you want to use information from this website, I would love to work with you.
 
 Below are some of the historical discoveries that have been uncovered while building Cubing History.
 
-- The origin of the F2L pair technique. Many thought that it was from Rene Schoof because he was credited in the September 1981 issue of Cubism For Fun. But there are several publications of the technique before then. The earliest known publication is by John Conway, David Benson, and David Seal in 1979 that included a complete table of every possible case. It also did PLL then OLL as the last layer method.
+- The origin of the F2L pair technique. Many thought that it was from René Schoof because he was credited in the September 1981 issue of Cubism For Fun. But there are several publications of the technique before then. The earliest known publication is by John Conway, David Benson, and David Seal in 1979 that included a complete table of every possible case. It also did PLL then OLL as the last layer method.
 - Cross and the Layer By Layer method wasn't first created by Singmaster as the community believes. Nor did Singmaster claim to have created them. He states in Notes on Rubik’s ‘Magic Cube’ that he had seen the method before and changed his method to his own version of that. The earliest known publication of the Layer By Layer method, starting with cross, is by Donald Taylor in 1978.
 - The standard notation isn’t all Singmaster. Only the U, D, L, R, F, B outer turn notation, the apostrophe for inverse, and the 2 for double turns are attributed to Singmaster. Rotations, wide turns, and other parts of the notation were created by other people.
 - The earliest known published Corners First and Edges First methods. One of the early Edges First methods was published by Zoltán Perjés, a relative of Ernő Rubik.
@@ -66,6 +66,6 @@ Since I joined the community, I have always been interested in method developmen
 
 - Michael Feather: Provided assistance ensuring proper functionality of AnimCubeJS.
 
-- bcube: Provided ideas to take full advantage of AnimCube JS features.
+- bcube: Provided ideas to take full advantage of AnimCubeJS features.
 
 - Others have been very willing to explain the origin of their own developments. Each person is credited on the site in the area in which they provided help.
