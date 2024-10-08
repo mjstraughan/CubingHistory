@@ -30,14 +30,10 @@ Singmaster’s _Notes on Rubik’s ‘Magic Cube’_ also introduced a notation 
 
 Throughout the years, many have questioned the direction that the M, E, and S notation follows. M moves the same direction as L, E with D, and S with F. It has been argued that slice turns should instead follow the U, R, and F layers. This confusion has led to theories as to the reasoning behind the decision. One common idea is that M, E, and S follow L, D, and F because the associated letters are closer in the alphabet. M is closer to L than it is to R, E is closer to D, and S is closer to F. This is an idea that has been mentioned several times since the formation of the online communities. At first it was noticed that M and E happen to be directly to the right of L and D in the alphabet [8, 9]. Later it was noticed that S is closer to F than it is to B, completing the theory [10, 11, 12].
 
-Another theory is that the directions were chosen based on the easiest turns to perform on the older hardware [13, 14]. A turn of the M layer is the easiest, and M is possibly easier than M’, leading to M prevailing as the default letter not having the appended apostrophe. Then a clockwise rotation of the cube along the z axis leads to E becoming M and following the same directions as M. A clockwise rotation of the cube along the y axis turns S into M, again with S following the same directions as M.
-
 ![](img/Notation/Barr.png)
 ![](img/Notation/Barlow1.png)
 ![](img/Notation/Williams1.png)
 ![](img/Notation/Williams2.png)
-![](img/Notation/Trang1.png)
-![](img/Notation/Trang2.png)
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe loading="lazy" width="100%" height="100%"
@@ -48,6 +44,11 @@ Another theory is that the directions were chosen based on the easiest turns to 
 </div>
 
 > Thanks to xyzzy for pointing out the alphabetical order mention in this video.
+
+Another theory is that the directions were chosen based on the easiest turns to perform on the older hardware [13, 14]. A turn of the M layer is the easiest, and M is possibly easier than M’, leading to M prevailing as the default letter not having the appended apostrophe. Then a clockwise rotation of the cube along the z axis leads to E becoming M and following the same directions as M. A clockwise rotation of the cube along the y axis turns S into M, again with S following the same directions as M.
+
+![](img/Notation/Trang1.png)
+![](img/Notation/Trang2.png)
 
 These theories may only be coincidences and the truth may be much simpler. It is possible that Schiereck thought of words that could represent the three inner layers of the cube, used the first letter of each word for the notation, then assigned a direction based on natural ways of thinking or what felt obvious. M rotates downward, similar to writing or gravity pulling objects down. E moves from left to right, similar to reading left to right. S turns clockwise like a clock.
 
