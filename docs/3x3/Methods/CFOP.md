@@ -47,7 +47,7 @@ To view a transcribed table of the F2L algorithms click below.
 <table border="1" className={styles.table}>
     <tr>
         <th rowspan="3">Corner</th>
-        <th colspan="5">Edge (In First Two Layers)</th>
+        <th colspan="5">Edge</th>
     </tr>
     <tr>
         <th>FR</th>
@@ -290,7 +290,7 @@ To view a transcribed table of the F2L algorithms click below.
     </tr>
     <tr>
         <th rowspan="3">Corner</th>
-        <th colspan="5">Edge (In U Layer)</th>
+        <th colspan="5">Edge</th>
     </tr>
     <tr>
         <th>FU</th>
