@@ -61,13 +61,13 @@ const config = {
     ],
   ],
 
-  plugins: ['docusaurus-plugin-goatcounter'],
+  plugins: ["docusaurus-plugin-goatcounter"],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/CubingHistory.png",
+      image: "img/SocialCard.png",
       navbar: {
         title: "Cubing History",
         logo: {
@@ -108,7 +108,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: "dark",
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },
@@ -117,7 +117,7 @@ const config = {
         maxHeadingLevel: 5,
       },
       goatcounter: {
-        code: 'cubinghistory',
+        code: "cubinghistory",
       },
     }),
 };
