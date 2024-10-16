@@ -51,6 +51,10 @@ Also on the second day of the competition, David Allen set a time of 16.50. This
 ![](img/WRSingles2H/2003Allen1.png)
 ![](img/WRSingles2H/2003Allen2.png)
 
+The regulations of the competition can be viewed on the <a href="https://web.archive.org/web/20030215105407/http://www.rubikswc2003.com/pages/812665/index.htm">website</a> that was set up just for the event.
+
+![](img/WRSingles2H/WC2003Regulations.png)
+
 ## 15.07 and 14.76 (Shotaro Makisumi)
 
 At Caltech Winter 2004, Shotaro Makisumi started off the competition with a first solve of 15.07 seconds, a new world record. In the third round of 3x3 and in Makisumi’s final solve, another world record was set at 14.76 seconds.
