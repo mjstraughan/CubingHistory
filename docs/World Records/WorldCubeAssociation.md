@@ -1,3 +1,5 @@
+import ReactPlayer from 'react-player'
+
 # World Cube Association
 
 ## Origin
@@ -58,8 +60,10 @@ The original WCA proposal document can be viewed <a href="/archive/wca.htm">here
 
 In January 2005, Mao asked if anyone was interested in designing the logo for the WCA [15]. Several people submitted designs, including Gilles Roux, Stefan Pochmann, and Josef Jelinek [16]. Ultimately the WCA chose one of Justin Eastman’s designs as the official logo.
 
-![](img/WCA/Logo1.png)
 ![](img/WCA/Logo2.gif)
+
+> One of Gilles Roux's submissions
+> <ReactPlayer playing controls url='/videos/wcb4.mp4' />
 
 ## Considered Events
 
