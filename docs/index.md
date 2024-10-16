@@ -67,6 +67,6 @@ Since I joined the community, I have always been interested in method developmen
 
 - Michael Feather: Provided assistance ensuring proper functionality of AnimCubeJS.
 
-- bcube: Provided ideas to take full advantage of AnimCubeJS features.
+- Tadeáš Miler: Provided ideas to take full advantage of AnimCubeJS features.
 
 - Others have been very willing to explain the origin of their own developments. Each person is credited on the site in the area in which they provided help.
