@@ -402,7 +402,7 @@ There is video footage of Rok Sosič using the F2L pairing technique. This occur
         />
 </div>
 
-> I was provided this information by Joseph Briggs who received it in a private message from a user on speedsolving.com. The user credited Rok Sosič as the creator of the F2L pairing technique.
+> I was provided this information by Joseph Briggs who received it in a private message on speedsolving.com from someone by the name of Mitja. The user credited Rok Sosič as the creator of the F2L pairing technique.
 
 In the September, 1981 issue of Cubism for Fun, the technique is described and credited to René Schoof [9].
 
