@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 import ReactPlayer from 'react-player'
 
 # World Cube Association
@@ -62,8 +66,16 @@ In January 2005, Mao asked if anyone was interested in designing the logo for th
 
 ![](img/WCA/Logo2.gif)
 
+<div className='player-wrapper'>
+<ReactPlayer
+          className='react-player'
+          playing controls url='/videos/wcb4.mp4'
+          playing={false}
+          width='100%'
+          height='100%'
+        />
+</div>
 > One of Gilles Roux's submissions
-> <ReactPlayer playing controls url='/videos/wcb4.mp4' />
 
 ## Considered Events
 

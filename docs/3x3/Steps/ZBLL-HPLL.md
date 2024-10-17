@@ -99,13 +99,25 @@ BH was proposed in 2004-2005 by Dan Harris and Jason Baum [10, 11].
 
 Tran Style recognition was first mentioned in 2015 in a seminar by Chris Tran then detailed in February 2016.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/JyW1dm6mG-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe loading="lazy" width="100%" height="100%"
+    src="https://www.youtube.com/embed/JyW1dm6mG-s"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
 
 ### No Corner Permutation (NCP)
 
 No Corner Permutation (NCP) was developed in November, 2021 by Ryan Hudgens [12].
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/6fMDp5o2Ca8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe loading="lazy" width="100%" height="100%"
+    src="https://www.youtube.com/embed/6fMDp5o2Ca8"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
 
 ![](img/ZBLL/NCP.png)
 

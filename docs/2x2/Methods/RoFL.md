@@ -40,7 +40,13 @@ In November, 2023, Hitchcock started development on the entire method, eventuall
 
 ![](img/RoFL/CBLAlgSheet.png)
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/3fnvk7kclDw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe loading="lazy" width="100%" height="100%"
+    src="https://www.youtube.com/embed/3fnvk7kclDw"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
 
 ## TCLL
 
@@ -50,14 +56,14 @@ In 2013, Robert Yau and Christopher Olson identified TCLL from RoFL as a method 
 
 ## References
 
-[1] 	S. Pochmann, "RoFL 2x2x2," Pochmann's Website, 2009. [Online]. Available: https://www.stefan-pochmann.info//spocc/speedsolving/RoFL/.
+[1] S. Pochmann, "RoFL 2x2x2," Pochmann's Website, 2009. [Online]. Available: https://www.stefan-pochmann.info//spocc/speedsolving/RoFL/.
 
-[2] 	S. Pochmann, "RoFL method," SpeedSolving.com, 7 September 2013. [Online]. Available: https://www.speedsolving.com/threads/rofl-method.43898/.
+[2] S. Pochmann, "RoFL method," SpeedSolving.com, 7 September 2013. [Online]. Available: https://www.speedsolving.com/threads/rofl-method.43898/.
 
-[3] 	hcthepro, Discord, 8 May 2023. [Online]. Available: https://discord.com/channels/987246070750924870/987246942809649224/1105085400227258449.
+[3] hcthepro, Discord, 8 May 2023. [Online]. Available: https://discord.com/channels/987246070750924870/987246942809649224/1105085400227258449.
 
-[4] 	B. Mourad, K. Hitchcock, A. Paterakis, J. Porteners, W. Callan and Z. Khanani, Discord, August 2023. [Online]. Available: https://discord.com/channels/987246070750924870/987246942809649224/1146582096903688192.
+[4] B. Mourad, K. Hitchcock, A. Paterakis, J. Porteners, W. Callan and Z. Khanani, Discord, August 2023. [Online]. Available: https://discord.com/channels/987246070750924870/987246942809649224/1146582096903688192.
 
-[5] 	B. Mourad, K. Hitchcock, A. Paterakis, J. Porteners, W. Callan and Z. Khanani, Discord, March 2024. [Online]. Available: https://discord.com/channels/987246070750924870/1139255360545362033/1218328846093520989.
+[5] B. Mourad, K. Hitchcock, A. Paterakis, J. Porteners, W. Callan and Z. Khanani, Discord, March 2024. [Online]. Available: https://discord.com/channels/987246070750924870/1139255360545362033/1218328846093520989.
 
-[6] 	K. Hitchcock, "CBL(unfinished)," Google Sheets, 18 November 2023. [Online]. Available: https://docs.google.com/spreadsheets/d/1ZByoB9a4eDOKzr8N1s3yckhMy5VRo-Mn6VDkK4WVgI4/edit#gid=1159375609.
+[6] K. Hitchcock, "CBL(unfinished)," Google Sheets, 18 November 2023. [Online]. Available: https://docs.google.com/spreadsheets/d/1ZByoB9a4eDOKzr8N1s3yckhMy5VRo-Mn6VDkK4WVgI4/edit#gid=1159375609.

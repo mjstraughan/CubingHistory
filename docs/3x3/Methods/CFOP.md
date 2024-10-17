@@ -1,5 +1,6 @@
 import AnimCube from "@site/src/components/AnimCube";
 import styles from "./CFOP.module.css";
+import ReactPlayer from 'react-player'
 
 # CFOP
 
@@ -384,12 +385,24 @@ The second known publication of the corner and edge pairs technique comes in Jun
 
 > This one is only a mention of the idea with no strategies or sequences. I was provided this information by Joseph Briggs.
 
-In July 1981 in the Slovenian magazine Teleks, the technique is described with some illustrations [8].
+On July 16 1981 in the Slovenian magazine Teleks (year 37, issue 28), the technique is described with some illustrations [8]. The magazine article is written by Rok Sosič and Polona Sosič.
 
 ![](img/CFOP/F2L/Sosic1.png)
 ![](img/CFOP/F2L/Sosic2.png)
 
-> This article is written by Rok Sosič and Polona Sosič. Rok Sosič is credited as the creator of the technique. I was provided this information by Joseph Briggs who received it in a private message from a user on speedsolving.com.
+There is video footage of Rok Sosič using the F2L pairing technique. This occurred during the Solvenian Nationals 1982, which was broadcast nationally on Slovenia's RTVSLO. Rok Sosič's solves can be seen starting around 1:49.
+
+<div className='player-wrapper'>
+<ReactPlayer
+          className='react-player'
+          playing controls url='/videos/Rubiks-Cube-Slovenia-1982.mp4'
+          playing={false}
+          width='100%'
+          height='100%'
+        />
+</div>
+
+> I was provided this information by Joseph Briggs who received it in a private message from a user on speedsolving.com. The user credited Rok Sosič as the creator of the F2L pairing technique.
 
 In the September, 1981 issue of Cubism for Fun, the technique is described and credited to René Schoof [9].
 

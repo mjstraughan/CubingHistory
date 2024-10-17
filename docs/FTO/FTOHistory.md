@@ -43,7 +43,13 @@ According to a post on ptt.cc, 1000 units of the puzzle were produced in Taiwan 
 ![](img/Hardware/Xie4.png)
 ![](img/Hardware/Xie5.png)
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/BFSorFjezO8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe loading="lazy" width="100%" height="100%"
+    src="https://www.youtube.com/embed/BFSorFjezO8"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
 
 ### David Pitcher
 

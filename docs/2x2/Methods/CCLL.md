@@ -27,8 +27,14 @@ This concept was first developed by Michael James Straughan in 2012 [1].
 
 In 2018, Joseph Briggs independently proposed the same concept as an application of the 42 method to the 2x2x2.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/AJjT5bYknls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe loading="lazy" width="100%" height="100%"
+    src="https://www.youtube.com/embed/AJjT5bYknls"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
 
 ## References
 
-[1] 	M. J. Straughan, "CLL Transformation Table," SpeedSolving.com, 8 February 2012. [Online]. Available: https://www.speedsolving.com/threads/cll-transformation-table.35293/.
+[1] M. J. Straughan, "CLL Transformation Table," SpeedSolving.com, 8 February 2012. [Online]. Available: https://www.speedsolving.com/threads/cll-transformation-table.35293/.
