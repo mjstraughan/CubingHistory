@@ -1,376 +1,804 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Link Archive</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link Archive</title>
 
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-  <!-- DataTables -->
-  <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <!-- DataTables -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 
-  <!-- DataTables CSS -->
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <!-- DataTables CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css"
+    />
 
-  <style>
-    body {
-      background-color: #f0f0f0; /* Grey background */
-    }
+    <style>
+      body {
+        background-color: #f0f0f0; /* Grey background */
+      }
 
-    /* Table styles */
-    table.dataTable {
-      background-color: white;
-      border-collapse: collapse;
-      border-spacing: 0;
-      width: 100%;
-      margin-top: 20px;
-    }
+      /* Table styles */
+      table.dataTable {
+        background-color: white;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        margin-top: 20px;
+      }
 
-    table.dataTable thead th {
-      font-weight: bold;
-      background-color: #f0f0f0;
-    }
+      table.dataTable thead th {
+        font-weight: bold;
+        background-color: #f0f0f0;
+      }
 
-    table.dataTable tbody tr:nth-child(odd) {
-      background-color: #f9f9f9;
-    }
+      table.dataTable tbody tr:nth-child(odd) {
+        background-color: #f9f9f9;
+      }
 
-    table.dataTable tbody tr:nth-child(even) {
-      background-color: white;
-    }
-  </style>
-</head>
-<body>
+      table.dataTable tbody tr:nth-child(even) {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="myTable" class="display">
+      <thead>
+        <tr>
+          <th>Creator</th>
+          <th>Content</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Andrew Plotkin</td>
+          <td>custom puzzles</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20041127050738/http://www.eblong.com/~zarf/custom-cubes.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20041127050738/http://www.eblong.com/~zarf/custom-cubes.html</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Aron Puddy-Mathew (aronpm)</td>
+          <td>algorithms, bld</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20181019154319/https://aronpm.cubing.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20181019154319/https://aronpm.cubing.net/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Ben Streeter</td>
+          <td>FTO</td>
+          <td>
+            <a
+              href="https://speedy.cubing.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://speedy.cubing.net/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Benoit Formet</td>
+          <td>Forum, contest, competition, scrambler</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20040611042042/http://formet.iiens.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20040611042042/http://formet.iiens.net/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Benoit Formet</td>
+          <td>Forum, contest, competition, scrambler</td>
+          <td>
+            <a
+              href="http://formet.iiens.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >http://formet.iiens.net/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Brandon Harnish (Ranzha)</td>
+          <td>3x3 algorithms, skewb, bld</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20180324163553/https://ranzha.cubing.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20180324163553/https://ranzha.cubing.net/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Caleb Hoover</td>
+          <td>fantasy cubing</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20140309172917/https://fantasy.cubing.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20140309172917/https://fantasy.cubing.net/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Christophe Goudey</td>
+          <td>records, guide, tutorial, games, videos, glossary</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20050203033020/http://cubeland.fr.st/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20050203033020/http://cubeland.fr.st/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Dan Harris</td>
+          <td>Saturday Contest (FMC), guide, tutorial, CFOP, 2x2, ZB, VH</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20050310074145/http://www.necrophagous.co.uk/cubestation/index2.php"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20050310074145/http://www.necrophagous.co.uk/cubestation/index2.php</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Dan Harris</td>
+          <td>Saturday Contest (FMC), guide, tutorial, CFOP, 2x2</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20030422014330/http://homepage.ntlworld.com/dan_j_harris/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20030422014330/http://homepage.ntlworld.com/dan_j_harris/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Dan Harris</td>
+          <td>Saturday Contest (FMC), guide, tutorial, CFOP, 2x2</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20030621111035/http://www.cubestation.co.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20030621111035/http://www.cubestation.co.uk/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>David Barr</td>
+          <td>applet</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/19990826144747/http://home1.gte.net/davebarr/Cube/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/19990826144747/http://home1.gte.net/davebarr/Cube/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Denny Edmore</td>
+          <td>guide</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/19970406102026/http://www.oz.net/~cdedmore/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/19970406102026/http://www.oz.net/~cdedmore/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Eric Xu</td>
+          <td>ZZ method</td>
+          <td>
+            <a
+              href="https://www.zzmethod.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://www.zzmethod.com/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Eric Xu</td>
+          <td>Roux method</td>
+          <td>
+            <a
+              href="https://www.rouxmethod.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://www.rouxmethod.com/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Gaetan Guimond</td>
+          <td>Guimond method, videos, BLD</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20030410093447/http://www.rubikscuberecord.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20030410093447/http://www.rubikscuberecord.com/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Georges Helm</td>
+          <td>Books, methods, solutions, pictures, collection</td>
+          <td>
+            <a
+              href="http://cube.helm.lu/myweb/cubeold.htm"
+              target="_blank"
+              rel="noopener noreferrer"
+              >http://cube.helm.lu/myweb/cubeold.htm</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Gilles Roux</td>
+          <td>Roux method, Videos</td>
+          <td>
+            <a
+              href="http://grrroux.free.fr/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >http://grrroux.free.fr/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Herbert Kociemba</td>
+          <td>
+            Cube Explorer, 15 puzzle solver, Sudoku, Pentarot, kaleidocycles,
+            dodecahedron inversion
+          </td>
+          <td>
+            <a
+              href="https://kociemba.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://kociemba.org/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Hungarian Community</td>
+          <td>History, games, forum, news</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20110220015510/http://rubikkocka.eu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20110220015510/http://rubikkocka.eu/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Jaap</td>
+          <td>Puzzles, theory, history</td>
+          <td>
+            <a
+              href="https://www.jaapsch.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://www.jaapsch.net/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Jaap</td>
+          <td>Links</td>
+          <td>
+            <a
+              href="https://www.jaapsch.net/puzzles/puzzlink.htm"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://www.jaapsch.net/puzzles/puzzlink.htm</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Jake Olefsky</td>
+          <td>Guide, pyraminx, 2x2, forum, store</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20010802141931/http://www.puzzlesolver.com/index.shtml"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20010802141931/http://www.puzzlesolver.com/index.shtml</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Jake Olefsky</td>
+          <td></td>
+          <td>
+            <a
+              href="https://web.archive.org/web/19981205230436/http://www-leland.stanford.edu/%7Eoffsky/cube/catalog.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/19981205230436/http://www-leland.stanford.edu/%7Eoffsky/cube/catalog.html</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Jake Olefsky</td>
+          <td></td>
+          <td>
+            <a
+              href="http://www.stanford.edu/~offsky/cube/catalog.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >http://www.stanford.edu/~offsky/cube/catalog.html</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Jake Olefsky</td>
+          <td>Guide, pyraminx</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20010124101400/http://www.olefsky.com/cube/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20010124101400/http://www.olefsky.com/cube/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Jess Bonde</td>
+          <td>Forum, contest, competition</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20060708075946/https://rubiks.dk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20060708075946/https://rubiks.dk/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Jessica Fridrich</td>
+          <td>Fridrich/CFOP method</td>
+          <td>
+            <a
+              href="http://www.ws.binghamton.edu/fridrich/cube.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >http://www.ws.binghamton.edu/fridrich/cube.html</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Jessica Fridrich</td>
+          <td>Fridrich/CFOP method (original site)</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/19980119005028/http://ssie.binghamton.edu/~jirif/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/19980119005028/http://ssie.binghamton.edu/~jirif/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Johannes Laire</td>
+          <td>JARCS</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20090603153856/http://laire.dy.fi/jarcs/#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20090603153856/http://laire.dy.fi/jarcs/#</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>John Rausch</td>
+          <td>custom puzzles</td>
+          <td>
+            <a
+              href="http://www.johnrausch.com/PuzzleTalk/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >http://www.johnrausch.com/PuzzleTalk/index.html</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Jules Manalang, Brandon Harnish, Mitchell Lane</td>
+          <td>CubeCast podcast</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20150110051310/http://cubecast.cubing.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20150110051310/http://cubecast.cubing.net/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Kris de Asis (meep)</td>
+          <td>methods, skewb</td>
+          <td>
+            <a
+              href="https://meep.cubing.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://meep.cubing.net/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Lars Petrus</td>
+          <td>Petrus method</td>
+          <td>
+            <a
+              href="https://lar5.com/cube/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://lar5.com/cube/index.html</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Lucas Garron</td>
+          <td>Software, virtual cubes, scrambler, timer</td>
+          <td>
+            <a
+              href="https://cubing.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://cubing.net/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Marcelo Falcão de Oliveira</td>
+          <td>guide</td>
+          <td>
+            <a
+              href="https://sites.google.com/view/rubiks-cube-by-logic/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://sites.google.com/view/rubiks-cube-by-logic/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Mark Longridge</td>
+          <td>Puzzles, history, forum</td>
+          <td>
+            <a
+              href="http://cubeman.org/cubelink.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >http://cubeman.org/cubelink.html</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Mark Longridge</td>
+          <td>Puzzles, history, forum, original site</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20000304181822fw_/http://web.idirect.com/~cubeman/cubelink.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20000304181822fw_/http://web.idirect.com/~cubeman/cubelink.html</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Matt Monroe</td>
+          <td>guide</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/19970725102432/http://plains.uwyo.edu/~monroem/rubik.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/19970725102432/http://plains.uwyo.edu/~monroem/rubik.html</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Matt Monroe</td>
+          <td>guide, software</td>
+          <td>
+            <a
+              href="https://alchemistmatt.com/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://alchemistmatt.com/index.html</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Matt Monroe</td>
+          <td>guide</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/19970725102432/http://plains.uwyo.edu/~monroem/rubik.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/19970725102432/http://plains.uwyo.edu/~monroem/rubik.html</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Michael James Straughan (athefre)</td>
+          <td>methods, history</td>
+          <td>
+            <a
+              href="https://sites.google.com/site/athefre"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://sites.google.com/site/athefre</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Michael James Straughan (athefre)</td>
+          <td>history, archive</td>
+          <td>
+            <a
+              href="https://www.cubinghistory.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://www.cubinghistory.com/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Michael James Straughan (athefre)</td>
+          <td>Precursor to cubinghistory.com, history</td>
+          <td>
+            <a
+              href="https://sites.google.com/view/methodlibrary/home"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://sites.google.com/view/methodlibrary/home</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Michael James Straughan (athefre)</td>
+          <td>Nautilus method</td>
+          <td>
+            <a
+              href="https://sites.google.com/view/nautilus-method"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://sites.google.com/view/nautilus-method</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Michael James Straughan (athefre)</td>
+          <td>APB method</td>
+          <td>
+            <a
+              href="https://sites.google.com/view/apb-system"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://sites.google.com/view/apb-system</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Michael James Straughan (athefre)</td>
+          <td>Straughan's original website</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20110224050936/http://athefre.110mb.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20110224050936/http://athefre.110mb.com/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Michael Schubart</td>
+          <td>resources</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/19981202160620/http://www.best.com/%7Eschubart/rc/resources.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/19981202160620/http://www.best.com/%7Eschubart/rc/resources.html</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Mike Green</td>
+          <td>puzzles, jewelry, books</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/19990429120748/http://www.puzzletts.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/19990429120748/http://www.puzzletts.com/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Mike Hughey</td>
+          <td>Square-1 BLD, blog</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20180923065305/https://hughey.cubing.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20180923065305/https://hughey.cubing.net/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Patrick Kelly</td>
+          <td>forum</td>
+          <td>
+            <a
+              href="https://www.speedsolving.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://www.speedsolving.com/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Per Kristen Fredlund</td>
+          <td>FMC</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/20240000000000*/http://fmc.mustcube.net/results.php"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/20240000000000*/http://fmc.mustcube.net/results.php</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Rowe Hessler</td>
+          <td>RLS, EG</td>
+          <td>
+            <a
+              href="https://rowe.cubing.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://rowe.cubing.net/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Ryan Heise</td>
+          <td>Heise method, original site</td>
+          <td>
+            <a
+              href="https://web.archive.org/web/19991002050516/http://www.progsoc.uts.edu.au/~rheise/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://web.archive.org/web/19991002050516/http://www.progsoc.uts.edu.au/~rheise/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Sandy Thompson</td>
+          <td>forum, puzzles, museum</td>
+          <td>
+            <a
+              href="https://twistypuzzles.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://twistypuzzles.com/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Sandy Thompson</td>
+          <td>collection</td>
+          <td>
+            <a
+              href="https://prevalence.com/puzzles/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://prevalence.com/puzzles/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Stachu Korick</td>
+          <td>methods, L2L, CPLS, 2GLL, ZZ-D</td>
+          <td>
+            <a
+              href="https://stachu.cubing.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://stachu.cubing.net/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Stefan Huber</td>
+          <td>blog</td>
+          <td>
+            <a
+              href="https://hubi.cubing.net/blog/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://hubi.cubing.net/blog/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Tadeáš Miler</td>
+          <td>guide, theory, other puzzle solutions</td>
+          <td>
+            <a
+              href="https://hlavolam.maweb.eu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://hlavolam.maweb.eu/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Tyson Mao</td>
+          <td>blog</td>
+          <td>
+            <a
+              href="https://uncletyson.wordpress.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://uncletyson.wordpress.com/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Wayne Johnson</td>
+          <td>algorithms, guide</td>
+          <td>
+            <a
+              href="http://www.zeta.org.au/~sausage/rubikscube.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >http://www.zeta.org.au/~sausage/rubikscube.html</a
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
-<table id="myTable" class="display">
-  <thead>
-    <tr>
-      <th>Creator</th>
-      <th>Content</th>
-      <th>Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Andrew Plotkin</td>
-      <td>custom puzzles</td>
-      <td><a href='https://web.archive.org/web/20041127050738/http://www.eblong.com/~zarf/custom-cubes.html'>https://web.archive.org/web/20041127050738/http://www.eblong.com/~zarf/custom-cubes.html</a></td>
-    </tr>
-    <tr>
-      <td>Aron Puddy-Mathew (aronpm)</td>
-      <td>algorithms, bld</td>
-      <td><a href='https://web.archive.org/web/20181019154319/https://aronpm.cubing.net/'>https://web.archive.org/web/20181019154319/https://aronpm.cubing.net/</a></td>
-    </tr>
-    <tr>
-      <td>Ben Streeter</td>
-      <td>FTO</td>
-      <td><a href='https://speedy.cubing.net/'>https://speedy.cubing.net/</a></td>
-    </tr>
-    <tr>
-      <td>Benoit Formet</td>
-      <td>Forum, contest, competition, scrambler</td>
-      <td><a href='https://web.archive.org/web/20040611042042/http://formet.iiens.net/'>https://web.archive.org/web/20040611042042/http://formet.iiens.net/</a></td>
-    </tr>
-    <tr>
-      <td>Benoit Formet</td>
-      <td>Forum, contest, competition, scrambler</td>
-      <td><a href='http://formet.iiens.net/'>http://formet.iiens.net/</a></td>
-    </tr>
-    <tr>
-      <td>Brandon Harnish (Ranzha)</td>
-      <td>3x3 algorithms, skewb, bld</td>
-      <td><a href='https://web.archive.org/web/20180324163553/https://ranzha.cubing.net/'>https://web.archive.org/web/20180324163553/https://ranzha.cubing.net/</a></td>
-    </tr>
-    <tr>
-      <td>Caleb Hoover</td>
-      <td>fantasy cubing</td>
-      <td><a href='https://web.archive.org/web/20140309172917/https://fantasy.cubing.net/'>https://web.archive.org/web/20140309172917/https://fantasy.cubing.net/</a></td>
-    </tr>
-    <tr>
-      <td>Christophe Goudey</td>
-      <td>records, guide, tutorial, games, videos, glossary</td>
-      <td><a href='https://web.archive.org/web/20050203033020/http://cubeland.fr.st/'>https://web.archive.org/web/20050203033020/http://cubeland.fr.st/</a></td>
-    </tr>
-    <tr>
-      <td>Dan Harris</td>
-      <td>Saturday Contest (FMC), guide, tutorial, CFOP, 2x2, ZB, VH</td>
-      <td><a href='https://web.archive.org/web/20050310074145/http://www.necrophagous.co.uk/cubestation/index2.php'>https://web.archive.org/web/20050310074145/http://www.necrophagous.co.uk/cubestation/index2.php</a></td>
-    </tr>
-    <tr>
-      <td>Dan Harris</td>
-      <td>Saturday Contest (FMC), guide, tutorial, CFOP, 2x2</td>
-      <td><a href='https://web.archive.org/web/20030422014330/http://homepage.ntlworld.com/dan_j_harris/'>https://web.archive.org/web/20030422014330/http://homepage.ntlworld.com/dan_j_harris/</a></td>
-    </tr>
-    <tr>
-      <td>Dan Harris</td>
-      <td>Saturday Contest (FMC), guide, tutorial, CFOP, 2x2</td>
-      <td><a href='https://web.archive.org/web/20030621111035/http://www.cubestation.co.uk/'>https://web.archive.org/web/20030621111035/http://www.cubestation.co.uk/</a></td>
-    </tr>
-    <tr>
-      <td>David Barr</td>
-      <td>applet</td>
-      <td><a href='https://web.archive.org/web/19990826144747/http://home1.gte.net/davebarr/Cube/'>https://web.archive.org/web/19990826144747/http://home1.gte.net/davebarr/Cube/</a></td>
-    </tr>
-    <tr>
-      <td>Denny Edmore</td>
-      <td>guide</td>
-      <td><a href='https://web.archive.org/web/19970406102026/http://www.oz.net/~cdedmore/'>https://web.archive.org/web/19970406102026/http://www.oz.net/~cdedmore/</a></td>
-    </tr>
-    <tr>
-      <td>Eric Xu</td>
-      <td>ZZ method</td>
-      <td><a href='zzmethod.com'>zzmethod.com</a></td>
-    </tr>
-    <tr>
-      <td>Eric Xu</td>
-      <td>Roux method</td>
-      <td><a href='rouxmethod.com'>rouxmethod.com</a></td>
-    </tr>
-    <tr>
-      <td>Gaetan Guimond</td>
-      <td>Guimond method, videos, BLD</td>
-      <td><a href='https://web.archive.org/web/20030410093447/http://www.rubikscuberecord.com/'>https://web.archive.org/web/20030410093447/http://www.rubikscuberecord.com/</a></td>
-    </tr>
-    <tr>
-      <td>Georges Helm</td>
-      <td>Books, methods, solutions, pictures, collection</td>
-      <td><a href='http://cube.helm.lu/myweb/cubeold.htm'>http://cube.helm.lu/myweb/cubeold.htm</a></td>
-    </tr>
-    <tr>
-      <td>Gilles Roux</td>
-      <td>Roux method, Videos</td>
-      <td><a href='http://grrroux.free.fr/'>http://grrroux.free.fr/</a></td>
-    </tr>
-    <tr>
-      <td>Herbert Kociemba</td>
-      <td>Cube Explorer, 15 puzzle solver, Sudoku, Pentarot, kaleidocycles, dodecahedron inversion</td>
-      <td><a href='https://kociemba.org/'>https://kociemba.org/</a></td>
-    </tr>
-    <tr>
-      <td>Hungarian Community</td>
-      <td>History, games, forum, news</td>
-      <td><a href='https://web.archive.org/web/20110220015510/http://rubikkocka.eu/'>https://web.archive.org/web/20110220015510/http://rubikkocka.eu/</a></td>
-    </tr>
-    <tr>
-      <td>Jaap</td>
-      <td>Puzzles, theory, history</td>
-      <td><a href='https://www.jaapsch.net/'>https://www.jaapsch.net/</a></td>
-    </tr>
-    <tr>
-      <td>Jake Olefsky</td>
-      <td>Guide, pyraminx, 2x2, forum, store</td>
-      <td><a href='https://web.archive.org/web/20010802141931/http://www.puzzlesolver.com/index.shtml'>https://web.archive.org/web/20010802141931/http://www.puzzlesolver.com/index.shtml</a></td>
-    </tr>
-    <tr>
-      <td>Jake Olefsky</td>
-      <td></td>
-      <td><a href='https://web.archive.org/web/19981205230436/http://www-leland.stanford.edu/%7Eoffsky/cube/catalog.html'>https://web.archive.org/web/19981205230436/http://www-leland.stanford.edu/%7Eoffsky/cube/catalog.html</a></td>
-    </tr>
-    <tr>
-      <td>Jake Olefsky</td>
-      <td></td>
-      <td><a href='http://www.stanford.edu/~offsky/cube/catalog.html'>http://www.stanford.edu/~offsky/cube/catalog.html</a></td>
-    </tr>
-    <tr>
-      <td>Jake Olefsky</td>
-      <td>Guide, pyraminx</td>
-      <td><a href='https://web.archive.org/web/20010124101400/http://www.olefsky.com/cube/'>https://web.archive.org/web/20010124101400/http://www.olefsky.com/cube/</a></td>
-    </tr>
-    <tr>
-      <td>Jess Bonde</td>
-      <td>Forum, contest, competition</td>
-      <td><a href='https://web.archive.org/web/20060708075946/https://rubiks.dk/'>https://web.archive.org/web/20060708075946/https://rubiks.dk/</a></td>
-    </tr>
-    <tr>
-      <td>Jessica Fridrich</td>
-      <td>Fridrich/CFOP method</td>
-      <td><a href='http://www.ws.binghamton.edu/fridrich/cube.html'>http://www.ws.binghamton.edu/fridrich/cube.html</a></td>
-    </tr>
-    <tr>
-      <td>Jessica Fridrich</td>
-      <td>Fridrich/CFOP method (original site)</td>
-      <td><a href='https://web.archive.org/web/19980119005028/http://ssie.binghamton.edu/~jirif/'>https://web.archive.org/web/19980119005028/http://ssie.binghamton.edu/~jirif/</a></td>
-    </tr>
-    <tr>
-      <td>Johannes Laire</td>
-      <td>JARCS</td>
-      <td><a href='https://web.archive.org/web/20090603153856/http://laire.dy.fi/jarcs/#'>https://web.archive.org/web/20090603153856/http://laire.dy.fi/jarcs/#</a></td>
-    </tr>
-    <tr>
-      <td>John Rausch</td>
-      <td>custom puzzles</td>
-      <td><a href='http://www.johnrausch.com/PuzzleTalk/index.html'>http://www.johnrausch.com/PuzzleTalk/index.html</a></td>
-    </tr>
-    <tr>
-      <td>Jules Manalang, Brandon Harnish, Mitchell Lane</td>
-      <td>CubeCast podcast</td>
-      <td><a href='https://web.archive.org/web/20150110051310/http://cubecast.cubing.net/'>https://web.archive.org/web/20150110051310/http://cubecast.cubing.net/</a></td>
-    </tr>
-    <tr>
-      <td>Kris de Asis (meep)</td>
-      <td>methods, skewb</td>
-      <td><a href='https://meep.cubing.net/'>https://meep.cubing.net/</a></td>
-    </tr>
-    <tr>
-      <td>Lars Petrus</td>
-      <td>Petrus method</td>
-      <td><a href='https://lar5.com/cube/index.html'>https://lar5.com/cube/index.html</a></td>
-    </tr>
-    <tr>
-      <td>Lucas Garron</td>
-      <td>Software, virtual cubes, scrambler, timer</td>
-      <td><a href='https://cubing.net/'>https://cubing.net/</a></td>
-    </tr>
-    <tr>
-      <td>Marcelo Falcão de Oliveira</td>
-      <td>guide</td>
-      <td><a href='https://sites.google.com/view/rubiks-cube-by-logic/'>https://sites.google.com/view/rubiks-cube-by-logic/</a></td>
-    </tr>
-    <tr>
-      <td>Mark Longridge</td>
-      <td>Puzzles, history, forum</td>
-      <td><a href='http://cubeman.org/cubelink.html'>http://cubeman.org/cubelink.html</a></td>
-    </tr>
-    <tr>
-      <td>Mark Longridge</td>
-      <td>Puzzles, history, forum, original site</td>
-      <td><a href='https://web.archive.org/web/20000304181822fw_/http://web.idirect.com/~cubeman/cubelink.html'>https://web.archive.org/web/20000304181822fw_/http://web.idirect.com/~cubeman/cubelink.html</a></td>
-    </tr>
-    <tr>
-      <td>Matt Monroe</td>
-      <td>guide</td>
-      <td><a href='https://web.archive.org/web/19970725102432/http://plains.uwyo.edu/~monroem/rubik.html'>https://web.archive.org/web/19970725102432/http://plains.uwyo.edu/~monroem/rubik.html</a></td>
-    </tr>
-    <tr>
-      <td>Matt Monroe</td>
-      <td>guide, software</td>
-      <td><a href='https://alchemistmatt.com/index.html'>https://alchemistmatt.com/index.html</a></td>
-    </tr>
-    <tr>
-      <td>Matt Monroe</td>
-      <td>guide</td>
-      <td><a href='https://web.archive.org/web/19970725102432/http://plains.uwyo.edu/~monroem/rubik.html'>https://web.archive.org/web/19970725102432/http://plains.uwyo.edu/~monroem/rubik.html</a></td>
-    </tr>
-    <tr>
-      <td>Michael James Straughan (athefre)</td>
-      <td>methods, history</td>
-      <td><a href='https://sites.google.com/site/athefre'>https://sites.google.com/site/athefre</a></td>
-    </tr>
-    <tr>
-      <td>Michael James Straughan (athefre)</td>
-      <td>history, archive</td>
-      <td><a href='https://www.cubinghistory.com/'>https://www.cubinghistory.com/</a></td>
-    </tr>
-    <tr>
-      <td>Michael James Straughan (athefre)</td>
-      <td>Precursor to cubinghistory.com, history</td>
-      <td><a href='https://sites.google.com/view/methodlibrary/home'>https://sites.google.com/view/methodlibrary/home</a></td>
-    </tr>
-    <tr>
-      <td>Michael James Straughan (athefre)</td>
-      <td>Nautilus method</td>
-      <td><a href='https://sites.google.com/view/nautilus-method'>https://sites.google.com/view/nautilus-method</a></td>
-    </tr>
-    <tr>
-      <td>Michael James Straughan (athefre)</td>
-      <td>APB method</td>
-      <td><a href='https://sites.google.com/view/apb-system'>https://sites.google.com/view/apb-system</a></td>
-    </tr>
-    <tr>
-      <td>Michael James Straughan (athefre)</td>
-      <td>Straughan's original website</td>
-      <td><a href='https://web.archive.org/web/20110224050936/http://athefre.110mb.com/'>https://web.archive.org/web/20110224050936/http://athefre.110mb.com/</a></td>
-    </tr>
-    <tr>
-      <td>Michael Schubart</td>
-      <td>resources</td>
-      <td><a href='https://web.archive.org/web/19981202160620/http://www.best.com/%7Eschubart/rc/resources.html'>https://web.archive.org/web/19981202160620/http://www.best.com/%7Eschubart/rc/resources.html</a></td>
-    </tr>
-    <tr>
-      <td>Mike Green</td>
-      <td>puzzles, jewelry, books</td>
-      <td><a href='https://web.archive.org/web/19990429120748/http://www.puzzletts.com/'>https://web.archive.org/web/19990429120748/http://www.puzzletts.com/</a></td>
-    </tr>
-    <tr>
-      <td>Mike Hughey</td>
-      <td>Square-1 BLD, blog</td>
-      <td><a href='https://web.archive.org/web/20180923065305/https://hughey.cubing.net/'>https://web.archive.org/web/20180923065305/https://hughey.cubing.net/</a></td>
-    </tr>
-    <tr>
-      <td>Patrick Kelly</td>
-      <td>forum</td>
-      <td><a href='speedsolving.com'>speedsolving.com</a></td>
-    </tr>
-    <tr>
-      <td>Per Kristen Fredlund</td>
-      <td>FMC</td>
-      <td><a href='https://web.archive.org/web/20240000000000*/http://fmc.mustcube.net/results.php'>https://web.archive.org/web/20240000000000*/http://fmc.mustcube.net/results.php</a></td>
-    </tr>
-    <tr>
-      <td>Rowe Hessler</td>
-      <td>RLS, EG</td>
-      <td><a href='https://rowe.cubing.net/'>https://rowe.cubing.net/</a></td>
-    </tr>
-    <tr>
-      <td>Ryan Heise</td>
-      <td>Heise method, original site</td>
-      <td><a href='https://web.archive.org/web/19991002050516/http://www.progsoc.uts.edu.au/~rheise/'>https://web.archive.org/web/19991002050516/http://www.progsoc.uts.edu.au/~rheise/</a></td>
-    </tr>
-    <tr>
-      <td>Sandy Thompson</td>
-      <td>forum, puzzles, museum</td>
-      <td><a href='TwistyPuzzles.com'>TwistyPuzzles.com</a></td>
-    </tr>
-    <tr>
-      <td>Sandy Thompson</td>
-      <td>collection</td>
-      <td><a href='https://prevalence.com/puzzles/'>https://prevalence.com/puzzles/</a></td>
-    </tr>
-    <tr>
-      <td>Stachu Korick</td>
-      <td>methods, L2L, CPLS, 2GLL, ZZ-D</td>
-      <td><a href='https://stachu.cubing.net/'>https://stachu.cubing.net/</a></td>
-    </tr>
-    <tr>
-      <td>Stefan Huber</td>
-      <td>blog</td>
-      <td><a href='https://hubi.cubing.net/blog/'>https://hubi.cubing.net/blog/</a></td>
-    </tr>
-    <tr>
-      <td>Tadeáš Miler</td>
-      <td>guide, theory, other puzzle solutions</td>
-      <td><a href='https://hlavolam.maweb.eu/'>https://hlavolam.maweb.eu/</a></td>
-    </tr>
-    <tr>
-      <td>Tyson Mao</td>
-      <td>blog</td>
-      <td><a href='https://uncletyson.wordpress.com/'>https://uncletyson.wordpress.com/</a></td>
-    </tr>
-    <tr>
-      <td>Wayne Johnson</td>
-      <td>algorithms, guide</td>
-      <td><a href='http://www.zeta.org.au/~sausage/rubikscube.html'>http://www.zeta.org.au/~sausage/rubikscube.html</a></td>
-    </tr>    
-    </tbody>
-</table>
-
-<!-- Table row template
-<tr>
-  <td></td>
-  <td></td>
-  <td><a href=""></a></td>
-</tr>
--->
-
-<script>
-  $(document).ready(function() {
-  $('#myTable').DataTable({
-    "pageLength": 25
-  });
-});
-</script>
-
-</body>
+    <script>
+      $(document).ready(function () {
+        $("#myTable").DataTable({
+          pageLength: 25,
+        });
+      });
+    </script>
+  </body>
 </html>
