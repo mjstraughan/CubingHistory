@@ -42,6 +42,6 @@ NMLL was moved to a Google site in June, 2011 [3, 4, 5].
 
 [3] M. J. Straughan, "ZZ and ZB Discussion," SpeedSolving.com, 28 June 2011. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-598864.
 
-[4] M. J. Straughan, "NMLL," Straughan's Website, June 2011. [Online]. Available: https://sites.google.com/site/athefre/steps/nmll?authuser=0.
+[4] M. J. Straughan, "NMLL," Straughan's Website, June 2011. [Online]. Available: https://sites.google.com/site/athefre/steps-concepts/nmll.
 
 [5] M. J. Straughan, "NMLL Recognition," Google Docs, 14 September 2011. [Online]. Available: https://docs.google.com/spreadsheets/d/1Z-rJzroZ7QrGcqd2RvZ5P3OW7DyX7H-GpT-dK-xWZgA/edit?hl=en_US&hl=en_US#gid=0.

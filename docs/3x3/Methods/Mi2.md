@@ -17,7 +17,7 @@ import AnimCube from "@site/src/components/AnimCube";
 3. Orient the remaining corners while placing the FR and BR edges.
 4. Permute all corners and edges.
 
-[MI2 Website](https://sites.google.com/site/athefre/mi2)
+[MI2 Website](https://sites.google.com/site/athefre/3x3-methods/mi2)
 
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/MI2)
 

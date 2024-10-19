@@ -130,7 +130,7 @@ In December, 2010, Michael James Straughan proposed combining outer, inner, and 
 
 [24] M. J. Straughan, "Notation Based Reference System (NBRS): A standard for defining methods and states," SpeedSolving.com, 4 March 2021. [Online]. Available: https://www.speedsolving.com/threads/notation-based-reference-system-nbrs-a-standard-for-defining-methods-and-states.79862/.
 
-[25] M. J. Straughan, "Notation Based Reference System," Google Sites, 2021. [Online]. Available: https://sites.google.com/site/athefre/concepts/nbrs?authuser=0.
+[25] M. J. Straughan, "Notation Based Reference System," Google Sites, 2021. [Online]. Available: https://sites.google.com/site/athefre/steps-concepts/nbrs.
 
 ## Credit
 

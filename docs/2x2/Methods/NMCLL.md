@@ -49,20 +49,20 @@ In 2021, Straughan devised a new recognition method that was then developed into
 
 ## References
 
-[1] 	G. Roux, ""LL" corners," Yahoo! Groups - Speed Solving Rubik's Cube, 12 December 2004. [Online]. 
+[1] G. Roux, ""LL" corners," Yahoo! Groups - Speed Solving Rubik's Cube, 12 December 2004. [Online].
 
-[2] 	G. Roux, "Step 3," Roux's website, 2004. [Online]. Available: https://web.archive.org/web/20041214140729/http://grrroux.free.fr:80/method/Step_3.html.
+[2] G. Roux, "Step 3," Roux's website, 2004. [Online]. Available: https://web.archive.org/web/20041214140729/http://grrroux.free.fr:80/method/Step_3.html.
 
-[3] 	M. J. Straughan and G. Roux, Personal communication, 3 October 2006. [Online]. 
+[3] M. J. Straughan and G. Roux, Personal communication, 3 October 2006. [Online].
 
-[4] 	G. Roux, "Step 3," Roux's website, 2006. [Online]. Available: http://grrroux.free.fr/method/Step_3.html.
+[4] G. Roux, "Step 3," Roux's website, 2006. [Online]. Available: http://grrroux.free.fr/method/Step_3.html.
 
-[5] 	M. J. Straughan, "2x2 Pseudo Solving: Improving CLL and EG," SpeedSolving.com, 1 June 2012. [Online]. Available: https://www.speedsolving.com/threads/2x2-pseudo-solving-improving-cll-and-eg.37073/.
+[5] M. J. Straughan, "2x2 Pseudo Solving: Improving CLL and EG," SpeedSolving.com, 1 June 2012. [Online]. Available: https://www.speedsolving.com/threads/2x2-pseudo-solving-improving-cll-and-eg.37073/.
 
-[6] 	M. J. Straughan, "A2," Straughan's website, 2012. [Online]. Available: https://sites.google.com/site/athefre/other/nmcll?authuser=0.
+[6] M. J. Straughan, "A2," Straughan's website, 2012. [Online]. Available: https://sites.google.com/site/athefre/other-puzzles/nmcll.
 
-[7] 	M. J. Straughan and G. Roux, Personal communication, 26 April 2010. [Online]. 
+[7] M. J. Straughan and G. Roux, Personal communication, 26 April 2010. [Online].
 
-[8] 	G. Roux, "Step 3," Roux's website, 2010. [Online]. Available: https://web.archive.org/web/20111204185452/http://grrroux.free.fr/method/Step_3.html.
+[8] G. Roux, "Step 3," Roux's website, 2010. [Online]. Available: https://web.archive.org/web/20111204185452/http://grrroux.free.fr/method/Step_3.html.
 
-[9] 	M. J. Straughan and T. Mosher, "ATCRM," Straughan's Website, 2021. [Online]. Available: https://sites.google.com/site/athefre/atcrm?authuser=0.
+[9] M. J. Straughan and T. Mosher, "ATCRM," Straughan's Website, 2021. [Online]. Available: https://sites.google.com/site/athefre/recognition/atcrm.

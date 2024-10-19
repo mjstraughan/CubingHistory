@@ -188,7 +188,7 @@ In September, 2022, Hudgens created a guide that describes the various ZBLL reco
 
 [15] R. Hudgens and J. Tudor, Personal communication, 1 September 2022. [Online].
 
-[16] M. J. Straughan, "Polar ZBLL Recognition," Straughan's Website, 2023. [Online]. Available: https://sites.google.com/site/athefre/other/polar-recognition.
+[16] M. J. Straughan, "Polar ZBLL Recognition," Straughan's Website, 2023. [Online]. Available: https://sites.google.com/site/athefre/recognition/polar-recognition.
 
 [17] M. J. Straughan and T. Mosher, Personal communication, 21 September 2022. [Online].
 
