@@ -72,7 +72,9 @@ After graduation, Rubik became a lecturer and was asked to teach the subject. In
 
 Rubik also notes several earlier puzzles that may have had an influence. The first of these is the tangram. A tangram consists of several sharply angled shapes, such as triangles, rectangles, or trapezoids, that are positioned and connected to form a larger shape. A similar puzzle is the pentomino. In this puzzle, the piece arrangement and connection goals are the same but the individual pieces are formed of several connected squares. Taking the pentomino into the third dimension, there is also the Soma cube. Instead of the pentomino shapes always forming a two-dimensional line and arranged on a flat surface, the pieces of the Soma cube are connected in three dimensions to build a cube shape.
 
+**Tangram**
 ![](img/Hardware/Tangram.png)
+**Pentominos**
 ![](img/Hardware/Pentominos.png)
 
 Rubik points out another cube shaped puzzle called MacMahon's Cubes. In this puzzle, there are 30 different cubes, each with various color combinations on the six sides. The object of the game is to start by picking a single cube. Then, using that cube as a reference, pick out eight other cubes and try to stack them to form a 2x2x2 (or 3x3x3) with the same outer, and matching inner, colors as the reference cube.
@@ -88,7 +90,6 @@ Rubik continues by describing the formation of the idea of Rubik's Cube. Rubik h
 Rubik then set out to find a way to construct the 2x2x2 cube in a way that both allowed for the pieces to stay together by themselves and allowed for the observed turning possibilities. Rubik drilled holes diagonally through each of the eight cubes then threaded strips of rubber from one diagonal cube to the other. Rubik was also interested in knowing the effects upon individual cubes as the layers of the 2x2x2 were turned. So he applied colored pieces of paper to each of the individual cubes.
 
 ![](img/Hardware/2x2Prototype.png)
-
 Image from [Liberty Science Center](https://lsc.org/news-and-social/news/beyond-rubiks-cube-day-30-prototype-rubiks-cube)
 
 After applying several turns to the 2x2x2, Rubik was surprised to discover just how difficult it was to return the pieces to the original state. In trying to find a solution, the rubber strips holding the pieces together tangled and broke, collapsing the 2x2x2. Rubik then set about finding a better way to hold the pieces together.
@@ -98,7 +99,6 @@ The use of magnets, possibly similar to Nichols' 1970 patent application, was co
 Rubik decided to focus on the inner edges of each of the eight cubes. He realized that because each turn moves in a circular direction, "tracks" could be implemented on the inner side of each layer. The inner edges of the corner pieces could be modified to move along the tracks. This eventually led to the dovetail connections in the final cube. For the 3x3x3 version, Rubik's Cube, Rubik fitted spring-loaded screws into the six center pieces to keep all pieces at an even tension and to avoid difficult turning or loose, rattling movement.
 
 ![](img/Hardware/3x3Prototype.png)
-
 Image from [Liberty Science Center](https://lsc.org/news-and-social/news/beyond-rubiks-cube-day-24-production-prototype-cube)
 
 ## Introduction of Rubik's Cube
@@ -119,7 +119,7 @@ Another interesting note is a series of patents filed by Terutoshi Ishige (çŸ³æ¯
 ![](img/Hardware/Ishige3-1.png)
 ![](img/Hardware/Ishige3-2.png)
 
-Although the history of Rubik's Cube is complicated with various similar or matching prior patents and claims, Rubik is the one who took action to develop a working product and find a manufacturer to produce and market the cube as a product. It is also clear that Rubik's development was of major influence. Rubik's Cube captivated the entire world and inspired an entirely new category of three-dimensional twisty puzzles.
+Although the history of Rubik's Cube is complicated with various similar or matching prior patents and claims, Rubik is the one who took action to develop a working product and find a manufacturer to produce and market the cube. It is also clear that Rubik's development was of major influence. Rubik's Cube captivated the entire world and inspired an entirely new category of three-dimensional twisty puzzles.
 
 ## Sources and Credit
 
