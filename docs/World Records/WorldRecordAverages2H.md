@@ -327,11 +327,11 @@ On July 30, 2022, Kolasiński broke the sub-5 barrier with a 4.86 second average
 **4.09 second average by Yiheng Wang**
 | **Solve** | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
 |------|------|------|----|-----|------|-----|------|
-| 1 | CFOP | Unknown | 3.83 | 46 | 12.01 | 46 | 12.01 |
-| 2 | CFOP | Unknown | (5.16) | 54 | 10.47 | 55 | 10.66 |
-| 3 | CFOP | Unknown | 4.55 | 54 | 11.87 | 55 | 12.09 |
-| 4 | CFOP | Unknown | (3.71) | 37 | 9.97 | 38 | 10.24 |
-| 5 | CFOP | Unknown | 3.88 | 61 | 15.72 | 61 | 15.72 |
+| 1 | CFOP | GAN 12 Maglev UV | 3.83 | 46 | 12.01 | 46 | 12.01 |
+| 2 | CFOP | GAN 12 Maglev UV | (5.16) | 54 | 10.47 | 55 | 10.66 |
+| 3 | CFOP | GAN 12 Maglev UV | 4.55 | 54 | 11.87 | 55 | 12.09 |
+| 4 | CFOP | GAN 12 Maglev UV | (3.71) | 37 | 9.97 | 38 | 10.24 |
+| 5 | CFOP | GAN 12 Maglev UV | 3.88 | 61 | 15.72 | 61 | 15.72 |
 
 Six months after the world record of 4.86 seconds was tied, a new world record was achieved. On March 1, 2023, Yiheng Wang set a new world record average of 4.69 seconds. This record really brought to everyone’s attention the high turns per second within Yiheng Wang’s solves. Similar to Max Park, the focus was less on move efficiency and more on turning as fast as possible.
 
@@ -344,14 +344,6 @@ The 4.69 second average was the first of several world records. From June 2023 t
 | 4.36    | (6.11) (3.97) 4.48 4.59 4.02 | July 5, 2024       |
 | 4.25    | 4.76 3.98 (4.81) 4.00 (3.96) | August 25, 2024    |
 | 4.09    | 3.83 (5.16) 4.55 (3.71) 3.88 | September 21, 2024 |
-
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/TODS4WQVIGY"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe loading="lazy" width="100%" height="100%"
