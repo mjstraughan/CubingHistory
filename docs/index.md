@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 slug: /
+description: The history of the Rubik's Cube, world records, solving methods, other puzzles, and more.
 ---
 
 # Cubing History

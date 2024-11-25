@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+description: History of Rubik's Cube solving method shapes
 ---
 
 import AnimCube from "@site/src/components/AnimCube";

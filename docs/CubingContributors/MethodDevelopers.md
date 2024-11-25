@@ -1,3 +1,7 @@
+---
+description: History of Rubik's Cube method developers
+---
+
 # Method Developers
 
 Since the inception of twisty puzzles, many people have contributed ideas and developments.

@@ -1,3 +1,7 @@
+---
+description: History of the Petrus method for the Rubik's Cube
+---
+
 import AnimCube from "@site/src/components/AnimCube";
 
 # Petrus
@@ -53,7 +57,7 @@ Lars Petrus used the method in the World Rubik's Cube Championship 1982 [6]. The
 
 > This comes from the Cubic Circular where David Singmaster described the results and the methods that the competitors used.
 
->The description of Petrus' method is slightly different from how we know it today. Instead of only orienting the edges after the 2x2x3 block, it says that, after the 2x2x3 block, Petrus orients the edges then orients the corners before completing F2L and LL. Either the Petrus method was slightly different at the time or there was a misunderstanding or mistake when Singmaster recorded the steps.
+> The description of Petrus' method is slightly different from how we know it today. Instead of only orienting the edges after the 2x2x3 block, it says that, after the 2x2x3 block, Petrus orients the edges then orients the corners before completing F2L and LL. Either the Petrus method was slightly different at the time or there was a misunderstanding or mistake when Singmaster recorded the steps.
 
 ## Edge Orientation Rotation
 
@@ -72,17 +76,17 @@ Soon after the messages from Laire, others in the community were stating that th
 
 ## Morwen Thistlethwaite's 2x2x3 Method
 
-In 1979 in David Singmaster's *Notes on Rubik's 'Magic Cube'*, Singmaster describes a method from Morwen Thistlethwaite [11]. It is stated that Thistlethwaite "involves first doing a 2x2x3 block...he then correctly orients all the remaining edges...then positions [the first two layer edges] and then puts [the first two layer corners] correctly in place. He then does the [U layer edges] and [U layer corners]..."
+In 1979 in David Singmaster's _Notes on Rubik's 'Magic Cube'_, Singmaster describes a method from Morwen Thistlethwaite [11]. It is stated that Thistlethwaite "involves first doing a 2x2x3 block...he then correctly orients all the remaining edges...then positions [the first two layer edges] and then puts [the first two layer corners] correctly in place. He then does the [U layer edges] and [U layer corners]..."
 
 ## References
 
 [1] L. Petrus, "Re: Speed cubing," Cube Lovers, 10 June 1996. [Online]. Available: http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/Lars_Petrus__Re__Speed_cubing.html.
 
-[2] L. Petrus, "[Speed cubing group] Re: 4x4 thoughts....," Yahoo! Groups - Speed Solving Rubik's Cube, 1 August 2004. [Online]. 
+[2] L. Petrus, "[Speed cubing group] Re: 4x4 thoughts....," Yahoo! Groups - Speed Solving Rubik's Cube, 1 August 2004. [Online].
 
 [3] L. Petrus, Lars Petrus, March 1997. [Online]. Available: https://web.archive.org/web/19981201224552/http://u1.netgate.net/~mette/lars/cubedude/.
 
-[4] L. Petrus, "[Speed Solving Rubik's Cube] Re: beginner needs some advice," Yahoo! Groups - Speed Solving Rubik's Cube, 5 April 2002. [Online]. 
+[4] L. Petrus, "[Speed Solving Rubik's Cube] Re: beginner needs some advice," Yahoo! Groups - Speed Solving Rubik's Cube, 5 April 2002. [Online].
 
 [5] L. Petrus, Petrus Method, 2002. [Online]. Available: https://lar5.com/cube/index.html.
 
@@ -96,4 +100,4 @@ In 1979 in David Singmaster's *Notes on Rubik's 'Magic Cube'*, Singmaster descri
 
 [10] Various, "Petrus Method," TwistyPuzzles.com, 2007. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=67431p67431.
 
-[11] 	D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 32.
+[11] D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 32.

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: History of the Rubik's Cube
 ---
 
 # Rubik's Cube History

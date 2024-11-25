@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: History of the World Cube Association (WCA), its Guinness World Records origins, and making world records official.
 ---
 
 import ReactPlayer from 'react-player'

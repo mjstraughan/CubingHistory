@@ -1,3 +1,7 @@
+---
+description: History of the CFOP method for the Rubik's Cube
+---
+
 import AnimCube from "@site/src/components/AnimCube";
 import styles from "./CFOP.module.css";
 import ReactPlayer from 'react-player'

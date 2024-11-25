@@ -1,3 +1,7 @@
+---
+description: History of the Bencisco method for the FTO
+---
+
 import TwistyPlayer from "@site/src/components/TwistyPlayer";
 
 # Bencisco

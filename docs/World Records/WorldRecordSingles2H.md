@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: History of Rubik's Cube world records. The achievements of Feliks Zemdegs, Max Park, Yiheng Wang, and more.
 ---
 
 import AnimCube from "@site/src/components/AnimCube";

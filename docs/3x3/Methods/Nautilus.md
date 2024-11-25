@@ -1,3 +1,7 @@
+---
+description: History of the Nautilus method for the Rubik's Cube
+---
+
 import AnimCube from "@site/src/components/AnimCube";
 
 # Nautilus

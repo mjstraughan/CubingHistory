@@ -1,3 +1,7 @@
+---
+description: History of the APB method for the Rubik's Cube
+---
+
 import AnimCube from "@site/src/components/AnimCube";
 
 # APB
@@ -30,7 +34,7 @@ APB started from the thought that the EO step of Petrus should be simultaneously
 
 ![Origin](img/APB/APBOrigin.png)
 
->Straughan wasn't a Petrus user, contrary to what the wording may convey. Straughan had been experimenting with the methods available at the time in 2005 - 2006. Petrus was one method that Straughan had tried. In January - February 2006, Straughan came to the conclusion that the edge orientation step almost felt like a waste, and ultimately chose Roux.
+> Straughan wasn't a Petrus user, contrary to what the wording may convey. Straughan had been experimenting with the methods available at the time in 2005 - 2006. Petrus was one method that Straughan had tried. In January - February 2006, Straughan came to the conclusion that the edge orientation step almost felt like a waste, and ultimately chose Roux.
 
 In 2021, Straughan started a discussion in the Petrus channel of the r/cubers Discord server. The discussion was about adding something to the edge orientation step of the Petrus method [2].
 
@@ -43,7 +47,7 @@ A couple of weeks later Straughan started another discussion on determining how 
 
 ## Proposal
 
-APB was initially proposed in May, 2021 then fully developed and presented to the community in September, 2021 [4, 5]. 
+APB was initially proposed in May, 2021 then fully developed and presented to the community in September, 2021 [4, 5].
 
 ![Origin](img/APB/OriginalProposal.png)
 ![Origin](img/APB/SSFPost.png)

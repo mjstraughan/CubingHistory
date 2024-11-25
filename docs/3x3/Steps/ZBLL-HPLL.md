@@ -1,3 +1,7 @@
+---
+description: History of ZBLL / HPLL for the Rubik's Cube
+---
+
 import AnimCube from "@site/src/components/AnimCube";
 
 # ZBLL / HPLL

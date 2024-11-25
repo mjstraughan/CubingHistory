@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: History of the Face Turning Octahedron (FTO)
 ---
 
 # FTO History

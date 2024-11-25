@@ -1,3 +1,7 @@
+---
+description: History of the ZZ method for the Rubik's Cube
+---
+
 import AnimCube from "@site/src/components/AnimCube";
 
 # ZZ
@@ -27,7 +31,8 @@ import AnimCube from "@site/src/components/AnimCube";
 Around 2003, or even earlier, Gilles Roux and Adam Géhin began experimenting with solving the DF and DB edges while orienting all other edges (commonly called EOLine) [1]. The steps afterward were to complete the first two layers then solve the last layer. Eventually, Géhin placed a video on his website of himself using the method [2].
 
 ![](img/ZZ/GillesAdam.png)
->This is from a private conversation between Roux and I.
+
+> This is from a private conversation between Roux and I.
 
 In January, 2003 Ryan Heise came across the video. Heise noticed that Géhin used only L, U, and R turns to solve the first two layers. Not knowing that it was the exact method already being used in the video, Heise proposed it as a new method. In a message to the Speed Solving Rubik's Cube Yahoo group, Heise suggested both EOLine and EOCross [3].
 
@@ -50,7 +55,7 @@ Eventually, Bruchem began experimenting with solving the first two layers after 
 
 ![](img/ZZ/Bruchem4.png)
 
->This message is from July, 2005, which is over a year before the creation of the ZZ website.
+> This message is from July, 2005, which is over a year before the creation of the ZZ website.
 
 At the European Rubik's Games Championship 2004 (August 7-8, 2004) [9], Zbigniew Zborowski observed Bruchem demonstrating the methods involving EOLine and or EOCross [10].
 
@@ -59,7 +64,6 @@ At the European Rubik's Games Championship 2004 (August 7-8, 2004) [9], Zbigniew
 Zborowski thought the concept demonstrated by Bruchem was the future of speedcubing, so Zborowski created a website describing the steps of EOLine, first two layers, then last layer and named the method ZZ [11]. Searching the website for "2006" indicates that the website was published in December, 2006.
 
 edward_9x on the speedsolving.com forum restored the applet functionality of the original website. It can be viewed <a href="/archive/nooks_zz_new.htm">here</a>.
-
 
 Before publishing the website, Zborowski had been discussing the method within the Polish community. The speedcubing.com.pl website in particular included some of these discussions [12]. However, speedcubing.com.pl wasn't well preserved on archive.org, so reading all discussions isn't possible.
 
@@ -170,21 +174,21 @@ Dylan Nyein: Provided information on the ZZ-D variant.
 
 ## References
 
-[1] M. J. Straughan and G. Roux, Personal communication, 24 August 2022. [Online]. 
+[1] M. J. Straughan and G. Roux, Personal communication, 24 August 2022. [Online].
 
 [2] A. Géhin, "The Mythical Rubik's Cube," June 2003. [Online]. Available: https://web.archive.org/web/20030620092845/http://borntodie.free.fr/.
 
-[3] R. Heise, ""line"," Yahoo! Groups - Speed Solving Rubik's Cube, 1 July 2003. [Online]. 
+[3] R. Heise, ""line"," Yahoo! Groups - Speed Solving Rubik's Cube, 1 July 2003. [Online].
 
 [4] G. Roux, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 5 May 2020. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1368143.
 
-[5] R. v. Bruchem, "Yet another method," Yahoo! Groups - Speed Solving Rubik's Cube, 13 June 2004. [Online]. 
+[5] R. v. Bruchem, "Yet another method," Yahoo! Groups - Speed Solving Rubik's Cube, 13 June 2004. [Online].
 
-[6] R. v. Bruchem, "Re: [Speed cubing group] Yet another method," Yahoo! Groups - Speed Solving Rubik's Cube, 26 July 2004. [Online]. 
+[6] R. v. Bruchem, "Re: [Speed cubing group] Yet another method," Yahoo! Groups - Speed Solving Rubik's Cube, 26 July 2004. [Online].
 
-[7] R. v. Bruchem, "Re: [Speed cubing group] Re: orient edges first method," Yahoo! Groups - Speed Solving Rubik's Cube, 14 October 2006. [Online]. 
+[7] R. v. Bruchem, "Re: [Speed cubing group] Re: orient edges first method," Yahoo! Groups - Speed Solving Rubik's Cube, 14 October 2006. [Online].
 
-[8] J. v. Noort, "Re: EOCross," Yahoo! Groups - Speed Solving Rubik's Cube, 25 July 2005. [Online]. 
+[8] J. v. Noort, "Re: EOCross," Yahoo! Groups - Speed Solving Rubik's Cube, 25 July 2005. [Online].
 
 [9] WCA, "European Rubik's Games Championship 2004," World Cube Association, 2004. [Online]. Available: https://www.worldcubeassociation.org/competitions/Euro2004/results/by_person.
 
