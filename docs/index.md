@@ -1,14 +1,14 @@
 ---
 sidebar_position: 1
 slug: /
-description: The history of the Rubik's Cube, world records, solving methods, other puzzles, and more.
+description: The history of the Rubik's Cube, world records, solving methods, Megaminx, Pyraminx, Skewb, Square-1, and more.
 ---
 
 # Cubing History
 
 ## Purpose
 
-This website was created to serve as an archive of cubing history. The history of the community has been poorly documented so this is an attempt to recover and preserve everyone's contributions. Information has been compiled from various message boards, mailing lists, newsletters, books, conversing with others through private messages, and many years of my own experience and knowledge since joining the community in 2005. All content on the site is original research starting from the very beginning of each subject. Nothing is taken from any wiki pages or similar sources.
+This website was created to serve as an archive of Rubiks' Cube history - including world records, solving methods, hardware, and more - as well as the history of other puzzles such as Megaminx, Pyraminx, Skewb, Square-1, FTO, 2x2, and big cubes. The history of the community has been poorly documented so this is an attempt to recover and preserve everyone's contributions. Information has been compiled from various message boards, mailing lists, newsletters, books, conversing with others through private messages, and many years of my own experience and knowledge since joining the community in 2005. All content on the site is original research starting from the very beginning of each subject. Nothing is taken from any wiki pages or similar sources.
 
 If you would like to support the hard work behind this project, a donation link is provided at the top of the page or click <a href="https://www.paypal.com/donate/?hosted_button_id=4TMHMJNVB62YY">here</a> if on mobile. This website is the result of hundreds of hours of research, writing, and website development.
 
