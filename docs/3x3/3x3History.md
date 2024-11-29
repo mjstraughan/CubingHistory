@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: History of the Rubik's Cube
+description: A comprehensive history of the Rubik's Cube. Including predecessors, patents, prototypes, Ernő Rubik, and more.
 ---
 
 # Rubik's Cube History

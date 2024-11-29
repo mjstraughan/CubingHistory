@@ -1,5 +1,5 @@
 ---
-description: History of the CFOP method for the Rubik's Cube
+description: History of the CFOP method for the Rubik's Cube.
 ---
 
 import AnimCube from "@site/src/components/AnimCube";
