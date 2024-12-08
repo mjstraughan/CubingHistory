@@ -69,9 +69,10 @@ In September of 2019, Streeter officially revealed the steps of the method to th
 
 ## Name Origin
 
-The Bencisco method is a portmanteau of Streeter’s first name and the name of the 3x3 method Triangular Francisco. The Triangular Francisco name has spun off into a couple of other varieties, including Quadrangular Francisco and Hexagonal Francisco. In May 2024, Streeter stated that while streaming solves on Twitch, a chat member suggested to name the method Octagonal Francisco, combining the FTO’s shape with the running Francisco name. Then another person took the idea further to create the portmanteau Bencisco [7].
+The Bencisco method name is a portmanteau of Streeter’s first name, Ben, and the second half of the name of the 3x3 method Triangular Francisco. The Triangular Francisco name has sort of become a name that people enjoy modifying for naming their own new methods. Examples include Quadrangular Francisco and Hexagonal Francisco. In May 2024, Streeter stated that while streaming solves on Twitch, chat members Edd Dibley and Charles Barden suggested to name the method Octagonal Francisco, combining the FTO’s shape with the Francisco name. Dibley and Barden then took the idea further to create the portmanteau Bencisco [7].
 
 ![](img/Bencisco/NameOrigin.png)
+![](img/Bencisco/NameOrigin2.png)
 
 ## References
 
