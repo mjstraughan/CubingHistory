@@ -22,7 +22,7 @@ The competition was held on June 5, 1982 in Budapest, Hungary. Competitors from 
 
 ![](img/WRSingles2H/WC1982Stamp.jpg)
 
-> Stamp issued by the government of Hungary in 1982 commemorating the 1982 championships. The stamp is shown here as framed and redistributed in 1983 by the Franklin Mint as part of a "World of Sports Collection". From my personal collection.
+> Stamp issued by the government of Hungary in 1982 commemorating the 1982 championships. The stamp is shown here as framed and redistributed in 1983 by the Franklin Mint as part of a "World of Sports" series. From my personal collection.
 
 The competition featured three rounds with each competitor solving the cube once each round. The best time of the competition was 22.95, achieved by Minh Thai in the second round. This resulted in Minh Thai winning the competition and setting the first ever official world record. The competitors all used varying solving methods, with Minh Thai using Corners First to win the competition [2]. A couple of months before the championship, in April of 1982, Minh Thai published the method that he uses in a book called _The Winning Solution_. The book was titled such due to Minh Thai having won the U.S. National Rubik's Cube-A-Thon.
 
