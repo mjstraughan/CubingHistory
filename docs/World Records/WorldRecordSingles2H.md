@@ -20,6 +20,10 @@ The first officially recognized competition is the Rubik's Cube World Championsh
 
 The competition was held on June 5, 1982 in Budapest, Hungary. Competitors from various countries were chosen to participate. In order to qualify, a competitor must have been able to solve the cube in under one minute [1].
 
+![](img/WRSingles2H/WC1982Stamp.jpg)
+
+> Stamp issued by the government of Hungary in 1982 commemorating the 1982 championships. The stamp is shown here as framed and redistributed in 1983 by the Franklin Mint as part of a "World of Sports Collection". From my personal collection.
+
 The competition featured three rounds with each competitor solving the cube once each round. The best time of the competition was 22.95, achieved by Minh Thai in the second round. This resulted in Minh Thai winning the competition and setting the first ever official world record. The competitors all used varying solving methods, with Minh Thai using Corners First to win the competition [2]. A couple of months before the championship, in April of 1982, Minh Thai published the method that he uses in a book called _The Winning Solution_. The book was titled such due to Minh Thai having won the U.S. National Rubik's Cube-A-Thon.
 
 Today, Minh Thai’s 22.95 solve time is considered the first ever official world record because it was performed in the first competition to be officially recognized by the WCA. Lower record solve times were achieved in the early 1980s, such as a 17.04 second solve by Robert Pergl in the 1983 Czechoslovakian Championship [3]. However, these other solves aren’t considered by the WCA to be official.
