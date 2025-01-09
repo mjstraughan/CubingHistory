@@ -2,7 +2,7 @@
 
 Below are some of the online communities used for research. Click the headers to view the communities. Other communities and sub-communities exist on websites such as Facebook, Reddit, and Discord.
 
-## <a href="/archive/YahooGroups/YahooGroups.html">Yahoo Groups</a>
+## <a href="/archive/YahooGroups/YahooGroups.html">Yahoo! Groups</a>
 
 In the early 2000s, the Speed Solving Rubik's Cube community was created. Soon after, several other cubing related communities were created using the same platform. Examples include blindfold solving, the fewest moves challenge, and various country specific groups. Click the header above to access a searchable archive of some of these groups.
 
