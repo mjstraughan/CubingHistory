@@ -2,11 +2,13 @@
 
 Below are some of the online communities used for research. Click the headers to view the communities. Other communities and sub-communities exist on websites such as Facebook, Reddit, and Discord.
 
-## [Yahoo! Groups](https://archive.org/details/cubingyahoogroups)
+## <a href="/archive/YahooGroups/YahooGroups.html">Yahoo Groups</a>
 
-In the early 2000s, the Speed Solving Rubik's Cube community was created. Soon after, several other cubing related communities were created using the same platform. Examples include blindfold solving, the fewest moves challenge, and various country specific groups. Click the header above to access an archive of some of these groups.
+In the early 2000s, the Speed Solving Rubik's Cube community was created. Soon after, several other cubing related communities were created using the same platform. Examples include blindfold solving, the fewest moves challenge, and various country specific groups. Click the header above to access a searchable archive of some of these groups.
 
 Some messages in the groups may be missing. There was a series of mergers from 1998 to 2000. In 1998, there was a merger of two mailing lists - ONElist and eGroups. In 2000, Yahoo! purchased eGroups, merged it with their own mailing list called Yahoo! Clubs to form a new mailing list platform called Yahoo! Groups. This change caused a deletion of around a year and a half worth of messages from the Speed Solving Rubik's Cube group and potentially others. The Speed Solving Rubik's Cube group was started in June of 2000 and any messages after August 5, 2000 and before March 27, 2002 were deleted.
+
+To download Mbox versions of some Yahoo! groups, click <a href="https://archive.org/details/cubingyahoogroups">here</a>.
 
 ## [Cube Lovers](https://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/Index_by_Date.html)
 
