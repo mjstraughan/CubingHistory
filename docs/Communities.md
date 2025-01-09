@@ -1,3 +1,9 @@
+---
+sidebar_position: 9
+slug: /Communities.md
+description: An archive of Rubik's Cube online communities such as Yahoo! Groups and Cube Lovers.
+---
+
 # Communities
 
 Below are some of the online communities used for research. Click the headers to view the communities. Other communities and sub-communities exist on websites such as Facebook, Reddit, and Discord.
