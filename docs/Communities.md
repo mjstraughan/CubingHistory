@@ -1,6 +1,6 @@
 ---
 sidebar_position: 9
-slug: /Communities.md
+slug: /Communities
 description: An archive of Rubik's Cube online communities such as Yahoo! Groups and Cube Lovers.
 ---
 
