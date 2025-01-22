@@ -102,7 +102,7 @@ In January, 2012, Kim Orbit developed a recognition method for ZZ-D and the algo
 
 ![](img/ZZ/Orbit.png)
 
-In 2018, Joseph Tudor developed a new variant of ZZ related to the ZZ-D variant [20]. The DBL corner is solved along with EOLine. Corner permutation is then solved while ensuring that the left side block pieces are within the U ald L layers, then the left side block is built first to preserve the corner permutation state. The remainder of the solve can be solved using just turns of the upper and right side layers.
+In 2018, Joseph Tudor developed a new variant of ZZ related to the ZZ-D variant [20]. The DBL corner is solved along with EOLine. Corner permutation is achieved while ensuring that the left side block pieces are within the U and L layers, then the left side block is built. This preserves the U and R layer corner permutation orbit and the remainder of the solve can be completed using just turns of the U and R layers.
 
 ![](img/ZZ/Tudor.png)
 
