@@ -13,7 +13,7 @@ import AnimCube from "@site/src/components/AnimCube";
 **Steps:**
 
 1. Solve the two 1x2x3 blocks as in the Roux method.
-2. Solving the DF and DB edges and the M slice centers.
+2. Solve the DF and DB edges and the M slice centers.
 3. OLL.
 4. PLL.
 
