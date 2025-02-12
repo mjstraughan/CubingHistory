@@ -1,8 +1,12 @@
+---
+description: History of the CEOR method for the Rubik's Cube.
+---
+
 # CEOR
 
 ## Description
 
-**Proposer:** [Noah Arthurs](CubingContributors/MethodDevelopers.md#arthurs-noah), others
+**Proposer:** [Noah Arthurs](CubingContributors/MethodDevelopers.md#arthurs-noah), [Joseph Briggs](CubingContributors/MethodDevelopers.md#briggs-joseph-shadowslice), [Yash Mehta](CubingContributors/MethodDevelopers.md#mehta-yash), others
 
 **Proposed:** 2013
 
