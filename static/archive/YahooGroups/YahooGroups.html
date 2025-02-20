@@ -4,28 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Email Viewer</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-      }
-      .email-item {
-        margin-bottom: 20px;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-      }
-      #filters {
-        margin-bottom: 20px;
-      }
-      label {
-        margin-right: 10px;
-      }
-    </style>
+    <link rel="stylesheet" href="./YahooGroupStyles.css" />
   </head>
   <body>
-    <h1>Yahoo Groups</h1>
-    <div id="filters">
-      <label>
+    <h1>Yahoo! Groups</h1>
+    <div id="filters" class="filters">
+      <label id="groupLabel">
         Group:
         <select id="group">
           <option id="speedsolvingrubikscube">
@@ -42,16 +26,20 @@
           </option>
         </select>
       </label>
-      <label>
+      <label id="searchLabel">
         Search:
         <input type="text" id="search-box" placeholder="Search content" />
       </label>
-      <label> Start Date: <input type="date" id="start-date" /> </label>
-      <label> End Date: <input type="date" id="end-date" /> </label>
-      <label>
+      <label id="startDateLabel">
+        Start Date: <input type="date" id="start-date" />
+      </label>
+      <label id="endDateLabel">
+        End Date: <input type="date" id="end-date" />
+      </label>
+      <label id="senderLabel">
         Sender: <input type="text" id="sender-box" placeholder="Sender email" />
       </label>
-      <label>
+      <label id="subjectLabel">
         Subject: <input type="text" id="subject-box" placeholder="Subject" />
       </label>
       <button id="apply-filters">Apply Filters</button>
@@ -99,12 +87,12 @@
           const emailElement = document.createElement("div");
           emailElement.className = "email-item";
           emailElement.innerHTML = `
-                    <strong>From:</strong> ${email.from} <br>
-                    <strong>Subject:</strong> ${email.subject} <br>
-                    <strong>Date:</strong> ${email.date} <br>
-                    <p>${email.content}</p>
-                    <hr>
-                `;
+            <strong>From:</strong> ${email.from} <br>
+            <strong>Subject:</strong> ${email.subject} <br>
+            <strong>Date:</strong> ${email.date} <br>
+            <p>${email.content.replace(/\n/g, "<br>")}</p>
+            <hr>
+        `;
           emailList.appendChild(emailElement);
         });
       }
