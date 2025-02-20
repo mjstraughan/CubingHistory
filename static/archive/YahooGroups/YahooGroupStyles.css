@@ -46,42 +46,42 @@ label {
   grid-row: 2;
 }
 
-#startDateLabel {
-  grid-column: 1;
-  grid-row: 3;
-}
-
-#start-date {
-  grid-column: 2;
-  grid-row: 3;
-}
-
-#endDateLabel {
-  grid-column: 1;
-  grid-row: 4;
-}
-
-#end-date {
-  grid-column: 2;
-  grid-row: 4;
-}
-
 #senderLabel {
   grid-column: 1;
-  grid-row: 5;
+  grid-row: 3;
 }
 
 #sender-box {
   grid-column: 2;
-  grid-row: 5;
+  grid-row: 3;
 }
 
 #subjectLabel {
   grid-column: 1;
-  grid-row: 6;
+  grid-row: 4;
 }
 
 #subject-box {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+#startDateLabel {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+#start-date {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+#endDateLabel {
+  grid-column: 1;
+  grid-row: 6;
+}
+
+#end-date {
   grid-column: 2;
   grid-row: 6;
 }
