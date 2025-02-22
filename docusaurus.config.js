@@ -61,7 +61,7 @@ const config = {
     ],
   ],
 
-  plugins: ["docusaurus-plugin-goatcounter", "plugin-image-zoom"],
+  plugins: ["docusaurus-plugin-goatcounter", "docusaurus-plugin-zooming"],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -119,18 +119,15 @@ const config = {
       goatcounter: {
         code: "cubinghistory",
       },
-      imageZoom: {
-        // CSS selector to apply the plugin to, defaults to '.markdown img'
+      zooming: {
         selector: ".markdown img",
-        // Optional medium-zoom options
-        // see: https://www.npmjs.com/package/medium-zoom#options
+        delay: 500,
+        background: {
+          light: "rgba(101,108,133,0.8)",
+          dark: "rgba(9,10,17,0.8)",
+        },
         options: {
-          margin: 0,
-          scrollOffset: 0,
-          background: {
-            light: "rgb(255, 255, 255)",
-            dark: "rgb(50, 50, 50)",
-          },
+          // See the docs of zooming for all available options: https://github.com/francoischalifour/medium-zoom#usage
         },
       },
     }),
