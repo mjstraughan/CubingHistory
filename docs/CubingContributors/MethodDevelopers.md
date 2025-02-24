@@ -391,6 +391,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - The standard outer turn notation
 - Popularization of cross and the LBL method (though not the actual development)
 
+## Smith, Robert
+
+- Hyperorientations CxLL recognition method
+
 ## Snyder, Anthony
 
 - Snyder Method 1
@@ -417,7 +421,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - Non-Matching CLL and EG
 - Conjugated CLL (2x2)
 - Non-matching corner recognition - NMCMLL / ATCRM
-- Transformed corner recognition (CCMLL) - ATCRM
+- Conjugated CLL recognition - ATCRM
 - L5C and SL5C for the 42 method
 - CLL+1 and COLL+1 (development based on Thom Barlow's idea)
 - DFDB recognition for the Roux method
