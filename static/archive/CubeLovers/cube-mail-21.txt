@@ -1,0 +1,4660 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Jul  2 00:37:39 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA03069; Tue, 2 Jul 1996 00:37:39 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <31D8CDCC.7AB9@dis.on.ca>
+Date: Tue, 02 Jul 1996 00:20:44 -0700
+From: Mark Longridge <cubeman@dis.on.ca>
+Organization: Computer Creations
+X-Mailer: Mozilla 2.01 (Win16; U)
+Mime-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Cube Moves
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline; filename="MARK1.TXT"
+
+ > My name is Isidro Costantini, I'm a cube lover since '81.
+
+   Welcome to cube lovers the mailing list.
+
+>  ( Where's a place to check for those formulas? )
+
+Well, I'm not finished yet, but I do archive all the cube formulas
+I get a hold of or compose. Some of the work is with the assistance
+of computers and/or mathematical insight.
+
+http://www.dis.on.ca/~cubeman
+
+>  Another good example is (xchg 3 edges,noFlip) (12) R2 U1 F1 B3 R2
+> F3 B1 U1 R2 (9 moves using your way of counting) and another
+> equivalent: B3 U3 R3 U1 R1 B1 followed by F1 R1 U1 R3 U3 F3
+> (6+6 moves, same position).
+>  Another way of counting could be adding the suffix (1,2 or 3)
+> (counting only clockwise moves) which would preserve parity as well.
+> I would be pleased if some one can tell me about this subject.
+
+The sequence  X = (B3 U3 R3 U1 R1 B1 F1 R1 U1 R3 U3 F3) is a very
+interesting one.
+
+Note that X = B3 [U3 R3] B1 + F1 [R1 U1] F3
+
+The above makes use of conjugates and commutators.
+
+The following is a top view of a megaminx (magic dodecahedron):
+      /\
+    /    \
+  /        \
+  \   U    /
+L  \      / R
+    \____/
+      F
+
+Then the very similar sequence   R+ F+ U+ F- U- R-
+                                 L- U- F- T+ F+ L+
+
+...suffices to also 3-cycle the edges  (uf, lf, rf) on the megaminx.
+
+In this case I don't like the U3 = U- or U' notation.
+Clearly on the megaminx U3 <> U'
+
+Note that each turn of a face is always turned one way and then back.
+The 5-period rotation of a face is never used. In special cases like
+these cube moves from the standard 3x3x3 are directly transferable
+to the megaminx.
+
+I have found that isoflips and isotwists work very well on the
+megaminx.
+
+The shortest flip of 2 adjacent edges uses the same 4 sides
+(so I say "this sequence has face-index 4), is the following:
+
+Note use of L-- and L++ etc to denote 2 one-fifth turns of a face!
+
+It is of the form P U1 P' U' which is another commutator.
+
+L-- R++ F+  U-  R+  U+  L++ R++ U+
+R-- L-- U-  R-  U+  F-  R-- L++ U-
+
+= 18 face turns or 26 one-fifth turns. Perhaps there is some
+improvement to this sequence.
+
+-> Mark <-
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Jul  3 04:41:56 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id EAA07109; Wed, 3 Jul 1996 04:41:55 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 3 Jul 1996 05:26:31 -0300
+From: FERNANDO VON REICHENBACH <reichen@cnea.edu.ar>
+Message-Id: <199607030826.FAA03614@cnea.edu.ar>
+To: Cube-Lovers@ai.mit.edu
+
+
+3/7/96
+Hi!, I'm Isidro, yesterday Mark wrote:
+
+> The shortest flip of 2 adjacent edges uses the same 4 sides
+> (so I say "this sequence has face-index 4), is the following:
+> Note use of L-- and L++ etc to denote 2 one-fifth turns of a face!
+> It is of the form P U1 P' U' which is another commutator.
+>
+> L-- R++ F+  U-  R+  U+  L++ R++ U+
+> R-- L-- U-  R-  U+  F-  R-- L++ U-
+>
+> = 18 face turns or 26 one-fifth turns. Perhaps there is some
+> .improvement to this sequence.
+
+  I have a megaminx borrowed and solve it using some of the 3x3x3
+knowledge that I have. It took me two years to solve all cases of
+the 4x4x4 (borrowed from the same friend), but not trying so hard...
+  I suppose you already have this, but just in case I'll send my own
+flip edges formulas in the standard cube to see if they could help
+with the other (I guess not):
+  R'F'L'U B'U B L F R U'B U'B' (14) (flips F & B edges)
+the same formula starting in the 4th move (UB'UBLFRU'BU'B' R'F'L')
+flips B & L edges.
+  A longer, (but faster in my hands) R B R'L U L'B F'D L'D'UB'U'F B'
+(16) (flips L & R)
+  R' U2 R2 U R' U' R' U2 L F R F' L' (16) (13 counting ^2 as 1) flips F&R
+  
+  L'B'U R'U'R B L followed by R B U'L U L'B'R' (16) flips B&R and maybe
+works on megaminx...
+
+Hope I'm sending something you don't have.
+
+I'm looking for improving this formulas (all of them exchanges (no
+fliping) 2 corners and 2 edges on the top face:
+  R2 B' R' U' R U R U'B R B'U B R (15/14) xchg BL-FL corn & F-R edg
+  F R'U'R F'L'B U'B'L R'U R / L U F U'F'L' (19) xchg BL-BR corn & R-L edg
+  F R'F'R U R U'R2U'R U R B'R'B U (17/16) xchg Bl-FR corn & L-B edg
+  L'UR'U L U'R U'L F'L' [F F'] U'L'U L F U (17) xchg BL-FR corn & L-F edg
+  R U R'U'R'F R [F' F] R U'R'U'R U R'F' (15/14) xchg RF-RB corn & L-R edg
+(I've some more but it's enough, besides I must tranlate them from spanish)
+
+  PS: What a coincidence, my first mail were intended to you, Mark.
+  
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Jul  3 19:36:59 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA08757; Wed, 3 Jul 1996 19:36:59 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 3 Jul 1996 15:17:59 -0300
+From: FERNANDO VON REICHENBACH <reichen@cnea.edu.ar>
+Message-Id: <199607031817.PAA08199@cnea.edu.ar>
+To: Cube-Lovers@ai.mit.edu
+Subject: Spanish moves
+
+  Hi! I'm Isidro, (I'm telling so cause I share my mail address)
+This is the spanish moving convetion:
+  Up = Arriba
+  Dwn = Bajo (abajo)
+  Lft = Izquierda
+  Rgt = Derecha
+  Front = Frente (Same letter :)
+  Back = Tras (atras)  (This is the one which is confusing, cause the
+same letter "B" means differnt things. And I don't have no formulas on
+my PC, only some sheets of papers from the '81-'82 and in my head, so
+a trnaslating program (very easy to do) it's useless, these last days
+I started thinking formulas movements in english, I guess it's the best
+choice if we want to exchange things, though I have to recheck everything
+to avoid mistakes...
+PS: By the way: Which is the preferred convention: U' U3 U- or what?
+    Where can I obtain programs for trying to find formulas?
+	(I started one myself in Pascal, just interprets moves)
+
+Isidro Costantini       Zappa/Hendrix/King Crimson music lover
+  Olivos, Bs.As.        PC hard/soft technician
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Jul  3 19:39:39 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA08766; Wed, 3 Jul 1996 19:39:39 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 3 Jul 1996 15:46:44 -0300
+From: FERNANDO VON REICHENBACH <reichen@cnea.edu.ar>
+Message-Id: <199607031846.PAA08649@cnea.edu.ar>
+To: Cube-Lovers@ai.mit.edu
+Subject: Moves:
+
+David wrote:
+> I chose to count R2 as one move as it takes one hand movement, hence
+> it takes about the same time as R, rather than twice as long.  So my
+> counting is more appropriate to questions of time or efficiency,
+  Although it is may be one hand move, R2 takes longer than R, if we
+start thinking that way, I suggest to give different values te each move
+(ie: R=1 R2=1.3 R'=1.2 L'=1 L=1.2 ...) depending on how long it would
+take to make that move, it could also depend on the previous move...
+  We could have an 'efficiency coeficient' of a given formula, but I 
+guess that would depend on many subjective factors (ie: if you are right
+or left-handed). I disagree with that, in our own cube meetings we used
+to have back in '82 (I was 18 then), we accepted the Q method cause it
+gave a lot of coherence in ALL formulas, and I'm not a mathemacian or
+group theorist, (a program will probably do R2=R+R+ taking exactly twice
+the time of one single move), eventually I rather put both counts in
+parenthesis, but I definetely choose the Q method. (Look at the samples
+in my 30/6 mail, I have a LOT more)
+
+Isidro Costantini       Zappa/Hendrix/King Crimson music lover
+  Olivos, Bs.As.        PC hard/soft technician
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Jul  5 16:34:40 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA16099; Fri, 5 Jul 1996 16:34:40 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199607051722.AA11168@foxtrot.rahul.net>
+To: Cube-Lovers@ai.mit.edu
+Subject: Cube Moves
+Date: Fri, 05 Jul 96 10:22:26 -0700
+From: jmc@rahul.net
+
+
+  Over the last several days I noticed a number of posts about people
+experimenting with moves and different combinations of moves on
+the cube, using different notation. I just thought I'd mention
+a java applet a wrote for a class. The applet allows you to
+enter moves in Singmaster notation and view the results on a cube.
+The applet uses fairly standard notation, and I put rather complete
+instructions on the page. It was fun to write, and neat to play
+with. If you are interesting in finding out new moves, give it
+a try. Just playing around, making stuff up, I came up with
+(r^b[u,l^f]r^b)^4, which uses commutators, conjugates and exponentiation,
+and translaes to (fu,lu,lr) (I think that's the right answer, but I'm
+not sure how it's written. Basically the move switches around three
+edges). The applet also supports capital letter moves, which is a 
+clockwise or counter-clockwise rotation of the whole cube, reorienting
+which face is f,l,r.. etc. Read the instructions and enjoy. The 
+URL is:
+  http://www.reed.edu/~jmc/project/
+Tell me what you think and what needs clarification.
+
+   Justin
+
+--
+Cthulhu For President, why vote for the lesser of two evils?
+http://www.cthulhu.org/jmc/
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Jul  5 20:09:33 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id UAA16504; Fri, 5 Jul 1996 20:09:32 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Sender: ltaylor@pop.kaiwan.com
+Message-Id: <v02130501ae03500ff2a5@[198.178.203.185]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 5 Jul 1996 17:02:18 -0700
+To: Cube-Lovers@ai.mit.edu
+From: "Larry A. Taylor" <ltaylor@kaiwan.com>
+Subject: Rubik's Cube mailing list
+
+I would be interested in descriptions of algorithms and heuristics used
+for solutions of the Rubik's Cube problem.  I have a copy of the Rubik's
+Math book in which (Freimaster?) the author describes some computer
+work done in England or Wales (was it Thistlewaite?)  There seemed to be
+no way to contact the author, trace the paper, and even a letter to the
+publishers of the book go no clues to the "newsletter" mentioned.
+
+It would be a great benefit to find out more about these computer methods.
+A portion of my dissertation work is based on search over the Rubik's cube
+domain.
+
+What is the status of the legal dispute?  I was able to buy a cube in a regular
+store a short while ago, after apparently being absent for many years.
+
+LAT
+
+Larry A. Taylor, <ltaylor@kaiwan.com>.  UCLA Computer Science Dept., Ph.D.
+candidate <ltaylor@cs.ucla.edu>.  DBA North Circle Software, 13104
+Philadelphia St, Suite 208, Whitter, CA 90601. Bus. phone, (310) 698-2739.
+Fax (310) 698-8164.  <75176.1071@compuserve.com>,  <ltaylo934@aol.com>
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Sat Jul 13 04:22:06 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id EAA00266; Sat, 13 Jul 1996 04:22:06 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <31E75D1A.2754@durham.net>
+Date: Sat, 13 Jul 1996 01:23:54 -0700
+From: Steve Huff <dn00111@durham.net>
+Organization: Huff Corp
+X-Mailer: Mozilla 2.01 (Win16; U)
+Mime-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Megaminx
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline; filename="MEGAMINX.TXT"
+
+Well I was on the right track long ago, but now I have confirmation.
+
+The megaminx has a slice group, analagous to the cube slice group.
+All the possible spot patterns are in the megaminx's slice group,
+e.g. the 10 spot and the 12 spot patterns. With process M1 we may
+easily generate any spot pattern, although there is much room
+for improvement.
+
+The slice group of the megaminx is generated by turning the faces
+opposite to each other in the same direction (i.e. same direction
+looking at a face head-on!)
+
+It is a small enough group to seach from head to tail, although
+the exact details are still being worked on.
+
+In the case of process M1, L is opposite to R, not just separated
+by a face F, as in processes M2 and M3.
+
+My original diagram is rather limited, but it does illustrate the
+idea of L & R separated by F only (as opposed to a real opposites
+but I have no satisfactory notation).
+
+
+      /\
+    /    \
+  /        \
+  \   U    /
+L  \      / R
+    \____/
+      F
+
+Moves for the Magic Dodecahedron (Megaminx)
+-------------------------------------------
+
+C_U = Rotate entire dodecahedron clockwise via the U face
+suffix notation: f = face turns
+                 u = unit turns
+
+M1 10 spot   (L1 R3 C_U)^36    (slice group)                    (72f)
+
+M2 3 cycle of edges (uf, lf, rf)
+              R+ F+ U+ F- U- R- L- U- F- U+ F+ L+               (12f)
+
+M3 2 flip     L-- R++ F+  U-  R+  U+  L++ R++ U+                (18f, 26u)
+              R-- L-- U-  R-  U+  F-  R-- L++ U-
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Jul 26 16:39:05 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA19300; Fri, 26 Jul 1996 16:39:05 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <01BB7B0E.AA2487E0@dialup-17.flnet.com>
+From: Christopher Pelley <ck1@flnet.com>
+To: "'Cube Lovers'" <Cube-Lovers@ai.mit.edu>
+Subject: Ray-traced cubes
+Date: Fri, 26 Jul 1996 16:22:18 -0400
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+For those interested in three-dimensional graphics of Rubik's Cubes, I =
+have made a few nice-looking images and put them at:
+
+	http://www.flnet.com/~ck1
+
+The images are 1024x768 JPEG files.  They were inspired by a ray-traced =
+image I found on America Online a couple years ago.  There is also a =
+scanned image of cube advertisements from the early 80's.  Enjoy!
+
+Chris Pelley
+ck1@flnet.com
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Aug  5 22:41:01 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA22841; Mon, 5 Aug 1996 22:41:00 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: bagleyd <bagleyd@hertz.njit.edu>
+Message-Id: <199608060132.VAA14816@hertz.njit.edu>
+Subject: panex puzzle
+To: cube-lovers@ai.mit.edu
+Date: Mon, 5 Aug 96 21:32:18 EDT
+X-Mailer: ELM [version 2.3 PL11]
+
+Hi
+  I just made a new puzzle for the X Window System and MS Windows 3.1 or
+greater.  The new puzzle is Panex which is very similar to (but a lot harder
+than) the Tower of Hanoi.  In fact there is a Hanoi mode in the puzzle.
+My wife who is usually indifferent towards puzzles, liked this one.
+
+  I also made updates to my other puzzles; the rubik, dino, and skewb puzzles.
+You can pick this stuff up at
+http://hertz.njit.edu/~bagleyd/
+
+Source code and README files are also supplied.
+
+Cheers,
+  /X\   David A. Bagley
+ // \\  bagleyd@hertz.njit.edu   http://hertz.njit.edu/~bagleyd/
+((   X  xlockmore, new stuff for xlock @ ftp.x.org//contrib/applications
+ \\ //  altris, tetris games for x @ ftp.x.org//contrib/games/altris
+  \X/   puzzles, magic cubes for x @ ftp.x.org//contrib/games/puzzles
+
+
+From cube-lovers-errors@curry.epilogue.com  Tue Aug  6 14:37:19 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA24897; Tue, 6 Aug 1996 14:37:18 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 06 Aug 1996 08:58:23 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Commuting Sets
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.960806084631.10387A-100000@PSTCC6.PSTCC.CC.TN.US>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+If X and Y are sets of permutations, we define XY to be the set
+{xy | x in X and y in Y}.  In my various search programs, I have 
+encountered a number of cases where we have XY=YX, even though we do not 
+in general have xy=yx.  For example, let Q[n] be the set of all positions 
+which are n quarter turns from Start.  My standard breadth first search 
+is essentially Q[n+1] = Q[n]Q[1] - Q[n-1].  But we could just as well say
+Q[n+1] = Q[1]Q[n] - Q[n-1] because Q[n]Q[1] and Q[1]Q[n] are the same set.
+
+I have been wondering, what are the necessary and sufficient conditions 
+for XY = YX?  Note that X and Y are not necessarily groups.
+
+I really don't know the answer, and I wondered if anybody out there does. 
+I have some suspicions it has something to do with conjugacy.  In all the
+cases I have worked with, it it the case that if x in X and y in Y, then
+all the K-conjugates of x are also in X and all the K-conjugates of y are
+also in Y -- where K is usually M, the set of 48 rotations and reflections
+of the cube.  For other searches such as <U,R>, K is the symmetry group
+associated with the group being searched. 
+
+It is trivial to make an X and Y that don't "commute" in this matter.  
+That is, pick x and y that don't commute and have sets X and Y containing 
+only the single elements x and y, respectively.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Aug 30 15:44:49 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA13576; Fri, 30 Aug 1996 15:44:49 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Organization:  Centro di Calcolo - Dipartimento di Informatica di Pisa - Italy
+From: Mario Velucchi <velucchi@cli.di.unipi.it>
+Message-Id: <199608301638.SAA11650@helen.cli.di.unipi.it>
+Subject: Chameleon CUBE (I think a NEW <<< from Hungary)
+To: cube <Cube-Lovers@ai.mit.edu>
+Date: Fri, 30 Aug 1996 18:38:42 +0200 (MET DST)
+Cc: Mario VELUCCHI <velucchi@cli.di.unipi.it>
+X-Mailer: ELM [version 2.4 PL24]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+
+	Dear "Cube fans" friends,
+in these days I have received from the Hungary the "Chameleon Cube". 
+I am not very expert of cubes but I think this is a Magyar new.
+
+For more information/references write to:
+---------------
+Blazsik ZOLTAN
+6701 SZEGED
+Pf.:1298
+HUNGARY
+---------------
+I think this a news but ... if this cube is best known ...
+i am sorry for the trouble!
+
+Best, Mario VELUCCHI
+
+-- 
+Best Regards, MV
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+ Mario Velucchi                              University of PISA
+ Via Emilia, 106                 Department of Computer Science
+ I-56121 Pisa                   e-mail:velucchi@cli.di.unipi.it
+ ITALY                      talk:velucchi@helen.cli.di.unipi.it
+                http://www.cli.di.unipi.it/~velucchi/intro.html
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Sat Aug 31 16:01:10 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA18411; Sat, 31 Aug 1996 16:01:09 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Authentication-Warning: coronado.nadn.navy.mil: wdj owned process doing -bs
+Date: Sat, 31 Aug 1996 08:42:30 -0400 (EDT)
+From: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+X-Sender: wdj@coronado
+To: cube-lovers@ai.mit.edu
+cc: Assoc Prof W David Joyner <wdj@coronado.nadn.navy.mil>
+Subject: cube programs, etc
+In-Reply-To: <199608301638.SAA11650@helen.cli.di.unipi.it>
+Message-ID: <Pine.GSO.3.95.960831081024.20193D-100000@coronado>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+Hello cube lovers:
+ 
+Several things:
+1. I have written computer programs in maple
+for (a) the skewb,(b) the rainbow masterball,
+(c) the 3x3 Rubik's cube, and (d) the 4x4 Rubik's
+cube. You must have maple (http://www,maplesoft.com)
+to run it and the program simulates any move of one of 
+the above puzzles using maple's 3-d graphics. The idea is
+that, using one of these programs, you can
+"virtually" make a move, the program draws the
+cube in 3-space, and maple allows you to rotate
+the cube around with your mouse (assuming you have 
+the windows version of maple).
+  These programs do not solve the puzzle, only
+simulates the moves. It appears to be possible, with
+some work, to link these programs with gap to
+provide a solution as well, but I don't have the
+time to do that.
+
+2. Andrew Southern from London (whom I've lost touch with) 
+and I worked out a fairly simple collection of moves to 
+help solve the rainbow masterball. These are available.
+   Apparently 2-cycle exist on the masterball, unlike
+the Rubik's cube. We do not know of a relatively
+short expression for one. If anyone out there knows
+of one please let me know.
+
+3. This stuff can be found on my www page
+
+http://www.nadn.navy.mil/MathDept/wdj/myhome.html
+
+under "computer programs" and "Rubik's cube like
+puzzles". If there are any problems loading them
+I'll try to help.
+                          - David
+
+PS: FYI, Ishi Press International has moved recently.
+They are having a puzzle sale as well (their phone is
+(800)859-2086 or (415)323-6996). I think they have
+some cheap skewbs. Also, on a recent business
+trip I stopped by Puzzletts store in downtown
+Seattle - the best puzzle or game store I've ever seen.
+Their www address has been posted recently
+in this list so I won't repeat it.
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Sep  2 19:33:10 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA03526; Mon, 2 Sep 1996 19:33:09 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Mon, 2 Sep 1996 22:50:07 +0300 (IDT)
+From: Rubin Shai <s2394459@cs.technion.ac.il>
+X-Sender: s2394459@csc
+To: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+cc: cube-lovers@ai.mit.edu,
+        Assoc Prof W David Joyner <wdj@coronado.nadn.navy.mil>
+Subject: Re: cube programs, etc
+In-Reply-To: <Pine.GSO.3.95.960831081024.20193D-100000@coronado>
+Message-ID: <Pine.SV4.3.91-heb-2.04.960902222955.16485A-100000@cs.technion.ac.il>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Hi all 
+I have a computer program that learn to solve the 2X2X2 cube. I mean that 
+after several hours of 'learning' the program knows to solve any legal 
+start position of this cube. Before learning the program solve the cube 
+after about 15 minuets, after learning it takes about 5 seconds.
+The letter from Prof Joyner made me think about the following things:
+1. Does anyone have a program (in C) that can take a move (a string or a 
+line from a file) and show it on the display.
+2. Does anyone know about similar programs to my. Program that 'learn' to 
+solve the cube by themselves.
+Shai
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Sep  6 13:06:11 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id NAA02196; Fri, 6 Sep 1996 13:06:10 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 6 Sep 1996 07:31:48 -0400 (EDT)
+From: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+X-Sender: wdj@coronado
+Reply-To: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+To: Rubin Shai <s2394459@cs.technion.ac.il>
+cc: cube-lovers@ai.mit.edu
+Subject: Re: cube programs, etc
+In-Reply-To: <Pine.SV4.3.91-heb-2.04.960902222955.16485A-100000@cs.technion.ac.il>
+Message-ID: <Pine.GSO.3.95.960906072728.10182B-100000@coronado>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+On Mon, 2 Sep 1996, Rubin Shai wrote:
+
+> Hi all 
+> I have a computer program that learn to solve the 2X2X2 cube. I mean that 
+> after several hours of 'learning' the program knows to solve any legal 
+> start position of this cube. Before learning the program solve the cube 
+> after about 15 minuets, after learning it takes about 5 seconds.
+> The letter from Prof Joyner made me think about the following things:
+> 1. Does anyone have a program (in C) that can take a move (a string or a 
+> line from a file) and show it on the display.
+
+I have no C programs for the cube but MAPLE has a MAPLE-to-C conversion,
+but one would have to write their own display.
+
+I don't have a 2x2 program in MAPLE but I'm saving that project for a
+student since it is relatively easy, given that I have one for the
+3x3 and 4x4 cubes.
+
+> 2. Does anyone know about similar programs to my. Program that 'learn' to 
+> solve the cube by themselves.
+
+This is much more serious than anything I have. My programs are simply
+"virtual" cubes with no brains. Sounds like your program gives the
+cube a brain! Maybe you could post more details. I don't understand
+how it works.                  - David Joyner
+
+> Shai
+> 
+> 
+> 
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Sat Sep  7 19:51:21 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA06720; Sat, 7 Sep 1996 19:51:21 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Sender: ltaylor@pop.kaiwan.com
+Message-Id: <v02130502ae56362c520e@[198.178.203.181]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 6 Sep 1996 15:08:33 -0700
+To: cube-lovers@ai.mit.edu
+From: "Larry A. Taylor" <ltaylor@kaiwan.com>
+Subject: Re: cube programs, etc
+Cc: Rubin Shai <s2394459@cs.technion.ac.il>
+
+>Hi all
+>I have a computer program that learn to solve the 2X2X2 cube. I mean that
+>after several hours of 'learning' the program knows to solve any legal
+>start position of this cube. Before learning the program solve the cube
+>after about 15 minuets, after learning it takes about 5 seconds.
+>The letter from Prof Joyner made me think about the following things:
+>1. Does anyone have a program (in C) that can take a move (a string or a
+>line from a file) and show it on the display.
+>2. Does anyone know about similar programs to my. Program that 'learn' to
+>solve the cube by themselves.
+>Shai
+
+Dr. Richard Korf (korf@cs.ucla.edu) included demonstrations of macro learning
+on the Rubik's Cube in his dissertation, and in his book on "Learning Macro
+Operators."
+He may still have his C language code for this available somewhere.
+
+I have used the 2x2x2 and 3x3x3 cube in my work on "Pruning Duplicate Operators
+in Depth-First Search." Most available format is Proceedings AAAI-93 (Wash. DC),
+or from my web page area.
+<http://www.cs.ucla.edu/csd-grads-gs1/ltaylor/WWW/aaai93.ps>
+I do not learn to solve the cube, but learn about the cube state space to
+speed search.
+
+Neither of our programs produce graphical output.  I may make a Cube page with
+a Java applet, unless one of you do it first.
+
+LAT
+
+Larry A. Taylor, <ltaylor@kaiwan.com>.  UCLA Computer Science Dept., Ph.D.
+candidate <ltaylor@cs.ucla.edu>.  DBA North Circle Software, 13104
+Philadelphia St, Suite 208, Whitter, CA 90601. Bus. phone, (310) 698-2739.
+Fax (310) 698-8164.  <75176.1071@compuserve.com>,  <ltaylo934@aol.com>
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Sep 11 17:04:33 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id RAA05135; Wed, 11 Sep 1996 17:04:33 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Organization:  Centro di Calcolo - Dipartimento di Informatica di Pisa - Italy
+From: Mario Velucchi <velucchi@cli.di.unipi.it>
+Message-Id: <199609111154.NAA11311@helen.cli.di.unipi.it>
+Subject: Chameleon Cube (E-Mail address)
+To: cube <Cube-Lovers@ai.mit.edu>
+Date: Wed, 11 Sep 1996 13:54:03 +0200 (MET DST)
+X-Mailer: ELM [version 2.4 PL24]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+
+after my precedent e-mail i have received more answers/questions for to
+know the E-mail address of my hungarian friend, this is the old
+message with the E-mail address:
+
+
+	Dear "Cube fans" friends,
+in these days I have received from the Hungary the "Chameleon Cube". 
+I am not very expert of cubes but I think this is a Magyar new.
+
+For more information/references write to:
+---------------
+Blazsik ZOLTAN
+6701 SZEGED
+Pf.:1298
+HUNGARY
+---------------
+blazsik@inf.u-szeged.hu
+---------------
+
+I think this a news but ... if this cube is best known ...
+i am sorry for the trouble!
+
+Best, Mario VELUCCHI
+
+
+-- 
+Best Regards, MV
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+ Mario Velucchi                              University of PISA
+ Via Emilia, 106                 Department of Computer Science
+ I-56121 Pisa                   e-mail:velucchi@cli.di.unipi.it
+ ITALY                      talk:velucchi@helen.cli.di.unipi.it
+                http://www.cli.di.unipi.it/~velucchi/intro.html
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Thu Sep 26 22:37:26 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA10261; Thu, 26 Sep 1996 22:37:25 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Organization:  Centro di Calcolo - Dipartimento di Informatica di Pisa - Italy
+From: Mario Velucchi <velucchi@cli.di.unipi.it>
+Message-Id: <199609261617.SAA20286@helen.cli.di.unipi.it>
+Subject: WWW devoted to Recreational Mathematics (CUBE, too ...)
+To: cube <Cube-Lovers@ai.mit.edu>
+Date: Thu, 26 Sep 1996 18:17:51 +0200 (MET DST)
+X-Mailer: ELM [version 2.4 PL24]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+
+	Dear Friend,
+are you interested to Recreational Mathematics and related fields?
+If so, see this my new WWW address:
+
+http://www.geocities.com/SiliconValley/9174/material.html
+
+I think you will find a lot of interesting items.
+Best Regards, Mario VELUCCHI
+
+-- 
+Best Regards, MV
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+ Mario Velucchi                              University of PISA
+ Via Emilia, 106                 Department of Computer Science
+ I-56121 Pisa                   e-mail:velucchi@cli.di.unipi.it
+ ITALY                      talk:velucchi@helen.cli.di.unipi.it
+                http://www.cli.di.unipi.it/~velucchi/intro.html
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Sep 30 23:21:04 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA12380; Mon, 30 Sep 1996 23:21:03 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Mon, 30 Sep 1996 22:29:36 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Solving One Cubie
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-id: <Pine.PMDF.3.91.960930215342.226497C-100000@PSTCC6.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+
+
+I've been thinking about a simple little problem I thought I would share. 
+Most of the solution is in the archives, but under other guises. 
+
+Suppose you scramble a cube and give it to a cubemeister with instructions
+to solve any one cubie.  This is a truly trivial problem, but let's see
+what it can teach us. 
+
+The most obvious question is -- what is God's algorithm?  That is, from
+any position, what is the minimal solution?  The cubemeister would observe
+that for any position, each of the eight corner cubies and each of the
+twelve edge cubies has its own individual minimal solution which is easy
+to discover.  The cubemeister would then choose the cubie with the
+smallest minimal solution and solve it. 
+
+Given this simple technique for God's algorithm, what is the maximal
+position?  That is, what is the position where the minimal solution is as
+large as possible? 
+
+We start with the edges.  The solution is in the archives in two separate
+articles.  On 6 August 1980, David Vanderschel introduced the concept of
+Oriented Distance from Home (ODH).  On 7 January 1981, Dan Hoey used the
+ODH concept to show that the Pons Asinorum position requires exactly
+twelve quarter turns for solution.  But for our purposes, the salient
+point is that an edge cubie can be at most four quarter-turns from home. 
+There is exactly one such position for each edge cubie.  And the only
+position for which each edge cubie is four quarter-turns from home is the
+Pons.  So for our trivial little problem, the maximal position for the
+edges is the Pons. 
+
+I have found little information in the archives concerning the same
+problem for the corners.  (By the way, I have this vision in my mind that
+the information for the corners is in there somewhere, but I cannot find
+it, neither in the archives nor in Singmaster.  Am I remembering a mirage,
+or is it in there somewhere and I can't find it?). 
+
+Vanderschel does not define an Oriented Distance from Home for corners,
+but the generalization is obvious.  The following are the ODH values for
+the f facelet of the flt cubie. 
+
+        1+2
+        +T+
+        2+3
+
+   l+2  0+1  1+2  2+3
+   +L+  +F+  +R+  +B+
+   2+3  1+2  2+3  3+2
+
+        1+2
+        +D+
+        2+3
+
+The maximum distance from Start for any particular corner cubie is
+therefore three quarter-turns.  The question then is whether all eight
+corner cubies can be three quarter-turns from Start simultaneously.  There
+are probably a number of ways which will work, but the following works
+very nicely.  Place each corner cubie in its diametrically opposed corner
+cubicle.  For example, place the flt cubie in the bdr cubicle.  The twist
+doesn't matter for the individual cubies, except that the overall
+configuration for the eight corner cubies must conserve twist.  The reason
+that twist doesn't matter is that when a corner cubie is in its
+diametrically opposed corner cubicle, all three twists are conjugate (see
+below). 
+
+The maximal position for the corners can peacefully co-exist with the Pons
+for the edges.  That is, if each corner cubie is in its diametrically
+opposed corner cubicle, the parity of the corners is even (as is the
+Pons). 
+
+In a certain sense, God's algorithm for a single corner cubie is identical
+to God's algorithm for the 1x1x1 cube, which is to say, it is identical to
+God's algorithm for the rotation group of the cube (which we normally
+denote by C).  (See my note of 14 Nov 1995.)
+
+Here is how it works.  Consider any particular corner cubie such as flt,
+and consider any sequence of quarter-turns such as TL where each
+quarter-turn moves the cubie in question.  Then, the "same" sequence of
+whole cube rotations (tl, in this case) will have the same effect on the
+same corner cubie.  Here, we are using the lower case letters t and l to
+denote whole cube quarter-turns and the upper case letters T and L to
+denote the face quarter-turns. 
+
+The converse is also true if we are careful.  That is, each whole cube
+quarter-turn may be denoted in two ways.  For example, t is the same as
+d'.  To convert from whole cube rotations back to quarter-turn face turns,
+we would convert t to T or to D' depending on whether the cubie in
+question were on the Top face or the Down face at the time. 
+
+The same trick does not work for the edges.  The problem is that face
+turns and whole cube turns are not fully interchangeable.  For instance, T
+and t are interchangeable for the Top edge cubies, as are D and d for the
+Down edge cubies.  But there is no equivalent interchange for the
+"equator" of edge cubies fl, lb, br, and rf.  (Well, maybe you could do it
+if you allowed slice moves, but we are not working with slice moves.)
+
+I am always interested in symmetry, usually as represented by conjugacy. 
+For whole cube rotations, there are five conjugacy classes.  (Again, see
+my note of 14 November 1995.) For individual cubies, we define conjugacy
+as follows.  Let X and Y be functions (not permutations) which are the
+restriction of normal permutations to the cubie in question.  Then X and Y
+are conjugate if m'Xm=Y for some m in M, the set of 48 rotations and
+reflections of the cube.  m' must be restricted to the pre-image of the
+domain of X, and m must be restricted to the range of X.  With the various
+permutations thus restricted to functions on the single flt cubie, the
+conjugacy classes are as follows: 
+
+   1. I
+   2. F, F', L, L', T, T'
+   3. FF, LL, TT
+   4. TL', TB, FT', FR, LF', LD
+   5. TL, L'T'
+   6. FRR, LDD, TBB
+   7. FTT, LFF, TLL
+
+Note that if we treat all the moves as whole cube permutations rather than
+as functions on the flt cubie, then #4 and #5 are collapsed down into a
+single conjugacy class, as are #6 and #7.  Then, the conjugacy classes are
+the same as the ones for the 1x1x1 cube. 
+
+When I first started working on this little problem, I thought the
+conjugacy classes for a single cubie might provide a non-arbitrary frame
+of reference for defining twist.  They almost do, but not quite. 
+
+       a. When the cubie is in its home cubicle, its twist is
+          obvious.  However, we can observe that I, TL, and L'T'
+          place the flt cubie in the flt cubicle.  TL and L'T'
+          are conjugate, but they are not conjugate to I.  Hence,
+          it is natural to take I as the untwisted state.
+
+       b. When the cubie is immediately adjacent to its home
+          cubicle (there are three such cubicles), the conjugacy
+          classes can be used to define twist.  For example, the
+          flt cubie is placed into the ftr cubicle by F, T', and
+          by LFF.  F and T' are conjugate, but they are not
+          conjugate to LFF.  Hence, we can take LFF as the
+          untwisted state.
+
+     c.   When the cubie is immediately adjacent to the
+          diametrically opposed cubicle (there are three such
+          cubicles), the conjugacy classes can be used to define
+          twist.  For example, the flt cubie is placed into the
+          frd cubicle by FF, LD, and by LF'.  LD and LF' are
+          conjugate, but they are not conjugate to FF.  Hence, we
+          can take FF as the untwisted state.
+
+     d.   When the cubie is in the diametrically opposed cubicle
+          (there is only one such cubicle), I don't see any way
+          to use the conjugacy classes to define twist.  All
+          three twists are conjugate, and hence none is
+          inherently different from the other two.  For example,
+          FRR, LDD, and TBB are all conjugate.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Tue Oct  1 14:32:11 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA14238; Tue, 1 Oct 1996 14:32:11 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 1 Oct 1996 17:19:48 +0100
+From: Riccardo Distasi <ric@irsip.na.cnr.it>
+Message-Id: <9610011619.AA00774@irsip.na.cnr.it>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Subject: Intro to cube group theory?
+
+Dear mathematical cubologists,
+I am creeping on this list since a few months, but I have to admit
+that most of the more advanced mathematical technicalities are beyond
+my understanding, mainly because I lack knowledge of the basic
+facts and terminology about groups.
+
+All I studied about groups was a part of Birkhoff/McLaine's "Algebra"
+some 10 years ago. Is there any good reference on groups where I can
+educate myself?  I would prefer freeware papers over costly and
+hard-to-find (at least in Italy) books. Does anybody have a hint for
+me?  The aim of my training is that of learning about M-conjugacy and
+the Shamir algorithm, and to be able to follow the technical
+discussions about the Rubik cube that appear on this list.
+
+	Riccardo
+--
+Riccardo Distasi, ric@irsip.na.cnr.it
+
+
+From cube-lovers-errors@curry.epilogue.com  Tue Oct  1 19:36:41 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA14676; Tue, 1 Oct 1996 19:36:40 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Authentication-Warning: coronado.nadn.navy.mil: wdj owned process doing -bs
+Date: Tue, 1 Oct 1996 18:43:19 -0400 (EDT)
+From: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+X-Sender: wdj@coronado
+To: Riccardo Distasi <ric@irsip.na.cnr.it>
+cc: Cube-Lovers <cube-lovers@ai.mit.edu>
+Subject: Re: Intro to cube group theory?
+In-Reply-To: <9610011619.AA00774@irsip.na.cnr.it>
+Message-ID: <Pine.GSO.3.95.961001183755.19887A-100000@coronado>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+On Tue, 1 Oct 1996, Riccardo Distasi wrote:
+
+> Dear mathematical cubologists,
+> I am creeping on this list since a few months, but I have to admit
+> that most of the more advanced mathematical technicalities are beyond
+> my understanding, mainly because I lack knowledge of the basic
+> facts and terminology about groups.
+> 
+> All I studied about groups was a part of Birkhoff/McLaine's "Algebra"
+> some 10 years ago. Is there any good reference on groups where I can
+> educate myself?  I would prefer freeware papers over costly and
+> hard-to-find (at least in Italy) books. Does anybody have a hint for
+> me?  The aim of my training is that of learning about M-conjugacy and
+> the Shamir algorithm, and to be able to follow the technical
+> discussions about the Rubik cube that appear on this list.
+> 
+
+I think the best book is Bandelow's Inside Rubik's cube and beyond,
+which might be in a local library. I have lecture notes for a
+course I'm teaching on the Rubik's cube which I can send you
+for free. Also, a group-theorist friend of mine has several
+hundred copies of an elementary group theory book (printed
+by the US government and I think free) available - you can
+email me or him (Prof Gaglione, amg@nadn.navy.mil) if you're
+interested. Finally, Puzzletts is still selling Singmaster's 
+Notes on the Rubik's cube, though they are also out of
+print. - David Joyner
+
+
+> 	Riccardo
+> --
+> Riccardo Distasi, ric@irsip.na.cnr.it
+> 
+> 
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Oct  2 14:38:26 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA01653; Wed, 2 Oct 1996 14:38:25 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 2 Oct 1996 19:39:28 +0300 (EET DST)
+From: Timo Berry <taberry@uiah.fi>
+X-Sender: taberry@kyberias
+To: Cube-lovers@ai.mit.edu
+Subject: An amateur humbly approaches
+Message-ID: <Pine.GSO.3.92.961002192639.18885A-100000@kyberias>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+Dear Sir(s)!
+
+I'm a student of graphic design in the University of Industrial Arts in
+Helsinki. I'm working on a school project and I need some information on
+Rubik's Cube. I'm making a piece that takes advantage of the visual
+language of the cube, but I need to know more. I'm familiar with the game
+from years back but I never really learned how the actual mechanism worked,
+nor anything on the history of the game.
+
+I would appreciate a few hints on the vast amount of home pages on the
+subject. What I'm mostly looking for is a basic, no-nonsense explanation
+of the history and the philosophy and especially the mechanism  of the
+cube (I'd hate to take my only cube apart!). Any illustrations of the
+mechanism would be great. Are there any working pictures or plans
+available?
+
+Sincerely Yours,
+Timo Berry
+
+taberry@uiah.fi
+
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Oct  2 14:55:19 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA01686; Wed, 2 Oct 1996 14:55:19 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199610020614.BAA01730@mail.utexas.edu>
+Date: Wed, 02 Oct 96 01:13:22 -0700
+From: C-Money <C-Money@mail.utexas.edu>
+Organization: University of Texas at Austin
+X-Mailer: Mozilla 1.1N (Windows; I; 16bit)
+MIME-Version: 1.0
+To: Cube-Lovers@ai.mit.edu
+Subject: http://sdg.ncsa.uiuc.edu/~mag/Misc/CubeLoversInfo.txt
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=us-ascii
+
+I am located in Austin, Tx. I was wondering where I can purchase a rubik's 
+cube. If you could help me out I would greatly appreciate it.
+
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Oct  2 16:52:14 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA02017; Wed, 2 Oct 1996 16:52:14 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199610021956.OAA67514@opus.cs.utexas.edu>
+X-Mailer: exmh version 1.6.2 7/18/95
+To: C-Money <C-Money@mail.utexas.edu>
+cc: Cube-Lovers@ai.mit.edu
+Subject: cubes in austin
+In-reply-to: Your message of "Wed, 02 Oct 1996 01:13:22 CDT."
+             <199610020614.BAA01730@mail.utexas.edu> 
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Date: Wed, 02 Oct 1996 14:56:54 -0500
+From: Norman Richards <orb@cs.utexas.edu>
+
+> I am located in Austin, Tx. I was wondering where I can purchase a rubik's 
+> cube. If you could help me out I would greatly appreciate it.
+
+    I just bought a new one a few weeks ago at the Kay-bee toy store in
+Highland Mall.  They had about 6 cubes last friday when I was there.  They
+also have some triamids and a couple snakes left.  No magic or mini-cube's
+though. :(
+
+  The Imaginarium in Higland Mall had the Rubik's C4 cube a while back (the
+one where you have to align the centers of 4 faces also), but I was quite
+surprised to find the store closed when I went to the mall last week. :(
+
+  All the Rubik's stuff goes for $10 a pop.  If you find a better price
+somewhere else, let me know.  Also, if you happen to see any stores here 
+that have the mini-cube, please let me know!  
+
+
+______________________________________________________________________________
+orb@cs.utexas.edu                                              soli deo gloria
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Oct  2 21:06:02 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id VAA02598; Wed, 2 Oct 1996 21:06:02 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 2 Oct 1996 20:14:55 -0400
+From: der Mouse <mouse@holo.rodents.montreal.qc.ca>
+Message-Id: <199610030014.UAA03565@Collatz.McRCIM.McGill.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Re: cube programs, etc
+
+> Date: Mon, 2 Sep 1996 22:50:07 +0300 (IDT)
+
+Guess who's going through backed-up mail... :-)
+
+> I have a computer program that learn to solve the 2X2X2 cube.  I mean
+> that after several hours of 'learning' the program knows to solve any
+> legal start position of this cube.  Before learning the program solve
+> the cube after about 15 minuets, after learning it takes about 5
+> seconds.
+
+Interesting.  Is the program available?
+
+> The letter from Prof Joyner made me think about the following things:
+> 1. Does anyone have a program (in C) that can take a move (a string
+>    or a line from a file) and show it on the display.
+
+Well, I have something of the sort, though it's for the 3-Cube.  For
+example, here's first turning the R face once, then illustrating the
+Spratt wrench, first defining a slice turn (and checking it), then
+using it to write the wrench more simply than it would be if done
+directly with the primitives.
+
+% twist
+> R
+Cube:
+              u u f
+              u u f
+              u u f
+        l l l f f d r r r u b b
+        l l l f f d r r r u b b
+        l l l f f d r r r u b b
+              d d b
+              d d b
+              d d b
+Cycles: (ur,br,dr,fr) (ubr,bdr,dfr,fur) [4]
+Already centered
+> .set SLICER CUBER R' L
+`SLICER' defined
+> SLICER
+Cube:
+              u f u
+              u f u
+              u f u
+        l l l f d f r r r b u b
+        l l l f d f r r r b u b
+        l l l f d f r r r b u b
+              d b d
+              d b d
+              d b d
+Cycles: (u,b,d,f) (ub,bd,df,fu) [4]
+Centred: (ul,fl,dl,bl) (ur,fr,dr,br) (ulb,flu,dlf,bld) (ubr,fur,dfr,bdr) [4]
+> (SLICER U) 4
+Cube:
+              u b u
+              l u u
+              u u u
+        l u l f f f r r r b u b
+        l l l f f f r r r b b b
+        l l l f d f r r r b d b
+              d f d
+              d d d
+              d b d
+Cycles: (ub)+ (ul)+ (fd)+ (bd)+ [2]
+Already centered
+> 
+
+> 2. Does anyone know about similar programs to my. Program that
+>    'learn' to solve the cube by themselves.
+
+Someone I know once wrote such a program in Lisp.  (Incidentally, this
+was also one of the most stunning examples of hot-spot hand-tuning I
+ever saw.  It represented the cube as a bunch of conses pointing to one
+another, no leaves at all.  The "apply a rotation" call worked by
+juggling links with rplaca and rplacd.  I rewrote this one call in
+assembly (approximately the same number of lines of code, incidentally)
+and got three orders of magnitude, a factor of a thousand, speed
+improvement in the overall program.)
+
+The program was somewhat interesting in that it solved the cube by
+experimenting and discovering macros, somewhat akin to the way humans
+tend to.
+
+I don't know whether this program still exists anywhere.  If anyone
+cares I can try to find out.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     01 EE 31 F6 BB 0C 34 36  00 F3 7C 5A C1 A0 67 1D
+
+
+From cube-lovers-errors@curry.epilogue.com  Thu Oct  3 01:05:43 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id BAA03062; Thu, 3 Oct 1996 01:05:43 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 3 Oct 1996 07:05:35 +0200
+Message-Id: <1.5.4.16.19961003070403.41ef5388@mailsvr.pt.lu>
+X-Sender: geohelm@mailsvr.pt.lu
+X-Mailer: Windows Eudora Light Version 1.5.4 (16)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+From: Georges Helm <geohelm@pt.lu>
+Subject: Re: Intro to cube group theory?
+Cc: Cube-Lovers <cube-lovers@ai.mit.edu>
+
+At 18:43 01/10/1996 -0400, you wrote:
+
+>I think the best book is Bandelow's Inside Rubik's cube and beyond,
+>which might be in a local library. I have lecture notes for a
+>course I'm teaching on the Rubik's cube which I can send you
+>for free. Also, a group-theorist friend of mine has several
+>hundred copies of an elementary group theory book (printed
+>by the US government and I think free) available - you can
+>email me or him (Prof Gaglione, amg@nadn.navy.mil) if you're
+>interested. Finally, Puzzletts is still selling Singmaster's 
+>Notes on the Rubik's cube, though they are also out of
+>print. - David Joyner
+>
+
+I think a very helpful book is
+
+Handbook of Cubic Math by
+Alexander H. Frey, Jr. + David Singmaster
+
+Contents:
+
+Preface 
+   1.Introduction 
+   2.A Cubik Orientation 
+   3.Restoring the Cube 
+   4.The What, Why, and How of Cube Movements 
+   5.Improved Restoration Processes 
+   6.The Cube Group and Subgroups 
+   7.Permutation Structures and the Order of Groups 
+   8.Advanced Restoration Methods 
+   9.Epilogue 
+A. A Small Catalogue of Processes 
+B. Solutions to Exercises 
+Index 
+
+It was published by Enslow publishers
+
+Georges
+         
+geohelm@pt.lu
+http://www.geocities.com/Athens/2715
+http://ourworld.compuserve.com/homepages/Georges_Helm
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Thu Oct  3 14:20:38 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA04396; Thu, 3 Oct 1996 14:20:37 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 03 Oct 1996 13:31:03 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Intro to cube theory?
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-id: <Pine.PMDF.3.91.961003132402.271518G-100000@PSTCC6.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+
+
+> On Tue, 1 Oct 1996, Riccardo Distasi wrote:
+
+>                                Does anybody have a hint for
+> me?  The aim of my training is that of learning about M-conjugacy and
+> the Shamir algorithm, and to be able to follow the technical
+> discussions about the Rubik cube that appear on this list.
+
+Several good books have already been mentioned here, so I thought I 
+would try briefly to answer your specific questions rather than listing 
+books again.
+
+I doubt you are going to find any references to M-conjugacy in any Group
+Theory Books, nor even in any books that are specific to the Cube.  What
+you will find is discussions of conjugacy.  The conjugate of X by Y is
+defined either as Y'XY or as YXY'.  Here I am following the E-mail
+convention that Y' means Y^(-1) or "Y inverse".  We use Y' because it is
+hard to write a proper superscript 1 on E-mail. 
+
+One reason for the different definitions for conjugacy (Y'XY vs. YXY') may
+be that some authors use a right-to-left definition for group operators
+and some use a left-to-right.  (Cube-Lovers uses left-to-right almost
+exclusively).  But I think that even with a consistent left-to-right 
+convention, you fill find differences between authors in their definition 
+of conjugacy.  I think I remember a discussion in Singmaster about why 
+some authors do it one way and others do it the other.  The best I 
+recall, both ways of doing it make sense in the proper context.  I will 
+try to chase down the reference and post a followup.
+
+I don't think it makes much difference which convention you use as long as
+you are consistent.  If Y'XY is a conjugate, then YXY' is also.  That is,
+if Y'XY is the conjugate of X by Y, then YXY' is the conjugate of X by Y'. 
+
+Frey and Singmaster use the YXY' convention.  Cube-Lovers (including the
+things I have posted) primarily uses the Y'XY convention.  I actually
+think the YXY' convention makes more sense.  Roughly speaking, it means to
+do one thing, then to do a second thing, and finally to undo the first
+thing. The effect is essentially to do the second thing, but to do it
+shifted by the first thing. 
+
+For example, suppose you know how to do something to the Top layer of the
+cube but you don't know how (or find it awkward) to do the same thing to
+the Down layer of the cube.  What you could do is turn the cube upside
+down, perform your operation on the Top layer, and then turn the cube
+right side up.  You will have performed your operation on the Down layer. 
+
+In Cube-Lovers, we would probably write this as cXc'.  We call the set of
+twenty-four rotations of the cube C, and c would be one of the elements of
+C that turns the cube upside down.  So c would turn the cube upside down,
+X would be your operation, and c' would restore the cube to right side up. 
+
+Except that we would really write it as c'Xc, which in some ways makes no 
+sense.  I read it as undo the first thing, then do the second thing, and 
+finally do the first thing.  I really do have to chase down Singmaster's 
+explanation of why this makes sense.
+
+I confess I struggle with the real geometric significance of Y'XY.  That
+is, if we have Z=Y'XY, then what is the relationship between X and Z? 
+They have the same cycle structure, but that is about as far as I get in a
+geometric interpretation.  Here I am assuming that each of X, Y, and Z are
+in the cube group. 
+
+But I find c'Xc or m'Xm easy to interpret.  In Cube-Lovers convention, M
+is the set of forty-eight rotations and reflections of the cube to go
+along with C as the set of twenty-four rotations of the cube.  So C is a
+subset of M and C-conjugacy is a subset of M-conjugacy.  But we nearly
+always talk about M-conjugacy. 
+
+But C and M are not really in the cube group G as we usually define it. 
+That is, the standard model for G is a fixed face center model where we do
+not rotate the whole cube.  To use Group Theory properly with M-conjugacy,
+we have to deal with M-conjugacy in terms of a larger group which is
+sometimes called MG or G+M.  MG includes all the face turns, rotations,
+and reflections of the cube. However, it is the case that if X is in G,
+then so too is m'Xm.  So if we want to, we can treat M-conjugacy as a
+function on G without having to expand our group to MG. 
+
+Many Group Theory books will talk about symmetry.  A symmetry is just a
+special kind of permutation which preserves some kind of property, usually
+a geometric property.  For example, there are eight symmetries of a
+square.  A square can be rotated in four different ways and still look the
+same, and each of the four rotations can be turned inside out.  You can
+also think of the "turned inside out" versions as being mirror images, so
+they are called reflections.  Similarly, a cube has twenty-four rotations
+and twenty-four reflections as symmetries.  This was true long before
+Rubik's cube was invented, and you will find discussions of the symmetries
+of the cube in books that were written before Rubik's cube was invented. 
+
+Cube-Lovers simply calls the set of forty-eight symmetries of the cube M
+on a fairly consistent basis, and so M-conjugacy is born.  It is really
+just conjugacy by the symmetries of the cube.  M-conjugacy is important
+because it identifies positions which are "really the same", even if they
+may look different superficially.  That is, if Y=m'Xm for some m in M,
+then X and Y look the same except that they may be rotated or recolored
+with respect to each other.  In particular, X and Y may be solved in the
+"same way", and each will require the same number of moves for solution. 
+
+My view of Shamir's method is that it really has nothing to do with Group
+Theory.  Rather, it has to do with data structures and information theory. 
+There are several components of Shamir's method, but the most important is
+addressing the following problem.  
+
+Suppose you have a collection of objects in a computer program in some
+arbitrary (possibly "random"  order), and suppose you want to eliminate
+any duplicate objects to make the collection into a true set in a
+mathematical sense.  Almost any algorithm you come up with is equivalent
+to sorting the objects to place the duplicate occurences adjacent to each
+other, and then scanning the collection front to back to identify the
+duplicates.  Now you may not literally sort.  You may build trees, hash 
+tables, or any of a number of interesting and efficient structures, but 
+they all reduce to sorting at the conceptual level.
+
+A variation on this theme is suppose you have two (or more) such
+collections, and you want to eliminate all duplicate objects.  At the
+conceptual level, almost any algorithm you come up with is equivalent to
+sorting each collection, and then merging and matching the sorted
+collections. 
+
+Shamir's method provides a very efficient way to accomplish this
+"sorting".  Given a collection of objects which is sorted already, it lets
+you create a second collection which is sorted in a totally different 
+way, without any of the objects moving in memory  --  by simply 
+traversing a search tree in a clever way.
+
+The issue arises in search programs for Rubik's cube because you often 
+have a set of cube positions which you need to compose with another 
+position or set of positions.  When you are done, you need to "sort and 
+match" or "merge and match" the results.  Literally sorting and merging 
+can take ridiculous amounts of time and memory.  If the first set of 
+positions is already sorted, Shamir's method tells us how to compose the 
+first set of positions with other positions in such a way that the newly 
+generated sets of positions come out automagically in the right order, 
+with no additional sorting required.  Much more detail than this is 
+available the the Cube-Lovers archives.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Oct  4 17:33:19 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id RAA06958; Fri, 4 Oct 1996 17:33:19 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <1.5.4.16.19961004231924.2eef8b5e@pop3.redestb.es>
+X-Sender: estelada@pop3.redestb.es (Unverified)
+X-Mailer: Windows Eudora Light Version 1.5.4 (16)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+To: Cube-Lovers-Request@ai.mit.edu
+From: Joaquim Folch <estelada@redestb.es>
+Subject: Rubik revenge (4x4)
+Date: Fri, 4 Oct 1996 12:03:40 +0100
+
+>
+>>Dear Sir:
+>>
+>>I=B4m Joaquin Folch (Barcelona-Spain). I have a blind friend who needs an
+>>Rubik cube, large size whith 16 squares per side (Revenge type, 4x4=
+ lines),
+>>because his actual cube is broken. He played very well and fast whith his
+>>marked cube.
+>>Please tell me how much I have to pay for it.=20
+>>Please answer me. Many thanks to all,   Joaquin.
+>>My adress:                      EMail: estelada@redestb.es
+>>
+>>Joaquin Folch
+>>Espigol 6
+>>08328 Alella (Barcelona)
+>>Spain=20
+>>
+>
+>
+>
+>
+>
+>>
+>
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Oct 16 14:01:16 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA01742; Wed, 16 Oct 1996 14:01:15 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <v02110102ae8a98f867c5@[129.139.180.185]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 16 Oct 1996 08:54:11 -0500
+To: cube-lovers@ai.mit.edu
+From: Peter Beck <pbeck@pica.army.mil>
+Subject: largest cube
+
+HI folks,
+
+I would like to revisit the question of
+what is the largest (number of slices)
+size cube that can be made.  As I
+recollect the center spindle mechanism
+has been analyzed and the conclusion
+was a 5x5x5.
+
+There is a new mechanism used in the
+MOZAIKA puzzle (info below).  I wonder
+if anybody has analyzed it to determine
+what configurations of cubes it could
+be used for.
+
+PS  This mechanism also seems to answer
+the question of whether or not the cube
+is a sliding block puzzle on a spherical
+surface or a solid rotating puzzle.
+
+
+********************************
+*  "MOZAIKA" is a spherical sliding block
+*  puzzle like Rubik's cube with a new
+*  mechanism.  I have only seen the 3x3x3
+*  version.  It has 2 types of pieces
+*  (the third, a sphere in the center appears to be
+*  unnecessary):  a triangular piece analogous
+*  to the cubes corner and a rectangular piece
+*  analogous to the center piece , using 2 of
+*  these to make an edge piece.  The puzzle
+*  thus has 3 orthogonal equators made up of
+*  the rectangular pieces and the corners.
+*
+*  These pieces interlock to form a spherical
+*  surface - the center is hollow.  The interlock
+*  method is that the corner pieces have a rail
+*  that the rectangular pieces ride on.  The
+*  corner pieces are held in space by the
+*  rectangular pieces (sorry for poor description).
+********************************
+*  FROM:  J&R DESIGNS
+*       1126 SOUTH STREET
+*        POB 315
+*        NILES, MICHIGAN 49120
+*  COST:  US $15
+*    + $3 POSTAGE USA OR $5 OVERSEAS
+*
+********************************
+
+   THE FUTURE IS PUZZLING, but CUBING IS FOREVER !!!
+
+Peter Beck,aka, Just Puzzles,  201-625-4191 answering machine
+
+  a cube WEB site;2/27/96 - <http://admin.dis.on.ca:80/~cubeman/>
+......................................................
+my  career site - updated 5/31/96 <http://qa.pica.army.mil:80/~pbeck/>
+......................................................
+last modified  31 May 1996
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Oct 16 22:51:41 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA02682; Wed, 16 Oct 1996 22:51:41 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 17 Oct 1996 01:49:55 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9610162349.AA04173=dik@bever.cwi.nl>
+To: cube-lovers@ai.mit.edu, pbeck@pica.army.mil
+Subject: Re: largest cube
+
+ > I would like to revisit the question of
+ > what is the largest (number of slices)
+ > size cube that can be made.  As I
+ > recollect the center spindle mechanism
+ > has been analyzed and the conclusion
+ > was a 5x5x5.
+
+If I remember well the limit was not order 5 but 6, and not due to
+the mechanism but only because during turning the corner cubes will
+extend so much outside the cube that they are held by only 2 neighbours.
+*But* this holds only if your requirement is that all cubelets have the
+same size.  When you allow cubelets to grow when going from the center
+you can get larger (although I think even in that case there will be
+a limit, right now I am too lazy to think about it even further).
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland, +31205924131
+home: bovenover 215, 1025 jn  amsterdam, nederland; http://www.cwi.nl/~dik/
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Oct 23 14:06:47 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA09246; Wed, 23 Oct 1996 14:06:46 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Organization:  Centro di Calcolo - Dipartimento di Informatica di Pisa - Italy
+From: Mario Velucchi <velucchi@cli.di.unipi.it>
+Message-Id: <199610231533.RAA02193@helen.cli.di.unipi.it>
+Subject: Re: DEAR TANOFF <<<<<<<<<<<<<<<< (fwd)
+To: cube <Cube-Lovers@ai.mit.edu>
+Date: Wed, 23 Oct 1996 17:33:50 +0200 (MET DST)
+X-Mailer: ELM [version 2.4 PL24]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+
+Forwarded message:
+> From velucchi@CLI.DI.Unipi.IT  Wed Oct 23 17:32:34 1996
+> Subject: Re: DEAR TANOFF <<<<<<<<<<<<<<<<
+> To: TANOFF%SMOOKE@BIOMED.MED.YALE.EDU
+> Date: Wed, 23 Oct 1996 17:32:20 +0200 (MET DST)
+> 
+> > 
+> > What is the Siamese Cube?
+> > 
+> 
+> Two (usual/normal) Rubik Cubes in One ...
+> 
+> 
+>    ------
+>    |    |
+>    |    |
+>    -----+-----
+>         |    |
+>         |    |
+>         ------
+> 
+> The goal is equal to normal cube but the moves are differents ...
+> because the two cubes are "uniti" ....
+> Do You understand? let me know!
+> 
+> 
+> Sorry for my English and my Picture!
+> 
+> 
+> -- 
+> Best Regards, MV
+> \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+>  Mario Velucchi                              University of PISA
+>  Via Emilia, 106                 Department of Computer Science
+>  I-56121 Pisa                   e-mail:velucchi@cli.di.unipi.it
+>  ITALY                      talk:velucchi@helen.cli.di.unipi.it
+>                 http://www.cli.di.unipi.it/~velucchi/intro.html
+> \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+> 
+
+
+From cube-lovers-errors@curry.epilogue.com  Thu Oct 24 16:27:10 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA12157; Thu, 24 Oct 1996 16:27:09 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 24 Oct 1996 10:29:40 +0100
+Message-Id: <1.5.4.32.19961024102451.002cf550@mentda.me.ic.ac.uk>
+X-Sender: ars2@mentda.me.ic.ac.uk
+X-Mailer: Windows Eudora Light Version 1.5.4 (32)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: Mario Velucchi <velucchi@cli.di.unipi.it>
+From: "The Official Thermo-Fluids Fan Club of the UK. (Andy Southern)" <a.southern@ic.ac.uk>
+Subject: Re: DEAR TANOFF <<<<<<<<<<<<<<<< (fwd)
+Cc: Cube-Lovers@ai.mit.edu
+
+At 17:33 23/10/96 +0200, you wrote:
+>Forwarded message:
+>> From velucchi@CLI.DI.Unipi.IT  Wed Oct 23 17:32:34 1996
+>> Subject: Re: DEAR TANOFF <<<<<<<<<<<<<<<<
+>> To: TANOFF%SMOOKE@BIOMED.MED.YALE.EDU
+>> Date: Wed, 23 Oct 1996 17:32:20 +0200 (MET DST)
+>> 
+>> > 
+>> > What is the Siamese Cube?
+>> > 
+>> 
+>> Two (usual/normal) Rubik Cubes in One ...
+>> 
+>> 
+>>    ------
+>>    |    |
+>>    |    |
+>>    -----+-----
+>>         |    |
+>>         |    |
+>>         ------
+>> 
+>> The goal is equal to normal cube but the moves are differents ...
+>> because the two cubes are "uniti" ....
+>> Do You understand? let me know!
+>> 
+>> 
+>> Sorry for my English and my Picture!
+>> 
+>> 
+>> -- 
+>> Best Regards, MV
+>> \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+>>  Mario Velucchi                              University of PISA
+>>  Via Emilia, 106                 Department of Computer Science
+>>  I-56121 Pisa                   e-mail:velucchi@cli.di.unipi.it
+>>  ITALY                      talk:velucchi@helen.cli.di.unipi.it
+>>                 http://www.cli.di.unipi.it/~velucchi/intro.html
+>> \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+>> 
+>
+>
+>
+I think I understand.
+
+There are two cubes, orientated the same, which share a common corner piece.
+The shared corner piece has no stickers on it, but is a "Double Inside"
+corner piece. The effect is that they share the same line from corner to
+corner, passing through the dead centre of the cube. The appearence would be
+like a (5x5x5) which had been cut away. 
+
+There would be a cubie at the locations:
+(1,1,1),(1,1,2),(1,1,3),(1,2,1),(1,2,2),(1,2,3),(1,3,1),(1,3,2),(1,3,3),
+(2,1,1),(2,1,2),(2,1,3),(2,2,1),(2,2,2),(2,2,3),(2,3,1),(2,3,2),(2,3,3),
+(3,1,1),(3,1,2),(3,1,3),(3,2,1),(3,2,2),(3,2,3),(3,3,1),(3,3,2),(3,3,3),(3,3
+,4),(3,3,5),(3,4,3),(3,4,4),(3,4,5),(3,5,3),(3,5,4),(3,5,5),
+(4,3,3),(4,3,4),(4,3,5),(4,4,3),(4,4,4),(4,4,5),(4,5,3),(4,5,4),(4,5,5),
+(5,3,3),(5,3,4),(5,3,5),(5,4,3),(5,4,4),(5,4,5),(5,5,3),(5,5,4),(5,5,5),
+
+These cubes would *not* rotate about the apparent centre (3,3,3), but about
+the two real centres (4,4,4) and (2,2,2).
+
+I could see there being a few perceptual problems. The conecting cubie at
+(3,3,3) would have no colour stickers on it, hence position and rotation
+must be determined from the other corners. The cube would also appear to the
+operator to turn only the outer slice and middle slice of each cube because
+the operator would always use the centre of mass as his/her frame of
+referance. That is different to the standard (3x3x3) because the operator
+feels the outer slices move.
+
+sorry if this is either wrong or nothing new, I just thought I'd share my
+thoughts with you.
+
+Andrew Southern
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Oct 25 01:26:18 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id BAA00762; Fri, 25 Oct 1996 01:26:17 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9610250500.AA13321@jrdmax.jrd.dec.com>
+Date: Fri, 25 Oct 96 14:00:53 +0900
+From: Norman Diamond 25-Oct-1996 1355 <diamond@jrdv04.enet.dec-j.co.jp>
+To: cube-lovers@ai.mit.edu
+Apparently-To: cube-lovers@ai.mit.edu
+Subject: Siamese Rubik's Cubes (was Re: DEAR TANOFF <<<<<<<<<<<<<<<< (fwd))
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+A. Southern misinterpreted M. Velucchi's picture:
+
+>>    ------
+>>    |    |
+>>    |    |
+>>    -----+-----
+>>         |    |
+>>         |    |
+>>         ------
+
+Siamese Rubik's cubes share an entire column of cubies, i.e. in the
+case of two 3x3x3's they share an edge cubie and two corner cubies.
+
+Cubies cannot move from one cube to the other.  The shared column
+of cubies cannot be separated or rearranged.  The effect is like
+bandaging an edge column on one 3x3x3 cube and bandaging an edge
+column on another 3x3x3 cube and having two identical puzzles.
+
+The idea of bandaging has been extended further by Dieter Gebhardt
+(publications in CFF) and others.  Most variations of bandaging
+cannot be constructed by joining another cube onto it; they just
+have to be done in a simpler and straightforward manner :-)
+And even when a collector wants duplicates of some version, there's
+no need for two duplicates to be stuck to each other :-)  So there
+is no real demand for Siamese cubes any more.  But bandaged cubes,
+yeah some variations are really really difficult.
+
+-- Norman Diamond             diamond@jrdv04.enet.dec-j.co.jp
+[Speaking for Norman Diamond not for Digital.]
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Oct 25 16:08:00 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA02317; Fri, 25 Oct 1996 16:08:00 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+Subject: Re: Siamese Rubik's Cubes (was Re: DEAR TANOFF <<<<<<<<<<<<<<<< (fwd))
+Date: 25 Oct 1996 14:02:32 GMT
+Organization: California Institute of Technology, Pasadena
+Message-ID: <54qh9o$4tu@gap.cco.caltech.edu>
+References: <cube-lovers.9610250500.AA13321@jrdmax.jrd.dec.com>
+NNTP-Posting-Host: off.ugcs.caltech.edu
+X-Newsreader: NN version 6.5.0 #2 (NOV)
+
+Norman Diamond 25-Oct-1996 1355 <diamond@jrdv04.enet.dec-j.co.jp> writes:
+>A. Southern misinterpreted M. Velucchi's picture:
+
+>>>    ------
+>>>    |    |
+>>>    |    |
+>>>    -----+-----
+>>>         |    |
+>>>         |    |
+>>>         ------
+
+>Siamese Rubik's cubes share an entire column of cubies, i.e. in the
+>case of two 3x3x3's they share an edge cubie and two corner cubies.
+
+>Cubies cannot move from one cube to the other.  The shared column
+>of cubies cannot be separated or rearranged.  The effect is like
+>bandaging an edge column on one 3x3x3 cube and bandaging an edge
+>column on another 3x3x3 cube and having two identical puzzles.
+
+A "creative" question:
+
+Suppose we want to be able to rotate the 17-cubie faces 180 degrees.
+Can anyone think of a mechanical structure that could achieve this?
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Oct 25 22:41:42 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA03041; Fri, 25 Oct 1996 22:41:42 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 25 Oct 96 18:51:55 EDT
+Message-Id: <9610252251.AA14688@sun34.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Siamese Rubik's Cubes
+
+Norman Diamond <diamond@jrdv04.enet.dec-j.co.jp> wrote:
+...
+> Siamese Rubik's cubes share an entire column of cubies, i.e. in the
+> case of two 3x3x3's they share an edge cubie and two corner cubies.
+...
+> The idea of bandaging has been extended further by Dieter Gebhardt
+> (publications in CFF) and others....
+
+Most cases of bandaging create a puzzle whose transition graph is not
+the Cayley graph of a group.  For instance, if two disjoint
+edge-corner pairs were taped together, you would have some positions
+with ten possible QT neighbors and some with eight.
+
+But the corner-edge-corner bandaging does create a group: Fix the
+position of the bandaged part, and permute the other 46 facelets (six
+corners, eleven edges, and six face centers) with two face moves and
+two slice moves.  The resulting group can have at most 5! corner
+permutations, as in the two-generator group (see Singmaster or the
+archives (21 July 1981, 31 Aug 1994)).  There are at most 11! edge
+permutations, and the face center permutations represent the rotation
+group of the cube, with 24 elements.  There can be at most 3^5 corner
+orientations and 2^10 edge orientations.  Finally, the total
+permutation parity (corner, edge, and face center) must be even.  Gap
+tells me the group has
+
+    14302911135744000 = 5! 3^5 11! 2^10 24/2 
+
+elements, so all such positions are achievable.  I haven't run the
+Supergroup through Gap, so I'm not sure whether it 2048 times as many
+positions.
+
+Of course the regular Siamese cube has the square of this many
+positions, because there are two cubes.  A different kind of Siamese
+cube would be one in which the three 17-cube slabs can rotate 180
+degrees with respect to each other.  It would certainly be difficult
+to build.  I think the interaction between the slab moves and the
+Lucky Six group would make it hard to solve, as well.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+
+From cube-lovers-errors@curry.epilogue.com  Sat Oct 26 00:18:08 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA03251; Sat, 26 Oct 1996 00:18:08 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 25 Oct 1996 23:47:50 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Siamese Rubik's Cubes (was Re: DEAR TANOFF <(fwd))
+In-Reply-To: <54qh9o$4tu@gap.cco.caltech.edu>
+Message-ID: <Pine.SUN.3.95.961025224506.14991A-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+On 25 Oct 1996, Wei-Hwa Huang wrote:
+
+}Norman Diamond 25-Oct-1996 1355 <diamond@jrdv04.enet.dec-j.co.jp> writes:
+}>A. Southern misinterpreted M. Velucchi's picture:
+
+{Snips}
+
+}A "creative" question:
+}
+}Suppose we want to be able to rotate the 17-cubie faces 180 degrees.
+}Can anyone think of a mechanical structure that could achieve this?
+
+ Here's hoping that this "stream of consciousness with revisions" style is
+acceptable!:
+
+ I can conceive of such a structure, but whether it could be made to work
+decently is quite open to doubt. It would have a great many pieces; the
+whole top layer would have to consist of cubies with two physical parts,
+one that would travel to its new location, and the other which would
+remain behind.  Holding the whole works together while rotating it is
+difficult enough, but reliably reattaching the two parts of each cubie
+once the rotation was complete is borderline crazy!
+
+ Of course, all edge and corner cubies would need to be two-part.
+
+ If someone is ambitious enough to attempt such a design, it would be very
+costly and out of the question for mass production.
+
+ It might help if a tool (such as a Torx (TM) wrench) were provided to
+insert into both "face-center" cubies (or the common corner cubie) to
+unlock the top layer from its underlying parts and to lock the top-layer
+cubies together. However, just a clamping frame to hold the top layer
+together would make sense, IMO. 
+
+ A strictly-mechanical solution is at least borderline impractical, but
+shrewd design with rare-earth magnets might help.
+
+ Dismantle a regular Cube to see what would be involved. An edge cubie has
+a "foot" that extends below the top layer, as does a corner cubie. These
+"feet" would have to be left behind once a move began.
+
+ It's really nice to have all the unlocking and reattaching taken care of
+"automatically" by just the twisting shear force created by gripping the
+Siamese Cube, but for such a move as this, that's a formidable luxury.
+
+ If I were an experienced mechanical engineer, I'd say it just isn't
+practical. However, it is great fun to think of how it could be done. (If
+e-mail had a universal graphics format, illustrations would be nice, but I
+honestly don't feel that ambitious!) I also suspect that when it came time
+to design in detail, new conceptual problems would arise which might be
+extremely difficult to overcome. Consider, for instance, that if you don't
+use a clamping frame, the mere act of locking the top layer together has
+to hold the corner cubies in place. The locking pieces need to be operated
+by sliding members passing through the neighboring edge cubies, and that's
+not all, by far.
+
+ My regards to all,
+
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*      the 2000th anniversary of the year 0.
+--------------------------------------------------------------------------
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Oct 28 23:06:18 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA04616; Mon, 28 Oct 1996 23:06:18 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-ID: <327582D5.71A3@host1.dia.net>
+Date: Mon, 28 Oct 1996 22:06:45 -0600
+From: Scott Crawford <scrawfor@host1.dia.net>
+Reply-To: scrawfor@host1.dia.net
+X-Mailer: Mozilla 3.0Gold (Win95; I)
+MIME-Version: 1.0
+To: Cube List <Cube-Lovers@ai.mit.edu>
+Subject: Rubik's Revenge
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+I am looking for anyone who has a Rubik's Revenge they'd like to part
+with.
+
+Scott Crawford
+
+
+From cube-lovers-errors@curry.epilogue.com  Sun Nov  3 21:05:08 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id VAA11798; Sun, 3 Nov 1996 21:05:07 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: Pet Milk <nathank@asms3.dsc.k12.ar.us>
+Organization: Arkansas School for Math & Science
+To: Cube-Lovers@ai.mit.edu
+Date: Sun, 3 Nov 1996 17:41:33 CDT
+Subject: Greetings
+Priority: normal
+X-mailer: Pegasus Mail for Windows (v2.42a)
+Message-ID: <319C4F363C9@ASMS3.DSC.K12.AR.US>
+
+Hi
+
+
+My name is Nathan, and, obviously, I'm a newcomer to the list.  I have 
+need of some help.  
+
+I'm forced to write a paper concerning some famous individual that 
+has contributed to mathematics in some way.  After looking carefully, 
+I picked Mr. Rubik.  I searched the Net forever, but only came up 
+with an interview that was conducted with Rubik.  However, I need 
+more information.  Here's where I need you.  
+
+Does anyone have any further information concerning the work of Mr. 
+Rubik in any way?  Anything would be of help:  Net sites, books, 
+lists, anything.  I'm not in any bug hurry, however I would like the 
+information in time to sort it, etc.  
+
+Thank you for your help...
+
+
+Nathan
+
+I spy a boy
+I spy a girl
+I spy a chance to change the world
+
+
+From cube-lovers-errors@curry.epilogue.com  Sun Nov  3 21:44:47 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id VAA11881; Sun, 3 Nov 1996 21:44:46 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: Stan Isaacs <isaacs@hpcc01.corp.hp.com>
+Message-Id: <199611040235.AA111104943@hpcc01.corp.hp.com>
+Subject: Book on Bandaged Cubes
+To: cube-lovers@ai.mit.edu
+Date: Sun, 3 Nov 96 18:35:43 PST
+Mailer: Elm [revision: 70.85.2.1]
+
+I just got a book that might be very interesting to cube lovers.  It's 
+called "Bandaged Cubes", by Dieter Gebhardt.  Some cube lovers may 
+already know Dieter and about bandaged cubes, from articles in the 
+CFF magazine; this is all about bandaging in one place.  He presents
+notation and classification, and discusses many types, the 
+group-theory of them, and how to solve them.  It even has color pictures
+of some of the variations.
+
+One type is the C-block cube (also called "Rigit Edge Cube"), which is 
+just half of the Siamese cube recently discussed here.
+
+For those who haven't seen articles on this, bandaged cubes are regular
+Rubik's cubes with some edges taped together.  If you tape 2 cubies, 
+one corner and one edge, that is an "A-block".  If you tape an edge and a
+center, that's a "B-block".  2 corners and an edge (3 cubies) is a "C-block.
+And so on - he has notation for all the bandage possibilities, and 
+discusses (as far as I can tell) all the interesting variations in a 
+3x3x3.  (He leaves 4x4x4 and 5x5x5 bandaged cubes for a later time.)
+
+Anyway, if you get tired of Rubik's cube itself, these offer dozens
+of variations, each with its own quirks and limitations, and many 
+chances for new discoveries.
+
+According to CFF, the booklet can be bought from Dieter for $24 (DM 36)
+(including postage) at:
+	Dieter Gebhardt
+	Norikerstrasse, 23, D-90402
+	Nurnberg, GERMANY
+
+Its 100 pages, with 74 figures and 4 color plates.
+
+I highly recommend it.  Every Cube-lover should have a copy.  (Of course, 
+now I need a cheap source of blank cubes to tape.)
+
+ -- Stan Isaacs
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Nov  4 14:13:43 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA13736; Mon, 4 Nov 1996 14:13:42 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: mlist-cube-lovers@nntp-server.caltech.edu
+From: Wei-Hwa Huang <whuang@cco.caltech.edu>
+To: Cube-Lovers@AI.MIT.EDU
+Subject: Re: Book on Bandaged Cubes
+Date: 4 Nov 1996 16:37:13 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 17
+Message-ID: <55l63p$kuh@gap.cco.caltech.edu>
+References: <cube-lovers.199611040235.AA111104943@hpcc01.corp.hp.com>
+NNTP-Posting-Host: accord.cco.caltech.edu
+X-Newsreader: NN version 6.5.0 #12 (NOV)
+
+Stan Isaacs <isaacs@hpcc01.corp.hp.com> writes:
+
+>For those who haven't seen articles on this, bandaged cubes are regular
+>Rubik's cubes with some edges taped together.  If you tape 2 cubies, 
+>one corner and one edge, that is an "A-block".  If you tape an edge and a
+>center, that's a "B-block".  2 corners and an edge (3 cubies) is a "C-block.
+>And so on - he has notation for all the bandage possibilities, and 
+>discusses (as far as I can tell) all the interesting variations in a 
+>3x3x3.  (He leaves 4x4x4 and 5x5x5 bandaged cubes for a later time.)
+
+Does he cover non-adjacent bandages; for example, two corner cubies?
+
+
+-- 
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+-------------------------------------------------------------------------------
+Not technically an "evil alum".
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Nov  4 14:12:38 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA13732; Mon, 4 Nov 1996 14:12:38 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Authentication-Warning: coronado.nadn.navy.mil: wdj owned process doing -bs
+Date: Mon, 4 Nov 1996 06:58:58 -0500 (EST)
+From: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+X-Sender: wdj@coronado
+Reply-To: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+To: Pet Milk <nathank@asms3.dsc.k12.ar.us>
+cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Greetings
+In-Reply-To: <319C4F363C9@ASMS3.DSC.K12.AR.US>
+Message-ID: <Pine.GSO.3.95.961104065543.10814A-100000@coronado>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+On Sun, 3 Nov 1996, Pet Milk wrote:
+
+> Hi
+> 
+> 
+> My name is Nathan, and, obviously, I'm a newcomer to the list.  I have 
+> need of some help.  
+> 
+> I'm forced to write a paper concerning some famous individual that 
+> has contributed to mathematics in some way.  After looking carefully, 
+> I picked Mr. Rubik.  I searched the Net forever, but only came up 
+> with an interview that was conducted with Rubik.  However, I need 
+> more information.  Here's where I need you.  
+> 
+> Does anyone have any further information concerning the work of Mr. 
+> Rubik in any way?  Anything would be of help:  Net sites, books, 
+> lists, anything.  I'm not in any bug hurry, however I would like the 
+> information in time to sort it, etc.  
+
+Have you seen the book "Rubik's cubic compendium", by Rubik, et al?
+It has an article by Rubik which is interesting and is still in print
+(published by Oxford Univ Press I think). - David Joyner
+
+> 
+> Thank you for your help...
+> 
+> 
+> Nathan
+> 
+> I spy a boy
+> I spy a girl
+> I spy a chance to change the world
+> 
+> 
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Nov  4 15:29:43 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA13904; Mon, 4 Nov 1996 15:29:43 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Mon, 4 Nov 1996 15:12:06 -0500 (EST)
+Message-Id: <199611042012.PAA24488@itchy.mindspring.com>
+X-Sender: gammet@mindspring.com
+X-Mailer: Windows Eudora Light Version 1.5.2
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Aben Gentry <gammet@mindspring.com>
+Subject: Rubik's Clock...
+
+Hey Guys,
+
+Have any of you figured out how to solve Rubik's clock yet? Also, what is
+best source for cubes (and cube-like puzzles) that you know of? ...I
+normally shop at Puzzletts.
+
+Aben Gentry
+abeng@mindspring.com
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Nov  4 21:53:51 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id VAA15107; Mon, 4 Nov 1996 21:53:51 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Authentication-Warning: arthur.st.nepean.uws.edu.au: lrylands owned process doing -bs
+Date: Tue, 5 Nov 1996 13:22:02 +1100 (EST)
+From: Leanne Rylands <L.Rylands@st.nepean.uws.edu.au>
+X-Sender: lrylands@arthur
+To: Aben Gentry <gammet@mindspring.com>
+cc: cube-lovers@ai.mit.edu
+Subject: Re: Rubik's Clock...
+In-Reply-To: <199611042012.PAA24488@itchy.mindspring.com>
+Message-ID: <Pine.ULT.3.95.961105131923.15739B-100000@arthur>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+> 
+> Have any of you figured out how to solve Rubik's clock yet? Also, what is
+> best source for cubes (and cube-like puzzles) that you know of? ...I
+> normally shop at Puzzletts.
+
+Don Taylor and I wrote a book ``Mastering Rubik's Clock''.
+Published in 1988 by Simon and Schuster which gives the 
+solution.
+The clock is very easy to solve (hence the book is very 
+thin, only 16 pages).
+
+Leanne Rylands
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Tue Nov  5 23:16:36 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA17832; Tue, 5 Nov 1996 23:16:35 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: AirWong@aol.com
+Date: Tue, 5 Nov 1996 18:43:57 -0500
+Message-ID: <961105184355_222918906@emout11.mail.aol.com>
+To: CUBE-LOVERS@ai.mit.edu
+Subject: Re: Rubik's Clock...
+
+> Have any of you figured out how to solve Rubik's clock yet?
+
+What exactly is the Rubik's clock? I've only heard of the Rubik's cube, dice,
+pyramid, tangle, fifteen... how many puzzles have the Rubik's name on them,
+anyway?
+
+Aaron Wong
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Nov  6 14:32:49 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA19590; Wed, 6 Nov 1996 14:32:49 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@cco.caltech.edu>
+Subject: Re: Rubik's Clock...
+Date: 6 Nov 1996 16:10:50 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 37
+Message-ID: <55qdaa$jig@gap.cco.caltech.edu>
+References: <cube-lovers.961105184355_222918906@emout11.mail.aol.com>
+NNTP-Posting-Host: accord.cco.caltech.edu
+X-Newsreader: NN version 6.5.0 #12 (NOV)
+
+AirWong@aol.com writes:
+
+>> Have any of you figured out how to solve Rubik's clock yet?
+
+>What exactly is the Rubik's clock? I've only heard of the Rubik's cube, dice,
+>pyramid, tangle, fifteen... how many puzzles have the Rubik's name on them,
+>anyway?
+
+Hum de hum...
+
+Cube (Several releases)
+Mini Cube
+Revenge
+4th Dimension (A cube with pictures)
+Race
+Game
+Snake (Many colors, three sizes)
+Magic (Link the Rings)
+Magic (Make the Cube)
+Magic (Unlink the Rings)
+Magic Game
+Magic Puzzle
+Clock
+Fifteen
+Rabbits
+Dice
+Triamid
+Tangle (4 versions)
+Maze
+
+(The Pyraminx, the Octagon, the 5x5x5, and the Missing Link have never
+ been labeled with Rubik's name, AFAIK...)
+
+-- 
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+-------------------------------------------------------------------------------
+Not technically an "evil alum".
+
+
+From cube-lovers-errors@curry.epilogue.com  Thu Nov  7 16:07:58 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA22332; Thu, 7 Nov 1996 16:07:58 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 7 Nov 1996 08:15:38 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: AirWong@aol.com
+cc: CUBE-LOVERS@ai.mit.edu
+Subject: Re: Rubik's Clock...
+In-Reply-To: <961105184355_222918906@emout11.mail.aol.com>
+Message-ID: <Pine.SUN.3.95.961107081251.20075B-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ Aaron is probably not the only person wondering! By any chance, was this
+a temporary lapse, with the calendar cube in mind?
+
+Regards to all, NB
+
+* * *
+
+On Tue, 5 Nov 1996 AirWong@aol.com wrote:
+
+{Snips}
+
+}> Have any of you figured out how to solve Rubik's clock yet?
+}
+}What exactly is the Rubik's clock? I've only heard of the Rubik's cube, dice,
+}pyramid, tangle, fifteen... how many puzzles have the Rubik's name on them,
+}anyway?
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Thu Nov  7 16:09:46 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA22336; Thu, 7 Nov 1996 16:09:46 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <1.5.4.32.19961107155402.002b5d48@mentda.me.ic.ac.uk>
+X-Sender: ars2@mentda.me.ic.ac.uk
+X-Mailer: Windows Eudora Light Version 1.5.4 (32)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Thu, 07 Nov 1996 15:54:02 +0000
+To: Cube-Lovers@ai.mit.edu
+From: "The Unofficial Thermofluids Fan Club of the UK." <a.southern@ic.ac.uk>
+Subject: Re: Rubik's Clock...
+
+I wrote this a few days ago but sent it to the wrong
+address......durrrrrrrrrrrrrrrrrrrrrr!
+
+here it is with an amendment.
+
+At 13:22 05/11/96 +1100, you wrote:
+>> 
+>> Have any of you figured out how to solve Rubik's clock yet? Also, what is
+>> best source for cubes (and cube-like puzzles) that you know of? ...I
+>> normally shop at Puzzletts.
+>
+>Don Taylor and I wrote a book ``Mastering Rubik's Clock''.
+>Published in 1988 by Simon and Schuster which gives the 
+>solution.
+>The clock is very easy to solve (hence the book is very 
+>thin, only 16 pages).
+>
+>Leanne Rylands
+>
+>
+>
+>
+
+I once set about building a 5x5 rubiks clock, but I never got round to
+finishing it as I realised that I already knew how to solve the general NxN
+clock.
+
+I did get around to building a 32x2 Rubik's Magic, that's eight Rubiks
+Magics built into one array. It required a couple of customised inlays (i.e.
+I cut and pasted), and is still prone to misalignment and deligamentation
+(i.e. it falls apart a bit), but it works and the solution is just an
+extended version of the 4x2. It takes me about half an hour to solve, and is
+the equivelent of a good work out, that's why I haven't used it since I was
+about 14! 
+
+I only used it to get one above the guys at school that could do the magic
+(4x2) in about one second, because I could never get any faster than 2 seconds!
+
+The smallest "Rubik's Magic" I've ever custom built was a 2x1, most people
+didn't have any problem with that one!
+
+Has anyone else ever extrapulated a puzzle to form a "Custom Master Edition"?
+
+I'd be interested to hear.
+
+
+
+from Wei-Hwa Huang
+
+Cube (Several releases)
+Mini Cube
+Revenge
+4th Dimension (A cube with pictures)
+Race
+Game
+Snake (Many colors, three sizes)
+Magic (Link the Rings)
+Magic (Make the Cube)
+Magic (Unlink the Rings)
+Magic Game
+Magic Puzzle
+Clock
+Fifteen
+Rabbits
+Dice
+Triamid
+Tangle (4 versions)
+Maze
+
+I think there was also Rubik's Illusion, which was a game of chess using
+some sort of complex mapping.
+
+
+
+Cheers!
+
+Andrew R. Southern,
+
+The unofficial Thermo-Fluids Fan Club of the UK.
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Nov  8 17:23:27 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id RAA25136; Fri, 8 Nov 1996 17:23:27 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 8 Nov 1996 12:02:10 GMT
+Message-Id: <96110812021006@glam.ac.uk>
+From: Vanessa Paradis WANTS me!! <cmaggs@glam.ac.uk>
+To: CUBE-LOVERS@ai.mit.edu
+Subject: HELLO AGAIN!
+X-VMS-To: CUBE-LOVERS@AI.MIT.EDU
+
+I have solved the Rubiks Clock.
+I also have the Rubiks Illusion.
+
+It is like 4-in-a-row game, but you need 5-in-a-row, using a mirror (which is
+connected to the back of the board) as another part of the board.
+
+There are 3 types of pieces.  RED, YELLOW and RED/YELLOW.
+
+These can be used to make a row of 5 in any direction
+
+
+From cube-lovers-errors@curry.epilogue.com  Tue Nov 12 16:10:33 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA02082; Tue, 12 Nov 1996 16:10:33 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199611121842.NAA17030@life.ai.mit.edu>
+From: Pete Beck <pbeck@pica.army.mil>
+To: cube-lovers@ai.mit.edu
+Subject: Fw: [Dan Galvin:  Thought for Tuesday, Nov 12, 1996]
+Date: Tue, 12 Nov 1996 13:32:50 -0500
+X-Msmail-Priority: Normal
+X-Priority: 3
+X-Mailer: Microsoft Internet Mail 4.70.1155
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+
+----------
+> To: pbeck@qa.pica.army.mil
+> Subject: [Dan Galvin:  Thought for Tuesday, Nov 12, 1996]
+> Date: Tuesday, November 12, 1996 12:40 PM
+> 
+> 
+> ----- Forwarded message # 1:
+> 
+> Received: from postal.tamu.edu by COR6.PICA.ARMY.MIL id ab27608;
+>           12 Nov 96 9:44 EST
+> Received: from postal (postal.tamu.edu [128.194.103.24]) by
+postal.tamu.edu (8.7.5/8.7.5) with SMTP id IAA13954; Tue, 12 Nov 1996
+08:35:44 -0600 (CST)
+> Received: from TAMVM1.TAMU.EDU by TAMVM1.TAMU.EDU (LISTSERV-TCP/IP
+release
+>           1.8b) with spool id 9135 for TFTD-L@TAMVM1.TAMU.EDU; Tue, 12
+Nov 1996
+>           08:33:52 -0600
+> Received: from TAMVM1 (NJE origin SMTPH@TAMVM1) by TAMVM1.TAMU.EDU (LMail
+>           V1.2a/1.8a) with BSMTP id 5159; Tue, 12 Nov 1996 04:02:02 -0600
+> Received: from tam2000.tamu.edu by tamvm1.tamu.edu (IBM VM SMTP V2R2)
+with TCP;
+>           Tue, 12 Nov 96 04:02:01 CST
+> Received: (from galvin@localhost) by tam2000.tamu.edu (8.8.2/8.8.2) id
+EAA02104
+>           for TFTD-L@TAMVM1.TAMU.EDU; Tue, 12 Nov 1996 04:02:02 -0600
+(CST)
+> Approved-By:  Dan Galvin <galvin@TAM2000.TAMU.EDU>
+> Message-ID:  <199611121002.EAA02104@tam2000.tamu.edu>
+> Date:         Tue, 12 Nov 1996 04:02:02 -0600
+> Reply-To: Dan Galvin <galvin@tam2000.tamu.edu>
+> Sender: THOUGHT FOR THE DAY <TFTD-L@TAMVM1.TAMU.EDU>
+> From: Dan Galvin <galvin@tam2000.tamu.edu>
+> Subject:      Thought for Tuesday, Nov 12, 1996
+> To: Multiple recipients of list TFTD-L <TFTD-L@TAMVM1.TAMU.EDU>
+> 
+>                                                                       *
+> Easiest Color to Solve on a Rubik's Cube:
+>         Black.  Simply remove all the little colored stickers on the
+>         cube, and each of side of the cube will now be the original
+>         color of the plastic underneath -- black.  According to the
+>         instructions, this means the puzzle is solved.
+>                 -- Steve Rubenstein
+> 
+> ----- End of forwarded messages
+
+
+From cube-lovers-errors@curry.epilogue.com  Tue Nov 12 16:12:10 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA02086; Tue, 12 Nov 1996 16:12:10 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9611121909.AA31489@milo.cfw.com>
+From: Carey <g-carey@cfw.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Square 1
+Date: Tue, 12 Nov 1996 13:59:31 -0500
+X-Msmail-Priority: Normal
+X-Priority: 3
+X-Mailer: Microsoft Internet Mail 4.70.1155
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+Hello,
+I'm working on a solution to the Square 1 puzzle.  Does anyone know the
+maximum number of moves required?  Also I'm looking for the minimum number
+of moves required to solve it if you have three consecutive edge wedges.
+
+Pete Carey
+g-carey@cfw.com
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Nov 13 16:27:44 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA04550; Wed, 13 Nov 1996 16:27:44 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 13 Nov 1996 16:13:57 -0500 (EST)
+From: Michael C Masonjones <mcmj@blazetech.com>
+X-Sender: mcmj@world.std.com
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Square 1
+In-Reply-To: <9611121909.AA31489@milo.cfw.com>
+Message-Id: <Pine.SGI.3.93.961113151157.4794B-100000@world.std.com>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+On Tue, 12 Nov 1996, Carey wrote:
+
+> Hello,
+> I'm working on a solution to the Square 1 puzzle.  Does anyone know the
+> maximum number of moves required?  Also I'm looking for the minimum number
+> of moves required to solve it if you have three consecutive edge wedges.
+> 
+> Pete Carey
+> g-carey@cfw.com
+> 
+I assume this means a permutation of three edge wedges.
+I can do it in 8 flips through the center divisor, the most convenient way
+I've found to count moves on Square-1.
+
+Start with the permutation on top (in the square/square configuration,
+of course).  Position top and bottom squares so that the left side of the
+top edge wedge facing you lies above the central turning slot and the
+right side of the bottom edge wedge lies below the same slot.  (If you
+flip through the center, you still have square configurations, top and
+bottom).
+
+T+n = rotate top n/12 of a turn counterclockwise, as seen from top..
+T-n = ..........................clockwise............
+B+n, B-n are the same for the bottom face when looking at it from the
+bottom.
+F = flip through center slot.
+
+Try this:
+F T+3 F T-1 B-1 F T-2 B+1 F T-3
+F T+3 F T-1 B-1 F T-2 B+1 F T+3
+
+Notice that half of this produces two 2-permutations.
+
+I'm curious if anyone speed cubes Square 1.  My average is about 1:35,
+with a best time of 1:15 for partial fluke.  I can always do it in under 2
+minutes for the worst parity situation.  How does this compare?  There
+have got to be faster people out there, because I can only do the regular
+Rubik's cube in 55 seconds on average, which is pretty slow by this
+group's standards.
+
+					Mike Masonjones.
+					mcmj@blazetech.com
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Nov 13 22:28:12 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA05354; Wed, 13 Nov 1996 22:28:12 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199611140236.AA29041@world.std.com>
+To: "cube-lovers@ai.mit.edu" <cube-lovers@ai.mit.edu>
+Subject: Re: Square 1
+Date: Wed, 13 Nov 96 22:37:52 -0500
+From: michael <mcmj@world.std.com>
+X-Mailer: E-Mail Connection v2.5.03
+
+-- [ From: michael * EMC.Ver #2.5.02 ] --
+
+Whoops! the flip is done with the right hand keeping the left side of the
+puzzle stationary, if that was not already clear.  Doing it with a left hand
+twist does a double double switch of edge-wedge and corner-wedge pairs.
+
+Sorry for the errata post on this. Maybe I should add something else to
+avoid the complete wast of bandwidth.  
+
+Since he asked... The only thing I know about confirmed maximal moves for
+Square 1 is that any possible shape can be put back to two squares with at
+most 7 flips, and only one configuration requires that many moves.  That's
+the one with a square on one side (CECECECE) and the CEECECCE shape (C=
+corner wedge, E=edge-wedge) on the other.  Satisfyingly symmetric antipode.
+
+Corrected permutation of 3 edge wedges:
+
+>T+n = rotate top n/12 of a turn counterclockwise, as seen from top..
+
+>T-n = ..........................clockwise............
+
+>B+n, B-n are the same for the bottom face when looking at it from the
+bottom. 
+>
+>F = flip through center slot. **** with right hand.****
+>
+>Try this:
+
+>F T+3 F T-1 B-1 F T-2 B+1 F T-3
+
+>F T+3 F T-1 B-1 F T-2 B+1 F T+3
+>
+
+					Mike Masonjones.
+					mcmj@blazetech.com
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Nov 13 23:44:48 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA05475; Wed, 13 Nov 1996 23:44:47 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 13 Nov 1996 23:36:47 -0500
+Message-Id: <13Nov1996.162951.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+To: Cube-Lovers@ai.mit.edu
+In-reply-to: Jerry Slocum's message of 11 Nov 96 18:29:11 EST <961111232911_70410.1050_JHD113-1@CompuServe.COM>
+Subject: Directory of Puzzlers
+
+I received the following note from Jerry Slocum, which he asked me to pass
+on to Cube-Lovers if I though it was appropriate.  I see nothing wrong with
+it, so here it is.
+
+But let me take this opportunity to request that people -not- send things
+to Cube-Lovers-Request and ask that I forward them on to Cube-Lovers --
+that just makes more work for me.  Please just send what you want to go to
+Cube-Lovers to Cube-Lovers.  If you feel the need to make some explanation
+to Cube-Lovers-Request, send a separate message to Cube-Lovers-Request.
+
+Thanks!  - Alan
+
+------- Begin Forwarded Message -------
+
+Date: 11 Nov 96 18:29:11 EST
+From: Jerry Slocum <70410.1050@compuserve.com>
+To: Alan Bawden <Cube-lovers-request@ai.mit.edu>
+Subject: Directory of Puzzlers
+Message-ID: <961111232911_70410.1050_JHD113-1@CompuServe.COM>
+
+Dear Alan,
+
+In 1994 the Slocum Puzzle Foundation published the Second Edition of the
+"Directory of Puzzle Collectors and Sellers". It includes a list of 232 puzzle
+collectors and designers and described in detail what puzzles interest them.
+More than 120 of them collect, and are interested in, combinatorial Rubik-type
+puzzles. It also includes 96 mail order puzzle sellers and 147 retail stores
+that sell puzzles (and were recommended by collectors).
+
+I will be sending out letters of inquiry to all collectors & sellers
+included in the Directory within the next week for updated information for
+a new Third Edition that will be published early in 1997.
+
+Some, but not all, of the Cube Lovers subscribers will receive mailings.
+
+I would be glad to invite Cube Lovers who are puzzle collectors and/or
+sellers to email me if they wish to be in the Third Edition and are not in
+the current Directory.
+
+I will add a section on puzzle related WWW Internet pages and sites and
+expand the coverage of email in the new Directory.  I will send a letter of
+inquiry to all that request one and provide their mailing address.  I am
+asking for the replies to be returned to me 3 weeks after they are
+received.
+
+Let me know if you have any questions or you would like more details.
+
+I would be glad to have this notice posted for Cube Lovers if you think it
+is appropriate..
+
+Regards,
+Jerry Slocum
+257 South Palm Drive, Beverly Hills, CA 90212 USA  Fax 310-274-3644
+email:70410.1050@compuserve.com
+
+
+------- End Forwarded Message -------
+
+
+From cube-lovers-errors@curry.epilogue.com  Thu Nov 14 14:06:14 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA06978; Thu, 14 Nov 1996 14:06:13 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 14 Nov 1996 08:33:29 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: y'xy vs. yxy'
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-id: <Pine.PMDF.3.91.961114075359.20973G-100000@PSTCC6.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+
+
+As promised, here is my followup on why the conjugate of x by y is y'xy
+rather than yxy'.  Recall that y'xy informally means undo y, then do x,
+and finally do y.  It seems strange to undo something before you do it,
+but nonetheless y'xy is the conventional definition of congugacy rather
+than yxy'. 
+
+My first reference is Singmaster, Notes on Rubik's 'Magic Cube', Fifth
+Edition, pp. 57-58. We adopt left to right notation so that (a)xy=y(x(a)).
+a is the argument, and x and y are permutations which are composed left to
+right. 
+
+I paraphrase slightly, but here is what Singmaster says.  We desire the
+conjugate of x by y to be x shifted by y.  By "x shifted by y", we mean
+the following.  Suppose in cycle notation we have x=(...,a,b,c...).  Then,
+x shifted by y is z, where z=(...,(a)y,(b)y,(c)y,...).  I will defer the
+presentation of Singmaster's proof, but the final conclusion is that
+z=y'xy.  So our definition of the conjugate of x by y becomes y'xy.  By
+contrast, we have yxy'=(...,(a)y',(b)y',(c)y',....), or x shifted by y'. 
+
+While I was chasing down this reference in Singmaster, a message arrived
+from Dan Hoey giving an alternative justification for the y'xy definition. 
+I will quote Dan's message extensively.  Dan first credits Jim Saxe with
+the explanation, and then goes on to say the following. 
+
+
+>                     Suppose we are conjugating elements of a group X
+>by elements of a group G.  Congugation by an element g induces a
+>permutation on X.  
+
+This is a very old idea in Cube-Lovers.  I believe the first occurrence is
+in Symmetry and Local Maxima.  Elements of the standard cube group G were
+conjugated by elements of the set M of rotations and reflections of the
+cube.  Conjugation of all the elements of G by a fixed element m of M were
+viewed as a permutation on G. 
+
+We denote m'gm by g^m for fixed g in G and fixed m in M.  We then denote
+{m'gm | m in M} as g^M and {m'gm | g in G} as G^m.  I normally tend to
+think of M-conjugation in terms of g^M -- that is, take one fixed element
+g and calculate its 48 M-conjugates.  By contrast, G^m means take each g
+in G and calculate m'gm using the same fixed m for each g.  It is G^m
+which is a permutation on G. 
+
+Dan continues:
+
+>                   It is useful to have the mapping from g to its
+>conjugation permutation be a homomorphism into S[X].  Suppose f is the
+>mapping
+>
+>    f: a -> {x -> a' x a}.
+>
+>To make this a homomorphism, we must have
+>
+>    f:a.b -> f(a).f(b)
+>
+>so    {x -> (a.b)' x (a.b)} = {x -> a' x a} . {x -> b' x b}.
+>
+>The right hand side is the product of two permutations.  
+
+Indeed.  It's probably obvious to everybody else how to form the indicated
+composition of the two permutations, but I was bumfuzzled for a while. 
+Once I figured it out, I just kicked myself for being so dense.  Let me 
+explain.
+
+My day job is as a bureaucrat, but most semesters I am also adjunct
+faculty teaching elementary algebra and calculus.  As such, I end up
+teaching simple funcions -- e.g., f(x) = x^2 + 1. You teach students to
+calculate such things as f(2) or f(3).  Then, you teach them such things
+as f(a) and try to explain that "x is a variable" but "a is a constant
+that you just don't know the value of".  Finally, you get into such 
+things as f(a+b) or f(x^2 + 1).  
+
+The latter is the one that really confuses most of my students.  They can
+handle "replace x with 2" or "replace x with a".  But they have great
+conceptual difficulty with "replace x with x^2 + 1".  The truth is, it is
+a bit of a different concept because it is really function composition in
+disguise, although most elementary math books don't teach function
+composition for several chapters after introducing functions. 
+
+Anyway, with Dan's equation we really just have a function composition
+where in the end we replace x with a'xa.  So x->b'xb becomes
+a'xa->b'(a'xa)b.  I kick myself because I couldn't quickly figure out the
+same concept that I am forever emphasizing with my students. 
+
+Dan continues:
+
+
+>                                                         If we are
+>writing them left to right, as in f.g (x) = g(f(x)), then it is
+>
+>              {x->b'(a' x a)b} which corresponds to the left hand side.
+>
+>>But we write permutation composition from right to left,
+>f.g(x)=f(g(x)) we would get
+>
+>              {x->a'(b' x b)a} ?
+>
+>for the right hand side, and that is wrong, since a'b' is not (ab)'.
+>
+>>People who write right to left define conjugation by a as
+>f:a->{x->axa'} for this reason.
+>
+
+It seems to me that we could rescue the homomorphism and the yxy'
+definition, but it would be awkward.  We would have to have the mapping
+from g' to its conjugation permutation be the homomorphism, rather than
+the mapping from g. 
+
+Now for Singmaster's proof:  given the cycle in our definition of x, we
+have x:a->b.  We need y'xy:(a)y->(b)y.  But (a)yy'xy=(a)xy=(b)y.  So y'xy
+carries (a)y to (b)y, and we are done. 
+
+Let me finish by talking a little more about the equivalence between
+conjugacy and cycle structure.  Again, this is from Singmaster. 
+
+It is the case in Sn that two elements x and z are conjugate if and only
+if they have identical cycle structure.  Any finite permutation group may
+be viewed as a subgroup of Sn for suitable choice of n.  The theorem may
+or may not be true in any particular subgroup of Sn.  The part about
+conjugates having identical cycle structure is always true.  But the
+converse may or may not be true. 
+
+To say that x and z are conjugate means that there exists some y such that
+z=y'xy.  It's easy to see that if x and z have the same cycle structure,
+then such a y must exist in Sn (e.g., line up the cycles of x with the
+cycles of z, see what goes to what, and that is a y which will work).  The
+problem in the general case is that a subgroup of Sn might contain x and z
+which have the same cycle structure, without also containing an
+appropriate y which would make them conjugate. 
+
+Singmaster shows that the converse of the theorem is true for the
+constructable group of the cube, but that it is not true for the standard
+cube group G.  The counter-example is as follows.  Let x be a 7-cycle on
+the corners and an 11-cycle on the edges -- e.g.,
+
+  x=(C1,C2,C3,C4,C5,C6,C7)(E1,E2,E3,E4,E5,E6,E7,E8,E9,E10,E11).  
+
+Let z be only slightly different (reversing two corners)  --  e.g., 
+
+  z=(C2,C1,C3,C4,C5,C6,C7),(E1,E2,E3,E4,E5,E6,E7,E8,E9,E10,E11)
+
+The obvious conjugating element is y=(C1,C2), which is in the 
+constructable group but which is not in G.  There are other conjugating 
+elements, but they are all of the form
+
+(C1,C2) (C2,C1,C3,C4,C5,C6,C7)^i (E1,E2,E3,E4,E5,E6,E7,E8,E9,E10,E11)^i,
+
+which also are in the constructable group but not in G.  Hence, x and z 
+have the same cycle structure, but are not conjugate in G.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Sat Nov 16 21:51:20 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id VAA00394; Sat, 16 Nov 1996 21:51:19 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sat, 16 Nov 1996 07:24:20 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Cube-Lovers@ai.mit.edu
+Subject: Non-cubical Rubik cousins; physical realizability
+In-Reply-To: <13Nov1996.162951.Alan@LCS.MIT.EDU>
+Message-ID: <Pine.SUN.3.95.961116063942.13366F-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ (My subject line is a spur-of-the-moment phrase; not deeply considered.)
+
+ I just got to wondering whether some people have considered theoretical
+larger analogs of the Magic Domino (btw, would somebody please manufacture
+some Magic Dominoes? Binary Arts?). To get back on topic, these would be
+Cube-like puzzles with such "cubie counts" ("Dimensions") as 3X3X4, 3X4X4,
+etc. Whether these are trivial, I haven't yet thought out; making real,
+physical ones might not be simple. If this topic is covered in the
+archives, I apologize; in such a case, could someone recommend non-obvious
+keywords or names? 
+
+ Is there an agreed-upon concise way of defining the
+"size/count/dimensions" of a Cube; i.e., a 2X2X2 is a Pocket Cube, a 4...
+is Rubik's Revenge, etc.? How about "order-3" for a regular Rubik's, or
+simply (given proper context) "n", so that "2" signifies Pocket, "4"
+Revenge, etc.? Perhaps it's just a personal reaction, but I find it
+cumbersome to type "5X5X5" more than a few times, for instance.
+
+ Thinking about this brings up another topic, and probably a difficult one
+to completely characterize. Given any arbitrary puzzle composed of cubies,
+is it always possible to create a mechanism to realize that specific
+puzzle physically?
+
+ As far as I know (and here I stick my neck waaaaay out!), there is no
+theory of mechanisms in the general case that would, for instance, say
+whether an order-2 is realizable (as we know, it can be made, and has
+been); the Magic Domino is more of a challenge, imho, in that it isn't as
+easy to say whether such a structure can be made. 
+
+ Some matters affecting realizability are relatively easy to anticipate,
+such as the matter of holding the corner cubies in place in a "7"  (with
+all cubies of equal size) when one plane is rotated with respect to the
+other six. Other matters are a question of what's reasonable to design
+mechanically; while theoretically possible, some structures might not be
+at all practical, because of such problems as cumulative friction, lack of
+rigidity, and dimensional tolerances. Such real-world considerations
+(unfortunately!) muddy the waters until a really good mind comes along to
+settle the mud.
+
+ A preliminary guess at an answer to the question is that probably all
+"low-order" collections of cubies are realizable, but we are far from
+having a theory of mechanisms that tells us how to design the innards.
+
+ I maintain that the mechanism of the ordinary Rubik's Cube is the most
+ingenious simple one ever invented; I have studied mechanisms to a fair
+degree. (A good competitor is the programmable pushbutton combination lock
+that has five buttons in a row. This is mechanical, digital, programmable,
+combinatorial, and sequential.)
+
+Hope and trust this hasn't been a waste of bitspace!
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*      the 2000th anniversary of the year 0.
+--------------------------------------------------------------------------
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Sun Nov 17 19:42:27 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA02462; Sun, 17 Nov 1996 19:42:27 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9611180041.AA06743@jrdmax.jrd.dec.com>
+Date: Mon, 18 Nov 96 09:41:55 +0900
+From: Norman Diamond 18-Nov-1996 0937 <diamond@jrdv04.enet.dec-j.co.jp>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Non-cubical Rubik cousins; physical realizability
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+By bandaging a 4x4x4, you can make several variations:  3x3x4, 3x4x4, 2x4x4,
+and 2x3x3.  The 4x4x4 is no longer made or sold through ordinary distribution
+channels any more, but probably still available from Puzzletts at a high
+price.  At the IPP a few months ago someone was offering a real 2x3x3 for
+around US$40 I think, which is cheaper than a 4x4x4 is now but still rarer.
+
+-- Norman Diamond             diamond@jrdv04.enet.dec-j.co.jp
+[Speaking for Norman Diamond not for Digital.]
+
+
+From cube-lovers-errors@curry.epilogue.com  Tue Nov 26 20:05:10 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id UAA13447; Tue, 26 Nov 1996 20:05:09 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199611270059.TAA07056@dns.city-net.com>
+To: "Cube-Lovers@AI.MIT.EDU" <cube-lovers@ai.mit.edu>
+Subject: Rubic's Revenge
+Date: Tue, 26 Nov 96 19:56:00 -0500
+From: Bill Edwards <edwards@city-net.com>
+X-Mailer: E-Mail Connection v2.5.03
+
+-- [ From: Bill Edwards * EMC.Ver #2.5.02 ] --
+
+Anybody know where I can get some more Rubic's Revenges?  I wore out my last
+one more than a year ago.  
+
+Does a 5x5 matrix Rubic's cube exist?  I think I know the general solution,
+as an extrapolation from the solution to a 4x4.
+
+Hope to hear from somebody soon.
+
+Bill
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Nov 27 14:23:19 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA15812; Wed, 27 Nov 1996 14:23:19 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: Tim Botham <timbo@homemail.com>
+To: cube-lovers@ai.mit.edu, Bill Edwards <edwards@city-net.com>
+Subject: Re: Rubic's Revenge
+Date: Tue, 26 Nov 1996 21:34:10 -0800
+X-MSMail-Priority: Normal
+X-Priority: 3
+X-Mailer: Microsoft Internet Mail 4.70.1155
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Message-Id: <E0vScbV-0003Or-00@dewey.mindlink.net>
+
+Puzzletts (on the web at http://www.puzzletts.com/) has a good selection of
+4x4x4, 5x5x5, and other variations available by mail-order.  Ordering can
+be done through their web page.
+
+	Tim
+
+----------
+> From: Bill Edwards <edwards@city-net.com>
+> To: Cube-Lovers@AI.MIT.EDU <cube-lovers@ai.mit.edu>
+> Subject: Rubic's Revenge
+> Date: November 26, 1996 4:56 PM
+> 
+> -- [ From: Bill Edwards * EMC.Ver #2.5.02 ] --
+> 
+> Anybody know where I can get some more Rubic's Revenges?  I wore out my
+last
+> one more than a year ago.  
+> 
+> Does a 5x5 matrix Rubic's cube exist?  I think I know the general
+solution,
+> as an extrapolation from the solution to a 4x4.
+> 
+> Hope to hear from somebody soon.
+> 
+> Bill
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Nov 27 14:24:05 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA15816; Wed, 27 Nov 1996 14:24:04 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 27 Nov 1996 10:18:53 -0800
+From: Aaron Coles <acoles@fec.gov>
+Subject: Rubik's Tangle Puzzles
+To: cube-lovers@ai.mit.edu
+Reply-to: acoles@fec.gov
+Message-id: <329C860D.60E0@fec.gov>
+MIME-version: 1.0
+X-Mailer: Mozilla 3.0 (Win16; U)
+Content-type: text/plain; charset=us-ascii
+Content-transfer-encoding: 7bit
+
+Anyone know where I can purchase Rubik Tangle #1 from?? I already have
+2-4.  I lent it to someone and never got it back.  
+
+Also has anyone created the 10x10 grid with these puzzles yet??
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Nov 27 16:05:13 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA16084; Wed, 27 Nov 1996 16:05:12 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 27 Nov 1996 12:56:20 -0800
+From: Don Woods <don@altum.com>
+Message-Id: <199611272056.MAA21078@altum.com>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Rubik's Tangles
+
+Someone (I've deleted the message) recently asked about the Tangles.
+My recollection is that the four puzzles are all the same except for
+permutations of the colors.  That is, each Tangle consists of the 24
+possible distinct pieces, plus one duplicated piece.  Which piece is
+duplicated varies, but the resulting puzzles are the same.  (Oh yeah,
+the pattern of the crossing ropes on each tile is also the same for
+each puzzle.)  Really disappointing, especially since I think there
+were two distinct solutions, and if they'd varied the mix a bit more
+they could've had unique solutions as well as having four truly
+different puzzles.
+
+Also, another fellow and I independently did some analyses about three
+years ago that proved that you cannot make a 10x10 using the four
+combined puzzles.  Presumably the marketing blurb that suggests doing
+so was written by someone who had no clue whether it was possible or
+not.  Again, if they'd varied the puzzles a bit I have no doubt they
+could've made the 10x10 achievable as well.
+
+	-- Don.
+
+
+From cube-lovers-errors@curry.epilogue.com  Thu Nov 28 13:10:28 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id NAA18263; Thu, 28 Nov 1996 13:10:28 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 28 Nov 1996 11:51:48 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: cube-lovers@ai.mit.edu
+Subject: Lubricants for puzzles
+Message-ID: <Pine.SUN.3.95.961128113717.18706F-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ My apologies in advance if this is a repeated topic; it hasn't appeared
+recently, at least.
+
+ Question is: What is a really good lubricant for plastic puzzles (such as
+the classic Cube) with moving parts? What's good for metal machinery isn't
+necessarily good for plastics; there is even a risk that some additives in
+metal lubricants would dissolve or etch some plastics.
+
+ A liquid, probably with a benign solvent to distribute it, would be
+desirable. Powdered (or colloidal?) PTFE ("Teflon", a Du Pont TM in the
+USA) particles or flakes should help a good bit. A "carrier" grease (which
+might as well be a lubricant) would keep any particles in place. 
+Molybdenum disulfide might be good, but might also tend to stain hands and
+clothing. Some waxes might work. Powdered graphite would probably work
+loose and make a mess. Lubricants that stain clothing aren't welcome,
+either!
+
+ The lubricant must also be benign toward metal, because the Cube is held
+together with metal screws and tensioned by springs.
+
+ I suspect that someone, somewhere, knows about a commercial (proprietary) 
+formulation that meets most or all of these criteria. (I would not
+recommend WD-40, by the way; I expect it would evaporate after some
+months. It has its place, but I don't think it's a good plastic
+lubricant.) 
+
+ About 10 years ago, I found such a product, and lubricated some of my
+puzzles with it, with good success, but then a major personal crisis came,
+and I lost track of what it was...
+
+ I'll try to summarize, if any significant number of replies comes by...
+
+ Thanks in advance, and best regards!
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Nov 29 03:45:13 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id DAA19651; Fri, 29 Nov 1996 03:45:13 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Sender: lars@pop.netgate.net (Unverified)
+Message-Id: <v01530500aec3f0e7f1ed@[205.214.160.57]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Thu, 28 Nov 1996 17:51:53 -0800
+To: cube-lovers@ai.mit.edu
+From: Lars Petrus <lars@netgate.net>
+Subject: Re: Lubricants for puzzles
+
+> My apologies in advance if this is a repeated topic; it hasn't appeared
+>recently, at least.
+>
+> Question is: What is a really good lubricant for plastic puzzles (such as
+>the classic Cube) with moving parts?
+
+At first I used ordinary candles. It works fine, but you have to redo
+it twice a week if you twist a lot. Later I heard that Silicon Spray
+is the best, and I have used it ever since.
+
+The odd thing about it is that for the first few minutes of turning, it
+almost GLUES the cube together. It gets VERY hard to turn. The cubes in the
+swedish championship were greased with silicon, but not "turned soft", so
+it was really hard. Since I had learned the cube with a REALLY bad cube
+(there was a shortage of hungarian cubes for months at that time), I had
+a big advantage at that competition.
+
+
+  -  -  -  -
+"Madness is the first sign of dandruff"
+                                --- Dr Winston O'Boogie
+
+Lars Petrus, Sunnyvale, California  -  lars@netgate.net
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Nov 29 03:45:46 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id DAA19655; Fri, 29 Nov 1996 03:45:45 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: AirWong@aol.com
+Date: Thu, 28 Nov 1996 22:38:41 -0500
+Message-ID: <961128223838_1985119134@emout20.mail.aol.com>
+To: cube-lovers@ai.mit.edu
+Subject: Dirty Cubes
+
+Hello All!
+
+How do you keep the original Rubik's cube (3X3X3) clean? If you've ever taken
+apart the cube, you know what I'm talking about. The dust gets inside and
+builds up over time. Is there any way to keep the dust out?
+
+Aaron Wong
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Nov 29 18:16:58 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id SAA21148; Fri, 29 Nov 1996 18:16:58 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 29 Nov 1996 10:37:14 -0500 (EST)
+From: Michael Swart <mjswart@undergrad.math.uwaterloo.ca>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Dirty Cubes
+In-Reply-To: <961128223838_1985119134@emout20.mail.aol.com>
+Message-ID: <Pine.SUN.3.95.961129103307.1965A-100000@napier.uwaterloo.ca>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Hello
+
+> Hello All!
+> 
+> How do you keep the original Rubik's cube (3X3X3) clean? If you've ever taken
+> apart the cube, you know what I'm talking about. The dust gets inside and
+> builds up over time. Is there any way to keep the dust out?
+
+Yep I know what you mean,
+	I'm not really sure if there's anyway to keep the dust out.  I
+always thought that the dust helps the cube stay 'smooth'.  
+	After I think about it a bit, it seems likely that the dust comes
+from plastic moving against plastic and so I'm not sure if the dust can be
+avoided. But if you do like it clean you can regularly take a damp cloth
+to the unassmbled cube.
+
+ Michael Swart
+ University of Waterloo
+ mjswart@undergrad.math.uwaterloo.ca
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Nov 29 18:16:24 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id SAA21144; Fri, 29 Nov 1996 18:16:24 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-ID: <01BBDDDB.82C8E1C0@avelloso.agestado.com.br>
+From: Desenvolvimento de Projetos <avelloso@agencia.oesp.com.br>
+To: "'AirWong@aol.com'" <AirWong@aol.com>,
+        "cube-lovers@ai.mit.edu" <cube-lovers@ai.mit.edu>
+Subject: RE: Dirty Cubes
+Date: Fri, 29 Nov 1996 09:55:52 -0200
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+You must disassemble it sometimes and clean it inside...
+
+-----Original Message-----
+From:	AirWong@aol.com [SMTP:AirWong@aol.com]
+Sent:	Friday, November 29, 1996 1:39 AM
+To:	cube-lovers@ai.mit.edu
+Subject:	Dirty Cubes
+
+Hello All!
+
+How do you keep the original Rubik's cube (3X3X3) clean? If you've ever taken
+apart the cube, you know what I'm talking about. The dust gets inside and
+builds up over time. Is there any way to keep the dust out?
+
+Aaron Wong
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Sun Dec  1 00:58:31 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA05105; Sun, 1 Dec 1996 00:58:30 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sat, 30 Nov 1996 12:44:03 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: AirWong@aol.com
+cc: cube-lovers@ai.mit.edu
+Subject: Re: Dirty Cubes
+In-Reply-To: <961128223838_1985119134@emout20.mail.aol.com>
+Message-ID: <Pine.SUN.3.95.961130121830.21486G-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ Any self-respecting cube is made of plastic that >should< not be affected
+by isopropyl alcohol; but don't use it on an unknown plastic, especially
+if you don't want to lose that particular Cube. All except the center
+"jack" structure should be cleanable with (hand) dishwashing detergent;
+don't soak the pieces.
+
+ Rubbing alcohol has other substances in its formulation that could attack
+plastic; better to use 91% or 99% grade from a drugstore; shop around for
+price. I have seen 91% isopropyl alcohol at maybe 8 times the price it
+should be. Figure maybe $3 US per pint tops. It ignites fairly easily, by
+the way! Do be careful. 
+
+ Cleaning will remove all the lubricant, so you'll probably want to
+restore it. So far, silicone spray (note that it's not spellled "silicon" 
+spray; a chemist knows the difference) seems to be the best. If you have
+the Cube apart, consider silicone lubricating grease, also, but it should
+not contain other substances that would attack the plastic. (If applying
+it to a shiny surface removes the gloss when it's wiped off after sitting
+there for a short time, don't use it!). I have heard recommendations for
+silicone stopcock grease, which would be a scientific lab. item, as a
+joint grease for plastic recorders, but for those you want something that
+>won't< allow motion with light forces.
+
+ As to keeping dust out: A lubricant that isn't sticky will help; possibly
+finely powdered Teflon, or the white powdered lock lubricant that used to
+be (and might still be) on the market. Otherwise, it's a matter of
+avoiding a dusty environment!
+
+ In the Navy, we called it Preventive Maintenance, seems to me. (It was a
+while ago!) Routine disassembly for cleaning maybe once or twice a year
+seems reasonable. Fortunately, the "3" (and bigger ones) come apart
+gracefully. The Pocket Cube does not! (It also hates to be reassembled as
+well. Wonder whether it's assembled with special jigs and tools, or do the
+assemblers simply suffer?)
+
+On Thu, 28 Nov 1996 AirWong@aol.com wrote:
+
+}Hello All!
+}
+}How do you keep the original Rubik's cube (3X3X3) clean? If you've ever taken
+}apart the cube, you know what I'm talking about. The dust gets inside and
+}builds up over time. Is there any way to keep the dust out?
+}
+}Aaron Wong
+
+ My best to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Sun Dec  1 00:58:01 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA05101; Sun, 1 Dec 1996 00:58:01 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sat, 30 Nov 1996 09:28:53 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+Reply-To: Nicholas Bodley <nbodley@tiac.net>
+To: Lars Petrus <lars@netgate.net>
+cc: cube-lovers@ai.mit.edu
+Subject: Re: Lubricants for puzzles
+In-Reply-To: <v01530500aec3f0e7f1ed@[205.214.160.57]>
+Message-ID: <Pine.SUN.3.95.961130092213.21486B-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ Thank you! A second vote for silicone. Another respondent, from Finland,
+said one shouldn't spray the outside surfaces, but didn't say why. It's
+possible that something in the formulation would react with the adhesive
+for the stickers and make it become jelly-like; this happened to my "5",
+but I have long ago forgotten what I used on it.
+
+My regards to all,
+_  __
+|\ |_)
+| \|_)
+
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Dec  2 14:17:33 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA09406; Mon, 2 Dec 1996 14:17:33 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <1.5.4.32.19961202120328.002c443c@mentda.me.ic.ac.uk>
+X-Sender: ars2@mentda.me.ic.ac.uk
+X-Mailer: Windows Eudora Light Version 1.5.4 (32)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Mon, 02 Dec 1996 12:03:28 +0000
+To: cube-lovers@ai.mit.edu
+From: "The Official Thermo-Fluids Fan Club of the UK. (Andy Southern)" <a.southern@ic.ac.uk>
+Subject: Dirt?
+
+Hi,
+
+I don't think it's a case of keeping the dirt out as removing it from the cube.
+I think the "Dust" is actually parts of the cube that have worn off, and
+become entrapped in the cube.
+
+A similar thing happens to roller bearings etc., but with more destructive
+results.
+
+
+
+Andy Southern.
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Tue Dec  3 17:44:19 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id RAA12343; Tue, 3 Dec 1996 17:44:18 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 3 Dec 1996 11:18:42 -0500
+From: der Mouse <mouse@holo.rodents.montreal.qc.ca>
+Message-Id: <199612031618.LAA12721@Collatz.McRCIM.McGill.EDU>
+To: edwards@city-net.com
+Subject: Re:  Rubic's Revenge
+Cc: cube-lovers@ai.mit.edu
+
+> Does a 5x5 matrix Rubic's [sic] cube exist?  I think I know the
+> general solution, as an extrapolation from the solution to a 4x4.
+
+Yes, a 5-Cube exists; I own one.  And yes, if you can solve the 3-Cube
+and the 4-Cube, no higher order presents any qualitatively new
+challenges to a human.  In theory, the 6-Cube would, because it's the
+first one that has one-visible-face cubies that are not on a plane of
+symmetry.  The 5-Cube has a 3x3 grid of one-face cubies on each face,
+but they are all either (a) face center, (b) non-(a) center slice, or
+(c) non-(a) face diagonal.  On the 4-Cube, the four one-face cubies are
+all face diagonal, and on the 3-Cube, there's only one (face center)
+one-face cubie.  However, at least based on my own experience, I
+believe that these new cubies on the 6-Cube will not add any additional
+challenge - the one-face cubies are one of the easiest parts of the
+cube anyway, and the same basic operations that work for the (c) cubies
+on the 4-Cube (and the (b) and (c) cubies on the 5-Cube) will work
+equally well for these new cubies.
+
+Incidentally, does anyone know if a physical 6-Cube has ever been made?
+If so, and it's not too outrageously priced, I'd be interested in
+buying one.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+
+
+From cube-lovers-errors@curry.epilogue.com  Tue Dec  3 19:22:45 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA13796; Tue, 3 Dec 1996 19:22:45 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9612040008.AA29913@jrdmax.jrd.dec.com>
+Date: Wed, 4 Dec 96 09:08:55 +0900
+From: Norman Diamond 04-Dec-1996 0859 <diamond@jrdv04.enet.dec-j.co.jp>
+To: Cube-Lovers@AI.MIT.EDU
+Subject: Re:  Rubik's Revenge
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+Also spracht der Mouse:
+
+>And yes, if you can solve the 3-Cube
+>and the 4-Cube, no higher order presents any qualitatively new
+>challenges to a human.
+
+Depends on what you mean by a "challenge."  Average puzzlers who found
+relatively ordinary algorithms for the 3-cube and 4-cube will discover
+that they must find one new algorithm for the 5-cube, but it will be easy.
+
+>In theory, the 6-Cube would, because it's the
+>first one that has one-visible-face cubies that are not on a plane of
+>symmetry.
+
+Even after reading your explanation, I don't quite believe it, but would
+love to own one and find out for sure :-)
+
+Consider that the 4-cube (and 5-cube) can be made harder by forcing the
+centre (or inner ring) cubies of each face to be oriented.  If this is
+done to a 6-cube then of course the 6-cube becomes harder too.  Otherwise
+I think my 4-cube algorithms would solve a 6-cube.
+
+>Incidentally, does anyone know if a physical 6-Cube has ever been made?
+
+Someone told Nob Yoshigahara that his country had solved the problem of
+manufacturing the thing.  Then Nob was playing with the guy's business
+card and lost it, and has never been able to find the guy again.  Although
+Nob is known for a sense of humour at times, he sure wasn't joking when he
+admitted this.  The only questions are whether the unknown person was
+telling the truth, and who and where he is.
+
+-- Norman Diamond              diamond@jrdv04.enet.dec-j.co.jp
+[Speaking for Norman Diamond not for Digital.]
+
+
+From cube-lovers-errors@curry.epilogue.com  Tue Dec  3 23:34:02 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA14205; Tue, 3 Dec 1996 23:34:02 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 3 Dec 1996 21:54:18 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Norman Diamond 04-Dec-1996 0859 <diamond@jrdv04.enet.dec-j.co.jp>
+cc: Cube-Lovers@ai.mit.edu
+Subject: 6-cube and Hofstadter; Meffert
+In-Reply-To: <9612040008.AA29913@jrdmax.jrd.dec.com>
+Message-ID: <Pine.SUN.3.95.961203214340.27176B-100000@sunspot.tiac.net>
+
+
+ Around 1985, I think, I was browsing through a book by Douglas
+Hofstadter, most likely his _Metamagical Themas_; buried deep within it
+was a comment (I think without attribution) that a prototype of the 6-cube
+had been built, and a paper design for the 7-cube existed. Digging through
+the archives for this mailing list might also yield something.
+
+ He also said that almost all the Magic Dodecahedrons had been melted down
+for their plastic, because each one used about $2 worth. This is one of
+the sadder pieces of news I have heard.
+
+ Does anyone know whether Uwe M=E8ffert (Meffert, if your char. set isn't
+ISO 8859-1 compatible [See Moderator's Note]) is still in business? He's
+Swiss, and was (and might still be) primarily an aquaculturist.
+
+ The 6-cube would be fun to manipulate and solve, but what I'd really love
+to see is its innards! The insides of the 5-cube are awe-inspiring... 
+
+Regards to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+[ Moderator's Note: Actually, I would prefer it if people didn't use
+  extended ISO 8859 characters (or MIME, or PGP) in sending messages to
+  Cube-Lovers.  This message got to the Cube-Lovers inbox quite mangled
+  because of the presence of an 8-bit character in Meffert's name.  I undid
+  the damage, and I agree that this -should- just have worked, and perhaps
+  someday soon it -will-, but for now, it just doesn't work.  The the
+  extent that it is possible, I request that Cube-Lovers subscribers stick
+  to submitting messages formatted in plain ASCII.  Thanks!  - Alan ]
+
+From cube-lovers-errors@curry.epilogue.com  Wed Dec  4 01:51:58 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id BAA14517; Wed, 4 Dec 1996 01:51:58 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 4 Dec 1996 06:50:12 +0100
+Message-Id: <1.5.4.16.19961204065010.20d70018@mailsvr.pt.lu>
+X-Sender: geohelm@mailsvr.pt.lu
+X-Mailer: Windows Eudora Light Version 1.5.4 (16)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Georges Helm <geohelm@pt.lu>
+Subject: Mark Longridge's Web Page
+
+I'm looking for the Web page of Mark. (Hello Mark!). His e-mail address
+doesn't work any longer. Thank you for helping.
+
+Georges
+         
+geohelm@pt.lu
+http://ourworld.compuserve.com/homepages/Georges_Helm
+http://www.geocities.com/Athens/2715
+
+
+[ Cube-Lovers-Request also wonders what happened to Mark Longridge.  He was
+  a frequent contributor to Cube-Lovers.  The electronic mail adress I have
+  for him stopped working over a month ago ("User unknown").  - Alan ]
+
+From cube-lovers-errors@curry.epilogue.com  Wed Dec  4 22:36:51 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA16757; Wed, 4 Dec 1996 22:36:50 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 4 Dec 1996 06:56:55 -0500
+From: der Mouse <mouse@holo.rodents.montreal.qc.ca>
+Message-Id: <199612041156.GAA16203@Collatz.McRCIM.McGill.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  Rubik's Revenge
+
+>> And yes, if you can solve the 3-Cube and the 4-Cube, no higher order
+>> presents any qualitatively new challenges to a human.
+
+> Depends on what you mean by a "challenge."  Average puzzlers who
+> found relatively ordinary algorithms for the 3-cube and 4-cube will
+> discover that they must find one new algorithm for the 5-cube, but it
+> will be easy.
+
+Are you referring to center-slice non-face-center cubies?  If so, well,
+"duh, I missed that".  Dunno why it didn't register on me that the
+5-Cube is the first one with such cubies, but it is.
+
+I suppose it's just that to me, all eight non-face-center face cubies
+on the 5-Cube "feel the same", so I didn't notice the difference.
+(That's also why I think the "new" face cubies on the 6-Cube will not
+be a challenge.  What algorithm _are_ you referring to?)
+
+> Consider that the 4-cube (and 5-cube) can be made harder by forcing
+> the centre (or inner ring) cubies of each face to be oriented.
+
+True, of course; putting a picture (or equivalent) on the face of the
+Cube makes anything above the 2-Cube at least somewhat harder.  But
+AFAICT this doesn't explain your first statement, about needing a new
+algorithm for the 5-Cube....
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Dec  4 22:37:15 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA16761; Wed, 4 Dec 1996 22:37:15 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Sender: mag@sdgmail.ncsa.uiuc.edu
+Message-Id: <v02130500aecb578e6c6c@[141.142.103.218]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 4 Dec 1996 10:33:02 -0600
+To: cube-lovers@ai.mit.edu
+From: Tom Magliery <mag@ncsa.uiuc.edu>
+Subject: Re: Mark Longridge's Web Page
+
+>I'm looking for the Web page of Mark. (Hello Mark!). His e-mail address
+>doesn't work any longer. Thank you for helping.
+>
+>[ Cube-Lovers-Request also wonders what happened to Mark Longridge.  He was
+>  a frequent contributor to Cube-Lovers.  The electronic mail adress I have
+>  for him stopped working over a month ago ("User unknown").  - Alan ]
+
+Mark's web page is gone as well.  There is a (now-broken) link to it on my
+own cube page:  http://sdg.ncsa.uiuc.edu/~mag/Misc/CubeSoln.html
+
+mag
+
+--
+.---o  Tom Magliery, Research Programmer                         .---o
+`-O-.  NCSA, 605 E. Springfield                  (217) 333-3198  `-O-.
+o---'  Champaign, IL 61820          O-        mag@ncsa.uiuc.edu  o---'
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Dec  4 22:36:08 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA16749; Wed, 4 Dec 1996 22:36:08 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9612040842.AA14888@jrdmax.jrd.dec.com>
+Date: Wed, 4 Dec 96 17:42:27 +0900
+From: Norman Diamond 04-Dec-1996 1742 <diamond@jrdv04.enet.dec-j.co.jp>
+To: Cube-Lovers@AI.MIT.EDU
+Cc: nbodley@tiac.net
+Subject: Re: 6-cube and Hofstadter; Meffert
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+Nicholas Bodley writes:
+
+> He also said that almost all the Magic Dodecahedrons had been melted down
+>for their plastic, because each one used about $2 worth.
+
+I don't think either part of that is true.  I'm nearly certain that the
+magic dodecahedron is still in Dr. Bandelow's catalog.  Although to be
+pendantic, I believe Meffert's company was in Hong Kong, so the $2 value
+of plastic might be accurate in Hong Kong dollars.
+
+> Does anyone know whether Uwe M=E8ffert (Meffert, if your char. set isn't
+>ISO 8859-1 compatible [See Moderator's Note]) is still in business?
+
+1.  Maybe around 10 years ago, I read that his company went bankrupt.
+
+2.  The world's largest country uses a language which can't be written
+using ISO 8859-1 compatible characters.  So do some neighboring countries.
+The world's second-largest country has a small fraction of its population
+well educated in a language which can be written using those characters,
+but its most commonly used language (and most of its languages) cannot be.
+
+-- Norman Diamond        diamond@jrdv04.enet.dec-j.co.JP
+[Speaking for Norman Diamond not for DIGITAL, in Japan or elsewhere.]
+
+
+From cube-lovers-errors@curry.epilogue.com  Wed Dec  4 22:36:32 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA16753; Wed, 4 Dec 1996 22:36:31 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <1.5.4.32.19961204100309.002b8e90@mentda.me.ic.ac.uk>
+X-Sender: ars2@mentda.me.ic.ac.uk
+X-Mailer: Windows Eudora Light Version 1.5.4 (32)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 04 Dec 1996 10:03:09 +0000
+To: Nicholas Bodley <nbodley@tiac.net>, Cube-Lovers@ai.mit.edu
+From: "The Official Thermo-Fluids Fan Club of the UK. (Andy Southern)" <a.southern@ic.ac.uk>
+Subject: Re: 6-cube and Hofstadter; Meffert
+
+At 21:54 03/12/96 -0500, you wrote:
+>
+> Does anyone know whether Uwe M=E8ffert (Meffert, if your char. set isn't
+>ISO 8859-1 compatible [See Moderator's Note]) is still in business? He's
+>Swiss, and was (and might still be) primarily an aquaculturist.
+>
+
+Uwe Meffret is in business, in Aberdeen, Hong Kong.
+My only question is What the F=56*7c()k (apologies to anyone with a ISO
+8859-1)  is a aquaculturist?
+
+> The 6-cube would be fun to manipulate and solve, but what I'd really love
+>to see is its innards! The insides of the 5-cube are awe-inspiring... 
+
+I think I could build one from a 4x4x4, but I don't have all that much time,
+or a 4x4x4, and I'm not sure which of those is more important!
+
+
+Andrew Southern
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Thu Dec  5 19:07:56 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA00525; Thu, 5 Dec 1996 19:07:56 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 5 Dec 1996 00:23:14 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+Reply-To: Nicholas Bodley <nbodley@tiac.net>
+To: Cube-Lovers@ai.mit.edu
+Subject: Thanks, and an apology, too
+Message-ID: <Pine.SUN.3.95.961204222023.22514C-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ My thanks to the people who replied to my query about Meffert; most said
+he's still in business. Thanks also for updates on the Magic Dodecahedron.
+
+ And... BIG apology for tossing in a "High-ASCII" (?) Latin-1 character! 
+I only proved my optimism (that it would be OK) and my ignorance (that it
+is >not< OK in this List! I'll try to e-mail Alan directly. I would never
+have thought that one character would create a mess. Incidentally, and
+totally off topic, I found the really-obscure Codepage 819 that makes
+MS-DOS totally and directly compatible (no translations to Codepage 850)
+with ISO 8859-1, and installed it. Recommended, but e-mail me if you are
+interested. 
+
+ Btw, I had problems replying to Norman Diamond; his From: e-mail address
+apparently couldn't be found, and my message bounced. Maybe DNS problem?
+
+ [There's just an off-chance that this is double-posted; sorry if so! I
+don't think it will be.]
+
+Regards to all, 
+_  __
+|\ |_)
+| \|_)
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Thu Dec  5 19:08:19 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA00529; Thu, 5 Dec 1996 19:08:18 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-ID: <32A761C9.72AD@host1.dia.net>
+Date: Thu, 05 Dec 1996 17:59:05 -0600
+From: Scott Crawford <scrawfor@host1.dia.net>
+Reply-To: scrawfor@host1.dia.net
+X-Mailer: Mozilla 3.0Gold (Win95; I)
+MIME-Version: 1.0
+To: Cube List <Cube-Lovers@ai.mit.edu>
+Subject: Identify this puzzle please!
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+I recently acquired a puzzle through the mail and am not sure what it is
+called.  I'll give a shot at describing it:  It has 14 sides - 8
+triangles, and 6 squares.  The squares are rotated 45 degrees and each
+touch 4 other squares at the corners, while their sides match up with 4
+triangles each.  You could achieve the shape of this puzzle by taking a
+cube and shaving off the corners to create an equilateral triangle. 
+There are no markings or words on it.  If anybody knows, please let me
+know, as I am curious if this is the Magic Dodecahedron I've been
+reading about.
+
+Thanks,
+Scottie
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Dec  6 16:12:01 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA02782; Fri, 6 Dec 1996 16:12:01 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <6Dec1996.210000.Cube-Lovers@AI.MIT.EDU>
+Date: Fri, 6 Dec 1996 21:00:00 GMT
+From: Cube Lovers Moderator <Cube-Lovers-Request@AI.MIT.EDU>
+To: Cube-Lovers@AI.MIT.EDU
+Subject: Cuboctohedron [Digest v21 #77]
+
+Cube-Lovers Digest          Fri, 6 Dec 96         Volume 21 : Issue 77
+
+Today's Topic:
+		     Identify this puzzle please!
+			    Cuboctohedron
+
+[ Due to a large number of similar messages on a single topic, I have
+  gathered them together into digest format.  -Moderator ]
+
+----------------------------------------------------------------------
+
+Date: Thu, 5 Dec 96 16:33:41 PST
+Message-Id: <9612060033.AA18270@quark.geoworks.com>
+From: David Litwin <dlitwin@geoworks.com>
+To: scrawfor@host1.dia.net
+Cc: Cube List <Cube-Lovers@ai.mit.edu>
+In-Reply-To: <32A761C9.72AD@host1.dia.net>
+Subject: Identify this puzzle please!
+Reply-To: dlitwin@geoworks.com
+
+
+	Actually that is a cubo-octahedron and has as its internal
+mechanism a normal cube (with different side and corner pieces).
+	This has 10 sides, not 12 like the dodecahedron.  The faces of
+a dodecahedron are pentagons and the internal mechanism is actually
+quite similar in concept to the cube (12 centers on axes instead of 6
+centers on axes).
+
+	Dave Litwin
+
+Scott Crawford writes:
+> I recently acquired a puzzle through the mail and am not sure what it is
+> called.  I'll give a shot at describing it:  It has 14 sides - 8
+> triangles, and 6 squares.  The squares are rotated 45 degrees and each
+> touch 4 other squares at the corners, while their sides match up with 4
+> triangles each.  You could achieve the shape of this puzzle by taking a
+> cube and shaving off the corners to create an equilateral triangle. 
+> There are no markings or words on it.  If anybody knows, please let me
+> know, as I am curious if this is the Magic Dodecahedron I've been
+> reading about.
+
+------------------------------
+
+Date: Thu, 5 Dec 1996 19:29:53 -0500 (EST)
+From: Dale Newfield <din5w@cs.virginia.edu>
+Reply-To: DNewfield@cs.virginia.edu
+To: Cube List <Cube-Lovers@ai.mit.edu>
+Subject: Re: Identify this puzzle please!
+In-Reply-To: <32A761C9.72AD@host1.dia.net>
+Message-Id: <Pine.SUN.3.90.961205192726.27532O-100000@dot.cs.Virginia.EDU>
+
+
+I have at least two of these.  There are semantically equivalent to a 
+cube.  I would call them "Truncated cubes" or "truncated hexahedra".  I'm 
+not sure what their marketing name was.
+
+-Dale Newfield
+ DNewfield@Virginia.edu
+
+------------------------------
+
+Message-Id: <2.2.32.19961206010234.006a133c@uclink4.berkeley.edu>
+Date: Thu, 05 Dec 1996 17:02:34 -0800
+To: Cube-Lovers@ai.mit.edu
+From: Mark Pilloff <mdp1@uclink4.berkeley.edu>
+Subject: Re: Identify this puzzle please!
+
+I have one of these things-- got it many years ago and it's not the magic
+dodecahedron.  As I recall, you can solve the six square sides like an
+ordinary Rubik's cube and the other 8 triangles will automatically fall into
+place so it's no harder or more interesting than the regular cube.
+
+Mark
+
+At 05:59 PM 12/5/96 -0600, Scottie wrote:
+>I recently acquired a puzzle through the mail and am not sure what it is
+>called.  I'll give a shot at describing it:  It has 14 sides - 8
+>triangles, and 6 squares.  The squares are rotated 45 degrees and each
+>touch 4 other squares at the corners, while their sides match up with 4
+>triangles each.  You could achieve the shape of this puzzle by taking a
+>cube and shaving off the corners to create an equilateral triangle. 
+>There are no markings or words on it.  If anybody knows, please let me
+>know, as I am curious if this is the Magic Dodecahedron I've been
+>reading about.
+>
+>Thanks,
+>Scottie
+>
+>
+>
+
+************************************
+**    Mark D. Pilloff             **
+**    mdp1@uclink4.berkeley.edu   **
+************************************
+
+------------------------------
+
+Message-ID: <32A7718A.4616@host1.dia.net>
+Date: Thu, 05 Dec 1996 19:06:40 -0600
+From: Scott Crawford <scrawfor@host1.dia.net>
+Reply-To: scrawfor@host1.dia.net
+To: Cube List <Cube-Lovers@ai.mit.edu>
+Subject: Re: Identify this puzzle please!
+References: <9612060033.AA18270@quark.geoworks.com>
+
+David Litwin wrote:
+> 
+>         Actually that is a cubo-octahedron and has as its internal
+> mechanism a normal cube (with different side and corner pieces).
+>         This has 10 sides, not 12 like the dodecahedron.  The faces of
+> a dodecahedron are pentagons and the internal mechanism is actually
+> quite similar in concept to the cube (12 centers on axes instead of 6
+> centers on axes).
+> 
+>         Dave Litwin
+> 
+> Scott Crawford writes:
+> > I recently acquired a puzzle through the mail and am not sure what it is
+> > called.  I'll give a shot at describing it:  It has 14 sides - 8
+> > triangles, and 6 squares.  The squares are rotated 45 degrees and each
+> > touch 4 other squares at the corners, while their sides match up with 4
+> > triangles each.  You could achieve the shape of this puzzle by taking a
+> > cube and shaving off the corners to create an equilateral triangle.
+> > There are no markings or words on it.  If anybody knows, please let me
+> > know, as I am curious if this is the Magic Dodecahedron I've been
+> > reading about.
+
+
+Thanks a lot all!!!  Wow! Talk about fast response.  At first glance I
+figured I would never be able to solve this one, but upon closer
+examination, I realized I already knew how.  It is identical to the
+original cube in methods of solving.  Again thanks, you guys are great!!
+
+Scottie
+
+------------------------------
+
+From: Tim Botham <timbo@homemail.com>
+To: Cube Lovers Postings <Cube-Lovers@ai.mit.edu>
+Subject: Fw: Identify this puzzle please!
+Date: Thu, 5 Dec 1996 22:19:08 -0800
+Message-Id: <E0vVuBU-0004TR-00@dewey.mindlink.net>
+
+Sounds like you have what I know as a "Truncated Cube", although I'm not
+sure if that's the 'official' name.  The Magic Dodecahedron has 12 sides,
+each in the shape of a pentagon.  Magic Dodecahedron's are available from
+Dr. Christoph Bandelow for 35DM.  He has a variety of "cube puzzles" - for
+a catalog, request to: Dr. Christoph Bandelow, An der Wabeck 37, D-58456
+Witten, GERMANY.
+
+	Tim
+
+ ---------
+From: Scott Crawford <scrawfor@host1.dia.net>
+To: Cube List <Cube-Lovers@ai.mit.edu>
+Subject: Identify this puzzle please!
+Date: December 5, 1996 3:59 PM
+
+I recently acquired a puzzle through the mail and am not sure what it is
+called.  I'll give a shot at describing it:  It has 14 sides - 8
+triangles, and 6 squares.  The squares are rotated 45 degrees and each
+touch 4 other squares at the corners, while their sides match up with 4
+triangles each.  You could achieve the shape of this puzzle by taking a
+cube and shaving off the corners to create an equilateral triangle. 
+There are no markings or words on it.  If anybody knows, please let me
+know, as I am curious if this is the Magic Dodecahedron I've been
+reading about.
+
+Thanks,
+Scottie
+
+------------------------------
+
+Date: Fri, 6 Dec 1996 11:13:10 GMT
+Message-Id: <1.5.4.32.19961206120741.002b4114@mentda.me.ic.ac.uk>
+To: scrawfor@host1.dia.net, Cube-Lovers@ai.mit.edu
+From: "The Official Thermo-Fluids Fan Club of the UK. (Andy Southern)" <a.southern@ic.ac.uk>
+Subject: Re: Identify this puzzle please!
+
+At 17:59 05/12/96 -0600, you wrote:
+>I recently acquired a puzzle through the mail and am not sure what it is
+>called.  I'll give a shot at describing it:  It has 14 sides - 8
+>triangles, and 6 squares.  The squares are rotated 45 degrees and each
+>touch 4 other squares at the corners, while their sides match up with 4
+>triangles each.  You could achieve the shape of this puzzle by taking a
+>cube and shaving off the corners to create an equilateral triangle. 
+>There are no markings or words on it.  If anybody knows, please let me
+>know, as I am curious if this is the Magic Dodecahedron I've been
+>reading about.
+>
+>Thanks,
+>Scottie
+>
+>
+>
+
+No, the magic Dodecahedron has 12 regular pentagon faces.
+
+I think you might be talking about Meffret's Creative Challenge, but that is
+the Geodesic versions of those shapes on a sphere.
+
+Andy.
+
+------------------------------
+
+Message-ID: <32A84381.753F@host1.dia.net>
+Date: Fri, 06 Dec 1996 10:02:09 -0600
+From: Scott Crawford <scrawfor@host1.dia.net>
+Reply-To: scrawfor@host1.dia.net
+To: Cube List <Cube-Lovers@ai.mit.edu>
+Subject: Cuboctohedron
+
+There has been quite a few inquiries as to how this puzzle is a puzzle
+and not a hunk of cheese as one reader pointed out.
+
+It turns just like a regular cube.  Apparently it has the same mechanism
+inside.  It only LOOKS harder, but after taking a few seconds to analyze
+it, I noticed that the solution was the same as the cube.  Still a neat
+piece in a collection.
+
+Scottie
+
+------------------------------
+
+End of Cube-Lovers Digest
+*************************
+
+From cube-lovers-errors@curry.epilogue.com  Mon Dec  9 00:03:51 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA10749; Mon, 9 Dec 1996 00:03:51 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: rmead@ionet.net
+Date: Sun, 8 Dec 1996 17:04:40 -0600 (CST)
+Message-Id: <199612082304.RAA01952@mail.ionet.net>
+X-Sender: rmead@ionet.net
+X-Mailer: Windows Eudora Version 1.4.4
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: Cube-Lovers@ai.mit.edu
+Subject: rubiks
+
+does anyone know where i could purchase a rubik's cube?  i would really
+prefer an original one made in the 1980's. 
+
+rmead@ionet.net
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Dec  9 00:04:56 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA10757; Mon, 9 Dec 1996 00:04:55 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sun, 8 Dec 1996 22:08:31 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Scott Crawford <scrawfor@host1.dia.net>
+cc: Cube List <Cube-Lovers@ai.mit.edu>
+Subject: Re: Identify this puzzle please!
+In-Reply-To: <32A761C9.72AD@host1.dia.net>
+Message-ID: <Pine.SUN.3.95.961208220053.14849A-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ Sorry, don't think I can help with your puzzle, but the Magic
+Dodecahedron has (I surely hope!) twelve identical faces; each face is a
+pentagon. ("Do" is "two", and "deca" is "ten", loosely speaking; it's a
+prefix for "12", unless I'm 'way off base.)  I'm just about sure that each
+face has five corner pieces (you shouldn't, strictly speaking, call them
+"cubies")  that it shares with its neighbors; also five middle-edge
+pieces. It's been years since I saw a photo (In the Meffert catalog of
+around 1986). 
+
+Regards,
+_  __
+|\ |_)
+| \|_)
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Dec  9 00:04:32 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA10753; Mon, 9 Dec 1996 00:04:31 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sun, 8 Dec 96 19:18:28 EST
+Message-Id: <9612090018.AA11386@MIT.MIT.EDU>
+X-Sender: dokon@po9.mit.edu (Unverified)
+X-Mailer: Windows Eudora Pro Version 2.1.2
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Dennis Okon <dokon@mit.edu>
+Subject: Re: Mark Longridge's Web Page
+
+I just found out that Mark's page is now at: http://web.idirect.com/~cubeman/
+
+- Dennis Okon
+dokon@mit.edu
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Dec  9 15:41:55 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA12349; Mon, 9 Dec 1996 15:41:55 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-ID: <32ABDA1E.105B@host1.dia.net>
+Date: Mon, 09 Dec 1996 03:21:34 -0600
+From: Scott Crawford <scrawfor@host1.dia.net>
+Reply-To: scrawfor@host1.dia.net
+X-Mailer: Mozilla 3.0Gold (Win95; I)
+MIME-Version: 1.0
+To: "cube-lovers@ai.mit.edu" <cube-lovers@ai.mit.edu>
+Subject: Rubik's 15
+References: <199611140236.AA29041@world.std.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Does anyone know where I can find information about solving Rubik's 15?
+
+Thanks
+Scottie
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Dec  9 15:41:26 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA12345; Mon, 9 Dec 1996 15:41:26 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Mon, 9 Dec 1996 01:07:30 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: rmead@ionet.net
+cc: Cube-Lovers@ai.mit.edu
+Subject: Where to get a Cube
+In-Reply-To: <199612082304.RAA01952@mail.ionet.net>
+Message-ID: <Pine.SUN.3.95.961209005923.14849N-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ Have you tried Puzzletts?  As to getting a 1980s Cube, try to get one
+with attached colored plastic tiles instead of stickers, made by Ideal. 
+Its mechanical design differs in certain details, so that it is to some
+degree self-aligning, and much less likely to lock if slightly misaligned.
+It is also made of what's probably the best (affordable!) plastic for this
+application.  It might have been called a "Deluxe" Cube.
+
+ It's possible that the store in Cambridge, Mass. called "The Games People
+Play" might have 1990s Cubes in stock; I tend to think the superior kind
+is probably history, but one can always hope. (Sorry! I have just one, and
+I'm not selling it!)
+
+I'm reasonably sure that Puzzletts is at http://www.puzzletts.com
+
+Regards,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Dec  9 19:58:14 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA12873; Mon, 9 Dec 1996 19:58:14 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Mon, 9 Dec 1996 18:47:07 -0200 (EDT)
+From: Rodrigo de Almeida Siqueira <delirium@ime.usp.br>
+X-Sender: delirium@farofa
+To: cube-lovers@ai.mit.edu
+Subject: Cool Robot Of The Week
+Message-ID: <Pine.SUN.3.91.961209183924.2757A-100000@farofa>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+Hello Cubers,
+
+The Laboratory of Integrated Systems (at Polytechnic School, Univ. of Sao 
+Paulo) has just recieved the "Cool Robot Of The Week" unofficial 
+recognition from NASA HQ for "Chip and Dale", a pair of robots that can 
+deal and solve the Rubik's Cube!
+
+For more information on the Robots and MPEG, GIF and JPG files with the 
+images, check the URL:
+
+   http://www.lsi.usp.br/~daia/celula/cubo/
+
+
+Rodrigo Siqueira.
+rodrigo@lsi.usp.br
+delirium@ime.usp.br
+
+Here goes the message:
+
+---------- Forwarded message ----------
+Date: Mon, 9 Dec 1996 14:11:56 -0500
+From: Dave Lavery <dave.lavery@hq.nasa.gov>
+To: delirium@ime.usp.br, rbianchi@lsi.usp.br, fferraz@lsi.usp.br,
+    briand@lsi.usp.br
+Cc: dave.lavery@hq.nasa.gov
+Subject: Cool Robot Of The Week
+
+Congratulations!  The Chip and Dale robots have been selected as "The Cool
+Robot Of The Week" for December 9-15, 1996.
+
+The honor of being listed as "Cool Robot Of The Week" is bestowed upon
+those robotics-related web sites which portray highly innovative solutions
+to robotics problems, describe unique approaches to implementing robotics
+system, or present exciting interfaces for the dissemination of
+robotics-related information or promoting robotics technology. This award
+carries absolutely no monetary value, official recognition, assumed
+support, or tangible benefit, other than swamping your web site with a few
+dozen extra hits for a week. But everyone else was putting up their "Cool
+Site Of The Millenia" lists, so we figured it was our turn too...
+
+Anyway, to find out more about your listing, see the "Cool Robot Of The
+Week" web site at:
+http://ranier.hq.nasa.gov/telerobotics_page/coolrobots.html
+
+Congratulations once again, and we hope that in some small way this "honor"
+will bring some more recognition to your work.
+
+-----------------------------------------------
+Dave Lavery
+Telerobotics Program Manager
+NASA Headquarters, Code SM
+e-mail: dave.lavery@hq.nasa.gov
+http://ranier.hq.nasa.gov/telerobotics.html
+-----------------------------------------------
+
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Tue Dec 10 11:06:20 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id LAA14361; Tue, 10 Dec 1996 11:06:20 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-ID: <32AE4BFB.7907@idirect.com>
+Date: Wed, 11 Dec 1996 00:51:55 -0500
+From: Mark Longridge <cubeman@idirect.com>
+X-Mailer: Mozilla 2.01 (Win95; U)
+MIME-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Shortest possible Megaminx 2-flip
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+I believe I have calculated the shortest possible 2 flip for the
+Megaminx (Rubikian Dodecahedron):
+ 
+R- F- U+ L- U- L+ F+ R+
+L+ F+ U- R+ U+ R- F- L-
+ 
+16 face turns & 16 unit turns.
+ 
+-> Mark <-
+
+
+From cube-lovers-errors@curry.epilogue.com  Thu Dec 12 17:46:06 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id RAA19363; Thu, 12 Dec 1996 17:46:06 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 12 Dec 1996 17:18:06 -0500 (EST)
+From: Corey Scott <scot3165@ginko.ait.fredonia.edu>
+To: Norman Diamond 04-Dec-1996 1742 <diamond@jrdv04.enet.dec-j.co.jp>
+cc: Cube-Lovers@ai.mit.edu, nbodley@tiac.net
+Subject: Re: 6-cube and Hofstadter; Meffert
+In-Reply-To: <9612040842.AA14888@jrdmax.jrd.dec.com>
+Message-ID: <Pine.LNX.3.95.961212171409.21366A-100000@ginko.ait.fredonia.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+i was wondering, i bought a rubic's cube about a month ago and my stickers
+are already coming off. what can i do  about it? and why don't they use
+something different, like plastic color tabs that are superglued on?
+please help because i like my cubeand now i'm afraid to use it, it's
+dying.
+
+thank you
+corie elizabeth
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Thu Dec 12 20:33:29 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id UAA20368; Thu, 12 Dec 1996 20:33:29 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: Tim Botham <timbo@mindlink.net>
+To: Corey Scott <scot3165@ginko.ait.fredonia.edu>,
+        Norman Diamond 04-Dec-1996 1742 <diamond@jrdv04.enet.dec-j.co.jp>
+Cc: Cube-Lovers@AI.MIT.EDU, nbodley@tiac.net
+Subject: Re: 6-cube and Hofstadter; Meffert
+Date: Thu, 12 Dec 1996 17:28:36 -0800
+X-MSMail-Priority: Normal
+X-Priority: 3
+X-Mailer: Microsoft Internet Mail 4.70.1155
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Message-Id: <E0vYMSM-0006jW-00@dewey.mindlink.net>
+
+An excellent way to re-attach your stickers was taught to me by Mike Green
+at Puzzletts.  First clean the blank spot on the cube very well with
+rubbing alcohol.  Then put the sticker on piece of two-sided scotch tape,
+and trim the tape around the edges of the sticker.  Press it on to the
+cube, and presto - it should outlast any of the glued-on stickers.
+
+I tried it, and it worked well.
+
+	Tim
+----------
+From: Corey Scott <scot3165@ginko.ait.fredonia.edu>
+To: Norman Diamond 04-Dec-1996 1742 <diamond@jrdv04.enet.dec-j.co.jp>
+Cc: Cube-Lovers@ai.mit.edu; nbodley@tiac.net
+Subject: Re: 6-cube and Hofstadter; Meffert
+Date: Thursday, December 12, 1996 2:18 PM
+
+i was wondering, i bought a rubic's cube about a month ago and my stickers
+are already coming off. what can i do  about it? and why don't they use
+something different, like plastic color tabs that are superglued on?
+please help because i like my cubeand now i'm afraid to use it, it's
+dying.
+
+thank you
+corie elizabeth
+
+
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Dec 13 14:29:29 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA22790; Fri, 13 Dec 1996 14:29:28 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 13 Dec 1996 13:47:01 -0500
+From: der Mouse <mouse@holo.rodents.montreal.qc.ca>
+Message-Id: <199612131847.NAA17516@Collatz.McRCIM.McGill.EDU>
+To: Cube-Lovers@ai.mit.edu
+Subject: Stickers falling off [was Re: 6-cube and Hofstadter; Meffert]
+
+> i was wondering, i bought a rubic's cube about a month ago and my
+> stickers are already coming off.  what can i do about it?
+
+I have used two solutions.  One is, take the sticker off and then glue
+it back on with contact cement; two is, take the stickers off entirely,
+clean the glue with rubbing alcohol or some such (careful you don't use
+something that dissolves the plastic!), and then paint the cubies.
+Pick a paint designed to stick to plastic; model paint probably will
+work well, though I used some artist's paints we had around.
+
+> and why don't they use something different, like plastic color tabs
+> that are superglued on?
+
+Not being someone who has ever made that decision, I don't know...but
+my guess is, cost.. :-(
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Dec 13 14:54:36 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA22872; Fri, 13 Dec 1996 14:54:35 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+Subject: Re: 6-cube and Hofstadter; Meffert
+Date: 13 Dec 1996 19:45:47 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 34
+Message-ID: <58sbpb$m6p@gap.cco.caltech.edu>
+References: <cube-lovers.Pine.LNX.3.95.961212171409.21366A-100000@ginko.ait.fredonia.edu>
+NNTP-Posting-Host: avarice.ugcs.caltech.edu
+X-Newsreader: NN version 6.5.0 #2 (NOV)
+
+Corey Scott <scot3165@ginko.ait.fredonia.edu> writes:
+
+>i was wondering, i bought a rubic's cube about a month ago and my stickers
+>are already coming off. what can i do  about it? 
+
+Not much.  I find that the only technique that seems to slow down the
+sticker-losing is:
+
+1) Don't let anybody else play with it.  Greasy and oily hands damage
+ the glue, and every once in a while you'll run into some idiot who 
+ will try to impress you by removing the stickers and putting them
+ back on in order.
+
+>and why don't they use
+>something different, like plastic color tabs that are superglued on?
+
+Probably cost.  Ideal made "Rubik's Game" and the Deluxe "Rubik's Cube"
+a while ago, both which had plastic faces and were much more durable.
+
+Unfortunately, no such equivalent was ever produced for the higher-order
+cubes; I've already lost three 4x4x4 stickers and one 5x5x5 sticker.
+
+>please help because i like my cubeand now i'm afraid to use it, it's
+>dying.
+
+I know the feeling.   Your best bet is not to worry about it, and
+to produce your own replacement stickers.
+
+
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+-------------------------------------------------------------------------------
+Statistics show that Ster Trek films without Shatner do better at box offices.
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Dec 13 16:00:19 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA23081; Fri, 13 Dec 1996 16:00:18 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 13 Dec 1996 15:17:16 -0500 (EST)
+From: Dale Newfield <din5w@cs.virginia.edu>
+Reply-To: DNewfield@cs.virginia.edu
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: 6-cube and Hofstadter; Meffert
+In-Reply-To: <58sbpb$m6p@gap.cco.caltech.edu>
+Message-Id: <Pine.SUN.3.90.961213151511.1695U-100000@dot.cs.Virginia.EDU>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+I remember that the 5x5x5 cube I got came with a piece of paper that said 
+to cover the face with peeling stickers with a sheet of paper, and apply
+a warm iron to the paper.
+
+This re-flattened the stickers, and re-strengthened the glue bond.
+
+This would not be a valid solution if the stickers on your cube are 
+sliding off rather than curling up.
+
+-Dale
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Fri Dec 13 22:55:45 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA23645; Fri, 13 Dec 1996 22:55:44 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9612140215.AA24522@jrdmax.jrd.dec.com>
+Date: Sat, 14 Dec 96 11:15:16 +0900
+From: Norman Diamond 14-Dec-1996 1039 <diamond@jrdv04.enet.dec-j.co.jp>
+To: Cube-Lovers@AI.MIT.EDU
+Subject: Stick the non-stickers (was Re: 6-cube and Hofstadter; Meffert)
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+Suggestion for lost stickers:
+
+2.  Make a bandaged cube in the style of Dieter Gebhardt or Greg Stevens'
+works, and make suitable stickers yourself for the bandaged cube.
+
+1.  Before bandaging the cube in step 2, first you must remove the original
+stickers.  Put some of them on the cube that is missing stickers, and save
+the others to take care of future losses.
+
+0.  Choose a cube that is already missing the most stickers, and use that
+one in making the bandaged cube.
+
+Notice that there is no step 3.  If you do an adequate job of bandaging, it
+will be incredibly difficult to solve the cube after messing it up.  So there
+is no step 3.  Do not post to this list asking for help in solving it :-)
+
+-- Norman Diamond           diamond@jrdv04.enet.dec-j.co.jp
+[Speaking for Norman Diamond not for Digital.]
+
+
+From cube-lovers-errors@curry.epilogue.com  Mon Dec 16 00:45:32 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA00831; Mon, 16 Dec 1996 00:45:31 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Mon, 16 Dec 1996 00:28:02 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Corey Scott <scot3165@ginko.ait.fredonia.edu>
+cc: Norman Diamond 04-Dec-1996 1742 <diamond@jrdv04.enet.dec-j.co.jp>,
+        Cube-Lovers@ai.mit.edu
+Subject: Stickers coming off
+In-Reply-To: <Pine.LNX.3.95.961212171409.21366A-100000@ginko.ait.fredonia.edu>
+Message-ID: <Pine.SUN.3.95.961216002055.9291L-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ It's too easy to say, "buy a better Cube." I hope Ideal (if they're still
+the official source) wasn't the source for yours.
+
+ You need to know your solvents fairly well, but you might be able to find
+a solvent that would not attack the plastic nor the stickers. Once you use
+this to clean off all the adhesive, then use a solvent-cure adhesive like
+model-airplane glue or Duco to refasten the stickers. Cyanoacrylate (CA,
+"Super Glue") should work, but it requires skill to use; it's easy to use
+too much; also skill to keep it off your skin. For many CA formulations,
+the surfaces must be clean.
+
+ Good luck!
+
+(Can we persuade Ideal to do a run of their deluxe Cubes, that had plastic
+tiles and a self-aligning, low-friction mechanism?)
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+
+From cube-lovers-errors@curry.epilogue.com  Tue Dec 17 15:03:45 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA04402; Tue, 17 Dec 1996 15:03:44 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 17 Dec 1996 14:18:45 BST
+From: David Singmaster Computing & Maths South Bank Univ <david.singmaster@sbu.ac.uk>
+To: cube-lovers@ai.mit.edu
+Message-ID: <009ACFAD.AD4345C0.1124@vax.sbu.ac.uk>
+Subject: Cube stickers
+
+	It's distressing to hear that the current cube stickers come off.
+This was not a real problem with older cubes, except for the orange stickers
+of the 5x5x5.  I found that one can buy plastic sheets from artist's
+supply shops.  These have sticky backs, on a plastic backing, like peel-off
+labels.  I found one could get quite a selection of colors and they adhered
+quite well.
+	Regards
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @vax.sbu.ac.uk
+
+

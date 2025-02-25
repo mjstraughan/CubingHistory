@@ -1,0 +1,3293 @@
+Date: 4 May 1982 00:15-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: The Archives
+To: CUBE-LOVERS at MIT-MC
+
+Those of you who look through the archives of old Cube-Lovers mail will notice
+that I have split off a new section of the archive.  The mail now lives in:
+
+MC:ALAN;CUBE MAIL0	;oldest mail in foward order
+MC:ALAN;CUBE MAIL1	;next oldest mail in foward order
+MC:ALAN;CUBE MAIL2	;more of same
+MC:ALAN;CUBE MAIL3	;still more of same
+MC:ALAN;CUBE MAIL	;recent mail in reverse order
+
+(I have also corrected a problem with the tabs in MAIL0 so that the diagrams
+contained therein are readable once again.)
+
+Date: 10 May 1982 0004-EDT
+From: ROBG at MIT-DMS (Rob F. Griffiths)
+To: cube-lovers at MIT-MC
+Subject: Games magazine...
+Message-id: <[MIT-DMS].231410>
+
+There is a conteset in the cureent issue of Games magazine called
+Air Race. Its basically modeled after the type of puzzle where you
+try to run through once and rack up as many points as possible
+without retracing your steps. I am wondering if nay of you out
+there subscribeto Games, and are trying the contest? What types
+of scores are you achieving? Any info appreciated. (I would like
+to try to find out if my scores are higher/lower than average)
+			Thanks;
+			-Rob.
+
+
+Date: Thursday, 13 May 1982, 14:48-EDT
+From: Bernard S Greenberg <BSG at SCRC-TENEX>
+Subject: 4 x 4 x 4
+To: alan at MIT-MC, dcp at MIT-MC, cube-lovers at MIT-MC
+
+4 x 4 x 4's are here.  Games People Play on Mass Ave sell's 'em at $15.00 apiece,
+called "Rubik's Revenge".  I have two here (at Symbolics).  No progress yet, other than
+the obvious corner moves.
+
+Date: 13 May 1982 23:44-EDT
+From: David C. Plummer <DCP at MIT-MC>
+Subject: 4 x 4 x 4
+To: BSG at SCRC-TENEX
+cc: ALAN at MIT-MC, DCP at MIT-MC, CUBE-LOVERS at MIT-MC
+
+Indeed, I have one also.  I thought about solving it for a couple
+of months now.  Never wrote anything down, I think I just have a
+working knowledge of the types of transforms needed.  It took me
+about 1.5 hours to solve it.  I thought I had ALL the necessary
+tools, but there is still one tool that alludes me.  It happens
+half the time, and when I get it, I try to mess it up just enough
+to allow it to be solved again.  As ACW pointed out, most
+intuition about edges and centers is WRONG.  The first thing I
+tried to the original solved cube was the extended Pons.  Much to
+my dismay, it didn't work.  So if you think you know how to
+extend your 3x3x3 transforms to the 4x4x4, put your fingers where
+your mouth is!!
+
+Date:     14 May 1982 0413-edt
+From:     Ronald B. Harvey           <RHarvey at MIT-MULTICS>
+Subject:  4 x 4 x 4
+To:       cube-lovers @ mit-mc
+
+I just got mine (two) today.  I had a friend who was in Boston on a
+business trip get them (to Phoenix) for me.  They are also available at
+The Name of the Game in Faneuil Hall-Market Square also for $15 (14.99).
+
+I spent a few hours playing this evening, wondering what tools others
+have come up with.  I seem to be able to get three faces which share a
+vertex into perfect shape, and then kind of falter.  Oh well, it will
+have to wait until after work tomorrow (Friday).
+
+ - Ron
+
+Date: 14 May 1982 14:35-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject:  cube talk
+To: CUBE-LOVERS at MIT-MC
+
+Date: 14 May 1982 13:53-EDT
+From: Alias for WGD <bil>
+Sender: ___100
+To:   ALAN
+cc:   CWH
+Re:   cube talk
+
+There is a talk at Northeastern on the group of the cube this Monday
+by Ramshaw. I don't recall the details wrt to time and place but
+there is a notice on the seminar bulletin board on the 2nd floor
+of building 2 (last corridor).
+
+Date: 14 May 1982 21:46-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject:  cube talk
+To: BIL at MIT-MC
+cc: CUBE-LOVERS at MIT-MC, CWH at MIT-MC
+
+Well, I looked for the announcement to get the details, but I couldn't find it.
+The closest thing I could find was an announcement for a conference this summer
+in Canada on finite groups (hot stuff these days).  Perhaps someone else can
+supply details?
+
+Date: 16 May 1982 21:24-EDT
+From: Richard Pavelle <RP at MIT-MC>
+Subject: 4 x 4 x 4 = C^4
+To: CUBE-LOVERS at MIT-MC
+cc: RP at MIT-MC
+
+I played with C^4 and I conjecture that the tools from C^3 are 
+sufficient to solve it. I have not completely finished it but I 
+think it is just a matter of time. 
+
+One transformation I use repeatedly, in generic terms, is
+S = top 180, 2nd slice up or down, top 180, 2nd slice down or up. This
+is the verticle slice which is facing you. This is just the move in 
+C^3 to move 3 edges in a plane whereas in C^4 the outcome is far more 
+complicated.
+
+The steps for C^4 are then
+1) Align the centers with a map. Some use of S is necessary.
+2) Do all corners as in C^3.
+3) Use S repeatedly to position the edges and this is very laborious.
+4) Use the C^3 edge flip (Rubik's transformation) to finish it off.
+
+After several hours of C^4 I find C^3 looks like a toy. 
+
+Date:  17 May 1982 04:07 edt
+From:  RHarvey.Multics at MIT-MULTICS
+Subject:  Re: 4 x 4 x 4 = C^4
+To:  cube-lovers at MIT-MC
+In-Reply-To:  Message of 17 May 1982 00:11 edt from Alan Bawden
+
+I have also been using the tools described by Richard Pavelle as S to
+do things to edges on the C^4.  However, there is nothing
+that I have found that will flip to edges in place (that is, two
+halves of a C^3).
+
+Also, for aligning centers, I have been doing it AFTER edges.
+The tools I use do not really map into C^3, and I have not
+yet mastered them to the point wwhere I can finish them off. I
+sit and stare at the damn thing a lot.  This behavior was
+considered strange even at the science fiction convention
+that I attended this weekend.
+
+Speaking of strange, what kind of reactions have people
+been getting from folks who see one for the first time?  I have
+gotten the equivalent of double-takes from ones who do notice a difference.
+Most, however, tend to say "Oh, I have a friend who can do that in
+X minutes/seconds", in which case you know that they never learned
+(or probably even played) to solve.
+
+ - Ron
+
+Date: 17 May 1982 11:39:22 EDT (Monday)
+From: Bernie Cosell <cosell at BBN-UNIX>
+Subject: solving the 4x4x4x4 cube
+To: cube-lovers at mit-mc
+Cc: frye at BBN-UNIX
+
+I've managed to solve C4 in a way similar to those mentioned, but using a
+different transform.  I solve C3 a little differently than most folk because I
+use only one (!) transform to do ALL of the edge work.  On C3 the result of
+this transform is (looking at the edges only):
+               a                            a
+from	    b     c             to      ~d     b
+	       d                           ~c
+
+Using it and its inverse and a few simple conjugates of it I can do all the
+work that is necessary for the edges.  For me, at least, it has the twin
+advantages of 1) being easy to remember (since it is fairly short and there is
+only one of it), and 2) it has such bounded consequences that it is easy to
+fix a cube without requiring a lot of planning (in the picture above, nothing
+that is not shown changes: no other edges, no corners).
+
+Anyhow, since that little move is a favorite of mine, I tried it on C4.  On C3
+it comes in two flavors (the move and its inverse, or as it turns out, the
+right-handed and left-handed versions).  On C4 it comes in four versions: the
+move and its inverse, but each in a `left central slice' and `right central
+slice' version.  Now for the fun part:  First off I started ignoring the
+centers and I noticed that the move (lets call it `M') only moves around edges
+in a single plane.  As I tried to figure out what the damn thing did I
+discovered that it is a move of order 5!!!.  I find it truly hard to plan out
+what happens when five cubes move around a little orbit, but I'm getting better
+at predicting it.  The result is:
+from:                       to:
+	a   b                           a   b
+    c           d                  ~d           e
+    e           f                  ~f           g
+	g   h                           c   h
+
+With some pain I have been able to use ONLY M (and conjugates and powers of it,
+of course) to get all the edges in place.  Then I looked at M a little more to
+see what it did with centers.  This one is NOT planar, unfortunately, but is
+simple enough to be useful: only two sets of centers are affected.  If you are
+doing M on the top (to get the above edge transform), only the top centers and
+the rear centers are affected.  And what happens is that there are two disjoint
+three-cycles each involving two of the top center cubes and one of the rear
+center cubes.  thus, you can easily use conjugates of M to move cubes, one or
+two at a time, into place on all of the faces around any particular top.
+Voila: done!
+
+An amusing thing about M: since its edge permutation is of order 5 and the
+center permutation is of order 3, the damn thing is an order 15 move.
+
+    /Bernie
+
+
+Date: 17 May 1982 17:30-EDT
+From: Allan C. Wechsler <ACW at MIT-AI>
+Subject: Reactions to 4^3.
+To: CUBE-LOVERS at MIT-AI
+
+
+Bernie and I have divided the double-takers into three major
+classes:
+
+1. "Oh, a four-by-four cube!"
+
+2. "Oh, a four-sided cube!"
+
+(and the best of all)
+
+3. "Oh, a four-dimensional cube!"
+
+One of the contributors to this list inadvertently made
+error #3 by calling the 4x4x4 a "C^4".  Which brings me to
+an interesting question.  What would a four-dimensional
+cube really be like?  Let's just start with a 2x2x2x2.  It
+would have sixteen hypercubies, all of the "corner" type.
+Each hypercubie presents to the outside world four
+three-dimensional hyperstickers.
+
+The 2^4 has eight three-dimensional hyperfaces, presumably
+each its own color.  I like the idea of using black and
+violet along with the traditional red, yellow, orange,
+blue, green, and white.  We can call the hyperfaces Back,
+Front, Up, Down, Left, Right, In, and Out.  In is across
+the puzzle from Out.  I doesn't touch O, but does touch
+all the  other  hyperfaces.
+
+The 2^3 can be seen as two square slabs stuck together.  Of
+course, they aren't really "square" since they have
+thickness.  A move consists of rotating one of these
+squares with respect to the other.
+
+Similarly, the 2^4 is two cubical hyperslabs stuck
+together.  Of course, they aren't really cubical since they
+have hyperthickness.  A move consists of rotating one of
+these cubes with respect to the other.  
+
+While the two slices of a 2^3 can only have four relative
+positions, the hyperslices of a 2^4 can have twenty-four
+different alignments.  There are twenty-four corresponding
+twists.  One is the null twist, which consists of just
+sitting and looking at the thing.  (In this case, this is
+not such a trivial operation!)  Then there are six
+different quarter-twists, as opposed to two in the 3D case.
+Then there are, get this, eight "third-twists", which when
+repeated three times bring the slice home.  These have no
+analog in the 3D puzzle.  The remaining nine twists are
+half-twists, three of one kind and six of another.
+
+As in the three-dimensional case, the half-twists and
+third-twists are all products of quarter-twists.  If we
+regard one of the sixteen hypercubies as fixed (without
+loss of generality, if you'll believe that) then there are
+twenty-four different quarter-twists in all.  Twelve of
+these are inverses of the other twelve, but selecting the
+twelve "clockwise" ones is a lot harder than it is in the
+three-dimensional case.  My intuition fails me.
+
+I haven't tried to apply the Furst-Hopcroft-Luks algorithm
+to this monster.  At most there are 6^15*15! =
+4.7*10^11*1.3*10^12 = (very roughly) 6*10^22.  I suspect
+that some kind of parity, trinity, or quaternity argument
+will reduce this by a factor of two, three, or four.  
+
+Yours with a headache,
+
+   --- Allan
+
+Date:     17 May 1982 2218-edt
+From:     Ronald B. Harvey           <RHarvey at MIT-MULTICS>
+Subject:  4x4x4 solution
+To:       cube-lovers @ mit-mc
+
+Amazing! I log in after working on my cube for an hour or so tonight in
+order to announce my solution and I find another solution!
+
+As previously stated, I use S to put edges into place.  This is done to
+totality after I have put all of the corners together.
+
+Now comes the hard part - all of the centers.  The tools that I have to work
+on centers work on 4 or eight center cubies on opposite faces, plus, on
+the 4-cubie swap version, two pair of edge cubies get swapped.  After
+having a few edges swap (these are now treated like 3x3x3 edges...),
+I usually replace these so I can undo the complex conjugations more
+reliably.
+Now that I can solve it, I going to search for tools that do finer
+things, like double swaps for centers or edges without munging
+the other centers or edges.
+
+BTW, I have had the tools all weekend - it has just taken this long to
+get the proper perspective in order to set up the proper conjugations...
+
+Has anyone solved the construction problem?  Is Ideal's version similar
+to Plummer's design of last December? Who DID do Ideal's version?
+
+Any truth to the rumor (that I just started) that the reason that it has
+taken Ideal so long to actually start selling the things was that they
+were working on a solution booklet all this time? (They DO offer one)
+
+ - Ron
+
+Date: 18 May 1982 09:12-EDT
+From: Richard Pavelle <RP at MIT-MC>
+Subject: C^4
+To: CUBE-LOVERS at MIT-MC
+
+I solved it after about 10 hours. The very tricky part, as I mentioned
+in my last message, is to move the edges about in a plane. I still do
+not have a move which moves 3 in one slice (nicely), rather 2 in one slice 
+and one in the adjacent slice. This makes the process very time consuming.
+I also believe centers first is probably the way to approach it although
+it is just a feeling. I think that moving only some of the center cubies 
+will require very complicated transformations.
+
+I would guess this cube requires about 10 times more moves than C^3.
+Does anyone else care to speculate? I will be surprised if anyone
+will ever solve C^4 regularly in under 10 minutes. 
+
+Two questions:
+1) Any comments about cube-lube. This cube is massive and needs some.
+2) I heard there are about 10^50 configurations, true?
+
+Date:     19 May 1982 0107-edt
+From:     Ronald B. Harvey           <RHarvey at MIT-MULTICS>
+Subject:  4^3 Cube
+To:       cube-lovers @ mit-mc
+
+In response to Richard Pavelle's message, there are about 7.4*10^45
+color combinations.  See "mc:alan;cube 4x4x4" for more details on the
+subject (especially the derivations) by Dan Hoey.
+
+I bought a solution book from my favorite bookstore today. The title is
+"The Winning Solution to Rubik's Revenge". It is a sequel to "A Winning
+Solution to Rubik's Cube" by the same author (Minh Thai), who is billed
+as the U.S. National Champion of the Rubik's Cube-A-Thon.  I assume the
+Revenge book is not REALLY a winning solution... at least not yet.
+
+His method is to put all corners together, go for two opposite centers,
+then the edges of said centers.  Next he goes for the remaining edges
+(numbering eight), and then the last four centers.
+
+He also goes into many patterns, and has developed a notation which I
+have not found immediately obvious.  I haven't looked at the book more
+than to scan it yet, however.  He does list a few pretty-patterns, none
+of which are checkerboards of any sort.
+
+On a different subject, Paul Schauble accidentally found out how to take
+apart the 4^3 today - twist an outer layer about 30 degrees so that an
+edge of the twisted face is directly over the edge cube that now forms a
+corner on the rest of the cube.  Pop out the cube from the outer layer,
+twist the face again so that the popped cube's partner is in a similar
+position for popping, and then pop it.  The corners now come out fairly
+easily.
+
+Unlike Plummer's design, the insides of this beastie is a sphere with
+grooves running along it to make a kind of universal joint.  The center
+cubies ride in these grooves and hold all of the other pieces in.  We
+only took out about a half-dozen cubies because the cube was NOT in an
+initialized  state, but closer to a pretty pattern.  I was definitely
+not interested in getting it ALL apart in order to get it back together
+correctly. (we did it correctly the first try!).  Unlike the 3^3 cube,
+the 4^3 does not seem to come apart easily after the first few are out.
+
+I seem to have gone on for a bit longer than I intended.  I will study
+the pamphlet (published by Dell/Banbury by the way) and report in more
+detail on notation later.
+
+I just noticed that in the section on Cubology, the author lists the
+number of "arrangements is something in excess of 3.7*10^45".  Since
+Hoey's number is larger, I guess the statement is correct.
+
+ - Ron
+
+Date: 21 May 1982 1439-EDT
+From: SWG at MIT-DMS (S. W. Galley)
+To: cube-lovers at MIT-MC
+Subject: Newsweek 4/19 (in case you missed it)
+Message-id: <[MIT-DMS].232584>
+
+"Rubikmania: Lots Of New Twists"
+Newsweek, 19 April 1982, pp. 16f
+
+  It has been hurled out of moving buses, dumped into trash mashers and
+pounded to bits with blunt instruments.  With more than 43 quintillion
+possible arrangements, Rubik's Cube puzzle may be the most infuriating
+plaything ever marketed, as well as one of the most popular.  Seven
+years after Hungarian architecture Prof. Erno Rubik constructed the
+first cube to help his students understand three-dimensional objects,
+world sales have passed the 30 million mark.  "It's phenomenal," says a
+vice president for the Ideal Toy Corp., which makes the plastic cube
+under an agreement with a Hungarian manufacturing company.  "Every month
+we pinch ourselves and say it won't last, but the cube is still selling
+like nothing else."
+  Ideal has capitalized on the cube's success with a number of
+spin-offs.  There's Rubik's Revenge, which has sixteen tiles on a side,
+instead of nine; Rubik's Pocket Cube, a simpler version intended for
+children; Rubik's World, a globe made of 26 sections that twist apart;
+Rubik's Game, a three-dimensional pegboard, and Rubik's Race, a
+two-player game in which the multicolored tiles must duplicate various
+patterns.  True masochists might also want to try something called the
+Calendar Cube---which requires twiddling the tiles every day to form the
+correct date.
+  Rubikmania has also spread to the publishing industry.  Ideal's
+solution booklet and another one written by a 13-year-old London
+schoolboy ("You Can Do the Cube") are both big sellers.  "The Simple
+Solution to Rubik's Cube," which runs to 64 pages, has sold 7 million
+copies; it is the fastest-selling title in the history of Bantam Books. 
+There are even books for people who are fed up with the craze.  Among
+them: "Not Another Cube Book," "You Can Kick the Cube" and "101 Uses for
+a Dead Cube."
+  Rubik receives about 5 percent of the puzzle profits, making him
+perhaps the only self-made millionaire in Hungary.  "With the money I
+earn, I can afford to buy myself a new Fiat every two days," he jokes. 
+"A little Fiat."  He has taken a leave of absence from his teaching post
+to help Ideal organize a world cube-twisting championship in Budapest
+this spring.  To qualify for the contest, you must be able to solve the
+puzzle in less than one minute---which eliminates Rubik himself.  It
+takes him at least twice that long.
+
+
+
+Date: 21 May 1982 1710-PDT
+From: ISAACS at SRI-KL
+Subject: frustration and Alexander's Star
+To: cube-lovers at MIT-MC
+
+  Aauugghh - no one I've been able to find in the Bay ARea has the 4^3.
+If anyone is flying in from Boston, BRING SOME!  Several other of
+Ideals new stuff is out here - including the game "Rubik's Race", some
+of the Puzzle pens, and the 2^3.  The latter uses the sliding disks
+on an internal sphere mechanism, by the way.  If one comes apart, it
+seems difficult (but not impossible) to get back together. 
+  Anyway, the only really worthwhile new Ideal thing is Alexander's
+Star, which is a worthy addition to the sliding axis puzzle field.  It
+is a Great Dodecahedron in form, and each "star", that protrudes from
+a pentagonal face, rotates (5 positions).  Each face (the pentagons, not
+the stars) is monochromatic in the solved state.  It is colored with 6
+colors, opposite faces the same.  (Look in a decent geometry book for
+a picture of a great dodecahedron. It's one of the 4 Kepler-Poinsot
+regular concave polyhedra, this one having 12 pentagonal faces 
+interpenatrating each other in a star-like manner).  It's not too
+hard to solve, the main difficulty is figuring where each piece goes.
+(Each moving piece is the triangular wedge which can be found between
+the points of a stellated dodecahedron, which "turn it into" a great
+dodecahedron).
+   If anyone knows where to get the 4^3 out here, or is coming
+visiting and can bring one, my phone number is (415)326-7788,
+if you can't get at a terminal.  My work number is (415)497-2577.
+   -- Stan Isaacs
+-------
+
+Date: 22 May 1982 19:13-EDT
+From: Richard Pavelle <RP at MIT-MC>
+Subject: C^4
+To: CUBE-LOVERS at MIT-MC
+
+I take it back. There is more to C^4 than I first thought. I encountered
+a final move today and do not have the tools and perhaps this is what
+DCP meant in his message of May 14th. The final configuration requires
+flipping only ONE pair of edges. Can anyone explain this difference
+between C^3 and C^4?
+
+Date: 22 May 1982 22:53:41 EDT (Saturday)
+From: Bernie Cosell <cosell at BBN-UNIX>
+Subject: A missing transformation for C^4
+To: cube-lovers at mc
+
+I take back my statement about solving the cube, also: I do have one transform
+that is the product of an order-3 centers-only cycle and an order-5 edges-only
+cycle, and I can use that transform to do very nearly everything...except for
+one maneuver.  If the normal layout of the edges on one face is:
+        a b
+      h     c
+      g     d
+        f e
+Then, when I try to solve the cube, once in a while I end up with one of the
+following two equivalent forms:
+        ~a ~b                 c  b
+       h      c     or      h      a
+       g      d             g      d
+         f  e                 f  e
+I have not yet fully determined exactly which of the two identical edges of
+each color is where.  In particular, I strongly suspect that the first form
+is really `~b ~a' (that is, if you think of the two edges together as a single
+C^3 edge, then that edge was flipped), while I suspect that the second form is
+correctly rendered.
+
+I have found that if I do sensible things to the cube, I can mostly work until
+the cows come home and not fix the thing, but if I screw up a transform and
+then have to recover from a somewhat scrambled mess, more often than not it
+comes out OK when I get the cube back in shape.  sigh.  right now I'm working
+on a group-theoretic analysis to try to get some idea for what type of move or
+conjugate I have to be looking for in order to make the thing work out.
+
+    /Bernie
+
+
+
+Date: 23 May 1982 16:15:19 EDT (Sunday)
+From: Winston Edmond <edmond at BBN-UNIX>
+Subject: Re: A missing transformation for C^4
+In-Reply-to: Your message of 23 May 1982 01:48 EDT
+To: Alan Bawden <ALAN at MIT-MC>
+Cc: Cube-Lovers at MIT-MC, Edmond at BBN-UNIX, Mann at BBN-UNIX
+
+   The 4x4x4 cube does indeed have a "parity" problem.  It may be described
+approximately thusly:
+   Look at one face of the cube.  Number the cubies across one edge as 1, 2,
+3, 4.   It can be shown that an edge cubie of type two can be either in
+a type 2 position unflipped or in a type 3 position flipped.
+   Next, assuming that the top three planes (or slices) are correct, that
+the corners of the last face are correct, and that the proper color is up for
+all of the edge cubies, then the edge cubies in group 2 and those in group 3
+either have the same "parity" or opposite parity.  The parity groups for the
+edge cubies are defined as 
+            a                           a
+	b       d                   b       c
+	    c                           d
+and any of the twelve variations of each obtainable by one or more rotations
+of three elements at a time.  (Each letter represents a different color.)
+   When solving the cube, the cubies of group 2 and group 3 will either end up
+with the same or opposite parity.  If the parity is the same, the cube can be
+solved straightforwardly.  (I assume people have discovered the transforms that
+invert the parity of both groups at the same time.)
+   However, when the parity is opposing, there is only one "transform" that
+will correct the problem.  People accustomed to thinking of a useful transform
+as one which performs some limited rearrangement of cubies while leaving
+everything basically unchanged will find that none of their transforms is
+sufficient to solve the problem.
+   Credit goes to Bill Mann for discovering the "transform" that solves the
+problem.  I leave it up to him to describe the solution if he wishes to.
+ -WBE
+
+
+
+Date: 24 May 1982 09:33-EDT
+From: Richard Pavelle <RP at MIT-MC>
+Subject: Ideal and the C^4
+To: CUBE-LOVERS at MIT-MC
+
+I just spoke to Ideal Toy. They are aware of the edge flip problem
+and give a tool to do it in their published solution. However, it
+requires 32 moves and they ask us to provide them with a shorter one if
+found.  They also say they are unable to do a complete checkerboard
+of any kind on C^4 and would like to know if we can do it. 
+
+Date: 24 May 1982 10:56-EDT
+From: David C. Plummer <DCP at MIT-MC>
+Subject: Ideal and the C^4
+To: RP at MIT-MC
+cc: CUBE-LOVERS at MIT-MC
+
+I have done a complete search on paper for a complete
+checkboard.  It cannot be done for any cobe of even side.  The
+restrictions are in the corners.  I would like somebody to double
+check this though.  The standard problems to run into are:
+	You need two of one type of corner, or
+	You have to rotate exactly one corner, which is impossible.
+
+There are a couple other amazing things I found.
+As it is known, any two edges can be exchanged (or appear to be
+exchaged because of center arbitrariness).  It is ALSO possible
+to (appear to) exchange two corners, for about the same reason.
+This is impossible on the 3^3 becuase it requires the exchange of
+two edges.  But in the 4^3 there are two cubies per 3^3 edge.
+Therefore, we just do a double exchange, which does not violate
+any parity arguments.  Combining these two moves, you can flip a
+1x1x4 edge. 
+
+Happy revenge.
+
+Date: 24 May 1982 08:47 PDT
+From: Hoffman at PARC-MAXC
+Subject: Re: frustration and Alexander's Star
+In-reply-to: ISAACS at SRI-KL's message of 21 May 1982 1710-PDT
+To:  Cube-Lovers at MIT-MC
+
+
+   I shared your frustration.  I'm in L.A., and, upon calling Ideal's office here, I
+learned that they are following a rigid schedule of TV ads first before
+introducing the toy in any area.  Here in L.A. (and probably in the Bay Area),
+the TV ads are not scheduled until mid-June!  Curiously, Minh Thai's solution
+book is already in some bookstores here.
+
+   Anyway, I wound up calling Games People Play in Cambridge, and
+mail-ordering one ($15 + $2 handling + UPS mailing cost) using a credit card. 
+A two-minute transcontinental call before 8 am PDT is about 40 cents.  I hope to
+have my Rubik's Revenge in a day or so now.
+
+--Rodney Hoffman
+
+
+Date: 24 May 1982 19:43-EDT
+From: Martin Minow <MINOW at MIT-AI>
+To: CUBE-LOVERS at MIT-AI
+
+Please add me to the mailing list, using the address
+	decvax!minow at berkeley
+(are back issues available?)
+
+The 4x4 Rubic's revenge has just come out.  Does anybody
+have a good nomenclature for positions and moves yet?
+
+Thanks very much.
+Martin Minow
+decvax!minow
+
+
+Date: 24 May 1982 17:19-EDT
+From: Allan C. Wechsler <ACW at MIT-AI>
+Subject:  |4^3| = 1.7*10^55
+To: CUBE-LOVERS at MIT-AI
+
+
+The corner group of 4^3 is exactly like that of the 3^3.  It has
+8!*3^7 elements.
+
+Now to calculate the order of the whole group, we have to find
+the order of the corner stabilizer  group.  That's the group of 
+moves that leave the corners fixed.  
+
+SO let's start by thinking about the edge group of the corner
+stabilizer.  I personally have a tool that exchanges two edge cubies
+without moving corners.  Since the edge group is transitive, I can
+exchange any two edges without moving corners.  
+
+You cannot flip any edge of the 4^3 without moving it.  So there's no
+edge-flippage in the 3^3 sense on the 4^3.  That means that the edge
+group in the corner stabilizer has order 24!.
+
+Now all there is left is compute the order of the edge AND corner
+stabilizer.  The inside twists (slices) are center-even.  The outside
+twists (faces) are center-odd, but they are also corner-odd, and so if
+we want to bring the corners home we have to make an even number of
+outside twists.  That means that all the center-permutations in the
+edge-and-corner stabilizer are even.  But how many of these can be
+achieved?
+
+I have a tool that exchanges two pairs of centers.  I think (but I
+haven't yet proved) that the center group is 4-transitive, so that
+ANY two pairs of centers can be exchanged.  That means that all the
+even permutations of centers can be done without perturbing edges and
+corners.  Hence the size of the edge-and-corner stabilizer is 24!/2.
+
+As for supergroupiness, Dave Plummer just pointed out to me that
+once you know a center's position, you know its orientation, since
+center cubies always keep one corner pointing to the middle of the
+face.  So 4^3 has no supergroup.
+
+So the order of the 4^3 group is 8!*3^7*24!*24!/2.  In numbers, if you
+insist,
+
+|4^3|=
+
+16,972,688,908,618,238,933,770,849,245,964,147,960,401,887,232,000,000,000
+
+or about 1.7*10^55.
+
+Now that number is a little deceptive, because it includes whole-cube
+rotations.  The 4^3 has no nice fixed reference frame like the 3^3 has.
+If you don't want to count whole-cube rotations you have to divide by
+24, to get
+
+707,195,371,192,426,622,240,452,051,915,172,831,683,411,968,000,000,000
+
+or about 7.1*10^53.
+
+Finally, we have to face the fact that the center cubies are
+in six nonintradistinguishable sets of four.  (All the edge cubies are
+distinguishable by color or orientation).  So we have to divide our
+last result by 4!^6/2.  That leaves
+
+7,401,196,841,564,901,869,874,093,974,498,574,336,000,000,000
+
+or about 7.4*10^45 distinguishable color patterns.  Remember that these
+do not form a group.
+
+I leave it as an exercise for Hoey and Saxe to find a lower bound for
+the diameter of the group.
+
+   ---Wechsler
+
+
+Date: 24 May 1982 22:54:03 EDT (Monday)
+From: Bernie Cosell <cosell at BBN-UNIX>
+Subject: The missing C^4 transform found
+To: cube-lovers at mc
+
+I have to admit to not quite yet fully understanding all of the
+parity issues involved, however I have managed to apply some VERY
+SIMPLE logic to the mysterious transform and since it worked I'd
+like to share the insight with you-all. 
+As I mentioned in an earlier note I have been trying to do some
+analysis to try to sneak up on the missing transform.  Mostly
+I've been unsuccessful at fully identifying the parity issues
+(my understanding is basically at the same not-so-useful level as
+wbe's is: I kind of know that some moves seem to come in pairs and
+there are two `classes' of edge cubes and if you interchange one from each
+class they both flip... but that mostly didn't help me see what had to be done
+to make the `missing transform' happen, nor would it let me look at a scrambled
+cube (or even a nearly-done cube) and guess which parity class it was in).
+
+However, I did make one observation: all of my normal transforms contained an
+EVEN number of quarter-twists.  I fumbled around a bit to try to find a
+limited-change transform that used an ODD number of twists and mostly I
+couldn't.  So I decided to simply take the `simplest' odd-twist transform I
+could: a single twist!  IT WORKS!!  As far as I can tell it must be a slice
+twist (but ANY one), a face twist doesn't do it.  If I get the cube edges all
+solved except for a pair that must be flipped, I simply make a SINGLE quarter
+slice and then re-solve the cube from there.  Since all of my normal solving
+maneuvers are EVEN, when I get the thing solved again I will have preserved the
+ODD parity of the configuration, and poof! the edges are solved.
+
+Now to start on the search for pretty patterns and elegant (and short)
+operators...
+
+  /Bernie
+
+
+Date:  27 May 1982 00:08 edt
+From:  Senft.Multics at MIT-MULTICS (HVN 341-7244)
+Subject:  Cube-lovers
+To:  Cube-Lovers at MIT-MC
+cc:  Senft.Multics at MIT-MULTICS (outgoing.sv)
+Acknowledge-To:  Senft.Multics at MIT-MULTICS
+
+Please add "Senft.Multics@PCO-Multics" -at MIT-Multics to the cubelovers
+list.
+
+
+Date: 28 May 1982 1149-EDT
+From: SWG at MIT-DMS (S. W. Galley)
+To: cube-lovers at MIT-MC
+Subject: Moleculon v. Ideal
+Message-id: <[MIT-DMS].233206>
+
+Cambridge firm seeks $60m in Rubik's Cube suit
+By Christy George
+Special to The [Boston] Globe [5/27/82]
+
+  Moleculon Research Corp., a Cambridge chemical, research and
+development firm, yesterday filed a $60 million patent infringement
+lawsuit against the Delaware-based Ideal Toy Corp., which manufactures
+and markets the highly-lucrative puzzle known as Rubik's Cube.
+  Moleculon holds a 1972 US patent for a similar mathematical cube
+puzzle invented by Dr. Larry Nichols of Moleculon.
+  The prototype of the Nichols Cube is a 2x2x2 cube held together by
+magnets, while the original Rubik's Cube is a 3x3x3 cube held together
+mechanically.  However, the 1972 Moleculon patent also lists
+specifications for a mechanically-constructed cube as well for cubes of
+other varying sizes.  Ideal has no US patent for Rubik's Cube, although
+its inventor, Erno Rubik, was issued a Hungarian patent in 1978.
+  In its complaint, Moleculon alleges that Ideal "willfully and
+maliciously" continued to manufacture and sell Rubik's Cube despite
+having been notified a year ago that Moleculon holds the only valid US
+patent on the invention.
+  According to Moleculon's president, Dr. Arthur Obermayer, the
+Cambridge firm unsuccessfully tried to interest Ideal in its cube puzzle
+in 1969.  In 1970, the firm applied for a patent at the suggestion of
+other national toy manufacturers, who also were uninterested in
+marketing the puzzle.
+  Lawyers for Ideal would not comment on the pending suit because, they
+said, they have not yet received the complaint.  But Ideal's general
+counsel, Samuel Cohen, dismissed the notion that Ideal might have stolen
+the idea from Moleculon.  "It's ridiculous on its face," Cohen said,
+"we're paying heavy sums to the Hungarians for use of their patent.  It
+would be stupid to do that if we had it in our pocket all the time."
+  Obermayer says the company didn't realize how similar Rubik's Cube was
+to the Nichols Cube until the phenomenal success of the product began to
+make headlines.  Rubik's Cube was first marketed worldwide in 1980. 
+Because of the puzzle's complexity, inventor Nichols wasn't surprised
+that toy firms were unimpressed.
+  "I'm delighted people enjoy solving the puzzle," Nichols said, "but
+I'm also frustrated that neither I nor Moleculon has seen any financial
+reward all these years."
+  Obermayer is confident of success in the lawsuit, citing the fact that
+three prominent patent law firms have agreed to collaborate on
+Moleculon's behalf on a contingency basis.
+  Moleculon is asking for $20 million in estimated lost royalties and
+$40 million in damages, as well as interest on other costs.  Even more
+could be at stake in terms of future royalties.
+  According to an article in Newsweek magazine last month, annual world
+sales for the basic 3x3x3 Rubik's Cube, which retails for between $7 and
+$8 in the Boston area, have exceeded the $30 million mark.  And the
+company also markets a range of spin-off products, including cubes in
+three other sizes and types, a Rubik's Cube solution booklet, a Rubik's
+Cube world globe and a Rubik's Cube board game.
+  "Sales are just incredible," said Carol Monica, owner of the Cambridge
+store, The Games People Play.  Monica said she already has sold more
+than a hundred of Ideal's latest spinoff, a 4x4x4 verison of Rubik's
+Cube which costs $16 and went on the market only three weeks ago.
+  Ironically, in an action pending before the International Trade
+Commission, Ideal claims it is besieged by countless "knockoffs" of
+Rubik's Cube by unscrupulous foreign competitors.  The Delaware company
+is asking the commission to squelch international imports of similar
+mathematical puzzles.
+
+
+Date: 30 May 1982 04:52:01-PDT
+From: decvax!duke!uok!mwm at Berkeley
+Date-Sent: Wed May 26 19:09:15 1982
+To: duke!decvax!ucbvax!cube-lovers@ai
+Subj: Diameter of the group
+
+I just saw a letter on the list that talked about finding the diameter
+of the group for 4^3.  This implies (to me, anyway) that somebody out there
+knows something about the diameter of the group for 3^3. Since I just started
+getting mail from the list, I missed any discussion that may have happened on
+that topic, and would appreciate it if someone would send me the apporpriate
+information, or tell me which archive the discussion is in.
+
+	Thanx in advance,
+	mike meyer
+
+
+
+
+
+Date: 30 May 1982 10:52:24-PDT
+From: decvax!duke!uok!mwm at Berkeley
+Date-Sent: Wed May 26 19:09:15 1982
+To: duke!decvax!ucbvax!cube-lovers@ai
+Subj: Diameter of the group
+
+I just saw a letter on the list that talked about finding the diameter
+of the group for 4^3.  This implies (to me, anyway) that somebody out there
+knows something about the diameter of the group for 3^3. Since I just started
+getting mail from the list, I missed any discussion that may have happened on
+that topic, and would appreciate it if someone would send me the apporpriate
+information, or tell me which archive the discussion is in.
+
+	Thanx in advance,
+	mike meyer
+
+
+
+
+
+Date: 30 May 1982 16:30-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: God's number
+To: CUBE-LOVERS at MIT-MC
+
+OK, it's been some time since I pointed out where I keep archives and
+things...  Old cube-lovers mail is archived in the following places: 
+
+MC:ALAN;CUBE MAIL0	;oldest mail in forward order
+MC:ALAN;CUBE MAIL1	;next oldest mail in forward order
+MC:ALAN;CUBE MAIL2	;more of same
+MC:ALAN;CUBE MAIL3	;still more of same
+MC:ALAN;CUBE MAIL	;recent mail in reverse order
+
+(Files can be FTP'd from MIT-MC without an account.)
+
+In addition, I have the following two excerpts from the archives sitting on my
+directory since they contain some of the more asked-for material:
+
+MC:ALAN;CUBE 4X4X4	;Contains some pre-release speculations on the 4x4x4
+			;cube.  Some are out of date, but it contains the only
+			;analysis this list has seen of the 4x4x4 group, I
+			;believe.
+MC:ALAN;CUBE S&LM	;While most of the speculation about the diameter of
+			;the 3x3x3 group is scattered randomly through the
+			;archives, this file contains the single message with
+			;the highest content.  Hoey and Saxe's message on
+			;Symmetry and Local Maxima.
+
+To briefly remind you all of ALL that we know about the diameter of the 3x3x3
+group (refered to as "God's number" in many of our discussions):
+
+We know that God's number is greater or equal to 21 quarter twists.
+ (See Hoey's message of January 9 1981: "The Supergroup -- Part 2 ..." in MAIL1
+ for a good explanation of this, as well as some other interesting bounds.)
+We know that God's number is greater or equal to 18 half twists.
+ (See Singmaster.)
+We know that God's number is less than or equal to 52 half twists.
+ (See Singmaster again, this is Thistlethwaite's algorithm of several years 
+ ago.  I'll bet it's been improved upon by now.  There is a persistent rumor
+ that he was trying for 41.)
+
+We have never bothered to figure out an upper bound on God's number in quarter
+twists ("Q"s).  It must be less than 104 Qs because of the half twist result,
+but we could probably do better than that if we took the trouble to understand
+Thistlethwaite's algorithm.
+
+Proofs of these numbers, and a great deal of other discussion can be found by
+sifting through the archives (unfortunately they are spread all throught the
+files).  I would urge people to sift through the archives before starting any
+new discussions on the subject.
+
+Date:  1 June 1982 2220-EDT (Tuesday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Lower bounds for the 4x4x4
+Message-Id: <01Jun82 222052 DH51@CMU-10A>
+
+Well, since you insist, here are my lower bounds for the 4^3.  For
+the "colored" 4^3, where only the color pattern matters, some
+positions require at least 41 qtw to solve.  For the "marked" 4^3,
+where center facets of the same color are distinguished so as to
+force a unique home position for each, some positions require at
+least 48 qtw.  The proof is in MC:ALAN;CUBE4 LB and is about 5K
+characters long.
+
+A qtw of the 4^3 is either a quarter-twist of a face relative to
+the rest, or a quarter-twist of half of the puzzle relative to the
+other half.  Note that this makes a slice twist into two moves.  I
+like this metric because it is consistent with our conventions for
+the 3^3.  One of these days I'll explain why I like those
+conventions.
+
+
+Date:  1 June 1982 2222-EDT (Tuesday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Lower bounds for the 4x4x4 (Long)
+Message-Id: <01Jun82 222230 DH51@CMU-10A>
+
+		Lower bounds for solving the 4^3 puzzle
+
+In order to prevent counting positions which arise from whole-cube
+moves, I do not move the DLB corner.  So the generators I use are
+	U1	U1'	R1	R1'	F1	F1'
+	U2	U2'	R2	R2'	F2	F2'
+	U3	U3'	R3	R3'	F3	F3'
+where the digit indicates how many layers are being moved and the
+prime indicates a counterclockwise quarter-twist.
+
+Let us break up any process into "syllables", where a syllable is a
+maximal nonempty string of generators with the same letter.  Note
+that the order of the generators within a syllable is irrelevant.
+We may make a syllable canonical by simplifying so that
+	1. A generator and its inverse do not both appear,
+	2. Clockwise generators appear at most twice,
+	3. Counterclockwise generators appear at most once, and
+	4. Generators appear in numerical order.
+
+For each letter there are 63 canonical syllables.  Omitting the
+letter, they are:
+
+1,1',2,2',3,3'				Six of length one
+
+11,12,12',13,13',1'2,1'2',1'3,1'3',22,
+23,23',2'3,2'3',33			Fifteen of length two
+
+112,112',113,113',122,123,123',12'3,
+12'3',133,1'22,1'23,1'23',1'2'3,1'2'3',
+1'33,223,223',233,2'33			Twenty of length three
+
+1122,1123,1123',112'3,112'3',1133,1223,
+1223',1233,12'33,1'223,1'223',1'233,
+1'2'33,2233				Fifteen of length four
+
+11223,11223',11233,112'33,12233,1'2233	Six of length five
+
+112233					One of length six
+
+(Exercise for the reader:  There is a reason these are binomial
+coefficients.  Why did we skip a row?)
+
+The number of canonical syllable strings containing N generators is
+
+P(-N) =  0 if -N < 0,
+ P(0) =  1,
+ P(N) =  6 C(N-1) P(N-1) + 15 C(N-2) P(N-2) + 20 C(N-3) P(N-3)
+      + 15 C(N-4) P(N-4) +  6 C(N-5) P(N-5) +    C(N-6) P(N-6)
+	   if N > 0,
+
+where C(N) is the number of ways of choosing a new letter after N
+generators:  C(-N) = 0 if -N < 0, C(0) = 3, C(N) = 2 if N > 0.
+
+Evaluating this recurrence yields
+P( 0)=       1    P(13)<1.338E15    P(26)<1.404E30    P(39)<1.472E45
+P( 1)=      18    P(14)<1.914E16    P(27)<2.007E31    P(40)<2.105E46
+P( 2)=     261    P(15)<2.737E17    P(28)<2.871E32    P(41)<3.011E47
+P( 3)=    3732    P(16)<3.915E18    P(29)<4.106E33    P(42)<4.307E48
+P( 4)=   53379    P(17)<5.599E19    P(30)<5.873E34    P(43)<6.160E49
+P( 5)=  763506    P(18)<8.009E20    P(31)<8.400E35    P(44)<8.811E50
+P( 6)=10920771    P(19)<1.146E22    P(32)<1.202E37    P(45)<1.261E52
+P( 7)<1.563E 8    P(20)<1.639E23    P(33)<1.719E38    P(46)<1.803E53
+P( 8)<2.235E 9    P(21)<2.344E24    P(34)<2.459E39    P(47)<2.579E54
+P( 9)<3.196E10    P(22)<3.353E25    P(35)<3.516E40    P(48)<3.688E55
+P(10)<4.572E11    P(23)<4.795E26    P(36)<5.029E41    P(49)<5.275E56
+P(11)<6.539E12    P(24)<6.858E27    P(37)<7.194E42    P(50)<7.545E57
+P(12)<9.352E13    P(25)<9.810E28    P(38)<1.029E44    P(51)<1.080E59
+
+The number of positions exactly N qtw from SOLVED is at most P(N),
+so the number of positions within N qtw of SOLVED is at most
+P(0)+P(1)+...+P(N). Since there are 7.07E53 marked and 7.40E45
+colored positions, this would give us lower bounds of 40 qtw for
+the marked cube and 47 qtw for the colored cube.
+
+But we can improve these lower bounds by one each, using the parity
+hack I described some time ago.  Every qtw is an odd permutation of
+the corner cubies, so the number of positions with even corner
+permutations within 2N+1 qtw of SOLVED is at most
+P(0)+P(2)+...+P(2N) and the number of positions with odd corner
+permutations within 2N+2 qtw of solved is at most
+P(1)+P(3)+...+P(2N+1).
+
+There are 3.70E45 colored positions with odd corner permutations,
+and fewer than 1.583E45 odd-length canonical processes with length
+at most 39.  So some odd colored positions require at least 41 qtw
+to solve.
+
+There are 3.53E53 marked positions with even corner permutations,
+and fewer than 1.939E53 even-length canonical processes with length
+at most 46.  So some even marked positions require at least 48 qtw
+to solve.
+
+		Directions for future hacks
+
+Note that we could also distinguish between positions with even or
+odd edge permutations.  The recurrence gets hairier, but my
+analysis of that problem indicates that the numbers get very close
+very quick, so no luck.
+
+We could divide the positions into buckets based on other quotients
+of the group.  For instance, count the number of positions with
+each of the 729 possible corner orientations.  This should be
+feasible, but probably no help for the 4^3 puzzle.  For the 3^3,
+where there are 2187 corner buckets, some of which stay empty for a
+fair number of moves (I seem to recall 8), and our current lower
+bound is small, I think there is a chance of improvement.  Any
+God's numerologist willing to hack the good hack?
+
+Date: 2 June 1982 10:33-EDT
+From: Richard Pavelle <RP at MIT-MC>
+Subject: Moleculon/Ideal, cont.
+To: CUBE-LOVERS at MIT-MC
+
+I spoke to a person at Moleculon and was given the U.S.
+patent number, 3655201.  I sent for a copy and will report
+again when I have read it. It will likely be several weeks
+before I receive it so if someone is near DC and feels
+motivated to get the patent sooner, please do so. I will
+also check out the Patent Gazette and see if there is anything
+of interest there.
+
+Date:  4 Jun 1982 1006-EDT
+From: PDL at MIT-XX (P. David Lebling)
+Subject: Re: Moleculon/Ideal, cont.
+To: ALAN at MIT-MC, Cube-Lovers at MIT-MC
+In-Reply-To: Your message of 3-Jun-82 1933-EDT
+
+There was a report on the Moleculon suit on WCVB, including a closeup
+of the patent's picture page. The picture is of a 2x2 cube with the
+cubies held together by magnets (the patent shows how the magnets are
+to be arranged so the object will hold together).  The inventor of the
+"Nicholls Cube" was shown working it.  It doesn't turn; you pull it
+apart, turn it, and then stick it back together.  He never quite
+claimed to have made a 3x3 version, and carefully tried to fudge the
+distinction between his 2x2 frob and Rubik's 3x3.
+
+My impression was that the guy is a sleazo trying to get an out-of-court
+settlement from Ideal for $100k or so.
+
+	Dave
+-------
+
+Date:  4 Jun 1982 1508-PDT
+From: ISAACS at SRI-KL
+Subject: 4^3
+To: cube-lovers at MIT-MC
+
+  Well, I finally got one (UPS from Boston).  I agree with the preceding
+messages; basically, I could solve most of it with 3^3 techniques,
+and work out a couple of variations to get edge halves together; then
+if a 2-edge monoflip or exchange is left over, do an odd slice move and
+recover.  Some of the tools are quite long, however; does anyone have
+a short edge flip or exchange, or a short half-center exchange?
+-------
+
+Date:  4 Jun 1982 1531-PDT
+From: ISAACS at SRI-KL
+Subject: Winning Ways
+To: cube-lovers at MIT-MC
+
+  The book "Winning Ways" by Berlekamp, Conway, and Guy is finally out.
+(A puzzlists' dream - to get 4^3 one day, and Winning Ways the next.)
+It seems, on quick scanning, to be all rumor had it to be.  It's sort
+of a sequel to Conway's "On Numbers and Games", and contains a more
+understandable of his Nimbers (Surreal Numbers), with lots of examples
+applied to game analysis.  There are chapters on many puzzles, including
+one on Rubik's Cube.  Also included are sliding block puzzles, Instant
+Insanity, Life, Sprouts, Polyominoes and Polyiamonds, Wire puzzles, 
+Chinese Rings, peg jumping, etc, etc.  An almost encyclopaedic 
+collection of puzzles and games (of certain types) from a mathematical
+standpoint.  With plenty of humor and puns.  The only problem is its
+price - about $20 for each of the two volumes, in paperback. (When the
+hardback comes out later this year, it's supposed to be about $60 per
+volume.)  The 4 sections are "Spade Work" and "Change of Hearts" in the
+first volume (on "Games in General"), and "Games in Clubs" and "Solitaire
+Diamonds" (puzzles) in Vol. 2. ("Games in Particular).  Academic Press.
+Don't miss it.
+   --- Stan
+-------
+
+Date: 5 June 1982 01:07-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: 4x4x4 mechanics
+To: CUBE-LOVERS at MIT-MC
+
+I had a small accident the other day.  I dropped Dave Plummer's 4x4x4 cube and
+broke one of the center cubies (sorry about that Dave).  This gave me an
+opportunity to closely examine the insides of the beastie.  I can't possibly
+describe it through the mail (I can barely describe it in person), but there is
+an interesting problem raised by the insides:
+
+Inside of a 4x4x4 cube is a 57th piece.  It is not permanently connected to any
+of the cubies.  (The center cubies are free to slide back and forth in slots
+cut in the center piece.  The rest of the cubies are held in by the centers.)
+It is impossible to determine by examining the outside of a cube exactly what
+orientation the center piece has.  However, it IS deterministic how the center
+piece will move under a certain twist.  When twisting a face, the center piece
+stays fixed with respect to the other 3 layers of the cube.  When doing an
+"equatorial" twist, the center piece can follow only one of the halves of the
+cube (as determined by it's orientation).  (I believe I have just constrained
+things enough so that you can figure out exactly how the thing moves on your
+own.) 
+
+Thus there is an even larger permutation group to the 4x4x4 (beyond the
+supergroup problem where the identities of the center cubies are considered)
+that includes the center piece.  Call this the "hypergroup".  And since the
+center piece has a 3 element symmetry group there is another group beyond that
+("superhypergroup"?) that takes that into account.
+
+Now the first question to consider about the hypergroup is:  Is it really
+larger than the original group or supergroup?  In other words:  When you have
+solved the 4x4x4, does the center piece necessarily return to its original
+position?  How about if you solve the cube in the hypergroup?
+
+A problem with this problem, is that you cannot learn how to manipulate the
+orientation of the center piece without taking your cube apart to look at the
+thing.  (I DON'T recommend that.  My experience with Plummer's cube has taught
+me that those center pieces are fragile.)  
+
+Anybody have any insights into the problem?
+
+				-Alan
+
+Date: 5 June 1982 08:34-EDT
+From: Martin Minow <MINOW at MIT-AI>
+Subject: A notation and a simple edge/center process
+To: CUBE-LOVERS at MIT-AI
+
+I have been using the following notation for the 4x4 cube:
+
+Name the faces L, R, F, B, U, D.  This follows the 3x3 notation.  The inner
+edges are then l, r, f, b, u, d.  The front, upper, right quadrant
+consists of one corner cube, FUR, two edge cubes, FUr and FRu, and one
+center cube, fur.
+
+Moves follow 3x3 notation:  F moves the front face clockwise, f moves
+the front slice clockwise.  F' moves counterclockwise.
+
+** SPOILER WARNING ** SPOILER WARNING ** SPOILER WARNING **
+
+The remainder of this message describes two processes for the 4x4 cube.
+
+** SPOILER WARNING ** SPOILER WARNING ** SPOILER WARNING **
+
+The following process rotates three edge cubes.  It preserves parity.
+
+(FUl UBl URb)		l' RUR'U' L URU'R'
+
+The following process rotates three center cubes.  It can be used to
+move one center cube between two faces.
+
+(Ful Ulb Urb)		l' rur'u' l uru'r'
+
+While the center process is sufficient, the edge process will not
+organize all edges.  It can easily be extended to a process that
+moves (FUl to UBl) but that process messes up centers, corners, and
+other edges.  It also does not do 4-way moves.  So the bloody thing
+still takes an hour.
+
+Martin Minow
+decvax!minow@berkeley
+
+
+Date: 5 Jun 1982 10:44:47-PDT
+From: decvax!minow at Berkeley
+To: ucbvax!cube-lovers@mit-ai
+
+Subject:  Rubic's Domino
+I found one (for $11.00) at Games People Play in Cambridge.  Made in
+Hungary, not by Ideal.
+
+Haven't solved it yet.  The notes say you should be able to solve it
+in 15 minutes.  It is a 3x3x2 construction; one face white; one black.
+Each cube is numbered as on a domino.  The object is to get the numbers
+and colors arrainged.
+
+Martin Minow
+decvax!minow at berkeley
+
+
+
+Date:  5 Jun 1982 2332-EDT
+From: Joseph A. Bowbeer <LS.BOWBEER at MIT-EECS>
+Subject: 4x4x4 solution book
+To: cube-lovers at MIT-MC
+
+Jeff Adams (MIT math graduate student) and another person have coauthored
+a 4x4x4 solution book which should be on the shelves shortly.  I'll try to
+get more information.  The 3x3x3 solution posters which are on sale at the 
+MIT math undergraduate office, among other places, were designed by these
+two cubists, also.
+-------
+
+Date: 6 Jun 1982 17:11:14-PDT
+From: decvax!minow at Berkeley
+To: ucbvax!cube-lovers@MIT-AI
+
+Note: this is a resubmission of my note of Saturday June 6 which
+was bit by typo's.  Thanks to RP@MIT-MC for pointing them out.
+
+I have been using the following notation for the 4x4 cube:
+
+Name the faces L, R, F, B, U, D.  This follows the 3x3 notation.  The inner
+edges are then l, r, f, b, u, d.  The front, upper, right quadrant
+consists of one corner cube, FUR, two edge cubes, FUr and FRu, and one
+center cube, fur.
+
+Note that the Ideal book uses Lx etc for the mid-slices.
+
+Moves follow 3x3 notation:  F moves the front face clockwise, f moves
+the front slice clockwise.  F' moves counterclockwise.
+
+** SPOILER WARNING ** SPOILER WARNING ** SPOILER WARNING **
+
+The remainder of this message describes two processes for the 4x4 cube.
+
+** SPOILER WARNING ** SPOILER WARNING ** SPOILER WARNING **
+
+The following process rotates three edge cubes.  It preserves parity.
+
+(FUl UBl URb)		l' RUR'U' l URU'R'
+
+The following process rotates three center cubes.  It can be used to
+move one center cube between two faces.
+
+(Ful Ulb Urb)		l' rUr'U' l UrU'r'
+
+While the center process is sufficient, the edge process will not
+organize all edges.  It can easily be extended to a process that
+moves (FUl to UBl) but that process messes up centers, corners, and
+other edges.  It also does not do 4-way moves.  So the bloody thing
+still takes an hour.
+
+Martin Minow
+decvax!minow@berkeley
+
+
+
+Date:  7 Jun 1982 15:34:28 EDT (Monday)
+From: Roger Frye <frye at BBN-UNIX>
+Subject: 4^3 breakage, notation, and solution
+To: Cube-Lovers at MIT-MC
+Cc: decvax!minow at BERKELEY, ISAACS at SRI-KL, frye at BBN-UNIX
+
+About broken 4^3 center cubies:
+
+The center cubies take all the stress of holding in the edges and corners.
+The post which breaks is 4mm square compared to the 16mm square cubie.
+When I called Games People Play about my broken cube, another cube had
+just been returned with the same problem.  So I traded my broken cubie
+for an unbroken one and picked up a spare.
+
+About Minow notation for 4^3:
+
+     Name the faces L, R, F, B, U, D.  This follows the 3x3 notation.  The inner
+     edges are then l, r, f, b, u, d.  The front, upper, right quadrant
+     consists of one corner cube, FUR, two edge cubes, FUr and FRu, and one
+     center cube, fur.  [decvax!minow at Berkeley]
+
+Isn't there still a mistake here?  I think of "fur" as being a spot buried
+in the cube.  If you mean the four cubies in the upper right quadrant of
+the front face, then the name of the center cubie would be "Fur".
+If you mean the front, upper, right octant then the two other center
+cubies are "Urf" and Rfu".
+
+About 4^3 processes:
+
+** SPOILER WARNING ** SPOILER WARNING ** SPOILER WARNING **
+
+My process to exchange three edge cubies is a U face commutator:
+
+(RDf URf UFl) =    R'd'R  U'  R'dR  U
+
+I think of my other 4^3 process as exchanging two half centers:
+
+(Rfu Flu Rbd)          \
+(Rub Fur Rdf)           =   R2 u' R2 u
+(RBd FRd BRu RFu FLu)  /
+
+You can get lost trying to read the permutations.  Just think of it
+as injecting the two upper cubies from the front face into the right
+face in exchange for the two upper cubies from the right face.
+This is a move ISAACS requested.
+
+My solution strategy:
+
+** SPOILER WARNING ** SPOILER WARNING ** SPOILER WARNING **
+
+1) Solve the top center using random methods.
+2) Solve the corners using 3^3 moves.  (See \\Jeff Conquers the Cube//.)
+3) Solve all centers with my center process.
+4) Solve all edges with my edge process.
+5) If a 2-edge monoflip or exchange is left over:
+5a) In 2^3 mode, turn top and rotate three corners back; i.e.
+    Uu   (Rr)2 (Bb)2 Rr Ff R'r' (Bb)2 Rr F'f' Rr.
+5b) In 3^3 mode, undo 5a; i.e.
+    U'   L2 B2 L' F' L B2 L F L.
+5c) Repeat steps 3 and 4.
+
+ -Roger Frye
+
+
+Date:  7 Jun 1982 1606-PDT
+From: Dolata at SUMEX-AIM
+Subject: I quit!
+To:   cube-lovers at MIT-AI
+
+
+I have decided to give up cubing for my sanity!  Therfor, I have
+2 ideal cubes in good tight condition for sale.  They go to the
+highest bidder, assuming the bid is sufficiently above postage
+to make it worthwhile.
+
+Dan (ex-cubeist) Dolata
+-------
+
+
+Date: 8 June 1982 19:34-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject:  [DANIEL: FYI.  [dave: Rubic's Cube World Championship]]
+To: CUBE-LOVERS at MIT-MC
+
+Just for the record:
+
+    Date: 8 June 1982 11:44-EDT
+    From: Daniel Weise <DANIEL at MIT-AI>
+    Re:   FYI.  [dave: Rubic's Cube World Championship]
+
+       Date: 7 June 1982 2054-PDT (Monday)
+       From: dave at UCLA-Security (David Butterfield)
+       Re:   Rubic's Cube World Championship
+
+       Ming Thai, the Vietnamese student who I met a couple of weeks ago,
+       won the World Rubic's Cube Contest in Budapest on June 5.  His time
+       was around 23 seconds.
+
+    Very impressive time.
+
+Date:  9 Jun 1982 1001-PDT
+From: ISAACS at SRI-KL
+Subject: S&M and other moves
+To: cube-lovers at MIT-MC
+
+BACKGROUND
+    On the 3^3, many people use variants of a 3-cycle of edges,
+more-or-less as follows:
+
+      let Rs = Right slice = R'L + roll cube so front is up
+
+      T  (for tri-cycle?) = Rs U2 Rs' U2  = (UF,DF,UB)  
+                                  to cycle 3 edges on a slice
+
+Some people use it in the form
+      R2 D' - T - D R2 = (UF,UR,UB) to get 3 on a face, without
+
+flips, and some use
+
+      Rs' U - T - U' Rs = Rs' U Rs U2 Rs' U Rs = (UF,LU,RU)
+
+for 3 on a face, with flips, since it saves a move due to 
+
+       U2 U' = U.
+END BACKGROUND
+
+   Now, this move, when transferred to the 4^3, seems to be the basis
+of both Richard Pavelle's "S" move of 16-May, and Bernie Cosell's "M"
+move of 17-May (Bernie using a left slice version of the third form).
+   The move Roger Frye describes on 7-June is also the same as this
+(re-oriented to a different face), and so is the "quite long" tool I
+use.  To move only edges requires S3, and to move only centers
+requires S5!!!  I still would like a "nice" (preferably short) center
+pair move.
+
+SPOILER          SPOILER             SPOILER
+
+We have now several 3-cycles:
+
+ (UBl,UFr,LDf)  =  U2 f' D f - U2 f' D' f      (from Minh Thai's book)
+
+ (UFl,BUl,RUb)  =  l' - R U R' U' - l - U R U' R' (Minow, 6-June)
+
+ (RDf,URf,UFl)  =  R' d R - U' - R' d R - U       (Frye, 7-June)
+
+    Note that all of these have corresponding 3-cycles of centers, by
+simply substituting a slice for its' corresponding edge in each of the
+moves.  For instance, in Thai, substitute d for D; in Minow, r for R,
+etc. There is also a version which cycles an edge an center together,
+by rotating the appropriate face and slice together.
+    In fact, it looks as though any simple move on the 4^3 will have a
+left and right version, a forward and back version, and a slice and
+edge version or two, along with combinations of these.  Is there any
+way to put these into a canonical form so we can recognize related
+moves?  What about canonical form on the 3^3?
+    One more spoiler: to switch opposite centers (all 4 cubies):
+
+  (F,B)  = (r2 U2 l2 U2)3.
+
+END SPOILER          END SPOILER        END SPOILER
+
+    Can the notation be usefully extended so as to talk about UB as
+the pair of upper back edges, F as the front 4 center cubies, and Fu
+as the upper two of F, etc.  It might make notating the permutations
+easier.  Is there any notation to make various repeats easier;  for
+instance, some expansion of "squared" to indicate  "primed"
+(commutator) type repeat, or a repeat with all quarter twists in the
+opposite direction.  Maybe (  )2 means repeat; (  )i2 means repeat
+with sub-parts "primed", and (  )-2 repeats with qtws opposite.  The
+purpose is to try to make it more obvious what each move is really
+doing, and to be able to compare moves easier.
+    Has anybody given any thought to notation the 5^3?
+    By the way, if Bill Mann is listening, would you describe your
+transform (mentioned by Edmond on 23-May)?
+---  Stan
+-------
+
+Date: 10 Jun 1982 0940-PDT
+From: ISAACS at SRI-KL
+Subject: correction
+To: cube-lovers at MIT-MC
+
+   At least 2 errors appeared in my previous message:
+    In Minh Thai's 3-cycle, substitute "r" for "f" to do the permutation
+reported. 
+    In the Frye 3-cycle, the first "d" should be "d'".
+ 
+    I thought I had a half center move:
+    
+       (r2 u2)2  =  (Fur,Bur)
+
+   but when repeated, I got
+
+      (r2 u2)4  =  (Fdr,Bur),
+
+    so I realized that what I really had was the 6-cycle of centers:
+
+      (r2 u2)2  = (Ful,Fdr,Bul,Bdl,Fur,Bur)   (I think).
+
+  Oh, well.
+
+
+----   Stan
+-------
+
+Date: 14 Jun 1982 11:17:40 EDT (Monday)
+From: Bernie Cosell <cosell at BBN-UNIX>
+Subject: Magic Domino
+To: cube-lovers at mc
+
+The magic Domino (available, at least, at Games People Play here
+in Cambridge) is a delightful little puzzle.  I would guess that it
+is the easiest of the `Rubik-type' puzzles to date -- I think it is
+even easier than the 2x2x2.  I solve it with two basic moves:
+one fixes the corner (but screws up the edges), and then the other
+fixes up the edges.
+
+An interesting sidelight on the domino is the ability to interchange
+ONE pair of edges.  The trick here (for reasons that I don't
+understand yet) is that the supergroup rotation seems to invert the
+parity of the edges.  That is: if you have the whole domino solved
+and then re-solve the thing with both faces rotated by a quarter turn
+around the center (5) cube.  You'll discover that you can't do this hardly
+at all on just one face, since you wont be able to get the corners fixed.
+But if you rotate both the white and black faces, then the corner parity
+is OK, BUT.... the edge parity has been flipped and so you have done a
+single interchange of two edges.
+  
+    /Bernie
+
+
+Date: 14 Jun 1982 16:10:19-PDT
+From: decvax!minow at Berkeley
+To: ucbvax!cube-lovers@mit-ai
+
+Subject:  Some simple edge processes for the 4x4 cube.
+
+
+** ** ** ** SPOILER WARNING ** ** ** **
+This message describes some edge processes for the 4x4 Rubic's Cube.
+
+My collegue, Marty Hiller, came up with two simple processes
+which she uses to order edges on the 4x4 cube.  They are sufficient
+to solve all edge permutations:
+
+(FUl UBl FDr DBr)		(r U2)^4 r
+
+(FUl UFr UBl BUr FDr)		(r U2 r' U2)^3
+
+The ^n notation means repeat the process n times.
+Note that these processes probably modify the center cubes as well
+but this is invisible if you have already solved the center.
+
+Martin Minow
+
+
+
+Date: 15 June 1982 1045-EDT (Tuesday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Patterns for Rubik's Revenge
+Message-Id: <15Jun82 104503 DH51@CMU-10A>
+
+			CHECKERBOARDS
+
+I confirm Dave Plummer's result that it is impossible to make a
+checkerboard on all faces of a cube of even side.  Proving this for
+the 2^3 is sufficient, and implies the corollary I sent last year
+that it is impossible to make S or Z or Zig-Zag patterns on all
+sides of the 3^3.  This time I will outline my analysis of the
+problem.
+
+What we are asking for in each case is a pattern in which every
+face has matching diagonally opposite corner facets and contrasting
+adjacent corner facets.
+
+First, consider any position in which diagonally opposite corner
+facets match on each face.  If we connect every pair of corner
+cubies that have diagonally opposite corner facets we get two
+tetrahedrons of corner cubies.  A quick examination will show that
+the four cubies in such a tetrahedron must either be
+
+	1) Not all from the same cube,
+	2) Four copies of the same cubie, or 
+	3) Four different cubies from the same cube, in the correct
+		position and orientation relative to each other.
+
+Assuming case 3, we may place one tetrahedron in the home position
+and consider how the other tetrahedron has been rigidly rotated
+with respect to the first.  There are 12 rotations of the
+tetrahedron.  One is the identity, three are 180-degree rotations
+about the midpoints of two opposite edges, and six are 120-degree
+rotations about a vertex.  
+
+In the identity every face's adjacent corner facets fail to
+contrast.  The 180-degree rotations have the corners like the 3^3
+Zig-zag pattern, where two faces have noncontrasting corners.  The
+120-degree rotations would make checkerboards, but violate the
+corner twist invariant.
+
+Approximate checkerboards can be made from the 180-degree rotation
+and from the 120-degree rotation with one corner twisted.  In the
+180-degree approximation, two faces have two wrong facets each.  In
+the 120-degree approximation, three faces have one wrong facet
+each.  Both are achievable with the 2^3 and 4^3, and I think these
+are as close as you can get on any even-sided cube.
+
+			SPOTS
+
+Spot patterns of the 4^3 are those which have the pattern
+		X X X X
+		X Y Y X
+		X Y Y X
+		X X X X
+on all nonblank faces.  There are a lot of them:  every permutation
+of the centers is possible.  There are thus 6! = 720 spot patterns.
+We may cut this number down by identifying positions that are
+M-conjugates (recolorings) of each other.
+
+As long as I am listing the permutations by conjugacy class, I may
+as well break them down by recoloring type.  Last July I asked a
+question about the possible rearrangements of colors on the cube.
+I worked on the solution long enough to find that given a
+``standard'' cube, there are five kinds of recoloring up to
+M-conjugacy.
+	Identity   -- The standard coloring.
+	Reflection -- Identity in a mirror.
+	Swap	   -- Identity with two adjacent colors exchanged.
+	Wrench	   -- Identity with three adjacent colors cycled.
+	Befuddler  -- Wrench in a mirror.
+The Identity and Reflection are unique colorings.  There are twelve
+Swaps and eight each of the Wrench and Befuddler recolorings.  Each
+recoloring corresponds to 24 face permutations, achievable by
+whole-cube moves.
+
+Here, then, are the spot patterns.  Columns correspond to the
+number of spots in the pattern.  The row groupings show the kind of
+cube coloring the spot pattern comes from.  The patterns are given
+as a permutation of faces:  (...XY...) and (Y...X) both mean that
+face X has a spot colored Y, as shown at the beginning of this
+message.  The number of permutations in each conjugacy class is
+also given.
+
+				Number of spots
+	   0     2	 3	      4	            5		   6
+Coloring
+--------------------------------------------------------------------
+Identity  :8                   (BUFD):6                 (BUL)(FDR):8
+	    		     (BF)(UD):3               (BF)(UL)(DR):6
+--------------------------------------------------------------------
+Reflection  (BF):3	     (BU)(FD):6                   (BULFDR):8
+					                (BF)(ULDR):6
+					              (BF)(UD)(LR):1
+--------------------------------------------------------------------
+Swap	   (BU):12 (BFU):24   (BFUD):12    (BUFDL):48    (BFULDR):48
+			    (BF)(UL):12  (BF)(UDL):24  (BF)(UDLR):12
+				         (BU)(FDL):48  (BU)(FDLR):48
+--------------------------------------------------------------------
+Wrench		   (BUL):16   (BUFL):24    (BFUDL):48    (BFULRD):24
+				         (BU)(FLR):48   (BUL)(FRD):8
+						       (BU)(FLDR):24
+--------------------------------------------------------------------
+Befuddler		      (BFUL):48    (BFULD):48    (BFUDLR):16
+			    (BU)(FL):24	                 (BUFLDR):24
+						       (BFU)(DLR):24
+						      (BU)(FL)(DR):8
+--------------------------------------------------------------------
+
+The answer: Fifteen six-spot patterns, six five-spots, eight
+four-spots, two three-spots, two two-spots, and one no-spot.
+
+			CROSSES
+
+What cross patterns are possible on the 4^3?  We must first ask
+what a cross pattern on the 4^3 should look like.  I consider the
+following two kinds of cross.
+
+		Thick Cross		Thin Cross
+
+		  X O O X		 X O X X
+		  O O O O		 O O O O
+		  O O O O		 X O X X
+		  X O O X		 X O X X
+
+Every thick cross pattern is a rigid rotation or reflection of the
+edge and face center pieces with respect to the corners.  This is
+just like the 3^3 case except that the 3^3 has face centers that
+are fixed relative to each other, and so does not allow reflec-
+tions.  So in addition to the thick versions of Plummer's Cross and
+Cristman's Cross, there are three new crosses.
+
+    Thick Pons Cross                        Thick Fliptwist Cross
+                       Thick Interlaced Cross
+         U D D U                                   U L L U
+         D D D D              B U U B              L L L L
+         D D D D              U U U U              L L L L
+         U D D U              U U U U              U L L U
+                              B U U B
+L R R L  F B B F  R L L R                 L D D L  F B B F  R U U R
+R R R R  B B B B  L L L L     U L L U     D D D D  B B B B  U U U U
+R R R R  B B B B  L L L L     L L L L     D D D D  B B B B  U U U U
+L R R L  F B B F  R L L R     L L L L     L D D L  F B B F  R U U R
+                              U L L U
+         D U U D                                   D R R D
+         U U U U     L F F L  F D D F  R B B R     R R R R
+         U U U U     F F F F  D D D D  B B B B     R R R R
+         D U U D     F F F F  D D D D  B B B B     D R R D
+                     L F F L  F D D F  R B B R
+         B F F B                                   B F F B
+         F F F F              D R R D              F F F F
+         F F F F              R R R R              F F F F
+         B F F B              R R R R              B F F B
+                              D R R D
+
+For thin crosses, we first examine those in which the arms of the
+crosses meet at the edges.  Again the figure facets are rigidly
+rotated and reflected with respect to the ground.  This time cubie
+conservation becomes an issue, because of the impossibility of
+flipping an edge cubie, so there are only three such thin crosses.
+
+     Thin Pons Cross			      Thin Plummer Cross
+		       Thin Interlaced Cross
+	 U U D U				   U U R U
+	 U U D U	      B B U B		   U U R U
+	 D D D D	      B B U B		   R R R R
+	 U U D U	      U U U U		   U U R U
+			      B B U B
+L L R L  F F B F  R L R R		  L L B L  F F U F  R F R R
+R R R R  B B B B  L L L L     U U L U	  B B B B  U U U U  F F F F
+L L R L  F F B F  R L R R     U U L U	  L L B L  F F U F  R F R R
+L L R L  F F B F  R L R R     L L L L	  L L B L  F F U F  R F R R
+			      U U L U
+	 D D U D				   D D L D
+	 U U U U     L L F L  F F D F  R B R R	   L L L L
+	 D D U D     F F F F  D D D D  B B B B	   D D L D
+	 D D U D     L L F L  F F D F  R B R R	   D D L D
+		     L L F L  F F D F  R B R R
+	 B B F B				   B B D B
+	 B B F B	      D D R D		   B B D B
+	 F F F F	      R R R R		   D D D D
+	 B B F B	      D D R D		   B B D B
+			      D D R D
+
+When we relax the constraint that thin cross arms must meet at the
+edges, the figure is no longer rigidly transformed with respect to
+the ground.  Indeed, we might expect that adjacent crosses whose
+arms do not meet might have colors that are opposite on the cube.
+I carried out a long examination of the cases, and found that this
+does not happen.  In fact, only one new color permutation arises.
+
+	   Thin Fliptwist Cross
+
+		 U U B U
+		 B B B B
+		 U U B U
+		 U U B U
+
+	L R L L  F F U F  R L R R  B D B B
+	L R L L  F F U F  L L L L  B D B B
+	R R R R  U U U U  R L R R  D D D D
+	L R L L  F F U F  R L R R  B D B B
+
+		 D D F D
+		 D D F D
+		 F F F F
+		 D D F D
+
+The only other thin cross patterns in which not all crosses meet at
+the edges are 43 versions of the Thin Pons Cross (modulo my missing
+a case or two in the analysis).
+
+Date: 24 June 1982 16:28-EDT
+From: Richard Pavelle <RP at MIT-MC>
+Subject: Moleculon vs Ideal, cont.
+To: CUBE-LOVERS at MIT-MC
+
+I have read the patent of Larry Nichols who assigned it to Moleculon
+and it looks to me like they have a very strong case against Ideal.
+One should keep in mind, however, that more than 70% of patent
+infringement cases go against the patentee.
+
+The basic drawings and descriptions in the patent deal with the 2^3 
+held together (non-rigidly) by magnets. Nichols discusses the possibility
+of fixing the cubies rigidly in his description in a manner not unlike
+Rubik. But the fact that he does not mention this aspect in his claims
+may be his undoing. He mainly stresses the magnetic attachment. I would
+not be surprised if the PTO told him that the rigid attachment would
+comprise another implementation and he wished to avoid the extra 
+expense (I am speaking from experience here). He discusses the puzzle 
+aspects and some of the higher order cubes and non-cubes we have seen 
+on the market.
+
+In conclusion, I doubt he will get his 60M from Ideal but I think
+he will get a non-trivial percentage and a continuing royalty. 
+
+Date: 25 Jun 1982 0916-PDT
+From: ISAACS at SRI-KL
+Subject: Scientific American
+To: CUBE-LOVERS at MIT-MC
+
+  The July issue is out, with an update on Cubes by Hofstadter.  Don't
+miss it.
+  Also, the first Rubik's Cube Newsletter from Ideal came.  It's an 8
+page glossy, mostly about Cube contests and Ideal's new puzzles.  So
+far, mostly an Ideal advertising sheet.
+  I got a letter from Ideal which said that "Revenge" won't hit California
+until August!
+  Adam Alexander is doing a promotional tour for Ideal with his "Alexander's
+Star".  He said it is not out in the East yet - we get the star, East coast
+gets the revenge, and the meet somewhere in the middle.  He lives in N.Y.,
+was (is) a mathematician, and has lots of Cube-like inventions and models,
+mostly built out of cardboard so far.
+  -- Stan
+-------
+
+Date: 25 June 1982 1225-EDT (Friday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  New Scientific American article
+Message-Id: <25Jun82 122513 DH51@CMU-10A>
+
+    Date:  6 August 1980 16:52 edt
+    From:  Greenberg.Multics at MIT-Multics
+    Subject:  Re: 'cube lovers digest'
+
+    I am really interested in when the _ Gardner is going to get
+    his act together and publish THE cubing article-- each month
+    for the last n I have eagerly taken the cover of SciAm and
+    been disappointed. This is clearly THE mathematical game
+    (since the inception of SciAm, with the possible exception of
+    Conway's LIFE), and I wonder what he's waiting for.  About a
+    week ago, I actually dreamt that I opened the SciAm wrapper
+    and found the Cube on the cover, introducing a WHOLE ISSUE
+    about it (Social implications, Ancient Cubing, Cubing in the
+    Soviet Union, etc...)
+
+Well, there finally was a Metamagical Themas column on the cube in
+March '81.  Unfortunately, that article was mostly old hat to the
+readers of Cube-Lovers.  The July '82 issue, just out, is a
+different story.  Hofstadter discusses about twenty different
+``Cube'' puzzles, based on all the regular polyhedra (and the
+tesseract), several arrangements of twist axes and several coloring
+schemes.  It even mentions cubing in the Soviet Union!  Stan Isaacs
+<ISAACS at SRI-KL> is the Cube-Lovers representative for the new
+article.
+
+At last I can believe that Hofstadter's column will replace
+Gardner's.
+
+Date: 29 Jun 1982 2232-PDT
+From: ISAACS at SRI-KL
+Subject: Twisting Cube
+To: CUBE-LOVERS at MIT-MC
+
+  Take a cube(3x3x3) and re-color it in two colors, as follows:
+Make 2 opposite faces with color 1 in the center, and color 2 on the
+rest.  Call them "dots".  Take another pair of opposite faces and make
+the 4 corners color 2 and the cross color 1.  Call them "pluses".
+Finally take the last pair and make an "H" with color 1 and the 2
+edges NOT adjacent to "dots" color 2.  Call them "H's".  In this cube,
+every edge is the same, so is each corner, and the centers.  The result
+is a cube where you only have to solve orientation problems, and never
+need to position any cubie.  However, it's not quite the entire orientation
+sub-cube - if you flip all 12 edges, you can't tell the difference.  Can
+anybody come up with a coloring (2 or 3 colors - the centers could all be
+colored with a different color from the edges and corners.  In fact, I guess
+you could use 6 colors; the only necessity is for all edges to be the same,
+and all corners the same. )... come up with a coloring which uses the
+complete twisting sub-group.
+   By the way, an elegant solution to the "edge-only" cube is to recolor
+an Octahedron Cube so it is vertex centered.  Much nicer than peeling all
+the corners of a regular cube.
+   --- Stan
+-------
+
+Date:  6 Jul 1982 2318-PDT
+From: Zellich at OFFICE-3 (Rich Zellich)
+Subject: Mailing-list for "List of lists" update notices
+To:   All mailing-lists:
+cc:   ZELLICH
+
+For those of you not previously aware of it, I maintain a master list
+of ARPANET mailing-lists/digests/discussion groups (currently 756
+lines or ~29,000 characters) on OFFICE-3 in file:
+
+   <ALMSA>INTEREST-GROUPS.TXT
+
+   For ARPANET users, OFFICE-3 supports the net-standard ANONYMOUS
+   login within FTP, with any password.
+
+To keep people up to date on the large number of such lists, I have
+established a mailing list for list-of-lists \update notices/.  I do
+not propose to send copies of the list itself to the world at large,
+but for those ARPANET users who seriously intend to FTP the updated
+versions when updated, I will send a brief notice that a new version
+is available.  For those counterparts at internet sites who maintain
+or redistribute copies for their own networks (DECNet, Xerox, etc.)
+and can't reach the master by ARPANET FTP, I will send out the
+complete new file.  I do \not/ intend to send file copies to
+individual users, either ARPANET or internet; our system is fairly
+heavily loaded, and we can't afford it.
+
+There is no particular pattern to the update frequency of INTEREST-
+GROUPS.TXT; I will occasionally receive a burst of new mailing-lists
+or perhaps a single change of address for a host or mailing-list
+coordinator, and then have a long period with no changes.
+
+To get on the list, send requests to ZELLICH@OFFICE-3, \not/ to the
+mailing-list this message appears in.
+
+Cheers,
+Rich
+-------
+
+Date: Friday, 16 July 1982, 10:20-EDT
+From: Clark M. Baker <CMB at SCRC-TENEX>
+Subject: Supplement to the Oxford English Dictionary
+To: cube-lovers at MIT-AI
+
+contains Rubic's Cube, described as an international craze of 1981 and
+invented in 1975 by Erno Rubik of Hungary.
+
+
+Date:      28 Jul 82 22:20:52-PST (Wed)
+From:      Scott.uci at UDel-Relay
+To:        cube-lovers.uci at UDel-Relay
+Subject:   the 4x4 cube (a.k.a. Rubik's Revenge)
+Via:  UCI; 29 Jul 82 5:43-EDT
+
+   Has anyone seen a 4x4 cube anywhere in Orange County, or even L.A.?  I'd
+appreciate any leads on where/how to get one.
+   I saw on (a friend's) in Santa Barbara, but he got it in Boston.  I've
+also seen solution books (e.g. Crown Books).  But the object itself is elusive.
+   If you like the 3x3, I highly recommend the 4x4.  If you have a scrambled
+one, I can solve it for you.
+
+-- Scott Huddleston
+
+
+Date: 4 Aug 1982 08:41 PDT
+From: Mendelson.es at PARC-MAXC
+Subject: Supercube
+To: Cube-Lovers at MIT-MC
+cc: Mendelson.es
+
+I have been patiently(?) waiting for the 4^3 Supercube (Rubik's Revenge) to
+show up in the stores in the Los Angeles area.  To my knowledge it has not
+done so.  Does anyone know where it can be obtained in Los Angeles?  If it
+cannot, is there anyone out there who will volunteer to send me one, all costs to
+be borne by me?  Thanks for your responses.
+
+Jerry Mendelson
+
+
+Date: Friday, 6 August 1982, 18:51-EDT
+From: Jonathan L. Handel <JLH at SCRC-TENEX>
+Subject: Reagan cubed
+To: cube-lovers at MIT-MC, bsg at SCRC-TENEX
+Cc: jlh at scrc-tenex
+
+From The Nation, August 7-14, page 103 (a continuing column of Reagan's
+slip ups, called There He Goes Again:  Reagan's Reign of Error):
+
+           Reagan: Elizabeth Drew wrote in the June 21 New Yorker that
+         in a White House meeting, the President lauded the inventor of
+         Rubik's Cube as exemplifying the virtues of American free enterprise.
+	 
+	  Truth: Erno Rubik, the inventor of the cube, is a Hungarian
+	professor living in Communist Budapest.
+
+Date: 6 August 1982 19:51-EDT
+From: Allan C. Wechsler <ACW at MIT-AI>
+Subject: Invisible group of the 4^3
+To: CUBE-LOVERS at MIT-AI
+
+
+The 4^3 doesn't have a supergroup in the sense of the 3^3 --
+the orientations of the ceter cubies are determined by their positions.
+
+However, there is one fairly natural adjunct group that people might 
+try thinking about and solving.  A 4^3 shows 24 center cubies,
+24 edge cubies, and eight corner cubies.  But if it were really
+a solid cube chopped up by parallel slices, it would have eight
+more cubies buried inside.  Call them stomach cubies.  The eight
+stomach cubies form a 2^3 buried in the 4^3.  They move when you
+twist slices.  Can people come up with tools to frob the
+stomach cubies without disturbing the visible cubies?  What is
+the order of the adjunct group?
+
+   --- Allan
+
+
+Date:  7 Aug 1982 1446-PDT
+From: ISAACS at SRI-KL
+Subject: 4^3 Supergroup
+To: CUBE-LOVERS at MIT-MC
+
+  Of course there is a supergroup on the 4^3.  Just number the 4 centers
+to see it.  I think you can exchange any 2 pairs of centers.
+  -- Stan
+-------
+
+Date:  7 Aug 1982 1501-PDT
+From: ISAACS at SRI-KL
+Subject: POLYCUBE (on IBM PC)
+To: cube-lovers at MIT-MC
+
+  I got the POLYCUBE program mentioned in the latest Scientific American
+cube article, which has from 1x1x1 up to 7x7x7 cubes on the IBM Personal
+Computer.  I found it disappointing.  It doesn't show the back of the
+cube, making solving it VERY difficult.  It should also allow user-defined
+shorthand, so one could build macros (or simply define better notation).
+The notation is good for the general case, but hard for the 3^3 case and
+down - it is a general X-Y-Z notation, R or L direction, 1-n layer.
+Thus RX1 is our "R"; "ZL1" = U', etc. The colors are pretty.  You can
+save a cube on disk if you haven't finished solving it, but only one.
+   Why doesn't someone design and write a general group-theory puzzle
+simulation program.  Draw any pattern (2 or 3 dimensions) on a screen, 
+associate it with a matrix, name some permutations in the matrix for
+moves, and you should have any conceivable (drawable) rotating axis
+puzzle modeled.
+  -- Stan
+-------
+
+Date: 7 August 1982 20:02-EDT
+From: Yekta Gursel <YEKTA at MIT-MC>
+Subject: 4^3 is available in LA area in some of the CHESS and GAMES stores...
+To: CUBE-LOVERS at MIT-MC
+
+A friend of mine just got his for about $11.  Apparently they were having an
+opening sale.  I got mine a month ago from a friend in Boston.
+
+                                               YEKTA@MC
+
+Date:  9 August 1982 0737-EDT (Monday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Invisible Revenge
+Message-Id: <09Aug82 073740 DH51@CMU-10A>
+
+When you have seen Rubik's Revenge, have you seen everything?
+Maybe not.
+
+
+                    Supergroups
+
+There is some confusion about the meaning of the term Supergroup
+for the larger cubes.  There are two issues at stake:
+
+        (1) In the 4^3 and larger cubes, there are pieces that may
+            be permuted but are colored the same.  Are positions
+            that differ only in the permutation of identically-
+            colored facets to be considered distinct?
+
+        (2) In all odd-sized cubes, each face has a center facet
+            that may be twisted.  Are positions that differ only in
+            the twist of face centers to be considered distinct?
+
+If the answer to (1) is `no', the puzzle is not a group, but a
+collection of cosets.  I find this interesting only in that it is
+understood by the masses, and then the answer to (2) is `no'.
+
+If the answer to both (1) and (2) is `yes', we have what I would
+call the Supergroup.  I mark my cubes so that I can distinguish
+patterns in this group.  I discussed a way of doing this for the
+3^3 in my message of 9 January 81 0551-EST.  For Rubik's Revenge, I
+use a similar procedure, except now two spots must be cut out on
+each face:
+        +-----------------------+
+        |     |     |     |     |
+        |     |    *|*    |     |
+        |-----+-----+-----+-----|
+        |     |    *|*    |     |
+        |     |     |    *|*    |
+        |-----+-----+-----+-----|
+        |     |     |    *|*    |
+        |     |     |     |     |
+        |-----+-----+-----+-----|
+        |     |     |     |     |
+        |     |     |     |     |
+        +-----------------------+
+Also, I now arrange the faces T-symmetrically, with the spots
+toward the girdle.
+
+Jim Saxe first brought it to my attention that we may answer `yes'
+to (1) and `no' to (2).  We get a group that ignores face center
+orientation.  This is probably what people mean when they say there
+is no Supergroup for Rubik's Revenge:  This is the group of the
+puzzle, and the Supergroup (as I have defined it) is the same for
+the 4^3.  But in the 5^3 this group is distinct both from the
+Supergroup and from the Color Cosets.
+
+
+                    The 57th Piece
+
+Alan Bawden, in his message of 5 June 82, despaired of explaining
+the mechanical workings of Rubik's Revenge.  I will now rush in.
+
+If you take your Rubik's Revenge apart (as described in Ronald B.
+Harvey's message of 19 May 82, not recommended by Alan Bawden), you
+will find that the cubies ride around on a sphere:  the mysterious
+57th piece.  Only the face centers are connected to the sphere;
+they have flanges that hold the edges in place, and the centers and
+edges have flanges that hold the corners in place.  The tricky part
+is the linkage between the sphere and the face center cubies.
+
+The four center cubies of a face have extensions that together form
+a mushroom-shaped plug.  Each plug extends from the center of the
+face inward and is cut in quarters lengthwise.  There are six
+sockets on the sphere in which these plugs will fit and may rotate,
+but may not be pulled out.  This is sufficient to implement a
+puzzle isomorphic to the 3^3, namely the 4^3 where we allow only
+face twists.
+
+The other necessity for a 4^3 is to be able to twist the six center
+slices, which we name after their adjacent faces.  To accomplish
+this, there are grooves in the sphere that form three orthogonal
+great circles.  Each groove has the cross section of half of a
+socket, and includes the four half-sockets that correspond to a
+center slice.  When we twist one of those center slices, the
+half-plugs formed by pairs of face centers in that slice ride
+around the sphere in the grooves.  Of course there is an adjacent
+center slice; when it is moved, it takes the sphere with it.  The
+reason the grooves cannot have the cross-section of a socket is
+that then, when we twisted half the cube with respect to the other,
+the sphere might turn forty-five degrees, preventing center slice
+twists along the other great circles.
+
+When you twist the U center-slice of your cube, does the sphere
+move or stay fixed?  To find out without taking the cube apart,
+hold the cube by the D center slice and repeatedly twist the U
+center slice clockwise. Don't touch the U or D faces while doing
+this.  Mostly, the U face will turn and the D face will stay fixed,
+because the cubie-cubie friction is greater than the cubie-sphere
+friction.  Eventually, however, you will either see the U face lag
+behind the U center slice, or the D face move to follow the U
+center slice.  If the U face lags, the sphere is not moving; if the
+D face moves, the sphere is moving.
+
+I will take this opportunity to mention another feature of the
+interior sphere:  It has screws in it.  I took my screws out, but
+the sphere didn't come apart.  Then I put them back in, on the
+`don't screw with it' principle.  Perhaps they are there so Rubik's
+Revenge won't float?  This issue was raised by Tom Davis (12 August
+80) back when people were interested in solving the 3^3 underwater.
+The last I heard, Richard Pavelle (25 July 1980) was able to solve
+the cube with only five gulps of air.  I imagine some of the
+30-second whiz kids can solve Rubik's Cube while completely
+submerged.  But Rubik's Revenge?  Don't hold your breath.
+
+
+                    The Mechanical Invisible Group
+
+Alan Bawden's message posed an interesting question about the 57th
+piece, which I will state somewhat differently.  Suppose we paint
+the sockets of the sphere according to the colors of the face
+centers that inhabit them.  Then we mix up Rubik's Revenge and
+solve it.  Must the sockets still match their face centers?
+
+The answer is no.  In fact, the sphere may be in any of the
+twenty-four positions consistent with it having once matched the
+face centers.  To show this, we will show how to perform a
+ninety-degree whole-cube move of the outside without moving the
+sphere.  This is equivalent to turning the sphere ninety degrees,
+and we can repeat the procedure and its conjugates to move the
+sphere to any of its twenty-four positions.
+
+In order to twist Rubik's Revenge without moving the sphere, we
+place the cube in a position such that the U, F, and R center
+slices do not move the sphere and restrict ourselves to the moves:
+
+U1                      Clockwise quarter twist of the U face
+U2                      Clockwise quarter twist of the U half
+                                (face and center slice together)
+D1                      Clockwise quarter twist of the D face
+U1',U2',D1'             Counterclockwise quarter twists
+R1,R2,L1,R1',R2',L1'    Likewise for R
+F1,F2,B1,F1',F2',B1'    Likewise for F
+
+The move is actually fairly simple.  The tricky part is moving the
+L center slice cubies without moving the sphere.  To do this,
+remember the eight-flip
+
+        X = (R1 L1 U1 D1 F1 B1)^2
+
+from the 3^3.  This exchanges the L and R center slices in the 4^3,
+allowing us to cycle the L center slice cubies in the R center
+slice.
+
+        R2 L1' X R2 R1' X
+
+is a sphere-fixing whole-cube move taking 24 qtw after cancellation.
+
+
+                    The Theoretical Invisible Group
+
+So much for tawdry reality.  As Allan C. Wechsler pointed out on 6
+August 82, we can imagine a 4^3 puzzle that contains a 2^3 on the
+inside.  If we solve the outside, must the inside be solved?  The
+process shown above for the 57th piece implies not, for that
+process performs the RL antislice on the 2^3 with respect to the
+outside.  Can any move of the 2^3 be accomplished?  Elementary
+group theory says no, for odd permutations of the Rubik's Revenge
+edge cubies are also odd permutations of the 2^3's cubies.
+
+I ran the Furst, Hopcroft, and Luks algorithm on the problem.  It
+turns out that the permutation parity is the only restriction on
+what can be done with the 2^3.  Thus if we solve the outside, the
+inside may be in any one of the (8! 3^7)/2 positions obtainable in
+an even number of quarter twists on a 2^3 puzzle.  This in
+particular includes all whole-cube moves of the 2^3.
+Unfortunately, I don't know any simple processes for whole-cube
+moves or for turning two adjacent faces.
+
+Date: 11 Aug 1982 2204-PDT
+From: ISAACS at SRI-KL
+Subject: Tsukuda's Square
+To: CUBE-LOVERS at MIT-MC
+
+  Just got a new group-theory puzzle, called Tsukuda's Square.  It's
+sort of like the 15/16 puzzle, but harder.  It consists of a 4x4 matrix
+in the center with the numbers from 1 to 16.  On the left side are
+4 plungers, one for each row.  At the top is one plunger, which pushes
+down columns 2, 3, and 4, all at once.  Both the top and the side plungers
+push the rows or columns over 1 square; releasing them causes the same row(s)
+or columns to slide back.  When the top plunger is pushed down, the number
+1 row plunger cannot be pushed because of interference; that is the only
+interference.
+   A typical move, for instance, would be to push in the #2 row plunger,
+push the top, release the #2, release the top.  This would change
+           1 2 3 4
+           5 6 7 8  (only looking at the top 2 rows)
+  to
+    
+           1 3 4 8
+           2 5 6 7.
+  You can push 2 or 3 (or even4) side plungers at once.  Pushing an
+adjacent pair is even useful in solving this thing.
+   At any rate, it has the normal even parity problem - that is, you 
+cannot exchange a single pair, but you can exchange 2 pairs, or permute
+three squares.  Because of the limited moves, it is not nearly so simple
+as it looks.  I can permute 3 in one specific position, and it takes me
+12 moves to do so (where a move is a push of 1 or more side plungers,
+then push the top, then release them, or the reverse [push the top first]).
+Can anyone develop some more efficient algorithms?
+   -- Stan
+-------
+
+Date: 12 Aug 1982 08:49 PDT
+From: Mendelson.es at PARC-MAXC
+Subject: Re: Tsukuda's Square
+In-reply-to: ALAN's message of 12 August 1982 02:38-EDT
+To: ISAACS at SRI-KL
+cc: Cube-Lovers at MIT-MC
+
+
+Sorry, I don't have any answers for you.  I'm strictly a hacker and not a theorist,
+but I always find puzzles such as the one you describe to be a lot of fun.  I
+would like to suggest that whenever a new one such as this shows up the
+announcement of its arrival includes a reference to where it can be obtained.
+
+Jerry Mendelson
+
+
+Date: 12 Aug 1982 1129-PDT
+From: Isaacs at SRI-KL
+Subject: re: Mendelson
+To:   cube-lovers at MIT-MC
+
+  In the south Bay Area, Tsakuda's Square can be bought at Tex's Toys at
+the San Antonio Shopping Center.  They also, at last report (about 2 days
+ago) had Rubik's Revenge  -- Stan
+-------
+
+Date: 12 Aug 1982 1725-CDT
+From: Clive Dawson <CC.Clive at UTEXAS-20>
+Subject: Rubik's Revenge
+To: cube-lovers at MIT-MC
+
+For those of you tracking the progress of Ideal's Rubik's Revenge into
+stores across the country, it has made it to Texas.  Walgreen's drugstores
+here in Austin have put them on sale for $9.99, which is the best price
+I've heard of so far.  They say the regular price after the sale ends will
+be $12.99, but stickers on the boxes show $15.99.
+-------
+
+Date: 14 August 1982 17:23-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject:  [Hoffarth.wbst: Rubik's Revenge]
+To: CUBE-LOVERS at MIT-MC
+
+Date: 13 Aug 1982 10:41 EDT
+From: Hoffarth.wbst at PARC-MAXC
+To:   Alan Bawden <ALAN>
+Re:   Rubik's Revenge
+
+Is it best to send messages to you for forwarding?
+
+
+Last week Gold Circle, Rochester, N.Y. area, started advertising Ideal's
+Rubik's Revenge for $9.99.
+
+Date: 14 August 1982 17:27-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject:  Where to send your messages.
+To: Hoffarth.wbst at PARC-MAXC
+cc: CUBE-LOVERS at MIT-MC
+
+    Date: 13 Aug 1982 10:41 EDT
+    From: Hoffarth.wbst at PARC-MAXC
+
+    Is it best to send messages to you for forwarding?
+
+No it isn't.  It is best to mail your messages directly to Cube-Lovers@MIT-MC,
+otherwise I have to forward your messages there myself before I can make a digest.
+
+Mail-from: SU-NET host SU-SHASTA rcvd at 16-Aug-82 1204-PDT
+Date: Monday, 16 Aug 1982 12:04-PDT
+To: cube-lovers at Mit-mc
+Subject: Cube Mechanics
+From: Tom Davis <davis@Shasta at Sumex-Aim>
+
+I finally found a 4x4x4 cube a couple of days ago, and have a couple of
+interesting observations.  Forgive me if I repeat anything said so far,
+but I have been ignoring everything on this list having to do with the
+4^3 cube for fear of any sort of spoilers.
+
+Using my 3^3 knowledge, I found it fairly easy to get it almost solved.
+Half the time, however, I got it to the state where everything was
+solved except that two adjacent edge cubies were flipped.  I finally
+convinced myself by means of a somewhat involved (and probably
+fallacious) "proof" that I would have to exchange them before I could
+solve the cube.
+
+My first observation is simply a trivial proof of that fact that I
+discovered immediately after I took the cube apart for the first time
+to see what was inside -- it is mechanically impossible to put the cube
+back together with the cubies flipped (but not exchanged).  Some
+similar parity-type arguments can be made about possible configurations
+of the center cubies.  What is interesting is that this presents a new
+method of proving things about configurations -- if one can dream up a
+mechanical model of a cube with different guts, it may be obvious that
+some sorts of things are impossible.  The cube simply has to behave the
+same way externally.  I wonder if there are nice ways to look at the
+various parity-trinity features of the three-cube by looking at it
+using a different model of the internal mechanics.
+
+My second observation is that although a 5^3 and a 6^3 may someday
+appear on the market, the 7^3 will be pretty tricky to build.  When one
+of the faces of a 7^3 is turned 45 degrees, the corner will lie
+completely outside the original cube.  Any mechanical linkage will be
+complicated indeed.  Maybe a cube could be built with little
+microprocessors inside each cubie controlling little arms and hooks to
+grab adjacent cubie faces ...
+
+  -- Tom Davis
+
+
+Date: 17 Aug 1982 2103-PDT
+From: ISAACS at SRI-KL
+Subject: RUBIK's Magazine
+To: CUBE-LOVERS at MIT-MC
+
+  I just got my first issue of "RUBIK'S", International Game Magazine,
+subtitled "Logic & Fantasy in Space 1/82".  This is a magazine published
+in Hungary, Editor in Chief: Erno Rubik.  "Responsible Editor": Norbert
+Siklosi.  It contains "The Order of Disorder", by Peter Gnadig, likening
+the Cube to Entropy; a sketch of Rubik; the words to the song Mr. Rubik,
+"Games and Mathematics" by Gerzson Keri, articles on competitions, clubs,
+fans; on the company that manufactures the Cube, book reviews (Bosserts'
+book and Singmasters "Notes"), puzzles, advertisements, and more.  I haven't
+finished reading all of it yet, but it seems to be an attempt at a serious
+cube magazine, a little stilted because of translation from the Hungarian.
+It's a quarterly, single issues are US $2.00, I guess the yearly
+subscription is $8.00.  The address:
+    Lapkiado Vallalat
+    Kereskedelmi Iroda
+
+   H-1906 Budapest
+   P.O.B. 223
+ 
+   HUNGARY
+
+The Chorus and first verse of "Mr. Rubik" (out in England, by the Barron Knights
+
+  Mr. Rubik Rubik Rubik
+  Is your Cube from outer space?
+  Mr. Rubik Rubik Rubik
+  He got three sides then lost his place
+  Mr. Rubik Rubik Rubik
+  He just twists your cube all day
+  This ain't my idea of child's play.
+
+  Being the kind of guy I am, I told him I would try
+  To help him solve the secrets of the cube that made him cry
+  Well that was thirty days ago and half a million moves
+  My wife's black and blue 'cos I keep dreaming she's a cube.
+
+----Stan
+-------
+
+Date: 18 Aug 1982 2226-PDT
+From: ISAACS at SRI-KL
+Subject: KERI's Article
+To: CUBE-LOVERS at MIT-MC
+
+  The "Games and Mathematics" article in "Rubik's" Magazine (mentioned
+yesterday) asks an interestion question: how can you characterize the
+random coloring on a cube in order to determine if the cube is 1) solvable
+by twisting, or 2) solvable by  dismantling and reassembling.  
+  The obvious criteria are 6 colors, 9 of each, 4 on edges, 4 on corners, 1
+on a center, no 2 facies of a cubie the same color.  For case 2, Keri
+claims you need 4 more tests.  For instance, he gives test 1: Given 1
+corner with colors A, B, and C, let the other 3 colors be a, b, and c.
+Then you can't have a capital and small of the same letter on one corner,
+and the 8 corners are exactly the 8 combinations.  What are the other
+tests?  Are 4 really necessary?  What are the tests for case 1?
+   By the way, he (from some other article) classifies the 3 unscrambling
+methods as follows:
+   1) Chemical unscrambling: repaint the sides.
+   2) Physical unscrambling: dismantle and reassemble
+   3) Mechanical (or mathematical): normal way, by twisting.
+
+  --- Stan
+-------
+
+Date: 20 August 1982 0242-EDT
+From: James.Saxe at CMU-10A (C410JS30)
+To: Cube-Lovers at MIT-MC
+Subject:  Rubik's Revenge problem--deep & shallow hypermoves
+Message-Id: <20Aug82 024233 JS30@CMU-10A>
+
+Consider all manipulations of Rubik's revenge as consisting of two
+sorts of moves, namely (1) shallow moves, which turn an outer layer
+with respect to the remaining three layers, and (2) deep moves, which
+turn an outer layer and the adjacent inner layer with respect to the
+remaining two layers.  [For the purposes of this problem, we will
+regard a manipulation that turns only an inner layer--resulting, for
+example, in faces that look like
+				XXXX
+				OOOO
+				XXXX
+				XXXX
+when applied to a solved cube--as consisting of two moves, one deep and
+one shallow, in opposing directions.]  If only shallow moves are
+permitted, the 4x4x4 simulates a 3x3x3.  If only deep moves are
+permitted, the 4x4x4 simulates a 2x2x2.  Define a shallow (deep)
+hypermove as an arbitrary sequence of shallow (resp. deep) moves.
+My question is:
+
+	What is the maximum number of hypermoves required
+	to solve the 4x4x4?
+
+Notice that the answer to this question may depend on whether or not
+one considers identically-colored face centers to be distinct (as
+Hoey points out, the puzzle is not a group if identically-colored
+face centers are not distinguished) and on whether or not one worries
+about the positions of the eight hypothetical stomach cubies.  Also,
+if the minimal number of hypermoves is odd, then it might be
+important to start with one class of move.  That is, it is plausible
+that sequences of the form SDSDS may be sufficient while sequences of
+the form DSDSD may not.
+				Jim Saxe
+
+Date: 23 August 1982 1623-EDT (Monday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Hypermove lower bounds
+CC: James Saxe at CMU-10A
+Message-Id: <23Aug82 162336 DH51@CMU-10A>
+
+There is an easy lower bound on the number of hypermoves needed to
+solve Rubik's Revenge.  If we distinguish like-colored face
+centers, let us fix the BL center of the D face, permitting only
+the shallow moves B1, F1, U1, U3, L1, R1, and their inverses, and
+the deep moves F2, U2, R2, and their inverses.  Let us compute the
+number of hypermoves needed to solve just the face centers of
+Rubik's Revenge.  A shallow hypermove can achieve SF = 4^6 = 4096
+different face center positions.  A deep hypermove can achieve
+DF = 7! 3^6 = 3674160 different face center positions.  So in four
+hypermoves, at most
+	1 + (SF + DF) + 2 SF DF + (SF + DF) SF DF + 2 SF DF SF DF
+	       = 453,021,789,719,303,692,337
+face center positions can be achieved.  Since this is fewer than
+the
+	23! = 25,852,016,738,884,976,640,000
+face center positions of Rubik's Revenge, some face-center
+positions will require at least five hypermoves.
+
+If like-colored face centers are not distinguished, the best lower
+bound I can find using this method is three hypermoves.  If stomach
+cubies are considered, I think both bounds increase by one, since
+only deep moves can touch them.
+
+It seems strange that this method relies only on the face center
+solution.  Similar arguments about edges are not as good, because
+so many edge positions are achievable using shallow hypermoves.
+Corners are practically irrelevant, since they can be fixed using
+only shallow hypermoves.
+
+With respect to the question of odd sequences of hypermoves, Jim
+Saxe mentions that ``it is plausible that sequences of the form
+SDSDS may be sufficient while sequences of the form DSDSD may
+not.''  I would like to add the further plausibility that both
+types may be sufficient, while neither may suffice alone.
+
+Date: 31 Aug 1982 1022-PDT
+From: ISAACS at SRI-KL
+Subject: re:hypermove lower bounds
+To: Hoey at CMU-10A
+cc: cube-lovers at MIT-MC, isaacs at SRI-KL
+
+  Dan:  Could you explain to me how you got the formula of you message
+of 23 Aug.  I can see more-or-less what you're doing, but I haven't been
+able to parse the formula.  Also, I haven't seen your notation before.
+I take it that "U3" is equivalent to "D1'", except hold the D1 in place.
+How do you represent half twists?  Only by two quarters, or is there a 
+shorthand?  From a group theory perspective, is it easier to talk about
+hypermoves than slice moves?  Will that also be true on the 5^3, 6^3, etc?
+From a solving perspective, it seems clumsy.
+  -- Stan
+-------
+
+Date:  2 September 1982 0755-EDT (Thursday)
+From: Dan Hoey at CMU-10A
+To: ISAACS at SRI-KL
+Subject:  Re: Hypermove Lower Bounds
+CC: Cube-Lovers at MIT-MC
+In-Reply-To:  ISAACS@SRI-KL's message of 31 Aug 82 12:22-EST
+Message-Id: <02Sep82 075524 DH51@CMU-10A>
+
+    Date: 31 Aug 1982 1022-PDT
+    From: ISAACS at SRI-KL
+
+    Could you explain to me how you got the formula of your message
+    of 23 Aug.
+
+There are SF different shallow hypermoves and DF different deep
+hypermoves, and two similar hypermoves in succession can be
+collapsed into one.  The formula expresses the number of
+alternating sequences of length at most four, which is the sum of
+the ``Number'' column below.
+
+        Length   Type    Number
+        0                1
+        1        S       SF
+        1        D       DF
+        2        SD      SF * DF
+        2        DS      SF * DF
+        3        SDS     SF^2 * DF
+        3        DSD     SF * DF^2
+	4        SDSD    SF^2 * DF^2
+	4        DSDS    SF^2 * DF^2
+
+    I can see more-or-less what you're doing, but I haven't been
+    able to parse the formula.
+
+Well, I did leave out the multiplication signs.
+
+    Also, I haven't seen your notation before.  I take it that "U3"
+    is equivalent to "D1'", except hold the D1 in place.
+
+Right.  I used this notation in "Lower Bounds for the 4x4x4" on 2
+June and "Invisible Revenge" on 9 August.
+
+    How do you represent half twists?  Only by two quarters, or is
+    there a shorthand?
+
+There is U3^2, not much of a shorthand.  For the U slice move, I
+hinted at U21'.
+
+    From a group theory perspective, is it easier to talk about
+    hypermoves than slice moves?
+
+Hypermoves are a curiosity that Jim Saxe dreamed up.  Any sequence
+of depth 1 (or 3) moves is a single hypermove, as is any sequence
+of depth 2 moves.  I assume you mean to ask whether it's easier to
+talk the way I usually talk, in terms of what I will call "twist
+moves" to distinguish them from "slice moves".
+
+The question boils down to what set of generators (moves) you want
+to use when counting the length of a process.  This topic was
+endlessly rehashed in 1980 when people were trying to decide
+whether to call a half-twist a single move or two.  Jim Saxe nearly
+sent a message in 1980 about using only two generators to solve
+Rubik's cube.  [As I recall, computer failure trashed the message
+and he never retyped it.]  Certainly we can all do slices and
+half-twists.  The question is how many moves to charge for such an
+operation.  The richer the set of generators, the fewer the number
+of moves, but the more complex the explanation of the generators.
+
+I use the "quarter-twist" convention for the 3^3.  The generators
+are 90-degree rotations of faces.  This seems natural, because it
+is the minimal set that satisfies the following criteria.
+
+    1.  Every possible cube position can be created using these
+            generators, up to whole-cube moves.  This is a basic
+            criterion.
+    2.  The inverse of every generator is a generator.  This is
+            necessary so that we have a metric.
+    3.  Any position that can be reached by performing part of a
+            generator is a generator.  This criterion ties the
+            mechanical operations used in the cube to the
+            permutation group.  Otherwise we could have generators
+            like FUF and F'U' and perform F with their composition.
+            Charging two moves for F in that circumstance is
+            somewhat bizarre.  
+    4.  Every M-conjugate of a generator is a generator.  This is
+            an aesthetic consideration.  We could leave out the D
+            and D' twists and still solve the 3^3, but that breaks
+            up the symmetry of the puzzle.
+
+Why do I want the generator set to be minimal?  Well, we could make
+it maximal, but then we would have ``over 3 billion'' generators.
+What I am looking for is a canonical set, and minimality seems like
+the best way of choosing among metrics.  Thus we exclude slice
+moves as generators because they are not necessary.
+
+For the 3^3, this set is particularly fortunate, because the
+converse of criterion 4 holds:  Every two generators are
+M-conjugate.  This allows us to identify some local maxima without
+long computations (14 December 1980) and to tighten lower bounds
+using parity principles (9 January 1981).
+
+    Will that also be true on the 5^3, 6^3, etc?
+
+I would just as soon stick with a compatible metric.  This is not
+to say that there cannot be abbreviations for these moves, simply
+that for the sake of asking ``how many moves does this take'' we
+count the number of quarter-twists.
+
+We unfortunately don't have the converse of criterion 4 for cubes
+larger than 3^3.  For the 4^3, for instance, there are two flavors
+of move:  deep and shallow.  Dave Plummer (26 September 1981)
+described certain positions of the 4^3 as local maxima, but I have
+convinced him that we cannot demonstrate the truth of that
+assertion using known techniques other than exhaustive search.  My
+note of 2 June was able to use only one kind of parity in the lower
+bound argument.  Both problems are due to the lack of the converse.
+
+    From a solving perspective, it seems clumsy.
+
+I'll agree that the generators are few in this scheme, but it is
+possible to generate macros.  For instance, consider describing a
+slice move on the 3^3 cube.  Singmaster uses the notation Fs to
+denote the F1B1' = F12'3 slice move.  We can now also talk about
+the F12' slice move, which is how everyone actually does the move.
+I think this is much easier to remember than Allan Wechsler's IJK
+notation (introduced 18 July 1980) or Doug Landauer's HPS notation
+(27 August 1980) for dealing with whole-cube moves.
+
+I'm still not too happy about the state of RubikSong, but I think
+it's a matter of human engineering, and I like to stick with the
+mathematics.
+
+Date:  9 Sep 1982 1453-PDT
+From: ISAACS at SRI-KL
+Subject: IMPOSSI-BALL
+To: CUBE-LOVERS at MIT-MC
+
+  If you live in the SF Bay area, BESTs now has the Impossi-ball, as
+well as most of the other better group-theory puzzles at fairly
+reasonable prices.  Rubik's Revenge is $9.00.  The Impossi-ball
+was in the Scientific American column; its the icosahedron-like ball
+with 2 each of 6 colors (as Alexanders Star).  If fact, I think it 
+is equivalent to the star.  It doesn't look as good, but the mechanism
+is more clever; what's more, you can remove one face and use it as a
+sliding block puzzle.  Has anybody seen the other new puzzles from the
+column?  
+  -- Stan
+-------
+
+Date: 15 September 1982 12:36-EDT
+From: Richard Pavelle <RP at MIT-MC>
+To: CUBE-LOVERS at MIT-MC
+
+Ideal is sponsoring another cubathon (3x3) on October 9 at the
+South Shore Plaza in Braintree. Prizes will be awarded in 
+various categories but unless you are under 40 seconds you will
+not be good enough.
+
+I understand that Ideal has sold about 22 million cubes but their
+world-wide rights have not helped too much. They estimate that
+3 times that number have been sold by illegal competition. 
+
+Date: 17 Sep 1982 0918-PDT
+From: Dave Dyer       <DDYER at USC-ISIB>
+Subject: Cubes in L.A.
+To: cube-lovers at MIT-MC
+
+
+ I picked up my 4x4x4 at Toys R Us for $10.  They also have a good
+selection of 2x2x2, 3x3x3 "cubes" in various shapes and other cube
+inspired puzzles.
+-------
+
+Date: 22 Sep 1982 1425-PDT
+From: ISAACS at SRI-KL
+Subject: OMNI cubes
+To: CUBE-LOVERS at MIT-MC
+
+  The current OMNI (Oct.) has mention of various "cubes" from Meffert, in
+the Games section.  Doesn't say much, but has nice pictures.  The main one
+of interest is the Megaminx, a cube-like cutting of a dodecahedron, so
+each face has 5 corners, 5 edges, and one fixed center (which only rotates,
+but does not move relative to the others), exactly as in the cube.  Scot
+Morris claims the Cube has 10^19 combinations, the Revenge has 10^48, and
+that the Megaminx has 10^69.  Is this correct?  Meffert claims the Megaminx
+is harder than the Revenge, but I would bet it is easier, in the sense
+that cube moves should move over easier, and do closer to the same things
+as before.  
+  -- Stan
+-------
+
+Date: 23 September 1982 1206-EDT (Thursday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  MegaMinx and orientation theory
+In-Reply-To:  ISAACS's message of 22 Sep 1982 1425-PDT
+Message-Id: <23Sep82 120644 DH51@CMU-10A>
+
+Funny you should ask about the positions of the MegaMinx.  I
+analyzed this puzzle with the FHL algorithm.  It was the longest
+run of that algorithm that I have heard of, something like 20 CPU
+hours.  Necessity was the mother of checkpointing.
+
+The standard MegaMinx has 20 corners and 30 edges.  Both the edge
+and corner permutation parities must be even.  Corner and edge
+orientation parities are zero (mod 3) and (mod 2), respectively.
+These are the only invariants, so there are twenty-four orbits and
+	(20! 3^20 30! 2^30)/24 ~ 1.007E68
+positions.  In the SuperMegaMinx, a 1/5 twist of a single face
+center is possible, so there are
+	(20! 3^20 30! 2^30 5^12)/24 ~ 2.458E76
+positions.  I think the MegaMinx is going to be easier than Rubik's
+Revenge, not because there is more carryover from the cube, but
+because there is more of the puzzle that is not affected by a
+single generator.  Computing a lower bound that takes account of
+generators that commute is going to be difficult, however: there
+are triples of commuting generators, and we can find commuting
+triples {A, B, C} and {A, B, D} such that C and D do not commute.
+
+A curious question:  What do we mean by the corner orientation of
+the MegaMinx when the corner permutation is not the identity?  On
+the cube, we took the corner colortabs on two opposite faces of a
+solved cube and marked both the tab and its position.  Then in a
+scrambled cube we counted the position of each marked corner
+colortab relative to the marked position on its cubie.  This
+procedure doesn't work on the dodecahedron:  where should we mark
+the tabs on those corner cubies that are not on the two opposite
+faces?
+
+It was a year before I realized that the choice of placing the
+marks on opposite faces of the cube was arbitrary.  The marked tabs
+and positions can be chosen any way that gives us one marked tab
+and one marked position per cubie, and has zero orientation parity
+in a solved cube.  It is customary to enforce the second criterion
+by requiring that marked positions be the positions of marked tabs
+in a solved cube.  The same argument holds for edges, and both
+generalize to the MegaMinx.
+
+Why is there orientation parity?  When we twist an n-gon face, the
+edge cubies move in an n-cycle and their colortabs move in two
+n-cycles.  We call this an ``untwisted cycle''.  But we could
+conceive (see below) of a puzzle where the edge colortabs would
+move in a single 2n-cycle.  This would be a ``twisted cycle'', and
+would violate orientation parity.  Similar arguments hold for
+corner cubies, whose kn tabs must move in k n-cycles rather than
+k/d nd-cycles, for d a divisor of k (note that k=4 for the
+icosahedron (but the icoshahedron has two corner tab orbits, so
+quite a different argument applies)).  To summarize, any puzzle
+that moves pieces in untwisted cycles must preserve orientation
+parity.
+
+I wonder if some argument of this type can be made for the
+tesseract.  The argument depends on the orientation group being
+Abelian (it has in fact been cyclic in our examples), and at least
+some of the hypercubies have nonabelian orientation groups.
+Perhaps we have to use Abelian quotients of the orientation groups.
+Has anyone seen the paper on the tesseract that was mentioned by
+Hofstatder?
+
+Retreating to three dimensions, let's consider a variant on Rubik's
+cube.  Suppose you had a gear (heh) embedded in the URF and BLD
+corners, such that whenever an edge cubie passed by one of these
+corners (e.g. from UR to UF by twisting U) it would flip (go from
+UR to FU).  This would violate EOP on every quarter-twist!  Of
+course, you know what positions would be possible in such a puzzle.
+So now let's consider gears in the FU, BL, and RD edges that twist
+corner cubies as they go by.  I don't know about this puzzle, but I
+suspect that there are only four orbits.
+
+Date: 26 September 1982 22:12-EDT
+From: Martin Minow <MINOW at MIT-AI>
+Subject: Solving Rubic's Cube
+To: CUBE-LOVERS at MIT-AI
+
+The fall catalog of the Cambridge Center for Adult Education
+had a course (8 1-hour sessions) on solving Rubic's Cube.
+
+It was apparently cancelled for lack of interest.
+
+Martin Minow
+decvax!minow @ Berkeley
+
+
+
+Date: 28 Sep 1982 2102-PDT
+From: ISAACS at SRI-KL
+Subject: Meffert Catalogue
+To: cube-lovers at MIT-MC
+
+  I recieved a copy of the Meffert "Pyraminx" catalogue a couple of days
+ago.  The only solid axis-rotation puzzles not already mentioned in the
+Scientific American article or the OMNI article are the Pyriminx Magic
+Triangle, Pentagon, and Hexagon, 3 puzzles, all prisms of the named shape,
+each side face with 9 squares, and the top and bottom the appropriate n-gon
+with corners, edges, and a center.  Ie, the Magic Hexagon has a hexagon
+on top and bottom, with 6 corners and 6 edges. These should be similar to
+a cube, except, of course, the side faces cannot make quarter turns.  Also
+in the catalogue are a junior and senior "Magic Barrell", a 3-layered
+cylinder with 2 (jr) or 3 (sr) arcs cut down from top to bottom, which look
+as if they allow half twists; a Double Pyraminx, an octagon with 4 triangles
+per side, which I would assume twists about the 4 central hexagons, and
+is mechanically similar to the Skewb.  Also shown are some textured pyraminxes,
+the Pyraminx Star, with small tetrahedra on several Pyraminx faces (it looks
+strange, but is equivalent to the Pyraminx, I assume); some bead puzzles
+(a version of the Hungarian Rings, another related to the Orb), some
+sliding block puzzles, a group of tetrahedron dissections (into 2, 3, 4, 5, and
+6 pieces),and a couple of jigsaw-like puzzles.  It's quite a catalogue, but
+he says most of the items are not yet in production! More waiting.
+  -- Stan
+-------
+
+Date: 28 Sep 1982 2118-PDT
+From: ISAACS at SRI-KL
+Subject: Cubic Curcular and Scientific American
+To: cube-lovers at MIT-MC
+
+   Ole Jacobson is visiting, and he brought the new issue of David
+Singmasters Cubic Circular.  It is labeled Issues 3&4; neither of us
+ever recieved issue 2. Did anyone else?  This issue contains more anecdotes,
+reports on contests, new cube products (try combining pieces from octagonal
+prism-cubes and regular cubes in various ways..someone even made "Siamese
+Cubes", gluing parts of 2 cubes together), some processes for the Revenge,
+some information on the 5^3 (a prototype exists by 21-year-old Gaston Saint-
+Pierre of Quebec; Singmaster claims 2.83E74 patterns), an analysis and 
+theorems about magic polyhedra in general, more pretty patterns, a magic
+disc, and a table of the 73 possible orders of elements with how many
+elements are in each order (average order is 122, median is 67.3, and
+the order with the most elements is 60, with 4.6e18 elements or about
+10.6%).
+   Also, this months Scientific American has the cube again in Hofstadters'
+"Metamagical Themas", this time as an example of creativity via variations
+on a theme.
+   Enough writing for tonight.
+  -- Stan
+-------
+
+Date: 29 Sep 1982 18:16:54 EST (Wednesday)
+From: Mike Meyer <mwm at OKC-UNIX>
+Subject: Re: Meffert Catalogue & Cubic Curcular and Scientific American
+In-Reply-to: Your message of 29 Sep 1982 18:48 EDT
+To: Alan Bawden <ALAN at MIT-MC>
+Cc: Cube-Lovers at MIT-MC
+
+I have issue number 2 of the cubic circular, and have had it since late
+apr. If you are interested, I can forward a summary.
+
+	mike
+
+
+Date: 22 Oct 1982 19:09-EDT
+From: Dan Hoey at CMU-10A
+Subject: The 2x2x2x2 magic tesseract
+To: Cube-Lovers at MIT-MC
+
+Allan Wechsler's message of 17 May 1982 contains some interesting
+comments on the four-dimensional hyper-cube, or tesseract.  I will
+expand on them, and offer a correction.
+
+The tesseract has eight cubical sides, labeled Back, Front, Up,
+Down, Left, Right, Out, and In.  Each side may be twisted in any of
+the twenty-four ways that a cube may be rotated in three-space.
+Since these twenty-four twists are generated by repeated
+application of the six quarter-twists of the cube, I consider a
+move to be a single quarter-twist of one of the cubical sides.
+
+I have picked three of the quarter-twists of the Out side to be the
+``clockwise'' twists, given as Of, Ou, and Or below.  Given the
+constraint that clockwise twists must be conjugates of each other
+with respect to the movement group of the tesseract in four-space,
+the remaining clockwise quarter-twists are determined.  In the
+following list, the upper-case letter denotes the side to be
+twisted, and the quarter-twist is displayed as a permutation on the
+(square) faces of that (cubical) side.
+
+Of=(URDL)  Ou=(RFLB)  Or=(FUBD)     If=(RULD)  Iu=(FRBL)  Ir=(UFDB)
+Ro=(UFDB)  Rf=(OUID)  Ru=(FOBI)     Lo=(FUBD)  Lf=(UODI)  Lu=(OFIB)
+Ur=(OFIB)  Uo=(FRBL)  Uf=(ROLI)     Dr=(FOBI)  Do=(RFLB)  Df=(ORIL)
+Fu=(ORIL)  Fr=(UODI)  Fo=(RULD)     Bu=(ROLI)  Br=(OUID)  Bo=(URDL)
+
+These twists have the satisfying property that when two different
+twists move an edge from position E1 to position E2, then one of
+the twists is clockwise and the other counterclockwise.  For
+instance, both the Dr and the Fr' twists move an edge from FID to
+FOD.  Another property that mimics the three dimensional cube is
+that clockwise twists on opposite sides are reversed:  The action
+of Of on the O side is the inverse of the action of If on the I
+side.
+
+To see how the table above is constructed we must describe the
+movement group of the tesseract (the group of whole-tesseract moves
+in four-space).  I look at it as operating on quadruples VWXY of
+mutually adjacent sides.  To see if VWXY->V'W'X'Y' is in the group,
+replace all occurrences of B, D, L, and I with F, U, R, and O,
+respectively.  The resulting permutation must have the same parity
+as the number of replacements performed.  Thus FLOD->UROB is in the
+group, because we perform three replacements to form FROU->UROF, an
+odd permutation.
+
+To tell whether a quarter-twist is clockwise or not, take the side
+V to be twisted, two consecutive letters WX from the permutation,
+and a fourth, orthogonal letter Y from {F, U, R, O}.  If VWXY->OURF
+is in the movement group of the tesseract, then we have the
+clockwise quarter-twist Vy, otherwise the counterclockwise
+quarter-twist Vy'.  For instance, if we twist the U side as (LFRB),
+then VWXY=ULFO->OURF is in the movement group (one replacement
+creates the four-cycle URFO->OURF), so we have the clockwise twist
+Uo.
+
+Let us now examine the reachable configurations of the corners of
+the tesseract.  Every quarter-twist moves eight corners in two
+four-cycles, so only even permutations of the corners are
+achievable.  The orientations of the corners are more complex.  If
+we move corner VWXY to V'W'X'Y', then VWXY->V'W'X'Y' must be in the
+movement group of the tesseract.  Thus only half of the twenty-four
+permutations of {V', W', X', Y'} are achievable, because of the
+permutation parity constraint.
+
+To define the orientation of the corners, we label the sides of
+each corner and each corner position with the letters VWXY, and
+read the orientation of a cubie as the letters it has in the V, W,
+X, and Y sides of its position.  It is important here to obey the
+the permutation parity constraint when doing the labelling, so that
+each cubie may be placed in the home (VWXY) orientation in any
+position.  For instance, one possible labelling is as follows,
+where each column refers to a corner:
+
+V   F  F  F  F  F  F  F  F  B  B  B  B  B  B  B  B
+W   U  U  U  U  D  D  D  D  U  U  U  U  D  D  D  D
+X   R  O  L  I  O  L  I  R  O  L  I  R  R  O  L  I
+Y   O  L  I  R  R  O  L  I  R  O  L  I  O  L  I  R
+
+Thus if the FURO corner (column 1) is in the FLUO position (column
+2), then its orientation is VXYW.  Any orientation that is an even
+permutation of VWXY is possible.  The group of orientations, A4, is
+the same as the movement group of the tetrahedron (with vertices
+labeled VWXY) in three-space.
+
+As I suggested in my message of 23 September 1982, this orientation
+group is not Abelian, so the orientation of the last corner is not
+completely determined by the orientations of the other fifteen.  To
+see what is determined, let us look at the tetrahedron with
+vertices at half of the corners of a three-dimensional cube, say
+the FUR, FDL, BUL, and BDR corners.  As I reported on 15 June 1982,
+the twelve movements of the tetrahedron consist of the identity,
+three 180-degree rotations, and eight 120-degree rotations.  The
+June message also mentions that if those corner cubies are moved as
+a unit, preserving their positions and orientations relative to
+each other, then the 180-degree rotations are achievable on the 3^3
+(they are the corners of the Zig-Zag pattern) but the 120-degree
+rotations violate the corner twist invariant.  Of course, four of
+them perform a net clockwise twist, and four of them perform a net
+counterclockwise twist.  Define the twist of a tetrahedron movement
+to be the net clockwise twist it applies to the corners of the
+cube.  Thus the twist of the movements of a tetrahedron VWXY is
+given by the following table.
+
+        Twist 0: VWXY, WVYX, XYVW, YXWV
+        Twist 1: VXYW, WYXV, XVWY, YWVX
+        Twist 2: VYWX, WXVY, XWYV, YVXW
+
+By reasoning about the actions on corners of the cube, it is clear
+that the twist of the product of two movements is the sum of their
+twist, modulo three.  Thus the twist group is an Abelian quotient
+of A4, isomorphic to the cyclic group on three elements.
+
+Since the orientation group of the tesseract corners is also A4, we
+may use the twist group to construct an orientation invariant of
+the corners of the tesseract.  As described in the September
+message, each qtw moves the corners in untwisted cycles, so the sum
+of the twists of the orientations of the corners must be zero,
+modulo 3.
+
+I ran the Furst, Hopcroft, and Luks algorithm on the 2^4 tesseract
+and found that this is the only invariant of corner orientation.
+Therefore, the number of reachable positions of the tesseract is
+(15! / 2) (12^15 / 3) ~ 3.358 x 10^18.  This is larger than Allan
+Wechsler's upper bound because he thought there were only six
+orientations of each corner.
+
+Date: 25 Oct 1982 0846-PDT
+From: ISAACS at SRI-KL
+Subject: megaminx; octahedron
+To: cube-lovers at MIT-MC
+
+  The Megaminx is now on sale in the San Francisco Bay Area.  It is,
+as pictured, a dodecahedron with each face twistable in fifths, and
+containing 5 corners, 5 edges, and a center.  Instead of 12 different
+colors it seems to have 10, with the red and yellow duplicated; that 
+means you can have a parity problem at the end if you exchange the
+duplicate edges.  Solving seems to be pretty straightforward, except
+new edge moves must be developed - the "slice" moves aren't very
+effective.
+  I also found an octahedron much more analogous to the cube then the
+one with the 9 triangular faces (and independent vertices).  ON this
+one there is a triangular center, 3 diamond shaped corners, and longish
+edges on each face.  The centers are equivalent to the corners of a cube,
+but monochromatic; the corners of the octahedron are equivalent to the
+centers of a cube, but have 4 colors.  You can solve it with supergroup
+cube moves, but it can be solved more efficiently, I think, by doing
+the corners first (matching up the colors), then the edges, then the centers.
+Needed are moves that move edges without twisting corners (do we
+have any good corner moves that don't rotate centers on a cube?)
+  One final puzzle that has come out - it's called Inversion, and it's
+a sliding block cube.  There are 19 identical cubies, each colored half
+red and half blue (3 faces each) and arranged around the edges of a cube
+with one extra empty space.  They are held in place by a Rubiks-like
+mechanism through the centers of the big cube.  Thus each edge of the big
+cube has 3 of the little cubes, or 2 of them plus a space.  The little
+cubes are each in one of the 8 possible orientations; One orientation
+is represented by one cubie, 3 orientations by 2 cubies each, and 4
+orientations by 3 cubies each.  The idea is to slide the cubies around
+the edges of the big cube so that the outside is all red or all blue,
+or some other regular pattern;  Inverting from (say) red to blue means
+sliding all cubies to more-or-less the diagonal opposite positions.
+   -- Stan
+-------
+
+Date:  1 Nov 1982 0902-PST
+From: ISAACS at SRI-KL
+Subject: Re: megaminx; octahedron
+To: BSG@SCRC-TENEX at MIT-MC
+cc: cube-lovers at MIT-MC, Isaacs at SRI-KL
+In-Reply-To: Your message of 29-Oct-82 0922-PDT
+
+  Yes, I solved it.  It didn't take much work at all - mainly deciding
+which cube moves transfered well.  The only really diferent moves involved
+switching edges on the last face, or flipping them.  Both had fairly easy
+solutions.  I do one face first, and then work upwards from there.  There
+is a 7 move sequence on the cube, which moves an edge from the upper face
+to a middle edge, which transfers nicely to the Megaminx.  Corners just
+work, without any special algorithms.  The 4 move commutator F R' F' R
+moves to the Megaminx and will move corners around.  Of course, none of
+the slice moves work, so new edge moves are needed.  We also need an
+easy way to move centers, and to move stars around, to make pretty patterns.
+  By the way, the one two I got, and several a friend got in L.A., all had
+10 colors, with red and yellow duplicated.  However, last Friday I saw
+ones with 12 colors (I think - they were in boxes), with dark green and
+brown as the new colors.  I don't know if the 10 colors are a mistake or
+intentional.  The presence of a duplicate edge piece makes the solution
+slightly more difficult.
+  -- Stan
+-------
+
+Date: 5 Nov 1982 16:54:01-EST
+From: acw at scrc-vixen
+To: rp at scrc-vixen
+Subject: "The Cube Lovers at MIT"
+Cc: CUBE-LOVERS@mit-oz
+
+
+The article could be salvaged without
+damaging it too much.  Cube-Lovers
+could be described as a group based
+at MIT which communicates via
+electronic mail.  All mention of
+ARPA and even the word "network"
+should be eschewed, and the nationwide
+nature of Cube-Lovers should be
+downplayed.  The rest of the
+article can stand, as far as I
+am concerned.  Although I think the
+style is a little dippy, I'm sure
+he doesn't want my advice about it.
+
+   --- Allan
+
+Date: 11 Nov 1982 1421-PST
+From: Carolyn Tajnai <CSD.TAJNAI at SU-SCORE>
+Subject: Pentominoes
+To: cube-lovers at MIT-MC
+
+My husband, Joe, has requested a set of pentominoes on his Christmas
+wish list.  Don Woods suggested I sndmsg to cube-lovers for pointers.
+
+Where can I buy a set?  
+
+Help!
+Carolyn
+
+(please snd answers, solutions, suggestions to CSD.Tajnai@SU-SCORE)
+-------
+
+CEL@MIT-ML 11/23/82 16:00:18 Re: Pentominoes request
+To: Cube-lovers at MIT-MC
+Hexominoes are easier to find than pentominoes.  If you treat four of
+the basic trianglular pieces of the Snake puzzle as a unit square, a
+24-piece Snake can be configured to make any hexomino.  Just buy
+enough snakes.  If you want to break the rivets on the snake, you can
+make pentominoes by removing four pieces.  In fact, I wish there were
+a modular Snake consisting of snap-together pieces so that different
+length Snakes could be realized more simply.
+
+Date: 29 November 1982 22:51-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject:  [YEKTA: "Pentominoes"...]
+To: CUBE-LOVERS at MIT-MC
+
+Date: 24 November 1982 19:57-EST
+From: Yekta Gursel <YEKTA>
+To:   ALAN, CSD.Tajnai at SU-SCORE
+Re:   "Pentominoes"...
+
+   GABRIEL toy company markets a nice set of pentominoes under the name
+"HEXED".  They are the makers of the puzzles "Hi-Q" and "PYTHAGORAS".  The 
+latter is a nice set of "tangrams" if you  are interested in them.  You should
+be able to get any of these in any well stocked toy store ( like Toys 'R Us ).
+If you are interested in getting solutions for them, me ( Yekta Gursel ) and
+a friend of mine ( Douglas Macdonald ) wrote a program on a microcomputer to 
+solve any pentomino problem.  The description of the program appeared in
+November 1979 issue of BYTE.  It is written for a COMMODORE PET, but can be
+adopted toi any microcomputer relatively easily.  If you do not have access to
+a microcomputer we can print the solutions out for you just for the cost of
+paper and postage ( a few dollars ).  If you are interested please let me
+know.  My network address is YEKTA@MIT-MC.
+
+
+[ ALAN: If anybody asks about pentominoes, you can refer them to me... Thanks!]
+
+Date: 25 November 1982 05:12-EST
+From: Yekta Gursel <YEKTA>
+To:   ALAN
+Re:   Addition to my pentominoes message...
+
+Sorry, I accidentally sent the pentominoes message to you instead of the 
+CUBE-LOVERS.  
+
+   What I wanted to add is that one can also get a set of hexaminoes, though
+this is a little bit harder.  They are marketed in England under the name 
+"Spear's Multipuzzle".  The set comes with a few extra pieces, but nevertheless
+contains a full set of hexaminoes.  The quality is not as good as Gabriel's
+"HEXED".
+
+Date: 30 Nov 1982 18:16-EST
+From: hoey
+Subject: Pentominoes
+To: CSD.TAJNAI at SU-SCORE, Cube-Lovers at MIT-MC
+Message-Id: <82/11/30 1816.433@NRL-AIC>
+Origin: NRL-AIC
+
+A friend of mine has a set of pentominoes called ``Quintillions'',
+available from
+
+	Kadon Enterprises, Inc.
+	1227 Lorene, Suite 16
+	Pasadena MD  21122
+
+Basic Quintillions is a set containing the twelve planar
+pentominoes for $29.00.  Super Quintillions is a set containing the
+nonplanar pentominoes for $39.00.  (The literature says there are
+eighteen pieces, but I think there are only seventeen nonplanar
+pentominoes.  Perhaps they include some extra piece so you can make
+a 3x5x6 rectangular prism)  The basic set is a high-quality puzzle,
+each piece laser-cut from a single piece of wood, with a velour
+box.
+
+If you want to make your own, you can glue little cubes together.
+Here are patterns for the planar pentominoes:
+
+X   X X     X X         X           X   X X   X X    X X X X X
+X     X X   X X   X   X X X     X   X     X     X               X
+X X   X     X     X     X       X   X X   X X   X   X   X     X X
+X               X X X       X X X     X         X   X X X   X X
+
+For the nonplanar pieces, let U, D, and B stand for cubes on the
+upper level, lower level, and both levels.  The pieces I know of
+are as follows, where an asterisk denotes a piece that can be
+reflected to form a new piece:
+
+ *                 *         *         *     *     *
+
+B     D     D     D B   D   D D       B     D     U     B
+D D   B D   D B   D     D   D     B   D D   B D   B D   D B
+D     D     D     D   D B   B   D B     D     D     D
+
+Date: 30 Nov 1982 18:16-EST
+From: hoey at CMU-10A
+Subject: Pentominoes
+To: CSD.TAJNAI at SU-SCORE, Cube-Lovers at MIT-MC
+
+A friend of mine has a set of pentominoes called ``Quintillions'',
+available from
+
+	Kadon Enterprises, Inc.
+	1227 Lorene, Suite 16
+	Pasadena MD  21122
+
+Basic Quintillions is a set containing the twelve planar
+pentominoes for $29.00.  Super Quintillions is a set containing the
+nonplanar pentominoes for $39.00.  (The literature says there are
+eighteen pieces, but I think there are only seventeen nonplanar
+pentominoes.  Perhaps they include some extra piece so you can make
+a 3x5x6 rectangular prism)  The basic set is a high-quality puzzle,
+each piece laser-cut from a single piece of wood, with a velour
+box.
+
+If you want to make your own, you can glue little cubes together.
+Here are patterns for the planar pentominoes:
+
+X   X X     X X         X           X   X X   X X    X X X X X
+X     X X   X X   X   X X X     X   X     X     X               X
+X X   X     X     X     X       X   X X   X X   X   X   X     X X
+X               X X X       X X X     X         X   X X X   X X
+
+For the nonplanar pieces, let U, D, and B stand for cubes on the
+upper level, lower level, and both levels.  The pieces I know of
+are as follows, where an asterisk denotes a piece that can be
+reflected to form a new piece:
+
+ *                 *         *         *     *     *
+
+B     D     D     D B   D   D D       B     D     U     B
+D D   B D   D B   D     D   D     B   D D   B D   B D   D B
+D     D     D     D   D B   B   D B     D     D     D
+
+Date: 2 December 1982 06:14-EST
+From: Richard Pavelle <RP at MIT-MC>
+To: CUBE-LOVERS at MIT-MC
+
+The times for REVENGE are now under 90 seconds!!
+
+
+Date: 2 December 1982 06:42-EST
+From: Richard Pavelle <RP at MIT-MC>
+Subject:  material for Ripleys'
+To: CUBE-LOVERS at MIT-MC
+
+
+The following are true:
+
+The times for REVENGE are now under 90 seconds!
+The one-handed record for the 3x3x3 is 89 seconds!!
+The time for the 3x3x3 with two feet is 2 minutes and 50 seconds!!!
+
+Does any have times for no hands and no feet? 
+
+Mail-From: CMUFTP host CMU-EE-AMPERE received by CMU-10A at 3-Dec-82 03:24:38-EST
+Date: 3 Dec 1982 03:19:57-EST
+From: Phil-Servita-H at CMU-EE-AMPERE at CMU-10A
+To: Cube-Lovers@mc@a
+Subject: puzzle search
+
+ does anybody out there know where i can get either Megaminx (otherwise 
+known as Pyraminx Ultimate) or the Pyraminx Cube (known as the Skewb to 
+all you Scientific American readers) ?  Ive been trying for months. Any
+help will be greatly appreciated.
+
+                                                   -phil
+                                          ( pxs@cmu-ee-ampere@cmu-10a )
+
+Date:  3 Dec 1982 1820-PST
+From: ISAACS at SRI-KL
+Subject: Megaminx
+To: CUBE-LOVERS at MIT-MC
+
+  Megaminx, under that name, should be available at your local stores (you
+don't say where you live).  It is out in the San Francisco Bay Area, and
+L.A., I know, including in such chains as GEMCO and TOYS R US.  It is
+distributed by TOMY Corp.  I have not seen the Skewb anywhere, except in
+the hands of a couple of people that got it from Meffert personally; he
+did not send me one by mail, though I asked.  He did send his Double
+Pyramid, though, a nice version of an octahedron, cut as Rubik's Cube, e.g.
+with centers. (The other octahedron, the "Star Cube", has no centers and a
+lot of extra corners.)
+  -- Stan
+-------
+Mail-From: CMUFTP host CMU-EE-AMPERE received by CMU-10A at 11-Dec-82 11:15:41-EST
+Date: 11 Dec 1982 11:08:22-EST
+From: Phil-Servita-H at CMU-EE-AMPERE at CMU-10A
+To: cube-lovers@mc@a
+Subject: 4x4x4 competition
+
+
+            can you solve the 4x4x4?
+
+            can you solve it fast?
+
+            dont you wish that SOMEBODY would hold a 4x4x4 competition?
+
+    
+    if you answered yes to any of those questions, then read on.
+    
+    i have been in contact with Ideal/Gabriel about this topic. this is
+    all that they want: people. if enough people seem interested in a 
+    4x4x4 competition, they may hold one sometime between spring and fall '83.
+
+                          so here's what you do:
+
+    if you are interested in a 4x4x4 competition, mail your response to:
+
+                    pxs@cmu-ee-ampere@cmu-10a
+
+              Cc:   meister@ccc@mc, ps0k@topsf@cmuc@cmu-10a
+
+     ill keep a list of responses and send it to Bob Weissman at Ideal.
+
+                                                               -phil
+

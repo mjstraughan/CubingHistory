@@ -1,0 +1,88 @@
+body {
+  font-family: monospace;
+  font-size: large;
+}
+.email-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#filters {
+  margin-bottom: 20px;
+}
+label {
+  margin-right: 10px;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  gap: 10px;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: auto;
+  justify-content: start;
+  align-items: center;
+}
+
+#searchLabel {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#search-box {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#senderLabel {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#sender-box {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#subjectLabel {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+#subject-box {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+#startDateLabel {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+#start-date {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+#endDateLabel {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+#end-date {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+#apply-filters {
+  grid-column: 1;
+  grid-row: 6;
+}
+
+#clear-filters {
+  grid-column: 1;
+  grid-row: 7;
+}

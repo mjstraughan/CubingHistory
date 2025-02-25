@@ -1,0 +1,3314 @@
+From alan@ai.mit.edu  Sun Oct 14 20:01:36 1990
+Return-Path: <alan@ai.mit.edu>
+Received: from wheat-chex (wheat-chex.ai.mit.edu) by life.ai.mit.edu (4.1/AI-4.10) id AA28610; Sun, 14 Oct 90 20:01:36 EDT
+From: alan@ai.mit.edu (Alan Bawden)
+Received: by wheat-chex (4.1/AI-4.10) id AA02846; Sun, 14 Oct 90 20:01:37 EDT
+Date: Sun, 14 Oct 90 20:01:37 EDT
+Message-Id: <9010150001.AA02846@wheat-chex>
+To: cube-lovers
+Subject: Testing 1 2 3
+
+This message shouldn't go anywhere except into the archive and into my own
+mailbox.  I anyone else gets it, then it will be time to give up and go
+home.
+
+From alan@ai.mit.edu  Sun Oct 14 20:48:51 1990
+Return-Path: <alan@ai.mit.edu>
+Received: from wheat-chex (wheat-chex.ai.mit.edu) by life.ai.mit.edu (4.1/AI-4.10) id AA29523; Sun, 14 Oct 90 20:48:51 EDT
+From: alan@ai.mit.edu (Alan Bawden)
+Received: by wheat-chex (4.1/AI-4.10) id AA03070; Sun, 14 Oct 90 20:48:52 EDT
+Date: Sun, 14 Oct 90 20:48:52 EDT
+Message-Id: <9010150048.AA03070@wheat-chex>
+To: cube-lovers
+Subject: [alan@ai.mit.edu: Surprise!]
+
+Now that the archive is fixed again, here is the message that I sent to
+resurrect the list:
+
+From: alan@ai.mit.edu (Alan Bawden)
+Date: Fri, 12 Oct 90 16:03:05 EDT
+To: cube-lovers
+Subject: Surprise!
+
+That's right.  Cube-Lovers has returned from the dead.  Due to various
+hardware, software and personal crises, Cube-Lovers has been down since
+sometime last spring.  I'm sure that many of you didn't even notice, given
+what a low-volume list this has become.
+
+Our "official" addresses remain Cube-Lovers@AI.AI.MIT.EDU for submissions
+and Cube-Lovers-Request@AI.AI.MIT.EDU for administrivia.  (Actually, you
+will find that using simply "...@AI.MIT.EDU" will work just as well.)
+
+Since this is the first message to this list after moving it to a new
+machine with a different mailer, I expect that many addresses on the list
+have ceased to function.  If I were you, I wouldn't send any mail here for
+about a week -- just to give me a chance to process all the bounces I'm
+about to get.
+
+The archives are currently unavailable, but I hope to have them available
+for FTP soon.
+
+
+From alan@ai.mit.edu  Mon Oct 15 03:11:33 1990
+Return-Path: <alan@ai.mit.edu>
+Received: from wheat-chex (wheat-chex.ai.mit.edu) by life.ai.mit.edu (4.1/AI-4.10) id AA05272; Mon, 15 Oct 90 03:11:33 EDT
+From: alan@ai.mit.edu (Alan Bawden)
+Received: by wheat-chex (4.1/AI-4.10) id AA05063; Mon, 15 Oct 90 03:11:35 EDT
+Date: Mon, 15 Oct 90 03:11:35 EDT
+Message-Id: <9010150711.AA05063@wheat-chex>
+To: cube-lovers
+Subject: Second Announcement
+
+OK, I think I've cleaned up Cube-Lovers enough that it's safe for anyone to
+use it.  (For some of you this message is the first indication that
+Cube-Lovers is back -- many copies of my first announcement bounced back to
+me.)
+
+Those of you who keep asking for the archives will be pleased to know that
+they are again available for anonymous FTP: Connect to AI.MIT.EDU, login as
+"anonymous" (any password), and in the directory "/pub/alan" you will find
+the seven (compressed) files "cube-mail-0.Z" through "cube-mail-6.Z".
+Archive vital statistics:
+
+	   File		  From		   To	     Size (bytes)
+	   ----		  ----		   --	     ------------
+	cube-mail-0	12 Jul 80	23 Oct 80	185037
+	cube-mail-1	 3 Nov 80	 9 Jan 81	135719
+	cube-mail-2	10 Jan 81	 3 Aug 81	138566
+	cube-mail-3	 3 Aug 81	 3 May 82	137753
+	cube-mail-4	 4 May 81	11 Dec 82	139660
+	cube-mail-5	11 Dec 82	 6 Jan 87	173364
+	cube-mail-6	10 Jan 87	13 Apr 90	216733
+
+(Unfortunately, due to the way mail works here at the AI Lab, it is not
+possible to have the current active archive accumulate anywhere where
+anonymous FTP can pick it up.)
+
+As you can see, things really slacked off after 1982, and we were really
+quiet during the middle of the decade.
+
+For those of you who missed my first message, let me repeat that our
+"official" addresses remain Cube-Lovers@AI.AI.MIT.EDU for submissions and
+Cube-Lovers-Request@AI.AI.MIT.EDU for administrivia.
+
+				- Alan
+
+From pbeck@pica.army.mil  Mon Oct 15 08:13:57 1990
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA07903; Mon, 15 Oct 90 08:13:57 EDT
+Date:     Mon, 15 Oct 90 8:08:48 EDT
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Cc: pbeck@pica.army.mil
+Subject:  [To: cube-lovers-incoming%csl.:  algorithm]
+Message-Id:  <9010150808.aa22705@FSAC1.PICA.ARMY.MIL>
+
+welcome back
+
+----- Forwarded message # 1:
+
+Date:     Fri, 1 Jun 90 12:00:37 EDT
+From:     Peter Beck  (LCWSL)  <pbeck@pica.army.mil>
+To:       cube-lovers-incoming%csl.ti.com@relay.cs.net
+cc:       pbeck@PICA.ARMY.MIL
+Subject:  algorithm
+Message-ID:  <9006011200.aa13780@FSAC1.PICA.ARMY.MIL>
+
+
+
+
+Date: Tue, 27 Mar 90 22:23:00 EST
+From: adobe!uunet!canremote!nigel.allen@labrea.stanford.edu
+Subject: PROGRAMMING NEWSLETTER
+
+      A.K. Dewdney, Computer Recreations columnist with Scientific
+American magazine, has launched a personal programming newsletter,
+Algorithm. The new publication is aimed at amateur and professional
+programmers alike. It extends the Computer Recreations tradition of
+recreational and educational programming projects: the Mandelbrot set,
+cellular automata, chaos and dynamics, weird machines, stellar
+simulation, puzzles and many other topics.
+
+      The new publication carries seven features and will expand to
+include more columns. Currently, it includes Algoletter, advice from
+professionals; Easy Pieces, fascinating projects for beginning
+programmers by Michael Ecker of Creative Computing fame; Personal
+Programs, exercises for more advanced programmers by Cliff Pickover,
+IBM's computer graphics wizard; Algopuzzles, computer mind-benders by
+Dennis Shasha, author of The Puzzling Adventures of Dr. Ecco; Algofact
+and Algofiction, invited articles and stories from well-known
+scientists and authors. A Bulletin Board advertises hosts of
+recreational products by individuals and small companies.
+
+      Algorithm puts the "personal" back in "personal computing" by
+encouraging you to develop your programming skills while pursuing high
+adventure on the frontiers of science and computing. Order a free
+examination copy by writing Algorithm at P.O. Box 29237, Westmount
+Postal Outlet, 785 Wonderland Road, London, Ontario, Canada N6K 1M6.
+
+--- MaS Relayer v1.00.00
+ Message gatewayed by MaS Network Software and Consulting/HST
+ Internet: nigel.allen@canremote.uucp
+ UUCP:     ...tmsoft!masnet!canremote!nigel.allen
+
+-------  from  infomac  -----
+  
+
+----- End of forwarded messages
+
+From alan@ai.mit.edu  Thu Oct 18 17:06:55 1990
+Return-Path: <alan@ai.mit.edu>
+Received: from wheat-chex (wheat-chex.ai.mit.edu) by life.ai.mit.edu (4.1/AI-4.10) id AA02418; Thu, 18 Oct 90 17:06:55 EDT
+From: alan@ai.mit.edu (Alan Bawden)
+Received: by wheat-chex (4.1/AI-4.10) id AA03710; Thu, 18 Oct 90 17:06:51 EDT
+Date: Thu, 18 Oct 90 17:06:51 EDT
+Message-Id: <9010182106.AA03710@wheat-chex>
+To: cube-lovers
+Subject: Archives again
+
+I hate to bother you folks again so soon, but naturally the AI Lab chose
+today to reorganize how anonymous FTP access worked.  Here are the updated
+instructions for accessing the Cube-Lovers archives:
+
+Connect to TRIX.AI.MIT.EDU, login as "anonymous" (any password), and in the
+directory "pub/cube-lovers" you will find the seven (compressed) files
+"cube-mail-0.Z" through "cube-mail-6.Z".  
+
+Archive vital statistics (when uncompressed):
+
+	   File		   From		   To	     Size (bytes)
+	   ----		   ----		   --	     ------------
+	cube-mail-0	12 Jul 80	23 Oct 80	185037
+	cube-mail-1	 3 Nov 80	 9 Jan 81	135719
+	cube-mail-2	10 Jan 81	 3 Aug 81	138566
+	cube-mail-3	 3 Aug 81	 3 May 82	137753
+	cube-mail-4	 4 May 81	11 Dec 82	139660
+	cube-mail-5	11 Dec 82	 6 Jan 87	173364
+	cube-mail-6	10 Jan 87	13 Apr 90	216733
+
+(Unfortunately, due to the way mail works here at the AI Lab, it is not
+possible to have the current active archive accumulate anywhere where
+anonymous FTP can pick it up.)
+
+From pbeck@pica.army.mil  Wed Oct 24 13:47:23 1990
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA21425; Wed, 24 Oct 90 13:47:23 EDT
+Date:     Wed, 24 Oct 90 13:34:45 EDT
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  puzzling events
+Message-Id:  <9010241334.aa15999@FSAC1.PICA.ARMY.MIL>
+
+
+
+CUBING/PUZZLING EVENTS
+rev  10/24/90
+
+
+<-->  DUTCH CUBE DAY IS:
+---- 8  dec  1990
+---- Prof Willem van der Poel's new residence
+---- in the netherlands
+
+
+<-->  International puzzle collector's party (I think it is #11)
+---- 3/31/91  Easter Sunday
+---- culver city,  ca
+***  Admission by invitation only!!!  Contact Mr. jerry slocum, 257
+south palm drive, beverly hills, ca 90212 for an invitation.
+
+
+From pbeck@pica.army.mil  Thu Oct 25 15:26:10 1990
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA24321; Thu, 25 Oct 90 15:26:10 EDT
+Date:     Thu, 25 Oct 90 15:17:59 EDT
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  puzzling newsletters
+Message-Id:  <9010251518.aa13527@FSAC1.PICA.ARMY.MIL>
+
+
+PUZZLING NEWSLETTERS  --  Oct 90
+
+..........................................................
+"Cubism For Fun" 
+The newsletter of the "Dutch Cubists Club";  in english starting with
+issue #14.  Back issues are available.  The club has over 100 active
+members, notable new addition Martin Gardner.
+
+Membership for 1990 is  US$8.   A photocopied set of the newsletters,
+issues 1-13, written in DUTCH (in the future selected back articles
+will be available in english) is also available for  US$7.    To order
+either of these send an 'INTERNATIONAL"  POSTAL MONEY ORDER (cost $3
+at post office) to:  Paul Sijben, Witbreuksweg 397-304, NL-7522  ZA
+ Enschede,  The Netherlands.
+
+..........................................................
+WORLD GAME REVIEW
+Michael Keller publishes a newsletter that explores the mathematical
+aspects of games & puzzles.  4 issues for US$11, published
+erratically.  Back issues are available.
+
+MICHAEL KELLER, 3367-1, NORTH CHATAM ROAD, ELLICOTT CITY, MD 21043,
+USA
+
+..........................................................
+ 'PUZZLETOPIA"
+NOB YOSHIGAHARA has just mailed out a new issue (after 3 yrs) of his
+newsletter 'PUZZLETOPIA".  With it came a 1990 promotional calendar
+from PUZZLE CITY (a subsidary of Toyo Glass) a puzzle city catalog and
+a catalog from PUZZLAND HIKIMI PUZZLE COLLECTION.  If you want the
+whole package write Nob (its free outside of Japan).
+
+NOB YOSHIGAHARA,  4-10-1-408 IIDABASHI,  TOKYO 102 JAPAN.
+
+..........................................................
+
+ARM Bulletin (ACADEMY of RECREATIONAL MATHEMATICS), JAPAN
+This is a monthly 40-80 page newsletter of the Japanese puzzle
+hobbiests club.  Dues Y8,000.
+
+PUZZLE KONWAKAI C/O S. TAKAGI, 1-2-4 MATSUBARA, SE TAGAYAKU, TOKYO 156
+JAPAN
+
+..........................................................
+
+
+
+From pbeck@pica.army.mil  Thu Oct 25 15:26:06 1990
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA24312; Thu, 25 Oct 90 15:26:06 EDT
+Date:     Thu, 25 Oct 90 15:16:29 EDT
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  oxford press books
+Message-Id:  <9010251516.aa12361@FSAC1.PICA.ARMY.MIL>
+
+
+
+Oxford University Press publishes a series of books called Recreations
+in  Mathematics.  The series editor is David Singmaster of Rubik's
+Cube fame.
+They are priced at about $28 each.
+
+As of Oct 90 the series contains the following: 
+#1  "Mathematical Byways ...",  by Hugh ApSimon. 
+#2: "Ins and Outs of Peg Solitaire",  by John Beasley.  
+#3: "Rubik's Cubic Compendium", by Rubik, et al.  
+#4  "Sliding Piece Puzzles", by L.E. Hordern. 
+#5  "The Mathematics of Games",  by John Beasley.
+#6  "The Puzzling World of Polyhedral Dissections", by Stewart Coffin.
+#7  "More Mathematical Byways",  by Hugh ApSimon. 
+
+ TO ORDER:  Send check or credit card info (MASTERCARD OR VISA) to:
+        SCIENCE & MEDICAL MARKETTING DIRECTOR,
+        OXFORD UNIVERSITY PRESS
+        200 MADISON AVE,
+        NEW YORK, NY 10016  - 
+-- >  ADD $1.50 for shipping
+
+
+From pbeck@pica.army.mil  Fri Oct 26 20:05:37 1990
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA19290; Fri, 26 Oct 90 20:05:37 EDT
+Date:     Fri, 26 Oct 90 15:25:41 EDT
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  puzzling events expanded
+Message-Id:  <9010261525.aa18619@FSAC1.PICA.ARMY.MIL>
+
+
+CUBING/PUZZLING EVENTS
+rev  10/26/90
+
+...............................................................
+<-->  The 10th DUTCH CUBE DAY  <-->
+...............................................................
+WHEN ---- 8  dec  1990
+WHERE ---- Prof Willem van der Poel's new residence, DUBLINSTRAAAT
+143, ZOETERMEER, THE NETHERLANDS
+TIME ---- 10:00 AM
+INVITITATIONS:  Prof van der Poel,  tel # 079-211912 or Anneke Treep,
+tel# 074-501181
+
+AGENDA:  
+.. LECTURES - A NEW CUBE SOLVING ALGORITHM BY HANS KLOOSTERMAN,
+ POLYLINKS BY NANCO BORDEWIJK, WIRREL-WARREL CUBES BY JAN DE GEUS,
+POLYSPHERES BY BERNARD WIEZORKE
+.. EXHIBITIONS - PUZZLE COLLECTION OF Willem van der Poel, TRACO
+PUZZLES BY GERARD TRAABACH, NEW PUZZLES BY OSCAR VAN DEVENTER AND WILL
+STRIJBOS, POLYHEDRAL DISSECTIONS BY JOACHIM KRAUSE AND ANTON HANEGRAF
+.. PRIZE CONTESTS - RUBIKS CUBE COMPETIYION, EKKEHARD KUNZELL'S GAME
+RESERVAT
+.. VIDEO SHOWS - EALIER CUBE DAYS, FAST CUBE SOLVING
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+...............................................................
+<-->  11th International puzzle collector's party and fair  <-->
+...............................................................
+WHEN ---- 3/31/91  Easter Sunday
+WHERE ---- PACIIFICA HOTEL, 6161 CENTINELA AVE, culver city,  ca,
+90231-2200 USA, TEL # 213/649-1776.  This is near Los Angeles Airport
+and a hotel courtesy bus will take travelers from airport to hotel.
+INVITATIONS ***  Admission by invitation only!!!  Contact Mr. jerry
+slocum, 257 south palm drive, beverly hills, ca 90212 for an
+invitation.
+AGENDA:
+.. PUZZLE PARTY
+.. SALES /EXHIBITS  table rental available
+.. Saturday evening (3/30) dinner and magic show,  estimated cost $40
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+From pbeck@pica.army.mil  Fri Nov  9 11:09:19 1990
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA10686; Fri, 9 Nov 90 11:09:19 EST
+Date:     Fri, 9 Nov 90 8:41:23 EST
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: Cube-Lovers@life.ai.mit.edu
+Subject:  [To: cube-lovers:  CFF #24]
+Message-Id:  <9011090841.aa19903@FSAC1.PICA.ARMY.MIL>
+
+
+
+
+
+----- Forwarded message # 1:
+
+Date:     Wed, 7 Nov 90 8:56:58 EST
+From:     Peter Beck  (LCWSL)  <pbeck@pica.army.mil>
+To:       cube-lovers@ai.ai.mit.edu
+cc:       pbeck@PICA.ARMY.MIL
+Subject:  CFF #24
+Message-ID:  <9011070856.aa07569@FSAC1.PICA.ARMY.MIL>
+
+
+SEND TO:  CUBE-LOVERS@AI.AI.MIT.EDU
+
+SUBJECT :  Review of "Cubism For Fun" newsletter issue #24, July 90;
+the newsletter of the "Dutch Cubists Club";  in english starting with
+issue #14 
+
+1..  The table of contents for issue # 24, july 90 follows:
+
+TENTH CUBE DAY announcement by the secretary
+GRAND PRIX editors announcement of the results of the "HIKIMI WOODEN
+PUZZLE COMPETITION 1990"
+PENTAKUBEN CONTEST ANNOUNCEMENT BY EKKEHARD KUNZELL
+SQUA-RING by Nanco Bordewijk
+BLOCKED SLIDING by Wim Zwaan
+LOGICAL LABYBRINTHS PART 2 by Anneke Treep 
+THE RHYTM OF MIX-BOX by Anton Hanegraaf
+PRETTY CUBIC PATTERNS by Anneke Treep 
+A STRING FOLDING PROBLEM by Oskar van Deventer
+KEY THROUGH KEY by Oskar van Deventer
+MEMEBRSHIP FEE
+TOP SPIN PROCESSES by Bernhard Wiezorke and Anton Hanegraaf
+"SEVEN" PUZZLES by Dieter Gebhardt and Anton Hanegraaf
+THE CASCADE PYRAMID PROBLEM by joachim Krause
+THE DUTCH DRAUGHTBOARD PUZZLE by Wil Strijbos
+CRACKING THE (MAGIC) CROSS BY Ronald Fletterman
+WIRREL-WARREL SUPER CUBE by Paul Sijben
+A HEXOMINO PROBLEM by Pieter Torbijn
+NEWS AND LETTERS TO THE EDITOR  -
+INTERNATIONAL PUZZLE PARTY ANNOUNCEMENT BY JERRY SLOCUM
+BACK ISSUES announcement
+CHANGES IN THE LIST OF MEMBERS -  120 active members and growing
+
+* Also an ad from STRIJBOS offering to sell his bolt puzzle (US$28
+ppd) and a COCA-COLA BOTTLE puzzle (US$12 ppd)
+
+
+2.   Membership for 1990 is  US$8.   A photocopied set of the
+newsletters, issues 1-13, written in DUTCH (in the future selected
+back articles will be available in english) is also available for
+ US$7.    To order either of these send an 'INTERNATIONAL"  POSTAL
+MONEY ORDER (cost $3 at post office) to:  Paul Sijben, Witbreuksweg
+397-304, NL-7522  ZA  Enschede,  The Netherlands.
+
+3.  If anybody would like further details please ask!
+
+CUBING IS FOREVER      PETER BECK
+
+<PBECK@PICA.ARMY.MIL>
+
+
+
+
+
+----- End of forwarded messages
+
+From hoey@aic.nrl.navy.mil  Fri Nov  9 15:01:52 1990
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA16350; Fri, 9 Nov 90 15:01:52 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA24929; Fri, 9 Nov 90 14:57:26 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Fri, 9 Nov 90 15:02:48 EST
+Date: Fri, 9 Nov 90 15:02:48 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9011092002.AA00993@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Rubik's Cube reassembly problem and solution
+References: <3924@idunno.Princeton.EDU> <1990Nov8.182534.18625@agate.berkeley.edu>
+Reply-To: Hoey@aic.nrl.navy.mil (Dan Hoey)
+
+In rec.puzzles article <1990Nov8.182534.18625@agate.berkeley.edu>,
+   greg@math.berkeley.edu (Greg Kuperberg) writes:
+
+>Consider a standard Rubik's cube.  Disassemble it and put it back
+>together at random.  Find, with proof, the probability that it can be
+>solved.
+
+It depends on how you take it apart.  If you just pull out the corner
+and edge pieces then put them back in without respect to color, the
+probability is one in 12 that you will put it back into the right
+orbit.  I won't bore you with yet another proof of this; if you spent
+the last decade in a box see the archives, Singmaster's NOTES ON
+RUBIK'S MAGIC CUBE, J. A. Eidswick's article in the March 1986 Math
+Monthly, or even Hofstadter's METAMAGICAL THEMAS.
+
+Now if you take the face centers off and scramble them, then there is
+only one chance in 60 of getting it right.  Of the 720 permutations of
+the six face centers, only 24 can be generated by rigid motions of the
+cube.  But half of these 24 permutations are odd, and leaving the cube
+in an unsolvable orbit.  If you put the face centers on in the
+``standard'' configuration with opposite faces ``differing by yellow''
+(i.e., white opposite yellow, red opposite orange, and blue opposite
+green), your chances go up to one in four--half the time you will get
+an odd permutation, and half the time you will get a mirror-reversed
+configuration.
+
+But wait, if you took the face centers off you probably noticed that
+the corners and edges don't stay on very well.  So, say you scrambled
+all three kinds of pieces.  You will be able to solve the resulting
+cube if you could solve the corner/edge permutation and the face-
+center permutation.  But if the only thing keeping you from solving
+the corner/edge permutation and the face-center permutation is that
+both permutation parities were odd, then you will be able to solve the
+two of them together.  Therefore your chances of success are one in
+360 (= (1/12)*(1/60)*2), or one in 24 if you preserved opposite pairs
+of face centers.
+
+Now suppose you peeled off the 54 colored stickers and stuck them back
+on at random (carefully keeping them out of the reach of children, as
+there are rumors the paint contains lead, especially on the cheap
+Taiwanese knockoffs), what is the probability of getting a solvable
+cube?  This question was posed years ago (in Singmaster?) but I
+believe it is still open.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+From hirsh@cs.rutgers.edu  Sat Nov 10 18:50:06 1990
+Return-Path: <hirsh@cs.rutgers.edu>
+Received: from pei.rutgers.edu by life.ai.mit.edu (4.1/AI-4.10) id AA11436; Sat, 10 Nov 90 18:50:06 EST
+Received: by pei.rutgers.edu (5.59/SMI4.0/RU1.2/3.05) 
+	id AA16007; Sat, 10 Nov 90 18:49:51 EST
+Sender: Haym Hirsh <hirsh@pei.rutgers.edu>
+Date: Sat, 10 Nov 90 18:49:48 EST
+From: Haym Hirsh <hirsh@cs.rutgers.edu>
+Reply-To: Haym Hirsh <hirsh@cs.rutgers.edu>
+To: Hoey@aic.nrl.navy.mil (Dan Hoey), Cube-Lovers@life.ai.mit.edu
+Subject: Re: Rubik's Cube reassembly problem and solution
+In-Reply-To: Your message of Fri, 9 Nov 90 15:02:48 EST
+Cc: Haym Hirsh <hirsh@cs.rutgers.edu>
+Message-Id: <CMM-RU.1.0.658280988.hirsh@pei.rutgers.edu>
+
+> Now suppose you peeled off the 54 colored stickers and stuck them back
+> on at random (carefully keeping them out of the reach of children, as
+> there are rumors the paint contains lead, especially on the cheap
+> Taiwanese knockoffs), what is the probability of getting a solvable
+> cube?  This question was posed years ago (in Singmaster?) but I
+> believe it is still open.
+> 
+> Dan Hoey
+> Hoey@AIC.NRL.Navy.Mil
+
+This seems easy, so I've probably messed up on something.
+Can anyone catch a mistake?
+
+Assume each of the stickers is given a number from 1 to 54.  Then
+there are 54! different labelings, ignoring rotation of stickers
+(we'll ignore this throughout, so we'll never need to consider it).
+Thus there are
+
+  54!
+  = 230843697339241380472092742683027581083278564571807941132288000000000000
+  = 2.3*10^71
+
+ways to randomly resticker the cube.  We want to know what proportion
+of these are legal (i.e., the cube can be solved).
+
+There are 8!*12!*8^3*2^12/12 = 43252003274489856000 = 4.3*10^19 legal
+cube states.  Thus there are this many legal stickerings, if each
+sticker must go back to where it was.  Since they need not (just the
+color must match), there are really an additional (9!)^6 for each of
+these, or 98760760257294265888495040331277846607560704000000000 =
+9.9*10^52 legal stickerings.
+
+Thus the proportion of randomly restickered cubes that can be solved,
+and hence the probability that a randomly restickered cube can be solved,
+is
+
+	98760760257294265888495040331277846607560704000000000
+------------------------------------------------------------------------
+230843697339241380472092742683027581083278564571807941132288000000000000
+
+= 9.9*10^52/2.3*10^71 = 4.3*10^-19
+
+From dik@cwi.nl  Sat Nov 10 20:17:16 1990
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA12248; Sat, 10 Nov 90 20:17:16 EST
+Received: by charon.cwi.nl with SMTP; Sun, 11 Nov 90 02:17:08 +0100
+Received: by paring.cwi.nl via EUnet; Sun, 11 Nov 90 02:17:02 +0100
+Date: Sun, 11 Nov 90 02:17:02 +0100
+From: dik@cwi.nl
+Message-Id: <9011110117.AA27431@paring.cwi.nl>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: Rubik's Cube reassembly problem and solution
+
+Aside from the disassembly/assembly problem there was another problem that
+I have not yet seen answered satisfactory.  The question is:  what is the
+maximum number of stickers that can bee peeled of such that there is still
+an unique solution for the cube (i.e. the remaining stickers must match in
+color on a face).  The only solution I have seen was along the lines (this
+is from memory, but I do not think there are any mistakes):
+1.  The total rotation of the corner cubes is 0, so there is one corner
+    cube that can have all its stickers removed; the remaining corner
+    cubes need at least one sticker.  Suppose this is the FUR cube.
+    (3 stickers.)
+2.  You can remove two stickers (F, R and/or U) from each of FRD, BRU, FLU;
+    they still remain distinguishable.  (6 stickers.)
+3.  Of the remaining corner cubes (DBL, DRB, ULB, DLF) you cannot *now*
+    (emphasis mine) remove two stickers because the cube will become
+    indistinguishable from one of the cubes handled in step 2.  You can
+    remove sticker R, U and F from DRB, ULB and DLF respectively.  No
+    other stickers can be removed.  (3 stickers.)
+4.  Because of flip parity you can remove two stickers from (say) FU.
+    (2 stickers.)
+5.  You can remove the F sticker from all of FR, FL and FD.  (3 stickers.)
+6.  Now, because of the product parity of corner cubes permutation and
+    edge cube permutation you can make either two corner cubes identical or
+    two edge cubes.  You must nevertheless still be able to observe both
+    the corner twist parity and the edge flip parity.  This means you may
+    a.  Remove a single sticker from any edge cube that still has two stickers.
+    b.  Remove a single sticker from the DLB cube.
+    (You can not remove two stickers from the DLB cube.  Say you remove the L
+    and B sticker.  Let us denote removed sticker by lower case letters.
+    In that case Dlb is indistinguishable from Dfr, which is not a problem.
+    But the DLf cube can now be put in the Dlb position, leading to a 3-cycle.)
+    (1 sticker.)
+7.  You can remove the sticker from the front center cube.  (1 sticker.)
+
+This leads to a total of 19 removable stickers.
+
+This is not maximal.  There are, for instance, other ways to do corner cubes:
+1.  Remove all F stickers.  (4 stickers.)
+2.  From all Fxy cubes, remove the y sticker.  (4 stickers.)
+3.  Also from all Bxy cubes, remove the y sticker.  (4 stickers.)
+4.  From one Bxy cube remove also an x sticker.  (1 sticker.)
+5.  From one Fxy cube remove also an x sticker.  (1 sticker.)
+(Fxy and Bxy named clockwise.)
+This leads to 14 stickers for the corners and a total of 21.
+Are there other ways leading to more?  Are there better ways that we can
+remove more center stickers?
+--
+dik t. winter, cwi, amsterdam, nederland
+dik@cwi.nl
+
+From hirsh@cs.rutgers.edu  Sun Nov 11 15:34:28 1990
+Return-Path: <hirsh@cs.rutgers.edu>
+Received: from pei.rutgers.edu by life.ai.mit.edu (4.1/AI-4.10) id AA23245; Sun, 11 Nov 90 15:34:28 EST
+Received: by pei.rutgers.edu (5.59/SMI4.0/RU1.2/3.05) 
+	id AA00310; Sun, 11 Nov 90 15:34:25 EST
+Sender: Haym Hirsh <hirsh@pei.rutgers.edu>
+Date: Sun, 11 Nov 90 15:34:23 EST
+From: Haym Hirsh <hirsh@cs.rutgers.edu>
+Reply-To: Haym Hirsh <hirsh@cs.rutgers.edu>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: Rubik's Cube reassembly problem and solution
+In-Reply-To: Your message of Sat, 10 Nov 90 18:49:48 EST
+Cc: Haym Hirsh <hirsh@cs.rutgers.edu>
+Message-Id: <CMM-RU.1.0.658355663.hirsh@pei.rutgers.edu>
+
+I just caught a bug in my reasoning.  The restickering need not yield
+something equivalent to the original undestickered cube, but rather
+just one that can be solved to obtain solid colors on each face.
+Since there are 5*3*2 different distinguishable cubes (i.e., 30
+different ways to label a die with the numbers 1-6) (6! labelings, but
+rotational symmetry removes 24 -- six faces can be brought to the top,
+and for each it can be rotated around the axis perpendicular to that
+face in one of 4 ways), the numerator should be multiplied by 30, and
+hence the probability is actually
+
+       2962822807718827976654851209938335398226821120000000000
+------------------------------------------------------------------------
+230843697339241380472092742683027581083278564571807941132288000000000000
+
+= 3.0*10^54/2.3*10^71 = 1.3*10^-17
+
+Haym
+
+From RGC915@uacsc2.albany.edu  Mon Nov 12 01:24:08 1990
+Return-Path: <RGC915@uacsc2.albany.edu>
+Received: from UACSC2.ALBANY.EDU by life.ai.mit.edu (4.1/AI-4.10) id AA28724; Mon, 12 Nov 90 01:24:08 EST
+Message-Id: <9011120624.AA28724@life.ai.mit.edu>
+Received: from uacsc2.albany.edu by UACSC2.ALBANY.EDU (IBM VM SMTP R1.2.2MX) with BSMTP id 2636; Sun, 11 Nov 90 22:09:52 EST
+Received: from ALBNYVM1.BITNET (RGC915) by uacsc2.albany.edu (Mailer R2.07B)
+ with BSMTP id 0600; Sun, 11 Nov 90 22:09:51 EST
+Date:         Sun, 11 Nov 90 22:01:08 EST
+From: Robert Clark <RGC915@uacsc2.albany.edu>
+Subject:      Rubik's Cube Variants?
+To: cube-lovers@life.ai.mit.edu
+
+  Does anyone know where I can find all those variations on the Rubik's
+theme that popped up after the Cube came out? I mean puzzles like the
+Pyraminx, Impossiball, etc. I haven't seen any place that sells them
+in the area where I live, New york state.
+  I would even be willing to send for them from overseas if the price
+is reasonable.
+
+
+
+                                      Robert Clark
+
+From @mitvma.mit.edu:RCC2@VAXB.YORK.AC.UK  Mon Nov 12 09:45:25 1990
+Return-Path: <@mitvma.mit.edu:RCC2@VAXB.YORK.AC.UK>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) id AA02330; Mon, 12 Nov 90 09:45:25 EST
+Message-Id: <9011121445.AA02330@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP R1.2.1MX) with BSMTP id 4628; Mon, 12 Nov 90 09:17:42 EST
+Received: from UKACRL.BITNET by MITVMA.MIT.EDU (Mailer R2.05) with BSMTP id
+ 2004; Mon, 12 Nov 90 09:17:41 EST
+Received: from RL.IB by UKACRL.BITNET (Mailer R2.03B) with BSMTP id 6669; Fri,
+ 09 Nov 90 20:13:59 GMT
+Received: from RL.IB by UK.AC.RL.IB (Mailer R2.03B) with BSMTP id 2022; Fri, 09
+          Nov 90 20:13:59 GMT
+Via:      UK.AC.YORK.VAXB;  9 NOV 90 20:13:57 GMT
+Date:     Fri, 9 Nov 90  20:13 GMT
+From: RCC2%VAXB.YORK.AC.UK@mitvma.mit.edu
+To: CUBE-LOVERS@life.ai.mit.edu
+Subject:  hello there
+
+Hello there,
+
+This is my first posting to the cube-lovers board, so I'm
+probably gonna ask a couple of really obvious questions:
+
+a) Does anyone know where I can get a copy of David Singmaster's
+   book "Notes on Rubik's magic cube?"  This was THE definitive book
+   on the cube about 8 years ago, but I lost my copy....does anyone
+    know if it's still in print?? ( Oh yeah, maybe I should mention
+   that I'm in England...David Singmaster was a lecturer at one of
+   the colleges in London I think - was this book EVER published in
+   the states? )
+
+b) ( This is a real obvious one... )   Does anyone have any tips or
+   advice on solving the 4*4*4 cube that appeared a few years after
+   the original 3*3*3 one.  I got really close to getting it right
+   a couple of years ago, but never quite made it.
+
+Thanks in advance for any help,
+  Rod Chapman
+
+rcc2@vaxa.york.ac.uk
+
+
+From hirsh@cs.rutgers.edu  Mon Nov 12 12:05:53 1990
+Return-Path: <hirsh@cs.rutgers.edu>
+Received: from pei.rutgers.edu by life.ai.mit.edu (4.1/AI-4.10) id AA04462; Mon, 12 Nov 90 12:05:53 EST
+Received: by pei.rutgers.edu (5.59/SMI4.0/RU1.2/3.05) 
+	id AA08879; Mon, 12 Nov 90 12:05:44 EST
+Sender: Haym Hirsh <hirsh@pei.rutgers.edu>
+Date: Mon, 12 Nov 90 12:05:42 EST
+From: Haym Hirsh <hirsh@cs.rutgers.edu>
+Reply-To: Haym Hirsh <hirsh@cs.rutgers.edu>
+To: Robert Clark <RGC915@uacsc2.albany.edu>
+Cc: cube-lovers@life.ai.mit.edu
+Subject: Re: Rubik's Cube Variants?
+In-Reply-To: Your message of Sun, 11 Nov 90 22:01:08 EST
+Message-Id: <CMM-RU.1.0.658429542.hirsh@pei.rutgers.edu>
+
+Peter Beck, pbeck@pica.army.mil, has many cube spinoffs for sale.
+That's where I got the last few I was missing.  Jerry Slocum in
+Calif also has some items for sale -- I got his address from old
+cube-lovers mailings (sent by Peter, I believe).  I seem to recall
+a few other sources outside the US, but Peter probably can provide
+them if there's something Slocum and Peter don't have.
+
+Haym
+
+From rp@xn.ll.mit.edu  Mon Nov 12 12:09:56 1990
+Return-Path: <rp@xn.ll.mit.edu>
+Received: from xn.ll.mit.edu by life.ai.mit.edu (4.1/AI-4.10) id AA04551; Mon, 12 Nov 90 12:09:56 EST
+Message-Id: <9011121709.AA04551@life.ai.mit.edu>
+Received: by xn.ll.mit.edu id AA17468g; Mon, 12 Nov 90 12:07:55 EST
+Date: Mon, 12 Nov 90 12:07:55 EST
+From: Richard Pavelle <rp@xn.ll.mit.edu>
+To: CUBE-LOVERS@life.ai.mit.edu
+In-Reply-To: RCC2%VAXB.YORK.AC.UK@mitvma.mit.edu's message of Fri, 9 Nov 90  20:13 GMT <9011121445.AA02330@life.ai.mit.edu>
+Subject: hello there
+
+   Date:     Fri, 9 Nov 90  20:13 GMT
+   From: RCC2%VAXB.YORK.AC.UK@mitvma.mit.edu
+
+   Hello there,
+
+   This is my first posting to the cube-lovers board, so I'm
+   probably gonna ask a couple of really obvious questions:
+
+   a) Does anyone know where I can get a copy of David Singmaster's
+      book "Notes on Rubik's magic cube?"  This was THE definitive book
+      on the cube about 8 years ago, but I lost my copy....does anyone
+       know if it's still in print?? ( Oh yeah, maybe I should mention
+      that I'm in England...David Singmaster was a lecturer at one of
+      the colleges in London I think - was this book EVER published in
+      the states? )
+
+   b) ( This is a real obvious one... )   Does anyone have any tips or
+      advice on solving the 4*4*4 cube that appeared a few years after
+      the original 3*3*3 one.  I got really close to getting it right
+      a couple of years ago, but never quite made it.
+
+I have not looked at it for several years but if memory serves you need
+only one extra transformation which is not applicable to the 3^3. It is
+the single edge flip. I no longer recall it explicitly but it was kinda
+trivial to find.
+
+From hoey@aic.nrl.navy.mil  Mon Nov 12 18:37:55 1990
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA13428; Mon, 12 Nov 90 18:37:55 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA06668; Mon, 12 Nov 90 18:33:25 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Mon, 12 Nov 90 18:38:49 EST
+Date: Mon, 12 Nov 90 18:38:49 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9011122338.AA00219@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: Rubik's Cube reassembly problem and solution
+
+This problem of counting the number of solvable restickerings seems to
+be a lot easier than I had thought, but a lot trickier than you might
+think.
+
+Haym Hirsh sent in a buggy analysis, then corrected himself, but not
+quite enough.  The fix was to account for cases where the stickers
+corresponded to a cube recoloring, but he just multiplied by 30 (cube
+recolorings up to rotational symmetry) rather than by 720 (total cube
+recolorings).  We are dividing by 54!, which includes positions
+differing only by a rotation, so when figuring how many are solvable
+you have to count such positions also.
+
+Another way of figuring this is 6! ways of coloring the face centers,
+then (8! 3^8 12! 2^12)/12 ways of coloring the rest of the cube, then
+9!^6 ways of arranging stickers among identically-colored faces, out
+of 54! ways of arranging stickers randomly.
+
+So the probability that a random restickering will be solvable is
+
+        71107747385251871439716429038520049557443706880000000000
+------------------------------------------------------------------------
+230843697339241380472092742683027581083278564571807941132288000000000000
+
+           40122452017152
+ = ------------------------------  ~ 3.0803 X 10^-16.
+   130253249618151492335575683325
+
+It seems odd to me that this is not the reciprocal of an integer, but
+I guess that's because we are dealing with color cosets rather than
+some cube group.
+
+Haym Hirsch also asked me how to figure out the minimum number of
+stickers to fix to make an unsolvable stickering solvable.  Sounds
+hard to me.  His question arises in the same way that I recall the
+original problem arising: trying to clean up after someone who tried
+to solve the cube by restickering.  Since the adhesive isn't designed
+for moving the stickers around, this leads rapidly to Dik Winter's
+problem: dealing cubes that have lost some of their stickers.
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+
+From pbeck@pica.army.mil  Wed Nov 14 09:59:24 1990
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA04731; Wed, 14 Nov 90 09:59:24 EST
+Received: by FSAC1.PICA.ARMY.MIL id aa28413; 14 Nov 90 9:56 EST
+Date:     Tue, 13 Nov 90 7:48:47 EST
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: Robert Clark <RGC915@uacsc2.albany.edu>
+Cc: cube-lovers@life.ai.mit.edu
+Subject:  Re:  Rubik's Cube Variants?
+Message-Id:  <9011130748.aa09243@FSAC1.PICA.ARMY.MIL>
+
+I am the best general source for rubik's cube items.
+
+If you want a list of whatr is available e-mail me your postal address.
+
+THE FUTURE IS PUZZLING,
+BUT CUBING IS FOREVER!!!!!!!!!!!
+
+<PBECK@ARMY.PICA.MIL>
+
+
+From pbeck@pica.army.mil  Fri Nov 30 07:50:59 1990
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA00762; Fri, 30 Nov 90 07:50:59 EST
+Date:     Thu, 29 Nov 90 12:33:41 EST
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Cc: pbeck@pica.army.mil
+Subject:  bottleneck and
+Message-Id:  <9011291233.aa21311@FSAC1.PICA.ARMY.MIL>
+
+
+BOTTLENECK  SOURCE:
+
+Will the designer of Bottleneck please contact 
+  MIKE GREEN
+  24832 144th PLACE  S.E
+  KENT WASHINGTON 98042.
+
+Mike has a puzzle business and wants to sell Bottleneck.  
+
+If anybody else out there manufactures or deals in mechanical puzzles
+and is looking for a retail or wholesale outlet please feel free to
+contact Mike.
+
+Mike manufactures and sells a line of wire disentanglement puzzles
+called "PUZZLETTS".  He has opened a retail outlet in his home (the
+address above).
+
+Mike also collects puzzles and has a list of puzzle suppliers and
+puzzle solution sheets.  If anybody out there is looking for something
+or wants to contribute I am sure he would happy to correspond.  NO
+E-MAIL,  postal or telephone only (sorry I don't have phone number
+handy).
+
+PS  If anybody wants to contact Mike through me please feel free.
+
+
+
+From pbeck@pica.army.mil  Sat Dec  8 09:51:49 1990
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA20984; Sat, 8 Dec 90 09:51:49 EST
+Date:     Fri, 7 Dec 90 11:41:03 EST
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  rec & ed computing
+Message-Id:  <9012071141.aa04773@FSAC1.PICA.ARMY.MIL>
+
+
+
+Anybody have an opinion on the newsletter/magazine
+"RECREATIONAL & EDUCATIONAL COMPUTING" edited by Dr. Michael Ecker.
+
+From cosell@bbn.com  Sat Dec  8 15:48:28 1990
+Return-Path: <cosell@bbn.com>
+Received: from WILMA.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA24247; Sat, 8 Dec 90 15:48:28 EST
+Message-Id: <9012082048.AA24247@life.ai.mit.edu>
+Date:     Sat, 8 Dec 90 15:42:21 EST
+From: Bernie Cosell <cosell@bbn.com>
+To: Peter Beck <pbeck@pica.army.mil>
+Cc: cube-lovers@life.ai.mit.edu
+Subject:  Re:  rec & ed computing
+
+Sure....
+
+  -  REC is VERY slanted toward high school students, and so there is
+     very little advanced or profound stuff in there.
+  -  While there is a nod to other worlds, primarily it is all in BASIC,
+     and generally focused on the IBM PC.
+  -  There is a fascination with mindless crunching just to print out
+     numbers that I can't fathom.  A good portion of the articles
+     center on a numbers with some odd property or another, or finding
+     the actual _numeric_ solution to something and usually brute force
+     [or close to it].  The graphics hacks, such as they are, are
+     primarily crunching-based [moire patterns and such].
+
+No real discussion of 'puzzles', for example, nor of the kinds of techniques
+and such you need to partially-tame one of those awful [but real world]
+exponential searches, nor of representing 3D objects or manipulations of them,
+or search strategies, no word problems, etc.
+
+/Bernie\
+
+From pbeck@pica.army.mil  Mon Dec 10 11:35:28 1990
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA25188; Mon, 10 Dec 90 11:35:28 EST
+Date:     Mon, 10 Dec 90 11:18:02 EST
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: Bernie Cosell <cosell@bbn.com>
+Cc: Peter Beck <pbeck@pica.army.mil>, cube-lovers@life.ai.mit.edu
+Subject:  Re:  rec & ed computing
+Message-Id:  <9012101118.aa09879@FSAC1.PICA.ARMY.MIL>
+
+thanks bernie.
+
+PS:  do you have address & name of owner for games people p;lay.?
+
+From @relay.cs.net:AGIN@cgi.com  Thu Dec 13 23:25:58 1990
+Return-Path: <@relay.cs.net:AGIN@cgi.com>
+Received: from RELAY.CS.NET by life.ai.mit.edu (4.1/AI-4.10) id AA18336; Thu, 13 Dec 90 23:25:58 EST
+Message-Id: <9012140425.AA18336@life.ai.mit.edu>
+Received: from relay2.cs.net by RELAY.CS.NET id ab06193; 13 Dec 90 23:25 EST
+Received: from cgi.com by RELAY.CS.NET id aa27113; 13 Dec 90 23:09 EST
+Date: Thu, 13 Dec 90 14:26 EDT
+From: AGIN%cgi.com@relay.cs.net
+Subject: Re: construction project
+To: cube-lovers@life.ai.mit.edu
+X-Vms-To: IN%"cube-lovers@life.ai.mit.edu"
+
+I was successful in creating Peter Beck's Christmas Tree ornament.
+
+The project requires 50 modules, not 120.  There are 30 outside modules and
+20 inside connecting modules.  The outside modules correspond to th edges of
+a dodecahedron.  The inside modules create an interior icosahedron.
+
+I used 3M Post-It notes cut in half, each starting rectangle being 3" by 1-
+1/2".  I folded the adhesive to the inside on the first step, so the
+adhesive was not holding the project together.  It probably would have been
+possible to use the adhesive to keep each module together.  This would have
+required a lot of extra care in the assembly, but produced a much sturdier
+product.  As it was, once I got the hang of it, I didn't have any major
+problems with modules coming apart.  The finished construction required no
+staples or extra glue.
+
+A previous attempt using 1" x 2" rectangles cut out of graph paper kept
+falling apart.  I've got a partially finished ornament made with dollar
+bills, which seem to work fine.
+
+The ideal shape for an outside module is not an equilateral triangle, but an
+isosceles one with an apex angle of about 42 degrees.  I took care of this
+by allowing the outside surfaces to bow outward.
+
+To finish the assembly I left three outside modules and their common
+connecting module until last.  The outside modules were threaded into place
+but not closed, with the ends of the paper pointing outward.  The connecting
+module was placed over the nearest ends of the three outside modules, then
+the outside modules could be closed.
+
+From j9@icad.com  Fri Dec 14 19:26:43 1990
+Return-Path: <j9@icad.com>
+Received: from BU.EDU by life.ai.mit.edu (4.1/AI-4.10) id AA01678; Fri, 14 Dec 90 19:26:43 EST
+Received: by BU.EDU (1.99) Fri, 14 Dec 90 13:43:49 EST
+Received: from MOE.ICAD.COM by icad.COM (4.1/SMI-4.0)
+	id AA21059; Fri, 14 Dec 90 13:34:43 EST
+Date: Fri, 14 Dec 90 13:38 EST
+From: Jeannine Mosely <j9@icad.com>
+Subject: Peter Beck's construction project
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <19901214183850.8.J9@MOE.ICAD.COM>
+
+I have made something along the lines that Peter Beck describes in
+his "construction project", but it does not quite fit his
+description, so I don't know if it is the same thing. It uses only
+50 modules and I can't for the life of me imagine where the other 70
+should go.
+
+My object looks like this.  Imagine a regular icosahedron (20
+equilateral triangular faces, with 5 coming together at each
+vertex).  Erect on each of these faces a triangular prism (20
+modules).  At each edge of the icosahedron, two square faces of
+adjacent prisms rise up from the surface of the icosahedron.  Band
+each such pair together with a module (30 modules).  The reulting
+form resembles the Archmidean solid most conveniently designated
+(3,4,5,4), which means that each vertex contains a triangle, square,
+pentagon, square, in that order.
+
+I say "resembles" this solid, in part, because only the squares are
+actually present, the triangular and pentagonal "faces" are voids.
+But a more compelling reason for saying "resembles" is that the
+geometry is only approximate.  If one uses the modules you describe
+for the triangular prisms (that is, the height of the prism equals
+the edge of the triangle) then the quadrilateral faces on the outer
+surface connecting the triangular and pentagonal voids are not
+squares, but rectangles whose side are in the ratio of (sqrt 5)-1 to
+(sqrt 3).  This discrepancy can be fudged, by allowing the squares
+to bulge outward slightly.  On the other hand, a figure could be
+constructed where the outer quadrilaterals were in fact square, but
+this would require the prisms to be shorter, and that cannot be
+fudged.
+
+Better results can be achieved if you do not fudge the geometry (or
+at least not much).  It turns out that
+
+	(/ (- (sqrt 5) 1) (sqrt 3)) = 5/7 
+
+(pardon my lisp) to within one tenth of one percent. Hence I make my
+modules as diagrammed below.  Dimensions given assume paper in the
+ratio of 2 to 1.
+
+This module is used to make the triangular prisms:
+
+    _______________________________________________
+   |         :             :             :         | 5/24
+   |.........:.............:.............:.........|
+   |         :             :             :         |
+   |         :             :             :         | 7/12
+   |         :             :             :         |
+   |.........:.............:.............:.........|
+   |         :             :             :         | 5/24
+   |_________:_____________:_____________:_________|
+       1/2        1/2           1/2          1/2
+
+
+This module is used to band the triangular prisms together:
+
+    _______________________________________________
+   |         :             :             :         | 1/4
+   |.........:.............:.............:.........|
+   |         :             :             :         |
+   |         :             :             :         | 1/2
+   |         :             :             :         |
+   |.........:.............:.............:.........|
+   |         :             :             :         | 1/4
+   |_________:_____________:_____________:_________|
+      5/12        7/12          7/12        5/12
+
+
+Natually, you might ask, how do I fold 5/12?  There is a trick.
+First fold the the long edge in half, and then in quarters at one
+end, but don't make the second crease go all the way across--just
+nick one edge of the paper, as a marker (point B).  Now fold point B
+to touch the upper left-hand corner (point A).  This would make a
+diagonal crease across the strip, but again, don't make the crease
+go all the way across--just nick the lower edge (point C).  The line
+AC is the hypoteneuse of the old 5,12,13 right triangle, and point C is
+at 5/12, as desired.  (Pretty neat, huh?)
+
+       A _______________________________________________
+        |                      :                        |
+        |                      :                        |
+        |                      :                        |
+ 12/12  |                      :                        |
+        |                      :                        |
+        |                      :                        |
+        |                      :                        |
+        |_______:______________:_____________:__________|
+          5/12  C     7/12           6/12    B   6/12
+
+
+A similar technique is used to make the other module.
+
+I did not need any staples.
+
+	-- jeannine mosely
+
+From mindcrf!ronnie@boris.mindcraft.com  Tue Mar  5 19:29:53 1991
+Return-Path: <mindcrf!ronnie@boris.mindcraft.com>
+Received: from ames.arc.nasa.gov by life.ai.mit.edu (4.1/AI-4.10) id AA18539; Tue, 5 Mar 91 19:29:53 EST
+Received: by ames.arc.nasa.gov (5.64/1.2); Tue, 5 Mar 91 16:29:48 -0800
+Received: by mindcrf.mindcraft.com (AIX  2.1.2/4.03)
+          id AA22779; Tue, 5 Mar 91 11:37:03 PST
+Received: by boris.mindcraft.com (AIX 1.3/4.03)
+          id AA33973; Tue, 5 Mar 91 11:45:27 -0800
+Date: Tue, 5 Mar 91 11:45:27 -0800
+From: mindcrf!ronnie@boris.mindcraft.com (Ronnie Kon)
+Message-Id: <9103051945.AA33973@boris.mindcraft.com>
+To: @ames.uucp:ai.ai.mit.edu!Cube-Lovers
+Subject: Is Meffert still around?
+
+	I am wondering if Meffert is still around, with his club to purchase
+new and interesting Cube products.  If he is, would somebody please send me
+his address and what the current membership fee is.  Also a price list.
+
+	If he is not, would people be interested in restarting such a club?
+I have a hard time believing that there aren't enough people for a cube-of-
+the-month club (or perhaps cube-of-the-quarter) as these things are not that
+complex (ie., expensive) to produce.  We might even be able to do runs in
+rolled aluminum instead of plastic.
+
+				Ronnie
+				kon@groundfog.stanford.edu
+
+From @po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu  Fri Mar  8 13:14:12 1991
+Return-Path: <@po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu>
+Received: from po5.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA27925; Fri, 8 Mar 91 13:14:12 EST
+Received: by po5.andrew.cmu.edu (5.54/3.15) id <AA07809> for Cube-Lovers@life.ai.mit.edu; Fri, 8 Mar 91 13:14:02 EST
+Received: via switchmail; Fri,  8 Mar 91 13:14:01 -0500 (EST)
+Received: from aurelia.weh.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q002/QF.4bpxFUK00Vos00SUUe>;
+          Fri,  8 Mar 91 13:13:53 -0500 (EST)
+Received: from aurelia.weh.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr18/dn1l/.Outgoing/QF.wbpxFN200Vos8A4kwF>;
+          Fri,  8 Mar 91 13:13:45 -0500 (EST)
+Received: from Messages.7.8.N.CUILIB.3.45.SNAP.NOT.LINKED.aurelia.weh.andrew.cmu.edu.pmax.3
+          via MS.5.6.aurelia.weh.andrew.cmu.edu.pmax_3;
+          Fri,  8 Mar 91 13:13:44 -0500 (EST)
+Message-Id: <EbpxFMW00Vos8A4kpp@andrew.cmu.edu>
+Date: Fri,  8 Mar 91 13:13:44 -0500 (EST)
+From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: 5x5x5 Cube
+
+I saw a 5x5x5 Cube (Rubik's type) in a friend's office (One of his
+office-mates had it.)(I left a message, but never got a response from
+him.)  I was wondering if anybody out there has seen one of these, and
+could point me in a direction that would lead to one?
+
+
+Thank You!
+
+Dale Newfield
+dn1l@andrew.cmu.edu
+
+From pbeck@pica.army.mil  Mon Mar 11 11:13:02 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA13397; Mon, 11 Mar 91 11:13:02 EST
+Date:     Mon, 11 Mar 91 11:10:46 EST
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: kon@groundfog.stanford.edu
+Cc: cube-lovers@life.ai.mit.edu
+Subject:  meffert
+Message-Id:  <9103111110.aa20787@FSAC1.PICA.ARMY.MIL>
+
+
+SHORT ANSWER:  Meffert's puzzle club is dead!
+
+MORE:  Meffert is alive and is trying to get back into the puzzle
+ business - if you want specific information Jerry Slocum, beverly
+hills has been in conatct with him.
+
+PUZZLE CLUBS, ETC.:  
+1 - the economics of a puzzle club is that well made  puzzles (both
+from a design and engineering perspective) cost $20 and up.
+2 - people interested in being current on whats happening in puzzles
+should subscribe to CFF, Puzzletopia and possible ARM (all have been
+discussed before)
+
+
+I have been busy but CFF#25 (silver aniverssary; cost $18) is 5
+volumes plus vendor catalogs (bandelow, constatin) and encompassses
+the last 10 tears of puzzling around the world.
+
+SOME RETAIL PUZZLE SOURCES:
+  cubes:   peter beck, usa
+              bandelow, germany
+              constatin, germany
+ other:  bits & pieces
+            kadon
+            jon foolery
+            science museum shops
+
+SOME WHOLESALE SOURCES:
+  USA,  PUZZLETTES
+  USA,  ISHI PRESS - JAPANESE PUZZLES
+  USA, TUCKER-JONES TAVERN PUZZLES (what Bush does on way to camp
+david)
+  UK, pentangle
+  French, Arjeu
+
+SOME NEWER PUZZLES:
+  magic cross, germany
+  masterball, swiss
+  rotos, german
+  new rubiks, europe
+  square one, milton bradley - in stores soon
+
+**  INTERNATIONAL PUZZLE PARTY (200+ worldwide attendees) 3/30/91 in
+LA.  Admittance by invitation.
+
+
+FURTHER DISCUSSION REQUESTED.
+
+From pbeck@pica.army.mil  Mon Mar 18 12:42:18 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA22344; Mon, 18 Mar 91 12:42:18 EST
+Date:     Mon, 18 Mar 91 12:36:36 EST
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Cc: pbeck@pica.army.mil
+Subject:  tcf 91
+Message-Id:  <9103181236.aa07170@FSAC1.PICA.ARMY.MIL>
+
+
+
+The  TRENTON COMPUTER FESTIVAL 1991 WILL BE THE 20 & 21 OF APRIL AT
+the same "OLD"  LOCATION  --> TRENTON STATE COLLEGE on state highway
+31 in Trenton NJ.  THIS IS THE LARGEST AND OLDEST AMATEUR COMPUTER
+FESTIVAL in the country.    I have a table selling puzzles in the
+fleamarket.
+
+
+<BECK@PICA.ARMY.MIL>   my best address
+
+
+
+
+From pbeck@pica.army.mil  Tue Mar 19 09:22:42 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA18445; Tue, 19 Mar 91 09:22:42 EST
+Received: by FSAC1.PICA.ARMY.MIL id aa09653; 19 Mar 91 9:18 EST
+Date:     Tue, 19 Mar 91 8:30:13 EST
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: rp@xn.ll.mit.edu, cube-lovers@life.ai.mit.edu
+Subject:  more on tcf
+Message-Id:  <9103190830.aa28520@FSAC1.PICA.ARMY.MIL>
+
+
+The  TRENTON COMPUTER FESTIVAL 1991 WILL BE THE 20 & 21 OF APRIL AT
+the same "OLD"  LOCATION  --> TRENTON STATE COLLEGE on state highway
+31 in Trenton NJ.  THIS IS THE LARGEST AND OLDEST AMATEUR COMPUTER
+FESTIVAL in the country.    I have a table selling puzzles in the
+fleamarket.
+
+TCF is a combination retail sales show, technical symposium and
+fleamarket sponsored by the amateur computer clubs in the
+NYC-philadelphia metro area.  It has a state fai atmosphere with a PC
+theme.  Attendees come mostly from east of the mississippi and average
+10-15,000 per day.  It lasts for 2 days.
+
+FLEAMARKET HOURS - it is outdoors and rain or shine, sat is ALWAYS
+best
+  sat 7am - 5pm
+  sun 9am- 4pm
+
+RETAIL COMMERCIAL SALES EXHIBITS - inside gymnasium
+  9-4 both days
+
+TECHNICAL LECTURES - inside
+  this is multi track
+  9-4 both days
+
+USER GROUP MEETINGS - inside
+  9-4 both days
+
+KEYNOTE BANQUET AND LECTURE
+ 8pm sat - notable speaker, eg, bill gates
+
+
+<BECK@PICA.ARMY.MIL>   my best address
+
+
+
+
+From pbeck@pica.army.mil  Thu Apr 11 09:21:50 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA00299; Thu, 11 Apr 91 09:21:50 EDT
+Date:     Thu, 11 Apr 91 9:17:33 EDT
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Cc: brodin@pica.army.mil
+Subject:  tcf correction
+Message-Id:  <9104110917.aa15850@FSAC1.PICA.ARMY.MIL>
+
+
+4/11/91  version
+
+The  TRENTON COMPUTER FESTIVAL 1991 WILL BE THE 20 & 21 OF APRIL "NOT"
+at the same "OLD"  LOCATION  --> ie, it is at MERCER COUNTY COMMUNITY
+COLLEGE not TRENTON STATE COLLEGE.  Directions are below, phone
+609/655-4898/4999 - SORRY for the previous misinformation.   THIS IS
+THE LARGEST AND OLDEST AMATEUR COMPUTER FESTIVAL in the country.    I
+have a table selling puzzles in the fleamarket.
+
+TCF is a combination retail sales show, technical symposium and
+fleamarket sponsored by the amateur computer clubs in the
+NYC-philadelphia metro area.  It has a state fair atmosphere with a PC
+theme.  Attendees come mostly from east of the mississippi and average
+10-15,000 per day.  It lasts for 2 days.
+
+ADMISSION -  $7 FOR SAT & SUN, $5 for sun only - students $3
+
+FLEAMARKET HOURS - it is outdoors and rain or shine, sat is ALWAYS
+best
+  sat 7am - 5pm
+  sun 9am- 4pm,  900 spots
+
+RETAIL COMMERCIAL SALES EXHIBITS - inside gymnasium
+  9-4 both days , 
+      exhibitors include: microsoft, HP, ashton-tate, software publ,
+micrografx, lotus, intel, adobe, borland, ast
+
+TECHNICAL LECTURES - inside
+  this is multi track, over 100 KEYNOTE SPEAKER; Fred Gibbons, CEO
+software publishing corp 9:30 AM in the theater, "What lies ahead for
+the software industry"
+  9-4 both days
+
+USER GROUP MEETINGS - inside
+  9-4 both days
+
+KEYNOTE BANQUET AND LECTURE
+ 8pm sat - notable speaker, eg, bill gates
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$
+map locator -->  MCCC is near the intersection of US #1 and I-295.
+
+Here's how to get to a parking space at TCF!
+
+Guaranteed parking is available at Mercer County Park, which surrounds
+the MCCC campus on three sides.  MCP has two entrances, one on Rt 535
+(Edinburg Rd. or Old Trenton Rd., depending on whether you're north or
+south of MCCC) and one on Hughes Drive.  My advice is to turn off at a
+park entrance.  HOWEVER, if you're early (on sat this means before 7
+on sun before 9) or if you're daring, continue past the park entrance
+to the College entrance.  If you're lucky, the gendarmes will let you
+on campus to look for a parking space.  IF THEY REFUSE YOU ACCESS,
+continue to the traffic light and turn (either LEFT onto Old Trenton
+Rd. or RIGHT onto Hughes Drive.) and proceed to the  Park entrance.
+
+FROM THE NORTH:
+
+1) VIA U.S. 1: Go south on US 1 and take the Rt 533 South
+(Quakerbridge
+Rd.) overpass.  After about two miles, turn left onto Hughes Dr.  The
+Park entrance will be on your left in about a mile, with the College
+entrance about 0.5 miles further.
+
+2) VIA N.J. TURNPIKE: Go south to Exit 8 (Hightstown) and get on Rt 33
+WEST.  In downtown Hightstown, turn right onto Rt 571 and follow.
+ Near
+GE Astro, turn left onto Rt 535.  The Park entrance is about 4 miles
+down
+the road, with the College entrance about a mile further.
+
+FROM THE SOUTH:
+
+1) VIA U.S. 1: Go north on Rt. 1 and turn right onto Rt 546 (at Mrs.
+G's
+Appliances).  Just after the overpass, turn right onto Youngs Rd.
+ Follow
+to the end and turn right onto Hughes Drive.  The Park entrance is
+about
+a mile away.
+
+2) VIA I-95: I-95 NORTH becomes I-295 SOUTH (don't ask!).  Take Exit
+65A,
+Sloan Rd and follow to the end (Sloan Rd. becomes Flock Rd. at the
+light -
+also don't ask!!).  Go left onto Old Trenton Rd.  The Campus entrance
+is
+by a jughandle turn, about a mile up Old Trenton Rd.  The Park
+entrance
+is on the left about a mile further up.
+
+3) VIA I-295: Follow I-295 NORTH to its temporary end at Rt 130, and
+go
+north to Rt. 206 where you will follow signs to TRENTON and then to
+
+I-295 NORTH. Take Exit 65A to Sloan Ave. and follow it to the end.  Go
+left
+on Old Trenton Rd.  The campus entrance is by a jughandle turn, about
+a mile up Old Trenton Rd.  The Park entrance is on the left about a
+mile further.
+
+4) VIA N.J. TURNPIKE:  Take Exit 7A to I-195 WEST.  Take the first
+exit,
+5B to Rt 130 NORTH.  Left at the first light onto Rt. 526  Bear left
+and take an immediate right, still on Rt 526.  At end, turn left onto
+Rt 535, Old Trenton Rd.  The Park entrance is a bout a mile away; the
+
+College, another mile.
+
+$$$$$$$$$$$$$$$$$$
+
+<BECK@PICA.ARMY.MIL>   my best address
+
+
+
+
+From pbeck@pica.army.mil  Mon Apr 22 15:35:39 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA21942; Mon, 22 Apr 91 15:35:39 EDT
+Date:     Mon, 22 Apr 91 15:20:08 EDT
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  puzzle party review
+Message-Id:  <9104221520.aa15409@FSAC1.PICA.ARMY.MIL>
+
+
+
+Review of the 11th  INTERNATIONAL PUZZLE PARTY
+ Held on March 30,31 1991 at the Pacifica Hotel Culver City, CA USA
+
+EVENTS
+..  Saturday
+          daytime - puzzle exchange; admission requirement a puzzle
+gift for each other attendee
+          evening - dinner party and magic show;  MAGICIANS:  Max
+Maven, Mark Setteducati, Mike Weber
+..  Sunday:  A ballroom is set up for cash sales of puzzles.
+
+CUBING HIGHLIGHTS
+..  Minh Thai gave a demonstration of doing the cube (he is Guiness
+world record holder).  His algorithm is:
+     1  -  corners first
+     2  -  3 of 4 edges on each face
+     3  -  last face
+..  Anneke Treep a founder of CFF was in attendance.  CFF will
+probably host 13th party scheduled for Europe.
+..  A spherical SKEWB is in production.  Very interesting puzzle.
+
+OTHER HIGHLIGHTS
+..  partial list of attendees (about 100 puzzlers attended):  
+     NOB, a prominent Japanese puzzler
+     Ed Hordern author of Sliding Block book published by OUP
+     Jerry Slocum, party arranger and author of Puzzles Old & New
+     Kathy Jones, owner of Kadon
+     Solomon Golomb, polycube inventor
+     Jose Grant, designer of jewelry quality puzzle rings
+     Scott Kim, inversions
+     Christoph Bandelow, German seller of magic polyhedra and author
+     Doug Engel, designer of circle puzzler, flexagon based puzzles
+     James Dalgety, a founder of Pentangle
+
+..  4 artists in attendance:  one makes sculptures that assemble as
+puzzles, one makes pattern assembly puzzles by vacuum deposition of
+metals on glass squares, one makes Tiffany style lamps using tangram
+pieces & silhouettes for the design, the last uses puzzles primarily
+for inspiration.
+..  
+
+
+FUTURE PARTY SCHEDULE
+-   12th  Tokyo Japan, Host NOB
+-   13th  Netherlands, host CFF
+-   14th  probably USA
+
+From mindcrf!ronnie@peabody.mindcraft.com  Mon Apr 22 20:09:08 1991
+Return-Path: <mindcrf!ronnie@peabody.mindcraft.com>
+Received: from ames.arc.nasa.gov by life.ai.mit.edu (4.1/AI-4.10) id AA00250; Mon, 22 Apr 91 20:09:08 EDT
+Received: by ames.arc.nasa.gov (5.64/1.2); Mon, 22 Apr 91 17:09:04 -0700
+Received: by mindcrf.mindcraft.com (AIX  2.1 2/4.03)
+          id AA01931; Mon, 22 Apr 91 16:35:45 PDT
+Received: by peabody.mindcraft.com (AIX 1.3/4.03)
+          id AA22704; Mon, 22 Apr 91 16:43:31 -0700
+Date: Mon, 22 Apr 91 16:43:31 -0700
+From: mindcrf!ronnie@peabody.mindcraft.com (Ronnie Kon)
+Message-Id: <9104222343.AA22704@peabody.mindcraft.com>
+To: @mindcrf:ames!ai.ai.mit.edu!Cube-Lovers
+Subject: 5-cube in a game store!!!
+
+	The GameKeeper (in the Valley Fair Mall in San Jose) actually has
+5x5x5 Rubik's cubes on sale (for $37 I think).  They had three in stock on
+Saturday.
+
+	Are we seeing a renascence of cubing?  This is certainly a welcome
+development.
+
+				Ronnie
+
+-------------------------------------------------------------------------------
+Ronnie B. Kon                         |  "I don't know about your brain, but
+kon@groundfog.stanford.edu            |	 mine is really bossy."
+...!{decwrl,ames,hpda}!mindcrf!ronnie |			-- Laurie Anderson
+-------------------------------------------------------------------------------
+
+From ncramer@bbn.com  Mon Apr 22 23:37:39 1991
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA04955; Mon, 22 Apr 91 23:37:39 EDT
+Message-Id: <9104230337.AA04955@life.ai.mit.edu>
+Date:     Mon, 22 Apr 91 21:01:31 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: Ronnie Kon <mindcrf!ronnie@peabody.mindcraft.com>
+Cc: Cube-Lovers@life.ai.mit.edu
+Subject:  Re:  5-cube in a game store!!!
+
+>Date: Mon, 22 Apr 91 16:43:31 -0700
+>From: Ronnie Kon <mindcrf!ronnie@peabody.mindcraft.com>
+>To: @BBN.COM,@mindcrf.uucp:ames!ai.ai.mit.edu!Cube-Lovers
+>Subject: 5-cube in a game store!!!
+>	The GameKeeper (in the Valley Fair Mall in San Jose) actually has
+>5x5x5 Rubik's cubes on sale (for $37 I think).  They had three in stock on
+>Saturday.
+>				Ronnie
+
+(First: personal to Ronnie: THANK YOU THANK YOU THANK YOU THANK YOU THANK
+YOU THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU
+I've been looking for a 5by for _years_.)
+
+I just called.  First, the cubes are at Games GALLERY (boy, you guys on the
+west coast sure have friendly, helpful phone operators.  Also store owners:
+when I called the nearest GamesKeeper that the operator could find, the
+manager there gave the number for Games Gallery!).  $27.95.  They got them
+from Dr Christopher <somethingortheother> in Germany.
+
+And, yes, they have a couple left after taking my phone order.  ;)
+
+Nichael
+
+BTW, Graham (the guy that I talked to at GG --is _everybody_ this friendly
+out there?) said they had about a half-dozen new Rubik's toys (i.e. "new" =
+post Rubik's Clock).  Including something called "Rubik's 15", which Graham
+(note how we're on a first-name basis now) described as "like the old 15-
+puzzle, but *NASTY*!"
+
+Does anybody know any of these?
+
+From hirsh@cs.rutgers.edu  Tue Apr 23 12:26:23 1991
+Return-Path: <hirsh@cs.rutgers.edu>
+Received: from pei.rutgers.edu by life.ai.mit.edu (4.1/AI-4.10) id AA26402; Tue, 23 Apr 91 12:26:23 EDT
+Received: by pei.rutgers.edu (5.59/SMI4.0/RU1.4/3.08) 
+	id AA09651; Tue, 23 Apr 91 12:26:19 EDT
+Sender: Haym Hirsh <hirsh@pei.rutgers.edu>
+Date: Tue, 23 Apr 91 12:26:16 EDT
+From: Haym Hirsh <hirsh@cs.rutgers.edu>
+Reply-To: Haym Hirsh <hirsh@cs.rutgers.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject: rubik's magic alternate coloring
+Cc: Haym Hirsh <hirsh@cs.rutgers.edu>
+Message-Id: <CMM-RU.1.0.672423976.hirsh@pei.rutgers.edu>
+
+After seeing my collection of Rubik's magics in my office, a student
+came by yesterday with a variation I hadn't seen before.  It is a 2x4
+version, but the 8 "tiles" are colored differently.  Each of the eight
+tiles has a "four-square" pattern -- the square is divided into four
+regions, each colored red, blue, yellow, or green.  The center of each
+is black with Rubik's signature on it.  The tiles thus look something
+like the following:
+
+	+----+----+
+	|Blue|Yell|
+	|   / \ ow|
+	+--+   +--+
+	|   \ /   |
+	|Red |Gree|
+	+----+----+
+
+(with Rubik's signature in the center)
+
+Both the front and back tiles have this four-square pattern.  However,
+on one side the order of colors on the tiles are all as in the picture
+above, and on the other side four have that order and the remaining
+four have yellow and green switched (so that blue and yellow are on
+opposite corners).
+
+I don't know if this description gets the idea across to those who
+have never seen one like this, but I'm more interested in those who
+have seen it.  Is anyone familiar with this version, and if so, what
+is the goal pattern to reach?  It turns out that the student worked at
+Bradlees (a downscale version of Kmart, if such a thing is possible)
+four years ago, and he got it from the returns bin, without any
+packaging.  I've looked at it briefly, and didn't come up with an
+obvious goal pattern.
+
+About the only other info that may be helpful is that the copyright
+for this variation is 1987.  The copyright for the original 2x4 is
+1986, and similarly for the 2x2 I have; the 2x6 is copyright 1987.
+
+Finally, since I am on the topic of the magic, I have heard a
+number of times about yet another version of the magic that can
+be folded into a cube.  Does anyone know any sources for it?
+(I thought for a while that the alternate-coloring version may
+be it, but it seems to have the same connectivity as the standard
+2x4.)
+
+Thanks for any help!
+
+Haym (hirsh@cs.rutgers.edu)
+
+From latto@lucid.com  Tue Apr 23 18:37:44 1991
+Return-Path: <latto@lucid.com>
+Received: from lucid.com by life.ai.mit.edu (4.1/AI-4.10) id AA08232; Tue, 23 Apr 91 18:37:44 EDT
+Received: from boston-harbor ([192.43.175.1]) by heavens-gate.lucid.com id AA15216g; Tue, 23 Apr 91 15:37:18 PDT
+Received: by boston-harbor id AA02639g; Tue, 23 Apr 91 18:40:21 EDT
+Date: Tue, 23 Apr 91 18:40:21 EDT
+From: Andy Latto <latto@lucid.com>
+Message-Id: <9104232240.AA02639@boston-harbor>
+To: hirsh@cs.rutgers.edu
+Cc: cube-lovers@life.ai.mit.edu, hirsh@cs.rutgers.edu
+In-Reply-To: Haym Hirsh's message of Tue, 23 Apr 91 12:26:16 EDT <CMM-RU.1.0.672423976.hirsh@pei.rutgers.edu>
+Subject: rubik's magic alternate coloring
+
+The version your student has is the one where the object is to fold it
+into a cube (I have it, with the instructions. Yes, it does have the
+same structure as the original 2x4 one---you can fold that one
+into a cube (with two "flaps") too. The object is to fold it
+into a cube where the colors of the three faces meeting at each corner
+always match.
+
+						Andy Latto
+						latto@lucid.com
+
+From @po2.andrew.cmu.edu:dn1l+@andrew.cmu.edu  Sat May  4 12:20:57 1991
+Return-Path: <@po2.andrew.cmu.edu:dn1l+@andrew.cmu.edu>
+Received: from po2.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA01850; Sat, 4 May 91 12:20:57 EDT
+Received: by po2.andrew.cmu.edu (5.54/3.15) id <AA01212> for Cube-Lovers@life.ai.mit.edu; Sat, 4 May 91 04:59:53 EDT
+Received: via switchmail; Sat,  4 May 91 04:59:53 -0400 (EDT)
+Received: from aurelia.weh.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q001/QF.Qc8bT1i00Vos80SUoR>;
+          Sat,  4 May 91 04:58:47 -0400 (EDT)
+Received: from aurelia.weh.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr18/dn1l/.Outgoing/QF.sc8bSqG00VosIKz1df>;
+          Sat,  4 May 91 04:58:30 -0400 (EDT)
+Received: from Messages.7.8.N.CUILIB.3.45.SNAP.NOT.LINKED.aurelia.weh.andrew.cmu.edu.pmax.3
+          via MS.5.6.aurelia.weh.andrew.cmu.edu.pmax_3;
+          Sat,  4 May 91 04:58:29 -0400 (EDT)
+Message-Id: <wc8bSpu00Vos0Kz1VT@andrew.cmu.edu>
+Date: Sat,  4 May 91 04:58:29 -0400 (EDT)
+From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: 5-cube in a game store!!!
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: <9104230337.AA04955@life.ai.mit.edu>
+References: <9104230337.AA04955@life.ai.mit.edu>
+
+I called and ordered things from this store in California, and just
+recieved things over the past two days.
+
+THE 5X5X5 CUBE!!!!!!!!
+
+(I just started the 5X5X5 about 2 hours ago, and already have all but a
+few on the bottom.  I think it will be MUCH easier than the 4X4X4.  It
+comes with instructs on how to open it, and I took it apart to look. 
+THIS DESIGN IS IMPRESSIVE!  You can make some REALLY neat patterns with
+the 5x5x5.)
+
+5x5x5 from:
+Dr. Christoph Bandelow
+Haarholzer Str.  13
+4620 Bochum 1
+Germany
+
+Write (Dr. Bandelow) for a free mail order catalog with many twisting
+puzzles and books about these puzzles.
+
+The new Rubik's things:
+
+Rubik's Dice:  
+	Rubik's Dice, unlike any other dice, has nothing to do with luck.  It
+has spots whose color can be changed from white to red and from red to
+white.  Rbik's Dice in fact, is a hollow cube with which has 7 plates
+inside it.  The plates are white with red dots on them.  The plates are
+loose but adhere to the inner sides of the cube.  By shaking and turning
+the cube, the postition and orientation of the plates can be changed and
+this in turn alters the color of the spots of the dice.
+	Object:	Re-arrange the plates within the cube in such a way that the
+dice has white and only white spots.  If red is shown anywhere on the
+dice even through the small controll holes -- the puzzle is not
+complete.  The number of possible combinations is 7! x 4^7=82,575,360. 
+There is however, ony one correct solution.
+
+Rubik's Tangle:
+	Rubik's Tngle has 25 square tiles each tile has the very same pattern
+of ropes, but the color of the ropes varies.
+	Object:	Lay down the tiles into a 5X5 square in such a way that each
+colored rop forms it's own continuous line.
+24! x 4^24 = 1746 x 10^38 ( I have a feeling it should be 25!, not 24!)
+2 correct solutions.
+
+4 different tangle puzzles.
+each worrks by itself (differently) and together they form a 10X10 grid
+that also works
+
+Rubik's Triamid
+	Dumb, and i'm tired, so I won't explain.  I'm disappointed in this one,
+don't buy it.
+
+Rubik's 15:
+	2 puzzles: one side is a magic square
+		 the other side is a fifteen puzzle
+ but the mechanisms that manouver pieces are SICK!
+both can't be solved at once.
+
+
+Sorry, I started typing in the sheet that explained them all, but i'm
+falling asleep, so I just finished by explaining them a little.
+
+Dale Newfield
+
+dn1l@andrew.cmu.edu
+
+
+From ncramer@bbn.com  Sun May  5 05:02:30 1991
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA19791; Sun, 5 May 91 05:02:30 EDT
+Message-Id: <9105050902.AA19791@life.ai.mit.edu>
+Date:     Sat, 4 May 91 17:58:35 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+Cc: Cube-Lovers@life.ai.mit.edu, Cube-Lovers@life.ai.mit.edu
+Subject:  Re:  5-cube in a game store!!!
+
+>Date: Sat,  4 May 91 04:58:29 -0400 (EDT)
+>From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+>To: Cube-Lovers@life.ai.mit.edu
+>Subject: Re: 5-cube in a game store!!!
+>
+>I called and ordered things from this store in California, and just
+>recieved things over the past two days.
+>
+>THE 5X5X5 CUBE!!!!!!!!
+
+Synchronicity!! I was just typing in a virtually identical message when
+Dale's posting came!  (D: thanks for saving me all the typing.  ;)
+
+>(I just started the 5X5X5 about 2 hours ago, and already have all but a
+>few on the bottom.  I think it will be MUCH easier than the 4X4X4.  It
+>comes with instructs on how to open it, and I took it apart to look. 
+
+Yeah, I think anyone who _understands_ how to work a 3by or a 4by (as
+opposed to merely memorizing cookbook solutions) should have no problem
+with it.
+
+I'm certainly no speed whiz.  The UPS man rang the doorbell at 1pm and I
+had scrambled and "solved" it by 3[*].  (Solved is in quotes because I had
+the cube completly done except that two non-central edge-cubies were
+flipped.  It took me another 15-20 minutes to back out and fix this.)
+
+  [* this includes feeding lunch to my two daughters and a few minutes of
+     code-debugging over the phone.]
+
+>THIS DESIGN IS IMPRESSIVE!  You can make some REALLY neat patterns with
+>the 5x5x5.)  
+
+(I've got one of mine completely covered in checkerboard patterns).
+
+As Dale says, the 5by seems very solid.  Probably this is because it has an
+odd number of cubes and so has the fixed center cubie.  Certainly it moves
+more consistently smoothly than my 4bys.  On the other hand, at least once
+I've felt one of the cubies start to pop out in my hand while I was turning
+it.
+
+Another thing: the cubies are starting to get pretty small.  The whole cube
+is only about 1/4 longer on each side than my 4by.
+
+My only concern is _where_ do these cubes actually come from?  The rest of
+my cubes (2X, 3X, 4X) have _all_ had the Rubik's symbol and copyright
+notices on them.  These 5bys have neither.  Could these be pirated cubes?
+On the other hand they seem solidly made and the colors are bright and
+distinct unlike most cheepy copy-cubes that I've seen.  But it's curious
+that there are no copyright notices _anywhere_ either the cube or the
+enclosing box.
+
+Oh well.  Something to keep my hands busy during those long compiles for
+the next couple of weeks.
+
+Cheers
+Nichael
+
+From mindcrf!roadrunner.mindcraft.com.mindcraft.com!ronnie@decwrl.dec.com  Fri May 10 19:17:14 1991
+Return-Path: <mindcrf!roadrunner.mindcraft.com.mindcraft.com!ronnie@decwrl.dec.com>
+Received: from uucp-gw-1.pa.dec.com by life.ai.mit.edu (4.1/AI-4.10) id AA24716; Fri, 10 May 91 19:17:14 EDT
+Received: by uucp-gw-1.pa.dec.com; id AA29312; Fri, 10 May 91 16:16:59 -0700
+Received: by mindcrf.mindcraft.com (AIX  2.1 2/4.03)
+          id AA15933; Wed, 8 May 91 13:12:19 PDT
+Received: by roadrunner.mindcraft.com.mindcraft.com (AIX 3.1/UCB 5.61/4.03)
+          id AA21608; Wed, 8 May 91 13:18:15 -0700
+Date: Wed, 8 May 91 13:18:15 -0700
+From: mindcrf!ronnie@roadrunner.mindcraft.com.mindcraft.com (Ronnie Kon)
+Message-Id: <9105082018.AA21608@roadrunner.mindcraft.com.mindcraft.com>
+To: @mindcrf.pa.dec.com:decwrl!ai.ai.mit.edu!Cube-Lovers
+Subject: Patterns on the order 5 cube
+
+	OK, for everybody out there with the 5-cube, this is the most difficult
+pattern I have come up with to implement (which is still highly ordered).
+
+
+Top:	|A|A|A|A|A|
+	|A|B|B|B|B|
+	|A|B|A|A|A|
+	|A|B|A|B|B|
+	|A|B|A|B|A|
+
+Front:	|B|C|B|C|B|	|C|A|C|A|C|	:thgiR
+	|B|C|B|C|C|	|A|A|C|A|C|
+	|B|C|B|B|B|	|C|C|C|A|C|
+	|B|C|C|C|C|	|A|A|A|A|C|
+	|B|B|B|B|B|	|C|C|C|C|C|
+
+
+Where this pattern is also present on the remaining 3 sides.  (This amounts
+to twirling a 4-cube, a 3-cube, a 2-cube and a 1-cube around a pair of
+diagonally opposite corners in alternating directions.  It's not difficult
+to do after you've done it a couple of times, but the potential for getting
+confused is surprising.
+
+				Ronnie
+
+From mindcrf!peabody.mindcraft.com!ronnie@decwrl.dec.com  Fri May 10 19:16:47 1991
+Return-Path: <mindcrf!peabody.mindcraft.com!ronnie@decwrl.dec.com>
+Received: from uucp-gw-1.pa.dec.com by life.ai.mit.edu (4.1/AI-4.10) id AA24712; Fri, 10 May 91 19:16:47 EDT
+Received: by uucp-gw-1.pa.dec.com; id AA29291; Fri, 10 May 91 16:16:33 -0700
+Received: by mindcrf.mindcraft.com (AIX  2.1 2/4.03)
+          id AA10398; Mon, 6 May 91 11:02:49 PDT
+Received: by peabody.mindcraft.com (AIX 1.3/4.03)
+          id AA22955; Mon, 6 May 91 11:14:02 -0700
+Date: Mon, 6 May 91 11:14:02 -0700
+From: mindcrf!ronnie@peabody.mindcraft.com (Ronnie Kon)
+Message-Id: <9105061814.AA22955@peabody.mindcraft.com>
+To: @mindcrf.pa.dec.com:decwrl!ai.ai.mit.edu!Cube-Lovers
+Subject: 5by cubes
+
+	As far as I can tell, if you can solve the order 3 and order 4 cube,
+you should be able to solve the order 5 with no additional fiddling, even if
+you only know cookbook solutions.
+
+	Spoiler follows:
+
+	I solve the off-center edges first (just like in the order 4 cube--
+the transformations are identical), then the corners (exactly like all other
+orders, from 2 through 4), then the center edges (exactly like the order 3
+cube, just treat the two edge faces as attached and you have an order 3
+cube).  All that's left are the eight centers.  Four of these can be solved
+exactly as in the order 4, and if you can't generalize your cookbook solution
+to solve the remaining 4 you have no business cubing.
+
+	I suspect this is why there are (and will probably never be) cubes of
+orders greater than 5.  I believe (though have not proved) that the 5 cube 
+contains all the complexity that is possible.  Adding more cubies would only
+increase the amount of time needed to solve.
+
+	On the other hand, I would be willing to pay a fair amount of money for
+an order 21 cube. :-)
+
+				Ronnie
+
+From mindcrf!peabody.mindcraft.com!ronnie@decwrl.dec.com  Fri May 10 19:16:59 1991
+Return-Path: <mindcrf!peabody.mindcraft.com!ronnie@decwrl.dec.com>
+Received: from uucp-gw-1.pa.dec.com by life.ai.mit.edu (4.1/AI-4.10) id AA24715; Fri, 10 May 91 19:16:59 EDT
+Received: by uucp-gw-1.pa.dec.com; id AA29296; Fri, 10 May 91 16:16:46 -0700
+Received: by mindcrf.mindcraft.com (AIX  2.1 2/4.03)
+          id AA13108; Tue, 7 May 91 15:06:05 PDT
+Received: by peabody.mindcraft.com (AIX 1.3/4.03)
+          id AA14556; Tue, 7 May 91 15:05:29 -0700
+Date: Tue, 7 May 91 15:05:29 -0700
+From: mindcrf!ronnie@peabody.mindcraft.com (Ronnie Kon)
+Message-Id: <9105072205.AA14556@peabody.mindcraft.com>
+To: @mindcrf.pa.dec.com:decwrl!ai.ai.mit.edu!Cube-Lovers
+Subject: Rubik's tangle
+
+>>> From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+>>> 
+>>> Rubik's Tangle:
+>>> 	Rubik's Tngle has 25 square tiles each tile has the very same pattern
+>>> of ropes, but the color of the ropes varies.
+>>> 	Object:	Lay down the tiles into a 5X5 square in such a way that each
+>>> colored rop forms it's own continuous line.
+>>> 24! x 4^24 = 1746 x 10^38 ( I have a feeling it should be 25!, not 24!)
+
+	No, I think the 24! is correct.  Since we don't count rotations as
+different, the first tile can be placed any way you want without affecting
+the outcome.
+
+				Ronnie
+
+From ncramer@bbn.com  Fri May 10 21:33:52 1991
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA26837; Fri, 10 May 91 21:33:52 EDT
+Message-Id: <9105110133.AA26837@life.ai.mit.edu>
+Date:     Fri, 10 May 91 20:45:08 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: Ronnie Kon <mindcrf!ronnie@peabody.mindcraft.com>
+Cc: cube-lovers@life.ai.mit.edu
+Subject:  Re:  5by cubes
+
+>Date: Mon, 6 May 91 11:14:02 -0700
+>From: Ronnie Kon <mindcrf!ronnie@peabody.mindcraft.com>
+>Subject: 5by cubes
+>	I suspect this is why there are (and will probably never be) cubes of
+>orders greater than 5.  I believe (though have not proved) that the 5 cube 
+>contains all the complexity that is possible.  Adding more cubies would only
+>increase the amount of time needed to solve.
+
+On the other hand, a 5X (or any cube of odd order) will still have the
+constraints imposed by a fixed center.  As a single example, the 4X here in
+my office is completely "solved" except that two opposite corners are
+swapped.  That's not something that can happen on a cube of odd order (at
+least I don't think so, but I would love to be proved wrong ;).
+
+N
+
+From latto@lucid.com  Fri May 10 22:55:59 1991
+Return-Path: <latto@lucid.com>
+Received: from lucid.com by life.ai.mit.edu (4.1/AI-4.10) id AA28273; Fri, 10 May 91 22:55:59 EDT
+Received: from boston-harbor ([192.43.175.1]) by heavens-gate.lucid.com id AA03012g; Fri, 10 May 91 19:54:56 PDT
+Received: by boston-harbor id AA29787g; Fri, 10 May 91 22:58:29 EDT
+Date: Fri, 10 May 91 22:58:29 EDT
+From: Andy Latto <latto@lucid.com>
+Message-Id: <9105110258.AA29787@boston-harbor>
+To: mindcrf!ronnie@peabody.mindcraft.com
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: Ronnie Kon's message of Mon, 6 May 91 11:14:02 -0700 <9105061814.AA22955@peabody.mindcraft.com>
+Subject: 5by cubes
+
+
+> On the other hand, I would be willing to pay a fair amount of money for
+> an order 21 cube. :-)
+
+You can't make an order 21 cube, or any cube of order 7 or higher.
+When you turn the top layer of such a cube by 45 degrees, the corner
+cubie will not touch the other layers at all, so there's
+no way to keep it attached, and it will fall off.
+
+						Andy Latto
+						latto@lucid.com
+
+From @po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu  Sat May 11 03:37:00 1991
+Return-Path: <@po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu>
+Received: from po5.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA01992; Sat, 11 May 91 03:37:00 EDT
+Received: by po5.andrew.cmu.edu (5.54/3.15) id <AA07929> for Cube-Lovers@life.ai.mit.edu; Sat, 11 May 91 03:36:19 EDT
+Received: via switchmail; Sat, 11 May 91 03:36:19 -0400 (EDT)
+Received: from yen.mg.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q002/QF.wc:turG00aw6E0SUB4>;
+          Sat, 11 May 91 03:35:20 -0400 (EDT)
+Received: from yen.mg.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr18/dn1l/.Outgoing/QF.oc:tul600aw6021mVg>;
+          Sat, 11 May 91 03:35:13 -0400 (EDT)
+Received: from Messages.7.8.N.CUILIB.3.45.SNAP.NOT.LINKED.yen.mg.andrew.cmu.edu.pmax.3
+          via MS.5.6.yen.mg.andrew.cmu.edu.pmax_3;
+          Sat, 11 May 91 03:35:12 -0400 (EDT)
+Message-Id: <Uc_tuki00aw6021mN6@andrew.cmu.edu>
+Date: Sat, 11 May 91 03:35:12 -0400 (EDT)
+From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: Rubik's tangle
+In-Reply-To: <9105072205.AA14556@peabody.mindcraft.com>
+References: <9105072205.AA14556@peabody.mindcraft.com>
+
+> Excerpts from internet.cube-lovers: 7-May-91 Rubik's tangle Ronnie
+> Kon@peabody.mindc (568)
+
+> >>> From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+> >>> 
+> >>> Rubik's Tangle:
+> >>> 	Rubik's Tngle has 25 square tiles each tile has the very same
+> pattern
+> >>> of ropes, but the color of the ropes varies.
+> >>> 	Object:	Lay down the tiles into a 5X5 square in such a way that each
+> >>> colored rop forms it's own continuous line.
+> >>> 24! x 4^24 = 1746 x 10^38 ( I have a feeling it should be 25!, not
+> 24!)
+
+> 	No, I think the 24! is correct.  Since we don't count rotations as
+> different, the first tile can be placed any way you want without
+> affecting
+> the outcome.
+
+> 				Ronnie
+
+
+No, Because off the rotation, the 4^25 goes down to 4^24, but again, I
+still think that it should be 25!, because there are that many pieces to
+be arranged.
+
+Dale
+
+From @po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu  Sat May 11 03:48:46 1991
+Return-Path: <@po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu>
+Received: from po5.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA02102; Sat, 11 May 91 03:48:46 EDT
+Received: by po5.andrew.cmu.edu (5.54/3.15) id <AA08019> for Cube-Lovers@life.ai.mit.edu; Sat, 11 May 91 03:48:42 EDT
+Received: via switchmail; Sat, 11 May 91 03:48:42 -0400 (EDT)
+Received: from yen.mg.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q002/QF.Uc:u6Sq00aw6I0SUE9>;
+          Sat, 11 May 91 03:47:44 -0400 (EDT)
+Received: from yen.mg.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr18/dn1l/.Outgoing/QF.0c:u6Q:00aw6421n9A>;
+          Sat, 11 May 91 03:47:40 -0400 (EDT)
+Received: from Messages.7.8.N.CUILIB.3.45.SNAP.NOT.LINKED.yen.mg.andrew.cmu.edu.pmax.3
+          via MS.5.6.yen.mg.andrew.cmu.edu.pmax_3;
+          Sat, 11 May 91 03:47:40 -0400 (EDT)
+Message-Id: <Yc_u6Q200aw6M21n0H@andrew.cmu.edu>
+Date: Sat, 11 May 91 03:47:40 -0400 (EDT)
+From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: 5by cubes
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: <9105110258.AA29787@boston-harbor>
+References: <9105110258.AA29787@boston-harbor>
+
+I solve the cubes in a way much different than lots that people have explained:
+
+(Don't read if you don't want!)
+
+I pick a "top" side and solve it.
+I put the centers together(on the order 3, this was REAL easy! :-)
+I put the edges together that go from the top to the bottom.
+I solve the bottom 4 corners
+I solve the bottom 4 middles.
+
+depending on which cube, the 2nd and 3rd steps are switched.
+
+I am only having one problem with the 5x5x5 cube, though:
+
+
+X|O|X|X|X
+X|X|X|X|X
+X|X|X|X|X
+X|X|X|X|X
+X|X|X|O|X
+
+looking at the bottom of my cube, the 2 pieces marked O are swaped
+sometimes, so that the face is still a solid color, but the sides are
+swapped.
+
+I also got it to have the swapped pieces near each other:
+
+X|X|X|X|X
+X|X|X|X|X
+X|X|X|X|X
+O|X|X|X|X
+X|X|X|O|X
+
+My question is this:
+
+I can't figure out what causes the swapping.
+Is it the because in this face,
+
+X|X|X|X|X
+X|O|I|O|X
+X|I|X|I|X
+X|O|I|O|X
+X|X|X|X|X
+
+the I's and the O's are in the "wrong" positions, even though they are
+indestingiushable?
+
+Dale Newfield
+
+From ncramer@bbn.com  Sun May 12 17:18:48 1991
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA19875; Sun, 12 May 91 17:18:48 EDT
+Message-Id: <9105122118.AA19875@life.ai.mit.edu>
+Date:     Sun, 12 May 91 17:12:57 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+Cc: Cube-Lovers@life.ai.mit.edu
+Subject:  Re: 5by cubes
+
+>Date: Sat, 11 May 91 03:47:40 -0400 (EDT)
+>From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+>To: Cube-Lovers@life.ai.mit.edu
+>Subject: Re: 5by cubes
+>Cc: Cube-Lovers@life.ai.mit.edu
+>
+>(Don't read if you don't want!)
+
+Ditto!   ;)
+
+>I am only having one problem with the 5x5x5 cube, though:
+>
+>X|O|X|X|X
+>X|X|X|X|X
+>X|X|X|X|X
+>X|X|X|X|X
+>X|X|X|O|X
+   ^   ^
+   1   2
+
+>looking at the bottom of my cube, the 2 pieces marked O are swaped
+>sometimes, so that the face is still a solid color, but the sides are
+>swapped.  [ ... ] I can't figure out what causes the swapping.
+
+Dale, 
+
+What is wrong is that *one* of the inner planes [marked 1 & 2 above] are a
+quarter turn [i.e. 90dgs] out of phase.
+
+1] The way I solve this is to turn one of the planes a quarter turn, [to
+get, for example the following]:
+
+>X|O|X|o|X      <--(Where "o" is the other face of the "O" above.)
+>X|X|X|Y|X
+>X|X|X|Y|X
+>X|X|X|Y|X
+>X|X|X|Y|X
+   ^   ^
+   1   2
+
+2] Then, to keep things straight in my head, I then "mark" the new position
+by replacing the center cubies in the turned plane to their correct
+positions (being careful not to mess with anything else --particularly the
+edge pieces):
+
+>X|O|X|o|X
+>X|X|X|X|X
+>X|X|X|X|X
+>X|X|X|X|X
+>X|X|X|Y|X
+   ^   ^
+   1   2
+
+There's a relatively simple operator to do this, which I leave as an
+exercise for the reader.  ;)
+
+(It's probably better to do this to all affected four faces, but you can
+save this until you have solved the edges.)
+
+3] This leaves you five inner, non-central edges to solve.  But it should
+be straightforward, so long as you be careful not to mess up anything else.
+
+Nichael
+
+From ncramer@bbn.com  Sun May 12 18:05:24 1991
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA20500; Sun, 12 May 91 18:05:24 EDT
+Message-Id: <9105122205.AA20500@life.ai.mit.edu>
+Date:     Sun, 12 May 91 18:01:38 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: dn1l+@andrew.cmu.edu
+Cc: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>, Cube-Lovers@life.ai.mit.edu
+Subject:  ARGGHHH!! [was: 5by cubes]
+
+>Date:     Sun, 12 May 91 17:12:57 EDT
+>From: Nichael Cramer <ncramer@BBN.COM>
+>To: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+>Subject:  Re: 5by cubes
+>>Date: Sat, 11 May 91 03:47:40 -0400 (EDT)
+>>From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+>>To: Cube-Lovers@life.ai.mit.edu
+>>I am only having one problem with the 5x5x5 cube, though:
+>>X|O|X|X|X
+>>X|X|X|X|X
+>>X|X|X|X|X
+>>X|X|X|X|X
+>>X|X|X|O|X
+>>looking at the bottom of my cube, the 2 pieces marked O are swaped
+>>sometimes, so that the face is still a solid color, but the sides are
+>>swapped.  [ ... ] I can't figure out what causes the swapping.
+
+[I write]:
+>Dale, [...]
+
+#$%@!! 
+
+I just realize that I answered the wrong question!  My answer was to the
+question:
+
+    "My cube is completely solved *except* that the 2 pieces marked `O' are
+     flipped."
+
+(Sorry.)  The right answer should be:
+
+The state of the cube is not:
+
+X|O|X|X|X                  X|A|X|C|X
+X|X|X|X|X                  X|X|X|X|X
+X|X|X|X|X     But rather:  X|X|X|X|X
+X|X|X|X|X                  X|X|X|X|X
+X|X|X|O|X                  X|X|X|B|X
+
+Where cubie "C" just "looks" like it's in the right place.
+
+You need an operator that rotates  A->B->C->A.  (Left as an exercise; hints
+available on request.)
+
+This will very likely leave an inconvenient number of edges flipped.  For
+the answer to _this_ problem, see my last post.  ;)
+
+Nichael-walks-with-the-red-face
+
+From @po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu  Mon May 13 00:51:55 1991
+Return-Path: <@po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu>
+Received: from po5.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA26112; Mon, 13 May 91 00:51:55 EDT
+Received: by po5.andrew.cmu.edu (5.54/3.15) id <AA11195> for Cube-Lovers@life.ai.mit.edu; Mon, 13 May 91 00:51:46 EDT
+Received: via switchmail; Mon, 13 May 91 00:51:46 -0400 (EDT)
+Received: from kwacha.mg.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q003/QF.Ac=VfYC00aw4I0SXg3>;
+          Mon, 13 May 91 00:49:43 -0400 (EDT)
+Received: from kwacha.mg.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr18/dn1l/.Outgoing/QF.Ec=VfSO00aw44igFVQ>;
+          Mon, 13 May 91 00:49:34 -0400 (EDT)
+Received: from Messages.7.8.N.CUILIB.3.45.SNAP.NOT.LINKED.kwacha.mg.andrew.cmu.edu.pmax.3
+          via MS.5.6.kwacha.mg.andrew.cmu.edu.pmax_3;
+          Mon, 13 May 91 00:49:34 -0400 (EDT)
+Message-Id: <Uc=VfSG00aw40igFNs@andrew.cmu.edu>
+Date: Mon, 13 May 91 00:49:34 -0400 (EDT)
+From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: 5by cubes
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: <9105110258.AA29787@boston-harbor>
+References: <9105110258.AA29787@boston-harbor>
+
+Excerpts from internet.cube-lovers: 10-May-91 5by cubes Andy
+Latto@lucid.com (383)
+
+>You can't make an order 21 cube, or any cube of order 7 or higher.
+>When you turn the top layer of such a cube by 45 degrees, the corner
+>cubie will not touch the other layers at all, so there's
+>no way to keep it attached, and it will fall off.
+
+
+There is no law that says that the cubes have to be the same size.
+
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+----+---+--+-+--+---+----
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+----+---+--+-+--+---+----
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+----+---+--+-+--+---+----
+XXXX|XXX|XX|X|XX|XXX|XXXX
+----+---+--+-+--+---+----
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+----+---+--+-+--+---+----
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+----+---+--+-+--+---+----
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+
+JUST AS AN EXAMPLE.
+
+From gls@think.com  Mon May 13 12:04:08 1991
+Received: from mail.think.com by life.ai.mit.edu (4.1/AI-4.10) id AA05129; Mon, 13 May 91 12:04:08 EDT
+Return-Path: <gls@Think.COM>
+Received: from Berlin.Think.COM by mail.think.com; Mon, 13 May 91 12:03:40 -0400
+Received: from Ukko.Think.COM by berlin.think.com; Mon, 13 May 91 12:04:01 -0400
+From: Guy Steele <gls@think.com>
+Received: by ukko.think.com; Mon, 13 May 91 12:03:50 EDT
+Date: Mon, 13 May 91 12:03:50 EDT
+Message-Id: <9105131603.AA01148@ukko.think.com>
+To: latto@lucid.com
+Cc: mindcrf!ronnie@peabody.mindcraft.com, Cube-Lovers@life.ai.mit.edu
+In-Reply-To: Andy Latto's message of Fri, 10 May 91 22:58:29 EDT <9105110258.AA29787@boston-harbor>
+Subject: 5by cubes
+
+   Date: Fri, 10 May 91 22:58:29 EDT
+   From: Andy Latto <latto@lucid.com>
+
+
+   > On the other hand, I would be willing to pay a fair amount of money for
+   > an order 21 cube. :-)
+
+   You can't make an order 21 cube, or any cube of order 7 or higher.
+   When you turn the top layer of such a cube by 45 degrees, the corner
+   cubie will not touch the other layers at all, so there's
+   no way to keep it attached, and it will fall off.
+
+Assuming the current technology, anyway.  But imagine a less passive
+approach.  Suppose each cubie had a cheap microprocessor, and some
+little latches.  Normally cubies hang onto their neighbors, but when
+they notice you are applying torque, they let go of their neighbors
+in just that one direction and hang on for dear life in the other two
+directions.  The latches can also be conducting in order to convey
+the necessary actuating power from a centrally placed battery.
+
+--Wild and Crazy Guy
+
+
+From hoey@aic.nrl.navy.mil  Mon May 13 14:46:09 1991
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA10029; Mon, 13 May 91 14:46:09 EDT
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA21231; Mon, 13 May 91 14:43:49 EDT
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Mon, 13 May 91 14:46:06 EDT
+Date: Mon, 13 May 91 14:46:06 EDT
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9105131846.AA12000@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@ai.mit.edu
+Subject: Very silly ways of building very large cubes (was Re: 5by cubes)
+Organization: Navy Center for Applied Research in AI
+
+Andy Latto <latto@lucid.com> wrote:
+
+>You can't make an order 21 cube, or any cube of order 7 or higher.
+>When you turn the top layer of such a cube by 45 degrees, the corner
+>cubie will not touch the other layers at all, so there's
+>no way to keep it attached, and it will fall off.
+
+Then "Dale I. Newfield" <dn1l+@andrew.cmu.edu> responded:
+
+>There is no law that says that the cubes have to be the same size.
+
+and showed that by making the outer layers thicker, we can increase
+the size of the cube.  There is another way around Andy Latto's con-
+cern, and that is that we can--at least in theory--design a physical
+cube that lets pieces overhang, such as corners that touch only two
+surfaces, and yet still holds the pieces so they cannot be removed.
+
+This idea (which came up in talks with Jim Saxe about a decade ago) is
+to slice up the cube with a fresnel saw.  A fresnel saw is used to cut
+a piece of glass into two fresnel lenses out of pieces of glass, and
+you find them in the same stores that sell plaid paint and jelly-
+doughnut cookie cutters.  (In case you don't know what a fresnel lens
+(pronounced freh-NEL) is, for this note it's sufficient to think of it
+as a surface with small concentric circular grooves in it.  Kind of
+like those old vinyl recordings people used to listen to, except that
+the grooves are circular instead of spiral, and the grooves don't
+wiggle back and forth.)
+
+Now if you have two surfaces with mating grooves--each one has a ridge
+that fits in each of the other's grooves--when you put them together
+you can twist one with respect to the other, but you can't slide one
+across the other, because the grooves are locked together.  There is
+one thing you can do that we don't want: you can lift one slab away
+from the other.
+
+The solution now is to get a *very* *sharp* fresnel saw, that cuts
+hooked grooves that interlock with each other.  You get surfaces with
+cross sections that look somewhat like
+
+                            hook-in surface                    
+       _________       _______________________       _________       
+\     /         \     /           .           \     /         \     /    
+ |   |           |   |            |            |   |           |   |
+ |   |  __       |   |  __        .        __  |   |       __  |   |     
+ |   |    \      |   |    \       |       /    |   |      /    |   |     
+  \   \___/|      \   \___/|      .      |\___/   /      |\___/   /      
+   \       |       \       |      |      |       /       |       /       
+    \_____/         \_____/       .       \_____/         \_____/        
+        _____           _____________________           _____           
+       /     \         /          |          \         /     \          
+      | ___   \       | ___       .       ___ |       /   ___ |
+      |/   \   \      |/   \      |      /   \|      /   /   \|
+       \__  |   |      \__  |   axis    |  __/      |   |  __/
+            |   |           |    of     |           |   |       
+            |   |           | rotation  |           |   |
+___________/     \_________/             \_________/     \_____
+
+                           hook-out surface
+
+except that the surfaces are closer, so the hooked grooves are engaged
+with each other.  (Now we see why we need a fresnel saw, so that we
+can cut the two mating surfaces in one cut, and avoid the problem of
+trying to assemble two separated pieces (though we could get around
+that difficulty messily with glue)).
+
+So we may cut up a 2n+1 x 2n+1 x 2n+1 cube with a fresnel saw, to make
+a large Rubik's cube.  The only really touchy point is the need to
+make the ``direction'' of each cut match the direction of the other
+cuts at that ``depth.''  Here, direction refers to whether the hook-in
+surface faces toward the nearest parallel side or away from that side,
+and ``depth'' refers to the distance from the nearest parallel side.
+This ensures that when we permute cubies around the directions of the
+groove hooks will not change, so the grooves will always mate.
+
+If n is large, then pieces of one slab will overhang at each turn, so
+you can see the grooves on a whole surface of a corner, or on two
+surfaces of an edge piece.  But you can't pull the piece off, because
+it won't move straight with respect to the rest of the cube, only in
+curved trajectories.  We have to keep the fresnelling small with
+ respect to the size of the cubies, and the tolerances are pretty
+tight, but that's the regime we theoretical engineers are working in.
+(I'd like to mention that cubes made with this method also have the
+nice feature that there's a 2n-1 x 2n-1 x 2n-1 Rubik's cube on the
+inside, so you can play with the theoretical invisible group while
+you're at it.)
+
+Now what about cubes of even side?  The fresnel saw cuts two surfaces
+that mate to each other but not to themselves.  How can we get a
+surface that mates to itself?  I think the answer is that we can't.
+But this doesn't mean we are out of luck, as there are several ways of
+fixing up the center cuts of these cubes.  Perhaps easiest way is to
+embed a 2x2x2 cube in the center of the original solid cube, and use
+it to hold the octants together.  Unfortunately, this method requires
+an appeal to the existence of even-sided cubes, rather than teaching
+us how to build them.
+
+The other ways of finessing the center cut involve the thin-center-
+slab approach.  You know you can simulate a 2x2x2 pocket cube with the
+corners of a regular 3x3x3 Rubik's cube, and similarly you can
+simulate any even cube with a larger odd cube.  Also, we can make that
+center slab very thin, so it becomes part of the supporting structure
+rather than a significant part of the cube.  We also remove the cor-
+ners from the center slab, so it does not protrude from the cube.  We
+may even make covers for the cubies slabs adjacent to the center, to
+cover up the crack where the center slab lives.  We are ready to cube!
+
+Or are we?  The thin-center-slab suffers from the partial-twist
+problem.  We can see this in the simulation of the 2x2x2 by a 3x3x3.
+If you try to simply ignore the center slabs, you can end up with the
+corners being aligned with each other but with a center slab twisted
+by 45 degrees.  This makes it impossible to turn the corners except in
+the plane parallel to the oblique slab.  If we shrink the center slab
+enough that it becomes unnoticeable, we will still be unable to twist
+the cube except in one direction except by breaking the center slab.
+
+The first solution to the partial-twist-problem is to select one of
+the eight near-central cubies, a cubie that abuts the center slabs on
+three sides.  We then glue the adjacent parts of the center slabs to
+that cubie.  Then when we turn along the center slice(s), the glued
+part of the thin center slab will follow the selected cubie, and will
+push the rest of the thin center slab along.  This is a modification
+of the solution that is taken inside Rubik's Revenge, as I described
+to this group in my Invisible Revenge article of 9 August 1982.
+
+I like this solution except for one thing.  It destroys the symmetry
+of the cube, by selecting one specialized octant that the center slab
+must follow.  There is one more solution, though, that keeps the cube
+symmetric, which is *even* *sillier* than the thin center slab itself.
+Let us now visualize the center slab.  It has the corners removed, so
+it is in the shape of a disc.  The disc is cut in a grid pattern by
+the cuts from perpendicular planes.  Now suppose we cut each slab in a
+second grid pattern, with the grid at a 45 degree offset from the
+original.  With such a center slab, the cube can be twisted if each
+slab grid is in the correct position, or if some are at a 45 degree
+offset from the correct position.
+
+And how shall we prevent turns of less than a 45 degrees?  Gears!
+Embed tiny gears in each fragment of the center slab, that contact
+tiny toothed tracks in the adjacent slabs on both sides.  This will
+force the center slab to turn at exactly half the angular rate of one
+half of the cube with respect to the other.  Thus when the off-center
+slabs of the cube are aligned, the center slab will be at one of the
+positions that allows twisting.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+From latto@lucid.com  Tue May 14 16:46:39 1991
+Return-Path: <latto@lucid.com>
+Received: from lucid.com by life.ai.mit.edu (4.1/AI-4.10) id AA26858; Tue, 14 May 91 16:46:39 EDT
+Received: from boston-harbor ([192.43.175.1]) by heavens-gate.lucid.com id AA08804g; Tue, 14 May 91 10:50:14 PDT
+Site: 
+Received: by boston-harbor id AA10376g; Tue, 14 May 91 13:54:02 EDT
+Date: Tue, 14 May 91 13:54:02 EDT
+From: Andy Latto <latto@lucid.com>
+Message-Id: <9105141754.AA10376@boston-harbor>
+To: gls@think.com
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: Guy Steele's message of Mon, 13 May 91 12:03:50 EDT <9105131603.AA01148@ukko.think.com>
+Subject: 5by cubes
+
+Should you really be posting the secret proposed architecture
+for the CM-6 to a publicly available mailing list?
+
+:-) :-)
+
+					Andy
+					latto@lucid.com
+
+From kon@bach.stanford.edu  Tue May 14 21:14:14 1991
+Return-Path: <kon@bach.stanford.edu>
+Received: from bach.Stanford.EDU by life.ai.mit.edu (4.1/AI-4.10) id AA02844; Tue, 14 May 91 21:14:14 EDT
+Received: by bach.Stanford.EDU (4.1/inc-1.0)
+	id AA00195; Tue, 14 May 91 18:14:11 PDT
+Date: Tue, 14 May 91 18:14:11 PDT
+From: kon@bach.stanford.edu (Ronnie Kon)
+Message-Id: <9105150114.AA00195@bach.Stanford.EDU>
+To: mindcrf!ronnie@peabody.mindcraft.com, ncramer@bbn.com
+Subject: Re:  5by cubes
+Cc: cube-lovers@life.ai.mit.edu
+
+>>	I suspect this is why there are (and will probably never be) cubes of
+>>orders greater than 5.  I believe (though have not proved) that the 5 cube 
+>>contains all the complexity that is possible.  Adding more cubies would only
+>>increase the amount of time needed to solve.
+>
+>On the other hand, a 5X (or any cube of odd order) will still have the
+>constraints imposed by a fixed center.  As a single example, the 4X here in
+>my office is completely "solved" except that two opposite corners are
+>swapped.  That's not something that can happen on a cube of odd order (at
+>least I don't think so, but I would love to be proved wrong ;).
+
+Wow!  I could have sworn I have gotten to this position before, but you are
+very definitely correct.  The state with two diagonal corners swapped is in
+the orbit with edge cubies exchanged.
+
+				Ronnie
+
+From kon@bach.stanford.edu  Tue May 14 21:31:35 1991
+Return-Path: <kon@bach.stanford.edu>
+Received: from bach.Stanford.EDU by life.ai.mit.edu (4.1/AI-4.10) id AA03214; Tue, 14 May 91 21:31:35 EDT
+Received: by bach.Stanford.EDU (4.1/inc-1.0)
+	id AA00208; Tue, 14 May 91 18:31:33 PDT
+Date: Tue, 14 May 91 18:31:33 PDT
+From: kon@bach.stanford.edu (Ronnie Kon)
+Message-Id: <9105150131.AA00208@bach.Stanford.EDU>
+To: dn1l+@andrew.cmu.edu, ncramer@bbn.com
+Subject: Re:  ARGGHHH!! [was: 5by cubes]
+Cc: Cube-Lovers@life.ai.mit.edu
+
+>
+>(Sorry.)  The right answer should be:
+>
+>The state of the cube is not:
+>
+>X|O|X|X|X                  X|A|X|C|X
+>X|X|X|X|X                  X|X|X|X|X
+>X|X|X|X|X     But rather:  X|X|X|X|X
+>X|X|X|X|X                  X|X|X|X|X
+>X|X|X|O|X                  X|X|X|B|X
+>
+>Where cubie "C" just "looks" like it's in the right place.
+>
+>You need an operator that rotates  A->B->C->A.  (Left as an exercise; hints
+>available on request.)
+>
+>This will very likely leave an inconvenient number of edges flipped.  For
+>the answer to _this_ problem, see my last post.  ;)
+
+I think you must be wrong here (but would love to be proved wrong--I'm no
+mathematician so group theory is very much beyond me).
+
+Proof #1:
+	We hold the cube with the red face on top, and the yellow face in
+front (colors obviously don't matter, but I find it easier to discuss using
+them).  We will assign a parity to the edge cubies, being defined by holding
+the cube such that the red face of the cubie is on top and the yellow in
+front.  If the cubie is on the left as we look at it in this position it is
+parity 0, on the right it is parity 1.
+
+	There are only two operations available which affect the cubie we
+are interested in: rotating the front face 90deg; and rotating the slice the
+cubie is in 90deg.  It is easy to see that neither of these moves alters the
+parity (assume the cubie's frame of reference, and think of rotating the
+rest of the cube around it--it is clear that it will not end up on the other
+side).
+
+	Therefore the move C->A in the above is impossible.
+
+Proof #2:
+	Take apart the order 4 cube (my falls apart depressingly easilly)
+and try to reassemble it with the two edges exchanged.  It will not fit, as
+they are mirror images of each other.
+
+
+
+	Note that you get an apparant parity reversal by flipping the
+cubies, but this does not actually move anything.  In other words, no amount
+of flipping and moving will allow you to end up moving A->B->C->A.  That's
+why I solve edges first.
+
+				Ronnie
+
+From ncramer@bbn.com  Wed May 15 22:52:53 1991
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA21390; Wed, 15 May 91 22:52:53 EDT
+Message-Id: <9105160252.AA21390@life.ai.mit.edu>
+Date:     Wed, 15 May 91 22:09:23 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: Ronnie Kon <kon@bach.stanford.edu>
+Cc: dn1l+@andrew.cmu.edu, ncramer@bbn.com, Cube-Lovers@life.ai.mit.edu
+Subject:  Re:  ARGGHHH!! [was: 5by cubes]
+
+Ronnie Kon <kon@bach.stanford.edu> writes:
+>I write:
+>>The state of the cube is not:
+>>
+>>X|O|X|X|X                  X|A|X|C|X
+>>X|X|X|X|X                  X|X|X|X|X
+>>X|X|X|X|X     But rather:  X|X|X|X|X
+>>X|X|X|X|X                  X|X|X|X|X
+>>X|X|X|O|X                  X|X|X|B|X
+>>
+>>Where cubie "C" just "looks" like it's in the right place.
+>>
+>>You need an operator that rotates  A->B->C->A.  [...]
+>>
+>>This will very likely leave an inconvenient number of edges flipped.  For
+>>the answer to _this_ problem, see my last post.  ;)
+>
+>I think you must be wrong here (but would love to be proved wrong--I'm no
+>mathematician so group theory is very much beyond me).
+>
+> [Proofs deleted.]
+
+Hi.
+
+I think we're in complete agreement, at least up to here.  (I particularly
+enjoyed your "proof by hardware ;).
+
+I didn't mean to imply that the A->B->C->A operator preserved flipped-ness
+of the Non-Central-Edge[NCE] Cubies.  Moreover, I was being imprecise
+where I said "a NCE cubie is simply flipped"; rather "the cubie *appears*
+as if it were in the right place (i.e. judged by its colors) and flipped".
+As you point out, *really* means that it is in the slot of its "twin".
+
+To recap more succinctly, what I was proposing was a rather pedestrian,
+two-step solution to the original problem.  Starting from the initial
+state in FIG1 (where the cube is completely "solved" except that the
+cubies marked "O" are swapped.  Also they are swapped in such a way that
+the visible face is all a single color).
+
+FIG1: X|O|X|X|X                      FIG2: X|Q|X|Q|X
+      X|X|X|X|X                  	   X|X|X|X|X
+      X|X|X|X|X     A->B->C->A gives:      X|X|X|X|X
+      X|X|X|X|X                  	   X|X|X|X|X
+      X|X|X|O|X                  	   X|X|X|X|X
+
+STEP1] If we then apply the A->B->C->A operator, we end up with the state
+in FIG2, where the cube is completely "solved" except that the cubies
+marked "Q" "appear" to be "simply" flipped.
+
+STEP2] We can then solve this problem, which (imo) is easier.  For example
+see the method that I described in an earlier post; this involves turning
+the non-central plane (containing the flipped cubie) through a quarter turn.
+
+Of course, now that I say it, it seems that the correct course would be to
+*start* with the quarter turn of the non-central plane.  This would leave
+five NCE cubies out of place, but the cube would be in the right orbit.
+From there the solution should be straightforward (e.g. two intersecting
+3-cycles).
+
+Finally, it seems clear that this entire problem --and all the subsequent
+discussion-- maps directly onto a virtually identical problem on the 4by
+cube (i.e. simply be removing the center planes).
+
+>Note that you get an apparant parity reversal by flipping the cubies, but
+>this does not actually move anything.  In other words, no amount of
+>flipping and moving will allow you to end up moving A->B->C->A.  That's
+>why I solve edges first.
+
+Again, perhaps I'm missing the point, but if you don't care about how
+the flipping comes out, the A->B->C->A  3-cycle is certainly doable:
+
+For example:
+
+[WARNING: EVEN MORE BORING STUFF AHEAD!!   ;]
+
+(I have no idea how to show this notationally, so I'll try pictorially.)
+
+                         |
+1]                    2] V                  3]
+ X|A|X|C|X             X|Y|X|C|X           ->Z|Z|Z|Z|Z
+ X|X|X|X|X             X|Y|X|X|X             X|Y|X|X|X
+ X|X|X|X|X             X|Y|X|X|X             X|Y|X|X|X
+ X|X|X|X|X             X|Y|X|X|X             X|Y|X|X|X
+ X|X|X|B|X             X|A|X|B|X             X|A|X|B|X
+
+
+4]                   5]                     6]
+ Z|A|Z|Z|Z             X|B|X|X|X             X|B|X|X|X
+ X|X|X|X|X             X|X|X|X|X             X|X|X|X|X
+ X|X|X|X|X             X|X|X|X|X             X|X|X|X|X
+ X|X|X|X|X             X|X|X|X|X             X|X|X|X|X
+ X|X|X|B|X             Z|Z|Z|A|Z           ->?|?|?|?|?
+   ^
+   |                  [Rotate Face           
+                       one-half turn]
+
+      >---
+7]        \           8]                    9]
+ X|B|X|X|X \           X|B|X|X|X             Z|C|Z|Z|Z
+ X|X|X|X|X |           X|X|X|X|X             X|X|X|X|X
+ X|X|X|X|X |           X|X|X|X|X             X|X|X|X|X
+ X|X|X|X|X V           X|X|X|X|X             X|X|X|X|X
+ ?|?|?|?|?             Z|Z|Z|C|Z<-           X|X|X|B|X 
+      
+ [Rotate next-                              [Rotate Face
+  to-bottom                                  one-half turn]
+  plane 1/4 Turn]
+
+                            <----
+10]                   11]        \          12]
+  Z|C|Z|Z|Z             Z|C|Z|Z|Z \           Z|C|Z|Z|Z
+  X|X|X|X|X             X|X|X|X|X |           X|X|X|X|X
+  X|X|X|X|X             X|X|X|X|X |           X|X|X|X|X
+  X|X|X|X|X             X|X|X|X|X ^           X|X|X|X|X
+->?|?|?|?|?             ?|?|?|?|?             X|X|X|A|X<-
+
+                        [Rotate next-
+                         to-bottom
+                         plane 1/4 turn]
+
+    |
+13] V                 14]                   15]
+  Z|Z|Z|Z|Z             X|Y|X|B|X<-           X|C|X|B|X
+  X|Y|X|X|X             X|Y|X|X|X             X|X|X|X|X
+  X|Y|X|X|X             X|Y|X|X|X             X|X|X|X|X
+  X|Y|X|X|X             X|Y|X|X|X             X|X|X|X|X
+  X|C|X|A|X             X|C|X|A|X             X|X|X|A|X
+                                                ^
+                                                |
+
+
+                         Cub.E.D
+
+
+From pbeck@pica.army.mil  Tue May 21 11:10:45 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA22456; Tue, 21 May 91 11:10:45 EDT
+Date:     Tue, 21 May 91 11:03:02 EDT
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  bilinski rhombicdodecahedron
+Message-Id:  <9105211103.aa16846@FSAC1.PICA.ARMY.MIL>
+
+
+
+
+I would like help on finding info on the "BILINSKI" rhombic
+dodecahedron.  
+
+BACKGROUND:  The common rhombic dodecahedron is the  KEPLER and its
+diagonals are in the ratio of 1:sqr rt of 2.   The Bilinski has its
+diagonals in the ratio of 1:tau  (ie, the golden section ~ 1.618). 
+ The only reference I have been able to find so far is on page 31 of
+Coxeter's "Regular Polytopes".
+
+
+AREAS OF INTEREST
+..  Is there a proof of why there are only 2 rhombic dodecahedrons?
+..  are there any interesting features of how the Bilinski fills
+space?  Any interesting relationships with other polygons, eg,
+triacontahedron?
+..  Has anybody studied the dissections of the bilinski?  Is there any
+significance that it takes both obtuse and acute rhomboids to
+construct a bilinski while a kepler only requires an obtuse?
+..  Is there a crystal or some other real world object that
+corresponds to the bilinski?
+..  Any ideas on fixturing/jigging to make bilinski's from wood?
+
+
+Thanks for any help.  
+Pete Beck   <pbeck@pica.army.mil>
+
+
+
+
+
+From gdparker@nike.calpoly.edu  Wed May 22 04:25:46 1991
+Return-Path: <gdparker@nike.calpoly.edu>
+Received: from nike.calpoly.edu (morpheus.CalPoly.EDU) by life.ai.mit.edu (4.1/AI-4.10) id AA14318; Wed, 22 May 91 04:25:46 EDT
+Received: by nike.calpoly.edu (5.61-AIX-1.2/1.0)
+	id AA837751 (for cube-lovers@life.ai.mit.edu, from gdparker/gdparker@nike.calpoly.edu); Wed, 22 May 91 01:25:48 -0700
+Date: Wed, 22 May 91 01:25:48 -0700
+From: gdparker@nike.calpoly.edu (Gene Dillon Parker)
+Message-Id: <9105220825.AA837751@nike.calpoly.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject: mailing list
+
+
+  Hi there,
+        Im an Aero/CSC major at Cal Poly and would like to be added to your dail
+y mailing list.
+ 
+                login:   gdparker
+                where:  polyslo.calpoly.edu
+ 
+                        Please include me in the list or E-mail me the info need
+ed to do so. Thanks!
+ 
+ 
+                                        Gene Parker
+                                        gdparker
+ 
+Cc:
+
+
+From pbeck@pica.army.mil  Wed May 22 10:23:37 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA03468; Wed, 22 May 91 10:23:37 EDT
+Date:     Wed, 22 May 91 10:16:47 EDT
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  slide
+Message-Id:  <9105221016.aa14580@FSAC1.PICA.ARMY.MIL>
+
+
+
+ANNONCEMENT OF "SLIDE" - A Sliding Block Puzzle Simulation Program
+
+DESCRIPTION:  "SLIDE"  is a Sliding Block Puzzle Simulation Program
+based on the book "Sliding Block Puzzles", by Ed Hordern, 1986 Oxford
+University Press.  It comes on one 360K floppy with an instruction
+booklet.  The booklet tells you how to install the program, how to use
+it (program does have help files) and how to add your own puzzles.  It
+is in color and REQUIRES a mouse to move the pieces.
+
+It has all of hordern's puzzles including the background notes for
+each, eg, name, producer.  The program gives you the minimum number of
+moves, the object of the puzzle and a randomized version to test your
+skill.
+
+The version I have was obtained at the 11th International Puzzle Party
+3/30/91 and is mostly bug free.  The author is in the process of
+updating it and will make updates available at cost (for now anyhow).
+
+I recommend  "SLIDE" for everyone with a PC who enjoyed Hordern's
+book.
+
+PRICE:    50 dutch Guilders
+SOURCE:  H.J.M. van Grol (Rik) (the author),  
+               van Hogendorpstraat 1a,  
+               2515 NR DEN HAAG, 
+               The Netherlands
+COMPUTER REQUIREMENTS:  MS-DOS machine with one 360K floppy minimum;
+can use 1.2 MB and harddisk if available.  REQUIRES a mouse.  Best
+with EGA, okay with VGA, needs user defined configuration for Herc or
+CGA.
+
+
+
+From phygillen@cs8700.ucg.ie  Mon Jun 24 12:19:58 1991
+Return-Path: <phygillen@cs8700.ucg.ie>
+Received: from mcsun.EU.net by life.ai.mit.edu (4.1/AI-4.10) id AA13541; Mon, 24 Jun 91 12:19:58 EDT
+Received: by mcsun.EU.net via EUnet;
+	id AA29698 (5.65a/CWI-2.95); Mon, 24 Jun 91 18:19:53 +0200
+Received: from swift by macneill.macneill.cs.tcd.ie id aa19206;
+          24 Jun 91 17:14 GMT
+Received: from cs8700.ucg.ie by cs.tcd.ie with PMDF#10597; Mon, 24 Jun 1991
+ 17:11 +0100
+Date: Mon, 24 Jun 91 17:08 GMT
+From: Patsy Gillen <PHYGILLEN@cs8700.ucg.ie>
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <CEE94BE780219C6C@cs.tcd.ie>
+X-Envelope-To: cube-lovers@ai.ai.mit.edu
+X-Vms-To: IN%"cube-lovers@ai.ai.mit.edu"
+
+SUBCRIBE Rubic's Patrick Gillen
+
+From pbeck@pica.army.mil  Mon Jul 29 18:16:19 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA01907; Mon, 29 Jul 91 18:16:19 EDT
+Date:     Mon, 29 Jul 91 14:02:26 EDT
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  chess variants
+Message-Id:  <9107291402.aa16288@FSAC1.PICA.ARMY.MIL>
+
+
+
+ANNOUNCEMENT OF "World Game Review special issue #10" - CHESS
+variations:  rules & sample games, reviews, index & bibliography
+
+DESCRIPTION:  This a a special edition devoted only to chess.  It is
+100   81/2 x 11 pages.   The breadth is indicated by the front cover
+illustration of the 6 most popular chess variant boards (8x8, 10x10,
+4x16,  most common 4 handed board,  xiang qi,  3 colored hexagonal)
+and the rear cover illustration of 7 other boards (tesche's 3 handed,
+petroff's 4 handed, de vasa's tricolor, rutland's, decimal oriental
+chess, double rettah, petty).
+
+TABLE OF CONTENTS BY HEADING & PAGE NUMBER:
+1..  COLOPHON
+2..  TABLE OF CONTENTS
+3..  EDITORIAL & ACKNOWLEDGEMENTS
+4..  GENERAL OBSERVATIONS
+5..  APPEAL FOR INFORMATION , DAVID PRITCHARD IS WRITING A BOOK -
+ENCYCLOPEDIA OF CHESS VARIANTS & TERMS
+7..  NOTATION
+8..  GENERAL RULES, BEST VARIANTS
+9..  CV ORGANIZATIONS
+10..  GAMES NEWS
+12..  BOOK & MAG REVIEWS - SHOGI WORLD, CHINESE CHESS, CHINESISCHE,
+SCHACH/KOREANISCHES SCHACH, CHINESE CHESS FOR BEGINNERS
+14..  GAME REVIEWS - 4 WAY CHESS, FORAY, BATTLE CHESS II
+15..  CV TIMELINE
+---  A PANORAMA OF CHESS VARIANTS
+16..  MODIFICATIONS TO FORCES
+30..  MODIFICATIONS TO BOARD
+40..  MODIFICATIONS TO MOVEMENT
+52..  MODIFICATIONS TO RULES OF CAPTURE
+63..  OTHER MODS
+69..  SAMPLE GAMES
+72..  COMPUTERES AND ...
+73..  ADDITIONAL PIECES
+74..  ADDITIONAL RULES
+76..  INVENTORS
+78..  BIBLIOGRAPHY  
+82..  ADDRESSES
+84..  INDEX OF VARIATIONS
+
+
+PRICE:    US$10
+SOURCE:  WGR
+              C/O  MICHAEL KELLER
+              3367-I NORTH CHATAM ROAD
+              ELLICOTT CITY, MD, 21042
+
+
+PLEASE DON'T ASK ME ANY QUESTIONS ABOUT CHESS, I AM NOT A PLAYER AND
+HAVE NOT READ THE ISSUE..  IF YOU WANT ME TO LOOK SOMETHING UP BE VERY
+SPECIFIC AND I WILL -  BEST YET IS TO ORDER YOUR OWN COPY.
+
+
+
+
+
+From pbeck@pica.army.mil  Tue Jul 30 19:59:44 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA04195; Tue, 30 Jul 91 19:59:44 EDT
+Date:     Tue, 30 Jul 91 15:50:01 EDT
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Cc: urban@rand.org
+Subject:  world game review
+Message-Id:  <9107301550.aa00806@FSAC1.PICA.ARMY.MIL>
+
+
+PUZZLING NEWSLETTERS  --  Oct 90, revised 7/91
+..........................................................
+"Cubism For Fun" 
+The newsletter of the "Dutch Cubists Club";  in english starting with
+issue #14.  Back issues are available.  The club has over 100 active
+members, notable new addition Martin Gardner.
+
+Membership for 1991 is  20 Belgian francs  (US$10).   A photocopied
+set of the newsletters, issues 1-13, written in DUTCH (in the future
+selected back articles will be available in english) is also available
+for  US$7.    To order either of these send an 'INTERNATIONAL"  POSTAL
+MONEY ORDER (cost $3 at post office), no personal checks,  to:  Lucien
+Matthijsse,  Loenpad 12,  3402 EP IJSSELSTEIN,  The Netherlands.
+
+..........................................................
+WORLD GAME REVIEW
+Michael Keller publishes a newsletter that explores the mathematical
+aspects of games & puzzles.  4 issues for US$11, published
+erratically.  Back issues are available; ISSUE #10 CHESS ($10), ISSUE
+ON POLYOMINOES, some magic polyhedra.
+
+MICHAEL KELLER, 3367-1, NORTH CHATAM ROAD, ELLICOTT CITY, MD 21042,
+USA
+
+..........................................................
+ 'PUZZLETOPIA"
+NOB YOSHIGAHARA mailed out a fall 90 issue (after 3 yrs) of his
+newsletter 'PUZZLETOPIA".  With it came a 1991 promotional calendar
+from PUZZLE CITY (a subsidary of Toyo Glass) a puzzle city catalog and
+a catalog from PUZZLAND HIKIMI PUZZLE COLLECTION.  If you want the
+whole package write Nob (its free outside of Japan).
+
+NOB YOSHIGAHARA,  4-10-1-408 IIDABASHI,  TOKYO 102 JAPAN.
+
+..........................................................
+
+ARM Bulletin (ACADEMY of RECREATIONAL MATHEMATICS), JAPAN
+This is a monthly 40-80 page newsletter of the Japanese puzzle
+hobbiests club.  Dues Y8,000.
+
+PUZZLE KONWAKAI C/O S. TAKAGI, 1-2-4 MATSUBARA, SE TAGAYAKU, TOKYO 156
+JAPAN
+
+..........................................................
+
+
+
+From pbeck@pica.army.mil  Thu Aug  1 08:11:10 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA19857; Thu, 1 Aug 91 08:11:10 EDT
+Date:     Thu, 1 Aug 91 7:55:41 EDT
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu, sonicdruid@sctnve.sct.peachnet.edu
+Cc: pbeck@pica.army.mil
+Subject:  last cube
+Message-Id:  <9108010755.aa28998@FSAC1.PICA.ARMY.MIL>
+
+
+The question was "where can I obatin the last cube made"
+
+I am going to assume that last cube means "MAGIC POLYHEDRA", of
+which there a three families:  the cube with 3 axis of rotation, the
+tetrhedron group with 4 axis of rotation, the dodecahedron group
+with 5 axis of rotation.
+
+The last original addition I have seen was a spherical SKEWB, april 1991.
+Jean Claude Constantine (germany) is making shape/surface variants by
+hand based on all three mecahanisms, eg, take a 3x3x3 and join together
+(make in operable) one 2x2x2 corner - you can now change those pieces shape
+anyway you want - by the way this type of restriction on the moves available
+to solve the cube are very interesting.  Also, in the spring of 1991
+Christoph Bandelow has reintroduced the truncated octahedron and had the
+Hong Kong factory complete from previously manufactured parts some 5x5x5's.
+
+In my estimation there will NEVER be a last cube.
+
+Solutions for all magic polyhedra, except the spherical skewb have been 
+published.  First source is CFF ,cubism for fun newsletter of 
+dutch cubists club,  some where also published in world game review.  
+Puzzles popular when ideal was in business where also covered by many
+popular publications which are now hard to get.  CFF has a library
+and somebody has a bibliography of solution algorithms, including
+Thistletwaites ??.
+
+This is a general answer if there are specific questions please ask them!!
+
+PS I sell much of this stuff and your US mail address will get you a listing
+of what is available from me.
+
+PPS I also collect this stuff and would like to trade and/or buy, any
+quantity, ie, onesies to 100s.  Not only puzzles but all things a
+associated with the cube - books, patents, solutions, accessories,
+promotional items, replacement stickers, what have you.  a good overview
+of this kind of stuff is in jerry slocum's book puzzles old and new.
+
+
+From Hoffman.El_Segundo@xerox.com  Thu Aug  1 14:40:41 1991
+Return-Path: <Hoffman.El_Segundo@xerox.com>
+Received: from alpha.xerox.com by life.ai.mit.edu (4.1/AI-4.10) id AA29574; Thu, 1 Aug 91 14:40:41 EDT
+Received: from IRCX400MS.ESSIT.Xerox.xns by alpha.xerox.com via XNS id <11576>; Thu, 1 Aug 1991 10:52:19 PDT
+X-Ns-Transport-Id: 0000AA002C468CAF2C57
+Date: 	Thu, 1 Aug 1991 08:55:42 PDT
+From: Hoffman.El_Segundo@xerox.com
+Subject: New from Rubik
+To: cube-lovers@life.ai.mit.edu
+Cc: Hoffman.El_Segundo@xerox.com
+Message-Id: <" 1-Aug-91  8:55:42 PDT".*.Hoffman.El_Segundo@Xerox.com>
+
+
+This is taken (without permission) from the 31 July 1991 `Los Angeles Times.'
+It reads as though it's directly from a press release.  I haven't seen any of
+these, nor have I called the listed phone number.
+
+  -- Rodney Hoffman
+
+------------------------------------------------------
+
+       RUBIK RETURNS WITH MENTAL FITNESS GAMES
+
+Remember Rubik's Cube, invented in 1977 by Hungarian professor of architecture
+Erno Rubik?  Prof. Rubik is back with four "mental fitness" puzzles and a
+redesigned version of the cube.
+
+"One of the great misunderstandings surrounding Rubik's Cube was that I was
+somehow trying to drive people crazy," Rubik says.  "In fact, the objective of
+these puzzles is to help bring about a more alert and active mental condition."
+
+Even if you can't solve the puzzles, according to Rubik, "the few moments
+you've spent fiddling around with them has helped greatly in exercising your
+mind and reducing everyday tensions."
+
+Rubik's Tangle (suggested retail, $5.99), his first two-dimensional puzzle,
+requires players to arrange 25 tiles of rope to create four continuous lines.
+
+Rubik's XV ($6.99) is two puzzles in one.  The object of the first is to
+arrange Roman numerals I through XV in order by sliding levers on the puzzle's
+side.  In Part 2, players must create a square, lining up numbers so each
+column, row and diagonal totals 15.
+
+Rubik's Dice ($8.99) offers 82,575,360 possible combinations, with only one
+correct answer.  The puzzle is a hollow cube with seven plates inside.  White
+plates, which include red dots, are loose and can adhere to the inner sides of
+the cube.  By shaking and turning the dice, players solve the puzzle when no
+red appears through the holes.
+
+Rubik's Triamid ($8.99) may be tougher than the original cube.  Players have to
+construct a large pyramid, with each color on its own side, using 10 smaller
+pyramids.  Rubik says there are "hundreds of blind alleys programmed into the
+design."
+
+All the puzzles are available nationally at game, toy and specialty stores.  In
+Los Angeles, you can find them at Thrifty Drugs; in Orange County, at Toy City
+and PlayCo stores.  Or you can order them by calling (800) 236-7123.
+
+From mindcrf!peabody.mindcraft.com!ronnie@decwrl.dec.com  Thu Aug  1 21:38:30 1991
+Return-Path: <mindcrf!peabody.mindcraft.com!ronnie@decwrl.dec.com>
+Received: from uucp-gw-1.pa.dec.com by life.ai.mit.edu (4.1/AI-4.10) id AA10000; Thu, 1 Aug 91 21:38:30 EDT
+Received: by uucp-gw-1.pa.dec.com; id AA22922; Thu, 1 Aug 91 13:28:48 -0700
+Received: by mindcrf.mindcraft.com (AIX  2.1 2/4.03)
+          id AA18759; Thu, 1 Aug 91 12:21:38 PDT
+Received: by peabody.mindcraft.com (AIX 1.3/4.03)
+          id AA11139; Thu, 1 Aug 91 12:23:10 -0700
+Date: Thu, 1 Aug 91 12:23:10 -0700
+From: mindcrf!ronnie@peabody.mindcraft.com (Ronnie Kon)
+Message-Id: <9108011923.AA11139@peabody.mindcraft.com>
+To: @mindcrf.pa.dec.com:decwrl!ai.ai.mit.edu!Cube-Lovers
+Subject: Re: New from Rubik
+
+	Well I have the Rubik's XV and Rubik's pyramid.  The XV is a pretty
+good puzzle (ie., I haven't solved it yet after trying for an hour or so).
+The pyramid is essentially a Pyraminx.  The only complication beyond the
+Pyraminx that the Pyramid offers is that the vertex tetrahedrons can be
+rotated such that a useless color shows and a necessary color is hidden.
+
+	The solution becomes trivial once you have solved the Pyraminx.  This
+seems like a good place to save your money.
+
+				Ronnie
+
+
+From @po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu  Thu Aug 22 20:09:31 1991
+Return-Path: <@po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu>
+Received: from po5.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA12063; Thu, 22 Aug 91 20:09:31 EDT
+Received: by po5.andrew.cmu.edu (5.54/3.15) id <AA12045> for Cube-Lovers@life.ai.mit.edu; Thu, 22 Aug 91 20:08:49 EDT
+Received: via switchmail; Thu, 22 Aug 1991 20:08:46 -0400 (EDT)
+Received: from avalanche.ucc.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q001/QF.och57Vi00WAu40W3FH>;
+          Thu, 22 Aug 1991 20:08:02 -0400 (EDT)
+Received: from avalanche.ucc.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr18/dn1l/.Outgoing/QF.4ch57Fy00WAuIYiUY9>;
+          Thu, 22 Aug 1991 20:07:46 -0400 (EDT)
+Received: from Messages.7.15.N.CUILIB.3.45.SNAP.NOT.LINKED.avalanche.ucc.andrew.cmu.edu.pmax.ul4
+          via MS.5.6.avalanche.ucc.andrew.cmu.edu.pmax_ul4;
+          Thu, 22 Aug 1991 20:07:45 -0400 (EDT)
+Message-Id: <Ich57Fi00WAuQYiURN@andrew.cmu.edu>
+Date: Thu, 22 Aug 1991 20:07:45 -0400 (EDT)
+From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: New "CUBE"
+
+I found a fun new cube, sorta.
+
+It is called Square 1.
+
+it rotates in WIERD ways.
+
+it is a challenge to return to the state of being a cube, much less to
+solve it.
+
+My friend calls it "unfriendly."
+
+the way it is set up, it is a cube, with a center band that has one
+split.  the two faces on either side of it that are split into the
+normal three on a side, but the pieces meet at the center, i.e.: the
+side ones are wedges, and the corners are almost-squares with the point
+not on the outside being the center.
+
+it is fun.
+
+I was told it will be out at christmas, but I bought it in a store
+called Games Unlimited in Squirrel Hill, a neighborhood of Pittsburgh. 
+Buy one from someone, and fry your brain.
+
+Enjoy.
+
+Dale
+
+From dik@cwi.nl  Thu Aug 22 20:44:41 1991
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA12611; Thu, 22 Aug 91 20:44:41 EDT
+Received: by charon.cwi.nl with SMTP; Fri, 23 Aug 1991 02:37:55 +0200
+Received: by paring.cwi.nl via EUnet; Fri, 23 Aug 91 02:37:50 +0200
+Date: Fri, 23 Aug 91 02:37:50 +0200
+From: dik@cwi.nl
+Message-Id: <9108230037.AA00481@paring.cwi.nl>
+To: Cube-Lovers@life.ai.mit.edu, dn1l+@andrew.cmu.edu
+Subject: Re:  New "CUBE"
+
+ > I found a fun new cube, sorta.
+ > It is called Square 1.
+ > it rotates in WIERD ways.
+Yes, it is also on sale in Europe.
+ > 
+ > it is a challenge to return to the state of being a cube, much less to
+ > solve it.
+True.  To solve it when it is a cube, knowledge of the magic domino is
+sufficient.  But it might even be that restoring it to cube form is not
+much more dificult than the magic domino.  I do not know yet.  When my
+cube got in disorder, by some magical moves it was restored to cube form;
+not by me, but by my 8 year old daughter, I still do not know how.
+ > 
+ > My friend calls it "unfriendly."
+That is uncalled for.
+ > 
+ > the way it is set up, it is a cube, with a center band that has one
+ > split.  the two faces on either side of it that are split into the
+ > normal three on a side, but the pieces meet at the center, i.e.: the
+ > side ones are wedges, and the corners are almost-squares with the point
+ > not on the outside being the center.
+Something is missing from this description.  I think it can best be
+explained based on the MagiBall that came some years ago from Austria.
+The MagiBall consists of two halves that can be rotated with respect to each
+other.  But only rotates of 180 degrees make sense.  Further it has four bands
+of moving pieces.  Movement of the bands is perpendicular to the rotations
+of the halves.  Each band has 8 pieces.  When the halves are rotated with
+respect to each other, the "left" half of an upper band is connected to the
+"right" half of a lower band.  This creates two puzzles, each with 16 pieces.
+Now consider that ball; remove the inner two bands (leaving only the uppermost
+and lowermost band).  Next go through the bands clockwards when you look from
+above.  Alternatingly glue two pieces in a band together and skip a piece.
+This will leave you in each band with four double size pieces.  Ignoring
+the middle layer of the new cube, this is the new cube (but the middle layer
+is easily dealt with).  Now what was missing from the description is that the
+centre angle of a cornerpiece is exactly twice the center angle of a wedge.
+
+I have some algorithms to do cycles on three corner pieces and also for
+three wedge pieces.  The latter are fairly long however.  And they all only
+work if the puzzle is already in cube form.
+ > 
+ > it is fun.
+ > 
+ > I was told it will be out at christmas, but I bought it in a store
+ > called Games Unlimited in Squirrel Hill, a neighborhood of Pittsburgh. 
+ > Buy one from someone, and fry your brain.
+ > 
+ > Enjoy.
+ > 
+ > Dale
+ > 
+
+From meister@gaak.lcs.mit.edu  Sat Sep  7 00:18:53 1991
+Return-Path: <meister@gaak.lcs.mit.edu>
+Received: from gaak.LCS.MIT.EDU by life.ai.mit.edu (4.1/AI-4.10) id AA22169; Sat, 7 Sep 91 00:18:53 EDT
+Received: by gaak.LCS.MIT.EDU 
+	id AA13124; Sat, 7 Sep 91 00:18:10 EDT
+Date: Sat, 7 Sep 91 00:18:10 EDT
+From: meister@gaak.lcs.mit.edu (phil servita)
+Message-Id: <9109070418.AA13124@gaak.LCS.MIT.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: waiting for the bounces...
+
+
+
+From meister@gaak.lcs.mit.edu  Mon Sep  9 00:48:52 1991
+Return-Path: <meister@gaak.lcs.mit.edu>
+Received: from gaak.LCS.MIT.EDU by life.ai.mit.edu (4.1/AI-4.10) id AA26612; Mon, 9 Sep 91 00:48:52 EDT
+Received: by gaak.LCS.MIT.EDU 
+	id AA06357; Mon, 9 Sep 91 00:48:09 EDT
+Date: Mon, 9 Sep 91 00:48:09 EDT
+From: meister@gaak.lcs.mit.edu (phil servita)
+Message-Id: <9109090448.AA06357@gaak.LCS.MIT.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Square One
+
+
+"Square One" is also available at Games People Play in Cambridge, Mass. 
+I just purchased one a few days ago. It turned out to be more interesting 
+than i had expected. The puzzle is comprised (essentially) of two halves 
+of 8 pieces each, 4 corners, and 4 'edges'. All pieces radiate outward from 
+the center. The 'edge' pieces expand outward at a 30 degree angle, while 
+the corners expand outward at a 60 degree angle. The center layer is composed
+of just 2 pieces. If you removed the top slice, the center slices would trace
+out quadrilaterals ABIK and BDJL (or ACIJ and BDKL, etc) below.
+
+The center slice serves no major function save as a "gate"
+which allows or disallows rotation about one of the skewed axes formed by 
+the two slices. To rotate about some axis you must line up the "gate" 
+with the axis. While it is possible to swap the center pieces with respect 
+to the corners frame of reference, doing so is really of no importance 
+to the "meat" of the puzzle. 
+
+        Top View:  (in lousy ascii resolution)
+          
+         A             B             C             D
+          -------------*-------------*--------------
+          |             *           *              |
+          |              *         *               |
+          |               *       *                |
+        E *                *     *                 * F
+          |     *           *   *            *     |
+          |            *     * *     *             |
+          |                   * O                  |
+          |            *     * *     *             |
+          |     *           *   *            *     |
+        G *                *     *                 * H
+          |               *       *                |
+          |              *         *               |
+          |             *           *              |
+          -------------*-------------*--------------
+          I            J             K             L
+
+     Side View: 
+
+          _____________________
+          |      |     |      |
+          |______|_____|______|  top
+          |      |            |  
+          |______|____________|  center "gate" lined up for left axis 
+          |      |     |      |
+          |______|_____|______|  bottom
+
+All meaningful moves either rotate the top or bottom face, line up the 
+center gate with some skew axis, or twist about a skew axis 180 degrees. 
+The neat thing about the puzzle is that moves do not necessarily preserve 
+the cube shape of the puzzle, or even the number of corner/edge pieces 
+that are on each side. It is possible, for instance, to have only 3 corners
+on the top face, and 6 edges, while 5 corners and 2 edges are on the bottom 
+face. 
+
+A notation for this beast is somewhat cumbersome. If anyone wants, I will try 
+to describe what i am using.
+
+After playing with it for a few hours, i *thought* i had mapped out a complete
+solution algorithm; however i was later playing with the wierd shapes you could
+put the puzzle into, and eventually started putting it back to "Square One", 
+and was very surprised to end up in a position with just 2 of the edges 
+swapped! Since this puzzle acts much like the Skewb, each move essentially
+cutting the puzzle in half (ignoring the gate layer), i did not expect this 
+to be possible. It took a bit of thought before the light hit, and i went 
+on to construct a crude "Parity Swap" transform. Currently the best one i have
+found cycles around  UF -> UL -> UB -> UR, and takes 28 'moves'. (a 'move' 
+being defined as any motion of some slice, regardless of degrees turned) 
+Anyone else found anything better? 
+
+Square One is one of the better variations on the cube theme i have seen 
+in a long time. Find one and have fun.
+
+                                                -phil
+
+
+
+

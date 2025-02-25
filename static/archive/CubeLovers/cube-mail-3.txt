@@ -1,0 +1,3430 @@
+Date: 3 August 1981 22:34-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: The Archive
+To: CUBE-LOVERS at MIT-MC
+
+Those of you who look through the archives of old Cube-Lovers mail
+will notice that I have split off a new section of the archive.  The
+mail now lives in:
+
+MC:ALAN;CUBE MAIL0	;oldest mail in foward order
+MC:ALAN;CUBE MAIL1	;next oldest mail in foward order
+MC:ALAN;CUBE MAIL2	;more of same
+MC:ALAN;CUBE MAIL	;recent mail in reverse order
+
+Date: 4 August 1981 01:21-EDT
+From: Chris C. Worrell  <ZILCH at MIT-MC>
+Subject: Poll
+To: CUBE-LOVERS at MIT-MC
+
+   In line with the recent cubeing contest in Boston, I suggest a poll.
+Such questions as, will be included:
+1. age
+2. average solving time
+3 occupation  (if student, undergrad or grad and major)
+4. solving method
+5. how long it took you physically  working (playing) with the cube  (or some
+   facimile, like a program) to solve the cube the first time, and reliably
+6. how long have you been working with the cube  (say since Jan. '81)
+7. max #of qtw. in method, avg. # of qtw. in method
+ 
+I would not suggest anybody send their answers to the list, because
+1. it would generate a lot of semi-useless garbage in the list,and
+2. you would lose anonymity (which is one of the aspects of a poll)
+
+If anyone can suggest how this could be implemented please pass it on.
+
+                                             Chris Worrell
+
+Date: 4 August 1981 01:58-EDT
+From: Chris C. Worrell  <ZILCH at MIT-MC>
+Subject: Identities...
+To: CUBE-LOVERS at MIT-MC
+
+ A few corrections to my list:
+I16-13   has 18 qtw not 16
+I18-4   has 20 qtw not 18 and has supergroup effect <F2B2>
+I18-5 is not distinct from I18-6 so may be taken off the list
+
+Additions:
+I16-15 U'F'UBU'FUB'URU'L'UR'U'L        courtesy of Jerry Agin
+I16-16 FLF'RFL'F'R'B'LBR'B'L'BR
+I16-17 LD'R'DL'D'RUR'DLD'RDL'U'
+I18-9  SAME AS I16-13
+I18-10 RDLD'R'DU'L'D'LUD'R'DL'D'RD
+
+
+Concerning Sources:
+I found none of these by exhaustive search so I believe that this is far
+from a complete list esp. in 18 region.
+I used several methods to derive these identities
+1. from two processes which have same effect , I concatanate the inverse of
+the second to the first, and remove noops.
+2. from 1 process which affects only the d face or not the U face,
+I twist both the D and U faces, run the reverse process (maybe with an 
+orientation change) then untwist the D and U faces.
+3. examine old identities for similarities shift/rotate/invert/reflect
+appropriatly concatanate and remove noops.
+
+
+                                          Chris Worrell
+
+Date:  4 Aug 1981 1123-PDT
+From: Alan R. Katz <KATZ at USC-ISIF>
+Subject: 10 sided "cube"
+To: cube-lovers at MIT-MC
+cc: katz at USC-ISIF
+
+I have a 10 sided "cube", which is made by "Wonderful Puzzler" (they also
+make crappy cheapo regular cubes).  The guts are essentially the same as
+the regular cube, but the corners are cut off.
+
+If you look down from the top, you see an octogon.  The edges are all the 
+same as a regular cube, but since the corners are cut, they are one color
+(thus the 10 colors).  For example, there are red, blue, and orange
+faces.  On an ordinary cube you would have a red-blue-orange corner cubie,
+but on this in its place is a pink face.  To make this clearer, here is
+the coloring of the thing:
+
+				red
+				 *
+      light-blue**gold**yellow**blue**pink**orange**violet**green
+				 *
+			       white
+
+(red on top, white on bottom, looking at the blue face, back face is green,
+right face is orange, left face is gold).
+
+The interesting thing about this is that unlike the ordinary cube, every cube 
+does not have a place,  you dont know that the pink corner goes between the 
+blue and orange faces (in an ordinary cube it is the red-blue-orange corner 
+so you know where it goes).  To solve it, you just put the corners in some
+order, solve it using the usual transformations, and then if you get a 
+"parity error" you must go back to the top layer but switch two of the corners
+and solve it again.  Thus in general you have to solve it almost 2 times!
+(almost because you dont have to redo the top layer or half of the second
+layer (this assumes you solve top down, which I do.)).
+
+What I mean by parity error is that if the corners are switched you can get 
+a configuration that in an ordinary cube would tell you the cube is put
+together wrong.  For example, you can be solving it and get to a point where
+an odd number of edges must be fliped.  
+
+
+There may be a transformation to flip an odd number of edges with this cube,
+but I have not found it.  Anyway its more interesting to solve and it
+changes it shape in general with each transformation.  (unlike the cube 
+which stays a cube; this is a octagonal prism).
+
+
+						Alan
+
+-------
+
+Date:  5 Aug 1981 0948-PDT
+From: ISAACS at SRI-KL
+Subject: 10-sided cube
+To: cube-lovers at MIT-MC
+
+  The 10-sided cube was discussed a couple of months ago.  The main result
+was that the easiest way to solve it was "side across" - that is, don't
+start from the octagonal face, but from one of the "sides".  Then the
+last layer should be solvable except for a possible edge-flip.  Note that
+there are two new difficulties with this cube: the one mentioned, and the
+single edge flip.  SPOILER! This is, of course, an optical illusion, brought
+about by the fact that the second edge, which of course is also flipped, is
+a uni-colored edge, and you can't see it.
+         --- Stan Isaacs
+-------
+
+Date:  7 Aug 1981 1005-PDT
+From: ISAACS at SRI-KL
+Subject: BARREL AVAILABLE
+To: CUBE-LOVERS at MIT-MC
+
+   The "Magic Barrel" or "Ten Billion" or whatever its name is, that was
+talked about in this digest several months ago, seems to have finally gotten
+on the American market.  In the Bay Area, at the Stanford shopping center,
+they have them in stock at Macy's, and will soon have them at Games and Things.
+Games and Things also has the smallest cubes I've seen - about 3/4 inch on
+a side.  That makes at least 4 different small sizes, from 1 1/2 inch down.
+       --- Stan 
+-------
+
+Date: 10 Aug 1981 0841-PDT
+From: Tom Davis <CSL.JHC.DAVIS at SU-SCORE>
+Subject: Barrel Puzzle instructions
+To: cube-lovers at MIT-MC
+
+I just purchased one of the "Wonderful Barrel" puzzles mentioned in
+Stan Isaac's note, and I found the enclosed set of instructions to be
+a classic.  I figured I'd pass them on, in case some of the members of
+this list don't buy the puzzle itself.  The first couple of paragraphs
+are not so great, but it gets better toward the end.
+
+@begin(verbatim)
+"Wonderful Barrel" is a kind of mental game plate also can be regarded
+as an indoor ornament.  The red, orange, yellow, green, blue, black
+color balls which is inner in barrel can create more than 10 billion
+combination to reach a solution and finally be aligned on 5 straight
+lines, yet each straight line are with 4 same color balls.
+
+			* PLAY RULE *
+
+Original alignment circumstances is as follow:  there are three black
+balls are set on SHELTER but each black ball is above a shore of
+PLUNGER; the 5 straight lines are up the SHELTER with different color
+from one another, each line contains 4 same color balls.  The 5
+straight lines are aligned in clock-wise with blue, green, yellow,
+orange, red color.
+
+As you know, the original alignment is orderly, now you can
+circumvolve DRUM, then operate plunger up and down for taking the ball
+out from SHELTER.  While you put the ball into SHELTER again, the
+order of "each straight line with 4 same color ball" has been broken
+to confused state.
+
+Now, a challenge is ahead of you, you often successful in this line
+but irregularly in that line, in a word, it always can not come to a
+satisfactory arrangement of the whole lines fluently.
+
+At the beginning, it is not easy to arrange the 5 straight lines
+return to initial order in short time, so please try to solve this
+puzzle from one line first, then completion of two, three, four even
+to whole lines are returned to initial order finally.
+
+At last, maybe you can analyse the mystery out, but maybe you can not
+solve it today; however, how about tomorrow?  one month later? one
+year later? or ten years later you may still continued to challenge to
+it singlely and unwilling.
+@end(verbatim)
+
+P.S.  I @i(tried) to proofread this, but as you can see, it was difficult.
+-------
+
+Date: 14 August 1981 0111-EDT (Friday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Results of an exhaustive search to six quarter-twists
+Message-Id: <14Aug81 011137 DH51@CMU-10A>
+
+	The first answer is that there are exactly 878,880 cube
+positions at a distance of 6 quarter-twists from solved, and so
+983,926 positions at 6qtw or less.  These figures reflect a decrease
+of 744 from the previously known upper bounds.
+
+	It turns out that the twelve-qtw identities reported by
+Chris C. Worrell <ZILCH at MIT-MC> are complete, in a sense.  The
+only reservation here is that a fifth rule must be added to his
+list of the ways in which ``a generator generates other
+identities.''  This rule is substitution with shorter identities,
+and it's not too surprising that it was left out, since the only
+shorter identities are the ``trivial'' ones like XXXX=XYX'Y'=I,
+where X and Y are opposite faces.  In the case of the twelve-qtw
+identities, this means that identities of the form aXXb and aX'X'b
+generate each other.
+
+	The structure of the 12-qtw identities is clearer if we
+write them in a transformed way:
+
+I12-1	FR' F'R    UF' U'F    RU' R'U
+I12-2	FR' F'R   UF'   F'L FL'   U'F
+I12-3	FR' F'R   UF'   UL' U'L   FU'
+
+	The fifth rule is necessary so that I12-2 may generate the
+identities
+
+I12-2a	 FR' F'R   UF   FL FL'   U'F	and
+I12-2b	F'R' F'R   UF   FL FL'   U'F'.
+
+To see that this rule is necessary, it need only be observed that
+inversion, rotation, reflection, and shifting all preserve the
+number of clockwise/counterclockwise sign changes between
+cyclically adjacent elements.
+
+	In what sense are the ``trivial'' identities trivial?  I
+have come to believe that they are trivial only because they are
+short and simple enough that they are well-understood.  The only
+identities for which I can find any theoretical reasons for calling
+trivial are the identities of the form XX'=I.  In spite of the
+simplicity of the ``trivial'' identities, their occurrence is one
+of the major reasons that Alan Bawden and I were unable to show
+earlier that I12-1-3 generated all identities of length 12.  I fear
+that the combination of 4-qtw and 12-qtw identities may turn out to
+be a major headache when dealing with identities of length 14 and
+16.
+
+
+
+Date: 14 August 1981 03:12-EDT
+From: Chris C. Worrell  <ZILCH at MIT-MC>
+Subject: CUBE-POLL@MIT-MC
+To: CUBE-LOVERS at MIT-MC
+
+The first CUBE-LOVERS poll has now begun. Send your answers to:
+
+CUBE-POLL@MIT-MC
+
+
+The questions:
+
+1.   Occupation (if student, undergrad or grad and major)
+2.   Age
+3.   Average solving time
+4.   How long it took you physically working with the cube in order to solve
+     it reliably.
+5.    How long have you been working with the cube   (say since Jan. '81)
+6.   How many cubes do you own, and how many have died on you.
+7.   Solving methods:
+  A.    Time-efficient,  describe method in general.
+  B.    Move-efficient,  describe in more detail, including number of qtws
+           for each stage.
+           Include a maximum number of qtws for this method.
+8.   Transformations you have found or know of.
+        Include a description of what the transform does.
+        Include transforms you use in your method, such as top to middle slice 
+        edge movers, and  transforms which affect only one face.
+         The results of this question will be compiled into a dictionary of
+         transfors and may also aid people in their investigations of the cube.
+9.    Any specific intrests you have in the cube,  such as applications to
+       group theory, or investigation of identities or whatever.
+10.   Any other intrests you might have, relating or not relating to puzzles.
+
+
+                                            Chris Worrell (ZILCH@MIT-MC)
+
+
+Date: 17 August 1981 11:34-EDT
+From: Allan C. Wechsler <ACW at MIT-AI>
+Subject:  12q relations.
+To: CUBE-LOVERS at MIT-AI
+
+
+    I12-1	FR' F'R   UF' U'F    RU' R'U
+    I12-2	FR' F'R   UF' F'L    FL' U'F
+    I12-3	FR' F'R   UF' UL'    U'L FU'
+
+I can't believe I'm the first person to notice this:
+
+Suppose we only know I12-1 and I12-2.  Then we have
+
+I12-1'			U'RUR'F'U (FR'F'RUF')'
+(I12-1')(I12-2)		U'RUR'F'U (FR'F'RUF')' (FR'F'RUF') F'LFL'U'F
+Reduce:			U'RUR'F'U F'LFL'U'F
+Conjugating by (U'RUR'F'U)', we get 
+			F'LFL' U'FU'R UR'F'U
+But this is just the RL mirror image of
+			FR'F'L UF'UL' U'LFU'
+
+This is exactly I12-3.  So there are really only two independent 12q
+identities, and the third can be deduced from them.
+
+
+Date: 19 Aug 1981 09:48 PDT
+From: Lynn.ES at PARC-MAXC
+Subject: Re: 10 sided "cube"
+In-reply-to: KATZ's message of 4 Aug 1981 1123-PDT
+To: Cube-Lovers at MIT-MC
+cc: Lynn.es@PARC
+
+I last week picked up one of the same octagonal cubes (Wonderful Puzzler
+brand) as Alan R. Katz in his message.  I might point out that it shares the same
+workmanship and twistability (lack thereof) which Katz attributes to their brand
+of standard cube.  
+
+After some experimenting, I found that the "parity error" involved is always a
+pair of edges in reverse locations on the bottom.  My solution algorithm is top,
+equator, bottom [corner locations, edge locations, edge orientations, corner
+orientations].  On an ordinary cube, one pair of edges reversed never happens
+when you go to position edges.  I suspect that if your algorithm does edge
+locations before corners, then two corners in wrong locations would be the parity
+error.  Incidentally, the parity of Katz's cube is the reverse of mine, though the
+center cubie colors are in the same relation to each other.  
+
+Edge orientation (I assume that is what Katz meant by "edges must be fliped")
+parity errors are irrelevant to getting the cut-edge-colors rightly paritied.  Edge
+orientation parity errors happen because one of the cut-edges may have been
+oriented wrongly.  Or more precisely, an odd number of them reversed from the
+way they were virginally (but they look right either direction).  This is easily
+cured by any of the "flip a pair of edges" macros.  
+
+The change in cube shape is actually helpful in solving, except for being
+difficult to grab sometimes.  Corners that need orientation really stand out.  The
+Greenwich meridian edges (assuming you solve it from the top down with the
+octagonal faces left and right), being different shape, are instantly located.  
+
+The best part of the Wonderful Puzzler is the instructions, which I quote here:
+
+THE CHALLENGE:
+"ORIGINAL PUZZLER" presents not only a unique challenge but offers the
+possibility of countless hours of relaxation.  Your mental ingenuity may be tested
+for a few hours -- many days -- several weeks -- or even a period of much
+longer duration.  If you can determine the key to unlock the knack for solving
+the PUZZLER, the final trimph can be the psychological turning point in your
+life.  Mathematicians may be tested to the limit and cry over this one -- and you
+may, too!  You will gain a measure of satisfaction when you align one plane. 
+You will be delighted with the completion of two.  You will be elated with the
+completion of three or four!  The completion of the fifth plane will quicken your
+pulse!! -- and you will have scaled the peak once the last unit of the sixth plane
+falls into place!!!!
+
+PREPARATION & CAUTION:
+*Spin the PUZZLER several times, as indicated on the cover, until all color units
+are randomly distributed on each of six planes.
+*Do NOT remove any color unit in the process of play.
+*Initially, activate the random distribution GENTLY.  With little use, this can be
+accomplished easily and smoothly.
+Patience and persistence will beat the Puzzler!  Good Luck!
+
+Challenge
+Can you contend with more than 18'000'000'000 combination to reach a solution?
+*end of quote*
+
+I think the errors remaining above are all theirs.  It is full of little gems: turning
+point in your life, solving five planes (on the standard cube, which I believe
+has the same instructions), 18 billion (better than Ideal's guess).  The GENTLY
+caution is valid; a neighbor kid blew mine apart, including a center cubie, by
+ignoring this.
+
+
+Date: 20 August 1981 02:46-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Resending to the right place so that I can digest it later...
+To: CUBE-LOVERS at MIT-MC
+
+Date: 19 August 1981 23:22-EDT
+From: Eric L. Flanzbaum <ELF at MIT-MC>
+Subject:  A small version if the cube ...
+To: CUBE-LOVERS-REQUEST at MIT-MC
+cc: ELF at MIT-MC
+
+
+  I don't know if this has been mentioned yet, but why
+not mention it again?  I just saw Rubik's cube being sold
+on a keychain.  It is about 1 1/2 inches and works/looks
+like the real thing.  They sell for about $2.50 which
+is considerably less than the standard version.  I live
+out on the west coast, so I don't know if they sell
+it back east.
+
+			Happy solving,
+				  -Eric.
+
+Date: 22 Aug 1981 1404-EDT
+From: ROBG at MIT-DMS (Rob F. Griffiths)
+To: Cube-Lovers at MIT-MC
+Subject: Re: ELF's Small cube
+Message-id: <[MIT-DMS].207641>
+
+  I have seen that one, and also one that is absolutely tiny.  It
+is the size of one of the cubies on the full sized Rubik's, and
+is fully operational.  They are really quite flexible and well
+made, I don't know who manufactures them, but I will try to find
+out.
+			-Rob.
+
+
+Date: 22 August 1981 18:46-EDT
+From: Chris C. Worrell  <ZILCH at MIT-MC>
+Subject: CUBE-POLL``MIT-MC
+To: CUBE-LOVERS at MIT-MC
+
+SO FAR I HAVE RECEIVE ONLY ABOUT 8 REPLIES, THIS IS HARDLY ENOUGH
+TO DO STUDIES ON. PLEASE SEND MORE REPLIES. IF YOU NO LONGER
+HAVE THE QUESTIONNAIRE SEND ME MAIL AND I WILL FORWARD IT TO YOU.
+
+Date: 24 Aug 1981 1032-PDT
+From: ISAACS at SRI-KL
+Subject: recoloring the 10-sided cube
+To: cube-lovers at MIT-MC
+
+  A nice way to recolor the 10 sided cube is to give a side a quarter twist,
+so it looks sort of like a baseball, and then make the (fairly) obvious
+4 groups of 9 faces each in four colors, and two in-between stripes of 3
+facies each.  Each of the 9-facie groups will have 2 triangular facies, and
+3 slant rectangular facies, and 4 squares.  I think its a fairly simple
+variation to solve, but I just made it last night and have not worked with
+it much yet.
+  By the way, I just got my first magic tetrahedron.  This one came from
+Japan, but says made in Hongkong by "World-wide"(?) copyright by Meffert.
+Anyone know who he is?  It seems very similar to the one invented by
+Kristen Meier.
+-------
+
+Date: 25 Aug 1981 1016-PDT
+From: ISAACS at SRI-KL
+Subject: BAY AREA CUBE CONTEST
+To: cube-lovers at MIT-MC
+
+Date: 24 Aug 1981 1612-PDT
+From: ISAACS at SRI-KL
+Subject: CUBE CONTEST-BAY AREA
+To: cube-lovers at MIT-MC
+
+  There will be a Rubics Cube contest at Games and Things, at the
+Stanford Shopping Center this Saturday, Aug. 29, from 10:00 am to
+4:00 pm.  Speed contests, money prizes, a cube display (by me), etc.
+Contestants are supposed to register at GAMES AND THINGS before 10:00
+on Saturday.  Address is 128 Stanford Shopping Center, Palo Alto, Ca.,
+(415) 328-4331.
+    --- Stan Isaacs
+-------
+
+-------
+
+Date: 25 Aug 1981 1019-PDT
+From: ISAACS at SRI-KL
+Subject: MORE TERMINOLOGY
+To: CUBE-LOVERS at MIT-MC
+
+  More possible terms (from a new cube-solver who was a biology major):
+Dorsal/Ventral for front/back, Port/Starboard for right/left (left/right?).
+He doesn't have a consistant term for up/down.
+-------
+
+Date: 25 August 1981 19:04-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Speed cubing
+To: CUBE-LOVERS at MIT-MC
+
+Does anyone have any idea what the world record for speed cube solving
+really is?  The only times I can find are:
+
+1) In the Scientific American article Hofstadter mentions an
+Englishman named Nicholas Hammond who averages "down to close to 30
+seconds".  Anyone have any more information on this?  Like where
+Hofstadter found out about this guy?
+
+2) In the reports about the "Regional Cubing Championship" held here
+in July the best time listed is 48.31 seconds, held by a 10 year old
+named Jonathan Cheyer.  (See PDL's message to Cube-Lovers dated 27 Jul
+1981.)
+
+3) I seem to remember reports that there were Hungarians who averaged
+around 50 seconds.  I thought I had read this in Singmaster, but I can't seem
+to find it there.
+
+4) The best time anyone will admit to on this list (as determined by
+scanning the replys to ZILCH's poll) is 2 minutes.  This time is
+claimed by both Richard Pavelle (RP@MIT-MC) and Alan Katz (KATZ@ISIF).
+Also Stan Isaacs (ISAACS@SRI-KL) claims that his two children take
+about 1 1/4 minutes using essentially his methods.
+
+5) Finally, Dan Pehoushek (JDP@SU-AI) tells me that a friend of his
+frequently breaks the 30 second barrier.  I should have thought to ask
+for his name.
+
+Anybody know of any more good speed cubists?
+
+Date: 25 Aug 1981 2116-EDT
+From: ELF at MIT-DMS (Eric L. Flanzbaum)
+To: Cube-Lovers at MIT-MC
+Subject: Speed Solving
+Message-id: <[MIT-DMS].208572>
+
+
+
+	Hi Cube fans,
+I have a couple of friends at school (oh about 4 or 5) who consistently
+solve the cube (actually, they have races/contests) at a time of under
+30-40 seconds.  I don't know if this is really unusually fast, but as
+from ALAN's previous message, it looks like they all rank in there.
+By the way, these people are entering the 9th and 10th grade in the 
+fall.
+
+				Happy Solving,
+					-Eric L. Flanzbaum
+					 ELF at MIT-AI 
+
+
+Date: 27 August 1981 18:39-EDT
+From: Dennis L. Doughty <DUFTY at MIT-MC>
+Subject:  Speed cubing
+To: CUBE-LOVERS at MIT-MC
+cc: DUFTY at MIT-MC
+
+
+My fastest time for the cube is 1 minute 17 seconds (everything worked out
+correctly).  My average time is 1:40-1:45.  --Dennis
+
+p.s. i'll answer the poll when I get the time.
+
+Date: 28 August 1981 12:59-EDT
+From: Robert H. Berman <RHB at MIT-MC>
+To: CUBE-LOVERS at MIT-MC
+
+
+You may be interested to see a cartoon about the cube on page 36 on
+the August 31 issues of the New Yorker. Yes, the New Yorker.
+
+--rhb
+
+Date: 29 August 1981 07:54-EDT
+From: Thomas L. Davenport <TLD at MIT-MC>
+Subject:  Cube Song
+To: CUBE-LOVERS at MIT-MC
+
+This past week PBS broadcast the latest "Mark Russell Comedy Special"
+and in it he did a funny song about the cube.  He even had one with
+him on stage.
+-Tom-
+
+Date: 29 Aug 1981 1906-EDT
+From: ROBG at MIT-DMS (Rob F. Griffiths)
+To: cube-lovers at MIT-MC
+Subject: English Whiz Kid
+Message-id: <[MIT-DMS].208873>
+
+          	From TIME:  August 31,1981:
+		
+		---------------------------
+
+  Along with diet books, cat books, and  advisories on how to make
+a profit from  the  coming apocalypse, there  is a  growing  shelf
+concerned  solely  with  mastering  that  infuriating, six  sided,
+27-part boggler with 42.3 quintillion possible  combinations known
+as  Rubik's  Cube..  The  latest  entry: ''You  Can  Do The Cube''
+(Penguin, $ 1.95) by  Patrick  Bossert, 13, a London schoolboy who
+discovered the cube only  this spring during a family ski vacation
+in  Switzerland.  Within  five days he had  mastered the  monster,
+and  later began selling his schoolmates a four-page, mimeographed
+tip sheet for 45 cents.  An alert editor at Penguin saw a copy and
+persuaded the prodigy to turn pro.  The 112  page result  contains
+3 dozen 'tricks'  for solving  the  cube (using  logic rather than
+math), as well as  a chapter  on 'Cube  Maintenance'  (to loosen a
+stiff cube, ''put  a blob  of Vaseline on  the mechanism'').  With
+250,000 copies of  the cubist's book in print, a Penguin executive
+marvels:  ''It's the biggest,  runaway, immediate  success we have
+had  since we published 'Lady Chatterley's Lover' in  paperback.''
+
+		---------------------------
+
+
+			-Rob.
+
+
+Date:  1 Sep 1981 1442-EDT
+From: Bob Clements <CLEMENTS@BBNA>
+Sender: CLEMENTS at BBNA
+Subject: [Bob Clements <CLEMENTS@BBNA>: Rubik's cube sale]
+To:   Cube-lovers at MC
+
+I didn't know of the cube-lovers list, but it was suggested to me that
+I re-send this msg to cube-lovers. If this sale has already been
+mentioned on this list, sorry for the repeat.
+/Rcc
+
+		---------------
+Mail-from: MIT-AI
+Received-Date: 1-Sep-81 1343-EDT
+Date:  1 Sep 1981 1221-EDT
+From: Bob Clements <CLEMENTS@BBNA>
+Sender: CLEMENTS at BBNA
+Subject: Rubik's cube sale
+To:   Info-Micro at ai
+
+I don't want to start a whole Rubik's discussion, but for those
+in the Boston area who need to replace their worn Cubes, or get
+their first one, the Caldor chain has them on special for $4.66
+thru Saturday.
+/Rcc
+-------
+
+
+		---------------
+-------
+
+Date: 3 September 1981 15:40-EDT
+From: Dennis L. Doughty <DUFTY at MIT-MC>
+Subject:  Practical use of the Rubik's cube/Speed cubing
+To: CUBE-LOVERS at MIT-MC
+cc: DUFTY at MIT-MC
+
+
+This rush week, my fraternity extended a bid to a freshman by the name of
+Larry Singer who generally solves the cube in 1:13 or thereabouts (my
+average time is 1:40).  All day Monday, our bids were playing such games as
+"Pledge Pong" or "Pledge Pool."  The idea here is that the bid challenges
+an active to a game of pool or ping-pong, and if he loses, he pledges.
+Well, Monday night, Larry challenged me to "Pledge Cube."  One of the
+brothers uniformly scrambled two cubes, and we were to compete in a
+head-to-head competition.  Well, we both were under considerable pressure,
+naturally, and we both made several mistakes while solving the cube.  I
+won, but my winning time was 2:09.  Larry and his close friend then both
+pledged.
+
+So now, no one in the house can tell me that there's no practical use for
+the Rubik's cube.
+
+--Dennis
+
+Date:  5 September 1981 1446-EDT (Saturday)
+From: Bob.Walker at CMU-10A
+To: cube-lovers at mit-mc
+Subject:  Snake: **SPOILER**
+Message-Id: <05Sep81 144605 BW80@CMU-10A>
+
+I am new to the list, and in reading the archives, I found that
+the transform for my favorite pattern was listed incorrectly.
+Specifically, I refer to the Don Woods' message of 6 January which
+listed transforms for the Snake, Worm, and Baseball (I think).
+Anyway, the transform listed for the Snake was incorrect.  What is
+listed IS a pretty pattern, merely the wrong one.  The blurb about
+how to "hack" your way to the Snake, however, is correct.  The
+proper transform to achieve the snake (from Singmaster) is:
+ 
+            * * * S P O I L E R * * *
+ 
+Snake:     B R L' D' R R D R' L B' R R + U B B U' D R R D'
+
+Date:  5 September 1981 01:08 edt
+From:  Greenberg.Symbolics at MIT-Multics
+Subject:  TV special
+
+Friday night at 8 NBC Magazine will cover Rubik's cube.  The coverage
+will doubtless include footage of the July 25 Boston Area Cubeathon,
+at which many MIT-Area cubists were present.
+
+Date:  8 Sep 1981 0942-PDT
+From: ISAACS at SRI-KL
+Subject: misc
+To: cube-lovers at MIT-MC
+
+   Some short notes on various cube stuff - will try to expand on some of it
+later:
+1. The Stanford Shopping Center/Games and Things cube contest of a couple of
+   saturdays ago:  was won by Paul cunningham, 16 yrs old. There were about
+   40 entries; there were something like 8 rounds to get to a winner, double
+   elimination, each pair fighting it out with the best average of 3 cubes,
+   all cubes in a round scrambled exactly the same way.  Best average-of-three
+   time was 56 seconds.  Best time was 41 seconds. David Tabuchi, the Games
+   & Things speedster, has a best average-of-ten speed of 43 seconds!  Brian
+   Robinson, with whom he works on the cube, has a best average-of-ten of 41
+   seconds.  Davids fastest time was 24.98 seconds!!!
+2. Cubes are multiplying like hotcakes.  Not only changes in labeling, but
+   also changes in shape.  I have seen or heard reports of about 8 shape
+   variations, and multiple size variations, from about 19 mm to about 60 mm.
+   And someone told me of a 12mm or so version.  The corners have been cut off
+   in 3 different ways (The nicest cuts them halfway through the neighboring
+   edge, and uses 14 colors).  The magic Tetrahedron is readily available now.
+   There is a build-it-yourself cube kit.  There are still reports of the
+   elusive 4x4x4 cube, but no actual sightings as far as I know.  By the
+   way, I collect puzzles, and am trying to find many of these cube variations.
+   If anyone knows where I can actually buy some, or would get me some, please
+   let me know.  I will be happy to pay or trade for them.
+3. The snake is not a cube, but it is a toy/puzzle/art object that should a
+   appeal to cube-lovers.  It also comes in a variety of colors and sizes.
+4. Also lots of new books and such. Such as:
+   a. Don Kolve, of Kirkland, Wash.  He solves Top-middle-bottom(position
+      corners,twist corners, flip edges, position edges).
+   b. L.E.Hordern, of England.  He does: bottom-middle-top ( position corners,
+      orient corners, orient edges, position edges).
+   c. Bridget Last, of Downham, England.  She solves: Define face colors 
+      ("The easiest way of deciding which face is to be which colour is to
+      define the centre faces as being correct.")  Then: position all corners,
+      orient all corners, position (with orientation) all edges.
+   d. Bob Easter, a friend in San Francisco, uses just one move to do
+      everything. The move is  F R' F' R (an old friend). First he "walks" 
+      the edge cubes to their proper corners, then rotates them into proper
+      order around the corner, then flips them 2 at a time to get them aligned.
+      Then he does similarly with the corners, using the same move, but 
+      done 3 times to leave the edges alone.  Lots of quarter twists, but 
+      little memory.  Perhaps the ultimate solution for people with strong
+      wrists.
+   e. Patrick Bussart, Puffin books (a division of Penguin Books).  Patrick
+      has been in the news since he is only 12 or 13 years old; his solution
+      is very popular in England. He does top corners, top edges, bottom
+      corners, position rest of the edges, rotate rest of the edges.
+5. I have been re-labeling cubes to make new puzzles, and would appreciate
+   suggestions.  I have made tactile cubes of various types (that is, with
+   various materials).  I'm trying to make one with 5 or 6 grades of sandpaper,
+   but find my touch cannot distinguish between the two middle grades. I
+   have made a magic square cube (each face is a 3x3 magic square; the
+   problem is to decide what the relative orientations and forms of the squares
+   should be; any suggestions?) and a magic cube cube (the center 14 cube is,
+   of course, invisible).  And 2 word cubes - one has word squares (there are
+   three 3 letter words in each direction), and the other, six 3 word sentences
+   (FIX THE BOX, YES YOU CAN, FUN FOR ALL, etc.  I haven't had these long
+   enough to know if they are "solvable" without trial and error; I think
+   that the magic square cube, especially, is difficult unless you have
+   the order in advance.  So far, I have made 2 of them, the first had one
+   square marked, which makes it fairly easy (the other 5 squares are forced
+   by the first); in the second, I made sure each corner was unique, and the
+   edges as different as possible (2 have to be the same); but I haven't had
+   time to try it yet.
+Enough - this message is too long.
+-------
+
+Date: 10 Sep 1981 1447-PDT
+From: ISAACS at SRI-KL
+Subject: cube query
+To: cube-lovers at MIT-MC
+
+   The 2x2x2 cube is solved in the corner sub-group, ignoring the (non-existent)
+edges.  The so-called "Dinman Style" cube (probably meant to be "diamond")
+has the corners cut off and everything stretched to make a somewhat distorted
+rhombicuboctahedron (the six center facies are square; the corners are now
+triangles, and the old edges are rectangles).  Solving this involves only
+positioning moves - all orientation (twisting) is invisible.  Thus these
+two cubes involve two "pure" subgroups.  Can anyone design (by either cutting,
+recoloring, or even inventing new mechanisms) cubes or pseudo-cubes which
+only involve edge-type moves, or which only involve twisting, with
+positioning ignored? 
+   --- Stan Isaacs
+-------
+
+Date: 11 Sep 1981 0917-PDT
+From: ISAACS at SRI-KL
+Subject: half query answer
+To: cube-lovers at MIT-MC
+
+  First of all, I was inaccurate about the "Dinman" style "cube" - it doesn't
+only eliminate twisting, but also some positioning (ie, after the top and middle
+are solved, the bottom is automatically solved).  Perhaps by the judicious
+adding of numbers to the facies, the pure position cube can be made.  Also,
+the answer to the edge-only subgroup is easy - just remove all the labels from
+the corners, so they are all identically monochromatic.  Is there a more
+elegant solution?
+   --- Stan
+-------
+
+GENTRY@MIT-AI 09/11/81 20:43:40
+To: CUBE-LOVERS at MIT-MC
+It appears that due to time restrictions, the segment about the RUBIK's
+cube on NBC Magazine has been postponed until next week. Check the listings
+for your area to see when it will be televised.
+
+
+Date: 15 Sep 1981 1553-PDT
+From: ISAACS at SRI-KL
+Subject: lower bounds
+To: Hoey at CMU-10A
+cc: cube-lovers at MIT-MC
+
+  [This message is being sent to Dan Hoey, and refers to his message of
+9-Jan-81, subject: The Supergroup -- Part 2: at least 25 qtw and why]
+   Appended to this message is a longish message I recieved, which has
+some good ideas to use.  In particular, what about using your technique
+on a 2x2x2 cube, or an (idealized) edge-only cube?  And then comparing
+it with his clculations for the 2x2x2.
+   I'm not sure without a 2x2x2 in front of me, but I think there are
+only 2 distinct 1 qtw per set of opposite faces, and only one 2qtw move.
+And that the period is only 2.  Is that true?  However, there should be
+more low-number-of-twists identities.
+   I'm distrustful of the actual calculations in the message below, because
+I don't see the 9 new configurations after only 1 twist.  I think there are
+only 6. Or am I missing something?
+  Also, Dan or someone else on the cube-lovers network: how about compiling
+all the messages about lower bounds and identities (after a while) into 
+one file we can ftp and look at all together.
+11-Sep-81 12:26:52-PDT,6785;000000000001
+Mail-from: ARPAnet host BERKELEY rcvd at 11-Sep-81 1223-PDT
+Date: 11 Sep 1981 11:43:07-PDT
+From: ARPAVAX.sjk at Berkeley
+To: isaacs@sri-kl
+Subject: in case you haven't seen this ...
+
+Article 16:
+>From csvax:mhtsa!harpo!chico!esquire!psl Wed Sep  9 17:16:32 1981
+Subject: Rubik's Cube
+Newsgroups: net.games
+
+Want to knoe how far away you can get from the solution on a Rubik's Cube?
+
+
+   A Simple Lower Bound
+
+As everybody knows, the number of discrete configurations of the 3x3x3
+Rubik's Cube is:
+
+(8! * 12! * 3^8 * 2^12) / 12 = 4x10^19 = 43,252,003,274,489,856,000
+
+One approach to a lower bound is to calculate the maximum possible number
+of configurations you can reach with a particular number of moves and then
+see how many moves you would have to make to reach the number above.
+
+With no moves at all you get 1, the starting position.  The first move gets
+you 18, (any one of six faces turned one of three ways).  The next move
+gets you 18*15, (no point in turning the same face twice in a row), for a
+total of 1+18+270 configurations reached after two moves.  A table of these
+values looks like:
+
+	      ---------possible configurations---------
+moves                 new   % max                 total
+ 0                      1   0.0%                      1
+ 1                     18   0.0%                     19
+ 2                    270   0.0%                    289
+ 3                   4050   0.0%                   4339
+ 4                  60750   0.0%                  65089
+ 5                 911250   0.0%                 976339
+ 6               13668750   0.0%               14645089
+ 7              205031250   0.0%              219676339
+ 8             3075468750   0.0%             3295145089
+ 9            46132031250   0.0%            49427176339
+10           691980468750   0.0%           741407645089 Notice that
+11         10379707031250   0.0%         11121114676339 not until 17
+12        155695605468750   0.0%        166816720145089 moves has the
+13       2335434082031250   0.0%       2502250802176339 total number
+14      35031511230468750   0.1%      37533762032645089 of possible
+15     525472668457031250   1.2%     563006430489676339 configurations
+16    7882090026855468750  18.2%    8445096457345145089 exceeded the
+17  118231350402832031250 273.4%  126676446860177176339 maximum.
+
+So there is no possible way to reach some configurations in fewer than
+17 moves.  However, this analysis has assumed that each configuration
+generated was a NEW one, but there are MANY cases where this will not
+be so.  A simple example is turning one face 180 degrees, the opposite
+face 180 degrees, and then repeating those two moves -- four moves that
+get us to an old, familiar configuration.  If we factor out the sequences
+that involve these opposite face identities the minimum number of moves
+becomes 18.  Needless to say there are still lots of useless move sequences,
+but detecting them becomes a lot trickier.
+
+
+   A Rumored Upper Bound
+
+Rumor has it that a computer program exists, (attributed to Thistlethwaite),
+that provably will solve any Cube configuration in at most 41 moves.
+
+
+   Narrowing it Down
+
+So the answer is somewhere between 18 and 41.  How do you get further?  One
+way is to write a computer program that tries every sequence of moves until
+it has generated every possible configuration at least once.  That sounds
+easy, and it is, but such a program would take a \\\L O N G/// time to run.
+However, if we limit the problem a little by considering a Cube that is two
+squares on a side (2x2x2), we have a chance of learning something.
+
+
+   2x2x2 Cube
+
+By the same considerations stated above we can get a lower bound for the
+2x2x2 Cube.  There are 7! * 3^6 = 3,674,160 configurations and, since we
+can limit ourselves to moving only three "orthogonal" sides of the 2x2x2
+cube, on the n-th move you could reach 9 * 6^(n-1) new configurations thus
+we find that with 8 moves you could reach at most 3,023,307 and with 9 you
+could reach at most 18,139,851.  (Note that this doesn't have the problem with
+opposite side moves that the 3x3x3 cube has.)
+
+Because the 2x2x2 cube is relatively simple we can actually run a program
+to try all the possible move sequences and compare our bound with fact.
+Listed below are the findings
+
+
+	 ------new configurations-------    total configurations
+moves    -----possible----  ---actual---    ---possible --actual
+	   number      %    number   %          number    number
+ 0              1     0.0%       1  0.0%             1         1
+ 1              9     0.0%       9  0.0%             9        10
+ 2             54     0.0%      54  0.0%            63        64
+ 3            324     0.0%     321  0.0%           387       385
+ 4           1944     0.0%    1847  0.0%          2331      2232
+ 5          11664     0.3%    9992  0.3%         13995     12224
+ 6          69984     1.9%   50136  1.4%         83979     62360
+ 7         419904    11.4%  227536  6.2%        503883    289896
+ 8        2519424    68.6%  870072 23.7%       3023307   1159968
+ 9       15116544   411.4% 1887748 51.4%      18139851   3047716
+10       90699264  2468.6%  623800 17.0%     108839115   3671516
+11      544195584 14811.4%    2644  0.071%   653034699   3674160
+
+Interestingly enough there are 2,644 configurations that require eleven
+moves to reach a solution; this is less than one tenth of one percent of
+the total configurations!
+
+It's also interesting that it's better than a 50-50 bet that a randomly
+ordered 2x2x2 cube can be solved in exactly nine moves, (it's not clear
+how to turn this into a profitable bar bet, however).
+
+Noticing that there are only 321 new configurations after three moves
+instead of 324 leads us to guess that there are six non-trivial sequences
+of six moves that end with the original configuration, (why?).
+
+These results came from a C program running on a VAX 11/780 and even
+though the 2x2x2 cube is simple compared to the 3x3x3 it took a lot of
+time.  The figures for 11 moves took over 51 hours of cpu time.
+
+If you'd like to make a 2x2x2 cube with which to experiment you can simply
+take all the little labels off a 3x3x3 cube except the ones on the corners
+and then ignore the unlabeled cubes.
+
+Here's one sequence that gets you to one of the 2,644 configurations:
+    f r f r f d2 f d- f d2 r2    f = rotate front face 90 degrees
+				 r = rotate right face 90 degrees
+				d2 = rotate "down" face 180 degrees
+				d- = rotate "down" face 270 degrees
+
+
+   So Where's That Leave Us?
+
+I just thought of a dandy way to get the answer for the 3x3x3 cube, but
+the margins on this news item are a little too small for me to include it ...
+
+-------
+
+Date: 15 September 1981 21:54-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Editor's note to the last message.
+To: CUBE-LOVERS at MIT-MC
+
+I will look into collecting all of the relevant messages on God's
+number into one place.  If you want to poke around in the archives
+yourself (please be carefull, and don't delete them again) I will
+remind you all that old cube-lovers mail is archived in the following
+places:
+
+MC:ALAN;CUBE MAIL0	;oldest mail in foward order
+MC:ALAN;CUBE MAIL1	;next oldest mail in foward order
+MC:ALAN;CUBE MAIL2	;more of same
+MC:ALAN;CUBE MAIL	;recent mail in reverse order
+
+(I someone else wants to attempt the compilation, there is a better
+chance it will get done.  Let me know and I will be happy to lend a
+hand.)
+
+Some of the seeming inconsistencies in the message included by Isaacs
+in his message are a result of the usual half versus quarter twist
+screw.  The reason the writer can see 9 configurations after a single twist
+is because he has a different definition of a "single twist".
+
+I also am not sure, but I also think that the counting argument given
+here suffers from the some confusion Singmaster had when he computed a
+lower bound of 17 htw.  I think, in fact, that a lower bound of 19 htw
+results if the argument is executed correctly (Singmaster corrected
+himself about this by the fourth edition, I think).  Someone with a
+copy of Singmaster handy should look this up.
+
+The 41 move count for Thistlethwaite's algorithm is probably a half
+twist count given that it was reported by Singmaster.
+
+Date: 16 September 1981 0003-EDT (Wednesday)
+From: Dan Hoey at CMU-10A
+To: ISAACS at SRI-KL, Cube-Lovers at MIT-MC
+Subject:  Re: lower bounds
+In-Reply-To:  Stan Isaacs's message of 15 Sep 81 17:53-EST and Alan Bawden's
+             message of 15 Sep 81 20:55-EST
+Message-Id: <16Sep81 000353 DH51@CMU-10A>
+
+	Hi.  I'm really pressed for time, but I'll drop a couple of
+comments.
+
+	Alan pretty well said it--there are half-twisters and there
+are quarter-twisters and the included message is one of the former.
+I strongly favor the latter, since then all the moves are
+equivalent, (M-conjugate, to you archive-readers).  But Singmaster's
+book, though in the other camp, is too good to ignore.
+
+	To extend the argument I gave on 9 January to the case
+where quarter-twists and half-twists are counted equally (we call
+such a move a `htw' whether it is quarter or half) let PH[n] be the
+number of (3x3x3-cube) positions at exactly n htw from SOLVED.  Then
+
+	PH[0]  = 1
+	PH[1] <= 6*3*PH[0]
+	PH[2] <= 6*2*PH[1]   + 9*3*PH[0]
+	PH[n] <= 6*2*PH[n-1] + 9*2*PH[n-2] for n > 2.
+
+Solving yields the following upper bounds:
+
+htw        new        total      htw        new         total
+ 0           1            1       10    2.447*10^11   2.646*10^11
+ 1          18           19       11    3.267*10^12   3.531*10^12
+ 2         243          262       12    4.360*10^13   4.713*10^13
+ 3        3240         3502       13    5.820*10^14   6.292*10^14
+ 4       43254        46756       14    7.769*10^15   8.398*10^15
+ 5      577368       624124       15    1.037*10^17   1.121*10^17
+ 6     7706988      8331112       16    1.385*10^18   1.497*10^18
+ 7   102876480    111207592       17    1.848*10^19   1.998*10^19
+ 8  1373243544   1484451136       18    2.467*10^20   2.667*10^20
+ 9 18330699168  19815150304
+
+	At least 18 htw are required to reach all the 4.325*10^19
+positions of the cube.  This is the same argument that was used in
+Singmaster's fifth edition, p. 34, and is the best I know.  Lest ye
+be tempted to pull the trick I did in the January message, remember
+that half-twists are even permutations, so there is no assurance
+that half the positions are an odd distance from SOLVED.  This is
+illustrated in the 2x2x2 case, where more than half of the
+positions are at a particular odd distance.
+
+	And yes, all of Thistlethwaite's analysis seems to use the
+half-twist metric.  I am quite surprised, however, to hear the rumor
+of 41 htw.  As of Singmaster's fifth edition, the figure was 52 htw
+``... but he hopes to get it down to 50 with a bit more computing
+and he believes it may be reducible to 45 with a lot of
+searching.''  If anyone has harder information on the situation, I
+would like to hear it.
+
+	Well, back to real work.  I saw a Rubikized tetrahedron in a
+shop window earlier this evening; I'm not sure whether I'm relieved
+or infuriated that the store was closed for the day.
+
+Date: 21 Sep 1981 08:49 PDT
+From: Eldridge.ES at PARC-MAXC
+Subject: An incomplete solution
+To: Cube-Lovers@MC
+cc: XeroxCubeLovers^.pa
+Reply-To: Eldridge
+
+For months now I have been living in blissful ignorance thinking that I too
+could solve "the cube".  To my horror and dismay I have found that my solution
+is not complete.  There are some cubes on the market that have pictures of fruit
+on the faces rather than solid colors.  I wondered if the solution I use would get
+the pictures on the faces all lined up in the proper direction.  I found that it
+didn't!  The problem is that some of the center cubies do not line up in the same
+direction as all the other cubies on the face.  I am currently working on finding
+some macros that rotate the center cubies without affecting the rest of the cube. 
+I would suggest that you might find one of these fruit cubes and try it.  Or you
+can do as I did and mark the faces of an original cube so that you can tell the
+orientation of the cubies.  Good Luck!
+
+George
+
+
+Date: 21 September 1981 15:50-EDT
+From: Richard Pavelle <RP at MIT-MC>
+Subject: 4x4x4
+To: CUBE-LOVERS at MIT-MC
+
+A person in sales at Ideal Toy Corp told me today that they will begin 
+selling the elusive 4x4x4 next May or June. The die casts are being made 
+now. They will be showing it at Toyfair (a trade show?). 
+
+Date: 22 Sep 1981 0552-EDT
+From: ZILCH at MIT-DMS (Chris C. Worrell )
+To: CUBE-LOVERS at MIT-MC
+Subject: Article on Erno Rubik
+Message-id: <[MIT-DMS].210992>
+
+Yesterday in a store I noticed that this week's
+PEOPLE magazine has an article on
+"Erno Rubik: The Inventor of that !#&%$*@ Cube"
+(this title is approximatly right)
+The article is on page 30 (40?) and runs for a total of
+4 pages, however I didn't read it so I don't know what it's 
+content is.
+
+
+
+Date: 23 September 1981 0005-EDT (Wednesday)
+From: Guy.Steele at CMU-10A
+To: cube-lovers at MIT-MC
+Subject:  The Cube in the Comics
+Message-Id: <23Sep81 000559 GS70@CMU-10A>
+
+The "Ferd'nand" comic strip for 9/22/81 features the cube.
+(For those who don't see this strip: it's pure mime, with no word balloons.
+Panel 1: Ferd'nand sits in an armchair, struggling with a (scrambled) cube.
+Panel 2: In disgust he throws it out of a window.
+Panel 3: The cube sits on the lawn.  Ferd'nand turns away, but still is
+	 glaring over his shoulder at the cube.
+Panel 4: Fred'nand is sitting on the grass where the cube had landed,
+	 struggling away again.
+Know the feeling?)
+--Guy
+
+Date: 23 Sep 1981 1554-PDT
+From: HOROWITZ at USC-ISIF
+Subject: question for cube-lovers
+To:   cube-lovers at MIT-AI
+
+Minh Tai, a high school senior in the Los Angeles area who can do
+the cube in average 50 seconds  proposes the following problem:
+
+Is it possible to make every face have either a Z or an S
+(two colors, one forming the Z pentomino)?
+
+He signs himself with a quick routine for six T's as follows:
+(U2 R' L)2 (B2 D2)3
+
+
+   ------!----!-------
+   ! x   ! x  !      !
+   !                 !
+   ------!----!-------
+   !     ! x  !      !
+   !                 !
+   ------!----!------
+   !                 !
+   !        x      x !
+   ------!-----!------
+-------
+
+
+Date: 23 September 1981 2236-EDT (Wednesday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Re: question for cube-lovers (S and T patterns)
+CC: HOROWITZ at USC-ISIF
+In-Reply-To:  Alan Bawden's message of 23 Sep 81 19:31-EST
+Message-Id: <23Sep81 223642 DH51@CMU-10A>
+
+	It is impossible to put Z patterns on all six faces of the
+cube, just as it is impossible to extend the Laughter (or Zig-Zag)
+pattern to six faces.  The problem is with the corners.  If every
+face is to have a pair of opposite corners that agree with the face
+center and a pair of opposite corners that agree with each other
+but not with the center, then the only constructible pattern is
+like (i.e. M-conjugate to) the following:
+
+		F - U
+		- U -
+		U - F
+
+	D - L	F - R	U - R	B - L
+	- L -	- F -	- R -	- B -
+	L - D	R - F	R - U	L - B
+
+		B - D
+		- D -
+		D - B
+
+But this pattern has incorrect corner orientation, and so is not
+achievable.
+
+	The T patterns were introduced to this list by David C.
+Plummer [3 September 1980 2123-EDT], who assigns credit to Tanya
+Sienko for the idea.  Jim Saxe and I [27 January 1981 0102-EST] gave
+a process for Tanya's T, the pattern that Minh Tai uses to sign
+with.  Our process, (FF UU)^3 (UU LR')^2, is four quarter-twists
+shorter than Tai's ``quick routine'' because of the cancellation in
+the middle.  The other T pattern, Plummer's T, can be achieved in 28
+qtw:  FF UD' F'B' RR F'B U'D RL FF RL' UD' RL FF R'L U'D'.
+
+Date: 24 Sep 1981 0835-PDT
+From: Chris Van Wyk <CSD.CVW at SU-SCORE>
+Subject: Soviet view of the cube
+To: cube-lovers at MIT-MC
+
+September 1981 Atlas World Press Review reports
+
+	Americans may call the Rubik Cube a fad,
+but to Izvestia's Melor Sturua it is a "new
+psychosis."  He reports [July 12] the interpretations
+of unidentified sociologists:  "Some assert that
+the Rubik Cube reflects the philosophy of the Reagan
+Administration--to build and destroy aimlessly
+in a futile search for a solution to the world
+situation.  Others see Americans' efforts to solve
+the puzzle as the desire to escape from a disordered
+life.
+
+-------
+
+Date: 25 September 1981 03:11-EDT
+From: Chris C. Worrell  <ZILCH at MIT-MC>
+Subject: Poll results
+To: CUBE-LOVERS at MIT-MC
+
+Here are the results of the CUBE-POLL.
+
+DATE      AVG.   WORK    WHEN  #   #
+REPLY AGE SOLVE  TIME    GOT   OWN DIED   OCCUPATION
+          (MINS)
+------------------------------------------------------------
+8/28  15  --     --      4/81  1   0      STUDENT
+9/7   16  --     --      9/81  1   0      STUDENT
+9/8   18  3-3:15 1.5-2m  9/80  2   .75    STUDENT
+9/24  19  1:40   <10h    7/80  0   0      UG-ENG
+8/17  20  4      1w      12/79 1   0      UG-CS/EE
+8/29  20  1:50   1w      7/81  2   0      UG
+8/25  22  1:30   ?       6/80  7   0      COMP. ANALYST
+8/19  22  10 unreliably  7/81  2   0      HACKER
+8/15  24  4      2d      1/80  1   0      PROGRAMMER/GRAD-CS
+8/17  25  2      40h     6/80  4   0      PROGRAMMER/GRAD-PHYS
+8/17  27  4      2-3w late78/79 2  0      HACKER/RECENT G.-CS
+8/15  28  10-15  30h since start 2 0      PROGRAMMER
+8/17  30  10     ?       5/80  1   0      TEACH/PROGRAMMER
+9/11  30  5-10   50-60h  12/80 1   0      TEACHER-CS
+8/15  31  2:15   8d      2/80  4   0      HACKER
+8/18  31  5      2w      5/80  2   0      COMP. SCIENTIST
+8/24  38  2      100h    5/80  4   3      PROFFESSOR
+8/31  39  3      3d    fall80  1   0      ROBOTICS RESEARCH
+8/24  41  3      ?    early79  24  0      COMP. ANALYST
+(the 24 cubes owned is mostly non-standard ones)
+
+DEAD CUBES:
+Many people replied that none of their cubes have died on them
+though some admit that some of their cubes are in pretty bad
+shape, or they have gotten additional cubes to keep their old
+ones from dying.
+One person reported that he has a cube which still works, even
+though it got left in a hot car, and got partially melted
+so is now some what surrealistically distorted.
+(I wonder what the temperature was)
+
+
+METHODS (INDEXED BY AGE(DATE-REPLIED)):
+18.    CORNERS,"MIDDLE-RING",TOP-SIDES,BOTTOM(MAY MESS UP
+       TOP),?
+19.    TIME-EFFICIENT:
+        U-EDGES,U-CORNERS,MIDDLE-SIDES,D-EDGES-ORIENTED,
+        D-EDGES-POSITIONED,D-CORNERS-POSITIONED,
+        D-CORNERS-ORIENTED
+       MOVE-EFFICIENT
+        U-EDGES   20
+        U-CORNERS 28
+        MIDDLE-SIDES    46 (primary target for improvement)
+        D-SIDES   14
+        D-CORNERS 20
+           TOTAL=128qtw
+20.(8/17)
+       2 METHODS
+        BOTTOM,MIDDLE,TOP SLICES
+        4-CORNERS,8-CORNERS,BOTTOM,TOP,MIDDLE
+20.(8/29)
+       SOLVE GREEN FACE,OPPOSITE CORNERSIN CORRECT ORIENTATION
+       OPPOSITE CORNERS IN CORRECT POSITIONS,OPPOSITE SIDES IN
+
+       CORRECT POSITIONS,MIDDLE LAYER
+       ABOUT 150qtw MAX.
+22.(8/25)
+       TOP 4 CORNERS,BOTTOM 4 CORNERS PLACED, ..ORIENTED
+       EDGES PUT INTO PLACE IN PAIRS
+22.(8/19)
+       TOP(EDGES THEN CORNERS),MIDDLE,BOTTOM
+24.    MOVE AND TIME EFFICIENT:
+        TOP CORNERS  22
+        BOTTOM CORNERS POSITION 26
+        " " ORIENTATION  24
+        TOP EDGES   40
+        BOTTOM EDGES   68
+        CENTERS 8 (initial posn of corners is by convenience)
+        MIDDLE EDGES POSITION 20
+        " "  24
+         TOTAL=232qtw
+25.    TOP,MIDDLE,BOTTOM CORNER ORIENTATION,BOTTOM EDGE
+       ORIENTATION,BOTTOM CORNER POSITION,BOTTOM EDGE POSITION
+27.    TOP CORNERS,TOP EDGES,3 MIDDLE EDGES(POSITION,POSSIBLY
+       ORIENTATION),POSITION OTHER CORNERS,ORIENT OTHER
+       CORNERS,POSITION OTHER EDGES,ORIENT OTHER EDGES
+28.    BOTTOM LAYER,MIDDLE SIDES,ORIENT TOP SIDES,TOP CORNER
+       POSITION, ..ORIENTATION,POSITION TOP SIDES
+30.(8/17)
+       SOLVE TWO LAYERS SIMULTANEOUSLY, THEN THIRD
+30.(9/11)
+       UPPER FACE EXCEPT ONE EDGE,LOWER CORNERS POSITIONED,
+        ..ORIENTED,LOWER EDGES,LAST UPPER EDGE,MIDDLE
+       POSITIONED, ..ORIENTED
+31.(8/15)
+       TOP CORNERS,TOP EDGES,BOTTOM CORNERS ORIENTED,
+        ..POSITIONED,BOTTOM EDGES,MIDDLE POSITIONED,
+        ..ORIENTED
+31.(8/18)
+       TOP CORNERS,TOP EDGES,(TURN CUBE OVER),TOP CORNERS
+       POSITIONED, ..ORIENTED,REMAINING EDGES POSITION,
+        ..ORIENTED
+38.    2-METHODS
+        3 CONSECUTIVE LAYERS
+        CORNERS FIRST (FOR SPEED)
+       ONE OF THESE IS 120qtw
+39.    TIME
+        CORNERS,BOTTOM,MIDDLE,TOP
+       MOVE
+        CORNERS,EDGES IN RANDOM ORDER
+        AVERAGES 75qtw    <WORST CASES WERE NOT MENTIONED>
+41.    2 METHODS
+        UPPER EDGES,UPPER CORNERS,(TURN OVER),MIDDLE,
+         ORIENT EDGES,ORIENT CORNERS,PLACE CORNERS,PLACE
+         EDGES
+        UPPER EDGES,3 UPPER CORNERS,3 MIDDLE EDGES
+         LAST UPPER CORNER,LAST MIDDLE EDGE,(TURN OVER)
+         ORIENT EDGES,ORIENT CORNERS,PLACE CORNERS,PLACE
+         EDGES
+
+
+
+
+As far as I can tell no two people who reported in detail
+solve the cube in quite the same way.
+
+
+INTRESTS IN THE CUBE:
+ investigation of identities to calculate GOD's number
+ application to the teaching of group theory
+ training of mind and logic,  something to do
+ variations (tetrahedron, 10-sided, interesting faces)
+ what different solving methods are
+ analogy with quark confinement
+ Combinatorial algorithims
+ introducing others to the cube
+ how people learn to solve cubes (AI)
+ pretty patterns,  cube graphics(for fun)
+ determining GOD's number
+ Showmanship,  flaming about cubes in public
+ cubing to attract or repel people
+ analytic, as opposed to heuristic or exhaustive aids to
+   solve the cube
+
+
+
+NON-CUBING INTRESTS OF PEOPLE:
+ almost any types of puzzles,  science fiction  
+ COMPUTERS!!!, ADVENTURE <Computerized Fantasy Simulation)
+ soccer, electronics, Folk dancing, juggling, Chess
+ hiking, hacking, biking, photography
+ collecting/studying/sometimes even solve puzzles
+ Lewis Carroll, archeolgy, linguistics, magic
+ recreational math, D&D, wine-tasting
+ SEX an DRUGS an ROCK an ROLL
+ ANSWERING SILLY QUESTIONS ON QUESTIONAIRES
+ guitar, various aspects of Computer Science
+ mathematical logic, set theory, topology
+ food, the investigation of earth people
+ musician, GO
+ computer programs for GO/chess/othello/similar 2-player games
+ computer assisted or mediated simulation games
+
+
+RANDOM COMMENTS:
+Some people felt that the reason I might not have gotten
+many responses was because of the tediousnes and difficulty
+of entering a detailed description of their algorithm and
+also transformations they know of.
+One person suggested that lack of responses may have been
+due to the fact that it is summer, and some people would not
+have been at school.
+This is the results(or most of them anyway) of the poll up to
+this point, but I feel that this should by no means be
+considered the end of the poll, please mail any new responses
+addition to old responses, or updates of old responses to
+CUBE-POLL@MIT-MC. If you need to know the questions, the
+POLL is in the archives dated 14 AUG.,3:12EDT, or you could
+probably get a copy by asking CUBE-MAIL-REQUEST.
+Also feel free to enter any new poll questions into the
+discussion by announcing them on CUBE-LOVERS.
+I personally will probably be unable to do anything about
+new responses until Christmas, but don't let this stop you
+from sending them in.
+
+I hope that i have not grossly misrepresented anybody
+because of my abbreviations of the results.
+
+
+             Chris Worrell -   ZILCH@MIT-MC
+
+
+
+Date: 25 September 1981 03:25-EDT
+From: Chris C. Worrell  <ZILCH at MIT-MC>
+Subject: 4x4x4 TRANSFORMATION
+To: CUBE-LOVERS at MIT-MC
+
+On the normal cube the relative positions of the faces
+is immutable, however this is not so on the 4x4x4.
+I have found a trransformation which i beleive will facilitate
+the switching of any two of the cental blocks of 4 on a face.
+I am not sure as I did this totally in my head, without
+the benifit of a 4x4x4. This trandsformation would be 
+extremelly nasty to pull on someone who has learned how to 
+solve the standard cube from someone else, and as such does
+not know much about cubolgy.
+
+Date: 25 Sep 1981 21:41:35 EDT (Friday)
+From: Roger Frye <frye at BBNP>
+Subject: Cube in Political Cartoon
+To: Cube-Lovers at MIT-MC
+Cc: frye at BBNP
+
+The Boston Globe editorial page for 9/25/81 has a cartoon entitled
+"Stockman's CUBE".  I can't make out the signature on the cartoon.
+It could be M. H. Beane. It shows much struggling to solve the cube
+followed by a realization.  The character, presumably Stockman,
+Reagans's economist, then smashes off a corner or two of the cube
+with a hammer.  In the last frame, he has his suit jacket back on
+(which he had lost while struggling).  He holds up a solved cube
+and says, "Simple... I just applied my economic method...
+
+It's everywhere.  Last week we argued about it in couples therapy;
+this week our therapist said she had an argument with her husband
+because he just got one and wasn't listening to her.
+
+I join Dame Ollerenshaw on the casualty list; a few nights ago
+I sprained my wrist twisting too long, too late, in too cramped
+a position, and sinning too fast against a jam.
+
+Happy Cubing,
+Roger Frye
+
+
+Date: 25 Sep 1981 22:03:27 EDT (Friday)
+From: Roger Frye <frye at BBNP>
+Subject: spinning not sinning
+To: Cube-Lovers at MIT-MC
+Cc: frye at BBNP
+
+Spelling corrections for my last message.
+Add a quote mark after the second ellipsis.
+Change "sinning" to "spinning".
+
+Happy sinning,
+Roger
+
+
+Date: 26 September 1981 14:08-EDT
+From: David C. Plummer <DCP at MIT-MC>
+Subject:  ZILCH's 4x4x4 center block exchange
+To: CUBE-LOVERS at MIT-MC
+
+Just a clarification (and a discussion promoter, perhaps).  I can
+believe it is possible to put the center 2x2 blocks of a 4x4x4
+cube into any relative position.  But, there is still only one
+way to solve it.  This is because the relative position in the
+solved state is determined by the corners.  I guess this allows
+for a new class of pretty patterns, especially DOTS:
+	DOTS as we know it in  the 3x3x3 (two sets of three; one
+	  set clockwise, the other couterclockwise) 
+	DOTS (two sets of three; both (counter)clockwise)
+	DOTS (two sets of three; similar to BASEBALL)
+	DOTS (three sets of two; like Christman's Cross)
+	DOTS (three sets of two; pairs opposite) (a local max)
+	DOTS (three sets of two; all pairs adjacent)
+	DOTS (one set of six; similar to the checkboard obtained
+	  by Plummer's Cross + dots + pons)
+	etc.
+
+Anybody want to take a shot at trying to catalog all the local maxima?
+
+Date: 28 Sep 1981 1722-PDT
+From: ISAACS at SRI-KL
+Subject: notation
+To: cube-lovers at MIT-MC
+
+  Anybody have a good notation for 4x4x4?  How about for the pyramid?
+  Also, anybody have a good (less than 8 moves; QTW or HTW) to move a 
+cubie from the bottom layer to a top corner, without disturbing top or middle,
+and making bottom facie into top facie (eg DLF --> UFL or suchlike).
+   --- Stan
+-------
+
+Date:  9 Oct 1981 10:55:04 EDT (Friday)
+From: Roger Frye <frye at BBNP>
+Subject: Cube-a-thon
+To: Cube-Lovers at MIT-MC
+Cc: Frye at BBNP
+
+Does anyone have any more details on the following (as clipped
+from Boston Globe 10/8/81):
+  JEFF VANASANO, 15, of the Bronx, beat
+  more than 2000 competitors in a Rubik's
+  cube-a-thon in Jackson Township, N.J.,
+  by solving a Rubik's Cube in 24.67 sec-
+  onds.  Vanasano will go on to the US finals
+  in Los Angeles in November and there will
+  be a world championship next spring.
+I wonder who sponsored the competition, what form the contest
+took, who Vanasano is, what techniques he uses.  I found the
+analysis of Kimmo Eriksson's technique by Lars S. Hornfeldt
+(9 May 1981 08:47-EDT) to be most enlightening, and would
+love to see similar analyses.
+-Roger Frye
+
+
+Date: 11 October 1981 13:26-EDT
+From: Andrew Tannenbaum <TRB at MIT-MC>
+Subject:  New Jersey Cube-a-thon
+To: CUBE-LOVERS at MIT-MC
+
+The NJ Cube-a-thon was at (Six Flags Over) Great Adventure
+amusement park, sponsored, I believe, by Ideal.  I saw the kid
+who won on television, zip, zip, zip, presto.  He said he was
+solving 300 cubes a day as practice, and has been improving his
+speed five seconds a month for the past six months or so.  I
+think there were about 1500 entrants.
+
+How about this for a bumper sticker?
+"Cubists do it in under a minute"
+	Andy Tannenbaum
+	Bell Labs Whippany, NJ
+
+Date:  11 October 1981 17:52 edt
+From:  Greenberg.Symbolics at MIT-Multics
+Subject:  Under a minute
+To:  CUBE-LOVERS at MIT-MC
+
+Several people have noted that there must be something sick about
+a bunch of people whose "do it" bumperstickerisms are all
+UNCOMPLIMENTARY, viz., "faster", "in under a minute"....
+
+Date: 12 October 1981 0028-EDT (Monday)
+From: Guy.Steele at CMU-10A
+To: cube-lovers at MIT-MC
+Subject:  Cubists do it...
+Message-Id: <12Oct81 002811 GS70@CMU-10A>
+
+Okay, then, how about: Cubists do it...
+
+	... with both hands.
+	... in groups.
+	... symmetrically (!).
+	... first on top, then on the bottom.
+	... by swapping.
+	... with their fingers.
+	... while twisting their faces.
+	... rectilinearly.
+	... by conjugation (tautologous?).
+	... despite odd orientations.
+
+--Quux
+
+Date: 12 Oct 1981 0919-PDT
+From: HOROWITZ at USC-ISIF
+Subject: Latin square question
+To:   cube-lovers at MIT-MC
+
+Herb Taylor, a research associate at USC in the EE dept. 
+has proved that it is impossible to put a latin square
+on every face of the 2 x 2 x 2  cube.
+Can anyone answer the question on page 15 of his book
+UNSCRAMBLING THE CUBE?  It asks whether or not it is
+possible to put a latin square on every face of the 3 x 3 x 3 
+cube.
+
+Ellis Horowitz
+
+p.s. Minh Thai of Los Angeles did ten scrambles with average
+time 40 seconds
+-------
+
+Date: 14 Oct 1981 13:39:30 EDT (Wednesday)
+From: Roger Frye <frye at BBNP>
+Subject: Latin Square Answer
+To: Cube-Lovers at MIT-MC
+Cc: Frye at BBN-UNIX
+
+Exhaustive search shows that there are several ways to fill all faces
+of Rubik's 3^3 with Latin squares, but none lie in the primary orbit.
+
+Here are two arrangements in the orbit where one corner is twisted
+1/3 turn anticlockwise:
+
+         UFB                           UBF        
+         BUF                           FUB        
+         FBU                           BFU        
+     				                  
+     LUD RLF RUD LRB               LDU RLF RDU LRB
+     DLU LFR DRU RBL               ULD LFR URD RBL
+     UDL FRL UDR BLR               DUL FRL DUR BLR
+     				                  
+         DBF                           DFB        
+         FDB                           BDF        
+         BFD                           FBD        
+
+I did the search with pencil and scissors on quadrille lined paper.
+The following observations speed the search:
+ 1) The 3*3 Latin square whether reduced or not must be some
+    rotation or relabeling of the following pattern:  ABC
+			                	      BCA
+                                                      CAB
+ 2) The diagonal bars of the squares must be arranged as in
+    the pretty pattern called "Laughter" because of the shape
+    of the corner cubies.  (See the bars in the patterns above.)
+ 3) When you attempt to place one of the remaining four corner
+    cubies, the corner color propagates to two edges which restricts
+    the other color on those edge cubies to not be that color and also
+    not that color's complement (e.g. U and D).  This restriction
+    then propagates to another corner.
+
+
+-Roger Frye
+
+
+Date: 15 October 1981 10:05-EDT
+From: Andrew Tannenbaum <TRB at MIT-MC>
+Subject: maybe we are a little sick.
+To: CUBE-LOVERS at MIT-MC
+
+    Date: 11 October 1981 23:08-EDT
+    From: Alan Bawden <ALAN at MIT-MC>
+
+    Date:  11 October 1981 17:52 edt
+    From:  Greenberg.Symbolics at MIT-Multics
+
+    Several people have noted that there must be something sick about
+    a bunch of people whose "do it" bumperstickerisms are all
+    UNCOMPLIMENTARY, viz., "faster", "in under a minute"....
+
+    -----
+It so happens that cubists like to do it faster instead of
+slower.  Or by twisting faces.  There are those who allege that
+anyone who would try and try to solve the dumb puzzle is sick, or
+that anyone who would solve and scramble a cube tens of thousands
+of times is sick.  Lots of people can't imagine anyone finding
+joy in hacking.  It can't give the satisfaction of the personal
+communication and conquest of marketing, for instance.  This goes
+for many interests.
+
+My mother always told me that I shouldn't play with my cubies.
+	Andy Tannenbaum
+	Bell Labs Whippany, NJ
+
+Date: 17 October 1981 22:54-EDT
+From: Mark K. Lottor <LOTTOR at MIT-AI>
+To: CUBE-HACKERS at MIT-AI
+
+Where is old mail located?
+
+
+Date: 19 October 1981 12:23-EDT
+From: Andrew Tannenbaum <TRB at MIT-MC>
+Subject: assembling your own
+To: CUBE-LOVERS at MIT-MC
+
+What ever happenned to Bela Szalai of LOGICAL GAMES (mentioned in
+mid 1980 in this list)?  He re-mortgaged his house to produce white
+cubes, did he succeed?
+
+Does anyone make high quality cubes?
+
+Is it possible to buy unassembled cubes which you can tweak and
+lube yourself?  I don't want to try to figure out how to get at
+the screws in my good cubes, I fear I'll destroy them.
+
+What is the current edition of Singmasters?  Has anyone else
+written a worthwhile document (aside from the compilation of this
+digest)?
+	Andy Tannenbaum
+	Bell Labs Whippany, NJ
+
+Date: 20 Oct 1981 10:26:57 EDT (Tuesday)
+From: Roger Frye <frye at BBNP>
+Subject: Do It in the Dark
+To: Cube-Lovers at MIT-MC
+Cc: frye at BBNP
+
+I have constructed a tactile cube by epoxying buttons, snaps, paper
+clips and Q-tip stems to a store-bought cube.
+
+It takes me about 20 minutes to solve with my eyes closed as opposed
+to about 5 minutes with my eyes open.  Maybe Conway cheats in his
+5 look solution by feeling colors.
+
+I minimize search times by always working faces in a fixed order
+and by orienting colors (i.e. textures) before moving cubies on the
+last face.  But the ability to see (i.e. feel) the back of the cube
+doesn't compensate for my as yet poorly developed tactile pattern
+recognizer.
+
+- Roger Frye
+
+
+Date: 22 October 1981 14:02-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: fowarding
+To: CUBE-LOVERS at MIT-MC
+
+Date: 22 Oct 1981 0928-PDT
+From: ISAACS at SRI-KL
+Subject: Re: assembling your own
+To: ALAN at MIT-MC
+In-Reply-To: Your message of 19-Oct-81 1735-PDT
+
+  There seem to be at least two high quality cubes, one called "Deluxe" and
+I think sold by Ideal for about $14.00 around here (S.F.), the other
+packaged differently (in a half-cardboard box) and sold for about $8.00.
+Last night I heard that there may be still another version (perhaps identical)
+for about $4.00.  Anyway, they all have the colors on the facies put on with
+thin plastic squares instead of stickers.  The one I have also turns very well.
+But the plastic seems to be what makes them "deluxe".  
+   There is also a "build it yourself" cube kit sold; I've seen it, but don't
+have one.  It comes with the pieces and screws, and each facie has a small 
+hole in the center.  Plastic colored faces are snapped in.  Maybe it is
+an early version of the "Deluxe".
+   Documents on the cube:  There seem to be more books published on the cube
+every day.  Almost all of them are just solutions, with a little extra
+information (pretty patterns, anecdotes, other types of cubes, etc.). I
+know of not other book as interesting mathematically or theoretically as
+Singmasters.  An article by Dame Kathleen Ollerenshaw, called "The Hungarian
+Magic Cube" in Bulletin, The Institute of Mathematics and its Applications, Vol. 16, aPril 1980, may have interesting information (I haven't seen it), and
+the book? article? by Conway and others, mentioned in Singmaster, ought to
+be interesting if/when it comes out.
+   --Stan
+-------
+
+Date: 29 Oct 1981 0932-PST
+From: ISAACS at SRI-KL
+Subject: Re:  "Deluxe" cube
+To: Bob.Walker at CMU-10A, cube-lovers at MIT-MC
+In-Reply-To: Your message of 22-Oct-81 1953-PDT
+
+  Last night my friend brought me the "deluxe" cubes.  They came from:
+   Ckoach House Cards and Gifts
+   Sunnyvale Town Center
+   2502 Town Center
+   Sunnyvale, Calif.        (address from phone book - it may be inaccurate)
+  (408)736-7244
+    They had the cubes there for $3.95 per cube. They were made in Korea, I
+forget the brand name.  Coach House was also apperently selling the regular
+cheap-type cube (Wonderful Puzzler?) for $1.10 apiece.  A good price.
+   ---Stan
+-------
+
+Date: 1 November 1981 19:12-EST
+From: Andrew Tannenbaum <TRB at MIT-MC>
+Subject: Trick or Treat
+To: CUBE-LOVERS at MIT-MC
+
+Last night I dispensed treats to two little walking cubes.  Both solved.
+They made my evening, God bless 'em.
+
+Also one of those missing link frobs.
+	Andy Tannenbaum
+	Bell Labs Whippany, NJ
+
+Date:  2 Nov 1981 1153-PST
+From: ISAACS at SRI-KL
+Subject: more trick or treat
+To: cube-lovers at MIT-MC
+
+   In my neighborhood, too, there were at least two Rubik's Cubes at the
+door.  Also solved - did anybody see any walking unsolved cubes?  Next
+someone ought to develop a walking, solvable, cube costume.
+   --- Stan
+-------
+
+Date: 3 Nov 1981 0942-EST
+From: ELF at MIT-DMS (Eric L. Flanzbaum)
+To: Cube-Lovers at MIT-MC
+Subject: Trick or treat (more of)
+Message-id: <[MIT-DMS].214352>
+
+
+Of course I, too, saw some Rubik's cubes wandering around. And
+they were solved.
+
+Just yesterday I talked to someone who is going to a costume party
+next weekend (11/7) as Rubik's cube.  Wow, everyones getting
+into the act.  Next thing you know they'll have already made constumes
+sold in stores!
+
+
+Date:  3 November 1981 10:41 est
+From:  Greenberg.Symbolics at MIT-Multics
+Subject:  Re: more trick or treat
+To:  Cube-Lovers at MIT-MC
+In-Reply-To:  Message of 2 November 1981 23:40 est from Alan Bawden
+
+A party I went to Sat Nite had a walking Rubik's cube, but alas, the
+wearer was cube-gnorant, and it had multiple center cubies
+of the same color and cubies with identical faces on two sides, etc.
+
+Date: 3 Nov 1981 1452-EST
+From: ROBG at MIT-DMS (Rob F. Griffiths)
+To: cube-lovers at MIT-MC
+Subject: Walking Talking Cubes
+Message-id: <[MIT-DMS].214388>
+
+  Down on Boulder's mall Halloween night, I saw about 4 cubes.
+All of these were solved, except one.  I asked the man why he
+had designed his cube with only one face complete.  His reply
+was that that was the closest to sloving his cube he had ever
+come, and he figured looking at a bigger model might help him!
+  Speaking of larger cubes, does anyone know of any cubes that
+are larger than the standard Ideal Toy size cubes? And where
+could I obtain one?
+			-Rob.
+
+
+
+Date: 3 Nov 1981 1608-PST
+Sender: OLE at DARCOM-KA
+Subject: It's bigger, but its round!
+From: Ole at DARCOM-KA (Ole J. Jacobsen)
+To: Cube-Lovers at MIT-MC
+Message-ID: <[DARCOM-KA] 3-Nov-81 16:08:12.OLE>
+
+
+Following Rob's question about bigger cubes I would like to report 
+on "Wonderful Puzzler"'s latest: The Rubik Sphere. Yes, it is here
+and is about 90mm in diameter with six circular faces. Solving is
+hence just as for the cube apart from some confusion caused by the
+fact that there are no edges to hold onto, the thing has no distinct
+orientation. This also makes twisting a bit tricky and I would think
+those 24 second champions would have trouble with this one. The ball
+or sphere has a smaller brother (keyring size) and this one has a
+different coloring scheme, "stripes" instead of "faces" and is in
+this respect very similar to the 10 sided drum discussed here earlier.
+The mechanics of the sphere is very much as you would expect, just
+an extension of the original cube mechanism,- or if you like: imagine
+heating your cube up to near melting point and squeezing it into
+a ball (not recomended!)
+
+Happy.. eh, well Sphering!
+
+OLE
+
+Date: 4 Nov 1981 1133-PST
+Sender: OLE at DARCOM-KA
+Subject: Global Cube
+From: Ole at DARCOM-KA (Ole J. Jacobsen)
+To: Cube-Lovers at MIT-MC
+Message-ID: <[DARCOM-KA] 4-Nov-81 11:33:04.OLE>
+
+
+Having seen the cover of next weeks 'Newsweek' (November 9)
+I got the idea of continuously coloring the Sphere (see my
+previous message) with a map of the world, i.e make it into
+a globe. This would also incorporate the Supergroup and per-
+haps help people learn geography (if they already know how 
+to solve the cube/sphere...)
+
+What will they think of next?
+
+OLE
+
+Date:  5 Nov 1981 0954-PST
+From: ISAACS at SRI-KL
+Subject: Rubic's Sphere
+To: CUBE-LOVERS at MIT-MC
+
+   One of my favorite pretty patterns on the Sphere is the "universe", from
+"Unscrambling the cubE": every edge and corner flipped/twisted in place; the
+each adjacent pair of corners twisted towards each other.  Forms a nice, 
+symmetric pattern of each face "exploded" outward from its center, which
+is more visible on the sphere than the cube.
+---Stan
+-------
+
+Date: 8 Nov 1981 1151-EST
+From: ROBG at MIT-DMS (Rob F. Griffiths)
+To: Cube-Lovers at MIT-MC
+Message-id: <[MIT-DMS].214863>
+
+  I don't know how many of your newspapers carry this strip, but in
+today's 'Goosemeyer', there is a set of pictures of a general going
+through many secturity checks and M.P.'s.  He then walks into a
+'Top Secret' room and says 'Sorry Im late...Whats the situation,
+men?'  One of the others replies 'It looks hopeless sir...Everything
+we have tried has failed!' The general coutners 'Thers precious time
+left to come up with the right solution...' The last frame shows
+them standing around a table looking at a scrambled cube, and the
+general saying 'Ive got to get the back to my son by three o'clock'!!
+			-Rob.
+
+
+Date: 3 December 1981 15:19-EST
+From: Richard Pavelle <RP at MIT-MC>
+Subject: MASQUERADE
+To: CUBE-LOVERS at MIT-MC
+
+As you may have noticed, cubism seems to be stagnating. Therefore
+I suggest that we start discussions on a different sort of puzzle 
+called MASQUERADE!
+
+MASQUERADE is a book of about 15 pages beautifully illustrated by
+the author and artist Kit Williams. The story and pictures contain
+clues which supposedly will lead the solver to a "treasure" described
+by Williams as "... a golden hare adorned with precious stones and 
+faience". It is hidden somewhere in Britain. The book is published by
+Shocken Books in Manhattan and sells for about $10. There is also an
+ad on Page 35 of Scientific American for December (North American 
+Edition).
+
+If any of you have interest in this idea send mail to me, RP@MC, and I
+will keep accumulate comments and names. 
+
+
+Date: 4 Dec 1981 1459-PST
+Sender: OLE at DARCOM-KA
+Subject: Diversion
+From: Ole at DARCOM-KA (Ole J. Jacobsen)
+To: Cube-Lovers at MIT-MC
+Message-ID: <[DARCOM-KA] 4-Dec-81 14:59:07.OLE>
+
+Folks,
+
+Masquerade might be a good continuation for cube-lovers, I have not seen 
+it so I can't really say. However, I am having sleepless nights about
+another of our puzzle friends the Ten Billion Barrell described herein
+by David Plummer a few months back. No-one ever seemed to come up with a 
+good notation nor any hints on how to solve this toy, an as far as I can
+tell no good books are out which offer any help either. So, could we
+perhaps have a discussion on the barrell or would the masters of this
+time stealer come forward and advice me. I am much to young to be getting
+grey hairs, but found a few this morning!
+
+
+OLE
+
+Date:  4 Dec 1981 1802-PST
+From: ISAACS at SRI-KL
+Subject: Globe Cube
+To: cube-lovers at MIT-MC
+
+  A friend of mine brought me a Spherical "Rubiks cube" with a world map on
+it from Hawaii.  Gotten in a clothing store (Casablanca?) on Maui, not a
+puzzle place.  She also got me some Hawaiian cubes - each face with one of
+the islands.
+  There's a great proliferation of Cube (and related items) books.  "Not 
+Another Cube Book", a 'humorous' book (not very good). A new book from
+Nourse which has solutions to the barrel, the tetrahedron, the Missing Link,
+and the Snake.  A cube smasher.  And many more.  I've heard there is or will
+be a book on what to do with a smashed cube.  I've been thinking of trying
+to cash in on this craziness and write my own.  Q: What's Red and Orange and
+Green and Blue and White and Yellow and lives at the bottom of the sea?
+Answer:  Moby Cube!  Oh well.  Maybe I'll stick to computers and puzzles.
+
+--- Stan
+-------
+
+EH@MIT-AI 12/05/81 19:20:20 Re: Tiny cubes
+To: cube-lovers at MIT-MC
+Does Ideal Toy Corp. make those tiny cubes? (about a inch square)
+Beware of stuff made in Tiawan as they break QUICKLY..as what
+happened to me with a 3/4 inch cube..and I heard from my friend
+that his tiawan-made cube (standard size 2 1/2 inch) broke
+in a few days....
+The only RUbic cube is the Ideal Toy corp cube and it's great!
+
+	Edward
+
+
+Date: 5 Dec 1981 1654-PST
+Sender: OLE at DARCOM-KA
+Subject: Rubikmania
+From: Ole at DARCOM-KA (Ole J. Jacobsen)
+To: Cube-Lovers at MIT-MC
+Message-ID: <[DARCOM-KA] 5-Dec-81 16:54:23.OLE>
+
+Check out TIME magazine, December 7th page 35, for an update on the
+cube and its many spin-offs and solution guides. The article mentions
+the Cube Smasher, "...guaranteed to pound the puzzle to bits", as well
+as the "Not Another.." book that Stan was talking about. Most interesting
+is perhaps the figure 10 MILLION (!) which is how many cubes have been
+sold Worldwide so far. This is presumably the official Ideal figure, so
+one wonders how many have been sold all together, Wonderful Puzzler
+seem to have done very well, at least here in the UK.
+
+If you are interested in computers, and presumably you are since you're
+on this list,- then check out page 33 of the same magazine for a very
+interesting article on Texas Instruments.
+
+OLE
+
+Date: 6 December 1981 03:14-EST
+From: Eric L. Flanzbaum <ELF at MIT-MC>
+Subject: Sticky cubes ...
+To: CUBE-LOVERS at MIT-MC
+cc: ELF at MIT-MC
+
+
+Today, I just purchased a Rubik's cube (The real thing,
+not a fake!).  I would like to know if there is any way to
+make the cube move more freely and loosely w/out having to
+wait for it to loosen up itself by using it.  Any suggestions?
+
+				 --- Eric ---
+
+EH@MIT-AI 12/06/81 16:34:03 Re: Sticky Cubes...
+To: Cube-Lovers at MIT-MC
+CC: ELF at MIT-AI
+From: "You can do THE CUBE" by Patrick Bossert / published by Puffin.
+
+To loosen up the cube if it's sticky to turn, turn the top slice 45 degs
+and insert a screwdriver under one of the edge pieces (the one in the 
+middle) ....
+
+(1) [] [] [] <- turn this slice 45 deg
+    [] [] []
+    [] [] []
+
+(2) [] [] []
+       ^ insert a screwdriver blade under that part and lift up until
+it pops out.
+
+(3) Then you can remove the two corner pices. Looking inside, you
+can see the + shape of the cube mechanism. Put a BLOB of vaseline
+inside.
+
+(4) put the corner pieces back and the middle piece too. MAKE SURE
+you get them in exactly as they were before you opened them up.
+Otherwise,you WILL NOT be able to solve the cube!!
+
+	Hope this helps,
+	Edward
+
+ps: PLEASE feel free to write to me if you're confused as this
+is the best I can do without graphics.... (use graphics to
+show but you can't here)
+
+
+Date:  7 December 1981 1911-EST (Monday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at mit-mc
+Subject:  Brute Force Report: The fourteen-qtw identities
+Message-Id: <07Dec81 191129 DH51@CMU-10A>
+
+	Several messages in August of this year [mail to
+Hoey@CMU-10A for copies] concerned short identities of the cube,
+i. e. processes which return the cube to solved.  Later in that
+month I assisted David Plummer in a brute force attack on the
+problem.  We had plans to investigate all the positions up to eight
+qtw, but unfortunately became busy on other projects.  I have
+finally come up with enough time to analyze and report the data
+from the seven-qtw search.
+
+	There are 8,221,632 cube positions at a distance of seven
+quarter-twists from solved, and 9,205,558 positions at seven or
+fewer qtw.  By recording cases of different seven-qtw processes
+yielding the same position, a complete list of fourteen-qtw
+identities is obtained.  The task is then to reduce the list to
+exclude multiple instances of equivalent identities.
+
+	We call two identities equivalent when one can be obtained
+from the other by some combination of the following operations:
+
+	- uniformly relabeling the twists according to a rotation
+		or reflection of the cube,
+	- cyclically permuting the twists,
+	- reversing the order of the twists and inverting each one,
+		and
+	- substituting a sequence x for a sequence y, where xy' is
+		a shorter identity.
+
+The first three criteria are easily implemented on a computer.  The
+fourth can be performed for the shortest identities, those
+equivalent to F^4 and FBF'B', but I know of no algorithm to detect
+all cases of equivalence due to substitution of the longer
+identities.  My strategy was to reduce the (several thousand)
+identities by computer for the simple kinds of equivalence, and
+then to look by hand for substitution equivalence between the
+fourteen identities then remaining.  I found three equivalences,
+listed at the end of this note, but the possibility remains that
+some of the following identities are equivalent.  The list is,
+however, complete (modulo bugs and cosmic rays).
+
+	Identities equivalent to the first six on this list were
+independently discovered by Chris C.  Worrell; I follow his
+numbering for them.  Identities I14-5 through I14-7 do not hold in
+the Supergroup, because they twist face centers as noted in the
+brackets.
+
+I14-1   BF' UB'U'F UL' BU'B'U LU'
+I14-2   B UBL' B'D'BD LB'U' L'B'L
+I14-3   BB U BB UD' RR U' RR U'D
+I14-4   BUB'U' L'FL UBU'B' L'F'L
+I14-5   (BB UD B U'D')^2                    [Supergroup BB]
+I14-6   BF' U B'F  LR' UD' F' U'D  L'R      [Supergroup UF']
+I14-7   BF  U B'F' LR' UD  F' U'D' L'R      [Supergroup UF']
+I14-8   BF' UFRU'R'B'U'B'RBUR'
+I14-9   BF' UFRU'B' UD' F'U'R'FD
+I14-10  (BUBU'L'B') R (BLUB'U'B') R'
+I14-11  (BUBU'L'B') D'R'B' DLD'RD
+
+	The twelve-qtw identity I12-2 = (BUBU'L'B') (B'D'B'DLB) can
+be substituted into identities I14-10 and I14-11 to yield:
+
+I14-10a  (B'L'D'BDB) R (BLUB'U'B') R'
+I14-10b  (BUBU'L'B') R (B'D'B'DLB) R'
+I14-10c  (B'L'D'BDB) R (B'D'B'DLB) R'
+I14-11a  (B'L'D'BDB) D'R'B' DLD'RD
+
+Identity I14-10c can be obtained from I14-10 [by shifting seven
+places and reflecting the cube through the UD plane] but I14-10,
+I14-10a, and I14-10b are mutually inequivalent when twelve-qtw
+identities are ignored.  The same holds for I14-11 and I14-11a.
+Strangely enough, I14-11a can also be transformed to I14-11 by
+substituting with the identity (BDBD'R'B') (B'U'B'URB), which is
+equivalent to I12-2.
+
+Date: 8 Dec 1981 12:45 PST
+From: Hoffman at PARC-MAXC
+Subject: Re: Diversion 
+In-reply-to: Ole's message of 4 December 1981 
+To: Cube-Lovers at MIT-MC
+
+
+   About the "Wonderful Barrell".  I, too, had been searching for a good notation
+and some ideas about how to solve it.  I finally found it!  James Nourse, author
+of 'The Simple Solution to Rubik's Cube'  has a new book out entitled 'The
+Simple Solution to Cubic Puzzles'  (or close to that title).  It goes for just $2, and
+I picked mine up at a Waldenbooks.  It includes a complete solution for the
+barrell, as well as the pyramid, the picture cubes, the Missing Link, and some
+items about the Rubik Snake.  A good deal, but BEWARE of some most
+aggravating typographical errors. (I know of two in the barrell solution.)
+
+  --  Rodney Hoffman
+
+Date: 8 Dec 1981 14:30 PST
+From: Lynn.ES at PARC-MAXC
+Subject: Re: Diversion 
+In-reply-to: Ole's message of 4 Dec 1981 1459-PST
+To: Cube-Lovers at MIT-MC
+cc: Lynn.es
+
+I just got my first look at a borrowed copy of Nourse's new 
+"solve everything" book, specifically to look at the barrel puzzle 
+solution he gives.  His notation is:
+
+The two rotating pieces are "rings".  
+They rotate through 5 "notches".
+
+"Layers" (horizontal slices containing 5 balls each) are 
+numbered 1 thru 4 from bottom to top, plus T for the 3 
+balls immediately under "plungers" (when they are up).  
+No notation is used for positions within the puzzle, 
+except this numbering of the layers.  Positions are given 
+by word descriptions or drawings.  
+
+Moves: 
+
+Up-arrow         move the plungers up
+Down-arrow       move the plungers down
+Two boxes, one above the other, which represent movement 
+of the two rings.  A "T" above, or inverted "T" below the boxes 
+shows the current plunger position.  Each box may contain:
+	blank           don't move this layer at all
+	Left-arrow      rotate the ring left (clockwise, as seen from the top) one
+notch
+	Left-arrow 2    rotate the ring left two notches
+	Right-arrow     rotate the ring right one notch
+	2 Right-arrow   rotate the ring right two notches
+
+All moves assume the lonesome plunger is toward the puzzle solver.  
+All move sequences begin assuming the plungers are in the up position.  
+
+There is a great deal of room for improving this notation.  
+Particularly, the boxes should be dispensed with in favor of 
+some single-printed-line way of differentiating between top 
+and bottom rings.  The current plunger position is not needed.  
+Because many terminals or typewriters do not have four 
+directional arrows in their character sets, these should be 
+replaced.  I like thinking in terms of left and right rotations 
+rather than clockwise, since this puzzle is usually solved 
+without turning the puzzle as a whole.  Position notations 
+are needed.  For these reasons I propose the following: 
+
+Move notations:
+
+U      move the plungers Up
+D      move the plungers Down
+T      rotate the Top ring right (counter-clockwise from the top) one notch
+B      rotate Bottom ring right one notch
+-T     rotate Top ring left one notch
+-B     rotate Bottom ring left one notch
+T2, B2, -T2, -B2 	two notch versions of the above four respectively
+
+Positional notation:
+
+Same naming for "rings", "layers", "notches", "plungers", 
+except call the top layer "5".
+
+The ball positions in layer one are, clockwise, as seen from 
+the top, beginning with the one under the lonesome plunger: 
+1F (front), 1L (left), 1LL, 1RR, 1R.  
+
+Correspondlingly for the other layers.  
+There is no 5L or 5R, because of the orientaion of the puzzle.  
+
+During a move, at times when the plungers are down, there 
+will temporarily exist positions 0F, 0RR, 0LL.  
+
+
+Any suggestions or arguments about the notation are welcome.  
+
+
+Nourse's solution has two typos in it.  Page 33: upper rightmost 
+move on page should be in the bottom ring, not top.  Page 36: 
+second move on the page should have a 2, not single notch.  
+
+
+If people are interested, I can summarize Nourse's approach to solving.  
+
+/Don Lynn
+ 
+
+Date: 8 Dec 1981 1952-EST
+From: ELF at MIT-DMS (Eric L. Flanzbaum)
+Reply-to: ELF at MIT-DMS
+To: Cube-Lovers at MIT-MC
+Subject: That's incredible!
+Message-id: <[MIT-DMS].217487>
+
+Last night on the show "That's Incredible!" they held the finals of
+the Rubik's Cube competition.  The contest was for the U.S.A. and the
+winner wa then to go onto world competition.  If I remember correctly,
+the fastest time (by the winner, of course) was ~26 seconds (it was
+actually between 27 and 26, but I can't remember that part).  The show
+also mentioned that there were 43 quintillion combinations possible
+(is this true?).  The second place time was between 28 and 29.
+
+-- Eric
+*******
+
+
+Date: 9 December 1981 19:23-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Luks
+To: CUBE-LOVERS at MIT-MC
+
+I don't know any more about this, but it sounds like it might be
+interesting to some of us cube group hackers:
+
+    MSG: SEMINA 3     
+    DISTRIB:  *DM, *MC, *ML, *AI
+    EXPIRES: 12/17/81 16:21:19
+    BJ@MIT-ML 12/09/81 16:21:19 Re: Luks
+    Gene Luks from the Mathematics Department at Bucknell University will 
+    give a talk on Tuesday, December 15 at 4:00 (refreshments at 3:45) in 
+    room NE43-512A.  The talk is "ALGORITHMS FOR PERMUTATION GROUPS."
+
+Date: 10 Dec 1981 1903-PST
+From: ISAACS at SRI-KL
+Subject: Ten Billion Puzzle (the Barrel)
+To: CUBE-LOVERS at MIT-MC
+
+  It just happens that the day before I got the Nourse solution to the
+Ten Billion (Barrel, Magic Barrel, etc), I got another solution by Naoaki
+Takashima, that he presented to the ARMJ (??) meeting in Japan.  His 
+notation:  
+Columns and stages are defined             5-   x   x x
+as shown on the right.                 s   4- x x x x x
+                                       t   3- x x x x x
+                                       a   2- x x x x x
+                                       g   1- x x x x x
+                                       e
+                                       s      | | | | |
+                                              1 2 3 4 5
+
+                                             columns
+He moves the drums, rather than the plunger.
+   U--move drums up.       D--move drums down.
+   Ru (R sub u) Rotate upper drum right one column; superscripts for number
+   Rl (R sub l)   "    lower  "     "    "    "     of columns
+   R for upper and lower together to the right
+   L for left similarly.
+
+ At any rate, a cumbersome notation for computer writing.  What's more, unit
+move people (who don't like slice moves or half turns on the cube) won't like
+combining the two drums (rings).  BUT since I hold my barrel by the bottom
+plunger, I do find it easier to think of moving the rings up and down, rather
+than pushing the plunger.  I like rings better than drums, but columns better
+than notches.  And I would rather take standard numbering to start from 
+what is above defined as column 2, ie, the one under the neighborless plunger.
+
+  So, all in all, I would like to propose accepting Don Lynns' notation
+with the following changes:  U and D would refer to the rings moving up
+and down, instead of the plunger.  "Notches" would become "columns".
+The picture above, moved to reflect the new columns, could be used when it
+is needed for clarity.  
+
+* * * * Small spoiler * *
+  The Takashima solution is really based on one move, which cycles 3 balls
+more-or-less vertically:
+  let X = U T D -T / U B D -B / (TB) U -(TB) D
+  then  X2 moves 3F TO 4F TO 2L TO 3F;  ie, the 3-cycle (3F,4F,2L).
+* * * * End of small spoiler * * *
+
+ I already propose apostrophe instead of -, so the above becomes:
+   UTDT'-UBDB'-(TB)U(TB)'D    which I think is a little clearer.
+
+Notice that the above can be simplified to:
+     UTDT'UBDTUB'DT'UBDTUTBD  (I think.  I find it hard to think about in
+                               such small pieces; I like the less efficient
+                               chunks at first.)
+* * * * * * * * SPOILER WARNING * * * * * * * * * * *SPOILER WARNING * * * *
+
+Anyway, with this move alone (plus some playing at the beginning), I can
+solve the puzzle as follows:  First get the three black balls at the top,
+under the plungers, any old way.  Then put 5 different colors in the first
+layer, moving only the bottom ring (to leave the black balls alone).  Then
+use the move above to move in the matching second layer from the top (layer
+4).  When necessary, use the same move to get from 3 to 4 first, or even from
+2 to 4.  Using the inverse move can speed things up, but just doing it twice
+is easier on the memory.  Move the space in layer 2 you want to fill, to column
+5 (new numbering; col. 1 in above diagram, or "2L" in notation), by moving
+the lower ring; move the column containing the ball you want in that space
+to col. 1 (F), apply the move once or twice, and move the rings back.  Rest
+position has the barrel down (and the plunger up).  Once the second layer
+is complete (or, for efficiency, complete except for 1), do similar things
+for layers 3 and 4, using the second layer for temporary storage.
+
+* * * * * * * END OF SPOILER * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  Don Lynn:  I would be very interested if you would summarize Nourse's
+approach, and either send it to me or to cube-lovers.  I have not had the
+time to break it down into chunks to see what basic moves he really uses.
+I find that to be the main trouble with most of the solution books to 
+the cube as well as this - that they offer long sequences to memorize, with
+little thought to learning what is going on, and what the logic of the moves
+are.  In Nourse's solution, what are the basic pieces of his moves. Can they
+be expressed (as above) as a "simple to comprehend" set as well as a "shortest
+number of unit moves" way.  By use of parenthesis (or maybe slashes), U and D
+could probably be eliminated; at each slash, switch from up to down or vice
+versa.  Would this be useful notationally.  What are some basic algorithms
+to exchange 2 balls on a single layer or in a single column?  To cycle a
+layer or column?  
+  Enough questions for tonight.  When's the first Barrel contest?
+   --- Stan
+-------
+
+Date: 11 Dec 1981 1643-EST
+From: ROBG at MIT-DMS (Rob F. Griffiths)
+To: cube-lovers at MIT-MC
+Subject: Re: Ultimate Cube
+Message-id: <[MIT-DMS].217732>
+
+   I have seen the 'Ultimate Cube', except here in Boulder, it is 
+done a little differently.  They are all Black cubes, and come
+in the standard (Ideal standard) container. And (no offense from
+me, this is what they are called) they are labeled 'Polish Cubes'
+with 'No wrong move'. Also, we have a Pyraminx puzzle (which is rather
+trivial compared to the cube) and it has a problem: if you twist the
+top cube on a certainm side too many times, (like 3 twists) it comes
+off and the whole mechanism falls apart.  Has anyone else had this problem?
+How can I correct it?
+			-Rob.
+
+
+Date: 11 December 1981 18:20-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: fowarded
+To: CUBE-LOVERS at MIT-MC
+
+Date: 11 Dec 1981 at 1630-CST
+From: korner at UTEXAS-11
+Subject: Pyramid
+To: ALAN at MIT-MC
+
+	Someone mentioned the pyramid recently. Are solutions really worth
+discussing? I had the solution within 15 min. and the group structure seemed
+trivial. Is this as simple as it seems or have I missed something?
+		-Kim Korner
+-------
+
+Date: 12 December 1981 02:12-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Puzzle-Lovers?
+To: CUBE-LOVERS at MIT-MC
+
+Richard Pavelle has suggested that since cubism seems to be
+stagnating, we might consider expanding the scope of this discussion
+to include other sorts of puzzles.  He wondered (in a letter to this
+list a few days ago) if anyone was interested in the puzzle/book
+called "MASQUERADE".  The response he got was enthusiastic.
+
+The discussion on this list has never been exclusively about cubes,
+but it has never really strayed very far either.  Also, recently the
+discussion has slowed somewhat.  So we were wondering how people would
+feel about changing the purpose of this list from cube hacking to more
+general puzzle hacking.  This would still be the place to talk about
+cubing, but everyone would have to at least tolerate other puzzles as
+well.  Note that there is another option for general puzzle hackers
+which is the formation of a separate Puzzle-Lovers (or something)
+mailing list.  This second option would be the thing to do if there is
+enough interest, but also some objections from people currently on
+Cube-Lovers.  (If a new list is formed, they will have to find someone
+else to be responsible for it.  I won't deal with two!)
+
+To decide this tricky question I would like to hear from anyone who
+objects to the expansion idea.  With enough objections, we simply
+won't do it.  Don't bother to send me a note if you are simply in
+favor of, or don't mind the idea.  I really only need to hear from the
+NO votes.  I'd be interested to hear any other thoughts you have on
+the subject as well.  Mail to Alan@MIT-MC.
+
+Date:  13 December 1981 00:27 est
+From:  Schauble.Multics at MIT-Multics
+Subject:  Russian views
+To:  cube-lovers at MIT-AI
+
+    "Some assert that the Rubik Cube reflects the philosophy of the
+    Reagan Administration -- to build and destroy aimlessly in a
+    futile search for a solution to the world situation. Others see
+    Americans' efforts to solve the puzzle as the desire to escape
+    from a disordered life."
+    
+        Izvestia reporter Melor Sturua, reporting the views of
+        unidentified Soviet sociologists that the Rubik's cube fad in
+        the U.S. is a "new psychosis"  July 12, 1981
+
+
+
+Date: 13 December 1981 0150-EST (Sunday)
+From: Paul.Haley at CMU-10A
+To: cube-lovers at mit-mc
+Subject:  Leaving the mailing list
+CC: Paul.Haley at CMU-10A
+Message-Id: <13Dec81 015008 PH71@CMU-10A>
+
+Please remove me from the cube-lovers mailing list. Paul
+
+Date: 16 Dec 1981 1055-PST
+From: ISAACS at SRI-KL
+Subject: general puzzles
+To: cube-lovers at MIT-MC
+
+  In order to perhaps start some discussion of puzzles in general, I will
+include some first steps in attempting to come up with some kind of
+classification scheme for puzzles. I have included both my own, and Jerry
+Slocums', though I haven't put in the details of either at this time (I'm
+lazy - if there is enough interest, I will fill out the outlines a little
+more.) Anyway, any suggestions for diferent ways, or changes, will be
+appreciated.  Can you put all YOUR favorite types of puzzles somewhere in
+the two lists?
+
+-------
+
+Date: 16 Dec 1981 1057-PST
+From: ISAACS at SRI-KL
+Subject: inclusion for previous message
+To: cube-lovers at MIT-MC
+
+              PUZZLES
+
+I. LIFE
+  A. Technical (science, social science, etc)
+  B. Psychological (ie, people problems)
+
+II. CREATED
+  A. Mental
+     1. Language (word) puzzles
+        Crosswords, Acrostics, word squares, etc.
+     2. Logical puzzles
+        Bridge crossing, truth tellers, etc,etc -- all those pencil and
+        paper puzzles that appear in most non-word puzzle books.  Mostly
+        mathematical.
+  B. Physical  (Also sometimes called "Mechanical Puzzles")
+     (THESE ARE THE KINDS I AM MOST INTERESTED IN, AND PROPOSE GOING INTO MORE
+      DETAIL ABOUT.)
+     1. Geometrical (including 2 and 3 dimensions; jig-saws; things like that.)
+     2. Topological (rope and string puzzles, that involve deformation.  
+                     Possibly including wire puzzles.)
+     3. Combinatorial (box filling puzzles; Rubics Cube)
+     4. Manipulation (dexterity?) (mazes, rolling balls, ballance puzzles)
+     5. Physical? Miscellaneous? (Other types, like puzzle jugs; optical
+                                  puzzles, centrifical force.)
+
+I'll try to expand on this classification at a later time - I just want to
+get something started now.  You can see that there are many problems in this -
+a lot of puzzles don't fit easily in any of these, and others fit clearly into
+more than one.  The trouble is that you can look at puzzles by their form, or 
+by how they are constucted, or how they are solved.  And no one way seems
+satisfactory for all.  Anyway, following is another classification, just
+of Mechanical (Physical) puzzles, by Jerry Slocum, who has one of the biggest
+puzzle collections in the world.
+
+1. PUT-TOGETHER PUZZLES - Putting the object together is the puzzle
+      Tangrams, jigsaw, soma, instant insanity, magic squares, puzzle rings
+2. TAKE-APART PUZZLES - Taking the object apart or open is the puzzle
+      Trick or secret opening
+3. INTERLOCKING SOLID PUZZLES - Disassembly and Assembly is the puzzle
+     Burrs, 3-D jigsaws, keychain, geometric object and figures (the Japenese
+     wooden puzzles)
+4. DISENTANGLEMENT PUZZLES - Disentanglement and entanglement is the puzzle
+     Wire puzzles, nails, string and rope puzzles
+5. SEQUENTIAL MOVEMENT PUZZLES - Moving Parts of the Object to a Goal While
+   Following Rules is the Puzzle
+     Solitaire, sliding block puzzles, rotating cube (Rubik) puzzles, maze and
+     route.
+6. DEXTERITY PUZZLES
+     Rolling Ball, cup and ball, etc
+7. MISCELLANEOUS 
+     Puzzle jugs, folding, paper and card, matchstick, trick, vanish puzzles, 
+     optical puzzles, find-the-object, rebus, reversibles, etc.
+-------
+
+Date: 16 December 1981 22:47-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: puzzle-lovers
+To: CUBE-LOVERS at MIT-MC
+
+Please note that despite the previous message we are NOT all agreed
+that cube-lovers should devolve (?) into a discussion of puzzling in
+general.  Those of you who object to this idea are still welcome and
+encouraged to mail me an objection.  Currently I have recieved only a
+couple of replies, so if you don't say something now, this is likely
+to become the Puzzle-Lovers mailing list in a week or so!
+
+Date: 16 December 1981 22:58-EST
+From: "Martin B. Gentry, III" <GENTRY at MIT-AI>
+To: CUBE-LOVERS at MIT-AI
+
+
+Considering the recent suggestion that this list be used for discussing
+puzzles of all types, but not trying to force it in that direction, the
+following is submitted for your interest:
+
+	In the Games section of the January OMNI there
+	is an article about some currently unsolved puzzles such as
+	\Masquerade/, \The Will: A Modern Day Treasure Hunt/ and
+	the Beale ciphers. Included is a listing of Beale Cipher #1.
+
+
+Date:  16 December 1981 23:32 cst
+From:  VaughanW at HI-Multics (Bill Vaughan)
+Subject:  puzzles of a different kind
+Sender:  VaughanW.REFLECS at HI-Multics
+To:  cube-lovers at MIT-MC
+
+the puzzle classification is interesting - but i propose another
+main heading:  game puzzles (chess problems, bridge puzzles etc.)
+These probably fit in somehow but I don't know exactly where.
+
+(my 2 cents' worth: vivat puzzle-lovers, &  keep up the digest
+format.)
+
+Date: 18 December 1981 00:37-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Merry Christmas
+To: CUBE-LOVERS at MIT-MC
+
+While I am visiting my relatives in Philadelphia and while Dave
+Plummer is doing something-or-other similar in honor of the Christmas
+break, we have put the Cube-Lovers list back on direct distribution.
+
+				-Alan
+
+Date: 18 Dec 1981 1550-PST
+From: ISAACS at SRI-KL
+Subject: Authors' signing
+To: cube-lovers at MIT-MC
+
+ Don Frederick, author of "Solve That Crazy Mixed-Up Cube", will be
+at the OLD MILL Shopping Center in Palo Alto/Mountain View Friday evening
+from 5 pm to 9 pm, and Saturday, Dec. 19 from 11 am till about 5 pm. His
+is one of the few books that at least tries to help you remember a solution
+to the cube.  He'll be selling and signing his book.  He claims plain language,
+cartoons, solving other shapes, and a diploma in the back of the book.
+  -- Stan
+-------
+
+Date: 21 Dec 1981 1522-PST
+From: ISAACS at SRI-KL
+Subject: new cube game
+To: cube-lovers at MIT-MC
+
+  I just got a new cube puzzle, called "Color Cube Mental Game".  Not a
+Rubik's cube, but still combinatorial, and a lot easier.  It consists
+of 8 cubes in a 3x3 box, arranged around the perimeter (so there is a
+cubical hole in the center).  The cubes are colored on all 6 sides 
+(identically in mine).  They roll by tilting them over an edge to an
+adjacent vacant space, and they change colors in doing so.  The puzzle,
+of course, is to roll them and randomize the pattern, then restore the
+original color (or a new color).  What patterns can be made?  What is the
+minimum number of rolls to solve from some pattern to another?  This type
+of puzzle was talked about in Journal of Recreational Mathematics, and
+similar types in Mathematical Games by Martin Gardner (I can give more
+accurate references if anyone wants).  
+  Here's the last paragraph on the "instruction" sheet:  "It should be
+finished.  please don't dishearten and try your best till you can complete
+the all test.  Good Luck!!!"
+
+--- Stan
+------- Happy Holidays to all
+-------
+
+Date: 29 December 1981 23:48-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Happy New Year!
+To: CUBE-LOVERS at MIT-MC
+
+With this message we become a digest again.
+
+Date: 30 Dec 1981 2017-EST
+From: ELF at MIT-DMS (Eric L. Flanzbaum)
+To: Cube-Lovers at MIT-MC
+Subject: Query
+Message-id: <[MIT-DMS].218800>
+
+
+Cube Fans;
+
+  Why on the package of the original Rubik's cube, does it say "Over 3
+billion combonations ... just one solution" when in reality there are over
+43 quintillion? Is it because the manufacturers of it thought nobody would
+believe them?
+
+				    Happy Cubing,
+				the ELF
+
+
+Date: 31 December 1981 16:14-EST
+From: David C. Plummer <DCP at MIT-MC>
+Subject: Query
+To: ELF at MIT-DMS
+cc: CUBE-LOVERS at MIT-MC
+
+      Why on the package of the original Rubik's cube, does it say "Over 3...
+
+Something like that.  I believe there is a small discussion about
+this somewhere in the archives.
+
+Date: 3 January 1982 02:11-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: nuts
+To: CUBE-LOVERS at MIT-MC
+
+There is a puzzle that has been around for several years called
+something like "Nuts To You" or "Drives You Nuts" or some variation
+thereof.  It consists of 7 hexagonal pieces (each resembling a nut,
+hence the name) each with the numbers 1 through 6 inscribed around its
+perimeter in some order.  The idea is to play a kind of hexagonal
+dominoes with these pieces; a solution is found when all 7 pieces are
+arranged in a hexagon (the puzzle comes complete with a hexagonal
+frame for arranging them, it also resembles a nut) such that every
+pair of adjacent pieces are labeled the same along their common edge.
+For example one piece might look like this:
+
+   _____
+  /  6  \
+ /3     1\
+/         \
+\         /
+ \2     5/
+  \__4__/
+                                6
+which I shall abbreviate by:  3   1
+                              2   5
+                                4
+
+which might participate in the following solution:
+
+           5
+         6   4
+   6     1   2     3
+ 3   1     3     2   4
+ 2   5     3     1   6
+   4     5   1     5
+   4     2   6     5
+ 5   2     4     6   1
+ 3   1     4     3   2
+   6     1   3     4
+         5   2
+           6
+
+Each piece can be rotated (of course), but it cannot be flipped over.
+(This restriction is enforced by simply not printing the numbers on
+the other side!)
+
+The seven pieces I have represented in my sample solution are
+definitely NOT the ones that make up the commercially sold puzzle.  I
+don't have that anymore, I just made these up.  It did have the
+property that no two pieces were alike, just like my hypothetical set.
+
+The commercial set of pieces seemed to have the property that there
+was JUST ONE possible solution, although I cannot be 100% certain that
+this was the case.
+
+Now the puzzle itself is a bit dry.  But what I wonder about is the
+following meta-problem:
+
+Given that there are many (how many?) different sets of 7 pieces that
+can be chosen, how "interesting" a property is it for there to be only
+ONE solution?  Do you have to try hard to achieve that property?  Or
+do most of them have it?  Indeed, do ANY of the have it (remember I
+only SUSPECT that the commercial set has it!).
+
+How about if we relax the restriction about duplicate pieces?
+
+				-Alan
+
+Date: 3 Jan 1982 0232-EST
+From: ELF at MIT-DMS (Eric L. Flanzbaum)
+To: Cube-Lovers at MIT-MC
+Subject: The Pyramid
+Message-id: <[MIT-DMS].219009>
+
+
+Is there any written (i.e., a book like "The Simple solutio....")
+solution for the pyramid? Do any of you people know a solution?
+People tell me the pyramid is easier than the cube (that is of
+course if you know how to do both). Is this true?
+
+					Happy Cubing,
+				    the ELF
+
+
+Date: 3 January 1982 17:00-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: The Pyramid
+To: ELF at MIT-DMS
+cc: CUBE-LOVERS at MIT-MC
+
+I know of no books about the pyramid, but I can vouch for the fact
+that the pyramid is much easier than the cube.  I have essentially ONE
+tool that is sufficient for all manipulations.  It isn't even a very
+long one.  It is in fact such an obvious tool to try that many people
+have discovered it independently.  I'll tell you what it is after I
+insert the following spoiler warning:
+
+*** SPOILER WARNING !!! ***  If you wish to solve the pyramid
+yourself, stop reading now!
+
+First off, notice that the points of the pyramid can be rotated
+independently of all the other pieces.  Thus we can safely ignore
+those pieces and simply twist them into position as the last step.  So
+from here on in, when I say to twist about a particular point, I mean
+to grasp the larger sub-pyramid that shares that point with the entire
+pyramid and rotate it.  This motion always leaves the face opposite
+the designated point fixed.  
+
+This is not analogous to the way we think about the cube.  When
+dealing with the cube we rotate a face, leaving the rest of the cube
+fixed.  When dealing with the pyramid I am proposing to always rotate
+everything BUT a face, a move that arranges to leave the four points
+in the same position.
+
+Having how described what I mean by a move, the actual tool is easy.
+It's only four twists long.  Chose any two points, call them A and B.
+The tool is simply AB'A'B.  It permutes three edge pieces that share
+a common face, it flips two of those pieces over, and everything else
+is untouched.
+
+Since everything except the edge pieces can be placed in position
+trivially (both the point pieces and the third kind of piece I haven't
+mentioned yet), this tool might be sufficient (after arranging
+everything else).  I don't know if it is in fact sufficient since I
+also employ some conjugates (like CAB'A'BC') in my solution.
+
+I leave the details of actually applying this tool for you to
+discover by yourself.
+
+				-Alan
+
+From: Woods.pa @ PARC-MAXC
+Date:  3-Jan-82 18:34:41 PST
+Subject: Re: nuts
+In-reply-to: ALAN's message of 3 January 1982 02:15-EST
+To: Alan Bawden <ALAN at MIT-MC>
+cc: Cube-Lovers at MIT-MC
+
+I've seen the "Nuts" puzzle; I think it is indeed "Drive you nuts",
+but I'm not sure.  I seem to recall that not every (any?) piece
+had all six numbers on it; that is, I think one or more numbers
+were duplicated on one or more pieces.  This of course opens up
+the search space even more in trying to find a set of pieces with
+exactly one solution.  Also, rather than consider which sets
+of pieces (or what fraction of possible sets of pieces) have unique
+solutions, I think it makes more sense to choose a solution and see
+how likely it is that the pieces forming that solution have another
+solved orientation (other than trivial rotations of the whole puzzle).
+That way you at least eliminate all the sets that have NO solution.
+
+	-- Don.
+
+
+Date: 3 January 1982 23:05-EST
+From: Alan Bawden <ALAN at MIT-MC>
+To: CUBE-LOVERS at MIT-MC, Woods.pa at PARC-MAXC
+
+Well, my memory is very clear on the point that each nut had all 6
+numbers since my solution depended on that fact.  But sure, if we can
+answer your extended problem all the better.
+
+You mention rotations as a symmetry of a solution, which reminds me of
+another kind of symmetry that is relevant to exactly what is meant by
+"a set of nuts".  Clearly the values of the integers inscribed on the
+pieces have no effect of the character of the solution.  If someone
+broke into your house one night an erased all the 1's and replaced
+them with 2's and replaced all the 2's with 1's, they wouldn't have
+damadged your puzzle in any way (ignoring that you may have memorized
+the solution by number, but that's your fault for chosing a bad way to
+remember the solution).  So applying any of the 6! permutations of 6
+things to the numbers leaves your "set of nuts" fixed (relative to
+eachother).  The manufacturers's choice of numbering is thus at least
+partially arbitrary.
+
+Date: 5 Jan 1982 09:38 PST
+From: Lynn.ES at PARC-MAXC
+Subject: Re: The Pyramid
+In-reply-to: ELF's message of 3 Jan 1982 0232-EST
+To: Cube-Lovers at MIT-MC
+
+Nourse's new book "The Simple Solutions to Cubic Puzzles" has a pyramid
+solution.  Aside from the (almost) obvious stuff about the little and big portions
+of each corner, it has specific macros for moving edge pieces from any edge
+position to the top-front (he solves it with a flat surface up), and for flipping an
+edge in place (actually a pair of edges, but the second one is by design an edge
+not yet solved).  Then there are two macros that jumble the edges of the bottom
+large corner until it is right.  The solution is simple to follow as a cookbook
+operation, but not so simple to memorize, involving several macros rather than
+one or two that many people are using.  
+
+/Don Lynn
+
+
+Date:  6 Jan 1982 1024-PST
+From: ISAACS at SRI-KL
+Subject: drive ya nuts
+To: cube-lovers at MIT-MC
+
+  The numbers on my "Drive Ya Nuts" are as follows (starting from 1 and reading
+clockwise: 123456, 143652, 162453, 164253, 165432, 165324, and 146235.  As you
+can see, each "nut" is unique.
+  There are several related puzzles, including:
+  "Japanese Mind Bender", which is logically identical to "Drive Ya Nuts", e
+except it used colors instead of numbers, and each hexagon looks like a small
+circus tent.
+  "Super Dominos", 4x6 squares, each divided diagonally into four sections, and
+colored in all possible ways with 3 colors (yellow, orange, and brown).  Object
+is to arrange the squares in a 4x6 array, with adjacent edges of matching
+colors, and the border to be only one color.  It claims there are about
+12000 different solutions, a computer generated number.  I find it difficult to
+find even one.
+  "Colored Squares Puzzle", A magnetic version of Super Dominos.  They also
+suggest a second puzzle as above, but with 2 colors around the edge.
+  "Colored Triangles Puzzle", also magnetic (a match for "Colored Squares"),
+this one has the 3 colors on 24 triangles, arranged in a hexagon.  Same problem,
+though.
+  "Try Nine" is octagonal pieces with numbers (similar to "Drive Ya Nuts"),
+to be arranged in a 3x3 lattice such that numbers match vertically, horizontally
+, and diagonally.  That is, the square spaces between the octagons have opposite
+ edges with the same number.
+  "Square Crazy" or "Le Carre fou! fou!", a new puzzle from Montreal (If
+anyone wants one, I can give you the address).  It is 9 cardboard square
+"cards", each of which has half a fish on each edge (either the head or the
+tail), and each fish is one of 3 or 4 colors.  So direction and color has to
+match up at each edge of the 3x3 square.  I met the inventer, and he says
+he used a computer to ensure there is only one solution.
+  "Its Knot Easy" has 16 square plastic pieces to be arranged in a 4x4 array,
+so that the picture of a rope running through the pieces forms a continuous loop.
+  And many more.  Including a dodecahedron whose faces turn, to try to get a
+continuous loop running through it, and a version of 3x3 squares which uses
+heights instead of colors.
+  I think all the "Instant Insanity" type of puzzles are also related to this.
+What we need are some non trial-and-error methods of solution, as well as
+algorithms to tell if the solution is unique.  
+  By the way, I am planning to make a Rubik's cube with 9 colors, with a
+solution having 9 different colors on each face.  The question is, how to 
+design it so it is solvable (preferably not just by trial-and-error), and
+so there is a unique solution.
+--- Stan Isaacs
+-------
+
+Date: 6 January 1982 19:09-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: fowarding this...
+To: CUBE-LOVERS at MIT-MC
+
+Date:  6 Jan 1982 0955-PST
+From: ISAACS at SRI-KL
+Subject: Re: Masquerade
+To: RP at MIT-MC, TRB at MIT-MC, mike at UCLA-SECURITY, SWG at MIT-DMS,
+    HAGERTY at RUTGERS, CC.Clive at UTEXAS-20
+cc: ALAN at MIT-MC
+In-Reply-To: Your message of 6-Jan-82 0404-PST
+
+  How should we do this?  List all the things we see? By "chapter", or
+in some other order.
+  I don't have my book here right now, so I will start from memory, by 
+listing some of the obvious, just to make sure we all start from the
+same place.  
+  1. Each picture has a hare in it.  Sometimes hidden, sometimes in the open.
+     I've always wondered if some of the obvious hares also have a second, 
+     hidden one somewhere.  The man in the rabbit ears and with rabbit feet
+     bothered me the most.
+  2. Each picture has around the outside edge, letters in red, which can
+     be re-arranged to make some appropriate word.  In addition, there are
+     letters marked with a spike, which form a second word.
+  3. Several of the chapters have riddles; I think I know the answers to all
+     but one.
+   Besides these characteristics of each picture, there are many symbols.  We
+should just start to make a list of what they are, and guesses as to what they
+mean.  Again, I don't have my book handy, but two examples:
+  1. Many pictures have a number square.  What is its' significance?  If I 
+remember correctly, all but one of them were missing the same number.
+  2. In one of the pictures, the moon(?) has her fingers arranged to say
+"love" in sign language.
+
+  Somebody should put in the answers to the riddles and pictures in 1-3 above;
+just to have them on record, and to make sure we all agree.
+  --- Stan Isaacs
+-------
+
+Date: 6 January 1982 19:10-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Puzzle-Lovers
+To: CUBE-LOVERS at MIT-MC
+
+Well, it looks like the discussion is going to start wandering a bit.
+It is not to late to register your complaints with me if you don't
+like this turn of events.
+
+Where can one obtain this "Masquerade" object anyway?  Is this
+something I find in any bookstore?
+
+Date:  6 Jan 1982 2328-PST
+From: Alan R. Katz <KATZ at USC-ISIF>
+Subject: Folding puzzle
+To: cube-lovers at MIT-MC
+cc: katz at USC-ISIF
+
+There is a puzzle out which looks to be a book of paper.  The purpose seems
+to be to fold over the paper to make various patterns or shapes (various
+pages are folded over but the patterns or two dimensional).  Does anyone
+know anything about this and is it any good??
+
+
+				Alan
+-------
+
+Date:  8 Jan 1982 1009-PST
+From: ISAACS at SRI-KL
+Subject: FOLDING PUZZLE
+To: CUBE-LOVERS at MIT-MC
+
+  The folding puzzle book (I can look up the name and reference at home if
+anyone is interested) is original, and a "cute" idea, but not very difficult
+to solve.  It is a pleasant pastime, and good to do with older children, I
+found.  It seems to be solved almost purely by trial and error.  I think with
+some work, a truly interesting and difficult puzzle could be made using
+the idea of paper folding to make patterns.
+--- Stan
+-------
+
+Date: 25 Jan 1982 0952-PST
+From: ISAACS at SRI-KL
+Subject: SILENCE
+To: CUBE-LOVERS at MIT-MC
+
+  HELLO! Anybody still there?  Its been awfully quiet lately.
+  --- Stan
+-------
+
+Date: 8 February 1982 20:36-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: St. Valentine's Day Massacre?
+To: CUBE-LOVERS at MIT-MC
+
+I wondered out loud to some of the Masquerade-Lovers why no one was
+discussing Cubes or Masquerade or anything.  And got the following
+response which I foward to you all:
+
+Date:  8 Feb 1982 1639-CST
+From: Clive Dawson <CC.Clive at UTEXAS-20>
+Subject: Re: Masquerade
+
+Masquerade is still on my stack, but actually I've come across another
+amusement which has been taking up my time during the last couple of
+weeks.  Does anybody know about the St. Valentine's Day Massacre?
+It is a cross-country road rally which takes place on paper--the Rand McNally
+road atlas to be precise.  You are given hundreds of very detailed and
+tricky instructions and puzzles as you make your way from the Golden Gate
+Bridge to the Statue of Liberty.  You must answer questions along the
+way about what you see, time and distance between various points, etc.
+I've found the whole thing to be a lot of fun and quite challenging, even
+though the entry fee was $24.00 (includes a copy of the Road Atlas).
+Trophies will be given out in 3 different classes of competition (Class C=
+first timers, Class B= previous participants, Class A= Previous trophy
+winners).
+
+If anybody is interested, I'll be happy to provide more info--deadline for
+entry is Feb. 14, answers must be sent in by March 1.
+
+Also, I'd like to hear from anybody already involved if they'd like to
+compare notes, etc.
+
+Clive
+P.S.  Alan--go ahead and forward to Cube-Lovers if you wish.
+-------
+
+Date:  9 Feb 1982 1624-CST
+From: Clive Dawson <CC.Clive at UTEXAS-20>
+Subject: More on St. Valentine's Day Massacre
+To: cube-lovers at MIT-MC
+
+Several people have inquired about this further, so I thought I'd go
+ahead and send more info to the group...
+
+
+Write to:
+
+	St. Valentine's Day Massacre
+	P.O. Box 53
+	La Canada, CA 91011
+
+Since time is short, you may want to give them a call between noon and
+3PM PST at (213)790-4937.  Deadline for entering is Feb. 14.
+
+For $24, they will send you the Rand McNally Road Atlas, and a 50-page
+booklet with all of the rules, course instructions, questions, and
+answer sheet.  Here's a sample of what it's like:
+
+1.  Begin the 1982 St. Valentine's Day Massacre at the interchange
+north of the Golden Gate Bridge (NC-19 on page 11), where you find
+two cars from which to choose your first Massacre conveyance:
+a 1960 Falcon and a 1930 L-29 cabriolet.  Hmmm: Ford or Cord.
+Ponder the selection for something under a second, then hop in and
+head south on state highway.
+
+   Q1.  How many "San Gregorio"s do you see?
+
+	a) 0	b) 1	c) 2
+
+2.  Left on 152
+
+    Q2.  How many of these do you see?
+
+		Bell
+		Bells				a) 0	d)3
+		Bell's Station			b) 1    e)4
+		"Bells Station"			c) 2
+
+3.  South onto 33.
+
+     Q3.  Do you see Devils Den?		a) yes   b) no
+
+4.  Left on 58
+
+     Q4.  How many of these do you pass?
+
+		Calloway
+		Oak				a) 0   b) 1  c) 2
+
+5.  South on 99
+
+6.  Southeast on Intersate 5
+
+     Q5.  Which of these do you see first?
+
+	   a)  Los Angeles    b) Burbank    c) Gorman
+- - - - - - - -
+
+
+By the time you start answering these questions, you will have read
+through the 6 pages of rules which spell out VERY PRECISELY just what
+it means to "see" something (be within 1/4 inch of it on the map),
+the difference between going ONTO a highway and ON a highway, and
+the difference between "Bell" and Bell.  The course following rules
+can be very tricky, telling you when to try to stay on a given road,
+when you can turn, when you can switch maps, when to start and stop
+consideration of a given question, etc.
+
+Later in the course you will be given various puzzles (visit all 6
+National Monuments in 4 Arizona counties by travelling only on U.S.
+and state highways with no U-turns, for example.)  At one point you
+actually travel by balloon at 120,000 feet--this turns out to be about
+1 inch above the paper for purposes of "see"!  The instructions are
+filled with various tricks and traps which will take you miles off
+course if you're not careful.  But they are also cleverly constructed
+to eventually get you back on the right track again so that you don't
+realize your mistakes.  One of their favorite tricks is exemplified by
+Question 5 above: you're tempted to say Gorman since it is north of
+L.A., until you realize that you see Los Angeles COUNTY first!
+
+They give you plenty of help on the first leg so that you get an idea
+of what it's all about.  You can stop after 4 legs and compete for the
+Class C trophies, or else go onto legs 5-7 to try for a Class B
+trophy as well as one for Class C.  Legs 8 and 9 are for the Class A
+trophies, and are the hardest of all.
+
+I've entered a couple of similar contests put on by the same people
+(The Great Maltese Circumglobal Trophy Dash) and even though they're
+a little slow with scoring and sending results, I've found them to
+be very fair and reasonable.  As soon as the contest deadline passes,
+they will send you an answer booklet with a complete explanation of
+the entire course and reasons for each answer.  You then have the right
+to challenge their reasoning if you disagree with an answer.  If they
+agree with your challenge, they will eliminate that question from the
+scoring.  After the protest period ends, they do the final scoring,
+sending out a complete list of scores for all participants as well
+as trophies.  The top 10% in each class all get something, which
+gets progressively fancier for the higher percentiles and classes.
+
+Depending on how careful you are, you can expect to spend anywhere
+between 30 and 100 hours if you complete the whole course.
+Personally I find the entry fee a little high, but considering the
+free road atlas and the number of hours of tortu...er, entertainment,
+I guess it's worth it!
+
+If you have any other questions, let me know.
+
+--Clive
+-------
+-------
+
+Date: 16 Feb 1982 0931-PST
+From: ISAACS at SRI-KL
+Subject: MAGIC OCTAHEDRON
+To: CUBE-LOVERS at MIT-MC
+
+  The Magic Octahedron (Octahedron Cube?) is out.  A friend got one for me
+over the weekend.  Each face is 9 triangles; it works sort of like two
+tetrahedrons base to base, except each tetra is really a 4-sided pyramid.
+The solution is not too hard, and not too different from the tetrahedron.
+Like the tetra, the corner and next-to-corner pieces don't travel-they
+only twist.  The remaining edges are isomorphic to the edges of a cube.
+In fact, if you corner-center a Cubes coloring (ie each face has 4 colors,
+each corner has one; see the Scientific American article), and then peel 
+off the labels from the corners, you have an exact isomorphism of the
+Octahedron.
+   By the way, this version twists around the corners, using the same
+type mechanism as the original Cube (I think).  It should be possible to 
+use the mechanism of the Tetrahedron (with its 4 axes of rotation) to 
+build an Octahetron whose faces twist.  Any mechanical engineers out there
+to do so?
+   --- Stan
+-------
+
+Date: 14 Mar 1982 0703-PST
+Sender: OLE at DARCOM-KA
+Subject: Poison
+From: Ole at DARCOM-KA (Ole J. Jacobsen)
+To: Cube-Lovers at MIT-MC
+Message-ID: <[DARCOM-KA]14-Mar-82 07:03:13.OLE>
+
+Folks,
+
+You may love your cubes, but don't kiss them or lick your fingers
+after having twisted them! According to a recent article in one
+of the big papers here, the colotrtabs contain exceptionally high
+levels of lead. The worst is the yellow face, closely followed by
+the green, orange, red and blue. You have been warned.
+
+<OLE>
+
+Date: 14 March 1982 10:32-EST
+From: Richard Pavelle <RP at MIT-MC>
+Subject:  MASQUERADE- too little, too late
+To: CUBE-LOVERS at MIT-MC
+
+We were beaten by a dog. According to an article on Page 2 of the
+Sunday Globe (3/14/82) the Golden Hare was found "by a man whose
+dog accidentally stumbled across it"...  "The hare was buried just
+beneath the surface in the shadow of an ancient cross at Ampthill
+which commemorates Catherine of Aragon..". One of the major clues
+in the book pointed to her.
+
+Date: 23 Mar 1982 1032-PST
+From: ISAACS at SRI-KL
+Subject: new book
+To: CUBE-LOVERS at MIT-MC
+
+  "Handbook of Cubik Math", by Alexander Frey and David singmaster, is
+now out from Enslow Publications.  Most of the contents, but not all,
+are from Singmasters other opus, but this is better organized and
+clearer.  I have not finished it yet, so I can't give it a full review.
+   By the way, over the weekend I found that Meffert, inventer of the
+Pyraminx Tetrahedron has also invented about TWENTY (20) other variations!
+Diferent versions of Icosahedra and dodecahedra; a triangular prism, a cube
+cut along the three planes that make hexagonal cross-sections, etc. I
+have high hopes that they will be available in this country soon.
+   We need a name for this type of puzzle.  Clearly, "Cube" is not
+very satisfactory any more - not with spheres, tetrahedra, octahedra, etc.
+"group theory puzzles" is too broad - it also includes sliding block
+puzzles and others.  Perhaps something like "Axial" or Axially Rotation
+or some such.
+   David Singmaster is publishing a "Cubic Circular" (nice name) now.  If
+anyone wants his address, I'll be glad to supply it.  He will also be
+selling Mefferts puzzles, I understand.
+    Has anyone seen a 4x4x4 or 5x5x5 cube yet?  Anynew information on
+them?  Does anyone know if the Masquerade clues have been published now
+that the hare has been found?
+   The Subject of this message is out of date. Oh well.
+     ---Stan
+-------
+
+
+Date: 23 March 1982 15:51-EST
+From: David C. Plummer <DCP at MIT-MC>
+Subject:  rumor confirmation
+To: CUBE-LOVERS at MIT-MC
+
+The 4x4x4 has been confirmed by two stores in the Boston area
+(Games People Play [Harvard Square] and The Name of the Game
+[Quincy Market]).  Unfortunately Ideal is only taking orders now;
+delivery is not expected until the fall (****sigh****).  I have
+heard nothing of the 5x5x5. 
+
+ALAN thinks we should solve the beast before we actually get one.
+This could done in our heads, on paper, by machine assistance, or
+by machine.  I have thought about it a little, and I think I have
+all the necessary tools to do it.  It is not as easy as saying,
+"Well if we just consider these two planes as one, it looks like
+the 3x3x3, and..."  That doesn't work for the majority (the
+hardest parts) of the puzzle, for reasons I'll be happy to
+explain.
+
+Before people start asking a lot of questions about the
+properties of the 4x4x4, they should look in
+	MC:ALAN;CUBE 4X4X4
+which contains the parts of the archives that discuss the 4x4x4.
+
+If there is any interest I can try and create a discussion...
+
+Date: 25 Mar 1982 1714-PST
+Sender: OLE at DARCOM-KA
+Subject: Singmaster and IBM
+From: Ole at DARCOM-KA (Ole J. Jacobsen)
+To: Cube-Lovers at MIT-MC
+Message-ID: <[DARCOM-KA]25-Mar-82 17:14:12.OLE>
+
+Singmaster has as you probably know set up his own company selling
+cubes and other puzzles of all shapes and sizes. The latest price-
+list includes Rubik's Calendar Cube, a true Executive Toy. The object
+is, if I understand it correctly, to get one or more faces displaying
+the correct date/month. He also sells Braille cubes,- Ideal cubes
+with raised dots. His "Cubic Circular" as mentioned by Stan, is well
+worth getting, as it contains alot of interesting information.
+
+A Marketing Consultant from IBM gave me a cube which has IBM4331
+printed on all the six center faces and the words: Value,Function,
+Support,Reliability,Performance,Productivity on each facie of each
+face respectively. The orientation of the IBM 4331 relative to the
+other 8 repeated words on each face makes it a supergroup variety.
+In my opinion, this cube is the best product to come from IBM in
+years!
+
+<OLE>
+
+Date: 31 Mar 1982 1821-PST
+From: ISAACS at SRI-KL
+Subject: 4**3,5**3
+To: cube-lovers at MIT-MC
+
+    I should think you could solve a 4x4x4 cube by applying 3x3x3 moves, using
+different combinations for the "center slice" - ie, rotating the center
+two slices together allows all the regular corner moves; it also allows
+switching adjacent edge pieces (in pairs) by using whatever you use to flip
+edges in 3x3x3.  Using only one of the center slices as "center", and 
+turning the other with a face should allow flipping a pair of L-R pieces,
+so that L becomes R and vice versa.  The center 4 pieces (which I haven't
+thought about carefully) probably can be changed around at
+(even parity) will, sometimes treating them as edges (since they can be
+carried along on certain of the "edge" moves), and sometimes as centers
+(for instance, to rotate a group of 4 of them halfway around in place).
+   I don't know what new parity limitations exist; nor do I know if
+the same type of sequences are efficient for solving (ie, top-middle-bottom,
+etc), but I shouldn't think the new cubes will be so very much more
+difficult.
+   I would assume the 5x5x5's could be handled similarly, except, of course,
+they have a real center.
+--- Stan
+-------
+
+Date: 31 March 1982 22:26-EST
+From: David C. Plummer <DCP at MIT-MC>
+Sender: DCP0 at MIT-MC
+Subject: 4**3,5**3
+To: CUBE-LOVERS at MIT-MC
+
+NO, NO, NO !!!!  You CANNOT treat 1 of the center slices of a
+4x4x4 as a center of a 3x3x3.  Suppose you did this for one axis,
+and for the other two axes you treated both "centers" as a unit
+(and therefore the center slice of a 3x3x3).  Now take one of the
+axes with a double width center, and rotate an outer slice 180
+degrees.  Suppose the front face looked like this:
+
+	+####+####+####+####+
+	#    #    #    |    #
+	#    #    #    |    #
+	+####+####+####+####+
+	#    #    #    |    #
+	#    #    #    |    #
+	+----+----+----+----+
+	#    #    #    |    #
+	#    #    #    |    #
+	+####+####+####+####+
+	#    #    #    |    #
+	#    #    #    |    #
+	+####+####+####+####+
+
+You rotate the top slice and the front face now looks like:
+
+	+####+####+####+####+
+	#    |    #    #    #
+	#    |    #    #    #
+	+####+####+####+####+
+	#    #    #    |    #
+	#    #    #    |    #
+	+----+----+----+----+
+	#    #    #    |    #
+	#    #    #    |    #
+	+####+####+####+####+
+	#    #    #    |    #
+	#    #    #    |    #
+	+####+####+####+####+
+
+Notice that the top layer does not go very well with the bottom 3
+layers.  The 5x5x5 has similar problems.  
+
+I think the right way to solve both the 4x4x4 and 5x5x5 at first
+is to use mono-flips.  Once conceptually understood, they are
+very powerful and easy to visualize.
+
+Date: 9 Apr 82 15:00-PDT
+From: mclure at SRI-UNIX
+To: cube-lovers at mc
+Subject: Peking newspaper criticizes cube
+
+a058  0436  09 Apr 82
+PM-China-Cube,100
+Newspaper Decries Rubik's Cube Craze
+    PEKING (AP) - Rubik's Cube, the colorful brain-teaser that has
+started to captivate the Chinese, is being criticized by a Peking
+newspaper as a dangerous pastime that can lead to divorce, abnormal
+behavior, high blood pressure and aching fingers.
+    ''The Magic Cube possibly is beneficial to sharpening intelligence,
+but don't forget that its side effects might bring danger,'' the
+Peking Evening News said, using the puzzle's Chinese name.
+    Last November, the Chinese press reported people were standing in
+line to buy the cube in Shanghai, and that city already had held its
+first Magic Cube contest although the toy hit the market only a few
+months earlier.
+    
+ap-ny-04-09 0721EST
+**********
+
+
+Date: 22 April 1982 1703-EST (Thursday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Cubebot
+Message-Id: <22Apr82 170345 DH51@CMU-10A>
+
+Caption from a photograph said to be from the Washington Post,
+April 13, 1982:
+
+	University of Illinois engineering student Daniel Talken
+	adjusts the mechanical hands of a robot built by students
+	at the school in Urbana to solve the Rubik's Cube puzzle.
+	The robot's computer brain can work out the solution in
+	two-tenths of a second, but it takes the hands about 12
+	minutes to make average 110 moves to solve the puzzle.
+
+The photo shows a guy diddling a complicated machine in which an
+unsolved cube is visible.  Eyes are painted on the front of the
+machine's support above a bulge that may be functional as well as
+vaguely resembling a nose.  No camera equipment is apparent;
+presumably they tell the machine how the cube is scrambled, or
+cheat and have the machine itself scramble the cube.
+
+
+Date:  3 May 1982 1724-PDT
+From: ISAACS at SRI-KL
+Subject: RUBIK'S CUBE CLUB
+To: CUBE-LOVERS at MIT-MC
+
+  I just got a flyer from Ideal announcing their Rubik's Cube Club,
+address Box 72, Hollis, NY 11423, $5.00 for a year.  They also have
+"merchandise" (no prices included), including cube shirt, tie, patch,
+button, bumper sticker, etc.  They also have a poster with many of
+Ideal's cube-related products on it, including the 4**3 (called
+Rubik's Revenge), a 2**3, Rubik's Race, Rubik's Challenge, etc.  I
+can't tell quite what all of them are.
+  Also, there are several new group-theory puzzles on the market (here
+or in England), sort of related to the barrel.  Orb-it is a sphere 
+with beads that rotate around 4 parallels.  In addition, the whole 
+sphere rotates around a meridian, to bring different halves of 
+the parallels into contact, changing from 4 separate circles of 
+beads to one continuous "spiral", or two disjoint closed paths.
+Equator Puzzle is a sphere with 3 intersecting (of course) great
+circles, each consisting of 12 squares which move around the circles.
+The coloring is into 4 segments, sort of like orange slices.
+The Trillion Puzzle (will be available from Ideal) is a cross of colored
+pieces, 17 of them, four each of 4 colors plus an extra red piece.
+They can be arranged with each arm of the cross monochromatic, or in
+4 circles around the center.  "The cross lies in a circle divided into 
+3 concentric rings which are independently rotatable, though the outer
+ring cannot move when the plunger is pushed in.  The middle ring is 2
+pieces wide."  (From the description in Singmasters catalogue). The 
+plunger moves one arm (9 pieces) over 1 piece.  About 1 billion 
+distinguishable patterns.  And many more - Hungarian Rings, and
+Gears, for two.  I also saw some which used polarized light, so
+it was hard to tell where the pieces should go.
+   The latest cube I've seen has Pac-man and other electronic game
+figures on it.
+       --- Stan Isaacs
+-------
+

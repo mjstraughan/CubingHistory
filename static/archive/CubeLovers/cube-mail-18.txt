@@ -1,0 +1,3994 @@
+From mark.longridge@canrem.com  Sat Oct 21 22:24:10 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20340; Sat, 21 Oct 95 22:24:10 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1FA20D; Sat, 21 Oct 95 22:16:38 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Spotty Megaminx
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1256.5834.0C1FA20D@canrem.com>
+Date: Sat, 21 Oct 95 22:12:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Observations on the Magic Dodecahedron (Megaminx)
+-------------------------------------------------
+
+ I've never seen anything on patterns for the megaminx, with the
+sole exception of Kurt Endl's book "Megaminx". Unfortunately there are
+no detailed examples, only vague references to "many possible dot
+patterns" and "star patterns". A pattern similar to the 6 X order 3
+of the cube is on the cover, but only part of the dodecahedron is
+visible.
+
+ Using the solving skills I developed myself, I deliberately solved
+the megaminx with the centres not matching the surrounding face.
+Techniques like mono-twists and mono-flips carried over well from
+the cube.
+
+My conclusion: A 10-dot pattern is possible!
+
+ Here is a description....
+
+ One pair of opposite faces is completely solid. The 5 faces adjacent
+to solid face A are spotted, also the 5 faces adjacent to solid face
+B (opposite to A) are spotted. If we look at one set of 5 faces we
+can observe that in this particular 10-spot that the 5 centres
+appear rotated to the left, or (since the centres don't really move
+in position) that the rest of the face is moved to the right.
+
+ Similarly, in the lower tier of 5 faces, we can observe that 5 centres
+appear rotated to the left also.
+
+ Let's try a small thought experiment. Imagine a skeleton, a
+disassembled megaminx. Grab the top and bottom with thumb and
+forefinger. Now, while keeping the top and bottom centres immobile,
+rotate the rest of the puzzle. What happens? The 10 other centres
+rotate in the same direction! If we do this on a cube skeleton the
+same thing happens, but on a fleshed out cube this would become a
+4 cycle of centres, which is in the swap orbit and can't be reached by
+face turns. On the megaminx we have 2 five cycles of centres, and this
+is legal.
+
+ There are 6 opposite pairs of faces on the megaminx. There are 4 ways
+to rotate the centres for each pair to generate a 10 spot. I'll
+speculate that there are 6*4 = 24 possible 10-spots.
+
+ I suspect various 12-spots are possible. I have no idea how to
+easily permute centre pieces on the megaminx.
+
+-> Mark <-
+
+
+From dik@cwi.nl  Sat Oct 21 22:52:22 1995
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21513; Sat, 21 Oct 95 22:52:22 EDT
+Received: from bever.cwi.nl by charon.cwi.nl with SMTP
+	id <AA10348@cwi.nl>; Sun, 22 Oct 1995 03:52:11 +0100
+Received: by bever.cwi.nl 
+	id <AA04563@cwi.nl>; Sun, 22 Oct 1995 03:52:12 +0100
+Date: Sun, 22 Oct 1995 03:52:12 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9510220252.AA04563=dik@bever.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Re: Spotty Megaminx
+Content-Length: 1116
+
+ >  I've never seen anything on patterns for the megaminx, with the
+ > sole exception of Kurt Endl's book "Megaminx".
+
+It is long ago I had it in my hands, and I have no books.  What I say
+is from memory; probably correct.  Note that a face turn induces an
+even permutation on both the corner and the edge "cubies".  So odd
+permutations are not possible.  On the other hand (if I remember well)
+*all* combinations of even permutations are possible.
+
+ >  There are 6 opposite pairs of faces on the megaminx. There are 4 ways
+ > to rotate the centres for each pair to generate a 10 spot. I'll
+ > speculate that there are 6*4 = 24 possible 10-spots.
+
+Right.
+
+ >  I suspect various 12-spots are possible. I have no idea how to
+ > easily permute centre pieces on the megaminx.
+
+Indeed.  Every rotation of the center skeleton is possible (if you
+consider the remainder fixed...).  So there are 12 centers that can
+come out at top; for each center at top you have 5 possible positions
+of the remainder leading to 60 configurations.  Of these 24 are
+10-spots, 1 is the solved puzzle, so the remainder (35) is 12-spots.
+
+dik
+
+From mreid@ptc.com  Mon Oct 23 11:20:02 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08395; Mon, 23 Oct 95 11:20:02 EDT
+Received: from ducie.ptc.com by ptc.com (5.x/SMI-SVR4-NN)
+	id AA23979; Mon, 23 Oct 1995 11:15:45 -0400
+Message-Id: <9510231515.AA23979@ptc.com>
+Received: by ducie.ptc.com
+	(1.38.193.4/16.2.nn) id AA15699; Mon, 23 Oct 1995 11:42:32 -0400
+Date: Mon, 23 Oct 1995 11:42:32 -0400
+From: michael reid <mreid@ptc.com>
+To: boland@sci.kun.nl, cube-lovers@ai.mit.edu
+Subject: Re:  Embedding G in a symmetrical group
+
+michiel boland writes
+
+> It is clear that the group G of the cube (the one with
+> 4.3252x10^19 elements) can be embedded in a
+> symmetrical group, e.g. S_48, since each move of the cube can be
+> seen as a permutation of 48 objects. Hence, there is a smallest
+> number n such that G can be embedded in S_n. I'm curious to find
+> out what this number is.
+
+48.
+
+first note that any homomorphism  G  -->  S_n  can be factored as
+
+           G  -->  S_m_1 x S_m_2 x ... x S_m_k  >-->  S_n
+
+where  m_1, m_2, ... , m_k  are the sizes of the orbits of  G  acting
+on  {1, 2, ... , n},  and thus  m_1 + m_2 + ... + m_k = n.
+furthermore, the action of  G  on each  {1, 2, ... , m_i}  is
+transitive.
+
+transitive  G-sets  are easy to understand.  for any subgroup  H  of  G,
+G  acts transitively on the cosets  G/H  by left multiplication.
+also, any transitive  G-set  is of this form.  given a homomorphism
+G  -->  S_m  with a transitive action, let  H  be the subgroup of  G
+that fixes the element  1.  then it's easy to see that the cosets  G/H
+are in one-to-one correspondence with elements in the orbit of  1
+(which by hypothesis are all of  1, 2, ... , m)  and the action of
+G  on  G/H  is isomorphic to the action of  G  on  {1, 2, ... , m}.
+
+the kernel of the homomorphism  G --> sym(G/H)  is the largest normal
+subgroup of  G  contained in  H , which is just the intersection of
+all  G-conjugates  of  H.
+
+of course, in this case we have  m = (G : H)  (index of  H  in  G).
+thus michiel's question can be settled by considering all subgroups of
+G  with index less than 48.
+
+unless i've overlooked some, there are exactly 8 such, up to  G-conjugacy.
+they are
+
+     G     itself
+     G'    = commutator subgroup of  G  =  subgroup of positions an even
+             number of quarter turns from start
+     C_0   = subgroup where the corner  UFR  is in place, but may be twisted
+     C'_0  = commutator subgroup of  C_0  =  intersection of  C_0  and  G'
+     E_0   = subgroup where the edge  UR  is in place, but may be flipped
+     E'_0  = commutator subgroup of  E_0  =  intersection of  E_0  and  G'
+     C_1   = subgroup where the corner  UFR  is in place and is not twisted
+     E_1   = subgroup where the edge  UR  is in place and is not flipped.
+
+for each of these, except the last two, the kernel of  G --> sym(G/H)
+contains all elements that only flip edges in place and twist corners
+in place.
+                                                                   number of
+  subgroup   index       kernel                                   conjugates
+
+     G         1           G                                           1
+     G'        2           G'                                          1
+     C_0       8      {all corners in place, may be twisted}           8
+     C'_0     16      {all corners in place, may be twisted}           8
+     E_0      12      {all edges in place, may be flipped}            12
+     E'_0     24      {all edges in place, may be flipped}            12
+     C_1      24      {all corners in place, may not be twisted}       8
+     E_1      24      {all edges in place, may not be flipped}        12
+
+thus the only way to get and embedding (i.e. injective homomorphism)
+G --> S_n  using the subgroups above is
+
+            G --> sym(G/C_1) x sym(G/E_1) >--> S_48
+
+which in fact, is just the action of  G  on the 48 non-center facelets.
+
+i had previously stumbled across this exact same question, so 
+now i'm curious: why are you interested in this?  
+
+mike
+
+From bagleyd@source.asset.com  Mon Oct 23 13:57:59 1995
+Return-Path: <bagleyd@source.asset.com>
+Received: from source.asset.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17761; Mon, 23 Oct 95 13:57:59 EDT
+Received: by source.asset.com (AIX 3.2/UCB 5.64/4.03)
+          id AA15823; Mon, 23 Oct 1995 13:33:08 -0400
+Date: Mon, 23 Oct 1995 13:33:08 -0400
+From: bagleyd@source.asset.com (David A. Bagley)
+Message-Id: <9510231733.AA15823@source.asset.com>
+To: cube-lovers@life.ai.mit.edu
+Subject: pyraminx-like puzzles (yet again)
+
+Hi
+> Recently I asked the question:
+> >   I have a question, I hope this makes sence. ;)   On a "nxnxn"
+> > tetrahedron with period 2 or period 3 turning or a "nxnxn" octahedron with
+> > period 3 or period 4 turning, can the orientation of any of the center
+> > triangles change when the puzzle is solved?  If so, where does this
+> > start to happen.  I know from "experience" that this is not true on
+> > a pyraminx.
+ 
+ The reported to answer to * was incorrect
+> Well, if you believe proof by example on a simulated puzzle, then
+> Tetrahedron period 2 turning: never happens
+> Tetrahedron period 3 turning: starts when n=4 with center triangle
+> Octahedron period 3 turning: starts when n=4 with center triangle *
+> Octahedron period 4 turning: starts with n=4 with center triangle
+ 
+It should be:
+Octahedron period 3 turning: starts when n=2 with center triangle
+ 
+The case where n = 3 (here there is no one center triangle) was interesting
+because there seemed to be no easy repetition of moves where the colors of
+the puzzle would be solved but the orientation of the triangles would
+be changed.
+ 
+     /\
+    /__\
+   /\C /\
+  /__\/__\
+ /\C /\C /\
+/__\/__\/__\
+ 
+After much experimentation, I found a way of rotating
+3 center triangles on a face which involved 216 moves, (this can be bettered
+by one noting that 2 clockwise rotations = 1 counterclockwise rotation):
+ 
+Repeat 5 times
+{
+  With reference to the top "C" in diagram, turn center to the right and
+    then rotate face clockwise for a total of 42 moves.  One will then get
+    a pattern where only 3 center colors are out of place on 3 different faces.
+  rotate this face clockwise
+}
+rotate this face clockwise
+ 
+New versions of my pyraminx and octahedron puzzles are now out.
+Cheers,
+clockwise
+ 
+New versions of my pyraminx and octahedron puzzles are now out.
+Cheers,
+      --__---------------------------------------------------------------
+     /  \ \   /           David A. Bagley                                \
+    |    \ \ /            bagleyd@source.asset.com                        |
+    |     \//\            Some days are better than other days.           |
+    |     / \ \                -- A short lived character of Blake's 7    |
+     \   /   \_\puzzles   Available at: ftp.x.org/contrib/games/puzzles  /
+      -------------------------------------------------------------------
+
+From hazard@niksula.hut.fi  Mon Oct 23 14:42:32 1995
+Return-Path: <hazard@niksula.hut.fi>
+Received: from nukkekoti.cs.hut.fi by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20954; Mon, 23 Oct 95 14:42:32 EDT
+Received: from ummagumma.tky.hut.fi (hazard@ummagumma.tky.hut.fi [130.233.33.120]) by nukkekoti.cs.hut.fi (8.6.12/8.6.11) with SMTP id UAA28308 for <cube-lovers@ai.mit.edu>; Mon, 23 Oct 1995 20:42:30 +0200
+Date: Mon, 23 Oct 1995 20:42:30 +0200
+Message-Id: <199510231842.UAA28308@nukkekoti.cs.hut.fi>
+X-Sender: hazard@pop.niksula.cs.hut.fi
+X-Mailer: Windows Eudora Pro Version 2.1.2
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Mikko Haapanen <hazard@niksula.hut.fi>
+Subject: pull out the corner?
+
+Hello!
+
+I have a question (yes, again). This subject may be discussed here before,
+but i don't understand set theory or other high math, so i ask:
+
+If i had a 3x3x3 cube and i pull out a corner piece. I turn it and push
+back. Now the cube cannot be solved. I think the cube is now 'on the other
+orbit'. If i pull now an edge piece and flip it, the cube is again on some
+other orbit.
+
+Only one of those orbits are legal. How many different illegal orbits there are?
+
+-----Mikko Haapanen------hazard@niksula.hut.fi------
+Another toy will help destroy The elder race of man
+Forget about your silly whim It doesn't fit the plan
+----------------------------------------------------
+
+
+From BRYAN@wvnvm.wvnet.edu  Mon Oct 23 16:38:39 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29047; Mon, 23 Oct 95 16:38:39 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R3)
+   with BSMTP id 8685; Mon, 23 Oct 95 16:38:12 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 7909; Mon, 23 Oct 1995 16:38:13 -0400
+Message-Id: <wvmail32.1995oct23.161952.bryan@wvnvm.wvnet.edu>
+Date:      Mon, 23 Oct 1995 16:38:12 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: pull out the corner?
+In-Reply-To: Message of 10/23/95 at 20:42:30 from hazard@niksula.hut.fi
+
+On 10/23/95 at 20:42:30 Mikko Haapanen said:
+
+>I have a question (yes, again). This subject may be discussed here before,
+>but i don't understand set theory or other high math, so i ask:
+
+>If i had a 3x3x3 cube and i pull out a corner piece. I turn it and push
+>back. Now the cube cannot be solved. I think the cube is now 'on the other
+>orbit'. If i pull now an edge piece and flip it, the cube is again on some
+>other orbit.
+
+>Only one of those orbits are legal. How many different illegal orbits there are
+?
+
+In the terms you are using, there are 12 orbits.  Of these, 1 is
+"legal" (contains Start), and 11 are "illegal" (do not contain
+Start).
+
+There is a factor of 3 from twisting the corners.  Pull out a corner
+piece.  There are 3 ways to put it back in.  You can put it back in
+the way it came out, you can twist it right, or you can twist it left.
+
+There is a factor of 2 from flipping the edges.  Pull out an edge
+piece.  There are 2 ways to put it back in, flipped or unflipped.
+
+There is a factor of 2 from parity.  The edges can be said to be in
+even parity or in odd parity, and the corners can be said to be in
+even parity or odd parity.  Normally, the corners and edges are in
+the same parity.  A quarter turn changes the parity both for the
+edges and for the corners.  But pull out 2 edges pieces (or 2 corner
+pieces).  Put them back where they came from, and their parity
+remains the same.  Exchange them, and their parity changes.
+
+We therefore have 12=3x2x2.
+
+However (and draw a deep breath), for every expert there is an equal
+and opposite expert.  This use of the term "orbit" agrees with some
+experts.  However, other experts would say that the corners form an
+orbit, that the edges form an orbit, and that the face centers form
+an orbit.
+
+I don't know which use of the term orbit is correct (perhaps both are
+in the proper context).  But in any case, if you take a cube apart,
+there are 12 disjoint sets of positions that you choose from when you
+put the cube back together.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+
+From geohelm@pt.lu  Tue Oct 24 11:31:19 1995
+Return-Path: <geohelm@pt.lu>
+Received: from menvax.restena.lu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16179; Tue, 24 Oct 95 11:31:19 EDT
+Date: Tue, 24 Oct 95 11:31:18 EDT
+Received: from telinf1.pt.lu by menvax.restena.lu with SMTP;
+          Tue, 24 Oct 1995 15:56:00 +0100 (MET)
+Received: from slip12.pt.lu by telinf1.pt.lu id aa24228; 24 Oct 95 13:49 CET
+X-Sender: geohelm@mailsvr.pt.lu (Unverified)
+X-Mailer: Windows Eudora Version 1.4.4
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Georges Helm <geohelm@pt.lu>
+Subject: availability of cubes and other puzzles
+Message-Id:  <9510241349.aa24228@telinf1.pt.lu>
+
+Here is the address of a German friend who is still selling the
+following puzzles (among others):
+5x5x5, skewb, magic dodecahedron, German calender cube, pyraminx...
+
+Christoph Bandelow
+An der Wabeck 37
+D-58456 Witten
+Germany
+
+Tel.: ++49-2302-71147
+Fax : ++49-2302-77001
+
+Books he is selling (among others):
+Bandelow: Inside Rubik's Cube and beyond (~$15)
+Singmaster: Notes (~$10)
+
+Georges Helm
+
+
+From boland@sci.kun.nl  Tue Oct 24 17:31:16 1995
+Return-Path: <boland@sci.kun.nl>
+Received: from wn1.sci.kun.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10061; Tue, 24 Oct 95 17:31:16 EDT
+Received: from canteclaer.sci.kun.nl by wn1.sci.kun.nl via canteclaer.sci.kun.nl [131.174.132.34] with SMTP 
+	id WAA17657 (8.6.10/2.14); Tue, 24 Oct 1995 22:31:01 +0100
+Message-Id: <199510242131.WAA17657@wn1.sci.kun.nl>
+To: Mikko Haapanen <hazard@niksula.hut.fi>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: pull out the corner? 
+In-Reply-To: Your message of "Mon, 23 Oct 95 20:42:30 +0200."
+             <199510231842.UAA28308@nukkekoti.cs.hut.fi> 
+Date: Tue, 24 Oct 95 22:31:00 +0100
+From: Michiel Boland <boland@sci.kun.nl>
+
+Mikkao Haapanen writes:
+
+>If i had a 3x3x3 cube and i pull out a corner piece. I turn it and push
+>back. Now the cube cannot be solved. [...]
+
+This has nothing to do with his question, but one of my old
+cubes has become so loose that it has become quite easy to twist
+a single corner piece - no doubt other people have expierenced
+this phenomenon.
+
+The last stage in my cube-solving algorithm used to be orienting
+the corners - this has now become trivial. :)
+-- 
+Michiel Boland <boland@sci.kun.nl>
+University of Nijmegen
+The Netherlands
+
+From boland@sci.kun.nl  Mon Oct 30 07:48:01 1995
+Return-Path: <boland@sci.kun.nl>
+Received: from wn1.sci.kun.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06686; Mon, 30 Oct 95 07:48:01 EST
+Received: from canteclaer.sci.kun.nl by wn1.sci.kun.nl via canteclaer.sci.kun.nl [131.174.132.34] with SMTP 
+	id NAA19553 (8.6.10/2.14) for <cube-lovers@ai.mit.edu>; Mon, 30 Oct 1995 13:48:00 +0100
+Message-Id: <199510301248.NAA19553@wn1.sci.kun.nl>
+To: cube-lovers@ai.mit.edu
+Subject: Exchanging just four edges in antislice impossible?
+Date: Mon, 30 Oct 95 13:47:59 +0100
+From: Michiel Boland <boland@sci.kun.nl>
+
+Hello all,
+
+can anyone provide an easy proof of the fact that it is
+impossible to exchange just four edges using just antislice
+moves, whilst leaving everything else fixed? (We're talking
+about the 3x3 cube of course.)
+
+Another way of putting it: why are the 2xH and 4-dot patterns
+not in the antislice group?
+
+I have thought about this a little, but not hard enough to find
+an answer. I looked it up in Singmaster's Notes but could not
+find a satisfying explanation either.
+
+Here is some more background.
+
+The antislice group is contained in the group of all positions
+that are symmetric under `cube half-turns' (the subgroup of M
+containing I,(FB)(LR),(FB)(UD) and (UD)(LR)). This group has
+(8*4*12*8*4*3*2^2)/2 = 73728 elements.
+
+It can be shown that in the antislice group, the orientation of
+the corners is determined by the edge positions [I am willing to
+explain this, but it is much easier visualized than written
+down], which means that the antislice group contains at most
+73728/3=24576 elements.
+
+But apparently the antislice group contains just 6144 elements,
+which is a factor 4 below the abovementioned number. This factor
+4 is explained by the fact above, which I am trying to prove.
+-- 
+Michiel Boland <boland@sci.kun.nl>
+University of Nijmegen
+The Netherlands
+
+From mark.longridge@canrem.com  Tue Oct 31 01:27:02 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09622; Tue, 31 Oct 95 01:27:02 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1FBDC8; Tue, 31 Oct 95 01:11:34 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Spotty Megaminx Revisited
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1257.5834.0C1FBDC8@canrem.com>
+Date: Tue, 31 Oct 95 01:02:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Notes on the Spot Patterns on the Megaminx
+------------------------------------------
+
+Number the faces of the megaminx 1 through 12. Here are all the
+possible permutations of the 12 centres:
+
+dod := Group(
+   (2,3,4,5,6) (7,8,9,10,11),
+   (1,4,10,9,2)(5,11,12,8,6)
+  );;
+
+Size (dod) = 60;
+
+NumberConjugacyClasses (dod) = 5;
+
+Elements (dod);
+
+[ (),                                             0   spot
+ ( 2, 3, 4, 5, 6)( 7, 8, 9,10,11),                2   5-cycles = 10
+ ( 2, 4, 6, 3, 5)( 7, 9,11, 8,10),                2   5-cycles = 10
+ ( 2, 5, 3, 6, 4)( 7,10, 8,11, 9),                2   5-cycles = 10
+ ( 2, 6, 5, 4, 3)( 7,11,10, 9, 8),                2   5-cycles = 10
+ ( 1, 2)( 3, 6)( 4, 8)( 5, 9)( 7,10)(11,12),      6   2-cycles = 12
+ ( 1, 2, 3)( 4, 6, 9)( 5, 8,10)( 7,12,11),        4   3-cycles = 12
+ ( 1, 2, 6)( 3, 8, 5)( 4, 9, 7)(10,12,11),        4   3-cycles = 12
+ ( 1, 2, 8, 7, 5)( 3, 9,12,11, 4),                2   5-cycles = 10
+ ( 1, 2, 9,10, 4)( 5, 6, 8,12,11),                2   5-cycles = 10
+ ( 1, 3, 2)( 4, 9, 6)( 5,10, 8)( 7,11,12),        4   3-cycles = 12
+ ( 1, 3, 9, 8, 6)( 4,10,12, 7, 5),                2   5-cycles = 10
+ ( 1, 3)( 2, 4)( 5, 9)( 6,10)( 7,12)( 8,11),      6   2-cycles = 12
+ ( 1, 3,10,11, 5)( 2, 9,12, 7, 6),                2   5-cycles = 10
+ ( 1, 3, 4)( 2,10, 5)( 6, 9,11)( 7, 8,12),        4   3-cycles = 12
+ ( 1, 4,10, 9, 2)( 5,11,12, 8, 6),                2   5-cycles = 10
+ ( 1, 4,11, 7, 6)( 2, 3,10,12, 8),                2   5-cycles = 10
+ ( 1, 4, 3)( 2, 5,10)( 6,11, 9)( 7,12, 8),        4   3-cycles = 12
+ ( 1, 4, 5)( 2,10, 7)( 3,11, 6)( 8, 9,12),        4   3-cycles = 12
+ ( 1, 4)( 2,11)( 3, 5)( 6,10)( 7, 9)( 8,12),      6   2-cycles = 12
+ ( 1, 5, 7, 8, 2)( 3, 4,11,12, 9),                2   5-cycles = 10
+ ( 1, 5, 6)( 2, 4, 7)( 3,11, 8)( 9,10,12),        4   3-cycles = 12
+ ( 1, 5,11,10, 3)( 2, 6, 7,12, 9),                2   5-cycles = 10
+ ( 1, 5, 4)( 2, 7,10)( 3, 6,11)( 8,12, 9),        4   3-cycles = 12
+ ( 1, 5)( 2,11)( 3, 7)( 4, 6)( 8,10)( 9,12),      6   2-cycles = 12
+ ( 1, 6, 2)( 3, 5, 8)( 4, 7, 9)(10,11,12),        4   3-cycles = 12
+ ( 1, 6, 8, 9, 3)( 4, 5, 7,12,10),                2   5-cycles = 10
+ ( 1, 6)( 2, 5)( 3, 7)( 4, 8)( 9,11)(10,12),      6   2-cycles = 12
+ ( 1, 6, 5)( 2, 7, 4)( 3, 8,11)( 9,12,10),        4   3-cycles = 12
+ ( 1, 6, 7,11, 4)( 2, 8,12,10, 3),                2   5-cycles = 10
+ ( 1, 7, 2, 5, 8)( 3,11, 9, 4,12),                2   5-cycles = 10
+ ( 1, 7, 9)( 2, 6, 8)( 3, 5,12)( 4,11,10),        4   3-cycles = 12
+ ( 1, 7,10)( 2, 8, 9)( 3, 6,12)( 4, 5,11),        4   3-cycles = 12
+ ( 1, 7)( 2,11)( 3,12)( 4, 8)( 5, 6)( 9,10),      6   2-cycles = 12
+ ( 1, 7, 4, 6,11)( 2,12, 3, 8,10),                2   5-cycles = 10
+ ( 1, 8, 3, 6, 9)( 4, 7,10, 5,12),                2   5-cycles = 10
+ ( 1, 8)( 2, 6)( 3, 7)( 4,12)( 5, 9)(10,11),      6   2-cycles = 12
+ ( 1, 8, 5, 2, 7)( 3,12, 4, 9,11),                2   5-cycles = 10
+ ( 1, 8,10)( 2, 9, 3)( 4, 6,12)( 5, 7,11),        4   3-cycles = 12
+ ( 1, 8,11)( 2,12, 4)( 3, 9,10)( 5, 6, 7),        4   3-cycles = 12
+ ( 1, 9, 6, 3, 8)( 4,12, 5,10, 7),                2   5-cycles = 10
+ ( 1, 9)( 2, 3)( 4, 8)( 5,12)( 6,10)( 7,11),      6   2-cycles = 12
+ ( 1, 9, 7)( 2, 8, 6)( 3,12, 5)( 4,10,11),        4   3-cycles = 12
+ ( 1, 9, 4, 2,10)( 5, 8,11, 6,12),                2   5-cycles = 10
+ ( 1, 9,11)( 2,12, 5)( 3,10, 4)( 6, 8, 7),        4   3-cycles = 12
+ ( 1,10, 8)( 2, 3, 9)( 4,12, 6)( 5,11, 7),        4   3-cycles = 12
+ ( 1,10, 2, 4, 9)( 5,12, 6,11, 8),                2   5-cycles = 10
+ ( 1,10, 7)( 2, 9, 8)( 3,12, 6)( 4,11, 5),        4   3-cycles = 12
+ ( 1,10)( 2,11)( 3, 4)( 5, 9)( 6,12)( 7, 8),      6   2-cycles = 12
+ ( 1,10, 5, 3,11)( 2,12, 6, 9, 7),                2   5-cycles = 10
+ ( 1,11, 8)( 2, 4,12)( 3,10, 9)( 5, 7, 6),        4   3-cycles = 12
+ ( 1,11, 9)( 2, 5,12)( 3, 4,10)( 6, 7, 8),        4   3-cycles = 12
+ ( 1,11, 3, 5,10)( 2, 7, 9, 6,12),                2   5-cycles = 10
+ ( 1,11, 6, 4, 7)( 2,10, 8, 3,12),                2   5-cycles = 10
+ ( 1,11)( 2,12)( 3, 7)( 4, 5)( 6,10)( 8, 9),      6   2-cycles = 12
+ ( 1,12)( 2, 7)( 3,11)( 4,10)( 5, 9)( 6, 8),      6   2-cycles = 12
+ ( 1,12)( 2, 8)( 3, 7)( 4,11)( 5,10)( 6, 9),      6   2-cycles = 12
+ ( 1,12)( 2, 9)( 3, 8)( 4, 7)( 5,11)( 6,10),      6   2-cycles = 12
+ ( 1,12)( 2,10)( 3, 9)( 4, 8)( 5, 7)( 6,11),      6   2-cycles = 12
+ ( 1,12)( 2,11)( 3,10)( 4, 9)( 5, 8)( 6, 7)       6   2-cycles = 12
+
+Number    Pattern
+------    -------
+
+ 1        0 spots
+24        2 five-cycles  (10 spot)
+15        6 two-cycles   (12 spot)
+20        4 three-cycles (12 spot)
+--
+60   orientations of the dodecahedron, 24 ten-spots, 35 twelve-spots
+
+
+>>  I suspect various 12-spots are possible. I have no idea how to
+>> easily permute centre pieces on the megaminx.
+>
+> Indeed.  Every rotation of the center skeleton is possible (if you
+> consider the remainder fixed...).  So there are 12 centers that can
+> come out at top; for each center at top you have 5 possible positions
+> of the remainder leading to 60 configurations.  Of these 24 are
+> 10-spots, 1 is the solved puzzle, so the remainder (35) is 12-spots.
+> dik
+
+ Well, I was confused how there could be 35 twelve-spots (at first),
+but I am happy to confirm Dik's memory.
+
+-> Mark <-
+
+
+From alan@curry.epilogue.com  Fri Nov  3 02:39:27 1995
+Return-Path: <alan@curry.epilogue.com>
+Received: from curry.epilogue.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16466; Fri, 3 Nov 95 02:39:27 EST
+Received: (from alan@localhost) by curry.epilogue.com (8.6.8/8.6.6) id CAA18206; Fri, 3 Nov 1995 02:39:27 -0500
+Date: Fri, 3 Nov 1995 02:39:27 -0500
+Message-Id: <3Nov1995.011909.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+To: Cube-Lovers@ai.mit.edu
+In-Reply-To: Kathryn Kelly's message of Fri, 3 Nov 1995 01:00:07 -0500 (EST) <Pine.3.89.9511030038.A3828-0100000@ixc>
+Subject: Magazine Spam
+
+First off, let me apologize for sending a message that has nothing
+whatsoever to do with Rubik's Cube.  But I know from private electronic
+mail that many of you were very annoyed by the six copies of the "magazine
+club" advertisement that were distributed through Cube-Lovers during the
+last month.  I've been urging people to just sit tight and ignore the
+messages, because it wasn't entirely clear where the mail was actually
+coming from.  All that appeared certain was that the ads were being
+gatewayed through an Internet Service Provider in New York named "American
+Network, Inc" (domain name IXC.NET).
+
+Recently I've been talking to the responsible folks at American Network.
+They are quite apologetic about the whole thing, but apparently the
+miscreant is working through accounts that they give away free for the
+asking.  So they actually have no way to track the jerk down.  They don't
+even know how many of their accounts might all belong to the same person!
+This whole experience has apparently woken them up to what a -bad- idea
+that is, and they're going to stop.
+
+Besides cleaning up their act about granting free anonymous accounts,
+they also tracked down the post office box number that the miscreant uses
+for his business.  And they have a request:
+
+   Date: Fri, 3 Nov 1995 01:00:07 -0500 (EST)
+   From: Kathryn Kelly <kkelly@ixc.ixc.net>
+   ...
+   We wish you to do something for us.
+   We have the address where the individual sending out this
+   material receives his physical mail.
+   Please send a letter of complaint to the postmaster at
+      Postmaster
+      Staten Island NY 10312
+   Regarding the person at this address:
+      Magazine Club Inquiry Center
+      Att. Internet Services Department
+      P. O. Box 120990
+      Staten Island NY 10312 0990
+
+So those of you who really want to complain to somebody, here's your
+chance.  Compose a nice letter to the Postmaster at the address above
+explaining that the folks running the business at that P.O.Box are engaging
+in anti-social behavior on the Internet.  Unfortunately, I don't believe
+there is anything -illegal- about what this jerk is doing (although it is
+closely analogous to some things that are illegal to do with a telephone),
+so it wont work to demand that the Postmaster actually -do- anything, but
+work up a good complaint anyway.
+
+Finally, I urge you all -not- to respond to this message in public.  If you
+have further thoughts on Internet advertising, electronic mailing list
+administration, or clever acts of revenge, you can send them to -me-, but
+don't CC your message to Cube-Lovers as a whole.  The whole point here is
+to keep Cube-Lovers relatively free of off-topic mail.  As the list
+administrator I get to send out occasional administrivia such as this
+message because I do actual -work- to keep the list running.  
+
+And yes, I am still working on some new list management technology that
+should eliminate problems like this in the future.  (And yes, I know all
+about MajorDomo, listserv, and their relatives -- you don't need to
+enlighten me about them.)
+
+			- Alan (Cube-Lovers-Request@AI.MIT.EDU)
+
+(I never imagined when Dave Plummer and I started this list in 1980 that
+one day I'd be spending significant time trying to prevent people from
+using it to sell magazines.  Amazing.)
+
+From mark.longridge@canrem.com  Sun Nov  5 02:14:26 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08624; Sun, 5 Nov 95 02:14:26 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1FCC4E; Sun,  5 Nov 95 02:09:17 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Halpern's Tetrahedron
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1258.5834.0C1FCC4E@canrem.com>
+Date: Sun,  5 Nov 95 01:59:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+# Ben Halpern's Tetrahedron
+# 4 faces rotate
+
+tetra := Group(
+  (1,3,5)(2,4,6)(7,13,24)(12,18,23)(11,17,22),
+  (7,9,11)(8,10,12)(22,15,3)(2,21,14)(1,20,13),
+  (13,15,17)(14,16,18)(11,20,5)(10,19,4)(9,24,3),
+  (22,20,24)(21,19,23)(7,15,5)(8,16,6)(9,17,1)
+);;
+
+# Size (tetra) = 3,732,480;
+#
+# Centre (tetra) = (2,12)(4,18)(6,23)(8,21)(10,14)(16,19);
+#
+# Tetrahedron has 6 edges, 4 corners
+#  6! /2 * 2^5 * 4!/2 * 3^3
+
+Just a few more combinations than a 2x2x2 pocket cube...
+ -> Mark <-
+
+
+From rjh@on-ramp.ior.com  Mon Nov  6 22:09:28 1995
+Return-Path: <rjh@on-ramp.ior.com>
+Received: from on-ramp.ior.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA26893; Mon, 6 Nov 95 22:09:28 EST
+Received: from cs2-07.ior.com by on-ramp.ior.com with smtp
+	(Smail3.1.28.1 #10) id m0tCePb-000RomC; Mon, 6 Nov 95 19:09 PST
+Message-Id: <m0tCePb-000RomC@on-ramp.ior.com>
+Date: Mon, 6 Nov 95 19:09 PST
+X-Sender: rjh@on-ramp.ior.com
+X-Mailer: Windows Eudora Version 1.4.4
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: Cube-Lovers@ai.mit.edu
+From: rjh@on-ramp.ior.com (RonH)
+Subject: Rubik's stuff
+
+Saw your message in rec.puzzles.  Please add me to your mailing list 
+for Rubik's Cube info.
+
+My address is rjh@on-ramp.ior.com
+
+Thanks in advance!
+
+        RON
+
+
+From joemcg@catch22.com  Thu Nov  9 13:26:02 1995
+Return-Path: <joemcg@catch22.com>
+Received: from B17.Catch22.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22560; Thu, 9 Nov 95 13:26:02 EST
+Received: (from joemcg@localhost) by B17.Catch22.COM (8.6.9/8.6.12) id KAA06094; Thu, 9 Nov 1995 10:29:44 -0800
+X-Url: http://www.Catch22.COM/
+Date: Thu, 9 Nov 1995 10:29:43 -0800 (PST)
+From: Joe McGarity <joemcg@catch22.com>
+To: "Rubik's Cube Mailing List" <cube-lovers@ai.mit.edu>
+Subject: Flowers in you hair
+Message-Id: <Pine.LNX.3.91.951109101725.5500A-100000@B17.Catch22.COM>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+Hello, 
+
+I just joined this group and I thought that I would throw out a
+place here in San Francisco where one can find some interesting things 
+(such as the elusive 5x5x5 cube).
+
+Game Gallery
+One Embarcadero Center
+Street Level
+San Francisco, CA  94102
+
+(415) 433-4263
+
+Also, there is a second-hand store on the corner of 17th and Mission 
+which seems to have some type of mix-up-and-fix puzzle every time I go 
+in.  Let me know what people are looking for and I'll keep an eye out for it.
+
+Later, 
+
+
+Joe
+
+
+------------------------------------------------------------------------------
+
+Joe McGarity                      "Mufasa, Mufasa, Mufasa!"   
+418 Fair Oaks
+San Francisco, CA  94110
+
+joemcg@catch22.com                           
+
+------------------------------------------------------------------------------
+
+
+
+From joemcg@catch22.com  Thu Nov  9 14:10:43 1995
+Return-Path: <joemcg@catch22.com>
+Received: from B17.Catch22.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01378; Thu, 9 Nov 95 14:10:43 EST
+Received: (from joemcg@localhost) by B17.Catch22.COM (8.6.9/8.6.12) id KAA06094; Thu, 9 Nov 1995 10:29:44 -0800
+X-Url: http://www.Catch22.COM/
+Date: Thu, 9 Nov 1995 10:29:43 -0800 (PST)
+From: Joe McGarity <joemcg@catch22.com>
+To: "Rubik's Cube Mailing List" <cube-lovers@ai.mit.edu>
+Subject: Flowers in you hair
+Message-Id: <Pine.LNX.3.91.951109101725.5500A-100000@B17.Catch22.COM>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+From mark.longridge@canrem.com  Sun Nov 12 01:51:15 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA26404; Sun, 12 Nov 95 01:51:15 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1FDFC0; Sun, 12 Nov 95 01:35:04 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Magic Platonic Solids
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1260.5834.0C1FDFC0@canrem.com>
+Date: Sun, 12 Nov 95 01:33:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+First a correction (sorry Dave!)
+
+> # Perhaps David Badley could confirm the following orders:
+
+The above should be "David Bagley".
+
+I have some further comments on the "Magic Platonic Solids".
+
+ One can stretch (abuse?) the concept of the slice and anti-slice
+groups of the cube to include the Megaminx (Magic Dodecahedron).
+In the case of the Megaminx we can consider one-fifth turns of
+opposite faces. Unfortunately my experiments with "slice" turns
+on the Megaminx has not generated any spot patterns as yet.
+
+ Ben Halpern was not the only one to make a prototype of a tetrahedron
+with rotating faces, as Kersten Meier made one as well.
+
+ Only 3 of the 4 generators of the Halpern-Meier Tetrahedron are
+necessary to generate the 3,732,480 possible states. If we use only
+2 generators we only get 19,440 possible states.
+
+ It is not possible to swap just 1 pair of corners and 1 pair of
+edges, as is possible with the standard Rubik's cube.
+
+ The number of possible states of the Halpern-Meier Tetrahedron break
+down like this:
+
+6! /2 * 2^5 * 4!/2 * 3^3 = 3,732,480
+
+The number of pairs of exchanges of the 6 edges must be even.
+The number of pairs of exchanges of the 4 corners must be even.
+5 of the 6 edges may have any flip, the last edge is forced.
+3 of the 4 corners may have any twist, the last corner is forced.
+
+The H-M Tetrahedron is roughly comparable to the 2x2x2 cube and
+ the standard Skewb in terms of the number of combinations.
+
+    Halpern's Tetrahedron    3.7*10^6       Ben Halpern, Kersten Meier
+    Pocket Cube (2x2x2)      3.6*10^6       Erno Rubik
+    Skewb                    3.1*10^6       Tony Durham
+
+-> Mark <-
+
+
+From coumes@issy.cnet.fr  Mon Nov 13 04:23:07 1995
+Return-Path: <coumes@issy.cnet.fr>
+Received: from xr3.atlas.fr by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17534; Mon, 13 Nov 95 04:23:07 EST
+X400-Received: by /PRMD=INTERNET/ADMD=ATLAS/C=FR/; Relayed;
+               Mon, 13 Nov 1995 09:13:08 +0100
+X400-Received: by mta xr3.atlas.fr in /PRMD=INTERNET/ADMD=ATLAS/C=FR/; Relayed;
+               Mon, 13 Nov 1995 09:13:08 +0100
+X400-Received: by /ADMD=ATLAS/C=FR/; Relayed; Mon, 13 Nov 1995 09:13:04 +0100
+X400-Received: by /PRMD=cnet/ADMD=atlas/C=FR/; Relayed;
+               Mon, 13 Nov 1995 09:13:10 +0100
+Date: Mon, 13 Nov 1995 09:13:10 +0100
+X400-Originator: coumes@issy.cnet.fr
+X400-Recipients: non-disclosure:;
+X400-Mts-Identifier: [/PRMD=cnet/ADMD=atlas/C=FR/;816250393@x400.issy.cnet.fr]
+X400-Content-Type: P2-1984 (2)
+Content-Identifier: unsubscribe
+Alternate-Recipient: Allowed
+From: Jean-Philippe COUMES CNET PAA/RGE/TSR <coumes@issy.cnet.fr>
+Message-Id: <9511130914.AA15168@peyoti.i...>
+To: cube-lovers@life.ai.mit.edu
+Subject:  unsubscribe
+X-Mailer: InterCon TCP/Connect II 2.2.1
+Mime-Version: 1.0
+Content-Type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+
+unsubscribe 
+
+
+From JBRYAN@pstcc.cc.tn.us  Tue Nov 14 09:12:58 1995
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from VAX1.PSTCC.CC.TN.US (PSTCC4.PSTCC.CC.TN.US) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05060; Tue, 14 Nov 95 09:12:58 EST
+Resent-From: JBRYAN@pstcc.cc.tn.us
+Resent-Message-Id: <9511141412.AA05060@life.ai.mit.edu>
+Received: from pstcc.cc.tn.us by pstcc.cc.tn.us (PMDF V5.0-3 #11457)
+ id <01HXMMHE4MCQ8X60LN@pstcc.cc.tn.us> for cube-lovers@ai.mit.edu; Tue,
+ 14 Nov 1995 09:13:44 -0400 (EDT)
+Resent-Date: Tue, 14 Nov 1995 09:13:43 -0400 (EDT)
+Date: Tue, 14 Nov 1995 09:13:41 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: God's Algorithm for the 1x1x1 Rubik's Cube
+Sender: JBRYAN@pstcc.cc.tn.us
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.951113162306.539286930A-100000@pstcc.cc.tn.us>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+Solving the 1x1x1 Rubik's cube is probably a bit silly and whimsical, but 
+let's look at it anyway.  
+
+I was led in this direction by rereading some articles in the archives
+from Dan Hoey and others concerning NxNxN Rubik's cubes.  For example,
+consider Dan's discussion "Cutism, Slabism, and Eccentric Slabism" from 
+1 June 83 19:39:00.  Sometimes degenerate cases are slightly interesting.  
+I guess the 1x1x1 case is the most degenerate we have, unless you want to
+consider the 0x0x0. 
+
+It seems to me that either cutism or slabism, as Dan calls them, reduce to
+whole cube rotations for the 1x1x1 case.  For example, a quarter turn face
+turn or a quarter turn slice would be interpreted as a whole cube quarter
+turn for the 1x1x1.  Hence, the cube group for the 1x1x1 is simply C, the
+group of 24 rotations of the cube. 
+
+By analogy with some of our previous work, I can think of essentially 
+three different ways to model the 1x1x1.
+
+   1)  With the 2x2x2, we normally wish to consider the puzzle solved if 
+       each face is all of one color.  That is, whole cube rotations are 
+       to be considered equivalent.  With the Singmaster fixed face 
+       center view of the 3x3x3, the issue of whole cube rotations does 
+       not arise.  But with the 2x2x2 we would normally consider 
+       (for example) RL' equivalent to I.  The most common way to 
+       accomplish this type of equivalence is to fix one of the corners.
+
+       If we fix one of the corners of the 1x1x1, then we have a most 
+       remarkable puzzle.  There is only one state, nothing can ever 
+       move, and the puzzle is always solved.
+
+   2)  A second way to model the 2x2x2 such that whole cube rotations are 
+       considered to be equivalent is to consider the set of states to be 
+       the set of cosets of C, that is, the set of all xC.
+
+       If we take this approach with the 1x1x1, then there is only one 
+       coset, namely iC (or just C, if you prefer).  The cube can rotate,
+       but all 24 states are considered to be equivalent and the puzzle 
+       is always solved.
+
+   3)  Finally, if you model the 2x2x2 in such a way that whole cube 
+       rotations are considered to be distinct, then you are really
+       modelling the corners of the 3x3x3.  Indeed, a naive program 
+       that simply modelled the permutations of the 2x2x2 facelets would  
+       in fact unwittingly be modelling the corners of the 3x3x3.
+
+       If you take the same approach of modelling the permutations of the 
+       1x1x1 facelets, then you in effect are considering whole
+       cube rotations to be distinct.  You have a very easy problem,  
+       but the problem is not totally trivial as it is with approach #1
+       or approach #2.  The rest of this note will therefore consider the
+       problem of the 1x1x1 cube where whole cube rotations are considered
+       to be distinct. 
+
+Since we need to deal with whole cube rotations, I will use lower case
+letters as our standard E-mail simulation of Frey and Singmaster's script
+notation for whole cube quarter turns -- t for Top, r for Right, etc.  We
+need only three of the six letters because, for example, we have l=r',
+d=t', b=f', etc.  I will use t, r, and f. 
+
+We know before we start that there are 24 states.  We also know before we
+start that these 24 states form 5 M-conjugacy classes, where M is the set
+of 48 rotations and reflections of the cube.  (There are 10 M-conjugacy
+classes of M, of which 5 are rotations and 5 are reflections.) Hence, any
+discussion of God's algorithm will involve 5 conjugacy classes and 24
+states. 
+
+The obvious searches to look at are for qturns only, and for qturns plus 
+hturns.  We may generate the qturn case as C=<t,r,f>.  We may generate 
+the qturn plus hturn case as C=<t,r,f,t2,r2,f2>.
+
+                    Qturns Only
+
+ Distance Conjugacy Positions  
+  from     Classes
+  Start
+
+    0          1        1  {i}
+    1          1        6  {t,t',r,r',f,f'}       
+    2          2       11  {tt,rr,ff},{tr,tr',tf,tf',t'r,t'r',t'f,t'f'}
+    3          1        6  {ttf,ttf',ffr,ffr',rrt,rrt'}
+  ---        ----     ----
+ Total         5       24
+
+
+
+                    Qturns Plus Hturns
+
+ Distance Conjugacy Positions  
+  from     Classes
+  Start
+
+    0        1        1  {i}
+    1        2        9  {t,t',r,r',f,f'},{t2,r2,f2}       
+    2        2       14  {tr,tr',tf,tf',t'r,t'r',t'f,t'f'},
+                         {t2f,t2f',f2r,f2r',r2t,r2t'}
+  ---      ----     ----
+ Total       5       24
+
+
+There are some additional problems we can look at.  For an example, an
+interesting problem on the 3x3x3 is variously called the stuck axle
+problem or the five generator problem.  In the case of the 1x1x1, we have
+the "two generator problem" because we certainly can generate C as C=<t,f>
+(Proof: r=tft').  But can we generate C with only one generator?  The
+answer is no.  (Proof:  Order(i)=1, Order(t)=4, Order(tt)=2, Order(tf)=3,
+and Order(ttf)=2.  All the orders are less than 24.  Note that it suffices
+to calculate the order for one representative of each conjugacy class.)  I
+will leave it as an exercise for the reader to determine the lengths of
+each of the 24 positions if we generate C as <t,f>, and to determine the
+appropriate conjugacy classes to take into account the symmetry of C
+generated as <t,f>.
+
+By the way, do we know the minimum number of generators required to 
+generate the 3x3x3?  Here I do not mean the minimum number of quarter 
+turns.  I am asking the question if we are permitted to use as generators 
+any elements of G.
+
+Here is one final item about the 1x1x1.  We do not know how many subgroups
+of G there are for the 3x3x3.  But we do know how many subgroups of C
+there are.  There has been much discussion of the 98 subgroups of M which
+can be arranged in 33 conjugacy classes.  The subgroups of C are simply 
+those subgroups of M which consist entirely of rotations.  There are 30 
+such subgroups, and they may be arranged in 11 conjugacy classes. 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =          
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us                      
+
+
+
+
+
+From boland@sci.kun.nl  Wed Nov 15 19:34:28 1995
+Return-Path: <boland@sci.kun.nl>
+Received: from wn1.sci.kun.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16127; Wed, 15 Nov 95 19:34:28 EST
+Received: from canteclaer.sci.kun.nl by wn1.sci.kun.nl via canteclaer.sci.kun.nl [131.174.132.34] with SMTP 
+	id BAA05998 (8.6.10/2.14); Thu, 16 Nov 1995 01:33:07 +0100
+Message-Id: <199511160033.BAA05998@wn1.sci.kun.nl>
+To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Cc: Cube-Lovers <cube-lovers@ai.mit.edu>
+Subject: Re: God's Algorithm for the 1x1x1 Rubik's Cube 
+In-Reply-To: Your message of "Tue, 14 Nov 95 09:13:41 -0400."
+             <Pine.PMDF.3.91.951113162306.539286930A-100000@pstcc.cc.tn.us> 
+Date: Thu, 16 Nov 95 01:33:05 +0100
+From: Michiel Boland <boland@sci.kun.nl>
+
+Jerry wrote:
+
+>But can we generate C with only one generator?  The
+>answer is no.  (Proof:  Order(i)=1, Order(t)=4, Order(tt)=2, Order(tf)=3,
+>and Order(ttf)=2.  All the orders are less than 24.  Note that it suffices
+>to calculate the order for one representative of each conjugacy class.)
+
+Another way to see that C cannot be generated by one generator
+is to note that C is not abelian.
+
+Singmaster mentions in his Notes that the cube group G itself
+can also be generated by two elements.
+-- 
+Michiel Boland <boland@sci.kun.nl>
+University of Nijmegen
+The Netherlands
+
+From hoey@aic.nrl.navy.mil  Wed Nov 29 12:18:52 1995
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23715; Wed, 29 Nov 95 12:18:52 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA26702; Wed, 29 Nov 95 12:14:41 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Wed, 29 Nov 95 12:14:40 EST
+Date: Wed, 29 Nov 95 12:14:40 EST
+From: hoey@aic.nrl.navy.mil
+To: mschoene@math.rwth-aachen.de (Martin Schoenert),
+        frb6006@cs.rit.edu (Frank R Bernhart), Cube-Lovers@life.ai.mit.edu
+Newsgroups: sci.math
+Subject: Generating Rubik's Cube
+Message-Id: <9511291210.Hoey@AIC.NRL.Navy.Mil>
+References: <DIsoBz.Eu7@rci.ripco.com> <mschoene.817657981@astoria> <1995Nov29.054118.9651@cs.rit.edu>
+Distribution: 
+
+About generating the cube's group with arbitrary elements of that
+group, mschoene@Math.RWTH-Aachen.DE (Martin Schoenert) writes:
+
+> ... Rubik's cube can be generated by 2 elements.
+> Moreover almost any random pair of elements will do the trick....
+
+Actually, I think it's more accurate to say that a random pair of
+elements has nearly a 75% probability of generating the cube.  At
+least, I'm pretty sure that's an upper bound, and I don't see any
+reason why it shouldn't be fairly tight.  That's for the group where
+the whole cube's spatial orientation is irrelevant.  I think it's more
+like 56% (9/16) if you also need to generate the 24 possible
+permutations of face centers.
+
+About the minimal presentation of the cube group on the usual generators,
+frb6006@cs.rit.edu (Frank R Bernhart) writes:
+
+> The answers may be in SINGMASTER, et.al.
+>    "Handbook of Cubic Math"  or BANDEMEISTER (sp?) "Beyond R. Cube"
+
+I recall Singmaster wanted to know if anyone found a reasonably-sized
+presentation; I don't know if any have been found in the intervening
+fifteen years.  The best I know of is a few thousand relations, some
+of them several thousand letters long.  I've been meaning to try
+chopping that down a bit.
+
+Dan                                     posted and e-mailed
+Hoey@AIC.NRL.Navy.Mil
+
+From mbparker@share.ai.mit.edu  Fri Dec  1 13:31:02 1995
+Return-Path: <mbparker@share.ai.mit.edu>
+Received: from share ([199.171.190.200]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA19968; Fri, 1 Dec 95 13:31:02 EST
+Received: by share (NX5.67e/NX3.0M)
+	id AA00728; Fri, 1 Dec 95 10:24:24 -0800
+Date: Fri, 1 Dec 95 10:24:24 -0800
+From: Michael B. Parker <mbparker@share.cytex.com>
+Message-Id: <9512011824.AA00728@share>
+To: PuzzleParty@cytex.com, Cube-Lovers@ai.mit.edu,
+        506maple-residents@cytex.com, www-designers@cytex.com
+Subject: PUZZLE PARTY 4 -- SATURDAY (Dec. 2), 7pm, Orange!
+Reply-To: mbparker@cytex.com
+
+			       PUZZLE PARTY IV!
+
+The 3 Puzzle Parties this year have been a big success!  The last party
+brought puzzle collectors from as far as Australia, plus the world-famous
+Jerry Slocum,... and didn't quit 'til 3:30am!
+
+So if you missed the one before, you absolutely don't want to miss Puzzle
+Party 4!...  Bring your brain teasers, mechanical puzzles and mental games,
+and prepare yourself to have an incredibly good time.  Join us to dine on a
+tasty ``puzzle potluck'' along with drinks and leisurely conversation with
+friends by the fireside.  Plenty of snacks & refreshments and good spirits
+provided, so grab that brain and some puzzles, and see you there!
+
+ WHEN:	Saturday, December 2nd
+	7:00 PM until...
+
+ WHERE: Mike's house, 506 N. Maplewood St., Orange, CA
+	From the 5 fwy S, exit 22E, to the end, then 55N, take 2nd exit 
+	Chapman West, at 1st light right/north on Tustin, 2nd light left/west 
+	onto Walnut, 3rd left is Maplewood.   We are the big yellow house on 
+	the NW corner of Walnut and Maplewood.
+
+ COST:	$4   MITCSC     Members & Guests with puzzles
+	$6   MITCSC Non-Members & Guests with puzzles
+	$8   MITCSC     Members & Guests w/o  puzzles
+	$10  MITCSC Non-Members & Guests w/o  puzzles
+
+ RSVP:	You may pay at the door, but please try to contact me beforehand so
+	I can put you on the list.  Please email, fax, or phone the following
+	info: Your NAME, ADDRESS, PHONE, FAX, EMAIL, and what you're bringing:
+
+              ___ puzzle-bearing     members at $ 4 each: $___
+              ___ puzzle-bearing non-members at $ 6 each: $___
+              ___ puzzle-less        members at $ 8 each: $___
+              ___ puzzle-less    non-members at $10 each: $___
+              ___ <- total persons          total cost -> $___
+                 total number of puzzles being brought ___
+
+ SPONSOR: Michael B. Parker, MIT '89
+	  email mbparker@cytex.com, 1-800-MBPARKER xLIVE, xPAGE, xFAXX
+
+(This info is online!  See http://www.cytex.com/~mitcsc/w96/w96-pzl4.htm)
+
+From hoey@aic.nrl.navy.mil  Sun Dec  3 14:46:32 1995
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12457; Sun, 3 Dec 95 14:46:32 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA01617; Sun, 3 Dec 95 14:46:31 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Sun, 3 Dec 95 14:46:30 EST
+Date: Sun, 3 Dec 95 14:46:30 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9512031946.AA24122@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: Generating Rubik's Cube
+
+On the probability that two random elements will generate the entire
+cube group, I wrote:
+
+> ... a random pair of elements has nearly a 75% probability of
+> generating the cube.  At least, I'm pretty sure that's an upper
+> bound, and I don't see any reason why it shouldn't be fairly tight.
+> That's for the group where the whole cube's spatial orientation is
+> irrelevant.  I think it's more like 56% (9/16) if you also need to
+> generate the 24 possible permutations of face centers.
+
+I can now answer the spatial orientation part of the question, and
+it's much lower.  We're talking about C, the 24-element group of
+proper motions of the whole cube.  If we select two elements at random
+with replacement, the probability is only 3/8 that they will generate
+the whole group.
+
+The kinds of motions that can take part in a generating pair are a
+90-degree rotation about an axis, a 120-degree rotation about a major
+diagonal, and a 180-degree rotation about a minor diagonal.  Note that
+the last kind fixes two major diagonals and an axis.  Two motions
+generate C iff they are
+
+    (48 ways) a 120 and a 180, unless they fix the same major diagonal,
+    (48 ways) a 180 and a 90, unless they fix the same axis,
+    (24 ways) two 90s at right angles, or
+    (96 ways) a 90 and a 120.
+
+The number comes out so even I suspect there's something deeper going
+on than the exhaustive analysis I used.
+
+As for generating the (fixed-face) Rubik's group, I still suspect that
+two elements almost always generate the entire group unless they are
+both even.  Anyone who has a Sims's-algorithm implementation handy
+could help out with a Monte-carlo approximation to see if this is
+approximately right.  Or, I wonder, is there a way of getting an exact
+number, perhaps with the help of GAP?
+
+Dan                                     posted and e-mailed
+Hoey@AIC.NRL.Navy.Mil
+
+From mark.longridge@canrem.com  Sun Dec  3 20:32:36 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27214; Sun, 3 Dec 95 20:32:36 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 201705; Sun,  3 Dec 95 20:17:41 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: <U,R> & G
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1261.5834.0C201705@canrem.com>
+Date: Sun,  3 Dec 95 20:09:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+A while back Jerry asked....
+
+>                   Finally, pick any cube X in <U,R>.  We know
+> |X| in G <= |X| in <U,R>.  Can anybody find a cube X such that
+> |X| in G < |X| in <U,R>?
+
+Well, we basically know the answer is yes. There are elements in
+<U,R> which require less moves if we use all the generators of G.
+
+To be more specific, look the 6 twist pattern in <U,R> which
+requires 22 q turns:
+         ^^^^^^^^^^
+>>  Equivalent to (U1 R1)^35= (R1 U1)^35 & Shift Invariant
+>>  UR11 = U2 R1 U1 R1 U1 R3 U1 R3 U1 R3 U2 R1 U1 R1 U1 R3 U1 R3 U1 R3
+
+After a bit of computer cubing I found:
+
+p183 6 Twist      R1 U3 R2 U3 R1 D3 U3 R1 U3 R3 D2 R3 U3 R1 D3 U3
+                  (18 q, 16 q+h  moves)
+                  ^^^^^
+I'll spare everyone all the gory details. I'm certain there are
+all sorts of other examples, but here is one case where we can
+save 4 q turns. It may be of some small interest to see which
+of the two processes can be executed more rapidly by the human hand.
+
+-> Mark <-
+
+
+From mschoene@math.rwth-aachen.de  Mon Dec  4 09:10:17 1995
+Return-Path: <mschoene@math.rwth-aachen.de>
+Received: from hurin.math.rwth-aachen.de by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23100; Mon, 4 Dec 95 09:10:17 EST
+Received: from samson.math.rwth-aachen.de by hurin.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #30) id m0tMZOr-0009KuC.951204.150809; Mon, 4 Dec 95 12:49 MET
+Received: from hobbes.math.rwth-aachen.de by samson.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #11) id m0tMZOr-000I7wC; Mon, 4 Dec 95 12:49 MET
+Received: by hobbes.math.rwth-aachen.de (Smail3.1.28.1 #26)
+	id m0tMZOq-0009ejC.951204.124936; Mon, 4 Dec 95 12:49 MET
+Message-Id: <m0tMZOq-0009ejC.951204.124936@hobbes.math.rwth-aachen.de>
+Date: Mon, 4 Dec 95 12:49 MET
+From: Martin Schoenert <mschoene@math.rwth-aachen.de>
+To: hoey@aic.nrl.navy.mil
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: hoey@aic.nrl.navy.mil's message of Sun, 3 Dec 95 14:46:30 EST
+	<9512031946.AA24122@sun13.aic.nrl.navy.mil>
+Subject: Re: Re: Generating Rubik's Cube
+
+I have used GAP to compute the subgroup generated by 300 random pairs of
+elements of G.  151 of those pairs generated the entire group, so the
+probability is about 50%.
+
+I don't think we can figure out the exact number, since we don't know the
+maximal subgroups of G.  One maximal subgroup we know is the derived
+subgroup (on which the upper bound of 75% is based).  Then there are the
+8 stabilizers of the corners (of index 8) and the 12 stabilizers of the
+edges (of index 12).  Using those it should be possible to push the upper
+bound down to something about 60%.
+
+Martin.
+
+-- .- .-. - .. -.  .-.. --- ...- . ...  .- -. -. .. -.- .-
+Martin Sch"onert,   Martin.Schoenert@Math.RWTH-Aachen.DE,   +49 241 804551
+Lehrstuhl D f"ur Mathematik, Templergraben 64, RWTH, 52056 Aachen, Germany
+
+
+From csstto@alpcom.it  Wed Dec  6 06:16:17 1995
+Return-Path: <csstto@alpcom.it>
+Received: from nic.alpcom.it by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14301; Wed, 6 Dec 95 06:16:17 EST
+Received: from monviso.alpcom.it by ALPcom.it (PMDF V4.3-10 #4712)
+ id <01HYHH3ABBHS0017KF@ALPcom.it>; Wed, 06 Dec 1995 11:14:08 +0000 (GMT)
+Received: by monviso.alpcom.it (950911.SGI.8.6.12.PATCH825/940406.SGI)
+ id LAA09416; Wed, 6 Dec 1995 11:14:06 GMT
+Date: Wed, 06 Dec 1995 11:14:06 +0001 (GMT)
+From: "C.S.S.T. Torino" <csstto@alpcom.it>
+Subject: Information request
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <Pine.3.89.9512061120.A9263-0100000@monviso.alpcom.it>
+X-Envelope-To: cube-lovers@life.ai.mit.edu
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+
+ How it is possible to access to "Cube lovers at MIT"  ? 
+ Do we need a password ?
+
+ Thank You and best regards
+    Domenico Inaudi
+
+
+
+From alan@curry.epilogue.com  Thu Dec  7 02:44:55 1995
+Return-Path: <alan@curry.epilogue.com>
+Received: from curry.epilogue.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23735; Thu, 7 Dec 95 02:44:55 EST
+Received: (from alan@localhost) by curry.epilogue.com (8.6.12/8.6.12) id CAA01816; Thu, 7 Dec 1995 02:44:49 -0500
+Date: Thu, 7 Dec 1995 02:44:49 -0500
+Message-Id: <7Dec1995.013844.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+Subject: Magazine Spam
+To: Cube-Lovers@ai.mit.edu
+
+So I thought it was time to send you all an update on unwanted magazine
+advertisements that have been broadcast over Cube-Lovers about once a week
+for the last few months.  Here's the final story.
+
+First off, there is absolutely -nothing- that I can do IN THE SHORT TERM to
+stop these advertisements.  Internet electronic mail was not designed to
+prevent unwanted advertising.  As things are set up now, Cube-Lovers is a
+simple mailing list, so anybody, anywhere, can send mail to Cube-Lovers and
+you all get it.
+
+It turns out that the source of the advertising we've been getting is a
+fellow named Kevin Jay Lipsitz <krazykev@kjl.com>.  I've written directly
+to Mr. Lipsitz politely asking him to remove Cube-Lovers from his list of
+advertising targets (it was hard to be polite, but I was) -- but Mr.
+Lipsitz apparently doesn't answer his electronic mail.  Actually, I doubt
+he even -reads- his electronic mail, because he is a well-known Spammer,
+and probably gets hundreds of complaints a day delivered to his address.
+(For those of you new to the Internet, "Spamming" is the technical term for
+the kind of advertising Mr. Lipsitz engages in.)
+
+I really doubt that Mr. Lipsitz's technique has sold any magazines to any
+of -you-, but I suppose he gets enough suckers to make it pay, and he's got
+no motivation to bother removing Cube-Lovers, since MIT is paying for the
+resources that he's using to reach you all.  So we're stuck with him.  At
+least we're stuck with him until I can get the filtering technology in
+place to cut him off.  Which I wanted to avoid, because I have better
+things to do with my time, but now I have no choice.  So relief from Mr.
+Lipsitz's magazines is on its way eventually, but probably not until
+you've seen several more copies of his advertisement -- sorry.
+
+By the way, here's more information on Mr. Lipsitz.  You'll notice that he
+has his own domain name: KJL.COM.  They don't give you a domain name unless
+you provide a mailing address and a phone number, so the following
+information is publicly available from the NIC:
+
+   Kevin Jay Lipsitz (KJL-DOM)
+      PO Box 120990
+      Staten Island NY  10312-0990
+
+      Domain Name: KJL.COM
+
+      Administrative Contact, Technical Contact, Zone Contact:
+	 Lipsitz, Kevin Jay  (KJL2)  krazykev@KJL.COM
+	 718-967-1234
+
+      Record last updated on 25-Aug-95.
+      Record created on 20-Apr-95.
+
+      Domain servers in listed order:
+
+      NS1.ABS.NET                  206.42.80.130
+      NS2.ABS.NET                  206.42.80.131
+      NS1.NET99.NET                204.157.3.2
+
+If you want proof that this is the guy, you need only note that the address
+given here is the -same- as the address for ordering magazines given in all
+those advertisements.  The phone number is in the same area code and
+exchange as the Fax number he sometimes gives.  (Although the fact that the
+phone number ends in "1234" makes me suspect it is bogus -- I don't think
+think the NIC tries to -verify- any of this information.)  Notice that
+ABS.NET provides the domain service for KJL.COM.  You will find that
+ABS.NET is no more interested in answering your mail than Mr. Lipsitz is.
+
+Finally, I urge you all -not- to respond to this message in public.  If you
+have further thoughts on Internet advertising, electronic mailing list
+administration, or clever acts of revenge, you can send them to -me-, but
+don't CC your message to Cube-Lovers as a whole.  The whole point here is
+to keep Cube-Lovers relatively free of off-topic mail.  As the list
+administrator I get to send out occasional administrivia such as this
+message because I do actual -work- to keep the list running.  
+
+			- Alan (Cube-Lovers-Request@AI.MIT.EDU)
+
+From walts@federal.unisys.com  Thu Dec  7 09:04:57 1995
+Return-Path: <walts@federal.unisys.com>
+Received: from www.han.federal.unisys.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04683; Thu, 7 Dec 95 09:04:57 EST
+Received: from homer.MCLN.Federal.Unisys.COM by www.han.federal.unisys.com (8.6.12/mls/8.0) 
+	id JAA00555; Thu, 7 Dec 1995 09:04:55 -0500
+Received: from h3-91.MCLN.Federal.Unisys.COM by homer.MCLN.Federal.Unisys.COM (8.6.12/mls/4.1) 
+	id JAA05663; Thu, 7 Dec 1995 09:07:10 -0500
+Message-Id: <199512071407.JAA05663@homer.MCLN.Federal.Unisys.COM>
+Date: Thu, 07 Dec 95 09:06:45 -0800
+From: "Walter P. Smith" <walts@federal.unisys.com>
+Organization: Installation Services
+X-Mailer: Mozilla 1.22 (Windows; I; 16bit)
+Mime-Version: 1.0
+To: Cube-Lovers@ai.mit.edu
+Subject: Mini Cube & Revenge
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=us-ascii
+
+My first message. Oh boy!
+
+It's back. A new version of the 2x2x2 cube previously called the 
+Pocket Cube is in production.  The new version is called the Mini 
+Cube.  They are available from GameKeepers I got mine in Tysons 
+Corner Shopping Mall Virginia, but GameKeepers is a chain and 
+should be in most large cities.  If readers can't locate one, let 
+me know and I'll get a list of locations.  They also carry a wide 
+line of puzzles including Triamid, Snake, regular Rubik's cubes, 
+Master Balls etc.
+
+
+The stickers are glossy paper. I don't think they will be very 
+durable.  Also the red and orange sides are very hard to tell 
+apart.  How could they be so stupid?  The mechanism seems to work 
+better than the old ones.  I can't tell if the inner workings are 
+the same.  The original Pocket Cube had a ball in the center with 
+six cap like pieces screwed to it (with springs under the screw 
+head) to form a series of tracks.  Each piece had a shaft that 
+extended down into the grove with a triangular foot on it.  This 
+design requires a lot of pieces and drives the price up.  I 
+always thought they could be made by making the ball, three of 
+the caps and one corner piece, all into one piece.  The Mini Cube 
+uses cubies that are solid on all sides.  This may account for 
+the smoother action.  They include a complete solution sheet.  
+One comes with the Master Ball also.  I personally think 
+manufacturers should't do this.  Many people will turn to the 
+solution sheet before giving it a good effort and will miss the 
+pleasure of solving it for themselves.  My Mini Cube cost over 
+six dollars.  A little pricey but a collector should never pass 
+up an opportunity.
+
+Walt "The Puzzler"
+
+
+
+From serge@nexen.com  Tue Dec 12 17:07:38 1995
+Return-Path: <serge@nexen.com>
+Received: from guelah.nexen.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03846; Tue, 12 Dec 95 17:07:38 EST
+Received: from maelstrom.nexen.com (maelstrom.nexen.com [204.249.98.5]) by guelah.nexen.com (8.6.12/8.6.12) with ESMTP id QAA09465 for <cube-lovers@ai.mit.edu>; Tue, 12 Dec 1995 16:51:39 -0500
+Received: from spank.nexen.com (spank.nexen.com [204.249.98.79]) by maelstrom.nexen.com (8.6.12/8.6.12) with ESMTP id RAA01960 for <cube-lovers@ai.mit.edu>; Tue, 12 Dec 1995 17:07:46 -0500
+Received: (from serge@localhost) by spank.nexen.com (8.6.12/8.6.12) id RAA26101; Tue, 12 Dec 1995 17:07:19 -0500
+Date: Tue, 12 Dec 1995 17:07:19 -0500
+From: Serge Kornfeld <serge@nexen.com>
+Message-Id: <199512122207.RAA26101@spank.nexen.com>
+To: cube-lovers@ai.mit.edu
+Subject: subscribe 
+
+
+
+Please subbscribe
+
+Serge     serge@nexen.com
+
+
+
+
+
+
+
+From nichael@sover.net  Wed Dec 13 21:09:22 1995
+Return-Path: <nichael@sover.net>
+Received: from maple.sover.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17249; Wed, 13 Dec 95 21:09:22 EST
+Received: from [204.71.18.82] (st32.bratt.sover.net [204.71.18.82]) by maple.sover.net (8.6.12/8.6.12) with SMTP id VAA08585 for <Cube-Lovers@ai.mit.edu>; Wed, 13 Dec 1995 21:09:18 -0500
+Message-Id: <v02120d02acf5297871f7@[204.71.18.82]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 13 Dec 1995 21:16:38 -0400
+To: Cube-Lovers@ai.mit.edu
+From: nichael@sover.net (Nichael Lynn Cramer)
+Subject: Pocket Stuff
+
+[Possibly minimal relevance; take it in the sense of cool stocking-stuffer
+hacks.]
+
+Someone asked a couple of weeks back for pocket/key-ring cubes.  Can't help
+with that, but this afternoon in Sandy's and Son's (Inman Square (Cambridge
+(Ma))) beside the cash register they had a basket of EtchASketch keyrings.
+Seemed pretty solidly built for the the $3.50.
+
+N
+
+
+
+
+From walts@federal.unisys.com  Thu Dec 14 10:23:10 1995
+Return-Path: <walts@federal.unisys.com>
+Received: from www.han.federal.unisys.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15946; Thu, 14 Dec 95 10:23:10 EST
+Received: from homer.MCLN.Federal.Unisys.COM by www.han.federal.unisys.com (8.6.12/mls/8.0) 
+	id KAA05464; Thu, 14 Dec 1995 10:23:08 -0500
+Received: from h3-91.MCLN.Federal.Unisys.COM by homer.MCLN.Federal.Unisys.COM (8.6.12/mls/4.1) 
+	id KAA05516; Thu, 14 Dec 1995 10:25:26 -0500
+Message-Id: <199512141525.KAA05516@homer.MCLN.Federal.Unisys.COM>
+Date: Thu, 14 Dec 95 10:25:01 -0800
+From: "Walter P. Smith" <walts@federal.unisys.com>
+Organization: Installation Services
+X-Mailer: Mozilla 1.22 (Windows; I; 16bit)
+Mime-Version: 1.0
+To: Cube-Lovers@ai.mit.edu
+Subject: Twist Torus
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=iso-8859-1
+
+In Sept. 1992 Mark Longridge described an idea he had for a 
+puzzle.  He called it a Twist Torus.  Well I bought a puzzle that 
+fits his description very closely.  I would have sent this in 
+sooner except that I am new to Cube Lovers.  I bought mine 
+several years ago.  Did he get his design into production or was 
+it independently invented or did someone implement Mark's idea?  
+Will we ever know?  I bought mine in a department store (cant 
+remember which) toy department.  It was not in any packaging and 
+cost less than $2 US..  They only had one.  It was quite by 
+chance that I determined that it is a puzzle.
+
+It will test my ability to describe it in words but here goes.  
+It is torus shaped (dough nut shaped).  At first glance it looks 
+like a bracelet.  It has one slice made the same way a bagel is 
+sliced.  The puzzle can turn along this cut.  There are eight 
+differently colored sections separated by fixed black sections 
+around the circumference of the torus.  Each colored section is 
+subdivided into 4 sub-segments that can turn at right angles to 
+the main circumference.  As a segment is turned, different parts 
+of the segment are brought to the other side of the main cut.
+
+It operates smoothly and is brightly colored.  It is fairly easy 
+to solve but the geometry is novel and interesting.
+
+Does anyone else have one of these?  Does anyone know who 
+manufactured this?  Does anyone know what it is called?
+
+Walt "The Puzzler" Smith
+
+
+
+
+
+From devo@vnet.ibm.com  Thu Dec 14 12:30:51 1995
+Return-Path: <devo@vnet.ibm.com>
+Received: from VNET.IBM.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24743; Thu, 14 Dec 95 12:30:51 EST
+Message-Id: <9512141730.AA24743@life.ai.mit.edu>
+Received: from GDLVM7 by VNET.IBM.COM (IBM VM SMTP V2R3) with BSMTP id 3486;
+   Thu, 14 Dec 95 12:07:06 EST
+Date: Thu, 14 Dec 95 12:03:41 EST
+From: "Dave Eaton" <devo@vnet.ibm.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Lumination
+
+Has anyone seen a puzzle called Lumination by Parker Bros.  A
+guy at work says he got one from his wife about five years ago.
+It is a tetrahedron (like the Pyraminx) except that instead of
+having any moving parts, it has lights in the four points that
+change color when you rotate the whole puzzle in space.
+
+It sounds really neat.  Does anyone know where I can get one?
+
+Dave Eaton
+
+
+From serge@nexen.com  Thu Dec 14 13:17:04 1995
+Return-Path: <serge@nexen.com>
+Received: from guelah.nexen.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27230; Thu, 14 Dec 95 13:17:04 EST
+Received: from maelstrom.nexen.com (maelstrom.nexen.com [204.249.98.5]) by guelah.nexen.com (8.6.12/8.6.12) with ESMTP id NAA20551 for <Cube-Lovers@ai.mit.edu>; Thu, 14 Dec 1995 13:00:45 -0500
+Received: from spank.nexen.com (spank.nexen.com [204.249.98.79]) by maelstrom.nexen.com (8.6.12/8.6.12) with ESMTP id NAA02709 for <Cube-Lovers@ai.mit.edu>; Thu, 14 Dec 1995 13:17:05 -0500
+Received: (from serge@localhost) by spank.nexen.com (8.6.12/8.6.12) id NAA28270; Thu, 14 Dec 1995 13:16:04 -0500
+Date: Thu, 14 Dec 1995 13:16:04 -0500
+From: Serge Kornfeld <serge@nexen.com>
+Message-Id: <199512141816.NAA28270@spank.nexen.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re Twist Torus
+
+
+
+
+>  It will test my ability to describe it in words but here goes.  
+>  It is torus shaped (dough nut shaped).  At first glance it looks 
+>  like a bracelet.  It has one slice made the same way a bagel is 
+>  sliced.  The puzzle can turn along this cut.  There are eight 
+>  differently colored sections separated by fixed black sections 
+>  around the circumference of the torus.  Each colored section is 
+>  subdivided into 4 sub-segments that can turn at right angles to 
+>  the main circumference.  As a segment is turned, different parts 
+>  of the segment are brought to the other side of the main cut.
+
+
+
+I came to US 4 years ago from Russia. Living in Russia I use to collect 
+mechanical puzzles. I remember the article in magazine and a picture of the
+puzzle you described. I think it was 1987 ????. Article was saying that
+there are some problems to actually make this type of puzzle and .....
+
+I cant remember the end of the article and I never saw this toy in real.  
+
+Serge serge@nexen.com
+
+From SCHMIDTG@beast.cle.ab.com  Thu Dec 14 21:36:02 1995
+Return-Path: <SCHMIDTG@beast.cle.ab.com>
+Received: from beast.cle.ab.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27654; Thu, 14 Dec 95 21:36:02 EST
+Date: Thu, 14 Dec 1995 21:35:58 -0500 (EST)
+From: SCHMIDTG@beast.cle.ab.com
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <951214213558.20212e52@iccgcc.cle.ab.com>
+Subject: Re: Twist Torus
+
+Walter P. Smith wrote,
+
+>[stuff about a "Twist Torus" puzzle deleted...]
+>
+>Does anyone else have one of these?  Does anyone know who 
+>manufactured this?  Does anyone know what it is called?
+
+I purchased one of these back in 1992 at a toystore in a
+Florida mall.  I paid $4.99 for mine.  The tags says:
+
+WrisTwist (tm)
+Puzzle & Bracelet
+
+WACO
+Riverdale, NJ 07457
+Made in Indonesia
+Item #20003
+
+The puzzle is still in its pristine state and the color progression is:
+
+Red-Blue-Green-Yellow-OrangeRed-Violet-Orange-LightGreen
+
+-- Greg
+
+From rh@thi.informatik.uni-frankfurt.de  Fri Dec 15 03:39:59 1995
+Return-Path: <rh@thi.informatik.uni-frankfurt.de>
+Received: from riese.informatik.uni-frankfurt.de (riese.thi.informatik.uni-frankfurt.de) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09295; Fri, 15 Dec 95 03:39:59 EST
+Received: from kassandra.thi.informatik.uni-frankfurt.de by riese.informatik.uni-frankfurt.de (4.1/THI-PeLeuck2.2a)
+	id AA07726; Fri, 15 Dec 95 09:40:50 +0100
+Date: Fri, 15 Dec 95 09:40:50 +0100
+From: rh@thi.informatik.uni-frankfurt.de (Roger Haschke)
+Mime-Version: 1.0
+Content-Transfer-Encoding: binary
+Content-Type: text/plain; charset=ISO-8859-1
+Message-Id: <9512150840.AA07726@riese.informatik.uni-frankfurt.de>
+To: cube-lovers@ai.mit.edu
+Subject: unsubscribing ...
+
+can anybody please tell me the correct email-adresse
+for sending an unsubscribe-command?
+
+thanks - Roger
+
+From alan@curry.epilogue.com  Fri Dec 15 04:07:12 1995
+Return-Path: <alan@curry.epilogue.com>
+Received: from curry.epilogue.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09752; Fri, 15 Dec 95 04:07:12 EST
+Received: (from alan@localhost) by curry.epilogue.com (8.6.12/8.6.12) id EAA03212; Fri, 15 Dec 1995 04:06:23 -0500
+Date: Fri, 15 Dec 1995 04:06:23 -0500
+Message-Id: <15Dec1995.035416.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+To: rh@thi.informatik.uni-frankfurt.de
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: Roger Haschke's message of Fri, 15 Dec 95 09:40:50 +0100 <9512150840.AA07726@riese.informatik.uni-frankfurt.de>
+Subject: unsubscribing ...
+
+   Date: Fri, 15 Dec 95 09:40:50 +0100
+   From: Roger Haschke <rh@thi.informatik.uni-frankfurt.de>
+
+   can anybody please tell me the correct email-adresse
+   for sending an unsubscribe-command?
+
+   thanks - Roger
+
+As I'm certain you've been told -multiple- times, the address is:
+
+  CUBE-LOVERS-REQUEST@AI.MIT.EDU
+
+For crying out loud, why can't people remember that?
+
+Let me give everybody a little bit of advice.  For every mailing list you
+subscribe to, keep a file that contains the information you will need in
+order to cancel or update your subscription.  This isn't hard to do.  I do
+it myself.  It's a great way to avoid looking foolish in front of hundreds
+of people.  If you don't have such a file for Cube-Lovers already, start
+one RIGHT NOW and put this message in it.
+
+		-- Alan Bawden <Cube-Lovers-Request@AI.MIT.EDU>
+
+From walts@federal.unisys.com  Fri Dec 15 08:37:52 1995
+Return-Path: <walts@federal.unisys.com>
+Received: from www.han.federal.unisys.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16543; Fri, 15 Dec 95 08:37:52 EST
+Received: from homer.MCLN.Federal.Unisys.COM by www.han.federal.unisys.com (8.6.12/mls/8.0) 
+	id IAA12694; Fri, 15 Dec 1995 08:37:49 -0500
+Received: from h3-91.MCLN.Federal.Unisys.COM by homer.MCLN.Federal.Unisys.COM (8.6.12/mls/4.1) 
+	id IAA12161; Fri, 15 Dec 1995 08:40:10 -0500
+Message-Id: <199512151340.IAA12161@homer.MCLN.Federal.Unisys.COM>
+Date: Fri, 15 Dec 95 08:39:46 -0800
+From: "Walter P. Smith" <walts@federal.unisys.com>
+Organization: Installation Services
+X-Mailer: Mozilla 1.22 (Windows; I; 16bit)
+Mime-Version: 1.0
+To: Cube-Lovers@ai.mit.edu
+Subject: WrisTwist
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=us-ascii
+
+I received the following mail from KINSMAN.  I did not reply to 
+him or make note of his address.  I am retyping his note to get 
+comment from others.  He is refering to the WrisTwist puzzle.
+
+
+I have just such a puzzle too.  It came from my local toy store. 
+ I also have a digital camera sitting next to me.  Should I bring 
+mine in and post a low resolution copy in GIF format to the 
+group?  -AAK
+
+
+Does anyone want him to do this? 
+
+Walter P. Smith
+walts@federal.unisys.com
+
+
+
+
+From kinsman@ycc.kodak.com  Fri Dec 15 08:51:42 1995
+Return-Path: <kinsman@ycc.kodak.com>
+Received: from doolittle.ycc.Kodak.COM ([129.126.74.2]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17526; Fri, 15 Dec 95 08:51:42 EST
+Received: from crestone.ycc.Kodak.COM by doolittle.ycc.Kodak.COM with SMTP id AA12918
+  (5.67b/IDA-1.5 for cube-lovers@ai.mit.edu); Fri, 15 Dec 1995 08:50:55 -0500
+Received: from newt.PCD1 (newt.ycc.Kodak.COM) by crestone.ycc.kodak.com with SMTP id AA13182
+  (5.65c/IDA-1.5 for <cube-lovers@ai.mit.edu>); Fri, 15 Dec 1995 08:50:52 -0500
+Received: by newt.PCD1 (5.0/SMI-SVR4)
+	id AA20112; Fri, 15 Dec 1995 08:50:51 +0500
+Date: Fri, 15 Dec 1995 08:50:51 +0500
+From: kinsman@ycc.kodak.com (Andy Kinsman 66672)
+Message-Id: <9512151350.AA20112@newt.PCD1>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Twist Torus [small picture]
+Content-Length: 61490
+
+
+Since I have both the puzzle in hand and a camera attached to
+my computer... here is a picture of the torus puzzle, slightly
+missaligned for effect.
+
+to decode 
+
+save this note into a file, possibly trim stuff before begin
+and after end line.  
+
+type 'uudecode the-file'  
+
+find ringpuz.tif in your directory after this operation.  
+view it with your favorite tif viewer.  
+
+Get help from another if this doesn't make sense.  Enjoy -AAK
+
+----------------ringpuz.tif.uu included -----------(cut here)-----
+begin 644 ringpuz.tif
+M34T *@  K$!27E1'4DI17E9(5DT^1T)@:&-475I06U=/6E=06U=17%A,5U%L
+M=W)58%I06U906U5)5$],5U%,5U%'4DU37%5065),54Y<9EU?:%] 1S\_1CYD
+M:V-47E%,5DE+5DA)4T9?:EQ?:5I+549>:5E67U1375)<:%Y27E1<:%YA:V%%
+M3T567U117%9C;FA;9F);96)485QB;VM:9V!17EA;:6!B;V9;:6!=:F)G=&QJ
+M>&]68UMC<&E38%AL>7%48EE99EQ38%9B<&5@;F%/75%>;&%/7%)38%917U)?
+M;F%99UI@;F%C<65@<&9::V%49EQ<;65495U\C85>;V=H>7%C<FU*6U5WB(1M
+M?GAF=W%;;FAC=FY8:V-><&18:EYS@WA69EMB<F=K>6Y/75)58UA=:V!69%E;
+M:5Y@;F-3859K>6Y=:5]E<6=A;&178EIF<6EE<&A=:&!B;65D;VEH<VUQ?W9D
+M<FEB;V=L>7-A;F=<:6-M>G1B;VAQ?75<9U]F<6MV@7MQ?'9H<VM27E9P>W-7
+M95I>;&%N?'%F=&A3851D<F5::%Q&5$=L>VQ995=@;5];:%I@;5Q:9U9<:5EG
+M=&1<:E]G=6I89EUD<6AD<6M895]S?WM<:65L?75I>G-?<&AF=W!VA7YG=F]G
+M=F]B<6I99F%H=7!K>')2754M.3%78EI:95Y.6$]885I98EL]2$)58%I)5$Y%
+M4$H\24)78EQ/6E547UD]2$!37U==9E]475988EI575126E%F;F5<9%E57%)E
+M;&)D:V-G;V9E<65+54I=9UQ98E=A:V!E;F-/64Y;95I;95EM=VY27E1A;6,W
+M0CI99%Q89%Q78UM99%Q2755?:F5:95]>:6,U0SI385AD<FE/75!D<F5I=VM1
+M7U5B<&5A;V53851C<65;:&!895Q:9U]D<F=G=6I69%E::%U685=::%U?;&)8
+M9EMG=6I@;6-G=6I=:V!69%EA<6=9:6!>;6189UY395M495M59EY39%Q89V!<
+M:V138EM59EY.7U=?<&AB<VE69UU8:%Q49%E\C(%69EMG=6IQ?W1::%YG=6II
+M=VUA;V)69%=J=FIC;V-48%1N>FYC<69M>&YG<VEG<VEE<6=E<&9=:5]G<FM(
+M4TMH>&U8:%U::%UF<VM'5$M58EQ::F)>;69R?WA:9V%?;69O>G1C;V=F<6E5
+M85ER?75C<6A::%]385AJ=VYG=6QP?G-M>W!28%5M>G)F<FAJ=FQA;&)P>W%B
+M;6-:9EQJ=6MH=&QM>7%(5$IF<VEB<&5A;V)F=&A28%1*6U-@<FII>G-,755:
+M:6)=;&507UA<;&138%E28%EV@WU(44Q*4TQ*4TQ/5D]16U%-5DU26U1,55!&
+M44Q47UM37EI78EY.65-C;FA06U-@:V1(44A98UE:9%I!2T%165!E;&116$Y6
+M8%557U-26U!-64U@;&!=:V!)5TII=6E!34%175%;9%E375)'449:9%I47U5,
+M6%!(5$Q/6E5P>W9*54]58%IU@'A+5DY4759K=&],55!26U9I<FU;9%U89EM@
+M;F-::%U/75158UA::%U'54AE<V=/75!C<61=:UYF=&==:V!27E1>:F!@;&)<
+M:EY89EI;:5QK>6QN?'%28%9@;F-A;V1B;VA=:F-,65->:V5D=&Q89V!9:&%Q
+M@'EB<&5R?W5.6U)G=&ML>G%.7%5D<6MI=F]+65!VA'MD<FE,65!N?'%.7%%?
+M;V1L?'!F=FI9:%M385569%AG<V=58U9J>&M795IG=6IG=6I=:V%C<69P?71F
+M<VM68UM89EUYBX%;;&)9:5UG=VQ>;61@;V9M?G9B<VMA;V979%MF=&MI=FU=
+M:F)C;V=/6U-:95UC<&AI=FY28%5A;V1F=&E;:5]99UQ17E1C<69C<69C;V56
+M8EAF<FA585=@:V%N>G!/6U%P?')J=6MO>G!.7%%795IYAWQF=&E59%UJ>7);
+M:V-E=&UH=W!79E]C<FMC<&E.65%A;&5P>W-'3DE46UA(4$Y!24A"1T)36%(\
+M03M57%987UI%3$A46E9;9%]'4DQ$3TE37EE27E9%3T=37%5-5TU06E%<9U]4
+M7UA07%);9UU=:5]A;&)78UE89EM+5E!68EI685E17%5*5DQ88UQ2755.5U!*
+M54]+5E%/6E1<:F%/75199EY*6$U.7E--6U178EQ*54]48%A2755:9EY?:F!2
+M7E1>:F!995M=:V!17U1@;V)?;6!49%=M?6]H=VI17U)@;F%I=6EM>6U:9EIG
+M=&989%9J>FY?;V-J>7!>;F5G=VU38UI;:V%::%]E<&A?:V-.65%J>&]N>W)*
+M5TY17EA=:F1J>&U::%U89EML>F]K>&Y69%EE=&MF=FQ,7$YF=VEJ>FQ08%-X
+MB7M>;%]I>&ED<F-T@W9I=VIK>6Y795IH=FQ>;&)89EMI=VQI=&UYAGYF<VI2
+M7UE79%UL>7-58UQ69%MP?G-08%569EIA<VE085= 4DAD=FI8:EYH>&Q8:%Q?
+M;V-@;6->;&%H=FM;:V!G=VMM?7!UAGA;:U]J>FUD=6=89UI[B7IF=&5H=&9K
+M=VMG<V=:9%EM=FUG<VEA;6%B;F)895UO?71<:F%D<6I@;6=+65)C<FM;:V-)
+M64]9:5]B<F9?;6)07E-;:%YN?');:5Y89EM/75)M>G%-5$Y#2D167UI0651-
+M4DQ15T]05DY"2$!,44E775-.5$I054Q36U9"2T9K=&\X03I16E-685I,6$Y1
+M75-!34588UM48%A58%D_2T-/6E)37E=&44EB;6=,55!16E5;9%]!2D578%MG
+M<&M36U9*5%1786!B;&M88U]@:V=895]<:6%:9U]27%E-6%1:95]?:F1K=G%:
+M9EY"34-C;V537U=58%E>:6%&4DIB;65B;6,Z2#U-6U!68E9*5DI27E)O>V]9
+M95EL>&Q:9EA79%59:5Y@<&1A<VE<;F1K?'1E=&U18%E9:6%F<6MJ=6]99%]A
+M:VA 2T=R?WIJ=W)=:F5;:&!F<VMB;V=C<6A99UQ48E=B<&5D<F=48E5F=&=B
+M<&-07D]48U1I=V979%1.6DIL>&I:9UE68E9L>&Q*5DQK=VUW@WEJ=6MF<VMF
+M<VMJ>'%'5$Y=:F1[B(%S@'E68UU::%]L>7%J>7!G=V]?<6EH>6]?<6=59UU7
+M9U]9:&%79E]E<FI<:6!B<&=-6E%K>7!58U1,6DYE<V9G=6A;:5M7959B;F!8
+M959;95I>:%U?:%U?:F!E<6=;9UU;9UMC<F5;:&!M>W):9V!;:&%P?7=O?'5Z
+MB']P?75)64YC<69;:5QI=VIF=&=795I995MH<VE3859795I99EQ/6%-57EDY
+M0CU%4$I.6U-%44E.65%475968%907%)07%)06U%,54Y(44A98EE=9UU48%9%
+M44=F<FA995M-5D]67UA=9E]:8UQ.5U!&3TA/65%57%557E=(44I67UI'4DPX
+M0SU99%Y.65-,5U%88F%'45!(4D]<9V1&44Q37EA/6U-B;6527E8^24117%9=
+M:F1B;VE)5TY>:V-78UEC;V5:9EQ995M.64]J=6ME<65;9UM37U-;9UMD<&1,
+M6$QK=VM@;&!F<F9G=&5:9EA?;V1@<&138UE89UY?;F=59%U58EQ38%EF<6E5
+M8EI<:F-68UQ38%QG=&U:9V%,65-<:V)99UY?;61L>7%F=&M::%UR@'5@;F%F
+M<F9K=VM\B'QQ?6];:%II=6=H=V9O?FUT@W1T@G-B<&%YAWAG=6A::%M99UQM
+M>W!@;61A;V9H=6QB;V=485E;:6!895Q#4$EE<VI>:V)>;F1A<&=*6E!+6U)U
+MA7EH>&U::E];:V!@;F-L>G!A;V1VA'=/75!]BW]C;V-78U=O?G%G=&IA;V1G
+M=6AN>FY=:5U;95IH=&A89%A28%5B<&9>;&%>;%]69%A::%]A;F5J>'$_3$9B
+M;VMK>'-68U])5E%>;F)@<&1@<&159%=E<V9@;F-R?G1^BH!;9%EC;6%G<69#
+M2TA-6%157UQ,5E-48%@^2D)?:&%(44H[1#M=9EU%44="4$5+5TLT0#1-64U,
+M6$Q#34)&3T1785516U!+5TM37U-"3D1-64]I=6U:8UI+54MD;61-64]47U=7
+M8UM27E9685MC;FA88UM'5$QJ=FX_2D)E<&A@;&106U-C;F9885I(44I89%I3
+M7U5>:V-H=F](54Y485E:9UY+64Y795I-6U!D<F9'5DE-64M995=A;5]074U:
+M9EI*5DID<&1B;F)99UM::%M::%E=:UQB<&507E-O?7)B;V=A;F5895U<:%YB
+M;6-A;F9G=&Y>:V5H=7!G=F]L>W1,7%-G=VU69EM79UM+64Y@;6-N?'%48E=H
+M=FE48E9:9EI68E9;9UM995E:9EI69%=I=VE99UA9:%MO?G%,6TQI>&E48U1A
+M;V)48E5T@G9T@WQ;:F%?;F5E=6M<:V)L>7-?;&5H=6]VAGMP@'5?;V1\C(!0
+M8%5@;F-;:EUE<V918%%<:UQO?6YB<6!59%-@;UY,6TAA<5UF<F968E9Q?W)7
+M95ER@'-T@G5::%QG<V==:5]XAGU795QC<VIK>W%J>7!O?'-:9UY99EYS@7AT
+M@7M696!A<&MZB89::V=J>W=B<VM9:V%I>&]F=FI<:E]075-48E==:5]/6T]E
+M<65O>V\]1T1)4D],55)26UA&34E!2$-@9V-I;FI66U5055!?9%Q46E))4T<_
+M23Y:8UA7859'445.6$Q475)37%%.6E)C;F9)5$Q%44E89%Q 3$1:9EY/6%%!
+M34578EQ.65-!3$937EA$3TE 2T5)4DMF<6M"34A(4TU58EQ)5DY185=-75%3
+M95E-6TY28%-175%H<VE89%I=:%Y47U5D<&9G=6979E=<:UY78U=C;V-;9UU6
+M85=995M?;6)48E=+64Y58UAH=6M28%=B;V=/7%1A;F9-6E)58EI185=<;&1,
+M7%1<:V1I>'%%4DM=:F-99F!:9U]<:F%99UY895UD<6E9:5]9:6!B;V=U@GIG
+M=6I78U=J=FAC;V%>;%MZAW=68U-48%)VA'5M?&U7:%A>;U]?=&5J?&YA<61O
+M?W%::%UG=VM69EI595E49EI1855D=&A<;&%385=<:E]9:6!38UIK>6Y+64Y4
+M8E=M>W)@;6589EUM>W)E<VAI=F5^BWMN?6QK>FE>;5QYB'=?;EUL>VIC<65A
+M;V)K>6UC<V9A<69K>V]08%=?<6==;6)D=&A9:5Y,7%)38UE,7%-E=6MA<6A7
+M9E]07UA<:V9+6E548UYZB81.75948UQG=VU+64Y>;&%C<61C;V-<:%QP?')A
+M;&)@;65/751I=VY/6E),54Y,4TU6758Y/SM"245,44M(34=66U505DY+44=;
+M7E525U--4DY36%105U-/55%3655&3TH_1T)685M78EQ275=88UU/6E1"34=J
+M=6]D;VI/65AL=G578EY88E]075EO>79@:V=*55%38%I38%II=G!895]$4DE2
+M7U=&5$MC<69.7%%/7%)+5TU>:EY995E#3T-.6DY37U-68E1,6$I:9EI>:F!.
+M6E!;9EY;9F!B;6=48%A:9EY17%1:9EYD;VE;9F!D;VM;96)@;VIXAX)&5U)7
+M:&)E=G!E=7)G>'1K>79=:&1=:&1Q>WA99E]B;VEH=6UD<FE<:F%58UAN>G!5
+M8%9/6E!J=FID<&1?:UT^2SU89U9=;%M?;EU99UEE<V==;6!Q@75::E]?=6EJ
+M?G-;;V1R@WE29%Q^D(AK?75?<&A8:5]E=VUD<VIC<6AA;F9E<FM895]G=&UL
+M>'!>:6%O>G)K=F]>:6%(5$I<9UU68EA&5$AH=FI::%M58U9T@'1?:U]-64UD
+M<&1>:5M'4T5I=VIN?'%69EQM?W=><6MD=W-D=6U28UML?75@<6ETA7]8:6->
+M;VEWB()K>W%38UEC<VEO?W=?;6999UY=:F)=:F)?:F!A;6-<:%YC;F178UE$
+M4$1H=69:9UEA;V1'54IB<&=48%1+54I)449%34)87U=%341=95Q(4DE<9EU2
+M7%-47E)7859*44M;8%I)3DE<85Q%2D198%I'3D=37%568EI(5$Q47U="3D90
+M6U-275506U-C;V=(5%)*5E)'5$]*5U T03M37EA,5U%>:61;8F!,4DY,4T];
+M8EY.5U),5$],55!88%M68UM68UM$4$A>:5]E<&8_2D!@;&!<:%Q=9UUA:V);
+M9UU78EMG<FQ685U'4D]>:6==:5]685=17%1F<FI78EQ275=?:F1*54]F=6Y3
+M8EM!4$E#5$Q?;F=+6U-'5E%@;VE;:F-?;F=<;&-;:F%+6T]A;V1H=FE17U)9
+M95MC;V5O>W%=:5UC;V-;9UMH=&AF<F9L>VI48U1I>&EG=6E69%=C<69D=&MI
+M>7!4:%U09%E?<6=O@7=8:6%695YA<&E<:V1+6U-58EMA;FAH<VU.65-L=W%8
+M8UU<9U]L>'!685EE<6EF<6I?:F!78UEL>&QQ?7%?;&)@;F-B<&9J=V]J=V]A
+M;65<9U]E<6EP?6]E<65A;V)=;6)<;&-/8%A(6U5:;6E+7%118EI::V0W24%9
+M:F1::V5.7UE,75AI>6M79UI58UA795I)5TU=:5]P?'!N>FY<:%QS?W-78U=E
+M<65XA'A>:EQZAWE+5TEE<VA;:%Y?;6,V0CA<9ETZ1#E57%(Z0#9)3D5'3D9)
+M44A78%<_24!07%)685=.6U9!3$A,5U-;8V!(44Y:8E]685Y06U=&44M#3DA9
+M9%Y>:V599UY69%M.6U-99UY79E]48UQG=&Q$44E99UU:9EQ+5$U.5U!F:V50
+M55!%3$1B:F%*44E=9%Q-5D])4DM)5TYG=6I(5$I+5TU995M68E978U="3D)(
+M5$A<:%Y78UE175-27E9A;&137EAD;VED<&A=:&!F<6M<9V%E<&MA;&9H<VU@
+M;&1::%]A;F5G=6Q%4DME<FQD<6IA;&9G<FQK>W%)5DY?;&)B;V5B;6-K=FQH
+M<VE?:V%%4T=>;5Y?;5Y>;5QA<%](5T9F=61F=6989%AA;6%995EK=VMC;V5<
+M:5]D<F=?;V1F>F]4:%UI?7)C=FUM?G939%QM?W=H>7%E=&UM?75I=G!>:V5C
+M<6AK>'!D<FEG=VQQ?W1+64Y?;6)<:E]C<6=B<&9*6$M99UM=:UQ695A3855R
+M@'-P?G%=:UY;:5QL>FUZB'M?;6!G=6A.7%%^CH)WAWU695QC<VIWA'UP?7=K
+M>7!@;6599UYK>7!69%MB;V589EML>F];:6!89EU38%A=:&%585=A;&)+64YI
+M=VI07D]59%5D<F-C<F-17U-K>6Y17U9<:F%<:6-'4TE585==9UU78%=/5DY2
+M6E%>95Q5751?9EQ06$Y;9%E88E=69%M)5$QB;65=9E\\13X^1T)%4$I06U93
+M7U<_2D)+5E!,65)(54]"4$E0759/7%1$3TQ-6%1,5U)99%],5U!;95U-5TU<
+M8UMB:6-'3D=(3TEC:V1=9%YM=F]@:6);9%U,6$Q995EB;F1&44=C;F1B;F)>
+M:EY'4T5;9%E=9UQN>&QC;F158%A,5U!275=99%Y=:F527UI175M37UU27EQF
+M<FY;:&%;:&%?;&)@;F5<:F%48EE,65%::%UB<&5;:5Y58EA895M>;&%N>W%C
+M<69?;6)>;&%G=6IH=FEM>V]A;V-D<F5A<&-G=6AJ>&EB<&%?;V%J>FQ=;F!?
+M;V-8:%U<;%]D=6=::EU<;&-49EQ?<6=::V%59EQ18UEB<VE:;&)085=9:%]?
+M;F5A;FAC<&=G=6QB;V=U@WIH=&IE<6=K>6QL>FU::5QT@G5?;6!C<65M>W!M
+M>W!G=6IB<&5>;F-WAWM49%EVAGI.7%%A;V599EY58UIE<FE<:F%(54Q/7%-9
+M:&%@;F=895U485EQ?'117U1D<FEH=6UC<&A<:6%=:F)<:E](5DMXAGMJ>&MR
+M?G)G=F=G=69H=F==:EQK=VEI=F=B;F!B;F)58UA07E5<:6%%445,5DM'4455
+M7U0_1SU,4TM36U)*44E!2$!67E5'3T9/5DY>:6-%4$M17%9/6E106U5275A;
+M9F!06U5<96!>9V)06U947EM>:V9?;&A79&!:9V)*4E%;8V!:8V!06%-+5$U8
+M7UA67E5=95Q.54U/5DU/5$QB9U]A9U]15DY)3T=165!#3T578UE47U5"34-7
+M8U=47E-J=&E%3T1(5$9995E<:%Q37E1+5D]A;&9;:&-G='!58EY/7%=>:V=Q
+M?GIA;FI@;6=A;F9/7%1K>7!?;61?;61;:6!;:6!>:V-<:E]=:V!>:V%::%U?
+M;6->;&)3859B;6-D<&9Q?7-07E)T@G989EE.7$]J>&MF=&=G=FE58U9A<69A
+M<69;:V!@<&5-7U-G>6U9:U]&6$QL?WEA=&YXBX1@=&M5:&!J?7-G?7!7;5]I
+M>VY[C8%><&1@<&179UQ=;6)=;6)A;V1::5I48E1Q?W!$4$)@;%Y=:5M68E1F
+M<6-79%QP?71N?'-;:&!:9U]J>F]C<V=O?W-69%UE<FMV@WUB;VIH=7%A;FIP
+M?WIS@GQ&5U)P@7QYB8%'5DUA;V968EA89%IW@'=::%]58UAR@'948EA)5TMJ
+M=FI@;%Y.6TU.6TUI=6E07%!B;F)>:EY37U-5855@;&!<:F%17U9J=W!(4D9:
+M8EA%34)6755;8EU775E=9&!,4DY57%AA9V-15E),44U47U=%4$A(4TM'5$Q*
+M5TX\24-,5U%&44Q37%537EA37EE*54]06U=%4$Q+5E)88UU*4U!/6%505U-7
+M75E+4DQ5751E;61H<&5.5DM26D]E;&)56U%=95I98%977U177U1585=,6$YC
+M;V5175-=:5U48%137U5995M:9EI@;&):9EQ(4TMB;6A17EI"3TI-6E9*55%4
+M7UQ<9V-?:69%3TQ99%YE<&I.65-<:6)58EM:9V!895Y@;F5-6U)48E=795I8
+M9EMA;V1;:5Y;9UU995M\B'Q?:U]=:5U58%AK=V]U@'A<9U]O>W->:6%F<6E5
+M8%AK>G%695QH>&]D=&A%54EA<6=C=&HV2#YL>W9%5$]9:6%;;&159EYD=6M1
+M8U9O@75?;F=H>'!?<&9C=&I>;V5G=VM>;F)I>6U8:5E?;V!R@7!YAW9S@G%?
+M;EUB<6!H=V9P?'!D<&1:9EQ>:F!J=FQ>:5]D<&1H=&A68UMA;F9895U;:6!A
+M;V9+6%)H=6Y,6U9/8%IG>'!H=W! 4$9N?')G<VE<9EMS?'%H=FM>;&%S@7=6
+M8E989%AM>6U-64UU@7588UMP?'1;9EY@:V1R?G9?:V-=:&!A;&=075548EE1
+M7UA*44E054U/54U25U%(4$L_2D1275A(4TU275=67UI885Q'3D=26U9#3DA>
+M:60]2D-%4DQ99F!C;FA06U=F<6Q47UM;9F)A:VA;9F)(4T]57EE98EU98EM-
+M5D](44I-5$U<9%M27%-26U):9%M-5TU(44A57%1&4$=B:V)/64]-6$Y78UE'
+M54Q=:V%17E128%-B<&-48%1*5DQB;F148%9+5TU;9U]E<6E%4$A=:&)<9V%4
+M7UE99F)?;&A=:F9?;&A;:&1P?7ED<6U485U99F!C<6I485M895];:6!/7513
+M8%9=:V!=:V!.7%)48E=)54M175%:9EIG<6927%%99%I=:5]D<&9<:%Y37E1K
+M=VUO>G)I=6UF<VM385AA;V9U@GE695QG=VUB<6AD=&IJ=W!@;&A<:V9T@WY9
+M:&)K>G5F=7!695YI=G)@;6=ZB8!::E]18U5B=6=>;F%G>&I<:EU%4T1K>6ME
+M<6-A;5]-6DIG=F5=;%M07D]P?G%C<6=XA7MU@WI:9U]H=FM::%U89EQQ?W1>
+M;&%H=&IO>W-B;F9S?GAA;6E::%]D<6A?;6)"4$5F=&ES@79+5TUL>&Y@;F12
+M7E1685=:9EQ89%I>:F!27E1585=?:V-]B8%/6E)@:V-M>G)<:F%L>7-17E=H
+M=6]G=&UF<VU-5D]G;FI&34M<8F(\14 S/#=0650_2$,]1C]"3$1/6E).65$[
+M2$$_3$12754]2$!"34558%A+54TV/SA47E9<9EY 24)67UI/6%,]14!26U9I
+M<FM26U)"3$)E;V9885A=9EU27%).6E!27E1585=B;F178UE=:5]585=995M1
+M75--5DM78EMC;V=47E916E-26U178%E06U-::%]C;V5%44=C;V=17%0S/S=K
+M=V]585E"3D9'4DQ17%9B;6E*5%%&44Y@;&A!3DI896%07E-D<F=17U90755I
+M=VY&5$E<:5]Q?W1D;V=68EAC;V5>:F!A;6%<:%R$D(1@;&!995MQ?')47U5L
+M=VU@;F-3859B;V9'54QL?'!79%I17U9I=FY&4DI27E9?;61::%]<:F%<:F%1
+M7E9@;F5>;&->;&-G=6Q595QS@'9C<69L>6]H=FM89EMR@'-99UIA;V)O>V]G
+M<V=L>&Q28%-XAWI>;%]B<&-D<V9$4D5M>W!;:U]C<FE595M285I68UU68UY4
+M7UE58%I485I>:V168UU38%I?;&9G=6Q::%U?;6)K>6YT@GA17U5H=FM69%EP
+M?G-V@WM?;61D<F=I=6E?:U]E<65C<65;:5Q,6$YN>G!17%1:95Y@;&1;:&)E
+M<FQ89E]/6U%:9EQ.6E)<96!46EA 1D9A9V=-6%1 2T=06E=06E=:9V%*5U!4
+M85I+6%)78EY*55!&44M&4DI17%)!34-;9%E!2C]-54QA:&)05U%57%5F;69$
+M3D9+5$U,54Y>:EY'4T==9EM'449.5TQ27%%68E927U!175-175-+5TU99%I,
+M5TU'4TE07%)-5TY78%EB:V9+5$]37%=88%M475AG<FQ685M,65)68UQE<FQF
+M<FY+6%1M>75=:F1485M58%Q79%]B;VM>:V9B;VIE<FYJ=W))5E%D<F5795AC
+M<6127E)58%8_34)I=VQ3859#449=:V!89EQO?7)::%M#445C<65H=F=?:V%C
+M;V52755795QF<VQ795YH=6]A;F=N?G9::6)38EM?;F=Q@'EH=W)=;&9=;&=G
+M=VUE=&MG=6QU@WI795Q;:6!<;&-E=6MR?G)G<V=78U=89%A.6DYN>6]>:F!1
+M75->:%I:8UA?:U](5$AF=&=49%AC<VAA<V=59UUWB'Y<;F159U]B<VYUAH%M
+M?GIC='!I=7%V@GYN>W1F<VUV@WUG=&U58EMI=W!<:6%N?'-E<VI.6U%68UEJ
+M>&U48E=;:5]U@7E37E1@;&)37U5#3T-A<&-99UM07E->:V558EMH=6]?;&9J
+M=W%C;VMM>G9G=G%R?7=>:6-D<&A065(X/SHV/3M56UE%4$HZ13]17E@U0CQ%
+M4DQ&4TU%4DI+65!'4DY%4$I)5$Y'4DI78EM&3T9!2C]27%%05T]67E5-54Y1
+M6%)05U!57E5E;V5#3$-%44==:5]?:V%175%48%1%445<:%QB<&-.7$]37E1(
+M5$I,6$Y@;&)07%)F<FA995M37U5_BX%D<&9.6E!%4$AB;65,5T]47UE895]/
+M7%9/7%5@;6E*5U%J=W%>:V558EM>:6-.65-685MA;FA#44I.7%5-6U)68UM'
+M54A69%A78U=:9EIC;V-E<65O?7!A;V1<:E]?;&)28%5C<69G=6I48E=L>F]D
+M<F==:F)A;V999UYH=6]/7%517EA38%Q896!;:V- 3TI59%]9:&-285M,6U99
+M:&-::61D=6U>;V=+6E-9:&%H>&YL?')38UI::6!58U9E<V9[B7QB;F)I=6ET
+M@'15855M>6UW?W!98U9:95=?:U];:EUC<V=29%AH>FY18UE69UU7:%Y?<&AI
+M>G))6U-18UM;;&999EUH=6TP/C->;%]>;6!F=&=WA7AJ>&ML?'-B<FEF=FU<
+M;&!F=FII>6Y?<&)N?G%E<6=?:V%J=FQF<FA=:5];:5YB<&5(6$QS@7A69%M7
+M95QL>7!58UI0755>:V517EA=:&)78EUK=G!<8EX\0S],4TY#24=.5E%475A4
+M7UE17%978EQ37EA17%9%4$I.5E%885Q,5$])4DM/6%%,54Y-6%!47U<_2T%3
+M7E9585E+5$U(44I37%-$34167U1$3#]&3D-9859575)!2T!:9%E*5DH[1SM8
+M8E=67U1(4DA:9%I375-05TY.5DU77U9;9U]89%I)54M585=;:6!?;61H=6],
+M65-L=G-O>G937EI:9&%=:&1YA(!@:V9'4DQ@:V588UUF<6MB;6=06U588UY8
+M8UM385A.6U-89EM;9UU48%1)54E48%189EI&5$E=:U]::%U%4TA>;&)B;V=>
+M;&-G=&M895Y>:V-K>7!>:V-J=W%:9V%B<&F!CHAC<&E17EA68UUZB8)::F)D
+M<VR!D(E595U@;VA=;&5@<&AR?WE<:6)17EAH=6U:9U]@;65585=C;F1>:F!F
+M<FA)54E78U=;9UM27E):9%A:9%E:95MI=&I89EU8:%]R@7IE=6UH>7)=;F9C
+M<FMR@GIM?'5H=W!F=V]F>'!G=G%F=6Y<:V)YAWQ::%YE<VAI=VY99EY175-1
+M75--64]?:V%I=6M+5TU.6E!K=FQ48E==:V!-6U%M>&YE<VE68UEC<&A89EUO
+M>W%M>W!.7%%E<VIB<&=P?7=O>G5H<VYH<VUJ=6^!C85 2T9"34=37EA 2T4]
+M0S]'3DI-5E%$34A'3TI275=(4TY,5U,U0#H]2$)'4$M26U1#3$5-65%68EI1
+M7U5&4D9.6$U27%%F<&598UA%34)5751@:%]98%I06$]57E5D;61%3D5:9EQ+
+M5TU"34-?:6!98UI,5DQA:F-37%5+5$U36U9B:V9?:F106U5&44MM>'-88UM.
+M6E)17U9*5T]27UD]2D9@;6E/7%I<:6=07%I98V)(4U%685Q:95]07%1K=VU:
+M9EQC;V5E<VAB<&598EMA:F-I=6M@:V%J=&A37%%P>&UE;6)685=G<VE06U-?
+M:V-O?71+65!=:F)27U=.7%-D<6E,6E%B<&=-6E)*5T]O?G538UE9:5Y8:%QB
+M<FE+6E%@;V9P@'=89V!F=6Y08%9T@WIJ>G!<;&!;:5UJ>&MI=VI-6TQC<F-J
+M>&IT@'178U=N>G!A;6-?;6)E<VA>;&!::%UA;V1R@'5+6%!795Q385A99EU8
+M:F!79EU695Y::6)G=F],75559E].7E9D<VIE=&M795QI=VY>:V-J=V];:%]K
+M>&]I=VUQ?W1N?&]48E5]BWQ;:EMQ@&]G=F5I>&E=:UQ@;F%/75-,6E%<9V%C
+M;FA%4$Q18%M896!;9V-38%M)5E)B;VM896%D;FM485M,65);9F(\249)55-1
+M7EI/7%9375)26U!<9EU-5TY 2T-;9E])5$YC;FA*55!37EA16E526E516E-1
+M75517%5 3D516U)785A/5DU*44E<8EI&2T1/5$Q:7U= 2$%16E-26U)(4DE#
+M3T5*5DP^3$%%4TE27%)57E5A:V-26E577UI?:&5;8V)B:FE99&)@:FA!3$EH
+M<V];:&-79%YB<&E,65-<:65F<VYR?WI38%Q79&!I=7%E<FY*5U-79%YI=FU/
+M751A;V158U9F=&527E!.6DQ'4$E:9%M;9%M/6$]985=*4D=E;&1=9%Q88UM5
+M85E*54Y@;&1?;61.7%-L>G%L>7%M>G%@;F5B;V=K>7);:&%>:V1T@7I38%IU
+M@WE69%E,6D]E<VAC<6=99EU795Q@;F5@;V)-7$]::%QE<V93851A;V)59%5:
+M:UM<:EEB<6).6TQ.6DY995M>:5]G=&M485A895QN?'-;:&!08%=?;V5Q@'=;
+M:V)D<VID=FQI>&]WAGU<:6)?;F=VA7YC<FME<FM?;6)385=>:V%=:V!::%QG
+M=6AC<61#441I=6E175%995E+5TM<:5MF<F1*5T=;:%=?:UU28%-A;V-U@G@^
+M2T5?;&AT@7QH=7);;6-J?')B<FEB<6A>:V-F<6E>:6%O>G)C;&=K=&]X@7Q'
+M4E!17%A,5%$_1T1"2T9)4DU,55!88U\^245/6E8R/3E.6%5"2D5#3$=275A1
+M7%8^2D)175578UM'4DI;9UM<9EM+54Q@9U]67E5?9UY&345J<6E.6%!07%13
+M7U=:95M-6$Y)54M=:V!28%969%E/75)>:V-48%@[1D!58%Q/65A786!&44]=
+M:&9075E68UU895]$44E99F!/7%4^241+65!B;V==:V)-6E)(54UH=FU48EE4
+M8UQC<&E17E5F=&M<:5]795E995EB;F!S?71Q>G%88%=E;&)Q>F]L=6QB:V)E
+M;V5*5T]79%MA;F9L>7!07%1/6E)C;V=<9U]075=895Y896!9:&-::61::61?
+M;&5=:F-F=&AC<6189EEG=6AE<V=385599UI175%F<F1K=VEB;V!>;&!J>&QT
+M@W9G=6EE<V9::%EN?6YN>FYA;6%<:%Q>:F!R@'5+6%!28%=;:6!48EEL>7%)
+M5TY8:%YYB']69EQ=;6%F=&ES?G9685E68UM>:V)*6$]B;F1WA7I28%9>;&%I
+M=VQ<:5]M>VYWA7A89EIH=&IE<6=X@WMG<FI47U=@:V-G<VEE<&9I=6E@;F%H
+M=FM79UXU1#M::6)99F)?:V=,75-*7%)?;F579EU=:F)99EY995UD<&A+54Q@
+M:F%E;F5B:V1"2T9-5E-065947UE.65-/6E147U=48%A,6$Y'4TE/6U%*4TY5
+M7EE)5$Q#3D9 2T1,5T]58%9*5DQ<:%QA;6%'449!2S]*4TA17%)17%)+64Y8
+M95Q+6$]+65!27E1995M'4TE,5TU2759995M175-99%I89%Q16E-E;F==9F%=
+M9F%"3TED<6L]2T);:5YH=FM07E158UA<:E]:9EY06U0[1S]K>6]*6$U(5DU<
+M:6%17E98:%Q79UM08%9&5$M28%5=:V%/6T]-64U(4DE77E5785=37%%J<VA8
+M9%I=:F!27U5B<&5<:E]=:F!I=VQM>7%17%5A;65D;V=P?79P?7=285IC<VEH
+M>6]::V%K>W!28E9A;V9>:V-B<&=68UMA;V9M>W!J>&U07%)B;F1G<VE/6E!8
+M9%IQ?')585=47U5E<6=$4D=?;6)T@'1C;V-%445G<V=Q?W->;&%?;61@;65J
+M=W!I=F])5E!@;69M>W1YAG]::F!=:V1S?GAM>G-G=6Y@<&938EEB<F9?<650
+M8E9=;6)TA'=28E5-6TY/74]@;E]68E989%AD<&1:9EQA;6-)54MG<VE78U=9
+M9UIC<69::E]G=VQ@<&9>;F1H=FU::%]B<6ID<VQP@'AN?G9<:6)@;6=H=6YF
+M<VUA;&1<9U]1755:8UP^1T!%3D=.6% ]14!3755!2D- 2D!.5TY47E-/64Y0
+M64Y$3$%77U19851.5DE475!575!=95I)4$999%I68EA995MG<VE+5TU78EI3
+M7E9;9EY,5T])54U&44D[1CY.6E)$3T=<:6%.6U4X1#P_2T-48%A06U-2755,
+M6%!>:F)(5$Q 3D-28%5#3T578UEB<&9$4D=+6%!D;V=B;F)07%!:9EIC;V-;
+M9UMF;V1;9%E06D]89%AG<V=?:U]89%AU@75?:5U274]U?W%67U!D;&!M>&IL
+M>&Q:9EIA;V1;:U];:V!%54I28E=*6TUE=FAA<61$4D=;:%Y17E5F=69;:5Q'
+M5TI<;&!49%A;;6%G>6UB=&A38%==:V)G=6I>;&%89EQL>F]T@G=795I79UUQ
+M?W1*6$U>:V%I=6MB;F1:9EIL=FMG<V=G<V=C;V-68E9H=&A<:%QE<6=,5TU5
+M8%Q-655?;&=J=W).6U958EU@;6E:96%69EY89V!H=W!D<VQ(5TY?;F5::F%:
+M:6!ZAWU695AD<&1T@'1A;E]O>VUL=FAG<&5XAGM::%U@;F-?:V%S?W548%9A
+M;6-=:%YB<&5=:V!/6U-,5T]275=#3DA;:&%G=&U58UAD<F=695Q?;F5695Q@
+M<&=385A@;650755::%U<:E]475@T0#AA;65D;V<^1CU/5TY<9%I*44=36TY,
+M5$=$3#]*4D567E%37$U474Y/5TA&3D!(44))4D--54E3751,54P_23]68EA1
+M75,[1SU58%9995M#4$E#4$I58UQ07E=<:6-(5D]17E=>:V588U]88E]88E]/
+M6E9275I;9F)37EI#3DI47U==:6%,5DY?:6%=:%Y68EA,6$YK=&M26$Q+4T9@
+M:%M36TY164M%3T!98U1)4T1:8UA88E=+54I#34!06TM.64E77U%B:UE885);
+M8U9785978EAF=&M)6%%M?'=M?GA;;6%395E<;F!A<V56:5IE=VML?'%::F%A
+M<65C<V=F=FQ89UY::6!G=FU?;F5G=VU17E1>;&!.7$]D<F948E5+64QT@W90
+M7E%89EMA;V127U5A;V-78U=<:%Q?:UU?:UUJ=FQ:9EQI=6MB;F1T@'9G<VE0
+M6U%U@GAQ?GQM>GAP?'IC<&Q17E=L>7)?;61>;&-A;V9?;61WA7Q07E-79%ID
+M<F=99UQ795IK=FYC;F=$4$9=:%Y>9UQC;6)>9UQ*5$EI=6E27E)B;F)5855D
+M<&15855O>V]5855.7%5G=&UU@'IK=G)@:V=B;&EK=W-99F)O?'9N>W5B<FI*
+M65)J>W%49%MH>&Q8:%Q&5$=::%EL>VQ/6%%$3T=)5$Q)54M"2$105U!*4DM5
+M751+4TI16$Y#2T!'3$)?9%Q97U= 1CYS>7%;8%E97E956E)&3$1:8UIB;&))
+M5$I27E1A;6-?:%]885A,54Y(4TU895].6U0U0CQ(5% ^2T8[1T-*5U)685U&
+M44U57UQ37EI%4$Q:96$^245&4$U)5$Y=9F%)44Q=9F%99%U,5T]>:5]37514
+M6U%@:%UL=&A67E)I<V947E%G<61?:EI57E-C;6!R>FUE;F%>:%MA:UYB;%YA
+M:UU?:6!I<FM:8UQ17%938%M696);:6E<:FI)64Y-75%69EMI>6U;:V)-75-D
+M<VI59%M79UQ28E9F=FI79UQI=VQD<F=A;V)E<V=A;V-R@'-89E=@;%YK>&EA
+M<&%WA79;:5IJ>&QD<V9L>FUI=VI;9UMW@W=>:EYP?'!I=6MJ=FQ@;F-,6D]+
+M6$]K>'!.751(6$QB;FI#4DU9:6%89V!B<6AB<FAB<F=<:E]68EA@;&)G<FAF
+M<FAD<&:!C8-K=VUI=6MT@'1R?W%I=FAQ?6]J=VEO>6QY@W5D;F%O>V]O>V]:
+M9EI:9EI07%!99%I=:F!58UA38EM)65%?;&5@;69485I17E=%5$UB<6I485E=
+M:V)9:%].7E1J>G!<;&%8:%U?;6)C;V537U5@;& [1#U'4$DT/S=06U-.5U([
+M1#U,54Y'3T9#2T)/5TY165 [0CI:85E"24%+4DI+4DI,4TM36E%6751-5$Q*
+M5$M58%9&44=*54M!34-98EM/5E!)3DI47UI 2T9-6%)+6%)68UQ07E=88UU*
+M55!A;&=-6%)%4$I37EA06U978EUJ=6]&44M685E06U5#3$==9F%58%I58%A%
+M4$A26U1+44=)3D5C:F!06$T[0S9985588%-36T]26DU77U-:8E=88E=@:F!4
+M8%9/75)Q?W178EQ>:6-17%9895]?;&5K>'%I=G%17EEK=V]M>W)07E5N>W)>
+M:V-F<VU;:&)895]F=FIE=6I595EC<V9H=VI695A>;%U27E!/6T]H=&A%444^
+M2CY;:%E37U%27E)+5TM>;&!?;6!<:EU58U9F<FA<9UUL>&YG<VE89EE[B7YW
+MA7I>;618:%]\C()S@WA7:5UI>'%K>G-H>'!K>G-C<FMB<6IF=6Y-7%5>;&);
+M:%YC<6=@;F-58EA;:%YL>F]::%U;:EMD<V)07TYE=&-:9EA>:UUH=&9F<F9J
+M>6Q<:EUA;V1C<69A;V5;:6!E<FIK>'!E<VQ@;6=D<6Q?:F=D;FM;:&%38%EB
+M;VA58UA?;6-C<VA<;&-/7U9=:F)-6U)<:%Y=:%Y,6$Y/6E _2$%/5U)+5$]:
+M8UY16E4_2$%17%1,6$X[1SMJ<VI#341$3$-67E5.5DU-5$Q>95U265%46U-5
+M6E)#24%88EE>9UY&4$=:8UA-5DU;9%M*4TI.54]+5%%,55) 2T5+5E!-6%)?
+M:F)=:6%!345,5T]+65!28%=17E9,65%58UI;:6!,6E%995=L>&P_2S]H=&I7
+M8%=98EE.6$]F;V9;8UI#2T)J<VI37%5+5D]N>7%06U-68UI07E-+6%!#4DE=
+M;659:&%%5T\_44E@<6H^3T=(5U!28EE.8%-09%@_5$5-7U%*74]27U9.6U-&
+M44M37EE68UQ<:6-B;VA?:F1K>W%=;&-A<6A69%ME<VIJ=6U@:V-?:F-F=&=N
+M>VQ485-G=&9C<&);:5U3851A;V)C<VA.7E-A<65D<F=(5DU58EMH=6]E<6U,
+M5E-27UE<:6-O?'548%Q@;VI18%MH=G-E=VM)6U%8:5]28UEC<VA9:5UJ>FYA
+M<&-?;E]A<&%S?W-_BX%G<FA=:5]O?71J=V]P?G-T@GA@;V)^C']99UI;:5QA
+M<6--7E!@;&106U-O>W-58%A88UMD;V=/6E))54UB;F9;9U]27U==:F%0759<
+M:V)D<VID<VI58U9A;V)M>VY>;%]?;6!B<&-@;F)Q@'-B;&)C;&-H<F9)4$H\
+M0SU(4$E,4TU-5D\[13Q16E%$340\1CU&3T9.5DU-5$Y+4DQ!2$)&349$2T5/
+M5D]"2D%15T]'3$1875=66U5/5D]<8UQ265)*44I;9%U'4$E-5E-47%E37EI<
+M9V%37EE:95Y%44=78UE.6E \2#Y89%I89%A17U))5TM9:%M"441E;V-#34%.
+M5DM=9%M+44E66U8N,RUD:6-#23]*44E98UM@:V=37UUN?7Q99V9N?GV DY!>
+M<&YA<W-SA85N@H%E>7AM@H%<<W%A<6]H>'=H=7).6U5/7E5F=FI8:%M49%5;
+M:F%99V!H=6Y79%U27UEC<&E@;6=:9V%79%Q%4DI68UM;9EY:95U99%Q58%E<
+M9U]@;&!&4D9)54E585-68E1285)>;%Y07D],74U::UMXB'EG=6A48E=;:%]!
+M3DAG='!F<VE17U1C<6=R@7A08%9R@GI<;&1K>G5@;65C<6A@;V9G=6Q>;&-7
+M95I?:U];9UM>:EQ57U)88E5G<F188E598U568%)-6DQP?'!68E968E9@;&!9
+M:%MP?G-D=&AE=6EL>7)=:F1I=W!;:&)I=G%]BH938%Q:9V)T@7U:9V!+6%)?
+M;&5<:V)Q@758:%Q/7U)78%EA:F%=9UY98UE37%-78%557U1=9EM9851<9%A0
+M64Q+4$L]0CQ25U%;85E98EE37%-(44A:8EE$3$-:85E88%=36U)+4TI25T]>
+M9%Q56E-<8EI+4TA=9%H\0SE?9F!(3TA%2T=?9F%475A0651'4$M$34A)4D]0
+M659*55%&44Y(4TY/6E)'4TE$4$9995M#3T507%)G<VE68EA)5TQC<&9"4$5;
+M9UM@:EY57U)+5D9<9U=>:%I78U5W@W=>:6-?:VF&EI=TB(N4J*]]E)R&GZ=^
+MEJ"2K;B#G:B FJ6/J[>'HZ]\F**(IK!^G:9UE)N.J[%MB8UKA89VD(]C?'=[
+MDHHO1#LW2D4]3$=<:&106U5275A*55!,5U%+5$]17%E(4D]$34I=9F-;8V!.
+M655,5U-.65589%I;9EQG<VEQ?W.!CX)Q?W*+FHN"D(&"D7Z"D7Z@KYY\BGER
+M@7*#D81_C8!E<VA99UY<:6%48UI69EU,6U)695Y38EM68U]17%=78EQ;9F!@
+M:V5G<FI@:6)98EE375-[AWMM>6MN>&MO>6QF<&)P>FQI=6=@;%YD<&9B;F1F
+M<FAL=V]78EM>:V).759::6)F=&M=:V)48EE=:F179%U<:F-/759'5$Y)5U!;
+M:&%58UI::%]B<&5795IA;V)58U9F;V9=9UY=9EUI<FEK=6IK=&EA:V!B:V!C
+M;V%C<&)?:U]#2D-'3D<]0CI-4TM 24!#2T)5751'3D5;8UHZ0CD[0SA67E-&
+M345#2T)%2T-&2T-47%-(3T=88%=#3$-77UI885Q06U5%4$Q16UA-5U106U=8
+M8UU%3D=;9%]06U937EI17%A;9F%+5DY,6%!*5DQ99%I27E1)54M78UE,6$Y+
+M5DQ+6$Y$44I58%I47U=17U:+F))O?GF*G9B"E)*1J*:DO+Z.JJ^LR]*4ML"L
+MT-R3M\.CRM6>Q]>2N\NCS=VARMJAS-R:QM6@R]J8QM*9Q="VXNV7P<N9Q,F2
+MO+^=P\1WEY:@NKDV2DHC,S%%44\U0#P[0T T/3A'3DI"2$1"2T1(44HU/C=!
+M2$)*4TP[1#TJ-BX_3$1:95^%D(J5HIV8I:&:IZ.XQ;^VP[RHM*RTP;NRP+G 
+MS<>UPKJ]RL*WQ+RBL*>9IJ"BLZR5II^9K:24IY][CH9F>G%Q@WM-7EA99UQB
+M<F=I>6U'5TQ3859795IE<6=78U=58UA/75!C;V-;9UM?:UU>:EY@;F%@;F%4
+M8EAJ>&U+5TUP>W%+5T]@:V-[B8!D<6E27U=K>7!G=6QH=6]>:V199F!M>G9.
+M6U9B<&5D<F=89EM48%9995M68EAC;V5A;6-'4TE07%!>:EY>:EY+5TM(5$A*
+M5DIO>V]385128%1895M37%-+54PY0CE,5DQ"3$!*5$E-5DU 2D!27%)375-#
+M34-4751#2T9*4TY$3$=57EE&3DE$34A98ETY0CU475A'4$M 241575I"2TA/
+M5U)05U-"245%3DE;8UY,55 U/CE(44QA:F5.5U)-5D]=:V!'4TE;9UU27%-"
+M3D1275567UA.54Y,5E,X14(U14. DI22I:K"V.&CP,JIR=29N<2GR]FKT^&=
+MR->JU>6ETN&GU^2AT=^5Q]20PL^=T=V7R]BCU^&:T-J6S=:/QL^2S=6?V-^>
+MU=V7S=>CVN&5QL[*]?MNE)E:='4?,S0D,# Y0#TF*R5&2T4\/SHR-#$\/SQ 
+M0T M,BY!1D(V.S<F*B@U.#LQ-#F*DYJJLKW%S]NVP,[*UN3,V.:XP]'"S=O/
+MV.JQNLW!RMW3W.V\Q=;,U>;&T.&]Q];.V^O#T=ZUQM#&U]VBMK>ZS\J+H)>%
+MFXV&F(R D(5G=VEJ>&E)6$E89%9N>FQA;E]K=VM78U=P?'!I=6E>:EY;9UUJ
+M=6M@:V%A;V1M>G!%4DAH=6Q0755;:&)-6E158EU99V!F=&U99E]47U=;9EY;
+M:5Y?;6)$4D=@;&)995M;9UUJ=FQ99%I47U5T@'9E<6=68E9;9UMC;V%I=6=2
+M8$]<:UI9:%=>;5Q::%U:9EQ/6U%)44A 2#]05T]"24%'449*5$E/6$]'44A.
+M5TY16E%/6$]+5$U.6%506U=-5U1&4$](4U%88V!:96%06U=<9V-.65-78EI*
+M54U99%Q;9EY%44E-5D]06U-.6E)+5TU#3T-*5DI+5TM,54HT/C)68EA"2T(_
+M23Y&4$0Q.R\^1SY)44@K,"HN-C4Y0T0X2$HJ/T:4L+N+K;O&[?Z#KK^/O<V?
+MS-VKV.FMW>R7R=B:S-FBUN*WZ_:9T-F=U-V;T=N5S=:EWN:=U=Z6SM>AVN&7
+MS]JDW.6.QM&9T=RBVN><TN"6QM2RV^ECA(U(8VJLOK\I-3,T/#=98%M.4D\\
+M/SY25U-,44TP-3%$2$4Z/SM!144I+#&(BY*TN,;EZOW$R.# Q>'*T.S+T^S#
+MR^33V_7<X?^QMM+<X?['S.C*S^O'S.C0UO+@Y__8X/?BZ__*U>C)U>+/WN?"
+MT=;@\/&MO;JXSL;)WM>+GY2\T,-><V149U=&64=D=6-E<VA58%9O>W%O>W%J
+M=FQ68EA88UEH<VET?W=@:V-J=6UF<6MK>')U@7U075A>:FAN>7=<9F5<9V-B
+M;6=A;V9?;6)08%1,7$^#D89.6U-685M;9F!685M0651<95Y785A174]F<V-*
+M5T=(545::59C<E]-7$MI>&=::%U@:V1R?79-5$Q/5TY6755+5$M-54I(4$94
+M6U-88%=06$]"24--54Y36E-!3$9+5E ]2$1*55%68%U(55! 34=27UA$4$1$
+M4$1-64]!3$)#3T537%%J<VA<9%E<9EQ^B'IK=&62FXB%CGMU?FMV?VQC;%M!
+M1SD]0S<G*B%*3T<U.C0H+2D[/SPD)R0U.#4]0T$M.3DJ/C\B0D6ES-&0N\.;
+MR,_*]?W-]OS1]ON>Q<O)]OZ7Q]'&]_^>S]FAV-^<T]NCVN*NY>ZEV^61R-&F
+MW.:BV.*5S]F3S->>UN&FX>N-RM5UK[NLX.R)N<>?Q=)IB9:VS->8IZXH-#AL
+M<W=46EQ%24Q;85].55,Z03Y$2DA!2$4D*BQJ;W>8G*C4U.K&QMZZNM;7UO7$
+MQ>7(R>;8V?G%R.;%R./(S.;"Q>#,T.N^PMS7V_75V//EZ?_'R^/;W_?1U>[,
+MT.G7V_38W_7BZ?W'T>+3X>_7Y?'7YNV/GZ*,G9M"44Q.7E1"4$=68UM;:6!H
+M=6U78EIL=W!D<&A78EAG<VE995U/6E);9F!:9V!A;FE+5U-!3DQ37UU/7%IG
+M<6Y88U]*54]<:6!=:V%69%=8:5M[B7Q27E1L>&YP>7)A:V-D;F1H<6A78U=6
+M8EAG<VE;9UUA;6-C<69O?7).7%%=:V!.6E!H<VMI=6U$2T-#3$-+54Q%44=+
+M54E&4$1,5DU>9UY,54Y.5U!065):8UY"34A88UU#3DE.6%506E=%4$I06U50
+M6U5"34=!3$8]2$1475A98EN-E8IK<6&4FXFWNZ*_PZC/U+30UK+3U[+-T:W/
+MTK&>H8*GJI-&238\/# K+"8Q,S P-3- 14$T-C,S/#=&3DLE+S ;+2T<-C>!
+MGZ'5]?;5\O;<\/'=\.[@\N[<]/*'JZW,^?^MX.>MX.:U[/&1R,^=U-R6S=:3
+MRM.[\?V)O\V1Q]6;T."*OLR.P="1Q]6'O\R2R-:=S]ZET^&*LKZ,K+G V.1]
+MCIA<:7!$35)=969)34Y355=+34XX/3M(3$LN,C-25UQ35V31U.7)SN3'RN',
+MSN??X?KEY_^\OM?(RN73U?*\O=O/T>[)R^C)RNC&Q^3+RNC O][3TO#4T_/2
+MT?'?WO[9V/C9V/CEY__4V/+:WO;2U.WGZ__5V^MM<W\H,#4S.3DU/#DZ/SM)
+M4$E(3TA"3$-&3T9=9EU;9%M.5TY?:5]=:F)A;F9A;F5E<FM@;6968UYC<&QL
+M>7117E=J=W!17EA47U=I=&Q=:V!>;&%795EB<&-89%A/64Q*5$=%3T)<:5MG
+M<V=58U=58%988UE/6U%585=G=6I3859;:5YF<VE?:F!>:F!<:%Y"2T0^1T!8
+M85H^2#Y;8UI&341.54]36E-46U526E-#2D-05U%26U8^1D$_249$3TLX0T$]
+M2$9 2T=+55)/6E1<9V%>:61995NFKI^SNZ;J[M.^P:+P\\CBY;CAX[/Q\;_9
+MVJ7Q\K[P\;W9V:?0S*CFX\1M;%5<7$X@(ADC)B%"1T$N,RTX/CHJ,2\J,C$L
+M.SH"%A=^E)3;[_#8Z.GC[>WC[NK@\>RCOKF^Y>2-NK^QXNFDU^":SMF7SM>1
+MR-*'OLF&O,B9T=QZLKV0R=*/Q=%_L[^-P<V3Q].$ML6+O<R(M\=]J[F"J[5R
+ME9L\5UIH?'M%5%%=:&9/554Z/CY$2$E)34XX.SXZ/4 U.3XK+SB&BI?5VNK(
+MS^.UO-'<X_O-T^O=X?CFZ__HZ__;W?:_PMW0U.S.TNK$QM^\OMC)R^3+S>B[
+MO=C-S>?,R^?8U_/9V?6]O=G0S^OIYO_=VO?EZO_CZ/S1U^<A)S,M-#HK,3%&
+M2T4Y/S<P-S [0#HW/#<Y/CDM-"XM-2Q*5$LX03968%588E9:9%AO>6YT?71/
+M6%%S?'=685UG<FQ06E=06U=C<&I58EE;:&!R@'=.7%-D<&9B;F1@;&)W@'=F
+M;V907%)P?G-385=995MH<VE,5TUQ?7%89%A17%),5TU68EAD;VI685Q'4TM2
+M6U1*4TQ37%4]1C]98EM37%5*4TQ065126U9885Y(4$U)4D],5U-)5%!37UM)
+M5E-$44Y585]'45!>:&=E;FF/F).-EXZ[P[6IKIGN\=+L[\;O\</S\,'T\,#L
+MYK3DWZOW\+OW\+KCW*?6T9OOY[;:U*;IY<")B&PU-B,K+R0J,"@_14%!0T0K
+M+2Q 1T4^2D@4)"1#553A\?'D\O/=\.O<\^^>O+JGS<Z(M;RATMN7RM6,O\J(
+MOLI^M<"'OLEYK[MYK[MXK[J&O,B%N\=QI;%\L+V!LL!^L+V$ML6/O\YIEZ6+
+MML:"IZY]G*(W34TE,S)M>'0U/#E25U-$1D-$2$D[/S]#1T@U.3LG*S!466%Y
+M?8KFZ?J[Q-?$S>#-UNOE[/_0U>GGZ__9W/'<W?/5U^[1T^K%R-_.T.G)R^7+
+MR^?+R^? O]W$Q>'*S.?/T.[1T_#/T.[2T_'?X/[4UO/IZ?_GZ/Y35&8O,3PE
+M*"T]/S]!1#\R-BPP-3$]03XW.38Z/3@R."Y+4D1M=&"ZP:NML9G*S+/8U;[I
+MX\W"NZ;7SKV8D8&IH9-B8%6 @'A(34=K<VYA;&=2755F<FI*4TQF<FA&4DA0
+M65!L=6Q*4TA5855A;6$_34!:9EY@;&1&44=E<6=47U5@;&),5U!78EI<9F-A
+M:VA,5U)&34E%3$<^14%(3TE,54Y%3T=16E4Z0CU%4$Q16UH_2DA 2TE-6%!.
+M65$X1#Q*5DXX0SM#3D9S?'=[@WZ/E9.BIZ'1U\F\OZKL[]#AX;GQ\</R\+_U
+M\<'FXK+CWJSNY[7IXJ[T[;GFWZKGX*K?UZ+>V*;8U:K0T*R!@VL/% 0L,2DQ
+M-S5(2$HW.3@[03\N.3<)%Q9$55>&G)S9\_+2]?.TVMFCSM&3Q,J,O\B*O,>"
+MML."ML)MGZR!L\"*O,EZJ[EQH[!]K[QYJ+9VI[)QI;%]K[QPHJ]OH:YUI[9N
+MH*UZJK9KF:: HZE_G* :+B]C;V]87EQ05%-45U0_0C]'2TDU.3<Z/#XV.CLH
+M+"],3U:CI[2SML>IL,.TN\ZMM,FQM<NKL,:TM\[+SN7'Q]_4U^[(RN'"Q=R_
+MP=C*S.;(R.*_O]O"PMZSM<Z[O=C#Q>"[O-K'R.;%Q^39W/F[OMO,S>3,S>)!
+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
+M,C-UAXM/:G%??(1>?HE<?HMKCIA1<7Q.;GE6=X)7>(%9>()>?899=X-:=H)5
+M<7U3;7I:=(%1:79J@(X_4V)=<7YP@H]08&UB;WI+56)Q=8)65V)#0$M-2%!/
+M2DXN+"U#03\J*"8O+RTN+BPM+2L\/CTP,C,G*2QH:7!<761F:'5I:GIG:'EO
+M<(1B8WA\?)1O;X=R<HQ[>Y&-C:-_@)9Z>Y&0D::'B)YY>(Z;F;"+BZ.*BJ*(
+MB*""@)BGI;^GI[^$A)RUM<M]?XY!0U$Q-#TY.C])2TP]/S]"0CX[/#41$@*6
+MEG[!OIWT[\7AVJWV\,#R[+[X\</1S*+S[L;QZ\?S[LST[\_S\-/LZL_P[M7L
+M[M?OZM3WZ]7[Z=/XW<C(I962<&2YG9"*>G"!>&]U=FU57%1E<6='4TE27E13
+M859,6%!88UQ47UA 2T1K>'%99F!27EI<:&0Z1T1)55-=:F5$349*4TP\1#]3
+M6U9-6%(Z13]*55%"34= 2T4_2$-,5DY+5$U#3$,\0SLT.3,_/CHO*"141T..
+M>G>":V>QD9*3='*QD8ZHBH*JD(&QG823A6"'?E'DWZC:TYOBW*#<U)?1R8O>
+MUIO'OX3,Q(G#OH:PJG3%P8ZIIGFCH7JJJ8LF)1)!034J*R(Y.C0J+2@S-C,]
+M03X=)2)&5%4X2DY-8V5.96E+9FT\5UY*96Q.9V])8FI*8VM,8VUC=X)*7&A@
+M<'Q;:7907&IA:WI,5F5E8G=13&)E7G)?56IH77!Q9'AF5&AN6V]@3U]R8&YE
+M46"!<'I00$A;4%0A&QT\-C@S,S,P,C$V.#4\/SXJ+"LW.SLY/#]#1TI 1TU<
+M8FIA:'%26&9L<8-L<85U>9!X?9-W>H]V>(V'BI]S=HM]?Y1V=HIV=HIR<X9_
+M?Y5_@)6,C:. ?I:+B:)Z>8^,C:&:FZU?86T\/D<O,C="1$4K+2TQ,RXX.3,J
+M*R-$1#" ?V/S[\C<V*KU[[WKX['W[[W@V*CS[\+CWK3S[<?R[,CR[<WQ[L_E
+MX\CP[=;L[]3P[M7/RK!;5#AC53I,."%:1S-P8T]K6T]\<VAE9%IV>W%67E58
+M8EE.5U!<9U]78EQF<6Q;9F!:9V%@;F=E<FM485UH=7%27UAF=&UC<&E0651(
+M44Q%4$I(4TU(5$Q 24)*4TP_2$%46U5#2D1#2D-*44I+3TX9&1=85%%(/SQM
+M6E>GB8>6;VS,GINJ<F^]A8*Z@X#!BH6]BH')GHRE@V;PU+'1P9/\[KNSJG/!
+MN7[5RI#6S)*[LGG"N8*JHF^SKGRKIWB?FG&KIH1X=%E03STG)QL_0#HH*"0Q
+M-#$Y.SLI+BPQ-S4Q.38Y04 K-SDS/D X0T=!3% Z0TI)4%@X/D9+4EHY/D9%
+M2E1%250S-4!13UQ44%U".DEB6&572UM:2UI;2%ED35]E3%]7.4UQ4F=Q4F9@
+M/5%H1UIF1U=)+3MQ6V<F&2!"/#XL*BLV.38L+RPR-3(I*R@S-30V.#DB)2@G
+M+2].55DT/D-276-"3U927V9A;G=*5F1E<H)V@I)>:GIR?8V(DJ*0F:N!BIU_
+MB)N(D:-V?Y)_B)MW@I9N>8U\AYEL=H=S?8N"C)E&3U@V.T$4%QHV.CLQ-#,W
+M.C<P,2@:&@X\/B78U[?%OY?U[;[,PH[=TY[@UJ3V[;K7T:'S[,#V\<COZ\;O
+M[<KP[LWP[<[NZ\Z9EG=23S(G)0HM*Q)-2C-44T!+23M&0SH^.3-554U044E%
+M2D)E;&-+4TI=:5]795I69%E-65%'4TM=:& [1S]D;VA;9F!58EQA;&9?:F1<
+M9V%98EU.5E%!2D5#3$=%3$9%3$1-5$PX/S=,5$LW/C8[0#E*3T<A'QQ94T\@
+M$ _(K*R-967.G9K!AH"Q<&G2C8;-B('DG9?/B(+6D8O$AGG;IY*F>%[_WKJ[
+MGW?MW:W3R)*\LWR^LWW$N86PIG2UJGZ(?U2FGGB0B6J'@6>7DH!85DF"@7E&
+M1T,J*BA!04$V-C8V-S8Q,3$O,3 K+"XI*RT^/3\Z.CQ%0TA!/$$T+3-53%,Z
+M+S972U5.0DQ+/4A/04Y10$Y?2UA$+CQ+-4)C2EE.,T)7/4Q;/DYH25E9.$MM
+M3%]G1%=D055:.4Q7.$EI3ETW(RY72E,?&!PW-3<K+"LM+BPY.S@L+2HY.CD[
+M.SLB)"4Q-38F+2]:9FA%4E5)6EY,761)6F!19&Q096YF>H=E>(94:G=TBI>!
+MEZ-\E*)VCIR?ML2=M<)YD)Z3J[F4K+J/I[6.I[*GOLB EJ&<L+-07V)E<7$E
+M+2P<(!X]/SPK*B,A'A-A7T:8DW7=U:[#N8K9S9G>TI[NXZS>TYWIX:[CW*ST
+M[<+S[<7V\,CLZ<#R[\:\NI,F) ""@6.%A7%=75%L;6=*34A&248\/SQ(2DI 
+M1$,U.3A*3TM87UIA:F589%Q?;V5::%];9F!@:V9C;FA37EAB;&E=:&1U@GU/
+M6E1)5$Y47UE05E(\0CXX/SI:85U&3D4^13T^1CU98%A*44E,44I"1CXH+"1!
+M/#0],"G"IZ!V3TC,F9*N<FC"?G6_=FW6B8/>D8O=CHCCE(_;C(?AE([0BW[N
+MK9VR?F7<L9':O97^[+SLWZO+OXN_M86FGF^6CF&7CVB$?5UY<UN*A75]>'"E
+MHI^#@X-)3$DK+BTN,#$L+C W.3@U.#<\/#PE)24\.#E!/3Y(/T1%.C\_,CA*
+M.D)*.4!30$E$+SA*-$!--T)1.T9"*C9*,S]0.$12.$-:.DA-+3Q.+CUB05!<
+M/$M$)#)8-T98-D55.TA1.455/TI./49+/D4J(RA%0D4T-3<N+BXN+BXJ+"LN
+M+BXH*"@L+"PP,C(K,"XY04%"3$Y%4U9*65Y"4UE29FLU1T\^4UI-96]$768_
+M6F-+9W)IB)%1;WE;?(=EA9!ZF*)QCYF+J;5ZF*20KKJ2L+R8M+^>N\6.J:^K
+MPL9RA(8T/T%)4%(T.3<L+B4T-"A143F@G8"VL(SAV*VUJWK/QI'6RY7;T)K>
+MU9[OZ++@VJCT\,#V\,+AVJ_Y[\CNXK[?S[3<R[:.>7*7@X1Y9FR4@XM?4EAW
+M;'!)1TE>7F P,C,P-#)'3DH_1D)B:V9%4$I.65-+6%)485M%4DQ17UA58EQ5
+M8EMJ=6]+5E!A;65C;F9 2D!&4$9(4$=!24!26U1#345$3D9"2T1#2D0Z/SI3
+M5D\F)R$S)2*=B(-Y5U#1HIJ<85G+BH+)@GR_=G#?D9#%>G?3B(/GFY?0@W_E
+MF)3GFY+2B'WFHI/-E'^ZCV_UV*_9Q)?\[+[-PI:6C6*4C6Q;5CB-B7.)A'9W
+M<FJ"?WIT<G-24E0Z.CHM+2\I*2LL+B\R-#,U-C4T-30Y-S<D(B5'0D8X,3<W
+M+#1214X_,#E*.4-,.T5"+S=-.410/$=2/DE),SY*-$!/.D5),SQ2.T)!+#,\
+M)RY,-SY:14Q1/$-)-#M0.T!$+C=0.T(]*C!414HV*R\W,3,R,# H*"@U-34R
+M-#,M+RXR-#-!0D$M+RXK+RXW.SHL,RY-5E,V0D([2$M$4U8Z24Y&5UU!5%E)
+M7&%"55M!6%Y!6F!'8F<W4E@^6V$Z5UU.;7)):6Y;>H)"86A'9FUGAHYA?H9A
+M?H99=7]:<GIP@XLW1$DC+2\Y/S\C)A\]0C186D-L;5/*QJ2BFW+$O(V\LG_'
+MNX?@TYW?UIW3S)3W\[KHY;#U[[WY[L3>RZNEC7.E?71_4D^C<'>?:7>O>HR)
+M6&JN@9)_5F:YGZQ>2U5A5EL[.3LH+"U-4U-(4U%G=')M>')A;FA17U9-6U)&
+M4TMD<FE58EI/6U%'4DI17%)37E1&2T556E0^1CU-54Q%34A165))4$I!2$) 
+M2$%15E$\.S49$P]X9F)=0CVWCHJ-6%2P=7&N;6?#?GC4BX3.@7W=D(S0@W_O
+MGYS2@G_;C8G-A'_OJ:+3D8/CJIFPA&V8>EKLU[#5QIW-QIWR[L5^>5I]>6!H
+M951\>G!034IC86!54U0Q+S) .4 L)RT^.3XZ.3TC(R<S-38T-C@P,C,Y.SHL
+M+2Q"0$$X,38Y,#=)/D<]+SI#,T%%.$!(.T,[+C9(.T0\+CE#-#U).D,\+39*
+M-SU*-SU",C=*.3]+.D ]+#)/0$4_,#-!,C=(.3Y-045!.3PY,C0O+2X]/3TQ
+M,3$G)R<V-C8W-S<R,C(J+"LG*BDJ+RTA)B0O-C,\0D(]140L-C<X1$9&5%<Q
+M0$,_3U)+75\P04-"5%A$6%M'6E]!5ELW3%%)7V(T354T3U9/:G$\66$X5UY!
+M8&D\6V1$8VT_6&!&76-'6%PF-#4P.3@C*B@N,RTT.3$F*QM35T)65CJVM)&1
+MC&&QJWNGH6NVL7G6T9G&PXSP[KOU\<+W[,:9@VJ;=VN096&65V;1D*2N:82M
+M9H6[=)2K:(:35W.T>96!56R/;("';GPV*S-+24LI*RI;8EU+5$]17%937EA8
+M9%Q?:F-:9EY:9EY:9EY685E175-:9EQ.64]!1#]'3$9+4DH^13T\1#M#2$!"
+M1T!66U-*3TE"14 U,BU -C-;0T&SD9%X2TC*DH^I:VBS<6W$?WJO9F'9C(C#
+M=G+5B(+4A7_FF9/*@7O_PKW&B('!CH%C."D^'PM!+14Q)0DS+1$W-AA:74"%
+MA'%-2SQM;6-.34DV-C1'1T=$1$8[.CPO+S,G)BH_/T,V-CHO+S,H*"PH*"Q#
+M0D8L*R\R,34Q+C,Z,SM,14TT*S0B&2)%.T8Q)"U*.D1%-3XY*3,^+CA(.$%"
+M,SH^+S9+/D)%.#TR)2E&.3U&.3Y -3D[,#1!-CI%/3X\-#0\-C9*1D4R,2\W
+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
+M,2XW-S<]/3TL+"PZ.CHU-34Z.CHX.38Q,B\S-3,U-S0[/3HI*RA*34I#2$03
+M&A14759185.2I)2/HHZ>M)MC?%U2;$E+9C]PBF%;=DU*8CI9<DIA>5-,9#Y?
+M>5)B>E1<=4YD?EE?>51==U12;$E7;TUNA6-,9$)6;4MB=UA;<%-F>&!%54%)
+M5D4E+R0K,BLV.S<K+BL[/CLR-3(M+RX[/3XJ+"TO+R\X.#8S,R\V-C0Q,2\M
+M+2L\/3LA'1I!.3A&.CI924E-.SM9149,.#A=2TM(.CA*03XT*R@U+R\Z-C4R
+M,#$]/3TI*2DS,3)/3DP_.SI,1DA%/D%*1$8]-SE&0$)&0$(Z-#1!.SM/34Q!
+M/SX].SPV-#,Z.#<_/3Q%0T(\/#HR,C!!03\\/#HW.38T-C,O,B\_03XY.SLO
+M+R\O+R\Q+R\R,#$O+2TJ*"@_/3XV-C8M+BLT-#(J*R@R,C O+RT\/#HQ,B\F
+M)B0Z.S@V-C8?'Q\I*2<W.#,U-C J*R4X.3$O,2=+2S]44D5,23I=6$=K9%)@
+M5T1:43QO9E%O95!O9%!Q9E)933=M84M^<EQK7T5_=%EY:U%Z;5-\;E1W:4]W
+M:5"'>F",?F5O84IM7TJ2@W)O8U4^-BT\-S$E(ATP,"PP,"XQ,2\S,S$S,S,Y
+M.3<Q,2\Z.C@V-C8X.3@Y.CDS,S,U-34\/3PQ,2\W.#4R-#,X.SA"0T V.#53
+M5E$^13\.& Q@;%YI?&E&6T9F@&91<%).;4U*9T9(9D18=E1:=%%)8T!)8D!;
+M=5)7<4Y4;DM5;DQ3;4I:=51'84!2;$M2:TM,949.:$E&8$%"63M/:$M:<%91
+M94Y+7$@T0S0G,"<S.#(J+2@X.#8M+2LY.C<M+2L\/3HF)B0N+BX\/#P@(" K
+M*RL\/SXR-#,Z.S@\.#<[,S101DA&.CI(.CM(.3Q./T(Z+C S*2HU+R\Z-C8R
+M,2] /CTH*2=%14,B(R! /CU"03U#/SU/2TQ)148N*BP[-3=*1$8X-#5+1TA'
+M0T1)148_.STY-3<^/#LT,S%+24@Y-S8Z/3HQ-#$]/SPZ/#HW-S4N+RU#1$$W
+M.#8Y.3DQ,3$[.SLZ.S@U-C,N+BPV-C0S,S$R,C Q,2\R,S P,2XT-#(N+BXO
+M+R\D)"0K*RDX.38L+2LT-#0T-#(P,2\H*20R,BXK+"8R,RTU-"Q144=&1#E$
+M/C)E74]74$!:4$-:4$-C64Q83D!D6DMA6$EF6TUW:UU423=K7DQW:E9C54)P
+M84Z!<E]G6$-R8TYO84Q=3CEX;%AK8%!V;F$V,2DC'QHX-S,D)B,W.C<N,"\F
+M*2@Q,3$X.#@?'Q\Z.CHM+2TK*RLU-34U-34R,C(V-C8D)"0S,S,V.3@N,"TM
+M+2LU-C$V.30D*B(<)1I38$]8:54^5#U2:U!3;5(^5SM4;%!-94D^5SI+9491
+M:DM-9D=&7T!7<5) 63M-9D=*8T5"6CX_5SM+8T=%7D))84=/:$U1:D]&7D1,
+M8DDY3#9A<EY 3SXV0#4N-BTS-C$K+BLR,S W-S4S,S$Q,2\O+R\^/CXL+"PT
+M-#0X.#@W-S<P,# I*2DQ+R]!/CT^.#@_-SA01D=,04,X,#%#.SL^.#@W,S(_
+M/3PO+RT^/CHZ.C@P,"XV-S4Z.#9 /CLV,B\Z-#)#03\^/#M$0#](1$-"/CU(
+M1$- .CI745%,1DA)0T5124PU,3,Z-3=.2DPU,3(V-C0P,2XV-S5!0D W-S4S
+M,S$S-#$S,S$R,C(\/3PT-#(Q,B\Q,2\T-#(Z.C@U-3- 0#XN+BPL+"HN+BPS
+M,S$V-C0U-3,O+R\T-#(L+"HZ.S@Q,2\W-S4L+2LK*RE%14-!03\>'AHS-# V
+M-2]*1T!+1CY!.C%53T55341=5$M<5$M'/C5224!63D):4D902#QB64A633Q:
+M3S]C6$AC549H6DMO8E%E6$9:3#UK7DYA545C64QN95HX-"LX-"\H)R,P,S X
+M.38M+2TT-#0S,S,L+"PQ,3$Z.CHQ,3$V-C8I*BDT-#0R,C(L+"PQ,3$L+"PN
+M,# R-3(T-3,K*RDM+RTL,2PL,RI 2CU#5$(U2#93:%-%744X3C9(749-8TQ$
+M6D)$6D!#63]"6#Y 5CU'7D0\4CA)7T5"6#])741*7D=-84I/8DQ$6$$U2#-"
+M5D$_4SX^3SM 3SY#3T% 2C\C*B$W/#<M,"TO,2XU-3,N+RPR,C(W-S<N+BXU
+M-34G)R<M+2U"1$$Q,2\W-S4Z.3<Z.#<V,C) .CHW,3% /#LT,# X-S4Q,"XN
+M+BPR,C R-#,G*BE!03\^/SPM*RHT,S$\.CD\.#4].C=53TU'0T) /#Q#/SXT
+M,3! /3Q .CH^.#A745%,1$4W+S!+04,T,"\Y-31$04 U,3 Z-S1.2D<Q+2I%
+M1$ X-C,O+BH\.S<S,R\Z/#PS-30X.S@T-S0P,B\[.SDO+2I /CLT-30H*"@[
+M.SL^/CPM+2LZ.C@E)2,R,S$R,C L+"HN+BPR,C V-S0O+R\O+R\U-C4U-34]
+M/CLN+BPV-#$N+2@W-"U-2$$\-2T^-2Y01T!12#])0#=124!23$)94TE'0C55
+M3T%&/C!R:EU/13A523U42#Q72S];3T-;445:4D5D7$]7445A75(^.S(N+2<\
+M/3@B(!Y /CPM+2TG)R= 0$ Q,C$G)R<P,# S-#$Q,2\G)R<Q,3%"0D(K*RLU
+M-34Y.3DL+BLP,B\W.#8P,"X]/SXK+RPO-S V0#<_23P^2SPR03 ]3SLY2S5-
+M7TE!4CX_4#Q%64(]43H]43I'6T1+7T@V2C,]43I"53](64-!4STM/2A$4T!"
+M4CY%4T!$43\Z1S0[1SDU0C1!2S\M-"PL,2LP,B\Z/#LK+BTL+"PT-30Q,3$L
+M+"PW-S<X.3@E)24T-30F*28S,S$\/#H\.SD^.SHN*BDS+RY"/CXW-30M*RHQ
+M,C V-C0U.#4T-C4[.SL\/#PM*RHQ+RX].SQ"0$ \.#E&0T([-S=*1D8[,S-#
+M/3U*1$0\-C8_.3E$/CY,1D8\-C8_.SPX-#5*1$8\.#D[-S@Y-30K)R=*1D8^
+M.CDW,S,].3A%04 Z.#<\.C@P+RT_/STO,"TL+"H_0#TX.#8I*B<Q,2\\.CD]
+M/3LJ*RDX.#@W-S<F)R8^/CXK*RLL+"Q 0$ R,C(H*28P,"XK*RDS-#(X.#@Y
+M.3DI*"8O+2P].SH^.CI$0#XZ-C,Q+BM!/#E'03T].#1/3$4X-B\V,RQ&03E/
+M2D),1S]*1#I,0SI*0CE944=8345/1#Q01CU43$-C6D]+0S=)0S=85$E13D4Y
+M.#)+2T<F)R4G*"4Q,B\I*2D[/#LW.#<U-34T-3(Q,2\P,# L+"PK*RLR-#0Y
+M/#LB)",P,C$Z.CHQ,3$N+BXS,S,K+BTK+2PV.C<X/3@S.C0]23T\2#I 3#Y$
+M4T(R03!!4#\\23DZ1SA 3SY.74PZ23@\2SI(5T8Q0"\X1C5&540P/2H^2SA'
+M5$- 33U%4D$[13=!2SX\1CDJ-"E%34(]1#LL,2LJ+2@Q,S$V-C0P,"XZ/#HV
+M-C0Y.C<U-34S,S,Z.CHO+R]!0T,P,S(R,S(V-C8T,C(M*RP\.CLU,S0S,3(V
+M-#,S,2\I)R8[.SDL+2HP,2XS,S,M+2TT-#0Y-S<].SQ,2$I /3Q)140U,3! 
+M/#M&0SQ /#=644Q!/#D_.3E:5%194U4O*RT[-35)0T-&0D%#0D! /#PL*"=*
+M1D8_.SLW,S)$0$!)140^.CDO+BPZ.#4Z.S<[.SDZ.C@Q,B]%0T$N+"L[.3@R
+M,"\M*RHV.3@W.CDI*RI 0D$Q-#,L+RXJ+"PQ,S(_/S\O,"\K*RL^/CXX.#@R
+M,C(Y.3DI*BD\/#P_/S\P,# R,#$P+BU"/CTY-30M*2@Z-C-$03XZ-S0_.SA$
+M03P].C4U,"PZ-3$]-C%'0#I(03M!.C1".#-+0CU,0SY!.#%53D='0#A&03E'
+M1#TV,RY,2D=!03\^/SPS,S$Y.3DN+BXI*2DM+2TY.3DB(B(T-3,S,3(M+2TV
+M-C8U-34N,# Q,S(T-C8Q,3$N+RXZ.CHR,C(P,C$N,"\K,"PV.S4_1C\^2#XV
+M0#4]23T^2CP[1SDZ1S@S0#(X1#8[1CA 2CU 23XP.BXZ1#DX0C<[13H_23XO
+M.2T[1#DX0C8_1SPN-2L_1SP\1#DU/#(Z/S@A)Q\P,RXZ.S@T-3,Z.SD\/#HU
+M-3,Y.C<U-3,\/#HW.#4S,S$Q,B\O+RTU-C,X.C@Q,S T-3,[.SLV-C8T-#0S
+M,S,P,# S-C$V.30R-3 S-C$Q-"\J+2@L+RPZ/3HV-C8J*BI44E-"0$$Z-S8W
+M-#-%04 ].3@\.31.2T@_/#E)0T%#/3U"/CXX-#-%04(^.#@]-S<V,# [.3@V
+M,C)&0T),24A$0#\X-#,W,S)!/3PZ.#<Z.#<^/CPV-S0[.SDI*2<U-3,[/#D^
+M/#LX-C5 /CTS,3 O+RTK*RDZ.S@U-3,J*BHZ.CHQ,3$W-S<N+RPM+2TW-S<N
+M+RXP,# H*2A!04$P,"XO+R\_/S\L+2PP,# R,C(^/#PI)R@[.3HS,2X[.C9 
+M/3HS+RQ+1T0_/#E#/SQ,240].#0Y-#!'03T^.34Y-"]/2D8U+RM'0#M$/#E%
+M0#PX,C ^.CA!/3I"0#\U,S(T,S$[.SLR,C(^/CXH*"@]/3TY.3DF)B9%144Y
+M.3E 0$ O,"\O+R\Z.CHI*2D^/CXO+R\N+BXK*RLU-34W.#8N+RTP,S \/SPZ
+M/CLK,"H]1#XY03@_1SXR.S(Y0#@^13LZ0C=!23\R.3%/5DXR.C$Q."\_1CT[
+M0CM!2$$X/S@V.S8X/3<_1#TS.# ]03DU.3(T.#$X.S8[/CD[.SDY.3='1T5(
+M248Q,C [.SDR,C(W-S<[.SL^/SPT-#(X.#8Q,2]!0C\O,2XT-#)%14,P,"XN
+M+BXS,S,Y.3DT-#0X.C<E)R0P,B\\/SHR-3 N,2Q$1T(Z/3A%1D4O+R]&1$5(
+M1$,V,C%(1$- /#Q$03XN*BM"/C]!/3U#/SXV,B]'1$%#0#U$03XZ-C4Z-C4[
+M-S=#04 P+RTX-#,[-S=%1$ Y.#1+1T=$0T$N+"LU-#(X.38[.SDW-S4H*"8_
+M0#XX.3<V-C0O,"TK*RDU-3,V-C0Q,2\V-C0X.3<K*RD[.SDQ,2\U-C,O,2XK
+M+BLW.C<L+BTH*RHV.38[/CLU-S0U-C4\/3PW-S<S,S,Y.3DV-C8P,# [.SL[
+M.C@R,"\Y-S8V,C%%0D$V,C))145#0D Y,S,^.#@M*2A'0T,W-3-"0#\N*BE 
+M/#I%04!%04%'140_/3PR,S V-C0[.SD_/3PY.3E"0D(N+BY!04%%144]/3U 
+M0$ _0#\^/CXV-S9$1$0F)B9#0T,Q+S [.3HX-C8Z.#@_/3U/34Q&1$,U-3,[
+M/#D^0#XL+RPS-C$Z/SHV.S8W/#8L,2LQ-B\Z/S<V/#0Y/34M,"DY/38Z/C<K
+M+BDT-C$Q-"\]/SHS-S0_1$ N,2PT-S)(2T8\/SA)2D1-3D=!0#PV-3%!/3LU
+M,3!#/SY$0#\X-#,].SHU-34T-#0S-C4Z/3PY.SHR-#0J*BA"0D P,2\O,"TZ
+M.C@V-S0P,3 _0#\N+BXO,"\X.C<T-S0L+RPP,B\S-C,Z/#DX.#8S,S$Q+R\X
+M-C=/34Q#/SY#/S\Z-#1%/SU(0D Y-S9244]-2THS,S%*2DA#0T%!03]$1$(X
+M-C4W,S-,2$A#04 X-C4T,S$\.C@[.C@Y-S9"03\^/3LM*RDS,C!%04! /#LO
+M+2XZ.#D].SPO+2TO+RTS-#$V-C0]/3LL+"H[.SLU-34U-#8]/3\F)B8R,C(X
+M.#8V-S0Q,2\M+BLC(R,U-34P,# U-3,M+BLZ/#D\/CL_/ST]/3LM+BHX.#1#
+M0CXQ,"Q*2$<].SDJ*"=$0#](1$,\.#=)141&0D$Z.#@V-#0T,C-&1$4X.#A#
+M0T,U-3,Z.CA"0#]'140U-#)"0#X[.3@R,"Y-2TH[.3I&0D,O*RT\-SE(1$4]
+M.3I"/3] .SU&0D--2TP^/#TY-S5"0#\^/3M"0#]%0D$[-S<Y-C5"0#]+2DA&
+M1$4M+2M"0D!$1T(Y/#<Q-"]%2$,P,RXV.30\/CE 0SXR-3 P,RY$1T Y/#<Z
+M/3@_0CT\/CDY/#E,3DM*3$DV.38X.C<Z.CA 0#XQ,2](1D4[.3A+24@Q+RQ 
+M/SLS,BXX-S,_/3H[.38Y.C5!0CTN+BPR,C V-C0U-C-"0D U-34M,"\Y.SPH
+M*BDR,C(X.#@Y-S<[.3HU,S8]/#XT,S4V-C8V-C8T-#0^/CPV-C0O,"U34U$N
+M+"M#04!"0#]'0T(].3@U,3!%/S]&0$!&0$!&0D%134PY-C4X-#-(1$-.2DDZ
+M.#9+24HG)29#/T!#/3U!/T Z.#@\.CHY-3="0D X.#8^/CQ 03XZ.C@Y-S9"
+M0#XW-3,^/CXP,#!"0D(Q,3$W-S=#144[/3HH*R@V-3,R,S)$1$0L+"P_/S\M
+M+2TR,C(N+BPU-34\/#PN+BXY.3DV-C8B(R U-C,N+BPM+BD\/3DX.34Y.C8T
+M-# O+2HX-C,X-S-,2D@V-#,L*BDW-31"/CXT,"\W,S)"/SY"0T(Y.3D[.SM$
+M1$0K*RLU-C1"0T R-3(\.#A-2TI,2D@T,C-'145*2$DY-S@W-39$0$)&0D-&
+M0D,[-C@[-CA+14='04-&/T%&0D-&0D0Q+2Y*1D@U,S).3$I-2THV-#(R+BU*
+M1D5!/3U"0#]%1$(V-3,\.SD\.SE!03]45%)'1T4R,"Y)2$9"0#X\.CE!0#Y7
+M6%0P,2TX.35 /CU(1T4O+2Q(1T5)1T4U-35145$Y.3E /C] 0$!-34T[.SL^
+M/CY"0D L+"H_/STV-S0V-C0Y.3=!1$$^03XE)2,X.38\/#HS-#$W.#4P,"X\
+M/#HZ.C@E)24X.#@N+BXW-39%0T,J*"DX-C8U,S0X.#@]/3TS,S,R,C)#0T$Z
+M.C@S,3 _/3PN*RI&0D(Y-31-24@[-S8_.SI /#PV,#!-24A$0#\Y-C512TT^
+M.#I44%$L*"D[-S@[-34Z-#1(0$% /C\S,3(O+2XP+BX[.3@U,S(Y-S4_/STL
+M+2LW-S4Z.C@X.#8O,"TN+RU&1D0P,# T-30Y.3DR,C(Z.CHK*2H\.CHQ+S Z
+M.#DM+2TS,S,O,"\R,C(_/S\T-#0N+RXR,C(P,# P,# T-3(T-#(Q,B\I*2<_
+M/STZ.#8O+BPU,S%!/SXZ.3<V-C0Z.#8O+2P^/#L[.3@V,S)#/SY)140U,S0K
+M*2HY-S= /CPT,C$Z.#9"03\X.#9&1$,M*RDX-S534E Q+R\Q+S!"0$ _/3TZ
+M.#DL*BI#04(Z-CA /#T[.#=%04!'04$T,#!!/3Q!/3U$0#\].3D_/3Q-2TH[
+M.3<T,S%%0T$Y-30N*BE"/CTY-38U,3([-SHU,S1*2$D^/#U(1D8_/3U!/SX]
+M.3A'0T)&1$(X-C4^/3LT,"]"/CY /#M134P^.CDQ+S ].SP\.CM"0$ [.3I$
+M1$0Z.CHN,# X.CLX.CQ'1TE+2DPU-SDP,C,[/3XX.CPQ,2\X.38U-3,W-S4W
+M-S4M+2LU-3,X.3<R,C)"0D(K*RLP,# [.SLO+R]"0D(W-34@(1XT-#0O+R\Y
+M.3DS,S,N+BXZ.#@N+"T[-S=034Q+1T9&0D%'0T)(1$-'0T,Y-31545!.2DHR
+M+"Q#/3U .CQ&0$))0D1 .CQ%/S\O*2E&0$!(1D=#04(W-39&1$0].SI&14,[
+M.C@Y-S8Y-S9"0#XV-#) /CTP,2XY.3<\/#HM+BPN+RXV-C8\/#PN+BXW,S4Y
+M-SA /CX\.CHK*2DY.3DR,C(L+"PO+RU 0#XN+BXZ.CHZ.SHS,S,Y.3DZ.CHP
+M+3 ^/#U'148L*BHR,#% /C\].SM$0D-!03\X.#8W-C1&1$,K*2<[.3<U,3% 
+M/#LY-S= /C\^/#TW-30M*RH^/CQ"0T$]/3T[.3@R,2]!0#Y"0#\[.3<].SH^
+M/#M%04$S,3).3$U345(S,3(Y-S4Z.#<^/3LY-31%04 ^.CDR+BY%03X\.#9#
+M/SQ54U!-3$@Y.#9!0#Y$0D$U,S([-S9!/3XV,35'0T9"/T),2DTR+S(^/#PO
+M+2Y03DY&1$,R,"\W-34X-C=)1T<Y-39)141#/SY!.SL^.#@[.3I%0T1%0T1%
+M0T,\.CM#04([.SLS,S,[.3H\.CM/2TQ#/T$W,S4W-38T,C,K*2HO,2\\/SPM
+M+2T_/S\O+R\N+BX]/3TT-#0M,"T^03XJ+2PQ-#,U-S8S-34[.SL[.SLP,2XQ
+M,3$H*BH]0#\[/3TZ.CHV-C8X.#A(1$,S+RXZ-C5+1T8Y-30[-S="/CTT,"\V
+M,S),2$=+145'04%#/3U .CI*1$1&0$!(0D1"/#Y%/D!13U Z.#D\.SDX-C0Q
+M+2U*1D5+1T8_.SI&0D$W-30U,S(W-3,^/3LV-#)03DT_/CPP+BXS,3(W-39 
+M/CXP+B\Q+S O+2XX-C<[.3HZ.#DR,C(Q,2\T-3-!03\Y.3<I*2<V-C8]/3TW
+M-S<L+"PX.#@P,3 I*B<W.#4N+BP].SH].SDX-#-$1$(T-#(R,C(Q+S ].SL[
+M.3DX-C5$0T$Q+RX[.3@Z-C4Y-31 /#PX-S4\.CA+24@N+"P].SPW-38\.CM#
+M04%&1$4U,S0W-38Z.#D^/#U)1T<V-#0W-39#04) /C\T,3!$04 ^.CE(0D)$
+M/CX^.#A /#M$0#\U,S)-2TE!/STV-#-!/T!*1D<Q+2Y /#XV,C1'0D9(0T<I
+M)R=$0D,_/3TW-39%0T-!/T!*2$@R+B\\.#H\.#<^.SI#/SXT,#!134Q$0D(\
+M.CLT,C$V-#-'141$0D%!/3P[-S9"/#Q+145%04!-2DD_/3L[.CA"0#XU-C,T
+M-3,[/#D\/3HI*2DR,#$V-#4].SPP+BTJ*BH]/3TV-C8V-C9 /C\T,C,_/3XV
+M-#4U,S0W-34N+BXS,S,V-C0L*RDY-S8V-#-44$]&0T([-S8^.CDU,3 ^.CE$
+M/CY .SA#/3U43DX]-S=(0D(\-C9 .CQ*1D<[-SA#/T \.#HT+C!14E!$1$(G
+M)R5+2D@].3H\-SDZ-C<S+S R+RY /CTT,C!)1T8[.3@\.CA#04 W-3,S,3(L
+M+"PX.#A#0T,T,C,N+"T].SQ$0D,J*"@U,S0Z.CHU-3,P,"XR,C O,"XS,S$W
+M-S4T-3,T-#0Y.3E#0T,R,C(U-35%144X.#8K*2@U-#([.3@\/#PU-34T-30_
+M/3XZ.#@T,C,W-38[.3HW-30W-C0T,S$Q+2T].3D\.3@X-C1)2$8P+B]%0T0]
+M.SPN+"T\.CL[.3DS,3%%0T1%0$)"/3\Z-3=!/3Y#/T$X-#4\.#E$0$)#04$Z
+M-CA(1$8X-#4_.SQ /C\[.3DZ.#A"0#T\.S<V-3%#/SY)141"/CXW,S)(141(
+M1$4T,#$].3I'0T1#/T%'0T0^.CU.24U13T\Q+S Y-S=#/D!+1T8W,S(P+"LW
+M,S)#/S\V,C$].3@].3@Z-C8].3A"/SXT,"\R,"T]/#@^/3D]/#HP+RT_/3LY
+M.3<L+"HL+"HZ.SDW-S<J*BI"0T)#0T,X.#@X.#@P,#!(2$@L+"Q%0T,N+"PQ
+M+S ^/#TR,#$[.3H[.3H\.CLT,C,V-3,V,S))140V,C)(1D<Y-S= /CY134XR
+M+2]%/T%%/T$K)25'03]%0#TZ-#1*1$1'04%$/4 _.CQ'0D1+1DHJ)B=&0D-.
+M3$H_/3PK*2<[.3D\.#@Z-C5,2$<X-#0].3A!/SY /SU /CU!0#P[.C@U,S)'
+M14,P,"XR,C(P,# U-34V-S8R,# K*2HZ.#DV-#0Y.3DT-#0O+RTY.3D_/S\F
+M)B8M+2TP,#!%144M+2TN+BXG)R<J*BHR,C(R,C(M+BTQ,3%(1D0O+2PS,S$X
+M.#@T-#0[.3I'149!/T W-38\.CDK*RLS,3(X-C=!/3X^.CL[-S@H)"5"/C\Z
+M.#@_/3T^/#TM*RQ"0$$^/#PU,S,_/3U23DU /#LT,#!*1D5)140P+"Y /#Y5
+M4%) /CX\.CLV-#4W-38^/#TZ.#D\.CHV-#4]/#I#0D! /SU%0T% /C\S,3([
+M.3HP+B\X-C<U,S0W-3903$U /#U#/T [-S@^.CQ54U,[.3HY-S<W-34V-#4[
+M-S@F(B1#/T!%04(\.#E#/D!"/C] /#X[-SDU,C4W-#<[.3<_/3LN+"HZ.3=*
+M2$="0#\Y-S8U,S(N+RPO+RTX.#@S,S-$1$0N+BXT-30S,S,W-30X-C4Q+RU!
+M0#XP+BTW-3,[.3@[.3@Y-S@T,C(P+BY%0$(^.CDY-35+1T8\.#=#0T%!0C\U
+M,S0^/#PO*RQ43E!(041"/#Y"/#Y/24L\-CA&0$)".SXY,S5-24HV,C,Y-C52
+M3$Q+144_/3Q'0T)'0T1 .CP].38S,"T\.#4Y-C-#0#TT,C%"0#XU,S)'14)0
+M3TLX-S4Y-S8_/ST[.SDO+R\]/3T[.SLR,C(].SLY-S@U-34V-C8Q,3$P,"XV
+M-C8Z.CHW-S<O+R\V-C8Z.CHT-#0\/#PT-#0T-#0Y/#LQ,3$U-34Y.3DV-#4U
+M,S0L+"H[.SDW.#4M*RP^/#PW-3,M*RE"0#XP,3 _/3U(1T4S+RY#/SXY-34R
+M+BU /#Q!/STP+BU /CU!0#Y"0#\Z.3<T,C V-3-'140X-S4\.SE$0#\\.#@X
+M-#1*1DA%04)#/T!!/3XY-S= /C\N+"U /C]13U! /CX[.3<_/3T_/3U"0$$]
+M.CU%0T9!/D,].C\U-34Q,3$[.3I!/T P*RU /CQ%0T(].SH].3H^.CQ!/T! 
+M/C]"0$ U,S0U,S,^.CL\.C@\.SE#/SY!/3PX-#4_.SP_/3XW-38[.SU)1THP
+M+B\X-C<V-#4R,2\L*"=!/3PQ,"XT,S%$0D$U,S,W-38S,S,D)"(^/CP\.CDV
+M-#,L*B@T,C$V-3,N+"HR,C P,"XS,3)!/T ].SPR+2\V,C$W-30Q,"XV-#(]
+M/CM#03]#04!$0D$S+RXV,C- /#XZ-#8R+"P\-C9$/CY$/CY .CHP*BI+1T0Y
+M-C,Y-C-,249*1D,X-C4O+2M /CTT,C$V-#-!/ST^/#H].SHY.#8[.CA"0#XT
+M,C!%0T%,2D@_/3PW-C0V-C8X.3@O,"\T-#0O+R\S-#-"0D W-30T,C$Y.3<N
+M+BPT-#0G*B<]/3LY.3<Q,2\S,S$]/3LF)B0\/#HJ+"PP,S(N,"\M+RXP,#!#
+M0T,N+BXR,C(Y-S8V-#(S-#$\/#HV.38V.#4^0#TU-S0W-30^/#HU,S$S,3!)
+M1T0X-C,V-#%!/SP^/#LS,3!(1D4S,2\M+"I&1$,W-3-$0D ].3DX,S4N*BLO
+M*RT^.CPM*2A"/SY-24@T,#(S+S!$0$%"/C\[-S8].SDO+BPZ.#=!/SXP+B\V
+M-#5%0T,O+2XP+B]$0D(Y-38S-#,I*2E$1$1$0D(Q+S X-C9 /CXZ.#@U,S1+
+M24I+24I!/S]+24@S,C _/CPT,C$^/#I$0D Y-30U,#)(1$5!/S\^/#PX.#A 
+M0$ U-34S,S,U,S,N+"M!/STQ+RX[.C@W-C _/CI"03TV-#$W-30U-#(T,C!!
+M/STO+2TV-#0X-C8[.3DO*RP_/3T^/#TX-S5%14,Y.3<U-C,O+RTZ.CA*2$8L
+M*BD\.CE 0#XW-S4\/3M,2DDK*2@].SI)140Y-30V+BY$/CY .CI)140X-#15
+M45!?6UI#0#\Y-C,^.SA134HW-C(]/#@^/#DX-S,\.CA!0#X[.3<L*BA%1$(N
+M+2L^/#LS,C!.2DL_.SP_/3TY-S@[.SLY.3DZ.CH^0#\\/#HL+"HW-30Q+RTN
+M+"LV-3,X.#@[.SLS-C$T-3$Y.3<S,S$U-3,Y.3<R,RXV-S(Q-#$T-S0U-3,[
+M.SDT-#(S,S$S,S$P,2X\.C@O,"TG)R4X.#8L+"HY.C<W.#4P,"X].SI#04 Y
+M-S8_/CPP+BTX-C4T,C$M+2LW.#8[.SDT,S$U,S(O+BQ)1T4U,3! /#LX,S5%
+M0$) .ST].3I#/D ].3@\.3@_.SH\.#@X-#1/34P_/CPU,S$_/CPN+2LX-S4\
+M.CL\.CLZ.#@V-#0[-SDU,C% /#M"/CTT-#(^/CY%144X.#@V-C8_/3XW-38W
+M-34[.3H_.SPR+B\Z-C=#0#]%04 [-S8W-31 /C\Y-S@[.3DV-#4P+BY!/T \
+M.CLS,S,V-S0Z.S@L+"I$14(S,S$X.38\/#HQ,2\[.C0X-S(G)B) /CLP+BU$
+M0D$W-34X-C8X.#@X.3@T-#0].SL[.3HJ*"@Y-39%04 V-#,P,2XZ.C@S,S-)
+M24E&2$<H*BD\/C\^/CQ 0#Y!03\X-S4U,S)+24A)145 /#LW,S)%04!!/3P^
+M.CH].3A+145&0$!-1T<S+RQ03$I+2$,R,C ^/#LZ.#<U-#)"0T \/#HS,S$X
+M-C0Z.#<U,S)!/SXR,"Y#04)(1D8\.CI*2$DO+R\P,# U-34_/S\W-S4Z.SD\
+M/3HX.#8T-#(U-C0G*"8Y.3D_0CTO+RLK*R=!03\L+"HP,"PR,RX^/SLR,C P
+M,"XQ,C U-3,]/3LR,C! 03XH*28W-S4]/CLV-C0R,"XR,"\X.3= 03\T-3(R
+M,#$Z.#D].SL\.CHU,S$Z.#<X.3<N+RPZ.C@X.39 0#XW-S4Q,"XZ.#9&14,S
+M,3!#04 W-3-*2$<_/3PV-3$\.S<[.3@].SI$0S\Y-S8].SE"0#\_/3PW-C1"
+M0#\V-#,[.3I&1$4Y-S8T,C$\.CE!/3PW,S)'0T)(1T4Q+RX_/3Y-2TPZ.#DW
+M-38V-C8T-#0Z.#E!/3Y"/D U,3-,2$=$0#\T,#!*2$8Y.3<L+2H^/ST[.SDX
+M-C8^/#TV-#4[.3H\.CLT,S$Q,"XY.#8O+RTV-S0[.SDP,2\Y-S4\.SDP+RT[
+M.C@[.3E#04(G)28Q+S R-30N,"\O+R\J*RHV-#0T,C),1TE"/CT\.CLY-SA"
+M0$! 0$ V-C8Z.3LP,C0Z/#TP,# X.3A'149%0T,X-C<Y-S9"0#XW-31)1T=%
+M04-#/T Y-39-1TE*1$9"/C]"/D ].38X-#%03$DV-C8]/3U!/S\V-#4T-#(X
+M.#8Y.C=%1D,].SHY-S8N+"LX-C5"0S] 0#X[.SE$0T$V-#(S,3$S,3(^/#P\
+M/#PT-#0Y.SLX.S@X.SA 0T Y.3<R,S(\/CLT-3(J*RA%1D0E)2,S-#$^/STJ
+M*B@P,2\R,C!%14,W.#4N+BP]/CLS,S$U,S$F)B0L+2H^/#LN+2LW-30M*RE&
+M1T0O,"XQ,3$Q,3$O+R\^/CXY-S@V-#0V-#,V-#- 0$ T-#0V-C9"0D(V-#4^
+M/#PY-S@N+"TY.3LN+BY&1D9#0T$R,S W.#8I*2DX.#A65%,X-S4T,C$L*BD]
+M.SD\.CDW-31 /CY!0#XV-3,Q+RY#04!)1T9!/SXU,S1"0$$].3H].3HX-#5"
+M/D K*B@]/#HX-S4].SHQ+R\\.CI&1$0O+2Y%0T)*24<L*RD_/3P[/#="0SXP
+M,"PP,2XQ,2]"0T \.CL[.3E#04(T,C,U,S1 /CXZ.#DS,2\Q+RXY.C<X.#8K
+M*RDZ.S@W-S4N+BPT-#(R,S U-C(X.SH[/CTU-S8]/3TP,# ^/#PZ-C= .CH\
+M.CTZ.#LW-#=#04-$0D)44E,^/#T\/#P[.3LO+3 R+S))1T@U,S,Y-S=$0D,[
+M.CA-24A#/S]!/3PV,C%'1$--24DJ)B5.2THT,"\P+"M9550X-S4^/#H[.C@X
+M-C4T,C!#04 V-#(_/3Q#03\[.3<Y-S8Z.#<[.SDY-S8S,C R,2\_/3M&1$(H
+M*"8W-S4^/CPI*B@Y.3<Q,2\S,S%!03\J*R@V-S4Z.S@[.SD]/CLG)R4N+RPW
+M.#4_/STV-C0U-3,U-C0Y.3<P,3 R,C)$1$0F)B8P,# P,3 [.SLM+2TH*"@R
+M,C(X-S5(1D4Z.3<B(B(R,C(_/S\X.#@Z.CH[.3DX-C4\.CDR,#$Y.3DY.3DU
+M-34X.#@L+"PU-34V-#0[.3HV-#-"0#]$0D! /CU13TXU,S)"0#]$0#]"/CU 
+M/SLU,S _/CI /3HU,B]-24@U,3)"/C\].3HV-#5!/T _/3XS,3!#/SXY-3<V
+M,C-&04-$/T$W,S4_/3X[.3E!04%"0#\U-#)'14,M*RQ$0D,U,S0T,C-'149&
+M1$0[.3H_/3U /C\M*RM'144].SPR,# ^/#TY-S@S,3(W-38X-C<X-C<L*BM!
+M/T N+BQ%1D,P,2XT-#(\.SD[.3A!0#XZ.#<O+2X[.3E#0T,V-C8W-S<]/3T^
+M/#U!/S\_/3X].SQ*2$DR,"Y)1T944E%/34PZ.#=-2TP].SLZ.#E'148H)R5(
+M1D4X-#-64E$V,C-)1TA%0T,J*"E)1T= /C\].SM"0$$X-C8W-C1(1$0 "P$ 
+M  ,    ! *<   $!  ,    ! %@   $"  ,    #  "LR@$#  ,    !  $ 
+M  $&  ,    !  (   $1  0    !    " $2  ,    !  $   $5  ,    !
+M  ,   $6  0    !    6 $7  0    !  "L. $<  ,    !  $         
+%"  (  @6
+ 
+end
+
+From walts@federal.unisys.com  Fri Dec 15 09:03:36 1995
+Return-Path: <walts@federal.unisys.com>
+Received: from www.han.federal.unisys.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17832; Fri, 15 Dec 95 09:03:36 EST
+Received: from homer.MCLN.Federal.Unisys.COM by www.han.federal.unisys.com (8.6.12/mls/8.0) 
+	id JAA12981; Fri, 15 Dec 1995 09:03:34 -0500
+Received: from h3-91.MCLN.Federal.Unisys.COM by homer.MCLN.Federal.Unisys.COM (8.6.12/mls/4.1) 
+	id JAA12350; Fri, 15 Dec 1995 09:05:55 -0500
+Message-Id: <199512151405.JAA12350@homer.MCLN.Federal.Unisys.COM>
+Date: Fri, 15 Dec 95 09:05:31 -0800
+From: "Walter P. Smith" <walts@federal.unisys.com>
+Organization: Installation Services
+X-Mailer: Mozilla 1.22 (Windows; I; 16bit)
+Mime-Version: 1.0
+To: Cube-Lovers@ai.mit.edu
+Subject: Million dollar cube
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=us-ascii
+
+I hope all cube lovers saw the picture and article in USA Today 
+newspaper on Wednesday, December 13 in the "Life" section.  It 
+reads as follows:
+
+"PRICEY PUZZLE:  Looks like diamonds are a toy's best friend.  
+And rubies, sapphires and amethysts, too, in the ultimate 
+Rubik's Cube.  To celebrate the 15th anniversary of the brain 
+teaser, Diamond Cutters International created an 18-karat gold, 
+jewel-encrusted, one-of-a-kind puzzle that'll set you back $1 
+million.  Currently on display at DCI's Houston headquarters, the 
+fully working replica will hit the road for a European tour 
+starting Jan. 20 in London.  And if you buy the cube and can't 
+solve it, creator Erno Rubik, who lives in Hungary, will come to 
+your home to help out."
+
+
+It looks like each white cubie has 25 diamonds on it.  The other 
+colors are make from different encrusted stones.  It's hard to 
+tell how big it is.  If I could afford it, I would buy it and lie 
+by saying I can't solve it so I could get a visit from Rubik.  
+Watch for tour info.
+
+
+
+From nichael@sover.net  Fri Dec 15 09:30:19 1995
+Return-Path: <nichael@sover.net>
+Received: from maple.sover.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA19435; Fri, 15 Dec 95 09:30:19 EST
+Received: from [204.71.18.82] (st32.bratt.sover.net [204.71.18.82]) by maple.sover.net (8.6.12/8.6.12) with SMTP id JAA02760; Fri, 15 Dec 1995 09:29:57 -0500
+Message-Id: <v02120d04acf726db1fd4@[204.71.18.82]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 15 Dec 1995 09:37:19 -0400
+To: Andy Kinsman 66672 <kinsman@ycc.kodak.com>, cube-lovers@ai.mit.edu
+From: nichael@sover.net (Nichael Lynn Cramer)
+Subject: Re: Twist Torus [small picture]
+
+At 8:50 AM 15/12/95, Andy Kinsman 66672 wrote:
+>Since I have both the puzzle in hand and a camera attached to
+>my computer... here is a picture of the torus puzzle, slightly
+>missaligned for effect.
+
+Sigh...
+
+Please don't mail stuff like this to a list.  If you want to distribute it,
+fine; I'm sure there are people who are glad to have it.  In that case
+either set up an FTP site or --lacking that-- post an
+announcement/invitation and let those who want things like this send you
+mail and then you can post to them directly.  But the last thing most of us
+need on a dreary friday morning is another 50k bit-bomb in our mailbox.
+
+
+Nichael                          "... and they opened their thesaurus
+nichael@sover.net                      and brought forth gold,
+http://www.sover.net/~nichael        and frankincense and myrrh."
+
+
+
+From JBRYAN@pstcc.cc.tn.us  Fri Dec 15 10:11:03 1995
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from PSTCC4.PSTCC.CC.TN.US by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21526; Fri, 15 Dec 95 10:11:03 EST
+Resent-From: JBRYAN@pstcc.cc.tn.us
+Resent-Message-Id: <9512151511.AA21526@life.ai.mit.edu>
+Received: from pstcc.cc.tn.us by pstcc.cc.tn.us (PMDF V5.0-3 #11457)
+ id <01HYTZJZ3HTS8WXQQP@pstcc.cc.tn.us> for cube-lovers@ai.mit.edu; Fri,
+ 15 Dec 1995 10:12:29 -0400 (EDT)
+Resent-Date: Fri, 15 Dec 1995 10:12:29 -0400 (EDT)
+Date: Fri, 15 Dec 1995 10:12:27 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Million dollar cube
+In-Reply-To: <199512151405.JAA12350@homer.MCLN.Federal.Unisys.COM>
+Sender: JBRYAN@pstcc.cc.tn.us
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.951215100929.539051425F-100000@pstcc.cc.tn.us>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+On Fri, 15 Dec 1995, Walter P. Smith wrote:
+
+> .....          To celebrate the 15th anniversary of the brain 
+> teaser, .....
+
+That would make it 1980.  Is that right?  I think Cube-Lovers started in
+1980, but I have just been reading some early stuff from Singmaster dated
+1978 and 1979. 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =          
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us                      
+
+
+From boland@sci.kun.nl  Fri Dec 15 19:22:07 1995
+Return-Path: <boland@sci.kun.nl>
+Received: from wn1.sci.kun.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27092; Fri, 15 Dec 95 19:22:07 EST
+Received: from canteclaer.sci.kun.nl by wn1.sci.kun.nl via canteclaer.sci.kun.nl [131.174.132.34] with SMTP 
+	id BAA23861 (8.6.10/2.14) for <cube-lovers@ai.mit.edu>; Sat, 16 Dec 1995 01:22:06 +0100
+Message-Id: <199512160022.BAA23861@wn1.sci.kun.nl>
+To: cube-lovers@ai.mit.edu
+Subject: Some notes on the antislice group.
+Date: Sat, 16 Dec 95 01:22:05 +0100
+From: Michiel Boland <boland@sci.kun.nl>
+
+This is something for the holidays.
+I hope someone finds it interesting :)
+
+Some notes on the antislice group.
+
+Notations: Ua = UD, U2a = U2D2, U'a = U'D', Ra = RL, Fa = FB, etc
+
+Consider the three `slices' of edge cubicles (one slice
+containing UR, RD, DL, LU, another containing UF, FD, DB and BU,
+and another containing FR, RB, BL, LB).
+
+Any operation in the antislice group (the subgroup of G
+generated by Ua, Ra and Fa) will map each slice to another
+slice. Also, if we restrict ourselves to antislice movements, we
+can define an orientation for each slice (choose a fixed cubie
+in each slice and define the orientation of the slice to be the
+orientation of that cubie).
+
+A fairly obvious subgroup of the antislice group is the one in
+which all three slices are in their original position *and* are
+oriented correctly. I have been giving this subgroup, which is
+in fact a normal subgroup of the antislice group, some study.
+
+To make speaking a little bit easier, I will use the letter T
+for this group (don't ask me why :)
+
+If one takes a cube in position START, and applies an operation
+in T to it, one finds that, if one looks at a face, each facelet
+has either the colour of that face's center, or the colour of
+the opposite face's center. Therefore, the patterns generated by
+movements in T can be deemed `pretty'.
+
+Some patterns that can be generated from transformations in T
+are the Pons Asinorum (U2a R2a F2a), 4 Plusses (Ua Ra U2a Ra Ua F2a),
+and 6xH (Ua Ra U2a F2a Ra U'a).
+A pattern that cannot be generated from T-movements is the
+four-dot pattern (I'm just stating this as a fact; I still
+haven't got a proof for it.)
+
+The group T contains 256 elements. It is isomorphic to C_2^8
+(the cartesian product of eight copies of C_2). Hence, each
+element of T is its own inverse.
+
+The group T is generated by the following elements:
+
+	U2a
+	R2a
+	F2a
+	Fa U2a F'a
+	Ua R2a U'a
+	Ra F2a R'a
+	Ua Ra Ua Ra Ua Ra
+	Ra Fa Ra Fa Ra Fa
+
+Note that  Fa Ua Fa Ua Fa Ua  =  Ua Ra Ua Ra Ua Ra  Ra Fa Ra Fa Ra Fa
+
+There are two obvious metrics on the antislice group (and on T):
+the `quarter' turn and the `half' turn metric.
+
+It takes at most four `quarter' anti-slice turns to get from any
+position in the antislice group to a pattern in T (Ua Ra Fa Ua
+is a maximal case in this respect.)
+
+If one groups the members of T by their lengths in either metric
+one gets some interesting results.
+
+            length in quarter-turn metric
+                0    2    4    6    8
+             +---------------------------+
+           0 |  1                        |   1
+           1 |       3                   |   3
+length in  2 |            3              |   3
+half-turn  3 |           12    1         |  13
+metric     4 |                18         |  18
+           5 |                15         |  15
+           6 |               192   11    | 203
+             +---------------------------+
+                1    3   15  226   11      256
+
+The eight elements on the `diagonal' form a subgroup of T
+(generated by U2a, R2a and F2a).
+
+If one excludes the 192 elements from row 6 column 6, one also
+gets a subgroup of T with 64 elements (generated by the three
+elements mentioned above, and FaU2aF'a, UaR2aU'a, and RaF2aR'a).
+
+Each of the 192 elements in the 6th row, 6th column can be
+uniquely written in the form
+
+ X Ya Xb Yc Xd Ye
+
+where X and Y are either Ua, Ra or Fa, X and Y are different,
+and a,b,c,d,e are either 1 or -1 (these are meant to be
+exponents).  (examples: Ua Ra Ua Ra Ua Ra, Ua R'a Ua Ra U'a Ra)
+
+The 11 elements in row 6 column 8 are:
+
+  Ua Ra U2a F2a Ra U'a     (6xH)
+  Ua Fa U2a R2a Fa U'a     ( ' )
+  Ua Ra U2a Ra Ua F2a      (4x+)
+  Ra Fa R2a Fa Ra U2a      ( ' )
+  Fa Ua F2a Ua Fa R2a      ( ' )
+  Ua Ra U2a F2a Ra Ua      (2xH, 2xDot, 2x+)
+  Ua Fa U2a R2a Fa Ua      ( '    '      ' )
+  Ra Fa R2a U2a Fa Ra      ( '    '      ' )
+  Ra Ua R2a F2a Ua Ra      ( '    '      ' )
+  Fa Ua F2a R2a Ua Fa      ( '    '      ' )
+  Fa Ra F2a U2a Ra Fa      ( '    '      ' )
+-- 
+Michiel Boland <boland@sci.kun.nl>
+University of Nijmegen
+The Netherlands
+
+From dzander@dazzle.sol.net  Sat Dec 16 13:36:18 1995
+Return-Path: <dzander@dazzle.sol.net>
+Received: from anacreon.sol.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03589; Sat, 16 Dec 95 13:36:18 EST
+Received: from solaria.sol.net (solaria.sol.net [206.55.65.75]) by anacreon.sol.net (8.6.12/8.6.12) with ESMTP id MAA12559 for <Cube-Lovers@ai.mit.edu>; Sat, 16 Dec 1995 12:36:01 -0600
+Received: from dazzle.sol.net by solaria.sol.net (8.5/8.5) with UUCP
+	id MAA06575; Sat, 16 Dec 1995 12:35:29 -0600
+Received: by dazzle.sol.net (Rodney's UUCP modules 02/11/90 V1.18)
+	id <dx32038744@dazzle.sol.net>; Sat Dec 16 12:32:54 1995
+From: dzander@dazzle.sol.net (Douglas Zander)
+Message-Id: <H.ekBL.jS2P_4E8vJw@dazzle.sol.net>
+Organization: The DAZzleman Empire
+Subject: Re: WrisTwist
+To: Cube-Lovers@ai.mit.edu
+Reply-To: dzander@dazzle.sol.net
+X-Software: HERMES GUS 1.14.37 Rev. 16 Apr 1994
+Date: Sat, 16 Dec 1995 07:13:20 CST
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+In <199512151340.IAA12161@homer.MCLN.Federal.Unisys.COM>, "Walter P. Smith" writes:
+>I received the following mail from KINSMAN.  I did not reply to 
+>him or make note of his address.  I am retyping his note to get 
+>comment from others.  He is refering to the WrisTwist puzzle.
+>
+>
+>I have just such a puzzle too.  It came from my local toy store. 
+> I also have a digital camera sitting next to me.  Should I bring 
+>mine in and post a low resolution copy in GIF format to the 
+>group?  -AAK
+>
+>
+>Does anyone want him to do this? 
+>
+>Walter P. Smith
+>walts@federal.unisys.com
+>
+
+I don't think he should post it to the mailing list but yes, I'd like to
+recieve a GIF format picture.  Does he have an ftp site, or www site that
+allows lynx download, or could he send it directly to me?
+-- 
+Douglas Zander          | Editor of GAMES Player's Zine.
+dzander@dazzle.sol.net  | An e-zine for subscribers of GAMES Magazine (tm).
+
+From hoey@aic.nrl.navy.mil  Sun Dec 17 02:41:05 1995
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02259; Sun, 17 Dec 95 02:41:05 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA24181; Sun, 17 Dec 95 02:41:02 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Sun, 17 Dec 95 02:41:02 EST
+Date: Sun, 17 Dec 95 02:41:02 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9512170741.AA27424@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu, rusin@washington.math.niu.edu (Dave Rusin)
+Newsgroups: sci.math
+Subject: Presenting Rubik's Cube
+References: <mschoene.817657981@astoria> <1995Nov29.054118.9651@cs.rit.edu> <9511291210.Hoey@aic.nrl.navy.mil> <49ihhd$j20@muir.math.niu.edu>
+
+A few weeks ago I mentioned the old problem of finding a presentation
+of the Rubik's cube group in terms of the usual generators.  This was
+posed by Singmaster over 15 years ago, and as far as I know has never
+been addressed.  I've made some progress.
+
+I work using a specially selected set of generators, rather than the
+usual generators given for the cube.  First I give presentations
+separately for the permutation groups of the corners and edges, and
+the orientation groups of the corners and edges.  Then I join the
+permutation groups with their respective orientation groups to form
+the wreath groups, which describe the possible motions of the
+respective piece types.  I join the two wreath groups in such a way
+that the permutation parity of the two is equal.  Finally, I discuss a
+method of converting to the usual generators.
+
+In Coxeter and Moser's _Generators and Relations for Discrete Groups,
+2nd ed_ I found Coxeter's presentation 6.271 for the symmetric group
+on {1,2,...,n}, n even.  With a modest change of variables, his
+presentation is on generators
+    v=(1 2) and s=(2 3 ... n)                                ((1))
+and relators
+    v^2,
+    v s^(n-2) (v s^-1)^(n-1),
+    (s^-1 v s v)^3, and
+    ((s^-1 v)^i (s v)^i)^2,            i=2,...,n/2-1.        ((2))
+Here n will be 8 or 12 to present the group of the permutations of
+corners or edges, respectively.
+
+The orientation group of the corners (or edges) is the direct product
+of n-1 cyclic groups, which can be presented with generators
+         r_0=(1)+(2)-
+         r_1=(1)+(3)-, ...,
+     r_(n-2)=(1)+(n)-,      ((3))
+where (k)+ indicates a reorientation of piece k in place and (k)-
+indicates the inverse reorientation.  The relators here are
+     r_i^d,            (d=3 (corners) or 2 (edges)), and
+     r_i r_j r_i^-1 r_j^-1,            0 <= i < j <= n-2.     ((4))
+
+I generate the wreath group with the union of the generators ((1,3)).
+The added relators
+     v r_0 v r_0
+     v r_i v r_0 r_i                   i=1,...,n-2,
+     s^-1 r_i s^i r_(i+1)^-1           i=0,...,n-3, and
+     s^-1 r_(n-2) s^i r_0^-1                                 ((5))
+will permit moving the r_i to the end of a word, after which the
+previous relators ((2)) and ((4)) may be used to manipulate the parts
+separately, just as a Rubik's cube solvers can perform any needed
+permutations before reorientations.
+
+In the wreath group, the r_i are conjugate to each other.  The third
+line of ((5)) may be used to define r_k = s^-k r_0 s^k, so I eliminate
+r_1,...,r_(n-1) and write r_0 as r.  The last line of ((5)) is then a
+consequence of s^(n-1)=e, which is implied by ((2)), according to
+Coxeter.  The conjugacy also lets me rewrite ((4)) as
+     r^d,            (d=3 (corners) or 2 (edges)), and
+     s^-j r s^j r' s^-j r' s^j r,      j=1,...,(n-2)/2.      ((6))
+
+As the discussion turns to working with corners and edges together, I
+write cs,cr and es,er for the respective generators.  I use a single
+generator v that acts on both corners and edges, to ensure that the
+corner permutation has the same parity as the edge permutation.  Since
+any identity in {v,cs,cr} must use an even number of v's, the identity
+will hold in the when the v operates on edges as well; similarly for
+{v,es,er} operating on the corners.
+
+To present the whole cube group, I use all five generators, relators
+((2,5,6)) for both corners and edges, and new relators
+    es cs es' cs', er cs er cs', es cr es' cr', er cr er cr'
+to make the two kinds of generators commute, so they may be separated
+in a word.  According to GAP, the complete set of relators is
+    er^2,
+    v^2,
+    cr^3,
+    er cr er cr^-1,
+    er cs er cs^-1,
+    es cr es^-1 cr^-1,
+    es cs es^-1 cs^-1,
+    (v cr)^2,
+    (v er)^2,
+    cr cs cr cs^-1 cr^-1 cs cr^-1 cs^-1,
+    (er es er es^-1)^2,
+    cs cr^-1 cs^-1 v cs cr cs^-1 v cr,
+    cs^-1 cr^-1 cs v cs^-1 cr cs v cr,
+    (es er es^-1 v)^2 er,
+    (es^-1 er es v)^2 er,
+    cr cs^2 cr cs^-2 cr^-1 cs^2 cr^-1 cs^-2,
+    (cs^-1 v cs v)^3,
+    (er es^2 er es^-2)^2,
+    (es^-1 v es v)^3,
+    cr^-1 cs^-2 v cs^2 cr cs^-2 v cr cs^2,
+    cr^-1 cs^2 v cs^-2 cr cs^2 v cr cs^-2,
+    er es^-2 v es^2 er es^-2 v er es^2,
+    er es^2 v es^-2 er es^2 v er es^-2,
+    cr cs^3 cr cs^-3 cr^-1 cs^3 cr^-1 cs^-3,
+    ((cs^-1 v)^2 (cs v)^2)^2,
+    (er es^3 er es^-3)^2,
+    ((es^-1 v)^2 (es v)^2)^2,
+    cs^-3 v cs^3 cr cs^-3 v cr cs^3 cr^-1,
+    cs^3 v cs^-3 cr cs^3 v cr cs^-3 cr^-1,
+    (es^3 er es^-3 v)^2 er,
+    (es^-3 er es^3 v)^2 er,
+    (cs^-2 v cs^-1 v cs v cs^2 v)^2,
+    (es^-2 v es^-1 v es v es^2 v)^2,
+    (er es^4 er es^-4)^2,
+    (es^-4 er es^4 v)^2 er,
+    (es^4 er es^-4 v)^2 er,
+    v cs^6 (v cs^-1)^7,
+    (es^-3 v es^-1 v es v es^3 v)^2,
+    (er es^5 er es^-5)^2,
+    (es^5 er es^-5 v)^2 er,
+    (es^-5 er es^5 v)^2 er,
+    (es^4 v es^-4 v es^-1 v es v)^2,
+    v es^10 (v es^-1)^11,                                     ((7))
+which has 43 relators of total length 597.  It is apparently beyond
+GAP's ability to verify that these relators present the cube group,
+though I have verified some smaller wreath groups.
+
+This presentation is of course in terms of generators {v,es,er,cs,cr},
+not the generators {F,B,L,R,T,D} natural to the cube. But they can be
+translated as follows.  Each quarter-turn Q can be expressed as a word
+w(Q) over {v,es,er,cs,cr}, and adding the relators
+
+    F' w(F), B' w(B), L' w(L), R' w(R), T' w(T), D' w(D)     ((8))
+
+will create a presentation on eleven generators
+{v,es,er,cs,cr,F,B,L,R,T,D}.  I estimate that the added relators will
+be under 70 letters each, and probably less.  If it is desired to
+completely eliminate {v,es,er,cs,cr}, that may be done by replacing
+each of {v,es,er,cs,cr} with processes in terms of F,B,L,R,T,D,
+throughout ((7,8)).  My understanding of the current state of the
+software is that the processes will probably be less than 30
+quarter-turns each.  This would yield a presentation of 49 relators
+and perhaps 2000 letters.  It should be possible to improve this quite
+a bit.  I would suggest:
+
+    1. Choosing the corner and edge numbering to reduce the
+           rewriting blowup,
+    2. Allowing w(Q) to use previously-related Q's as well as
+           {v,es,er,cs,cr}.
+    3. Adding new relators to abbreviate higher powers, especially
+           of es and cs, in the presentation.
+    4. Introducing short relators such as F^4=FBF'B'=e to cut down on
+           the general verbosity of the relators.
+
+But improvement to the level of actual comprehensibility may require
+new ideas.  Perhaps Dave Rusin's "clearer statement" of the question
+may help, if I can figure out what it means.
+
+Dan                                        posted and e-mailed
+Hoey@AIC.NRL.Navy.Mil
+
+From hoey@aic.nrl.navy.mil  Sun Dec 17 02:47:48 1995
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02363; Sun, 17 Dec 95 02:47:48 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA24215; Sun, 17 Dec 95 02:47:47 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Sun, 17 Dec 95 02:47:46 EST
+Date: Sun, 17 Dec 95 02:47:46 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9512170747.AA27428@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: Presenting Rubik's Cube
+
+For the benefit of Cube-Lovers, here is rusin@washington.math.niu.edu
+(Dave Rusin)'s remark on finding a presentation of Rubik's cube.
+
+  You have a group  Rubik  generated by the 6 90-degree rotations  g_i.
+  Let  F  be the free group on 6 generators  x_i and  f: F --> Rubik the
+  obvious homomorphism. There is a big kernel  N  of  f. (It is actually a
+  free group: subgroups of free groups are free). You wish to find the
+  smallest (free) subgroup  K  of  N  such that  N  is the normal closure
+  of  K  in  F. (When you give a presentation of  Rubik  in the form
+          Rubik = <g_1, ..., g_6 | word_1=1, word_2=1, ...>,
+  you are implicitly describing  K  as the subgroup of  F  generated by the
+  corresponding words in the   x_i.)
+          To give this process at least a chance of success, you abelianize it:
+  Let  N_ab  be the free abelian group  N/[N,N], so that there is a natural
+  map from  N  into  N_ab. Since  N  is normal in  F  and  [N,N]  is 
+  characteristic in  N, the action of  F  by conjugation on  N  lifts to an
+  action of  F  on  N_ab; even better, the subgroup  N < F  acts trivially on
+  N_ab, so that  F/N  (i.e., the Rubik group itself) acts on  N_ab.
+  We think of  N_ab  as a  Rubik-module (or better, as a  Z[Rubik]-module).
+  The subgroup  K < N  also maps to a subgroup K[N,N]/[N,N]  of  N_ab;
+  significantly,  N  is the F-closure of  K  iff  N=[K,F]K so that N_ab
+  is generated as a  Z[Rubik]-module by  F.
+          Thus, the question of what constitutes a minimal set of
+  relations is the same as asking for the number of generators needed for
+  a certain  Rubik-module. (Of course, while you're at it, you might as well
+  ask for a whole presentation or resolution of the Rubik-module. Inevitably,
+  you will be led to questions of group cohomology.)
+
+He also included GAP's help file on the cube, which I think has been
+posted here already.
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+
+From hoey@aic.nrl.navy.mil  Sun Dec 17 03:12:40 1995
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02757; Sun, 17 Dec 95 03:12:40 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA24330; Sun, 17 Dec 95 03:12:31 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Sun, 17 Dec 95 03:12:30 EST
+Date: Sun, 17 Dec 95 03:12:30 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9512170812.AA27433@sun13.aic.nrl.navy.mil>
+To: Jerry Bryan <jbryan@pstcc.cc.tn.us>, Cube-Lovers <cube-lovers@ai.mit.edu>
+Subject: Re: Million dollar cube
+
+Jerry Bryan wonders about the 15th anniversary celebration:
+
+> That would make it 1980.  Is that right?  I think Cube-Lovers started in
+> 1980, but I have just been reading some early stuff from Singmaster dated
+> 1978 and 1979. 
+
+In _Rubik's Cubic Compendium_, Erno Rubik remarks that his major
+insight occurred in 1974.  He patented the cube in January, 1975 and
+it went on sale in Hungary in 1977.
+
+In 1980, one million were sold in Hungary, and U.S. distribution
+through Ideal began.  Incidentally, they were always the "Magic Cube"
+until Ideal renamed them.
+
+There is some more information in the archives about Bela Szalai
+(Logical Games, Inc), who sold the white-faced cubes in the U.S. after
+seeing the cube in Hungary in 1978.  I'm not sure whether he actually
+beat Ideal to the ship date, or what happened to him after the big
+cube bust.
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+
+From diamond@jrdv04.enet.dec-j.co.jp  Sun Dec 17 19:51:58 1995
+Return-Path: <diamond@jrdv04.enet.dec-j.co.jp>
+Received: from jnet-gw-1.dec-j.co.jp by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08752; Sun, 17 Dec 95 19:51:58 EST
+Received: by jnet-gw-1.dec-j.co.jp (8.6.12+win/JNET-GW-951211.1); id JAA22137; Mon, 18 Dec 1995 09:55:57 +0900
+Message-Id: <9512180051.AA00582@jrdmax.jrd.dec.com>
+Received: from jrdv04.enet.dec.com by jrdmax.jrd.dec.com (5.65/JULT-4.3)
+	id AA00582; Mon, 18 Dec 95 09:51:40 +0900
+Received: from jrdv04.enet.dec.com; by jrdmax.enet.dec.com; Mon, 18 Dec 95 09:51:42 +0900
+Date: Mon, 18 Dec 95 09:51:42 +0900
+From: Norman Diamond  18-Dec-1995 0949 <diamond@jrdv04.enet.dec-j.co.jp>
+To: cube-lovers@ai.mit.edu
+Cc: hoey@aic.nrl.navy.mil
+Apparently-To: hoey@aic.nrl.navy.mil, cube-lovers@ai.mit.edu
+Subject: Re: Bela Szalai (was Re: Million dollar cube)
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+Dan Hoey writes:
+>There is some more information in the archives about Bela Szalai
+>(Logical Games, Inc), who sold the white-faced cubes in the U.S. after
+>seeing the cube in Hungary in 1978.  I'm not sure whether he actually
+>beat Ideal to the ship date, or what happened to him after the big
+>cube bust.
+
+I bought one from him before Ideal's stuff appeared in stores, so I
+think he can be considered to have beaten them.  However, when he
+re-sized the tabs on the cubies so that the cube wouldn't seem ready
+to explode, I think Ideal was shipping.  I wonder what happened to
+him during the cube's other explosion (i.e. popularity) let alone
+the bust.
+
+-- Norman Diamond            diamond@jrdv04.enet.dec-j.co.jp
+[Speaking for Norman Diamond not for Digital.]
+
+From hoey@aic.nrl.navy.mil  Sun Dec 17 21:11:37 1995
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12273; Sun, 17 Dec 95 21:11:37 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA22055; Sun, 17 Dec 95 21:11:36 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Sun, 17 Dec 95 21:11:35 EST
+Date: Sun, 17 Dec 95 21:11:35 EST
+From: hoey@aic.nrl.navy.mil
+To: Cube-Lovers@life.ai.mit.edu
+X-To: Frank R Bernhart <frb6006@cs.rit.edu>,rusin@washington.math.niu.edu (Dave Rusin)
+In-Reply-To: hoey@aic.nrl.navy.mil's message of 17 Dec 1995 07:41:01 GMT
+Newsgroups: sci.math
+Subject: Re: Presenting Rubik's Cube
+References: <mschoene.817657981@astoria> <1995Nov29.054118.9651@cs.rit.edu> <9511291210.Hoey@aic.nrl.navy.mil> <49ihhd$j20@muir.math.niu.edu> <HOEY.95Dec17024101@sun13.aic.nrl.navy.mil>
+Message-Id: <9512172110.Hoey@AIC.NRL.Navy.Mil>
+Distribution: 
+
+In my article on a presentation of the Rubik's cube group last night,
+I omitted a relator from list ((7)):
+
+    v es v cs v es^-1 v cs^-1.
+
+This brings the number of relators to 44, with a total length of 605.
+Experiments with GAP on some smaller cube-like groups indicate that
+with this addition, the presentation is correct.
+
+My apologies for the error.
+
+Dan Hoey                                Posted and e-mailed.
+Hoey@AIC.NRL.Navy.Mil
+
+From geohelm@pt.lu  Mon Dec 18 01:59:51 1995
+Return-Path: <geohelm@pt.lu>
+Received: from menvax.restena.lu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21445; Mon, 18 Dec 95 01:59:51 EST
+Date: Mon, 18 Dec 95 01:59:50 EST
+Received: from mailsvr.pt.lu by menvax.restena.lu with SMTP;
+          Mon, 18 Dec 1995 7:59:44 +0100 (MET)
+Received: from slip116.pt.lu by mailsvr.pt.lu id aa10286; 18 Dec 95 7:59 CET
+X-Sender: geohelm@mailsvr.pt.lu
+X-Mailer: Windows Eudora Version 1.4.4
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Georges Helm <geohelm@pt.lu>
+Subject: Re: Generating Rubik's Cube
+Message-Id:  <9512180759.aa10286@mailsvr.pt.lu>
+
+It is Bandelow Christoph: Inside Rubik's cube and beyond
+
+>>  or BANDEMEISTER (sp?) "Beyond R. Cube"
+>
+Georges Helm           
+geohelm@pt.lu
+
+
+From bagleyd@source.asset.com  Mon Dec 18 12:33:07 1995
+Return-Path: <bagleyd@source.asset.com>
+Received: from source.asset.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16680; Mon, 18 Dec 95 12:33:07 EST
+Received: by source.asset.com (AIX 3.2/UCB 5.64/4.03)
+          id AA13899; Mon, 18 Dec 1995 12:39:11 -0500
+Date: Mon, 18 Dec 1995 12:39:11 -0500
+From: bagleyd@source.asset.com (David A. Bagley)
+Message-Id: <9512181739.AA13899@source.asset.com>
+To: cube-lovers@ai.mit.edu
+Subject: neat puzzle web site
+
+Hi
+   I was at the Puzzlette's web site and its pretty amazing.
+
+http://www.puzzletts.com/
+
+Cheers, 
+  /X\   David A. Bagley
+ // \\  bagleyd@perry.njit.edu
+((   X  xlockmore, new stuff for xlock @ ftp.x.org//contrib/applications
+ \\ //  altris, tetris games for x @ ftp.x.org//contrib/games/altris
+  \X/   puzzles, magic cubes for x @ ftp.x.org//contrib/games/puzzles
+
+From serge@nexen.com  Mon Dec 18 13:49:36 1995
+Return-Path: <serge@nexen.com>
+Received: from guelah.nexen.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22745; Mon, 18 Dec 95 13:49:36 EST
+Received: from maelstrom.nexen.com (maelstrom.nexen.com [204.249.98.5]) by guelah.nexen.com (8.6.12/8.6.12) with ESMTP id NAA05287 for <cube-lovers@ai.mit.edu>; Mon, 18 Dec 1995 13:32:54 -0500
+Received: from spank.nexen.com (spank.nexen.com [204.249.98.79]) by maelstrom.nexen.com (8.6.12/8.6.12) with ESMTP id NAA21485 for <cube-lovers@ai.mit.edu>; Mon, 18 Dec 1995 13:48:41 -0500
+Received: (from serge@localhost) by spank.nexen.com (8.6.12/8.6.12) id NAA00173; Mon, 18 Dec 1995 13:47:26 -0500
+Date: Mon, 18 Dec 1995 13:47:26 -0500
+From: Serge Kornfeld <serge@nexen.com>
+Message-Id: <199512181847.NAA00173@spank.nexen.com>
+To: cube-lovers@ai.mit.edu
+Subject: [bagleyd@source.asset.com: neat puzzle web site]
+
+>>Subject: neat puzzle web site
+
+>>Hi
+>>   I was at the Puzzlette's web site and its pretty amazing.
+
+>>http://www.puzzletts.com/
+
+>>Cheers, 
+>>  /X\   David A. Bagley
+>> // \\  bagleyd@perry.njit.edu
+>>((   X  xlockmore, new stuff for xlock @ ftp.x.org//contrib/applications
+>> \\ //  altris, tetris games for x @ ftp.x.org//contrib/games/altris
+>>  \X/   puzzles, magic cubes for x @ ftp.x.org//contrib/games/puzzles
+
+
+
+I was at "http://www.puzzletts.com/" also and I like it.
+You can also try "http://www.gametrends.com".
+
+
+
+Serge serge@nexen.com
+
+From geohelm@pt.lu  Tue Dec 19 02:05:10 1995
+Return-Path: <geohelm@pt.lu>
+Received: from menvax.restena.lu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01608; Tue, 19 Dec 95 02:05:10 EST
+Date: Tue, 19 Dec 95 02:05:08 EST
+Received: from mailsvr.pt.lu by menvax.restena.lu with SMTP;
+          Tue, 19 Dec 1995 8:04:59 +0100 (MET)
+Received: from slip214.pt.lu by mailsvr.pt.lu id aa14245; 19 Dec 95 8:04 CET
+X-Sender: garnich@mailsvr.pt.lu
+X-Mailer: Windows Eudora Version 1.4.4
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Georges Helm <geohelm@pt.lu>
+Subject: cube literature
+Cc: geohelm@pt.lu
+Message-Id:  <9512190804.aa14245@mailsvr.pt.lu>
+
+A list of solutions to Rubik's cube (from 2x2x2 to 5x5x5), pyraminx...
+is available now online at my homepage. There are +/- 600 items. The list
+is 12k.
+http://ourworld.compuserve.com/homepages/Georges_Helm/cubbib.htm
+
+Georges
+Georges Helm           
+geohelm@pt.lu
+
+
+From JBRYAN@pstcc.cc.tn.us  Tue Dec 19 17:41:31 1995
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from PSTCC4.PSTCC.CC.TN.US by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16455; Tue, 19 Dec 95 17:41:31 EST
+Resent-From: JBRYAN@pstcc.cc.tn.us
+Resent-Message-Id: <9512192241.AA16455@life.ai.mit.edu>
+Received: from pstcc.cc.tn.us by pstcc.cc.tn.us (PMDF V5.0-3 #11457)
+ id <01HZ00GZU6XS8WY0RV@pstcc.cc.tn.us> for cube-lovers@ai.mit.edu; Tue,
+ 19 Dec 1995 17:43:05 -0400 (EDT)
+Resent-Date: Tue, 19 Dec 1995 17:43:05 -0400 (EDT)
+Date: Tue, 19 Dec 1995 17:43:03 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Physical Cubes and Models Thereof
+Sender: JBRYAN@pstcc.cc.tn.us
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.951219171715.539064427A-100000@pstcc.cc.tn.us>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+The general subject of physical cubes and mathematical models thereof
+has been discussed many times before, but I have never been totally
+satisfied with all of the conclusions.  I'm going to take one more
+crack at it.
+
+Let's start with the question of what constitutes a single move and
+the argument between the quarter-turners and the half-turners.  There
+are good and valid arguments on both sides of the question, and there
+is no one "right" answer.  However, the strongest and most succinct
+argument in favor of quarter turns is that they are conjugate.  In
+the case of the standard 3x3x3 cube, the set Q of twelve quarter
+turns is M-conjugate, where M is the set of 48 rotations and
+reflections of the cube.
+
+A quarter-turner would normally generate G as G=<Q>.  But given that
+Q is M-conjugate, we could say equivalently that G=<{m'Xm | m in M}>
+for any X in Q.
+
+     Question: for the 3x3x3, are there any elements X in G other
+     than those X in Q itself where we can generate G as G=<{m'Xm |
+     m in M}>?  Remember that in most cases we would have 48
+     generators available.  
+
+     Clearly, there are X in G such that <{m'Xm | m in M}> does not
+     generate G.  For example, the M-conjugates of F2 do not
+     generate G.  But I have a feeling that any group that is
+     generated by <{m'Xm | m in M}> is an "M-symmetric group" (using
+     the term "M-symmetric" very loosely and informally) and is
+     therefore a somewhat interesting group.
+
+For the 4x4x4, I will use upper case letters for outer slab moves
+(face moves) and lower case letters for inner slab moves.  For
+example, L'l'rR would rotate the entire cube away from you by 90
+degrees, but the cube would otherwise look unchanged.  If we denote
+the set of outer slab moves as Q and the set of inner slap moves as
+q, then we can generate a group as G4=<Q,q>.  I am hesitant to say
+that G4 is "the" cube group for the 4x4x4, because it is so hard to
+agree on what "the" cube group is for higher order cubes.  But in any
+case, Q and q are not M-conjugate with each other.  There is in fact
+no way to have M-conjugate generators for the 4x4x4 and higher
+physical cubes.
+
+For a mathematical model, conjugacy can be repaired.  For example,
+there is an operation called Evisceration where inner slabs and
+adjacent parallel outer slabs are exchanged.  There is also an
+operation called Inflection where inner slabs are exchanged with
+their parallel inner slabs, and Exflection where outer slabs are
+exchanged with their parallel outer slabs.  We can use Rotations,
+Reflections, Evisceration, Inflections, and Exflections to generate a
+192 element symmetry group for the 4x4x4 called M4.  We can then show
+that Q and q are M4-conjugate, and conjugacy is repaired.  That is,
+we can generate G4 as G4=<{m'Xm | m in M4}> for any X in q or Q. 
+(See Dan Hoey's article "Eccentric Slabism, Qubic, and S&LM" dated 
+1 June 1983.)
+
+     In the previous paragraph, I used the term "symmetry group"
+     quite deliberately, although some of you may not agree with the
+     way I used it.  I am still struggling to understand how
+     narrowly or loosely we should really construe the preservation
+     of a geometric property before we declare a permutation to be a
+     symmetry.  In the case of M4 above, I think the designation of
+     "symmetry" is warranted, although it is a looser interpretation
+     than is typical.
+
+But my purpose is to model physical cubes.  Evisceration is not
+possible on physical cubes.  Conjugate quarter turn generators are
+not possible for physical cubes larger than the 3x3x3 without
+Evisceration (or its generalization to the NxNxN case).  Therefore,
+we abandon M-conjugation and its generalizations as a criterion for
+modeling physical cubes.
+
+Dan's Eccentric Slabism article talked about slab moves (a single
+plane of cubies turning together) and cut moves (all the cubies on
+each respective side of a plane cut of the cube turning together). 
+Evisceration convinced Dan to convert from a Cutist view of the cube
+to a Slabist view of the cube.  But Dan fully endorsed the Slabist
+view only for even-sided cubes.  His phrase "Eccentric Slabism" refers
+to the fact that he still refused to make slab moves for the center
+slabs of odd-sided cubes.  The problem is that center slab moves
+break M-conjugacy and its generalizations.  But I've already given up
+M-conjugacy and its generalizations.  Given that, it seems unnatural
+to leave out the center slab moves, so we leave them in.
+
+We next confront the issue that physical cubes are rotated in space
+with abandon.  Different rotations of physical cubes are considered
+to be equivalent, and/or rotations of physical cubes are considered
+to be zero cost operations.  But we desire a mathematical model of a
+physical cube to be a group.
+
+My preferred non-computing model of this situation is to treat the
+various configurations of the cube as cosets of C, the set of 24
+rotations of the cube.  However, this model is awkward for computing. 
+For something like the 2x2x2, we more typically do something like
+fixing a corner.  We hereby adopt  "fixing a corner" as the solution
+for the general NxNxN case.  See below for more details of how we
+propose to do so in the general case.
+
+We can note several things about the "fixing the corner" model:
+
+     1.   It breaks M-conjugation.  But we gave up M-conjugation
+          anyway.  Consider the 2x2x2 as a good example.  If we
+          insist on treating different rotations as equivalent,
+          then the 2x2x2 really isn't M-conjugate.  I am simply
+          suggesting that the NxNxN physical cube really isn't 
+          M-conjugate, no matter the value of N, if we treat
+          different rotations as equivalent.
+
+     2.   With the "cosets of C" model, we can make the cosets into
+          a group by taking as a representative for each coset the
+          unique element which fixes the same corner.  There is
+          then an easy isomorphism between the "cosets of C" model
+          and the "fixed corner model".  My only trouble with the
+          "cosets of C" model is that I keep wanting to call it G/C,
+          and you can't call it that.  C is not a normal subgroup
+          of G, and we cannot speak of G/C as a factor group of G.
+
+     3.   We can have conjugation and we can have symmetry with a
+          "fixed corner" model.  It is just not M-conjugation. 
+          Rather, it is the symmetry that preserves the fixed
+          corner, and conjugation within that symmetry group.
+
+The 4x4x4 is a good example of how we propose to "fix the corner" for
+the general NxNxN case.  Consider our status after L'l'r.  A physical
+cubist would say that you were only one move from Start, and would
+"solve" the cube simply with R.  But R would yield L'l'rR, which would
+leave the cube rotated.  This is fine for our physical cube, but not
+so fine for a mathematical model of a physical cube which seeks to
+fix a corner.  Hence, we define R as R=Llr', and similarly for the
+other slab moves which would otherwise move the fixed corner.  The
+generalization to cubes higher than 4x4x4 is obvious.
+
+Actually, I would prefer a slightly different but equivalent
+definition for those slab moves which fix a corner.  Frey and
+Singmaster use script letters for whole cube moves (those moves in
+C).  I would implement R as follows: perform R in the normal sense of
+the operation composed with Script-R' (and similarly for other slab
+moves that would move the otherwise fixed corner).  So for the 4x4x4,
+let's suppose we fixed the TRF corner.  Our generators would be,
+
+    L',l',r,(R)(Script-R'),
+    B',b',f,(F)(Script-F'),
+    D',d',t,(T)(Script-T')
+
+and their inverses.
+
+Clearly, the same technique works not only for the 4x4x4 and above,
+but also for the 2x2x2 and for the 3x3x3.
+
+I am thinking of this in a Slabist interpretation.  However, a case
+could be made that the (R)(Script-R') type of moves are really Cutist
+moves.
+
+I think all the other problems associated with a mathematical model
+of a physical cube can be unified under the heading "Invisible Moves
+of Facelets".  The most obvious example is that the Supergroup is
+invisible on the 3x3x3 unless the orientations of the face centers
+are marked somehow or other.  But with larger cubes (e.g., the face
+centers of the 4x4x4), it is not just changes in orientation that are
+invisible; there are also invisible changes in location.
+
+In all cases, I would propose initially modeling the "larger group"
+(call it L), where invisible changes in location and orientation are
+visible.  Number all 16 facelets of each face on the 4x4x4, for
+example.  You do have to decide how "large" you wish your larger group
+L to be.  For example, to make invisible orientation changes visible,
+you have to give a facelet four numbers rather than just one.  The
+set of all positions that are equivalent when the "invisible" changes
+are ignored  is a subgroup K.  Your final model is then the cosets of
+K in L.
+
+The "cosets of K in L" model will always work, but it may be difficult
+to deal with computationally.  Ideally, you would be able to find a
+subgroup G of L for which you could find an easy isomorphism with the
+cosets of K.
+
+As an example, consider the Supergroup of the 3x3x3 and call it L. 
+Within L, there is a subgroup K which fixes the corners and edges.  K
+is just all the legal face center reorientations.  Therefore, if we
+wish to ignore face center orientations our model can be the cosets
+of K in L.  There is an easy isomorphism between the cosets of K in
+L, and our standard model for the 3x3x3 which we call G.  
+
+In truth, we would never model the 3x3x3 in such a convoluted
+fashion.  We would just use G and be done with it.  But for the 4x4x4
+and larger cubes, I am not sure there is any choice.
+
+As the cubes get larger, you would generally find that there was
+a nested sequence of subgroups  --  K_0, K_1, etc.  -- for which the 
+cosets of K_n in the larger group L would produce a useful model.  
+For example, on the 4x4x4 one of your K's might be the group of 
+permutations that fixed everything but the positions of the center 
+facelets within a face (keeping them the proper color, of course).  
+But a more stringent K might be the group of permutations that fixed 
+everything but the orientations of the center facelets within a face.
+
+I will end by pointing out that Goldilocks would really like the
+3x3x3.  Papa Bear's 4x4x4 is too large and Baby Bear's 2x2x2 is too
+small.  But Mama Bear's 3x3x3 is just right.  The physical 3x3x3 is
+the only physical NxNxN which can be modeled with M-conjugate
+generators (assuming we fix the face centers).  And the 3x3x3 is the
+NxNxN (physical or mathematical) with the nicest isomorphism between
+the cosets of K in L and some reasonable group G.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =          
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us                      
+
+
+From joemcg@catch22.com  Wed Dec 20 06:16:26 1995
+Return-Path: <joemcg@catch22.com>
+Received: from B17.Catch22.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12530; Wed, 20 Dec 95 06:16:26 EST
+Received: (from joemcg@localhost) by B17.Catch22.COM (8.6.9/8.6.12) id DAA04562; Wed, 20 Dec 1995 03:20:21 -0800
+X-Url: http://www.Catch22.COM/
+Date: Wed, 20 Dec 1995 03:20:21 -0800 (PST)
+From: Joe McGarity <joemcg@catch22.com>
+To: "Rubik's Cube Mailing List" <cube-lovers@ai.mit.edu>
+Subject: Luminations
+Message-Id: <Pine.LNX.3.91.951220031715.4459B-100000@B17.Catch22.COM>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+Yes, I have a Luminations, but no I don't know where to get one.  They 
+haven't been on the shelves for about three years.  Someone on this list 
+has got to have two of them.  Would the list administrator be opposed to 
+some good old-fasioned commerce?  I'll bet for everybody that's looking 
+for something there are three people who have an extra one.
+
+
+------------------------------------------------------------------------------
+
+Joe McGarity                      "Do you expect me to talk?"   
+418 Fair Oaks                       
+San Francisco, CA  94110          "No, Mr. Bond.  I expect you to die."  
+
+joemcg@catch22.com                           
+
+------------------------------------------------------------------------------
+
+
+
+From mouse@collatz.mcrcim.mcgill.edu  Wed Dec 20 06:25:04 1995
+Return-Path: <mouse@collatz.mcrcim.mcgill.edu>
+Received: from Collatz.McRCIM.McGill.EDU ([132.206.78.1]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12740; Wed, 20 Dec 95 06:25:04 EST
+Received: (root@localhost) by 4566 on Collatz.McRCIM.McGill.EDU (8.6.12 Mouse 1.0) id GAA04566 for cube-lovers@ai.mit.edu; Wed, 20 Dec 1995 06:24:28 -0500
+Date: Wed, 20 Dec 1995 06:24:28 -0500
+From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Message-Id: <199512201124.GAA04566@Collatz.McRCIM.McGill.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  Physical Cubes and Models Thereof
+
+> I would propose initially modeling the "larger group", where
+> invisible changes in location and orientation are visible.  Number
+> all 16 facelets of each face on the 4x4x4, for example.  [...].  For
+> example, to make invisible orientation changes visible, you have to
+> give a facelet four numbers rather than just one.
+
+The only facelet for which invisible orientation changes are even
+possible is the center facelet on an odd-order cube.  Other facelets
+always have a fixed orientation with respect to the center of the face
+they're on at the moment.  (On the 4x4x4, for example, if you mark
+every facelet for orientation, you will find that each center facelets
+always has the same corner to the face center, regardless of which face
+it's on.)
+
+					der Mouse
+
+			    mouse@collatz.mcrcim.mcgill.edu
+
+From JBRYAN@pstcc.cc.tn.us  Wed Dec 20 08:42:45 1995
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from PSTCC4.PSTCC.CC.TN.US by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18095; Wed, 20 Dec 95 08:42:45 EST
+Resent-From: JBRYAN@pstcc.cc.tn.us
+Resent-Message-Id: <9512201342.AA18095@life.ai.mit.edu>
+Received: from pstcc.cc.tn.us by pstcc.cc.tn.us (PMDF V5.0-3 #11457)
+ id <01HZ0VXDUEHS8WY2SC@pstcc.cc.tn.us> for cube-lovers@ai.mit.edu; Wed,
+ 20 Dec 1995 08:44:18 -0400 (EDT)
+Resent-Date: Wed, 20 Dec 1995 08:44:18 -0400 (EDT)
+Date: Wed, 20 Dec 1995 08:44:16 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Physical Cubes and Models Thereof
+In-Reply-To: <199512201124.GAA04566@Collatz.McRCIM.McGill.EDU>
+Sender: JBRYAN@pstcc.cc.tn.us
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.951220081918.539067036C-100000@pstcc.cc.tn.us>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+On Wed, 20 Dec 1995, der Mouse wrote:
+
+> The only facelet for which invisible orientation changes are even
+> possible is the center facelet on an odd-order cube.  Other facelets
+> always have a fixed orientation with respect to the center of the face
+> they're on at the moment.  (On the 4x4x4, for example, if you mark
+> every facelet for orientation, you will find that each center facelets
+> always has the same corner to the face center, regardless of which face
+> it's on.)
+
+I believe Der Mouse is entirely correct for the physical cube case (which
+is the case I was talking about).  Imagine a 99x99x99 or some such large
+cube, and for each facelet except the face center itself mark the corner
+closest to the face center.  Any slab quarter-turn preserves the fact that
+all marked corners remain closest to the face center.  There are two cases
+-- a face slab, and any inner slab.  But both cases work.  In the case of
+a face slab, the orientations of the facelets on the face of the slab do
+change, but the orientations change in lock step with the positions of
+the facelets. 
+
+In the case of a mathematical model, Evisceration also preserves facelet
+orientation, if I understand correctly how first Singmaster and then Dan
+Hoey defined Evisceration.  However, Inflection and Exflection do not
+preserve facelet orientation.  Could (or should) the definitions of
+Inflection and Exflection be broadened to include and preserve facelet
+orientation? 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =          
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us                      
+
+
+From SCHMIDTG@beast.cle.ab.com  Wed Dec 20 13:23:50 1995
+Return-Path: <SCHMIDTG@beast.cle.ab.com>
+Received: from beast.cle.ab.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04603; Wed, 20 Dec 95 13:23:50 EST
+Date: Wed, 20 Dec 1995 12:48:47 -0500 (EST)
+From: SCHMIDTG@beast.cle.ab.com
+To: cube-lovers@ai.mit.edu
+Message-Id: <951220124847.202054c5@iccgcc.cle.ab.com>
+Subject: luminations
+
+
+I have some new (unopened) luminations puzzles.
+Contact me if you are interested.
+
+-- Greg
+
+From bagleyd@perry.njit.edu  Thu Dec 21 11:10:52 1995
+Return-Path: <bagleyd@perry.njit.edu>
+Received: from perry.njit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29087; Thu, 21 Dec 95 11:10:52 EST
+Received: (from bagleyd@localhost) by perry.njit.edu (8.7.1/8.6.9) id LAA00923 for cube-lovers@life.ai.mit.edu; Thu, 21 Dec 1995 11:17:00 -0500
+From: david a bagley <bagleyd@perry.njit.edu>
+Message-Id: <199512211617.LAA00923@perry.njit.edu>
+Subject: xpuzzles and winpuzz
+To: cube-lovers@life.ai.mit.edu
+Date: Thu, 21 Dec 1995 11:16:59 -0500 (EST)
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+
+Hi
+ 
+My new puzzles are out again.  Here's a brief description:
+  5.1
+    Mball and Mlink puzzles now draw sectors faster.
+    All puzzles have a corrected random number generator for 64 bit
+      machines.
+    Border color around tiles/pieces makes it look more realistic.
+    g (& G) for get of old saved configuration (not e).
+    Many other cosmetic changes in the code.  I am getting it in sync
+      with MSWindows code (winpuzz).
+
+I hope I don't regret announcing this:  :)
+  I am busy porting them to MSWindows.  So far I only ported one, "xcubes".
+  I think the rest will be easier now that I have my X-Window-System code
+  in sync.  I am looking for anyone with MSWindows AND C experience to Beta
+  test and give me some pointers.  (If I could get a small team that would
+  be great!)  The executable AND source for MSWindows, when completed will
+  be freely redistributable and maintained (as far as I am able to).  So
+  far, I am only using windows.h (3.1) to maximize portablity and compiler
+  independance.
+ 
+Cheers,
+  /X\   David A. Bagley
+ // \\  bagleyd@perry.njit.edu
+((   X  xlockmore, new stuff for xlock @ ftp.x.org//contrib/applications
+ \\ //  altris, tetris games for x @ ftp.x.org//contrib/games/altris
+  \X/   puzzles, magic cubes for x @ ftp.x.org//contrib/games/puzzles
+
+
+From joemcg@catch22.com  Sun Dec 31 11:49:53 1995
+Return-Path: <joemcg@catch22.com>
+Received: from B17.Catch22.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09396; Sun, 31 Dec 95 11:49:53 EST
+Received: (from joemcg@localhost) by B17.Catch22.COM (8.6.9/8.6.12) id IAA32181; Sun, 31 Dec 1995 08:51:51 -0800
+X-Url: http://www.Catch22.COM/
+Date: Sun, 31 Dec 1995 08:51:51 -0800 (PST)
+From: Joe McGarity <joemcg@catch22.com>
+To: "Rubik's Cube Mailing List" <cube-lovers@ai.mit.edu>
+Subject: The second challange
+Message-Id: <Pine.LNX.3.91.951231084824.31956B-100000@B17.Catch22.COM>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+Does anyone have or know where to get Rubik's Magic:  The Second 
+Challange?  It is a larger version of the Link the Rings puzzle.  I see 
+it advertised in a little flyer that came with Link the Rings, but I have 
+never seen a real one.  Also the 4x4x4 Rubik's Revenge eludes capture.  
+Happy New Year everyone.
+
+Joe
+
+
+------------------------------------------------------------------------------
+
+Joe McGarity                      "You'll shoot your eye out."  
+P. O. Box 993082                       
+Redding, CA  96099-3082             
+
+joemcg@catch22.com                           
+
+------------------------------------------------------------------------------
+
+
+
+From S005AXR@desire.wright.edu  Sat Jan  6 17:20:27 1996
+Return-Path: <S005AXR@desire.wright.edu>
+Received: from desire.wright.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18451; Sat, 6 Jan 96 17:20:27 EST
+Received: from desire.wright.edu by desire.wright.edu (PMDF V5.0-5 #2485)
+ id <01HZP4ZEX3XU95NQYP@desire.wright.edu> for CUBE-LOVERS@AI.AI.MIT.EDU; Sat,
+ 06 Jan 1996 17:22:16 -0500 (EST)
+Date: Sat, 06 Jan 1996 17:22:16 -0500 (EST)
+From: s005axr@desire.wright.edu
+Subject: The Rubic's Cube Mailing List
+To: CUBE-LOVERS@life.ai.mit.edu
+Message-Id: <Pine.PMDF.3.91.960106171925.553701697A-100000@desire.wright.edu>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+s005axr@discover.wright.edu
+
+
+From listmast@telegrafix.com  Sun Jan  7 08:17:07 1996
+Return-Path: <listmast@telegrafix.com>
+Received: from telegrafix.com ([204.74.76.230]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12286; Sun, 7 Jan 96 08:17:07 EST
+Received: (from majordom@localhost) by telegrafix.com (8.6.11/8.6.9) id RAA21311 for customer-outgoing; Sat, 6 Jan 1996 17:48:03 -0800
+Received: (from info@localhost) by telegrafix.com (8.6.11/8.6.9) id RAA21239; Sat, 6 Jan 1996 17:41:28 -0800
+Date: Sat, 6 Jan 1996 17:41:26 -0800 (PST)
+From: TeleGrafix Information <info@telegrafix.com>
+To: customer@telegrafix.com
+Subject: Introducing RIP-2 Multimedia Graphics for the Internet
+Message-Id: <Pine.LNX.3.91.960106173942.21234A-100000@telegrafix.com>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: owner-customer@telegrafix.com
+Precedence: first-class
+Reply-To: information@telegrafix.com
+
+
+Happy New Year from TeleGrafix:
+
+     Since you are an important colleague of ours in the online media 
+community, TeleGrafix is sending this short news release to brief you 
+about an important new Internet technology.  
+
+     Following two years of development, TeleGrafix Communications 
+is giving away free communications software that allows you to use 
+the new RIPscrip-2 (Remote Imaging Protocol-2 scripting language) 
+Internet online multimedia technology.  
+
+     We invite you to sample "RIP-2" multimedia on TeleGrafix's 
+Vector Sector BBS at (714) 379-2133.  To fully experience it, please 
+download the "shareware" RIPterm v2.2 communications software 
+from the BBS.  RIP-2 technical data and RIPterm v2.2 also are 
+available for download at http://www.telegrafix.com on the World 
+Wide Web.  Browser "plug-ins" to permit viewing of RIP-2 
+multimedia on the Web are slated for release in early 1996. 
+
+     RIP-2 enables you to create TV-style multimedia presentations or 
+electronic newspapers that fly through the Internet and ordinary 
+phone lines at dazzling speeds using regular modems.  RIP-2 encodes 
+graphics as hyper-compressed ASCII text files that are as little as 
+one-tenth the size of other formats.  It works on any computing 
+platform or communications network that uses 7-bit or 8-bit ASCII 
+text.  We expect RIP-2 to quickly become an important Internet 
+technical standard like HTML, Java or VRML.  
+
+     TeleGrafix is now accepting requests from software developers 
+and online system operators who want copies of the RIP-2 Internet 
+multimedia language specification when it is published in early 1996.  
+The first generation of RIP technology, introduced in 1993, is the 
+world's BBS graphics standard. It is used on thousands of BBS 
+systems, and is supported by dozens of online software vendors 
+including Delrina, Galacticomm, Hayes and Mustang. 
+
+If this message has reached you in error or if you are no longer 
+interested in RIPscrip technology,  please tell us via E-mail so you 
+won't get additional information. We look forward to helping you, 
+and we wish you a Happy New Year. 
+
+     Sincerely,
+
+     Pat Clawson          Mark Hayton         Jeff Reeder
+     President/CEO        VP/Technology       Chairman & CyberWizard
+
+                   TeleGrafix Communications Inc.
+                  16458 Bolsa Chica Road, Suite 15
+                 Huntington Beach, California 92649
+
+          Voice: (714) 379-2131        Fax: (714) 379-2132
+            BBS: (714) 379-2133        WEB: http://www.telegrafix.com
+       Internet: info@telegrafix.com   FTP: ftp.telegrafix.com
+
+
+--------------------------------------------------------------------------
+This message was sent by the mailing list system majordomo@telegrafix.com.
+To remove yourself from this mailing list, send an E-Mail message to
+majordomo@telegrafix.com with a single command on the first line of the
+message reading "unsubscribe customer".
+--------------------------------------------------------------------------
+
+TeleGrafix Communications, Inc.           Sales: (714) 379-2141
+16458 Bolsa Chica, #15                      Fax: (714) 379-2132
+Huntington Beach, CA 92649                  BBS: (714) 379-2133
+WWW: http://www.telegrafix.com
+FTP: ftp.telegrafix.com
+

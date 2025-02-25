@@ -1,0 +1,4411 @@
+Date: 12 JUL 1980 1342-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+To: CUBE-LOVERS at MIT-MC
+
+Welcome to the cube-lovers mailing list.  I don't know what we will be
+talking about, but another mailing list cannot hurt (too much).
+
+Mail to cube-lovers@mc or cube-hackers@mc whatever strikes your fancy.
+
+Date: 15 July 1980 01:41-EDT
+From: Jef Poskanzer <AQE at MIT-MC>
+Subject: Complaints about :CUBE program.
+To: CUBE-HACKERS at MIT-MC
+
+
+This is a real-neat program, BUT:
+
+In solving the cube, the description it gives for the action it is
+about to perform can be ambiguous, I think.  For example, can't "Turn
+TOP center to BOTTOM" be performed in two non-equivalent ways?
+
+I don't know what the display format is on color LISP machines, but on
+my terminal is sucks.  How about something like this:
+
+		+--------+
+	       / YL YL YL \
+	      /		   \
+	     /  YL  YL  YL  \
+	    /		     \
+	   /   YL   YL	 YL   \
+	 ,-+------------------+-.
+      ,-'  |		      |  `-.
+   ,-'  GR |   RD   RD	 RD   | BL  `-.
++-'  GR    |		      |    BL  `-+----------+
+| GR	   |		      |       BL | OR OR OR |
+|	   |		      |		 |	    |
+| GR GR GR |   RD   RD	 RD   | BL BL BL | OR OR OR |
+|	   |		      |		 |	    |
+| GR	   |		      |       BL | OR OR OR |
++-.  GR    |		      |    BL  ,-+----------+
+   `-.  GR |   RD   RD	 RD   | BL  ,-'
+      `-.  |		      |  ,-'
+	 `-+------------------+-'
+	   \   WH   WH	 WH   /
+	    \		     /
+	     \  WH  WH  WH  /
+	      \		   /
+	       \ WH WH WH /
+		+--------+
+
+Maybe add FRONT, BACK, LEFT, RIGHT, TOP, BOTTOM labels; maybe compress
+it vertically so it fits on 24-line screens; maybe three-char abbrevs
+instead of two; maybe the back face should be shown reversed (i.e.
+from the inside of the cube looking out) to facilitate mental
+manipulations; the basic format is better, though, don't you agree?
+
+---
+Jef
+
+Date: 15 JUL 1980 1413-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+To: CUBE-HACKERS at MIT-MC
+
+Since we have this mailing list I am tempted to put on record an
+interesting property of the cube that some of you might not be aware
+of:
+
+The cube has a degree of freedom that is rarely considered.  The six
+center faces which are the pivots about which rotations are performed
+do not always return to their original orentation.  In other words, if
+you were to paint little arrows on the center square of each face of a
+solved cube, randomized the cube, and then solved it, you might well
+find that the arrows no longer pointed in the same directions as they
+did before.  (Now you have to get them back.  And you thought you had
+already solved the damn thing!)
+
+This extended cube problem has been solved independently twice to my
+knowledge (not by me, I cheated and learned someone else's solution).
+The property was first shown to me by Spencer Love.  Does anybody know
+if anybody else ever discovered it independently?
+
+Without considering this property we already knew that there were
+43252003274489856000 = (8! * 3^8 * 12! * 2^12)/12 different
+rearrangements of the cube (all those numbers are obvious except the
+12 in the denominator).  Considering this property raises that number
+to 88580102706155225088000 = (8! * 3^8 * 12! * 2^12 * 4^6)/24 (the 24
+being just as hard to explain as the 12 was).
+
+
+CMB@MIT-ML 07/15/80 15:06:58
+To: cube-lovers at MIT-MC
+I had known about the center faces being turnable for a while, and have a cube
+that I have marked up so I could work on solving the center face problem.  In
+general, I solve the cube except for the center faces (since that was what I
+already knew how to do), and then have three transforms:  one that will turn
+any center face 180 degrees and leave everything else unchanged, one that will
+turn one center face 90 in one direction, and an adjacent center face 90 in
+the other direction, and the last turns two adjacent center faces 90 in the
+same direction.   My transforms are rather long and rep(it)*ous.
+
+
+Date: 15 JUL 1980 2158-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+To: CMB at MIT-ML
+CC: CUBE-HACKERS at MIT-MC
+
+The last two transforms you describe sound similar to the two I
+learned.  Mine are also rather repititous.  Perhaps it is the case
+that the two configurations are very distant using the obvious metric:
+smallest number of twists from one to the other.
+
+I wonder if anyone knows very much about the nature of that metric
+anyway?  I understand that it is known that no two points are more
+than 94 (or is it 93?) twists apart (disregarding the extended
+problem).  I don't know if that number is actually attained, or if it
+is only the currently known upper bound based on the best algorithm.
+(Or perhaps there isn't an algorithm that good yet, just a proof of
+the fact.)
+
+I believe that you and ACW and I once did the math to show that
+whatever that longest distance is, it has to be greater than something
+around 30, and for the extended cube problem it must be even bigger
+than that, so since I can do the transformations you speek of in about
+28 (I think) moves, those must not be most distant points.
+
+Date:	  15 July 1980 2245-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  Cube minima
+To:	  CUBE-LOVERS at MIT-MC
+
+I believe the 94 number comes from Singmaster's book. UNFORTUNATELY
+Singmaster doesnt seem to know what the word "canonical" means,
+and 180-degree twists count as single moves "too" in his religion.
+This makes his number kind of worthless.
+
+ED@MIT-ML 07/15/80 23:21:07 Re: Singmeister who?
+To: cube-lovers at MIT-MC
+I've never heard of Singmaster's Book.  Is it in the Old Testament
+or the New?  Is it prophetic, historical or lackadaisical?
+
+Date:  16 July 1980 09:35 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Singmaster
+To:  cube-lovers at MIT-MC
+
+David Singmaster is a prof at an English university whose
+name escapes me, who publishes a 40-page pamphlet on cubing
+for about $5.00.  It took me months to get; I have it for xeroxing
+in my posession.  It contains many transforms, including many
+wierd solve-the-edge-cubes-first solutions.  As I have
+pointed out, his noncanonical move counting is a problem.
+
+ACW@MIT-AI 07/16/80 15:08:09 Re: Cubespeak
+To: CUBE-HACKERS at MIT-MC
+I would like to see some talk about a good language for
+describing cube manipulations.  I know Bernie has one that
+he swears by, but I would rather not see the discussion
+START with everybody giving their favorite cubespraak...
+this can get confusing, dogmatic, counterproductive, nobody
+listens, etc.  So let's keep the "My language is better than
+your language" to a minimum at first, and see what desiderata
+people consider as basic.
+
+My first contribution is:  I think that turning the cube over,
+rotating it, etc., without performing any twists -- that is,
+all the things that you could do just as well to a solid block of
+wood -- SHOULD be considered manipulations in their own right.
+This includes performing a mirror reversal.  Why?  So that
+manipulations that only differ in starting orientation will not
+have representations that look completely different.
+
+   ---Wechsler
+
+
+Date: 16 JUL 1980 2051-EDT
+From: RP at MIT-MC (Richard Pavelle)
+To: CUBE-LOVERS at MIT-MC
+
+A simple transformation with a pretty resulting design:
+Let CS = center slice which faces you and is
+parallel to the axis of your body.
+Then CS up 90, rotate cube 90 in either direction so
+that the CS turns in the direcion of rotation.
+Performing these two operations 3 more times gives
+the desired result.
+
+Date: 16 Jul 1980 2130-PDT (Wednesday)
+From: Lauren at UCLA-SECURITY (Lauren Weinstein)
+Subject: confusion
+To: CUBE-HACKERS at MC
+
+I am relatively new to the whole idea of cubing, in fact I do not yet
+even own a cube.  I am a littel confused as to what the state of the
+art is in solving an actual randomized Rubik's Cube.  Are these
+algorithms so complex that they are only usable with computer aid, or at
+least pencil and paper?  Or are they such that, handed a random cube,
+you can just sit there and (given sufficient time) put it right?
+
+--Lauren--
+-------
+
+
+Date: 17 July 1980 01:22-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: confusion
+To: Lauren at UCLA-SECURITY
+cc: CUBE-HACKERS at MIT-MC
+
+Given a randomized cube it can take about 5 to 10 minutes to set it
+straight with no aid whatsoever.  Pencil and paper or a computer can
+be a great deal of help when one is first learning to solve the cube
+(I used both), but I know of no one who uses such aids once they have
+learned how.  A method of solution that required some computational
+aid to perform (some hairy calculation based on the current
+configuration of the cube, resulting in a single 259 twist sequence
+that brings it immediately back to the solved state) is not
+inconceivable, but most people have solutions composed of short, easily
+comprehended steps.
+
+Can anyone tell me who this Rubik character is?  His name appears to
+be attached to the new American version of what some of us once knew
+as the "Hungarian Cube".  Is Rubik the Hungarian who invented it?  Has
+he done anything else?  I heard this rumor that there was a 4x4x4 cube
+out there somewhere, anybody else heard about it?
+
+Date: 17 JUL 1980 0846-EDT
+From: JURGEN at MIT-MC (Jon David Callas)
+To: CUBE-LOVERS at MIT-MC
+
+Yeah, sounds great, I always loved linear Alg.
+I'm not really COMPLETELY sure what you're doing, but
+count me in. It sounds like I might learn something.
+			Thanx,
+				Jurgen@mc
+
+
+Date:  17 July 1980 09:40 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: confusion
+To:  Alan Bawden <ALAN at MIT-MC>
+cc:  Lauren at UCLA-Security, CUBE-HACKERS at MIT-MC
+In-Reply-To:  Message of 17 July 1980 01:23 edt from Alan Bawden
+
+For the record, Erno^H" Rubik is the hungarian teacher of
+architecture and design at some Budapest equivalent_high_school
+, who invented the Cube. Apparently he has a solution,
+but it is not a particularly good one.  I would also like to add to
+ALAN's note that given my method or ALAN's method, I have never
+seen either take longer than 5 minutes (I promise clocked
+solutions in under 4 and have taken much less) and Singmaster
+has heard of solutions in 2 minutes, but I find this difficult to believe.
+
+I think I can also assert that most of the certified Cubemeisters
+did NOT use a computer in solving it, although it can be of great help.
+
+For the record for the purposes of this list, my algorithm
+is implemented in the :CUBE program that runs on all ITS's.
+
+Date: 17 JUL 1980 1042-EDT
+From: RP at MIT-MC (Richard Pavelle)
+Subject: confusion but simplicity
+To: Lauren at UCLA-SECURITY
+CC: CUBE-HACKERS at MIT-MC
+
+I do not use a computer but I found it useful in keeping track of
+moves and testing various transformations. I can fix the cube
+now in 5 minutes or less. In fact, I have won cubes at
+stores by challenging the owner to a
+freeby if I can do it under 10 or 15 minutes. My transformations are
+very easy to remember because after one face is complete I need only 4
+to fix the cube. The transformations are positioning the corners, toppling
+them, fixing edges and then toppling edges. These are not designed for
+speed but for simplicity. I have taught some people to solve the cube this
+way with a few hours of practice. To do it in 5 minutes, however, requires
+a few more transformations.
+
+Date: 17 JUL 1980 1114-EDT
+From: ACW at MIT-MC (Allan C. Wechsler)
+Subject:  Short Introductory Speech
+To: CUBE-LOVERS at MIT-MC
+
+
+Nobody else has made this kind of flame yet, so I
+guess I will.
+
+Welcome to CUBE-LOVERS.  We are devotees of a certain
+mathematical puzzle variously called the Hungarian
+Cube, the Magic Cube, and Rubik's Cube.  It is a hard
+puzzle.  Very intelligent people often take weeks to
+learn to solve it.  Once they have learned, though, they
+can solve it in a few minutes.
+
+The puzzle embodies mathematical sophistication and
+mechanical ingenuity in a pleasing and intriguing
+synthesis.  I have forgotten the Hungarian inventor's
+name, but we should learn it: this person deserves
+our profound respect.
+
+For those who have not yet become Cube Solvers: you
+can only solve the Cube for the first time ONCE.  After
+that, although there are a lot of problems to think
+about, the initial challenge is gone.  So, in the words
+of Mr. Duffey:  SPOILER WARNING!  SPOILER WARNING!
+Messages to this list will often deal with particular
+solution techniques.  If you haven't solved the cube yet,
+and want to do it on your own, reading these messages
+may ruin your fun.
+
+If there is any demand, I am willing to hack up a short
+introduction to Group Theory for Cubans.  Group Theory
+gives us a mathematical language for talking about the
+cube.
+
+Also, if anyone out there knows Hungarian, there are some
+pamphlets we need to translate.  Cubans should inform
+everyone on the list of any written material they know of,
+so that we can compile a bibliography.
+
+Happy cubing,
+
+  ---Wechsler
+
+Date: 17 JUL 1980 1420-EDT
+From: RP at MIT-MC (Richard Pavelle)
+Subject: the cross design
+To: CUBE-LOVERS at MIT-MC
+
+Does anyone know a transformation (or series of) which will produce
+the following pattern on each face where X and O are two different colors.
+
+	|X O X|
+	|O O O|
+	|X O X|
+
+I think this may not be possible which brings me the question which
+is how one can say whether a particular arrangement is or is
+not possible.
+
+Date:  17 July 1980 14:38 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: the cross design
+To:  RP at MIT-MC (Richard Pavelle)
+cc:  CUBE-LOVERS at MIT-MC
+In-Reply-To:  Message of 17 July 1980 14:20 edt from Richard Pavelle
+
+There are two such sets of patterns known, one with three
+sets of paired colors (the Christman cross) and one
+with two triplets of colors (the Plumer cross).
+The Plummer cross is achieved by two orthogonal applications
+of the transform to the Christman cross.  The transforms are
+fairly long and hairy, and I hesitate a little before attempting
+to describe them, but will if people want.
+
+Date: 17 JUL 1980 1635-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: the cross design
+To: RP at MIT-MC
+CC: CUBE-HACKERS at MIT-MC
+
+Yes, the cross design is possible.  I will let BSG try and describe it
+if people want.  It is fairly straightfoward to tell if a position is
+reachable.  I am thinking of onlining the proof that there are 12
+equivalence classes of cubes (I think I have a fairly simplified
+version), and if I do it should contain an algorithm to tell if a
+position is reachable.
+
+Yekta@MC (Sent by ___117) 07/17/80 16:45:00 Re: Checker board pattern...
+To: cube-lovers at MIT-MC
+Is the pattern in which evry face of the cube is a checkerboard
+of two colors possible??  (  I have not played with the cube at all,
+so my apologies if it is too trivial to get... )
+
+
+Date:  17 July 1980 17:33 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: Checker board pattern...
+To:  Yekta at MIT-MC (Sent by ___117)
+cc:  cube-lovers at MIT-MC
+In-Reply-To:  Message of 17 July 1980 16:45 edt from Sent by ___117
+
+Yes. This is absolutely trivial.  Rotate each face 180. Si x total
+onehunred-eighty degree twists.
+
+Date: 17 Jul 1980 1358-PDT (Thursday)
+From: Mike at UCLA-SECURITY (Michael Urban)
+Subject: Confusion
+To: lauren
+CC: cube-hackers at mit-mc
+
+   Actually, dealing with the cube is a learn-as-you-go experience.
+The appeal of the cube, which makes it superior to Soma, or "Instant
+Insanity", etc, is that you actually have to analyze what's going on
+in order to approach the solution.  For example, I began by learning
+how to put one face right; this required certain simple transformations
+that were useful later.  As you go, you develop your own heuristics
+for moving the faces you need around without messing up what you've
+done so far.  I can do the whole thing from an arbitrary starting
+position in around 20 minutes; I'm still not very adept at moving
+corners around.
+   Even after you have solved it, there are still things to do
+with the cube, including improving your personal algorithm, as well
+as creating nifty patterns, etc.  A Worthy Toy.
+   According to "Games & Puzzles" magazine, Rubik is the Hungarian
+fellow that devised this evil little time-stealer.  The
+article also impies a 2x2 version is in the works, which is even harder
+to understand mechanically than the 3x3 version.
+   How the heck IS the thing put together, anyhow?
+	Mike
+-------
+
+
+Date:  17 July 1980 17:38 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: the cross design
+To:  ALAN at MIT-MC (Alan Bawden)
+cc:  RP at MIT-MC, CUBE-HACKERS at MIT-MC
+In-Reply-To:  Message of 17 July 1980 16:35 edt from Alan Bawden
+
+There is a wonderful alogorithm for ANY pattern, which constitutes
+an existence proof.  Given that you know how to "solve cubes", you
+can achieve a given
+pattern if it is achievable simply by "solving" to that position,
+which may in fact be faster than some set of arcane transforms.
+Before the "neat" algorithms for the Cruces Plummeri et Christmani
+were discovered, they were achieved by cubemeisters only by
+"solving" to that position, lambda-binding the target state
+(lessee, this guy wants to go here, etc.) to the desired pattern.
+I will burn some neurocomputrons tonight to describe the
+algorithms   for the Crosses.
+
+Incidentallly, if you try to solve for some pattern and come to
+a roadblock of the form "this cant come here because its here"
+(we need two of these cubies ( a local jargon
+for the little cubes)), or a parity/trinity argument, you have
+proven that you can't achieve it.
+
+Date:  17 July 1980 17:33 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: Checker board pattern...
+To:  Yekta at MIT-MC (Sent by ___117)
+cc:  cube-lovers at MIT-MC
+In-Reply-To:  Message of 17 July 1980 16:45 edt from Sent by ___117
+
+Yes. This is absolutely trivial.  Rotate each face 180. Si x total
+onehunred-eighty degree twists.
+
+Date:  17 July 1980 21:18 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: Confusion
+To:  Mike at UCLA-Security (Michael Urban)
+cc:  lauren at UCLA-Security, cube-hackers at MIT-MC
+In-Reply-To:  Message of 17 July 1980 18:12 edt from Michael Urban
+
+The easiest way to see how the thing is put together is to take it apart.
+If you turn the "top" plane 45 degrees, you can pry out the
+top edge cube (any of the 4) fairly easily, and it becomes clear
+how the devilish thing is put together.
+
+In three lines or less, all the center-of-face pieces are on a
+6-armed, solid, rigid cross. They can spin, but that's it.
+The EDGE pieces (i.e., not the corneres) have a rectangular
+projecction from their non-visible edge which gets them stuck
+behind whichever two center-of-face pieces they're currently
+visiting.  While not rotating, it's stuck behind two. while
+rotating it (a edge piece) is stuc behind the one
+on its rotating face, and a groove that all edge pieces
+have on their sides, in this case on the edge pieces of the
+next plane back.  The corner pieces have little cube-like
+projections on their invisible corners that basically
+wedge in behind the edge pieces, which are stuck as desribed
+above. No magnets, wires, universal
+joints or rubber bands.
+
+IF youshould decide to take one apart, be SURE to put it
+together SOLVED to ensure solvability.
+
+Date:	  17 July 1980 2228-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  The Higher Crosses
+To:	  CUBE-LOVERS at MIT-MC
+
+For the amusement of the experienced cubemeister, and the
+education of those desirous of learning the Art, I have here
+produced a Description of the Methods, as I have used,
+for the production of the Cruces Plummeri & Christmani.
+These are the elegant configigurations of lid Crosses
+of which we spoke earlier today.
+
+**********************************************************************
+I herein describe the algorithms for construction of
+the higher (Plummer, Christman) crosses from a solved position.
+From an unsolved position, it is faster to "solve" directly to
+the desired configuration; by following the steps below,
+the eager cubist may learn exactly what these configurations are.
+
+Of the words and phrases I use:
+
+I call the faces front, back, right, left, top, bottom. A face
+has 9 cubies, viz., 4 corner cubies, 4 edge cubies, and its
+center cubies.  Separating 2 opposite faces, is  a "center
+slice", being of 4 center cubies and 4 edge cubies. As I
+hold the cube, I call three center slices: floor-parallel,
+body-parallel, body-slicing. For instance, the body-parallel
+and body-slicing centerslices meet in the front face.
+
+I name "double-swap" the transform which is performed as follows:
+    Double-swap (front, back)		      ;parameter-faces
+      Turn body-slicing centerslice 180.
+      Turn bottom face 180.
+      Turn body-slicing centerslice 180.
+      Turn bottom face 180.
+
+Observe well what it has done, viz. swapped the two cubies of the
+turned centerslice on the front with those of the back.  You
+will use it as needed during the following shenanigans:
+
+----------------------------------------------------------------------
+To achieve Christman's (DPC at MIT-MC) Cross, the simpler of the two:
+
+Rotate the body-slicing centerslice 180.  Rotate the floor-parallel
+centerslice 90 either way (your choice).
+Stare hard at what you have.  The CORNER CUBIES and CENTER CUBIES
+are in their final position for the Crux Christmani; all further
+hacking will be simply to move the EDGE CUBIES, IN PAIRS, into
+place.  To achieve ANY Crux Plummeri or Crux Christmani configuration,
+learn how to do the initial rotations (see below for the CP)
+so that you get the center cubies to corners you want, and hack from
+there.
+
+I will now describe the edge-cubie moves for the CC given that
+the centerslices have been aligned to orient the center cubies
+as needed:
+
+  Among the six faces you now have, find one of the two that
+have a solid stripe between two sides of the same color, i.e.,
+     x y x
+     x y x
+     x y x
+and align it like so, so that the stripe is vertical, and this
+face is the front.
+
+Note that the edge  cubies of the y y y stripe want to be exchanged
+with the two x-showing edge cubies, i.e.,
+     x x x
+     y y y
+     x x x
+(Remember that the goal is x y x/y y y/x y x)
+You can tell that they want to be inthe horiz. positions by their
+non-showing faces, which you will observe match the center-cubies
+on the right and left sides.
+To do this:
+   1.	   Perform doubleswap on front-back.
+   2.	   Rotate the FRONT so that when you do (3), the two cubies
+	   we just moved to the back will come to such place so that
+	   when we undo this step (see 4), they will be in the right
+	   place. This will be either 90 deg. left or right.
+   3.	   Perform doubleswap on front-back.
+   4.	   Undo step 2, i.e., turn FRONT 90 deg the "other" way.
+Whehter you blew (2) or not, you will now find you have
+ (x x x/y y y/x x x) on front. If you understood 2 and DIDNT
+blow it, you will have the sides of the y y edge cubies matching
+the side centers (if you blew it, doubleswaps on the side faces
+can fix you up).
+
+You will see the floor-parallel centerslice begin to form a band.
+We will now finish that band.  The two appropriate cubies (to go
+in the two rear positions of the floor-parallel centerslice are
+now on the front plane, the x x cubies of the last step. Note
+that a simple doubleswap on front-back would move them to the
+back face, but the WRONG two places on the back face. Easy.
+So, turn the back face 90 degrees and do the doubleswap,
+and unturn the back.  Choose which 90 such that these two
+cubies wind up in the right place.
+
+You will now find you have solid bands and solid crosses
+galore. The front and back should have solid crosses, and the
+floor-parallel slice should now be a solid band.
+Look at the top of the cube.  Make it the front.
+Orient it so that it is (a b a/c c c/a b a). Do a front-back
+doubleswap, and now look at the remaining face pair we
+havent been thinking about. Do the appropriate doubleswap on
+them to get solid crosses, and then you should have the Crux Christmani.
+Study well what you have: three pairs of alternated crosses.
+
+----------------------------------------------------------------------
+
+
+The Crux Plummeri (after DCP at MIT-MC who first came up with it,
+altho by solving-to) is exactly equal to doing the entire
+above transformation twice, at 90 degrees.  The following, however,
+is a direct route from solved that is more intuitive.
+
+Take the cube, turn the body-slicing centerslice up 90 deg.
+Turn the floor-parallel centerslice 90 deg clockwise as seen from
+the top. Note well the configuration of corners versus centers;
+it is the final one. Note that you will have two triplets
+of trebly-interleaved colors: that is the characteristic of the CP.
+
+Look at the TOP or BOTTOM. Let's say the TOP. Make it the front.
+Orient it so that you see
+    x y x
+    x y x
+    x y x
+
+Only the top or bottom look like this; this is what you have to
+remember to look for after aligning centers to taste.
+We're gonna rotate the y y y band into the horiz position.
+Do this exactly as for the CC above, producing
+   (x x x/ y y y/x x x)
+Next goal is again to complete the solid band of the floor-parallel
+centerslice by doubleswapping front/back so that
+the x x edgecubies,w hich would complete that band, go to
+the back. Of course, we must temporarily rotate the
+back during this doubleswap, so that they go to the side
+positions ofthe back when swapped. Do so, completing the
+solid color-band of the floor-parallel slice.
+
+Now consider the top and bottom. You note that exactly one appropriate
+doubleswap between top and bottom would give us solid
+crosses on both. Do it.
+
+
+Take what had been the top just now, and call that the front.
+Note that there are solid crosses on front and back, and the
+body-parallel plane is correct and complete.
+Think about the front: it looks like
+   a b a
+   b b b
+   a b a
+
+Although it looks right fromt the front, the two vertical b-edge
+cubies want to be the two horizontal b-edge cubies, as a cursory
+inspectionof the top bottom and sides of the cube will show.
+This is true of the back, as well.
+
+Tofix up the FRONT do this:
+
+     1. Doubleswap front/back
+     2. Rotate the FRONT (temporarily) 90 degrees sothat the two
+	vertical b-edge cubies are gonna come to the right place,
+     3. And doubleswap front/back
+     4. Undo 2.
+     5. Doubleswap front/back.
+
+Now you see all is right save the back. It wants the same
+thing done to it.  Do it for it;  Do this same thing
+just doNe in the last 5 steps for the back (viewing it as the
+temporary front).
+
+It is done. Consider it.
+
+An exquisite variant ont he CP is obtained by taking on of the
+trebly-bound sides and rotating the centers via the well-known
+center-cubie rotating algorithm. As the centers are rotated
+left or right, either a sextuple checkerboard or a stunning
+triply-rotated canon of centers , edges, and corners appears.
+The checkerboard is amusing insofar as it appears to a
+novice cubist to be the Pons Asinorum 6tuple checkerboard
+made by 6 twists (described earlier today), but cannot be
+fixed (solved, or produced) without the consummate hair
+of the CP that only true cubemeisters can execute.
+
+The application of the Pons Asinorum checkerboard transform
+to the CP (as well as the CC) produces interesting and
+suprising results.
+
+----------------------------------------------------------------------
+The Higher Crosses are fascinating insofar as they appear to be
+very simple edge-cube hacks, but are in fact quite "far"
+from home; the CP being exactly twice as "hairy" (far)
+as the CC (discovered by ALAN) is in itself a source of
+wonderment.
+
+Date: 17 JUL 1980 2245-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: The Higher Crosses
+To: Greenberg at MIT-MULTICS
+CC: CUBE-HACKERS at MIT-MC
+
+    Date:     17 July 1980 2228-edt
+    From:     Bernard S. Greenberg	 <Greenberg at MIT-Multics>
+
+    ...
+
+    The Higher Crosses are fascinating insofar as they appear to be
+    very simple edge-cube hacks, but are in fact quite "far"
+    from home; the CP being exactly twice as "hairy" (far)
+    as the CC (discovered by ALAN) is in itself a source of
+    wonderment.
+
+I wish I could really say something was "exactly twice as far" from
+home as something else.  Unfortunately, as I complained before, the
+metric by which one measures the distance of one configuration from
+another is not well enough understood to be able to make claims like
+this.  It might well be that the CP is less than twice as far as the
+CC, all we can really be sure is that it is not any further than that.
+
+Date:  17 July 1980 22:52 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Postscript to above
+To:  cube-hackers at MIT-MC
+
+I should have noted in the above flamage
+(btw, will all of those of us who are paid by our respective employers
+to hack this lunacy please let me know at once)
+that there is room for opitimization and lookahead in the final
+doubleswaps in correcting the top/bottom, and the
+doubleswap preceding it, but I do not do this, so that
+I might better keep track of what I am doing.
+
+Date:  17 July 1980 22:54 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Bug in above
+To:  cube-hackers at MIT-MC
+
+In the terminOlogy section, note that the
+body-slcing and FLOOR-PARALLEL centerslices meet in the front face,
+not the body-parallel and body-slicing as given.
+
+ED@MIT-AI 07/18/80 00:12:53 Re: Patterns, designs &c.
+To: cube-lovers at MIT-MC
+To jump the gun slightly on the group-theoretic explanation,
+any sequence of rotations of any number of faces can be
+thought of as an atomic "transformation" for the purposes of
+group theory.  One of the precepts of this theory is that any
+such transformation, repeated often enough, will return the
+cube to the original state.  For instance, given the transform
+"rotate top ccw 90", 4 iterations suffice to return the cube
+to the original state.
+Mike Speciner, a fellow Camexian, claims that no transformation
+can be created that requires more than 216 (=6^3) iterations to
+return to the virgin state.  (He doesn't yet have a cube, but
+has been stealing his daughter's blocks and modeling the cube
+with them.)
+Where does this number come from, and is it true?
+I have been playing with various transforms, and have found
+at least one reasonably trivial one that requires the 216
+iterations:  rotate a face 90, then turn the cube 90 and repeat.
+The transform here is 4 twists in a band around the axis of
+cube rotation.  The patterns generated in the process are interesting,
+too, though none of them are as unique as the cruciform or center-face patterns.
+
+Date: 18 JUL 1980 0205-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: Patterns, designs &c.
+To: ED at MIT-AI
+CC: CUBE-HACKERS at MIT-MC
+
+Er, perhaps I don't understand the move you describe, but in any case,
+by my calculations it would take 1260 repetitions to come back home
+doing that one (1260=2^2*3^2*5*11).  It is certainly the case that
+1260 > 216 so that number must be wrong (I could be miscalculating,
+but I don't see how).  1260 is rather similar in appearance to 216,
+perhaps you spazzed somehow?
+
+Date: 18 JUL 1980 0351-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: 1260
+To: ED at MIT-MC
+CC: CUBE-HACKERS at MIT-MC
+
+I now have a proof that no element of the cube group can be of order
+greater than 1260.  Since you have so thoughfully provided me with an
+element of order 1260, I must conclude that this element is indeed the
+maximum, as you claimed (but where did the number 216=6^3 come from?).
+
+My proof contains no nice derivation of the number 1260, you will be
+dissapointed to see where it comes from, it is just all that is left
+after a number of cases have been eliminated.
+
+Perhaps someone can devise a "nice" proof of this fact.  Is this fact
+in the literature?  (Bernie?)
+
+Date: 18 JUL 1980 0932-EDT
+From: RP at MIT-MC (Richard Pavelle)
+To: CUBE-LOVERS at MIT-MC
+CC: ZIM at MIT-MC
+
+The file which contains all cube-lovers mail is ALAN;CUBE MAIL on MC.
+
+ACW@MIT-AI 07/19/80 01:42:56 Re:   Where to get them in the Boston Area, Cube Language.
+To: CUBE-LOVERS at MIT-MC
+
+"Games People Play" on Mass Ave, near the fork where Mt. Auburn
+St. branches off, carred them the last I knew.  According to
+rumor, the domestic product ("Rubik's Cube"), selling for
+about $7, is mechanically inferior to the Hungarian import,
+costing $15.  I don't know how everyone feels about money,
+but to me, not having to fight with the thing would be worth
+the extra $8.
+
+Bernie's explanation of how to achieve the Plummer and Christman
+Crosses is a prime example of why we need a cube language.
+
+Since no one has proposed anything, I will jump into the fray.
+
+Center the cube at the origin of a 3-d coordinate system.  The
+axes of the coordinate system protrude from the centers of the faces.
+
+Make a hitch-hiker's gesture with your right hand and point the thumb
+along the X axis.  Imagine rotating the WHOLE CUBE one quarter turn
+in the direction your curled fingers are pointing.  I call this operation
+"I".  (The X axis is the horizontal axis that does not skewer you.)
+
+If the cube was lying on a table, "I" would roll it toward you.
+
+Now point up, along the Y axis, with your thumb.  A quarter-rotation
+in the direction your curled fingers point is the operation I call "J".
+
+The Z axis goes right through your belly.  A quarter turn around it
+I call "K".  Actually, K=IIIJI.
+
+To simplify things a little, we define I'=III, J'=JJJ, and K'=KKK.
+In general, M' is M done backwards.  If we call the do-nothing
+manipulation "1", then MM'=M'M=1.
+
+For my own nefarious reasons I define "H" as the operation (unachievable
+in real life) of REFLECTING the cube right-to-left through the YZ plane.
+We note H'=H.
+
+Twisting the front (Z=1) face 90 degrees counter-clockwise I call
+"T".
+
+One more piece of notation: For any manipulations M and N, I write
+M'NM as N[M], reading this as if N were a function: "N of M".
+
+Note M[1]=M.
+
+Examples:
+
+T[I] means "Twist the top face"
+T[II]=T[JJ] means "Twist the back face"
+T[I'] means "Twist the bottom face"
+T'[J] means "Twist the left face CLOCKWISE"
+T[I] T'[I'] J' means "Rotate the floor-parallel center-slice a
+	quarter turn counter-clockwise as seen from above."
+
+Note that (MN)'=N'M', and (N[M])'=N'[M].
+
+Also notice that (MN)[P] = M[P] N[P].
+
+To do the Pons Asinorum checkerboard:
+
+Set Q= (TT)[J] (TT)[ZJ] "Half turn body-slicing center-slice."
+
+Then the Pons is Q Q[J] Q[K].
+
+Does anybody see what I'm getting at or am I a lone, mad
+genius?
+
+Set Q= T[J] T[J'].
+
+Then (Q Q[J])^3 is quite pretty.
+
+  ---Wechsler
+
+
+Date: 19 JUL 1980 0249-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: 1260 vs. 2520
+To: ED at MIT-MC, CUBE-HACKERS at MIT-MC
+
+Sorry folks, there was a slight error in my last message about the
+maximum order of any element in the cube group.  To understand why,
+let us examine the transformation that ED described.  I like to label
+the cube this way:
+
+	  A0 AE A1
+	  AB AX AD
+	  A3 AC A2
+
+B0 BA B3  C3 CA C2  D2 DA D1  E1 EA E0
+BE BX BC  CB CX CD  DC DX DE  ED EX EB
+B7 BF B4  C4 CF C5  D5 DF D6  E6 EF E7
+
+	  F4 FC F5
+	  FB FX FD
+	  F7 FE F6
+
+(I won't bother to describe the features of this labeling, and I will
+presume that the correspondence between this unfolded labeling and an
+actual 3D cube is obvious.)
+
+If I understand ED's directions this is the way the cube looks after
+applying his transformation:
+
+	  A3 AB A0
+	  AC AX AE
+	  D1 DA D6
+
+C3 CA E1  A1 AD F6  E6 EA E0  B0 BA B3
+CB CX BF  FB DX DE  ED EX EB  BE BX BC
+C2 EF E7  B7 CF B4  C4 DC C5  D5 DF D2
+
+	  F7 FC F4
+	  FE FX CD
+	  A2 FD F5
+
+Note that the center faces BX, CX, DX and EX have all moved.  My proof
+that the maximum order of any element is 1260 assumes that these
+center faces remain fixed.  There is nothing wrong with that
+assumption, it simply relects the intuition that picking a cube up and
+putting it down again on a different face doesn't change the
+configuration at all.  If we decide that the orentation of the cube
+DOES matter, then we get transformations like ED's here.  The group
+we are dealing with is also 24 times larger than before.  And my proof
+now shows that no element has an order greater than 2520 (twice as big).
+
+Could it be that ED's transformation is not actually a maximal one?
+Could there be one with higher order?  Or can my proof be tightened up
+some, so that even in the larger group the maximum order remains the
+same?
+
+To answer these questions (hopefully) I present a transformation
+that I claim has order 2520:
+
+	  D2 AB A0
+	  DC AX AE
+	  D5 AD A1
+
+C2 CD C5  F5 DA D1  E1 EA E0  B0 BA A2
+CA CX CF  FC DX DE  ED EX EB  BE BX AC
+C3 CB C4  F4 DF D6  E6 EF E7  B7 BF A3
+
+	  B4 FD F6
+	  BC FX FE
+	  B3 FB F7
+
+(This transformation, like ED's, is not a member of the usual group,
+but the larger one where the center faces are allowed to move.)
+
+It is easy to check that this permutation has order 2520, the real
+question is whether you can get to this configuration from a solved
+cube.  I haven't actually tried to do that, but I am fairly certain
+that it is possible.  If anyone would like to try it, and report to me
+their success or failure, I would be very grateful.
+
+Date: 19 JUL 1980 0346-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: OOPS
+To: ACW at MIT-AI
+CC: CUBE-LOVERS at MIT-MC
+
+Let me suggest the following corrections to your cube language
+message.  If any of these are not actual errors, but are actually
+misunderstandings on my part, then I apologize for causing undue
+confusion, but I thought it would be helpfull to people trying to
+understand you system to have these corrected as soom as possible.
+
+    ACW@MIT-AI 07/19/80 01:42:56
+    ...
+
+    One more piece of notation: For any manipulations M and N, I write
+    M'NM as N[M], reading this as if N were a function: "N of M".
+
+I think you must intend N[M] to mean M N M' .
+    ...
+
+    T[I] T'[I'] J' means "Rotate the floor-parallel center-slice a
+	quarter turn counter-clockwise as seen from above."
+
+T[I] and T'[I'] don't touch the floor-parallel center-slice at all and
+J' rotates it clockwise (as seen from above), my guess is that the
+description should simply read: "Rotate the floor-parallel
+center-slice a quarter turn clockwise as seen from above."
+    ...
+
+    Set Q= (TT)[J] (TT)[ZJ] "Half turn body-slicing center-slice."
+
+This must be a typo or some discarded notation.  My guess is that this
+should read Q= (TT)[J] (TT)[J'].  I don't think that the description
+here ("Half turn body-slicing center-slice") fits, but it works in
+producing the pattern anyway.  If you had said Q= (TT)[J] (TT)[J'] II
+then you could get the pattern and fit the description too!
+
+Date: 19 Jul 1980 11:27 PDT
+From: McKeeman.PA at PARC-MAXC
+Subject: Re: Where to get them in the Boston Area, Cube Language.
+In-reply-to: Your message of 07/19/80 01:42:56
+To: ACW@MIT-AI
+cc: CUBE-LOVERS at MIT-MC, Lynn.ES, Horning, Sturgis
+
+Your proposal for a language leads me to suspect that you have not seen:
+
+NOTES ON THE 'MAGIC CUBE'
+David Singmaster
+Mathematical Sciences and Computing
+Polytechnic of the South Bank
+London, SE1 0AA, England
+
+which you can get by sending him $3.  The fourth printing runs 36 pages.  It is
+definitely worth the money.
+
+Cube quality:  I have handled about a dozen Hungarian import versions of the
+cube with enormous variation in quality.  They were all the colortab-on-black
+variety.  They sell out here in the discount stores like K-Mart for less than $9.  I
+have also seen a colortab-on-white version which is not substantially different
+in quality from the Hungarian versions.  My advice is to pick and choose as best
+you can from the ones on the shelf, regardless of what kind you get.
+
+As for your language proposal, I like the RLUDFB abbreviations given by
+Singmaster and generally used in Europe to your T plus whole cube moves.
+They mean rotate the (Right, Left, Up, Down, Front, Back) surface 90o
+clockwise.  I also use rludfb for the inverses of them.  However since
+(fortunately) these two notations have a null intersection, there is no
+disadvantage in mixing them.  For consistency, however, I suggest ijk for
+counterclockwise moves, and IJK for clockwise ones.  This does little violence to
+the quaternion origins where lower case is generally used anyway.  The ' for
+inverse notation is fine; in fact I frequently prefer R' to r when I write down
+algorithms.  The mappings then are, substituting f for your T:
+
+F = f'
+R = F[J]
+r = f[J] = R'
+L = F[j]
+l = f[j] = L'
+U = F[i]
+u = f[i] = U'
+D = F[I]
+d = f[I] = D'
+B = F[ii]
+b = f[ii] = B'
+
+It also solves the problem that I was having of saying IJK in English since there
+is no way to say it in "Singmaster".
+
+I didn't follow your Pons Asinorum checkerboard solution because I didn't
+understand the Z in Q, but in the mixed notation I think it is:
+
+rrllffbbuudd
+
+or, if Q = rrll;  QjQkQ
+
+Your "quite pretty" is  (lrfb)^3 = (lr (lr)[j])^3
+
+I propose the following grammer for RCML (Rubik Cube Manipulation
+Language):
+
+algorithm ::= definition* move*
+definition ::= letter = algorithm ;
+move ::= letter
+   | move'
+   | move^digit
+   | move[algorithm]
+   | (algorithm)
+digit ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+
+where the letters RLUDFBrludfbIJKijk are predefined as noted above.
+
+--Bill
+
+
+
+Date:	  19 July 1980 1455-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  General remarks
+To:	  CUBE-LOVERS at MIT-MC
+
+While watching these various "linguae cubisticae" make the rounds,
+I note one categoric deficiency, whose perception may indeed be
+due to the idiosyncracies of my own meta-algorithms.
+
+In specific, my algorithms (including my 200-line procedure of the
+other day) include DECISIONS of the form "find a face that has
+a pattern like-so" or "look around for the target cubie, and
+categorize its place like so".  Now clearly, a general
+solution algorithm must include some expression of such decisions,
+although I find Singmaster's procedures deficient in this regard
+(he tends to say "Use enough of FOO transform to get all the..."
+often). However, the generation of specific patterns from another
+canonical state NEED not involve "decisions", although most of my
+procedures (and hence the lisp-macro language of :cube) do.
+I offer that looking for certain patterns during the course of
+even one of these pretty-pattern-generations leads to more
+rememberable (^= memorable) algorithms than even a well-subroutinized set of
+absolute moves.
+
+On the Physical Reality of cubes:
+
+I have seen three species of the genus Cubi, the original Hungarians
+(C. Hungaricus), which is black faced,
+cubes sold by Ideal (C. Americanus), the American
+Black-faced cube, and the American Whiteface (C. Albus).
+The last-mentioned was first shown to me by the lady in the
+Cambridge cube-store, who called me at home to make me aware of
+them when they first appeared (she says they are done by
+some Friend of Rubik in Virginia).
+
+C. Americanus seems a good deal lighter in weight and build than
+C. Hungaricus. While C. Hungaricus takes two to three weeks of
+constant use before they are loose enough for Concert performances,
+C. Americanus can be turned with one hand, yea, one finger
+while held by the rest of the hand WHEN NEW.  C. Americani
+do not seem to bind at all; the Hungarians not only bind, but
+decompose and bind more.  I confess a certain sentimental attachment
+to C. Hungaricus, on which I mastered the Art. The stiff,
+clean solidity of a new Hungarian is indeed reassuring, but speed
+of movment and non-binding is something else.  I have not subjected
+Americanus to truly extensive use, and I do not know how
+it ages, but so far, they  seem to show less CHANGE per time than
+the Hungarians, and are usable from the start.  I think they
+will be a win.
+
+Of the American White-faced Cube, I have little to say; C. Albus
+is a curio item, and has nothing to recommend it over either of the
+others.
+
+Date:	  19 July 1980 1524-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  :cube feature
+To:	  CUBE-LOVERS at MIT-MC
+
+Ok, everybody wants a way to tell :CUBE "I have a cube like
+so and so, solve it".  The reason I have avoided doing this
+(other than laze) is that you may specify a non-reachable
+state.  (Duplicate cubies, or purple faces, etc. are easy
+to check for).  I am not convinced that there is any
+better or faster check for an inconsistent/unreachable
+cube than trying to solve it and blowing out: lest
+we find such a check (other possibility: run the program once
+silently and once loudly; if the first time fails
+(no, i will not make it list all cubes it cant solve)
+give an error), all internal breakpoints become
+user errors.
+
+The second issue is what is the best language
+to specify a configuration in? Comments?
+
+Date: 19 JUL 1980 1548-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+To: Greenberg at MIT-MULTICS
+CC: CUBE-HACKERS at MIT-MC
+
+    Date:     19 July 1980 1524-edt
+    From:     Bernard S. Greenberg	 <Greenberg at MIT-Multics>
+
+    ...		    I am not convinced that there is any
+    better or faster check for an inconsistent/unreachable
+    cube than trying to solve it and blowing out: ...
+
+You mean I haven't convinced you of that yet?  Show me how your cube
+is represented and I will write one for you.  What would be so bad
+about blowing out anyway?  What happens when you hand a person an
+impossible cube? his algorithm "blows out" eventually!  There is no
+shame in being tricked into trying to solve a bad cube.
+
+Date:  19 July 1980 15:53 edt
+From:  Greenberg.Multics at MIT-Multics
+To:  ALAN at MIT-MC (Alan Bawden)
+cc:  CUBE-HACKERS at MIT-MC
+In-Reply-To:  Message of 19 July 1980 15:48 edt from Alan Bawden
+
+I certainly believe you have shown me sufficient conditions for
+inconsistency, but until now I wa not aware that you claimed
+that they were necessary...
+
+Date: 19 July 1980 16:31-EDT
+From: Ed Schwalenberg <ED at MIT-AI>
+Subject: Nope, I guess we don't understand
+To: ALAN at MIT-MC
+cc: CUBE-LOVERS at MIT-MC
+
+First of all, I was sitting here inventing a GOOD cube notation,
+when McKeeman's message about his notation came in.  I begin
+to fear that ACW was right, and we will all die before agreeing
+on a notation.  I dislike all proposed notations so far, for the
+following reasons:
+ALAN's labeling of the cube for describing a POSITION is excellent;
+however it is not useful for describing transforms, which are
+operations and not positions.
+ACW's language I find baffling, principally because it lacks
+verbosity.  I would much rather have a notation like
+[doubleswap] than F[X,[Y']] since it is descriptive.  An analogy
+with Life is useful here; I think that the adoption of names
+like "traffic lights" is far more usable in the long run than
+any of [the-oscillator-of-period-two-composed-of-three-blots-placed-
+orthogonally-adjacent] or	  |    .
+			    ...   |    .
+				  |    .
+or "if you put 3 blots in a row, the center dot remains alive forever
+while the two outer dots appear first horizontally then vertically".
+Creating names like "The Christman Cross" is fun, and makes for
+interesting wordplay, even if you don't resort to Latin.  So my
+proposed language is Augmented English, which has the great feature
+of being able to put in comments (a feature notably absent in the
+others).
+
+I urge people to describe the transform and its result in any
+message describing a nifty transform or pattern (provided both are
+known, of course!).  RP's pretty pattern may not be what I think it
+is, since "pretty" is not a good description.  I propose that this
+be called "swapping-centers-in-triplets" (procedural notation) or
+Twelve Squares (which is not a movie by Mel Brooks, but the positional
+notation).
+
+Bernie's comment about decision-making I think is important:  it
+seems to me that cubemeisters do in fact approach the problem with
+a set of "subroutines", which are defined to NOT contain
+conditional branches.  Doubleswap and checkerboard-all-faces are
+examples of subroutines.  Conditional branching is generally simply
+the matter of selecting an orientation of the cube before applying
+a transformation, "setting up" the subroutine if you will.  I think
+that in the case of generating patterns from a solved cube,
+branches are unnecessary but helpful:  rather than say "doubleswap
+then rotate the cube 90 clockwise in Z and doubleswap again"
+saying "doubleswap, then doubleswap the remaining solid face" much
+more clearly indicates what is going on.  (the examples above are
+spurious).
+
+I herein announce two patterns I have independently invented; I do
+not know if they are elsewhere available.  The first is called
+Ten Squares by analogy with Twelve Squares, since it is highly related.
+Twelve Squares causes the 3 centercubies of three mutually adjacent
+faces to move to an adjacent face; three iterations of "swapping-
+centers-in-triplets" suffice to return to the solved state.  Ten
+Squares, on the other hand, is a configuration wherein two opposite
+faces are solid, while the other 2 sets of opposing faces each possess
+the centercubie belonging to its opposing face.  This is created by
+first swapping-centers-in-triplets, then swapping-centers-in-triplets
+again, only with the cube rotated 90 degrees away from you.  Note that
+this results in the final centerslice rotation of the first transform
+and the first centerslice rotation of the second effectively combining
+into a single 180-degree centerslice rotation.  To resolve the cube,
+simply do swapping-centers-in-triplets without regard to the orientation
+of the cube, then you are back to the trivially soluble Twelve Squares.
+
+The second I call Laughter, after the use of the string \/\/ in comlinks
+to signify laughter.  It leaves the top and bottom faces solid, while
+causing pairs of opposing faces to have a diagonal stripe of the
+opposing color.  (I propose that the color of the face opposite a given
+face be called the complementary color; my cube has complementary pairs
+of red-white, orange-yellow and blue-green.)  To create Laughter, select
+a top-bottom pair, which will remain solid.  Rotate the left and right
+sides clockwise (in "opposite" directions as viewed from the top, thus
+resulting initially in the top being 3 differently-colored stripes).  I
+call this "splaying".  Then rotate the cube 90 degrees while preserving
+the top/bottom orientation (i.e., rotate it about the Z axis.).  Six
+iterations of splay/rotate suffice.  Laughing the cube again solves it.
+Laughing the cube, then Frowning it (same as laughing, only rotate the
+faces anticlockwise) results in Four Crosses:  2 complementary pairs
+of crosses with the top and bottom solid.
+
+Date: 22 Jul 1980 1211-PDT (Tuesday)
+From: Mike at UCLA-SECURITY (Michael Urban)
+Subject: Yet another checkerboard
+To: cube-lovers at mit-mc
+
+   Nobody has mentioned (or discovered?) the fully-interlocked
+checkerboard pattern obtained by applying the Pons Asinorum
+transformation to the Plummer's Cross as suggested
+by Greenberg during his description thereof, and then performing
+a few triple-center swaps (unfortunately, I was playing rather randomly
+with the 3c swaps at the time and must leave them as an "exercise for
+the reader").  The six colors are interlocked in pairs of AB, BC, CD, DE,
+EF, and FA on each checkerboard.  Quite mysterious.
+	Mike
+-------
+
+
+Date: 23 Jul 1980 4:10 am PDT (Wednesday)
+From: Woods at PARC-MAXC
+Subject: Xerox cube-lovers
+To: Cube-Lovers at MIT-MC
+
+This message is of (possible) interest only to Xerox members of Cube-Lovers, but
+there's no easy way for me to send it only to them; apologies to the rest of you.
+
+I've created a Laurel-format message file containing the Cube-Lovers mail (from
+the archive at MC) up through approximately last weekend.  The message is in
+chronological order (instead of reverse chronological the way MIT's stupid mailer
+defaults) and has otherwise been cleaned up slightly (e.g., to get rid of lines just
+barely too wide).  If you're interested in looking through this archive, it's in
+[maxc]<Woods>Cube.mail.  It'll probably be around for several days at least.
+
+	-- Don.
+
+
+Date: 23 JUL 1980 1044-EDT
+From: RP at MIT-MC (Richard Pavelle)
+To: CUBE-LOVERS at MIT-MC
+
+There is a short article on the cube written by Singmaster. The
+reference is Mathematical Intelligencer, Vol.2, #1, pp.29, 1979.
+
+Date: 23 Jul 1980 1640-PDT (Wednesday)
+From: Mike at UCLA-SECURITY (Michael Urban)
+Subject: Clarification
+To: cube-lovers at mit-mc
+
+   My description of the checkerboard pattern was clearly
+inadequate, due to haste and the fact that my cube was "borrowed"
+and scrambled before I had a chance to see precisely what was
+going on.
+   The pattern in question is formed from Crux Plummeri by
+applying the "Pons Asinorum" transformation; from the
+resulting almost-checkerboard, a simple "12-squares" transformation
+will provide the 6 checkerboards; it isn't hard to inspect
+the almost-checkerboard to find a trio of center cubies to
+rotate.
+   The resulting checkerboards are a completely interlocked
+set.  In the following unfolded cube, A/B means that the center
+and corners are color A, and the edges are color B.
+
+       A/B
+
+C/A    B/D    D/E    F/C
+
+       E/F
+
+   I don't THINK anyone has mentioned this pattern; the checkerboard
+pattern mentioned by Greenberg consists of two cycles of three colors
+each, something like
+
+      A/B
+
+B/C   C/A    D/E   E/F
+
+      F/D
+
+  although I may have the handedness wrong.
+
+	Mike
+-------
+
+
+Date: 23 Jul 1980 5:23 pm PDT (Wednesday)
+Sender: Woods at PARC-MAXC
+From: Woods at PARC-MAXC, Boyce at PARC-MAXC
+Subject: 216 vs 1260 vs . . .
+To: Cube-Lovers at MIT-MC
+
+Regarding finding a sequence of twists that requires a maximal number of
+repetitions to restore the original state, it is indeed true that 1260 is the
+maximum, but the sequence suggested by ED (on July 18) is not it.  (He
+thought its period was 216; ALAN thought it was 1260.  It's actually 315.)
+This assumes that we don't consider the orientation of the center-face cubies
+nor the orientation of the cube as a whole.
+
+First off, note that the transformation given by ED was ill-specified, since he
+didn't say which way to rotate the cube relative to the rotations of the faces.
+In Singmaster's notation the two operations would be, say, LBRF and LFRB.
+It turns out these are each period-315, though it's not immediately obvious
+that the two should be at all similar.  Having done (LBRF)^1, you'll find
+there are 7 edge cubies that have cycled through each other's positions, and
+the other 5 edge cubies have done likewise, 5 corner cubies have rotated 120
+degrees in place, and the other 3 corner cubies have cycled through each
+other's positions and one of them has rotated.  Hence, if we do (LBRF) a
+multiple of 9 times, the corner cubies will be back where they started, and if
+we do it a multiple of 35 times, the edge cubies will be restored, so if we do
+(LBRF)^315, all of the cubies will be back to the solved state.
+
+Perhaps the reason ALAN thought this was period 1260 was because it takes
+1260 twists to restore the original cube.  But since the transformation that we
+are repeating is a sequence of four twists, it actually has period 315.  If you
+count total twists, you can obviously get "identity" sequences with lengths
+much greater than 1260.  Or perhaps ALAN was considering the transformation
+to be LJ (twist left face, rotate cube about vertical axis).  This indeed has
+period 1260, but it "cheats" in that we're not supposed to consider reorienting
+the entire cube as a legitimate operation.  If we do, then it is again possible
+to get periods greater than 1260.
+
+To get a period-1260 transformation, we need to observe whence the period
+arises.  If we do a sequence of twists, and then look at the cycles of the form
+"face X moved to where face Y used to be, face Y moved to where face Z was,
+. . . , face <mumble> moved to where face X was", we take the least common
+multiple of the lengths of those cycles.  If we repeat the sequence of twists
+that many times, the faces will moved around those cycles an integral number
+of times and end up where they started; if we stop short of that many
+repetitions, at least one of the cycles will be left stuck in the middle.
+(Apologies to any readers who are familiar with group theory and are bored
+by this verbosity.)
+
+To get a period of 1260, we need to have a cycle of 7 edge cubies, another
+cycle of 2 edge cubies where one of them is also rotated (so that the four
+faces on those cubies form a single period-4 cycle), a cycle of 5 corner cubies,
+and a cycle of 3 corner cubies where again one of them is rotated (forming
+a face-cycle of length 9).  If, instead of the 2 edge cubies, we could get 4
+edge cubies cycling with one of them rotated, that would be a period-8 cycle
+and the overall transformation would have period 2520, but due to the fact
+that it's impossible to swap exactly two cubies it turns out you can't get that
+combination of subcycles.
+
+Based on this analysis, it's not hard to construct a period-1260 sequence,
+although this one is almost certainly not the shortest such (it's 24 twists):
+
+	F U F^2 u r f b l r f D^2 F b R U (R^2 F^2)^3 u r B
+
+
+Date: 23 Jul 1980 1757-PDT
+From: DDYER
+Subject: impossible cubes
+To: cubr-lovers at MIT-MC
+Remailed-date: 23 Jul 1980 1758-PDT
+Remailed-from: Dave Dyer <DDYER at USC-ISIB>
+Remailed-to: cube-lovers at MIT-MC
+
+
+ According to Singmaster, there are 12 disjoint orbits (his term) of cube
+positions.  The article I read doesn't give a derivation, but the basic
+idea is clear.  It should be possible to characterize the orbit of a given
+position as a function of the transformations that would have had to
+be done on each cubie ( as if it could be moved alone ) to bring it
+to its proposed position.  Given such a charaterization, one could
+declare positions fed to :CUBE illegal without trying to solve the
+problem.
+
+ This relates to my thoughts on the problem of inversion of an unknown
+transformation.  Suppose you are given a Cube that is N unit moves
+from home, determine the correct sequence to get it there.  I think
+a representation of the Cube in terms of combined tranformations on
+the cubies is the place to start.
+-------
+
+Date: 24 JUL 1980 2115-EDT
+From: RP at MIT-MC (Richard Pavelle)
+To: CUBE-LOVERS at MIT-MC
+
+Many of you have seen this message before. However, since the mailing
+list of CUBISTS is growing rapidly I shall repeat this on occasion.
+     A file of past cube mail is on ALAN;CUBE MAIL on MC.
+
+Date: 25 JUL 1980 0845-EDT
+From: ZIM at MIT-MC (Mark Zimmermann)
+Subject: "blindfold" cube?
+To: CUBE-HACKERS at MIT-MC
+
+How long does it typically take for one to be able to work with only
+a mental image of the cube?  (As in"blindfold" chess, soma, pentominoes....)
+
+Date: 25 JUL 1980 0906-EDT
+From: RP at MIT-MC (Richard Pavelle)
+Subject: "blindfold" cube?
+To: ZIM at MIT-MC
+CC: CUBE-LOVERS at MIT-MC
+
+    Date: 25 JUL 1980 0845-EDT
+    From: ZIM at MIT-MC (Mark Zimmermann)
+
+    How long does it typically take for one to be able to work with only
+    a mental image of the cube?  (As in"blindfold" chess, soma, pentominoes.
+I do not know of anyone who can do it blindfolded (I cannot). However,
+a few days ago mine fell into a swimming pool and I did it underwater with
+five gulps of air.
+
+Date:  25 July 1980 10:53 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: "blindfold" cube?
+To:  RP at MIT-MC (Richard Pavelle)
+cc:  ZIM at MIT-MC, CUBE-LOVERS at MIT-MC
+In-Reply-To:  Message of 25 July 1980 09:06 edt from Richard Pavelle
+
+This interchange very elegantly points out the difference between
+the Mathematician's view of the Cube and the
+Hacker(System Programmer-type)'s view.  While an algorithm
+that looked at the initial state and categorized it
+("Perform the folliwng 152 steps for configuration
+106xy205a (left-handed) and it will be solved") would thrill mathematicians, practical
+cube-solving ALGORITHMS require iteration, conditionals,
+subroutines, and other program-like techniques.  Ineed, many
+non-cognoscenti have watched me solve the cube, noting that
+I look at it only a very small percent of the time
+(seeing which subroutine to invoke, as you will, )
+but they don't know that, and conclude that I "solve cubes
+basically without looking".  The whole notion of algorithmic
+cubism is based upon "I will do this hairy thing and it will
+have this desired effect, and I need not thinK about the
+intermediate states, unless, god forbid, the phone rings, etc."
+To contain a cube map and intermediate states of transforms
+in one's head woud, in my mind, involve a greater skill
+than blindfold chess; it is not a normal human-memory
+capability, although doubtless institutiOnalized freaks
+with pathological intelligence/visulization problems
+(in the positive direction) exist who could conceivable do such a thing.
+
+Date: 26 Jul 1980 1315-PDT
+From: Davis at OFFICE-3
+Subject: Some (perhaps well-known) Transformations
+To:   cube-lovers at MIT-MC
+
+I have just recently joined the cube-hackers mailing list, but I have read over
+all the old mail.  I suspect, however, that some of what I have to say will be
+well-known already; on the other hand, I suspect that some of it is new.
+
+When I first got my cube, I had the advantage and disadvantage of working in a
+vacuum.  Hence, my original solution was more complicated than it should have
+been, but I did go about it another way, and discovered a few interesting facts
+along the way.  Having only seen one cube, I foolishly assumed that the color
+pattern was the same on all cubes, and my notation for a move was simply a
+color.  A R (or Red) move meant that you look at the red face, and turn it 90
+degrees courter-clockwise.  I wrote a little hack based on that notation, and
+since all my notes are in that form, I will use it here.  It should be trivial
+enough to convert it to the Left, Right, ... form.  For reference, here is my
+color pattern in the "solved" condition:
+
+       GGG
+       GGG
+       GGG
+
+   OOO RRR YYY WWW
+   OOO RRR YYY WWW
+   OOO RRR YYY WWW
+
+       BBB
+       BBB
+       BBB
+
+
+When I purchased my cube, the store was out of all but the demonstration model,
+so I never got a chance to mess around with a virgin cube, and I approached the
+problem as follows:  My program would simply take moves and print out the
+condition after so many moves.  It would also, given a sequence of moves, find
+the order of the move as a group element.  I then tried a number of patterns,
+some from my experience with the cube, and some completely at random, and found
+the orders of those moves.  If the order came out to be, say, 90, then I would
+do 30 and 45 moves to see what the cube looked like after that many moves.
+These half- and third- way patterns were often fairly simple,  and after trying
+aout about 20 or 30 likely candidates, I generated most of the primitive
+transformations I used to solve the cube originally.  I also generated (as half
+way positions) a large number of nice patterns, which are pretty to look at,
+but not of much use for solving a cube.
+
+In particular, laughter, mentioned by ALAN, is gotten by:
+
+   3(OYRW)
+
+I find 3(RYYR) a useful solving transformation, as well as 3(RYRRRYYY) and
+3(RYYYRRRY) (these last two being commutators).  I have not yet gotten a look
+at any of Singmaster's stuff, but these last two may be well known.  Believee
+it or not, one of the transformations I used to solvee the cube originally was
+45(RGWY), which has the net effect (after 180 moves) of flipping the R-Y and
+G-Y side cubies in place.  I'm glad I found a better one than that.
+
+In fact, if you haul out any book on group theory, it is interesting to find
+group equations, and plug in random cube moves as the group elements to see
+what happens.  Needless to say, things which group theorists find interesting
+usually tend to do interesting things to the cube.
+
+One other thing I discovered which also does interesting things to the cube is
+the following transformation:  Leave the body-slicing center slice in place,
+and rotate the other two sides, one toward and one away from you.  Then rotate
+the top and bottom 180 degrees, and rotate the sides back.  This transformation
+also gives a cube configuration which looks like something in the center-slice
+group, but is not.
+
+   -- Tom Davis
+
+-------
+
+Date:  26 July 1980 22:25 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: Some (perhaps well-known) Transformations
+To:  Davis at OFFICE-3
+cc:  cube-lovers at MIT-MC
+In-Reply-To:  Message of 26 July 1980 16:15 edt from Davis
+
+Out of curiosity (I am responsible for :cube), I'd be interested
+in seeing your code.  Is it someplace accessible?  -Bernie Greenberg
+
+Date: 27 Jul 1980 1004-PDT
+From: Davis at OFFICE-3
+Subject: Re: Some (perhaps well-known) Transformations
+To:   Greenberg.Multics at MIT-MULTICS
+cc:   cube-lovers at MIT-MC, DAVIS
+
+In response to your message sent   26 July 1980 22:25 edt
+
+Hi,
+   You're welcome to look at the code, although it is hardly fit for
+human consumption.  I wrote it essentially in one sitting, and stopped
+as soon as I solved the cube.  There are some poorly thought out
+design features, etc.  Anyway, you can get it at SAIL.  It is written
+in PASSCAL, and is called MCUBE.PAS[1,TRD].  I scribbled in a few
+comments this morning, so maybe there is enough information to
+figure out how to use it.  Unfortunately I am at home on a typewriter
+terminal, and I refuse to try to edit without a display.  Good luck.
+
+  By the way, I have never used :cube, and have no idea exactly what
+it does.  Is there some documentation associated with it somewhere?
+
+  Thanks,
+
+    -- Tom DAvis
+-------
+
+Date: 31 JUL 1980 1006-EDT
+From: RP at MIT-MC (Richard Pavelle)
+To: CUBE-LOVERS at MIT-MC
+
+IS IT POSSIBLE?
+
+I just got a note from Martin Gardner who plans an article about the
+cube in Sci.Am. sometime. But he claims that a person names
+THISTLETHWAITE has proved a restoration procedure of 50 moves
+and believes he can reduce it to 41.
+
+Gardner also says that a 2x3x3 solid is selling in Hungary, also
+by Rubic.
+
+
+Date:  31 July 1980 10:52 edt
+From:  Greenberg.Multics at MIT-Multics
+To:  RP at MIT-MC (Richard Pavelle)
+cc:  CUBE-LOVERS at MIT-MC
+In-Reply-To:  Message of 31 July 1980 10:06 edt from Richard Pavelle
+
+OK, your'e on the spot..... you'd better produce these artifacts
+or we're all not gonna let you log out....
+
+Date: 31 July 1980 13:06-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+To: RP at MIT-MC
+cc: CUBE-HACKERS at MIT-MC
+
+    Date: 31 JUL 1980 1006-EDT
+    From: RP at MIT-MC (Richard Pavelle)
+
+    IS IT POSSIBLE?
+
+The Singmaster notes claim that Thistlethwaite had an 85 twist
+algorithm in an addenda dated November 30, 1979.  I presume that since
+then Thistlethwaite has continued to cube-hack, so why not 50 (or even
+41)?
+
+It should be noted that Singmaster insists on counting a 180 twist as
+ONE twist, so I presume that the 85 number is measured that way.  How
+is Gardner counting?
+
+It is certainly possible.  If you count twists Singmaster's way, you
+can show that there are positions at least 18 twists away from home.
+There is nothing to suggest that this might not in fact be the
+maximum.  So there might be room for Thistlethwaite to lower his
+number all the way to 18!
+
+(If you count 180 twists as TWO twists, then a similar proof shows
+that there are positions 21 twists away from home.  In a past message
+I reported that some of us had proved the existence of positions as
+far away from home as around 30.  I believe that the reasoning that
+led to such a high number was incorrect.  (Although I cannot prove
+that there AREN'T positions that far away, I now believe that I have
+never seen a proof that there ARE.))
+
+Date: 31 Jul 1980 10:34 am PDT (Thursday)
+From: Woods at PARC-MAXC
+Subject: Re: 180 degree twists
+In-reply-to: ALAN's message of 31 July 1980 13:06-EDT
+To: CUBE-HACKERS at MIT-MC
+
+It appears that Singmaster, Thistlethwaite, and just about all the cube
+hackers I know at and around Stanford consider anything you can do
+with one wrist motion to be a single twist.  Since this gives a more
+accurate measure of how complicated a sequence is, I'm happy with it.
+Why do you folks at MIT insist that you're right and the world is wrong?
+
+(I admit it complicates the notation.  My own cube notation uses two chars
+per twist, one being the face and the other being the direction: left-arrow
+for counterclockwise, right-arrow for clockwise, down-arrow for 180 -- isn't
+extended ASCII wonderful?)
+
+	-- Don.
+
+
+Date: 31 July 1980 1413-EDT (Thursday)
+From: Sandeep.Johar at CMU-10A
+Subject: cube group theory.
+To:  cube-lovers at mit-mc
+Message-ID: <31Jul80 141352 SJ61@CMU-10A>
+
+      In one of the previous letters on the subject of cubing
+there was a letter from some one offering to put together a piece
+on group theory and cubing, I for one would certainly be interested in
+seeing it. When I took my cube apart and tried to put it together
+I wondered as to how many ways there are of putting it together
+so that the cube is unsolvable, i.e. how many equivalence classes
+are there which are 'wrong'.
+Any one worked it out, I would but group theory is unfortunately not
+my strongest subject.
+				Sandeep
+
+ACW@MIT-AI 07/31/80 14:28:38
+To: cube-lovers at MIT-MC
+Yeah, we have a prejudice against regarding
+180-degree twists as atomic.  I understand
+your feeling that a 180-degree twist is
+intuitively a single operation.
+
+Many of the cube-hackers at MIT became
+interested in the mathematical aspects of
+the cube, and the preference for counting
+quarter twists arose from this (admittedly
+rather Spartan) mathematical viewpoint.
+
+When the cube first appeared, the mathematicians
+among us instantly exclaimed, with great
+delight, "Wow, here we have a group, whose
+elements are possible manipulations of the
+cube, and whose binary operation consists
+of following one manipulation with another."
+We immediately got interested in group-
+theory questions like, "What is the order
+of this group?"  "Does it have any interesting
+subgroups?" and, in general "What kind of
+object is this group?  Does understanding
+it help us solve the cube better?"
+
+There are several common ways of representing
+groups.  One is as a subgroup of a permutation
+group.  This doesn't really help in the case of
+the Hungarian Cube, because it is too close
+to what the cube really is: few new facts or
+insights are revealed.  Another way is with
+generators and relations.  This means, to list
+a few basic group elements from which the whole
+group may be derived by multiplying them together.
+
+We soon figured out (along with hundreds of other
+mathematically-inclined cube-hackers) that the
+whole group of possible manipulations could be
+generated from six elements: the quarter-twists
+of each of the six faces.  This observation
+later turned out to be crucial in calculating
+the order (number of possible states) of the group.
+
+Hence our predilection for counting quarter-turns.
+The half-turns were already accounted for, and
+we thought of them as two juxtaposed quarter-turns.
+I guess some of us believe that the mathematical
+structure of the cube group is built on quarter-
+turns.  Those whose delight in the cube is not
+mathematical will not agree: after all,
+a half-twist is as easy as a quarter-twist
+to perform.  But you will miss things like
+the fact that many useful manipulations
+are 8, 12, or 24 quarter-turns long.  If you
+count half-turns, you get a whole spectrum
+of random move counts, thus missing some
+fundamental  (and as yet little-understood)
+kinship between these manipulations.
+
+Of course, if you are not interested in such
+things, any measure of complexity (why not
+count equator twists?  why not penalize for
+counter-clockwise twists, since they are
+marginally harder for right-handed people to
+do?) will suffice.
+
+   ---Wechsler
+
+
+Date: 31 JUL 1980 1431-EDT
+From: RP at MIT-MC (Richard Pavelle)
+To: CUBE-LOVERS at MIT-MC
+
+Sorry to spoil your day, but.....
+
+As you may know Ideal Toy has international rights to the manufacture
+and distribution of the cube. I just spoke to a fellow from Ideal
+who is writing up a solution booklet for them and he told me the
+following:
+1) When Ideal first bought the rights (and by the way Rubik gets
+   nothing- his "institute" gets it all) they discussed various
+   national promotion schemes. One of them was to offer 1000K bucks
+   to the first person to solve it less than 1/2 hour- that right
+   1 million.
+2) One of the first stores in NY to carry it put adverts in the paper
+   offering $50 to anyone who could solve 1 face in 1/2 hour. They
+   lost $3,000 before they ended the offer the next day.
+3) A fourth grade girl from Florida solved the cube in 3 weeks and can
+   now do it in under 5 minutes.
+4) The 2x3x3 solid does exist and will be marketed by Ideal later this
+   year. However, instead of colors it has "dominoe" like faces, whatever
+   that means.
+
+Date: 31 Jul 1980 16:44 PDT
+Sender: McKeeman.PA at PARC-MAXC
+Subject: Re:  The shortest solution?
+In-reply-to: ALAN's message of 31 July 1980 13:06-EDT
+To: Alan Bawden <ALAN at MIT-MC>
+From: (Bill) McKeeman
+cc: CUBE-HACKERS at MIT-MC, Lynn.ES
+
+A lower bound on the number of twists can be derived as follows:  There are
+4.3*10^19 distinct reachable arrangments of the cube.  Suppose the moves are
+restricted to the (more than sufficient) set RLFBUD.  Then there are at most six
+independent choices at each step and the number of reachable places is bounded
+by 6^n.  That gives
+	6^25 < 4.3*10^19 < 6^26,
+or 26 moves as the (probably unachievable) minimum.  If all single-hand-motion
+twists,  R RR RRR L LL .... DDD are allowed, there are 18 choices, giving
+	18^15 < 4.3*10^19 < 18^16,
+or 16 moves as a minimum.  This isn't very interesting since Singmaster has
+examples 18 twists away.  If the orientation of the center squares is also
+considered, then the combinatoric is 8.8*10^22, and the minima are, respectively,
+30 and 19.
+
+Date: 31 Jul 1980 5:13 pm PDT (Thursday)
+From: Woods at PARC-MAXC
+Subject: Re: The shortest solution?
+In-reply-to: McKeeman's message of 31 Jul 1980 16:44 PDT
+To: CUBE-HACKERS at MIT-MC
+
+You can do better than that for a lower bound!  Say you consider all
+single-hand-motion twists to be okay.  Then yes, there are 18 such,
+but there's no point in twisting the same face twice consecutively, so
+after the first twist the tree branching factor is only 15.  In fact, there's
+no point in twisting a face twice if the only intervening twist was done
+on the opposite face; if we look at the operations of the form "twist face
+X thusly and the opposite face thusly", there are 45 initial such operations,
+and 30 at each succeeding branch, but since some branches now represent
+two twists and some only one twist, it's much harder to compute the
+minimum depth of the tree.
+
+	-- Don.
+
+
+Date: 31 JUL 1980 2159-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: The shortest solution?
+To: McKeeman at PARC-MAXC
+CC: CUBE-HACKERS at MIT-MC
+
+    Date: 31 Jul 1980 16:44 PDT
+    Sender: McKeeman.PA at PARC-MAXC
+    In-reply-to: ALAN's message of 31 July 1980 13:06-EDT
+    From: (Bill) McKeeman
+
+    A lower bound on the number of twists can be derived as follows: There
+    are 4.3*10^19 distinct reachable arrangments of the cube.  Suppose the
+    moves are restricted to the (more than sufficient) set RLFBUD.  Then
+    there are at most six independent choices at each step and the number
+    of reachable places is bounded by 6^n.  That gives
+	    6^25 < 4.3*10^19 < 6^26,
+    or 26 moves as the (probably unachievable) minimum.
+
+This is not an improvement on my result.  I (and the rest of the cube
+hackers I know) consider a unit move to be a 90 degree twist in EITHER
+direction.  You are only considering CLOCKWISE 90 degree twists.
+
+Let me point out that if we were to count twists your way, we would
+no longer have a metric.  Both the quarter twist method and Singmaster's
+method result in a measure of distance that is a true metric.
+
+    Date: 31 Jul 1980 5:13 pm PDT (Thursday)
+    From: Woods at PARC-MAXC
+    Subject: Re: The shortest solution?
+    In-reply-to: McKeeman's message of 31 Jul 1980 16:44 PDT
+    To: CUBE-HACKERS at MIT-MC
+
+    You can do better than that for a lower bound!  Say you consider all
+    single-hand-motion twists to be okay.  Then yes, there are 18 such,
+    but there's no point in twisting the same face twice consecutively, so
+    after the first twist the tree branching factor is only 15.  In fact, there's
+    no point in twisting a face twice if the only intervening twist was done
+    on the opposite face; if we look at the operations of the form "twist face
+    X thusly and the opposite face thusly", there are 45 initial such operations,
+    and 30 at each succeeding branch, but since some branches now represent
+    two twists and some only one twist, it's much harder to compute the
+    minimum depth of the tree.
+
+	-- Don.
+
+Singmaster's notes are aware of these factors, that is how he improves
+on the 16 count computed by McKeeman to arrive at 18.  Similarly I
+used the same factors to improve on the 12^n argument for quarter
+twists (which gives 19 as a lower bound) to arrive at the number 21.
+
+I also compute 24 as the quarter twist lower bound for the extended
+cube (considering orentations of the center faces).
+
+Date: 1 Aug 1980 11:53 PDT
+From: Lynn.ES at PARC-MAXC
+Subject: Re: cube group theory.
+In-reply-to: Sandeep.Johar's message of 31 July 1980 1413-EDT (Thursday),
+ <31Jul80 141352 SJ61@CMU-10A>
+To: Sandeep.Johar at CMU-10A
+cc: cube-lovers at mit-mc
+
+Singmaster ("Notes on the 'Magic Cube'", p. 12 of edition 4) gives 12 classes or
+"orbits" of assemblies, each one such that the other 11 cannot be reached without
+disassembling the cube.  To quote Singmaster, "This also means that if we
+reassemble the cube at random, there is only a 1/12 chance of being able to get
+back to START," and, "It is advisable to reassemble in the starting pattern."
+Singmaster's notes have several pages of relevant group theory for those
+interested.
+/Don Lynn
+
+Date: 1 Aug 1980 12:20 PDT
+From: Lynn.ES at PARC-MAXC
+Subject: Re: Sorry to spoil your day, but.....
+In-reply-to: RP's message of 31 JUL 1980 1431-EDT
+To: RP at MIT-MC (Richard Pavelle)
+cc: CUBE-LOVERS at MIT-MC
+
+2)  Another TRUE story of rubiking:
+
+The May Company department stores in the Los Angeles area held contests at
+four of their stores when they started carrying the cube, a couple of months
+ago.  The object was to solve one face in three minutes with their scrambled
+cube.  Reward was a 50 buck gift certificate.  They allowed about 6 people every
+fifteen minutes to enter for two days.  The store where I won (and my 10 year
+old daughter, my wife, and three of my next door neighbors) had 21 winners.  I
+assume the other three stores had similar numbers.  They also gave away lots of
+cube tee shirts for "good tries".
+
+I got my cube the night before the contest.  But it took me another month to
+solve the whole thing.  I might have worked faster at it if the megabuck prize
+had been offered.  But then you all would have also.
+
+4) Singmaster (edition 4, p. 34) reports on the Rubik domino (2x3x3 cubies), and
+says each cubie has spots like a domino (1 up to 9).  They are to be lined up in
+numeric order.  Top and bottom (the 3x3 faces) are two different colors.
+Unfortunately, Singmaster laments, magic square type patterns (all directions add
+to same number) are not possible, since all edges are even, all corners odd.  The
+mechanics of the device are said to be "more complicated than for the Magic
+Cube."
+
+/Don Lynn
+
+
+Date: 1 Aug 1980 15:47 PDT
+From: McKeeman at PARC-MAXC
+Subject: Re: The shortest solution?
+In-reply-to: ALAN's message of 31 JUL 1980 2159-EDT
+To: ALAN at MIT-MC (Alan Bawden)
+cc: McKeeman, CUBE-HACKERS at MIT-MC
+
+Alan,
+
+Sorry I missed your earlier words of wisdom on the subject.  Anyway, I am
+interested in how you show any of these is, or is not, a metric.  Can you
+forward same?
+
+Thanks,  Bill
+
+
+Date: 2 August 1980 01:55-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject:  a metric for the cube group.
+To: CUBE-HACKERS at MIT-MC, McKeeman at PARC-MAXC
+
+First off, a metric is a function (call it D) that assigns a
+non-negitive number to every pair of points in some set.  This number
+is to be thought off as the distance between those two points.  The
+function must satisfy the following:
+
+For all a, b and c
+1) D(a,b) >= 0
+2) D(a,b) = D(b,a)
+3) D(a,b) = 0 if and only if a = b
+4) D(a,b) + D(b,c) >= D(a,c)
+
+(Number 4 is usually called the "triangle inequality".  It is the
+constraint that most makes D act like a distance, and not something
+random.)
+
+We wish to construct a metric on the set of all attainable cube
+configurations.  So from now on, those lower case letters will
+represent cube configurations.
+
+Now we have recently been talking a lot about methods of counting the
+number of "twists" that it takes to perform certain manipulations of
+the cube.  We have been looking for a function (call it T) that
+assigns a non-negitive integer to each manipulation.  I claim that it
+is obvious that any such function should satisfy the following:
+
+For all M and N
+1) T(M) >= 0
+3) T(M) = 0 if and only if M = I	(I is the identity manipulation)
+4) T(M) + T(N) >= T(MN)
+
+(We adopt the convention of using upper case letters to represent
+manipulations.  Also we shall use M' to denote the inverse manipulation
+from M.)
+
+Now manipulations can be applied to configurations to yeild other
+configurations.  We use aM to denote the configuration resulting from
+applyint the manipulation M to the configuration a.  (Note that
+(aM)N = a(MN), so we may omit the parens and simply write aMN.)
+
+Now how may we use our twist measuring function T to obtain a metric
+on the configurations?  Again I think it is obvious that we wish the
+relationship D(a,aN) = T(N) to be true for all configurations a, and
+all manipulations N.
+
+It is easy to show that given that D(a,aN) = T(N), metric property
+number 1 is equivalent to twist measure property number 1.  Similarly
+for numbers 3 and 4.  But what about metric property number 2?
+
+Well, if T(N) = D(a,aN), and D(a,aN) = D(aN,a) (property 2!), and
+a = aNN', then we have that T(N) = D(aN,aNN') = T(N').  So the missing
+property of twist measures must be that T(N) = T(N').
+
+So this means that if we agree that T(L) = 1, and we like metrics
+(how can we use words like "distance" unless we have a metric?), then
+T(LLL) = T(L') = T(L) = 1.  We can argue about T(LL) some other time!
+
+Date: 2 Aug 1980 12:26 PDT
+From: McKeeman at PARC-MAXC
+Subject: Re: a metric for the cube group.
+In-reply-to: ALAN's message of 2 August 1980 01:55-EDT (yawn)
+To: Alan Bawden <ALAN at MIT-MC>
+cc: CUBE-HACKERS at MIT-MC
+
+Alan,  I enjoyed your presentation.  I am convinced that counting the RLFBUD
+manipulations will not give a metric.  I do not, however, see an easy way to
+compute twists T(M).  I think one gets a metric only if one takes the minimum
+over some set of manipulations.  That is, take a set, AM, of atomic moves
+including their inverses, let AM* be the strings of AM, and |M| be the length
+of M in AM*.  Then
+	D(a, b) = min |M| such that a = bM
+defines a metric.  D(a,b) would sometimes be undefined if AM did not generate
+the whole group.  The recent discussion on shortest solutions is in fact about the
+maximum of such a T(M) for all M in some AM*.
+
+Bill
+
+
+Date: 3 August 1980 02:20-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: more on metrics
+To: McKeeman at PARC-MAXC
+cc: CUBE-HACKERS at MIT-MC
+
+Yes, it is true that the four conditions I gave for twist measures
+don't guarentee that the function will behave anything like the kind
+of complexity measure we are looking for.  I was only trying to show
+how some of the properties you might expect of a twist measure could
+be used to generate a metric, so I didn't actually need strong enough
+properties to ensure reasonable twist measures.  The additional property
+I have been using to assure reasonability is the following:
+
+5) For all M, if T(M) > 1, then there exists an N such that
+0 < T(N) < T(M) and T(N) + T(N'M) = T(M).
+
+Note that N'M has the property that 0 < T(N'M) < T(M) (easy to show)
+so the two manipulations N and N'M are both "simpler" than M.  We can
+thus easily show that any manipulation M can be expressed as the
+product of T(M) twists (where a twist is defined as a manipulation
+such that T(N) = 1).
+
+Date:  4 Aug 1980 1156-PDT
+From: Dave Dyer <DDYER at USC-ISIB>
+Subject: cube permutations
+To: cube-lovers at MIT-MC
+
+
+ I'm not quite satisfied with the numbers that have been quoted
+for various cube groups.  I believe they are probably correct,
+but I haven't seen anything resembling a satisfactory sketch
+of a proof.
+
+Number of Reachable Positions:
+
+  The standard calculation runs like : we have 8 corners that can
+be in all 8! arrangements, and 12 sides that can be in all 12!
+arrangements, except that the total permutation must be even.
+( I'll talk about orientations later)
+  I can accept this figure as an upper bound, but can anyone demonstrate
+that all the positions not ruled out can actually be reached? The only
+way I can think of is an actual construction, which means finding
+a generator for the group (for instance of corner cube positions) and
+showing that its order is 8!.  This is somewhat less than elegant,
+and requires an unspecified bit of magic to 'find' a generator
+for the group.
+  I also don't like the recourse to geometric arguments ( the corners
+and sides can't be interchanged ) but I am willing to accept it.
+
+Number of Reachable orientations:
+
+  A similar line of reasoning is used to argue the number of reachable
+orientations : the amount of twist on all corners and (independantly)
+on all sides is a multiple of 360 degrees.  I haven't seen a demonstration
+that all the not-forbidden orientations are actually reachable.
+
+Finally, I haven't seen a demonstration that the orientation and permutation
+subgroups are indepentant, that is, that you can get to an arbitrarily
+selected location and an arbitrarily selected orientation at the same
+time.  This assumption is the basis for Singmasters claim that there
+are 12 orbits of cubes : ( even-spacial-permutation X even-side-orientation
+X one-of-three-corner-orientation = 2 X 2 X 3 = 12 )
+-------
+
+Date: 4 August 1980 20:36-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: cube permutations
+To: DDYER at USC-ISIB
+cc: CUBE-LOVERS at MIT-MC
+
+The part of the proof that shows that you can actually reach all the
+configurations in a particular equivalence class is not particularly
+elegant.  Basically, you have to appeal to the details of a particular
+cube solving algorithm.
+
+For example, I have a tool that "flips" two edge cubies in place,
+without desturbing anything else.  This tool shows that I can orient
+the edge cubies in ANY even permutation of the edge cubie faces.  The
+fact that I cannot obtain any odd permutations is a result of the fact
+that a quarter twist is itself an even permutation of the edge cubie
+faces.
+
+Most people can examine their own cube solving tools and see that in
+fact, they are capable of obtaining all the configurations not
+forbidden by the familiar constraints.
+
+Date:  4 Aug 1980 2204-PDT
+From: Davis at OFFICE-3
+Subject: Cube Permutations
+To:   ddyer at USC-ISIB
+cc:   cube-lovers at MIT-MC
+
+The following two transformations are useful in demonstrating that all of the
+claimed elements of an equivalence class of positions can be reached.  Using
+the RLFBUP notation, the transformation RB'R'B'U'BU reverses two of the corner
+cubies and leaves all other corner cubies in place (It does, however, shuffle
+around the side cubies, and does some random twists to the corners).  If the
+above transformation is repeated four times in a row, everything is left
+exactly fixed, except that three corner cubies are each rotated one-third of a
+turn.  By then performing the inverse of this operation on two of the three
+corners which were turned and a new corner, it is not hard to see that any two
+corners can be the only ones moved, and that they are each rotated one-third of
+a turn in opposite directions.
+
+If we look at just the corners alone, and ignore in-place rotation, since we
+can exchange any adjacent pair, we can obviously get to all permutations of the
+corners.  A similar argument can be made to show that all the edge cubies can
+be arranged arbitrarily (permuted arbitrarily, that is).  An easy
+transformation rotates three of them (among themselves) on a face, and since we
+are also allowed to rotate the face, it is easy to generate a transposition of
+any pair.
+
+Unfortunately, the two operations described above are not independent.  If we
+just look at the blocks and label them ignoring color, a primitive (one-quarter
+turn) transformation moves four corners into four corners, and four edge cubies
+into four edge cubies.  If this is viewed as a member of a permutation group,
+it is obviously even (the set being permuted is all the movable cubes).  Thus,
+at least half of the positions are impossible.  If we ignore the corner cubies,
+and look at the colors of the edge cubies, every primitive rotation rotates the
+four front colors, and the four colors around the outside, again, an even
+permutation.  Since one of the above used coloring and no corner cubes, and the
+other did not, there must be at least a factor of 4 impossible positions.  A
+much more complicated argument shows the necessity of a factor of three in the
+set of impossibles.  (Does anyone know of a simple way to see this?  I just did
+the obvious thing of defining "standard" orientations of every cube in every
+corner, and showed that all the primitive transformations caused the total
+rotation away from standard to be a multiple of 2 pi.)
+
+Using the transformation which flips any two in place, and the two discussed
+above, it is not hard to see that the factor is at most and at least 12.
+
+Boy,  It sure is hard to prove things on a computer.  On myy notes with
+diagrams and all, this is perfectly clear, but I get confused trying to read my
+online proof.  I hope that someone can make some sense out of it.
+
+-------
+
+Date:  6 AUG 1980 0939-EDT
+From: JURGEN at MIT-MC (Jon David Callas)
+Subject: Random Notes on Cubism
+To: CUBE-LOVERS at MIT-MC
+CC: JURGEN at MIT-MC
+
+I am beginning to feel competant enough to jump into the fray, so ...
+1)	language: I guess that RLUDFB has become the de facto lg. for cubing.
+(by the way, how IS 'RLUDFB' pronounced?) Is this to include the IJK rotations
+that ACW described on 7-19? They are very handy, but I know that there is a desire tokeep the lq. brief. Also what (if anything is being done with the center
+slices that Bernie used while describing the higher crosses? Given RLUDFB+IJK
+notation,  they are easy algorithms (subroutines?) that can be described as:
+
+	FPC {floor-parallel center} := udK
+	BPC {body-|| center}	    := fbI
+	BSC {body-slicing center}   := rlJ
+
+without IJK, they're much more complex. Perhaps this is a case for using
+RLUDFB & IJK.
+
+	2) I have been playing a little with the group of rotations, twists
+ and so forth. I thought that it mighht be very wieldy until I remembered that Don Woods has given us a transform with period 1260. (Is it just my
+imagination or is 1260 important? it seems like a familiar number) This means
+(by la Grange's thm ) that the order of this group is some integral multiple
+of 1260 (ugh!) That eliminates hand-enumerating (at least by me) it. How
+much does anyone else know about this, and are thre any interesting subgroups?
+It also seems that this thing might be related in some way to the dihedral gps.
+but I'm not sure.
+
+	3)Somewhat connected with (2) above, it would be nice if we compiled
+"Famous Transforms I Have Known" or something to that effect. Not only would
+it help in finding my desired sbgp, but it would help keep some of the
+folklore out of cubing (while there is nothing wrong with folklore,
+there are problems when falsities (especially VERY inobvious ones) creep
+into the body of lore. Folklore also does tend to cause duplication of
+effort and that most of us have probably been wasting time re-inventing
+the Pons Ansinorum (which, by the way, IS 'rrllffbbuudd', isn't it?)
+Since I'm suggesting this nonesense, I guess it's only fair to
+volunteer to do this compendium (unless someone else is dying to).
+
+	4) Would it be possible to modify :cube to work on a
+printing tty? I really don't care if it produces large volumes of paper.
+I am avoiding implementing my own form of a Cube program on my
+APPLE ][ (see my notes above on duplication of effort), if I can
+get away with using :cube, but at least the Apple display will be pretty.
+
+	5) There MUST be a better way to check for an impossible cube
+than solving for it. While there is no shame in solving a bad cube,
+there IS a little embarassment, and there certainly is no honor in it , either.
+Besides, the anti-intuitionist part of me finds solving-as-proof distasteful.
+
+	6) Has any one taken 'Rubik's Cube ' apart? I have tried prying
+the edge cubie as mentioned, and all I did is hurt my thumb. I'm afriad
+to use any sort of tool, lest I break the little beast.
+
+	7) Can we get a Cubing Bibliography, including Singmaster's articles,
+and the Games & Puzzles article and anything else anyone finds? (ONce
+again, since I suggested it, I'll do it if need be.)
+
+	8) Are Singmaster's 'orbits' REAL permutation-group type orbits,
+or just equivalence classes? I'm confused by his choice of words.
+
+				-happy cubing,
+					Jurgen@mc
+
+
+Date: 6 August 1980 12:22-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Reply to Random Notes on Cubism
+To: JURGEN at MIT-MC
+cc: CUBE-LOVERS at MIT-MC
+
+
+1) I guess the RLUDFB notation is pretty standard, but the part about
+using lower case letters to represent inverses isn't.  I find it
+pretty distasteful and much prefer using "'".  This has the added feature
+that you can write: (RLU)' to indicate the inverse if RLU.  (I KNOW that
+it is just U'L'R', but sometimes one wants to make the distinction.)
+
+2) Yes, lots of things are known about the group and its subgroups.
+Start by reading old cube-hackers mail while you wait for your copy
+of Singmaster to arrive.
+
+5) Yes, there is an easy way to tell if a cube is solveable without
+actually trying it.  Here it is:
+
+Three conditions must be true: a) The sum of the rotations of the
+corner cubies must be a multiple of 360 or 2 pi (depending on how you
+count!).  b) The permutation of the faces of the edge cubies must be
+even.  c) The permutation of all the cubies must be even.
+
+8) Yes, they are real orbits.
+
+Date: 6 Aug 1980 09:50 PDT
+From: Lynn.ES at PARC-MAXC
+Subject: Re: Random Notes on Cubism
+In-reply-to: JURGEN's message of 6 AUG 1980 0939-EDT
+To: JURGEN at MIT-MC (Jon David Callas)
+cc: CUBE-LOVERS at MIT-MC
+
+I have taken my cube apart several times (several friends wanted to see its
+innards), with knife, screwdriver, letter opener, etc.  It doesn't seem to hurt it.  I
+assume you are referring to the "twist the top 45 degrees, then pry up on an
+edge" instructions, which I used.  The springiness in the way the 6 centers are
+held together seems to allow this prying without damage.
+
+I think the compilation of transforms and bibliography is a great idea, and I will
+back your candidacy for the job.  Several references of both types are buried in
+the previous messages to cube-lovers.  I would favor using Singmaster's
+extensions of the RLUDFB to describe the results of a transform.  Combinations of
+two of the set RLUDFB specify edges, and three give the corners.  Then
+statements like "this transform moves URF to DBL" (or briefly "URF => DBL")
+imply not only the position within the cube, but the rotation of the cubie also.
+That is, the U face of URF corner moves to the D face of position DBL.
+
+/Don Lynn
+
+
+Date: 6 Aug 1980 1131-PDT (Wednesday)
+From: Mike at UCLA-SECURITY (Michael Urban)
+Subject: Ideal Toys
+To: cube-lovers at mc
+
+   Has anyone learned whether Ideal will be "supporting" Rubik's Cube
+with some vehicle like Parker's "Soma Addict" newsletter of some years
+past?  They will certainly be missing a bet if they don't.  Just the
+number of people who would pay for a solution...
+ ...hmm...maybe we shouldn't suggest it to Ideal after all..
+	Mike
+-------
+
+
+Date:	  6 August 1980 1453-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  Parsing cubes
+To:	  CUBE-LOVERS at MIT-MC
+
+I had been taking my cubes apart by hand, as described.  I have
+found that they INDEED seem to suffer from it, at least
+the C. Hungaricus (see earlier letter, I have taken neither
+of the other species apart).  They become disconnected and
+loose, and turn into a clattering collection of colligenous
+junk, to paraphrase the famous wizard.
+
+A fitting solution to answering visitors' queries about the inside of
+cubes lies in a retired cube (which broke due to impact with the floor,
+the central cross shattered) which lies in a little box in dissociated
+cubies for perusal of passers-by.  This cube which served me well in
+life, now serves even in retirement, by saving me from having to take
+apart others.
+
+Date:  6 Aug 1980 1223-PDT
+From: Dave Dyer <DDYER at USC-ISIB>
+Subject: 'cube lovers digest'
+To: cube-lovers at MIT-MC
+
+
+ A U.S. Mail Cubists publication, in the grand traditon of Lifeline
+and the Soma newsletter, is a good idea.  Some Cubist with time on his
+hands could be in business instantly, if he could convince Martin Gardner
+to plug it in his (allegededly forthcoming) Mathematical games column.
+-------
+
+Date:  6 Aug 1980 1247-PDT
+From: Steve Saunders <SAUNDERS at USC-ISIB>
+To: RP at MIT-MC, Cube-Hackers at MIT-MC
+
+We ought to adopt a distinctive name for cube-devotees. Several terms have
+been used in messages to this list; unfortunately, most of them are already
+taken by other groups:
+
+	a "Cuban" is a citizen of Cuba,
+	a "Cubist" is an artist of a certain school.
+
+I propose a new word for us:
+
+	a "Cubik" (from Cube and Rubik) is interested in Rubik's Cube.
+
+This should be taken to mean anyone strongly interested in, or addicted to
+playing with, the cubes in question.
+
+	a "Cubemeister" is a full expert in the manipulation of R'sC.
+
+This term, also used on this list, should remain for the restricted meaning of
+"one who has truly mastered the art of Rubik's Cube".
+
+		Steve
+-------
+
+Date: 6 Aug 1980 1241-PDT (Wednesday)
+From: Lauren at UCLA-SECURITY (Lauren Weinstein)
+Subject: Random Notes on Cubism
+In-reply-to: Your message of  6 AUG 1980 0939-EDT
+To: JURGEN at MIT-MC
+CC: CUBE-LOVERS at MC
+
+I have taken my cube apart.  Simply rotate the "top" surface so that
+it is offset by 45 degrees to the rest of the cube.  Then pry up one
+of the edge cubies (I used a small, thinbladed screwdriver.)  The
+cubie pops right up, and the rest of the cube will come apart easily.
+
+It is really a spectacular design... it is so elegant and yet so simple.
+
+--Lauren--
+-------
+
+
+Date:  6 August 1980 16:46 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: Random Notes on Cubism
+To:  Lauren at UCLA-Security (Lauren Weinstein)
+cc:  JURGEN at MIT-MC, CUBE-LOVERS at MIT-MC
+In-Reply-To:  Message of 6 August 1980 16:14 edt from Lauren Weinstein
+
+I do not feel I am being overcautious or overobvious
+in warning the potential cube dismantler to only reconstruct
+the cube SOLVED after dismantling, lest it be placed
+(11 to 1 odds against you) in an unsolvable
+orbit by accident!!!
+
+Date:  6 August 1980 16:48 edt
+From:  Greenberg.Multics at MIT-Multics
+To:  Steve Saunders <SAUNDERS at USC-ISIb>
+cc:  RP at MIT-MC, Cube-Hackers at MIT-MC
+In-Reply-To:  Message of 6 August 1980 15:47 edt from Steve Saunders
+
+I have generally been willing to award the designation "cubemeister"
+to anyone who can reproducibly solve the cube from randomness
+, in an organized fashion (i.e., some small number of minutes).
+I feel it is reasonable to grant this title to those  who
+have achieved this, even if their methods are highly unorthodox, or they have not
+familiarized themself with any other persons cube knowledge, etc.
+
+Date:  6 August 1980 16:52 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: 'cube lovers digest'
+To:  Dave Dyer <DDYER at USC-ISIb>
+cc:  cube-lovers at MIT-MC
+In-Reply-To:  Message of 6 August 1980 15:23 edt from Dave Dyer
+
+I am really interested in when the _ Gardner is going to get his
+act together and publish THE cubing article-- each month for the last
+n I have eagerly taken the cover of SciAm and been disappointed.
+This is clearly THE mathematical game (siNce the inception of
+SciAm, with the possible excpetion of Conway's LIFE), and
+I wonder what he's waiting for.  About a week ago, I actually dreamt
+that I opened the SciAm wrapper and found the Cube on the cover,
+introducing a WHOLE ISSUE about it (Social implications,
+Ancient Cubing, Cubing in the Soviet Union, etc...)
+
+Date: 6 Aug 1980 1:51 pm PDT (Wednesday)
+From: Woods at PARC-MAXC
+Subject: Singmaster to talk at Stanford
+To: Cube-Lovers at MIT-MC
+
+For those Stanford/Xerox/nearby people who aren't on the "AFL" mailing
+list (and haven't heard about this from Frances Yao, who arranged it):
+
+------------------------------------------------------------
+Date:  5 Aug 1980 1626-PDT
+From: CSD.ULLMAN at SU-SCORE
+Subject: AFL
+To: Algorithms for Lunch Bunch: ;
+
+The speaker on Aug. 12 will be David Singmaster.  He will talk about the
+manipulation of the Hungarian magic cube.
+------------------------------------------------------------
+
+(AFL meets 12:30 Tuesday in Margaret Jacks Hall room 301.  Bring a lunch.)
+
+
+Date:  6 Aug 1980 1909-PDT
+From: CSD.VANDERSCHEL at SU-SCORE
+Subject: Orbit Classification
+To: CUBE-LOVERS at MIT-MC
+cc: CSD.VANDERSCHEL at SU-SCORE
+
+Having read the CUBE-LOVERS mail, I note a recurring theme of dismay
+that there is no clearly stated procedure for deciding whether a given
+configuration is reachable (or solvable) or not.  Furthermore, I share
+Dyer's view that there has been no persuasive presentation of the fact
+that there are precisely 12 equivalence classes of permutations under
+the transformations permitted by the cube.  In this note, I intend to
+clear up this situation for the benefit of the less sophisticated
+readers of this material.
+
+I should apologize at the outset for my ignorance.  I have not read
+Singmaster's pamphlet, nor have I communicated with any of the
+knowledgeable people around here at Stanford on the subject of cubes.
+My knowledge stems entirely from my own personal efforts at solving
+cubes and what I have gleaned from CUBE-LOVERS mail.  So I hope
+readers will be tolerant of any lengthy explanations of well-known
+cube-lore.
+
+COMMENTS ON NOTATION
+
+I will start by offering my two-bits-worth on notation.  It is
+relevant because I will use some of it later.
+
+I prefer to call the cubies in the centers of the faces "face cubies",
+because "center" and "corner" both start with a "C".  (Also, I have
+worked with other 3X3X3 cubes and tended to use "center" for the one
+in the middle that you cannot see.)
+
+I do not agree that there is any need for notation to describe
+orientation of the whole cube or reorientation of it.  For discussion
+purposes, you should pick one orientation of the cube (based on the
+direction in which its face cubies are oriented) and leave it that
+way.  All transformations can be described relative to that
+orientation.
+
+Rotating a center-slice should not be considered to be a move, since
+it changes the orientation of the cube.
+
+Since it is not the case that all cubes have the same color pattern,
+no direct reference should be made to color.  Instead the exposed
+faces of any cubie should be identified in terms of the direction
+(LRFBUD) they will face when the cubie is in its home (or at START)
+position relative to the chosen orientation of the cube.
+
+When I was learning to work cubes, the concept of complementarity
+played a critical role.  (I do not claim my methods are good. It takes
+me about 20 min.)  It is certainly handy to have a way of talking
+about pairs of opposing faces.  I think most would agree that the top
+and bottom can be referred to as "horizontal" faces, and left and
+right can be called "lateral" faces.  For front and back, I really do
+not know a good word; I suggest calling them "extremal", since their
+face cubies are the closest and most distant from the observer's point
+of view.
+
+
+ORBIT CLASSIFICATION (for the uninitiated)
+
+Introduction -
+
+It is possible to define some "parity" concepts that simplify stating
+the characterization of the equivalence classes of cube
+configurations.  The precise definitions will follow; but to start
+with, we will name them:
+
+	Edge Permutation Parity (EPP = 0 or 1)
+	Edge Orientation Parity (EOP = 0 or 1)
+	Corner Permutation Parity (CPP = 0 or 1)
+	Corner Orientation Parity (COP = 0, 1, or 2)
+
+A configuration is reachable if COP and EOP are zero and CPP=EPP.
+
+More generally, setting TPP=CPP+EPP mod 2, we can define
+
+	Total Permutation Parity (TPP = 0 or 1).
+
+Then the Parity Vector, defined by (TPP, EOP, COP), can be used to
+represent the equivalence class of a configuration.
+
+Permutation Parities Defined -
+
+Background: A permutation of [1,n] is considered to be even (0) or odd
+(1) depending on whether an even or odd number of pair swaps is
+required to restore the set to original order.  You can compute it by
+counting the number of reversals in the sequence - ie., the number of
+pairs, (p,q) such that p>q and p precedes q.
+
+For the cube, you can assign a position number (1-8) for each of the
+corners and also a number (1-12) for each of the edge positions.  For
+each cubie, you can the speak of its home position number and its
+current position.  Writing down home position numbers in order of
+current position gives a permutation of natural numbers in which you
+can count reversals to see if it is odd or even.  This is done without
+regard to orientation.
+
+Properties: A quarter turn is an odd permutation of the four edges
+involved and also of the four corners.  Thus a quarter turn changes
+both EPP and CPP but leaves TPP unchanged.  TPP is preserved by all
+twists.
+
+Edge Orientation Parity Defined -
+
+For each edge cubie consider its Oriented Distance from Home, defined
+to be the smallest number of quarter turn twists required to put it in
+its home position with correct orientation.  It is no bigger than 4.
+As an example, an edge cubie at home with the wrong orientation is at
+an oriented distance of 3.  EOP is the sum modulo 2 of the Oriented
+Distances from Home for all edge cubies.
+
+Properties: For each edge cubie affected, a quarter turn either
+increases or decreases its Oriented Distance from Home by 1.  Since 4
+edge cubies are affected, the net effect must be even.  Thus all
+twists preserve EOP.
+
+Corner Orientation Parity Defined -
+
+Looking head-on at the apex of any corner you can consider twisting it
+to any one of three positions.  For any given corner cubie we define
+its individual orientation parity to be the number of 120 degree
+counter-clockwise twists required to bring the horizontal face of the
+cubie into horizontal position relative to the whole cube.  COP is the
+sum modulo 3 of the individual parities.  (Since it is three-valued,
+it could be argued that COP ought not to be called a "parity", but
+that fouls up the parallelism in the discussion.)
+
+Properties: Twisting a horizontal face does not change the orientation
+of any corner.  Twisting an extremal or lateral face does alter
+orientations.  Consider a counter-clockwise quarter turn of either
+kind of vertical face.  For each of the two corner cubies that remain
+in the same horizontal face, the orientation parity decreases by 1
+modulo 3.  For the other two, it increases by 1.  Again, the net
+effect is zero.  COP is preserved by all twists.
+
+Equivalence Classes -
+
+There must be at least 12 orbits, since all transformations preserve
+the Parity Vector, (TPP,EOP,COP), and it has 12 possible values.  To
+show there cannot be more, you must show, given two configurations
+with the same Parity Vector, that one can be transformed into the
+other.  The first paragraph of the note from Davis to DDYER, dated
+Aug. 4, indicates how the corners can be permuted and reoriented.  We
+need to be a little more careful about the interaction between the
+processes that rearrange corners and edges.  Suppose we are
+considering going from a configuration A to a configuration B, and
+consider the intermediate stage C at which we have permuted and
+reoriented the corners to agree with the target configuration B.
+First we observe that the EPP of C must agree with that of B, whether
+or not A and B have the same CPP.  Thus there is an even permutation
+of the edges of C that will put them in the desired target positions
+of B.  This permutation can be generated by swapping appropriate pairs
+of edge cubie pairs.  Consider the intermediate stage D achieved after
+all edge cubies are in their desired positions.  Now the EOPs of D and
+B agree, so the number of edge cubies with wrong orientation must be
+even.  This can be corrected by flipping an appropriate set of edge
+pairs in place.
+
+The Extended Problem -
+
+If the orientations of face cubies are to be considered then we
+introduce
+
+	Face Orientation Parity (FOP = 0 or 1).
+
+It is the number of quarter turns modulo 2 required to get all the
+face cubies back to starting position.  Adding this fourth component
+to the Parity Vector yields 24 equivalence classes.  Existence of
+appropriate transformations for moving about within equivalence
+classes was indicated by ALAN and CMB in their notes of Jul. 15.
+
+Complementary Configurations -
+
+A configuration may be said to be complementary if every color exposed
+on a face of the cube either agrees with that of the face cubie on
+that cube face or comes from the parallel opposing face.  There seems
+to be a fair amount of interest in such positions.  It is easy to see
+for such configurations that COP and EOP are 0.  Thus the
+configruation is reachable if and only if its TPP is 0.  This can be
+determined easily by counting "wrong" cubie faces - ie., edge or
+corner cubie faces with the color complementary to that of the face
+cubie on the same cube face.  TPP is 0 if and only if this number is a
+multiple of four.  (It is always even.)
+
+If you restrict yourself to 180 degree twists, you can generate only
+complementary configurations.  Thus the more interesting complementary
+configurations tend to be those that require quarter turns to achieve.
+
+
+A REDUCED PROBLEM ?
+
+Suppose you lock up four of the axles and consider turning just two
+adjacent faces.  This Two-Faced puzzle deals with only 15 of the
+cubies.  I got the bright idea of playing with a logically jammed cube
+after I had already developed a crude methodology for working cubes.
+I figured that with a simpler problem I might gain some new insights.
+Actually, I got confused.  In retrospect, this is not so surprising.
+I think that most of us would grant that if you can work Two-Faced
+cubes, you can certainly work the whole thing.  The point is that you
+tend to encounter many of the same sorts of problems, but you have
+fewer degrees of freedom for dealing with them.
+
+The argument already given shows that the Two-Faced cube must have at
+least 12 equivalence classes.  It is not clear to me that there are
+not more in this case.  I have not discovered all the tools to show
+that two members of the same equivalence class (in the regular sense)
+can be transformed into one another.  Can anyone out there resolve
+this issue?
+-------
+
+Date:	  7 August 1980 0930-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  Singmaster Talk
+To:	  CUBE-LOVERS at MIT-MC
+
+I was wondering, given Woods' message, if anybody on either coast
+would like to corral Singmaster into speaking in Massachusetts,
+and if someone on the West coast would let us know what he says......
+
+Date: 7 Aug 1980 09:49 PDT
+From: McKeeman at PARC-MAXC
+Subject: Proposed Glossary
+To: Cube-lovers at MIT-MC
+
+Cube  -- Any interesting cube-shaped puzzle.
+To cube -- Doing anything with a Cube.
+Cubology -- The science of Cubes.
+Cubologist -- One who (seriously) studies Cubology.
+cuber  -- One who cubes.
+cubnik  -- A fanatik cuber.
+cubelet  -- A (conceptually) cubic subpiece of a Cube.
+cubie  --  A cute cubelet.
+Cubemaster  -- An exceptional cuber or Cubologist.
+Cubophobia -- A mental disease found in mates and co-workers of cubniks.
+Cubomania -- A mental disease found in cubniks.
+Cubotomy, Cubectomy, Cubotherapy -- Cures for Cubophobia, Cubomania.
+
+
+Date:  7 Aug 1980 1246-PDT
+From: Dave Dyer <DDYER at USC-ISIB>
+Subject: improve your cube
+To: cube-lovers at MIT-MC
+
+
+ I just squirted a tiny amount of dry graphite lubricant into the cracks
+of my cube, and it now works MUCH more smoothly.
+-------
+
+Date:  7 Aug 1980 1345-PDT
+From: Stuart McLure Cracraft <McLure at SRI-KL>
+Subject: Where to find them?
+To: cube-lovers at MIT-MC
+
+Does anyone know where I can find one of these cubes?
+The old cube mail mentions May Co. and K-Mart but we don't have
+any of those around here.
+-------
+
+Date:  7 Aug 1980 1438-PDT
+From: CSD.VANDERSCHEL at SU-SCORE
+Subject: Re: Where to find them?
+To: McLure at SRI-KL, cube-lovers at MIT-MC
+cc: CSD.VANDERSCHEL at SU-SCORE
+In-Reply-To: Your message of 7-Aug-80 1345-PDT
+
+A sure way, but not so fast and not so cheap (about $14), is MARKLINE
+in Mass.  Call 1-800-225-8390 and use your plastic money.
+-------
+
+Date:  7 August 1980 1751-EDT (Thursday)
+From: Sandeep.Johar at CMU-10A
+Subject: Re: Where to find them?
+To:  Stuart McLure Cracraft <McLure at SRI-KL>
+CC:  cube-lovers at mit-mc
+Message-ID: <07Aug80 175123 SJ61@CMU-10A>
+In-Reply-To: Stuart McLure Cracraft's message of 7 Aug 80 15:45-EST
+
+    The cube is available via mail order from:
+     LOGICAL GAMES, Inc
+     4509 Martinwood Dr.
+     Haymarket, VA 22069
+
+  I have not tried it, so there is no guarantee. I found an ad
+in some magazine (i do not remember, but could find it if some one
+wants to know the type of mag.). They ask you to send $9 for the cube,
+and/or $4 for "notes on the magic cube". VA residents to add sales tax.
+
+   Or you can do what I did, telephone every toy store in the area,
+till you find one that stocks it.
+- Sandeep
+
+Date: 7 Aug 1980 2:58 pm PDT (Thursday)
+From: Woods at PARC-MAXC
+Subject: Re: Where to find them?
+In-reply-to: McLure's message of 7 Aug 1980 1345-PDT
+To: Stuart McLure Cracraft <McLure at SRI-KL>
+cc: cube-lovers at MIT-MC
+
+Also try: Stanford Bookstore and Gemco.
+
+
+Date:  8 Aug 1980 1702-PDT
+From: Isaacs at SRI-KL
+Subject: where to buy them
+To:   cube-lovers at MC
+
+  In the Palo Alto/Stanford area, the cheapest place to buy the cubes
+seems to be Toys-R-Us (in Redwood City) at $7.85. They say they sell
+the dIdeal version.  Logical Games sells the US made version; they are
+the little guys, and perhaps should be supported.  L.G. price is
+actually $7.50, plus $1.50 postage.  Two, therefore, are 'only'
+$16.50.  They were, I believe, the first U.S. importer; the owner is
+Hungarian and had bought two for his children after visiting Hungary.
+
+The children didn't like them, but he did, and he imported 1000 more and
+sent them around (including 10 to Stanford Book Store).  When Ideal took
+over the rights (by offering the Hungarians more money, I assume), he
+started manufacturing them here - the white plastic versions.  He is also
+a source for the Singmaster pamphlet, and an 'Anginvine' solution.
+-------
+
+Date:  9 Aug 1980 1610-PDT
+From: CSD.VANDERSCHEL at SU-SCORE
+Subject: Two-Faced Cubing
+To: CUBE-LOVERS at MIT-MC
+
+Having posed the question about Two-Faced cubes, I could not resist
+thinking about it some more and I have pretty well resolved it.  If
+you want to try your hand at Two-Faced Cubing, DON'T READ THIS !
+
+
+Suppose we only allow twists of the Right and Back faces.
+
+Edge Orientations: You cannot change the orientation of any edge
+cubie.  So there are 2^7 different ways to orient them.
+
+Edge Permutations: Any permutation is possible. (Must be even if
+corner permutation is.)
+
+Corner Orientations: Just like the complete cube.
+
+Corner Permutations: The twists generate a subgroup containing only
+one-sixth of the 6! possible permutations of the 6 corners.  I do not
+know a simple way to see why this has to be so.  (I have a messy
+argument that is no more persuasive than enumerating them.)
+
+
+
+Solving It -
+
+Do whatever it takes to put the two right-front corners in their home
+positions (without regard to orientation).  Rotate the back face to
+bring (say) the URB corner to correct position.  Of the six possible
+permutations of the remaining three corners, you must have the correct
+one.  (That is, assuming you started from a reachable configuration.
+Otherwise, this is a way to find a unique representative of the
+equivalence class of corner permuations.)
+
+(RB')^3(R'B)^3 may be used to fix the orientations of the corners.
+
+(RRBB)^3 may be used to permute the edges.  (You can always get the
+two edge cubie pairs you want to swap in vertical opposition.)
+
+
+
+Counting Things -
+
+There are 6!X3^6X12!/(6X3X2) reachable configurations.
+
+There are 6X3X2X2^7 equivalence classes.
+
+
+
+
+Anyone for Three-Faced Cubing?
+-------
+
+Date: 10 Aug 1980 1709-PDT
+From: Davis at OFFICE-3
+Subject: A solution subroutine
+To:   cube-lovers at MIT-MC
+
+Someone in an earlier message suggested that it might be a good idea
+to keep a list of various interesting move combinations.  My
+particular set of algorithms for solving the cube includes one which
+flips two side cubies in place, and leaves all the others fixed.  The
+method I had been using to do this up until now was 26 twists long,
+and I think that it was fairly standard -- find a set of moves which
+flips one edge in place and randomizes the rest of the faces, then move
+another side into the same position and invert it.  Others that I
+talked to since then have indicated that they used the same method.
+
+Anyway, today I found a 22 quarter-twist version which does the same thing.
+I would be interested if anyone has found shorter ones; I am also
+interested in seeing the various other primitive transformations that
+others use to solve the cube.  Using the FBUDRL notation, here is my
+sequence:
+
+   (F'U')^3(FU)^2L'U'LR'FFL'RU'LFF
+
+  -- Tom Davis
+-------
+
+Date: 10 AUG 1980 2154-EDT
+From: MJL at MIT-MC (Matthew Jody Lecin)
+To: CUBE-HACKERS at MIT-MC
+
+In the September issue of OMNI, in the "Games" section is a 2 page
+introduction to the cube, complete with a few sketches showing a
+solved cube, an example of rotating one side, and an example of a really
+RANDOMIZED cube.
+	For those of us not familiar with the cube (I still can't find
+one...sigh) this article was very enlightening.  It also includes the
+address from which one can get Singmaster's "Notes on the Magic Cube".
+
+							{Matt}
+
+Date:	  10 August 1980 2252-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  Edge-cubie flipping algorithms
+To:	  Davis at OFFICE-3, CUBE-LOVERS at MIT-MC
+
+Here is my (and my apprentice :cube's) 2-edge-cubie-flipping subroutine,
+which was named the "Spratt Wrench technique" after the fellow I was
+talking to while cubing when I discovered it.  It is 24 quarter turns,
+but is frumiously easy to perform rapidly blindfolded.
+
+It is impossible to express it in FDRUBL (or FBURDL or FLUDBR or
+whatever we're calling Singmaster-notation; let the euphony of the
+acronym be the issue).  Let F be the usual, front clockwise.  Let Q
+(please dont pounce on me for introducing a notation) be rotating the
+floor-parallel centerslice clockwise as viewed from heaven above.
+
+(It is clearly not IMPOSSIBLE to express it in FLURBD or BRULFD or
+whatever, but it would be like analyzing a 4-voiced composition in terms
+of frequencies instead of harmonies.)
+
+Formula:    (FQ)^4(QF)^4
+
+The sequence (FQ)^4 is called a right-handed Spratt Wrench;
+(FQ^-1)^4 is a left-handed one.  Studying the effect of both of these
+(which are used non-paired in other phases of my cube solution (the
+sequence given above is used only during the final cadenza)) is
+worthwhile; the equivalence of the formula above to ((rh wrench)(turn
+the cube over)(lh wrench)), the form in which I first used it,
+is due to ALAN.
+
+The elegant formula above is best executed by a right-handed person, who
+will grasp the Cube from above with his/her left hand, and use his/her
+right hand to alternately turn the FRONT (which we will allow to face
+right, for ease of manipulation), and the lower layer and two layers
+alternately (while holding the top) to accomplish the Q moves.  This
+procedure can be done with great grace and rapidity, esp.  on the Ideal
+cubes.
+
+Date: 11 Aug 1980 09:51 PDT
+From: McKeeman at PARC-MAXC
+Subject: Re: Edge-cubie flipping algorithms
+In-reply-to: Greenberg's message of 10 August 1980 2252-edt
+To: Bernard S. Greenberg <Greenberg at MIT-Multics>
+cc: Davis at OFFICE-3, CUBE-LOVERS at MIT-MC
+
+Bernard,
+
+Actually, using Alan's IJK convention and the macro facility I proposed, your 24
+move edge-flip is:
+
+    Q=U'DJ';  -- horizontal center slice 90o cw macro
+    (FQ)^4(QF)^4
+and
+    (FQ')^4
+
+You didn't introduce notation, you just weren't very formal.  You may some
+trouble getting the metric people agree that it only takes 24 moves however.
+
+As for what we call the extended Singmaster notation, (1) I do not know that it
+originated with him, (2) I do not know that he cares, (3) it could be called
+RubikSong, CubeTalk, TwistSpeak, etc.  More to the point, who bothers to name
+the notation of calculus, or group theory, or tensors.  Once standarditis sets in, a
+notation just gets used, not named.  For time being, I nominate RubikSong,
+giving a bow to both known sources of our pleasures.
+
+Bill
+
+
+Date:  11 August 1980 15:17 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: Edge-cubie flipping algorithms
+To:  McKeeman at PARC-Maxc
+cc:  Davis at OFFICE-3, CUBE-LOVERS at MIT-MC
+In-Reply-To:  Message of 11 August 1980 12:51 edt from McKeeman
+
+Yes, indeed, you can express Q as U'DJ', that's legit.  I can't see any way
+you can count (FQ)^4 as more than 24 quarter turns, for thats all it is.
+In the eyes of the people who count turns, not quarter turns, the
+QQ in the middle (4 quarter turns) can be expressed as U^2D^2,
+where U^2 and D^2 each count as one, which could be thus contributory
+to counting the formula as 22 turns, but surely no more than 24 by
+any kind of metric.
+By the way, my description of the left-handed wrench in the
+annotations was in error, it should have been (F'Q)^4, not (FQ')^4.
+(The formula (FQ)^4(QF)^4 is correct as stands).
+
+Date: 12 Aug 1980 0823-PDT
+From: Davis at OFFICE-3
+Subject: The Spratt Wrench
+To:   greenberg at MIT-MULTICS
+cc:   cube-lovers at MIT-MC
+
+Thanks for sharing the wrench with us.  It is a truly wonderful tool.
+Another question I had had is now answered.  It was basically:  Once I
+get near the end of a solution, I often have more than one set of
+edge flips to do.  Is there some scheme which will easily allow me to
+do more than one.  After staring at how the wrench works it is clear
+that in many cases, with one or two preliminary flips, or flips between
+the applications of the two halves of the wrench, wonderous things can
+be accomplished.
+
+Also, having worked on my own for quite awhile, and being more of a
+mathematician than a computer scientist, I decided that a standard
+rotation was CCW, and most of my algorithms favor turns in that direction.
+In converting the wrench to my own particular quirks (I can't turn things
+CW very well anymore), I discovered that essentially any combination of
+F and F', and of Q and Q' work just fine.  In other words, if "f" stands
+for F or F' and "q" stands for Q or Q', then (fq)^4 (qf)^4 is a wrench.
+(Better leave f and q fixed through the whole transformation, however.)
+
+This next comment is off the subject, but I had been meaning to ask it
+for some time.  I have one of the white cubes, and after reading the
+message some time ago about underwater cubing, my cube "accidentally"
+fell into a pool too.  Well, the white ones float, which I found very
+annoying.  Does anyone know if the specific gravity of the hungarian
+or Ideal cubes is greater than 1?  I'm also not so sure that I would
+recommend that others try to teach their cubes to swim -- mine now
+has a disturbing squeak as it turns -- I fear that something has rusted
+inside.
+Tom Davis
+-------
+
+Date: 12 Aug 1980 15:10 PDT
+From: McKeeman at PARC-MAXC
+Subject: Singmaster's talk at Stanford
+To: Cube-lovers at MIT-MC
+
+David talked at ICME (Int. Conf. Math. Ed.) in Berkeley on 8/11 about using the
+cube to teach group theory.  He talked to some Rubniks at Stanford this noon.
+Among the tidbits:
+
+Notes on Rubik's 'Magic Cube', Fifth Edition, Preliminary Version, 75 pgs., $5.
+Including: A Detailed Step-By-Step Solution, Thistlewaite's Best Algorithm (52
+moves), Conway's Monoswop, Rubik's Duotwist and much more.   Write:
+David Singmaster, Polytechnic of the South Bank, London, SE1 0AA, UK.
+
+He brought a 3x3x2 domino version, and a 2x2x2 Stanford homebrew which is
+apparently nearly identical to a Japanese patent showed up.  The 2x2x2 is
+conceptually just a pasting of big overlapping corners on the standard 3x3x3
+version although the one we saw was nicely machined in brass and some kind of
+ivory-like material.
+
+Singmaster counts double twists, e.g., R^2, as single moves.  He doesn't see much
+use for the IJK whole-cube moves.
+
+The Thistlewaite algorithm goes from subgroup to subgroup as follows:
+
+Starting with a random cube, reachable by
+      closure(F,B,R,L,U,D) = the full group
+7 moves to a cube reachable by
+      closure(F,B,R,L,U^2,D^2)
+13 moves to a cube reachable by
+      closure(F,B,R^2,L^2,U^2,D^2)
+15 moves to a cube reachable by
+      closure(F^2,B^2,R^2,L^2,U^2,D^2)
+17 moves to a cube reachable by
+      the identity
+----
+52 moves total.  Singmaster expects the 17 to be 15 by the time he returns to
+London.
+
+The Hungarians have cube races. A contestant take his/her cube out of its box
+and unscrambles the judges' randomizing in about 50 seconds.   Apparently they
+file and lubricate their cubes with loving care to reach such speeds.
+
+The U.S. made white cubes violate no patents because Rubik never applied for
+foreign rights.  Hmmmm.   Is that ethical?
+
+Bill
+
+
+
+
+
+Date: 15 Aug 1980 1558-PDT
+From: CSD.VANDERSCHEL at SU-SCORE
+Subject: Re: A solution subroutine
+To: Davis at OFFICE-3, cube-lovers at MIT-MC
+cc: CSD.VANDERSCHEL at SU-SCORE
+In-Reply-To: Your message of 10-Aug-80 1709-PDT
+
+I am surprised about all this talk about edge flipping algorithms.
+Once I learned the concept of mono-ops, I immediately proceeded to
+invent a very simple, and quite obvious, edge monoflip.  You can do it
+by manipulating only the front and the horizontal center slice
+(hereinafter referred to as the "slice").  A virtue of the procedure I
+am going to describe is that you can think of it in geometrical terms
+and explain it that way.  The result is that it is easy to remember
+and invert, and you do not need any notation.
+
+Hold the cube with the two edge cubies you want to flip in the U face.
+Have one of them, the current "target", in the UF position.  You can
+think of its "socket" as moving with the F face.  Now turn the target
+cubie over to the left side.(F') Then move it to LB position by
+turning the slice.  Next flip its socket over to the right.(FF) Now
+put it back in its socket by giving the slice a half turn.  Finally,
+return it to the U face.  Don't worry about the fact that you have
+changed the orientation of the cube, as that will be fixed when you
+reverse the process for the other edge you want to flip.
+
+Conceptually, this is a 5 move sequence.  Since two moves are slice
+moves, you have to count it as 7.  If you want to count quarter-turns,
+it would be 10.  In any case, it is simple.  (Singmaster has published
+even shorter monoflips.)  But to me the most important thing is that
+it is obvious on inspection that it has to do what you want.  The way
+I look at it, you are using the slice for manipulation and storage.
+You remove the target from between its neighboring corners and put it
+back with the opposite orientation.  (Is this as obvious to everyone
+else as it is to me?)
+
+The same way of looking at things allows you to create edge monoswaps.
+Just put the two edge cubies you want to swap in diagonally opposite
+corners of the slice and give it a half turn before putting them back.
+You can arrange it so that they will or will not be flipped.  Such
+moves are their own inverses.
+
+Using the D face for storage and manipulation, you can also easily
+invent monotwists and monoswaps for corners in the U face.  For all
+such moves that I have created, it is apparent to me what needs to be
+done and why it will work.  No memorization of obscure move sequences
+with magical effects.
+-------
+
+ACW@MIT-AI 08/15/80 19:27:57 Re: "Monoflips"
+To: CUBE-LOVERS at MIT-MC
+
+M. van der Schel has come up with a very elegant move,
+indeed.  Easy to do, easy to think about.  But he sets
+no records.  A 22-qtw diflip was reported some time
+ago to this mailing list.  It is true that the monoflip
+takes only 10 qtw.  Unfortunately, this does not allow you
+to do a 20-qtw diflip, since the monoflip is only useful
+as a tranform: in other words, when accompanied by its inverse.
+
+Monoflip U Monoflip' U' still has 22 qtw.  I suspect this to be
+a minimum.
+
+   ---Wechsler
+
+
+Date: 15 Aug 1980 2347-PDT
+From: Stuart McLure Cracraft <McLure at SRI-KL>
+Subject: Undocumented position?
+To: cube-lovers at MIT-MC
+
+I've been attempting to use the 'method' Singmaster offers in his 5th
+edition pamphlet for solving my cube, and have arrived at an
+undocumented position. Perhaps I'm overlooking something and a
+cubeophile out there can offer an explanation of where I'm going
+wrong.  I have reached the position described after step 6 just before
+proceeding to step 7. The bottom and top faces are one color, the
+center slice cubies are corrrectly colored and the upper edge cubies
+(the + pattern) are correctly oriented. Two of the upper adjacent
+corners are correctly oriented but the opposite two are not.  At this
+point Singmaster deals with putting the rest of the U corners in their
+correct slots although not orienting them correctly necessarily. If we
+represent my U corners with
+
+		1	2
+
+		3	4
+
+then the cubies want to be rearranged as follows
+
+		1 and 2 want to be exchanged
+
+I don't see any way of getting this operation out of the cases
+documented by Singmaster. What gives?
+-------
+
+Date: 16 Aug 1980 0010-PDT
+From: Mclure at SRI-KL
+Subject: Aha.
+To:   cube-lovers at MC
+
+Looks like one of his alternatives does appear when the cube is
+turned upside down.
+-------
+
+Date: 16 AUG 1980 0338-EDT
+From: MJL at MIT-MC (Matthew Jody Lecin)
+To: CUBE-HACKERS at MIT-MC
+
+Seems the ever popular CUBE is getting places.  In this month's issue
+of one of America's popular men's entertainment magazines there is a picture
+of Zsa Zsa Gabor holding a cube, and a small explanation of what the cube is,
+and who's marketing it, etc.  (Isn't Zsa Zsa Hungarian?) The way she is
+holding her cube you see 2 faces - orange and green - and it is right.
+
+							{Matt}
+
+Date:  16 August 1980 12:45 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: Undocumented position?
+To:  Stuart McLure Cracraft <McLure at SRI-KL>
+cc:  cube-lovers at MIT-MC
+In-Reply-To:  Message of 16 August 1980 02:47 edt from Stuart McLure Cracraft
+
+Would somebody out there who has Singmaster version 5 benefit us with
+a brief (or as long as you can stand) description of the
+algorithm for solution contained therein, as the rest of us
+wait for International Snail Mail? Thanks, -Bernie.
+
+Date: 16 Aug 1980 1053-PDT
+From: Stuart McLure Cracraft <McLure at SRI-KL>
+Subject: Singmaster's method
+To: Greenberg.Multics at MIT-MULTICS
+cc: cube-lovers at MIT-MC
+In-Reply-To: Your message of 16-Aug-80 1245-PDT
+
+Well, it does have a copyright on the method itself so I doubt
+it would be reasonable to type the thing in. It is rather long too.
+
+Briefly, he first puts the U edges in place and then the U corners.
+One face is a single color now. He turns over the cube so that it
+is on the bottom and puts the middle layer edges correcty in place
+and then makes the U edges into an even permutation.
+Then he puts the U edges in place and then the U corners.
+Finally he orients the U corners. And supposedly it is solved
+at that point. I haven't had much luck with the method though.
+
+He claims that this method takes less then 200 moves.
+-------
+
+BSG@MIT-AI 08/17/80 17:22:24
+To: CUBE-LOVERS at MIT-MC
+OK, you guys. You asked for it, you got it.  :CUBE will
+now accept typed-in cube configurations. The ^F command
+(control f) to installed :cube prompts for a standard
+ITS file name. If you give ? as the file name, it tells you
+the thing I'm about to tell you.
+
+The hack is as follows. You copy AI:BSG;CUBE TEMPLT into
+some choice name of your own, and follow what it says
+inside of it, editing it to look like your cube configuration.
+Then enter :cube, and give the file name in response to ^F.
+
+We do only the most rudimentary checking, for syntax,
+center duplications, only six colors, overambitious file munging.
+We have not yet put in conservation of cubies, let alone
+ALAN's necessary and sufficient solubility conditions. So
+it's quite possible to make :cube go blarmy in this way, so
+be careful.
+
+Occasionally, :CUBE may give an ambiguous description of a 180-degree
+center-slice twist: to disambiguate it, let it do it, and see
+what it did, and do it on your cube.
+
+Go nuts in mid-August, -bsg
+
+BSG@MIT-AI 08/18/80 06:58:28
+To: cube-hackers at MIT-MC
+The ^F command (read in file) of :CUBE has now been augmented to make
+cubie conservation checks; it will tell you by way of what cubie
+is missing if there are duplications. The Bawdenian solvability
+criteria have not yet been implemented.  There is also a brief
+form of the input file in AI:BSG;CUBE BFTPLT.
+
+
+BSG@MIT-AI 08/18/80 19:47:49
+To: cube-lovers at MIT-MC
+As per request of CLIVE, :CUBE ^F now accepts R for RED, Y for
+YELLOW and so forth. See AI:BSG;CUBE TEMPLT for reference.
+
+Date: 19 AUG 1980 0927-EDT
+From: ZIM at MIT-MC (Mark Zimmermann)
+Subject: Singmaster 5th ed. via LOGICAL GAMES
+To: CUBE-HACKERS at MIT-MC
+
+Bela Fzalai at LOGICAL GAMES (Haymarket, VA) told me last night that he
+is out of the 4th edition booklets, but that he has a bunch of the 5th on
+order.  Maybe it would be quicker to get them via him than from
+England directly; I don't know....		Mark
+
+Date: 21 Aug 1980 17:14 PDT
+From: Wastebasket at PARC-MAXC (not authenticated)
+Subject: Re: please add me to your mailing list
+In-reply-to: CSD.CVW's message of 21 Aug 1980 1536-PDT
+To: CSD.CVW at SU-SCORE
+cc: cube-lovers at MIT-MC
+
+Please send requests like "please add me to your mailing list" only to the
+maintainer of the list, not to everyone on the list.  Thank you.
+
+
+Date: 24 AUG 1980 1623-EDT
+From: RP at MIT-MC (Richard Pavelle)
+Subject: Plumbers Cross?
+To: CUBE-LOVERS at MIT-MC
+
+There have been discussions of Plummer's Cross which I believed to be
+unique. Lets have an almost visual representation such as the following
+for one face:
+
+X Y X
+       def
+Y Y Y  ===  (Y,X)
+
+X Y X
+					(O,B)
+Then Plummer's Cross looks like   (W,G) (G,R) (B,Y) (Y,O)
+					(R,W)
+
+(and this gives the coloring of my cube as well). The point about this
+configuration which I am stressing is that opposite sides have no colors
+in common.
+
+Now I find there is a second cross for which the point above is not valid.
+This cross takes a form			(Y,G)
+				  (R,B) (O,W) (W,O) (B,R)
+					(G,Y)
+Is this known by any Cubists out there?
+
+Date:  24 August 1980 17:52 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: Plumbers Cross?
+Sender:  BSG1.SIPB at MIT-Multics
+To:  RP at MIT-MC (Richard Pavelle)
+cc:  CUBE-LOVERS at MIT-MC
+In-Reply-To:  Message of 24 August 1980 16:23 edt from Richard Pavelle
+
+That is Christmans crross, describedin my earlier letter in which
+I described Plummers cross.
+
+Date: 25 AUG 1980 0907-EDT
+From: ZIM at MIT-MC (Mark Zimmermann)
+Subject: anecdotes from visit to Logical Games Inc.
+To: CUBE-HACKERS at MIT-MC
+
+I visited Bela Szalai on Saturday; his country home near Manassas battlefield
+("Bull Run") is LGI, and he and his family are the employees.  I learned a few
+interesting things:
+--he saw the cube in 1978 Aug, during a trip to visit relatives in Hungary;
+after many delays was able to get some wholesale from the Hungarian gov't., but
+they wanted $1 million for exclusive rights to distribute the things in the
+Western world.  Ideal may have learned of the cube from Bernie DeKovon,
+GAMES magazine editor who is also a toy consultant for them; Ideal paid the
+$10^6 in 1979 Sep.
+--the cube is not patentable in the USA bnecause it was sold publicly for
+over a year in Hungary before patents were applied for; in England, however,
+it is "copyrighted" (equivalent to US patent+trademark) and Ideal has a legal
+monopoly.
+--Ideal will run nationwide TV advertisements for the cube beginning in a month
+or so; something to do with Newton, and including an animated cube which solves
+itself....
+--Bela took out a second mortgage on his home to pay for the plastic molds for
+his cube parts.  He uses white plastic so that it will be possible to print the
+colors on ("pad printing", the same process whereby labels are put on some
+shampoo bottles).  If all goes well, LGI will start making printed-color cubes
+within a month.
+--Bela ordered 300 copies of the 4th edition of Singmaster's booklet in 1980 Jun;
+Singmaster informed him in July that the 4th edition was out of print, but that
+he could have 300 of the 5th edition for the same price as soon as they come
+out.  LGI has >90 orders already pending, and while the remaining <210
+copies of the 5th edition last, Bela is willing to sell them for $4 each...
+whenever they arrive.
+--LGI wholesale prices start at orders for 12 cubes, $6 each plus shipping;
+individuals may want to consolidate their orders to save money.
+--Rubik developed the cube partly as an aid to teaching 3-dimensional
+visualization in students.
+--cube manufacturing is VERY labor-intensive:
+   4 minutes to tap in and glue the caps to cover the internal 6th face of edge
+	     and corner cubes for the 20 pieces necessary to make one 3x3x3
+   1 minute to assemble with screws and springs 5 out of six swivels (central
+	    cube faces) onto the middle cross
+   1 minute to assemble the pieces and screw in the last central face
+   4 minutes to perform final adjustment:  silicone grease, torque up all screws
+	     evenly, rotate every which way to test each cube out, tap in and glue
+	     6 central face caps over screws.
+   6 minutes to apply the color squares to the faces
+Bela can read while performing most of the final assembly, now that his hands have
+had several thousand cubes' practice.  The color application step will be
+eliminated if/when they begin to use pad printing for face coloring.
+--about 4% of cubes are rejected for mechanical reasons, so far
+--could work without gluing in internal faces of sub-cubes, but then about 1 cube
+in 20 would fail...so, they don't
+--READERS' DIGEST phoned to confirm some data, presumably for a story someday....
+
+Date: 26 Aug 1980 1729-PDT
+From: CSD.VANDERSCHEL at SU-SCORE
+Subject: [CSD.VANDERSCHEL: Re: "Monoflips"]
+To: cube-lovers at MIT-MC
+
+Date: 25 Aug 1980 2041-PDT
+From: CSD.VANDERSCHEL
+Subject: Re: "Monoflips"
+To: ACW at MIT-AI
+cc: CSD.VANDERSCHEL
+In-Reply-To: Your message of 15-Aug-80 1927-PDT
+
+When I offered my monoflip, I tried to make it clear that I was
+claiming no superlatives except, perhaps, that of conceptual
+simplicity.  Nor can I claim originality, for I recently noticed that
+Singmaster lists essentially the same move I thought of in his first
+supplement.  It is presented as FUD'LLUUDDR and attributed to David
+Seal.  (Besides, if I claimed originality, it would refute my claim
+of obviousness.)
+
+You indicated that you believe 22 qtw is the best one can do for a
+diflip.  The only sense I know of in which your claim could be valid
+would be a diflip generated by a monoflip and its inverse, where that
+monoflip preserves the set of cubies in a face.
+B'UUBBUB'U'B'UUFRBR'F' is a 16 qtw process that flips a pair of
+adjacent edges, and Singmaster attributes it to Morwen
+Thistlethwaite's computer program.
+
+The simplest mono-ops are those that preserve the set of cubies in a
+center-slice.  For example, FF could be viewed as a monoswap of the
+right and left front edge cubies in the horizontal center-slice.  If
+we denote by "S" a quarter turn of that slice, then FFSFFS' will
+produce any three cycle you might like of edge cubies in the slice
+while leaving the rest of the cube intact.  It also becomes more clear
+how FFSSFFSS produces the well-known double swap through opposing
+faces.
+
+U'FR'UF' is a 5 qtw monoflip that Singmaster attributes to Frank
+Barnes.  It preserves the set of cubies in the RL center-slice.  I
+think it is clear how it works and that you could not possibly do it
+in fewer moves.  Using this monoflip, you can generate a 14 qtw diflip
+for an opposing pair of edge cubies.  I still prefer the move I
+thought of because I seem to be less likely to make a mistake using
+it, it is more readily adapted to any pair of edge cubies, and it is
+about as easy to perform.
+
+				David Vanderschel
+-------
+		---------------
+-------
+
+Date: 27 Aug 1980 0128-PDT (Wednesday)
+From: Dal at UCLA-SECURITY (Doug Landauer)
+Subject: Notation, transforms I like to use ...
+To: cube-lovers at mit-mc,alan at mit-mc
+
+
+After 5 beers and two Drambuies, finally, here we go ...
+
+
+
+
+
+			Here is all of my knowledge and
+			notation regarding the cube ...
+				SPOILER warning
+			these transformations are enough
+			to solve any cube.   I look forward
+			to anyone publishing a compendium;
+			please go ahead and use anything
+			in here.
+
+
+Two notes about my particular cube ...
+it worked fine until I decided to lubricate it (as is recommended in
+one of these cube-lovers messages ... they say to use a graphite lubricant
+(I believe) ... do so.)      DO NOT use "dri-slide".   It is a Molybdenum
+Disulfide lubricant for use with metals and it tends to eat plastic, making
+it harder to turn.   Also (this may be unrelated), three weeks or so after I
+lubricated mine (an Ideal from Toys-R-Us in the San Fernando Valley (in LA))
+one of the facies popped off and now it's out of commission until I try to
+glue it back together.
+
+I found that the descriptions of its inner workings do not do it justice.
+It is indeed a work of 3-dimensional mechanical genius.  To elaborate on
+the descriptions ... the face cubies are about 7 mm thick, and they are
+what holds the other pieces in.  The corner cubies have a growth on their
+"opposite" corners which is roughly cubical but the "inside" corner is
+rounded to allow them to rotate.
+The side cubies (sidies?) have a 7-mm thick disk-like thing sticking out
+of the center of their least visible edge (the one opposite the one that
+the sidie's two colors border on).     It's actually more like a thick
+square with one rounded corner (the inside one).
+
+Anyway, here's a description of my notation followed by a set of
+transformations I use; this is indeed sufficient to fix a cube and
+if you wish to remain self-sufficient in this matter, read no further;
+but then what're you doing on this list anyway?
+
+	happy cubing ....
+		-dalgorf-
+
+flubrd Notation:   (pronounce it `flubberd')  Object names:
+     Faces: f l u b r d stand for the front, left, up, back, right
+	  and down faces respectively.  (up==top and down==bottom)
+     Little cubies
+	  The 6 face cubies (one at the center of each face)
+	  are seldom referred to; use the face name (e.g the f-face cubie)
+	  Side (edge) cubies:	  fl  fu  fr  fd  ul  dl
+				  bl  bu  br  bd  ur  dr
+	  Corner cubies:      flu fur bul bru fdl frd bld bdr
+	  For side and corner cubies, the order of its faces only matters
+	  in permutation descriptions (see below), but by convention, the
+	  corner cubies are all named clockwise starting in front or back.
+     Center Slices
+	  H (`Horizontal'==`floor-parallel') runs through faces f,r,b,l
+	  P (`Parallel' for `body-Parallel') runs through faces u,r,d,l
+	  S (`Slicing' for `body-Slicing') runs through faces u,f,d,b
+Moves:	       The ambiguity between object names and moves is cleared up
+	       by always surrounding a move in angle brackets (<>).
+     A move can be any of the following:
+	  - a single letter, meaning twist a single face or centerslice, or
+	  rotate the entire cube one quarter-turn (see below);
+	  - a move followed by a move indicates those two moves in sequence;
+	  - a number n followed by '(', a move, and a ')' is the same as
+	  repeating the move n times;
+	  - a move followed by a prime ("'") indicates the inverse of the
+	  move --- by convention also all one-letter moves are defined
+	  so that changing the letter's case also inverts the move.
+	  A move may be grouped by parentheses, so that e.g. <(FUDRB)'> is
+	  equal to <B'R'D'U'F'> (ie, undo each twist in reverse order
+	  to undo this whole move).
+     <F> twists f clockwise; similarly for <L>,<U>,<B>,<R>,<D> & l,u,b,r,d
+     <f> twists f counter-clockwise; similarly for <l>,<u>,<b>,<r>,<d>.
+	   Note <F'>=<f>, <f'>=<F>, and so on.
+Extended moves (centerslices and cube-turning)
+     cube-turning:  I,J,K=front-top-right clockwise
+	  <I> move cube's front to top	     <I'> or <i> top to front
+	  <J> move top to right side	     <J'> or <j> right side to top
+	  <K> move right side to front	     <K'> or <k> front to right side
+     centerslice moves
+	  <H> (`Horizontal') move H clockwise as seen from above = <uDk>
+	  <P> move P clockwise as seen from the front = <fBJ>
+	  <S> move S clockwise as seen from the right side = <rLi>
+     Move combinations are two-letter names beginning with C, E or A;
+	  C1-C9 and (CA-CZ, Ca-Cz if needed) describe corner-combinations;
+	  E1-E9 and EA-EZ (Ea-Ez if needed) describe edge-combinations;
+	  A1-A9, AA-AZ & Aa-Az describe combinations that mess with both.
+	  I also use V,W,X,Y,Z and v,w,x,y,z as temporary macros
+Permutations = { list of cubies -> list of new spots }.  The permutation
+     described puts the first list into the new LOCATIONS described by the
+     second list, moving each face of each cubie in the order specified.
+     E.g., <F> does {flu fu fur fr frd fd fdl -> fur fr frd fd fdl fu fdl}
+
+Useful basic corner combinations:
+C1: <6(RurFU)> :: {fdl flu bul -> dlf luf ulb} twist corners clockwise
+C2: <6(rFRuf)> :: {fdl flu bul -> lfd ufl lbu}	 "	"    ccw (lf2 + bul)
+C3: <3(RUru)> :: {frd fur bul bru -> rfu rdf ubr ulb}
+     switch those pairs of corners, twisting each
+C4: <3(fuFU)> :: {frd fur flu bul -> rfu rdf bul flu} (ditto)
+C5: <3(FrfR)> :: {frd fur flu bru -> rfu rdf bru flu} (ditto)
+
+compound ones:
+C6: <lC4L> = <l3(fuFU)L> :: {frd fur fdl flu -> rfu rdf luf lfd}
+     switch those pairs of corners all in the front face
+C7: <C1MC2m> = <6(RurFU)M6(rFRuf)m> :: {fdl bld -> dlf dbl}
+     twist fdl cw and bld ccw.
+C8: <C5C3> = <3(FrfR)3(RUru)> :: {flu bul bru -> bru ufl ulb}
+     cycle three top corners (left two & bru) "cw"
+C9: <C5C4> = <3(FrfR)3(fuFU)> :: {flu bul bru -> bul bru flu}
+     cycle three top corners (left two & bru) "ccw"
+
+Useful basic edge (side) combinations:
+E1: <4(FH)4(HF)> :: {fl fr -> lf rf} twist two sides in place
+E2: <2(ssdd)> :: {fu bu fd bd -> bu fu bd fd}
+     "doubleswap" swaps front for back sides on top and bottom
+E3: <3(FRRF)> :: {fl fr ru rd -> fr fl rd ru}
+E4: <3(ffrr)> :: {fu fd ru rd -> fd fu rd ru}
+E5: <3(URRU)> :: {ul ur rf rb -> ur ul rb rf}
+E6: <3(ffuu)> :: {ul ur fl fr -> ur ul fr fl}
+E7: <3(FLLF)> :: {lu ld fl fr -> ld lu fr fl}
+E8: <3(ULLU)> :: {lf lb ul ur -> lb lf ur ul}
+E9: <E3E4> = <3(FRRF)3(ffrr)> :: {fl fr fu fd -> fr fl fd fu}
+EA: <f(rE3R)E5F> = <fr3(FRRF)R3(URRU)F> :: {fu ul ur -> ul ur fu}
+     cycle top (left right and front) sidies clockwise
+EB: <F(LE7l)E8F> = <FL3(FLLF)l3(ULLU)F> :: {fu ul ur -> ur ul fu}
+     cycle top (left right and front) sidies counterclockwise
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pons Asinorum: HHSSPP (180 degrees on each centerslice)
+Laughter: <4(lrfb)> = <6(lrK)> (but in the latter the cube is KK'd)...
+     Another laugh resolves the cube; a K first produces the 4 crosses.
+Crux Christmani:  <SSHiE2fE2FBE2bE2iE2KjE2> or, call E2 (the doubleswap) `Z',
+ <SSHiZfZFBZbZiZKjZ>.  This is 6 crosses in 3 pairs:  colors go top with
+ bottom, front with right side and back with left side.
+Crux Plummeri (the fancy one): <SHiE2fE2FBE2biE2fE2FBE2bE2jE2>; or (again):
+ <SHiZfZFBZbiZfZFBZbZjZ> or if Y := <iZfZFBZb>, it's simply <SHYYjZ>!
+ This is 6 crosses in 2 sets of three each:  Front, Right and Top each with
+ each other; and Back, Left and Bottom each with each other.
+Greenberg's "well-known center-cubie rotation algorithm" has 12 varieties:
+ Pick two centerslices (say X and Y) and a direction (cw or ccw):
+ <xYXy> does ccw and <YxyX> does cw.	Details:
+     (xyz cw) means the center (face) cubies of the faces x y and z are
+     rotate clockwise; ... ,ccw means counterclockwise.
+     fur cw :: <SpsP> or <sHSh> or <PhpH>, ccw :: <pSPs> or <HshS> or <hPHp>
+     frd cw :: <PspS> or <SHsh> or <PHph>, ccw :: <sPSp> or <HShs> or <HPhp>
+     fdl cw :: <hSHs> or <spSP> or <hpHP>, ccw :: <ShsH> or <psPS> or <phPH>
+     flu cw :: <HphP> or <PSps> or <shSH>, ccw :: <pHPh> or <SPsp> or <hsHS>
+Outstanding questions mentioned in the note about Singmaster's talk:
+(I.e., I ain't seen these yet ... )
+1. Conway's Monoswop
+2. Rubik's Duotwist
+
+(ignore the two lines above beginning with Pick ... and ending with
+... Details:	they're wrong.	 I'd go edit them but my Unix is out
+of space on /tmp and on my filesystem and I only have 300-baud access to
+it anyway).
+
+		Have fun
+		DalGorf
+
+Date: 27 August 1980 1:58 pm PDT (Wednesday)
+From: Woods at PARC-MAXC
+Subject: Lexicon
+To: Cube-Lovers@MIT-MC
+
+We need a term to refer to the fear that someone will randomise your cube.  Any suggestions?
+
+	-- Don.
+
+
+ACW@MIT-AI 08/29/80 13:24:04
+To: Cube-hackers at MIT-MC
+
+    Date: 29 AUG 1980 1316-EDT
+    From: ACW at MIT-AI (Allan C. Wechsler)
+
+
+      On this coast we have a colorful slang term for randomizing the
+    cube.  Hint: the command to randomize the cube in Bernie's
+    :CUBE program is "F".
+
+       ---Wechsler
+
+
+Date: 29 Aug 1980 10:55 PDT
+From: Lynn.ES at PARC-MAXC
+Subject: Re: Lexicon
+In-reply-to: Woods's message of 27 August 1980 1:58 pm PDT (Wednesday)
+To: Woods.PA
+cc: Cube-Lovers@MIT-MC
+
+Incongruphobia seems nice, but may imply more of a fear of lack of order, rather
+than of the change from order to lack thereof.  It doesn't specify the objects that
+are disordered either.  Cubic discombobulaphobia might be a little better in these
+respects.
+
+/Don Lynn
+
+
+MJA@MIT-AI 08/29/80 21:45:41 Re: Knowledge-based Rubik's Cube solver?
+To: cube-hackers at MIT-MC
+Please excuse the previous badly munged versions of this message i accidently
+sent.
+
+	I am taking an artificial intelligence course at the University of
+Illinois at Urbana-Champaign and I need to do a term project for the
+course that involves developing and/or using a knowledge based system.
+Since I am interested in the Rubik's cube and since it seems like
+there are human expert cube solvers (as is evident from msgs on this mailing
+list) that use heuristic knowledge (for example the various macro's (as I like
+to call them, they are more properly called composite elements of the
+group, i guess) that people have come up with to do some particular operations
+on the cube), it seems natural to me that a knowledge based system would
+be just right for this task. I would like to hear:
+
+	(1) Pros/cons on why this can/can't be done and how effective
+such a system would be.
+
+	(2) Considering that I have but one semester to work on this project
+(while concurently taking 5 courses, incl. this AI course) is it reasonable to
+attempt this for a term project? (The actual system would not have to be
+100% complete at the end of the term, but I would at least like to have
+something to show for a semester's worth of work.)
+
+	(3) If this is too ambitious for a term project for a course, what
+about the use of this as a topic for a master's thesis. (I would have until
+the summer of '81 to finish since thats how long my company will wait for me
+to get a master's degree if im going to continue working for them.)
+
+	(4) Of course in addition to all of the above trivia, I would like
+some ideas for such a system (even if it isnt feasable to do in this limited
+amount for time, im still interested in at least thinking about such a system
+with the idea in mind that someday it can be implemented).
+
+	I dont know how interested the majority of the people on this mailing
+list are in knowledge based systems, so we might consider a seperate mailing
+list for knowledge based cube solvers to spare those on the current mailing
+list from mail they dont want.
+
+		/ MJA
+
+
+ZILCH@MIT-AI 08/30/80 01:39:38
+To: CUBE-LOVERS at MIT-MC
+Subjects covered:random notes on the cube and cubing
+
+1> To enable new and old cube-lovers to communicate on an equal basis
+I propose that a file be established that describes FBLRUD
+(or whatever),the I,J,K and centerslice move and any other concepts
+that might be usefull in describing transformations.(I can not do this as I know nothing about establishing files or editting them, and as a tourist I am
+unsure of my status as file-creater.)
+
+2> Today having nothing better to do, I fiddled with the 3x3x2 version
+of the cube (actually I just didn't allow certain moves on my
+3x3x3). At this point I have two transforms which would enable me
+to solve the 3x3x2 version if and when I ever see it. I derived the number of orbits and the reasons behind them, but will not describe them here because
+the 3x3x2 is a novel idea and I don't want to ruin all the fun.
+Also I came up with the idea of a 2x2x3 version which basically operates on
+the same principles as the  3x3x2 , but it looks different.
+   solving the 3x3x2 can give a slight amount of insight about
+Thistlewaite's algorithim ,described by
+McKeeman on 12 Aug. @15:10 PDT.
+
+
+3> On July 15 @1413 EDT, ALAN asked if anyone had learned to solve the extended cube problem independently. I had known the faces could assume different
+orientations when the cube was solved but hadn't done any work on this
+and didn't know what the possible transforms might be. In a later note
+cmb described what his transforms accomplished and from that idea
+I recently derived similar (if not equal) transforms.With a little foresight
+I find that only one of these transforms might be needed.
+ This evening a friend and I came up with a modification to the cube
+construction that would facilitate the extended problem. this is simply affixing  another cubie to each face cubie and coloring appropriatly.
+
+4> As suggested by CSD.VANDERSCHEL on 9 Aug. @1610 pdt has anyone given any
+thoughts to 3-faced cubing (2 types) or 4-faced cubing (again 2
+types). As far as I can tell 5-faced cubing is not profitable.
+Also does CSD.VANDERSCHEL know a good way (at this time) to show
+why only  1/6 of the 6! possible permutations of the corners are possible?
+There is also an extended problem for the 2-faced problem
+involving face orientations.
+
+
+5>An addendum to WOOD's message of 23 JUL. @5:23pm
+regarding repetitive sequences to get to the identity. As it turns out,
+by my calculations the number 1260 is sufficient even including the prblem
+where the faces are permitted to move. The only subcycles of the faces
+themselves have lengths 4,3,2,and of course 1.
+These subccles may immediatly be generated by I (4 times), I^2
+(2 times),<top-to-front>^2<left-to-front> (also 2 times)
+and finally <top-to-front><right-to-top> (3 times).
+(I do not use IJK notation on these last two because I have noticed a little
+disagreement on exactly what these mean.)
+These subcycles make no difference in the total number because subcycles of
+lengths 4,3,and 2 have already been taken into consideration in the computation
+of 1260.
+I have no idea whether th e face cubies might change their orientations in a
+sequence of length 1260,when the faces are allowed to move,
+but I know it does nothe number above 1260 when the faces are not allowed to
+move.
+
+6> Singmaster's solution from his version 5, as reported by McLure
+on 16 Aug. @1053 PDT sounds almost exactly like my solution
+except that I keep the first face completed in the up poition at
+all times. He reported that his method takes less than 200
+(of his) moves. My transformations yield a solution in a maximum of 190
+quarter-twists. My actual solving length (from when I bothered counting)
+averages about 125 qtws , and my time (when I bother) is almost
+consistantly 2.5 minutes, occasionaly under 2, with worst case about 3 min. 10sec when I messed
+up. Usually my fast times do not use all of my algorithms techniques ,
+because they are new to me and I don't know them by heart.
+
+Breakdown of moves:
+1. Top edges in  proper position and orientation 20 (3+6+6+5)
+2. " corners " "	"	"      "	 36 (9+9+9+9)
+3> 3 middle edges " "	  "	   "	   "	   45 (15+15+15)
+4. 4th middle edge in proper position and orientation
+	   and bottom edges in proper orientation  23
+5. bottom edges in proper position		  18
+6.bottom corners in proper position			     20
+7.  "	     "	 "    "     "				 28
+
+       Total						       190
+
+
+Note: in step 4 proper orientation means that say if the down face is
+white , after step 4 all bottom edges will be showing white on their
+down sides.
+
+This algorhitim has not been optimized much and uses lookahead only in step
+4. Step 2 gives the worst case for any corner, but if only worst cases are
+present then they cancel each other out somewhat.
+
+Replys, questions, and comments are welcome.
+
+Chris
+
+
+DMM@MIT-ML 08/30/80 18:41:24 Re: DAL@ucla-security's msg of 27-Aug
+To: cube-lovers at MIT-MC
+Genereally, I have found themacros supplied by DAL to be quite useful,
+but t|ere are a few bugs i've noticed. First of all, oC8&C9,
+I believe DAL has the cw & ccw notations reversed.
+Regarding C7:	What is M? I have not seen it referenced anywhere.
+and last, in maco EB: the last move is f, not F.
+(I`guess it was the 5 beers and 2 Drambuies.)
+
+
+Date:  3 September 1980 2108-EDT
+From: James.Saxe at CMU-10A (C410JS30)
+Subject: Orbit classification revisited
+To:  cube-lovers at MIT-MC
+Message-ID: <03Sep80 210846 JS30@CMU-10A>
+
+Hi, folks.
+
+Having read Vanderschel's msg of Aug. 6, it appears to me that the
+explanations of the orientation parities are unnecessarily complex,
+though the material on permutation parities is presented in a way
+that should be immediately convincing to anyone familiar with the
+notion of even and odd permutations from elementary group theory (and
+anyone who isn't should be!).  Here's my attempt at a more elegant
+demonstration.
+
+In what follows, I will use the term "facelet" to denote any (visible)
+face of a cubie.  Thus, each edge cubie has two facelets and each
+corner cubie has three facelets.
+
+I will address Edge Orientation Parity (EOP) first.  Consider the
+following diagram:
+
+		+-------+
+		|   1	|
+		|0  U  0|
+		|   1	|
+	+-------+-------+-------+-------+
+	|   1	|   0	|   1	|   0	|
+	|0  L  0|1  F  1|0  R  0|1  B  1|
+	|   1	|   0	|   1	|   0	|
+	+-------+-------+-------+-------+
+		|   1	|
+		|0  D  0|
+		|   1	|
+		+-------+
+
+The numbers label absolute positions, not facelets, and therefore
+remain in the same configuration when the cube is manipulated.
+Imagine that a mark is placed on each facelet that occupies a
+position labeled "0" when the cube is in the solved configuration.
+Thus, each edge cubie will have one marked and one unmarked facelet.
+(Unlike the numbers, the marks are attached to the facelets and will
+move as the cube is manipulated).  The parity of an edge cubie in an
+arbitrary configuration is defined as the number labelling the
+position occupied by its marked face, and the EOP is defined as the
+sum of the parities of all edge cubies modulo 2.  A quarter turn of
+any face reverses the parity of 4 edge cubies, thus leaving the EOP
+fixed.  By induction, no sequence of manipulations starting from the
+solved configuration can produce a configuration EOP = 1.  So much
+for EOP.
+
+[Just for grins, here's a cute way to determine the parity of an edge
+cubie without consulting (or reconstructing) the diagram:  Assign
+each of the cubie's two facelets a number in {0,1,2} according as it
+is oriented parallel to its home position ("Self" -> 0), parallel
+to the other facelet's home position ("Other" -> 2) or perpendicular
+to both home positions ("Neither" -> 1); add these two numbers and
+reduce modulo 3 (yes, three!) giving the parity of the cubie.  The
+sum can never be 2 because that would imply that the two facelets
+were parallel to each other.  Here's an addition table with
+double-ended arrows showing the possible transitions:
+
+	      (S) 0   (N) 1   (O) 2
+	    +-------+-------+-------+
+	    |	    |	    |no     |
+      (S) 0 |	0 <-+-> 1   |	+   |
+	    |	^   |	^   |	 way|
+	    +---+---+---+---+-------+
+	    |	v   |no |   |	    |
+      (N) 1 |	1 <-+---+---+-> 0   |
+	    |	    |	|way|	^   |
+	    +-------+---+---+---+---+
+	    |no     |	v   |	v   |
+      (O) 2 |	+   |	0 <-+-> 1   |
+	    |	 way|	    |	    |
+	    +-------+-------+-------+
+
+]
+
+Now for Corner Orientation Parity (COP).  Consider the diagram below:
+
+		+-------+
+		|0     0|
+		|   U	|
+		|0     0|
+	+-------+-------+-------+-------+
+	|2     1|2     1|2     1|2     1|
+	|   L	|   F	|   R	|   B	|
+	|1     2|1     2|1     2|1     2|
+	+-------+-------+-------+-------+
+		|0     0|
+		|   D	|
+		|0     0|
+		+-------+
+
+Once again, imagine that we mark all (corner) facelets which occupy
+positions labeled "0" when the cube is in the solved configuration.
+The parity of a corner cubie in an arbitrary configuration is defined
+as the number which labels the position of the cubie's marked face.
+The COP is the sum of all the parities of all corner cubies modulo 3.
+Inspection of the diagram will reveal that the twists U, u, D, and d
+leave the parities of all corner cubies unchanged.  Any of the other
+possible quarter twists will increment (modulo 3) the parities of two
+corner cubies and decrement the parities of two others, thereby
+leaving the COP unchanged.
+
+[As Vanderschel pointed out, one way to compute the parity of a
+corner cubie by looking at it is to note the number of clockwise (as
+viewed from outside the cube) 120 degree twists of the cubie that it
+would take to bring the marked facelet parallel to its home position.
+Note that the parity of a corner cubie, unlike that of an edge cubie,
+depends on the selection of a particular pair of opposing colors for
+the marked facelets.  While this lack of symmetry may be considered
+unfortunate, it is an inevitable result of the fact that four is not
+divisible by three.  It is easy to show that the COP as a whole is
+independent of the choice of distinguished faces.]
+
+Vanderschel also mentions the extended problem, but does not quite
+make it clear that the FOP changes every time a qtw is done.  This
+constrains all three of {FOP, EPP, CPP} to be the same, so that only
+two of the eight plausible states of the <FOP, EPP, CPP> vector are
+actually achievable by twisting.
+
+				Jim
+
+
+Date:  3 SEP 1980 2123-EDT
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  New problem
+To: CUBE-HACKERS at MIT-MC
+
+
+This was inspired by Tanya Sienko (if that means anything!!)
+
+It is possible for each of the six faces to have a capital "T" on them.
+That is, each face looks like
+
+	X X X
+
+	O X O
+
+	O X O
+
+QUESTIONS:
+	1) How many classes are there?
+	2) How many members are in each class?
+	3) How easy is it to get to them from solved?
+
+My answers:
+	[in a few days, I don't want to spoil the fun]
+
+Good luck, and happy hacking.
+
+					- DCP
+
+
+Date:  3 September 1980 2149-EDT
+From: James.Saxe at CMU-10A (C410JS30)
+Subject: Re: Lexicon
+To:  Woods at Parc-Maxc
+CC:  Cube-Lovers at MIT-MC, James.Saxe at CMU-10A
+Message-ID: <03Sep80 214930 JS30@CMU-10A>
+
+My suggested term for the fear that someone will randomize one's cube
+is "nobility," since that is what sufferers of this phobia typically
+have to solve their cubes.
+
+				Jim
+
+Date:  3 September 1980 2328-EDT (Wednesday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers (and Hackers) at MIT-MC
+Subject:  Addictiveness/Disassembly/Taxonomy/Lubrication/Spoilers
+Message-Id: <03Sep80 232808 DH51@CMU-10A>
+
+Hello.  I saw the notice announcing the formation of this list a couple
+months ago, and decided that it was one of those things I could forgo
+-- until I got my hands on a physical cube.  It was an immediate
+necessity to own one.  I bought an Ideal brand cube, which, I
+understand, is of the species C.  Americanus in spite of its "Made in
+Hungary" label.
+
+I had owned the cube less than ten minutes before a facie cover fell
+off, without the aid of chemical additives.  This was not very
+destructive; just about any gummy material (I used gluestick) suffices
+to hold it on.  However, the screw head revealed by this unusual
+transformation leads to a new method for disassembly.  Unscrewing does
+not stress the cube as does prying, and probably avoids the deleterious
+side-effects observed by Greenberg (16 Aug 1453).  This method is not
+without its hazards, however.  It is EXTREMELY easy to strip the threads
+on the plastic X that holds the cube together.  I have paper shims in
+the two threads I stripped and they seem to suffice.  Still, it is
+probably better just to loosen the screw until the cube comes apart
+with gentle prying.
+
+There is at least one good reason for taking a screwdriver to the cube.
+Mine had been assembled with several of the screws so tight that the
+springs were completely compressed.  Due to mfg inaccuracies in the
+cubies, this made the cube difficult to twist.  By prying each of the
+facies off with a fingernail I was able to correct the tension.
+
+Jim Saxe's cube, putatively of the same species but purchased in a
+different store at 80% the price, has facies which seem impervious to
+this prying even after disassembly a la Greenberg (17 Jul 2118).  Jim
+and I exhausted our fingernails to no avail, and careful prying with a
+knife was unsuccessful.  Additionally, this cube has a strong tendency
+to jam, due either to its uncorrectable looseness or to its edge
+cubies, which have oversized tongues with extremely sharp edges.  The
+differences lead us to believe that our cubes may belong to different
+species in spite of their outward similarity.
+
+I am amazed that anyone would put molybdenum disulfide on their cube.
+Isn't that stuff poisonous?  Graphite works well but is messy if you
+overdo it.  Silicone lubricant was mentioned by Zimmerman (25 Aug 0907)
+-- has anyone any experience with this?  Merrick Furst recommends soap.
+
+For anyone who cubes in public, the only word for LACK of fear that
+someone will F your cube is Cubemeistership.  I made a mistake in taking
+the cube to one session of a recent conference.  The sequence
+4(Borrow)4(Borrow') appeared to have an entropic effect on the cube and
+a negative effect on the transfer of information.
+
+SPOILER WARNING:  I have one transform which I haven't seen here, and
+which I find useful:  an 8-qtw move to permute three corners of a face.
+Specifically, for {fdl flu fur -> ufl rfu lfd} do <fdFUfDFu>.
+Mnemonically, you move a socket back and forth between flu/fdl with the
+f/F transforms, alternating with moving one of the three pointies
+(cornies?)  to be permuted into the socket.  Why it works is a mystery to
+me, but it's useful.
+
+Another, which should be obvious but improves Landauer's (27 Aug 0128)
+C7, is the cw monotwist {flu -> luf in u-face} <fDFdfDF>=<T1>.  Then
+{flu fur -> luf rfu} is <T1U(T1)'u>=<fDFdfDFUfdFDfdFu> taking 16qtw
+instead of 60 (assuming <M>=<i>, <m>=<I>).
+
+All for now. -- Dan
+
+
+Date:  4 SEP 1980 0852-EDT
+From: JURGEN at MIT-MC (Jon David Callas)
+Subject: Lexicon...
+To: woods at PARC-MAXC
+CC: CUBE-LOVERS at MIT-MC
+
+Worse yet is the fear that someone will put your cube in an
+unsolvable orbit......
+			Happy phobias,
+				Jurgen at mit-mc
+
+
+Date: 6 Sep 1980 0021-PDT (Saturday)
+From: Dal at UCLA-SECURITY (Doug Landauer)
+Subject: errata
+To: cube-lovers at mit-mc
+
+Attn:  DMM@mit-ml:
+     No, unless my message got garbled somewhere in the midwest, it was
+     correct about c8 and c9, the three corner-cubie movers.  I.e., c8
+     ( <3(FrfR)3(RUru)> ) cycles them cw, and c9 ( <3(FrfR)3(fuFU)> ) ccw.
+     (Much shorter ways to do similar things exist, e.g. <fdFUfDFu> to
+     move around three front corners (left two and fur) cw).
+	In these descreptions, the `cw' and `ccw' do not refer
+     to individual cubies but rather to the triangle of three cubies involved,
+     that's why I call it "cycle" == move cubies around, rather than
+     "twist" == re-orient a corner cubie in place, or "flip" == do the
+     same for an edge (side) cubie.
+     You're right about EB.
+Attn: Dan Hoey at CMU-10A
+     Regarding C7:  When I first made this list up, I used m,n and o to
+     represent i,j and k because it was unclear which of i,j and k was
+     which.  m is the same as i, and M == I.  My cube-turning moves are:
+      I,J,K=front-top-right clockwise
+	  <I> move cube's front to top	     <I'> or <i> top to front
+	  <J> move top to right side	     <J'> or <j> right side to top
+	  <K> move right side to front	     <K'> or <k> front to right side
+	thank you...
+	... dalgorf
+-------
+
+
+Date:  8 SEP 1980 0853-EDT
+From: ZIM at MIT-MC (Mark Zimmermann)
+Subject: Singmaster 5th; 2x3x3 "domino"
+To: CUBE-HACKERS at MIT-MC
+
+I received the 5th edition of Singmaster's booklet a few days ago, from Logical
+Games, Inc.--presumably they have some $4 copies left (they sent mine 1st
+class mail)....Bela Szalai (LGI) loaned me a 2x3x3 to play with.  Conceptually,
+of course, it's the same as the 3x3x3 with moves restricted to <U,D,F^2,R^2,
+B^2,L^2>...physically, however, it was MUCH less aesthetic to play with...
+turned poorly, and looked ugly.  Bela had a couple of them, both of which
+were rather more "delicate" than the 3x3x3 (in that they tended to get jammed
+or come apart).    --  Mark
+
+Date: 10 Sep 1980 1500-PDT
+From: Alan R. Katz <KATZ at USC-ISIF>
+Subject: randomizing
+To: cube-lovers at MIT-MC
+
+Here's a question for all of you.  How do you maximally randomize a cube?
+In other words, suppose you were going to have a cube solving compitition
+and wanted to make it as hard as possible to solve a cube, what precautions
+would you take?
+
+One thing I would do would be to make sure the corners are not correct in
+relation to each other.  Anyone have other ideas??
+
+				Alan (Katz@isif)
+
+-------
+
+Date:  10 September 1980 18:12 edt
+From:  Greenberg at MIT-Multics (Bernard S. Greenberg)
+Subject:  Re: randomizing
+Sender:  Greenberg.Multics at MIT-Multics
+To:  Alan R. Katz <KATZ at USC-ISIf>
+cc:  cube-lovers at MIT-MC
+In-Reply-To:  Message of 10 September 1980 18:00 edt from Alan R. Katz
+
+My personal theory on making a cube as hard to solve as possible
+is as follows: Put the cube in
+some very complex pretty, regular, pattern, such as the Plummer's
+Cross with centers trebly rotated, or the Pons Asinorum on that
+which looks like the simple Pons:  the challenged cubemeister
+will INVARIABLY say, "Oh,
+this, this is just one of those and solved like this" and go through
+a long hairy procedure, hopefully the wrong one,
+or make an error, or try hard at understanding it, and so forth.
+In short, s/he will take MORE time trying to undo what s/he perceives
+as a "simple" hairy hack than a straightforward application of
+solve-from-random technology.
+
+Date: Wed, 10 Sep 1980 1854-CDT
+Message-id: <337474464.2@DTI>
+From: aramini at DTI (Michael Aramini)
+To: cube-hackers@mit-mc
+Subject: randomizing
+
+	There are two types of aproaches to what can be meant by total
+(or maximal) randomizing. One is to consider states of the cube that
+are maximally far away from being solved (that is the minimal number of
+quarter twists needed to solve from a given state is maximallized.
+
+the other, which may be more useful for making the cube more difficult
+to solve, is based on maximallizing the amount of time it would take
+a person (or a program, for that matter) to solve the cube. Of course,
+since this amount of time is both dependent on the state of the cube, and
+how the person (or program) goes about solving it. Thus the set of most
+randomized positions is dependent on who is solving the cube.
+
+the advantage of the first definition is that it seems to be of more
+theorectical significance (the number of quarter turns needed to
+solve from this position gives you the diameter of the state graph).
+The second approach seems more kludgy since it much less well defined
+since the amount of time it takes to solve the cube if a function of
+many variable besides simply the initial state.
+
+This distinction is much like differing strategies for writing chess
+playing programs, you could write it assuming the oponent to be a
+"perfect" player (as if a complete look ahead to the leaves of the tree
+appraoach were being used by the oponent) or by considering how the
+oponent is likely to play (have the program try to confuse the oponent
+by taking advantage of something that the oponent wont recognise).
+
+the second method thus will take into account the knowledge-base
+available to the solver (for example trying to trick the solver into
+thinking that the cube is in one of the easy to solve classes but really
+isnt, thus leading the solver down a blind alley)
+
+This gives me an idea for a game where oponents are each trying to bring
+a randomized cube into two different final states (each of which
+is hopefully equally far away from the initial state, just to make the
+game fair) by alternately taking turns making quarter turns. of course
+one must make up some rules so that that the game terminates (ei going
+around cycles in the state graph an indefinite number of times is
+disallowed), and these rules might not be very obvious,although
+they would prob be similar to some of the stalemates rules of chess.
+-----
+
+
+Date:	  10 September 1980 2303-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  Randomizing
+To:	  CUBE-LOVERS at MIT-MC
+
+I enter the following tidbit into the transcript of this society,
+apropos to the current discussion:
+
+  RMS at AI (Richard Stallman) has suggested the following paradigm
+  for cubing tournaments:
+
+     (Assuming physically standard cubes are used)  The two participants
+     acquire (or create) solved cubes.  Each one randomizes it his/her
+     favorite way, and hands it to the other to solve.  The resources
+     expended by the solver (either qtw or real-time) are added to his/her
+     resource expenditure in solving the other's cube.  Minimum resource
+     expenditure wins.
+
+Date: 11 SEP 1980 0016-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: How do you maximally randomize a cube?
+To: CUBE-HACKERS at MIT-MC
+
+
+I am interested in maximally distant states of the cube.  I have often
+wondered just what a maximally distant state would look like.  I also
+wonder HOW MANY of them there are!
+
+Interesting fact (offered without proof (it's not hard)):
+
+Assuming we are counting quarter-twists.  If I hand you a cube in a
+maximally distant state, and ask you to solve it in as few twists as
+possible, you don't have to think at all in order to know what to do
+first!  ANY first twist will bring it closer to home (after that it
+gets harder).
+
+Call a state with this property a "local maximum".  Any maximally
+distant state is also a local maximum.  Also, any symmetric state is a
+local maximum.  This doesn't mean that a maximally distant state is
+symmetric, but it does get you thinking along those lines!
+
+
+Date: 10 Sep 1980 9:37 pm PDT (Wednesday)
+From: Woods at PARC-MAXC
+Subject: Re: How do you maximally randomize a cube?
+In-reply-to: ALAN's message of 11 SEP 1980 0016-EDT
+To: ALAN at MIT-MC (Alan Bawden)
+cc: CUBE-HACKERS at MIT-MC
+
+It is not obvious to me that any twist in a maximally distant state
+brings you closer to the home position.  How do you know there
+aren't two equally distant states that are a qtw apart?  There is
+probably a parity argument that proves this can't be so, but if you
+count half-twists as single operations I'd be much surprised if you
+could find a simple proof.
+
+	-- Don.
+
+
+Date: 11 September 1980 01:04-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Re:"Assuming we are counting quarter-twists."
+To: Woods at PARC-MAXC
+cc: CUBE-HACKERS at MIT-MC
+
+
+I said:
+
+"Assuming we are counting quarter-twists."
+
+I realize that there are people out there who like to count
+half-twists as a single twist.  I don't.  I'm not trying to force my
+way of counting twists on anyone.  I always try to be carefull to make
+this assumption explicit out of courtesy to those who might want to
+count otherwise.  (Sort of like the Axiom of Choice.)
+
+In fact I DON'T know if that result is true if you count half-twists
+as well.  I suspect it is, but I don't have a proof.
+
+You needn't jump up and down and point every time one of us
+quarter-twisters reveals himself.  This one, at least, is well aware
+of his assumptions.
+
+Date: 10 Sep 1980 11:09 pm PDT (Wednesday)
+From: Woods at PARC-MAXC
+Subject: Re: "Assuming we are counting quarter-twists."
+In-reply-to: ALAN's message of 11 September 1980 01:04-EDT
+To: (Alan Bawden and the rest of) CUBE-HACKERS at MIT-MC
+
+If you'll reread my message, you'll note that I claimed the parity
+argument wasn't obvious to me even in the case of a qtw metric;
+my reference to half-twists was intended along the lines of "this
+is even less obvious".  I'd be interested in seeing your "obvious"
+proof in the qtw case, if you'd care to send it to me (no need to
+bother the whole mailing list with it).
+
+	-- Don.
+
+
+Date:  11 September 1980 22:06 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Singmaster v.5
+To:  cube-lovers at MIT-MC
+
+(To MIT area cubists only:)
+I have received "Notes on Rubik's Magic Cube" version 5
+from Singmaster, if anybody wants to see it.  It
+is 75 pages long and AWESOME.
+
+Date: 15 Sep 1980 1842-PDT
+From: Alan R. Katz <KATZ at USC-ISIF>
+Subject: number of reachable states
+To: cube-lovers at MIT-MC
+
+I have seen the number 4.3 * 10^19 for the number of reachable states
+for the cube,  can anyone tell me how you calculate it?  This may have
+been answered before in this list, but I couldn't find it.
+
+Also, someone mentioned that one can make a checkerboard pattern from
+the Pons Asinorum by trebly rotating the centers by a simple
+transformation. Can anyone tell me this transformation? (again I may
+have missed reading it)
+
+Reply to either me or the list.
+
+			Alan
+-------
+
+Date: 15 SEP 1980 2156-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: Where to find old mail.
+To: CUBE-HACKERS at MIT-MC
+
+Just a reminder to you all that ALL of the old cube-lovers mail is
+archived in the file ALAN;CUBE MAIL on MIT-MC.
+
+Date: 16 SEP 1980 0746-EDT
+From: RP at MIT-MC (Richard Pavelle)
+Subject: number of reachable states
+To: KATZ at USC-ISIF
+CC: RP at MIT-MC, CUBE-LOVERS at MIT-MC
+
+    Date: 15 Sep 1980 1842-PDT
+    From: Alan R. Katz <KATZ at USC-ISIF>
+    I have seen the number 4.3 * 10^19 for the number of reachable states
+    for the cube,  can anyone tell me how you calculate it?  This may have
+    been answered before in this list, but I couldn't find it.
+The number is (12! * 2^12 * 8! * 3^8)/12. This comes from the following.
+There are 8 corners and there are 3 positions- hence 8!*3^8. There are
+12 edges with 2 positions hence 12!*2^12. Finally, the /12 comes from
+parity considerations. Only 1/4 of the positions in the flippling of
+two edges are possible while 1/3 of the toppling of two edges are possible.
+    Also, someone mentioned that one can make a checkerboard pattern from
+    the Pons Asinorum by trebly rotating the centers by a simple
+    transformation. Can anyone tell me this transformation? (again I may
+    have missed reading it)
+The moving of centers is easy- 4 moves of the center slice while rotating
+the cube 90 degrees in your hand between moves.  With the transformation
+in hand you can move the centers easily to possible positions.
+
+Date: 16 SEP 1980 0946-EDT
+From: DCP at MIT-MC (David C. Plummer)
+Subject: number of reachable states
+To: KATZ at USC-ISIF
+CC: CUBE-HACKERS at MIT-MC
+
+
+    Date: 15 Sep 1980 1842-PDT
+    From: Alan R. Katz <KATZ at USC-ISIF>
+
+    I have seen the number 4.3 * 10^19 for the number of reachable states
+    for the cube,  can anyone tell me how you calculate it?  This may have
+    been answered before in this list, but I couldn't find it.
+
+    Also, someone mentioned that one can make a checkerboard pattern from
+    the Pons Asinorum by trebly rotating the centers by a simple
+    transformation. Can anyone tell me this transformation? (again I may
+    have missed reading it)
+
+    Reply to either me or the list.
+
+			Alan
+    -------
+
+Consider the corners. There are 8 of them, and they can go
+anyplace. This leads to 8 factorial permutations. Each corner can
+take on three orientations, so this is another factor of 3^8. But
+the corners have three possible states (trarity [three way
+parity]) so divide by 3. Now do the same with the edges. 12 edges
+gives 12 factorial arrangements, times 2^12 oreintations. But the
+edges have two parities involved, so divide by four (thus giving
+rise to the 12 states of the cube, one of which has the solved
+configuration as a member). So if you evaluate
+
+	    8	   12
+	8!*3 *12!*2
+	-----------
+	   3*4
+
+you will get 4.3 * 10^19.
+
+DPC@MIT-AI 09/17/80 17:02:00 Re: cube mode on lisp machines
+To: cube-lovers at MIT-MC
+cube mode has been fixed (at least temporarily) to work in
+the new window system on the lisp machines.  to invoke it:
+
+(load "bsg;cubpkg")
+(cube)
+
+
+it is self explanitory once you get in.  have fun.
+
+-dpc
+
+
+
+Date: Wed, 17 Sep 1980 2047-CDT
+Message-id: <338086051.13@DTI>
+From: aramini at DTI (Michael Aramini)
+To: cube-hackers@mc
+Cc: boken@mc
+Subject: cubing hazordous to your health?
+
+	I saw someone cubing near the digital computer lab at the Univ. of
+Ill. today. Considering how much traffic there is on springfeild av
+(the street in front of said bldg.) i though it might be a good idea
+to be crossing the street while intently solving a cube (i didnt see the
+person try crossing the street, but he was at least walking without looking
+where he was going).
+-----
+
+
+Date:	  20 September 1980 2144-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  Cubesys/LISPM fixed
+To:	  CUBE-LOVERS at MIT-MC
+
+:cube's Lisp Machine instantiation has now been fixed to work in color
+on Color LISPM's again.
+
+   To invoke, (load "bsg;cubpkg"), wait till it loads, and (cube).
+Should be self-documenting.
+
+Date: 23 SEP 1980 0851-EDT
+From: ZIM at MIT-MC (Mark Zimmermann)
+Subject: report on DC area cube contest
+To: CUBE-HACKERS at MIT-MC
+
+Hecht's (a local dept. store chain) offerred $100 gift certificate to
+any one who could get the cube done in 5 minutes (and T-shirts promoting
+the cube to anyone getting 1 face right in that time), for a 4-hour period
+last Saturday...I was the 7th to get the cube done (there were a bunch of
+mathematicians from the University of Maryland there before me)...the store
+took everyone's name & address & social security numbers...haven't heard
+anything from them yet, though...there may have been more solvers after
+I left.		 --Mark
+
+
+Date: 25 SEP 1980 0859-EDT
+From: ZIM at MIT-MC (Mark Zimmermann)
+Subject: search-from-both-ends ultimate cube algorithm
+To: CUBE-HACKERS at MIT-MC
+
+There are some standard algorithms involving time-memory tradeoffs for solving
+problems like Knapsack in N^(1/2) steps instead of N...Hellman had a paper
+in some IEEE journal about an application to breaking cryptosystems.  The same
+could be applied to solving the cube "exhaustively", given several hundred
+billion memory locations storage and a willingness to go through a similar
+number of table-lookups.  Just make a table of all the positions that can
+be reached within 10 meoves or less (with the route to that position recorded
+too!)...then in order to solve an arbitrary cube set-up, begin working out
+from that set-up, looking for a position included in the table.  If Singmaster
+is right and any position can be reached in 20 moves or less, one will
+always succeed within 10 moves from the arbitrary start....
+The several hundred billion entries in the table are a bit too large for my
+home computer, but perhaps a smaller sub-group of the cube (slice, or
+anti-slice, or such) could be done this way in a reasonable amount of time....
+Hellman seems to think that solving the DES (which has 2^56 keys, I think) is
+not impractical, given enough money and a few years.
+How about a competition to find the shortest ways to get to the Crux
+Christmanni & Plummeri(?)...a simpleminded corner-shifting I tried took 84
+moves, I think, to get whichever one has two cycles of 3 colors...that leaves
+lots of room for improvement! --Mark
+
+Date: 23 Oct 1980 2155-PDT
+From: KATZ at USC-ISIF
+Subject: whats happening?
+To:   cube-lovers at MC
+cc:   katz
+
+
+There hasn't been much activity on this list for long time, whats happening?
+
+Maybe we are all cubed out??  Anyway, heres a question for the LA people.
+Does anyone know where I can get a Hungarian version of Rupic's cube
+(NOT the ideal version) in the L A area??
+
+
+				Alan
+-------
+

@@ -1,0 +1,4035 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug 26 17:03:07 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA19935
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 26 Aug 1999 17:03:06 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37B1AE49.C5056C10@adc.com>
+Date: Wed, 11 Aug 1999 10:09:29 -0700
+From: Darin Haines <darin_haines@adc.com>
+Organization: ADC Kentrox
+To: Cube-Lovers@ai.mit.edu
+Cc: Joe Johnson <jgjohnso@pressenter.com>
+Subject: Re: repairing broken cubes
+References: <37ADC0A2.35DC8809@pressenter.com>
+
+Joe Johnson wrote:
+
+> I recently broke one of the face cubies of my 4X4....
+
+Joe,
+
+The guy to talk to is Christoph Bandelow.  His email address is
+
+   mailto:Christoph.Bandelow@ruhr-uni-bochum.de
+
+(I'm pretty sure he monitors the list.)  He is located in Germany and
+has a bunch of other puzzles that I'm sure you will be interested in.
+He is very prompt with delivering orders, and is very easy to work
+with.
+
+My Rubik's Revenge sat broken on the shelf for about 15 years.  After
+contacting Christoph, my Rubik's Revenge is as good as new!  Not to
+mention that I now have a few more puzzles that I didn't have before. 
+Buy a few of his puzzles (5^3's etc.), and he might give you a good
+deal on the 4^3 replacement parts.
+
+Hope this helps.
+
+-Darin
+
+P.S.  Let us know how everything turns out.  I'm sure there are other
+people in the same boat.
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug 26 18:12:39 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA20399
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 26 Aug 1999 18:12:37 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <714F77ADF9C1D111B8B60000F863155102DD70DA@tbjexc2.tbj.dec.com>
+From: "Diamond, Norman" <Norman.Diamond@jp.compaq.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Meffert's Assembly Cube
+Date: Thu, 19 Aug 1999 13:11:10 +0900
+
+Uwe Meffert was too humble to post the following facts to the list.  However,
+true cube lovers know that facts are too important.  Just as we needed to be
+informed that recent remakes of old standards by Odds-On don't survive very
+long in actual use, we need to know of superb manufactures such as the ones
+in this thread.  Therefore I post them.
+
+Recently my wife and I visited Mr. Meffert in Hong Kong and played with some
+of his products and prototypes.  Prototypes of the assembly cubes were the
+smoothest turning cubes that we have ever got our hands on.  In addition the
+assembly cubes had colored tiles which look like they will not wear out during
+an owner's lifetime.
+
+Mr. Meffert added in private e-mail, with permission to repost:  the cube has a
+unique patented mechanism which allows assembly disassembly of the cube
+without screws or tools, which in itself is quite a challenge.
+
+-- Norman.Diamond@jp.compaq.com
+[Not speaking for Compaq]
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep  2 14:10:05 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA15100
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 2 Sep 1999 14:10:03 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Reply-To: <noel@mud.ca>
+From: "Noel Dillabough" <noel@mud.ca>
+To: "Cube Lovers List \(E-mail\)" <cube-lovers@ai.mit.edu>
+Cc: <arensb@cfar.umd.edu>
+Subject: Square One Parity fix
+Date: Fri, 20 Aug 1999 02:24:28 -0400
+Message-Id: <000801beead4$b3a899d0$020a0a0a@NOEL>
+
+I have just finished modelling the Square One puzzle in Puzzler and in
+testing found a flaw in my solution.  In order to correct a parity problem
+(where you have to swap only 2 pieces rather than 4) I do the following
+move:
+
+(in Arensburger notation:)
+
+R,t3,b3,R,t1,b2,R,t2,b2,R,t6,R,b-2,t-2,R,b-2,t-1,R,b-3,t-3,R
+
+This scrambles the cube up a bit but makes it solvable using standard moves.
+
+There must be a better move than this!  If anyone knows a better way to swap
+two pieces, let me know.
+
+-Noel
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep  2 14:50:26 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA15245
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 2 Sep 1999 14:50:25 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: "Chris and Kori Pelley" <ck1@home.com>
+To: "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+Subject: FW: Meffert's Assembly Cube
+Date: Thu, 26 Aug 1999 20:36:13 -0400
+Message-Id: <NDBBLHBJOLNCAMMDPAPAIEDFCBAA.ck1@home.com>
+
+From: Diamond, Norman [mailto:Norman.Diamond@jp.compaq.com]
+> [...]  Prototypes of the assembly cubes were the
+> smoothest turning cubes that we have ever got our hands on....
+
+I agree with Norman's comments.  I recently received two of the new ASSEMBLY
+CUBES and they turn very smoothly immediately after assembly.  No
+lubricating is required.  The cube is neither too loose nor too tight.  The
+use of the metal key to pop a center piece off is quite ingenious.  I'd say
+the only cubes that rival the ASSEMBLY CUBE's quality are the 1982-vintage
+Deluxe Cubes by Ideal.  They had that springy, elastic feel that was
+critical for speed cubing.  Meffert's are definitely the very best
+contemporary deluxe cubes around, though.
+
+I can't wait for the transparent version to be available!
+
+Chris Pelley
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep  2 18:21:12 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA16069
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 2 Sep 1999 18:21:10 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <m11Kiib-0003ZMC@fwd12.btx.dtag.de>
+Date: Sat, 28 Aug 1999 15:40:29 +0200
+To: Cube-Lovers@ai.mit.edu
+Subject: Rubik's 3x3x3 Cube - Pretty Patterns
+From: ronald.fletterman@t-online.de (Ronald L. Fletterman)
+
+Dear Cube Lovers,
+
+I just joined the cube lovers' society. So, here's a bit of a cv: I
+started Cubology after the first cubes were marketed in Germany. I'm a
+member of the NKC, the dutch cube club. Cube Lovers who are members
+too and read CFF, (standing for Cubism For Fun - the NKC's
+publication) know me either from meetings at the annual Cube Days or
+from the articles, I published in CFF.  Since I have a PC with an AMD
+K6-III/450MHz and 128 RAM, I can run Herbert Kociemba's "Cube Explorer
+and the add-on programme "Cube Optimizer", which re-activated my
+interest in Pretty Patterns by looking for new species and finding
+shorter manoeuvers of those that are in my almost 20 years old
+collection. The results are amazing: I discover entirely new Pretties
+and shorten lots of existing algorithms.
+Here are a few of my recent discoveries:
+R2 B2 U' L' B D' B R2 D2 L' F' D R2 U2  (14f*)
+D2 U L' B L2 B' L U' B D2 B2 U2 B' F' U2  (15f*)
+D F D R B L R U' B2 F' R2 B' U' B' F' U' F U' (18)
+U' F U2 F2 L' D2 B L2 D R F2 L' U' R2 B' F2 D' (17)
+If you are a hunter of Pretties, please let me know and my recent
+findings are yours! Obviously, I'd appreciate to be informed about
+cubological developments from other fellow Cube Lovers. 3x3x3, 4x4x4
+and 5x5x5 cube info's are welcome indeed.
+
+Cubology to you!
+Ronald Fletterman, a Dutchman living in Warburg, Germany.
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep  2 19:21:26 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA16242
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 2 Sep 1999 19:21:24 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37C74299.2E9D5789@pressenter.com>
+Date: Fri, 27 Aug 1999 20:59:54 -0500
+From: Joe Johnson <jgjohnso@pressenter.com>
+To: "Cube-Lovers@AI.MIT.EDU" <Cube-Lovers@ai.mit.edu>
+Subject: Re: repairing broken cubes
+
+Thanks to all who sent suggestions.  I achieved a successful repair
+using a product called 'J-B Weld' and a pin (actually a cut off box
+nail.)  The 'J-B Weld' is very strong and hardens almost to the same
+hardness as the
+
+original material.  I've been using the cube now for over a week and
+it is holding up very well, although it probably is going to wear out
+faster now since I take it apart quite often to inspect the repair.
+
+Joe Johnson
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Sep  3 13:16:50 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA19489
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 3 Sep 1999 13:16:49 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <002d01bee8fc$928efe80$74c4b0c2@home>
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+Subject: Re: Rubik's Cube Perpetual Calendar
+Date: Tue, 17 Aug 1999 23:05:08 +0100
+
+A calendar cube has just sold on eBay.  Quite possibly it comes from
+the same source as the cube Chris Pelley mentioned.  The description
+includes a picture, from which I see that it is not the same cube as
+the one I described on 30 July, which was bought in the UK.  The eBay
+version uses a different type-face and uses upper and lower case for
+the week-day names, unlike the British version, which uses all
+capitals.   It also has logos, whereas the British version has blanks
+on all faces that are not used for date markings. The British version
+was nonetheless a genuine Ideal cube and came in a cardboard drum
+bearing the title Rubik's Calendar and the copyright notice
+"[c-in-a-circle] MMLXXXI Ideal Toy Co Ltd, Wokingham, Berks".  There
+are other European calendar cubes pictured on eBay which are like the
+British one
+
+There is something very strange about the cube in the eBay photo.  In
+fact, I am convinced that is does not work for all dates, which drives
+me to the conclusion that the stickers have been rearranged.  I'll
+explain my reasons and see if others disagree.
+
+The photo shows only one view, so we have only three faces to work on.
+They look like this:
+
+-------------------
+|     |     |     |
+|  2  |  M  |  5  |
+|  V  |  >  |  <  |
+-------------------
+|     |     |     |
+|  J  |  P  |  1  |
+|     |  V  |  <  |
+-------------------
+|     |     |     |
+|  Mon|  P  |  6  |
+|  <  |  >  |     |
+-------------------
+
+-------------------   -------------------
+|     |     |     |   |     |     |     |
+|Satur|day  |     |   |  7  |  A  |  0  |
+|     |     |     |   |  V  |  >  |  <  |
+-------------------   -------------------
+|     |     |     |   |     |     |     |
+|  F  |  E  |  B  |   |     |  C  |  3  |
+|     |     |     |   |     |  V  |  <  |
+-------------------   -------------------
+|Rbk's|     |     |   |     |     |     |
+|Cube |     |  8  |   |Thurs|Ideal|  9  |
+|     |     |     |   |     |     |     |
+-------------------   -------------------
+The orientation is shown by the Vs, which point to the local upright
+for those markings that are not upright as shown - I've followed Dan
+in this.
+
+Once the markings on the various pieces of a calendar cube have been
+fixed, the way the cube is assembled does not matter, since to show
+the date we need solve only one face, and that can be done from any
+starting position, any necessary counterbalancing twists or
+permutations taking place in the other layers.  Let's assume the face
+used to show the date is the front face.
+
+Therefore we only need to worry about what markings each piece will
+bear.  The straightforward approach in designing a cube of this sort,
+it seems to me, is as far as possible to keep all the markings of the
+same type - that is, destined for the same position on the front
+face - together on the pieces carrying them.  So the week-day names
+would be on one set of corner pieces, destined for the top left of the
+front face, and the numbers forming the units digit of the day of the
+month would be on another set, destined for the bottom right of the
+front face.  In that way, clashes in which the piece would be needed
+in two places at once are avoided.  If this approach is not followed,
+then either there must be no clash, or markings must be duplicated.
+An example of the first would be an edge piece that combined the F or
+B of FEB with the 3 of the tens digit of the day of the month, a
+combination that is possible because there is no FEB 30.  The picture
+on the container of the British calendar cube, though not the cube
+itself, illustrates the other possibility, since one edge-piece
+combines J and 2.  That means that JAN 20 and similar dates cannot be
+shown unless either the J or the 2 is duplicated.  As it happens,
+there is one spare edge-piece face on that cube, so one duplication
+could be managed, but no more, but it is impossible to see from the
+picture if there is any duplication.  Probably not, because there are
+some other impossibilities and inconsistencies in the pictures which
+suggest they show non-functioning mock-ups.
+
+The different markings that need to be accommodated on the edge
+pieces, defined by their position on the front face, are:
+
+Top:  DAY
+
+Left: the eight initial letters of the month, J F M A S O N D
+
+Right: the ten letters completing the abbreviation for the month, N B
+R Y L G P T V C
+
+Bottom: the four numbers for the tens digit of the day of the month, 0
+(or blank) 1 2 3.
+
+The edge-piece at the top will always stay there, since it is needed
+to show DAY (assuming no duplicates).  So the other face of this piece
+will never show on the front face and cannot carry a useful marking.
+It can be blank, or carry a logo.
+
+In total, including the face backing DAY, we now have 24 faces, and
+that is exactly the number we have available if we have one face for
+each of the markings above.  As it happens, the one letter that occurs
+at both the start and the end of a month, N, is symmetrical in the
+sans-serif typeface used, and in the British cube is made to double as
+a starting and an ending letter, since it can be either way up. That
+frees up one face to permit one duplication.  It is impossible to see
+if the same approach is followed in the eBay cube.
+
+As a matter of interest, the British cube mostly (but not in all
+cases) puts an initial and a final letter together on the same
+edge-piece.  That is possible without too much juggling to avoid the
+clash of having the start and end of a month on the same edge piece,
+but is not necessary - the principle of segregating the different
+types of marking would lead to four edge-pieces with the initial
+letters and five with final letters.
+
+If we turn back to the eBay cube, we find that the visible edge-pieces
+are as follows.
+
+Day/P, J?, M?, 1A, F?, 3?, B/blank, blank/? logo/?, 3x??
+
+Since Day is combined with P, we need a duplicate of one or other if
+dates in SEP or APR are to be showable.  But even then we would not be
+able to show APR 10 unless a duplicate of 1 or A was included.  Thus
+even if one N is used for both the start of NOV and the end of JAN or
+JUN, we would already have one face too many.  Yet on top of that
+there are two blanks and a logo.  One blank is usable as the blank for
+the tens digit in dates like JAN 1, and one among the month letters is
+there is only one N.  But that still means that there is an extra
+blank even if there are no duplicates.
+
+If extra blank faces are included, then other needed markings must be
+omitted and dates involving those markings could not be shown.  In
+fact the only reasonable explanation I can see is that some stickers
+have been removed and put back wrongly.
+
+Roger Broadie
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Sep  3 19:04:22 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA20566
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 3 Sep 1999 19:04:22 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 2 Sep 1999 01:35:45 +0100
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: pink@cartserv.rserv.uga.edu
+CC: cube-lovers@ai.mit.edu
+Message-ID: <009DCC4C.2E241665.12@ice.sbu.ac.uk>
+Subject: RE: Skewb notes
+
+	Regarding disassembly of the skewb and the various skewballs.
+	The early versions disassemble quite easily and when I put them out at
+exhibition, I regularly have to reassemble them.  However, I have just learned
+from Yee Dian Lee at the International Puzzle Party that the more recent
+skewballs are quite hard to take apart and he finds that he has to break a
+piece in order to do so!  He puts them inside jars!
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 21 20:52:44 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA28450
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 21 Sep 1999 20:52:43 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 2 Sep 1999 12:57:37 -0700 (PDT)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: Noel Dillabough <noel@mud.ca>
+Cc: "Cube Lovers List (E-mail)" <cube-lovers@ai.mit.edu>, arensb@cfar.umd.edu
+Subject: Re: Square One Parity fix
+In-Reply-To: <000801beead4$b3a899d0$020a0a0a@NOEL>
+Message-Id: <Pine.GSO.3.95.iB1.0.990902124509.4819A-100000@vtn1>
+
+On Fri, 20 Aug 1999, Noel Dillabough wrote:
+
+> I have just finished modelling the Square One puzzle in Puzzler and in
+> testing found a flaw in my solution.  In order to correct a parity problem
+> (where you have to swap only 2 pieces rather than 4) I do the following
+> move:
+>
+> (in Arensburger notation:)
+>
+> R,t3,b3,R,t1,b2,R,t2,b2,R,t6,R,b-2,t-2,R,b-2,t-1,R,b-3,t-3,R
+>
+> This scrambles the cube up a bit but makes it solvable using standard moves.
+>
+> There must be a better move than this!  If anyone knows a better way to swap
+> two pieces, let me know.
+
+For starters, you'd be amazed what a B6 added to the beginning or end of
+this pattern will do. :-) Alternatively, you could skip over that and
+simply add two dual edge swaps by appending something like
+t1,R,t-1,b-1,R,t6,R,t1,b1,R,t3,b3,R,t-1,b-1,R,t6,R,t1,b1,R,t-4,b-3
+to the beginning or end of your pattern. L8r.
+
+-- 
+        Cubic Puzzles - The SIMPLEST Solutions          |       HIT Jedi
+     http://www.victoria.tc.ca/~ue451/solves.html       | Use the Force, Mike!
+--------------------------------------------------------+-----------------------
+            "No thanks. I'm trying to cut down." - Michael Garibaldi
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 21 22:01:15 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id WAA28642
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 21 Sep 1999 22:01:15 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37D16494.DE65A654@pressenter.com>
+Date: Sat, 04 Sep 1999 13:27:32 -0500
+From: Joe Johnson <jgjohnso@pressenter.com>
+To: "Cube-Lovers@AI.MIT.EDU" <Cube-Lovers@ai.mit.edu>
+Subject: 5X5X5 challenge
+
+I recently bought my first 5X5X5 Rubik's Cube (from  Meffert's) and when
+I received it, the first thing I noticed was that the stickers had
+little grooves in them and all of them on each face were lined up in the
+same direction.  After I learned how to solve the cube for color I
+decided to try to solve it so that all of the little grooves lined up.
+After much hard work I finally got it and can repeat the solution.  It
+is a wonderful challenge after you've grown tired of solving it the
+'normal' way!  I won't give the solution unless I see that there is
+interest in it here in this list
+
+Joe Johnson.
+
+[Moderator's note: See "Supergroup" in the archives.  If you want to
+experience the full measure of complication, mark the a corner of
+twelve facelets on each face in this pattern:
+
+    +-----+-----+-----+-----+-----+
+    |     |     |     |     |     |
+    |     |     |     |     |     |
+    +-----+-----+-----+-----+-----+
+    |     |     |     |     |     |
+    |     |   .'|`.   |   .'|`.   |
+    +-----+-----+-----+-----+-----+
+    |     |   `.|.'   |   `.|.'   |
+    |     |     |     |     |     |
+    +-----+-----+-----+-----+-----+
+    |     |     |     |     |     |
+    |     |   .'|`.   |     |     |
+    +-----+-----+-----+-----+-----+
+    |     |   `.|.'   |     |     |
+    |     |     |     |     |     |
+    +-----+-----+-----+-----+-----+
+
+and make them line up afterwards.  You'll learn something surprising
+about the center facelets. --Dan ]
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 21 22:12:52 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id WAA28666
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 21 Sep 1999 22:12:51 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <00d901bf0020$f9ffaf20$de685dcb@pca200series>
+From: uwe@ue.net (Uwe Meffert)
+Reply-To: uwe@ue.net (Uwe Meffert)
+To: <Cube-Lovers@ai.mit.edu>
+Subject: Color survey
+Date: Thu, 16 Sep 1999 16:39:02 +0800
+
+To all CubeLovers.
+
+I am conducting a color survey for a revised color scheme for the new molded
+tiles that I am preparing for some of our Puzzles for Xmas.
+
+The final choice will be based on the majority of the suggestions received
+from CubeLovers like you.
+
+Megaminx: do you prefer 6 colors or 12 colors;  If 12, which colors?
+
+Prof. cube & new improved 4x4x4 cube: any color preferences?
+
+Looking forward to hearing from you all, your input is important as this is
+most likely the last time that I will run some of these Items.
+
+The other good news is that I have finally been persuaded to release several
+new puzzles for Xmas.  More later
+
+With warm regards to all
+Uwe
+
+
+Let's keep puzzling alive!
+
+Uwe Meffert
+Meffert's Puzzles & Games
+2008, Remex Centre, 42 Wong Chuk Hang Rd,
+P.O. Box 24455, Aberdeen, Hong Kong.
+Tel. 852-2518-3080, Fax. 852-2518-3282.
+Email: Uwe@Mefferts.com
+Web: www.Mefferts.com
+
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Sep 22 19:31:25 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA04125
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 22 Sep 1999 19:31:24 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19990916050737.22707.rocketmail@web216.mail.yahoo.com>
+Date: Wed, 15 Sep 1999 22:07:37 -0700 (PDT)
+From: John Davis <jdjabberwock@yahoo.com>
+Subject: bandaged cube
+To: cube lovers <cube-lovers@ai.mit.edu>
+
+
+I'd like to make one of these bandaged cubes out of an old 3x3x3, but
+can't tell from pictures what pieces to fuse on the back of the cube.
+Can someone who has one of these post a description making it clear
+which pieces are fused?  Thanks, John.
+
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Sep 22 21:06:02 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA04301
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 22 Sep 1999 21:06:01 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 16 Sep 1999 23:20:21 -0700 (PDT)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: Cube-Lovers@ai.mit.edu
+Subject: Pyramorphix
+In-Reply-To: <199908061510.LAA28883@mc.lcs.mit.edu>
+Message-Id: <Pine.GSO.3.95.iB1.0.990916231933.11677D-100000@vtn1>
+
+I'd like to try taking my Pyramorphix puzzle apart to see what makes it
+tick. I took a brief look at it today, but the internal mechanism appears
+to be somewhat delicate. of course, it could just be paranoia on my part.
+How does one go about taking a Pyramorphix apart safely? L8r.
+
+-- 
+        Cubic Puzzles - The SIMPLEST Solutions          |       HIT Jedi
+     http://www.victoria.tc.ca/~ue451/solves.html       | Use the Force, Mike!
+--------------------------------------------------------+-----------------------
+            "No thanks. I'm trying to cut down." - Michael Garibaldi
+
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Sep 22 21:17:03 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA04331
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 22 Sep 1999 21:17:02 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: 	Thu, 16 Sep 1999 11:08:22 -0400 (EDT)
+From: Alchemist Matt <monroem@email.unc.edu>
+Reply-To: Alchemist Matt <monroem@email.unc.edu>
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Square 1
+Message-Id: <Pine.GSO.3.95L.990916110208.4489A-100000@sunny>
+
+Hello,
+
+	In case anyone is interested, Uwe Meffert is now selling the
+Square 1.  I've been looking to buy one for a while, and this is the
+perfect opportunity (www.mefferts-puzzles.com/mefferts-puzzles/index.html).  
+In relation to the Square 1, I once came across a program that claimed to
+help one solve the puzzle.  I could have sworn I saved it to my hard
+drive, but now, when I look for it, I can't find it.  I thought it was
+called Square1.Exe or Square1.Bas Does anybody know anything about this
+program or have a copy lying around?
+
+		Thanks,
+		 Matt
+
+-----------------------------------------------------------------------
+Matthew Monroe				Monroem@UNC.Edu
+Analytical Chemistry      		http://www.unc.edu/~monroem/
+UNC - Chapel Hill, NC                   This tagline is umop apisdn
+-----------------------------------------------------------------------
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep 23 19:45:54 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA08011
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 23 Sep 1999 19:45:53 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <00cd01bf0548$53e58c40$76c4b0c2@home>
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+Cc: "Joe Johnson" <jgjohnso@pressenter.com>
+Subject: Re: 5X5X5 challenge
+Date: Wed, 22 Sep 1999 23:16:36 +0100
+
+Joe Johnson wrote (4 September 1999)
+
+
+>I recently bought my first 5X5X5 Rubik's Cube (from  Meffert's) and when
+>I received it, the first thing I noticed was that the stickers had
+>little grooves in them and all of them on each face were lined up in the
+>same direction.
+
+Yes, the grooving effect shows up quite strikingly against the light
+as two distinct shades and allows some nice pretty patterns.  Since
+there are only two apparent alternatives, whereas there are four
+possible orientations, some possibilities look a little surprising, to
+my eyes at least.  Thus a three-cycle of centre pieces shows up as a
+change to just two pieces.
+
+Roger
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep 23 21:09:43 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA08260
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 23 Sep 1999 21:09:42 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <001001bf04c1$ea029420$df8cf3cd@compone>
+From: "Steve Adler" <adler@xnet.com>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: Strange way to solve cube
+Date: Wed, 22 Sep 1999 01:15:45 -0500
+
+I received a Magic catalog with the following trick:
+
+Oral Fix-Sational
+
+Bring out a miniature Rubik's cube. It's completely mixed up.
+Place the Rubik's cube in your mouth! Yummy!
+Roll the cube around in your mouth. This way, then that. Up
+then down. It looks relly weird.
+Now, Open your mouth and push the cube out. It is completely
+solved!
+Do it surronded. It resets in seconds. No shell is used.
+Oral Fix-Sational from Ed Alonzo, comes with complete instructions
+and the 1-1/4" gimmicked cube. $15.00
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep 23 21:49:54 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA08362
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 23 Sep 1999 21:49:53 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <003b01bf057a$4fb871a0$2e5755ca@pca200series>
+From: uwe@ue.net (Uwe Meffert)
+To: "Cube-Lovers" <cube-lovers@ai.mit.edu>, <ue451@victoria.tc.ca>
+Cc: "Jing Meffert" <jing@ue.net>
+References: <001b01bf056b$22b833c0$2e5755ca@jing-notebook>
+Subject: Re: Pyramorphix
+Date: Thu, 23 Sep 1999 12:14:27 +0800
+Organization: UE Foundation
+
+Dear Tim
+
+The Pyramorphix mechanism is indeed delicate and can not be taken apart
+without the risk of destroying it, after assembly the last piece is glued
+into place to hold the puzzle firmly together without pieces falling out
+during play.
+
+With warm regards
+Uwe
+
+Let's keep puzzling alive!
+
+Uwe Meffert
+Uwe@Mefferts.com
+www.Mefferts.com
+
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Sep 27 17:23:43 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA18485
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 27 Sep 1999 17:23:42 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37E987DC.F446DBBC@pressenter.com>
+Date: Wed, 22 Sep 1999 20:52:28 -0500
+From: Joe Johnson <jgjohnso@pressenter.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: 5X5X5 challenge
+References: <37D16494.DE65A654@pressenter.com> <m11TkUz-00076uC@fwd04.btx.dtag.de>
+
+I snipped off the same corner of every sticker on each face so that all of the face
+cubies have to be positioned correctly for a 'complete' solution.  If you have good
+eyes (I recently had cataract surgery) you will not need to snip off enough to make
+it obtrusive.  My second 5x5x5 just arrived in today's mail and it almost seems like
+cheating to solve it in the 'normal' manner after solving for 'completeness.'
+
+Joe Johnson
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 28 12:32:22 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA21564
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 28 Sep 1999 12:32:22 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19990923162848.24944.rocketmail@web126.yahoomail.com>
+Date: Thu, 23 Sep 1999 09:28:48 -0700 (PDT)
+From: Jaap Scherphuis <jaapsch@yahoo.com>
+Reply-To: jaap@org2.com
+Subject: Square 1, Pyramorphix, Cheap Skewballs
+To: Cube Lovers <Cube-Lovers@ai.mit.edu>
+
+
+Hi all,
+This is my first post to Cube-Lovers, though I have been reading the archives
+for a long time now. I'm a 27 year-old mathematician.
+
+Re: Square-1
+A few years ago I figured out a solution to the Square-1. It was one of the
+hardest puzzles to solve. Though I did theoretically solved it, the solution
+was so long and tedious I never actually performed it. In the end I wrote a
+program that searched for short sequences that go from cube shape to cube shape
+that do not move the corners. In the list it produced were a few useful
+sequences moving only a few edges, but all the odd permutations moved a lot of
+edges. By combining one of them with some other sequences I finally got my own
+parity fixing sequence that is a nice triple edge swap:
+
+Swap FU-BU, LU-RU, FD-BD:
+      /(3,3)/(1,2)/(2,-4)/(-2,4)/(-1,1)/(3,3)/(0,3)/(3,3)/(0,3)/(6,0)/(6,0)/
+
+The notation is fairly obvious: /=half turn of right hand side, (t,b)=move
+top/bottom the given number of twelfths clockwise, negative for anti-clockwise.
+I find this much easier to read than any others I've seen, though it is
+sometimes easy to forget the leading / if there is one.
+
+Unfortunately I have since lost any other results I got then except for those I
+have incorporated into my solution.
+
+The square-1 solving program Matt mentioned can be found in the cube-lovers
+archive in the contrib directory.
+
+
+Re: my webpages
+I have recently typed up a lot of my notes and put them on the web in a
+text-only preliminary form. Eventually I hope to make them into proper
+web-pages with pictures etc.
+There are solutions there for:
+Alexander's Star, Pocket Cube (2x2x2), Rubik's Cube (3x3x3), Rubik's Revenge
+(4x4x4), Profesor's Cube (5x5x5), Dogic, Domino, Impossiball, Megaminx,
+Octahedron, Pyraminx, Pyramorphix, Skewb, Brain ball, Rubik's Fifteen, Equator,
+It, Ivory Tower (Babylon Tower), Masterball, Orb, Puck, Roundy, Square One,
+Topspin, Tower (Whip-It), Rubik's Triamid, Tricky Disky, Rubik's Clock, Lights
+Out, Rubik's Magic, Spinout, Crazy Tantrix.
+At the moment there is not yet a links page.
+
+You can find it here: http://www.org2.com/jaap/puzzles
+I'd appreciate any feedback.
+
+
+Re: Pyramorphix.
+I only have the pocket Pyramorphix, and these are delicate (my first one broke
+within 5 minutes). The pieces have small feet which slide through grooves in a
+ball. The grooves are formed between 8 triangular pieces which are screwed onto
+the ball. By pushing a small screwdriver through at a point where 4 pieces come
+together you can unscrew it. It may work best if you bring the 4 flat pieces
+together and use the spot between them to unscrew it.
+
+
+Re: Cheap Skewballs.
+This week I bought several cheap puzzleballs at the Oxford Toys'r'Us, all of
+the France '98 type.  I bought the last two keychain ones (1 uk pound each),
+and a couple of normal sized ones (2 uk pounds each). They still have many of
+those.
+I plan to paint them with diffent designs, e.g.
+dodecahedron/icosahedron/octahedron, or rather the spherical projections of
+these shapes.
+
+That's all for now.
+Bye,
+Jaap.
+
+
+=====
+Jaap Scherphuis
+Visit the Psion Organiser II CM, XP & LZ Homepage:
+URL: http://www.org2.com      email: jaap@org2.com
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 28 13:09:57 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA21740
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 28 Sep 1999 13:09:57 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: HarLikin@aol.com
+Message-Id: <1bb80147.251b137f@aol.com>
+Date: Thu, 23 Sep 1999 01:24:15 EDT
+Subject: Skewb corner malfunctions
+To: Cube-Lovers@ai.mit.edu
+
+    After a hard day of solving the skewb for the first time it started to
+become loose in my hands and eventually fall apart. As I put it back together
+I noticed that the problem was that one of the four corners which are
+connected to the internal mechanism would unscrew whenever it was rotated
+counter clockwise, eventually causing it to move far enough away from the
+mechanism as to cause the pieces to fall away. Is this a problem which has
+been encountered by other regular Skewbers? If anyone knows what sort of
+mechanism usually keeps the corner attached properly and/or how to fix such
+an error I would be grateful.
+
+-Terrence
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 28 16:38:38 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA23374
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 28 Sep 1999 16:38:37 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <003401bf062e$e93218e0$df8cf3cd@compone>
+From: "Steve Adler" <adler@xnet.com>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: Meffert's new puzzles
+Date: Thu, 23 Sep 1999 20:48:33 -0500
+
+I received an email from Meffert about new Puzzles :
+(he mentions doing a version of a 4x4x4)
+
+"Other puzzles that I will be making for Xmas are the Siamese Twin assembly
+cube, Pyraminx Diamond, (8 sides, Skewb mechanism)  The Star of David
+(Pyramorphix mechanism) and a Dodecahedron with each face being divided into
+4 segments, (Skewb mechanism).
+
+All new Puzzles will feature a molded tile finish."
+
+WOW.....GREAT NEWS!!
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct 12 19:00:32 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA21609
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 12 Oct 1999 19:00:32 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Square 1
+Date: 24 Sep 1999 14:04:47 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7sg0dv$t7s@gap.cco.caltech.edu>
+References: <cube-lovers.Pine.GSO.3.95L.990916110208.4489A-100000@sunny.SOMEWHERE>
+
+Alchemist Matt <monroem@email.unc.edu> writes:
+>	In case anyone is interested, Uwe Meffert is now selling the
+>Square 1.  I've been looking to buy one for a while, and this is the
+>perfect opportunity (www.mefferts-puzzles.com/mefferts-puzzles/index.html).
+>In relation to the Square 1, I once came across a program that claimed to
+>help one solve the puzzle.  I could have sworn I saved it to my hard
+>drive, but now, when I look for it, I can't find it.  I thought it was
+>called Square1.Exe or Square1.Bas Does anybody know anything about this
+>program or have a copy lying around?
+
+A copy is in the cube-lovers archive at
+ftp://ftp.ai.mit.edu/pub/cube-lovers/contrib/square1.exe.gz
+
+The rec.puzzles archive also has some information on solving the puzzle.
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+Piano for sale, cheap.  No strings attached.
+
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct 12 19:34:22 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA21660
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 12 Oct 1999 19:34:21 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <016801bf0a44$caac3300$2e5755ca@pca200series>
+From: uwe@ue.net (Uwe Meffert)
+To: <HarLikin@aol.com>
+Cc: <Cube-Lovers@ai.mit.edu>
+References: <005801bf0a33$81b07be0$2e5755ca@jing-notebook>
+Subject: Re: Skewb corner malfunctions
+Date: Wed, 29 Sep 1999 14:35:12 +0800
+
+> -----Original Message-----
+> From: HarLikin@aol.com <>
+> To: Cube-Lovers@ai.mit.edu <Cube-Lovers@ai.mit.edu>
+> Date: Wednesday, September 29, 1999 10:01 AM
+> Subject: Skewb corner malfunctions
+>
+> After a hard day of solving the skewb for the first time it started
+>to become loose in my hands and eventually fall apart. As I put it
+>back together I noticed that the problem was that one of the four
+>corners which are connected to the internal mechanism would unscrew
+>whenever it was rotated counter clockwise, eventually causing it to
+>move far enough away from the mechanism as to cause the pieces to
+>fall away. Is this a problem which has been encountered by other
+>regular Skewbers? If anyone knows what sort of mechanism usually
+>keeps the corner attached properly and/or how to fix such an error I
+>would be grateful.
+>
+>-Terrence
+
+Dear Terrence
+
+I am sorry to hear that you are one of the very few persons experiencing
+problem with the Skewb. I believe that you are actually the first. Even so
+there have a few identical problems with the Prof.cube.
+
+What unfortunately happened is that when gluing the corner cap excess
+glue fixed the screw to the plastic corner piece that it should turn
+in.  So when you turn this section it will tighten / loosen that one
+screw.
+
+If you are skilful enough you can try and carefully remove the corner
+cap to expose the screw that has become loose.  Then try to remove the
+excess glue from around the screw with a sharp object and try turning
+the screw with a screwdriver firmly holding the plastic piece so you
+can break the glue bond.  Once the screw can freely turn inside the
+plastic part, re-tighten it to the same tension as it was originally,
+so as to allow smooth turning without any pieces falling out during
+play.  Then carefully using only very little glue fix the corner cap
+back into place.
+
+Please let me know the outcome of this recommended procedure. If you can't
+fix it please let me know and I will send you a free replacement.
+
+Sorry for any frustration and inconvenience caused.
+
+Good Luck and Happy Puzzling.
+
+
+With warm regards
+Uwe
+
+Let's keep puzzling alive!
+
+Uwe Meffert
+Meffert's Puzzles & Games
+2008, Remex Centre, 42 Wong Chuk Hang Rd,
+P.O. Box 24455, Aberdeen, Hong Kong.
+Tel. 852-2518-3080, Fax. 852-2518-3282.
+Email:- Uwe@Mefferts.com
+
+www.Mefferts.com
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct 12 20:07:12 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA21764
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 12 Oct 1999 20:07:11 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 4 Oct 1999 18:47:12 -0400 (EDT)
+From: Daniel B Knights <knights@panther.middlebury.edu>
+To: Cube-Lovers@ai.mit.edu
+Subject: 3-Cube in 1 One-Look
+Message-Id: <Pine.A41.4.02.9910041844460.182270-100000@puma.middlebury.edu>
+
+Hi all, I'm new to this list, and new to the cube as well - only got my
+first one in March.
+Of course, now it doesn't leave my side.
+
+I have seen a few Cube-Lovers emails about solving the cube in a minimum
+number of looks. Here is a system that I use to solve the cube in 1 look,
+with 10-25 minutes of studying time. (Please excuse my lack of knowledge
+of terminology/group theory.)
+_________________________________________________
+
+When most people solve the cube they do it by decomposing the whole
+problem into successively more specific subgroups. (e.g. first layer
+edges, first layer corners, second layer edges, etc.) I say "successively
+more specific" because the moves someone would use to position the first
+few pieces are very simple and intuitive, usually changing (but not
+solving) the unsolved pieces in the cube. As one approaches the solved
+state, one uses much more specialized algorithms that affect only the
+remaining unsolved pieces.
+
+For "multiple-look" purposes, this is a great approach. Often the smaller
+the subgroup of pieces affected by an algorithm, the larger the number of
+moves in that algorithm, and since there is usually no perceived order to
+the unsolved pieces, there is no benefit to preserving them with lengthy
+specialized moves.
+
+To a person visualizing an entire solution in his or her head, however,
+these types of moves are very expensive in terms of memory. Instead I
+begin from the start using specialized moves that affect as little of the
+cube as possible. I might start off with an algorithm to permute 3 corners
+(hopefully putting at least two of them in the correct place/orientation)
+while leaving the other 5 corners and all 12 edges untouched.
+
+In fact, by the time I have all of the corners solved, the edge pieces are
+in exactly the same random configuration as when I started! (with the
+possible exception of having interchanged exactly 2 of them.) The solution
+has then been decomposed into 2 nearly independent problems.  The moves I
+use are mostly single-layer permutations with
+some commutators mixed in when necessary.
+
+One can get the corners solved after applying 5 or 6 move sequences, and
+then solve the edges with an additional 7 or 8 sequences. (This has
+nothing to do with the number of moves used to solve the cube. In fact,
+when I solve it with my eyes closed, I average 150-200 moves!)
+_____________________________________________________
+
+The Rules:
+I would consider it cheating to use a pen and paper. Basically, you have
+to sit down with a random cube and look at it for a while without
+manipulating it. Then close your eyes and start solving. When you next
+open them, it should be solved. (You don't get to "practice" the moves
+before you go.)
+_____________________________________________________
+
+So, has anyone else tried this?  I'm curious to know what method someone
+else uses.  I use my 15 minutes of studying time to plan out where I'm
+going to need to move the pieces.  I wonder if anyone with better memory
+skills can just memorize the locations of all the pieces and then work out
+the entire solution with their eyes closed.
+
+Dan Knights
+Middlebury College
+http://www.middlebury.edu/~knights/
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Oct 14 15:47:40 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA02169
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 14 Oct 1999 15:47:39 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3804B185.A055DA64@u.washington.edu>
+Date: Wed, 13 Oct 1999 09:21:25 -0700
+From: David Barr <davidb@u.washington.edu>
+To: Daniel B Knights <knights@panther.middlebury.edu>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: 3-Cube in 1 One-Look
+References: <Pine.A41.4.02.9910041844460.182270-100000@puma.middlebury.edu>
+
+Daniel B Knights wrote:
+> So, has anyone else tried this?  I'm curious to know what method someone
+> else uses.  I use my 15 minutes of studying time to plan out where I'm
+> going to need to move the pieces.  I wonder if anyone with better memory
+> skills can just memorize the locations of all the pieces and then work out
+> the entire solution with their eyes closed.
+
+There was discussion of blindfolded solving during March 98 on this
+list.  At that time no one was able to do it.  You may be the first.
+
+David
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Oct 14 16:44:45 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA02393
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 14 Oct 1999 16:44:45 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v0151011cb4130e683570@[207.229.148.152]>
+Date: Sat, 25 Sep 1999 17:45:54 -0600
+To: cube-lovers@ai.mit.edu
+From: slapdash@enteract.com (Russ Perry Jr)
+Subject: Rubik-like puzzles I've never seen before...
+
+[I was referred to this list by someone who read a post I made in the
+rec.puzzles newsgroup; I'm not a member of the list, but have some
+questions about puzzles I've run across on eBay recently that I'm
+curious of their origin.  I thought maybe you'd post my questions
+on the list.  Please direct followups to my email address.]
+
+I check out eBay regularly for Rubik's Cube type puzzles I don't have...
+Recently I've come across a few I've never seen before -- does anybody
+know where they came from?  Or better yet, where I might find them
+cheaply, as the prices on eBay seem to be way up there...
+
+1) The Gem/Diamond.  This is an octahedron, but each face is one solid
+piece, and it appears to turn in half, turning four triangulars on the
+square plan between halves.
+
+2) ??.  This is a 14-sided puzzle, with 8 triangles and 6 squares.  Two
+opposite triangles make the "centers" (in 3x3x3 terms), around which
+three squares and three triangles turn.  I don't know if ALL triangles
+act as centers...  It can be left "unshaped" similar to Square-1, only
+not so jarringly.
+
+3) Siamese Cube.  This was an old hack in the 80s, with two normal cubes
+sharing a row of two corners and an edge, but these look professionally
+made, and are made out of the new OddzOn cubes apparently.  They come
+with a display case.
+
+4) "Triple" Cube.  This is similar to the Siamese Cube, only there are
+three cubes connected, and unlike the Siames Cube, each new cube rises
+a level -- a row of one corner and an edge are aligned with the next
+cube's edge and the other corner (ie one is bottom corner and edge,
+joining the other cube's edge and top corner).  This also comes with
+a display case.
+
+The mechanism for the Gem is likely just a 2x2x2 cube mechanism, but the
+pieces?  The 14-sider looks ALL new, though with 8 centers, maybe it's
+some kind of octahedron shape variation?
+
+With the Siamese and Triple cubes you could just have a few different
+pieces swapping out the originals -- is someone just making the new
+pieces?
+
+Are these homemade, prototypes, original puzzles by pirate manufacturers?
+Does anybody know?
+
+//*================================================================++
+||  Russ Perry Jr   2175 S Tonne Dr #105   Arlington Hts IL 60005  ||
+||  847-952-9729    slapdash@enteract.com    VIDEOGAME COLLECTOR!  ||
+++================================================================*//
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Oct 14 18:12:07 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA02769
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 14 Oct 1999 18:12:07 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37FCBA8D.177F@ameritech.net>
+Date: Thu, 07 Oct 1999 10:21:49 -0500
+From: Hana Bizek <hbizek@ameritech.net>
+Reply-To: hbizek@ameritech.net
+To: cube-lovers@ai.mit.edu
+Subject: fad of the century
+
+Hello, cube-lovers,
+it is my pleasure to infoem you that a poll conducted by aol.com voted
+the Rubik's cube as fad of the century. 10 fads were listed and our
+little obsession (at least for some of us) was on the very top of the
+list.
+
+Congratulations, Rubik's cube!
+
+Hana Bizek
+
+PS IMHO, the cube is more than a fad!
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Oct 14 19:52:23 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA03105
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 14 Oct 1999 19:52:22 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 22 Sep 1999 02:22:00 -0400
+From: Kevin Young <keyoung3@vt.edu>
+Subject: Rubiks Magic: Create A Cube
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <4.2.0.58.19990922022037.00a62530@mail.vt.edu>
+
+Anyone having notes on or knows a solution to solving this version of
+Rubiks magic and making it a cube, I'd appreciate info on it.
+
+Thanks,
+Kevin M. Young
+
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Oct 25 19:08:23 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA26768
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 25 Oct 1999 19:08:23 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <20D3A4C39D83D211A50C0000F8C2662D0A0FB4@PBFS03>
+From: Elsa Sharp <ElsaS@Planet24.co.uk>
+To: Cube-Lovers@AI.MIT.EDU
+Subject: Rubik's Cube Fans
+Date: Mon, 25 Oct 1999 16:57:22 +0100
+
+Hello,
+
+I found your email, address on the internet. I work on the Big Breakfast
+Channel 4's daily entertainment show. We are inviting Erno Rubik on the show
+next week and we would like to find fans of the Rubik's cube. I wonder if
+you could email me the contact numbers of your members, with a view to
+inviting them on the show.
+
+My email address is: elsas@planet24.co.uk
+
+Many thanks,
+Elsa Sharp 
+
+[Moderator's note: Interested cube lovers should contact Ms Sharp as above; I'm
+ not going to release the subscription list.  And as far as e-mail addresses of
+ other people you know, I suggest you pass this message to them rather than
+ sending their address to some third party without their explicit consent. --Dan ]
+
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Oct 25 19:23:26 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA26857
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 25 Oct 1999 19:23:26 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3803289F.8337B0D5@zeta.org.au>
+Date: Tue, 12 Oct 1999 23:25:03 +1100
+From: Wayne Johnson <sausage@zeta.org.au>
+To: Cube-Lovers@ai.mit.edu
+Subject: Working with plastics
+References: <37134515.4AD5@zeta.org.au>
+
+If anyone has ever been interested in learning how to work with plastics to
+make your own puzzle designs/prototypes, make interesting modifications to
+your cubes, or you want to be able to learn how to repair your puzzles; I
+have just completed the Twisty megasite.
+
+This is located at:
+http://www.zeta.org.au/~sausage/twistymegasite/
+
+I have quite a lot of new and original resource material here, so it might
+be well worth keeping an eye on it.
+
+Thanks,
+Sausage
+
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Oct 25 19:46:45 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA26894
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 25 Oct 1999 19:46:45 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: The Cube at the World Puzzle Championship
+Date: 15 Oct 1999 15:18:04 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7u7gjc$6d8@gap.cco.caltech.edu>
+
+The World Puzzle Championship was held last week in Budapest, Hungary.
+Erno Rubik was invited to kick off the opening ceremonies (so I got
+a few pictures of him, woo hoo!).
+
+There was only one cube-related puzzle in the competition, however.
+
+Contestants were given a picture of an unsolved Rubik's Cube and asked
+to identify the center face colors on the unseen three faces.  Perhaps
+not too challenging (although I'm sure many will find problem 3 
+difficult to do without pencil and paper).  You can find the puzzles
+at http://www.rubiks.com/  or the specific URLs:
+
+http://www.rubiks.com/puzzles.html?p=rubiks_cube&q=1
+http://www.rubiks.com/puzzles.html?p=rubiks_cube&q=2
+http://www.rubiks.com/puzzles.html?p=rubiks_cube&q=3
+
+If you think these puzzles are too easy, I have an added question
+for you -- what is the minimum number of moves needed to get a 
+solved cube into the states depicted by the three problems?  You will
+find problem 1 easy, problem 2 intermediate, and problem 3 difficult.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+"Everyone is trying to CYA their butt!" -- my supervisor
+
+[ Moderator's note: In case some of our subscribers don't know, I will
+  supersede Wei-Hwa Huang's modesty to mention that he took first place at
+  the World Puzzle Championship (for the fourth time!)]
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct 26 14:00:55 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA29942
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 26 Oct 1999 14:00:54 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v01510113b42dcea33222@[207.229.148.36]>
+Date: Sat, 16 Oct 1999 01:32:31 -0600
+To: Cube-Lovers@ai.mit.edu
+From: slapdash@enteract.com (Russ Perry Jr)
+Subject: Re: Rubik-like puzzles I've never seen before...
+
+First off, thanks for all the replies!
+
+At 8:06 PM 10/14/99, Kevin Young wrote:
+>As far as the siamese cubes and the triplet cubes go that you see on ebay.
+>They are not professionally made.  Oddzone does not make these cubes.  And
+>furthermore, they are not "rare".
+
+That's kind of what I thought.  The OddzOn cubes are represented by
+http://www.rubiks.com, right?  Or is it just on Hasbro's site somewhere?
+
+>If you really want a quality cube, Meffert is selling assembly cubes that
+>use ABS plastic instead of stickers.  Later on this year, he will have
+>available pieces for assembly cubes to make siamese, triplets, and more
+>cubes that can be joined together.
+
+Yep, I found Meffert's site.  I hear he's also planning 4x4x4 & 5x5x5
+(assembly?) cubes, which is pretty neat.
+
+
+At 8:27 PM 10/14/99, _pink wrote:
+>>1) The Gem/Diamond.
+
+>These are created by utilizing pieces from the Pyramorphix puzzle. One can
+>disassemble 2 Pyramorphixes and construct one "Gem" and one "Starburst"
+>puzzles as seen on ebay...
+
+So you get 2 "new" puzzles out of 2 Pyramorphix?  Hmm, pure profit...
+
+
+At 7:30 PM 10/14/99, Noel Dillabough wrote:
+>> 2) ??.  This is a 14-sided puzzle, with 8 triangles and 6
+>> squares.
+
+>This one I modelled in Puzzler and it is quite nice.  Yes it is a morphing
+>puzzle, although very simply in nature.  I have been told by some of my
+>users that this puzzle was a prototype and never sold, but I can't confirm
+>this.  Supposedly there are only a handful of these in existance.
+
+Someone postulated that it's a dual of the Skewb, and it strikes me that
+might be true.  Opinion?
+
+>> 4) "Triple" Cube.  This is similar to the Siamese Cube [...]
+
+>I guess you could keep going forever, however I don't see the advantage of a
+>triple cube.  I haven't modelled this one.
+
+Well, it can be left in even more contorted shapes than the Siamese Cube...
+
+>I am constantly on the lookout for more puzzles to add to Puzzler, let me
+>know if you think of any,
+
+I'm already trying to get a bunch of doodles ready for Noel to add... :-)
+
+
+At 10:01 AM 10/15/99, Rob Hegge wrote:
+>>2) ??.  This is a 14-sided puzzle, with 8 triangles and 6 squares.
+
+>I bought either this one or the 1) GEM/Diamond or both from Christoph
+>Bandelow [...] He can probably help you also with the other puzzles.
+>Hope this helps
+
+Sure!  I'll send him a note and ask.  Thanks for the pointer.
+
+
+At 11:03 AM 10/15/99, Ronald Fletterman wrote:
+>Hi Perry, I suggest, you contact Tony Fisher, who takes "standard" sliding
+>puzzles and redesigns them in wonderful variants. His address:
+
+Thanks for the address!  Tony was mentioned to me by a couple other sources.
+Does anyone know if Tony has an email address or a URL?
+
+
+At 5:19 AM 10/15/99, Klodshans wrote:
+>the 14-sided thing sounds like a Cuboctahedron (3x3x3 mechanism)
+
+Pete Beck had suggested the same thing, but that's definitely not it.  I've
+seen those before, and one characteristic is that the planes cute through
+the squares & triangles; on this one there are NO cuts through the faces.
+
+>mail me the item number and I will check for sure.
+
+It's not on any active auctions any more, but Noel put it in his Puzzler
+program, and it looks right.
+
+>Tony Fisher is also making Siamese Skewbs.
+
+Hmm, are there pix of these anywhere?  Are the just twinned at the corners?
+
+> At www.rubiks.com, there was a thread in the Forum a while ago about how
+> to make these things.
+
+I assume you mean Siamese Cubes, but not Siamese Skewbs.  If SS, I couldn't
+find the posts...
+
+
+At 11:37 PM 10/15/99, Wayne Johnson wrote:
+>Check out my site, I can show you how the Siamese cube is done:
+>http://www.zeta.org.au/~sausage/twistymegasite
+
+Yep, I found that via www.rubiks.com Forum...
+
+I'm not sure I have the talent to mold pieces, but I could mail you some
+notes about 2x2x3, 3x3x4 and triangular prism mechanisms...  :-)
+
+
+At 10:14 PM 10/15/99, Uwe Meffert wrote:
+>Dear Russ
+
+Hello Uwe.  I heard you hung out here; glad to make your e-acquaintance.
+
+>These are home or professional hand made for puzzle collectors.  They will
+>all be available from our puzzle shop in the near future made from high
+>quality ABS with molded plastic tiles instead of labels.
+
+Glad to hear it.  Tell me though, is there any chance we'll see some of
+the puzzles from the OLD Meffert catalogs -- like the triangular,
+hexagonal, pentagonal and the two circular, prisms?
+
+
+At 12:57 PM 10/15/99, Tim Browne wrote:
+>> 2) ??.  This is a 14-sided puzzle, with 8 triangles and 6 squares.
+
+>This one's news to me. Do you have an eBay item number?
+
+It occurs to me that even though there isn't an auction running currently
+with that, you could search for it.  Trouble is, the title was something
+lame like "blah blah Rubik blah blah EXTREMELY RARE", which will match
+other stuff too...  On the other hand, it might have been auctioned by
+the same ssongas (sp?) guy who's auctioning off the Siamese/Triple/Gem
+puzles, so a search for him in completed auctions might find it.  I can't
+get to the web right now to do it myself, but will try to look later.
+Actually, it might have said "14-sided" in the title, which would be
+easy to find...
+
+>> Are these homemade, prototypes, original puzzles by pirate manufacturers?
+
+>Well, I seriously doubt it would be "pirate manufacturers", as my company
+>officially makes such cubes...
+
+What company is that?
+
+>at least not yet. It's kind of hard to "pirate" something that doesn't
+>officially exist. :-) L8r.
+
+Well, I guess I meant like the Siamese cubes still requiring two cubes to
+make one Siamese, so the cubes to make it would be pirated, even if the SC
+itself wasn't.  Same with the Pyramorphix going to the Gem & Starburst.
+But point taken.  And in this case, obviously somebody with a good supply
+of OddzOn cubes and ?? Pyramorphix and some time & talent out to make a
+good buck or a hundred.
+
+
+Again, thanks all!
+
+//*================================================================++
+||  Russ Perry Jr   2175 S Tonne Dr #105   Arlington Hts IL 60005  ||
+||  847-952-9729    slapdash@enteract.com    VIDEOGAME COLLECTOR!  ||
+++================================================================*//
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct 26 17:14:19 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA00743
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 26 Oct 1999 17:12:53 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v0151011fb42deac8cf03@[207.229.148.209]>
+Date: Sat, 16 Oct 1999 02:46:11 -0600
+To: Cube-Lovers@ai.mit.edu
+From: slapdash@enteract.com (Russ Perry Jr)
+Subject: 2x2x4 cube-like puzzle?
+
+Somewhere I ran across mention of a 2x2x4 cube, made from a 4x4x4 with
+some pieces glued together.  It gave a link:
+
+>http://hjem.get2net.dk/philip-k/puzzles/puzzlist.htm
+
+There was no pic as the referring doc said, but it says it was made by
+Greg Stevens -- is Greg around here and/or are there actually pix out
+there somewhere?
+
+On the other hand, another site (http://www.puzzleshop.de ??) has pix
+of what appears to actually be a 2x2x4 puzzle in its Puzzle Museum.
+How does that work?
+
+//*================================================================++
+||  Russ Perry Jr   2175 S Tonne Dr #105   Arlington Hts IL 60005  ||
+||  847-952-9729    slapdash@enteract.com    VIDEOGAME COLLECTOR!  ||
+++================================================================*//
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct 26 20:15:00 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA02190
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 26 Oct 1999 20:14:00 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199910142142.RAA29672@life.ai.mit.edu>
+From: Norman Richards <orb@cs.utexas.edu>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: 3-Cube in 1 One-Look 
+In-Reply-To: Your message of "Wed, 13 Oct 1999 09:21:25 PDT."
+             <3804B185.A055DA64@u.washington.edu> 
+Date: Thu, 14 Oct 1999 16:47:25 -0500
+
+
+> There was discussion of blindfolded solving during March 98 on this
+> list.  At that time no one was able to do it.  You may be the first.
+
+  I'd love some more elaboration of the specific sequences the
+original poster used.  (or any suggestions others have to make) I
+think this would be quite a trick.  I'd be happy just being able to do
+a 2x2x2 cube like this or maybe one face of a 3x3x3...
+
+___________________________________________________________________________
+orb@cs.utexas.edu                                           soli deo gloria
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Oct 29 12:12:31 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA15794
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 29 Oct 1999 12:12:30 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <000e01bf205f$95393700$2e5755ca@pca200series>
+From: uwe@ue.net (Uwe Meffert)
+To: <slapdash@enteract.com>
+Cc: "MPG" <mpg@mefferts.com>, <Cube-Lovers@ai.mit.edu>
+Subject: NEW PUZZLES TO BE RELEASED.
+Date: Wed, 27 Oct 1999 17:42:21 +0800
+Organization: UE Foundation
+
+Hi All Cube Lovers,
+
+Just to clarify some point asked below.  I will be releasing original
+Siamese cubes, utilizing our Patented Assembly cube parts plus 3 new
+connectors so that multiple cubes can be assembled / disassembled. These
+will be available for shipping  around the 10th of December.  Also the 4x4x4
+cube and our New Pyraminx Diamond Puzzle made from a Skewb mechanism with
+new pieces so that you have 6 pyramid apexes and 8 triangles making an
+Octahedron. Furthermore there will be bandaged cube with molded tiles
+using the assembly cube mechanism. By using the parts of 2 Pyramorphix's I
+will be offering a limited number of Star of David and Diamond Puzzles as a
+collectors set, also with our new molded tile finish.  Also some New Disney
+& Donald Puzzle Heads using our patented 2x2x2 mechanism will be available
+soon.
+
+Happy Puzzling
+Uwe
+
+Let's keep puzzling alive!
+
+Uwe Meffert
+Meffert's Puzzles & Games
+2008, Remex Centre, 42 Wong Chuk Hang Rd,
+P.O. Box 24455, Aberdeen, Hong Kong.
+Tel. 852-2518-3080, Fax. 852-2518-3282.
+Email:- Uwe@Mefferts.com
+Web: www.Mefferts.com
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov  5 19:07:28 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA12716
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 5 Nov 1999 19:07:27 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 28 Oct 1999 10:37:46 -0700 (PDT)
+Message-Id: <199910281737.KAA06812@denali.cs.ucla.edu>
+From: Richard E Korf <korf@cs.ucla.edu>
+To: cube-lovers@ai.mit.edu
+Subject: How many Cubes have been sold?
+
+Does anyone have a good idea how many Rubik's Cubes have been sold worldwide?
+Send mail to me, and I'll post a summary of the responses. Thanks!
+                             -rich
+
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Nov 11 18:02:33 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA06302
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 11 Nov 1999 18:02:32 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 28 Oct 1999 15:38:18 -0400 (EDT)
+From: Daniel B Knights <knights@panther.middlebury.edu>
+To: Norman Richards <orb@cs.utexas.edu>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: 3-Cube in 1 Look
+Message-Id: <Pine.A41.4.02.9910281447240.273854-100000@tiger.middlebury.edu>
+
+
+>> There was discussion of blindfolded solving during March 98 on this
+>> list. At that time no one was able to do it. You may be the first.
+
+> I'd love some more elaboration of the specific sequences the
+>original poster used. (or any suggestions others have to make) I
+>think this would be quite a trick. I'd be happy just being able to do
+>a 2x2x2 cube like this or maybe one face of a 3x3x3...
+
+
+Solving one face of a 3x3x3 in one look does not require any special
+system for planning.  If it can be done in 20-25 moves, then I've found
+it is feasible (although cumbersome) to simply plan out all 20 moves
+while keeping track of each move's effect on the relevant pieces.
+
+If you are interested in solving the whole cube in 1-look,
+(or a 2x2x2 cube) I suggest you try doing 2 looks first:
+1 to solve corners (without changing edges), 1 to solve edges.
+Once you can do this, it should be clear how to do it in one look.
+If 2-looks for the whole cube is still too difficult at first, then
+try solving just the corners with 2-looks, 1 to position them
+and 1 to orient them correctly. (But don't mess up
+the edges while you do it!)
+
+You don't really have to "update" your memory as you go,
+because you can basically plan out the entire solution before
+you start, as follows:
+
+1. it's only 3-5 corner permutations to get all corners in the
+correct location, and you just have to keep track of each
+corner's orientation (i.e., needs to be rotated clockwise or
+anti-clockwise in place).
+For these permutation moves, I most often use a single-layer
+3-corner interchange that preserves the corner orientation
+relative to that layer. The move [Ri F Ri B2 R Fi Ri B2 R2]
+accomplishes this in the top layer.
+
+2. 1-3 more sequences to orient all the corners.
+I use simple moves like [(R U Ri Ui)^2 D (U R Ui Ri)^2 Di]  to
+re-orient two corners in the bottom layer.
+
+(**Now you've SOLVED a 2x2x2 Cube!**)
+
+3. Then usually 5-7 sequences to put all edges in place,
+but again keeping track of which ones are flipped.
+For these permutations, I will again often use a 3-edge swap
+like the following: [R2 Ui Fs R2 Bs Ui R2]
+
+4. then a few more edge-flip sequences.  I use the (very)
+inefficient two-edge flip maneuver:
+[Ls Fi Ls Di Ls B2 Rs Di Rs Fi Rs U2]
+
+Then you're done! (about 200 moves later.)
+This is not an easy "trick" - I still find it quite
+challenging to correctly plan out the entire corners solution
+and the entire edges solution, and to then implement them
+correctly from memory.
+
+The real "trick" for me is that I don't memorize the
+locations of the pieces, just the sequence of permutations
+that I planned out to solve them. This way, if you can plan
+out the 5 corner permutations in advance, then you only
+need to remember those 5 items to solve the corners, which don't
+change throughout the solution. If you instead memorize the
+locations of the pieces, you have to keep memorizing new
+locations throughout the solution. (which is impossible for me.)
+
+I first plan out the entire solution with my eyes open, and memorize it.
+(planning it out correctly may be the most difficult part.)
+Then you only have 15 permutations to remember and execute
+correctly, without any new memorization after you close your
+eyes.
+
+Well, that's enough about that. I just want to make this approach clear
+because I think blindfolded cubing is well within the bounds of "normal
+human memory capabilities."
+
+Good Luck!
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Nov 11 20:10:51 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA06604
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 11 Nov 1999 20:10:50 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v04020a01b43e8319c5c5@[10.10.10.2]>
+Date: Thu, 28 Oct 1999 19:08:57 -0400
+To: Cube-Lovers@ai.mit.edu
+From: Kristin Looney <kristin@wunderland.com>
+Subject: Alison painted me a giant rubiks cube!
+
+The big green composter in the yard has
+been transformed!  And it looks fabulous!
+
+ye kindred spirits who love cubes might
+understand how cool it is to have a giant
+two foot rotating rubiks cube decomposing
+vegetable matter in my front yard.  wow!
+
+you can view a snapshot of it at the end of
+this weeks update at wunderland.com.
+                     http://www.wunderland.com
+
+
+       anyone out there got a bigger one?
+
+
+I've got another one, that measures only about
+a foot and a half:
+       http://wunderland.com/Home/Rubik.html
+
+
+anyway... just thought I'd share the pictures
+
+
+-Kristin
+http://www.wunderland.com/WTS/Kristin
+
+To all the fishies in the deep blue sea, JOY.
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 26 16:59:03 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA13132
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Nov 1999 16:59:02 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199910311159.MAA11039@ai2.accesinternet.com>
+From: "valley" <gilbert.valley@accesinternet.com>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: Rubik's cube?
+Date: Sun, 31 Oct 1999 12:58:08 +0100
+
+Last week I found a puzzle that looks like something between my old
+Rubik's cube and my pyracube.
+
+It has 14 faces: 6 are squares and 8 triangles.
+
+Imagine one side of the pyracube: a square in the middle, and four
+little triangles in the corners.
+
+Now when you look at the whole pyracube, the little triangles form 8
+pyramids. Then virtually remove these pyramids and you have the shape
+of my new puzzle.
+
+In addition it is cut (?) like a Rubik's cube, and consequently has
+the same solution.
+
+Have you ever seen this puzzle? was it made by rubik? How is it
+called?  Well, I want ot know everything about it since I've been
+collecting all rubiks cube-like puzzles for a few years.
+
+Thanks in advance,
+Paul
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 26 17:37:28 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA13196
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Nov 1999 17:37:28 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <381F6399.811C15C8@pressenter.com>
+Date: Tue, 02 Nov 1999 16:20:09 -0600
+From: Joe Johnson <jgjohnso@pressenter.com>
+To: David Singmaster <david.singmaster@sbu.ac.uk>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: 5X5X5 challenge
+References: <009E0848.8EC8F5C8.5@ice.sbu.ac.uk>
+
+David Singmaster wrote:
+
+>         On 22 Sep, Dan sais one would discover something interesting
+> about the central pieces of the 5^3.  I think this result is
+> entirely obvious once one thinks about the mechanics of these cubes.
+
+> DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+
+I'm not sure what you and Dan have discovered.
+
+[ Moderator's Note: I should have been less coy.  I thought Joe
+  Johnson might not have discovered that the supergroup contains
+  positions in which a face center is rotated 180 degrees.  I still
+  think this is surprising. It's so easy to rotate the face centers
+  by an amount adding up to an integral number of 360-degree
+  rotations (see 9 January 1981 in the archives).  Does anyone have a
+  short process for rotating two face centers 90 degrees clockwise?
+  --Dan ]
+
+What I have found is that the cross cubies and wing cubies are both
+involved in parity problems. i.e. if you repair the parity of the
+cross cubies then there will be no parity problems with the wing
+cubies, if you leave the parity problem with the cross cubies then
+there will be a parity problem with the wing cubies.  One fix repairs
+both.  The point cubies and edge cubies never have parity problems;
+simple 3 cubie exchanges are all that are necessary to place the point
+cubies (the only cubies that require orientation are the face, corner,
+and edge cubies - the others are automatically oriented correctly when
+they are placed correctly.)
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 26 18:07:49 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA13259
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Nov 1999 18:07:48 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3823768E.53A6755B@iname.com>
+Date: Fri, 05 Nov 1999 16:30:06 -0800
+From: David Barr <davidbarr@iname.com>
+To: Richard E Korf <korf@cs.ucla.edu>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: How many Cubes have been sold?
+References: <199910281737.KAA06812@denali.cs.ucla.edu>
+
+Richard E Korf wrote:
+> Does anyone have a good idea how many Rubik's Cubes have been sold
+> worldwide?  Send mail to me, and I'll post a summary of the
+> responses. Thanks!
+>                              -rich
+
+http://www.rubiks.com/cubemain.html claims that over 200 million have
+been sold.
+
+The Rubik's Games CD-ROM has a history of the cube that includes other
+estimates.
+
+David
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 26 18:47:04 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA13327
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Nov 1999 18:47:03 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: adams.gallant@pei.sympatico.ca
+Message-Id: <1.5.4.32.19991106125203.00687470@pop1.pei.sympatico.ca>
+Date: Sat, 06 Nov 1999 07:52:03 -0500
+To: Cube-Lovers@ai.mit.edu
+Subject: Rubik Books or Video?
+
+Just curious if there exists any video tape footage of Erno Rubik
+[interviews, TV specials] out there, or any easily accessible books about
+his work or an extensive look into the cube phenomena? I've seen a number of
+interesting books on Amazon, but nothing still in print.
+
+Thanks,
+
+Dave Gallant
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 26 19:32:13 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA13421
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Nov 1999 19:32:13 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Reply-To: <noel@mud.ca>
+From: "Noel Dillabough" <noel@mud.ca>
+To: "Cube Lovers List \(E-mail\)" <cube-lovers@ai.mit.edu>
+Subject: Sliding Puzzles
+Date: Mon, 8 Nov 1999 22:37:28 -0500
+Message-Id: <000401bf2a64$2ea9f650$020a0a0a@NOEL>
+
+My latest addiction has been sliding puzzles, sequential movement puzzles
+that are very Rubik-like in nature...I have found a couple of places online
+that have are particularly interesting (see below).  I have solved (with the
+aid of a program) 44 of the 49 puzzles, and 4 more are just a matter of time
+(the states are large but not too large).
+
+However one puzzle, the "Climb Pro 24", by Minoru Abe (link below) is beyond
+my program's reach.  It has far too many combinations for my state program
+to solve it.
+
+This is where the cube lovers come in.  How do I design a program to solve
+this puzzle?  Any ideas or algorithms would be appreciated, especially on
+how to reduce the decision tree and know when you've repeated a state
+without keeping all of the states in memory.
+
+Regardless if I ever figure out a solution, I know lots of you will enjoy
+the following,
+
+-Noel
+
+Classic Sliding Puzzles:
+
+http://www.pro.or.jp/~fuji/java/puzzle/slide/V1.0/fuji.index-eng.html
+
+
+Block 10 Puzzles:
+
+http://www.pro.or.jp/~fuji/java/puzzle/slide/V2.0/block10-eng.html
+
+Climb Puzzles:
+
+http://www.johnrausch.com/SlidingBlockPuzzles/cg15-1.htm
+http://www.johnrausch.com/SlidingBlockPuzzles/cg15-2.htm
+http://www.johnrausch.com/SlidingBlockPuzzles/cg15-3.htm
+http://www.johnrausch.com/SlidingBlockPuzzles/cg15-4.htm
+
+This one, Minoru Abe's "Climb Pro 24" is the mother of all sliding puzzles:
+
+http://www.johnrausch.com/SlidingBlockPuzzles/pro24-1.htm
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 26 19:57:08 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA13484
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Nov 1999 19:57:08 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: Douglas Zander <dzander@solaria.sol.net>
+Message-Id: <199911120937.DAA07616@solaria.sol.net>
+Subject: puzzles and stroke victims
+To: cube-lovers@ai.mit.edu (cube)
+Date: Fri, 12 Nov 99 3:37:48 CST
+
+Hello Puzzle-Fans,
+
+  I am wondering if anyone could comment on the use of twisty puzzles
+(like rubik cube, etc) for those people who suffered a stroke and are
+paralyzed slightly on one side and need to exercise their hands.
+(The reason I'm asking is because my brother-in-law suffered a stroke
+and he needs to exercise his left hand.)   I am wondering if these
+types of puzzles are good therapy or a bad idea.  One exercise he does
+with his wife is to close his eyes and hold an object in his left hand
+and try to figure out its shape (cube, sphere, tetrahedral, etc...)
+Any comments, suggestions, references?
+
+Thanks you.
+--
+ Douglas Zander
+ dzander@solaria.sol.net
+ Shorewood, Wisconsin, USA
+
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec  1 14:07:45 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA28275
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 1 Dec 1999 14:07:43 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 29 Nov 1999 14:31:49 -0800 (PST)
+Message-Id: <199911292231.OAA02453@denali.cs.ucla.edu>
+From: Richard E Korf <korf@cs.ucla.edu>
+To: cube-lovers@ai.mit.edu
+In-Reply-To: <3823768E.53A6755B@iname.com> (message from David Barr on Fri, 05
+	Nov 1999 16:30:06 -0800)
+Subject: Re: How many Cubes have been sold?
+References: <199910281737.KAA06812@denali.cs.ucla.edu> <3823768E.53A6755B@iname.com>
+
+I promised to summarize the responses I got to my question about how many
+Rubik's Cubes were sold worldwide.  The most informative (and authoritative)
+answer I got was from David Singmaster, so I've just included his response
+below. 
+                         -rich korf
+
+Date: Mon, 8 Nov 1999 14:27:49 +0000
+From: David Singmaster Computing & Maths South Bank Univ
+      <david.singmaster@sbu.ac.uk>
+To: korf@cs.ucla.edu
+Subject: RE: How many Cubes have been sold?
+Content-Type: text
+Content-Length: 1165
+
+	I'm doing this from memory.  If you want, I can look up what I wrote
+about 20 years ago.
+	Ideal told me they sold about 20 million cubes in one year - I think
+this was in the US.  Polytechnika said they sold about twice (or several) times
+as many cubes in Hungary as there were people, making perhaps 10 million.  Both
+of these statements were while the cube craze was in midstream.  So I suspect
+that somewhere between 50 and 100 million legitimiate cubes were sold.  However
+the pirate cubes sold perhaps twice as many.  So I've generally given an
+estimate of 200 million!  I think this may be conservative, but the number was
+probably somewhere between 100 and 300 million.  This doesn't take account of
+the fact that the fad started rather later in the Communist countries and they
+may have produced many millions as well, though I don't think this would make a
+huge difference to the estimate above.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec  1 19:43:18 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA29376
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 1 Dec 1999 19:43:18 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: adams.gallant@pei.sympatico.ca
+Message-Id: <1.5.4.32.19991114154546.006830dc@pop1.pei.sympatico.ca>
+Date: Sun, 14 Nov 1999 10:45:46 -0500
+To: Cube-Lovers@ai.mit.edu
+Subject: Square-1 Question
+
+Greetings:
+
+After many months of trying pattern after pattern, I've developed an
+algorithm for swapping two adjacent corner pieces on Square-1. I was hoping
+that if I posted what I've come up with, that someone might have an easier
+method. Who knows? Maybe I've just put a new spin on an old solution to this
+move, or re-discovered an existing pattern. Anyhow, I'd love to get some
+feedback on it. Here's what I've got:
+
+* All moves are done with the orange side facing you, yellow on the left.
+* T   = Top Slice [white in this case]
+* R   = Right-Hand Slice [blue]
+* B   = Bottom Slice [green]
+* L   = Left-Hand Slice [yellow]
+* CW  = Clock Wise
+* CCW = Counter Clock Wise
+* CW and CCW moves are done from the perspective of tilting the cube and
+looking at the side in question.
+* This series of moves will swap the two bottom corner pieces on the blue
+side.
+
+MOVES [From a perfect cube - orange on front]
+*****
+
+T [1/8 CW], R [1/2], B [1/4 CCW], T [1/2], R [1/2], B [1/4 CW], T [1/2], R
+[1/2], B [1/4 CCW], T [1/2], R [1/2], B [1/4 CCW], T [1/4 CW], L [1/2], T
+[1/4 CW], L [1/2], T [1/8 CW], B [1/2]
+
+Please let me know if you have any comments or suggestions. Now that I have
+my own, I won't mind borrowing a simpler one!
+
+Dave
+
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec  1 20:14:28 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA29667
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 1 Dec 1999 20:14:27 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <m11s5dr-0002B5C@fwd07.btx.dtag.de>
+Date: Sun, 28 Nov 1999 15:49:31 +0100
+To: cube-lovers@ai.mit.edu
+Subject: centre slice table
+From: ronald.fletterman@t-online.de (Ronald Fletterman)
+
+
+cubologist proper remember how much time and effort was spent in
+generating the table of all maneuvers, concerning one outer slice of
+the 3x3x3 cube.(the so-called upper table). John F. Jarvis seems to be
+the first to have published the table (in 1983), but his maneuver
+lengths challenged the brothers dockhorn to get the max length down to
+16 moves (1 move equals either a 90 degree or 180 degree face
+turn). upto now, little attention has been paid to the centre slice
+table per se.  digging into my files, i found a study by herbert
+kociemba, including the centre slice maneuvers. to me, it belongs to
+the files of every cubologist; ref. the attachement, which can be
+opened by owners of kociemba's cube explorer. rgds
+
+ronald.
+
+[ Moderator's note: The attachment is presented here as text for the
+  reading pleasure of cube-lovers.  Hopefully cube explorers can
+  turn it back into something useful. --Dan]
+
+D R F' U R' F D' U L' F U' L F' U'  (14f*)<two facing cubies flip>
+D2 L B' U L' B D2 U2 F' R U' F R' U2  (14f*)<two diagonally facing
+                                               cubies flip>
+D B R' D F2 L' B D' U R' B L2 D' F R' U'  (16f*)<four cubies flip>
+D' F2 D U' R2 U  (6f*)<cubies 3-cycle 1/8>
+R2 F2 R D' U F' D2 U2 R2 B' D' U R'  (13f*)<cubies 3-cycle 2/8>
+R' D U' B R2 D2 U2 F D U' R' F2  (12f*)<cubies 3-cycle 3/8>
+R2 B2 R' B' F D B2 D' B F' R'  (11f*)<cubies 3-cycle 4/8>
+R B F' U' B2 U B' F R' B2  (10f*)<cubies 3-cycle 5/8>
+F2 R B' F D' F2 D B F' R'  (10f*)<cubies 3-cycle 6/8>
+B2 R' D U' B D2 U2 R2 F D U' R'  (12f*)<cubies 3-cycle 7/8>
+F U' L B F2 R' F R U' B' F2 L' F' U  (14f*)<cubies 3-cycle 8/8>
+D2 L2 D2 U2 R2 U2  (6f*)<facing cubies double pair swap 1/5>
+B2 U2 R' D' U B' R2 D2 L2 F' D' U R' U2  (14f*)<facing cubies double
+                                               pair swap 2/5>
+R U R' D2 B L2 D2 R2 F U2 R' U' R'  (13f*)<facing cubies double pair
+                                               swap 3/5>
+R U' L B F' D' B D' B' F L B' U R'  (14f*)<facing cubies double pair
+                                               swap 4/5>
+F R' L' U L2 F2 L2 F2 L2 F2 U' R L F' (14f*)<facing cubies double pair
+                                               swap 5/5>
+D B2 F2 D' U L2 R2 U'  (8f*)<diagonally facing cubies double pair
+                                               swap 1/4>
+F' D' U L' D2 F2 U2 R' D' U F' D2 R2 D2  (14f*)<diagonally facing cubies
+                                               double pair swap 2/4>
+R2 F' R' F U F' U F' D' F L D U2 R'  (14f*)<diagonally facing cubies
+                                               double pair swap 3/4>
+F' R' L' U L2 F2 L2 F2 L2 F2 U' R L F (14f*)<diagonally facing cubies
+                                               double pair swap 4/4>
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec  7 16:55:07 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA24858
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 7 Dec 1999 16:55:05 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: HarLikin@aol.com
+Message-Id: <0.a5c6bfe6.2579acd1@aol.com>
+Date: Fri, 3 Dec 1999 18:31:29 EST
+Subject: Megaminx 2 edge swap
+To: Cube-Lovers@ai.mit.edu
+
+For a long time i thought and heard that the 2 edge swap was impossible on a
+megaminx as it is simply a platonic dodecahedron in rubiks format, and a 2
+edge swap on a rubiks cube is impossible. yet i have many times solved my
+megaminx down to where there are only 2 edges swapped, then randomized it,
+and solved again only to find the problem nonexistant. apparently there is
+some way to swap only two edges. If anyone knows this move sequence please
+tell me. thank you.
+
+-Harlequin
+
+[Moderator's note: It is impossible to perform an odd permutation of
+ the edges of the Megaminx, because 5-cycles are even.  This is not
+ the same situation as with Rubik's cube, where it is possible to
+ perform an odd permutation of the edges if an odd permutation of the
+ corners is also performed.  Did they use the same color for more than
+ one face of the Megaminx?  Is there another way to get fooled? --Dan]
+
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Dec 11 15:45:34 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA10511
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Sat, 11 Dec 1999 15:45:33 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 8 Dec 1999 10:33:39 +0100 (CET)
+From: Christ van Willegen <chwi@email.spcgroup.nl>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Megaminx 2 edge swap
+In-Reply-To: <0.a5c6bfe6.2579acd1@aol.com>
+Message-Id: <Pine.LNX.4.04.9912080842390.26996-100000@email.spcgroup.nl>
+
+On Fri, 3 Dec 1999 HarLikin@aol.com wrote:
+
+[About the two-edge swap on the MegaMinx]
+
+> [Moderator's note: It is impossible to perform an odd permutation of
+>  the edges of the Megaminx, because 5-cycles are even.  This is not
+>  the same situation as with Rubik's cube, where it is possible to
+>  perform an odd permutation of the edges if an odd permutation of the
+>  corners is also performed.  Did they use the same color for more than
+>  one face of the Megaminx?  Is there another way to get fooled? --Dan]
+
+The MegaMinx in Puzzler has only 6 colors. When I contacted the author
+about it, he told me that the one he got only had those 6 colors. When
+I got mine (2 years back), it had 12 colors.
+
+I'm not sure if I've ever run into that problem described above. On second
+thought, I have...
+
+Let me describe what I do to solve a MegaMinx. I hope you can follow what
+I'm saying, because it's hard to describe this... I'll try to make
+some pictures... Ok, I stole one from the alt.ascii-art group:
+
+             _._
+         _,-'/\ '-._
+    _,.-'1  /2 \   3`-.._
+ .'________/____\________'.
+ :'-.  4  /      \  6  ,-':
+ :   '-, /   5    \ ,-'   :
+ :  7   /-.      ,-\   10,:
+ `:    /   '-,.-'   \    :
+  :.  /  8 ,-''-. 9  \  .:
+  `: /  ,-'      '-.  \ :
+ & :/,-'     11     '-.\: %
+   `'-................-''
+
+
+First, I solve one layer. This includes the pieces 1, 2, 3 and 5 on the
+5 layers adjeacent to the top. Then, I put in the edge pieces 4 and 6.
+Next, I put in the corner pieces 7 and 10. All of these can be done
+using standard 3x3x3 moves :-)
+
+Putting in 8 and 9 requires a trick. You have to rotate the layers
+indicated by & and % so that the pieces 8 and 9 can be reached from the
+'bottom' layer. Then, use standard 3x3x3 moves to swing the edge pieces
+from the bottom layer to pieces 8 and 9. I always find this process to
+take the longest (you need to put in 10 edges. Because of Murphy's law,
+the edge pieces you need are probably in the 'same' positions in other
+layers, so you need to take them out before you can put them in. Long
+work, indeed).
+
+Next, put in the corner piece 11.
+
+Now, the upper half of the MegaMinx is solved.
+
+Next, put in the edge pieces on the second-to-last layer (easy work),
+and we're down to the last layer.
+
+First, I put the edge pieces in the correct _position_. Sometimes, I need
+two edges to be swapped. The formula I have excahnges three edges, so I
+mess around with it until I have them all in the correct position.
+
+Then, I align edges, position corners (using a three-corner exchange
+formula), and align corners. The last two steps usually impose no
+problems.
+
+Unfortunately, my notes with Megaminx formulas is at home (we found
+them back yesterday..), so I can't look up any formulas.
+
+If people are interested in the formulas I use, or in the way I solve
+it, let me know and I'll look up my notes.
+
+Christ van Willegen
+
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Dec 13 17:24:01 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA15877
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 13 Dec 1999 17:24:01 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <001701bf4163$a712fb30$d80c13ac@ste04w0001.ste04.icl.co.uk>
+From: "Roger Broadie" <Roger.Broadie@iclweb.com.icl.co.uk>
+To: <Cube-Lovers@ai.mit.edu>
+Cc: <HarLikin@aol.com>
+Subject: Re: Megaminx 2 edge swap
+Date: Wed, 8 Dec 1999 10:04:43 -0000
+
+The current Megaminx uses only six colours.  We had a discussion about
+the ambiguities this creates in January 1998, to be found in the
+archives in cube-mail-24.
+
+Roger Broadie
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 14 14:44:11 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA20002
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 14 Dec 1999 14:44:10 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: jmb184@frontiernet.net (John Bailey)
+To: Cube-Lovers@ai.mit.edu
+Cc: bcheney@teleport.com
+Subject: Re: WTD: Rubik's Cube Program w/MACROS
+Date: Sat, 11 Dec 1999 10:31:12 GMT
+Message-Id: <385225bd.86868338@mail.frontiernet.net>
+References: <3851F715.3DF7@teleport.com> <38521c82.84505154@news.frontiernet.net>
+In-Reply-To: <38521c82.84505154@news.frontiernet.net>
+
+
+>On Fri, 10 Dec 1999 23:02:46 -0800, bcheney <bcheney@teleport.com>
+>wrote:
+>
+>>I'm looking for a Rubik's cube program that will allow you to
+>>manipulate the cube and allow you to record MACRO sequences and
+>>execute them at any time.
+>>
+>>I've looked at a lot of the programs on the cube web sites,
+>>but none have this capability.
+>>
+>>If you know of a program that has this capability, could you
+>>EMAIL or post a reference to it?
+
+to which I replied:
+
+>Good point!
+>At http://www.ggw.org/donorware/3x3cube/ is a javascript program
+>implementing a 3x3 cube which has two fixed macros (without bothering
+>to describe them)
+>and the 4D cube at:
+>http://www.ggw.org/donorware/4D_Rubik/ has a very explict macro but
+>again its fixed.
+>
+>What you suggest is there should be an ordinary 3x3x3 cube with the
+>ability to record and then use a sequence which the player enters.
+>
+>Macros would make cube solving and searching for solutions far less
+>cumbersome, without detracting from the challenge.
+>
+>I'll watch this thread with interest.  If no one else nibbles the
+>troll, I will consider making one for the both of us.
+
+Can anyone on Cube-lovers give a pointer to a cube manipulator with
+macro capability?
+
+John
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 14 16:06:52 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA20286
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 14 Dec 1999 16:06:51 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <000701bf442c$151f8420$ea023dd4@wschwi>
+From: "Christ van Willegen" <christw@iae.nl>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: MegaMinx notes
+Date: Sat, 11 Dec 1999 22:34:41 +0100
+
+I just found back my notes on the MegaMinx. Here's what I have.
+It isn't much, because I solve it as a 'regular' cube, with
+the exception of a few formulas.
+
+The last layer needs these steps:
+- Correctly flip the edge pieces.
+
+I use the formulas F U R U' R' F' to flip the 'Front' and
+'Right' upper edge pieces. F R U R' U' F' flips the 'Front'
+and 'Right-back' upper edge pieces.
+
+Repeat one of these formulas as needed.
+
+- Correctly align the edge pieces.
+
+I have two formulas for this as well. Formula 1 assumes that
+the edge pieces 'Front' and 'Left' are correctly aligned, and
+keeps these in place: R U R' U R U2 R' rotates the other three
+edge pieces around.
+
+Formula 2 assumes that the edge pieces 'Front' and 'Left-back'
+are correctly aligned, and keeps these in place: R U R' U2 R U
+R' rotates the other three edge pieces around.
+
+- Correctly align the corner pieces.
+
+I only have on of these. The two corner pieces in the 'R' layer
+are kept in the same position: U2 R U2' L' U2 R' U2' L (note the
+notation: U2 is not the same as U2'!) rotates the other three
+corner pieces around.
+
+- Correctly flip the corner pieces.
+
+The formula I've used for 20 years (is this possible? When I
+started cubing, I was quite small. I can't really remember
+when it was) is the following: Use R F' R' F  R F' R' F to
+rotate the corner piece FRU clockwise. Repeat until this piece
+is correctly aligned. Then, rotate the U layer until you find
+another corner piece that's not correctly flipped. Repeat the
+formula until it's correctly flipped (later, I found out that
+F' R F R'  F' R F R' rotates a corner piece in the ccw
+direction). This also works nicely on the Megaminx.
+
+
+What I like in my solution of the last layer of the Megaminx:
+- The formulas are 'standard' Cube moves, adapted for another
+  geometry.
+- Most only use three layers. Only one (conceptually) uses 4
+  layers (The one to align corner pieces). Since the three
+  layers meeting at every corner of the Megaminx are identical
+  in behaviour as the layers of the Cube, the formulas are easy
+  to grasp (and were easy to adapt from the Cube moves).
+
+Lots of manuals coming with cubes nowadays use the E layer for
+some goals (I have to admit: My formulas for the Cube include
+this one for the Edge pieces on the third layer: (R E)4, then
+rotate the upper layer until another incorrectly flipped edge
+piece is in the UR position). These can clearly _not_ be 'ported'
+to the Megaminx.
+
+My time for solving the Megaminx is about 10 minutes. My Cube
+time is still about 3 minutes (I know, I know: Layer-by-layer
+is _not_ a fast approach...)
+
+Well, that's all I have to say about the Megaminx for now...
+
+Happy Minxing!
+
+Christ van Willegen
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 21 16:15:00 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA14884
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 21 Dec 1999 16:15:00 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 14 Dec 1999 21:56:29 -0500 (EST)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199912150256.VAA02345@Twig.Rodents.Montreal.QC.CA>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: WTD: Rubik's Cube Program w/MACROS
+
+>>> I'm looking for a Rubik's cube program that will allow you to
+>>> manipulate the cube and allow you to record MACRO sequences and
+>>> execute them at any time.
+>> [...]
+> Can anyone on Cube-lovers give a pointer to a cube manipulator with
+> macro capability?
+
+I wrote one that might qualify, depending on what the original poster
+actually wants.
+
+You can do things like this (commentary in [[ ]] markers)
+
+% twist
+> R F2
+Cube:
+              u u f
+              u u f
+              b d d
+        l l r d f f l r r u b b
+        l l r d f f l r r u b b
+        l l r d f f l r r u b b
+              f u u
+              d d b
+              d d b
+Cycles: (ur,br,dr,fl,fr) (uf,df) (ubr,bdr,ufl,dfr,fdl,fur) [30]
+Already centered
+[[ The unfolded cube view shows the result of R F2; the cycle
+decomposition is also printed, along with the smallest power that it
+needs to be raised to to give the identity - I can't offhand recall the
+group-theory term for this number.  The "Already centered" line is
+related to something I'll demonstrate later. ]]
+> .set t LAST
+`t' defined
+[[ Define "t" as a name for this transformation. ]]
+> t2
+Cube:
+              u u f
+              u u f
+              u u f
+        l l r b f d r l l d b b
+        l l r b f d r r r f b b
+        l l l u f d r r r f b b
+              f d b
+              d d u
+              d d u
+Cycles: (ur,dr,fr,br,fl) (ubr,ufl,fdl) (urf,drb,frd) [15]
+Already centered
+[[ Do two `t' operations. ]]
+> t6
+Cube:
+              u u u
+              u u f
+              u u u
+        l l l f f f r r r b b b
+        l l r d f f l r r u b b
+        l l l f f f r r r b b b
+              d d d
+              d d b
+              d d d
+Cycles: (ur,br,dr,fl,fr) [5]
+Already centered
+[[ Do six `t' operations.  Produces a five-cycle on edges. ]]
+> SLICER
+Cube:
+              u f u
+              u f u
+              u f u
+        l l l f d f r r r b u b
+        l l l f d f r r r b u b
+        l l l f d f r r r b u b
+              d b d
+              d b d
+              d b d
+Cycles: (u,b,d,f) (ub,bd,df,fu) [4]
+Centred: (ul,fl,dl,bl) (ur,fr,dr,br) (ulb,flu,dlf,bld) (ubr,fur,dfr,bdr) [4]
+[[ SLICER is the R-L slice turned in the direction it would turn if you
+did an R turn but turned the center slice with the face.  (SLICEL is
+therefore equivalent to SLICER', the inverse of SLICER.  The "Centred"
+line shows the cycle decomposition of the move resulting from taking
+the given move and then concatenating it with a whole-cube move that
+returns all face-center cubies to their home cubicles - in this case,
+we can see that this is... ]]
+> SLICER CUBEL
+Cube:
+              b u b
+              b u b
+              b u b
+        l l l u f u r r r d b d
+        l l l u f u r r r d b d
+        l l l u f u r r r d b d
+              f d f
+              f d f
+              f d f
+Cycles: (ul,fl,dl,bl) (ur,fr,dr,br) (ulb,flu,dlf,bld) (ubr,fur,dfr,bdr) [4]
+Already centered
+[[ As promised.  Note the cycle decomposition matches the "Centred:"
+line from the previous example. ]]
+> SLICER U
+Cube:
+              u u u
+              f f f
+              u u u
+        f d f r r r b u b l l l
+        l l l f d f r r r b u b
+        l l l f d f r r r b u b
+              d b d
+              d b d
+              d b d
+Cycles: (u,b,d,f) (ub,bd,df,lu)+ (ur,uf)+ (ulb,ubr,urf,ufl) [8]
+Centred: (ul,fu,fr,dr,br,ur,fd,fl,dl,bl) (ulb,fur,lfd,ldb)+ (ubr,frd,drb)+ (ufl)+ [180]
+[[ The move of which the Spratt wrench is the fourth power. ]]
+> LAST 4
+Cube:
+              u b u
+              l u u
+              u u u
+        l u l f f f r r r b u b
+        l l l f f f r r r b b b
+        l l l f d f r r r b d b
+              d f d
+              d d d
+              d b d
+Cycles: (ub)+ (ul)+ (fd)+ (bd)+ [2]
+Already centered
+[[ The wrench itself. ]]
+> .set wrench (SLICER U) 4
+`wrench' defined
+[[ This could also have been ".set wrench LAST", since the last thing
+we did was the fourth power of SLICER U.  Parentheses group, so that
+the 4 takes the fourth power of the concatenation within them, as
+opposed to "SLICER U 4", which is SLICER concatenated with U 4. ]]
+> wrench U wrench U'
+Cube:
+              u b u
+              u u u
+              u f u
+        l l l f u f r r r b u b
+        l l l f f f r r r b b b
+        l l l f f f r r r b b b
+              d d d
+              d d d
+              d d d
+Cycles: (ub)+ (uf)+ [2]
+Already centered
+[[ A classic double-edge-flipper.  Note how we can use "wrench" as if
+it were a primitive.  To make the structure pellucid, it really should
+be written "wrench U wrench' U'", but wrench is its own inverse.  For
+an example where it's not... ]]
+> R B2 R' U' B2 U
+Cube:
+              b d d
+              u u u
+              u u f
+        r l l f f r u b b r b u
+        r l l f f f r r r u b b
+        d l l f f f r r u l l l
+              d d d
+              d d d
+              b b b
+Cycles: (ub,ur,br,bl,db) (ulb,rbd,bru) (urf)+ (ldb)- [15]
+Already centered
+> .set sct LAST
+`sct' defined
+> sct F sct' F'
+Cube:
+              u u u
+              u u u
+              f u f
+        l l u l f r u r r b b b
+        l l l f f f r r r b b b
+        l l l f f f r r r b b b
+              d d d
+              d d d
+              d d d
+Cycles: (ufl)- (urf)+ [3]
+Already centered
+[[ This happens to be one of my personal favorites for twisting
+corners, largely because it's one I developed completely on my own,
+deliberately setting out to develop a way of twisting corners, and my
+fingers know it well.  Note how this differs from... ]]
+> sct F sct F'
+Cube:
+              r b b
+              u u d
+              l u f
+        b l f u f r u b l u l d
+        r l l f f f r r b u b u
+        b l l f f f r r b r r d
+              d d d
+              d d d
+              l b u
+Cycles: (ub,br,db,ur,bl) (ulb,bru,rbd) (ufl)+ (urf)+ (ldb)+ [15]
+Already centered
+[[ ...which is a mess. ]]
+>
+
+The program has other facilities as well.  You can set a mode whereby
+each input line, rather than being applied to a clean cube, is applied
+to the last-printed cube; this is what you'd want if you wanted to try
+actually solving a cube using it.  There are also ways to save and load
+files containing user-defined transformations.  Twenty transformations
+are predefined: the six face quarter-turns, the six quarter-turns of
+the whole cube, the six SLICEx turns, NOOP (which has no effect), and
+LAST (which refers to the operation that carries a clean cube into the
+last-printed cube).  Parentheses group, numeric suffixes repeat what
+they apply to, ' takes the inverse, and * `centers' - it takes what it
+applies to and concatenates it with whole-cube rotations as necessary
+to return the face-center cubies to their home cubicles.
+
+The program is 1308 lines long (34106 bytes) and does require gcc to
+compile (it uses nonlocal gotos, nested functions a la Pascal, and
+block expressions with nested functions to get lambda functions), but
+other than that it should be fairly portable - there's stuff that's
+compiler-dependent but not much that's OS-dependent, I think.  I'll be
+happy to mail a copy to anyone who wants; if anyone cares to put it up
+to be generally fetchable, that's fine with me.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec 22 14:34:46 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil ([132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA18957
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 22 Dec 1999 14:34:46 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 15 Dec 1999 22:05:48 -0500 (EST)
+From: noel <noel@titan.tcn.net>
+To: John Bailey <jmb184@frontiernet.net>
+Cc: Cube-Lovers@ai.mit.edu, bcheney@teleport.com
+Subject: Re: WTD: Rubik's Cube Program w/MACROS
+In-Reply-To: <385225bd.86868338@mail.frontiernet.net>
+Message-Id: <Pine.BSI.3.95.991215220417.9151A-100000@titan.tcn.net>
+
+There is a modified cube (2x2x2 to 5x5x5 with macro abilities at the
+following url:
+
+http://www.mud.ca/cube/cube.html
+
+See the examples for how to enter the macros in.
+
+-Noel
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jan 21 21:15:14 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA00483
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 21 Jan 2000 21:15:14 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: ronald.fletterman@t-online.de (Ronald Fletterman)
+To: cube-lovers@ai.mit.edu
+Subject: solutions of 4x4x4 and 5x5x5 cubes
+Date: Thu, 16 Dec 1999 17:49:15 +0100
+Message-Id: <11ye5b-07iT68C@fwd01.sul.t-online.de>
+
+dear cube lovers, i can offer methods to resolve the standard 4x4x4
+and 5x5x5 cubes to anyone interested. please make this an email
+message to all.
+
+tks & b.rgds. ronald l. fletterman 
+
+[Moderator's note: I apologize for the month-long outage that
+ cube-lovers has just experienced.  I can't offer any extenuating
+ circumstances, but I'll try to be more diligent in the future. -Dan ]
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jan 21 21:21:35 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA00498
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 21 Jan 2000 21:21:35 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <001001bf4a30$463f4360$7d6bead4@maison>
+From: "VALLEY" <gilbert.valley@accesinternet.com>
+To: <cube-lovers@ai.mit.edu>
+Subject: rubiks hat or rabbit
+Date: Sun, 19 Dec 1999 15:49:09 +0100
+
+Hello,
+
+Two days ago I bought a rubiks rabbit.  It is really amazing, and is
+more complicated than it looks. Here is the description found in the
+archives:
+
+"Rubik's Hat is in the form of a hat with six rings on it. You can
+look through it (and through the rings by implication). By turning
+rings you see more or less rabbits. The purpose is to see a rabbit in
+every position.
+
+I think the puzzle is based on light polarization, with different
+polarizations coming through the segments of the rings."
+
+I'm not entirely satisfied with the explanation. Light polarisation
+doesn't have this effect on colours, and polarisation lens are too
+much expensive to be used. I think this effect is due to simple light
+filters (green, red, yellow or a mix of two of these colours). If the
+filter is red (=retain all other wave lenghths), then you will only
+see red rabbits.
+
+But there is something I can't explain: in one segment I saw a green
+rabbit. then I turn a ring and this rabbit disappears. I concluded
+that the segment of the ring retains green light. Then I tried all
+other colours to see what light could pass through. When i turn this
+same ring on another green segment, then I was able to see the rabbit
+through it! This was of course not the same rabbit, and in one case
+the green rabbit was there and in the other, not, all that with the
+same filter!
+
+Could somebody explain that? Do you have any other explanation of this
+puzzle?
+
+I've tried my best to explain that in english, but feel free to ask me
+for more details,
+
+Bye,
+Paul
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jan 21 21:43:52 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA00569
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 21 Jan 2000 21:43:52 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <001201bf4ad7$df987d40$af0333c8@98>
+Reply-To: "Pedro Reissig" <preissig@movi.com.ar>
+From: "Pedro Reissig" <preissig@movi.com.ar>
+To: "Johan Myrberger" <Johan.Myrberger@ebc.ericsson.se>,
+        <cube-lovers@ai.mit.edu>
+Subject: RE: Magic jack
+Date: Sun, 19 Dec 1999 11:36:27 -0300
+
+I am a puzzle designer working in Argentina, and looking for Magic
+Jack type products.  Do you know websites for the 2 other similar
+products, the Vadasz and IQUBE?
+
+thanks, Pedro Reissig
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jan 21 23:22:37 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id XAA00709
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 21 Jan 2000 23:22:36 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19991231122908.11135.qmail@web109.yahoomail.com>
+Date: Fri, 31 Dec 1999 04:29:08 -0800 (PST)
+From: Jaap Scherphuis <jaapsch@yahoo.com>
+Reply-To: jaap@org2.com
+Subject: Square-1 tables of move sequences
+To: Cube-Lovers@ai.mit.edu
+
+Dear Cube-Lovers,
+
+I have just computed many new results for the Square-1 puzzle. I have
+written a program that applies a Kociemba-like algorithm to this puzzle,
+and used it to find many beautifully short sequences for nearly all
+standard moves of the edges and corners.
+
+This post is very long, and will list most of the results. First however
+I should quickly describe the puzzle and highlight some of its intricacies,
+since these might not be overly familiar even though it has been mentioned
+on this list in the past.
+
+--
+Short description of the Square-1 puzzle:
+
+This puzzle is a cube consisting of three layers. The top and bottom layers
+are cut like a pie in 8 pieces; 4 edge pieces and 4 corner pieces, 30 and 60
+degrees wide respectively. The top and bottom layers can rotate. The middle
+layer is cut in only two halves along one of the lines of the other layers.
+If there are no corner pieces in the way, you can twist half the cube 180
+degrees so that pieces from the top and bottom layers mingle.
+
+The puzzle is unique in that the two types of pieces intermingle. The edge
+and corner pieces can freely move between the two outer layers. Of course,
+the puzzle will not necessarily be a cube shape when the pieces are mixed.
+The puzzle has six colours, each face has a single colour similar to the
+Rubik's cube. The aim is of course to return a mixed puzzle back to its
+original solved position.
+
+The number of positions:
+There are three categories of puzzle shapes.
+  a. Both layers have 4 edges and 4 corners each.
+  b. One layer has 3 corners, 6 edges, the other 5 corners 2 edges.
+  c. One layer has 2 corners, 8 edges, the other 6 corners and no edges.
+
+There are 1, 3, 10, 10 and 5 layer shapes with 6, 5, 4, 3 and 2 corners.
+This means there are 5*1+10*3+10*10+3*10+1*5 = 170 shape combinations
+for the top and bottom layers (all of them can be attained). The middle layer
+has two shapes because half of it is assumed to be in a fixed position and
+only the other half moves. This means that there seem to be 170*2*8!*8! =
+552,738,816,000 positions if we disregard rotations of the layers. Some
+layer shapes however have symmetry, and these have been counted too
+many times this way.
+
+To take account of the symmetries we can simply count the number of layer
+shapes differently. Instead of the numbers 1, 3, 10, 10, 5 we use the
+numbers 2, 36, 105, 112, 54, which are the number of shapes if we consider
+rotations different (e.g. a square counts as 3 because it has three possible
+orientations). By the same method as before we then get 19305*2*8!*8!
+or 627,768,369,664,000 positions.
+
+To exclude layer rotations, divide by 12^2 to get a total of 435,891,456,000
+distinct positions.
+
+--
+Notation
+
+I use a different notation to that found on other places on the web,
+because I find this one more descriptive. Hold the puzzle so that the
+yellow middle layer piece is on the left hand side with its 'Square-1'
+inscription the right way up. Denote a 180 degree turn of the right hand
+side of the puzzle by a / sign (a slash). Turns of the top and bottom
+layers are denoted by a pair of numbers (n,m). These numbers are the
+multiple of 30 degrees clockwise that the top/bottom layers are to turn
+respectively. Thus (3,0) means turn only the top layer clockwise 90
+degrees, and (0,-1) means turn only the bottom layer 30 degrees
+anti-clockwise (i.e. one edge along).
+
+Note that I define the LENGTH OF A SEQUENCE of moves simply as the
+number of / moves in it.
+
+By labelling the faces by the letters U, D, L, R, F, B in the standard
+way for the Rubik's cube, the pieces of Square-1 can also be denoted
+in the usual way; a combination of two letters for an edge piece and
+three letters for a corner piece.
+
+--
+Subtleties of the puzzle
+
+Generally the puzzle is solved by first bringing its shape back to a cube,
+and then placing the pieces correctly. The reason for this is that there
+are many moves that keep the top an bottom layers square, for example
+(1,0)/(0,-1). Each / does of course change the middle layer shape from a
+square to a kite shape, but this can be ignored because /(0,6)/(0,6)/(0,6)
+affects only the middle layer. Ignoring the middle layer, a cube can be
+formed in at most 7 moves.
+
+A difficulty arises from the fact that these cube moves swaps two pairs
+of corners and two pairs of edges, which is an even permutation. The pieces
+can however end up in an odd permutation. To solve this, you will have to
+leave the cube shape behind. One way is by doing /(3,3)/(1,2)/ which brings
+together four corner pieces in each layer. Now (2,-2)/(-2,2) will swap
+three pairs of corners, and by reversing the previous moves we can return
+to a cube. As you can see this has taken 7 moves, and in fact there is no
+shorter way of performing an odd permutation on the cube.
+
+--
+The Search Algorithm
+
+The search algorithm in my program is very similar in design to the
+Kociemba algorithm for solving the Rubik's cube, as it solves it in two
+stages and uses tables to prune the search tree.
+
+During the first stage of the search a position is found in which the
+top and bottom layers are square and where the pieces lie in an even
+permutation. The second stage will then solve it with moves that keep
+the top and bottom layers square.
+
+The first stage uses a single look-up table, that holds the number of
+moves needed to bring the puzzle to a cube from the current shape. It is
+only when the cube shape is reached that the parity of the permutation is
+checked. In the future I may try to build a larger table which combines
+the permutation parity with the shape.
+
+The second stage uses in effect two look-up tables, one for the edges and
+one for the corners, and the number of moves needed to solve them is given.
+In reality the two tables are identical since cube-moves swap corners and
+edges in the same way.
+
+In virtually all other aspects the two phase search is performed in the
+same manner as the Kociemba algorithm, so I need not explain further.
+The only remaining difference is that my program continues searching for
+sequences of the same length as any already found. My reason for this is
+that some sequences require fewer turns of the top and bottom layers, and
+are therefore better despite being of the same length as defined above.
+
+--
+Results
+
+I suspect that God's algorithm (the shortest possible way of solving any
+position) uses at most about 12 moves. Clearly this cannot be proved with
+this program, but nearly all the positions I have tried can be done in 12
+or fewer moves.
+
+Most of the results that I have found using this program are on my website.
+Jaap's Puzzle page:  http://www.org2.com/jaap/puzzles
+
+The most important ones are below. Sequence E6 is especially amazing, as
+it swaps three pairs of corners and nothing else in only 7 moves. Another
+highlight is C4, an edge swap in 10 moves.
+
+A. Sequences involving only edges, and where some of them change layer:
+1. Swap DF-UF, DR-UR, DB-UB, DL-UL: (0,5)/(1,1)/(-4,2)/(1,1)/(2,3)
+2. Swap DF-UF, DB-UB: (0,5)/(1,1)/(-1,6)
+3. Swap DF-UB, DB-UF: (0,-1)/(1,1)/(-1,0)
+4. Swap DR-UR, DB-UB: (0,2)/(0,3)/(1,1)/(-1,-4)/(0,-2)
+5. Swap DR-UB, DB-UR: (0,2)/(0,3)/(1,-5)/(-1,5)/(0,3)/(0,-2)
+6. Swap DB-UB, DR-UF: /(-3,0)/(0,5)/(6,1)/(0,3)/(-5,0)/(-1,6)
+7. Swap DB-UF, DR-UB: (1,0)/(0,5)/(6,3)/(0,5)/(-5,0)/(-3,6)/(6,0)
+8. Swap DR-UF, UR-UB: (1,0)/(-4,5)/(0,-3)/(1,1)/(-1,2)/(4,-5)/(-1,0)
+9. Swap DR-UR, UF-UB: (1,3)/(0,3)/(0,3)/(-1,2)/(1,4)/(0,3)/(-1,0)
+10. Swap DR-UB, UF-UR: (4,3)/(3,0)/(-4,5)/(1,1)/(-3,0)/(0,-3)/(2,3)
+11. Cycle UF->UR->DR: (1,3)/(0,5)/(0,3)/(6,1)/(0,5)/(3,6)/(6,-3)
+12. Cycle UF->UB->DR: (0,5)/(0,1)/(6,3)/(5,0)/(-5,0)/(0,3)/(-1,0)/(0,1)
+13. Swap UF-DF:
+/(3,3)/(5,0)/(2,0)/(-4,4)/(2,0)/(-1,3)/(0,3)/(3,3)/(2,0)/(-2,1)/(5,2)/(4,-5)/(2,6)
+
+B. Sequences involving only edges of both layers where they do not change
+layer:
+1. Swap UF-UB, UR-UL, DF-DB, DR-DL: (1,0)/(-3,3)/(2,2)/(3,3)/(-2,4)/(5,0)
+2. Swap UF-UL, UR-UB, DF-DL, DR-DB:
+(0,2)/(-3,0)/(1,1)/(-4,2)/(1,1)/(5,-4)/(0,-2)
+3. Swap UF-UB, DF-DB: (1,0)/(-1,5)/(1,-5)/(-1,6)
+4. Swap UR-UB, DR-DB: (0,2)/(0,-3)/(1,1)/(-1,2)/(0,-2)
+5. Swap UF-UB, DR-DB: (0,2)/(1,0)/(0,3)/(6,1)/(0,5)/(-3,0)/(5,6)/(6,-2)
+6. Swap UF-UB, UL-UR, DF-DB:
+/(3,3)/(1,2)/(2,-4)/(-2,4)/(2,4)/(3,3)/(3,0)/(3,3)/(3,0)
+
+C. Sequences involving only edges of the top layer:
+1. Swap UF-UB, UR-UL: /(3,-3)/(3,-3)/(6,-2)/(3,-3)/(3,-3)/(2,0)
+2. Swap UF-UL, UR-UB: /(3,3)/(1,4)/(5,5)/(-3,0)/(3,3)/
+3. Cycle UF->UB->UR: (1,0)/(-1,2)/(-5,1)/(0,3)/(-3,0)/(5,2)/(-5,4)/(-4,0)
+4. Swap UF-UB:
+/(3,3)/(3,2)/(-4,2)/(-2,4)/(-2,0)/(-4,2)/(-5,1)/(3,0)/(3,3)/(0,-3)
+5. Swap UF-UR:
+/(3,3)/(-3,0)/(0,4)/(-2,4)/(-4,2)/(-1,0)/(3,3)/(0,4)/(-3,0)/(0,3)/(-1,2)/(-2,1)/(-1,0)
+6. Cycle UF->UR->UB->UL:
+/(3,3)/(1,0)/(2,2)/(0,2)/(4,4)/(2,0)/(2,2)/(-1,0)/(-3,-3)/(0,3)
+
+
+D. Sequences involving only corners, and where some of them change layer:
+1. Swap UFR-DFR, UBR-DBR, UBL-DBL, UFL-DFL: (4,0)/(2,2)/(-3,3)/(-2,-2)/(-1,-3)
+2. Swap UFL-DFL, UBR-DBR: (4,0)/(2,2)/(6,-2)
+3. Swap UFL-DBR, UBR-DFL: (-2,0)/(2,2)/(0,-2)
+4. Swap UFL-DFL, UFR-DFR: (6,5)/(-3,0)/(4,4)/(2,5)/(0,1)
+5. Swap UFL-DFR, UFR-DFL: (1,0)/(3,0)/(-4,2)/(-2,4)/(0,3)/(5,6)
+6. Swap UFL-DFL, UBR-DFR: /(3,0)/(6,2)/(4,0)/(-3,0)/(6,-2)/(-4,0)
+7. Swap UFL-DFR, UBR-DFL: (6,0)/(3,0)/(6,2)/(4,0)/(-3,0)/(6,-2)/(2,0)
+8. Swap UFR-UBR, UFL-DFR: (4,3)/(0,3)/(3,0)/(2,5)/(-5,4)/(3,0)/(5,3)
+9. Swap UFL-UBR, UFR-DFR: (0,5)/(0,3)/(0,3)/(-2,1)/(2,5)/(0,3)/(0,-2)
+10. Swap UFL-UFR, UBR-DFR: (-2,0)/(0,3)/(6,3)/(2,2)/(-2,1)/(-3,0)/(-4,6)
+11. Cycle UFL->UFR->DFR: (1,3)/(-4,0)/(6,3)/(0,4)/(-4,0)/(3,0)/(-3,3)
+12. Cycle UFL->UBR->DFR: (-5,0)/(3,0)/(5,2)/(-5,4)/(0,3)/(-1,2)/(-2,4)/(-4,6)
+13. Swap UFR-DFR:
+(-3,0)/(6,3)/(-1,4)/(-2,2)/(-4,4)/(-4,1)/(0,3)/(0,2)/(0,3)/(-2,4)/(-4,2)/(3,0)/(-3,4)
+
+E. Sequences involving only edges of both layers where they do not change
+layer:
+1. Swap UFR-UBL, UFL-UBR, DFR-DBL, DFL-DBR:
+(1,0)/(-1,5)/(3,3)/(1,1)/(-3,3)/(5,0)
+2. Swap UFR-UFL, UBL-UBR, DFR-DFL, DBL-DBR:
+(0,5)/(0,3)/(4,4)/(-3,3)/(2,2)/(0,-3)/(6,1)
+3. Swap UFL-UBR, DFL-DBR: (0,5)/(-2,4)/(2,-4)/(0,1)
+4. Swap UFL-UFR, DFL-DFR: (1,0)/(-3,0)/(2,2)/(1,-2)/(-1,0)
+5. Swap UFL-UBR, DFL-DFR: (-2,0)/(0,2)/(0,3)/(-4,0)/(4,0)/(6,3)/(-2,0)/(2,6)
+6. Swap UFL-UBR, UFR-UBL, DFL-DBR: /(3,3)/(-3,4)/(-2,4)/(-4,2)/(-4,3)/(3,3)/
+
+F. Sequences involving only edges of the top layer:
+1. Swap UFL-UBR, UFR-UBL: /(-3,3)/(-3,3)/(0,1)/(-3,3)/(-3,3)/(-1,6)
+2. Swap UFL-UFR, UBR-UBL: /(3,3)/(-3,0)/(4,4)/(2,5)/(3,3)/
+3. Cycle UFL->UBR->UFR: (-5,0)/(-4,5)/(4,1)/(-3,0)/(0,3)/(-4,2)/(-2,1)/(2,0)
+4. Swap UFL-UBR:
+/(3,3)/(-5,0)/(4,4)/(2,0)/(4,4)/(-2,5)/(3,3)/(0,5)/(-2,-2)/(5,0)
+5. Swap UFL-UFR:
+(0,3)/(1,2)/(3,2)/(-4,0)/(0,4)/(-4,3)/(5,4)/(6,3)/(2,0)/(-2,4)/(-4,2)/(6,-2)
+6. Cycle UFL->UBL->UBR->UFR:
+/(3,3)/(-5,0)/(4,4)/(2,0)/(4,4)/(-2,5)/(3,3)/(0,5)/(-2,-2)/(5,0)
+
+Copyright 2000 Jaap Scherphuis.
+Jaap's Puzzle Page:  http://www.org2.com/jaap/puzzles
+
+
+=====
+Jaap Scherphuis
+Visit the Psion Organiser II CM, XP & LZ Homepage:
+URL: http://www.org2.com      email: jaap@org2.com
+
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jan 21 23:40:23 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id XAA00770
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 21 Jan 2000 23:40:22 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3871A3E9.D780781A@spcgroup.nl>
+Date: Tue, 04 Jan 2000 08:40:25 +0100
+From: Christ van Willegen <c.v.willegen@spcgroup.nl>
+To: Cube Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Meffert's web-site
+
+Hi,
+
+I've tried to go to Uwe Meffert's web-site, but have been unable to
+open it (http://www.mefferts-puzzles.com). Also, I tried www.ue.net
+(another site made by Meffert). Does anyone know why the sites are
+down?
+
+[Moderator's note: CvW followed up with a note that the site is now
+ named www.mefferts.com. --Dan]
+
+On a side note, this weekend I 'constructed' a 12-spot on a Megaminx.
+It's not as simple as it looks. After that, I constructed the
+pattern that looks like U2 D2 R2 L2 F2 B2 on the Cube (is this
+called 'Pons Asinorum'?). Only, the colors are not always the ones
+of the oposite sides of the MegaMinx.
+
+Is it possible to make the 12-spot and the other pattern in an easy
+way when I start with a 'clean' MegaMinx? I've seen formulas for
+the 10-spot already.
+
+
+Regards,
+
+Christ van Willegen
+
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Jan 22 13:55:41 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA01676
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Sat, 22 Jan 2000 13:55:41 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: Andrew John Walker <ajw01@uow.edu.au>
+Message-Id: <200001050242.NAA17628@wumpus.its.uow.edu.au>
+Subject: Cubes and genetic/evolution based solving
+To: cube-lovers@ai.mit.edu
+Date: Wed, 5 Jan 100 13:42:44 +1100 (EST)
+
+
+Would please comment on http://www.iteration-gmbh.de/Erubik.html
+[ or on the German version http://www.iteration-gmbh.de/Rubik.htm ].
+They have an animation which appears to be solving a 6x6x6 cube.
+
+This is possibly related to the English page at
+http://www2.informatik.uni-erlangen.de/~jacob/Evolvica/ES-GA/
+ga_magic_problem.html
+
+which shows screen shots of a solver program. I looked at ftp
+site and the program doesn't appear to be available, although the
+magic square program and a few others are in
+ftp://ftp-bionik.fb10.tu-berlin.de/pub/ESdemo/
+
+What then are the prospects of using these methods for cube solving?
+While it may be a bit much for them to produce optimal solutions
+(or maybe not!), for 4x4x4 and larger the suboptimal solutions may
+still be very useful.
+
+Andrew Walker
+
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Jan 22 14:53:38 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA01807
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Sat, 22 Jan 2000 14:53:37 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <20000110161852.11773.qmail@web118.yahoomail.com>
+Date: Mon, 10 Jan 2000 08:18:52 -0800 (PST)
+From: Jaap Scherphuis <jaapsch@yahoo.com>
+Reply-To: jaap@org2.com
+Subject: Re: Square-1 tables of move sequences
+To: Cube-Lovers@ai.mit.edu
+
+
+Dear Cube-Lovers,
+
+Here are my latest and probably final Square-One results.
+
+I have finalised my square-1 solving program, and it can now be downloaded from
+my website. I managed to speed it up so much that it can do an exhaustive depth
+9 search in a few hours on a fast pc. It has thus confirmed that all the
+sequences below of length <=10 are minimal (though there might be other
+sequences that are easier to perform).
+
+The only sequences that are more than 10 long are A13 and C5, and these are 11
+and 12 moves respectively. I have no plans as yet to do longer searches on
+these two.
+
+Here are the move tables. I will quote them in full, even though many are the
+same as in my previous post.
+
+A. Sequences involving only edges, and where some of them change layer:
+1. Swap DF-UF, DR-UR, DB-UB, DL-UL: (0,5)/(1,1)/(-4,2)/(1,1)/(2,3)
+2. Swap DF-UF, DB-UB: (0,5)/(1,1)/(-1,6)
+3. Swap DF-UB, DB-UF: (0,-1)/(1,1)/(-1,0)
+4. Swap DR-UR, DB-UB: (0,2)/(0,3)/(1,1)/(-1,-4)/(0,-2)
+5. Swap DR-UB, DB-UR: (0,2)/(0,3)/(1,-5)/(-1,5)/(0,3)/(0,-2)
+6. Swap DB-UB, DR-UF: /(-3,0)/(0,5)/(6,1)/(0,3)/(-5,0)/(-1,6)
+7. Swap DB-UF, DR-UB: (1,0)/(0,5)/(6,3)/(0,5)/(-5,0)/(-3,6)/(6,0)
+8. Swap DR-UF, UR-UB: (1,0)/(-4,5)/(0,-3)/(1,1)/(-1,2)/(4,-5)/(-1,0)
+9. Swap DR-UR, UF-UB: (1,3)/(0,3)/(0,3)/(-1,2)/(1,4)/(0,3)/(-1,0)
+10. Swap DR-UB, UF-UR: (4,3)/(3,0)/(-4,5)/(1,1)/(-3,0)/(0,-3)/(2,3)
+11. Cycle UF->UR->DR: (1,3)/(0,5)/(0,3)/(6,1)/(0,5)/(3,6)/(6,-3)
+12. Cycle UF->UB->DR: (0,5)/(0,1)/(6,3)/(5,0)/(-5,0)/(0,3)/(-1,0)/(0,1)
+13. Swap UF-DF:
+(4,5)/(3,0)/(0,1)/(10,2)/(0,4)/(0,4)/(10,2)/(0,1)/(3,0)/(3,5)/(7,4)/(11,0)
+
+
+B. Sequences involving only edges of both layers where they do not change
+layer:
+1. Swap UF-UB, UR-UL, DF-DB, DR-DL: (1,0)/(-3,3)/(2,2)/(3,3)/(-2,4)/(5,0)
+2. Swap UF-UL, UR-UB, DF-DL, DR-DB:
+(0,2)/(-3,0)/(1,1)/(-4,2)/(1,1)/(5,-4)/(0,-2)
+3. Swap UF-UB, DF-DB: (1,0)/(-1,5)/(1,-5)/(-1,6)
+4. Swap UR-UB, DR-DB: (0,2)/(0,-3)/(1,1)/(-1,2)/(0,-2)
+5. Swap UF-UB, DR-DB: (0,2)/(1,0)/(0,3)/(6,1)/(0,5)/(-3,0)/(5,6)/(6,-2)
+6. Swap UF-UB, UL-UR, DF-DB:
+/(3,3)/(1,2)/(2,-4)/(-2,4)/(2,4)/(3,3)/(3,0)/(3,3)/(3,0)
+
+
+C. Sequences involving only edges of the top layer:
+1. Swap UF-UB, UR-UL: /(3,-3)/(3,-3)/(6,-2)/(3,-3)/(3,-3)/(2,0)
+2. Swap UF-UL, UR-UB: /(3,3)/(1,4)/(5,5)/(-3,0)/(3,3)/
+3. Cycle UF->UB->UR: (1,0)/(-1,2)/(-5,1)/(0,3)/(-3,0)/(5,2)/(-5,4)/(-4,0)
+4. Swap UF-UB:
+/(3,3)/(3,2)/(-4,2)/(-2,4)/(-2,0)/(-4,2)/(-5,1)/(3,0)/(3,3)/(0,-3)
+5. Swap UF-UR:
+(3,0)/(3,0)/(1,2)/(10,3)/(10,3)/(10,5)/(4,0)/(0,1)/(3,5)/(9,0)/(2,3)/(10,4)/(5,3)
+6. Cycle UF->UR->UB->UL:
+/(3,3)/(1,0)/(2,2)/(0,2)/(4,4)/(2,0)/(2,2)/(-1,0)/(-3,-3)/(0,3)
+
+
+D. Sequences involving only corners, and where some of them change layer:
+1. Swap UFR-DFR, UBR-DBR, UBL-DBL, UFL-DFL: (4,0)/(2,2)/(-3,3)/(-2,-2)/(-1,-3)
+2. Swap UFL-DFL, UBR-DBR: (4,0)/(2,2)/(6,-2)
+3. Swap UFL-DBR, UBR-DFL: (-2,0)/(2,2)/(0,-2)
+4. Swap UFL-DFL, UFR-DFR: (6,5)/(-3,0)/(4,4)/(2,5)/(0,1)
+5. Swap UFL-DFR, UFR-DFL: (1,0)/(3,0)/(-4,2)/(-2,4)/(0,3)/(5,6)
+6. Swap UFL-DFL, UBR-DFR: /(3,0)/(6,2)/(4,0)/(-3,0)/(6,-2)/(-4,0)
+7. Swap UFL-DFR, UBR-DFL: (6,0)/(3,0)/(6,2)/(4,0)/(-3,0)/(6,-2)/(2,0)
+8. Swap UFR-UBR, UFL-DFR: (4,3)/(0,3)/(3,0)/(2,5)/(-5,4)/(3,0)/(5,3)
+9. Swap UFL-UBR, UFR-DFR: (0,5)/(0,3)/(0,3)/(-2,1)/(2,5)/(0,3)/(0,-2)
+10. Swap UFL-UFR, UBR-DFR: (-2,0)/(0,3)/(6,3)/(2,2)/(-2,1)/(-3,0)/(-4,6)
+11. Cycle UFL->UFR->DFR: (1,3)/(-4,0)/(6,3)/(0,4)/(-4,0)/(3,0)/(-3,3)
+12. Cycle UFL->UBR->DFR: (-5,0)/(3,0)/(5,2)/(-5,4)/(0,3)/(-1,2)/(-2,4)/(-4,6)
+13. Swap UFR-DFR: /(3,0)/(1,2)/(-2,0)/(2,1)/(6,3)/(1,0)/(-2,2)/(0,1)/(3,3)/
+
+
+E. Sequences involving only edges of both layers where they do not change
+layer:
+1. Swap UFR-UBL, UFL-UBR, DFR-DBL, DFL-DBR:
+(1,0)/(-1,5)/(3,3)/(1,1)/(-3,3)/(5,0)
+2. Swap UFR-UFL, UBL-UBR, DFR-DFL, DBL-DBR:
+(0,5)/(0,3)/(4,4)/(-3,3)/(2,2)/(0,-3)/(6,1)
+3. Swap UFL-UBR, DFL-DBR: (0,5)/(-2,4)/(2,-4)/(0,1)
+4. Swap UFL-UFR, DFL-DFR: (1,0)/(-3,0)/(2,2)/(1,-2)/(-1,0)
+5. Swap UFL-UBR, DFL-DFR: (-2,0)/(0,2)/(0,3)/(-4,0)/(4,0)/(6,3)/(-2,0)/(2,6)
+6. Swap UFL-UBR, UFR-UBL, DFL-DBR: /(3,3)/(-3,4)/(-2,4)/(-4,2)/(-4,3)/(3,3)/
+
+
+F. Sequences involving only edges of the top layer:
+1. Swap UFL-UBR, UFR-UBL: /(-3,3)/(-3,3)/(0,1)/(-3,3)/(-3,3)/(-1,6)
+2. Swap UFL-UFR, UBR-UBL: /(3,3)/(-3,0)/(4,4)/(2,5)/(3,3)/
+3. Cycle UFL->UBR->UFR: (-5,0)/(-4,5)/(4,1)/(-3,0)/(0,3)/(-4,2)/(-2,1)/(2,0)
+4. Swap UFL-UBR:
+/(3,3)/(-5,0)/(4,4)/(2,0)/(4,4)/(-2,5)/(3,3)/(0,5)/(-2,-2)/(5,0)
+5. Swap UFL-UFR: /(3,3)/(1,4)/(0,4)/(10,4)/(8,2)/(2,0)/(10,4)/(4,1)/(3,3)/
+6. Cycle UFL->UBL->UBR->UFR:
+/(3,3)/(-5,0)/(4,4)/(2,0)/(4,4)/(-2,5)/(3,3)/(0,5)/(-2,-2)/(5,0)
+
+Jaap Scherphuis
+Copyright January 2000
+--------------------------
+Jaap's Puzzle Site:  http://www.org2.com/jaap/puzzles
+Psion Organiser II homepage:  http://www.org2.com
+
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Jan 22 15:35:46 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA02733
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Sat, 22 Jan 2000 15:35:46 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <387C51CD.706ED535@ibm.net>
+Date: Wed, 12 Jan 2000 02:05:01 -0800
+From: "Jin 'Time Traveler' Kim" <chrono@ibm.net>
+To: Cube-Lovers@ai.mit.edu
+Subject: Rubik's Revenge by Oddzon
+References: <000701bf442c$151f8420$ea023dd4@wschwi>
+
+Oddzon recently decided to manufacture a limited run of Rubik's
+Revenges.  My understanding is that they originally made 250 for sale
+but the cubes were so popular that they made another 250.  All 500
+initial cubes are gone.
+
+Here's the URL to the Rubik's page about the status of the Revenge:  It
+will return to production.
+
+http://www.rubiks.com/revenge.html
+
+I recently picked up a couple of these prototype Revenges to compare
+them to the original Ideal runs of the early 80's.  As far as I can
+tell, Ideal had two different sets of Revenges made.  The first set is
+from Macau.  Its mechanism is initially quite stiff and squeaks a lot
+when turned.  This can eventually loosen up to a pretty smooth turning
+mechanism.  It's made of stiff plastic which leads me to believe that
+this would be the one more easily broken due to the potential
+brittleness of the pieces.  The other Revenge is manufactured in Korea. 
+This particular cube is made from a softer plastic and turns much more
+smoothly than the Macau cube when brand new.  The drawback of the Korea
+cube IMHO is that the cubelets are hollow.  Although both sets of cubes
+seem to be injection molded, the Korean cube has "cheaped out" and left
+the cubes hollow, which in my experience causes quite a bit of binding
+in teh cube unless the planes of rotation are perfectly aligned. 
+Neither puzzle is what I would consider a pleasure to work with.
+
+Enter the Oddzon Cube.  It didn't come in a fancy box at all; just in a
+simple plastic baggie and taped shut.  While the turning itself is a bit
+rough feeling, the puzzle doesn't seem to bind at all and very little
+pressure is required.  The plastic seems to be similar to the Korean
+cube's softness but the cubelets are not hollow, which means no binding
+and very forgiving about not having perfect alignment.  Unfortunately it
+appears that the puzzle currently suffers from Oddzon's really cheap
+laminated paper stickers.  According to their web site this puzzle is
+only a prototype, so maybe they will improve the mechanism as well as
+stick to using purely plastic stickers in their final production cubes. 
+This will be THE Revenge I play with, not just because it will be in
+production, but because it is by far the best feeling.  
+
+If anybody doubts my claim to the puzzle's smoothness, I will gladly
+send them one of my Oddzon Revenges.  I am willing to part with two of
+them just so you can get a feel for the mechanism.  I will choose two
+people to receive the cubes (chosen at my discretion) for an
+evaluation.  If you don't think the puzzle is smooth, just mail it back
+to me and I'll cover the postage.  However if you find the cube as good
+as I do, be so kind as to mail me the cost of the cube and postage
+(about 24 bucks).  
+
+Please don't take this as an advertisement, but rather an endorsement
+from someone who has found the ultimately Revenge cube to date.  
+
+-- 
+Jin "Time Traveler" Kim
+chrono@ibm.net
+http://www.chrono.org
+'91/'95 PGT - SCPOC
+
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Jan 22 16:07:13 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA02843
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Sat, 22 Jan 2000 16:07:12 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: Cycloggl@aol.com
+Message-Id: <93.658734.25affe7c@aol.com>
+Date: Thu, 13 Jan 2000 23:22:20 EST
+Subject: Alexanders star
+To: cube-lovers@ai.mit.edu
+
+Hi   I was wondering if any one knows where I can find a solution (either
+online or what book has it) to the Alexander star I can get all except for
+two and it's driving me crazy
+Thanks for reading
+John
+
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Jan 22 16:37:11 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA02888
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Sat, 22 Jan 2000 16:37:09 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <000b01bf6041$c33a93c0$31121fc8@jorgej>
+From: "Jorge E. Jaramillo" <kingeorge@crosswinds.net>
+To: "cube" <Cube-Lovers@ai.mit.edu>
+Subject: I got a "new" old cube
+Date: Sun, 16 Jan 2000 11:48:38 -0500
+
+I haven't seen many of this posts in this list since most posts are
+technical but I thought it wouldn't hurt to share a Cube experience.
+
+Last time I was at a friend's house (a friend I don't visit very often) I
+saw a cube laying somewhere and I started playing with it and telling my
+friend how I liked the cube, we made a contest to see who could solve it
+faster.
+
+The cube is just like the first cube I had, one of those cubes that turn vey
+nicely and that the cubies align when you twist the sides, it has stickers
+instead of tiles and they are kind of worn off.  My friend says he bought
+this cube with his father some 18 or 19 years ago. To me this is an original
+cube since here where I live you can not (and never been able to) find those
+cubes manufatured by the companies mentioned in this list.
+
+[Moderator's note: The Wonderful Puzzler brand was mentioned in six
+ cube-lovers messages from 1981.  Besides the knockoff Rubik's cube,
+ they made a keychain version and an octagonal prism version.]
+
+Yesterday I went again to this friend's house and he told me the cube would
+be better in my hands and he gave it to me! It comes in its original
+cardboard box that reads: Wonderful Puzzler on the top, on two sides it has
+a drawing of a scrambled cube and in the other two sides a solved cube and
+it reads Can you contend with more than 3,000,000,000 combination (without
+the "S") to reach the solution? On the bottom it reads Made in Taiwan
+
+Well thats all a simple story I just wanted to share
+
+====================================================
+Jorge E. Jaramillo
+kingeorge@crosswinds.net
+
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Jan 22 17:55:22 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA02980
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Sat, 22 Jan 2000 17:55:22 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sat, 22 Jan 2000 13:58:11 -0800 (PST)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Rubik's Revenge by Oddzon
+In-Reply-To: <387C51CD.706ED535@ibm.net>
+Message-Id: <Pine.GSO.3.95.iB1.0.1000122132406.23581A-100000@vtn1>
+
+On Wed, 12 Jan 2000, Jin 'Time Traveler' Kim wrote:
+
+> Enter the Oddzon Cube. [...]
+> This will be THE Revenge I play with, not just because it will be in
+> production, but because it is by far the best feeling.  
+
+> If anybody doubts my claim to the puzzle's smoothness, I will gladly
+> send them one of my Oddzon Revenges.  I am willing to part with two of
+> them just so you can get a feel for the mechanism.  I will choose two
+> people to receive the cubes (chosen at my discretion) for an
+> evaluation.  If you don't think the puzzle is smooth, just mail it back
+> to me and I'll cover the postage.
+
+I don't know... I found it really distubing that they couldn't even be
+bothered to change the sticker to read "Rubik's Revenge" instead of
+"Rubik's Cube", and I've heard from some people that the OddzOn version
+fell apart as soon as they turned it once. I picked up a Meffert's
+version. Not only is it $2 less than the OddzOn version and shipped free
+worldwide, but it's also apparently designed for speed cubing. Instead of
+using stickers of any kind, Meffert decided to go with tiles for all his
+puzzles, which definitely aren't coming off any time soon. To add to the
+challenge, Meffert grooved all the tiles, so if you'd like you can also
+treat it as a junior version of a picture cube (junior because there's
+still pairs of centres which are completely indistibguishable). L8r.
+
+
+        Cubic Puzzles - The SIMPLEST Solutions
+     http://www.victoria.tc.ca/~ue451/solves.html
+
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jan 24 15:27:16 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA07573
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 24 Jan 2000 15:27:16 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sat, 22 Jan 2000 14:00:41 -0800 (PST)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Alexanders star
+In-Reply-To: <93.658734.25affe7c@aol.com>
+Message-Id: <Pine.GSO.3.95.iB1.0.1000122135831.23581B-100000@vtn1>
+
+On Thu, 13 Jan 2000 Cycloggl@aol.com wrote:
+
+> Hi   I was wondering if any one knows where I can find a solution (either
+> online or what book has it) to the Alexander star I can get all except for
+> two and it's driving me crazy
+> Thanks for reading
+> John
+
+The problem is that the Alexander's Star uses only 6 colours instead of
+the usual 12, so you get pairs of pieces all over the puzzle that look
+identical. What you need to do is find a piece that is identical to one of
+the pieces that need swapping, and then do a 3 piece rotation on them.
+L8r.
+
+-- 
+        Cubic Puzzles - The SIMPLEST Solutions
+     http://www.victoria.tc.ca/~ue451/solves.html
+
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jan 24 16:09:32 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA07735
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 24 Jan 2000 16:09:27 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sat, 22 Jan 2000 17:50:30 -0600 (CST)
+From: Douglas Zander <dzander@solaria.sol.net>
+Subject: Me too! :-) ( Was: I got a "new" old cube)
+To: cube-lovers@ai.mit.edu
+Message-Id: <Pine.3.02.10001221730.S22801-a100000@solaria.sol.net>
+
+
+Since we are sharing stories, I just thought I'd mention how I found a
+scrambled cube at the local Salvation Army Thrift Store.  It cost me 18
+cents (0.18 USD).  I tried to solve it but I found out the plastic stickers
+were removed and rearranged into an impossible position.  The neat thing
+is that I believe it is an original Ideal; but I am not sure.  It really
+turns smoothly and lines up easily; it is a fantastic cube for speed solving.
+Is there a way I can find out what brand it is?  It doesn't say on the white
+sticker, I think it wore off.  (this is a 3by cube)
+
+ Douglas Zander
+ dzander@solaria.sol.net
+ Shorewood, Wisconsin, USA
+
+
+
+
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jan 24 19:28:46 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA08360
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 24 Jan 2000 19:28:45 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sun, 23 Jan 2000 02:05:50 -0500
+From: "Kevin M. Young" <keyoung3@vt.edu>
+Subject: RE: Rubik's Revenge by Oddzon
+In-Reply-To: <387C51CD.706ED535@ibm.net>
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <PLEJLGAOLFCFHLCEEHHBAENGCAAA.keyoung3@vt.edu>
+
+I purchase the Oddzon Revenge during it's first initial run.  I have played
+with it alot, and it's mechanism is quite nice.  It is as good as my
+original Revenge.  So, I can support Jin's claim.
+
+As far as the stickers go, we all know that the plastic laminated stickers
+that Oddzon uses do not last if you plan on playing with the puzzle.  This
+is still true with the "new" Revenges.  Even if you do not plan on speed
+cubing with it, the oils in ones hands gets under the lamination and it ends
+up folding up, making it annoying to play with.
+
+I have found a temporary fix for this.  I found at the hardware store
+(almost any commercial hardware store should do) that they sell electrical
+tape in several colors.  Since electrical tape is vinyl, it will stand up to
+abuse.  I bought all six (identically the same as the original) colors in
+1/4 inch width size.  This is definatly a good fix, since you don't have to
+"ruin" the cube (i.e. painting) the plastic cubies.
+
+I say that this is a temporary fix, because from what I understand, starting
+in Febuary, Uwe Meffert is going to offer plastic tiles for sale, so cubist
+can fix up are old worn out stickers on their puzzles.  He already offers
+plastic tiles for 3X3X3 cubes for one dollar per color (each color includes
+9 tiles for all cubies on one side).  This is an incredible option, because
+not only will we be able to restore our puzzles back to excelent condition,
+we will be able to create more custom color arrangements.
+
+Kevin
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan 27 18:52:18 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA24358
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 27 Jan 2000 18:52:18 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <388AB533.798B2C6@health.on.net>
+Date: Sun, 23 Jan 2000 18:30:51 +1030
+From: Ghan <ghan@health.on.net>
+Reply-To: ghan@health.on.net
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Stuff...
+
+Hi everyone!
+
+This is my first post to Cube-Lovers! I don't really know whether most
+people on this mailing list are regulars or just a bunch of strangers
+who don't know each other, but I'll introduce myself anyway. I am:
+Justin Ghan, recently turned 18 year old, about to start his second
+year of Engineering/Science at Adelaide University, South Australia. I
+wasn't really interested in all this cube stuff until the middle of
+last year ... Well, when I was really young, my cousin had a pyraminx
+and I solved that. But yeah, last July, I got one of my friends to
+teach me how to solve the Rubik's Cube, which I have ever since
+regretted, since I really would have liked to solve it myself...
+
+Since then, I've bought a Megaminx from Meffert's and also won a
+Professor Cube (thanks to the Puzzle Challenge!). I solved both of
+them mostly using altered Rubik's Cube sequences, which sort of
+dampened my satisfaction because I knew I didn't REALLY fully solve
+them myself. I borrowed a friend's Creative Puzzle Ball (I'm not sure
+what it's officially called) and managed to be able to solve it in a
+trial-and-error sort of way.  I also bought a Bandaged Cube recently,
+which arrived only yesterday and is annoying the hell out of me - I've
+only solved it once by accident so far. And I wasn't paying attention
+so I don't know how I did it. I've also got a Square-One and a Skewb
+Diamond coming in the mail. I can't wait!
+
+I was a bit intimidated when I read through the past couple of years
+worth of Cube-Lovers mail because I always thought I was pretty smart
+at maths (I went to the International Mathematical Olympiad twice) and
+was also pretty proud of my puzzling skills but I couldn't make head
+nor tail of most of the mathematical discussion! I've been trying to
+learn some group theory since, so I hope one day I'll be able to join
+in.
+
+Anyway, I have quite a few unrelated questions I need help with...
+
+First of all, the glue on my Megaminx is failing, meaning that every
+time I turn a face I have to pause to readjust all the stickers which
+have slid out of place. This is obviously very annoying. Any ideas on
+what to do? What type of glue could I use to secure all the stickers
+more permanently? By the way, I really like the grooved tiles on the
+Bandaged Cube (and all the new Meffert's Puzzles, I think), although
+the colours aren't as bright.
+
+Now for the Professor Cube ... I've seen various solutions on the
+internet but so far I haven't found anybody else who uses the boring
+layer by layer approach. Does anybody else do it my way? It's probably
+a really slow, inefficient method but it seemed the most obvious to me
+when I started, since that's how I solved the Rubik's Cube and the
+Megaminx. The reason I ask is that I would really like a fix for the
+parity problem when I get to the last layer. When I end up with two
+edge pieces swapped, I have to stuff up the last two layers
+completely, which takes ages to redo.
+
+I've been considering buying an Assembly Cube since, believe it or
+not, I don't actually have a Rubik's Cube (although I can use the
+Professor Cube as one). But I don't really know much about them.
+What's going on with the 3-colour Assembly Cube at Meffert's? Also, if
+I buy a Assembly Siamese Cube, can I use it to assemble a normal
+Rubik's Cube? And what's the Alexander's Star? And I thought I saw a
+"Star of David" (or something) mentioned on the Meffert's website...
+
+Finally, I decided today to try my hand at some programming. Now, I
+haven't had any programming experience except for extremely basic
+BASIC, years and years ago on my Commodore 64. But I wanted to see if
+I could write a program to solve the Bandaged Cube, so I tried to
+learn some QBASIC. I thought it would be easier to solve a 2x2x2 cube
+first, so I finally managed to write a working program to do that. It
+was just a brute force search, first testing all 1 move algorithms,
+then 2 move algorithms, etc.
+
+I thought I was pretty good until I discovered that my program took 18
+minutes to check all the 9 move algorithms! (I have a Pentium II 266,
+although not being very computer smart I'm not sure how much
+difference this makes.) I found out that more than half the
+configurations required 9 moves or more. Well, this was pretty
+embarrassing, considering that there are computer programs which can
+solve the 3x3x3 in seconds (or so I've read, I haven't tried any of
+these programs). So I'm wondering how to write a fast solver. Is my
+program slow because of my bad programming skills, or is my method
+just plain slow? I can't think of any other methods to find the
+solution.
+
+I hope some of you can help with my problems. I also realise that some
+of my questions may have been answered in past discussions, but I
+wasn't willing to read through 20 years of archives to find out! If
+you can direct me to a previous relevant discussion, that would also
+be appreciated.
+
+Thanks!
+
+Justin
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan 27 19:18:31 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA24435
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 27 Jan 2000 19:18:31 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <388B7645.F3DA4D27@worldnet.att.net>
+Date: Sun, 23 Jan 2000 16:44:37 -0500
+From: Howard <shdrake@worldnet.att.net>
+Reply-To: shdrake@worldnet.att.net
+Organization: The Drake Family
+To: "Cube-Lovers@ai.mit.edu" <Cube-Lovers@ai.mit.edu>
+Cc: "Jing Meffert - Meffert's Puzzles" <jing@ue.net>
+Subject: Ideas for new puzzles
+
+Dear Cube-Lovers,
+
+  As I twist and turn, I often think, wouldn't it be great
+if this puzzle did this.  After discovering Jaap Scherphuis'
+page on puzzle info, I thought I should put my ideas forward.
+If these have already appeared, then please don't take offense,
+I am not stealing, just reinventing the wheel.  If anyone knows
+if these puzzles already exist, I would very much appreciate
+hearing about them.  If these puzzles don't exist, then I
+offer my ideas as a challenge to any puzzle manufacturers, and
+puzzle designers, who may read this news letter.
+
+  As I twisted my skewb, to prove to myself that it is very
+similar to the Magic Pyramid, I thought, I would like to swap
+corners from one group (of 4) to the other group.  Super-
+imposing the cuts of a 2x2x2 cube on the skewb would do this.
+Each face would consist of 8 triangles.  Allowed twists would
+be the 120 degree twist of the skewb and the 90 degree twist
+of the 2x cube, only.  Stopping at 45 degrees or 60 degrees would
+not allow a twist in a new direction to begin.  Any number
+of 90 degree cube twists could follow any number of 120 degree
+of skewb twists, followed by 90 degree twists, etc.
+
+  My second idea/wish is a Dogic, but using 20 colors, rather than
+12 colors.  Each face of 3 triangles (plus insert), would be
+a unique color.  The main challenge I see in making this, is
+choosing 20 easily distinguishable colors.  I like the 12 Dogic
+color choices very much, because, to my eyes, they are easily
+distinguishable, (in contrast to one of my skewbs that has 2
+shades of orange for adjoining sides).
+
+  2 ideas that I am currently building are an 8 color cube
+and 12 color cube using Mefferts assembly cubes and tiles.
+The 8 color is the corner centered design, and the 12 color
+is an edge centered design.  These appeared in an early
+Scientific American article.
+
+  Does anyone in Cube-Lovers have a Web Page to collect ideas
+of the group for future puzzle designs?
+
+Howard Drake
+
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan 27 19:43:12 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA24502
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 27 Jan 2000 19:43:12 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: "Chris Pelley" <ck1@home.com>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: RE: Rubik's Revenge by Oddzon and Meffert's New Puzzles
+Date: Tue, 25 Jan 2000 00:08:38 -0500
+Message-Id: <NDBBLHBJOLNCAMMDPAPAKECCCDAA.ck1@home.com>
+In-Reply-To: <PLEJLGAOLFCFHLCEEHHBAENGCAAA.keyoung3@vt.edu>
+
+I'll add my two cents to this discussion, since I recently acquired some of
+the new 4x4x4 units as well.  In short, both the Meffert and Oddzon reissues
+are excellent.  The Oddzon initially turned the smoothest, but now my
+Meffert's version is broken in and turns equally well.  Both cubes offer a
+little give when the faces are not perfectly aligned.  They seem very
+forgiving and you don't get the sense that you're going to break something
+by playing with them.  In contrast to the old 1982 models (I have 3 or 4 of
+the squeaky variety that broke easily), I'd say they're both great
+improvements.
+
+Regarding the stickers used, the Oddzon uses the blue opposite green color
+scheme (yellow opposite white, orange opposite red).  The stickers on the
+unit I received have not worn off like the Oddzon 3x3x3 stickers.  This
+could be due to the fact that they are smaller, and less likely to be
+scraped by a fingernail?  At any rate, the Meffert's 4x4x4 is clearly
+superior since it uses the same six colors, but with the non-slip grooved
+tiles.  His color combination places red opposite white and yellow opposite
+orange, which works well.
+
+I also got the other new Meffert cubes that feature the non-slip tiles,
+including a Megaminx that has 12 unique colors (even the original had two
+yellow faces on the top and bottom).  This is the best Megaminx ever!  It's
+also nice having the Pyraminx, Skewb, and 5x5x5 in deluxe tile versions.
+The cubic puzzles feature the same colors as his new 4x4x4 and the Pyraminx
+receives red, blue, yellow, and green.
+
+Finally, I'll mention a new puzzle called QUBLE by Geospace.  This is really
+just a 3x3x3 with letters printed on the stickers.  Scrambling the letters
+allows word games to be played with the cube, and there are six colors so
+you can also solve it the traditional way.  Here is the URL:
+
+http://www.kbkids.com/toys/product.html?WebID=0098549f5b33001b519f5b330041ea
+9f5b330018619f5b33
+
+If that doesn't work, just search for "rubik" at www.kbkids.com
+
+Christopher Pelley
+ck1@home.com
+www.chrisandkori.com/cubes.htm
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb 15 15:14:59 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA05123
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 15 Feb 2000 15:14:58 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <200001252022.PAA12063@garnet.sover.net>
+Date: Tue, 25 Jan 2000 15:24:11 -0500
+To: Cube-Lovers@ai.mit.edu
+From: Nichael Cramer <nichael@sover.net>
+Subject: A Simple Rubik's Race Page.
+In-Reply-To: <PLEJLGAOLFCFHLCEEHHBAENGCAAA.keyoung3@vt.edu>
+References: <387C51CD.706ED535@ibm.net>
+
+The recent flurry of messages surround the revitalization of this list
+finally prompted me to finish up (well, mostly...) something that's been
+sitting around on my back burner for some time.
+
+A few years back, I happened to pick up (for 10cents) a copy of the Rubik's
+Race game at a local rummage sale.  Having never seen the game before, I
+posted a description of the game to this list.
+
+That posting --living on in the archives of this list-- seems to be just
+about the only reference to the game on the 'net.  Consequently, every six
+months or so I get a message from someone wanting more information about
+the game or --more likely-- want to know where they can get a copy.
+
+Anyway, I thought it might be useful to throw together a small "Rubik's
+Race" webpage.  I still need to get to a scanner, so none of the promised
+pictures are there (yet).  But the page contains a description of the game
+and a Java Applet to allow the viewer to play a "solitaire" version of the
+game.
+
+   http://www.sover.net/~nichael/puzzles/rubrac/index.html
+
+Enjoy
+Nichael
+
+--
+Nichael Cramer
+nichael@sover.net                    My Child is an Honour
+http://www.sover.net/~nichael/        Student at Hogwarts
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb 15 15:48:00 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA05258
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 15 Feb 2000 15:47:59 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <000a01bf67e5$2d8c3bc0$68962fc3@oemcomputer>
+From: "Klodshans" <klodshans@get2net.dk>
+To: <cube-lovers@ai.mit.edu>
+Subject: Sv: Magic jack
+Date: Wed, 26 Jan 2000 11:07:36 +0100
+
+Pedro Reissig wrote:
+
+>I am a puzzle designer working in Argentina, and looking for Magic
+>Jack type products.  Do you know websites for the 2 other similar
+>products, the Vadasz and IQUBE?
+
+
+The Vadasz Cube has a page at http://members.aol.com/islandcom/
+The page says there are 5 different versions. I wrote them an email to
+order some of these but there was no reply. If anyone knows where one
+can order the full range of Vadasz Cubes please tell the list.
+
+Philip Knudsen, Denmark
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb 15 16:23:34 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA05419
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 15 Feb 2000 16:23:33 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 27 Jan 2000 17:28:02 -0800 (PST)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: Howard <shdrake@worldnet.att.net>
+Cc: "Cube-Lovers@ai.mit.edu" <Cube-Lovers@ai.mit.edu>,
+        "Jing Meffert - Meffert's Puzzles" <jing@ue.net>
+Subject: Re: Ideas for new puzzles
+In-Reply-To: <388B7645.F3DA4D27@worldnet.att.net>
+Message-Id: <Pine.GSO.3.95.iB1.0.1000127172224.6201B-100000@vtn1>
+
+On Sun, 23 Jan 2000, Howard wrote:
+
+>   As I twisted my skewb, to prove to myself that it is very
+> similar to the Magic Pyramid, I thought, I would like to swap
+> corners from one group (of 4) to the other group.  Super-
+> imposing the cuts of a 2x2x2 cube on the skewb would do this.
+> Each face would consist of 8 triangles.  Allowed twists would
+> be the 120 degree twist of the skewb and the 90 degree twist
+> of the 2x cube, only.  Stopping at 45 degrees or 60 degrees would
+> not allow a twist in a new direction to begin.  Any number
+> of 90 degree cube twists could follow any number of 120 degree
+> of skewb twists, followed by 90 degree twists, etc.
+
+That would be quite a challenge to create. Truth be told, I'm not even
+sure if such a creation would be possible. However it is possible to make
+a Skewb with 8 trianges on a side, and has already been done. It's called
+a Star Skewb, and is made by switching the centres of a standard Skewb
+with those of a Diamond Skewb, which Meffert is currently selling.
+
+>   My second idea/wish is a Dogic, but using 20 colors, rather than
+> 12 colors.  Each face of 3 triangles (plus insert), would be
+> a unique color.  The main challenge I see in making this, is
+> choosing 20 easily distinguishable colors.  I like the 12 Dogic
+> color choices very much, because, to my eyes, they are easily
+> distinguishable, (in contrast to one of my skewbs that has 2
+> shades of orange for adjoining sides).
+
+This has also already been done. Hendrik Haak (www.puzzle-shop.de) is
+currently selling the Dogic 2. If have yet to buy one myself, but it looks
+like the colours should be easily distinguishable.
+
+>   2 ideas that I am currently building are an 8 color cube
+> and 12 color cube using Mefferts assembly cubes and tiles.
+> The 8 color is the corner centered design, and the 12 color
+> is an edge centered design.  These appeared in an early
+> Scientific American article.
+
+I don't know about the 8 colour cube, but I know for certain that the 12
+colour version has already been made. I believ it's called "The Ultimate
+Cube", and one was sold on eBay during the summer. L8r.
+
+-- 
+        Cubic Puzzles - The SIMPLEST Solutions
+     http://www.victoria.tc.ca/~ue451/solves.html
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb 15 17:39:09 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA05665
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 15 Feb 2000 17:39:09 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Re : Stuff...
+In-Reply-To: <388AB533.798B2C6@health.on.net>
+Message-Id: <SIMEON.10001272347.B@pavilion.pstcc.cc.tn.us>
+Date: Thu, 27 Jan 2000 23:47:47 -0500 (Eastern Standard Time)
+
+On Sun, 23 Jan 2000 18:30:51 +1030 Ghan <ghan@health.on.net> wrote:
+ 
+> I thought I was pretty good until I discovered that my program took
+> 18 minutes to check all the 9 move algorithms! (I have a Pentium II
+> 266, although not being very computer smart I'm not sure how much
+> difference this makes.) I found out that more than half the
+> configurations required 9 moves or more. Well, this was pretty
+> embarrassing, considering that there are computer programs which can
+> solve the 3x3x3 in seconds (or so I've read, I haven't tried any of
+> these programs). So I'm wondering how to write a fast solver. Is my
+> program slow because of my bad programming skills, or is my method
+> just plain slow? I can't think of any other methods to find the
+> solution.
+
+First of all, you need to be careful what you define as a move.
+Cubists seem to fall approximately equally into one of two camps  --
+those who count a 90 degree turn of one face as a move (a quarter
+turn) and those who count either a 90 degree turn (a quarter turn) or
+a 180 degree turn of one face (a half turn) as one move.
+
+Quarter turns and half turns are collectively called face turns.  You
+will sometimes see a solution described as an 18q solution (18
+quarter turns) or as a 16f solution (16 face turns) or something like
+that. The face turn terminology distinguishes between twists of
+external (faces) and internal layers (slices).  A 3x3x3 can be solved
+using only face moves.  A 4x4x4 or 5x5x5 etc. require both face and
+slice moves.
+
+Second, you need to distinguish between programs which calculate
+optimal solutions vs. those which calculate suboptimal solutions.  I
+am not aware of any programs which can calculate optimal solutions
+for the 3x3x3 in seconds.  The best programs for optimal solutions
+can require an hour or two or maybe a day or two to calculate an
+optimal solution, depending on the speed of the machine, the memory
+size of the machine, and the difficulty of the problem at hand.  This
+may seem like a long time, but really it's an amazing achievement.
+
+It is true that there are programs which can calculate *very good*
+suboptimal solutions in just a few seconds.  The best example is
+Herbert Kociemba's Cube Explorer 1.5.  It is downloadable from
+Herbert's Web site (you can find it with any search engine) and from
+the Cube-Lovers FTP site.  If you let it run long enough it will
+eventually find an optimal solution, but "long enough" may be a great
+deal longer than for programs designed specifically to find optimal
+solutions.
+
+The two amazing things to me about Cube Explorer 1.5 are that it is
+so extremely fast, and that its suboptimal solutions are so darn near
+optimal as quickly as they are.  In fact, it sometimes finds an
+optimal solution in a matter of minutes, except that it is usually
+not able to prove the that the solution is optimal anywhere near as
+quickly as it is able to find the solution.  I will include only an
+extremely brief description of its algorithm, and I will defer that
+description until later in my note.
+
+The best programs for finding optimal solutions use an IDA* algorithm
+invented by Richard Korf.  IDA* was not invented specifically for
+solving the cube, but it is well adapted to solving the cube.  Cube
+Explorer 1.5 uses an IDA* algorithm in part.
+
+I will assume that you understand breadth first and depth first
+searches of a search space.  Your program for the 2x2x2 was
+essentially doing a breadth first search  --  all one move sequences,
+all two move sequences, all three move sequences, etc.
+
+Depth first searches generally require much less memory than breadth
+first. Only the positions from your current state to the goal state
+have to be stored.  To do a depth first search of up to nine moves,
+you never have to store more than nine states (well, really ten, the
+original one plus nine more).  However, depth first searches can kind
+of run away with you and can run practically forever.
+
+The first piece of IDA* to deal with this bad aspect of depth first
+searches is called Iterative Deepening depth first (the ID of IDA*).
+You do a depth first search that is first bound at one move, then
+bound at two moves, then bound at three moves, etc.  The procedure
+can seem sort of breadth first instead of depth search, but the
+underlying search really is depth first.  You just bound the search
+and gradually increase the bound.
+
+Iterative Deepening depth first is still too slow for the cube.  Here
+is where the A* bit comes in.  Suppose you were going to do an
+Iterative Deepening search one move deep, then two moves, then three
+moves, etc., but suppose you also knew for sure by some magic that
+the solution is at least twelve moves.  Then, there is no point in
+doing the one move or two move or eleven move search.  You might as
+well start by bounding you Iterative Deepening search at twelve, then
+going on to thirteen, fourteen, etc.
+
+What is this "magic" by which you might know that the solution is at
+least twelve moves?  Korf calls it a pattern data base.  I just call
+it a table.  All it amounts to is that you create a table of
+positions that are a subset of the entire cube  --  say the corners
+only.  For each one of those positions, you calculate how many moves
+there are in the minimal solution.  Then you take your position and
+look it up in the table.  For example, for the 3x3x3 you ignore the
+edges and look up the corners in the table.  If it will require
+twelve moves to solve the corners, based on your table, then it will
+require at least twelve moves to solve the whole cube.  So you start
+your Iterative Deepening search at twelve moves because you know that
+anything less is going to fail.
+
+But then you go one step further and look in your table after every
+move.  For example, you determine that your initial position is at
+least twelve moves from Start, so you commence an Iterative Deepening
+search which is bounded at twelve moves.  You make your first move.
+If the corners are now eleven moves from Start, you let the search
+continue.  But if the corners are now twelve or thirteen moves from
+Start, it will be impossible to find a twelve move solution so you
+cut off that branch of the search and backtrack (you have already
+made one move, so twelve or thirteen more yield a total of thirteen
+or fourteen which is greater than your bound of twelve).
+
+The best IDA* programs run on a fast processor with lots of memory to
+hold a very large table, and a table which is very cleverly
+constructed.
+
+Finishing my note by talking about Cube Explorer 1.5 again, it is a
+two phase algorithm which finds one position intermediate between the
+current state and the goal state.  It breaks the problem down into
+two substeps because it takes so long to solve the problem all in one
+go. But because there is an intermediate step, the solution is not
+necessarily optimal.  It uses IDA* to get from the initial position
+to the intermediate position.  After a suboptimal solution is found,
+it looks for better solutions by making the intermediate position
+further from the initial step.  If it is ever able to solve a
+position all in the first substep, then that solution is proven
+optimal.
+
+>
+> I hope some of you can help with my problems. I also realise that some
+> of my questions may have been answered in past discussions, but I
+> wasn't willing to read through 20 years of archives to find out! If
+> you can direct me to a previous relevant discussion, that would also
+> be appreciated.
+>
+
+I agree that the archives are becoming unmanageable simply because
+there are so many of them.  I don't know what the solution is.  I
+would still urge you to read as much of the archives as possible.
+For this particular subject, look for Kociemba, Cube Explorer, Korf,
+and IDA*.  Also, look up the discussion of mike reid's optimal
+solver, and the very clever table he creates.
+
+----------------------------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb 15 18:33:33 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA05807
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 15 Feb 2000 18:33:33 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 27 Jan 2000 21:38:47 -0500 (EST)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <200001280238.VAA02190@Twig.Rodents.Montreal.QC.CA>
+To: Ghan <ghan@health.on.net>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Stuff...
+
+> I don't really know whether most people on this mailing list are
+> regulars or just a bunch of strangers who don't know each other,
+
+My sense of it is that - like most lists - cube-lovers consists of a
+few relatively prolific posters and a whole lotta lurkers.  But only
+the listowner really knows....
+
+> but I'll introduce myself anyway.  [...]
+
+Welcome!  Glad to see you here.
+
+> [L]ast July, I got one of my friends to teach me how to solve the
+> Rubik's Cube, which I have ever since regretted, since I really would
+> have liked to solve it myself...
+
+Heh.  Yeah, that's a danger.  I managed most of it myself, though it
+took a while; the one piece someone had to show me is a double edge
+flip.
+
+> Anyway, I have quite a few unrelated questions I need help with...
+
+> What type of glue could I use to secure all the stickers more
+> permanently?
+
+If you don't mind something really permanent, you can always take the
+stickers off and paint the facicles.  I've done this on a 3-Cube and
+have a 5-Cube sitting disassembled waiting for the same treatment.
+
+> Finally, I decided today to try my hand at some programming.
+> [...exhaustive search for the 2-Cube...]
+
+> I thought I was pretty good until I discovered that my program took
+> 18 minutes to check all the 9 move algorithms!
+
+The 2-Cube *has* been completely solved; back in 1992 I wrote a program
+that did so, and I'm sure dozens of others have done likewise, before
+and since.  Here are position counts:
+
+For the quarter-turn metric:
+              1 at distance  0 [Wed May 13 23:18:51 1992]
+              6 at distance  1 [Wed May 13 23:18:52 1992]
+             27 at distance  2 [Wed May 13 23:18:53 1992]
+            120 at distance  3 [Wed May 13 23:18:54 1992]
+            534 at distance  4 [Wed May 13 23:18:55 1992]
+           2256 at distance  5 [Wed May 13 23:18:56 1992]
+           8969 at distance  6 [Wed May 13 23:18:58 1992]
+          33058 at distance  7 [Wed May 13 23:19:06 1992]
+         114149 at distance  8 [Wed May 13 23:19:29 1992]
+         360508 at distance  9 [Wed May 13 23:20:53 1992]
+         930588 at distance 10 [Wed May 13 23:24:52 1992]
+        1350852 at distance 11 [Wed May 13 23:35:53 1992]
+         782536 at distance 12 [Wed May 13 23:53:44 1992]
+          90280 at distance 13 [Thu May 14 00:03:19 1992]
+            276 at distance 14 [Thu May 14 00:04:25 1992]
+
+For the half-turn metric:
+              1 at distance  0 [Thu May 14 00:12:37 1992]
+              9 at distance  1 [Thu May 14 00:12:39 1992]
+             54 at distance  2 [Thu May 14 00:12:41 1992]
+            321 at distance  3 [Thu May 14 00:12:42 1992]
+           1847 at distance  4 [Thu May 14 00:12:44 1992]
+           9992 at distance  5 [Thu May 14 00:12:56 1992]
+          50136 at distance  6 [Thu May 14 00:13:08 1992]
+         227536 at distance  7 [Thu May 14 00:14:26 1992]
+         870072 at distance  8 [Thu May 14 00:20:43 1992]
+        1887748 at distance  9 [Thu May 14 00:47:06 1992]
+         623800 at distance 10 [Thu May 14 01:46:46 1992]
+           2644 at distance 11 [Thu May 14 02:07:51 1992]
+
+I don't recall why the half-turn run was so much slower; perhaps
+something else (backups?) started running at midnight....
+
+> [T]here are computer programs which can solve the 3x3x3 in seconds
+> (or so I've read,
+
+There are - but not if you also demand that the result be certain to be
+an optimal solution.  Heck, a program could be written that just cranks
+through a recipe such as you can find in any of dozens of books; such a
+program could run in less than a second on all but the tiniest of
+computers.  The interest lies in finding *good* - or otherwise
+interesting - solutions.
+
+> So I'm wondering how to write a fast solver.  Is my program slow
+> because of my bad programming skills, or is my method just plain
+> slow?
+
+The latter, certainly.  The former, well, perhaps; I haven't seen the
+code, so it's hard to say. :-)  Certainly your choice of language will
+work against producing a high-speed program.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

@@ -1,0 +1,3905 @@
+From ccw@eql.caltech.edu  Fri Nov  1 19:10:26 1991
+Return-Path: <ccw@eql.caltech.edu>
+Received: from EQL.Caltech.Edu by life.ai.mit.edu (4.1/AI-4.10) id AA16260; Fri, 1 Nov 91 19:10:26 EST
+Date:     Fri, 1 Nov 91 15:49:59 PST
+From: ccw@eql.caltech.edu (Chris Worrell)
+Message-Id: <911101154959.23403c64@EQL.Caltech.Edu>
+Subject:  What is the smallest cube which has all possible types of pieces?
+To: cube-lovers@ai.mit.edu
+
+Some cube discussion has started in rec.games.misc.  I am trying to
+re-direct it to rec.puzzles, or hopefully cube-lovers.
+
+This is a copy of what I posted to rec.games.misc and rec.puzzles.
+
+Message follows:
+------------------------------------
+Newsgroups: rec.games.misc, rec.puzzles
+Subject: Re: Rubik's Wonderful Madness
+Followups-to: rec.puzzles
+
+johnf@apollo.hp.com (John Francis) writes...
+>
+>The 5x5x5 cube is the largest "interesting" cube from a solvers viewpoint.
+>The corner cubelets of cubes of all sizes can be solved the same way.
+>Similarly with the edge-centre cubelets of odd-sized cubes, etc., etc.
+>The 5x5x5 does not actually require any new solving techniques (if you can
+>solve a 3x3x3 and a 4x4x4 you can solve a 5x5x5), but it is the smallest
+>cube that contains cubelets of all possible types.
+
+Actually the 7x7x7 has a type of piece that the 5x5x5 does not have.
+This is a "face" piece which is not on a main diagonal of the face, nor
+on the main horizontal or vertical.  These pieces come in 2 flavors,
+right-handed and left-handed (but I am not sure which should be called which).
+
+----------------------
+|A |B |C |D |  |  |  |      The 2x2x2 has types A
+----------------------      The 3x3x3 has types A, D, K
+|  |E |F |G |  |  |  |      The 4x4x4 has types A, B(C), E(I)
+----------------------      The 5x5x5 has types A, B(C), D, E(I), G(J), K
+|  |H |I |J |  |  |  |      The 6x6x6 has types A, B, C, E, F, H, I
+----------------------      The 7x7x7 has types A-K
+|  |  |  |K |  |  |  |
+----------------------      B and C are distinct at size 6+, but the same
+|  |  |  |  |  |  |  |          sorts of procedures work on both.
+----------------------      Similarly for E & I.
+|  |  |  |  |  |  |  |      Similarly for G & J.  For odd sizes 7+.
+----------------------      Similarly for H & F. These are related
+|  |  |  |  |  |  |  |          by mirror imaging.  Not by slice renumbering,
+----------------------          like the above.
+
+Types F & H only start appearing at size 6.  There are 24 of each of these
+pieces, and a type F can not be mixed with a type H.
+
+
+Discussions about the Rubik's cube and related puzzles should probably be
+directed to rec.puzzles rather than rec.games.misc.
+
+There is also a mailing list for theses topics.
+cube-lovers@ai.mit.edu
+Send mail to cube-lovers-request@ai.mit.edu to be added.
+Some sites may also see this as a newsgroup mlist.cube-lovers. But do not
+post to this group.
+
+From dik@cwi.nl  Fri Nov  1 20:10:55 1991
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA17885; Fri, 1 Nov 91 20:10:55 EST
+Received: by charon.cwi.nl with SMTP; Sat, 2 Nov 1991 02:10:52 +0100
+Received: by paring.cwi.nl ; Sat, 2 Nov 91 02:10:47 +0100
+Date: Sat, 2 Nov 91 02:10:47 +0100
+From: dik@cwi.nl
+Message-Id: <9111020110.AA30522@paring.cwi.nl>
+To: ccw@eql.caltech.edu, cube-lovers@ai.mit.edu
+Subject: Re:  What is the smallest cube which has all possible types of pieces?
+
+ > Some cube discussion has started in rec.games.misc.  I am trying to
+ > re-direct it to rec.puzzles, or hopefully cube-lovers.
+I follow up in cube-lovers.
+ > 
+ > Actually the 7x7x7 has a type of piece that the 5x5x5 does not have.
+Actually the 7x7x7 is also the first cube that can not be made.
+ >
+ > (Showing a pattern like: ABCD
+ >			     EFG
+ >			     HIJ
+ >			       K.
+ > Noting that B&C, E&I, G&J, H&F are similar and can be solved by the same
+ > set of procedures.)
+But, all of E to J can be solved with the same set of procedures %.  So
+although there appear to be 7 essentially different cubelets, actually
+there are only 5.  And the 5x5x5 cube has them all.  Solving these involves
+rotating the three slices they are in originally.  So if we rename cubelet
+types we get:
+1:  A
+2:  B&C
+3:  D
+4:  E-J
+5:  K
+and we find for the different cubes:
+2x2x2:	Type 1
+3x3x3:	Type 1, 3 and 5
+4x4x4:	Type 1, 2 and 4
+5x5x5:	All types.
+--
+%  All of E to J occur 4 times on each face, so for each type there are 24
+   cubelets.  B and C also occur 24 times, procedures working for these
+   two also work for E to J (although I use different procedures both on
+   4x4x4 and 5x5x5); but there are procedures for E to J that do not work
+   for B to C (these two have more constraints on position).  This would be
+   different if the cube was patterned such that all cubelets of type B, C
+   and E to J had a unique position, in that case we would have only four
+   essentially different types.
+
+From ronnie@cisco.com  Fri Nov  1 21:24:02 1991
+Return-Path: <ronnie@cisco.com>
+Received: from lager.cisco.com by life.ai.mit.edu (4.1/AI-4.10) id AA19529; Fri, 1 Nov 91 21:24:02 EST
+Received: by lager.cisco.com; Fri, 1 Nov 91 17:36:38 -0800
+Date: Fri, 1 Nov 91 17:36:38 -0800
+From: Ronnie Kon <ronnie@cisco.com>
+Message-Id: <9111020136.AA16266@lager.cisco.com>
+To: ccw@eql.caltech.edu, cube-lovers@ai.mit.edu
+Subject: Re:  What is the smallest cube which has all possible types of pieces?
+
+
+I made essentially the same assertion some months back (about the 5x5x5
+being the last "interesting" cube), and someone pointed out that there
+is a position in even order cubes which has no parallel in odd order cubes--
+that where all the corner cubies are correct, but all the edge cubies on
+the top layer are wrong.  The presence of the fixed center cubie makes it
+clear that the edge cubies are really all wrong.
+
+Boy it's great to get cube mail again.
+
+				Ronnie
+
+From tjj@lemma.helsinki.fi  Mon Nov  4 12:00:58 1991
+Return-Path: <tjj@lemma.helsinki.fi>
+Received: from funet.fi by life.ai.mit.edu (4.1/AI-4.10) id AA19455; Mon, 4 Nov 91 12:00:58 EST
+Received: from lemma.Helsinki.fi by funet.fi with SMTP (PP) 
+          id <25881-0@funet.fi>; Mon, 4 Nov 1991 19:00:44 +0200
+Received: by lemma.helsinki.fi (5.57/Ultrix3.0-C) id AA02272;
+          Mon, 4 Nov 91 19:00:41 +0200
+Date: Mon, 4 Nov 91 19:00:41 +0200
+From: tjj@lemma.helsinki.fi (Timo Jokitalo)
+Message-Id: <9111041700.AA02272@lemma.helsinki.fi>
+To: cube-lovers@ai.mit.edu
+Subject: Square One
+
+
+Hi everyone!
+
+Well, now I finally had time to try and solve my Square One. After 
+hours and hours of pondering it is now finally done. (For the first time ever -
+I noticed the leaflet with instructions on how to get it to square one only
+after I'd done a few rotations.) Now what needs to be done is to polish
+the 'method' a bit (a lot), and find out if I was just lucky this time...
+
+Altogether, it seems to be quite a nice puzzle, although at first I thought
+that it was _very_ ugly and unpleasant. (But not half as ugly and unpleasant as
+'Rubik's Dice'. Perhaps I'm clumsy, but It's awful: whenever I get
+somewhere with it, I touch it a bit too hard, all the plates fall to the
+bottom and I throw the thing back to the corner in disgustment. Opinions?)
+
+But: does anyone have the number of configurations for it? I tried to count
+them, and got something like 2.8 E 13, but very probably there are a few
+factors of two or something missing. It's also a bit tricky to decide on when
+two configurations are different. (I mean, should one count as different a
+configuration reached by rotating, say, the top layer by 30 degrees? Sometimes,
+yes, but sometimes it seems a bit funny to do so.)
+
+	Timo (tjj@rolf.helsinki.fi)
+
+
+
+From SCHMIDTG@astro.pc.ab.com  Wed Nov  6 14:09:10 1991
+Return-Path: <SCHMIDTG@astro.pc.ab.com>
+Received: from abvax.icd.ab.com by life.ai.mit.edu (4.1/AI-4.10) id AA04452; Wed, 6 Nov 91 14:09:10 EST
+Received: from odin.icd.ab.com by abvax.icd.ab.com (5.64/1.39)
+	id AA01449; Wed, 6 Nov 91 14:09:04 -0500
+Received: from astro.pc.ab.com by odin.icd.ab.com (4.1/CIS-2.7)
+	id AA15688; Wed, 6 Nov 91 14:09:02 EST
+Message-Id: <9111061909.AA15688@odin.icd.ab.com>
+Date: 6 Nov 91 14:04:00 EST
+From: "24305, SCHMIDT, GREG" <SCHMIDTG@astro.pc.ab.com>
+To: "cube-lovers@ai.mit.edu" <cube-lovers@ai.mit.edu@odin.icd.ab.com>
+
+
+Please add me to the mailing list
+
+Thanks.
+
+
+-- Greg Schmidt		--> schmidtg@iccgcc.decnet.ab.com <--
+
+
+
+From diamond@jit081.enet.dec.com  Thu Nov  7 06:49:22 1991
+Return-Path: <diamond@jit081.enet.dec.com>
+Received: from enet-gw.pa.dec.com by life.ai.mit.edu (4.1/AI-4.10) id AA05762; Thu, 7 Nov 91 06:49:22 EST
+Received: by enet-gw.pa.dec.com; id AA15547; Thu, 7 Nov 91 03:49:20 -0800
+Message-Id: <9111071149.AA15547@enet-gw.pa.dec.com>
+Received: from jit081.enet; by decwrl.enet; Thu, 7 Nov 91 03:49:21 PST
+Date: Thu, 7 Nov 91 03:49:21 PST
+From: 07-Nov-1991 2050 <diamond@jit081.enet.dec.com>
+To: cube-lovers@ai.mit.edu
+Apparently-To: cube-lovers@ai.mit.edu
+Subject: subscribe
+
+Please subscribe diamond@jit081.enet.dec.com to the cube-lovers mailing list.
+
+From hoey@aic.nrl.navy.mil  Mon Nov 11 17:45:47 1991
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA05032; Mon, 11 Nov 91 17:45:47 EST
+Received: from sun1.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA12227; Mon, 11 Nov 91 17:45:36 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun1.aic.nrl.navy.mil; Mon, 11 Nov 91 17:45:36 EST
+Date: Mon, 11 Nov 91 17:45:36 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9111112245.AA03752@sun1.aic.nrl.navy.mil>
+To: baggett@mssun7.msi.cornell.edu (Jeffrey Baggett)
+Cc: Cube-Lovers@life.ai.mit.edu
+Subject: Rubik's Cube question
+Organization: Naval Research Laboratory, Washington, DC
+
+Jeff Baggett (baggett@mssun7.msi.cornell.edu) asks on the sci.math
+newsgroup:
+
+> 1.  I am seeking a description of the group of symmetries associated
+> 	with Rubiks cube.  I have some ideas but they aren't particularly
+> 	elegant.  Can someone suggest a paper?
+
+Jeff,
+
+I have looked into this somewhat.  As far as I know, the symmetries of
+the 3^3 cube are just the symmetries of the cube, but in larger sizes
+we can do better.  The best way of looking at this is to imagine that
+there is a (N-2)^3 cube sitting inside your N^3 cube, and smaller
+cubes within, and you are trying to solve them all together.
+
+Suppose we address each cubelet of the N^3 cube using cartesian
+coordinates (x,y,z), where (0,0,0) is the center of the cube (for N
+odd) and no cubelets have any coordinate zero if N is even.  The
+maximum absolute value of the coordinates is [N/2].
+
+Then for 1<=I<=[N/2], there is a symmetry
+ F[I]:(x,y,z)->(f(x),f(y),f(z)),
+where f(I)=-I, f(-I)=I, and f(x)=x otherwise.
+
+Then for 1<=I<J<=[N/2], there is a symmetry
+ E[I,J]:(x,y,z)->(e(x),e(y),e(z)),
+where e(I)=J, e(J)=I, e(-I)=-J, e(-J)=-I, and e(x)=x otherwise.
+
+These are symmetries of the cube group, and they map elementary moves
+to elementary moves (provided we take an elementary move to be a
+rotation of the slab of N^2 cubelets that have a particular nonzero
+value of a particular coordinate).  Symmetries of the cube group that
+preserve elementary moves are useful in the study of local minima in
+the cube group.
+
+It turns out that if you only want to consider the outside of the cube
+(ignoring the (N-2)^3 cube inside) all of these symmetries are still
+present except F[[N/2]] and E[I,[N/2]].
+
+I mentioned these symmetries in a note to the Cube-Lovers mailing list
+in 1983.  I called E[I,J] evisceration, F[1] inflection, and F[[N/2]]
+exflection in that note (where I was dealing explicitly with only the
+4^3).  The discussion of the relation to local minima took place in
+1980.  Let me know if you'd like a copy of these messages.
+
+I ran into these symmetries earlier, though.  They are symmetries of
+the N^3 tic-tac-toe board!  I would not be surprised if they arise in
+some other connection in mathematics, but I have never run into them.
+They generalize into larger dimensions, as well.
+
+I've also taken the liberty of Cc'ing the Cube-Lovers list with this
+note.  If you'd like to be on that list, you may ask of
+"Cube-Lovers-Request@AI.AI.MIT.Edu".
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+From sjfc!ggww@cci632.cci.com  Tue Nov 12 07:16:07 1991
+Return-Path: <sjfc!ggww@cci632.cci.com>
+Received: from uu.psi.com by life.ai.mit.edu (4.1/AI-4.10) id AA21658; Tue, 12 Nov 91 07:16:07 EST
+Received: from sjfc.UUCP by uu.psi.com (5.65b/4.1.110791-PSI/PSINet)
+	id AA05547; Tue, 12 Nov 91 07:11:47 -0500
+Received: by cci632.cci.com (5.54/5.17)
+	id AA19314; Mon, 11 Nov 91 10:51:18 EST
+Received: by sjfc.UUCP (5.51/4.7)
+	id AA08293; Mon, 11 Nov 91 09:18:57 EST
+Date: Mon, 11 Nov 91 09:18:57 EST
+From: sjfc!ggww@cci632.cci.com (Gerry Wildenberg)
+Message-Id: <9111111418.AA08293@sjfc.UUCP>
+To: cube-lovers@ai.mit.edu
+Subject: mailing list
+
+Please put me on the mailing list.
+
+If there is a FAQ for this group, lease mail me a copy.
+
+Gerry Wildenberg                         ggww@sjfc.uucp
+St. John Fisher College                  sjfc!ggww@cci.com
+Rochester, NY 14618                      ...!uunet!uupsi!cci632!sjfc!ggww
+
+From pbeck@pica.army.mil  Fri Nov 15 13:00:10 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA16064; Fri, 15 Nov 91 13:00:10 EST
+Date:     Fri, 15 Nov 91 10:36:45 EST
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@ai.mit.edu
+Subject:  puzzle shows
+Message-Id:  <9111151037.aa18151@FSAC1.PICA.ARMY.MIL>
+
+
+
+Mark Your Calendars and take advantage of the airfare wars
+
+CUBING/PUZZLING EVENTS
+rev  11/15/91, transcribe by p beck
+
+...............................................................
+<-->  The 11th DUTCH CUBE DAY  <-->
+...............................................................
+WHEN ----   Saturday,  14  Dec  1991
+WHERE ---- Office building of ABT, Arnhemsestraatweg 358,  Velp, THE
+NETHERLANDS
+TIME ---- 10:00 AM
+ENTRANCE FEE:  Dfl  5.00;  includes lunch and drinks
+INVITITATIONS:  cut-off date 11/20/91
+Anton Hanegraaf, Heemskerkstraat 9, NL-6662 Al EST  (08819 - 72402),
+ or   
+FAX   --    ABT Velp,  085 - 635326
+
+AGENDA:  
+.. LECTURES 
+- Lee Sallows:  Serila Sided Isogons
+- Oskar van Deventer:  A Mirror Problem
+- Koos Verhoeff:  Design of Spatial Strucutres
+- Willem van der POel:  Survey of Mechanical Puzzles
+
+.. EXHIBITIONS 
+- Wim Zwaan:  Puzzles in Wood
+- Theo Bense:  Dodecahedral Compositions
+Popke Bakker/Koos Verhoeff:  Sculptures in Wood
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+...............................................................
+<-->  12th International puzzle collector's party and fair  <-->
+...............................................................
+WHEN ---- 7/31/92  
+WHERE ----  TBD target is $70 per night
+INVITATIONS ***  Admission by invitation only!!!  Contact Mr. Nob
+Yoshigahara,  4-10-1-408 Iidabashi,  Tokyo  102 Japan
+AGENDA:
+  7/31  welcoming party in the evening
+  8/1    collectors and dealers
+details will be available in early feb 92
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+From pbeck@pica.army.mil  Fri Nov 15 14:59:13 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA19757; Fri, 15 Nov 91 14:59:13 EST
+Received: by FSAC1.PICA.ARMY.MIL id aa20060; 15 Nov 91 10:46 EST
+Date:     Fri, 15 Nov 91 10:39:21 EST
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@ai.mit.edu
+Subject:  book review
+Message-Id:  <9111151039.aa18635@FSAC1.PICA.ARMY.MIL>
+
+
+
+SHAPING SPACE; A POLYHEDRAL APPROACH
+M Senechal, G Fleck eds.
+284 pp, Birkhauser, 1988 
+$49.95, ISBN 0-8176-3351-0
+
+REVIEW BY:
+  Peter Beck;  Rubik's Cube Collector
+
+Other reviews:
+  SCITECH BOOK NEWS, V12, APR 88, P3
+  AMERICAN SCIENTIST, V77, JAN 89, P72
+
+Shaping Space, the book, was inspired by the Shaping Space Conference
+held at Smith College in April 1984.  The content of the book
+addresses itself to an interdisciplinary readership and should be
+considered as a cornerstone book in guiding any level of reader on an
+exploration of the Polyhedron Kingdom.   It encourages readers to
+experience polyhedra directly, by including recipes for construction
+as well as numerous illustrations (188 line and 174 halftone
+illustrations). 
+
+The book is organized in five parts with parts 1,2 &5 of greater
+interest to the beginning explorer.
+
+Part 1 is an introduction to polyhedra which includes a chapter on
+making polyhedra ,ie, Chapter 2 "Five Recipes for Making Polyhedra."
+Part 2 is an interdisciplinary overview of polyhedra which includes a
+chapter on "Milestones in the History of Polyhedra" (chapter 4), a
+chapter on "Polyhedra and Crystal Structures" (chapter 5),and a
+chapter on "Spatial Perception and Creativity" (chapter 7), and
+concludes with a chapter on "Why Study Polyhedra?" (chapter 8).  
+Part 3 is about the roles of polyhedra in science. 
+Part 4 is the theory of polyhedra. 
+Part 5 is a discussion on incorporating the teaching of polyhedra in
+the curriculum.  Included in part 5 is a resource guide that is
+organized in the following categories:
+A.  Architecture
+B.  Art
+C.  Geometry
+D.  Instructional and Recreational Materials
+E.  Science
+F.  Symmetry
+
+In addition to the resource guide each chapter has its own list of
+references.  The book has a comprehensive index of 10 pages and it
+also has a list of the conference contributors addresses.
+
+
+
+From pbeck@pica.army.mil  Tue Dec  3 11:52:11 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA10810; Tue, 3 Dec 91 11:52:11 EST
+Received: by FSAC1.PICA.ARMY.MIL id aa11374; 3 Dec 91 11:33 EST
+Date:     Tue, 3 Dec 91 11:26:50 EST
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Cc: pbeck@pica.army.mil
+Subject:  rubik's tangle, etc
+Message-Id:  <9112031126.aa10408@FSAC1.PICA.ARMY.MIL>
+
+
+looking for nyc source of rubik's tangle, xv, dice, triamid
+
+any suggestions??
+
+thanks in advance
+
+
+From @bullet.ecf.toronto.edu:tee@ecf.toronto.edu  Tue Dec 10 18:03:38 1991
+Return-Path: <@bullet.ecf.toronto.edu:tee@ecf.toronto.edu>
+Received: from bullet.ecf.toronto.edu by life.ai.mit.edu (4.1/AI-4.10) id AA20590; Tue, 10 Dec 91 18:03:38 EST
+Received: by bullet.ecf.toronto.edu id <8345>; Tue, 10 Dec 1991 18:03:28 -0500
+From: TEE  LUNS <tee@ecf.toronto.edu>
+To: Cube-Lovers@ai.mit.edu
+Subject: 7x7x7
+Message-Id: <91Dec10.180328est.8345@bullet.ecf.toronto.edu>
+Date: 	Tue, 10 Dec 1991 18:03:14 -0500
+
+ 
+   I was reading through the archives the other night (just signed onto the
+mailing list) and one of the last posts in cube-mail-7 triggered something in
+me head.
+ 
+   The suggestion was to use a fresnel saw to cut all the cubelets out of
+a single chunk of material, with the cut such that the pieces all interlock.
+The interlocking however doesn't need to be quite as intricate as the diagram
+given - why not a simple dovetail?
+ 
+    That's actually to some extent what the 3x3x3 cube is - the center cubelets
+dovetail into the edge cubelets, and the edges dovetail into the corners. It
+just happens that there's enough reduncancy that the outside half of the
+dovetail joints can be disposed of, and the edges made straight while still
+allowing the cube to stay in one piece.
+ 
+    If we have a complete (both sides) locked dovetail, we can actually assemble
+almost all of the cube out of the cubelets. Since the cubelets will always
+require an entry point for their dovetail grooves, there will be a few cubelets
+that have to be attached differently.
+
+    The simplest solution I can think of is to have the dovetail/cublet pair
+seperate, with a countersink on the dovetail, and holes through the other
+cubelets so that we can screw the dovetails (which are already in their grooves)
+onto the last couple of cubelets.
+
+    One drawback with this approach is that the boundaries between layers of
+cubelets will be quite jagged. If the dovetails go right to the surface, one
+has to be *VERY* careful when turning the cube to make sure that all layers
+are lined up in the axes that aren't being turned (this problem plagues the
+magic truncated octahedron I have - pieces pop out all the time). The solution
+is to make the dovetail taper off at its ends so that if it's out of line with
+the groove its going into, it can still correct itself. This will lead to holes
+at the surface though, so the cube won't be too pretty.
+
+    A novelty with this approach though is that no centre is required. We
+could build a hollow 3x3x3 cube with face centres hollow, and see right
+through the cube. This should be possible with larger odd-sized cubes too,
+but there comes a point (probably 7x7x7 again) where mechanical play would
+let middle layers shear enough to pop out cubelets.
+
+    But, if we had the smaller odd-sized cubes trapped inside, not only
+would they help hold the outer layers together, if we made the cubelets 
+mostly transparent, we'd be able to see  what we've had to imagine in the
+past. Now that'd be one heck of a puzzle.
+
+
+From pbeck@pica.army.mil  Wed Dec 11 09:20:29 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA08205; Wed, 11 Dec 91 09:20:29 EST
+Date:     Wed, 11 Dec 91 9:09:07 EST
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  collectors directory
+Message-Id:  <9112110909.aa13900@FSAC1.PICA.ARMY.MIL>
+
+
+The world of MECHANICAL PUZZLE collecting is getting organized. 
+ Jerry Slocum is compiling a directory of collectors, also designers,
+buyers, sellers.  If you want to be included there is a form to fill
+out (hardcopy).  The form has to be to Jerry by 1/15/92 to be
+included.  This is a non-commercial venture and I am unaware of any
+extended plans.
+
+To get a form contact Jerry:
+  JERRY SLOCUM
+  257 SOUTH PALM DRIVE
+  BEVERLY HILLS, CA 90212 USA
+  PHONE & FAX  310/273-2270
+
+I assume form can be FAXed.  I have copies so if need be I can mail
+you one.
+
+PS:  There is classification for computer puzzles but not one for
+computer solutions/helper programs, eg, cube simulations & non
+physically realizable cubes, like 10x10x10.
+
+From ronnie@cisco.com  Wed Dec 11 18:04:35 1991
+Return-Path: <ronnie@cisco.com>
+Received: from wolf.cisco.com by life.ai.mit.edu (4.1/AI-4.10) id AA06760; Wed, 11 Dec 91 18:04:35 EST
+Received: from lager.cisco.com by wolf.cisco.com with TCP; Wed, 11 Dec 91 14:56:01 -0800
+Message-Id: <9112112256.AA20600@wolf.cisco.com>
+From: ronnie@cisco.com
+To: Cube-Lovers@life.ai.mit.edu
+Subject: A Sam Loyd Rubik puzzle unearthed!!!
+Date: Wed, 11 Dec 91 14:57:25 PST
+Sender: ronnie@cisco.com
+
+	An original Sam Loyd puzzle involving the Rubik's cube has
+come into my hands; somewhat surprising, in that Sam Loyd died in
+the early years of this century, but no more so than the truly
+astounding circumstances by which the puzzle came to me, which I would
+detail if I believe that anyone were interested.  However, as this
+list consists only of people interesting in things Cubic, I will limit
+this posting to the puzzle itself.
+
+
+
+
+		Crooked Gambling in Puzzleland
+
+				by Sam Loyd
+
+
+	Tommy Riddles has challenged King Puzzlepate to a game of
+dice, using Rubik's Cubes as dice.  However, Tommy is planning to
+cheat by changing the ordinary Rubik's Cube into tops [ tops are dice
+which are misspotted, by having only three different numbers on them,
+each appearing opposite to itself, such that it is indetectable
+without turning the die around  -ed ]  spotted 1-2-3, which he is able
+to make from a standard cube in 14 moves.
+
+	King Puzzlepate, however, has learned from the General of his
+plans, and has figured out to convert Tommy's tops into 2-3-4 tops,
+which are favorable to His Majesty, in only 3 moves.
+
+	Can you duplicate both these feats?
+
+
+[ Note that Loyd appears to consider a move as moving any of the nine
+slices any number of degrees.  Thus the move we would designate as
+L2R2 and count as four, Loyd would count as one move of the center
+slice by 180 degrees. ]
+
+From hoey@aic.nrl.navy.mil  Thu Dec 12 10:29:25 1991
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA05785; Thu, 12 Dec 91 10:29:25 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA28868; Thu, 12 Dec 91 10:29:05 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Thu, 12 Dec 91 10:29:04 EST
+Date: Thu, 12 Dec 91 10:29:04 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9112121529.AA02722@sun13.aic.nrl.navy.mil>
+To: ronnie@cisco.com (Ronnie Kon)
+Subject: Rubik's cube dice tops
+Cc: Cube-Lovers@ai.mit.edu
+
+ronnie@cisco.com (Ronnie Kon) writes:
+
+> An original Sam Loyd puzzle involving the Rubik's cube has come into
+> my hands; somewhat surprising, in that Sam Loyd died in the early
+> years of this century, but no more so than the truly astounding
+> circumstances by which the puzzle came to me, which I would detail
+> if I believe that anyone were interested.
+
+Hmm.  A likely story.
+
+We are challenged to find ``tops'',
+
+> ... dice which are misspotted, by having only three different
+> numbers on them, each appearing opposite to itself ... spotted
+> 1-2-3, ... from a standard cube in 14 moves.
+
+Where he counts a half turn, a slice, and and a half-slices as one
+move each.  I have found how this can be done in 13 such moves.  I
+have some suspicion that it can be done in 12; I'll let you know.
+
+We are then challenged to convert this
+
+> ... into 2-3-4 tops ... in only 3 moves.
+
+The second part can be solved by any person who achieves mastery of
+the cube.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+From hoey@aic.nrl.navy.mil  Fri Dec 13 14:50:15 1991
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA17846; Fri, 13 Dec 91 14:50:15 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA01668; Fri, 13 Dec 91 14:50:04 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Fri, 13 Dec 91 14:50:03 EST
+Date: Fri, 13 Dec 91 14:50:03 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9112131950.AA06512@sun13.aic.nrl.navy.mil>
+To: TEE LUNS <tee@ecf.toronto.edu>
+Cc: Cube-Lovers@life.ai.mit.edu
+Subject: Big groovy cubes, revisited
+
+Tee Luns writes:
+
+> ... one of the last posts in cube-mail-7 triggered something in me
+> head.  The suggestion was to use a fresnel saw to cut all the
+> cubelets out of a single chunk of material....
+
+Well, I'm glad that my silly ideas triggered something.  Sometimes I
+wonder if they are as amusing to read as they were to write.
+
+> ... why not a simple dovetail?
+
+Certainly a dovetail would do it.  I guess when I got to sharpening
+the fresnel saw I didn't know when to quit.
+
+> ... have the dovetail/cubelet pair separate, ... screw the dovetails
+> (which are already in their grooves) onto the last couple of
+> cubelets.
+
+Surprisingly enough, this is just how Rubik's Revenge is put together.
+One of the center cubelets (perhaps always on the blue side) has a
+screw that joins the outside of the cubelet to its dovetail.  You can
+usually find locate it by the dimple in the colored sticker.
+
+> If the dovetails go right to the surface, one has to be *VERY*
+> careful....  The solution is to make the dovetail taper off at its
+> ends....  This will lead to holes at the surface though, so the cube
+> won't be too pretty.
+
+In the 7^3 and larger, they have to go through the surface, and even
+if they were squared-off dovetails they wouldn't match the color of
+the adjacent square except in the solved position.  Unless of
+course we make the outer layers thicker, as Dale Newfield mentioned
+when we were discussing this back in May.
+
+>    A novelty with this approach though is that no centre is
+> required.  We could build a hollow 3x3x3 cube with face centres
+> hollow, and see right through the cube....
+
+>    But, if we had the smaller odd-sized cubes trapped inside, not
+> only would they help hold the outer layers together, if we made the
+> cubelets mostly transparent, we'd be able to see what we've had to
+> imagine in the past. Now that'd be one heck of a puzzle.
+
+Wow, I want one!  But I don't think the material really needs to be
+transparent, as long as the face center pieces are hollow.  It would
+help let light in, though.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+From ACW@yukon.scrc.symbolics.com  Fri Dec 13 18:29:48 1991
+Return-Path: <ACW@yukon.scrc.symbolics.com>
+Received: from YUKON.SCRC.Symbolics.COM by life.ai.mit.edu (4.1/AI-4.10) id AA22741; Fri, 13 Dec 91 18:29:48 EST
+Received: from PALLANDO.SCRC.Symbolics.COM by YUKON.SCRC.Symbolics.COM via INTERNET with SMTP id 754668; 13 Dec 1991 18:17:15-0500
+Date: Fri, 13 Dec 1991 18:16-0500
+From: Allan C. Wechsler <ACW@yukon.scrc.symbolics.com>
+Subject: Big groovy cubes, revisited
+To: hoey@aic.nrl.navy.mil, tee@ecf.toronto.edu
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: <9112131950.AA06512@sun13.aic.nrl.navy.mil>
+Message-Id: <19911213231647.9.ACW@PALLANDO.SCRC.Symbolics.COM>
+
+I want to know whether it is feasible, with modern electronics and
+electro-mechanicals, to make a 3x3x3 cube that solves itself at the
+touch of a button.  How much would a prototype cost?  $10,000?
+$100,000?
+
+From hoey@aic.nrl.navy.mil  Tue Dec 17 16:38:10 1991
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA18437; Tue, 17 Dec 91 16:38:10 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA12139; Tue, 17 Dec 91 16:18:17 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Tue, 17 Dec 91 16:18:16 EST
+Date: Tue, 17 Dec 91 16:18:16 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9112172118.AA14791@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu, ronnie@cisco.com (Ronnie Kon)
+Subject: Re: Rubik's cube dice tops (Spoiler)
+
+Last week ronnie@cisco.com (Ronnie Kon) challenged us to find Rubik's
+cube patterns with dice pips for 1, 2, and 3 on the three pairs of
+opposite sides.  He claimed it could be done in fourteen HST, where
+one HST is a turn of a face or center slice by 90 or 180 degrees.  I
+responded that it could be done in thirteen HST.  Here is how.  I will
+use this opportunity to practice the enhanced Varga Rubiksong I
+described (unfortunately with many typos) on 22 Feb 90.
+
+The (only such) pattern is the composition of Four-Spot and Laughter.
+We have long known the processes
+
+          ris-fos tis-fos, or (RL)^2 FB' (TD)^2 FB', for Four-Spot and
+  fon-ron fon-ron fon-ron, or (FBRL)^3,              for Laughter.
+
+When we compose them, the F and B moves combine and cancel to produce
+
+ris-fos tis-fi ron-fon ron-fon ron, or (RL)^2 FB' (TD)^2 F^2 (RLFB)^2 RL.
+
+This 14 HST process is presumably something like what Ronnie had in
+mind.  But since this pattern commutes with ris, or (RL)^2, we can get
+the same pattern with the conjugate process
+
+    fos tis-fi ron-fon ron-fon ran, or FB' (TD)^2 F^2 (RLFB)^2 R'L'.
+
+This uses only 13 HST.  This is also the shortest process I know of in
+the normal metric: 18 QT, which is not so bad for the combination of
+two 12 QT processes.
+
+I suggested that perhaps 12 HST would be sufficient, but I have not
+found such an improvement.  Nor do I know whether 13 HST is the best
+that can be done: it seems that proving 13 HST optimal would require
+examining about 160 million positions, almost as many as the 200
+million it would take to prove 18 QT optimal.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+From raymond@cps.msu.edu  Sun Jan  5 12:54:44 1992
+Return-Path: <raymond@cps.msu.edu>
+Received: from galaxy.cps.msu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA00849; Sun, 5 Jan 92 12:54:44 EST
+Received: by galaxy.cps.msu.edu (4.1/rpj-5.0); id AA12647; Sun, 5 Jan 92 12:54:43 EST
+Date: Sun, 5 Jan 92 12:54:43 EST
+From: raymond@cps.msu.edu (Carl J Raymond)
+Message-Id: <9201051754.AA12647@galaxy.cps.msu.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject: Subscribe
+
+I would like to join the cube lover's mailing list.  My email address
+is raymond@cpsin3.cps.msu.edu.  Also, I am trying to find an email
+address for Peter Beck.
+Thanks,
+Carl Raymond
+
+From cosell@bbn.com  Tue Jan  7 09:49:04 1992
+Return-Path: <cosell@bbn.com>
+Received: from WILMA.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA25601; Tue, 7 Jan 92 09:49:04 EST
+Message-Id: <9201071449.AA25601@life.ai.mit.edu>
+Date:     Tue, 7 Jan 92 7:23:29 EST
+From: Bernie Cosell <cosell@bbn.com>
+To: cube-lovers@life.ai.mit.edu
+Subject:  Hungarian Rings solution?
+
+Does anyone have an algorithm for solving the "Hungarian Rings" they'd
+be willing to share.  I found one in a drawer that had been long
+misplaced, and I've been fiddling with it some.  It seems easy enough
+to find lots of 'commutators' for the thing, but all the ones I've run
+into have the annoying property that they produce symmetric
+perumtations [given a 180 degree rotation of the puzzle].  But of
+course, my puzzle is no where near symmetrically messed up.
+
+Any advice, hints, full-blown algorithm, etc, would be appreciated... Thanks!
+ /Bernie\
+
+ps, For those that don't remember it, the "Hungarian Rings" is a puzzle with
+beads arranged in two intersecting circles:
+
+	*       *
+      *   *   *   *
+    *       *       *
+  *       *   *       *
+ *       *     *       *
+  *       *   *       *
+    *       *       *
+      *   *   *   *
+	*       *
+
+[Imagine these both round...:-)]  and you can slide the beads around either
+cicle.    The beads come in four colors andthe object is to get the colors
+all sorted out.  /b\
+
+
+From dik@cwi.nl  Tue Jan  7 10:14:17 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA26150; Tue, 7 Jan 92 10:14:17 EST
+Received: by charon.cwi.nl with SMTP; Tue, 7 Jan 1992 16:14:05 +0100
+Received: by boring.cwi.nl ; Tue, 7 Jan 1992 16:14:01 +0100
+Date: Tue, 7 Jan 1992 16:14:01 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9201071514.AA05644@boring.cwi.nl>
+To: cosell@bbn.com, cube-lovers@life.ai.mit.edu
+Subject: Re:  Hungarian Rings solution?
+
+You don't nood commutators for it, cycles are sufficient (because there
+are so many similar colored beads).  If I remember right one useful move
+is:  turn right ring clockwise two beads, turn left clockwise two beads,
+turn right anti-clockwise two beads, turn left anti-clockwise two beads.
+Using them properly will solve the rings.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+
+From johnf@apollo.com  Tue Jan  7 14:20:49 1992
+Return-Path: <johnf@apollo.com>
+Received: from amway.ch.apollo.hp.com by life.ai.mit.edu (4.1/AI-4.10) id AA03714; Tue, 7 Jan 92 14:20:49 EST
+Received: from xuucp.ch.apollo.hp.com by amway.ch.apollo.hp.com id <AA18856@amway.ch.apollo.hp.com> Tue, 7 Jan 92 13:11:49 EST    
+Received: by xuucp.ch.apollo.hp.com id <AA19854@xuucp.ch.apollo.hp.com>; Tue, 7 Jan 92 13:03:11 EST
+Message-Id: <9201071803.AA19854@xuucp.ch.apollo.hp.com>
+Received: by daphne.ch.apollo.hp.com  id AA02034; Tue, 7 Jan 92 13:02:30 EST    
+From: johnf@apollo.com
+Date: Tue, 7 Jan 92 11:45:34 EST 
+Subject: Square One
+To: cube-lovers@life.ai.mit.edu
+
+
+I got given one of these things for Christmas (well, actually I gave it
+to myself). I was wondering if anyone has any good basic operators that
+they would like to share.  I would imagine that the puzzle must be less
+complex than a true cube,  but the restricted set of moves make solving
+it more complicated than you might think!
+[I currently have six corners correct, but I still have two (diagonally
+opposite) corners interchanged.  The cube-solving technique that I used
+for a real cube doesn't work here - I need something different].
+
+From cosell@bbn.com  Tue Jan  7 15:48:19 1992
+Return-Path: <cosell@bbn.com>
+Received: from WILMA.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA06487; Tue, 7 Jan 92 15:48:19 EST
+Message-Id: <9201072048.AA06487@life.ai.mit.edu>
+Date:     Tue, 7 Jan 92 15:02:18 EST
+From: Bernie Cosell <cosell@bbn.com>
+To: cube-lovers@life.ai.mit.edu
+Subject:  Re:  Hungarian Rings solution?
+
+In rsponse to my request for info about the Hungarian Rings, 
+
+Dik.Winter@cwi.nl writes:
+
+} You don't nood commutators for it, cycles are sufficient (because there
+Dik.Winter@cwi.nl writes:
+
+} You don't nood commutators for it, cycles are sufficient (because there
+} are so many similar colored beads)....
+
+My apologies --- I meant to say "cycles" when I said I had found lots of
+them... And I hate to seem dense, but but I'm still stuck...
+
+} ... If I remember right one useful move
+} is:  turn right ring clockwise two beads, turn left clockwise two beads,
+} turn right anti-clockwise two beads, turn left anti-clockwise two beads.
+} Using them properly will solve the rings.
+
+The 'properly' is the part I'm finding hard.   There seem to be LOTS of
+cycles, but even with that big choice I can't see, quite, how to solve
+the thing.
+
+As far as I can tell, basically ANY set of ring-turns that has a total
+movement of zero seems to define a pretty small cycle.  For example,
+the sequence LnA RnA LnC RnC, for n not a multiple of 5[*], does a
+three-bead cycle: if you look at the upper intersection:
+                        A                     C
+   Intersection --->  C      ======>        B
+                        B                     A
+Where 'A' and 'B' are each n beads away from the intersection [and by
+changing theorder of L/R you reverse the cycle, and by interchanging A
+and C you move the cycle to the other side of the intersection.
+BUT: the problem is that this isn't really a 3-cycle, but rahter _two_
+3-cycles: you also make a central-symmetric move of the beads at the
+bottom intersection.
+   [*] since five is the distance between the intersections, if the
+   rotate is a muiltiple of 5 the intersections interact, things get a
+   little different: it makes a *two* cycle!  In the diagram above
+   [with A five away from C], the move just _swaps_ A & C [and the A'
+   and C' at the lower intersection, too, of course].
+
+Given that my rings are totally non-symmetrically messed up, I can't
+figure out a plan for making forward progress.  I can do lots of
+diffent cycles, but I can't manage to get the rings set up so that the
+cycle at both intersections is useful: if I try to fix something at the
+top intersection I invariably mess up something at the bottom one.
+
+Thanks again for you patience with my rantings.  I feel like I'm
+overlooking something simple [since this wasn't supposed to be all that
+hard a puzzle], but I don't see what it is ...
+
+  /Bernie\
+
+From dik@cwi.nl  Tue Jan  7 16:13:50 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA07462; Tue, 7 Jan 92 16:13:50 EST
+Received: by charon.cwi.nl with SMTP; Tue, 7 Jan 1992 22:13:46 +0100
+Received: by boring.cwi.nl ; Tue, 7 Jan 1992 22:13:43 +0100
+Date: Tue, 7 Jan 1992 22:13:43 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9201072113.AA06247@boring.cwi.nl>
+To: cosell@bbn.com, cube-lovers@life.ai.mit.edu
+Subject: Re:  Hungarian Rings solution?
+
+ > Dik.Winter@cwi.nl writes:
+ > } You don't nood commutators for it, cycles are sufficient (because there
+ > } are so many similar colored beads)....
+I have already been chastised that what I described are commutators.  Of course
+they are.  Not only is my thinking bad late at night, but apparently my
+spelling is atrocious :-).
+
+ > As far as I can tell, basically ANY set of ring-turns that has a total
+ > movement of zero seems to define a pretty small cycle.  For example,
+ > the sequence LnA RnA LnC RnC, for n not a multiple of 5[*], does a
+ > three-bead cycle: if you look at the upper intersection:
+ >                         A                     C
+ >    Intersection --->  C      ======>        B
+ >                         B                     A
+ > Where 'A' and 'B' are each n beads away from the intersection [and by
+ > changing theorder of L/R you reverse the cycle, and by interchanging A
+ > and C you move the cycle to the other side of the intersection.
+ > BUT: the problem is that this isn't really a 3-cycle, but rahter _two_
+ > 3-cycles: you also make a central-symmetric move of the beads at the
+ > bottom intersection.
+True.  But if you prefix the move by a (series of moves) that makes the upper
+three of an identical color (and postfix by its inverse), you will not see
+the difference between a true cycle.  At least that is how I always did the
+final part.  (Correctly coloring the two lobes is in fact easy; you better
+start with that.)
+
+From Hoffman.El_Segundo@xerox.com  Wed Jan  8 12:07:08 1992
+Return-Path: <Hoffman.El_Segundo@xerox.com>
+Received: from alpha.xerox.com by life.ai.mit.edu (4.1/AI-4.10) id AA06419; Wed, 8 Jan 92 12:07:08 EST
+Received: from AE_Mail_Service_6.ES_AE.Xerox.xns by alpha.xerox.com via XNS id <12287>; Wed, 8 Jan 1992 09:06:44 PST
+X-Ns-Transport-Id: 0000AA00A9AD94E12D0C
+Date: 	Wed, 8 Jan 1992 09:06:16 PST
+From: Hoffman.El_Segundo@xerox.com
+Subject: Re: Square One
+In-Reply-To: "johnf%apollo:com's message of 7 Jan 92 08:45:34 PST (Tuesday)"
+To: johnf@apollo.com
+Cc: cube-lovers@life.ai.mit.edu
+Message-Id: <" 8-Jan-92  9:06:16 PST".*.Hoffman.El_Segundo@Xerox.com>
+
+
+I, too, gave myself Square One for Christmas, and I, too, would love to
+exchange some useful moves.  Here are three that I use.  I need some more!
+
+  -- Rodney Hoffman
+     Hoffman.El_Segundo@Xerox.com
+     or   rodney@oxy.edu
+
+------------------------------------------------------
+
+Conventions used in these descriptions:
+
+  *  These moves start and end in a cube shape.  I always hold the
+     logo to my left, with the two faces which can rotate in front
+     and back.  That means the plane of the 180-degree twist is
+     perpendicular to my face, angling from upper right to lower left.
+     The "front" face is the one I'm looking directly at.
+
+  *  "the smallest increment" as in "Turn the front face cw
+      the smallest increment".   This means the smallest amount
+      that permits the big 180-degree twist that must follow.
+      Note that the angle of turn is not always the same!  Sometimes
+      "the smallest increment" turn is truly the smallest possible
+      increment, that is, the width of an edge piece.  At other
+      times, it may be the width of a corner piece (much larger),
+      or even two or three piece's widths combined.
+
+  *  "to match" as in "Turn the back face to match".
+     This means the front and back faces remain aligned with one
+     another.
+
+  *  "Now do the 180-degree twist."  I move the right half 180
+     degrees, holding the left half fixed.  The logo stays fixed
+     in position and orientation, never moving.
+
+  *  To help in describing the effects of these moves, I will
+     refer to the pieces by number, as follows.  Here I have
+     numbered the pieces clockwise from the upper left corner
+     piece on the front face.  I have numbered the back face
+     similarly, ** as if looking straight through to it **,
+     that is, piece 9 is directly beneath piece 1, piece 10
+     is directly beneath piece 2, etc.:
+
+            Front Face               Back Face
+
+            1   2   3                9  10  11
+	    8       4               16      12
+	    7   6   5               15  14  13
+
+
+------------------------------------------------------
+
+(1) Swaps all 8 corner pieces diagonally directly across in pairs, staying on
+the same faces (front and back).  In my numbering scheme, this move swaps 1
+with 5, 3 with 7, 9 with 13, and 11 with 15.
+
+  (a) Turn the front face cw the smallest increment.
+      Turn the back face to match.  Now do the 180-degree twist.
+
+  (b) Turn the front face ccw the smallest increment.
+      Turn the back face to match.  Now do the 180-degree twist.
+
+  (c) Repeat the (a)(b) combination three times.
+
+  Note:  This entire move, repeated twice, is, of course, an identity.
+
+------------------------------------------------------
+
+(2) Swaps all 8 edge pieces directly across in pairs, staying on the same faces
+(front and back).  In my numbering scheme, this move swaps 2 with 6, 4 with 8,
+10 with 14, and 12 with 16.
+
+  (a) Turn the front face cw the smallest increment.
+      Turn the back face to match.  Now do the 180-degree twist.
+
+  (b) Repeat (a) six times.
+
+  (c) Turn the front and back faces 180 degrees.
+
+  Note:  This entire move, repeated twice, is, of course, an identity.
+
+------------------------------------------------------
+
+(3) Although this move itself is simple to describe, its effect is not. It
+moves four pieces (two large and two small) from the front to the back, and
+vice-versa.
+
+It's easiest to just give a map of the changes:
+
+BEFORE:     Front Face               Back Face
+
+            1   2   3                9  10  11
+	    8       4               16      12
+	    7   6   5               15  14  13
+
+AFTER:      Front Face               Back Face
+
+            11  6  13                9  10   3
+	     8     12               16       2
+	     7 14   1               15   4   5
+
+(Because the back face is never turned in this move, its pieces 9, 10, 15, and
+16 always stay fixed.  They are on the immobile half of the back face, the half
+not moved during the 180-degree twists.)
+
+  (a) Turn the front face cw the smallest increment.
+      Do not turn the back face at all.
+      Now do the 180-degree twist.
+
+  (b) Turn the front face ccw the smallest increment.
+      Do not turn the back face at all.
+      Now do the 180-degree twist.
+
+  (c) Repeat the (a)(b) combination three times.
+
+  Note:  This entire move, repeated five times, is an identity.
+
+------------------------------------------------------
+
+From GOFFJEFFREYM@bvc.edu  Wed Jan  8 16:51:55 1992
+Return-Path: <GOFFJEFFREYM@bvc.edu>
+Received: from snoopy.bvc.edu ([147.92.2.2]) by life.ai.mit.edu (4.1/AI-4.10) id AA15544; Wed, 8 Jan 92 16:51:55 EST
+Received: from bvc.edu by bvc.edu (PMDF #12446) id
+ <01GF2UNCTVTC94DUAR@bvc.edu>; Wed, 8 Jan 1992 15:51 CST
+Date: Wed, 8 Jan 1992 15:51 CST
+From: The Phantom <GOFFJEFFREYM@bvc.edu>
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <01GF2UNCTVTC94DUAR@bvc.edu>
+X-Vms-To: IN%"cube-lovers@life.ai.mit.edu"
+
+	Another miscellaneous thought on the dovetail topic.  The way I
+understand it is that each piece is dovetailed into the surrounding pieces. 
+I.E. on the 3x3x3 the face-centers are dovetailed into the edges which are
+dovetailed into the corners.  Now, the maximum radius of the dovetailing circle
+permits this all the way out to 5x5x5, but at 6x6x6, a piece hangs outside the
+dovetail radius.
+	The master design could work still.  First of all, keep those cubes
+nested together.  Second of all, dovetail the inner cubes outward, so the whole
+damn thing holds.  Last, and certainly not least, in the case of the 6x6x6, I
+think that we can add in another circle of dovetails at the radius which would
+support a 7x7x7 cube.
+
+	This is really hard to explain without graphics, but try to imagine
+this.  Each dovetail ring will be a simple circle.  Draw a 3x3 grid, and
+superimpose a circle with a radius of 1.5 grids.  Now, that will be
+the inside of the dovetail, 1/3 of the way into the face.  For a 5x5 grid,
+repeat the 3x3 procedure and do the same for the 5x5, except at 2.5 grids
+radius.  That represents the next layer of the cube.
+
+	Keeping the original Rubik concept of faces-edges-corners nesting in
+mind, we keep building out this way.  It probably will be damn inconvenient to
+build the 7x7x7 cube this way, but I am reasonably sure that it will hold
+together and still retain all the necessary movements from the original cube. 
+
+	In the case of the 5x5x5 cube, it will look like this:
+
+abcba
+bdedb
+cefec
+bdedb
+abcba
+
+a is held by 2 b's.
+b is held by c and d.
+c is held by e.
+d is held by 2 e's.
+e is held by f.
+
+The only real weak spot is c, but it is surrounded by b's and an e.
+
+	The 7x7x7 cube will look like this:
+
+abcdcba
+befgfeb
+cfhihfc
+dgijijd
+cfhihfc
+befgfeb
+abcdcba
+
+a is held by 2 b's.
+b is held by c and e.
+c is held by d and f.
+d is held by g.
+e is held by 2 f's.
+f is held by h and g.
+g is held by i.
+h is held by 2 i's.
+i is held by j.
+j is the center.
+
+Again, the problem shows up in d, g, and i.  I think that this is unavoidable,
+but since the 3x3x3 cube holds together in much the same way, I think that it
+should be about as a 5x5x5 cube is compared to the 3x3x3 cube.  Not much
+difference.  The only problem that I have had with my 5x5x5 cube is the edge
+cubies, and as I have noted, the middle and third edges should be the problems,
+since everything else is buried within a face.
+
+	I haven't built a prototype yet, but once I get finished with this
+semester of college (my last one), I intend to start working on this in between
+job-hunting and paying off loans.  If anyone is interested in this idea, I
+would like to start correspondence on this topic.
+
+	I have some diagrams available, but they don't come over too well in
+ASCII.  If you would like a copy of my preliminaries, please E-Mail me at the
+following addresses.  Thank you for your consideration.
+
+*************************************************************************
+*					*				*
+*	Internet: goffjeffreym@bvc.edu	*	Hailing From:		*
+*		  			*				*
+*					*	Storm Lake, IA 50588	*
+*	Snail: Box 260 BVC		*	Home of Happiness	*
+*					*				*
+*************************************************************************
+*                                                    	*
+*	'Dr. Floyd, you are not a very practical man.'	*
+*	'Look out there.  Tell me what's practical.'	*
+*                                                   	*
+*	-2010						*
+*							*
+*********************************************************
+
+From hoey@aic.nrl.navy.mil  Wed Jan  8 21:20:58 1992
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA23181; Wed, 8 Jan 92 21:20:58 EST
+Received: from sun1.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA01964; Wed, 8 Jan 92 21:20:01 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun1.aic.nrl.navy.mil; Wed, 8 Jan 92 21:20:01 EST
+Date: Wed, 8 Jan 92 21:20:01 EST
+From: hoey@aic.nrl.navy.mil
+To: Post-NetNews@ucbvax.berkeley.edu, Cube-Lovers@life.ai.mit.edu
+Cc: mkt@vax5.cit.cornell.edu (Gregory E. Dionne),
+        tlg@uknet.ac.uk (Tim.Goodwin)
+Subject: Rubik's Cube, the minimax number of moves
+Summary: 2x2x2=11(9), 3x3x3=21(18)-97(50), 4x4x4=37/41(??)-??(??)
+References: <1992Jan3.213615.9689@vax5.cit.cornell.edu> <564@uknet.ac.uk>
+Message-Id: <920108.Hoey@AIC.NRL.Navy.Mil>
+Keywords: Bounds, Metrics, Thistlethwaite, RCC
+Organization: Naval Research Laboratory, Washington, DC
+
+mkt@vax5.cit.cornell.edu (Gregory E. Dionne) asks:
+
+> Does anybody know what the minimum number of moves are required to
+> solve the 3x3 and/or 4x4 cubes in the worst-case scenario?
+
+and receives some answers, some of them accurate.  The following is my
+understanding of the best answers now known, which I am sending both
+to rec.puzzles and the Cube-Lovers mailing list.  The latter will, I
+hope, excuse some information repeated from the archives.
+
+First, you have to decide what you mean by a move.  On grounds of
+symmetry and parsimony I prefer to count each quarter-turn of a face
+as a (QT) move.  However, most of the literature counts either a
+quarter-turn or a half-turn of a face as a single (HT) move, and there
+has been more work done on the problem by the HT contingent.
+
+Second, you have to be careful to define what constitutes solved!
+While most people are content to make each face a solid color, some
+cubes have markings that display whether the face centers are twisted
+with respect to the rest of the cube.
+    [This has recently been done commercially in an spectacularly
+     braindamaged way, in a product known as ``Rubik's cube--the
+     fourth dimension'' or some such nonsense.  The mfrs have marked
+     only four face centers, breaking symmetry while they fail to show
+     the surprising invariant of the Supergroup.  What bagbiters!]
+But that is a topic for other messages; I will not further discuss the
+invisible features of cubes here, save to note that there are more
+invisible features in larger cubes, and that if you take them into
+account, the cube will be harder to solve and require more moves than
+if you don't.
+
+Third, you have to understand that in either case, nobody knows the
+exact answer except for the tiny cubes.  It boils down to knowing
+lower bounds L and upper bounds U, such that there must be some
+positions requiring at least L moves, while any position can be solved
+in at most U moves.  I will discuss these in turn, below.
+
+For lower bounds, it is easy to calculate how many positions of
+Rubik's cube are achievable, and we may reason that only a few
+positions are within a few moves of start.  Counting them, we can
+determine that at least 21 QT (or 18 HT) are needed to solve some
+positions of the cube.  In fact, at least half of the positions of the
+cube require at least 18 HT, and at least 90% of the positions require
+at least 20 QT.  The calculations are elementary, and have been known
+for over a decade.  Nobody knows any other very good way of finding
+lower bounds.  In Rubik's_Cubic_Compendium (1987), Tamas Varga writes
+    Experts believe that even in the worst cases--the patterns
+    furthest away from start--it should be possible to restore the
+    cube in 20-odd [HT] moves, maybe 25, not more.
+However, such beliefs are clearly conjectural, based on the behavior
+of much simpler puzzles.
+
+The known upper bounds are constructive, consisting of a solution
+procedure guaranteed to solve any cube within U moves.  The best known
+bound is embodied in a procedure invented by Morwen B. Thistlethwaite,
+and improved by students of Donald E. Knuth (The students are not
+identified in R_C_C).  The improved procedure requires at most 50 HT
+in the worst case.  Thistlethwaite was hoping (in 1980) to improve
+this to 41 HT, but (rumors to the contrary) he apparently did not
+succeed.  A 1989 article by Hans Kloosterman entitled ``Rubik's Cube
+in 44 moves'' refers to an attempt to refine Thistlethwaite's method.
+I have not heard of any success there, either.
+
+Since any HT is at most 2QT, any Rubik's cube position can be solved
+in at most 100 QT using Thistlethwaite's method.  According to my
+understanding of the method, this can actually be reduced to 97 QT,
+but this is still poor.  A method tailored to minimizing QT would
+almost certainly guarantee a much shorter solution.
+
+Unfortunately, Thistlethwaite's method requires enormous tables of
+partial solution methods.  Gerszon Keri describes a simpler method in
+R_C_C that requires at most 97 HT and which humans can memorize.  The
+method is attributed to ``a Cambridge group,'' which I think must
+refer to England.  According to Keri the Cambridge method has been
+refined to use only 79 HT, but I do not know if the refined version is
+still humanly comprehensible.
+
+For the 2x2x2 cube, the worst-case number of moves is known to be
+exactly 14 QT (11 HT).  Only 276 (2644) positions require all 14 QT
+(11 HT).  Half of the positions can be solved in 11 QT (9 HT) or
+fewer.
+
+For the 4x4x4 and larger cubes, the problem of defining a move is more
+complicated.  Besides the QT/HT dichotomy, there is the question of
+whether a move consists of a slice (turning one part of the cube with
+respect to the other) or a slab (turning a 1x4x4 section of the cube
+with respect to the rest).  We might expect that, as we do not count
+the center-slab moves of the 3x3x3 as a single move, we should not
+count the inner-slab moves of the 4x4x4 as a single move.  However, I
+have discovered excellent reasons of symmetry (send email if you want
+to know) for us to consider all slabs alike, whether internal or face,
+with the exception of the center slab of an odd-sized cube.  This is
+known as the Eccentric Slabist metric.
+
+According to my calculations of some years ago, some 4x4x4 positions
+require at least 37 slab QT or 41 slice QT to solve.  The Eccentric
+Slabist also calculates at least 59, 81, 111, 138, 175, and 208 QT for
+the 5x5x5 through 10x10x10 cubes.  (And yes, I've heard the widespread
+misinformation that Rubik's cubes larger than six cubies on an edge
+are impossible).
+
+I seem to recall calculating HT lower bounds, but I can't seem to find
+them.  I do not recall whether upper bounds have been calculated for
+the large cubes, other than that they are O(N^2)--see J. A. Eidswick's
+article in the March 1986 Math Monthly.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+From tjj@lemma.helsinki.fi  Thu Jan  9 03:07:28 1992
+Return-Path: <tjj@lemma.helsinki.fi>
+Received: from funet.fi by life.ai.mit.edu (4.1/AI-4.10) id AA28910; Thu, 9 Jan 92 03:07:28 EST
+Received: from lemma.Helsinki.fi by funet.fi with SMTP (PP) 
+          id <17796-0@funet.fi>; Thu, 9 Jan 1992 08:46:06 +0200
+Received: by lemma.helsinki.fi (5.57/Ultrix3.0-C) id AA24202;
+          Thu, 9 Jan 92 08:46:20 +0200
+Date: Thu, 9 Jan 92 08:46:20 +0200
+From: tjj@lemma.helsinki.fi (Timo Jokitalo)
+Message-Id: <9201090646.AA24202@lemma.helsinki.fi>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: Rubik's Cube, the minimax number of moves
+
+
+
+I wonder how large the necessary tables for Thistlethwaite's method for the
+cube are? I seem to recall reading that there were a few hundred entries, but
+is this anywhere near? And, more important, have they been published, or does
+anyone have them in an electronic format?
+
+	Thanks,
+	Timo Jokitalo (tjj@rolf.helsinki.fi)
+
+From hoey@aic.nrl.navy.mil  Fri Jan 10 18:35:28 1992
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA29653; Fri, 10 Jan 92 18:35:28 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA00290; Fri, 10 Jan 92 18:32:36 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Fri, 10 Jan 92 18:32:35 EST
+Date: Fri, 10 Jan 92 18:32:35 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9201102332.AA13941@sun13.aic.nrl.navy.mil>
+To: tjj@lemma.helsinki.fi (Timo Jokitalo), Cube-Lovers@life.ai.mit.edu
+Subject: Re: Rubik's Cube, the minimax number of moves
+Keywords: Upper-Bounds, Thistlethwaite, RCC, NoRMC
+
+tjj@lemma.helsinki.fi (Timo Jokitalo) asks
+
+> I wonder how large the necessary tables for Thistlethwaite's method
+> for the cube are?  I seem to recall reading that there were a few
+> hundred entries....
+
+Well, this is the information from Singmaster's _Notes_on_Rubik's_
+_Magic_Cube_ (1980).  Thistlethwaite's method is to work from group to
+subgroup as follows:
+
+    G0: <F,B,L,R,T,D>
+    G1: <F^2,B^2,L,R,T,D>
+    G2: <F^2,B^2,L^2,R^2,T,D>
+    G3: <F^2,B^2,L^2,R^2,T^2,D^2>
+    G4: <I>
+
+The following table shows the number of cosets (the index of each
+subgroup in the next larger group).  Then I include the number of HT
+moves proven, anticipated, and best possible, from the 1980 N_o_R_M_C.
+Finally, I include the number of HT claimed in the 1987 R_C_C.  It is
+interesting to note that the improvement did not occur where
+Thistlethwaite anticipated it.
+
+Step | Number of Cosets  |     Number of HT, 1980      | #HT, 1987
+     |                   |  Proven  Anticipated  Best  |   Proven
+     |                   |                             |
+  1  | G0:G1 =     2,048 |     7        7         7    |      7 
+  2  | G1:G2 = 1,082,565 |    13       12        10    |     13
+  3  | G2:G3 =   663,552 |    15       14 ?      13 ?  |     15
+  4  | G3:G4 =    29,400 |    17       17        15 ?  |     15
+-----+-------------------+-----------------------------+-----------
+               Total HT  |    52       50 ?      45 ?  |     50
+               Total QT  |   101       97 ?      87 ?  |     97
+
+I had thought the tables contained one entry for each coset, and so
+there would be over a million entries for step 2.  However, I was
+surprised just now to notice in N_o_R_M_C that tables were only needed
+in step 4, and then only 172 entries, so there must be some
+abbreviation or algorithmic approach.  Of course, when Knuth's
+students improved step 4, they may have changed it to use a huge
+lookup table; I don't know.  Still, this is much better than the
+situation I expected in my note two days ago.
+
+In listing QT I assume that in we can require steps 1, 2, and 3 to
+each end with a quarter-turn.  So the number of QT is at most three
+less than twice the number of HT.
+
+> And, more important, have they been published, or does anyone have
+> them in an electronic format?
+
+The bibliography in N_o_R_M_C mentions Thistlethwaite's algorithms as
+being in typescript, but I don't know if they were available by
+request, and I don't know anyone who has them.  I don't know anything
+about the improvements by Knuth's students, and there's nothing in
+the R_C_C bibliography that looks like a Stanford tech report.
+
+Dan
+
+From ACW@yukon.scrc.symbolics.com  Mon Jan 13 22:03:15 1992
+Return-Path: <ACW@yukon.scrc.symbolics.com>
+Received: from YUKON.SCRC.Symbolics.COM by life.ai.mit.edu (4.1/AI-4.10) id AA21059; Mon, 13 Jan 92 22:03:15 EST
+Received: from PALLANDO.SCRC.Symbolics.COM by YUKON.SCRC.Symbolics.COM via INTERNET with SMTP id 761285; 13 Jan 1992 14:40:58-0500
+Date: Mon, 13 Jan 1992 14:38-0500
+From: Allan C. Wechsler <ACW@yukon.scrc.symbolics.com>
+Subject: Re: Rubik's Cube, the minimax number of moves
+To: hoey@aic.nrl.navy.mil, tjj@lemma.helsinki.fi, Cube-Lovers@life.ai.mit.edu
+In-Reply-To: <9201102332.AA13941@sun13.aic.nrl.navy.mil>
+Message-Id: <19920113193832.8.ACW@PALLANDO.SCRC.Symbolics.COM>
+
+I would like to see us develop a programming language for expressing
+cube-solving algorithms in.  Then we could cooperate in trying to find
+an algorithm with smaller and smaller numbers of moves in the worst
+case.
+
+I just completed an exercise I have wanted to try for a while, a rough
+worst-case analysis of my own technique.  It's pretty scary.  It turns
+out that my worst case is 236 qtw.  My algorithm is "bottom-heavy" -- it
+starts with "intuitive" moves for fixing the first few corners.  These
+were the hardest to analyze, but they take the fewest moves.  It
+finishes up with great big macros for the last few fiddles and fixes.
+For example, flipping two edges in place takes 22 qtw.  Obviously a lot
+could be gained from tweaking the earlier part of the algorithm to
+guarantee that I don't need to do this at the end.
+
+From hoey@aic.nrl.navy.mil  Tue Jan 14 12:49:25 1992
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA13585; Tue, 14 Jan 92 12:49:25 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA27636; Tue, 14 Jan 92 12:49:17 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Tue, 14 Jan 92 12:49:16 EST
+Date: Tue, 14 Jan 92 12:49:16 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9201141749.AA27091@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu
+Cc: "Allan C. Wechsler" <ACW@yukon.scrc.symbolics.com>
+Subject: A new upper bound: 91 QT
+Keywords: Upper-Bounds, Thistlethwaite
+
+I just wrote a quick program to count the number of QT to move from
+the full cube group to the subgroup generated by <F^2,B^2,L,R,T,D>.
+Thistlethwaite computed that this takes at least 7 HT in the worst
+case.  The surprisingly good result is that it also takes only 7 *QT*
+in the worst case.  This reduces the upper bound I posted Friday to 91
+QT.
+
+I had wondered if the worst cases could be reduced by choosing a
+different pair of faces to restrict to half-twists.  Unfortunately,
+the all-edges-flipped position is one of those that requires at least
+7 HT (and so 7 QT), and by symmetry it cannot be improved.
+
+Allan C. Wechsler <ACW@YUKON.SCRC.Symbolics.COM> analyzed his own
+cube-solving method, finding that:
+
+> For example, flipping two edges in place takes 22 qtw.
+
+This can be done in 16 QT, though I don't know if that is the best
+known.  Any pair can be flipped with a conjugate of the 14 QT slice
+mono-op FOTAROFATO-RAM TAFORATOFA-ROM (FT'RF'T L'R B'TR'BT' LR').
+Adjacent and antipodal pairs require the introduction of a
+non-cancelling QT in the conjugator.
+
+> Obviously a lot could be gained from tweaking the earlier part of
+> the algorithm to guarantee that I don't need to do this at the end.
+
+Probably, but it's hard to make that guarantee.  The problem is that
+unless you flip edges in place with no other action (the very problem
+you're trying to avoid) you may affect the later choices in the
+algorithm, making the earlier tweaks wrong for that branch of the
+algorithm.
+
+For instance, the 7-QT method my program found solves the orientation
+of all the edges (using a particular non-standard labeling of the
+orientation that, when solved, is invariant under F^2, B^2, L, R, T,
+and D).  But it may permute edges, and permute and twist corners, so
+it may not form a useful part of an arbitrary cube-solving algorithm.
+It works in Thistlethwaite's only because he is careful in all
+branches of the rest of the algorithm never to mix up the orientation
+of those edges.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+From raymond@cps.msu.edu  Tue Jan 14 13:22:14 1992
+Return-Path: <raymond@cps.msu.edu>
+Received: from galaxy.cps.msu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA14497; Tue, 14 Jan 92 13:22:14 EST
+Received: from cpss16.cps.msu.edu by galaxy.cps.msu.edu (4.1/rpj-5.0); id AA22563; Tue, 14 Jan 92 13:22:08 EST
+Received: by cpss16.cps.msu.edu (4.1/4.1)
+	id AA01898; Tue, 14 Jan 92 13:22:06 EST
+Date: Tue, 14 Jan 92 13:22:06 EST
+From: raymond@cps.msu.edu
+Message-Id: <9201141822.AA01898@cpss16.cps.msu.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Cube software
+
+
+If anyone is interested, I wrote a program for examining the cycle
+structure of various move sequences on Rubik's cube.  It's got
+a lex and yacc front end, which let you enter moves using the
+UDLRFB notation.  You give it a move sequence, and it will give
+you the permutation in cycle notation, taking edge flips and
+corner twists into account.  For example, you can say
+  (R'D2R B'U2B)2
+which is a corner twister, and it will tell you that the urf corner
+is twisted clockwise, and the dlb corner is twisted clockwise.  YOu
+can also give names to sequences, and refer to the sequence by its
+name.  You can save and load named sequences from a file.
+
+The code is pretty quick-and-dirty, but I'll email the source to
+anyone who is interested.  I wrote it on a PC with Microsoft C 5.1, and
+flex and bison, but it should work fine under Unix.
+
+Carl Raymond
+
+From ACW@yukon.scrc.symbolics.com  Tue Jan 14 19:20:46 1992
+Return-Path: <ACW@yukon.scrc.symbolics.com>
+Received: from YUKON.SCRC.Symbolics.COM by life.ai.mit.edu (4.1/AI-4.10) id AA26037; Tue, 14 Jan 92 19:20:46 EST
+Received: from PALLANDO.SCRC.Symbolics.COM by YUKON.SCRC.Symbolics.COM via INTERNET with SMTP id 761636; 14 Jan 1992 13:46:59-0500
+Date: Tue, 14 Jan 1992 13:44-0500
+From: Allan C. Wechsler <ACW@yukon.scrc.symbolics.com>
+Subject: A new upper bound: 91 QT
+To: hoey@aic.nrl.navy.mil, Cube-Lovers@life.ai.mit.edu
+Cc: ACW@yukon.scrc.symbolics.com
+In-Reply-To: <9201141749.AA27091@sun13.aic.nrl.navy.mil>
+Message-Id: <19920114184432.1.ACW@PALLANDO.SCRC.Symbolics.COM>
+
+Regarding the meta-approach of descending through a series of subgroups,
+how much leverage does properly selecting the chain give you?  It seems
+like the jump from <F2,B2,...> to <F2,B2,L2,R2,...> is pretty large.
+There are probably other paths through the subgroup lattice.
+
+Does anyone have a table of subgroups?
+
+From @mitvma.mit.edu:rb%uk.ac.ic.cc@sunss1cc-gw.cc.ic.ac.uk  Wed Jan 15 10:38:59 1992
+Return-Path: <@mitvma.mit.edu:rb%uk.ac.ic.cc@sunss1cc-gw.cc.ic.ac.uk>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) id AA16719; Wed, 15 Jan 92 10:38:59 EST
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 7594; Wed, 15 Jan 92 10:39:15 EST
+Received: from UKACRL.BITNET by MITVMA.MIT.EDU (Mailer R2.08 R208004) with
+ BSMTP id 9520; Wed, 15 Jan 92 10:39:14 EST
+Received: from RL.IB by UKACRL.BITNET (Mailer R2.07) with BSMTP id 6307; Wed,
+ 15 Jan 92 15:37:45 GMT
+Received: 
+           from RL.IB by UK.AC.RL.IB (Mailer R2.07) with BSMTP id 6650; Wed, 15
+            Jan 92 15:37:43 GMT
+Via:        UK.AC.IC.CC; 15 JAN 92 15:37:41 GMT
+X-Received: from sunss1cc-gw.cc.ic.ac.uk by mvax.cc.ic.ac.uk with SMTP
+            id aa23202; 15 Jan 92 15:36 WE
+Received:   from suns1cc.cc.ic.ac.uk by sunss1cc.cc.ic.ac.uk (4.1/3.0)
+            id AA14635; Wed, 15 Jan 92 15:36:40 GM
+From: rb@cc.ic.ac.uk
+Date:       Wed, 15 Jan 92 15:36:39 GMT
+Message-Id: <243.9201151536@suns1cc.cc.ic.ac.uk>
+To: cube-lovers <cube-lovers@ai.mit.edu>
+Subject:    Minimove Solution
+Sender: rb%uk.ac.ic.cc@sunss1cc-gw.cc.ic.ac.uk
+
+I have recently read a book entitled
+	"Learning To Solve Problems By Searching For Macro Operators"
+
+	by Richard E. Korf (exact spelling not in my head).
+
+In a nutshell the book discusses an algorithmic method of problem soving
+by discovering useful operators.  The method was applied to the 3D Rubik
+cube and as I remember managed on average to solve the problem in about
+37 - 38 QTW.  Apparently it was slightly better than human experts.  The
+tables discovered by the program weren't terribly large :-)!
+
+Also either in that book or another I remember an approach to the minimove
+problem based on measuring the disorderedness of the cube after n random
+moves.  The measure of disorder was based on the number of correct colours
+on each face or something like that.  From a graph of this measure averaged
+over (I suppose) some number of trials it seems as though the cube can be
+maximally disordered in around 18 moves.  It would seem that this means
+that on average the cube should be restorable in about the same number of
+moves.
+
+Of course this doesn't help giving tight bounds,  but I guess it gives
+some hope to the clever guys.
+
+As an aside I have something called  a Supernova which is dodekahedral
+(i.e. has 12 5 sided faces each of which can rotate) which is alledged
+to be 10power 43 more complicated than the 3cube.  I can solve it using
+fairly standard cube methods (only the last face is slightly difficult)
+in about 20 times my 3-bube time.  Has anyone else seen this and or is
+there any standard notation + information on this thing.
+	Robin (not batperson) Becker
+
+From raymond@cps.msu.edu  Wed Jan 15 11:07:35 1992
+Return-Path: <raymond@cps.msu.edu>
+Received: from galaxy.cps.msu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA17950; Wed, 15 Jan 92 11:07:35 EST
+Received: from cpss11.cps.msu.edu by galaxy.cps.msu.edu (4.1/rpj-5.0); id AA07139; Wed, 15 Jan 92 11:07:33 EST
+Received: by cpss11.cps.msu.edu (4.1/4.1)
+	id AA01817; Wed, 15 Jan 92 11:07:32 EST
+Date: Wed, 15 Jan 92 11:07:32 EST
+From: raymond@cps.msu.edu
+Message-Id: <9201151607.AA01817@cpss11.cps.msu.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Cube software
+
+I received 8 requests for my cube cycle program.  They are:
+berson@cs.pitt.edu
+bosch@mips.com
+DEVO@GDLVM7.VNET.IBM.COM
+keng@zcar.asd.sgi.com
+tout@cps.msu.edu
+palmerp@MATH.ORST.EDU
+schmidtg@iccgcc.decnet.ab.com
+tjj@rolf.helsinki.fi
+
+If I omitted anyone, please send your request again.
+
+Carl
+
+From gkomatsu@uhunix.uhcc.hawaii.edu  Thu Jan 16 04:08:17 1992
+Return-Path: <gkomatsu@uhunix.uhcc.hawaii.edu>
+Received: from uhunix.uhcc.Hawaii.Edu by life.ai.mit.edu (4.1/AI-4.10) id AA01167; Thu, 16 Jan 92 04:08:17 EST
+Received: by uhunix.uhcc.Hawaii.Edu (4.1/Sun490)
+	id AA04197; Wed, 15 Jan 92 23:08:13 HST
+Date: Wed, 15 Jan 1992 23:08:12 HST
+From: Galen Tatsuo Komatsu <gkomatsu@uhunix.uhcc.hawaii.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject: Rubik's Magic Clock & Triamid
+Message-Id: <CMM.0.88.695552892.gkomatsu@uhunix.uhcc.Hawaii.Edu>
+
+...hmm new to this list, been reading some of the postings and things just
+seem to go *FOOM*, right over my head.  But it didn't stop me from asking
+these.....
+
+Rubik's Magic Clock.
+	Sister is Japan sent me this for Christmas (Have still yet to
+translate the instructions...as if I need it!) and solved it in a day... Well,
+more like "stumbled" upon the solution after a day of fiddling with it.  But
+I continued to play with it, and came upon this.....
+	Sometimes when I give one of the wheels a good quick "flick", one of
+the gears inside slips.  Result is one (or maybe two) of the clock faces
+affected is an hour "behind" (or ahead) of the others.  Deep in my mind I
+concluded that this rendered the puzzle unsolveable.  And I ended up pulling
+out a screwdriver and readjusting the face (or I just "zeroed" all of them.)
+Was I correct in this conclusion?
+	(...oh yea, she sent this for Christmas '88, not this past year.  I'm
+not THAT behind the times!  THIS Christmas I recieved.....)
+
+Rubik's Triamid.
+	In the instructions it says,
+
+       "It is physically possible to dismember Triamid into it's
+	10 constituent elements and reassemble it into a complete
+	Triamid.  A word of warning however--as there are 2 possible
+	ways of doing this (a right and a left one) solving the
+	puzzle after such a ressembly has an additional sting in
+	the tail."
+
+	What exactly is this "sting"?  And what did it mean by "right and
+left"?  (if there's some joke here, I missed it...)  I was wondering, if I
+took it apart and reassembled it to a completed form, the puzzle is still
+solvable, I just scramble it and get back to the form I reassembled it to.
+So this can't be the "sting" mentioned.  Unless it meant reassemble it to some
+unfinished form.
+	Next question... Sometimes when I play around with it, one of the
+corner pieces pops off and lands on the floor.  I pick it up and put it back
+on wondering, how was it originally oriented?  And considering the 11/12
+chance that I'll have put it back on wrong way.  Have I just rendered the
+Triamid (once again) "unsolveable"?
+	Final question, for fun...  Anyone bought more than one Triamid, and
+put 'em together to make a "Monster(a)mid"? =^)
+
+	...also for a Square-1 for x-mas too, still fiddling around with it
+too.  And have yet to lay my hands on Rubik's Tangle, Dice, and Fifteen.  But
+NOT the Cube^4 (was that it?) Couls never solve the original, why should I
+touch this one?  =^/
+
+Galen Komatsu
+gkomatsu@uhunix.uhcc.hawaii.edu !
+
+From tjj@lemma.helsinki.fi  Thu Jan 16 07:15:27 1992
+Return-Path: <tjj@lemma.helsinki.fi>
+Received: from figbox.funet.fi by life.ai.mit.edu (4.1/AI-4.10) id AA05025; Thu, 16 Jan 92 07:15:27 EST
+Received: from lemma.Helsinki.FI by FIGBOX.FUNET.FI (PMDF #12388) id
+ <01GFDTEK1W4000543M@FIGBOX.FUNET.FI>; Thu, 16 Jan 1992 12:15 GMT
+Received: by lemma.helsinki.fi (5.57/Ultrix3.0-C) id AA28342; Thu,
+ 16 Jan 92 14:14:15 +0200
+Date: Thu, 16 Jan 92 14:14:15 +0200
+From: tjj@lemma.helsinki.fi (Timo Jokitalo)
+Subject: Re:  Rubik's Magic Clock & Triamid
+To: cube-lovers@life.ai.mit.edu, gkomatsu@uhunix.uhcc.hawaii.edu
+Message-Id: <9201161214.AA28342@lemma.helsinki.fi>
+
+I haven't tried the Triamid or Tangle, but I bought the Fifteen and the Dice.
+I'm still thinking of attacking the Fifteen, but I really hate the Dice after
+I twice had gotten four of the faces in their right places, knocked the thing
+a bit too much, which caused the plates to fall to the bottom. I hate that 
+**** thing and won't touch it again for a long time!
+
+	Timo
+
+From pbeck@pica.army.mil  Wed Jan 22 00:26:53 1992
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA22844; Wed, 22 Jan 92 00:26:53 EST
+Received: by FSAC1.PICA.ARMY.MIL id aa23162; 21 Jan 92 15:23 EST
+Date:     Tue, 21 Jan 92 15:18:15 EST
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: reid@math.berkeley.edu
+Cc: cube-lovers@life.ai.mit.edu
+Subject:  cff
+Message-Id:  <9201211518.aa19961@FSAC1.PICA.ARMY.MIL>
+
+
+CUBISM FOR FUN is the newsletter of the 
+DUtch Cubist Club.  It is in english.
+The club is alive and well and is planning
+to host the 1993 International Puzzle party.
+
+To subscribe send US$11 (in cash or
+international money order) to
+LUCIEN MATTHIJSSE
+LOENAPAD 12
+3402 EP IJSSELSTEIN
+NETHERLANDS
+
+I will be happy to answer any questions you may have.
+
+THE FUTURE IS PUZZLING,
+BUT CUBING IS FOREVER !!
+
+From reid@math.berkeley.edu  Wed Jan 22 02:29:03 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu ([128.32.183.94]) by life.ai.mit.edu (4.1/AI-4.10) id AA24953; Wed, 22 Jan 92 02:29:03 EST
+Received: from skippy.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA03361; Tue, 21 Jan 92 23:27:28 PST
+Date: Tue, 21 Jan 92 23:27:28 PST
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9201220727.AA03361@math.berkeley.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Rubik's cube dice tops (Spoiler)
+Cc: ronnie@cisco.com
+
+a while ago (last month), Dan (hoey@aic.nrl.navy.mil) writes:
+
+> Last week ronnie@cisco.com (Ronnie Kon) challenged us to find Rubik's
+> cube patterns with dice pips for 1, 2, and 3 on the three pairs of
+> opposite sides.  He claimed it could be done in fourteen HST, where
+> one HST is a turn of a face or center slice by 90 or 180 degrees.  I
+> responded that it could be done in thirteen HST.  Here is how.  I will
+> use this opportunity to practice the enhanced Varga Rubiksong I
+> described (unfortunately with many typos) on 22 Feb 90.
+
+> The (only such) pattern is the composition of Four-Spot and Laughter.
+> We have long known the processes
+
+[ description deleted ]
+
+> This uses only 13 HST.  This is also the shortest process I know of in
+> the normal metric: 18 QT, which is not so bad for the combination of
+
+here's a shorter way.  in the "flubrd" notation, use:
+
+              D' F^2 R U^2 F^2 B^2 D^2 R^2 L' F^2 U' D^2
+
+which is 11 "HST" (which i call "slice turns").  this is also 12
+"face" turns, but 20 quarter turns.  this can also be done in only 14
+quarter turns as follows:
+                            F^2 U D F B U D F B U D F B'     (*)
+
+note that this can easily be obtained from the well-known manuever for
+"laughter":
+                              ( F B  C_U )^6                (**)
+
+where  C_  means "turn the whole cube" (as in Bandelow's book).  note
+that this manuever reorients the cube.  then manuever (*) is just the
+"flubrd" translation of the manuever  M_F (**) M_F'  (without the cube
+reorientation), where  M_  means "turn the middle slice," again, as in
+Bandelow's book.
+
+here's a question for those out there with 5x5x5 cubes: have you
+noticed that the stickers seem to be more happy on the floor than on
+the facelets of the cube?  the more i use my cube, the more restless
+they seem to become.  does anyone know of a good cure for this?  i'm
+thinking of taking them all off, cleaning off the glue (or gum or
+whatnot) and gluing them back on, using a stronger glue.  anyone have
+any suggestions for what kind of glue?  i'll let you know how my
+experiment works.
+
+mike
+
+From wft@math.canterbury.ac.nz  Wed Jan 29 04:27:21 1992
+Return-Path: <wft@math.canterbury.ac.nz>
+Received: from CANTVA.CANTERBURY.AC.NZ by life.ai.mit.edu (4.1/AI-4.10) id AA11553; Wed, 29 Jan 92 04:27:21 EST
+Received: from math.canterbury.ac.nz by csc.canterbury.ac.nz (PMDF #12052) id
+ <01GFW95D1YZK9IB0HC@csc.canterbury.ac.nz>; Wed, 29 Jan 1992 17:00 +1300
+Received: by math.canterbury.ac.nz (4.1/SMI-4.1) id AA29423; Wed,
+ 29 Jan 92 17:00:01 NZD
+Date: Wed, 29 Jan 92 17:00:01 NZD
+From: wft@math.canterbury.ac.nz (Bill Taylor)
+Subject: subgroups
+To: Cube-Lovers@ai.mit.edu
+Cc: wft@cantva.canterbury.ac.nz
+Message-Id: <9201290400.AA29423@math.canterbury.ac.nz>
+X-Envelope-To: Cube-Lovers@AI.MIT.EDU
+
+On 14 Jan 1992,  Allan C. Wechsler posted
+
+>Regarding the meta-approach of descending through a series of subgroups,
+>how much leverage does properly selecting the chain give you?  It seems
+>like the jump from <F2,B2,...> to <F2,B2,L2,R2,...> is pretty large.
+>There are probably other paths through the subgroup lattice.
+>
+>Does anyone have a table of subgroups?
+
+There hasn't been any response to this, seemingly, which is a pity.
+
+In any event, I would like to know of any other well-known subgroups.
+There are the slice group; double-slice group; U group; square group;
+anti-slice group. How many others are there not mentioned here, that 
+people know of ?
+
+
+
+From pbeck@pica.army.mil  Wed Feb 26 07:50:17 1992
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL ([129.139.68.8]) by life.ai.mit.edu (4.1/AI-4.10) id AA24169; Wed, 26 Feb 92 07:50:17 EST
+Date:     Wed, 26 Feb 92 7:42:09 EST
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@ai.mit.edu
+Subject:  news
+Message-Id:  <9202260742.aa03535@FSAC1.PICA.ARMY.MIL>
+
+
+What's UP
+
+-  GAMES magazine is sponsoring 
+  "WORLD PUZZLE TEAM CHAMPIONSHIPS" 
+   in NYC June 24-28;  registration forms in 
+   April issue of GAMES, on newsstands march 1
+
+
+-  NEW PUZZLE
+It is called "PYRIX" (retails for $10, 
+   I do not have a retail source) and is from: 
+   Enpros Novelty Products, Lorentzstraat 2, 
+   2912 AH Niewerkerk aan den IJssel,
+   The Netherlands -  
+   tel 31 (0)1803-19133
+
+DESCRIPTION:  The puzzle is an assembly folding
+  puzzle based on a size 3 tetrahedron.  The 
+  tetrahedron is dissected into 3 regular octahedrons
+  and 11 tetrahedrons (1/3 the size of the original).
+  These pieces are strung on a thread like a necklace;
+  an octahedron, 3 tetras, an octahedron, etc except
+  for one position that has only 2 tetras.  The octahedrons
+  are threaded on the diagonal of their square cross section.
+OBJECT:  The faces are colored and the object is to not 
+  only assemble a tetra but of course to do it with solid
+  colored faces,  the enclosure says that there are 
+  2 solutions as they have colored and strung the pieces.
+PRELIMINARY REVIEW:  It took about 1 hour.  The puzzle 
+  is awkward to manipulate since it falls apart easily.
+  Doing it on a flat surface and using tape to hold it
+  together seems to be the trick.
+
+
+
+From pbeck@pica.army.mil  Fri Mar 13 19:31:17 1992
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA12037; Fri, 13 Mar 92 19:31:17 EST
+Received: by FSAC1.PICA.ARMY.MIL id aa13294; 13 Mar 92 14:45 EST
+Date:     Fri, 13 Mar 92 13:57:41 EST
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@ai.mit.edu
+Subject:  12 th puzzle party
+Message-Id:  <9203131357.aa04103@FSAC1.PICA.ARMY.MIL>
+
+
+...............................................................
+<-->  12th International puzzle collector's party and fair " UPDATE"
+ <-->
+ transcribed by pbeck, 3/13/92
+...............................................................
+WHEN ---- 7/31/92  - 8/2
+WHERE ----  Korakuen Kaikan
+LODGING ---- about $70 per night at either
+    1) Satellite Hotel Korakuen
+    2) Koraku Garden Hotel
+              ---- about $20 per night at Tokyo International Youth
+Hostel, 10 minute walk away but next to Nob's Studio
+
+***  INVITATIONS ***  Admission by invitation only!!!  
+     Contact: Mr. Nob Yoshigahara,  4-10-1-408 Iidabashi,  Tokyo  102
+Japan before   APRIL 15, 1992
+
+AGENDA: (final details,ie, cost, food service & entertainment will be
+sent  to registrants)
+  7/31  18:00 - 20:00 welcoming party 
+  8/1     10:00 - 20:00 collectors and dealers
+  8/2 unfinished business
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+From pbeck@pica.army.mil  Tue Apr 14 12:15:09 1992
+Return-Path: <pbeck@pica.army.mil>
+Received: from COR4.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA03146; Tue, 14 Apr 92 12:15:09 EDT
+Date:     Tue, 14 Apr 92 7:48:14 EDT
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@ai.mit.edu
+Subject:  puzzle rings
+Message-Id:  <9204140748.aa18790@COR4.PICA.ARMY.MIL>
+
+
+Jewelry quality puzzle rings are available from:
+
+as of 4/91,
+
+JOSE GRANT
+3000 SUMMER STREET
+STANFORD, CT 06905
+
+203-327-4055
+800-426-1947
+
+
+I am posting this to correct mis-information I 
+may have sent out.  If this is incorrect
+please let me know and I will track down the
+corrrect info.
+
+THE FUTURE IS PUZZLING,
+but CUBING is FOREVER!!
+
+pete beck
+
+From wft@math.canterbury.ac.nz  Wed Apr 15 01:19:50 1992
+Return-Path: <wft@math.canterbury.ac.nz>
+Received: from CANTVA.CANTERBURY.AC.NZ by life.ai.mit.edu (4.1/AI-4.10) id AA22905; Wed, 15 Apr 92 01:19:50 EDT
+Received: from math.canterbury.ac.nz by csc.canterbury.ac.nz (PMDF #12052) id
+ <01GIVU9X7N1CD7PYTP@csc.canterbury.ac.nz>; Wed, 15 Apr 1992 17:19 +1200
+Received: by math.canterbury.ac.nz (4.1/SMI-4.1) id AA13903; Wed,
+ 15 Apr 92 17:19:18 NZS
+Date: Wed, 15 Apr 92 17:19:18 NZS
+From: wft@math.canterbury.ac.nz (Bill Taylor)
+Subject: God's algorithm
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <9204150519.AA13903@math.canterbury.ac.nz>
+X-Envelope-To: Cube-Lovers@AI.MIT.EDU
+
+In rec.puzzles,  sijben@cs.utwente.nl (Paul Sijben) writes:
+
+> As far a I know is the maximum number of moves requierd to solve The
+> Cube is just over 30 (35 by the last count a year ago, and decending).
+> Someone in the NKC (Nederlandse Kubus Club= dutch cube club) was busy
+> working on a system hoping to reach god's algorythm. I can dig in my
+> archives if anyone want more precice infomation.
+
+Has anyone else heard anything of this business ?
+
+
+From reid@math.berkeley.edu  Wed Apr 15 01:54:00 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA23176; Wed, 15 Apr 92 01:54:00 EDT
+Received: from phnom-penh.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA29772; Tue, 14 Apr 92 22:53:57 PDT
+Date: Tue, 14 Apr 92 22:53:57 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9204150553.AA29772@math.berkeley.edu>
+To: Cube-Lovers@ai.mit.edu, wft@math.canterbury.ac.nz
+Subject: Re:  God's algorithm
+
+> From: wft@math.canterbury.ac.nz (Bill Taylor)
+> Subject: God's algorithm
+
+> In rec.puzzles,  sijben@cs.utwente.nl (Paul Sijben) writes:
+> 
+> > As far a I know is the maximum number of moves requierd to solve The
+> > Cube is just over 30 (35 by the last count a year ago, and decending).
+> > Someone in the NKC (Nederlandse Kubus Club= dutch cube club) was busy
+> > working on a system hoping to reach god's algorythm. I can dig in my
+> > archives if anyone want more precice infomation.
+> 
+> Has anyone else heard anything of this business ?
+
+well, it's been kicking around in both rec.puzzles and sci.math lately.
+maybe you should ask if anyone has heard any follow-up to the above.
+i've sent away to the dutch cubists' club for membership and info,
+but they want payments in the form of international money orders
+(which probably means a good month or two delay).
+if/when i have some more info on this, i'll gladly share it with
+cube-lovers.
+
+mike
+
+From ccw@eql.caltech.edu  Sat Apr 18 23:17:20 1992
+Return-Path: <ccw@eql.caltech.edu>
+Received: from EQL.Caltech.Edu by life.ai.mit.edu (4.1/AI-4.10) id AA27330; Sat, 18 Apr 92 23:17:20 EDT
+Date:     Sat, 18 Apr 92 20:17:11 PDT
+From: ccw@eql.caltech.edu (Chris Worrell)
+Message-Id: <920418201450.2b6009a5@EQL.Caltech.Edu>
+Subject:  Some solutions to Rubik's Tangle have been found.
+To: Cube-Lovers@ai.mit.edu
+
+(No spoilers are included)
+
+I now know two distinct solutions to Rubik's Tangle.
+Each of these solutions can be done with each 5x5 set, 1-4.
+
+I have not yet found any solutions to the 10x10 puzzle. I do know
+that if the 10 by 10 is composed of four 5x5 solutions, than my solutions
+of the 5x5 do not lead to a solution of the 10x10. I am now seeking a
+solution where all 100 pieces can be used anywhere in the 10x10, not just in
+a corner of the 10x10 for its own 5x5 set.
+
+Unfortunately, these solutions were found by brute force, not by any
+real calculation.  I have not been able to discover any "Science" about
+the puzzle which contributes to any discovery of a solution.
+
+These solutions were found by hand, not by a computer search. So there may be
+other solutions to the basic puzzle which are still unknown.
+My search path has approximately 750 cases in it, of which I have
+tested about 300.  One solution was found by 'accident' in that I have not
+yet looked at the case which actually yields that solution, but one of the
+test cases had been 'close' to a solution, so I looked outside my search path.
+The other solution was found in my search path, so it was not found by
+accident. (except by luck that it was at case 300 not 750)
+
+GENERAL THOUGHTS ON RUBIK'S TANGLE AS A PUZZLE
+In short, it is not a good puzzle.  It will never be popular.
+Solutions might only be findable by Computer, by Luck, and by Stubborness
+(brute-force).
+As far as I can tell the only real method of solution is by using a computer.
+I did it by hand because I am stubborn, and I did get lucky.
+My search path contained 750 cases, but I had already considered search paths
+with an estimated 4000 and 8000 cases. These are so large that I had never
+even completed the basic enumeration of cases.
+A hand search of this magnitude is almost impossible.  There are too many
+places for errors, and no real ways of checking.  The amount of time is also
+absurd.  I worked on between 1 and 8 of my test cases at a time, with
+about 250 of these groups in my search path. (later in
+the search I would have, on ocassion, looked at 16 at once).  Sometimes a
+group could be disposed of within 20 minutes, but sometimes it took several
+hours.
+
+Has anybody discovered more mathematical content than I have?
+
+---Chris Worrell (ccw@eql.caltech.edu)
+
+From pl1x+@andrew.cmu.edu  Sat Apr 18 23:43:08 1992
+Return-Path: <pl1x+@andrew.cmu.edu>
+Received: from po5.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA27728; Sat, 18 Apr 92 23:43:08 EDT
+Received: by po5.andrew.cmu.edu (5.54/3.15) id <AA15421> for cube-lovers@ai.mit.edu; Sat, 18 Apr 92 23:43:00 EDT
+Received: via switchmail; Sat, 18 Apr 1992 23:42:59 -0400 (EDT)
+Received: from pcs6.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q002/QF.sdwCjum00WBK80fmhS>;
+          Sat, 18 Apr 1992 23:41:47 -0400 (EDT)
+Received: from pcs6.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr19/pl1x/.Outgoing/QF.cdwCjt:00WBKA51bdz>;
+          Sat, 18 Apr 1992 23:41:45 -0400 (EDT)
+Received: from mms.0.1.873.MacMail.0.9.CUILIB.3.45.SNAP.NOT.LINKED.pcs6.andrew.cmu.edu.pmax.ul4
+          via MS.5.6.pcs6.andrew.cmu.edu.pmax_ul4;
+          Sat, 18 Apr 1992 23:41:45 -0400 (EDT)
+Message-Id: <IdwCjt600WBK851bVp@andrew.cmu.edu>
+Date: Sat, 18 Apr 1992 23:41:45 -0400 (EDT)
+From: Peter Andrew Lopez <pl1x+@andrew.cmu.edu>
+To: cube-lovers@ai.mit.edu, ccw@eql.caltech.edu (Chris Worrell)
+Subject: Re: Some solutions to Rubik's Tangle have been found.
+Cc: 
+In-Reply-To: <920418201450.2b6009a5@EQL.Caltech.Edu>
+References: <920418201450.2b6009a5@EQL.Caltech.Edu>
+
+I love cubes
+
+But i'll never admit it!
+
+cube-annonymous
+
+
+From Don.Woods@eng.sun.com  Sun Apr 19 02:58:44 1992
+Return-Path: <Don.Woods@eng.sun.com>
+Received: from Sun.COM by life.ai.mit.edu (4.1/AI-4.10) id AA28800; Sun, 19 Apr 92 02:58:44 EDT
+Received: from Eng.Sun.COM (zigzag-bb.Corp.Sun.COM) by Sun.COM (4.1/SMI-4.1)
+	id AA25155; Sat, 18 Apr 92 23:58:35 PDT
+Received: from colossal.Eng.Sun.COM by Eng.Sun.COM (4.1/SMI-4.1)
+	id AA23499; Sat, 18 Apr 92 23:58:43 PDT
+Received: by colossal.Eng.Sun.COM (4.1/SMI-4.1)
+	id AA04381; Sat, 18 Apr 92 23:58:42 PDT
+Date: Sat, 18 Apr 92 23:58:42 PDT
+From: Don.Woods@eng.sun.com (Don Woods)
+Message-Id: <9204190658.AA04381@colossal.Eng.Sun.COM>
+To: ccw@eql.caltech.edu, cube-lovers@ai.mit.edu, pl1x+@andrew.cmu.edu
+Subject: Re: Some solutions to Rubik's Tangle have been found.
+
+> From: Peter Andrew Lopez <pl1x+@andrew.cmu.edu>
+> I love cubes
+> But i'll never admit it!
+> cube-annonymous
+
+In addition to being self-contradicting (and misspelled), the above seems
+to have nothing to do with the subject of Rubik's Tangle.
+
+Lest this message suffer the same flaw, I'll add that I too was unable to
+come up with any mathematical or intuitive method for solving the Tangle.
+I solved mine by computer.  (I've always been fairly good at finding ways
+to prune a bushy search tree down to manageable size.)  I have Tangle #1
+and can confirm it has exactly two solutions (ignoring overall rotations
+of the 5x5 array, of course).
+
+I haven't had a chance to examine closely the other Tangles.  How do they
+differ from #1?  Do they use a different pattern of connectivity on the
+tiles?  Do they have a different mix of the permutations?  (#1 has each
+4-color permutation exactly once, except for one permutation which appears
+twice.)  I hope they do not simply permute the colors relative to #1; that
+would be dull since they would then be identical puzzles, and collecting
+more than one would be silly except for the purpose of building the 10x10
+combined puzzle.
+
+	-- Don.
+
+From ACW@riverside.scrc.symbolics.com  Fri Apr 24 14:34:12 1992
+Return-Path: <ACW@riverside.scrc.symbolics.com>
+Received: from RIVERSIDE.SCRC.Symbolics.COM by life.ai.mit.edu (4.1/AI-4.10) id AA20016; Fri, 24 Apr 92 14:34:12 EDT
+Received: from TRANTOR.SCRC.Symbolics.COM by RIVERSIDE.SCRC.Symbolics.COM via INTERNET with SMTP id 797732; 24 Apr 1992 14:33:30-0400
+Date: Fri, 24 Apr 1992 14:33-0400
+From: Allan C. Wechsler <ACW@riverside.scrc.symbolics.com>
+Subject: Some solutions to Rubik's Tangle have been found.
+To: ccw@eql.caltech.edu, Cube-Lovers@ai.mit.edu
+In-Reply-To: <920418201450.2b6009a5@EQL.Caltech.Edu>
+Message-Id: <19920424183328.2.ACW@TRANTOR.SCRC.Symbolics.COM>
+
+I hope I'm not wasting too many people's time, but... can you describe
+the Rubik's Tangle puzzle for those of us who haven't seen it?  Your
+description was interesting, but I wonder about your statement that it
+can't be solved without a computer.  Perhaps you just didn't have the
+right insight.
+
+From Don.Woods@eng.sun.com  Fri Apr 24 17:56:26 1992
+Return-Path: <Don.Woods@eng.sun.com>
+Received: from Sun.COM by life.ai.mit.edu (4.1/AI-4.10) id AA27121; Fri, 24 Apr 92 17:56:26 EDT
+Received: from Eng.Sun.COM (zigzag-bb.Corp.Sun.COM) by Sun.COM (4.1/SMI-4.1)
+	id AA27750; Fri, 24 Apr 92 14:56:15 PDT
+Received: from colossal.Eng.Sun.COM by Eng.Sun.COM (4.1/SMI-4.1)
+	id AA24248; Fri, 24 Apr 92 14:56:17 PDT
+Received: by colossal.Eng.Sun.COM (4.1/SMI-4.1)
+	id AA22010; Fri, 24 Apr 92 14:56:22 PDT
+Date: Fri, 24 Apr 92 14:56:22 PDT
+From: Don.Woods@eng.sun.com (Don Woods)
+Message-Id: <9204242156.AA22010@colossal.Eng.Sun.COM>
+To: ACW@riverside.scrc.symbolics.com
+Subject: Description of Rubik's Tangle
+Cc: Cube-Lovers@ai.mit.edu
+
+> From: Allan C. Wechsler <ACW@riverside.scrc.symbolics.com>
+> I hope I'm not wasting too many people's time, but... can you describe
+> the Rubik's Tangle puzzle for those of us who haven't seen it?  Your
+> description was interesting, but I wonder about your statement that it
+> can't be solved without a computer.  Perhaps you just didn't have the
+> right insight.
+
+I would love to hear an insight that makes this puzzle tractible in real
+time (hours rather than days) by hand.  Here's a brief description of
+Tangle #1; as I said in my earlier posting, I don't know how the other 3
+differ, though I'm pretty sure they each have the same number of tiles.
+
+Tangle #1 consists of 25 square tiles, each of which has four colored
+ropes crossing it in the following pattern.  (Note: This may be mirror
+imaged, since I'm working from memory.)
+
+	---------------------
+	|     @       #     |
+	|     @       #     |
+	|$$    @      # %%%%|
+	|  $    @    %#%    |
+	|   $    @ %% #     |
+	|    $    %@  #     |
+	|    $  %%  @@#     |
+	|    %%%      #@@   |
+	|%%%% $       #  @@@|
+	|     $       #     |
+	|     $       #     |
+	---------------------
+
+The connection marked with $ actually wanders around the tile a bit more,
+but the connectivity is as shown.  The object is to place the tiles in a
+5x5 array such that wherever two tiles touch the colors of the ropes match.
+In Tangle #1 each permutation of colors occurs once, with one permutation
+occurring twice.
+
+The box says that if you get all four Tangles, you can put them together
+to make a 10x10 array under the same color-matching constraints.
+
+	-- Don.
+
+From ccw@eql.caltech.edu  Tue Apr 28 01:59:05 1992
+Return-Path: <ccw@eql.caltech.edu>
+Received: from EQL.Caltech.Edu by life.ai.mit.edu (4.1/AI-4.10) id AA25804; Tue, 28 Apr 92 01:59:05 EDT
+Date:     Sat, 25 Apr 92 08:47:55 PDT
+From: ccw@eql.caltech.edu (Chris Worrell)
+Message-Id: <920425084746.2bc000e4@EQL.Caltech.Edu>
+Subject:  Description of Tangle, Part 2
+To: cube-lovers@ai.mit.edu
+Cc: don.woods@eng.sun.com, acw@riverside.scrc.symbolics.com
+
+Annotating Don.Woods diagram  (which is in the correct orientation)
+              2       3
+        ---------------------
+        |     @       #     |
+        |     @       #     |
+      1 |$$    @      # %%%%| 4
+        |  $    @    %#%    |
+        |   $    @ %% #     |
+        |    $    %@  #     |
+        |    $  %%  @@#     |
+        |    %%%      #@@   |
+      4 |%%%% $       #  @@@| 2
+        |     $       #     |
+        |     $       #     |
+        ---------------------
+              1        3
+
+The duplicate piece in each tangle is:
+                1       2       3       4
+Tangle 1        Blue    Red     Yellow  Green
+Tangle 2        Yellow  Blue    Green   Red
+Tangle 3        Green   Yellow  Blue    Red
+Tangle 4        Red     Green   Yellow  Blue
+
+All 4 Tangles are the same puzzle, just colored differently.
+Each has all 24 color permutations, plus a duplicate.
+
+Each Tile also has a letter (A-Y) on the back, and a reference to the
+Tangle that it occurs in.  These letters appear to be for reference
+only.  I have found no corresponddence between the letterings in one
+puzzle, and the letterings in another.  I just use them as a convenience
+for recording configurations, and sorting through the tiles.
+
+------
+ccw@eql.caltech.edu (Chris Worrell)
+
+From reid@math.berkeley.edu  Wed Apr 29 04:37:32 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA07345; Wed, 29 Apr 92 04:37:32 EDT
+Received: from beirut.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA13934; Wed, 29 Apr 92 01:37:26 PDT
+Date: Wed, 29 Apr 92 01:37:26 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9204290837.AA13934@math.berkeley.edu>
+To: cube-lovers@ai.mit.edu
+Subject: an upper bound on god's number
+
+in an earlier message, i promised to pass along any information
+i obtained about progress on the upper bound for the length of
+god's algorithm.  i've received a copy of the article "rubik's
+cube in 42 moves" by hans kloosterman, which i summarize below.
+
+first here are some caveats:
+
+* i haven't verified this algorithm.
+* throughout, `move' refers to any turn of a single face.
+  i don't know what bound is achieved in the quarter-turn metric.
+* it may be the case that this algorithm has been improved.
+  please let me (and cube-lovers) know if you have more information.
+
+
+"rubik's cube in 42 moves"  by  hans kloosterman
+
+the algorithm used here is a slight variant of thistlethwaite's
+algorithm.  we work through a chain of subgroups:
+
+G_0 = < F, B, L, R, U, D >   ( full group )
+
+G_1 = < F2, B2, L, R, U, D >
+
+G_2 = < F2, B2, L2, R2, U, D >
+
+G_3 = subgroup of G_2 in which all U-cubies are in the U face
+      (thus all D-cubies are in the D face and all U-D slice
+      cubies are in the U-D slice)
+
+G_4 = { 1 }.
+
+there are four stages:  stage i reduces our pattern from G_{i-1} to G_i.
+
+the indices of the subgroups are:
+
+( G_0 : G_1 ) = 2048 = 2^11
+( G_1 : G_2 ) = 1082565 = 3^9 * 5 * 11
+( G_2 : G_3 ) = 4900 = 2^2 * 5^2 * 7^2
+( G_3 : G_4 ) = 3981310 = 2^14 * 3^5
+
+the maximum number of moves in the stages are 7, 10, 8 and 18
+respectively, for a maximum total of 43 moves.  however, in
+the worst-case scenario of stages 3 and 4, it was checked that
+no position actually required 26 moves; i.e. we can arrange a
+cancellation between the two stages.  thus stages 3 and 4
+together require 25 moves at most, which gives the final
+figure of 42 moves.
+
+it seems to me that a lot of work was done on an algorithm
+for restoring the "magic domino" (the 2x3x3 puzzle), and
+these results were applied to stages 3 and 4.
+
+
+mike
+
+From tjj@lemma.helsinki.fi  Wed Apr 29 05:39:47 1992
+Return-Path: <tjj@lemma.helsinki.fi>
+Received: from funet.fi by life.ai.mit.edu (4.1/AI-4.10) id AA08033; Wed, 29 Apr 92 05:39:47 EDT
+Received: from lemma.Helsinki.FI by funet.fi with SMTP (PP) 
+          id <07580-0@funet.fi>; Wed, 29 Apr 1992 12:38:37 +0300
+Received: by lemma.helsinki.fi (5.57/Ultrix3.0-C) id AA20924;
+          Wed, 29 Apr 92 12:38:45 +0300
+Date: Wed, 29 Apr 92 12:38:45 +0300
+From: tjj@lemma.helsinki.fi (Timo Jokitalo)
+Message-Id: <9204290938.AA20924@lemma.helsinki.fi>
+To: cube-lovers@ai.mit.edu, reid@math.berkeley.edu
+Subject: Re: an upper bound on god's number
+
+Do you have the article by Hans Kloosterman in emailable form? If not,
+where could I obtain a copy?
+
+	Timo
+	tjj@rolf.helsinki.fi
+
+From dik@cwi.nl  Sun May  3 21:43:51 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA13983; Sun, 3 May 92 21:43:51 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA25853 (5.65b/2.10/CWI-Amsterdam); Mon, 4 May 1992 03:43:48 +0200
+Received: by boring.cwi.nl 
+	id AA00557 (5.65b/2.10/CWI-Amsterdam); Mon, 4 May 1992 03:43:47 +0200
+Date: Mon, 4 May 1992 03:43:47 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205040143.AA00557.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Are we approaching God's algorithm?
+
+Because it might interest the readers and to be ahead of Peter Beck:
+Saturday I received CFF (Cubism For Fun) # 28.
+It has an interesting article by Herbert Kociemba from Darmstadt, who
+describes his program to solve Rubik's Cube.  He states that he has not
+yet encountered a configuration that required more than 21 moves.  A short
+description follows:
+
+Basicly the program consists of two stages, based on the groups:
+G0:	[U,D,R,L,F,B]
+G1:	[U,D,R^2,L^2,F^2,B^2]
+G2:	I
+The stages are from G0 to G1 and next from G1 to G2.  Note that the first
+stage is the combination of the first two stages of Thistlethwaite, and
+the last stages combine his last two stages.
+
+His first stage can loosely be described as working in a three dimensional
+coordinate system where the coordinates are resp. twist, flip and permutation.
+He searches his way until the coordinate [0,0,0] is reached.  Most important
+here is that he is able to find multiple ways.  The second stage is similar,
+although he is not very clear here.
+
+He uses lookup tables, but does not tell us how large his lookup tables
+are.  But his program runs on 1 MByte Atari ST.  The heart is coded in
+a few lines of 68k assembly, the remainder in GFA Basic.  As far as I
+know GFA Basic it can be interpreted, but also compiled.  He does also
+use tree pruning.
+
+What he does is find successive solutions in stage 1 and fit solutions
+from stage 2.  Letting the system run longer generally finds shorter
+solutions.
+
+His claims are on average less than 14 turns in stage 1, on average less
+than 10 turns in stage 2.  But according to his article this is not completely
+deterministic, so there is no proven upperbound.  Perhaps a proof can be
+found; I do not know.  In practice he finds an upperbound of 21 moves, which
+is indeed far better than other algorithms do obtain.
+
+To take this in perspective here Thistlethwaites results from Singmaster's book:
+Stage		1	2	3	4
+Proven		7	13	15	17
+Anticipated	7	12	14?	17
+Best Possible	7	10?	13?	15?
+(Are there configurations that require the maxima proven for Thistlethwaites
+algorithm?)
+
+Apparently the combination of stages largely reduces the number of turns
+required.
+
+In CFF 25 there was an article by Hans Kloosterman which did already improve
+on the number of moves.  His stages 1 and 2 are identical to Thistlethwaites,
+he has a third stage that combines the 3rd and 4th stages of Thistlethwaite.
+He reports a proven maximum for his three stages of 7, 10 and 25 moves, so
+slightly better than Thistlethwaites conjectured best figures.
+
+Kociemba's algorithm appears however to be a big leap forward, although there
+are no proofs yet.  One example:
+
+In 1981 Christoph Bandelow wrote a book where he offered a prize for the
+shortest sequence of moves that would flip every edge cuby and twists
+every corner cuby.  The deadline was September 1, 1982; at that time the
+prize was offered for a 23 move manoeuvre.  As Christoph writes:
+	All solutions presented after the main deadline and shorter than
+	all solutions submitted before were also proised a prize.  Using
+	his very ingeneous new search program Herbert Kociemba, Darmstadt,
+	Germany now found:
+		DF^2U'(B^2R^2)^2LB'D'FD^2FB^2UF'LRU^2F'
+	for 20 moves.
+Kociemba himself writes about this:
+	Our first solution had 12 moves in stage 1 and 14 moves in stage 2.
+	In progress solutions 12+13, 12+12 and 12+11 were found.  However,
+	as soon as we introduced manoeuvres of 13 moves in stage 1, we found
+	successively 9, 8 and at last 7 moves for stage 2.  The program was
+	stopped after treating about 3000 solutions.
+He further states that the first solution in general takes 95 seconds, but
+successive solutions take much shorter, and in general he finds one of less
+than 22 moves in a few hours on his 8 MHz Atari.
+
+What is clear is that one does not need the minimal solution in one stage
+to get the minimal overall total.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+
+From reid@math.berkeley.edu  Mon May  4 23:38:05 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA16784; Mon, 4 May 92 23:38:05 EDT
+Received: from phnom-penh.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA06009; Mon, 4 May 92 20:37:54 PDT
+Date: Mon, 4 May 92 20:37:54 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205050337.AA06009@math.berkeley.edu>
+To: Dik.Winter@cwi.nl, cube-lovers@life.ai.mit.edu
+Subject: Re:  Are we approaching God's algorithm?
+Cc: dseal@armltd.co.uk
+
+<dik@cwi.nl> writes:
+> Because it might interest the readers and to be ahead of Peter Beck:
+> Saturday I received CFF (Cubism For Fun) # 28.
+> It has an interesting article by Herbert Kociemba from Darmstadt, who
+> describes his program to solve Rubik's Cube.  He states that he has not
+> yet encountered a configuration that required more than 21 moves.  A short
+> description follows:
+
+it would be nice to know how many patterns he has tested.
+
+> Basicly the program consists of two stages, based on the groups:
+> G0:	[U,D,R,L,F,B]
+> G1:	[U,D,R^2,L^2,F^2,B^2]
+> G2:	I
+> The stages are from G0 to G1 and next from G1 to G2.  Note that the first
+> stage is the combination of the first two stages of Thistlethwaite, and
+> the last stages combine his last two stages.
+>
+> His first stage can loosely be described as working in a three dimensional
+> coordinate system where the coordinates are resp. twist, flip and permutation.
+> He searches his way until the coordinate [0,0,0] is reached.  Most important
+> here is that he is able to find multiple ways.  The second stage is similar,
+> although he is not very clear here.
+>
+> He uses lookup tables, but does not tell us how large his lookup tables
+> are.  But his program runs on 1 MByte Atari ST.  The heart is coded in
+> a few lines of 68k assembly, the remainder in GFA Basic.  As far as I
+> know GFA Basic it can be interpreted, but also compiled.  He does also
+> use tree pruning.
+
+does he describe his method of "tree pruning"?  this would seem to
+be the "intelligent" part of the program, i.e. recognizing when to
+abandon a given approach.  if anyone has any insight on the tree
+pruning, please let me know.
+
+> What he does is find successive solutions in stage 1 and fit solutions
+> from stage 2.  Letting the system run longer generally finds shorter
+> solutions.
+>
+> His claims are on average less than 14 turns in stage 1, on average less
+> than 10 turns in stage 2.  But according to his article this is not completely
+> deterministic, so there is no proven upperbound.  Perhaps a proof can be
+> found; I do not know.  In practice he finds an upperbound of 21 moves, which
+> is indeed far better than other algorithms do obtain.
+
+it's not likely that this will lead to a proof of an effective upper
+bound.  perhaps he can shave a few moves off the 42 obtained by
+kloosterman, but i wouldn't expect him to prove an upper bound
+anywhere near 21.  probably the best bet for this would be to
+exhaustively calculate the diameter of the group  G_1  (with the
+given generators) and the diameter of the coset space  G_0 / G_1.
+their respective sizes are:  19508428800  and  2217093120,  both of
+which are out of my league.
+
+i'm not belittling kociemba's program; it's a very impressive feat!
+
+> To take this in perspective here Thistlethwaites results from Singmaster's book:
+> Stage		1	2	3	4
+> Proven		7	13	15	17
+> Anticipated	7	12	14?	17
+> Best Possible	7	10?	13?	15?
+> (Are there configurations that require the maxima proven for Thistlethwaites
+> algorithm?)
+
+now look what happens when people use TABs!  :-}  (the "Proven" line
+should be shifted to the left.)
+
+i believe that the diameters of the respective coset spaces are exactly
+those numbers listed in the "Best Possible" line.  can anyone confirm
+this?  i've finally written a few programs, and those are the diameters
+i get.  i'm surprised that thistlethwaite didn't just do an exhaustive
+search on these coset spaces.  perhaps it's just a matter of not having
+the technology when he did his work (~12 years ago).
+
+> Kociemba's algorithm appears however to be a big leap forward, although there
+> are no proofs yet.  One example:
+>
+> In 1981 Christoph Bandelow wrote a book where he offered a prize for the
+> shortest sequence of moves that would flip every edge cuby and twists
+> every corner cuby.  The deadline was September 1, 1982; at that time the
+> prize was offered for a 23 move manoeuvre.  As Christoph writes:
+> 	All solutions presented after the main deadline and shorter than
+> 	all solutions submitted before were also proised a prize.  Using
+> 	his very ingeneous new search program Herbert Kociemba, Darmstadt,
+> 	Germany now found:
+> 		DF^2U'(B^2R^2)^2LB'D'FD^2FB^2UF'LRU^2F'
+> 	for 20 moves.
+
+very nice.  now how about "superflip," and also "supertwist?"  these
+are also reasonable candidates for antipodes of "START."  i know the
+following manuever for "supertwist" (22 face / 30 quarter turns):
+U F' U' (L R2 F2 B')^4  U F U'
+(obtained by conjugating a manuever singmaster attributes to thistlethwaite)
+
+> Kociemba himself writes about this:
+> 	Our first solution had 12 moves in stage 1 and 14 moves in stage 2.
+> 	In progress solutions 12+13, 12+12 and 12+11 were found.  However,
+> 	as soon as we introduced manoeuvres of 13 moves in stage 1, we found
+> 	successively 9, 8 and at last 7 moves for stage 2.  The program was
+> 	stopped after treating about 3000 solutions.
+> He further states that the first solution in general takes 95 seconds, but
+> successive solutions take much shorter, and in general he finds one of less
+> than 22 moves in a few hours on his 8 MHz Atari.
+
+it would also be nice to know how long this first solution usually is.
+
+from the figures i have (111207592 "different" sequences of 7 or fewer
+twists and 167024 "different" sequences of 6 or fewer twists WITHIN G_1)
+it's clear that exhaustive search is too cumbersome.  thus i reiterate
+both my statement that the "tree pruning" algorithm is the essential
+part of this program, and my desire to know more about it (i.e. for
+implementation purposes.)
+
+> dik
+> --
+> dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+> dik@cwi.nl
+
+thanks for the info!
+
+mike             reid@math.berkeley.edu
+
+From dik@cwi.nl  Tue May  5 03:58:28 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA19673; Tue, 5 May 92 03:58:28 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA01995 (5.65b/2.10/CWI-Amsterdam); Tue, 5 May 1992 09:57:54 +0200
+Received: by boring.cwi.nl 
+	id AA01813 (5.65b/2.10/CWI-Amsterdam); Tue, 5 May 1992 09:57:53 +0200
+Date: Tue, 5 May 1992 09:57:53 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205050757.AA01813.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu, reid@math.berkeley.edu
+Subject: Re:  Are we approaching God's algorithm?
+Cc: dseal@armltd.co.uk
+
+ > > It has an interesting article by Herbert Kociemba from Darmstadt, who
+ > > describes his program to solve Rubik's Cube.  He states that he has not
+ > > yet encountered a configuration that required more than 21 moves.  A short
+ > > description follows:
+
+ > it would be nice to know how many patterns he has tested.
+
+He does not say how many, but his article gives nine patterns that have been
+published earlier in CFF for which he finds shorter answers.  Also more are
+promised for future issues.
+
+ > > His first stage can loosely be described as working in a three dimensional
+ > > coordinate system where the coordinates are resp. twist, flip and permutation.
+ > > He searches his way until the coordinate [0,0,0] is reached.
+...
+ > >                                                           He does also
+ > > use tree pruning.
+
+ > does he describe his method of "tree pruning"?  this would seem to
+ > be the "intelligent" part of the program, i.e. recognizing when to
+ > abandon a given approach.  if anyone has any insight on the tree
+ > pruning, please let me know.
+
+I can give some information.  What he does do is calculate in advance through
+the three axis of his space the minimal number of moves needed to get at
+[0,0,0].  This is used for tree pruning.  It obviously will not prune
+everything (e.g. if you are at point [x,y,z] it may very well be that [x,?,?]
+for other points requires less moves, and similar across the y and z
+direction), but he tells that his pruning is very effective.  I do not know
+how he prunes in the second case, because he does not completely describes
+the coordinates of his second space, but I presume pruning is done in a
+similar way.
+
+ > it's not likely that this will lead to a proof of an effective upper
+ > bound.  perhaps he can shave a few moves off the 42 obtained by
+ > kloosterman, but i wouldn't expect him to prove an upper bound
+ > anywhere near 21.
+I think so too.  Moreover, it is difficult to take in account what he
+found, namely that a minimal solution in the first stage does not guarantee
+a minimal overall solution.
+
+ > i believe that the diameters of the respective coset spaces are exactly
+ > those numbers listed in the "Best Possible" line.  can anyone confirm
+ > this?  i've finally written a few programs, and those are the diameters
+ > i get.  i'm surprised that thistlethwaite didn't just do an exhaustive
+ > search on these coset spaces.  perhaps it's just a matter of not having
+ > the technology when he did his work (~12 years ago).
+Well, apparently Thistlethwaite did not know that those were the diameters,
+otherwise I have no explanation for the question marks as they appear in
+Singmaster.
+
+ >             now how about "superflip," and also "supertwist?"
+I will try to contact him to see what he has to say about those.
+
+
+From reid@math.berkeley.edu  Fri May  8 17:58:59 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA26323; Fri, 8 May 92 17:58:59 EDT
+Received: from digel.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA21236; Fri, 8 May 92 14:58:49 PDT
+Date: Fri, 8 May 92 14:58:49 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205082158.AA21236@math.berkeley.edu>
+To: Dik.Winter@cwi.nl, cube-lovers@life.ai.mit.edu
+Subject: Re:  Are we approaching God's algorithm?
+Cc: dseal@armltd.co.uk
+
+>  >             now how about "superflip," and also "supertwist?"
+> I will try to contact him to see what he has to say about those.
+
+of course, these aren't exactly the patterns to test.  apply your
+favorite quarter turn to either of these patterns, and you're
+one move closer to START.
+
+how do i know that we're one move closer to start?  the patterns
+"superflip," "supertwist" and "superfliptwist" each have the
+following three properties:
+
+1. the group of symmetries of the pattern acts transitively on the
+   set of "oriented" faces of the cube.
+2. the pattern commutes with the square of each face turn.
+3. the pattern is NOT in the subgroup generated by the squares of
+   face turns.
+
+now suppose that a pattern with the above properties requires
+N  face turns to return to START.  let  A B C  be a minimal sequence
+of face turns to solve this pattern, where  A, B,  and  C  are
+subsequences such that:  A  consists only of squares of face turns,
+B  is a quarter turn of some face and  C  is the rest of the sequence.
+we can dissect the sequence into these three parts from hypothesis 3.
+from hypothesis 2, the sequences  A B C  and  B C A  have the same
+effect.  finally, from hypothesis 1, the quarter twist  B  may as well
+be our favorite quarter twist.
+
+see the hoey-saxe message on "symmetry and local maxima," for a good
+discussion of this idea.  (in the archives, cube-mail-1, 14 dec 1980)
+
+my apologies if this is obvious to everyone.
+
+on the other hand, the kociemba algorithm isn't completely symmetric.
+thus it may be wise for him to test 2 patterns: "super----" followed
+by  U,  and "super----" followed by  R.  the tradeoff is testing 2
+patterns for being 1 move closer.  i'd say this is probably a good trade.
+
+now to correct something misleading i posted earlier:
+
+) i believe that the diameters of the respective coset spaces are exactly
+) those numbers listed in the "Best Possible" line.  can anyone confirm
+) this?  i've finally written a few programs, and those are the diameters
+) i get.  i'm surprised that thistlethwaite didn't just do an exhaustive
+) search on these coset spaces.  perhaps it's just a matter of not having
+) the technology when he did his work (~12 years ago).
+
+oops!  i don't mean to say "diameter" here!  these are coset spaces, so
+there's no reason to suppose that (the group of automorphisms of the)
+graph is vertex transitive.  what my programs calculated was the maximal
+distance from the identity coset in each of these spaces.  (i am told
+that the graph theory term is the "eccentricity" of the given vertex.)
+
+mike
+
+From dik@cwi.nl  Sat May  9 20:43:35 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA27274; Sat, 9 May 92 20:43:35 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA15515 (5.65b/2.10/CWI-Amsterdam); Sun, 10 May 1992 02:43:33 +0200
+Received: by boring.cwi.nl 
+	id AA00802 (5.65b/2.10/CWI-Amsterdam); Sun, 10 May 1992 02:43:31 +0200
+Date: Sun, 10 May 1992 02:43:31 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205100043.AA00802.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: More on the Cube (2x2x2 in this case).
+
+Singmaster states that the diameter of the group for the 2x2x2 cube is not
+known.  I do not know whether it has been calculated in the mean time, so
+I just did calculate it.  The number of elements in the group is
+3,674,160.  (Fix one corner, the others allow every permutation and one
+third of all possible twists.)  The diameter is 11 if we do allow half-turns,
+it is 14 if we do not allow half-turns.  The distribution is:
+If we allow half-turns:
+         1 with  0 moves
+         9 with  1 moves
+        54 with  2 moves
+       321 with  3 moves
+      1847 with  4 moves
+      9992 with  5 moves
+     50136 with  6 moves
+    227536 with  7 moves
+    870072 with  8 moves
+   1887748 with  9 moves
+    623800 with 10 moves
+      2644 with 11 moves
+If we do not allow half-turns:
+         1 with  0 moves
+         6 with  1 moves
+        27 with  2 moves
+       120 with  3 moves
+       534 with  4 moves
+      2256 with  5 moves
+      8969 with  6 moves
+     33058 with  7 moves
+    114149 with  8 moves
+    360508 with  9 moves
+    930588 with 10 moves
+   1350852 with 11 moves
+    782536 with 12 moves
+     90280 with 13 moves
+       276 with 14 moves
+In the first case heuristics give a diameter of at least 9.  We see that the
+majority of the configuration is within distance 9 from start.  So it appears
+that heuristics get close to the real value.
+We see also that in both cases there is more than one diametrally opposite
+configuration.  Next I will find out which those are (and if they have
+something in common).
+
+BTW, calculation did not take very long, only a few (<3) minutes on an FPS
+(i.e.  an extremely fast SPARC).  But as the calculations are memory bound
+rather than compute bound, the speed of the processor is not so very important.
+
+From reid@math.berkeley.edu  Mon May 11 20:31:30 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA17723; Mon, 11 May 92 20:31:30 EDT
+Received: from jacobi.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA22739; Mon, 11 May 92 17:31:10 PDT
+Date: Mon, 11 May 92 17:31:10 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205120031.AA22739@math.berkeley.edu>
+To: Dik.Winter@cwi.nl, cube-lovers@life.ai.mit.edu
+Subject: Re:  More on the Cube (2x2x2 in this case).
+
+> Singmaster states that the diameter of the group for the 2x2x2 cube is not
+> known.
+
+in his "cubic circular," issue(s) 5/6 (pages 26, 27) he gives some info
+about this, although it is (at least) third hand information, and therefore
+not necessarily reliable.
+
+> I just did calculate it.
+  ...
+> If we allow half-turns:
+>          1 with  0 moves
+>          9 with  1 moves
+>         54 with  2 moves
+>        321 with  3 moves
+>       1847 with  4 moves
+>       9992 with  5 moves
+>      50136 with  6 moves
+>     227536 with  7 moves
+>     870072 with  8 moves
+>    1887748 with  9 moves
+>     623800 with 10 moves
+>       2644 with 11 moves
+
+he gives the same figures, so they are probably correct.
+
+> If we do not allow half-turns:
+>          1 with  0 moves
+>          6 with  1 moves
+>         27 with  2 moves
+>        120 with  3 moves
+>        534 with  4 moves
+>       2256 with  5 moves
+>       8969 with  6 moves
+>      33058 with  7 moves
+>     114149 with  8 moves
+>     360508 with  9 moves
+>     930588 with 10 moves
+>    1350852 with 11 moves
+>     782536 with 12 moves
+>      90280 with 13 moves
+>        276 with 14 moves
+
+he does not give these, but he does mention that the diameter is 14.
+
+> BTW, calculation did not take very long, only a few (<3) minutes on an FPS
+
+singmaster says that the calculation took "over 51 hours of computer time"!
+ouch!  this was 10 years ago, though.  (what's 51 hours / 3 minutes ?)
+
+the "unix news item" from which singmaster apparently got his info was
+included in a cube-lovers message.  it's in the archives, cube-mail-3,
+sept 15, 1981 in a message from "ISAACS at SRI-KL".
+
+dik's results show that the corners of the 3x3x3 can be "solved" (i.e.
+positioned correctly with respect to one another) in 11 face (respectively
+14 quarter) turns.  it would be nice to know if they can be solved with
+respect to the centers within 11 face (respectively 14 quarter) turns.
+this seems likely.
+
+mike
+
+From hoey@aic.nrl.navy.mil  Tue May 12 11:03:38 1992
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA05297; Tue, 12 May 92 11:03:38 EDT
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA04073; Tue, 12 May 92 11:03:34 EDT
+Date: Tue, 12 May 92 11:03:34 EDT
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9205121503.AA04073@Sun0.AIC.NRL.Navy.Mil>
+To: Cube-Lovers@life.ai.mit.edu
+Cc: Dik.Winter@cwi.nl, reid@math.berkeley.edu (michael reid)
+Subject: Diameter of the 2^3 cube and the 3^3 corners
+
+I sent the results of a quarter-turn analysis of these puzzles to
+Cube-Lovers in several messages during August, 1984.  I modified a
+program written by Karl Dahlke to get these results.  I counted both
+positions and local maxima at every distance up to the diameter of 14
+quarter-turns.  In case you don't have the archives handy, here are
+the results:
+
+  Quarter        2^3 Puzzle           Corners of 3^3 Puzzle
+   Turns   Positions  Local Maxima   Positions  Local Maxima
+____________________________________________________________
+     0            1        0                1           0
+     1            6        0               12           0
+_____2___________27________0______________114___________0___
+     3          120        0              924           0
+     4          534        0             6539           0
+_____5_________2256________0____________39528___________0___
+     6         8969        0           199926         114
+     7        33058       16           806136         600
+_____8_______114149_______53__________2761740_______17916___
+     9       360508      260          8656152       10200
+    10       930588     1460         22334112       35040
+____11______1350852____34088_________32420448______818112___
+    12       782536   402260         18780864     9654240
+    13        90280    88636          2166720     2127264
+____14__________276______276_____________6624________6624___
+
+The first column agrees with Dik Winter's findings.  As Michael Reid
+surmised, the diameters of the two groups are the same.
+
+My hazy recollection is that the 2^3 program ran for a few minutes on
+a Vax 750, while the corners program took a couple of hours.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+From dik@cwi.nl  Tue May 12 17:47:25 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA21137; Tue, 12 May 92 17:47:25 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA19167 (5.65b/2.10/CWI-Amsterdam); Tue, 12 May 1992 23:46:12 +0200
+Received: by boring.cwi.nl 
+	id AA06553 (5.65b/2.10/CWI-Amsterdam); Tue, 12 May 1992 23:46:11 +0200
+Date: Tue, 12 May 1992 23:46:11 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205122146.AA06553.dik@boring.cwi.nl>
+To: Cube-Lovers@life.ai.mit.edu, hoey@aic.nrl.navy.mil
+Subject: Re:  Diameter of the 2^3 cube and the 3^3 corners
+Cc: reid@math.berkeley.edu
+
+ > I sent the results of a quarter-turn analysis of these puzzles to
+ > Cube-Lovers in several messages during August, 1984.
+I must have somewhere a printed stack of cube-lovers mailings, but I never
+came around to read them all.  Also, my reference to Singmaster was his
+notes.  The latest page of the latest printing states that the 2x2x2 case
+was still unsolved, I never have seen his additional notes.
+
+ >                                                       I counted both
+ > positions and local maxima at every distance up to the diameter of 14
+ > quarter-turns.
+After Mike Reid's question I modified my program to do the counting on the
+corners of the 3^3.  The biggest change was that it is now able to handle
+that case in memory on this 32 MByte machine.  I did not count local maxima
+(although that could be done).  The quarter turn case is identical to Dan
+Hoey's results.  If we count half turns as a single move I get the following
+results:
+         1 with  0 moves
+        18 with  1 moves
+       243 with  2 moves
+      2874 with  3 moves
+     28000 with  4 moves
+    205416 with  5 moves
+   1168516 with  6 moves
+   5402628 with  7 moves
+  20776176 with  8 moves
+  45391616 with  9 moves
+  15139616 with 10 moves
+     64736 with 11 moves
+
+ > The first column agrees with Dik Winter's findings.  As Michael Reid
+ > surmised, the diameters of the two groups are the same.
+Also here the diameter is the same.
+
+ > My hazy recollection is that the 2^3 program ran for a few minutes on
+ > a Vax 750, while the corners program took a couple of hours.
+My calculation took slightly less than half an hour.  The differences in
+timings we see are (I think) mostly due to memory constraints on older
+machines.  So we see a difference between Memory bound and I/O bound.
+I could go to disk for storage of (intermediate) results, but even than the
+edges can not be handled.  (980*10^9 configurations so my program would
+require 245 GBytes of storage.  I think methods can be found to reduce this by
+a factor of 30-40, but it is still much too large to handle, and in that case
+you probably get the diameter only.)
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+
+From dik@cwi.nl  Thu May 14 19:44:27 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA00837; Thu, 14 May 92 19:44:27 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA08254 (5.65b/2.10/CWI-Amsterdam); Fri, 15 May 1992 01:44:25 +0200
+Received: by boring.cwi.nl 
+	id AA13499 (5.65b/2.10/CWI-Amsterdam); Fri, 15 May 1992 01:44:24 +0200
+Date: Fri, 15 May 1992 01:44:24 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205142344.AA13499.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Kociemba's algorithm
+
+I am now trying to implement Kociemba's algorithm.  The initialization parts
+are done.  To recap, it is a two stage algorithm.  The first stage tries to
+get to the subgroup generated by [R^2,L^2,F^2,B^2,U,D], the second stages
+comes back to start.
+
+The first stage uses a three dimensional coordinate system: twistyness,
+flippancy and choosyness (where are the 4 middle slice edge cubies?).
+The second stage uses (I think) also a three dimensional coordinate system,
+all permutations: corner cubies, edge cubies not on the middle slice, slice
+cubies.  I found the maximal distance along each coordinate as follows:
+
+stage 1:
+twistyness:	6
+flippancy:	7
+choosyness:	4
+This seems not in contradiction with his 10 moves or less on average.
+
+stage 2:
+corners:	13
+edges:		8
+slice edges:	4
+I think this contradicts his 14 moves or less, there are configurations
+that require at least 13 moves to get the corners correct.  I would be
+surprised if only one more move is needed to get everything correct.
+
+*But* some of his best moves use a sub-optimal solution for stage 1!
+Now if that could be quantified...
+
+Next step is implementing the searching algorithms.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+
+From dik@cwi.nl  Sat May 16 21:14:18 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA03345; Sat, 16 May 92 21:14:18 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA14373 (5.65b/2.10/CWI-Amsterdam); Sun, 17 May 1992 03:14:15 +0200
+Received: by boring.cwi.nl 
+	id AA20529 (5.65b/2.10/CWI-Amsterdam); Sun, 17 May 1992 03:14:14 +0200
+Date: Sun, 17 May 1992 03:14:14 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205170114.AA20529.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Kociemba's algorithm
+
+I have implemented it based on his description.  I am not yet completely
+satisfied, but can give some results.  Both are the best I found after a
+run of about 30 minutes.  (The numbers are first the number of moves to
+get at [F^2,R^2,B^2,L^2,U,D], second the numbr of moves to complete.)
+
+Superflip:
+(11+10=21): F B R U^2 B^2 U' D' R^2 B' R L U F^2 L^2 D^2 B^2 D' F^2 D L^2 D
+
+Supertwist:
+(7+9=16): F R^2 L^2 U^2 D^2 F^2 B' R^2 U F^2 B^2 R^2 L^2 U^2 D' L^2
+
+So clearly the supertwist is not even close to the opposite of start!
+
+Currently the program needs still a bit of hand-tuning.  I am looking how
+I can improve that.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+
+From dik@cwi.nl  Sun May 17 18:49:53 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA17456; Sun, 17 May 92 18:49:53 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA29764 (5.65b/2.10/CWI-Amsterdam); Mon, 18 May 1992 00:49:49 +0200
+Received: by boring.cwi.nl 
+	id AA22984 (5.65b/2.10/CWI-Amsterdam); Mon, 18 May 1992 00:49:48 +0200
+Date: Mon, 18 May 1992 00:49:48 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205172249.AA22984.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Kociemba's algorithm
+
+I have made my program a bit faster.  While previously the best I found for
+superflip was a 21 move solution (even after 10 hours computation time,
+actually the solution was found after about 30 minutes), I have now a 20
+move solution, found after only 15 minutes:
+
+Superflip:
+(13+7=20): F B U^2 R F^2 R^2 B^2 U' D F U^2 R' L' U B^2 D R^2 U B^2 U
+
+Some more information.  First a short recap.  Phase1 brings the cube in
+the group generated by [F^2,R^2,B^2,L^2,U,D], phase2 brings him back
+to start.  Phase 1 searches in the space generated by the three (orthogonal)
+coordinates:
+Twist (2187 entries), flip (2048 entries) and slice-edge-cube placing (495
+entries).
+Phase 2 searches in the space generated by the three (non-orthogonal)
+coordinates:
+Permutations of corner cubes (40320 entries), permutations of edge cubes
+not in the middle slice (40320 entries) and permutations of the middle
+slice edge cubes (24 entries).
+
+While Kociemba originally did tree pruning based on the minimal number of
+moves needed along single coordinates, I now use pairs of coordinates
+(except that in phase 2 the 40320*40320 pair is not used of course).
+This is part of the speed-up.  (Another part is that I do now disallow
+successive moves of a single face, three or more consecutive moves of
+opposite faces, and a move of an opposite face if the current face moved
+is B, L or D.)
+
+Program details: the program starts with phase1 allowing for succesively
+1, 2 etc. until a maximal number of moves.  As soon as phase1 hits a
+solution phase2 is called, again with a maximum number of moves starting
+at 1.  This means that if the program runs long enough it will ultimately
+find the shortest solutions (phase 1 might just solve it!).  But that wil
+take a long time (of course).  For the superflip, the program has now
+checked all phase1 solutions of upto 12 moves and is busy with 13.  It
+found 792256 solutions of 12 moves (and that in less than 10 minutes)!
+
+Some additional data about minimal paths along coordinates:
+Phase 1:
+twist:		6
+flip:		7
+choice:		5
+twist+flip:	9
+twist+choice:	9
+flip+choice:	9
+
+Phase 2:
+corners:	13
+edges:		8
+slice edges:	4
+corners+slice:	14
+edges+slice:	12
+
+Based on this I expect a maximal distance in phase 1 of about 10/11, and
+in phase 2 of about 16/17.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+
+From dik@cwi.nl  Sun May 17 21:03:44 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA19309; Sun, 17 May 92 21:03:44 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA06061 (5.65b/2.10/CWI-Amsterdam); Mon, 18 May 1992 03:03:35 +0200
+Received: by boring.cwi.nl 
+	id AA23353 (5.65b/2.10/CWI-Amsterdam); Mon, 18 May 1992 03:03:34 +0200
+Date: Mon, 18 May 1992 03:03:34 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205180103.AA23353.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu, keng@zcar.asd.sgi.com
+Subject: My program is too fast ;-).
+
+I have posted a bit on my version of Kociemba's program, and I can only
+conclude that my program is too fast.  After doing the superfliptwist,
+the superflip and the supertwist I thought about trying those configurations
+where Singmaster's notes did not give a solution better than 21 moves.
+I find now that it takes more time to enter the configurations than what
+the program needs to solve it!  Upto now I found the following (I will not
+give the exact moves, as I think Kociemba wants to publish a bit more about
+this):
+superflip:	20 moves
+supertwist:	16 moves
+superfliptwist:	20 moves
+Walker's 6+:	17 moves (was 22)
+Walker's 6X:	19 moves (was 25)
+Walker's worm:	14 moves (was 23)
+
+Initialization time for the program is 2.5 minutes.  But it finds solutions
+after only a few seconds!  If you have a configuration that you think is at
+a large distance from start, mail it and I will disprove it ;-).
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+
+From reid@math.berkeley.edu  Sun May 17 22:10:48 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA20296; Sun, 17 May 92 22:10:48 EDT
+Received: from phnom-penh.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA08289; Sun, 17 May 92 19:10:33 PDT
+Date: Sun, 17 May 92 19:10:33 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205180210.AA08289@math.berkeley.edu>
+To: Dik.Winter@cwi.nl, cube-lovers@life.ai.mit.edu, keng@zcar.asd.sgi.com
+Subject: Re:  My program is too fast ;-).
+
+stop it, you're killing me!  i also have the same idea for combining
+the "coordinates" in pairs, but i'm not getting too far implementing
+it.  :-(  i wouldn't suggest using singmaster's notes for pattern
+maneuvers.  have you seen bandelow's book?  it has very short
+maneuvers for most patterns, including two different ones for
+"walker's worm" in 14 turns (assuming i've got the right pattern in
+mind).  bandelow counts "slice turns" as one move, though, so
+his maneuver for 6X (order 3) is 24 face turns.
+
+what amazes me about this whole business is that the algorithm
+finds very short moves when they exist.  i would have expected
+the program to produce maneuvers of approximately the same
+length for all patterns.  i would say that this is a major step
+forward.
+
+you'll probably be swamped with patterns to test, but here's a
+couple:
+
+stripes: (18) F3 U1 F2 U3 R1 B2 R3 U1 F2 L2 U3 L1 B2 L3 U1 L2 U3 F1.
+
+python: (15) R1 U3 F3 B1 L1 F2 L3 F1 B3 U3 R3 L1 F2 U2 L3.
+
+since i found these by hand, i'm curious to see how close they
+are to optimal.  hopefully i'll have my program running soon.
+
+mike
+
+From reid@math.berkeley.edu  Mon May 18 09:02:04 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA29031; Mon, 18 May 92 09:02:04 EDT
+Received: from jacobi.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA10968; Mon, 18 May 92 06:02:02 PDT
+Date: Mon, 18 May 92 06:02:02 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205181302.AA10968@math.berkeley.edu>
+To: cube-lovers@ai.mit.edu
+Subject: kociemba's algorithm
+
+after a long struggle, it appears that i finally have kociemba's
+algorithm working properly, with the improvement that dik mentioned.
+the first pattern i tested was "anaconda" (bandelow's terminology),
+which dik called "walker's worm" (singmaster's terminology?).
+(i think that's the same pattern.)  within 10 minutes, most of which
+was initializing tables, the program produced the following 14 quarter
+turn maneuver, which is better (in the quarter turn metric) than the two
+maneuvers bandelow gives in his book.  here it is:
+
+anaconda: (14 qt) B1 R1 D3 R3 F1 B3 D1 F3 U1 D3 L1 F1 L3 U3.
+
+more results as they come in.  my program isn't quite finished yet;
+hopefully i won't screw it up attempting to improve it.
+
+mike
+
+From dik@cwi.nl  Mon May 18 19:17:44 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA20636; Mon, 18 May 92 19:17:44 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA17210 (5.65b/2.10/CWI-Amsterdam); Tue, 19 May 1992 01:17:41 +0200
+Received: by boring.cwi.nl 
+	id AA25710 (5.65b/2.10/CWI-Amsterdam); Tue, 19 May 1992 01:17:40 +0200
+Date: Tue, 19 May 1992 01:17:40 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205182317.AA25710.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu, reid@math.berkely.edu
+Subject: Re:  My program is too fast ;-).
+
+ > stop it, you're killing me!
+Stop yourself ;-).
+ >           i wouldn't suggest using singmaster's notes for pattern
+ > maneuvers.  have you seen bandelow's book?  it has very short
+ > maneuvers for most patterns, including two different ones for
+ > "walker's worm" in 14 turns (assuming i've got the right pattern in
+ > mind).  bandelow counts "slice turns" as one move, though, so
+ > his maneuver for 6X (order 3) is 24 face turns.
+Leider haben wir nur die Deutschen Ausgabe.  There are apparently
+differences between the German and the English edition.  The English
+edition is later and has probably improved sequences (he has promised
+also improved sequences for the second German edition, but I do not
+think it ever came out).
+
+ > what amazes me about this whole business is that the algorithm
+ > finds very short moves when they exist.  i would have expected
+ > the program to produce maneuvers of approximately the same
+ > length for all patterns.  i would say that this is a major step
+ > forward.
+The point is that my program deliberately tries short sequences first in
+both phases.  This is at the expense of more work when longer sequences
+are tried (because you will find the shorter sequences again that you
+abort).  The main advantage is that if you find an overall short sequence
+you have much less work to do in the second phase, and can much faster
+abort your searches.  Here some information about the searching for
+superflip (the numbers are for phase 1):
+	Length	Number found	Solutions found
+	   8	      0		-
+	   9	      0		-
+	  10	   3072		10+13, 10+12
+	  11	  61568		11+10
+	  12	 792256		-
+	  13	8695488		13+ 7
+As you see when having the large number of solutions for length 13 in phase 1
+we have only to look at most 7 moves deep in phase 2, and 6 deep as soon as
+we found the solution (which occurs reasonably fast).  That is why it is
+possible to do all that work in about 45 minutes.  (For der Mouse, the machine
+is an FPS.  A SPARC processor twice as fast as a SPARCStation ELC.  But I
+think the program is bounded by memory access time.  The program requires
+about 12 MB memory.)  Now I think the longest distance in phase 1 is about 11
+or 12 (it is at least 11, that is sure).  So in general you will find a
+solution already when there is no need yet to do very much.
+
+ > you'll probably be swamped with patterns to test, but here's a
+ > couple:
+ > stripes: (18) F3 U1 F2 U3 R1 B2 R3 U1 F2 L2 U3 L1 B2 L3 U1 L2 U3 F1.
+ > python: (15) R1 U3 F3 B1 L1 F2 L3 F1 B3 U3 R3 L1 F2 U2 L3.
+I could not improve the first but what do you think of:
+(12+ 2=14): U2 B3 D3 L1 F1 B3 U3 F1 U3 D1 R3 B1 D1 F2
+
+ > since i found these by hand, i'm curious to see how close they
+ > are to optimal.  hopefully i'll have my program running soon.
+14 for python is probably optimal.  But you can try as you have your program
+running.
+
+From Don.Woods@eng.sun.com  Mon May 18 19:27:15 1992
+Return-Path: <Don.Woods@eng.sun.com>
+Received: from Sun.COM by life.ai.mit.edu (4.1/AI-4.10) id AA20962; Mon, 18 May 92 19:27:15 EDT
+Received: from Eng.Sun.COM (zigzag-bb.Corp.Sun.COM) by Sun.COM (4.1/SMI-4.1)
+	id AA03799; Mon, 18 May 92 16:27:08 PDT
+Received: from colossal.Eng.Sun.COM by Eng.Sun.COM (4.1/SMI-4.1)
+	id AA20177; Mon, 18 May 92 16:27:12 PDT
+Received: by colossal.Eng.Sun.COM (4.1/SMI-4.1)
+	id AA04124; Mon, 18 May 92 16:27:34 PDT
+Date: Mon, 18 May 92 16:27:34 PDT
+From: Don.Woods@eng.sun.com (Don Woods)
+Message-Id: <9205182327.AA04124@colossal.Eng.Sun.COM>
+To: Dik.Winter@cwi.nl
+Subject: Re: Kociemba's algorithm
+Cc: cube-lovers@life.ai.mit.edu
+
+> Program details: the program starts with phase1 allowing for succesively
+> 1, 2 etc. until a maximal number of moves.  As soon as phase1 hits a
+> solution phase2 is called, again with a maximum number of moves starting
+> at 1.
+
+I don't remember from the earlier description; are the searches being done
+depth-first or breadth-first?  If breadth-first, then there is no reason to
+put an upper limit on the number of moves for finding a phase1 solution,
+since the algorithm HAS to solve phase1 in order to find an overall solution.
+
+Once you have an overall solution, of course, the length of phase1+phase2
+solution can be used as an upper bound on subsequent phase1 solutions.
+
+Also, do you reduce the "maximum number of moves" for phase2 based on
+solutions already found?  For instance, once you have found a combined
+phase1+phase2 solution in 20 moves, then if you find an alternative phase1
+solution in 14 moves there is no reason to look deeper than 5 moves in
+phase2 (or 6 if you want to find all solutions that tie for minimum length).
+
+	-- Don.
+
+
+From dik@cwi.nl  Mon May 18 19:48:28 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA21591; Mon, 18 May 92 19:48:28 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA18208 (5.65b/2.10/CWI-Amsterdam); Tue, 19 May 1992 01:48:27 +0200
+Received: by boring.cwi.nl 
+	id AA25754 (5.65b/2.10/CWI-Amsterdam); Tue, 19 May 1992 01:48:26 +0200
+Date: Tue, 19 May 1992 01:48:26 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205182348.AA25754.dik@boring.cwi.nl>
+To: Don.Woods@eng.sun.com
+Subject: Re: Kociemba's algorithm
+Cc: cube-lovers@life.ai.mit.edu
+
+ > I don't remember from the earlier description; are the searches being done
+ > depth-first or breadth-first?  If breadth-first, then there is no reason to
+ > put an upper limit on the number of moves for finding a phase1 solution,
+ > since the algorithm HAS to solve phase1 in order to find an overall solution.
+I do depth-first.  I think the breadth of the tree is much too large to be
+handled in breadth first fashion (currently I abort the program when it
+reaches a length in phase 1 such that the number of solutions is a few
+million).
+
+ > Once you have an overall solution, of course, the length of phase1+phase2
+ > solution can be used as an upper bound on subsequent phase1 solutions.
+Right.
+
+ > Also, do you reduce the "maximum number of moves" for phase2 based on
+ > solutions already found?  For instance, once you have found a combined
+ > phase1+phase2 solution in 20 moves, then if you find an alternative phase1
+ > solution in 14 moves there is no reason to look deeper than 5 moves in
+ > phase2 (or 6 if you want to find all solutions that tie for minimum length).
+Also done, I do not look for ties.
+
+dik
+
+From dik@cwi.nl  Mon May 18 22:07:37 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA25373; Mon, 18 May 92 22:07:37 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA20122 (5.65b/2.10/CWI-Amsterdam); Tue, 19 May 1992 04:07:27 +0200
+Received: by boring.cwi.nl 
+	id AA26407 (5.65b/2.10/CWI-Amsterdam); Tue, 19 May 1992 04:07:26 +0200
+Date: Tue, 19 May 1992 04:07:26 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205190207.AA26407.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Kociemba's algorithm
+
+I did some more and found fast algorithms.  The most amazing one was for
+the configuration with two 2x2x2 cubes embedded in the cube:
+	( 9+ 6=15): U1 L2 D1 R1 B3 R1 B3 R1 B3 D3 L2 U1 R2 F2 U2
+This looks remarkably like a random sequence of moves.  I find especially
+the part R1 B3 R1 B3 R1 B3 intriguing!
+
+(For der Mouse.  I lost your e-mail address.  I can provide you with the
+program.  And for everybody, it is available, although I still do not like
+the input method.)
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+
+From reid@math.berkeley.edu  Tue May 19 13:25:44 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA14775; Tue, 19 May 92 13:25:44 EDT
+Received: from asparagus.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA25455; Tue, 19 May 92 10:25:38 PDT
+Date: Tue, 19 May 92 10:25:38 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205191725.AA25455@math.berkeley.edu>
+To: cube-lovers@ai.mit.edu
+Subject: assorted results
+
+>  > stripes: (18) F3 U1 F2 U3 R1 B2 R3 U1 F2 L2 U3 L1 B2 L3 U1 L2 U3 F1.
+>  > python: (15) R1 U3 F3 B1 L1 F2 L3 F1 B3 U3 R3 L1 F2 U2 L3.
+> I could not improve the first but what do you think of:
+> (12+ 2=14): U2 B3 D3 L1 F1 B3 U3 F1 U3 D1 R3 B1 D1 F2
+
+i mentioned these because i was particularly proud of them, especially
+since they were constructed by hand.  my program was able to improve
+"stripes", but i reoriented the pattern first.  perhaps this is why
+i had better success.  stripes (17 face / 20 quarter):
+R1 U1 D1 R2 F1 U3 D1 F3 B1 U3 R3 L3 B1 L2 U1 D3 B2  (14 + 3)
+so if you have any efficient pattern maneuvers that you're especially
+proud of, let's see if they can't be improved.
+
+> I did some more and found fast algorithms.  The most amazing one was for
+> the configuration with two 2x2x2 cubes embedded in the cube:
+> 	( 9+ 6=15): U1 L2 D1 R1 B3 R1 B3 R1 B3 D3 L2 U1 R2 F2 U2
+
+this can also be done in 18 quarter turns:
+L1 F1 L1 D3 B1 D1 L2 F2 D3 F3 R1 U3 R3 F2 D1  (13 + 2)
+also "cube within cube within cube"  17 face / 22 quarter turns:
+L3 D1 R3 B3 D1 L2 D2 L3 D3 L1 U1 D2 R3 U3 B2 R2 D3  (13 + 4)
+"twisted rings"  16 face / 18 quarter turns:
+B1 R1 B3 R2 U3 F3 L1 U1 R1 D1 L1 U3 B3 L1 U1 L2  (14 + 2)
+"twisted cube edges"  14 face / 14 quarter turns:
+D1 L3 B1 R1 D3 R3 D1 B3 L1 B1 R3 B3 R1 D3  (13 + 1)
+
+> Leider haben wir nur die Deutschen Ausgabe.  There are apparently
+> differences between the German and the English edition.  The English
+> edition is later and has probably improved sequences (he has promised
+> also improved sequences for the second German edition, but I do not
+> think it ever came out).
+
+'tis a shame.  the english edition is very good.  i've never seen the
+german.  in the english edition he gives several "open snakes".
+here's what my program has to say about them.
+"rattlesnake"  14 face / 18 quarter turns:
+F3 D3 L1 D3 L2 F1 B2 U1 L3 U3 R3 B2 R1 L2  (13 + 1)
+"black mamba"  14 face / 14 quarter turns:
+L1 U1 R1 F3 R3 L1 U1 L3 U3 D1 B1 D3 L3 U3  (13 + 1)
+"green mamba"  13 face / 14 quarter turns:
+R3 L2 F1 R1 U1 L3 F3 B1 U1 B3 U3 L3 U3  (12 + 1)
+"boa"  12 face / 16 quarter turns:
+D1 R1 F3 R1 L1 F2 R2 D3 L2 F2 L1 F3  (12 + 0)
+
+this last one was very nice, since it was completely solved in stage 1!
+
+> Also done, I do not look for ties.
+
+i am currently looking for ties, but will soon stop.  this is mainly to
+catch (by eye) maneuvers that are short quarter turn-wise.  i realize
+this is stupid for at least two reasons:  1: the program may well be
+passing up sequences which are shorter in quarter turns;  2: a slightly
+different version of the program will specifically look for the shortest
+sequence in quarter turns.  i'm trying to think of the best way to do this.
+unfortunately, the temptation is NOT to think, but to feed every
+imaginable pattern into the program.  :-)
+
+still need to do some polishing ...
+
+mike
+
+From dik@cwi.nl  Tue May 19 21:00:38 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA00867; Tue, 19 May 92 21:00:38 EDT
+Received: from steenbok.cwi.nl by charon.cwi.nl with SMTP
+	id AA25906 (5.65b/2.10/CWI-Amsterdam); Wed, 20 May 1992 03:00:29 +0200
+Received: by steenbok.cwi.nl 
+	id AA23701 (5.65b/2.10/CWI-Amsterdam); Wed, 20 May 1992 03:00:27 +0200
+Date: Wed, 20 May 1992 03:00:27 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205200100.AA23701.dik@steenbok.cwi.nl>
+To: cube-lovers@ai.mit.edu, reid@math.berkeley.edu
+Subject: Re:  assorted results
+
+	                                      My program was able to improve
+	"stripes", but i reoriented the pattern first.  perhaps this is why
+	i had better success.
+True.  Orientation of non-symmetric patterns is important because the first
+step is to get at a situation that is also non-symmetric.
+
+	'tis a shame.  the english edition is very good.
+The german edition is also good, but clearly older.  The newer patterns you
+mention are not in the german edition.  (I may note that Christoph Bandelow
+is still selling puzzles.  The 5x5x5 amongst others.)
+
+	R3 L2 F1 R1 U1 L3 F3 B1 U1 B3 U3 L3 U3  (12 + 1)
+	D1 R1 F3 R1 L1 F2 R2 D3 L2 F2 L1 F3  (12 + 0)
+
+	this last one was very nice, since it was completely solved in stage 1!
+Yup.  But the last but one will not improve and is optimal, and in fact solved
+with stage 1 (but you did not find it because you limited your search 12 deep).
+
+	                        I'm trying to think of the best way to do this.
+	unfortunately, the temptation is NOT to think, but to feed every
+	imaginable pattern into the program.  :-)
+How true.  I stopped feeding new patterns.  Currently I am calculating the
+maximal distance in stage 1.  It will take a bit of time because I have to
+consider 2,217,093,120 possibilities.  But I think that the method I have
+is feasible.  My conjecture was that the maximal distance was 11 or 12.
+That was wrong.  It is at least 12 (the superfliptwist needs 12 moves in
+phase 1).  My current conjecture is 12.  Work is in progress, the first
+1,082,565 configurations give the following picture (i.e. all configurations
+without flip):
+Moves	Number
+  0	     1
+  1	     2
+  2	    17
+  3	   134
+  4	  1065
+  5	  8214
+  6	 54919
+  7	269388
+  8	562427
+  9	183730
+ 10	  2668
+The pattern is similar to what was found with the 2x2x2 cube.  The majority
+of configurations requires 2 less than the maximum.  But apparently flips are
+harder to deal with than the rest of phase 1, so I am waiting for more results.
+Note that 12 would improve Kloostermans 42 moves to 37.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+
+From reid@math.berkeley.edu  Wed May 20 16:06:25 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA27635; Wed, 20 May 92 16:06:25 EDT
+Received: from phnom-penh.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA13051; Wed, 20 May 92 13:06:14 PDT
+Date: Wed, 20 May 92 13:06:14 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205202006.AA13051@math.berkeley.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  assorted results
+
+> True.  Orientation of non-symmetric patterns is important because the first
+> step is to get at a situation that is also non-symmetric.
+
+next stage: have the program account for symmetries of the pattern,
+face turns that commute with the pattern, ...
+
+> 	'tis a shame.  the english edition is very good.
+> The german edition is also good, but clearly older.  The newer patterns you
+> mention are not in the german edition.
+
+again, a shame.  i think that these snake patterns are among the most
+interesting things in the book.
+
+>                                             Currently I am calculating the
+> maximal distance in stage 1.  It will take a bit of time because I have to
+> consider 2,217,093,120 possibilities.  But I think that the method I have
+> is feasible.
+
+how much time do you anticipate the job will take?  it seems that we'd
+get a much better improvement (of kloosterman's bound) by calculating
+the maximal distance in stage 2.  of course, this requires going through
+19,508,428,800 possibilities (nearly 9 times as many).  is this feasible?
+also it seems that "god's algorithm" for stage 2 (i.e. face turns are
+restricted to  D, U, B2, F2, L2, R2) would be very similar to
+god's algorithm for the "magic domino," and this similarity should
+become stronger as the patterns get further away from START.
+
+from the pruning tables used in stage 2, dik gives the following maximal
+distances:
+
+> Phase 2:
+> corners:	13
+> edges:		8
+> slice edges:	4
+> corners+slice:	14
+> edges+slice:	12
+
+i was slightly surprised to see a difference between the figures for
+"corners" and those for "corners + slice edges".  but the difference
+between "edges" and "edges + slice edges" is shocking.  so perhaps the
+two "god's algorithms" above are not TOO similar.
+
+> Based on this I expect a maximal distance  [ ... ]
+> in phase 2 of about 16/17.
+
+i'm pretty sure i know a pattern that requires 15 face turns.  i wouldn't
+be all that surprised if 15 was the maximum, although i haven't tested many
+patterns.
+
+mike
+
+From dik@cwi.nl  Wed May 20 17:14:12 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA00649; Wed, 20 May 92 17:14:12 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA10861 (5.65b/2.10/CWI-Amsterdam); Wed, 20 May 1992 23:13:12 +0200
+Received: by boring.cwi.nl 
+	id AA02174 (5.65b/2.10/CWI-Amsterdam); Wed, 20 May 1992 23:13:11 +0200
+Date: Wed, 20 May 1992 23:13:11 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205202113.AA02174.dik@boring.cwi.nl>
+To: cube-lovers@ai.mit.edu, reid@math.berkeley.edu
+Subject: Re:  assorted results
+
+ > >                                             Currently I am calculating the
+ > > maximal distance in stage 1.  It will take a bit of time because I have to
+ > > consider 2,217,093,120 possibilities.  But I think that the method I have
+ > > is feasible.
+
+ > how much time do you anticipate the job will take?
+A few days.  I started yesterday night at 2:30 AM, it is now 11:05 PM.  I have
+calculated the distances for approximately 145 million configurations.  The
+majority of the work has been done sinc 6:00 PM.  (I am using 39 SGI Indigo's,
+1 Large SGI, 2 processors of an SGI file server and the scalar (SPARC)
+processor of an FPS, so it is lots of computer time!)
+ >                                                     it seems that we'd
+ > get a much better improvement (of kloosterman's bound) by calculating
+ > the maximal distance in stage 2.  of course, this requires going through
+ > 19,508,428,800 possibilities (nearly 9 times as many).  is this feasible?
+Right.  But is not feasible, at least I do not see possibilities at this
+moment.  My estimate is that it would take much more than 9 times as much.
+The reason is that the algorithm as I have organized it allows a lot of
+shortcuts.  What I do is in the space of order 2048 * 2187 * 495 assign to
+each processor in turn a slice of the 2048 dimension.  Within that slice,
+going from 0 moves until every configuration has been assigned a distance,
+a path is searched for the given distance.  The major shortcut comes when
+a path is found.  Using configurations with known distance, U, D, L and R
+turns are applied and also F2 and L2 turns to calculate new distances.
+For those moves the flip does not change.  This makes that I have to search
+paths for only about 10% of the cases.  I see no way (yet) to do similar
+things for phase 2.
+
+dik
+
+From reid@math.berkeley.edu  Sat May 23 01:56:38 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA17982; Sat, 23 May 92 01:56:38 EDT
+Received: from phnom-penh.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA03559; Fri, 22 May 92 22:56:34 PDT
+Date: Fri, 22 May 92 22:56:34 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205230556.AA03559@math.berkeley.edu>
+To: cube-lovers@ai.mit.edu
+Subject: new upper bound
+
+i've managed to reduce the upper bound for the length of god's
+algorithm to 39 face turns / 56 quarter turns.  we work in three
+stages:
+
+1. from  <U, F, R, L, B, D>  to  <U, R, F>
+2. from  <U, R, F>           to  <U, R2, F2>
+3. from  <U, R2, F2>         to  START
+
+where we're only allowed to use moves that keep us within the
+given subgroup.
+
+these three stages were chosen because of the moderate(!) sizes
+of the coset spaces that must be considered.  the numbers are
+253440,  15676416,  and  10886400.  the maximum number of moves
+in each stage was calculated by exhaustively searching the space.
+
+if we count by "face turns," these maximum numbers are 8, 13 and 19.
+however, if we make any turns in stage 2, the last such is a quarter
+turn of either  F  or  R, and the direction is irrelevant.  those
+positions at distance 19 in stage 3 (only 24 in all) were checked
+to see that they may be solved in 19 face turns starting with
+either  F2  or  R2.  therefore we can arrange to combine the last
+move of stage 2 with the first move of stage 3 in the event that
+we must make the maximal number of moves in each stage.  this
+gives the final figure of 39 face turns.
+
+if we count by "quarter turns," the maximum numbers are 9, 16 and 33.
+this time, those configurations at distance either 32 or 33 in stage 3
+(only 10 and 4 positions, respectively) were tested as above.
+each has minimal sequences starting with  F2  and with  R2.  as above,
+we may cancel a quarter turn from the end of stage 3 with a quarter
+turn at the beginning of stage 3, to get the final figure of 56
+quarter turns.
+
+the next step is to reduce the figure for stage 3 by allowing other
+turns.  i only plan on allowing  D, U, B2, F2, L2, R2,  as in the
+second stage of kociemba's algorithm.  after that, i may try to reduce
+the numbers for stage 2.  however, in this case, i don't expect much
+of a reduction (maybe 1 turn).
+
+mike
+
+From dik@cwi.nl  Sun May 24 07:31:21 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA05498; Sun, 24 May 92 07:31:21 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA18991 (5.65b/2.10/CWI-Amsterdam); Sun, 24 May 1992 13:31:14 +0200
+Received: by boring.cwi.nl 
+	id AA07227 (5.65b/2.10/CWI-Amsterdam); Sun, 24 May 1992 13:31:13 +0200
+Date: Sun, 24 May 1992 13:31:13 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205241131.AA07227.dik@boring.cwi.nl>
+To: anneke@fwi.uva.nl, cube-lovers@life.ai.mit.edu
+Subject: New upper bound on God's algorithm for Rubik's cube
+
+Earlier than expected I have gotten my results.  Using a farm of workstations
+I have calculated the distances for all cosets in phase 1 of Kociemba's
+algorithm.  As I have conjectured already, the maximal distance is 12.
+Together with Kloosterman's result for their third and fourth phase (which
+together form Kociemba's second phase) the upperbound on God's algorithm
+is now 37.  Below follows the set of distances for the first phase:
+  0:          1
+  1:          4
+  2:         74
+  3:       1230
+  4:      18056
+  5:     245902
+  6:    3082221
+  7:   34529024
+  8:  301243996
+  9: 1209021801
+ 10:  663711855
+ 11:    5238847
+ 12:        109
+tot: 2217093120
+
+It took quite a bit of computer time.  In all 116 processors in 112 different
+machines have cooperated, although not all at the same time %.  The maximal
+amount of concurrent processing was on 100 processors last night.  The
+distribution was: 69 Sun's (SS 1, SS 1+, SLC, ELC), 40 SGI's, 1 SGI 4D/310VGX,
+5 processors of an SGI 260S compute server and the scalar (SPARC) processor
+of an FPS 500.  I expect it would have taken one or two hours only on a machine
+with 1 GByte of memory.  Calculations on the second phase are still out of
+the question.  Distributing the processing would take much more than 9 times
+as much.  I expect it would take about a day on a machine with 4 GByte of
+memory.
+
+I conjecture that the maximal distance in phase 2 is at most 16.  There is a
+lower bound on it of 14.  This would make the upperbound for God's algorithm 28.
+
+dik
+--
+% These processors would have been idle most of the time otherwise!
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+
+From reid@math.berkeley.edu  Sun May 24 09:11:51 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA05968; Sun, 24 May 92 09:11:51 EDT
+Received: from maize.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA04669; Sun, 24 May 92 06:10:21 PDT
+Date: Sun, 24 May 92 06:10:21 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205241310.AA04669@math.berkeley.edu>
+To: Dik.Winter@cwi.nl, anneke@fwi.uva.nl, cube-lovers@life.ai.mit.edu
+Subject: Re:  New upper bound on God's algorithm for Rubik's cube
+
+> Together with Kloosterman's result for their third and fourth phase (which
+> together form Kociemba's second phase) the upperbound on God's algorithm
+> is now 37.
+
+well, at least i had the record for a couple of days!  ;-)
+
+>             Below follows the set of distances for the first phase:
+>   0:          1
+>   1:          4
+>   2:         74
+
+but i don't understand how we can get 74 positions at distance 2 from
+only 4 positions at distance 1.  the 4 positions at distance 1 are
+easy to see: they're the positions obtained from START by the turns
+B, F, L  and  R.  with only 18 different face turns, each should
+extend to at most 18 positions at distance 2.  am i missing something
+obvious here?  (the numbers do seem to add up, though.)
+
+> I conjecture that the maximal distance in phase 2 is at most 16.  There is a
+> lower bound on it of 14.
+
+the pattern (written in permutation notation)  (FR, FL) (UFL, DFR) is
+at distance 15, so that's (also) a lower bound.  however, if the whole
+cube is turned so that the  F  face becomes the  U face, then the new
+pattern is still in the subgroup of stage 2, but is now at distance 14.
+
+mike
+
+From dik@cwi.nl  Sun May 24 10:23:12 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA06406; Sun, 24 May 92 10:23:12 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA19523 (5.65b/2.10/CWI-Amsterdam); Sun, 24 May 1992 16:22:55 +0200
+Received: by boring.cwi.nl 
+	id AA07622 (5.65b/2.10/CWI-Amsterdam); Sun, 24 May 1992 16:22:55 +0200
+Date: Sun, 24 May 1992 16:22:55 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205241422.AA07622.dik@boring.cwi.nl>
+To: anneke@fwi.uva.nl, cube-lovers@life.ai.mit.edu, reid@math.berkeley.edu
+Subject: Re:  New upper bound on God's algorithm for Rubik's cube
+
+I retract my earlier message.  There is something definitely wrong!
+(All that idle time wasted...)  I have to reconsider!
+
+dik
+
+From reid@math.berkeley.edu  Sun May 24 11:04:20 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA06624; Sun, 24 May 92 11:04:20 EDT
+Received: from phnom-penh.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA04847; Sun, 24 May 92 08:04:09 PDT
+Date: Sun, 24 May 92 08:04:09 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205241504.AA04847@math.berkeley.edu>
+To: anneke@fwi.uva.nl, cube-lovers@ai.mit.edu
+Subject: details ...
+
+perhaps i should give the figures i obtained when getting my upper
+bound of 39 face / 56 quarter turns in case i also have an error.
+recall the method: we work in three stages:
+
+1. from  <U, F, R, L, B, D>  to  <U, R, F>
+2. from  <U, R, F>           to  <U, R2, F2>
+3. from  <U, R2, F2>         to  START
+
+where we're only allowed to use moves that keep us within the
+given subgroup.  the number of positions that must be considered
+in each stage are  253440,  15676416,  and  10886400 respectively.
+
+stage 1:
+using face turns:          using quarter turns:
+distance  number           distance     number
+  0            1               0             1
+  1            9               1             6
+  2           90               2            39
+  3          852               3           276
+  4         7169               4          1899
+  5        44182               5         11245
+  6       131636               6         49412
+  7        68940               7        117221
+  8          561               8         70767
+                               9          2574
+stage 2:
+using face turns:          using quarter turns:
+distance  number           distance     number
+  0            1               0             1
+  1            2               1             2
+  2           12               2             8
+  3           72               3            36
+  4          420               4           158
+  5         2410               5           694
+  6        13752               6          2980
+  7        75796               7         12744
+  8       390421               8         53646
+  9      1735771               9        216354
+ 10      5351383              10        799868
+ 11      6696700              11       2477802
+ 12      1399195              12       5310848
+ 13        10481              13       5419046
+                              14       1356020
+                              15         26192
+                              16            17
+stage 3:
+using face turns:          using quarter turns:
+distance  number           distance     number
+  0            1               0             1
+  1            5               1             2
+  2           14               2             3
+  3           44               3             8
+  4          128               4            14
+  5          392               5            24
+  6         1157               6            52
+  7         3458               7            96
+  8        10057               8           176
+  9        29286               9           352
+ 10        82814              10           664
+ 11       228621              11          1248
+ 12       591704              12          2409
+ 13      1362497              13          4516
+ 14      2545752              14          8519
+ 15      3272940              15         16100
+ 16      2260555              16         30171
+ 17       484818              17         56140
+ 18        12133              18        102981
+ 19           24              19        186728
+                              20        331234
+                              21        563985
+                              22        912719
+                              23       1365051
+                              24       1812011
+                              25       2044832
+                              26       1783956
+                              27       1105488
+                              28        450322
+                              29         97881
+                              30          7958
+                              31           745
+                              32            10
+                              33             4
+
+it would be nice if someone could confirm these figures.  i have done
+some testing, but not extensively.
+
+mike
+
+From dik@cwi.nl  Sun May 24 19:38:50 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA12159; Sun, 24 May 92 19:38:50 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA03186 (5.65b/2.10/CWI-Amsterdam); Mon, 25 May 1992 01:38:41 +0200
+Received: by boring.cwi.nl 
+	id AA10405 (5.65b/2.10/CWI-Amsterdam); Mon, 25 May 1992 01:38:40 +0200
+Date: Mon, 25 May 1992 01:38:40 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205242338.AA10405.dik@boring.cwi.nl>
+To: anneke@fwi.uva.nl, cube-lovers@ai.mit.edu, reid@math.berkeley.edu
+Subject: Program bug, and new ideas.  Will they work?
+
+Well, I found the bug.  There was an initialization error which made the
+program think there was a shorter path than there was in a number of cases.
+Alas, as always, the bug did not reveal itself in the test runs I did, it
+was only in the final totals that it was apparent.
+
+The bad thing is that removing the bug increases the compute time considerably,
+because you have in essence to calculate an explicit path for every
+configuration.  I estimate the increase is by a factor of about 3, based on
+some experiments.
+
+The good thing is that it got me thinking about an old idea I had.
+To calculate path lengths to the group generated by [U,D,L2,R2,F2,B2]
+it is irrelevant whether you rotate the complete cube around the U-D
+axis.  Also half turn rotations around the R-L axis are irrelevant.
+And finally, mirroring the cube along the F-R-B-L plane is irrelevant!
+But in most cases this changes twist/flip and position values.  So if
+we look at the twist/flip/position space of 2187*2048*495 cosets we can
+reduce the calculations along one dimension as long as we remember the
+number of representations.  I did some calculations and found that
+2187 can be reduced to 168 or 2048 can be reduced to 219 or 495 can be
+reduced to 45.  Of these obviously the first one is the most fruitful.
+Of course I have to check myself (and anybody who is willing, go ahead).
+Reduction of 2187 to 168 would reduce the total space from 2,217,093,120
+to 170,311,680 calculations.  But then again, dividing the latter figure
+by 4, that could be done in core on a machine with about 50 MByte of memory
+(to calculate path lengths in core only 2 bits per configuration are needed).
+
+I will try around, dik
+

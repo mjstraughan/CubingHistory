@@ -1,0 +1,4181 @@
+Date: 11 December 1982 20:43-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject:  The Archive & Administrivia
+To: CUBE-LOVERS at MIT-MC
+
+Those of you who look through the archives of old Cube-Lovers mail
+will notice that I have split off a new section of the archive.  The
+mail now lives in:
+
+MC:ALAN;CUBE MAIL0	;oldest mail in foward order
+MC:ALAN;CUBE MAIL1	;next oldest mail in foward order
+MC:ALAN;CUBE MAIL2	;more of same
+MC:ALAN;CUBE MAIL3	;yet more of same
+MC:ALAN;CUBE MAIL4	;still more of same
+MC:ALAN;CUBE MAIL	;recent mail in reverse order
+
+Those of you who are wondering if Cube-Lovers might be temporarily off the
+air when TCP is installed on January 1 can rest assured that there is an
+ITS TPC implementation in progress, and come January 1 the ITS machines
+will probably be no worse off than the rest of the net.  My biggest worry
+is not that ITS won't be able to send mail (since I can always move the
+list to another machine if that proves necessary), but that so many of you
+all will be having difficulty recieving mail that I will be up to my neck
+in error messages from various mailers around the net.
+
+That is one of my reasons for splitting off a section of the archive at
+this time.  I'm willing to bet that a fair number of you will be requesting
+the back mail that you have missed during the storm at the beginning of the
+year, and this way I have a small file that I can easily send off to you.
+
+Finally let me remind you all to please address your requests to
+Cube-Lovers-Request at MIT-MC.  If that address, or Cube-Lovers at MIT-MC
+ever seems to be giving you trouble, you might also try Cube-Lovers at
+MIT-Multics and Cube-Lovers-Request at MIT-Multics.
+
+				-Alan
+
+Date: 21 December 1982 23:50-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject: Correction to previous message.
+To: CUBE-LOVERS @ MIT-MC
+
+It being so difficult to set up a Multics mailing list I'm retracting the 
+promise that those Multics addresses will ever work and will instead
+just give out my personal Multics address as an emergency contact.
+
+Date: Wednesday, 22 December 1982, 15:33-EST
+From: Allan C. Wechsler <acw at SCRC-VIXEN>
+Subject: Hinton's cubes.
+To: Cube-Lovers at MC
+
+In September I received a query from Phil Servito, who
+has since joined this mailing list, about a game or puzzle
+called "Hinton's cubes".  Does anybody have any information
+about this toy besides the following?
+
+Charles Howard Hinton was an American mathematician who
+believed that anybody could learn to do four-dimensional
+visualization if properly trained.  He invented a set of
+colored blocks which were supposed do this training.
+
+Philip -- you said Martin Gardner knows more.  Is this because
+the cubes were once discussed in a Sci. Am. Mathematical
+Games column?  If so, the Sci. Am. cumulative index may help.
+
+   --- Allan
+
+Date: 29 Dec 1982 0954-PST
+Subject: article of interest.
+From: Dave Dyer       <DDYER@USC-ISIB>
+To: cube-lovers@MIT-MC
+
+
+ The Christmas issue of NEW SCIENTIST has an article by Singmaster
+about the basics and metaphysics of the cube.  No great revelations,
+but a literate discussion of cubeology.  
+-------
+
+Date: 29 Dec 1982 19:01:04-EST
+From: meister at mit-ccc
+To: cube-lovers@mit-mc
+Subject: 4x4x4 poll
+
+
+  i am interested i getting information on the various solving methods
+used on the 4x4x4, and the times that it is being done in. (average) 
+my own method is to solve it as follows:
+
+       1) top layer (no general order to this)
+       2) the rest of the centers by layers 
+       3) the edges on the center slices
+       4) bottom corners
+       5) bottom edges
+
+ average time: 1 min 55 sec - 2 min 5 sec depending on my blood-alcohol level. 
+
+   please send me your general method and solving times.
+   i'll compile the results and put them on the list.
+
+                                              thanks for replying,
+                                                          -phil
+ p.s. -  send replies to  meister@ccc@mc 
+
+
+
+Date: 30 December 1982 00:41-EST
+From: Jonathan David Callas <JURGEN @ MIT-MC>
+Subject: Hinton's cubes.
+To: ALAN @ MIT-MC
+cc: CUBE-LOVERS @ MIT-MC
+
+
+I remember reading about Hinton's cubes in an old Mathematical Games anthology,
+so a cumulative index would be the thing. Gardner wrote about them and 
+apparantly they worked, but there were stern warnings not to play with them,
+because (!) they cause insanity in some people(!!). Gardner said something
+to the tune of that the human brain is not meant to do 4-dimensional geometry,
+and these things will make your brain bugcheck. Ever since then, I have been
+fascenated by the thought of a puzzle that would blow your mind  literally! Of
+course, this was in the days before  it was fashionable to use chemical means
+to do this. Anyone else know anything about them?
+
+	Jon
+
+Date:  3 Jan 1983 0915-PST
+From: ISAACS at SRI-KL
+Subject: Hinton's Cubes
+To: cube-lovers at MIT-MC
+cc: isaacs at SRI-KL
+
+   Hinton's Cubes are mentioned in Martin Gardners "Mathematical Carnival",
+Chapter 4, Hypercubes, a reprint of the November, 1966, Mathematical Games
+column from Scientific American.  He doesn't say much, mainly that "Hinton...
+devised a system of using colored blocks for making three-space models of 
+sections of a tesseract."  Hinton believed that they would help develop
+an intuitive grasp of 4-space.  The fullest account of them mentioned is
+the book k"A New Era of Thought", by C. Howard Hinton, Swan Sonnenschein, 
+1888, apparantly reprinted in 1910.  
+  Gardner also prints a letter he received from Hiram Barton, of England,
+including "A shudder ran down my spine when I read your reference to Hinton's
+cubes.  I nearly got hooked on them myself in the nineeen-twenties.  Please 
+believe me when I say that they are completely mind-destroying.  The only
+person I ever met who had worked with them seriously was Francis Sedlak, a 
+Czech neo-Hegelian philosopher...who lived in an Oneida-like community near
+Stroud, in Gloucestershire.
+   "As you must know, the technique consists essentially in the sequential
+visualizing of the adjoint internal faces of the poly-colored unit cubes 
+making up the large cube.  It is not difficult to acquire considerable 
+facility in this, but the process is one of autohypnosis and, after a while, 
+the sequences begin to parade themselves through one's mind of their own 
+accord."
+   It goes on, but doesn't say a great deal more.  I don't have my copy of
+Hintons book "The Fourth Dimension", but maybe it will give some more 
+description.
+  If anybody does find some marketed versions of the cubes, put it on the list.
+   --- Stan
+-------
+
+Date: 4 January 1983 03:54-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject: Humor
+To: CUBE-LOVERS @ MIT-MC
+
+From "Special Deliverance" a recent novel by Clifford Simak:
+
+   "He also mentioned a cube," said Sandra.  "I wonder what it could be.
+   Never before have I heard anything described simply as a cube."
+
+Well I certainly have!
+
+(And no, the book actually has nothing to do with Hungarian Cubes.  It just
+struck me as strange that someone could write that line at a time when an
+object that frequently WAS described simply as "the cube" was enjoying some
+popularity.  Perhaps Sandra's ignorance is excusable in light of the fact
+that she comes from an alternate universe...)
+
+Date:  5 Jan 1983 1802-PST
+From: ISAACS at SRI-KL
+Subject: Other news
+To: CUBE-LOVERS at MIT-MC
+
+   The new RUBIK'S magazine is out.  Not as interesting (to me) as the first.
+Several articles on the Snake, on cube contests, and some on other games.
+A computer flow-chart for the game Awari, and an analysis of Chinese Rings
+are included.  The most interesting cube articles are one on how disordered
+a cube can get; and one on pretty patterns in other cube universes (ie, when
+an edge is flipped, what symmetric patterns are there). 
+  If you haven't seen it, the book "INside Rubik's Cube and Beyond" by
+Christoph Bandelow is very good.  It's translated from German, and contains
+a fairly technical discussion of the Mathematical Model, solving in the
+supergroup, other magic polyhedra, a detailed flowchart of a cube-solving
+program (which also checks the input for legality), and a comprehensive 
+Maneuver Index, which contains, among other things, a complete catalog of
+3-cycles.  It includes an index, a bibliography, and a good section of
+colored pictures in the center (including one of a 5x5x5!!!). Recomended.
+   I've also heard a rumor that the solution to "Masquerade" has been
+written (and maybe published).  Has anyone heard anything of this?
+  -- Stan
+-------
+
+Date:  5 Jan 1983 1806-PST
+From: ISAACS at SRI-KL
+Subject: more on Hinton's Cubes
+To: cube-lovers at MIT-MC
+
+  I got my "Speculations on the Fourth Dimension, Selected Writings of
+Charles H. Hinton", Dover, 1980, back.  It doesn't reprint Hinton's
+description of his cubes, but Rudolf v.B.Rucker, in the introduction 
+describes something more of them:
+  "The second part of "A New Era of Thought" consists of a description 
+of how to visualize a tesseract by looking at various 3-D cross sections
+of it.  On is to construct a set of 12 cubes, coloring the faces, edges
+and corners all manner of different colors. (Eighty-one different colors
+are used, and some rather unfamiliar ones are resorted to. ...)Eight of
+these cubes make up the boundaries of the hypercube, and the four others
+are cross sections taken between pairs of opposite cubes.  The way in
+which all the cubes fit together is really explained rather well, if one 
+has the will to endure not only 81 colors, but the 81 Latin names which
+Hinton assigns to the parts of the tesseract.
+   "In addition to the set of 12 large cubes, there was also to be a set of 81 
+small monochrome cubes, each representing a part of the tesseract.  By
+moving theese little cubes about one could better comprehend the fact that
+rotation through the fourth dimension corresponds to mirror image reflection
+in 3-D space."
+   In Hinton's book "The Fourth Dimension", published n 1904, he has a
+streamlined version of the tesseract section models.  "There were actually 
+three parts to the complete set of tesseract models.  There was a set of 27
+"slabs," actually cardboard squares; a set of 81 one-inch monochrome cubes,
+each a different color; and a set of 12 multicolored "catalogue cubes,"
+which were depicted in a color plate bound into "The Fourth Dimension".  When
+the book came out, one could buy a set consisting of the 27 slabs and the
+81 little cubes for 16 shillings, or a set consisting of the 12 catalogue
+cubes for 21 shillings."
+  If anyone on this list can find a copy of "The Fourth Dimension", I, for
+one, would like to buy it.  I wonder if any of the models are around anywhere?
+     --- Stan
+-------
+
+Date:  7-Jan-83 10:19:31 PST (Friday)
+From: Pettit at PARC-MAXC
+Subject: 4-D Graphics Program
+In-reply-to: ALAN's message of 5 January 1983 23:40-EST
+To: Alan Bawden <ALAN @ MIT-MC>
+cc: Cube-Lovers at MIT-MC
+
+Scott Kim, the author of Inversions, wrote a program about 4 or 5 years ago which ran on Tenex, and allowed one to rotate 4-D skeletal objects and view the 2-D projections (on an Imlac display).  I don't know what language it was written in.  It was apparently quite good at allowing one to achieve an intuition for 4-D space.  I'll send him a message and ask if his program is available anywhere for playing with.
+
+--Teri Pettit at Xerox OSD   
+
+Date: Monday, 24 January 1983  13:57-EST
+From: Leonard N. Foner <TK.FONER @ MIT-OZ>
+To:   Cube-Lovers @ MIT-MC
+Subject: Shortest sequence of moves?
+cc:   Tk.Foner @ MIT-OZ
+Reply-to: Foner at MIT-MC
+
+I remember hearing about a program, probably running on the color LISP
+machine, that could take an arbitrary cube and try to see what the
+shortest move sequence to its slution is.  Does anyone remember where
+this program is and how to use it?
+
+Specifically, I have been given the following cube and asked to find
+the shortest solution:
+
+    GBG
+    BGW
+    GGG
+RRR WYW ORO YYY
+ORO GWY OOO WYB
+RRR WWW ORO YWY
+    BBB
+    GBY
+    BGB
+
+If anyone can either find the program I think I remember, or can
+determine what they think is the shortest solution, I'd be \very/
+grateful!  Speed is of the essence.
+
+Thanx much, everyone!
+
+						<LNF>
+
+Date: 24 Jan 1983 1122-PST
+From: ISAACS at SRI-KL
+Subject: Masquerade
+To: cube-lovers at MIT-MC
+
+   A small paperback version of Masquerade has come out in England, which
+contains a history, who solved it, and what the solution is.  I don't know
+if it is available in the U.S. yet, but I have seen a copy, and got the
+following info:  The full title & subtitle is "The Treasure Hunt of the 
+Century / Masquerade  / Kit Williams Tells the Answer to the Riddle",
+ISBN 0 224 02937 1; Jonathan Cape (pub), Thirty Bedford Square, London.
+I will check around to see if it is available   ---  Just did; At lease
+one local book store (Printers Inc, in Palo Alto, Ca.) says it's on order,
+and they expect in in a day or two.
+  If anyone wants a rough idea of how to find the solution, I can put it
+on the net.
+ -- Stan
+-------
+
+Date: 24 January 1983 16:51 EST
+From: David C. Plummer <DCP @ MIT-MC>
+Subject: Shortest sequence of moves?
+To: FONER @ MIT-MC
+cc: CUBE-LOVERS @ MIT-MC
+
+    Date: Monday, 24 January 1983  13:57-EST
+    From: Leonard N. Foner <TK.FONER @ MIT-OZ>
+    Reply-to: Foner at MIT-MC
+
+    I remember hearing about a program, probably running on the color LISP
+    machine, that could take an arbitrary cube and try to see what the
+    shortest move sequence to its slution is.  Does anyone remember where
+    this program is and how to use it?
+
+Sorry, no such program.  Don't we wish though!!  If we understood
+the mathematics of the cube well enough to write such a program,
+we probably wouldn't have this mailing list anymore.
+
+Date: 28 Jan 1983 3:33-EST
+From: Dan Hoey <HOEY @ CMU-CS-A>
+Subject: The shortest sequence of moves.
+To: Foner at MIT-MC
+Cc: Cube-Lovers at MIT-MC
+In-Reply-To: Leonard N. Foner's message of Monday, 24 January 1983  1357-EST
+
+Leonard,
+
+The process (R U^2 B^2 L')^2 will restore your cube in twelve
+quarter-twists when executed with the Green face Up and the White face
+Front, and twelve is the minimum sufficient number of quarter-twists.
+
+Dave Plummer's discouraging word is usually right--we know of no
+algorithm to let us find optimal processes for most positions.  This is
+because the only known algorithms involve exhaustive breadth-first
+search, and there are far too many positions of the cube to make this
+practical in either time or space.  But when the optimal process is
+sufficiently short, some headway can be made.  Having some megabytes
+and CPU-hours at my disposal, I was able to list
+    (A) all positions reachable in five qtw from your cube, and
+    (B) all positions reachable in five qtw from SOLVED.
+Finding that sets (A) and (B) are disjoint, I conclude that there is no
+ten qtw process for the pattern, so the twelve qtw process is optimal.
+
+I discovered the optimal process by hand.  Of course, I could have just
+run the program one more qtw and it would give me the process, along
+with any other twelve-qtw processes that may exist.  The problem with
+that approach is that I don't have that many megabytes and CPU-hours.
+
+My program, by the way, is written in C and runs under Unix.  It trades
+time and storage efficiency for programmer laziness, making extensive
+use of the Unix sort utility.  Dave Plummer has written a much
+optimized program, in assembler language for the PDP-20, that uses very
+clever hacks (some of them my own).  As I recall, he and I estimated
+that with about 150 megabytes and a day or two elapsed time on an
+unloaded machine it could take the search three more quarter-twists.
+Does anyone need to settle a bar bet on an eighteen qtw process?
+
+				Dan
+
+Date: 28 Jan 1983 1838-PST
+From: ISAACS at SRI-KL
+Subject: Circle Puzzles
+To: cube-lovers at MIT-MC
+cc: isaacs at SRI-KL
+
+   I just got some very nice examples of circle (group-theory) puzzles -
+similar to the Lorente Grill puzzles shown in Hofstadters' Sci.Am.
+article in July, 1982 (p. 26).  They are made by Douglas Engel, under
+the name of General Symmetrics, Inc, 2935 W. Chenango, Englewood, Co,
+80110.  He is selling some as experimental items, and one version he
+hopes to have marketed "soon".  They all consist of two intersection
+circles, each of which rotate; I have 3 kinds: the "21 piece", similar
+to 2/3 of Lorente's Trebol puzzle; the "35 piece", similar to the
+one in the upper right corner of the article "Another Grill puzzle by
+Lorente", and a "19 piece", similar to the 21 piece, except the circles
+intersect in the center.  Each of these are quite different from each other;
+the 35 piece has 3 different pieces which rotate in 4 different cycles
+(compare to the Cubes' 3 kinds of pieces - edge, corner, and center).
+In the 35 piece, a straightforward "in in out out" (R'LRL') type move
+will move the centers in a 3-cycle, the "square" pieces in a pair of
+2-cycles, and the "triangles" in 2 separate 5-cycles.
+   (Doug is selling these at $10.00 for the 19 or 21 piece, $20 for the
+35 piece.)
+   Doug Engel has also written a paper called "Some Problems Suggested
+By Circle Puzzles", mostly asking questions about various kinds of
+symmetry in this type, whether there are an infinite number of them,
+etc.  I wonder what the best way to talk about them and analyze them
+from a group theory perspective is.  I'll try to put in more information
+and theories as I work on them; I'd like to hear any thoughts or
+suggestions.  Right now, I want to go home for dinner.
+  -- Stan
+-------
+
+Date: Saturday, 29 January 1983  23:33-EST
+From: Leonard N. Foner <TK.FONER @ MIT-OZ>
+To:   Dan Hoey <HOEY @ CMU-CS-A>
+Cc:   Cube-Lovers @ MIT-MC, Tk.Foner @ MIT-OZ
+Reply-to: Foner at MIT-MC
+Subject: The shortest sequence of moves.
+In-reply-to: The message of 28 Jan 1983  03:33-EST from Dan Hoey <HOEY at CMU-CS-A>
+
+Thanx for the solution...  we determined independently that 12 qtw
+seemed to be minimal, but couldn't be absolutely sure.
+
+Since you say with a couple of days of CPU time you could deal with 18
+qtw processes, doesn't this mean that \any/ cube process can be
+checked for minimality?  I can't recall whether the maximum number of
+moves from solved is 17 or 19...  if the former, 18 qtw may be
+unnecessary.  If the latter, then almost every cube process can be
+checked directly, save the absolute longest ones (which are then
+provably 19 anyway, since that's all they can be).  Is my reasoning
+faulty here?  In any case, exactly how much more work in involved for
+each qtw in solving the cube?  In other words, how fast does it grow
+(what's the power on the exponent, if describable this way)?
+
+Thanx much folks.
+
+						<LNF>
+
+Date: 30 January 1983 00:40 EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  The shortest sequence of moves.
+To: FONER @ MIT-MC
+cc: CUBE-LOVERS @ MIT-MC, Tk.Foner @ MIT-OZ, HOEY @ CMU-CS-A
+In-reply-to: The message of 29 Jan 1983  23:33-EST from Leonard N. Foner <TK.FONER at MIT-OZ>
+
+The maximum number of moves (qtw) from solved is certainly not 17 or 19.
+All we know about that number is that it is greater than or equal to 21.
+It could be even larger.  There is a fair amount of sentiment that it is
+probably around 28, but that's just intuition.
+
+Date: 30 Jan 1983 3:15-EST
+From: Dan Hoey <hoey@cmu-cs-a>
+Subject: Finding optimal processes
+To: Cube-Lovers at mit-mc
+
+The best known bounds put the maximum number of qtw at between 21
+and 104.  At most about 1 percent of the cube's positions are
+within 18 qtw of solved.
+
+At each qtw, the number of positions increases by a factor of
+almost sqrt(12+5*sqrt(6))+sqrt(6)+2 ~ 9.374.  [I say ``almost''
+because this rate of increase does not take into account the
+identities of length 12 qtw or greater.  Eventually, long identies
+reduce this factor to zero.  But between six and seven qtw, the
+factor is about 9.356].  If we want to show a 2n qtw process
+optimal, we need only scan the table of n-1 qtw processes, so the
+increase is more like a factor of 3 per qtw.
+
+Finally, I would like to call attention to the fact that showing an
+18 qtw process to be optimal requires about 150 megabytes and two
+days on a PDP-20 for each such proof.  Finding someone to lend you
+a big machine and a big disk for two days is not something you can
+take for granted.  And if you want to do it on your Apple, be
+prepared to sit around swapping 2400 floppies in and out for the
+next decade or so, as that two day figure is mostly disk latency
+rather than CPU time.
+
+Date: Monday, 31 January 1983  21:48-EST
+From: Leonard N. Foner <TK.FONER @ MIT-OZ>
+To:   Alan Bawden <ALAN @ MIT-OZ>
+Cc:   CUBE-LOVERS @ MIT-MC, HOEY @ CMU-CS-A, Tk.Foner @ MIT-OZ
+Reply-to: Foner at MIT-MC
+Subject: The shortest sequence of moves.
+In-reply-to: The message of 30 Jan 1983 00:40 EST from Alan Bawden <ALAN>
+
+Ugh.  I see the problem is far more intractable than I had first
+assumed.  I suppose it'll be quite some time indeed before we see any
+sort of complete optimality solution if the maximum number of moves
+from solved is anything larger than the low twenties.  I'll hunt
+through the list archives for what's been accomplished on proving what
+that number is...  if anyone feels like giving me a brief refresher
+instead, I'd appreciate it, though the whole list might not like to
+see it all again.
+
+Thanx again everyone.
+
+						<LNF>
+
+Date: 1 February 1983 13:20 EST
+From: David C. Plummer <DCP @ MIT-MC>
+Subject: The shortest sequence of moves.
+To: FONER @ MIT-MC
+cc: CUBE-LOVERS @ MIT-MC, ALAN @ MIT-OZ, Tk.Foner @ MIT-OZ,
+    HOEY @ CMU-CS-A
+
+What you really want is some deep mathematical insight.  You
+know, the kind Gauss and Fermat had...
+
+Date: Tue 15 Feb 83 15:04:02-PST
+From: ISAACS@SRI-KL.ARPA
+Subject: "6-T" pretty pattern
+To: cube-lovers@MIT-MC.ARPA
+
+  A friend of a friend says he can do the 6-T pattern in 16 moves
+(he may call 1/2 turns a move, I'm not sure).  Does anybody know if
+this is a minimum?  I'll try to get the sequence.
+ -- Stan
+-------
+
+Date: Wednesday, 16 February 1983, 09:24-EST
+From: Bernard S. Greenberg <BSG at SCRC-TENEX>
+Subject: 5 x 5 x 5
+To: cube-lovers at MIT-MC
+
+I have seen and touched a 5 x 5 x 5 Rubik cube device.  It was 
+allegedly a prototype by Meffert, the people who created the
+Megaminx.  It was about the same size as a 4 x 4 x 4, with
+slightly smaller cubies.  It had never been devirginized, nor
+did its owner want it to be.  The face coverings are of the
+same material as the coverings of the Megaminx.  No clue as to
+how it operates, although looking at the black surface exposed
+by partial twists, there seemed to be new techniques involved, of 
+protuberances coming down from cubies sliding behind other
+cubies, at least.  Although stated to be a prototype, it seemed
+completely developed, and I would expect to see it available 
+soon.
+
+Date: 24 Feb 1983 0618-PST
+From: JAY <JAY@USC-ECLB>
+Subject: NxNxN: Finite N
+To: cube-lovers@MIT-MC
+
+I have a program, not finished, which allows manipulation of a NxNxN
+(N^3) cube.  Presently it WILL manipulate any NxNxN cube (i tried up
+to 23) but it has a VERRY BAD user interface.  I plan to improve the
+interface in the near future (this morning?)  I hope to be able to
+parse the Cube-Talk mentoined in the first message in the archive
+alan;cube mail1 (or 2?), or a super-set of it (like being able to save
+cube's on disk, save move seq's (macros), defining macros with
+parameters, and make logfiles of especialy hairy session).  As for
+output... For small cubes (up to 8^3) i can use the normal air-plane
+pattern of display, for medium cubes (8^3 <= size <= 12^3) i can put it
+all on the normal terminal, but for larger cubes (24^3 >= cube >=
+12^3) all i can do is display a face, or maybe two.
+
+[Implementation]
+
+ I am interested in a, WORKING, N^3 simulator, not speed or space.  As
+a result my representation of the cube is loosing on both counts.
+(yes it realy is a NxNxN array of cubes (a record of six integers!))
+It is written in CLU for TOPS-20 os. 
+
+However my rep. brought up an interesting super-groop, immagin a cube
+realy made of N^3 cubies.  Each of these cubies would be a 'Miniature'
+N^3 in color scheme.  Now this new device (a 'compleatly colored'
+cube) is solved only when ALL cubies are oriented correctly (ie. all
+have red up and blue forward), and positioned correctly.  In the 3^3
+we would not only have to solve the centres, but also the imaginary
+inside cubie (is it ever un-solved?)
+
+[Questions]
+  What do you (readers) think is a good display scheme for a N^3,
+remember it should be useable on a 24x80 h19?  Is a N^3 simulator even
+interesting?  What sort of speed improvement could be gained from a
+comp-cube? with or without macros?
+
+  Is the 'compleatly colored' cube interesting?  For what sizes is it
+similar to the 'partialy colored' (normal) cube (1^3 and 2^3 for
+sure...)?  Could the solution of compleat-5^3 be a solution of the
+outer shell, and the inner 3^3?
+
+  Is a simulation of a 'compleatly colored' cube interesting?  How
+would one view the manny inside faces?
+
+  What other reps for the cube are there? (other than the obvious two;
+an array of color tabs, or a 3d array of cubies..)  Which reps
+optimize storage, time, or simplicity to compute a twist, or even ease
+of compairison?   Just occured to me that each cubie could be rep'd as
+a number twixt 1 and 24 (as a cube has only 24 orientations).  This
+optimization would reduce storage by a factor of 6 (not too bad!)
+
+enough.....  enough.....
+
+j'  <jay@eclc>
+-------
+
+Date: 24 February 1983 1815-EST (Thursday)
+From: Dan Hoey at CMU-CS-A
+To: Cube-Lovers at mit-mc
+Subject: Whole-Cubing
+Message-Id: <24Feb83 181536 DH51@CMU-CS-A>
+
+When we describe cube positions, we typically fix the position of
+the face centers.  This avoids counting different positions of the same
+pattern more than once.  But suppose we wished to distinguish between
+different positions of a pattern?  How should we form this group G*
+of spatially oriented patterns?
+
+A simple way of generating G* is to adjoin generators for C, the
+motion group of the cube, to generators for G, the usual Rubik
+group.  Generators for C were discussed in early Cube-Lovers mail
+as I, J, and K, three orthogonal quarter-twists of the whole cube
+in space, although there was some disagreement about which was
+which.  We generate G with B, F, U, D, L, and R as usual.
+Unfortunately, the two kinds of generators are not conjugates,
+which was a nice thing about our generators for G.  Also the
+generators do not interact very strongly.  If we have an identity
+on {IJKBFUDLR}, the substring on {IJK} must be an identity in C,
+and there is a simple way of transforming the substring on {BFUDLR}
+to be an identity in G.
+
+In @i<Winning Ways>, Berlekamp, Conway, and Guy described another
+way of generating G*, by appending the slice moves, which they name
+by mnemonic greek letters; this labeling scheme was also reported
+in Hofstadter's column.  Here we have some stronger interaction
+between the two kinds of generators, but they are still two
+different kinds:  they are not conjugate.  This has never really
+bothered the English, though; they gratuitously include half-twists
+as generators as well.
+
+I thought up a scheme involving what I will call depth-2 moves
+named B2, F2, U2, D2, L2, and R2.  Readers of my reports on the
+4^3 and 5^3 cubes will find these familiar.  Essentially, a depth-2
+move is performed by turning a face together with its adjacent
+center slice.  Thus F2 involves holding the B face immobile and
+turning the rest of the cube a quarter-turn clockwise, as seen
+from the front.
+
+Clearly the depth-2 moves are M-conjugate.  Unfortunately, they do
+not generate all of G*, nor even all of G.  This can be seen easily
+by noticing that each depth-2 move is an even permutation of the
+edge cubies, while G includes odd permutations of edges.  We can
+look at this a different way by observing that a depth-2 move is
+the same as a vanilla depth-1 move of the opposite face together
+with a whole-cube quarter-twist.  Thus we can perform any depth-1
+process using depth-2 moves, and observe the spatial orientation of
+the cube at the end.  If we performed an odd number of depth-2
+moves, then there were an odd number of whole-cube moves, so the
+cube cannot be in its home orientation at the end.
+
+So just what group do the depth-2 moves generate?  It turns out
+that they generate precisely half of G*, the half that contains
+even edge permutations.  Suppose we want to produce such a position
+in G*.  First operate in G, simulating depth-1 moves as described
+above, to produce a position that is an even number of whole-cube
+moves from the desired one.  Then use M-conjugates of the process
+	F2 L2 D2' B2' D2' F2 L2 B2 L2 U2' F2' D2' R2' B2,
+which performs a whole-cube third-twist.  [This was derived from
+identity I14-4].  Since all the even whole-cube moves are generated
+from third-twists, this is all you need.
+
+What can we do about generating all of G* with a set of conjugate
+generators?  Sad to say, that is impossible.  For supposing we had
+such generators, their cycle structures would have to be the same;
+in particular, they would have to have the same permutation
+parities.  Applying an odd number of such generators would yield
+those parities, and applying an even number would yield even parity
+on every kind of cubie.  But G* includes four different parity
+classes:
+		Face centers	Edges	Corners
+		    even	even	even
+		    even	odd	odd
+		    odd		even	odd
+		    odd		odd	even
+so at most half of G* can be generated with a set of conjugate
+generators.
+
+Date: 24 May 1983 2218-EDT
+From: James.Saxe@CMU-CS-A (C410JS30)
+To: Cube-Lovers@MIT-MC
+Subject: Cubists do it . . .
+Message-Id: <24May83.221845.JS30@CMU-CS-A>
+
+. . . in over three billion positions.
+
+Date: 25 May 1983 1001-PDT
+Sender: OLE at SRI-CSL
+Subject: Anybody there?
+From: Ole at SRI-CSL (Ole J. Jacobsen)
+To: Cube-Lovers at MIT-MC
+Cc: Alan at MIT-MC
+Message-ID: <[SRI-CSL]25-May-83 10:01:13.OLE>
+
+Several months have gone by without a word from this list.
+Have we lost our interest (or have I been removed from the
+list)!??  What about the 5x5x5 that somebody reported having
+actually touched, anyone seen any on sale?
+ 
+Regards,
+              |-+-+-|
+              |O+L+E|
+              |O+L+E|
+              |O+L+E|
+              |-+-+-|
+
+Date: 25 May 1983 20:17 EDT
+From: David C. Plummer <DCP @ MIT-MC>
+Subject: Anybody there?
+To: Ole @ SRI-CSL
+cc: CUBE-LOVERS @ MIT-MC, ALAN @ MIT-MC
+
+    Date: 25 May 1983 1001-PDT
+    From: Ole at SRI-CSL (Ole J. Jacobsen)
+
+    Several months have gone by without a word from this list.
+    Have we lost our interest (or have I been removed from the
+    list)!??  
+I don't know that much of interest has happened.  Maybe I'll find
+a little time some year and try a couple things. 
+    What about the 5x5x5 that somebody reported having
+    actually touched, anyone seen any on sale?
+It will never be sold in mass.  MANY stores are stuck with 4x4x4s
+that nobody will buy.
+
+Date: Thu 26 May 83 09:27:30-PDT
+From: ISAACS@SRI-KL.ARPA
+Subject: anybody there; 5x5x5; circular
+To: cube-lovers@MIT-MC.ARPA
+
+  There doesn't seem to be much happening with the cube, but the (at least)
+3 newletters are still being published. Ideals "Rubik's Cube Newsletter" no.
+3 came, marked winter, 1983.  Mostly about contests, also an article on 
+computer cubing and the calendar cube.  Rubik's magazine from Hungary is 
+also on issue 3, with article on contests, other games and toys, and a little
+bit of mathematics.  Singmasters "Cubic Circular" is on issue 5/6 (phisically,
+the forth issur), and is the best of the lot mathematically.  He describes
+and talks some about rotating rings, about Tsukuda's square (and how to 
+solve it), generalized Hungarian rings, the Incredi-ball (equivalent
+to the corners of a Magic Dodecahedron without centers?? anyway, about
+2*10**25 positions), rotating rings of cubes and tetrahedra (STarburst, 
+Kaleido Puzzle, etc), some notes on the 4x4x4 (his suggested order:  2
+opposite face centers, say L and R; Pair up and place the F,C,B edge
+pairs on the L & R faces; D corners; Pair up FD & store them, then pair BD
+edges, then put these edge pairs in place; check parity of U corners - if
+odd, apply U; 3-cycle U edges to get UR & UL edge pairs;  EXAMINE, carefully,
+the parity of the 4 edge pieces at UF&UB - if odd, r2D2l'D2r2, which 4 cycles
+these edges; get all edges together and place; do U corners; do centers with
+3-cycles like [[r,b],U].  phew.  If people are interested, he gives 
+slightly more information on his method, also "Useful moves", and some other
+strategies taken from the literature.  He talks about "Evisceration", 
+that is, the principle of Duality, that if you replace capitals with small
+letters and vice versa, in any move sequence, you turn the cube inside out -
+corners become invisable centers, edges become face centers, etc.  Singmaster
+uses this to transfer knowledge of 3x3x3 to 4x4x4.  He guesses the minimum
+for God's Algorithm on the 4x4x4 to be about 44 "hand moves" or 66
+quarter turns.  (question, from DS: how should we count moves?  "r" is
+really 2 hand moves - Rr followed by R' - while Rr and even Rrl' could be
+counted as a single move.)  The circular talkes about Pyraminx, and gives
+God's Algorithm as between 8 and 17 moves; there was some work on that done
+in the Journal of Recreational Mathematics (a minimum solution was
+presented), but I can't find the issue right off hand.  Also a bunch of
+Pyraminx patterns are given.  There is an article on the prehistory of
+the cube,and a little on the legal problems.  Anyway, this parenthetical
+paragraph is way out of hand - if anybody wants more, or more organized,
+on the Circular, let me know.)
+    The 5x5x5:  Yes, I saw one and played with it (a very little bit) at
+Jerry Slocums' puzzle party.  I also got an add from Meffert for one, and
+have sent him my money, but it hasn't come yet.  Neither has my Skewb, for
+which I sent money half a year ago or so.
+    What else is new?  Well, nothing much.  Sales in the stores are slow,
+and the number of puzzles available has lessened.  Doug Engels rotating
+circles are ready for production, and his manufacturer is mainly waiting
+for the "right time" to release them.  (These are 2 overlapping rotating
+circles, with 3 piece overlap and 21 pieces all together.)  He is trying
+to decide between 2 colorings; if he choses the more difficult one, it 
+is a fairly hard puzzle, very cube like, but harder to get the already
+solved pieces "out of the way".  
+   Sorry this turned out so long and rambling - I was just going to 
+write a short note, and got carried away.  Happy puzzling.
+   -- Stan
+-------
+
+Date: 26 May 1983 23:44 EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  [DCP: 5x5 cubes]
+To: CUBE-LOVERS @ MIT-MC
+
+Date: Thursday, 26 May 1983  13:20-EDT
+From: DCP at SCRC-TENEX
+To:   Bernard S. Greenberg <BSG at SCRC-TENEX>
+cc:   ALAN, cmb at SCRC-TENEX
+Re:   5x5 cubes
+
+    Date: Thursday, 26 May 1983, 10:02-EDT
+    From: Bernard S. Greenberg <BSG@SCRC-TENEX>
+
+        From: David C. Plummer <DCP @ MIT-MC>
+    	What about the 5x5x5 that somebody reported having
+    	actually touched, anyone seen any on sale?
+        It will never be sold in mass.  
+    What, pray tell, are the details and source of this information?
+    As if there were anything I could do with it other than stare at it...
+A person at Games People Play believes Ideal will never produce a
+5x5x5 commercially.  He believes the only people that seriously
+bouhght the 4x4x4 were those that solved the 3x3x3 without a solution
+book.  He finally said he is stuck with many 4x4x4 that he fears he
+won't be able to get rid of.  The economics of making a 5x5x5 just
+don't sound very good.
+
+Date: Tue 31 May 83 09:52:44-PDT
+From: ISAACS@SRI-KL.ARPA
+Subject: economics
+To: cube-lovers@MIT-MC.ARPA
+
+     Meffert claimed in an early letter, that he could produce his strange
+products (Skewb, 5x5x5, and many others) if he had some not-to-big number
+of guaranteed sales, on the order, if I remember, of 1000 or so.  He has
+a "club", that is, we paid about $10 to him up front.  Then, when he is
+"ready" with something, he sends an order form; they cost about $20 or so.
+So far, he has done this with the Skewb, about 5 months ago, and the 5x5x5
+recently.  However, we have not actually received either of these yet.
+I talked to about 3 other people who ordered them and have not received 
+them.  So we don't actually know whether this system will work.  We know
+he has produced real, working prototypes, though, since we have seen them.
+    If they ever do come, I'll put up a message here.  (Assuming I still
+have access to this list.)
+  -- Stan
+-------
+
+Date:  1 June 1983 1939-EDT (Wednesday)
+From: Dan Hoey@CMU-CS-A
+To: cube-lovers@MIT-MC
+Subject: Eccentric Slabism, Qubic, and S&LM
+Message-Id: <01Jun83.193917.DH51@CMU-CS-A>
+
+I don't know whether Isaacs or Singmaster know just what a
+bombshell was contained in the Cubic Circular.  I am somewhat
+frightened at the possibilities.
+
+Section 1 discusses the history of metrics for N^3 puzzles and
+proposes a new one.  Section 2 describes new symmetries of the
+generators of the 4^3 puzzle.  Section 3 outlines a theory of
+symmetry and local maxima for the 4^3 puzzle.  Section 4 indicates
+directions for further work.
+
+
+1. Cutism, Slabism, and Eccentric Slabism
+=========================================
+
+Let's start with the question that was posed by Stan Isaacs in his
+message of 26 May:  what is a quarter-turn on the 4^3 or larger
+cube?  On the N^3 puzzle, each set of N-1 parallel ``cuts'' divides
+the cube into N ``slabs''.  There seem to be two straightforward
+metrics.  The Slabist defines a move to be a turn of one slab with
+respect to the rest of the cube.  The Cutist defines a move to be a
+turn of a connected part of the cube with respect to another
+connected part, the two parts being separated by a cut.  [In the
+terminology I used on 2 September 1982, the Slabist counts ``slice
+moves'' while the Cutist counts ``twist moves.'']
+
+I have heretofore espoused Cutist theory.  For one thing, it agrees
+with our current theories on the 3^3 in disallowing a turn of a
+center slice as a single move.  This seems to be a good idea, since
+the current quarter-turn theory has the advantage of conjugate
+generators, which it would lack if we allowed center-slice moves.
+[This is presumably not a problem for Singmaster, who allows the
+squared moves, which are not conjugate.]  Another reason for Cutism
+is that it makes it easier to equate positions that arise from a
+whole-cube move of the N^3.  A third reason is that it makes the
+parity hack (see my message of 1 June 1982) easier.  The last two
+reasons are for convenience only; the arguments can still be made
+in a Slabist formulation.
+
+But as I admitted, I solve the cube as a Slabist.  Slabs are
+probably convenient because they minimize the degree of each
+generator.  I casually dismissed this tawdry practicality until I
+was struck by Evisceration.
+
+In the course of my examination of Evisceration I have experienced
+an epiphany which converted me to Eccentric Slabism.  I now define
+a move to be a turn of any slab except one whose interior contains
+the center of the cube.  In other words, any slab except a center
+slice.
+
+At first glance, Eccentric Slabism looks like a hack, since there
+is an excluded slab only in the case of a puzzle of odd size.  I
+believe that the truth is more complicated, but the explanation is
+partly beyond the scope of this note and partly beyond my
+knowledge.  If you really want an answer I suggest you study
+tic-tac-toe.
+
+
+2. Evisceration, Inflection, and Exflection
+===========================================
+
+The (Eccentric) Slabist moves of the 4^3 puzzle form the 24-element
+set Q4={B,B',b,b',...,r'}, where upper-case refers to turning a
+side (an outslab move) and lower-case refers to turning the
+adjacent internal slab (an inslab move).  We consider these moves
+as generators of G4, the ``Theoretical Invisible Group'' [Invisible
+Revenge, 9 August 1982] in which the inslabs turn the eight stomach
+cubies like a 2^3 puzzle.  Thus two positions in G4 are equal if
+and only if all sixty-four pieces of the cube are in their home
+position and orientation.  [Actually, this is not quite the
+Theoretical Invisible Group, since we do not equate positions that
+differ by a whole-cube move.  I feel confident that the
+identification can be performed, but I will speak of the
+unidentified group here.]
+
+Consider the following permutations on Q4:
+
+Rotations:
+  I=(FRBL)(F'R'B'L')(frbl)(f'r'b'l'),
+  J=(FUBD)(F'U'B'D')(fubd)(f'u'b'd'),
+
+Reflection:
+  R=(FB')(F'B)(RL')(R'L)(UD')(U'D)(fb')(f'b)(rl')(r'l)(ud')(u'd),
+
+Evisceration:
+  V=(Ff)(F'f')(Bb)(B'b')(Rr)(R'r')(Ll)(L'l')(Uu)(U'u')(Dd)(D'd'),
+
+Inflection:
+  N=(fb')(f'b)(rl')(r'l)(ud')(u'd),
+
+Exflection:
+  X=(FB')(F'B)(RL')(R'L)(UD')(U'D).
+
+Permutations I, J, and R are familiar generators of M, the group of
+rotations and reflections of the cube.  Singmaster introduced
+Evisceration, which consists of swapping each outslab with the
+adjacent inslab.  I extend the list with Inflection and Exflection.
+Inflection consists in swapping each inslab with the inverse of its
+parallel inslab;  Exflection swaps each outslab with the inverse of
+its parallel outslab.
+
+It is well known that M is a group of automorphisms on G4.
+Singmaster observed that Evisceration is also an automorphism.  I
+observe that Inflection and Exflection are automorphisms, too.
+Thus M4, the 192-element group generated by <I,J,R,V,N,X> is a
+group of automorphisms on G4.  [Actually, since R=NX and X=VNV,
+M4=<I,J,V,N>.  The group M4 is also the automorphism group of the
+game of Qubic, or 4^3 tic-tac-toe.]
+
+I began to doubt Cutism when I noticed that M4 sometimes maps cut
+moves to pairs of cut moves.  I went home last night wondering why
+this might be so.  I nearly got to sleep before I realized the big
+news:  M4 is Q4-transitive!  Eccentric slabs are conjugate!
+
+
+3. Symmetry and Local Maxima
+============================
+
+This section relies especially heavily on ``Symmetry and Local
+Maxima'' [14 December 1980; available as file "MC:ALAN;CUBE S&LM"
+on MIT-MC].
+
+Following the argument in S&LM, consider the symmetry group of the
+Pons Asinorum (with the face-centers each half-twisted, as is
+customary).  We already know Pons is M-symmetric; by examination,
+the symmetry group of Pons also contains Evisceration and
+Inflection.  Thus Pons is M4-symmetric.  The result is that Pons is
+a local maximum in G4.  This is the first local maximum to be found
+in a close relative of Rubik's Revenge.
+
+It is not hard to show that we can dispense with fixing the Pons in
+space, and it is only slightly harder to carry out in general.
+Unfortunately, I see no way of showing that Pons is a local maximum
+if we ignore the stomach cubies without ignoring the corners.
+
+
+4. Open problems
+================
+
+This is a pretty random collection of directions for further work.
+Some of these were posed in the text.  The ones I think likely to be
+impossible are labeled (*).
+
+Conjecture:  The automorphism group of the Eccentric Slabs of the
+N^3 puzzle is the same as the automorphism group of N^3
+tic-tac-toe.  I don't believe this has been rigorously done for
+any N>1.
+
+Stronger conjecture:  The automorphism groups of the N^D puzzle and
+N^D tic-tac-toe are the same.  (Hint: There are at least two
+definitions of the N^D puzzle.  I think both work.)
+
+Extension:  The relation between the automorphism groups is too
+amazing to be accidental.  What is really going on here?
+
+Search:  There is published literature on tic-tac-toe
+automorphisms; in particular the group of automorphisms of N^D
+tic-tac-toe is well known.  I seem to recall seeing some horribly
+theoretical work, approaching the problem from the standpoint of
+algebraic geometry or some such.  At that time I settled for
+scanning the results.  Now I have questions that need a general
+treatment.  If the world's leading expert on Qubic has his
+bibliography on line, I think there's a reference I'd appreciate.
+Actually, I'll take references from anybody and send the
+compilation to any requestors.
+
+Query:  Why must slabism be eccentric?
+
+Query:  Can Cutism be saved?  Are cut moves conjugate in some sense?
+
+Easy extension: Equate positions that differ by whole-cube moves.
+
+Hard extensions (*): Equate positions that differ only internally.
+Equate positions that differ only in the permutation of
+like-colored face cubies.
+
+Problem:  Prove that the Pons requires 12 quarter-turns in the 4^3
+puzzle.  Ditto for 12 qtw in the N^3 puzzle(*?).  Prove or disprove
+for 4D qtw in the N^D puzzle (*).
+
+Problem:  Find the Q4-transitive subgroups of M4, then list all the
+Q4-symmetric local maxima in the 4^3.
+
+Problem:  Describe all symmetric local maxima of the N^3(*), or
+place useful conditions on them.
+
+Problem:  Demonstrate an infinite class of local maxima (Ponses?).
+
+Final query:  Did someone ask if Cubism was dead?
+
+	Dan Hoey
+	HOEY@CMUA.ARPA
+
+
+Date: Wed 22 Jun 83 09:54:45-PDT
+From: ISAACS@SRI-KL.ARPA
+Subject: 5x5x5 and "bricks"
+To: cube-lovers@MIT-MC.ARPA
+
+    I got my 5x5x5 today, from Meffert in Hong Kong.  Whether they will 
+appear in regular (puzzle) stores, I don't know, but I would assume they will
+be available from him.  His address is 
+         Puzzles Club
+         P.O.Box 31008
+         Causeway Bay
+         Hong Kong.
+    I haven't had a chance to do much with it yet; it seems well and strongly
+made.  I have not taken it apart because I don't know how to do it safely.
+The corners seem to have the usual flanges.  The center edges seem to have
+a very deep tab, perhaps to go completely through the second layer.  The
+non-center middle pieces seem to be some kind of "caps" over the edge
+extensions.  That's all I can tell from "peeking" in the cracks.
+    One of the suggestions in Singmaster's "Cubic Circular" was to take
+a regular 3x3x3 and tape over some cracks to limit the movement.  The idea
+is to take each pair of cubies and tape them together into one "brick", 2x1x1.
+If you do it right, it makes a very interesting variation.  For taping, I used
+labels from another cube; that way the colors can be make to look right. 
+The pattern I used is as follows:
+   Choose a corner.  It will be the only single cubie (except for a center).
+Make the other 2 cubies along each edge projecting from the chosen corner,
+into one brick (by putting tape on both cracks separating the cubies).
+Now, in each of the 3 faces bordering the chosen corner are 4 untaped
+facies in a square.  Tape to make 2 adjacent bricks (don't forget the
+other side of the edge bricks).  Note that when you have done the first
+face, you will have 3 parallel bricks; the other 2 faces should have
+their parallel bricks with the "same handedness" - If you look down from
+the chosen corner, the 3 faces should have rotational symmetry. (I haven't
+tried an irregular pattern yet; it might have different properties than
+this one).  Anyway, all that is left is a 2x2x2 sub-cube, diagonally
+across from the original chosen corner.  Picture that as 4 1x1x2 bricks
+piled with one pair crossways from the other.  One brick, of course, includes
+the very center of the cube (invisible), and will leave the only other untaped
+facie - namely one center.  Which one is the center doesn't matter, but I
+think there is a clockwise/counter-clockwise (relative to the outer handedness)
+choice here.  
+    When all that is done, you will have a very interesting new puzzle. Any
+twist must include the chosen corner!  Home position is easy to recognize -
+it is when the chosen corner is back in its original place, and the bricks
+around it are in their positions (not necessarily with the correct colors
+together).  I have not solved it yet, but it seems that the sub-cube is
+both hard to mix up, and easy to fix once you have.  It looks as if all the
+interesting moves can be done with just the 3 faces surrounding the chosen
+corner.
+   Have fun..
+     -- Stan
+-------
+
+Date:     23 Jun 83 12:20:43-EDT (Thu)
+From: Stuart Stirling <silver.emory@Rand-Relay>
+Return-Path: <Silver%emory.Emory@Rand-Relay>
+Subject:  Singmaster's "Cubic Circular"
+To: cube-lovers@Mc
+Cc: silver.Emory@Rand-Relay
+Via:  Emory; 23 Jun 83 23:31-PDT
+
+Where is this available?
+
+	Stuart Stirling			{sb1,sb6,msdc,gatech}!emory!silver
+	Math and Computer Science	silver.emory@rand-relay
+	Emory University
+	Atlanta, GA 30322 		404/329-5637
+
+Date: 27 June 1983 19:04 EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  Bizarre Bricks
+To: CUBE-LOVERS @ MIT-MC
+
+A bizarre variant of the "bricks" described by Isaacs last week is
+currently sitting on the front desk of the SIPB office at MIT.  Imagine
+that you took three cubies along any edge of a cube and welded them
+together (perhaps by taping over the cracks as Singmaster suggests).  Now
+imagine that you perform the same mutilation on a second cube.  Now imagine
+that you arrange to \share/ the same 1 x 1 x 3 cubie between the two cubes.
+The resulting arrangement looks like this from above:
+
+XXX
+XXX
+XXXXX
+  XXX
+  XXX
+
+A moment's thought should convince you that sharing the 1 x 1 x 3 cubie has
+done \nothing/ to increase the difficulty of the puzzle.  Amazing what
+lengths puzzle manufacturers will go to to try and squeeze a few more bucks
+out of the Cube Craze.
+
+Date: Tue 28 Jun 83 09:04:29-PDT
+From: ISAACS@SRI-KL.ARPA
+Subject: Cubic Circular address
+To: silver.emory@RAND-RELAY.ARPA
+cc: cube-lovers@MIT-MC.ARPA
+
+   The address for the "Cubic Circular" is indeed that of David Singmaster:
+     David Singmaster
+     87 Rodenhurst Road
+     London, SW4 8AF  ENGLAND.
+   Hope this helps.
+     -- Stan
+-------
+
+Date: Thu 30 Jun 83 10:07:06-PDT
+From: ISAACS@SRI-KL.ARPA
+Subject: double cube
+To: alan@MIT-MC.ARPA
+cc: cube-lovers@MIT-MC.ARPA
+
+  I've heard of the double cube - do you have any idea where to buy one?
+Another strange cube I've seen, is a normal 3x3x3 with extra cubies glued on
+three faces so that it looks like a 4x4x4; of course, it twists in a very
+lopsided manner.  The main problem in making one (which I have not solved)
+is how to grind or cut the flanges off cubies before gluing.  Without
+equipment, can anyone think of a good, practical way to do this?
+ -- Stan
+-------
+
+Date: 30 June 1983 20:47 EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  [Barry Margolin: double vision]
+To: CUBE-LOVERS @ MIT-MC
+
+Date: 30 June 1983 16:57 edt
+From: Barry Margolin at MIT-MULTICS
+To:   Alan Bawden <ALAN>
+Re:   double vision
+
+Well, I got it at the Harrod's department store in London (they say you
+can buy ANYTHING at Harrod's).  I was in Games People Play last week and
+didn't see it, so maybe it hasn't gotten to this country yet.
+
+Sorry I can't be of more help.
+                                        barmar
+
+Date: 21 July 1983 1450-PDT (Thursday)
+From: cline at AEROSPACE (Ken Cline)
+Subject: put me on your mailing list!
+To: cube-lovers at mit-mc
+
+  Please include me (CLINE@AEROSPACE) in your Rubik's Cube mailing-list.
+My address will change in September to SCGVAXD!4CCVAX!KCLINE@CIT-VAX,
+but I will let you know when this occurs.
+
+			Thank you,
+			Ken Cline
+
+
+Date: Monday, 21 November 1983  10:08-EST
+To:   cube-lovers at mc
+From: BSG
+Subject: Meffert cube availability
+
+Someone asked me from afar where to get the hairy Meffert
+cube-like things.  It was a long time ago that I ordered a
+five-cube from somewhere in Los Angeles.  Would somebody care to
+repeat the name and address of that store, or some other stores?
+Thank you.
+
+Date: 21 November 1983 20:30 EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  Rubik's cube cornered
+To: CUBE-LOVERS @ MIT-MC
+
+>From mit-eddie!genrad!decvax!dartvax!andyb Tue Oct 25 00:03:36 1983
+Relay-Version: version B 2.10.1 6/24/83; site mit-vax.UUCP
+Path: mit-vax!mit-eddie!genrad!decvax!dartvax!andyb
+From: andyb@dartvax.UUCP
+Newsgroups: net.puzzle
+Subject: Rubik's cube cornered
+Message-ID: <307@dartvax.UUCP>
+Date: Tue, 25-Oct-83 00:03:36 EDT
+Article-I.D.: dartvax.307
+Posted: Tue Oct 25 00:03:36 1983
+Date-Received: Tue, 25-Oct-83 08:53:25 EDT
+Lines: 7
+
+It is possible to solve the corners of the Rubik's Cube in no more
+than 11 turns.  Over 4/5 of all possible patterns can be solved in
+9 turns or fewer, but over half take a full 9 turns.  Ten turns are
+enough to solve more than 99.9% of all scrambled states.  (Only
+2,644 states require 11 turns).
+ 
+This from L. John Kelley, solver of the Magic Pyramid.
+
+Date: 23 November 1983 17:01 EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  [genrad!decvax!dartvax!andyb: Rubik's cube cornered]
+To: CUBE-LOVERS @ MIT-MC
+
+Date: 23 Nov 1983 06:56:09-EST
+From: genrad!decvax!dartvax!andyb at mit-eddie,
+Received: by decvax.UUCP (4.12/4.2)
+	id AA26306; Wed, 23 Nov 83 03:10:45 est
+Date: Wed, 23 Nov 83 03:10:45 est
+From: decvax!dartvax!andyb
+Message-Id: <8311230810.AA26306@decvax.UUCP>
+To: decvax!genrad!mit-eddie!ALAN@MIT-MC, genrad!decvax!dartvax!andyb@MIT-EDDIE
+Subject: Rubik's cube cornered
+Cc: ALAN@MIT-MC
+
+Alan:
+
+Feel free to rebroadcast any of this discussion to the cube-lovers list.
+(Could you enroll me on the list, also?)  
+
+Both solutions were generated by "brute force", using a fairly short PL1
+program running on a VAX.  The solutions are tables which express the
+information "if the pyramid/cube's state is X, the best move is Y" for all
+possible states.  In that sense, they are optimal solutions, but if you wanted
+to know the best solution for any particular state, you would have to carry the
+entire table around with you.  Perhaps we could publish the list :-)   
+ 
+The Magic Pyramid is the one sold under the name "Pyraminx" -- it's the 
+tetrahedron that rotates in only 4 planes.
+ 
+The cube solution is for corners only, with no reference to centers or edges.
+You could think of it as a complete solution to the "Pocket Cube", which is
+a 2x2x2 cube.
+ 
+Glad to help.
+                             Andy Behrens (& L. Kelley)
+                             decvax!dartvax!andyb
+
+Date: Sat 26 Nov 83 22:35:59-EST
+From: Tai <Jin@COLUMBIA-20.ARPA>
+Subject: cube solvers
+To: cube-lovers@MIT-MC.ARPA
+cc: Jin@COLUMBIA-20.ARPA
+
+
+hi, are there any programs out there that solve the cube?  i would like
+to get a copy of the source if possible.  also, are there any general
+methods for solving the cube?
+
+thanks...tai
+-------
+
+Date: 29 February 1984 23:08-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  [CL.BOYER: A Programming Language for Group Theory (Dept. of Math)]
+To: CUBE-LOVERS @ MIT-MC
+
+Some of the group theory hackers amoung us might be interested in this
+abstract.  Of course the talk has already happened, but perhaps one of you
+knows more about this?
+
+Date: Sun 26 Feb 84 17:06:23-CST
+From: Bob Boyer <CL.BOYER at UTEXAS-20.ARPA>
+To:   AIList
+Re:   A Programming Language for Group Theory (Dept. of Math)
+
+        [Forwarded from the UTexas-20 bboard by Laws@SRI-AI.]
+
+            DEPARTMENT OF MATHEMATICS COLLOQUIUM
+          A Programming Language for Group Theory
+                        John Cannon
+        University of Sydney and Rutgers University
+                 Monday, February 27, 4pm
+
+     The past 25 years has seen the emergence of a small but vigorous branch of
+group theory which is concerned with the discovery and implementation of
+algorithms for computing structural information about both finite and infinite
+groups.  These techniques have now reached the stage where they are finding
+increasing use both in group theory research and in its applications.  In order
+to make these techniques more generally available, I have undertaken the
+development of what in effect is an expert system for group theory.
+
+     Major components of the system include a high-level user language (having
+a Pascal-like syntax) and an extensive library of group theory algorithms.  The
+system breaks new ground in that it permits efficient computation with a range
+of different types of algebraic structures, sets, sequences, and mappings.
+Although the system has only recently been released, already it has been
+applied to problems in topology, algebraic number theory, geometry, graphs
+theory, mathematical crystalography, solid state physics, numerical analysis
+and computational complexity as well as to problems in group theory itself.
+
+Received: From ti-csl.csnet by csnet-relay;  25 Jun 84 20:44 EDT
+Date:     Mon, 25 Jun 84 14:30 CST
+From:     Gil Gamesh <dnichols%ti-csl.csnet@csnet-relay.arpa>
+To:       cube-lovers@mit-mc.arpa
+Subject:  Recent Activity?
+
+Is this mailing list still alive? Does anyone know of any
+recent activity in the cube world? Are there still any
+Cube Newsletters that anyone knows of? Has anyone ever seen
+any of the many puzzles I read about in places such as 'Scientific American' and 'Omni', ex.
+the Skewb, the Double Pyramid, the 5x5x5 cube, etc.?
+
+Dan Nichols
+Dnichols.ti-csl@csnet-relay
+
+Date: Tue 26 Jun 84 11:00:18-PDT
+From: ISAACS@SRI-KL.ARPA
+Subject: cubes dead?
+To: cube-lovers@MIT-MC.ARPA
+
+I don't see much about cubes these days.  And, as a puzzle collector, I'm still
+looking.  Singmaster and Ideal have both discontinued their newsletters; 
+however, the Hungarian "Rubics Magazine" still is being published.  It has
+broadened somewhat to talk more about puzzles in general.  I also found last
+Saturday, that there is a childrens cartoon about Rubics Cube - in fact
+the cube is the hero.  It is truly awful.
+   As Alan says, most of the objects mentionsed have been seen.  But they
+are hard to get nowadays.  Meffert, in Hong Kong, is silent.  I ordered
+a dozen or so 5x5x5's more than 6 months ago, and have yet to hear anything.
+Or get my money back.  And he never sent me any skewbs.  
+  Well, it was an exciting couple of years in the puzzle world; now, I guess,
+things are more normal.  Stores no longer have puzzle sections, and I have to
+write to specialty places to find new puzzles.  For me, wood puzzles are back
+in.  I've been digging up old puzzle patents, and hope to find someone to make
+some of the puzzles described for me.
+  -- Stan Isaacs
+    (isaacs@hplabs)
+-------
+
+Received: from SCRC-CONCORD by SCRC-STONY-BROOK via CHAOS with CHAOS-MAIL id 54973; Tue 26-Jun-84 10:22:30-EDT
+Date: Tue, 26 Jun 84 10:20 EDT
+From: "Bernard S. Greenberg" <BSG@SCRC-QUABBIN.ARPA>
+Subject: Recent Activity?
+To: ALAN@MIT-MC.ARPA
+cc: cube-lovers@MIT-MC.ARPA
+In-Reply-To: The message of 25 Jun 84 23:23-EDT from Alan Bawden <ALAN at MIT-MC>
+Message-ID: <840626102050.3.BSG@CONCORD.SCRC.Symbolics>
+
+    Date: 25 June 1984 23:23-EDT
+    From: Alan Bawden <ALAN @ MIT-MC>
+
+    Date:     Mon, 25 Jun 84 14:30 CST
+    From:     Gil Gamesh <dnichols%ti-csl.csnet@csnet-relay.arpa>
+    Subject:  Recent Activity?
+
+    Is this mailing list still alive? Does anyone know of any recent activity
+    in the cube world?
+More significantly, has anyone heard of any progress in the
+important theoretical problems (God's number/algorithm)?
+
+Date: 28 June 1984 00:17-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  The Cube meets Massive Parallelism
+To: CUBE-LOVERS @ MIT-MC
+cc: CM-I @ MIT-MC
+In-reply-to: Msg of Tue 26 Jun 84 10:20 EDT from Bernard S. Greenberg <BSG at SCRC-QUABBIN.ARPA>
+
+Since I spend most of my time these days thinking about designing and
+programming massively parallel computers, it occured to me to think about
+applying such machines to exploring the Cube's Group.  Here are some
+preliminary thoughts.
+
+When we say "massively parallel" we are talking at least a quarter million
+simple processors.  This is enough processors to give all of the positions
+5 or fewer quarter twists away from home their own processor.  A million
+processors would be enough to get up to 6 Qs, but lets not push our luck.
+Given a machine like the MIT Connection Machine we could set up a database
+in which every processor representing a configuration knew the addresses ot
+the 12 other processors representing its 12 closest neighbors, in almost no
+time at all.  (Processors 5 Qs away from home would have null pointers for
+their unrepresented 6 Q neighbors.)  A conservative statement would be
+that operations like generating a list of all identities of length 10 or
+less (which has previously taken us hours to accomplish) could be done so
+fast that the machine could generate output faster than you could read it.
+
+Since this is all so absurdly easy, there must be ways to go beyond this to
+generate significant new results using this (promised) new kind of
+hardware.  Perhaps Dave Christman, who is both a cube hacker, and a
+designer of algorithms for massively parallel machines, could be persuaded
+to devote some spare cycles to figuring out ways to brute-force the Cube
+using such a machine.
+
+Date: Fri 13 Jul 84 15:24:23-PDT
+From: Micheal Hewett <HEWETT@SU-SCORE.ARPA>
+Subject: Please add me to your mailing list
+To: cube-lovers@MIT-MC.ARPA
+
+Thanks.
+
+Mike Hewett    (HEWETT@SU-SCORE.ARPA)
+-------
+
+Date: Tue 24 Jul 84 15:30:18-PDT
+From: Haym Hirsh <HAYM@SU-SCORE.ARPA>
+Subject: God's number
+To: cube-lovers@MIT-MC.ARPA
+
+Can anyone verify a rumor - that some Princeton student, as an
+undergraduate thesis, solved the problem of how far from start one
+can get (i.e., the longest sequence God's algorithm would give for
+any position)?  The number I heard was 26.
+
+Haym
+-------
+
+Date: 1 Aug 1984 11:57-EDT
+From: Dan Hoey <hoey@NRL-AIC>
+Subject: Pocket cube program
+To: cube-lovers at mit-mc
+
+The UNIX-SOURCES@BRL mailing list recently forwarded this note from
+Usenet.
+
+    Date:     Tue, 31 Jul 84 13:47:22 EDT
+    From:     news@BRL-TGR.ARPA
+    Subject:  /usr/spool/news/net/sources/397
+
+    Path: brl-tgr!seismo!hao!hplabs!zehntel!ihnp4!ihnet!eklhad
+    From: eklhad@ihnet.UUCP (K. A. Dahlke)
+    Subject: solve the 2x2x2 Rubix cube in a minimum number of moves
+    Date: Mon, 30-Jul-84 10:49:48 EDT
+    Article-I.D.: ihnet.142
+    Organization: AT&T Bell Labs, Naperville, IL
+
+    After solving the Rubix cube 4 years ago, I turned my attention to
+    more interesting (and more difficult) questions.
+    How can one find the minimum path solution for an arbitrary position?
+    How far away is the farthest positions?
+    Is there one position diametrically opposed to start,
+    or does it fan out into billions?
+    Recently, I have started playing again, and have made some progress.
+    Here is a computer program (C/unix) which solves the 2x2x2 cube
+    in a minimum number of moves.
+    The 2 cube is not as common as the 3 cube, but it is commercially
+    available.
+    If you only have a 3 cube (standard), just ignore the sides and centers,
+    and use the corners.
+    This effectively simulates a 2 cube.
+    Thanks to ATT-BL for the use of their computing facilities.
+    Later versions may come, if i am ambitious.
+    Unfortunately, my program cannot be expanded to handle the 3 cube.
+    Nobody has that much memory/CPU time.
+    I will have to come up with something better.
+    Feel free to contact me with any ideas about this subject.
+
+----------------------------------------------------------------
+
+The note is followed by about 1000 lines of c code that I can make
+available if you want it.
+
+Unfortunately, the program seems to believe that there are 870 * 729 =
+634230 positions of the 2^3, while assiduous cube lovers realize the
+number is actually (7! / 2) * 3^6 = 2520 * 729 = 1837080 positions.
+The number 870 = 29 * 30 is strange.  I guess it is an approximation of
+6! + 5! + 4! + 3! + 2! = 872, since the code for encoding a position as
+an integer contains a table of those factorials.
+
+Dan
+
+Date: 7 Aug 1984 19:24-EDT
+From: Dan Hoey <hoey@NRL-AIC>
+Subject: The pocket cube: correction, calculation, and conjectures
+To: cube-lovers at MIT-MC
+
+Well, maybe this list is dead after all, if I can tell you there are
+(7!/2)(3^6) positions of the pocket cube, and have it stand for a week.
+The correct number is of course (7!)(3^6) = 3674160, since the
+generators are odd.
+
+But not being one to eat crow with a straight face, I have hacked the
+good hack, so I can give you the exact number P(N) of pocket cube
+positions exactly N quarter-turns from solved.  (This was done in
+September 1981 for the half-twist metric; see the archives.)  I have
+also computed the number L(N) of local maxima at each distance.  These
+numbers are given below.
+
+         N     P(N)     L(N)	
+         0        1        0
+         1        6        0
+         2       27        0
+         3      120        0
+         4      534        0
+         5     2256        0
+         6     8969        0
+         7    33058       16
+         8   114149       53
+         9   360508      260
+        10   930588     1460
+        11  1350852    34088
+        12   782536   402260
+        13    90280    88636
+        14      276      276
+
+An approach for dealing with these numbers (suggested to me by Dale
+Peterson) is to form the Poincare polynomial
+
+         p(x) = SUM P(i) x^i
+                 i
+
+in hopes that it can be factored nicely.  Unfortunately, this doesn't
+work out--with the exception of the obvious factor (x+1), p(x) is
+irreducible.  I have also tried to decompose p(x) using the power
+             (1+x)^2
+series for ------------, which agrees with the first five terms of p(x)
+           3 - 2(1+x)^2
+due to the lack of non-trivial identities.  I haven't found any good
+ways of expressing p(x), but there may be something there.  The point
+of all of this is that it could conceivably lead to a conjecture--or
+even a derivation--of God's number for the 3^3 puzzle.
+
+I might pass along another fuzzy recollection from a year and a half
+ago, in hopes that it is more informative than incorrect.  Dale
+mentioned another classical method for dealing with group diameters.
+It seems there is a class of groups, called reflection groups, for
+which tight diameter bounds can be derived.  A reflection group is a
+group of matrices with eigenvalues of plus and minus one.  Some
+properties generalize to pseudo-reflection groups, where the
+eigenvalues all have complex magnitude one.  We managed to construct
+isomorphisms between the 3^3 edge group and a reflection group, and
+between the corner group and a pseudo-reflection group.  As I recall,
+he was fairly certain that the full cube group did not qualify, but
+that was beyond my depth.
+
+So if you think cubes are dead, remember it's not because the
+results are all in.
+
+Dan
+
+Date: 20 Aug 1984 4:34-EDT
+From: Dan Hoey <hoey@NRL-AIC>
+Subject: The pocket cube and corners of the full cube
+To: cube-lovers at mc
+Cc: umcp-cs!seismo!ihnp4!ihnet!eklhad at NRL-AIC
+
+Karl Dahlke, the author of the pocket cube program I mentioned on 1
+August, sent me a note about the appearance of the unusual constant 870
+in his program.  It turns out that the program is correct, and the
+constant arises in an interesting way.
+
+Recall that the pocket cube has 729 orientations and 5040 permutations
+of the pieces.  Dahlke had noticed that the ``reflections and
+rotations'' of a position need not be stored, since they are the same
+distance from start.  By reflections and rotations, he means the
+S-conjugates, where S is the six-element symmetry group of the pocket
+cube with one corner fixed.
+
+It turns out that the pocket cube has 2 permutations with a six-element
+symmetry group, 16 permutations with a three-element symmetry group,
+138 permutations with a two-element symmetry group, and 4884
+permutations with a one-element symmetry group.  Thus the number of
+permutations that are distinct up to S-conjugacy is 2 + 16/2 + 138/3 +
+4884/6 = 870.
+
+This discussion of symmetry recalls a question I have meant to propose
+to Cube-Lovers for some time:  How many positions are there in Rubik's
+Cube?  We know from Ideal that the number is somewhat over three
+billion.  Most cube lovers will tell you a number of about 43
+quintillion.  But I really don't see why we should count twelve
+distinct positions at one quarter-twist from solved--all twelve are
+essentially the same position.  So the question, suitably rephrased, is
+of the number of positions that are distinct up to conjugacy in M, the
+48-element symmetry group of the cube.  I think this is an interesting
+question, but I don't see any particularly easy way of answering it.
+My best guess is that it involves a case-by-case analysis of the 98
+subgroups of M, or at least the 33 conjugacy classes of those
+subgroups.  In ``Symmetry and Local Maxima'', Jim Saxe and I examined
+five of the classes, which we called M, C, AM, H, and T.
+
+Even finding the numbers for the pocket cube is a little tricky.  If we
+limit ourselves to symmetry in S, I believe the pocket cube has 2
+positions with a six-element symmetry group, 160 positions with a
+three-element symmetry group, 3882 positions with a two-element
+symmetry group, and 3670116 positions with a one-element symmetry
+group, for 613062 positions distinct up to S-conjugacy.  But the
+numbers for M-conjugacy are still elusive; I am not even sure how to
+deal with factoring out whole-cube moves in the analysis.  I hope to
+find time to write a program for it.
+
+I expanded my pocket cube program to deal with the corner group of
+Rubik's cube.  This group is 24 times as large as the group of the
+pocket cube, having 3^7 * 8! = 88179840 elements.  The number of
+elements P(N) and local maxima L(N) at each (quarter-twist) distance N
+from solved are given below.
+
+                 N         P(N)        L(N)
+                 0            1           0
+                 1           12           0
+                 2          114           0
+                 3          924           0
+                 4         6539           0
+                 5        39528           0
+                 6       199926         114
+                 7       806136         600
+                 8      2761740       17916
+                 9      8656152       10200
+                10     22334112       35040
+                11     32420448      818112
+                12     18780864     9654240
+                13      2166720     2127264
+                14         6624        6624
+
+The alert reader will notice that rows 10 through 14 contain values
+exactly 24 times as large as those for the pocket cube.  This is not
+surprising, given that the groups are identical except for the position
+of the entire assembly in space, and each generator of the corner cube
+is identical to the inverse of the corresponding generator for the
+opposite face except for the whole-cube position.  Thus when solving a
+corner-cube position at 10 qtw or more from solved, it can be solved as
+a pocket cube, making the choice between opposite faces in such a way
+that the whole-cube position comes out right with no extra moves.
+
+Dan
+
+Date: 22 Aug 1984 18:06-EDT
+From: Dan Hoey <hoey@NRL-AIC>
+Subject: An outer automorphism of the cube group
+To: cube-lovers at mit-mc
+
+If you have a Rubik's cube where all the edges flip on each
+quarter-turn, you can solve it by using bifocals when it's odd.
+
+I noticed this while drawing a Hasse diagram of the subgroups of M.  It
+turns out that M has a similar automorphism, where the odd elements are
+reflected through the center of the cube.
+
+If anyone wants the Hasse diagram, I can send it--it takes about 30
+minutes to draw in the lines, for which directions are included.
+
+If you know whether there are other outer automorphisms of M, please
+let me know.
+
+Dan
+
+Date: Fri, 7 Sep 84  9:16:44 EDT
+From: Michael Frishkopf <mfrishko@BBNCCY.ARPA>
+Subject: list request
+To: CUBE-LOVERS@mit-mc.arpa
+Cc: mfrishkopf@BBNCCY.ARPA
+
+Dear sir/ms:
+
+Please place me on your arpa mailing list:
+
+mfrishkopf@bbnccy
+    
+Thank you,
+Michael Frishkopf
+
+
+Received: by gyre.ARPA (4.12/4.7)
+	id AA09303; Mon, 1 Oct 84 21:10:44 edt
+Date: Mon, 1 Oct 84 21:10:44 edt
+From: Rehmi Post <rehmi@gyre>
+Message-Id: <8410020110.AA09303@gyre.ARPA>
+To: cube-lovers@mc
+Subject: Archives
+
+Does anyone have copies (partial or otherwise) of the cube-lovers mailing
+list? I need it as a reference generator/thought provoker, and if I could
+ftp it all from someone, it'd be nice...
+
+			- rehmi at maryland
+
+Date: 5 October 1984 17:07-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  Moleculon wins a round!
+To: CUBE-LOVERS @ MIT-MC
+
+From today's Boston Globe:
+
+DOVER, Del.  ---  A massachusetts firm that claimed it had the first patent
+on the Rubik's cube puzzle has won a patent infringement suit against CBS
+Inc. and its subsidiary Ideal Toy Corp., which manufactures the puzzle.  US
+District Court Judge Walter Stapleton issued the ruling Tuesday, validating
+the patent held by Moleculon Research Corp. of Cambridge, Mass.  The ruling
+said CBS infringed on the patent with its various Rubik's cube products.
+Moleculon's attorney, Robert Perry, said if no appeal is filed, the case
+would continue to a second trial to determine monetary damages.  Moleculon
+is seeking $60 million in damages and an undetermined amount in profits
+from Rubik's cube and related sales.
+
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 08 OCT 84 08:57:05 PDT
+Date: 8 Oct 84 08:58:06 PDT (Monday)
+From: Lynn.es@XEROX.ARPA
+Subject: Re: Moleculon wins a round!
+In-reply-to: ALAN's message of 5 Oct 84 18:01 EDT
+To: Cube-Lovers@MIT-MC.ARPA
+cc: Lynn.es@XEROX.ARPA
+
+A similar article in the LA Times went on to say that the fellow at
+Moleculon had patented a 2x2 cube held together with magnets, but
+mention was made in the patent of larger cubes and mechanical linkages.
+How specific the mentions were is not clear.  He was also quoted to the
+effect that they do not dispute that Rubik invented the present cube,
+but it infringes on their patent.  Moleculon apparently offered to sell
+rights to their toy to Ideal before Rubik and were turned down.
+/Don Lynn
+
+Received: from SCRC-DUPAGE by SCRC-STONY-BROOK via CHAOS with CHAOS-MAIL id 185428; Tue 26-Feb-85 11:09:54-EST
+Date: Tue, 26 Feb 85 11:00 EST
+From: Richard Pavelle <RP@SCRC-QUABBIN.ARPA>
+Subject: cube-freak
+To: cube-lovers@MIT-MC.ARPA
+cc: rp@SCRC-QUABBIN.ARPA
+Message-ID: <850226110043.5.RP@DUPAGE.SCRC.Symbolics.COM>
+
+I received a letter from
+
+Georges Helm
+76, Bomicht
+4936 Bascharage
+Luxembourg
+
+who seems to have outdone most of us. He has collected 14000
+pages of material on the 3x3 and its variations and has composed
+a bibliography on them. He would like to communicate with anyone
+who is still interested and is willing to swap material. 
+
+Received: from Gamay.ms by ArpaGateway.ms ; 01 MAR 85 08:55:07 PST
+Date: 1 Mar 85 08:54:47 PST (Friday)
+From: Hoffman.es@XEROX.ARPA
+Subject: 5-by-5-by-5
+To: Cube-Lovers@MIT-MC.ARPA
+cc: Hoffman.es@XEROX.ARPA
+
+Anyone have a written solution algorithm for the 5-by-5-by-5 cube?  I
+got mine a year and a half or so ago from Meffert in Hong Kong by mail
+order.  After a couple of weeks of just trying out "pretty patterns" on
+it, I finally got up the nerve to mess it up.  Well, of course, it's
+never been altogether solved since.  (I was never a great cube wizard.)
+It sits on display as the base of my cube tower, with those few nagging
+cubies out of place.  I haven't touched it in many months.
+
+--Rodney Hoffman
+
+Received: from SCRC-NEPONSET by SCRC-VALLECITO via CHAOS with CHAOS-MAIL id 371; Fri 1-Mar-85 17:16:32-EST
+Date: Fri, 1 Mar 85 17:16 EST
+From: David C. Plummer in disguise <DCP@SCRC-QUABBIN.ARPA>
+Subject: 5-by-5-by-5
+To: Hoffman.es@XEROX.ARPA, Cube-Lovers@MIT-MC.ARPA
+In-Reply-To: The message of 1 Mar 85 11:54-EST from Hoffman.es@XEROX.ARPA
+Message-ID: <850301171626.2.NFEP@NEPONSET.SCRC.Symbolics.COM>
+
+    Date: 1 Mar 85 08:54:47 PST (Friday)
+    From: Hoffman.es@XEROX.ARPA
+
+    Anyone have a written solution algorithm for the 5-by-5-by-5 cube?  I
+    got mine a year and a half or so ago from Meffert in Hong Kong by mail
+    order.  After a couple of weeks of just trying out "pretty patterns" on
+    it, I finally got up the nerve to mess it up.  Well, of course, it's
+    never been altogether solved since.  (I was never a great cube wizard.)
+    It sits on display as the base of my cube tower, with those few nagging
+    cubies out of place.  I haven't touched it in many months.
+
+It took me about half an hour to solve the 4x4x4 by generalizing
+techniques for the 3x3x3.  I think many of us convinced ourselves that
+the 5x5x5 is just a similar extension.  The generalization is one of
+those "Aha!" insights. 
+
+Unfortunately for me, I've never seen a 5x5x5 to prove myself.
+
+Received: from WISCVM.ARPA by MIT-MC.ARPA; 11 MAR 85 23:00:01 EST
+Received: from (ENG130)BOSTONU.BITNET by WISCVM.ARPA on 03/11/85 at
+  21:58:19 CST
+Date: 11 Mar 85   22:51 EST
+From:      <eng130%BOSTONU.bitnet@WISCVM.ARPA>
+Subject: Please remove me from this list
+To:  cube-lovers@mit-mc
+
+-----
+  Please take me off this mailing list.  Thanks alot.
+-----
+
+Received: from csnet-relay by MIT-MC.ARPA;  3 APR 85 17:23:55 EST
+Received: from ti-csl by csnet-relay.csnet id aa14999; 3 Apr 85 17:00 EST
+Date:  3 Apr 1985 1028-CST
+From: Dan <NICHOLS%ti-csl.csnet@csnet-relay.arpa>
+Subject: articles help
+To: cube-lovers@mit-mc.ARPA
+Received: from csl60 by ti-csl; Wed, 3 Apr 85 13:41 CST
+
+
+I would very much like to obtain a copy of the following
+articles. If anyone can send me a copy or give me more
+information about where and how to obtain them, I will
+really appreciate it. Thanks.
+
+Eidswick, Jack - How to solve the nxnxn cube.
+    Mathematics and Statistics Dept - Univ of Nebraska 1982
+
+Kamack, HJ & T R Keane - The Rubik Tesseract -
+    Unpublished manuscript 1982
+
+Kim, Scott E - The Impossible Skew Quadrilateral: A Four-Dimensional
+   Optical Illusion - Proceedings of 1978 AAAS Symposium on Hypergraphics:
+   Visualizing Complex Relationships in Arts & Sciences
+
+Marx, George, Eva Gajzago, & Peter Gnadig - The Universe of Rubik's Cube
+   European Journal of Physics 3 (1982) pp 34-43
+
+ Daniel Nichols
+ 1721 E. Frankford Rd
+ Apt. 1514
+ Carrollton, TX 75007
+
+ ARPA: dnichols%ti-csl@csnet-relay
+ CSNET: dnichols@ti-csl
+ UUCP: {ut-sally,smu,texsun,rice}!waltz!dnichols
+ VOICE: 214-492-3275
+-------
+
+
+
+Received: from csnet-relay by MIT-MC.ARPA; 24 APR 85 18:42:16 EST
+Received: from ti-csl by csnet-relay.csnet id ab16901; 24 Apr 85 14:45 EST
+Date: 24 Apr 1985 1051-CST
+From: Dan <NICHOLS%ti-csl.csnet@csnet-relay.arpa>
+Subject: information requests
+To: cube-lovers@mit-mc.ARPA
+Received: from csl60 by ti-csl; Wed, 24 Apr 85 12:49 CST
+
+1.  Does anyone know of anywhere I can obtain any of the following
+    puzzles:
+           skewb
+           pyraminx crystal
+           pyraminx ball
+           pyraminx ultimate
+           double pyramid
+
+2. I would very much like to obtain copies of Singmaster's Cubic
+   Circular. I have the first 4 issues, but saw a reference to there
+   being 8 volumes. I would be glad to pay for copying and postage. Can
+   anyone help?
+
+3. Does anyone know the status of Meffert's Puzzle Club?
+
+4. Do Singmaster or Doug Hofstadter have net addresses?
+
+
+   Thanks for any help.
+
+
+ Daniel Nichols
+ 1721 E. Frankford Rd
+ Apt. 1514
+ Carrollton, TX 75007
+
+ ARPA: dnichols%ti-csl@csnet-relay
+ CSNET: dnichols@ti-csl
+ UUCP: {ut-sally,smu,texsun,rice}!waltz!dnichols
+ VOICE: 214-492-3275
+
+
+
+
+-------
+
+
+Received: from CISL-SERVICE-MULTICS.ARPA by MIT-MC.ARPA; 30 APR 85 09:51:49 EDT
+Received: FROM HIS-PHOENIX-MULTICS.ARPA BY CISL-SERVICE-MULTICS.ARPA WITH dial; 30 APR 1985 09:47:08 EDT
+Acknowledge-To:  "Craig L. Senft" <Senft@HIS-PHOENIX-MULTICS.ARPA>
+Date:  Tue, 30 Apr 85 06:44 MST
+From:  "Craig L. Senft" <Senft@HIS-PHOENIX-MULTICS.ARPA>
+Subject:  Re: information requests
+To:  Alan Bawden <ALAN@MIT-MC.ARPA>
+cc:  Cube-Lovers@MIT-MC.ARPA
+In-Reply-To:  Message of 30 Apr 85 01:09 MST from "Alan Bawden"
+Message-ID:  <850430134407.956530@HIS-PHOENIX-MULTICS.ARPA>
+
+Please remove me from Cube-Lovers mailing list.  Thank you,
+
+
+ ==cls==
+
+Date: Tue, 30 Apr 85 17:01:09 EDT
+From: Alan Bawden <ALAN@MIT-MC>
+Subject:  information requests
+To: Senft.Multics%PCO-Multics@MIT-MULTICS
+cc: CUBE-LOVERS@MIT-MC
+In-reply-to: Msg of Tue 30 Apr 85 06:44 MST from Craig L. Senft <Senft at HIS-PHOENIX-MULTICS.ARPA>
+Message-ID: <[MIT-MC].477537.850430.ALAN>
+
+    Date: Tue, 30 Apr 85 06:44 MST
+    From: Craig L. Senft <Senft at HIS-PHOENIX-MULTICS.ARPA>
+    Please remove me from Cube-Lovers mailing list.  Thank you,
+
+Removed.
+
+Received: from Xerox.ARPA by MIT-MC.ARPA 31 May 85 18:33:35 EST
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 31 MAY 85 15:31:50 PDT
+Date: 31 May 85 15:31:46 PDT (Friday)
+From: Hoffman.ES@Xerox.ARPA
+Subject: Re: information requests
+In-reply-to: <[MIT-MC].476352.850430.ALAN>
+To: Alan Bawden <ALAN@MIT-MC.ARPA>
+cc: Cube-Lovers@MIT-MC.ARPA
+Message-ID: <850531-153150-1581@Xerox>
+
+Dan,
+
+Did you learn anything about Skewb availability or the status of
+Meffert's club and company?  In January, 1983, I sent Meffert a money
+order for a skewb and followed up twice with letters in Fall '83 and
+January '84.  I never heard a thing.  However, in August '83 (after Stan
+Isaacs said it worked for him), I sent Meffert money for the
+5-by-5-by-5, and it arrived very promptly!  I would LOVE a Skewb.  Have
+you even seen one?
+
+I do have a pyraminx ball and a small double pyramid.  I don't recall
+what stores I found those in a couple of years ago, but they were local
+toy or department stores.
+
+Doug Hofstadter usually is connected to the net, but I haven't
+corresponded with him in a year and a half, and I know he's moved since
+then.  Isn't he visiting UMass just now?  If you ever get hold of Scott
+Kim, he usually knows how to reach DRH.
+
+--Rodney
+
+Received: from Xerox.ARPA by MIT-MC.ARPA 31 May 85 18:36:52 EST
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 31 MAY 85 15:34:09 PDT
+Date: 31 May 85 15:34:05 PDT (Friday)
+From: Hoffman.ES@Xerox.ARPA
+Subject: Re: information requests
+In-reply-to: Your message of 24 Apr 1985 1051-CST
+To: Dan <NICHOLS%ti-csl.CSNet@CSNet-Relay.ARPA>
+cc: Cube-Lovers@MIT-MC.ARPA
+Message-ID: <850531-153409-1583@Xerox>
+
+Dan,
+
+Did you learn anything about Skewb availability or the status of
+Meffert's club and company?  In January, 1983, I sent Meffert a money
+order for a skewb and followed up twice with letters in Fall '83 and
+January '84.  I never heard a thing.  However, in August '83 (after Stan
+Isaacs said it worked for him), I sent Meffert money for the
+5-by-5-by-5, and it arrived very promptly!  I would LOVE a Skewb.  Have
+you even seen one?
+
+I do have a pyraminx ball and a small double pyramid.  I don't recall
+what stores I found those in a couple of years ago, but they were local
+toy or department stores.
+
+Doug Hofstadter usually is connected to the net, but I haven't
+corresponded with him in a year and a half, and I know he's moved since
+then.  Isn't he visiting UMass just now?  If you ever get hold of Scott
+Kim, he usually knows how to reach DRH.
+
+--Rodney
+
+Date: Mon, 15 Jul 85 16:02:41 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  [alice!amo: Cube-lovers]
+To: CUBE-LOVERS@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].576851.850715.ALAN>
+
+Date: Mon, 15 Jul 85 05:54:21 pdt
+From: alice!amo at Berkeley
+To:   alan
+Re:   Cube-lovers
+
+You might like to post the following message to the Cube-lovers list:
+
+One of the best sources for various "twisting puzzles" (and purportedly
+the only remaining supplier of the 5x5x5 cubes, which he is
+selling for $ 15 plus postage) is
+
+  Dr. Christoph Bandelow 
+  Haarholzer Strasse 13
+  4630 Bochum-Stiepel
+  West Germany
+  phone: 0234-797794
+
+I have just obtained two 5x5x5 cubes from him.
+
+Received: from mitre-bedford by MIT-MC.ARPA 30 Jul 85 12:50:06 EDT
+Date: Tuesday, 30 Jul 1985 12:47-EDT
+From: pes@Mitre-Bedford
+To: ALAN@MIT-MC.ARPA
+Cc: Cube-Lovers@MIT-MC
+Subject: Re: The elusive 5x5x5
+In-reply-to: Your message of Monday, 22 Jul 1985 07:05-EDT.
+             <[MIT-MC.ARPA].583932.850722.ALAN>
+
+
+	How should I go about buying a 5 cubed cube?  Can I just
+mail 20 or so American dollars to Dr. Bandelow in W. Germany?
+Would a personal check be acceptable?  Thanks for any info.
+
+"Just because you're a cube lover doesn't mean you're square"
+
+-Paul Silvey
+ pes@mitre-bedford.arpa
+ The MITRE Corporation
+
+
+Received: from Xerox.ARPA by MIT-MC.ARPA 18 Sep 85 18:42:54 EDT
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 18 SEP 85 15:38:16 PDT
+Date: 18 Sep 85 15:35:09 PDT (Wednesday)
+From: Hoffman.es@Xerox.ARPA
+Subject: Puzzlers Club resurrected?
+To: Cube-Lovers@MIT-MC.ARPA
+cc: Hoffman.es@Xerox.ARPA
+Message-ID: <850918-153816-1795@Xerox>
+
+This came Tuesday (spelling and grammar as you see it).  See my comments
+at the end.
+
+	Dear Sirs,
+	
+	It has come to my attention that apparently quite a lot 
+	of the puzzles we sent to Puzzlers Club members were not 
+	received by them.  Upon careful investigation of this matter, 
+	it now appears that they were confiscated by the Customs who 
+	must have thought at the time that they were Taiwan copies.  
+	As we did send the goods and paid the Airmail postage and 
+	then had so many claims to send the goods a second and third 
+	time, the Puzzlers Club suffered a very big loss and 
+	consequently had to closed down.
+	
+	Due to the suppressed Puzzle market, we are not producing new 
+	Puzzles at this time.  However, we will be releasing later this 
+	year the "I.Q. DIE" which is the Skewb with Die markings, and a 
+	Game called 'King/Ace'.  It is the Pyraminx without the 4 apexes,
+	decorated in the 4 Card Suits, the Game is similar to Back-Jack.  
+	The "I.Q. DIE" and 'King/Ace' including instructions are now 
+	available to Ex-Puzzlers Club members and collectors at US$25 
+	each including registered Airmail postage.
+	
+	Also a few 5 x 5 cubes and Regular Skewbs, Timber finished 
+	Pyraminx and Immposi-ball are still available as per price list 
+	below, including registered Airmail postage.  A copy of the 
+	registered receipt will be sent by separate airmail.  Stocks, 
+	however are limited, as there will be no additional production 
+	for several years at least.
+	
+	Please let me know if you wish some of the above items.  I do 
+	apologize if you were one of the unfortunate ones who were 
+	affected by the customs action.
+	
+	However if you would like to send us your new order with payment, 
+	I personally guarantee that you will get the goods this time.  
+	(The customs have been notified that we are the legal copyright 
+	holder.)
+	
+	Once again my apologizes for any inconvenience caused.
+	
+	With warm regards,
+	
+	Mr Uwe Meffert
+	
+		
+			1985 PRICE-LIST
+	Descriptions		Item No.	Unit Price
+	
+	5 x 5 x 5 cube		CE8426		US$25/Air
+	Skewb			CE8431		US$15/Air
+	Pyraminx		CE8423-24	US$20/Air
+	Timber finished Pyraminx		US$20/Air
+	Impossi-Ball		CE8429		US$29/Air
+	3D Nought's + Crosses	CE8434		US$ 9/Air
+	
+	*All plus US$1 for registered mail.
+	
+	Please rush me with Item No...............Amount:...............
+	
+	PRICEWELL (FAR EAST) LIMITED
+	Excellente Commercial Bldg., (Fifteenth Floor) 
+	456 Jaffe Road
+	Hong Kong.
+	Postal Address: P.O. Box 31008 Causeway Bay, Hong Kong.
+	Tel.: 5-8939944
+	Cable: "REFOUNDEL"
+	Telex: 75600 REF HX
+
+------------------------------------------------------
+
+It was accompanied by one color page (sloppily torn out of a brochure)
+containing pictures of the puzzles.
+
+Well, I'm one of those who got burned, though I never was a member of
+the Puzzlers Club.  In January 1983, I sent Meffert a Cashier's Check
+for a Skewb.  I followed up by letter late that Spring.  In Summer '83,
+I paid for and received very promptly a 5x5x5 cube from him.  In January
+1984, I wrote a second letter about the missing Skewb.  I never got the
+Skewb nor any replies to my letters until this arrived!  So now it's all
+the  (U.S.) government's fault.  Hmph.  (Maybe I should attend those
+occasional Customs sales I've heard about!)
+
+I'm just a Skewb-hungry sucker, for I'm going to try again.  But I'm not
+very reassured by his "personal guarantee".  What good will that do me?
+The man doesn't even answer his mail.  Oh, well.  Order at your own
+risk.
+
+--Rodney Hoffman  
+
+Date: Wed, 18 Sep 85 21:38:00 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  Administrivia
+To: CUBE-LOVERS@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].650223.850918.ALAN>
+
+Several years ago, when Cubes were a big rage, the great volume of mail
+sent to this mailing list forced us into making it into a digest.  For most
+of the last few years the list has been fairly low-volume, nevertheless I
+have refrained from converting the list back to direct-distribution because
+some of the messages sent directly to Cube-Lovers were really add-me
+requests.  Now I find that I am experiencing a new phenomena:  There is a
+growing tendency for people to address replies to messages I forward to
+Cube-Lovers to -me-, rather than to the original sender.  This is a bit of
+a pain for me, so as of right now, I am converting Cube-Lovers back to
+direct-distribution.
+
+Let me take this opportunity to remind you of two bits of administrative
+trivia:
+
+1.  Please continue to send all administrative requests (like if you want
+    to get off of the list) to Cube-Lovers-Request@MIT-MC.
+
+2.  Old cube-lovers mail is archived in the following places:
+
+    MC:ALAN;CUBE MAIL0	;oldest mail in forward order
+    MC:ALAN;CUBE MAIL1	;next oldest mail in forward order
+    MC:ALAN;CUBE MAIL2	;more of same
+    MC:ALAN;CUBE MAIL3	;still more of same
+    MC:ALAN;CUBE MAIL	;recent mail in reverse order
+
+    Files can be FTP'd from MIT-MC without an account.
+
+Date: Wed, 18 Sep 85 22:18:28 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  Puzzlers Club resurrected?  &  Administrivia
+To: CUBE-LOVERS@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].650261.850918.ALAN>
+
+Date: 18 Sep 85 15:35:09 PDT (Wednesday)
+From: Hoffman.es@Xerox.ARPA
+Subject: Puzzlers Club resurrected?
+To: Cube-Lovers@MIT-MC.ARPA
+cc: Hoffman.es@Xerox.ARPA
+
+This came Tuesday (spelling and grammar as you see it).  See my comments
+at the end.
+
+	Dear Sirs,
+	
+	It has come to my attention that apparently quite a lot 
+	of the puzzles we sent to Puzzlers Club members were not 
+	received by them.  Upon careful investigation of this matter, 
+	it now appears that they were confiscated by the Customs who 
+	must have thought at the time that they were Taiwan copies.  
+	As we did send the goods and paid the Airmail postage and 
+	then had so many claims to send the goods a second and third 
+	time, the Puzzlers Club suffered a very big loss and 
+	consequently had to closed down.
+	
+	Due to the suppressed Puzzle market, we are not producing new 
+	Puzzles at this time.  However, we will be releasing later this 
+	year the "I.Q. DIE" which is the Skewb with Die markings, and a 
+	Game called 'King/Ace'.  It is the Pyraminx without the 4 apexes,
+	decorated in the 4 Card Suits, the Game is similar to Back-Jack.  
+	The "I.Q. DIE" and 'King/Ace' including instructions are now 
+	available to Ex-Puzzlers Club members and collectors at US$25 
+	each including registered Airmail postage.
+	
+	Also a few 5 x 5 cubes and Regular Skewbs, Timber finished 
+	Pyraminx and Immposi-ball are still available as per price list 
+	below, including registered Airmail postage.  A copy of the 
+	registered receipt will be sent by separate airmail.  Stocks, 
+	however are limited, as there will be no additional production 
+	for several years at least.
+	
+	Please let me know if you wish some of the above items.  I do 
+	apologize if you were one of the unfortunate ones who were 
+	affected by the customs action.
+	
+	However if you would like to send us your new order with payment, 
+	I personally guarantee that you will get the goods this time.  
+	(The customs have been notified that we are the legal copyright 
+	holder.)
+	
+	Once again my apologizes for any inconvenience caused.
+	
+	With warm regards,
+	
+	Mr Uwe Meffert
+	
+		
+			1985 PRICE-LIST
+	Descriptions		Item No.	Unit Price
+	
+	5 x 5 x 5 cube		CE8426		US$25/Air
+	Skewb			CE8431		US$15/Air
+	Pyraminx		CE8423-24	US$20/Air
+	Timber finished Pyraminx		US$20/Air
+	Impossi-Ball		CE8429		US$29/Air
+	3D Nought's + Crosses	CE8434		US$ 9/Air
+	
+	*All plus US$1 for registered mail.
+	
+	Please rush me with Item No...............Amount:...............
+	
+	PRICEWELL (FAR EAST) LIMITED
+	Excellente Commercial Bldg., (Fifteenth Floor) 
+	456 Jaffe Road
+	Hong Kong.
+	Postal Address: P.O. Box 31008 Causeway Bay, Hong Kong.
+	Tel.: 5-8939944
+	Cable: "REFOUNDEL"
+	Telex: 75600 REF HX
+
+------------------------------------------------------
+
+It was accompanied by one color page (sloppily torn out of a brochure)
+containing pictures of the puzzles.
+
+Well, I'm one of those who got burned, though I never was a member of
+the Puzzlers Club.  In January 1983, I sent Meffert a Cashier's Check
+for a Skewb.  I followed up by letter late that Spring.  In Summer '83,
+I paid for and received very promptly a 5x5x5 cube from him.  In January
+1984, I wrote a second letter about the missing Skewb.  I never got the
+Skewb nor any replies to my letters until this arrived!  So now it's all
+the  (U.S.) government's fault.  Hmph.  (Maybe I should attend those
+occasional Customs sales I've heard about!)
+
+I'm just a Skewb-hungry sucker, for I'm going to try again.  But I'm not
+very reassured by his "personal guarantee".  What good will that do me?
+The man doesn't even answer his mail.  Oh, well.  Order at your own
+risk.
+
+--Rodney Hoffman  
+
+-------
+
+Date: Wed, 18 Sep 85 21:38:00 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  Administrivia
+To: CUBE-LOVERS@MIT-MC.ARPA
+
+Several years ago, when Cubes were a big rage, the great volume of mail
+sent to this mailing list forced us into making it into a digest.  For most
+of the last few years the list has been fairly low-volume, nevertheless I
+have refrained from converting the list back to direct-distribution because
+some of the messages sent directly to Cube-Lovers were really add-me
+requests.  Now I find that I am experiencing a new phenomena:  There is a
+growing tendency for people to address replies to messages I forward to
+Cube-Lovers to -me-, rather than to the original sender.  This is a bit of
+a pain for me, so as of right now, I am converting Cube-Lovers back to
+direct-distribution.
+
+Let me take this opportunity to remind you of two bits of administrative
+trivia:
+
+1.  Please continue to send all administrative requests (like if you want
+    to get off of the list) to Cube-Lovers-Request@MIT-MC.
+
+2.  Old cube-lovers mail is archived in the following places:
+
+    MC:ALAN;CUBE MAIL0	;oldest mail in forward order
+    MC:ALAN;CUBE MAIL1	;next oldest mail in forward order
+    MC:ALAN;CUBE MAIL2	;more of same
+    MC:ALAN;CUBE MAIL3	;still more of same
+    MC:ALAN;CUBE MAIL	;recent mail in reverse order
+
+    Files can be FTP'd from MIT-MC without an account.
+
+-------
+
+Date: Wed, 25 Sep 85 10:14:28 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  Well, it kept me entertained for an evening.
+To: CUBE-LOVERS@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].658952.850925.ALAN>
+
+Dewdney's column in this month's Scientific American presents a puzzle
+which he claims to be comparable in difficulty to a Rubik's cube.  (Like he
+claims there are people who can do the cube but haven't done this thing.)
+Interested Cube-Hackers might find it diverting to give it a try.  It
+didn't take me long to devise a sufficient set of tools for solving it
+using only pencil-and-paper.  Personally I think it was significantly
+easier than a cube, but perhaps it is harder than the majority of other
+permutation puzzles I have gotten my hands on in the last few years.
+(But perhaps not.  I did this without having a physical model of it in my
+hands, so perhaps that has caused me to overlook something.)
+
+You know, I don't recall ever hearing anybody speculate about just what
+makes a permutation puzzle interesting and/or difficult.  I guess the group
+has to be large and have a large diameter, and there should be a scarcity
+of short identities...
+
+Date: Thu, 10 Oct 85 20:47:33 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  Has anybody heard of this?
+To: CUBE-LOVERS@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].675661.851010.ALAN>
+
+    Date: Thu 10 Oct 85 16:21:40-PDT
+    From: Haym Hirsh <HIRSH at SUMEX-AIM.ARPA>
+    ...
+    3.  (forward to cube-lovers if necessary)  I hear there is a textbook
+    on group theory using Rubik's Cube for all its examples (or some such
+    gimmick).  Have you heard anything about it?
+    ...
+
+Not I.  Anyone else?  I'd be interested in seeing this myself.
+
+Received: from Xerox.ARPA by MIT-MC.ARPA 15 Oct 85 01:27:00 EDT
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 14 OCT 85 22:24:05 PDT
+Date: 14 Oct 85 22:23:48 PDT (Monday)
+From: Hoffman.es@Xerox.ARPA
+Subject: Skewbs
+To: Cube-Lovers@MIT-MC.ARPA
+cc: Hoffman.es@Xerox.ARPA
+Message-ID: <851014-222405-4931@Xerox>
+
+Hey, it worked!  On Sept. 18, I sent an order for a skewb with a
+cashier's check for US$16 to Meffert in Hong Kong, in response to his
+apology/order form.  I included a cover letter mentioning that I was one
+of those who had never received an earlier order (that is, my skewb
+order of January 1983).
+
+On Wednesday, Oct. 9, I received the promised airmail letter containing
+the registered mail receipt showing the package was mailed Oct. 2, and
+on Saturday, Oct. 12, I received a package containing TWO skewbs!  The
+thing seems rather easy, I think, but it's great fun because it's so
+weird -- so odd looking in mid-turn, so awkward to manipulate quickly,
+so difficult to keep your bearings (no face centers that stay put to
+navigate by).  I haven't fully explored it, but I've found a few handy
+"macros" and identities that seem to get me out of most trouble.
+
+Anyway, if you have wanted a skewb ever since first seeing the drawings
+of them in Hofstadter's "Scientific American" column, go ahead and try
+Meffert.  In case you've lost my note of Sept 18, here's the relevant
+portion again:
+
+			1985 PRICE-LIST
+	Descriptions		Item No.	Unit Price
+	
+	5 x 5 x 5 cube		CE8426		US$25/Air
+	Skewb			CE8431		US$15/Air
+	Pyraminx		CE8423-24	US$20/Air
+	Timber finished Pyraminx		US$20/Air
+	Impossi-Ball		CE8429		US$29/Air
+	3D Nought's + Crosses	CE8434		US$ 9/Air
+	
+	*All plus US$1 for registered mail.
+	
+	Please rush me with Item No...............Amount:...............
+	
+	PRICEWELL (FAR EAST) LIMITED
+	P.O. Box 31008 
+	Causeway Bay
+	Hong Kong
+
+--Rodney Hoffman
+
+Received: from CSNET-RELAY.ARPA by MIT-MC.ARPA 17 Oct 85 12:49:05 EDT
+Received: from ti-csl by csnet-relay.csnet id ab07525; 17 Oct 85 12:46 EDT
+Date: 17 Oct 1985 0923-CDT
+From: Dan <NICHOLS%CSL60%ti-csl.csnet@CSNET-RELAY.ARPA>
+Subject: group theory book
+To: cube-lovers@mit-mc.arpa
+Received: from csl60 by ti-csl; Thu, 17 Oct 85 09:40 CST
+
+10-Oct-85 20:47:33-EDT,00000540;000000000001
+Date: Thu, 10 Oct 85 20:47:33 EDT
+From: Alan Bawden <ALAN%mit-mc.arpa@CSNET-RELAY>
+Subject:  Has anybody heard of this?
+To: CUBE-LOVERS%mit-mc.arpa@CSNET-RELAY
+
+    Date: Thu 10 Oct 85 16:21:40-PDT
+    From: Haym Hirsh <HIRSH at SUMEX-AIM.ARPA>
+    ...
+    3.  (forward to cube-lovers if necessary)  I hear there is a textbook
+    on group theory using Rubik's Cube for all its examples (or some such
+    gimmick).  Have you heard anything about it?
+    ...
+
+Not I.  Anyone else?  I'd be interested in seeing this myself.
+
+
+
+There was a book published a few years ago which had one chapter
+dealing with the cube.
+
+Groups and Geometry - Peter Neumann, Gabrielle A. Stoy, & E. C. Thompson
+  The Mathematical Institute - Oxford University
+  The last chapter is "The Group Theory of the Hungarian Magic Cube".
+
+Dan Nichols
+-------
+
+
+Received: from CSNET-RELAY.ARPA by MIT-MC.ARPA 17 Oct 85 12:49:05 EDT
+Received: from ti-csl by csnet-relay.csnet id ab07525; 17 Oct 85 12:46 EDT
+Date: 17 Oct 1985 0923-CDT
+From: Dan <NICHOLS%CSL60%ti-csl.csnet@CSNET-RELAY.ARPA>
+Subject: group theory book
+To: cube-lovers@mit-mc.arpa
+Received: from csl60 by ti-csl; Thu, 17 Oct 85 09:40 CST
+
+10-Oct-85 20:47:33-EDT,00000540;000000000001
+Date: Thu, 10 Oct 85 20:47:33 EDT
+From: Alan Bawden <ALAN%mit-mc.arpa@CSNET-RELAY>
+Subject:  Has anybody heard of this?
+To: CUBE-LOVERS%mit-mc.arpa@CSNET-RELAY
+
+    Date: Thu 10 Oct 85 16:21:40-PDT
+    From: Haym Hirsh <HIRSH at SUMEX-AIM.ARPA>
+    ...
+    3.  (forward to cube-lovers if necessary)  I hear there is a textbook
+    on group theory using Rubik's Cube for all its examples (or some such
+    gimmick).  Have you heard anything about it?
+    ...
+
+Not I.  Anyone else?  I'd be interested in seeing this myself.
+
+
+
+There was a book published a few years ago which had one chapter
+dealing with the cube.
+
+Groups and Geometry - Peter Neumann, Gabrielle A. Stoy, & E. C. Thompson
+  The Mathematical Institute - Oxford University
+  The last chapter is "The Group Theory of the Hungarian Magic Cube".
+
+Dan Nichols
+-------
+
+
+Received: from Xerox.ARPA by MIT-MC.ARPA 25 Oct 85 12:14:59 EDT
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 25 OCT 85 09:14:40 PDT
+Date: 25 Oct 85 09:14:33 PDT (Friday)
+From: Hoffman.es@Xerox.ARPA
+Subject: Rubik's Revenge:  The Group Theoretical Solution
+To: Cube-Lovers@MIT-MC.ARPA
+cc: Hoffman.es@Xerox.ARPA
+Message-ID: <851025-091440-1219@Xerox>
+
+I only yesterday came across this from a couple of months ago:  "Rubik's
+Revenge:  The Group Theoretical Solution" by M.E. Larsen, in the
+'American Mathematics Monthly', Vol. 92, No. 6, 1985, pages 381-390.
+
+Received: from ddn2 by MIT-MC.ARPA  5 Nov 85 11:36:09 EST
+Date: 5 Nov 85 11:04 EST
+From: mccliman @ DDN2.ARPA
+Subject: mailing list
+To: cube-lovers @ mit-mc.arpa
+CC: mccliman @ DDN2.ARPA
+
+I recently discovered your mailing list involving  the CUBE, and 
+would very much like to be added to it.  Thanks.
+'mcclimans at ddn2'
+
+
+Received: from ngp.UTEXAS.EDU by MIT-MC.ARPA 14 Nov 85 18:06:20 EST
+Date: Thu, 14 Nov 85 14:27:38 cst
+From: jknox@ngp.UTEXAS.EDU (John W. Knox)
+Posted-Date: Thu, 14 Nov 85 14:27:38 cst
+Message-Id: <8511142027.AA02634@ngp.UTEXAS.EDU>
+Received: by ngp.UTEXAS.EDU (4.22/4.22)
+	id AA02634; Thu, 14 Nov 85 14:27:38 cst
+To: cube-lovers@mit-mc.ARPA, mccliman@DDN2.ARPA
+Subject: Re:  mailing list
+Cc: mccliman@DDN2.ARPAn
+
+
+q
+
+
+Received: from CSNET-RELAY.ARPA by MIT-MC.ARPA 15 Nov 85 02:48:31 EST
+Received: from ti-csl by csnet-relay.csnet id a006258; 15 Nov 85 2:31 EST
+Date: 14 Nov 1985 1008-CST
+From: Dan <NICHOLS%CSL60%ti-csl.csnet@CSNET-RELAY.ARPA>
+Subject: new article
+To: cube-lovers@mit-mc.arpa
+Received: from csl60 by ti-csl; Thu, 14 Nov 85 10:46 CST
+
+A new article on the cube has appeared. 
+"Rubik's Groups" by Edward Turner and Karen Gold in
+The American Mathematical Monthly v92n9 November 1985
+-------
+
+
+Received: from Xerox.ARPA by MIT-MC.ARPA 11 Dec 85 14:44:07 EST
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 11 DEC 85 10:35:51 PST
+Date: 11 Dec 85 10:35:16 PST (Wednesday)
+From: Hoffman.es@Xerox.ARPA
+Subject: Gift packs
+To: Cube-Lovers@MIT-MC.ARPA
+cc: Hoffman.es@Xerox.ARPA
+Message-ID: <851211-103551-1873@Xerox>
+
+I never really asked to be, but I seem to be a member of Meffert's
+Puzzler's Club.  The latest mailing offers several individual items plus
+a Christmas special:  9 skewbs plus 9 5x5x5 cubes for US$99 registered
+airmail or $US82 registered surface mail.
+
+It says the individual prices are $25 for the 5x5x5 and $15 for the
+Skewb, so this is said to be a $360 value.
+
+If you're like me, you're the only cube-lover among those you exchange
+gifts with.  But if you happen to have several cube-lovers on your list,
+maybe this can solve your shopping worries.
+
+The offer is "limited to December 15, 1985"  All orders should have
+"bankdraft or money order in US Dollar Currency".  The address is:
+	
+	PRICEWELL (FAR EAST) LIMITED
+	P.O. Box 31008 
+	Causeway Bay
+	Hong Kong
+	
+--Rodney Hoffman
+
+Received: from LLL-MFE.ARPA by MC.LCS.MIT.EDU  6 Jan 86 21:11:01 EST
+Date: Mon, 6 Jan 86 18:02 pst
+From: "del tufo joseph%e.mfenet"@LLL-MFE.ARPA
+Subject: "deltufo%d"@lll-mfe.arpa    
+To: cube-lovers@mit-mc.arpa
+
+requesting any information
+
+Received: from Louie.UDEL.EDU by MC.LCS.MIT.EDU 27 Jan 86 12:33:53 EST
+Received: from ccvax1 by Louie.UDEL.EDU id a005979; 27 Jan 86 12:32 EST
+Received: by vax1.acs.udel.edu (4.12/4.7)
+	id AA09563; Mon, 27 Jan 86 11:42:48 est
+Date: Mon, 27 Jan 86 11:42:48 est
+From: TOMCHANY <jethro%vax1.acs.udel.edu@Louie.UDEL.EDU>
+Message-Id: <8601271642.AA09563@vax1.acs.udel.edu>
+To: cube-lovers@mc.lcs.mit.EDU
+
+Please add me to your mailing list concerning THE CUBE and other puzzles.
+					Thank you,
+						M. Tomchany
+
+Received: from Xerox.COM by MC.LCS.MIT.EDU 21 Mar 86 21:07:36 EST
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 21 MAR 86 17:36:22 PST
+Date: 21 Mar 86 17:35:55 PST (Friday)
+From: Hoffman.es@Xerox.COM
+Subject: Eidswick article
+To: Cube-Lovers@MC.LCS.MIT.EDU
+cc: Hoffman.es@Xerox.COM
+Message-ID: <860321-173622-1700@Xerox>
+
+In case no one's mentioned it yet:
+
+	Eidswick, J. A., "Cubelike Puzzles -- What Are They
+	and How Do You Solve Them?", 'American Mathematical
+	Monthly', Vol. 93, #3, March 1986, pp. 157-176.
+
+From the introductory section:
+
+	"This article is an attempt to put some algebraic order
+	into the business of solving cubelike puzzles.  Ideally,
+	an algebraic theory would unfold that would, in an 
+	elementary way, yield highly efficient algorithms for all 
+	such puzzles.  The work here is a step in that direction."
+
+Included in the applications section are the tetrahedron, octahedron,
+dodecahedron, icosahedron, and the general n X n X n cube.
+
+--Rodney Hoffman
+
+Received: from SCRC-STONY-BROOK.ARPA by MC.LCS.MIT.EDU 26 Mar 86 19:25:52 EST
+Received: from SORA.SCRC.Symbolics.COM by SCRC-STONY-BROOK.ARPA via CHAOS with CHAOS-MAIL id 445199; Mon 24-Mar-86 10:30:16-EST
+Date: Mon, 24 Mar 86 10:30 EST
+From: Bernard S. Greenberg <BSG@SCRC-STONY-BROOK.ARPA>
+Subject: Eidswick article
+To: Cube-Lovers@MC.LCS.MIT.EDU
+In-Reply-To: <860321-173622-1700@Xerox>
+Message-ID: <860324103055.2.BSG@SORA.SCRC.Symbolics.COM>
+
+Now that I saw a letter on this list....
+
+Try to find a store that sells an ordinary
+Rubik's cube.  The largest Cambridge game shop
+hasn't had them for eternity....
+
+
+Date: Tue, 15 Apr 86 04:40:29 EST
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  Cube-Lovers moves!
+To: CUBE-LOVERS@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].27214.860415.ALAN>
+
+The Cube-Lovers mailing list has moved from MIT-MC to MIT-AI.  All this
+really means is that the archives are in a new place.  Sending mail to
+Cube-Lovers@MIT-MC and Cube-Lover-Request@MIT-MC will still work, although
+it will be infinitesimaly faster if you mail to Cube-Lovers@MIT-AI and
+Cube-Lover-Request@MIT-AI instead.
+
+(Please do not take this move as an opportunity to start spreading false
+rumors about the status of MIT-MC.  I am moving Cube-Lovers from MC to AI
+because I am -personally- moving to AI, and it is thus convenient for the
+mailing list to move with me.  There will be a machine named MIT-MC for
+years and years to come.)
+
+For the record:  Old cube-lovers mail is archived on MIT-AI in the
+following places:
+
+AI:ALAN;CUBE MAIL0	;oldest mail in forward order
+AI:ALAN;CUBE MAIL1	;next oldest mail in forward order
+AI:ALAN;CUBE MAIL2	;more of same
+AI:ALAN;CUBE MAIL3	;still more of same
+AI:ALAN;CUBE MAIL4	;yet more
+AI:ALAN;CUBE MAIL	;recent mail in reverse order
+
+Files can be FTP'd from MIT-AI without an account.  Unfortunately the
+archives are way too large to be conveniently mailed by either computer or
+physical mail.
+
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 2 AUG 86  16:12:56 EDT
+Received: from ICSE.UCI.EDU by MC.LCS.MIT.EDU  2 Aug 86 16:14:39 EDT
+Received: from localhost by ICSE.UCI.EDU id a014758; 2 Aug 86 11:05 PDT
+To: cube-lovers@mc.lcs.mit.edu
+Subject: 5x5x5
+Date: Sat, 02 Aug 86 11:05:08 -0800
+From: Mark Wadsworth <mw@ICSE.UCI.EDU>
+
+On July 15 I sent a check for $20 to Christoph Bandelow in Germany, and I got 
+my cube sometime last week.  He also sent me a letter in which he says,
+    I shall be at the International Congress of Mathematicians at
+    Berkeley this August 2 - 10 with most of my "cubes". After the
+    congress and some travelling time, that is in September, I will
+    send you my then updated catalogue - but I hope I can sell the
+    complete rest in Berkeley.
+If you happen to be around Berkeley this week, it might be worth checking out.
+If he sends a catalog with anything in it, I will post info.
+
+
+Received: from Xerox.COM by AI.AI.MIT.EDU  4 Aug 86 13:44:42 EDT
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 04 AUG 86 10:40:38 PDT
+Date: 4 Aug 86 10:40:31 PDT (Monday)
+From: Hoffman.es@Xerox.COM
+Subject: Rubik Redux
+To: Cube-Lovers@AI.AI.MIT.EDU
+cc: Hoffman.es@Xerox.COM
+Message-ID: <860804-104038-1367@Xerox>
+
+From the New York Times, Sunday, August 3, Business section, p. 6:
+
+	WILL 'SON OF CUBE' BRING ANOTHER BOUT OF RUBIKMANIA?
+		     By Martin Gottlieb
+
+... Erno Rubik... is about to mark his return with a puzzle that, if
+anything, is more difficult to sove than the once-ubiquitous cube....
+Professor Rubik... said his new puzzle, called Rubik's Magic, may have
+even more configurations.  But, in his view, who cares? 
+
+"You can solve the puzzle by discovering the possibilities, but it is
+magic, I think," Professor Rubik said, absently fondling a prototype of
+his new invention in the local offices of Matchbox International Ltd.,
+the key arm of a Bermuda-based holding company, that will make and sell
+it.
+
+... Within the toy industry ... there is a fair amount of anticipation
+about Rubik and his Magic.  "We hope we can create a craze," said David
+C.W. Yeh, chairman of Universal Matchbox Group, Matchbox International's
+parent company.
+
+Matchbox ... has already taken on 2,000 production workers in China to
+make the puzzle, and plans to market hundreds of thousands of copies
+around the world this fall, for about $10....
+
+The [Hungarian] Government two years ago approved [Rubik's] plans for a
+private business, Rubik Studio, which employs 20 and develops designs
+for what Mr. Rubik hopes will be a wide range of items, from buildings
+to work flow charts and puzzles.  Rubik's Magic is its first commercial
+venture.
+
+... When Professor Rubik traveled to the Nuremburg Toy Fair this year
+with his latest puzzle, by all accounts, he caused a commotion.
+
+... Key to [Matchbox's successful proposal to Rubik] were a three- to
+five-year game plan and concepts for developing more advanced versions
+of Rubik's Magic to be introduced in later years.
+
+Rubik's Magic is marked by the same sort of handsome design as its
+predecessor.  Palm-sized, it is made of eight squares of
+impact-resistant transparent plastic that in their original position
+form two equal rows.  Spread across the squares are depictions of three
+unconnected rainbow-colored rings printed on a black background.  The
+object of the puzzle is to intertwine the three rings by rejiggering the
+squares, which are linked by an ingenious hinge patented by Professor
+Rubik, that flexes on the four sides of each square.
+
+Unlike the cube, Mr. Rubik's new puzzle can be nameuvered into a
+plethora of different shapes.  [Accompanying picture shows this, but
+little more.  Rubik is seen leaning on a table which has four Magic toys
+arrayed in different configurations.]  The multi-colored loops break
+into fanciful swirls and any number of variations would probably look
+pretty good on coffee tables.  "On the way to the solution," Mr. Rubik
+said, "you can have wonderful discoveries because you have beautiful
+shapes.  The cube was very intellectual.  This item could be more fun
+and more pleasure -- it is beautiful and changeable."
+
+... "You sort of expected a lot from him after the cube and I think he
+delivered," said Rick Anguilla, editor in chief of Toy & Hobby World,
+the leading industry journal, who believes the new puzzle is marked by
+the same quality as The Cube.  Mr. Anguilla is one of the few industry
+analysts to get a glimpse of the new puzzle and he has a hunch it could
+be this year's Teddy Ruxpin.
+
+.... Matchbox has devised a plan for producing and promoting the puzzle
+aimed in no small part at heading off the knockoff artists who polluted
+the Cube market with counterfeits.  It has applied for patents the world
+over, and plans to kick off a simultaneous international sales campaign
+in October.  Professor Rubik's signature is on the puzzles, and both
+professor and puzzle will be promoted with an exceptionally high sales
+budget...
+
+... For Professor Rubik, filming commercials that might well place him
+second only to Soviet chief Mikhail S. Gorbachev as the most recognized
+Eastern bloc citizen in America, is another adventure.
+
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 14 Aug 86 15:44:23 EDT
+Date: 14 Aug 86 15:34:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: CUBE EXCHANGE
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+I have been a cube person for 5 or 6 years now and I am upset by the almost
+total disappearance of the cube and its asociated memorabilia and paraphernalia.
+ Therefore, I propose to establish a "CUBE EXCHANGE" to buy, sell and trade cube
+items in suport of the greater development of cubing.   To this end it will be
+necessary to catalog what was available, what is avaiable and from whom it can
+be obtained.  Your assistance in this endeavor will be much appreciated,
+including pointers through the archives.  So far I have located a source for
+3x3x3 cubes (solid colors, card suits, flowers, numbers, domino dots, fruits,
+sports balls, and ball).  Your assistance in who has what for sale would also be
+much appreciated.
+
+
+peter beck
+BECK@ARDEC-LCSS.ARPA
+------
+
+Received: from PROPHET.BBN.COM by AI.AI.MIT.EDU 14 Aug 86 16:36:18 EDT
+Date:     Thu, 14 Aug 86 16:28:18 EDT
+From:     Bernie Cosell <cosell@prophet.bbn.com>
+To:       cube-lovers@ai.ai.mit.edu
+cc:       cube-lovers <cube-lovers@ai.ai.mit.edu>
+Subject:  Re:  CUBE EXCHANGE
+
+``The Games People Play'' in Cambridge, MA  (617-492-0711) had, and still
+has, lots of cubes.  Carol (who owns the place) continually complains about
+the basement-full of 4x4x4 cubes that she's ended up stuck with...
+
+   /bernie
+
+Received: from harvard.HARVARD.EDU by AI.AI.MIT.EDU 19 Aug 86 10:45:41 EDT
+Received: by harvard.HARVARD.EDU; Tue, 19 Aug 86 10:44:51 EDT
+Date: Tue, 19 Aug 86 10:44:51 EDT
+Received: by h-sc4.HARVARD.EDU; Tue, 19 Aug 86 10:44:36 edt
+From: mazzarel%h-sc4@harvard.HARVARD.EDU
+To: cube-lovers@mit-ai.arpa
+Subject: Paraphernalia
+
+
+I bought a book about four years ago in Boston that had procedures for
+generating all sorts of patterns on the 3x3 cube.  I think it was about
+five to ten 8-1/2 x 11" pieces of paper folded in half and stapled to
+form a book.  The cover was blue paper.
+
+Unfortunately, I lost it moving about half a year after that.  By that
+time I guess interest in the cube was waning; I have not been able to
+find another copy.  If anyone else has a copy or just knows where to
+find them, could you please post it to this newsgroup?  I thought it
+was quite a find, and think no cube lover should be without one.
+
+                               --Paul (pm@harvard.HARVARD.EDU)
+
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 25 Aug 86 10:34:12 EDT
+Date: 25 Aug 86 10:15:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: singmaster's book
+To: "cube-lovers" <cube-lovers@mit-ai.arpa>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+RE:  Paraphernalia, 19 aug 86
+
+The book you are talking about is Sinmaster's
+"Notes on Rubik's Cube".  It was available as you
+describe in the 1981 time frame.  I believe it is 
+currently avaialble in hardcover with an expanded
+bibliography from "Enslow Publishers" .  They are 
+located in northern NJ.  If you can't get their 
+address send me a message and I will look it up
+for you, if you just want the patterns and not the 
+book I can send them to you since I have a copy
+of the book.   They also have a second book by Singmaster
+that was oriented towards teaching math concepts
+with the cube.
+
+
+pete <beck@ardec-lcss.arpa>
+------
+
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 25 Aug 86 13:59:23 EDT
+Date: 25 Aug 86 13:33:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: CUBE AVAILABILITY
+To: "cube-lovers" <cube-lovers@mit-ai.arpa>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+CUBE AVAILABILITY:
+
+1.  REVENGE - on 21 aug 86 I bought a revenge for
+$1.99 at the KAY BEE toy store in the Gallery mall,
+phila, pa. NOTE: kay bee is a national chain, so check
+your area if interested.
+
+2.  GLOBE PUZZLE -  This is a 3x3x3  sphere with the
+following difference,  the edge pieces are broken 
+into two pieces. Thus the edges and centers are 
+interchangeable.  (does this make it a planar puzzle,
+for edges and centers)  I haven't received mine yet.  Is 
+there any discussion of this variant in the archives.
+AVAILABLE from:  the nature company
+                             pob 2310
+                             berkley, ca 94702
+                             800/227-1114
+                             globe puzzle, cat # 1449, $12.50
+------
+
+Received: from CSNET-RELAY.ARPA by AI.AI.MIT.EDU 26 Aug 86 00:54:03 EDT
+Received: from dartmouth by csnet-relay.csnet id ah03666; 25 Aug 86 22:00 EDT
+Received: by dartmouth.EDU (4.13D/2.3D)
+	id AA19439; Mon, 25 Aug 86 21:13:13 edt
+Date: Mon, 25 Aug 86 21:13:13 edt
+To: cube-lovers@AI.AI.MIT.EDU
+From: Andy Behrens <andyb%dartmouth.edu@CSNET-RELAY.ARPA>
+Subject: Re: Paraphernalia
+References: <8608191515.AA23076@EDDIE>
+Organization: Dartmouth College, Hanover, NH
+
+The blue-covered book that Paul (pm@harvard.HARVARD.EDU) refers to is
+probably David Singmaster's pamphlet Notes_on_Rubik's_'Magic_Cube'.  It
+is 60 pages long, and includes sections on the basic mathematical
+problem, some of the simple subgroups, pretty patterns, algorithms to
+restore the cube in the shortest number of moves.  It lists many
+processes for flipping and rotating edges and corners.
+
+If the book is still in print, it is available from
+
+      Enslow Publishers
+      Bloy St. and Ramsey Ave.
+      Hillside, New Jersey 07205     (USA)
+      -- ISBN 0-89490-043-9
+
+      or
+
+      David Singmaster & Co.
+      66 Mount View Road
+      London N4 4JR     (UK)
+      -- ISBN 0-907395-00-7
+
+					Andy Behrens
+
+{astrovax,decvax,ihnp4,linus,harvard}!dartvax!andyb.UUCP
+andyb@dartmouth.EDU
+andyb%dartmouth@csnet-relay.ARPA
+
+
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 26 Aug 86 08:05:35 EDT
+Date: 26 Aug 86 07:55:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: HOFSTADTER
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+HOFSTADTER
+
+I haven't noticed any reference to his 3rd book
+which is a reprint of his scientific american
+column with postscripts.  I.E. there are 8pgs of
+new info; trivia, distribution of patterns from
+start, reverse scramblings, measuring
+scrambleness.
+
+METAMAGICAL THEMAS
+by DOUG HOFSTADTER
+BASIC BOOKS
+1985 COPYRIGHT
+ISBN 0-465-04540-5
+PRICE ABOUT $20
+
+PETE     <BECK@ARDEC-LCSS.ARPA>
+------
+
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 26 Aug 86 08:05:54 EDT
+Date: 26 Aug 86 07:57:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: MEFERT
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+MEFFERT
+
+I have written mefert in march and april 86
+ and received no response.  Does anybody out
+there know if he is still in business.  By the 
+way I ordered and received his XMAS special
+of 9 5x5s and 9 skewbs by boat (about 2
+months delivery time) with no problems.
+
+PETE     <BECK@ARDEC-LCSS.ARPA>
+------
+
+Received: from STONY-BROOK.SCRC.Symbolics.COM by AI.AI.MIT.EDU 26 Aug 86 08:21:27 EDT
+Received: from PEGASUS.SCRC.Symbolics.COM by STONY-BROOK.SCRC.Symbolics.COM via CHAOS with CHAOS-MAIL id 87545; Tue 26-Aug-86 08:19:07 EDT
+Received: by scrc-pegasus id AA00685; Tue, 26 Aug 86 07:40:08 edt
+Date: Tue, 26 Aug 86 07:40:08 edt
+From: Bernard S. Greenberg <bsg@scrc-pegasus>
+To: cube-lovers%ai.ai.mit.edu@stony
+Subject: Paraphernalia
+
+    Date: Mon, 25 Aug 86 21:13:13 edt
+    To: cube-lovers@AI.AI.MIT.EDU
+    From: Andy Behrens <andyb%dartmouth.edu@CSNET-RELAY.ARPA>
+    Subject: Re: Paraphernalia
+    References: <8608191515.AA23076@EDDIE>
+    Organization: Dartmouth College, Hanover, NH
+
+    The blue-covered book that Paul (pm@harvard.HARVARD.EDU) refers to is
+    probably David Singmaster's pamphlet Notes_on_Rubik's_'Magic_Cube'.  It
+    is 60 pages long, and includes sections on the basic mathematical
+    problem, some of the simple subgroups, pretty patterns, algorithms to
+    restore the cube in the shortest number of moves.  
+It most certainly made no claim to minimal algorithms.  Minimal
+cube algorithms are still an unsolved problem.
+						       It lists many
+    processes for flipping and rotating edges and corners.
+
+    If the book is still in print, it is available from
+
+
+(**PLEASE DO NOT REPLY TO THE ABOVE ADDRESS, IT WILL HANG YOUR MAILER.
+ I AM SORRY I AM FORCED TO SEND THIS FROM A BROKEN COMPUTER.
+ I CAN'T PUT IN A FROM: or REPLY-TO: Either.
+ I UNDERSTAND IT's MY PROBLEM, NOT YOUR PROBLEM, PLEASE DON'T FLAME
+ AT ME.  Reply to BSG@SCRC-STONY-BROOK not about mailers.  Sorry.)
+
+
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 29 Aug 86 08:02:18 EDT
+Date: 29 Aug 86 07:54:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: globe puzzle
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+ GLOBE PUZZLE -  I made a mistake.  The "Globe Puzzle" is NOT a cube.  It looks
+like a cube with the edge pieces broken up into its two faces but the corners
+are fixed and only the three equators are free to move.  It has a metal surface
+painted as a globe and each surface area has a dimple.  These dimples do not
+make it any easier to work the puzzle.  It is the same 3" diameter as a cube
+ballThe puzzle is made in Hungary.
+
+Thus the globe puzzle is three intersecting rings and appears to be simpler then
+the cube.  If the corners could move like the cube would that puzzle also be no
+more difficult then the cube?  Any ideas on how to engineer such a puzzle? 
+
+AVAILABLE from:  the nature company
+                             pob 2310
+                             berkley, ca 94702
+                             800/227-1114
+                             globe puzzle, cat # 1449, $12.50
+
+peter beck  <beck@ardec-lcss.arpa>
+------
+
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 10 Sep 86 15:09:04 EDT
+Date: 10 Sep 86 13:38:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+1 - I have an incomplete reference to a PUZZLE MUSEUM in the Wash DC area.  
+Anybody have any details.
+2  -  Is there any good (complete) mailorder catalog for puzzles.
+3 -  "INTERLOCKING" CUBE,  this is a puzzle with 27 cubies held together in a
+series connection by a rubber band.  The  joint that connects cubies is not
+universal.  The cubies all have the same six colors, but not in the same
+orientation.  THE OBJECT OF THE PUZZLE IS TO FOLD UP THE CUBIES to make a 3x3x3
+cube with solid colored faces.  ANYBODY DONE THIS PUZZLE, ANY REFERENCES.
+
+
+           /                       \
+          |\                      / |
+          |   \         /      /   |
+          |\   |\     /\    /|  /|
+          |   \|   \/    \/  |/  |
+           \  |\   |\    /|  /|  /                <BECK@ARDEC-LCSS>
+             \|   \|  \/  |/  |/
+               \   |\  |  /|  /
+                  \|  \|/  |/
+                    \  |  /
+                      \|/    
+------
+
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 19 Sep 86 11:28:14 EDT
+Date: 19 Sep 86 10:48:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: interlocking cube
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+RE:  msg from Randel Shane requesting clarification of the  "INTERLOCKING" CUBE
+PUZZLE, 
+ this is a puzzle with 27 cubies held together in a series connection by a
+rubber band, like a snake.  
+The cubies faces each have a different color, ie, 6 per cubie.  The blue and
+green colors are along the connecting axis while the red,white,yellow and orange
+colors are parallel to the connecting axis.  The cubbies are not all identical. 
+
+The  joint that connects cubies is not universal.  The joint is made by a slot
+in the blue and green faces.  These slots are perpendicular to each other.  This
+is limits the possible orientations.
+THE OBJECT OF THE PUZZLE IS TO FOLD UP THE CUBIES to make a 3x3x3 cube with six
+solid colored faces.  
+HAS ANYONE DONE THIS PUZZLE, ANY REFERENCES.
+
+PS Randell, I hope this description is somewhat better.  If you would like to
+see it first hand I can send you one for $2.  
+
+PPS I need a better ARPANET address to send you msgs directly.
+
+
+           /                       \
+          |\                      / |
+          |   \         /      /   |
+          |\   |\     /\    /|  /|
+          |   \|   \/    \/  |/  |
+           \  |\   |\    /|  /|  /                <BECK@ARDEC-LCSS>
+             \|   \|  \/  |/  |/
+               \   |\  |  /|  /
+                  \|  \|/  |/
+                    \  |  /
+                      \|/    
+------
+
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU  6 Oct 86 08:44:03 EDT
+Date: 6 Oct 86 08:19:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: rubiks magic
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+RUBIK'S MAGIC:
+
+1.  In the NYC area the puzzle is available from Macy's for $10.
+2.  Matchbox Toys         "is the distributor"
+     141 West Commercial Ave
+     Moonachie, NJ 07074
+     212/696-5400
+3.  HOTLINE:  sat & sun from 9am to 5pm until April 26, 1987.  1800-843-1202, NJ
+RES 1800-843-1203
+4.  Repairs from matchbox $3
+5.  The mechanism is similar to a 2-dimensional Jacobs ladder.
+6.  Trivial observations:
+   a.  The puzzle has a front and back.
+   b.  For three intersecting rings the 8 squares have to be arranged as a 2x3x3
+and not as a 2x4.  
+7.  It is a good puzzle.
+
+           /                       \
+          |\                      / |
+          |   \         /      /   |
+          |\   |\     /\    /|  /|
+          |   \|   \/    \/  |/  |
+           \  |\   |\    /|  /|  /                <BECK@ARDEC-LCSS>
+             \|   \|  \/  |/  |/
+               \   |\  |  /|  /
+                  \|  \|/  |/
+                    \  |  /
+                      \|/    
+------
+
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 10 Oct 86 08:40:07 EDT
+Date: 10 Oct 86 08:32:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: rubiks magic
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+
+RUBIK'S MAGIC:  >>> UPDATE  <<<
+
+ADMINISTRIVIA
+1.  In the NYC area the puzzle is available from Macy's for $10.  In your area
+it may available from "TOYS R US".
+2.  Matchbox Toys         "is the manufacturer"
+     141 West Commercial Ave
+     Moonachie, NJ 07074
+     212/696-5400
+3.  HOTLINE:  sat & sun from 9am to 5pm until April 26, 1987.  1800-843-1202, NJ
+RES 1800-843-1203
+4.  Repairs from matchbox $3
+
+PUZZLE NOTES:
+1.  It took about 4 days for my crack puzzle team to solve Rubik's Magic.  
+2.  The mechanism (similar to a 2-directional Jacobs ladder) is durable and the
+puzzle is fun to manipulate.  There are many 3-dimensional shapes/configurations
+that the squares can be arranged as.
+3.  It is necessary to establish a notation scheme and establish moves to do the
+puzzle systematically.  The puzzle is similar in difficulty to the Skewb or
+Pyramid.  I would say about 10 - 15 moves.  
+4.   Observations:
+   a.  The puzzle has a front and back.
+   b.  Each piece always has a hinge with two (2) other pieces.  This causes the
+pieces when rotated to rotate as if they were gears, ie, adjacent pieces rotate
+in opposite directions.
+    c. The 2x4 layout can go either up and down or left and right.
+    d.  It is possible to turn the open/loop layout inside out, ie, the
+non-intersecting rings can be either on the inside or outside.  This is the same
+as changing how the hinge works on the 2x4 layout.  This also exchanges the top
+and bottom of the 2x4 layout.
+  e.  For three intersecting rings (the object of the puzzle) the 8 squares have
+to be arranged as a 2x3x3 and not as a 2x4.  
+
+           /                       \
+          |\                      / |
+          |   \         /      /   |
+          |\   |\     /\    /|  /|
+          |   \|   \/    \/  |/  |
+           \  |\   |\    /|  /|  /                <BECK@ARDEC-LCSS>
+             \|   \|  \/  |/  |/
+               \   |\  |  /|  /
+                  \|  \|/  |/
+                    \  |  /
+                      \|/    
+------
+
+Received: from MX.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 10 OCT 86  13:42:48 EDT
+Date: Fri, 10 Oct 86 13:41:11 EDT
+From: Richard Pavelle <RP%MX.LCS.MIT.EDU@MC.LCS.MIT.EDU>
+Subject: Rubiks Magic
+To: CUBE-LOVERS%MX.LCS.MIT.EDU@MC.LCS.MIT.EDU
+Message-ID: <[MX.LCS.MIT.EDU].952133.861010.RP>
+
+It is available at Toys-R-Us in the Boston area.
+
+Received: from DIAMOND.S4CC.Symbolics.COM (TCP 20024231403) by AI.AI.MIT.EDU  4 Nov 86 17:11:18 EST
+Received: from KOYAANISQATSI.S4CC.Symbolics.COM by DIAMOND.S4CC.Symbolics.COM via CHAOS with CHAOS-MAIL id 24817; Tue 4-Nov-86 17:06:25 EST
+Date: Tue, 4 Nov 86 17:06 EST
+From: David C. Plummer <DCP@QUABBIN.SCRC.Symbolics.COM>
+Subject: rubiks magic
+To: "CLSTR1::BECK" <beck@clstr1.decnet>,
+    cube-lovers <cube-lovers@MIT-AI.ARPA>
+In-Reply-To: The message of 10 Oct 86 09:32 EDT from "CLSTR1::BECK" <beck@clstr1.decnet>
+Message-ID: <861104170610.5.DCP@KOYAANISQATSI.S4CC.Symbolics.COM>
+
+Rubik's Magic is available at "Games people play" near Harvard Square
+for a little under $15.  As with Beck, it took me about 4 days to solve
+it.  My resulting solution is strickingly simple (3 macros), but I took
+a lot of interesting paths to get there.  I think it could have been
+made harder be repainting the back surface, but doing so may take it out
+of the reach of the general public.  (It would require solving it to an
+intermediate configuration that doesn't look anywhere near solved, and
+then frob it again.)
+
+It's a good puzzle for playing with and relieving the fidgets.
+Mathematically it isn't very interesting, nor are there any "pretty
+patterns" other than solved1 and solved2.
+
+
+Received: from SUMEX-AIM.ARPA (TCP 1200000070) by AI.AI.MIT.EDU  4 Nov 86 17:48:42 EST
+Date: Tue 4 Nov 86 14:43:05-PST
+From: Haym Hirsh <HIRSH@SUMEX-AIM.ARPA>
+Subject: SF Bay area availability of Rubik things
+To: cube-lovers@AI.AI.MIT.EDU
+cc: hirsh@SUMEX-AIM.ARPA
+In-Reply-To: <861104170610.5.DCP@KOYAANISQATSI.S4CC.Symbolics.COM>
+Message-ID: <12252334415.75.HIRSH@SUMEX-AIM.ARPA>
+
+Rubik's magic was available at the local Sears (Palo Alto/Mtn View) for
+around $8, but they are out of stock now.  It is currently available
+at Norney's in the same mall for around $13.
+
+A few 5x5x5 Rubik's cubes were available at Games and Things in the
+Stanford shopping center about a week ago for around $20.
+-------
+
+Received: from WAIKATO.S4CC.Symbolics.COM (TCP 20024231532) by AI.AI.MIT.EDU  4 Nov 86 18:25:14 EST
+Received: from ROCKY-MOUNTAINS.S4CC.Symbolics.COM by WAIKATO.S4CC.Symbolics.COM via CHAOS with CHAOS-MAIL id 71267; Tue 4-Nov-86 18:23:59 EST
+Date: Tue, 4 Nov 86 18:22 EST
+From: Allan C. Wechsler <acw@WAIKATO.S4CC.Symbolics.COM>
+Subject: rubiks magic
+To: DCP@QUABBIN.SCRC.Symbolics.COM, beck@clstr1.decnet,
+    cube-lovers@MIT-AI.ARPA
+In-Reply-To: <861104170610.5.DCP@KOYAANISQATSI.S4CC.Symbolics.COM>
+Message-ID: <861104182207.9.ACW@ROCKY-MOUNTAINS.S4CC.Symbolics.COM>
+
+    Date: Tue, 4 Nov 86 17:06 EST
+    From: David C. Plummer <DCP@QUABBIN.SCRC.Symbolics.COM>
+
+    Rubik's Magic is available at "Games people play" near Harvard Square
+    for a little under $15.  
+
+As usual, Carol Monica is charging unreasonable prices.  Boycott this
+moderately obnoxious woman and buy your Magic from Zayre or Bradlee's at
+about $7-8.
+
+    It's a good puzzle for playing with and relieving the fidgets.
+    Mathematically it isn't very interesting, nor are there any "pretty
+    patterns" other than solved1 and solved2.
+
+The "pretty patterns" are more sculptural than geometrical.  Can you
+make a cube?
+
+Mathematically, there are a couple of interesting points.  There are
+sixteen achievable 2x4 configurations, linked by a nice little rosette
+of generators.
+
+Unsolved stumper:  The pattern
+
+	XXX
+	X X
+	XXX
+
+appears unreachable, but we haven't been able to prove it.  Can someone
+come up with a proof?  (Or -- hope against hope -- has anyone achieved
+it?)
+
+I find the mechanical aspect more pleasing than the cube.  "Magic" is more
+satisfying to manipulate than almost any of its predecessors.  The
+linking principle can be generalized to any number of squares.  I am
+considering breaking a couple and wiring them together to make Big
+Magic.
+
+
+Received: from PROPHET.BBN.COM (TCP 20026200117) by AI.AI.MIT.EDU  4 Nov 86 19:23:09 EST
+Date:     Tue, 4 Nov 86 19:12:58 EST
+From:     Bernie Cosell <cosell@prophet.bbn.com>
+To:       cube-lovers@ai.ai.mit.edu
+cc:        beeler@prophet.bbn.com, alatto@prophet.bbn.com, jr@prophet.bbn.com, 
+           lcosell@prophet.bbn.com
+Subject:  Re:  rubiks magic
+
+On the other side, GPP is generally the *only* comprehensive games-hackers
+store about and we would do well to go out of our way to patronize it.
+I hardly care about the $5.00 one way or the other on something like
+Magic, but where else can you get Monkey puzzles, and the Pentagle series
+(are they still in business?  I haven't seen any new ones recently),
+go/shogi sets/books, imported jigsaw puzzles and on and on.  If she doesn't
+get a decent profit on the things she expects to sell a fair number of,
+then she won't be able to stock the esoteric and fun stuff.
+
+  /Bernie
+
+Bernie Cosell                       Internet:  cosell@bbn.com
+Bolt, Beranek & Newman, Inc         USENET:    bbnccv!bpc
+Cambridge, MA   02238               Telco:     (617) 497-3503
+
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 6 NOV 86  15:06:54 EST
+Received: from nrl-aic (TCP 3200200010) by MC.LCS.MIT.EDU  6 Nov 86 15:02:30 EST
+Date: 6 Nov 1986 13:41:48 EST (Thu)
+From: Dan Hoey <hoey@nrl-aic.ARPA>
+Subject: Magic
+To: Cube-lovers@mit-mc.ARPA
+Message-Id: <531686509/hoey@nrl-aic>
+
+I have three macros for transforming 2x4 rectangles.  To solve the
+puzzle, I use two of them followed by a seven-flip macro that changes a
+2x4 shape into a 3x3-1 shape (beats me how BECK can call this a
+``2x3x3'').  Took me a couple of half-days to solve it.
+
+I have found 32 different 2x4 rectangles.  I think that is all of them,
+but I haven't got any proofs, nor even a decent mathematical model for
+deciding when a flip is possible.
+
+I am trying to understand how the strings work.  First, it looks like
+there is twice as much string as necessary; each string is doubled.  I
+guess that this duplication has no effect on the puzzle except for
+durability, but until I can dyke one out can't be sure.  I'm concerned
+that the string may be one double loop, so I'm looking for a good way
+to make sure the thing doesn't unstring entirely when I cut one.
+
+Each side of each piece has four short channel segments and four long;
+half are occupied with string.  If you continue each segment across
+each hinge to the next piece, you get eight channels composed of
+alternating long and short segments.  Again, four of the eight channels
+are occupied.  In the positions I've seen, each of the channels
+contains eight pairs of segments.
+
+But Magic is more complicated than that--the strings do not always
+follow a channel from piece to piece.  On half of the pieces, there is
+an extra loop of string that wraps back onto the piece without
+following the channel to the next piece.  I don't know what function
+this serves.
+
+If a good model of the string interactions can be developed, we may be
+able to make an attack on the doughnut problem based on the length of
+string channels.  In the doughnut, there are four ten-pair channels and
+four six-pair channels.  We may be able to show that the string wouldn't
+reach one, and would exceed the other.  More likely, the model will
+prohibit the doughnut more directly.
+
+There is another string-related question I am wondering about.  I have
+noticed some of the string-pairs getting twisted.  I wonder how bad
+this can get.  Does anyone have an operation that can be repeated to
+make the twists tighter and tighter?  Are these puzzles built for
+obsolescence?
+
+I have been considering Magic metrics, but it's a difficult problem.
+Counting flips is easy enough, but how do you count a move that skews a
+parallelogram?  Are such skew moves necessary?
+
+Dan
+
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 6 NOV 86  18:17:21 EST
+Received: from WAIKATO.S4CC.Symbolics.COM (TCP 20024231532) by MC.LCS.MIT.EDU  6 Nov 86 18:15:02 EST
+Received: from ROCKY-MOUNTAINS.S4CC.Symbolics.COM by WAIKATO.S4CC.Symbolics.COM via CHAOS with CHAOS-MAIL id 71915; Thu 6-Nov-86 18:11:09 EST
+Date: Thu, 6 Nov 86 18:13 EST
+From: Allan C. Wechsler <acw@WAIKATO.S4CC.Symbolics.COM>
+Subject: Magic
+To: hoey@NRL-AIC.ARPA, Cube-lovers@MIT-MC.ARPA
+In-Reply-To: <531686509/hoey@nrl-aic>
+Message-ID: <861106181326.6.ACW@ROCKY-MOUNTAINS.S4CC.Symbolics.COM>
+
+    Date: 6 Nov 1986 13:41:48 EST (Thu)
+    From: Dan Hoey <hoey@nrl-aic.ARPA>
+
+    I have found 32 different 2x4 rectangles.  I think that is all of them,
+    but I haven't got any proofs, nor even a decent mathematical model for
+    deciding when a flip is possible.
+
+I think I have a proof.  Wait a few paragraphs.
+
+    If a good model of the string interactions can be developed, we may be
+    able to make an attack on the doughnut problem based on the length of
+    string channels.  In the doughnut, there are four ten-pair channels and
+    four six-pair channels.  We may be able to show that the string wouldn't
+    reach one, and would exceed the other.  More likely, the model will
+    prohibit the doughnut more directly.
+
+Here is my model.  It might be wrong.
+
+The puzzle is a cycle of eight squares.  Their underlying adjacency
+relationships never change.
+
+Each pair of squares is bound together by two loops of string (nylon
+fishing wire, actually).  Those two loops are dedicated to holding those
+two squares together -- they never migrate to other squares, although
+parts of a loop may sometimes lie on one of the pair, sometimes on the
+other.
+
+I need a diagram of the channels:
+
+         ---- ----
+        |/\/\|/\/\|
+        |\/\/|\/\/|
+	|/\/\|/\/\|
+        |\/\/|\/\/|
+         ---- ----
+
+I offer the usual apologies about aspect ratio.  Now, ignore the two
+sided nature of the puzzle.  Imagine that the two squares form a 1x2
+unit billiard table, and think of the channels as trajectories of
+billiard balls, and you will see that the channels form two disjoint
+"orbits", each (* 4 (sqrt 2)) units long.  The two loops of string
+follow these two orbits, crossing from the obverse to the reverse sides
+of the puzzle and back again at every chance they get.  If you work it
+out, you see that half the channels are empty at any given time.
+
+The details are too mindbending, but the result is clear: those two
+squares are bound together.  They don't depend on synergy from the rest
+of the puzzle to bind them.
+
+Now close the pair of squares, putting the right on top of the left as
+if you were finishing reading a book.  You can open the pair again
+vertically, but only in one direction.  The front square can flip up, or
+it can flip down, but not both.  Without loss of generality, let's say
+it can flip up.  If you had folded the right square behind the left
+instead of in front, it would be able to flip down.
+
+Now gedankenfollow these gendankendirections.  
+
+Put the squares back as above.  Only the square on the right (the rotor)
+will move. Keep the left square (the stator) fixed.
+
+Fold the rotor in front of the stator.  Flip the rotor up, and over, and
+behind the stator.  Now it will open to the left.  Flip the rotor around
+the left edge of the stator until it is in front again.  Then it will
+flip down.  Do so, until it is in back again.  Now it will open to the
+right.
+
+You have moved the rotor all the way around the stator.  At some point,
+each edge of both served as the hinge.  This amazing orbit is the basis
+for the bewilderingness of the puzzle.  The path is a bizarre
+three-dimensional cloverleaf.
+
+I think that I have now given all the "laws of motion" of the puzzle.
+
+Since the laws are all local, governing the motion of one adjacent pair
+of squares, there is no obvious invariant that forbids the doughnut.
+
+    There is another string-related question I am wondering about.  I have
+    noticed some of the string-pairs getting twisted.  I wonder how bad
+    this can get.  Does anyone have an operation that can be repeated to
+    make the twists tighter and tighter?  Are these puzzles built for
+    obsolescence?
+
+I am convinced not.
+
+    I have been considering Magic metrics, but it's a difficult problem.
+    Counting flips is easy enough, but how do you count a move that skews a
+    parallelogram?  Are such skew moves necessary?
+
+    Dan
+
+Your 32 configurations are characterized as follows:  Turn the puzzle so
+the unlinked rings are in front.  Rotate it so Rubik's signature is in
+the bottom row.  The signature square could be in any of four positions.
+The "matchbox" square could be clockwise from Rubik, or
+counterclockwise.  And Rubik himself could be in any of four
+orientations.  This determines the orientations of all the other
+squares.  There are no more degrees of freedom.
+
+It is more instructive to consider the "supergroup", which includes
+180-deg rotations but excludes turning the puzzle over.  This group has
+sixty-four elements in thirty-two similar pairs.  I have a table.
+
+
+Received: from nrl-aic (TCP 3200200010) by AI.AI.MIT.EDU 13 Nov 86 15:00:34 EST
+Date: 13 Nov 1986 13:16:44 EST (Thu)
+From: Dan Hoey <hoey@nrl-aic.ARPA>
+Subject: Magic
+To: acw%WAIKATO.S4CC.Symbolics.COM@scrc-stony-brook.ARPA, jr@bbncc5.ARPA,
+        alatto@bbncc5.ARPA, cube-lovers@mit-AI.ARPA
+In-Reply-To: <861106181326.6.ACW@ROCKY-MOUNTAINS.S4CC.Symbolics.COM>
+Message-Id: <532289805/hoey@nrl-aic>
+
+    Date: Thu, 6 Nov 86 18:13 EST
+    From: Allan C. Wechsler <acw@WAIKATO.S4CC.Symbolics.COM>
+
+    ... Here is my model.  It might be wrong.
+
+From what I have seen of the puzzle, your model seems to correctly
+specify necessary conditions for puzzle movement.  I have some
+additional constraints, below.
+
+    Each pair of squares is bound together by two loops of string (nylon
+    fishing wire, actually).
+
+This is acceptable for a model, though the physical puzzles I have seen
+are have twice as much wire on half of the squares as on the others.  I
+don't know why, and I am nearly ready to take one apart just to verify
+my several curiosities about the construction.
+
+    ... Only the square on the right (the rotor) will move. Keep the left
+    square (the stator) fixed.  Flip the rotor ....
+    You have moved the rotor all the way around the stator.  At some point,
+    each edge of both served as the hinge.  This amazing orbit is the basis
+    for the bewilderingness of the puzzle.  The path is a bizarre
+    three-dimensional cloverleaf.
+
+This corresponds with my understanding of two-square interaction.
+Thanks for nailing it down.
+
+    I think that I have now given all the "laws of motion" of the puzzle.
+
+There is something more, because each square has *two* neighbors.
+Consider a stator with two rotors.  There are two ``bizarre three-
+dimensional cloverleaves'' about the stator, but both rotors move in
+the same b3dc.  Furthermore, they cannot pass each other in their
+common b3dc.  Thus if one goes around more than a complete revolution,
+the other must make a net advance in the same direction.
+
+    Since the laws are all local, governing the motion of one adjacent
+    pair of squares, there is no obvious invariant that forbids the
+    doughnut.
+
+I think I can demonstrate one, given the fact that the pieces are
+joined in a cycle.  Let us tie each pair of adjacent squares together
+as in your model.  We notice that in the starting position, each of the
+occupied channels is occupied by two wires, one for each neighbor of
+the square.  Suppose we dyke out a loop from the left neighbor, and
+splice the left neighbor's connections into the right neighbor's loop.
+Then do this all the other duplicate loops.  I believe we end up with a
+puzzle held together by four pieces of wire, each (* 8 (sqrt 2)) units
+long.  One of them is drawn below, assuming transparent squares.  I
+believe that this puzzle will move in the same way as the original one.
+
+         ---- ---- ---- ---- 
+        |/\  |    |/\  |    |
+        |\ \ |   /|  \ |    |
+        | \ \|  / |   \|    |
+        |  \ |\/  |    |\   |
+         ---- ---- ---- ---- 
+        |   \|    |  /\| \  |
+        |    |\   | /  |\ \ |
+        |    | \  |/   | \ \|
+        |    |  \/|    |  \/|
+         ---- ---- ---- ---- 
+
+Now put away the dykes and try to fold the puzzle into a doughnut.  If
+you succeed, you will have formed two (* 10 (sqrt 2)) wires and two
+(* 6 (sqrt 2)) wires:
+
+         ---- ---- ----          ---- ---- ----
+        |/\  |    |/\  |        |    |/\  |    |
+        |\ \ |   /|  \ |        |   /|  \ |    |
+        | \ \|  / |   \|        |  / |   \|    |
+        |  \ |\/  |   /|        | /  |    |\   |
+         ---- ---- ----          ---- ---- ----
+        |   \|    |  / |        |/   |    | \  |
+        |   /|    | /  |        |\   |    |  \ |
+        |  / |    |/   |        | \  |    |   \|
+        | /  |    |\   |        |  \ |    |   /|
+         ---- ---- ----          ---- ---- ----
+        |/   |  /\| \  |        |   \|    |  / |
+        |\   | /  |\ \ |        |    |\   | /  |
+        | \  |/   | \ \|        |    | \  |/   |
+        |  \/|    |  \/|        |    |  \/|    |
+         ---- ---- ----          ---- ---- ----
+
+Changing the string lengths is a little more magic than I expect from
+Rubik.
+
+My thanks to John Robinson for encouraging me to believe that the
+string-length criterion has merit.  He tells me Andy Latto has a
+similar proof.
+
+Dan
+
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 30 NOV 86  15:36:27 EST
+Received: from cc2.bbn.com (TCP 1000200022) by MC.LCS.MIT.EDU 30 Nov 86 15:36:55 EST
+Date: Sun, 30 Nov 86 15:34:25 EST
+From: Buz Owen <ado@cc2.bbn.com>
+Subject: 5 cube?
+To: cube-lovers@mc.lcs.mit.edu
+Cc: ado@cc2.bbn.com
+
+Can someone on this list supply me with the address of a store
+that can sell me a 5x5x5 cube?  I am not on the list so please
+reply directly.  Thanks/Buz
+
+
+
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU  3 Dec 86 10:27:14 EST
+Date: 3 Dec 86 08:55:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 5X5X5 AVAILABILITY
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+RE:  Buz Owen's request for a source for 5x5x5 cubes
+
+1.  Jerry Slocum
+     257 South Palm Drive
+     Beverly Hills, CA 90212
+     213/273-2270
+has both 5x5x5s and skewbs available for $20 each.
+
+2. Jerry Slocum has also authored a book "Puzzles Old and New, How to make and
+Solve Them" which he sells for $22 outside of CA, autographed if requested.  
+The table of contents is:
+chap 1  PUT-TOGETHER PUZZLES - Putting the object together is the puzzle.
+chap 2  TAKE-APART PUZZLES - Opening or taking the object apart is the puzzle.
+chap 3  INTERLOCKING SOLID PUZZLES - Disassembly and assembly is required to
+solve the puzzle.
+chap 4  DISENTANGLEMENT PUZZLES - The puzzle is to disentangle and re-entangle
+the parts of the puzzle.
+chap 5  SEQUENTIAL MOVEMENT PUZZLES -  The puzzle is to move parts of the object
+to a goal (The cube, et al)
+chap 6  PUZZLE VESSELS - Drinking or pouring liquid, or filling the vessels
+without spilling is the puzzle.
+chap 7  DEXTERITY PUZZLES -  Manual dexterity is required to solve the puzzle.
+chap 8  VANISH PUZZLES - The puzzle is to explain a vanishing or changing image.
+chap 9  IMPOSSIBLE OBJECT PUZZLES - The puzzle is to discover how the object is
+made.
+chap 10  FOLDING PUZZLES - The puzzle is to achieve a specified gola by folding.
+
+3.  Richard Hess
+     4100 Palos Verdes Dr. East
+     Rancho Palos Verdes, CA 90274
+has available for sale many of the puzzles from Jerry Slocum's book.
+
+4.  Another book of interest is:
+        536 Puzzles & Curious Problems by  Henry Ernest Dudeney,
+        1967 by Charles Scribner's Sons
+        Library of Congress Catalog Card NUmber 67-15488.
+
+5.  There are sources for other variations of the cube, if anybody is interested
+I will compile a list.
+
+CUBING IS FOREVER ---     <BECK@ARDEC-LCSS>
+------
+
+Received: from REAGAN.AI.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 3 DEC 86  17:04:45 EST
+Received: from PIGPEN.AI.MIT.EDU by REAGAN.AI.MIT.EDU via CHAOS with CHAOS-MAIL id 14155; Wed 3-Dec-86 17:04:49 EST
+Date: Wed, 3 Dec 86 17:04 EST
+From: Alan Bawden <Alan@AI.AI.MIT.EDU>
+Subject: BITNET Redistribution of Cube-Lovers
+To: Cube-Lovers@AI.AI.MIT.EDU
+Message-ID: <861203170452.2.ALAN@PIGPEN.AI.MIT.EDU>
+
+I'm looking for someone on BITNET to volunteer to maintain a BITNET
+redistribution list for the Cube-Lovers mailing list.  This is necessary
+because the machine that's acting as the Internet/BITNET gateway,
+WISCVM.WISC.EDU, is swamped with mailing list mail.  List administrators
+(like me) are being asked to set up redistribution lists to help lighten
+the load.  If we can set one up for Cube-Lovers then WISCVM will only have
+to relay each message to one host instead of the current 20 or so.
+
+If you're willing and able to take this on, please let me know.
+
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU  5 Dec 86 09:20:22 EST
+Date: 5 Dec 86 09:06:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+From:	CLSTR1::SYSTEM        4-DEC-1986 11:27
+To:	CLSTR1::BECK
+Subj:	Undeliverable mail
+
+ ----Transcript of session follows----
+"mit" is an unrecognized hostname/address
+
+ ----Unsent message follows----
+Date: 4 Dec 86 11:18:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: CUBE AVAILABILITY
+To: "cube-lovera" <cube-lovera@mit>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+1.  MY MSG TO BUZ OWEN was not delivered (RE: 5x5x5 availability).  If anybody out there knows him or how to forward the msg to him (he is not on the cube lovers list) please do so.
+
+2.  It will take a bout a week but I will compile a list where and what is available in the world of cubes.  It will be a compilation of Helm's 
+, Bandelow's, Hess's and Beck's supplies.  Please be patient.  If you are looking for a specific cube let me know I can get you that answer faster.
+
+<beck@ardec-lcss>
+------
+------
+
+Received: from Xerox.COM (TCP 1200400040) by AI.AI.MIT.EDU  7 Dec 86 19:21:54 EST
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 07 DEC 86 16:21:13 PST
+Date: 7 Dec 86 16:21:12 PST (Sunday)
+From: Hoffman.es@Xerox.COM
+Subject: Puzzle show
+To: Cube-Lovers@AI.AI.MIT.EDU
+Reply-To: Hoffman.es@Xerox.COM
+Message-ID: <861207-162113-1746@Xerox>
+
+PUZZLES OLD AND NEW:  Head Crackers, Patience Provers, and Other Tactile
+Teasers
+
+[including more variations on Rubik's cube than I've ever seen before]
+
+EXHIBITION TOUR:
+  	
+	Craft and Folk Art Museum, LA	Nov. 26, '86 - Feb. 22, 1987
+	MIT Museum			April 6 - June 15, 1987
+	Hudson River Museum		July 22 - Sept. 27, 1987
+	Science Museum of Minnesota	Oct. 19, '87 - Jan 3, 1988
+	Ontario Science Center		Jan. 25 - March 6, 1988
+
+Accompanied by the book PUZZLES OLD AND NEW: HOW TO MAKE AND SOLVE THEM
+by Jerry Slocum and Jack Botermans ($20).
+
+The exhibit discusses
+	The Art in Puzzles
+	The Social Experience
+	Cultural Values
+	Puzzles in the Industrial Age
+	Puzzles in Education
+	Puzzles and Science
+
+It aims "to explore the history, meanings, and design of mechanical
+puzzles."  The extensive displays categorize puzzles according to their
+object:
+	Put-Together Puzzles
+	Take-Apart Puzzles
+	Interlocking Solid Puzzles
+	Disentanglement Puzzles
+	Sequential Movement Puzzles
+	Puzzle Vessels
+	Dexterity Puzzles
+	Vanish Puzzles
+	Impossible Object Puzzles
+	Folding Puzzles
+
+Puzzles have been lent by collectors and museums around the world.  The
+exhibit consultants are Benjamin Kilborne and Martin Gardner.
+
+There are hands-on puzzles, but too simple and too few.  It's a
+wonderful and tantalizing display of puzzles.  I was SOOO frustrated not
+to be able to handle all the beautiful, enticing pieces.  Of course, if
+I had been permitted to, I would never leave.... 
+
+  --  Rodney Hoffman
+
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU  9 Dec 86 14:05:07 EST
+Date: 9 Dec 86 13:53:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+From:	CLSTR1::SYSTEM        9-DEC-1986 09:22
+To:	CLSTR1::BECK
+Subj:	Undeliverable mail
+
+ ----Transcript of session follows----
+"mit.ai" is an unrecognized hostname/address
+
+ ----Unsent message follows----
+Date: 9 Dec 86 09:18:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 
+To: "cube-lovers" <cube-lovers@mit.ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+From:	CLSTR1::SYSTEM        8-DEC-1986 15:52
+To:	CLSTR1::BECK
+Subj:	Undeliverable mail
+
+ ----Transcript of session follows----
+"ai.ai.mit.edu" is an unrecognized hostname/address
+
+ ----Unsent message follows----
+Date: 8 Dec 86 15:32:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: slocum's book
+To: "cube-lovers" <cube-lovers@ai.ai.mit.edu>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+RE:  Slocum's book.
+I have not read it yet but I have ordered a copy and hope to be able to answer
+your questions soon.  In issue #6 of "World Game Review" (avaialble for $8 for 4
+issues from Michael Keller, 3367-I North Chatam Road, Ellicott City, MD 21043)
+Slocum's book is reviewed.  It says that this book is a collaboration with Jack
+Botermans author of "creative puzzles of the world" which was the best puzzle
+book but is now out of print.  The new book has much of the older books material
+on mechanical puzzles plus new material.  The book was liked in general.
+
+<beck@ardec-lcss>
+------
+------
+------
+
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU  9 Dec 86 14:27:43 EST
+Date: 9 Dec 86 13:56:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+From:	CLSTR1::SYSTEM        8-DEC-1986 15:52
+To:	CLSTR1::BECK
+Subj:	Undeliverable mail
+
+ ----Transcript of session follows----
+"mit.ai" is an unrecognized hostname/address
+
+ ----Unsent message follows----
+Date: 8 Dec 86 15:35:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: buz owens
+To: "cube-lovers" <cube-lovers@mit.ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+
+1.  MY direct MSG TO BUZ OWEN was not delivered (RE: 5x5x5 availability).  If
+anybody out there knows him or how to forward the msg to him (he is not on the
+cube lovers list) please do so.
+ 
+2.  It will take a bout a week but I will compile a list where and what is
+available in the world of cubes.  It will be the highlights from Helm's
+, Bandelow's, Hess's and Beck's supplies.  If you want a complete classification
+guide request it separately and I will mail you a copy of Bandelow's collection
+or if you are more patient wait for Cecil Smith to complete his book.  Please be
+patient.  If you are looking for a specific cube let me know I can get you that
+answer faster.
+ 
+<beck@ardec-lcss>
+------
+------
+------
+
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 10 Dec 86 08:41:01 EST
+Date: 10 Dec 86 08:28:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 
+To: "cube-lovers" <cube-lovers@mit-ai>
+cc: beck
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+RE:  Slocum's book.
+I have not read it yet but I have ordered a copy and hope to be able to answer
+your questions soon.  In issue #6 of "World Game Review" (avaialble for $8 for 4
+issues from Michael Keller, 3367-I North Chatam Road, Ellicott City, MD 21043)
+Slocum's book is reviewed.  It says that this book is a collaboration with Jack
+Botermans author of "creative puzzles of the world" which was the best puzzle
+book but is now out of print.  The new book has much of the older books material
+on mechanical puzzles plus new material.  The book was liked in general.
+ 
+<beck@ardec-lcss>
+------
+------
+------
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 10 Dec 86 17:15:52 EST
+Received: from navajo.stanford.edu (TCP 4402000060) by MC.LCS.MIT.EDU 10 Dec 86 17:00:36 EST
+Received: by navajo.stanford.edu; Wed, 10 Dec 86 12:56:25 PST
+Received: from jack-jr.edsel.uucp by edsel.uucp (2.2/SMI-2.0)
+	id AA27267; Wed, 10 Dec 86 12:51:04 pst
+Received: by jack-jr.edsel.uucp (1.1/SMI-3.0DEV3)
+	id AA12942; Wed, 10 Dec 86 12:52:32 PST
+Date: Wed, 10 Dec 86 12:52:32 PST
+From: edsel!jack-jr!jeb@navajo.stanford.edu (Jim Boyce)
+Message-Id: <8612102052.AA12942@jack-jr.edsel.uucp>
+To: navajo!cube-lovers%mit-mc.ARPA@navajo.stanford.edu
+Subject: Magic: Construction
+
+A friend on mine applied too much force in an odd direction and
+produced a tangled mess.  I was nominated to fix it.  My approach 
+was to take it apart completely and then put it back together.
+
+Tools required: 
+Well, I used a paper clip.
+
+Components:
+A Magic is made out of 16 loops of string (actually nylon fishline)
+and 8 panels.  The loops of string are all the same length.  The
+loops of string are not tangled in any way.  The panels each
+decompose into two clear plastic covers and a piece of paper
+(actually plastic).  The panels are held together by the string.
+
+Construction:
+
+Each loop of string is twisted around three panels.  It follows a
+path like these:
+
+ ---- ---- ----           ---- ---- ----
+|/\  |  /\|/\  |         |  /\|/\  |  /\|
+|\ \ | / /|\ \ |   or    | / /|\ \ | / /|
+| \ \|/ / | \ \|         |/ / | \ \|/ / |
+|  \/|\/  |  \/|         |\/  |  \/|\/  |
+ ---- ---- ----           ---- ---- ----
+
+For each string, there is another string that lies in the same
+channels.  When stringing a loop through the channels, there is a
+choice at the points where the string passes from one panel the
+next: Which string is closer to the center of the panel?  That
+question is answered differently for the two strings running throught
+the same channels.
+
+[I believe that this is done so that the net force trying to twist
+the toy at that point is near zero.  The redundancy also probably
+strengthens the toy.]
+
+The panels can be divided into two sets of four: The panels that are
+centers in these triples and the panels that are ends.  Each "end panel"
+is an end for two different triples.
+
+Strings don't lie in crossing channels on the same side of a panel.  
+(That describes how the two pairs of loops go on the same triple and 
+how two triples interact on their common end panel.)
+
+-jim boyce
+
+
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 11 Dec 86 09:03:53 EST
+Date: 11 Dec 86 08:58:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+From:	CLSTR1::MAILER        3-DEC-1986 10:50
+To:	BECK
+Subj:	[TCP/IP Mail From: <@AI.AI.MIT.EDU,@ardec-lcss.arpa:beck@clstr1.decnet>] 5X5X5 AVAILABILITY
+
+Return-Path: <@AI.AI.MIT.EDU,@ardec-lcss.arpa:beck@clstr1.decnet>
+Received: from AI.AI.MIT.EDU by ARDEC-LCSS.ARPA.ARPA ;  3 Dec 86 10:49:48 EST
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU  3 Dec 86 10:27:14 EST
+Date: 3 Dec 86 08:55:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 5X5X5 AVAILABILITY
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+RE:  Buz Owen's request for a source for 5x5x5 cubes
+
+1.  Jerry Slocum
+     257 South Palm Drive
+     Beverly Hills, CA 90212
+     213/273-2270
+has both 5x5x5s and skewbs available for $20 each.
+
+2. Jerry Slocum has also authored a book "Puzzles Old and New, How to make and
+Solve Them" which he sells for $22 outside of CA, autographed if requested.  
+The table of contents is:
+chap 1  PUT-TOGETHER PUZZLES - Putting the object together is the puzzle.
+chap 2  TAKE-APART PUZZLES - Opening or taking the object apart is the puzzle.
+chap 3  INTERLOCKING SOLID PUZZLES - Disassembly and assembly is required to
+solve the puzzle.
+chap 4  DISENTANGLEMENT PUZZLES - The puzzle is to disentangle and re-entangle
+the parts of the puzzle.
+chap 5  SEQUENTIAL MOVEMENT PUZZLES -  The puzzle is to move parts of the object
+to a goal (The cube, et al)
+chap 6  PUZZLE VESSELS - Drinking or pouring liquid, or filling the vessels
+without spilling is the puzzle.
+chap 7  DEXTERITY PUZZLES -  Manual dexterity is required to solve the puzzle.
+chap 8  VANISH PUZZLES - The puzzle is to explain a vanishing or changing image.
+chap 9  IMPOSSIBLE OBJECT PUZZLES - The puzzle is to discover how the object is
+made.
+chap 10  FOLDING PUZZLES - The puzzle is to achieve a specified gola by folding.
+
+3.  Richard Hess
+     4100 Palos Verdes Dr. East
+     Rancho Palos Verdes, CA 90274
+has available for sale many of the puzzles from Jerry Slocum's book.
+
+4.  Another book of interest is:
+        536 Puzzles & Curious Problems by  Henry Ernest Dudeney,
+        1967 by Charles Scribner's Sons
+        Library of Congress Catalog Card NUmber 67-15488.
+
+5.  There are sources for other variations of the cube, if anybody is interested
+I will compile a list.
+
+CUBING IS FOREVER ---     <BECK@ARDEC-LCSS>
+------
+
+------
+
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 11 Dec 86 09:27:35 EST
+Date: 11 Dec 86 08:53:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: SOME CUBES
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+------
+HIGHLIGHTS OF CUBE TYPES WITH AVAILABILITY ( Bandelow's complete compilation is
+9 pages. Supposedly both Slocum and Cecil Smith have more extensive lists.)
+
+I will follow Bandelow/Helm classification guide, ie, 
+  A.  3x3x3 cubes of standard size (57mm edge)
+  B.  size variations of 3x3x3 cube
+  C.  shape variations of the 3x3x3 cube
+  D.  NxN (N not 3) cubes and their relatives
+  E.  other magic polyhedra
+  F.  some other logical puzzles
+  G.  various cube rel;ated products
+
+SOURCES:  PB - Peter Beck, 54 Richwood place, Denville, NJ 07834, add $1
+shipping per order
+                CB  - Christoph Bandelow, Haarholzer Strasse 13, D-4630 Bochum
+1, W Germany
+                GH  - Georges Helm, 22A rue Bommert, 4716 Petange, Luxembourg
+                RH  - Richard Hess, 4100 Palos Verdes Dr. East, Rancho Palos
+Verdes, CA 90274
+
+  A.  3x3x3 cubes of standard size (57mm edge)
+ORIGINAL HUNGARIAN RUBIK'S CUBE (CB $8)
+DELUXE CUBE, bonded plastic instead of stickers, Ideal (PB $3)
+SIAMESE CUBES, 2 standard cubes joined by having one edge in common, Ideal (CB
+$15)
+THERE ARE MANY STICKER VARIATIONS; some are one to one subsitions of cubie
+stickers,  some are pictures that cover a whole cube face, some are puzzles
+(like the calendar cubes), some divide the coloring of cubies so that the 3x3x3
+simulates other cubes (see Hofstadter's articles).  I have not seen any
+references to Penrose Tiling cubie designs.
+NUMBERS, FRUITS, CARDS, FLOWERS, SPORTS BALLS,DIE 1, FEMALE NUDES wonderful,
+taiwan (PB $2)
+
+  B.  size variations of 3x3x3 cube
+50mm, 38mm, 33mm, 31mm, 30mm, 25mm, 20mm - made into keychains and necklaces.
+
+  C.  shape variations of the 3x3x3 cube
+because the cubies always maintain the same in-out orientation relative to the
+center of the cube, cubies can have any surface extension desired.  Therefore
+there are cubes are spherical cubes, cubes with corner pieces trimmed to
+equilateral triangles, some edge pieces are trimmed so that they make a single
+plane presentation (eg, makes a barrel), I HAVE NOT HEARD OF ANY THAT MAKE A
+SOLID SCULPTURE OF THE CUBE, eg, a bust of RUBIK.
+OCTAGONAL PRISM - four parallel edges are trimmed giving an octagonal prism, (CB
+$8)
+MEDIUM MAGIC GLOBE - Sold as Rubik's World, (CB or GH $10)
+MEDIUM MAGIC BALL - sp-herical cube, (PB $2)
+
+  D.  NxN (N not 3) cubes and their relatives
+56mm 2x2x2 RUBIK'S POCKET CUBE, (CB $8)
+OCTAHEDRON 2X2X2 each rotation axis runs through two opposite corners of the
+octahedron, (CB $8)
+TETRAHEDRAL 2X2X2, each rotation axis runs through the centers of two opposite
+edges, (CB $8)
+STAR PUZZLE 2X2X2, similar to tetrahedron with a unicolored tetrahedron attached
+to the center of the big tetrahedron.
+TRICKHAUS 2X2X2, four edges are trimmed leaving a prism, can be arranged to look
+like a house, ie, square base and and roof, (CB $8)
+4x4x4, RUBIK'S REVENGE, if you are lucky $2 at KAYBEE TOY STORES
+5x5x5, ($20 from jerry slocum, see previous msg)
+
+  E.  other magic polyhedra
+SKEWB
+PYRAMINX
+MEGAMINX
+ALEXANDER'S STAR
+IMPOSSI-BALL
+ORB
+HUGARIAN GLOBE, FROM NATURE CO., NIT A CUBE
+MISSINK LINK
+
+  F.  some other logical puzzles
+  G.  various cube related products
+
+<BECK@ARDEC-LCSS>
+------
+
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 11 Dec 86 15:15:58 EST
+Date: 11 Dec 86 15:06:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: slocums book
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+RE:  Slocum's book.
+I have not read it yet but I have ordered a copy and hope to be able to answer
+your questions soon.  In issue #6 of "World Game Review" (avaialble for $8 for 4
+issues from Michael Keller, 3367-I North Chatam Road, Ellicott City, MD 21043)
+Slocum's book is reviewed.  It says that this book is a collaboration with Jack
+Botermans author of "creative puzzles of the world" which was the best puzzle
+book but is now out of print.  The new book has much of the older books material
+on mechanical puzzles plus new material.  The book was liked in general.
+ 
+<beck@ardec-lcss>
+------
+------
+
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 24 Dec 86 11:41:58 EST
+Date: 24 Dec 86 11:38:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: magic review article
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+I have written a review of MAGIC for the  "World Game Review", edited and
+published by Michael Keller, 3367-I north Chatam Road, Ellicott City, MD 21043,
+$8 for 4 issues.   It as you can tell is based on the CUBE-LOVERS list dialog. 
+If anybody would like to comment or make recomMend any additions or deletions
+please forward your suggestions to me  ,<BECK@ARDEC-LCSS>.
+
+A REVIEW OF RUBIK'S MAGIC
+BY Peter Beck,  Dec 24, 1986
+
+The Hungarian Government two years ago approved Rubik's plans for a private
+business, Rubik Studio, to develop designs for what Mr. Rubik hopes will be a
+wide range of items including puzzles.  Rubik's Magic is its first commercial
+venture.  It is being manufactured and marketed by Matchbox and is generally
+available at prices ranging from $9-$15, $7 on sale.  Matchbox's deal with 
+Rubik was based on a three-to-five year plan that includes the development and
+marketing of more advanced versions of Magic.
+
+Like the cube, MAGIC is good for playing with and relieving the fidgets.  It is
+palm-sized and made up of eight 2"x1/4" squares ,of impact-resistant transparent
+plastic, folding up into a 1"x2"x4" block which easily fits into a shirt or
+jacket pocket.  Unlike the cube it can be maneuvered into a plethora of
+different geometrical shapes which makes it more fun and pleasureful to
+manipulate than the cube.    Any of the various geometrical variations look 
+good on the coffee table and your guests can make magical discoveries as they
+play with it.
+
+The object of the puzzle is to manipulate the squares from their original
+pattern (henceforth known as pattern #1) to pattern #2.  In pattern #1 the
+squares form two equal rows (i.e., 2x4 arrangement) and spread across one side
+is a depiction of three unconnected rainbow-colored rings printed on a black
+background.  By folding, flipping, flopping and flapping the squares, which are
+linked by an ingenious hinge, we arrive at pattern #2 which is three
+intersecting rings on the reverse side.
+
+Even though Magic has many interesting 3-dimensional geometric shapes, e.g.,
+cube, A-frame house, 1x2 box with lid, both named patterns occur when the puzzle
+is in its planar or flat state.  To go from pattern #1 to #2 there are two
+operators necessary in the 2x4 arrangement to position the squares for the
+operator that transforms the puzzle into the 3x3 minus a corner arrangement that
+displays the three intersecting rings pattern.  When the puzzle is in the 2x4
+arrangement with pattern #1 correct, the squares can be rearranged by either
+folding it on the long axis to make a loop which can be rotated or by flipping
+the 2 ends towards the center and then by un-flipping the puzzle on the opposite
+side in a perpendicular direction to the flipping.  In order to display the
+solved puzzle it is now necessary to flip and flap and flop the puzzle (6 moves)
+into the 3x3 minus a corner arrangement.  It should be noted that it is possible
+to be in a 2x4 arrangement where you cannot get to pattern #1 with only the two
+2x4 operators of above.  You will either need to use the operator that changes
+the puzzle to the 3x3 or develop another operator.
+
+For those of you who would like to take it apart and then put it back together
+here are some hints.  Tools required:  a paper clip.  Each loop of string is
+twisted around three squares in a path like this:
+ 
+               ---- ---- ----            ---- ----  ----
+              |/ \  |  / \ | / \  |           |  / \ |/  \  |  / \ |
+              |\  \ | /   /|\   \ |   or     | /   /|\   \ | /   /|
+              | \  \|/   / | \   \|           |/   / | \   \|/   / |
+              |  \ /|\  /  |  \  /|           |\  /  |  \  /|\  /  |
+               ---- ---- ----            ---- ----  ----
+ 
+16 loops of string (actually nylon fishline) are used to make the hinges that
+hold the squares together.  The loops of string are all the same length.and are
+not tangled in any way.  For each string, there is another string that lies in
+the same channels.  When stringing a loop through the channels, there is a
+choice at the points where the string passes from one square to the next: Which
+string is closer to the center of the square?  That question is answered
+differently for the two strings running throught the same channels.  Strings
+don't lie in crossing channels on the same side of a square. (That describes how
+the two pairs of loops go on the same triple and how two triples interact on
+their common end square.)
+
+Now that you have decomposed the puzzle into its component parts why don't you
+customize it before reassembly.  (The squares each decompose into two clear
+plastic covers and a piece of paper with the design printed on it which are held
+together by the strings and not glue.).   So what about some original designs,
+maybe even Penrose tiling?  How about adding additional squares?  
+
+For the more mathematically inclined it has been noted that the sameness of the
+string length is what restricts the arrangements of the squares.  Can you prove
+that the Donut, 3x3 with center missing, is impossible?  Can you invent a
+nomenclature and metric for counting moves?   
+
+The future exists, first in the imagination, then in the will and fianlly in
+reality.
+
+ACKNOWLEDGEMENT:  The above was written with the passive participation of with
+CUBE-LOVERS computer bulletin board at MIT;  	MILNET ADDRESS
+<CUBE-LOVERS@MIT-AI>.  Thanks to all who participated in the MAGIC dialog to
+date.
+
+------
+
+Date: Mon, 29 Dec 86 00:31:25 EST
+From: Marty Connor <MDC@AI.AI.MIT.EDU>
+To: CUBE-LOVERS@AI.AI.MIT.EDU
+cc: BOTTLENECK@AI.AI.MIT.EDU
+Message-ID: <134690.861229.MDC@AI.AI.MIT.EDU>
+
+There is a new puzzle named the "Bottleneck" from a company called
+Groton Ltd. in Fitchburg, MA. It looks impossible to solve but they
+claim it can be done. It consists of an ordinary glass bottle and a 
+solid plastic rod which fits closely within the bottle. There is a 
+marble in the bottle but the rod is held in the bottle by a screw 
+and nut as shown below:
+
+          |   |
+          |   |
+          |   |
+         ||   ||
+         ||   ||
+         ||   ||
+        / |   | \
+       /  |   |  \
+      /   |   |   \
+     |    |   |    |
+     |    |   |    |
+     |    |   |    |
+     | |==|===|=|| |    ----  Threaded screw and nut go thru threaded rod
+     |    |   |    |
+     |    |   |    |
+     |             |
+     |   __        |
+     |  (  )       |    ----  Marble
+     ---------------
+
+The object is to remove the marble. It is fairly easy to remove the nut
+but it is very difficult to turn the screw. It apparantly can be done
+without inserting a tool between the bottleneck and the rod. 
+
+It costs about $10.00 and is available from Games People Play in Cambridge 
+and Miscellanea in Acton. Has anyone tried it?
+
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU  6 Jan 87 14:57:48 EST
+Date: 6 Jan 87 14:43:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+From:	CLSTR1::SYSTEM        5-JAN-1987 16:10
+To:	CLSTR1::BECK
+Subj:	Undeliverable mail
+
+ ----Transcript of session follows----
+"ai.ai.mit.edu" is an unrecognized hostname/address
+
+ ----Unsent message follows----
+Date: 5 Jan 87 16:02:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: bottleneck
+To: "mdc" <mdc@ai.ai.mit.edu>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+The puzzle is trivial.  It takes about 5 minutes to disassemble and 10 to assemble.  No sopecial tools are needed.
+
+<beck@ardec-lcss>
+------
+------
+

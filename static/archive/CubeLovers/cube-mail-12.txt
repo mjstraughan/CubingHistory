@@ -1,0 +1,3897 @@
+From matwood@peruvian.cs.utah.edu  Thu Feb 24 14:25:20 1994
+Return-Path: <matwood@peruvian.cs.utah.edu>
+Received: from cs.utah.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29205; Thu, 24 Feb 94 14:25:20 EST
+Received: from peruvian.cs.utah.edu by cs.utah.edu (5.65/utah-2.21-cs)
+	id AA01848; Thu, 24 Feb 94 12:25:19 -0700
+Received: by peruvian.cs.utah.edu (5.65/utah-2.15-leaf)
+	id AA22238; Thu, 24 Feb 94 12:25:18 -0700
+Message-Id: <9402241925.AA22238@peruvian.cs.utah.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject: Book - "Simple Solution To Rubik's Cube"
+Date: Thu, 24 Feb 94 12:25:17 MST
+From: Mark Atwood <matwood@peruvian.cs.utah.edu>
+
+(I sent my request to be added to this mailing list in to
+ cube-lovers-request@ai.ai.mit.edu a few days ago and havnt
+ heard back. Hope this works..)
+
+I was going thru my stuff a while back and found my two original
+Rubik's Cubes, one of which was given to me several years before
+they became wildly popular. The solution I learned was in the
+book "The Simple Solution To Rubik's Cube", which was a paperback
+of about 20-30 pages.
+
+I remember most of the solution steps outlined in the book, (my
+hands remember better than my head does), however, I can't find
+a copy of the book anywhere, to refresh my memory.
+
+Anyone got a copy or know where I can get one?
+
+..Mark Atwood
+
+From anandrao@hk.super.net  Fri Feb 25 03:32:04 1994
+Return-Path: <anandrao@hk.super.net>
+Received: from hk.super.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05974; Fri, 25 Feb 94 03:32:04 EST
+Received: by hk.super.net id AA21734
+  (5.65c/IDA-1.4.4 for cube-lovers@life.ai.mit.edu); Fri, 25 Feb 1994 16:31:42 +0800
+Date: Fri, 25 Feb 1994 16:18:56 +0800 (HKT)
+From: "Mr. Anand Rao" <anandrao@hk.super.net>
+Subject: Re: your mail
+To: Jan de Ruiter <jandr@xirion.nl>
+Cc: cube-lovers@life.ai.mit.edu
+In-Reply-To: <2038.9402181343@xirion.xirion.nl>
+Message-Id: <Pine.3.07.9402251654.A20452-b100000@hk.super.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+On Fri, 18 Feb 1994, Jan de Ruiter wrote:
+> 
+> Sorry about not reporting this earlier, but my search for solutions for
+> Rubiks Tangle 10x10 confirms the finding of Don Woods: no solutions!
+> 
+[snip]
+> we could re-define the puzzle as follows:
+>   find which four pieces to duplicate in order to find solutions for
+>   the 10x10.
+> If the number of solutions varies depending on the choice, you could
+> even add a restriction:
+>   find which four pieces to duplicate in order to find a set which has
+>   the minimum number of solutions for the 10x10.
+        ^^^^^^^
+The kind Mr. Rubik has already done that - the minimum is - ZERO!
+
+The revised problem can be solved fairly easily using your program ( I
+don't know, though, how long it takes to run to completion for the 10*10
+case) - try to place only 99 tiles  out of the 100 given tiles. You may
+have several sub-solutions. It is then easy to determine for each of these
+sub-solutions which tile you need to complete the 10*10 mosaic. If this
+pattern has already been duplicated, i.e. you need THREE numbers of this
+tile to find the complete solution, this sub-solution will not work and so
+examine the next sub-solution .... Hopefully you find the solution this way.
+
+After running the program for the 99 tiles, the additional time required
+to solve the problem defined by you should not be significant because that
+would be  a linear process.
+
+Anand.
+
+
+
+
+From sage@world.std.com  Sun Feb 27 20:08:15 1994
+Return-Path: <sage@world.std.com>
+Received: from news.std.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14131; Sun, 27 Feb 94 20:08:15 EST
+Received: from world.std.com by news.std.com (5.65c/Spike-2.1)
+	id AA25026; Sun, 27 Feb 1994 20:08:13 -0500
+Received: by world.std.com (5.65c/Spike-2.0)
+	id AA05694; Sun, 27 Feb 1994 20:08:08 -0500
+Date: Sun, 27 Feb 1994 20:08:08 -0500 (EST)
+From: Meisha n Thompson <sage@world.std.com>
+Subject: Puzzle
+To: cube-lovers@life.ai.mit.edu
+Cc: Meisha n Thompson <sage@world.std.com>
+Message-Id: <Pine.3.89.9402272037.A737-0100000@world.std.com>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Please add me to your mailing list. Thank You Meisha Thompson
+
+From xirion!jandr@relay.nl.net  Mon Mar  7 05:38:41 1994
+Return-Path: <xirion!jandr@relay.nl.net>
+Received: from sun4nl.NL.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15552; Mon, 7 Mar 94 05:38:41 EST
+Received: from xirion by sun4nl.NL.net via EUnet
+	id AA19748 (5.65b/CWI-3.3); Mon, 7 Mar 1994 11:38:38 +0100
+Received: by xirion.xirion.nl id AA08619 (5.61/UK-2.1);
+          Mon, 7 Mar 94 11:37:25 +0100
+From: Jan de Ruiter <jandr@xirion.nl>
+Date: Mon, 7 Mar 94 11:37:25 +0100
+Message-Id: <8619.9403071037@xirion.xirion.nl>
+X-Organization:  Xirion Unix Software & Consultancy bv
+		 Burgemeester Verderlaan 15 X
+		 3454 PE  De Meern
+		 The Netherlands
+X-Phone: 	 +31 3406 61990
+X-Fax: 		 +31 3406 61981
+To: cube-lovers@life.ai.mit.edu
+
+To anandrao@HK.Super.NET
+Subject: Re: your mail
+Cc: cube-lovers@life.ai.mit.edu
+In-Reply-To: <Pine.3.07.9402251654.A20452-b100000@hk.super.net>
+
+>
+>On Fri, 18 Feb 1994, Jan de Ruiter wrote:
+>> 
+>> Sorry about not reporting this earlier, but my search for solutions for
+>> Rubiks Tangle 10x10 confirms the finding of Don Woods: no solutions!
+>> 
+>[snip]
+>> we could re-define the puzzle as follows:
+>>   find which four pieces to duplicate in order to find solutions for
+>>   the 10x10.
+>> If the number of solutions varies depending on the choice, you could
+>> even add a restriction:
+>>   find which four pieces to duplicate in order to find a set which has
+>>   the minimum number of solutions for the 10x10.
+>        ^^^^^^^
+>The kind Mr. Rubik has already done that - the minimum is - ZERO!
+
+Correct, but I think you know what I mean: minimum >= 1
+
+>The revised problem can be solved fairly easily using your program ( I
+>don't know, though, how long it takes to run to completion for the 10*10
+>case)
+
+More than a week
+
+>      - try to place only 99 tiles  out of the 100 given tiles. You may
+>have several sub-solutions. It is then easy to determine for each of these
+>sub-solutions which tile you need to complete the 10*10 mosaic.
+
+I am sorry, but I have to disagree on this. It is not that simple.
+
+If you managed to place 99 pieces, you have already placed three or even
+all four of the duplicated pieces (depending on which one is left over)
+If you placed three, there are tree possibilities for the piece we need:
+- it is nonexistent (illegal colour combinations): no solution
+- it is one of the duplicated pieces: this means two of the four puzzles
+  will be identical which is OK, but not so nice, or
+- it is any other piece: we found a good solution
+
+If you placed all four duplicated pieces already, any solution you find
+will not satisfy the conditions of the puzzle (i.e. precisely four duplicated
+pieces).
+
+And in both cases you have not solved:
+   which four pieces to duplicate in order to find solutions for the 10x10.
+but:
+   which four pieces to duplicate in order to find solutions for the 10x10,
+   with the restriction that three of them must be identical to any three
+   taken from the set of four duplicates given by Rubik.
+
+Solving the puzzle without this restriction requires a different approach.
+I was thinking of starting the program with 5 of each (120 pieces), and after
+placing the 5th duplicated piece remove the rest of the duplicates from
+the remaining pieces, and see if this leads to a solution. As soon as back-
+tracking removes the 5th duplicate, all other duplicates must be made
+accessible again.
+
+	Jan
+
+From phiscock@ee.ryerson.ca  Mon Mar 14 14:14:44 1994
+Return-Path: <phiscock@ee.ryerson.ca>
+Received: from ee.ryerson.ca (eccles.ee.ryerson.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27518; Mon, 14 Mar 94 14:14:44 EST
+Received: from eccles (eccles.ee.ryerson.ca) by ee.ryerson.ca (4.1/SMI-4.1)
+	id AA24815; Mon, 14 Mar 94 14:09:20 EST
+From: phiscock@ee.ryerson.ca (Peter Hiscocks)
+Received: by eccles 
+        (4.1//ident-1.0) id AA24812; Mon, 14 Mar 94 14:09:19 EST 
+Message-Id: <9403141909.AA24812@eccles>
+Subject: Anyone solved Rubik's Tangle?
+To: Cube-Lovers@ai.mit.edu
+Date: Mon, 14 Mar 94 14:09:18 EST
+X-Mailer: ELM [version 2.3 PL11]
+
+
+For those who haven't seen it, Rubik's Tangle is a new puzzle to 
+drive us all nuts, break up our families, and divert us from
+the things we should be working on.
+
+It consists of 25 tiles, which form a 5x5 pattern. On each
+tile is a pattern of coloured ropes, the ends of which must
+match the ends of the ropes on the adjacent tiles.
+
+Certain clues are evident: the shape of each rope pattern
+is the same, there are equal numbers of each colour,
+and each tile given a letter label on the back.
+
+Before I waste my life on this, has anyone solved the
+problem?
+
+Peter
+-- 
+Peter Hiscocks                            Phone: (416) 979-5000 Ext 6109
+Department of Electrical Engineering      Fax:   (416) 979-5280
+Ryerson Polytechnical University, Toronto, Canada
+
+
+From Don.Woods@eng.sun.com  Mon Mar 14 16:14:51 1994
+Return-Path: <Don.Woods@eng.sun.com>
+Received: from Sun.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04648; Mon, 14 Mar 94 16:14:51 EST
+Received: from Eng.Sun.COM (zigzag.Eng.Sun.COM) by Sun.COM (sun-barr.Sun.COM)
+	id AA18187; Mon, 14 Mar 94 13:14:25 PST
+Received: from colossal.Eng.Sun.COM by Eng.Sun.COM (4.1/SMI-4.1)
+	id AA01909; Mon, 14 Mar 94 13:13:31 PST
+Received: by colossal.Eng.Sun.COM (5.0/SMI-SVR4)
+	id AA18313; Mon, 14 Mar 94 13:15:06 PST
+Date: Mon, 14 Mar 94 13:15:06 PST
+From: Don.Woods@eng.sun.com (Don Woods)
+Message-Id: <9403142115.AA18313@colossal.Eng.Sun.COM>
+To: phiscock@ee.ryerson.ca
+Subject: Re: Anyone solved Rubik's Tangle?
+Cc: Cube-Lovers@ai.mit.edu
+X-Sun-Charset: US-ASCII
+Content-Length: 397
+
+> Before I waste my life on this, has anyone solved the problem?
+
+Yes, it's been solved, and discussed at some length on this group.
+However, I haven't seen anyone who claims to have come up with an
+"insightful" solution, i.e. one in which you figure out a general
+approach that leads to a solution.  All solutions I've heard of
+have been found by exhaustive search, often by computer.
+
+	-- Don.
+
+
+From anandrao@hk.super.net  Mon Mar 14 21:27:38 1994
+Return-Path: <anandrao@hk.super.net>
+Received: from hk.super.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20935; Mon, 14 Mar 94 21:27:38 EST
+Received: by hk.super.net id AA15765
+  (5.65c/IDA-1.4.4 for Cube-Lovers@ai.mit.edu); Tue, 15 Mar 1994 10:27:05 +0800
+Date: Tue, 15 Mar 1994 10:15:06 +0800 (HKT)
+From: "Mr. Anand Rao" <anandrao@hk.super.net>
+Subject: Re: Anyone solved Rubik's Tangle?
+To: Don Woods <Don.Woods@eng.sun.com>
+Cc: phiscock@ee.ryerson.ca, Cube-Lovers@ai.mit.edu
+In-Reply-To: <9403142115.AA18313@colossal.Eng.Sun.COM>
+Message-Id: <Pine.3.07.9403151003.A13465-b100000@hk.super.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+On Mon, 14 Mar 1994, Don Woods wrote:
+
+> > Before I waste my life on this, has anyone solved the problem?
+> 
+> Yes, it's been solved, and discussed at some length on this group.
+
+True. However, the 10*10 solution where you use all the four tangle
+puzzles  to form a 10*10 pattern with matching edges, has been found to be
+impossible( Although the puzzle leaflet says that it is solvable). Once
+again there is no 'insightful' solution. Someone has posted that he has
+seen an intuitive solution which evades his memory for the time being
+but will try to recollect what it was ... reincarnation of Fermat's Last
+Problem :). There have been some interesting postings in this group on
+this topic in the last few weeks and you should read them .
+
+ > However, I haven't seen anyone who claims to have come up
+with an
+> "insightful" solution, i.e. one in which you figure out a general
+> approach that leads to a solution.  All solutions I've heard of
+> have been found by exhaustive search, often by computer.
+> 
+> 	-- Don.
+> 
+
+Anand Rao.
+
+
+
+
+From @mitvma.mit.edu:SHERE@SLACVM.BITNET  Tue Mar 15 14:08:27 1994
+Return-Path: <@mitvma.mit.edu:SHERE@SLACVM.BITNET>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25112; Tue, 15 Mar 94 14:08:27 EST
+Message-Id: <9403151908.AA25112@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 0921; Tue, 15 Mar 94 14:08:19 EST
+Received: from SLACVM.SLAC.STANFORD.EDU (NJE origin MAILER@SLACVM) by
+ MITVMA.MIT.EDU (LMail V1.1d/1.7f) with BSMTP id 7886; Tue,
+ 15 Mar 1994 14:08:18 -0500
+Received: by SLACVM (Mailer R2.08 R208004) id 1497;
+          Tue, 15 Mar 94 11:07:04 PST
+Date: Tue, 15 Mar 1994   11:04 -0800 (PST)
+From: SHERE%SLACVM.BITNET@mitvma.mit.edu
+To: cube-lovers@life.ai.mit.edu
+Subject: Mailing List
+
+Hello, would you please add me.. shere@slac.stanford.edu .. to your
+mailing list?  I've forgotten some of my key moves and am trying
+to brush up.  I've downloaded your archived mail.  Where might I
+find a GZ decompression utility?  Anyway, thanks.  Lee
+
+From @mail.uunet.ca:mark.longridge@canrem.com  Sat Apr  2 21:21:55 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12740; Sat, 2 Apr 94 21:21:55 EST
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <88146(1)>; Sat, 2 Apr 1994 21:21:12 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA03000; Sat, 2 Apr 94 21:20:05 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1993C2; Sat,  2 Apr 94 21:16:50 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Invariant Shifting
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.733.5834.0C1993C2@canrem.com>
+Date: Sat, 2 Apr 1994 20:12:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Something new to stop the drought of cube posts...
+
+Example of Invariant Shifting
+-----------------------------
+
+The resultant position generated by process p8 is invariant under
+shifting, specifically 2 X on the Left and Right sides.
+
+P8   2 x ORDER 2:
+
+shift
+0                              D2 F2 T2 F2 B2 T2 F2 T2
+1                           T2 D2 F2 T2 F2 B2 T2 F2
+2                        F2 T2 D2 F2 T2 F2 B2 T2
+3                     T2 F2 T2 D2 F2 T2 F2 B2
+4                  B2 T2 F2 T2 D2 F2 T2 F2
+5               F2 B2 T2 F2 T2 D2 F2 T2
+6            T2 F2 B2 T2 F2 T2 D2 F2
+7         F2 T2 F2 B2 T2 F2 T2 D2
+
+This is the longest process I've found so far. Certainly this property
+is not true of all squares group processes. I suspect there are no
+processes in the full group with this property (of any significant
+length). Perhaps the fact that the L and R faces never rotate will
+give some clue on how to generate processes with this property.
+
+Q: Is this the longest such process?
+
+Further Notes on Antipodes in the Square's Group
+------------------------------------------------
+
+I just realized some things about sq group antipodes which
+I should have seen before...
+
+The closest 2 antipodes can be is 2 square's group moves.
+Take the position produced by p66:
+
+p66  Double 4 corner sw L2 B2 R2 F2 L2 F2 T2 R2 (T2 D2 F2 T2) F2 L2 D2
+
+Any turn will reduce this to a position requiring 14 moves. Undoing
+this move will regenerate the antipode. No single move can change
+position p66 into another antipode, therefore the closest any 2
+antipodes can be is 2 moves.
+
+Futhermore any antipode can not be made into a local maximum
+which is 14 moves deep with 1 half turn. I will conclude that
+there are no local maxima in the square's group that
+neighbour each other closer than 2 moves.
+
+-> Mark <-
+Email: mark.longridge@canrem.com
+
+From pbeck@pica.army.mil  Mon Apr  4 08:24:04 1994
+Return-Path: <pbeck@pica.army.mil>
+Received: from COR6.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09001; Mon, 4 Apr 94 08:24:04 EDT
+Date:     Mon, 4 Apr 94 8:22:52 EDT
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Cc: pbeck@pica.army.mil
+Subject:  puzzle boxes
+Message-Id:  <9404040822.aa26168@COR6.PICA.ARMY.MIL>
+
+I found a shop in NYC's chinatown that
+stocks Japanese puzzle/trick boxes.
+
+  TING'S GIFT SHOP
+  18 DOYERS STREET
+  NY, NY 10013
+  212-962-1081
+
+-  4-way $25
+-  4-way w/music $36
+-  10-way $42
+-  12-way $46
+-  20-way $52
+
+NYC sales tax 8%
+
+good puzzling and good eating
+
+From ishius@ishius.com  Mon Apr  4 14:11:59 1994
+Return-Path: <ishius@ishius.com>
+Received: from holonet.net (giskard.holonet.net) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA28695; Mon, 4 Apr 94 14:11:59 EDT
+Received: from DialupEudora (ishius@localhost) by holonet.net (Anton Dovydaitis) with SMTP
+	id LAA14679; Mon, 4 Apr 1994 11:07:23 -0700
+Date: Mon, 4 Apr 1994 11:07:23 -0700
+Message-Id: <199404041807.LAA14679@holonet.net>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: ishius@ishius.com (Ishi Press International)
+Subject: puzzle boxes
+
+Ishi Press International offers a variety of Japanese Trick Puzzle Boxes,
+from 4 moves to 66 moves.  These are handcrafted, wood inlaid Okiyama
+trickboxes.  We also have unique puzzle boxes by Kamei.
+
+For a free catalog of our PUZZLES please send us your postal mailing address
+and we will mail you one.  Please specify that you are interested in PUZZLES.
+
+Always feel free to write me if you have any questions or comments.
+
+Anton Dovydaitis
+Customer Support
+
+
+========================================================================
+Ishi Press International        800/859-2086 voice, 408/944-9110 FAX
+76 Bonaventura Drive            ishius@ishius.com           The Americas
+San Jose, CA  95134             ishi@cix.compulink.co.uk    Europe
+
+
+
+From mmoss@panix.com  Mon Apr  4 17:30:58 1994
+Return-Path: <mmoss@panix.com>
+Received: from panix.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10263; Mon, 4 Apr 94 17:30:58 EDT
+Received: by panix.com id AA12590
+  (5.65c/IDA-1.4.4 for cube-lovers@life.ai.mit.edu); Mon, 4 Apr 1994 17:30:47 -0400
+From: Matthew Moss <mmoss@panix.com>
+Message-Id: <199404042130.AA12590@panix.com>
+Subject: About Rubix's tetrahedron...
+To: cube-lovers@life.ai.mit.edu (Cube Mailing List)
+Date: Mon, 4 Apr 1994 17:30:46 -0400 (EDT)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 811       
+
+Here's a question for y'all.....
+It's about the tetrahedron puzzle from Rubix (I forget the real name).
+[the one with legal moves consisting of removing a 4-piece tetrahedron from
+ a 10-piece and putting it back on in different orientation]
+
+Anyway, mine is pretty loosed up, and occassionally when I am working on it,
+one piece will come loose and go skitting across the floor.
+
+There's no way I can remember the orientation it had on there. Has any study
+been done or does someone know if I put that piece back on, will it still be
+solveable if it's orientation is wrong (ie, different than it was before it
+fell off)?
+
+Do you understand my question? (I hope I'm not too confusing...)
+
+I've been thinking about implementing this via computer, just to test this
+out, but I thought I'd ask y'all first.
+
+Thanx.
+
+From @mail.uunet.ca:mark.longridge@canrem.com  Sun Apr 10 23:26:50 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25590; Sun, 10 Apr 94 23:26:50 EDT
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <89026(2)>; Sun, 10 Apr 1994 23:26:15 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA12263; Sun, 10 Apr 94 23:24:59 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 19A249; Sun, 10 Apr 94 21:41:27 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: More Sq Notes
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.738.5834.0C19A249@canrem.com>
+Date: Sun, 10 Apr 1994 17:37:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+Additional Notes on Squares Group Patterns
+------------------------------------------
+
+Note that p80a, p99a and p108a are 2 DOT patterns,
+all of the form U1 (swap edges & corners in U and D faces)  D3
+           or   U1 (swap edges & corners in U and D faces)  D1
+           or   D1 (swap edges within U and edges within D) D3
+
+P66a alternate method    F2 R2 U2 F2 R2 U3 D3 B2 L2 F2 B2 U1 D1
+ (13)
+p67a alternate method    F2 R2 F2 U3 D3 L2 B2 D2 L2 B2 U1 D1 B2
+ (13)
+
+p80a alternate method    U1 F2 R2 L2 U2 D2 F2 U2 D3
+  (9)
+p99a alternate method    U1 R2 F2 B2 U2 D2 R2 D1
+  (8)
+
+P100a alternate method   F2 U2 D2 F2 R2 L2 D1 F2 R2 L2 B2 U1
+ (12)
+p108a alternate method   R2 F2 B2 L2 D1 R2 U2 R2 L2 U2 R2 D1
+ (12)
+p130a alternate method   F2 R2 F2 B2 U1 D1 F2 R2 D2 F2 L2 U3 D3
+ (13)
+p133a alternate method   R2 U1 F2 R2 L2 U2 D2 F2 U2 D3 R2
+ (11)
+
+A) In general, any sequence of half turns which swaps edges and
+corners in the U and D faces can be sanwiched between a single quarter
+turn of U and a single quarter turn of D. Such a process would lead to
+a square's group position.
+
+B) Furthermore, any sequence of half turns which swaps edges within U
+and
+edges within D can be sanwiched between a single quarter turn of U or D
+and a single quarter turn of U or D. Once again, such a process would
+lead to a square's group position.
+
+Here is an example of a position which takes over twice as many half
+turns as full group moves:
+
+        L2 T2 L2 T2 L2 T2 F2 L2 T2 F2 T2 R2 B2     (13)
+        U1 F2 R2 L2 B2 D1                           (6)
+
+As discussed in point A above, sequences which move all elements of
+the U face to the D face and also move all elements of the D face
+to the U face (excepting the centres naturally) appear as 2 DOT
+patterns on the cube. This makes sense, as the initial quarter
+turn in process p80a must be balanced by another quarter turn.
+Since all of the elements subjected to the quarter turn are now
+in the D face, we must turn that face a quarter turn to remain
+in the squares group.
+
+From @mail.uunet.ca:mark.longridge@canrem.com  Sun Apr 10 23:27:13 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25591; Sun, 10 Apr 94 23:27:13 EDT
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <89406(1)>; Sun, 10 Apr 1994 23:26:36 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA12271; Sun, 10 Apr 94 23:25:00 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 19A24A; Sun, 10 Apr 94 21:41:28 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: More Shifting
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.739.5834.0C19A24A@canrem.com>
+Date: Sun, 10 Apr 1994 17:39:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+More Notes on Invariant Shifting
+--------------------------------
+
+Let us define a process as "Shift Invariant" if it results in the same
+displacement even after a series of left or right shifts. That is,
+from a process of length N we can generate N-1 processes which
+result in the same displacement by shifting the process. Sometimes
+the processes generated are not all unique!
+
+e.g. P8   2 x ORDER 2: (symmetry level 3)
+     D2 F2 T2 F2 B2 T2 F2 T2
+  (8)
+
+Q: Is this the longest such process?
+
+A: No.
+
+The following processes are also shift invariant:
+
+2 Swap                   D2 R2 D2 R2 D2 R2 (6)
+(symmetry level 12, SI level 2)
+
+p21  2 H                 L2 R2 B2 L2 R2 F2 (6)
+(symmetry level 6, SI level 6)
+
+Amazingly, the process p3 (found using Dik Winter's program) is actually
+a series of 20 processes which all result in the same displacement!
+
+p3   12 flip             R1 L1 D2 B3 L2 F2 R2 U3 D1 R3 D2 F3 B3 D3 F2 D3
+                            R2 U3 F2 D3 (20)
+(symmetry level 1, SI level 20)
+
+Since p3 is shift invariant, we can easily shift the 3 consecutive half
+turns to the beginning without fear of altering the end result:
+  L2 F2 R2 U3 D1 R3 D2 F3 B3 D3 F2 D3 + R2 U3 F2 D3 R1 L1 D2 B3
+
+From bagleyd@source.asset.com  Thu Apr 14 11:21:48 1994
+Return-Path: <bagleyd@source.asset.com>
+Received: from source.asset.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16479; Thu, 14 Apr 94 11:21:48 EDT
+Received: by source.asset.com (AIX 3.2/UCB 5.64/4.03)
+          id AA10500; Thu, 14 Apr 1994 11:00:13 -0400
+Date: Thu, 14 Apr 1994 11:00:13 -0400
+From: bagleyd@source.asset.com (David A. Bagley)
+Message-Id: <9404141500.AA10500@source.asset.com>
+To: cube-lovers@life.ai.mit.edu
+Subject: Mailing List
+
+
+Hi I was wondering if you can add  me to your mailing list.
+
+I put some motif puzzles at ftp.x.org in /contrib/motif_puzzles.  They are:
+rubik: a (nxnxn) rubik's cube
+pyramid: a (nxnxn) pyraminx with period 2 and period 3 cuts
+oct: an (nxnxn) octahedron with period 3 and period 4 cuts
+skewb: a diagonal cut rubik's cube
+cubes, triangles, & hexagons: sliding block puzzles
+ 
+There are no self-solvers provided with these.
+Also you may want to check out the tetris games which only use X.
+altetris: polyomino version of tetris
+alweltris: polyomino version of welltris
+altertris: polyiamond version of tetris (they bounce of the walls)
+alhextris: polyhexes version of tetris (again, they bounce off the walls)
+These are found in ftp.x.org in /contrib
+
+I recently heard that 10x10 tangle has no solution.  I was trying to solve
+that one too.  What a waste! (90 days of compute time, wow thats one
+efficient program, fast machine , or both!)
+
+Oh, unfortuately the motif puzzles need motif to compile.  Is there a good
+public domain substitute for Motif?
+Have fun
+David
+
+From bagleyd@source.asset.com  Thu Apr 14 13:21:45 1994
+Return-Path: <bagleyd@source.asset.com>
+Received: from source.asset.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23729; Thu, 14 Apr 94 13:21:45 EDT
+Received: by source.asset.com (AIX 3.2/UCB 5.64/4.03)
+          id AA64031; Thu, 14 Apr 1994 12:55:50 -0400
+Date: Thu, 14 Apr 1994 12:55:50 -0400
+From: bagleyd@source.asset.com (David A. Bagley)
+Message-Id: <9404141655.AA64031@source.asset.com>
+To: cube-lovers@ai.mit.edu
+Subject: Mailing List
+
+
+Hi, I was wondering if you can add me to your mailing list. 
+  
+  I put some motif puzzles at ftp.x.org in /contrib/motif_puzzles.
+  They are: 
+rubik: a (nxnxn) rubik's cube 
+pyramid: a (nxnxn) pyraminx with period 2 and period 3 cuts 
+oct: an (nxnxn) octahedron with period 3 and period 4 cuts  
+skewb: a diagonal cut rubik's cube 
+cubes, triangles, & hexagons: sliding block puzzles 
+  There are no self-solvers provided with these. A record keeps track of
+how many move it takes you to solve them. A record of 32767 means I never
+did it. (I do not follow any standard notation for a move (for example,
+on the rubik's cube a move is any 1/4 turn)).
+  Unfortuately the motif puzzles need motif to compile.  Is there a good
+public domain substitute for Motif?
+ 
+Also you may want to check out the tetris games which only use X. 
+altetris: polyomino version of tetris 
+alweltris: polyomino version of welltris 
+altertris: polyiamond version of tetris (they bounce off the walls) 
+alhextris: polyhexes version of tetris (again, they bounce off the walls) 
+These are found in ftp.x.org in /contrib 
+  
+I recently heard that 10x10 tangle has no solution.  I was trying to solve 
+that one too.  What a waste! (90 days of compute time, wow thats one 
+efficient program, fast machine , or both!)                 
+ 
+Have fun
+David
+
+From iavlang@cs.vu.nl  Tue Apr 19 03:52:25 1994
+Return-Path: <iavlang@cs.vu.nl>
+Received: from top.cs.vu.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07113; Tue, 19 Apr 94 03:52:25 EDT
+Received: from iavlang.cs.vu.nl by top.cs.vu.nl id aa24220;
+          19 Apr 94 8:01 MET DST
+X-Sender: iavlang@top.cs.vu.nl
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+X-Organisation: Vrije Universiteit Amsterdam
+X-Department:   Faculteit der Wiskunde en Informatica
+X-Address:      De Boelelaan 1081a, 1081 HV Amsterdam, The Netherlands
+X-Telephone:    +31-20-5485572
+X-Fax:          +31-20-6427705
+Date: Tue, 19 Apr 1994 08:01:19 +0200
+To: cube-lovers@life.ai.mit.edu
+From: Izak van Langevelde <iavlang@cs.vu.nl>
+Subject: Cubism for Fun
+Message-Id:  <9404190801.aa24220@top.cs.vu.nl>
+
+In the archive of this mailing list I found the following:
+>CFF is a newsletter published by the Nederlandse Kubus Club NKC (Dutch
+>Cubists Club).  It appears a bit irregular, but a few times a year.
+>Yearly membership fee is now NLG 25.- (Dutch Guilders) which amounts to
+>approximately $ 15.-.  Institutional membership is also possible.
+>Information is available from the editor Gerald Maurice
+
+Unfortunaty, the abovementioned editor didn't respond to my email.
+Does anyone know whether CFF still exists? Who is the current editor?
+
+                                                        Thanks,
+                                                        Izak van Langevelde
+
+
+
+
+From iavlang@cs.vu.nl  Tue Apr 19 09:32:59 1994
+Return-Path: <iavlang@cs.vu.nl>
+Received: from top.cs.vu.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14894; Tue, 19 Apr 94 09:32:59 EDT
+Received: from iavlang.cs.vu.nl by top.cs.vu.nl id aa25902;
+          19 Apr 94 10:10 MET DST
+X-Sender: iavlang@top.cs.vu.nl
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+X-Organisation: Vrije Universiteit Amsterdam
+X-Department:   Faculteit der Wiskunde en Informatica
+X-Address:      De Boelelaan 1081a, 1081 HV Amsterdam, The Netherlands
+X-Telephone:    +31-20-5485572
+X-Fax:          +31-20-6427705
+Date: Tue, 19 Apr 1994 10:10:25 +0200
+To: cube-lovers@ai.mit.edu
+From: Izak van Langevelde <iavlang@cs.vu.nl>
+Subject: Cubism for Fun
+Message-Id:  <9404191010.aa25902@top.cs.vu.nl>
+
+In the archive of this mailing list I found the following:
+>CFF is a newsletter published by the Nederlandse Kubus Club NKC (Dutch
+>Cubists Club).  It appears a bit irregular, but a few times a year.
+>Yearly membership fee is now NLG 25.- (Dutch Guilders) which amounts to
+>approximately $ 15.-.  Institutional membership is also possible.
+>Information is available from the editor Gerald Maurice
+
+Unfortunaty, the abovementioned editor didn't respond to my email.
+Does anyone know whether CFF still exists? Who is the current editor?
+
+                                                        Thanks,
+                                                        Izak van Langevelde
+
+
+
+
+From dik@cwi.nl  Tue Apr 19 18:17:58 1994
+Return-Path: <dik@cwi.nl>
+Received: from meermin.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16561; Tue, 19 Apr 94 18:17:58 EDT
+Received: from boring.cwi.nl by meermin.cwi.nl with SMTP
+	id AA23023 (5.65b/%I%/CWI-Amsterdam); Wed, 20 Apr 1994 00:16:33 +0200
+Received: by boring.cwi.nl 
+	id AA05363 (5.65b/3.8/CWI-Amsterdam); Wed, 20 Apr 1994 00:15:17 +0200
+Date: Wed, 20 Apr 1994 00:15:17 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9404192215.AA05363=dik@boring.cwi.nl>
+To: cube-lovers@ai.mit.edu, iavlang@cs.vu.nl
+Subject: Re:  Cubism for Fun
+
+ > In the archive of this mailing list I found the following:
+ > >CFF is a newsletter published by the Nederlandse Kubus Club NKC (Dutch
+ > >Cubists Club).  It appears a bit irregular, but a few times a year.
+ > >Yearly membership fee is now NLG 25.- (Dutch Guilders) which amounts to
+ > >approximately $ 15.-.  Institutional membership is also possible.
+ > >Information is available from the editor Gerald Maurice
+
+ > Unfortunaty, the abovementioned editor didn't respond to my email.
+ > Does anyone know whether CFF still exists? Who is the current editor?
+
+It ought to work.  Perhaps mail got lost?  Just today I received CFF 33,
+a summary of the contents will be forthcoming.
+
+dik
+
+From dik@cwi.nl  Tue Apr 19 18:47:54 1994
+Return-Path: <dik@cwi.nl>
+Received: from meermin.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18104; Tue, 19 Apr 94 18:47:54 EDT
+Received: from boring.cwi.nl by meermin.cwi.nl with SMTP
+	id AA23196 (5.65b/%I%/CWI-Amsterdam); Wed, 20 Apr 1994 00:47:50 +0200
+Received: by boring.cwi.nl 
+	id AA05401 (5.65b/3.8/CWI-Amsterdam); Wed, 20 Apr 1994 00:46:34 +0200
+Date: Wed, 20 Apr 1994 00:46:34 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9404192246.AA05401=dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: CFF33
+
+Cubism For Fun number 33.
+
+I just received it.  It is dated February 1994, so it is a bit late ;-).
+Here a summary of the contents.
+
+1.  Dr. Dragon's Polycons by Bernhard Wiezorke and Jacques Haubrich
+    A new, apparently interesting, puzzle from Japan, a lot like
+    polyonimos.  Given a rectangular grid you can make pieces from
+    the horizontal and vertical lines connecting the points.  The
+    writers coin the term 'monocon' for the piece consisting of a
+    single line segment, 'dicon' for the two different pieces that
+    consist of two connected line segment (one is angled, the other
+    not).  Similarly there are 5 'tricons' and 16 'tetracons'.  The
+    puzzle consists of 10 of the 16 'tetracons' that must be put on
+    a 5x5 rectangular grid.  The authors also look at extensions of
+    the puzzle.
+2.  The Hollow Pyramid by Jan de Ruiter.
+    In a previous issue there was a puzzle about a hollow pyramid made
+    up of balls that must be constructed by the 25 different pieces
+    that consist of 4 connected balls.  Jan de Ruiter was the first to
+    solve the puzzle (with a computer).  Here he explains the program.
+3.  Junior Polycubes by Jacques Haubrich.
+    Pieces consist of 1 to 4 connected cubes that must be put on a
+    6x6 square.  Not so much a puzzle, more like Tangram: create forms.
+4.  Folding Puzzles by Leo Links.
+    About puzzles where some intricate folding is needed to solve.
+5.  Cross Pattern Piling by Dieter Gebhardt.
+    A puzzle where you put counters on a square and its four neighbours.
+    The goal is to pile up to a common height for all the squares.  The
+    article also discusses a modified version where counting is done mod
+    2.  Associated with it comes the 24th CFF contest.
+6.  Gouge Packing Puzzle by Gaetan Gouge.
+    Description of and some elaborations about a packing puzzle.
+7.  Spots Puzzle by Harold Cataquet.
+    Elaborations about a puzzle from A.L.Hoffman, Puzzles old and new,
+    New York, 1920.
+8.  Arrow-Minded by Ivan Moscovich.
+    Start with a fully-connected hexagon.  Put random arrows on all edges.
+    Next add nodes on all intersections.  This gives 19 nodes in all.  The
+    problem is to find a Hamiltonian path along the nodes, minding the
+    arrows (not always possible).  An original puzzle by the writer.
+9.  Prime Pentacube Pakcings by Frits Gobel.
+    Start with the pentacube consisting of a square base of four cubes and
+    one cube on top of it in a corner.  Is it possible to pack a 5x5x5
+    cube with 25 such pentacubes?  What other figures can be packed?
+10. Contest 25 by Ekkehard Kuenzell.
+    Pack a figure with all 29 different pentacubes.
+11. Rubik's Rabbits by Luc de Smet.
+    Discussion of this latest by Rubik.
+12. Party Impressions by Gerald Maurice.
+    Impressions of the Puzzle Party and Cube Day, Augustus 1993 in the
+    Netherlands.
+Further results of contest 23, a book review by Mark Peters and the first
+of a series of columns by Edward Hordern.
+
+Cubism For Fun is a newsletter published by Nederlandse Kubus Club NKC
+(Dutch Cubists Club).  Applications for membership to the treasurer:
+   Lucien Matthijsse
+   Loenapad 12
+   3402 EP IJsselstein
+   The Netherlands
+Membership fee NLG 25.- (about US$ 15.-; add transaction costs).
+
+dik
+
+From SCHMIDTG@beast.cs.hh.ab.com  Tue Apr 19 19:38:21 1994
+Return-Path: <SCHMIDTG@beast.cs.hh.ab.com>
+Received: from beast.cs.hh.ab.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21973; Tue, 19 Apr 94 19:38:21 EDT
+Date: Tue, 19 Apr 1994 19:38:17 -0400 (EDT)
+From: SCHMIDTG@beast.cs.hh.ab.com
+To: cube-lovers@ai.mit.edu
+Message-Id: <940419193817.20407598@iccgcc.cs.hh.ab.com>
+Subject: Re:  Cubism for Fun and Games
+
+> > In the archive of this mailing list I found the following:
+> > >CFF is a newsletter published by the Nederlandse Kubus Club NKC (Dutch
+> > >Cubists Club).  It appears a bit irregular, but a few times a year.
+> > >Yearly membership fee is now NLG 25.- (Dutch Guilders) which amounts to
+> > >approximately $ 15.-.  Institutional membership is also possible.
+> > >Information is available from the editor Gerald Maurice
+>
+> > Unfortunaty, the abovementioned editor didn't respond to my email.
+> > Does anyone know whether CFF still exists? Who is the current editor?
+>
+>It ought to work.  Perhaps mail got lost?  Just today I received CFF 33,
+>a summary of the contents will be forthcoming.
+>
+>dik
+
+Glad to see someone has had some luck with CFF.  I sent some postage stamps
+to the address posted in rec.puzzles a few years ago and never heard back.
+Also, obtained no response from my email to Longridge.  Geez, I thought at
+least I deserved some sort of reply!
+
+-- Greg Schmidt		schmidtg@iccgcc.decnet.ab.com
+
+From SCHMIDTG@beast.cs.hh.ab.com  Tue Apr 19 20:45:05 1994
+Return-Path: <SCHMIDTG@beast.cs.hh.ab.com>
+Received: from beast.cs.hh.ab.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27117; Tue, 19 Apr 94 20:45:05 EDT
+Date: Tue, 19 Apr 1994 20:45:03 -0400 (EDT)
+From: SCHMIDTG@beast.cs.hh.ab.com
+To: cube-lovers@ai.mit.edu
+Message-Id: <940419204503.204073c2@iccgcc.cs.hh.ab.com>
+Subject: Re: Cubism for Fun and Games (Correction and Apologies!)
+
+>> > In the archive of this mailing list I found the following:
+>> > >CFF is a newsletter published by the Nederlandse Kubus Club NKC (Dutch
+>> > >Cubists Club).  It appears a bit irregular, but a few times a year.
+>> > >Yearly membership fee is now NLG 25.- (Dutch Guilders) which amounts to
+>> > >approximately $ 15.-.  Institutional membership is also possible.
+>> > >Information is available from the editor Gerald Maurice
+>>
+>> > Unfortunaty, the abovementioned editor didn't respond to my email.
+>> > Does anyone know whether CFF still exists? Who is the current editor?
+>>
+>>It ought to work.  Perhaps mail got lost?  Just today I received CFF 33,
+>>a summary of the contents will be forthcoming.
+>>
+>>dik
+>
+>Glad to see someone has had some luck with CFF.  I sent some postage stamps
+>to the address posted in rec.puzzles a few years ago and never heard back.
+>Also, obtained no response from my email to Longridge.  Geez, I thought at
+>least I deserved some sort of reply!
+>
+
+Whoops, I think I got my signals crossed here.  I was actually referring to
+DOTC Newsletter (Domain of the Cube) not CFF.  I apologize for any misunder-
+standing caused by this.
+
+
+-- Greg Schmidt		schmidtg@iccgcc.decnet.ab.com
+
+From coxj@rpi.edu  Mon Apr 25 11:13:35 1994
+Return-Path: <coxj@rpi.edu>
+Received: from mail1.its.rpi.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18585; Mon, 25 Apr 94 11:13:35 EDT
+Received: from cox (cox.stu.rpi.edu [128.113.85.84]) by mail1.its.rpi.edu (8.6.7/8.6.4) with SMTP id LAA15800 for <cube-lovers@life.ai.mit.edu>; Mon, 25 Apr 1994 11:13:32 -0400
+Message-Id: <199404251513.LAA15800@mail1.its.rpi.edu>
+X-Sender: coxj@mail1.its.rpi.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Mon, 25 Apr 1994 11:12:43 -0400
+To: cube-lovers@life.ai.mit.edu
+From: coxj@rpi.edu (Jeffrey M. Cox)
+Subject: Unsubscribe
+X-Mailer: <PC Eudora Version 1.4b22>
+
+        I would like to be taken off the mailing list.
+|   _____       _   _  |               Jeff "The Master" Cox                 |
+|     /  __    / ) / ) |                   coxj@rpi.edu                      |
+|  / /  /__)  (_  (_   |                                                     |
+|  \/   \__  /   /     |   "There's a fine line between clever and stupid"   |
+
+
+From ronnie@cisco.com  Mon Apr 25 12:14:29 1994
+Return-Path: <ronnie@cisco.com>
+Received: from lager.cisco.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22257; Mon, 25 Apr 94 12:14:29 EDT
+Received: from localhost.cisco.com by lager.cisco.com (8.6.8+c/CISCO.SERVER.1.1) with SMTP id JAA03034; Mon, 25 Apr 1994 09:14:06 -0700
+Message-Id: <199404251614.JAA03034@lager.cisco.com>
+X-Authentication-Warning: lager.cisco.com: Host localhost.cisco.com didn't use HELO protocol
+To: coxj@rpi.edu (Jeffrey M. Cox)
+Cc: cube-lovers@life.ai.mit.edu
+Subject: Re: Unsubscribe 
+In-Reply-To: Your message of "Mon, 25 Apr 1994 11:12:43 EDT."
+             <199404251513.LAA15800@mail1.its.rpi.edu> 
+Date: Mon, 25 Apr 1994 09:14:05 -0700
+From: "Ronnie B. Kon" <ronnie@cisco.com>
+
+>        I would like to be taken off the mailing list.
+>|   _____       _   _  |               Jeff "The Master" Cox                 
+>|     /  __    / ) / ) |                   coxj@rpi.edu                      
+>|  / /  /__)  (_  (_   |                                                     
+>|  \/   \__  /   /     |   "There's a fine line between clever and stupid"   
+
+Would that be the line between cube-lovers and cube-lovers-request?
+
+				Ronnie
+
+From alan@parsley.lcs.mit.edu  Mon Apr 25 21:41:35 1994
+Return-Path: <alan@parsley.lcs.mit.edu>
+Received: from parsley.lcs.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23830; Mon, 25 Apr 94 21:41:35 EDT
+Received: by parsley.lcs.mit.edu 
+	id AA14007; Mon, 25 Apr 94 21:40:40 -0400
+Date: Mon, 25 Apr 94 21:40:40 -0400
+Message-Id: <9404260140.AA14007@parsley.lcs.mit.edu>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+To: coxj@rpi.edu
+Cc: cube-lovers@life.ai.mit.edu
+In-Reply-To: Jeffrey M. Cox's message of Mon, 25 Apr 1994 11:12:43 -0400 <199404251513.LAA15800@mail1.its.rpi.edu>
+Subject: Unsubscribe
+
+   Date: Mon, 25 Apr 1994 11:12:43 -0400
+   From: coxj@rpi.edu (Jeffrey M. Cox)
+	   I would like to be taken off the mailing list.
+   |   _____       _   _  |               Jeff "The Master" Cox
+   |     /  __    / ) / ) |                   coxj@rpi.edu
+   |  / /  /__)  (_  (_   |
+   |  \/   \__  /   /     |   "There's a fine line between clever and stupid"
+
+Despite the fact that you stupidly mailed your administrative request to
+the entire mailing list, I have removed you from Cube-Lovers.
+
+I thought I would also take this opportunity to remind the rest of you of
+the contents of the greeting message I send all new subscribers.
+Old-timers who've seen previous versions of this file can amuse themselves
+by noticing that this winter we had some of our heaviest traffic ever.
+
+------- Begin Standard Greeting -------
+
+Don't expect to receive any mail anytime soon.  Cube-Lovers is mostly quiet
+these days.  Our addresses are Cube-Lovers@AI.MIT.EDU for submissions and
+Cube-Lovers-Request@AI.MIT.EDU for administrivia.
+
+Please note that Cube-Lovers-Request is processed by a human being, not a
+computer program (such as LISTSERV or Majordomo).  If your request is not
+instantly processed, it is because I don't spend my entire life reading my
+electronic mail.  I do know how to interpret many of the commands typically
+sent to such programs, but I would prefer it if instead you can remember to
+address me in complete sentences.
+
+If you are interested in the archives of the Cube-Lovers mailing list:
+
+Using FTP, connect to FTP.AI.MIT.EDU, login as "anonymous" (any password),
+and in the directory "pub/cube-lovers" you will find the twelve (compressed)
+files "cube-mail-0.gz" through "cube-mail-11.gz".
+
+Archive vital statistics (when uncompressed):
+
+	   File		   From		   To	     Size (bytes)
+	   ----		   ----		   --	     ------------
+	cube-mail-0	12 Jul 80	23 Oct 80	185037
+	cube-mail-1	 3 Nov 80	 9 Jan 81	135719
+	cube-mail-2	10 Jan 81	 3 Aug 81	138566
+	cube-mail-3	 3 Aug 81	 3 May 82	137753
+	cube-mail-4	 4 May 81	11 Dec 82	139660
+	cube-mail-5	11 Dec 82	 6 Jan 87	173364
+	cube-mail-6	10 Jan 87	13 Apr 90	216733
+	cube-mail-7	12 Oct 90	 9 Sep 91	137508
+	cube-mail-8	 1 Nov 91	25 May 92	171205
+	cube-mail-9	28 May 92	 7 Jan 93	155755
+	cube-mail-10	20 Mar 93	 6 Dec 93	171881
+	cube-mail-11	 6 Dec 93	18 Feb 94	349772
+
+In addition, the file "recent-mail" contains a copy of the currently active
+section of the archive.  (Unfortunately, due to the way mail works here at
+the AI Lab, it is not possible to have new mail accumulate directly into
+this file, so there may be some delay before a new message arrives here.)
+Finally, the file "README" contains the information you are currently reading.
+
+				- Alan
+
+------- End Standard Greeting -------
+
+From 70410.1050@compuserve.com  Fri Apr 29 13:28:11 1994
+Return-Path: <70410.1050@compuserve.com>
+Received: from arl-img-1.compuserve.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25900; Fri, 29 Apr 94 13:28:11 EDT
+Received: from localhost by arl-img-1.compuserve.com (8.6.4/5.940406sam)
+	id NAA28174; Fri, 29 Apr 1994 13:28:12 -0400
+Date: 29 Apr 94 13:24:23 EDT
+From: Jerry Slocum <70410.1050@compuserve.com>
+To: "Cube Lovers @ MIT" <Cube-Lovers@ai.mit.edu>
+Subject: Mechanical Puzzles
+Message-Id: <940429172422_70410.1050_CHV84-1@CompuServe.COM>
+
+Announcements
+
+An exhibition of "MAZES and PUZZLES" opens May 27 and closes Sept.5 at the 
+Museum of Science and Industry in Chicago. It includes a "people maze", 80 
+hands-on mechanical puzzles of many types to challenge visitors and 640 
+mechanical puzzles of all types and ages that are displayed in 21 cases.
+I will send a flyer with details to anyone upon request.
+
+A Directory of Puzzle Collectors (232), Mail Order puzzle sellers (96), Puzzle
+periodicals (6), and Retail puzzle stores (147), worldwide, has just been 
+published by the non-profit Slocum Puzzle Foundation. Is is available for $10.
+postpaid.
+
+
+
+                The Slocum Puzzle Foundation
+
+The Slocum Puzzle Foundation was established on August 10, 1993 as a nonprofit
+public benefit Corporation. It has been approved by the State of California 
+and the U.S. Government as a charitable and educational Foundation.
+
+The purpose of the Foundation is to educate the public on puzzles, their 
+history, development, and use in various cultures of the world. The 
+Foundation will actively support the use of puzzles for education.
+
+The Foundation will educate the public on puzzles through:
+
+Puzzle exhibitions at museums, libraries, universities, and primary and 
+secondary schools, with emphasis on interactive, hands-on puzzles.
+
+Publication of books, compendiums, and research papers on puzzles, and a 
+Directory of puzzle collectors.
+
+Supporting and encouraging study and research of the history, development, and
+use of puzzles in various cultures of the world.
+
+Supporting and encouraging communication among puzzle experts, educators, 
+historians, and the public.
+
+Building and maintaining a collection of puzzles and a library to support 
+these activities and to be available for puzzle exhibitions, education, 
+research and study.
+
+The first project of the Foundation is to support a Maze and Puzzle exhibition
+at the Museum of Science and Industry in Chicago, Illinois.
+
+The Directory is the first publication of the Slocum Puzzle Foundation.
+
+We are interested in suggestions of projects to support exhibitions, 
+publications, research and educational activities. 
+
+We would welcome volunteers to help with the activities of the Foundation.
+
+We would welcome donations of puzzles and puzzle literature and financial 
+support.
+
+All gifts are deductible from California and Federal income taxes.
+
+
+Jerry Slocum
+Internet:70410.1050@compuserve.com
+Address: 257 South Palm Drive, Beverly Hills, CA 90212
+Phone:310-273-2270
+Fax:310-274-3644
+
+From e0f2m2wm@credit.erin.utoronto.ca  Sat Apr 30 23:59:34 1994
+Return-Path: <e0f2m2wm@credit.erin.utoronto.ca>
+Received: from credit.erin.utoronto.ca by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10571; Sat, 30 Apr 94 23:59:34 EDT
+Received: by credit.erin.utoronto.ca id <34069>; Sun, 1 May 1994 00:02:31 -0400
+From: Do Anh Vu <e0f2m2wm@credit.erin.utoronto.ca>
+To: cube-lovers@life.ai.mit.edu
+Subject: Request to unsubscribe from Cube-Lovers list
+Message-Id: <94May1.000231edt.34069@credit.erin.utoronto.ca>
+Date: 	Sun, 1 May 1994 00:02:25 -0400
+
+Hi, I would like to be removed from the Cube-Lovers list.
+...I'm staying away from my mail for now.
+
+Thanks in advance.
+
+Do Anh
+
+From bagleyd@source.asset.com  Sun May  1 00:00:57 1994
+Return-Path: <bagleyd@source.asset.com>
+Received: from source.asset.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10807; Sun, 1 May 94 00:00:57 EDT
+Received: by source.asset.com (AIX 3.2/UCB 5.64/4.03)
+          id AA38537; Sat, 30 Apr 1994 23:38:49 -0400
+Date: Sat, 30 Apr 1994 23:38:49 -0400
+From: bagleyd@source.asset.com (David A. Bagley)
+Message-Id: <9405010338.AA38537@source.asset.com>
+To: 70410.1050@compuserve.com, Cube-Lovers@ai.mit.edu
+Subject: Re:  Mechanical Puzzles
+
+
+Mr Jerry Slocum
+  I just got your Directory, great job!
+
+  The last order seems mixed up.  I ordered:
+     Jug w/ <>'s
+     1989 Puzzle Calendar
+  I only received Jug w/ Diamonds.  (The directory was from    a previous
+order).  I included $29 , I believe.
+
+  Also , thanks for the info on        cube-lovers.
+  If this is garbled its because my modem is not working so well.
+David Bagley
+58 Winsor Place
+Glen Ridge NJ O7028
+
+From pbeck@pica.army.mil  Thu May 19 09:09:47 1994
+Return-Path: <pbeck@pica.army.mil>
+Received: from COR6.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08289; Thu, 19 May 94 09:09:47 EDT
+Date:     Thu, 19 May 94 9:09:30 EDT
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  rubik's 94 items
+Message-Id:  <9405190909.aa08091@COR6.PICA.ARMY.MIL>
+
+NEWer RUBIK'S PUZZLES
+
+There is a line of Rubik's puzzles, currently available that are
+distributed by Western Publishing in their line of GOLDEN GAMES.  This
+line was to have two new items for 1994.  They are available in europe
+but Western has decided not to make them available in the USA.
+
+1 - Rubik's Maze:  six connected cubes that lay in a plane and have
+lines drawn on them.  The object is turn the blocks until a continuous
+path is constructed.
+2 - Rubik's Rabbits:  This looks a magician's top hat.  Looking down
+at the hat it is divided into 8 wedges.  The layers(5) are turned
+until a rabbit appears in each wedge or in no wedges at all.
+
+PRE-1994 ITEMS
+1 - Rubik's Cube 4: standard cube with rubik's likeness on a center
+sticker.
+2 - RUBIK's Fifteen:  a plunger type sequential motion puzzle
+3 - Rubik's Dice:  a hollow cube with holes where the die spots go.
+ Internally there are colored sheets of plastic that by flipping the
+cube can be made to cover up the holes
+4 - Rubik's Tangle:  comes in 4 versions, discussed at length on cube
+lovers
+
+MY PRICES:
+ - Rubik's Cube 4:     $10
+ - RUBIK's Fifteen:   $10
+ - Rubik's Dice:        $12
+ - Rubik's Tangle:     $8 each or $30 for a set of all 4
+
+CONTINENTAL USA POSTAGE:  $2 for 1 item, $3 for 2 or more
+outside of CONTINENTAL USA 20% surface , 40% 1st class.
+
+PETER BECK
+54 RICHWOOD PLACE
+DENVILLE , NJ 07834
+
+DAYS  201-724-4812
+
+
+From pbeck@pica.army.mil  Thu May 19 09:12:09 1994
+Return-Path: <pbeck@pica.army.mil>
+Received: from COR6.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08406; Thu, 19 May 94 09:12:09 EDT
+Date:     Thu, 19 May 94 9:11:55 EDT
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  PIONEER PUZZLES
+Message-Id:  <9405190911.aa08959@COR6.PICA.ARMY.MIL>
+
+
+I was wondering if anybody has bought puzzles from:
+
+PIONEER PUZZLES
+POB 183
+CHEROKEE, TEXAS 76832
+1800-441-1796.
+
+They make wire disentanglement puzzles.
+
+thanks 
+
+pete
+
+From @wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU  Mon May 23 16:51:56 1994
+Return-Path: <@wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14699; Mon, 23 May 94 16:51:56 EDT
+Message-Id: <9405232051.AA14699@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4733; Mon, 23 May 94 11:00:32 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 1173; Mon, 23 May 1994 11:00:32 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Mon, 23 May 1994 11:00:24 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Modelling Centerless Cubes
+
+On 13 Feb 1994, I proposed a way to model centerless cubes which would
+(in Dan Hoey's words) retain the symmetrical nature of the problem.
+I need to post a partial correction/retraction.
+
+The conventional model for centerless cubes loses the symmetrical
+nature of the problem.  For example, for a corners-only cube, seven
+cubies are modeled rather than eight, and for an edges-only cube,
+eleven cubies are modeled rather than twelve.
+
+My proposal in February was to use cosets of the form xC to model
+centerless cubes, where x is a cube and where C is the set of
+twenty-four whole cube rotations.  This proposal in turn requires
+an interpretation of C such that C is a subset of G, the entire cube
+group.
+
+C is a group, but normally it is not considered to be a subset
+of G, hence it is not normally considered to be a subgroup of G.
+That is, C moves the centers of the faces, but G does not.  The
+required interpretation is obtained by removing the centers of each
+face, and defining rotational orientation by convention so that the
+cube is solved only when the Up color is Up, the Front Color is
+Front, and so forth.
+
+Under this interpretation, C is indeed a subset (and hence a subgroup)
+of G.  More correctly, C[even] is a subset of G, C is a subset of
+GC (the corners only cube), C is a subset of GE (the edges only cube),
+and C is a subset of GS, where GS=<Q,S> (Q is the set of quarter turns
+and S is the set of slice moves).  That is, when you start
+talking about C as a subset of G, you have to worry about odd and
+even permutations.  Hence, you have to say C is a subset of GS or
+C[even] is a subset of G in order not to violate parity rules.
+
+All of the above was posted in February, and I am still comfortable
+with it.  However, I went on to say that GS/C, G/C[even], GC/C, and
+GE/C were all groups under the operation xC * yC = (xy)C.  I find
+that I must retract this claim.
+
+In my note in February, I did not give a proof, but rather appealed
+to a proof in Frey and Singmaster's _Handbook of Cubik Math_.  I now
+find that I mis-applied their proof.  In order to show the nature of
+the problem, I find it useful to go through an attempted proof and
+determine the point at which it fails.
+
+Note that the proposed group elements are not cubes, they are cosets.
+We proceed as follows:
+
+  1. Associativity:  (xC * yC) * zC =
+                     (xy)C * zC =
+                     ((xy)z)C =
+                     (x(yz))C =
+                     xC * (yz)C
+                     xC * (yC * zC)
+
+     Note that the associativity of the proposed group G/C derives
+     directly from the associativity of G.
+
+  2. Identity: we propose that the identity is iC
+
+                     iC * xC = (ix)C = xC
+                     xC * iC = (xi)C = xC
+
+     Note that the identity of the proposed group G/C derives
+     directly from the identity i of G.  Further note that the
+     identity iC of the proposed group G/C is C, which is
+     precisely what you would want for the identity of a centerless
+     cube.
+
+  3. Inverse: we propose that (xC)'=x'C
+
+                     xC  * x'C = (xx')C = iC
+                     x'C * xC  = (x'x)C = iC
+
+     Note that the inverse of xC in the proposed group G/C derives
+     from the inverse of x in G.
+
+  4. Closure: This is where we have our problem.  We require that
+     if xC * yC = (xy)C, then (xy)C must be a coset of C.  But the
+     representation of xC and yC is not unique.  That is, xC=(xd)C,
+     where d is in C, and yC=(ye)C where e is in C.  It is the
+     case that (x(ye))C = (xy)C, but in general it is not the case
+     that ((xd)y)C = (xy)C.  Hence, we can have xC=(xd)C, but have
+     it be the case that xC * yC is not equal (xd)C * yC.  Hence,
+     we do not have closure.
+
+     Strictly speaking, this same problem afflicts our "proof" for
+     the inverse, but I deferred discussing the problem until I got
+     to closure.  If the problem is repaired for closure, it is also
+     repaired for inverses (see the next paragraph for a discussion
+     of normal subgroups).
+
+Cosets of a subgroup H are said to be normal if xH = Hx for all x.
+I was implicitly and incorrectly assuming that C is a normal
+subgroup of G, but it is not.  For normal subgroups, closure of
+coset multiplication is readily proven.  Frey and Singmaster's proof
+is for normal subgroups only, and I was applying it to C, which is
+not normal.
+
+It is instructive to consider briefly what xC vs. Cx means for cubes.
+We can interpret the left coset xC as simply holding a cube in your
+hands and rotating it any way you wish in space without performing
+any twists.
+
+The right coset Cx is a little trickier.  The cube x
+must be pre-multiplied by each c in C to form Cx.  If you have cube
+x in your hands, there is no obvious thing you can do to form Cx.
+The thing that is most intuitive to me personally is to think in
+terms of "rotation by color", which is the way I described
+pre-multiplication when I first posted some of the results of my
+work back in December.  That is, think of holding the cube still, but
+recoloring it by permuting the colors.  The elements of the coset Cx
+look the "same" but with the colors permuted.  It is not possible to
+perform this operation on a real cube (short of pulling off the stickers
+and putting them back on), but the operation can be readily performed
+on a computer model.
+
+Having said all this, I keep thinking that there must be a way to define
+an operation on the cosets xC so that they form a group.  However, I
+have been unsuccessful in doing so.  I would welcome any advice from
+the net.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From ishius@ishius.com  Thu May 26 14:32:42 1994
+Return-Path: <ishius@ishius.com>
+Received: from holonet.net ([198.207.169.7]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29144; Thu, 26 May 94 14:32:42 EDT
+Received: from DialupEudora (ishius@localhost) by holonet.net (Anton Dovydaitis) with SMTP
+	id LAA17753; Thu, 26 May 1994 11:27:13 -0700
+Message-Id: <199405261827.LAA17753@holonet.net>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Thu, 26 May 1994 11:28:21 -0800
+To: cube-lovers@ai.mit.edu
+From: ishius@ishius.com (ishius@holonet.net)
+Subject: ISHI PRESS MAILING LIST!
+
+ISHI PRESS MAILING LIST!
+
+Earlier, I have intruded on this fine discussion to solicit e-mail addresses
+for Ishi Press's retail puzzle e-mail list.  Due to some unforseen hardware
+problems, however, we were cut off from the net for a couple weeks, and
+have lost all of our e-mail lists.
+
+If you would like to receive e-mailings of Ishi Press's impressive line
+of mechanical puzzles, send us your e-mail address.  If you would like
+a full color catalog, including puzzle reference guide, send us your
+postal address as well.
+
+PLEASE INDICATE THAT YOU ARE INTERESTED IN PUZZLES AND/OR GO (an ancient
+oriental strategy game).
+
+Retail E-mailings are sent about once per month, so we won't be stuffing
+your e-mail box with more junk to slog through.  While some e-mailings
+duplicate our paper sales literature, there are often descriptions, reviews,
+and offers that we would never include in a general mailing (such as damaged
+or second merchandise, unique items, out of print books).
+
+Always feel free to write me if you have any questions or comments.
+
+Anton Dovydaitis
+Customer Support
+
+===========================================================================
+Ishi Press International                408/944-9900 vc, 408/944--9110 FAX
+76 Bonaventura Drive                    800/859-2086 Toll Free Order Line
+San Jose, CA  95134                     ishius@ishius.com (or @holonet.net)
+
+
+
+From bagleyd@source.asset.com  Fri May 27 13:46:56 1994
+Return-Path: <bagleyd@source.asset.com>
+Received: from source.asset.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA28346; Fri, 27 May 94 13:46:56 EDT
+Received: by source.asset.com (AIX 3.2/UCB 5.64/4.03)
+          id AA64537; Fri, 27 May 1994 13:42:15 -0400
+Date: Fri, 27 May 1994 13:42:15 -0400
+From: bagleyd@source.asset.com (David A. Bagley)
+Message-Id: <9405271742.AA64537@source.asset.com>
+To: cube-lovers@ai.mit.edu
+Subject: xrubik
+
+
+Hi
+  I just finished up "xrubik", a UNIX-X Rubik's cube.  It has been tested
+on Linux, SunOS, and HP-UX.  It currently resides on ftp.x.org at
+/contrib/games/puzzles.  Here's the blurb from the README in that 
+directory:
+-------------------------------------------------------------
+xrubik has been converted from xmrubik.
+  New features:
+        hold down control key to move whole cube
+        letters that represent colors can now be changed in mono-mode
+  Bug fix:
+        when xmrubik did not recognize when the cube was solved nontrivially
+        (i.e. the number of cubes on an edge > 1  OOPS.)
+ 
+The /R5contrib/xmpuzzles:
+xmpyramid       xmoct           xmskewb
+xmcubes         xmtriangles     xmhexagons
+are currently being changed to exclude Motif dependencies.
+The Motif versions will no longer be maintained.
+ 
+The proposed collection includes:
+SLIDING BLOCK PUZZLES
+xcubes:         expanded 15 puzzle
+xtriangles:     same complexity as 15 puzzle
+xhexagons:      2 modes: one ridiculously easy, one harder than 15 puzzle
+ 
+ROTATIONAL 3D PUZZLES
+xrubik:         a nxnxn rubik's cube
+xpyramid:       a nxnxn tetrahedron (a nxnxn pyraminx)
+                with Period 2, Period 3, and Combined cut modes
+xoct:           a nxnxn octahedron with Period 3, Period 4, and Combined cut
+                modes
+xskewb:         a cube with diagonal cuts
+The rest of the platonic solids (the dodecahedron and the icosahedron) seem
+too hard for me.
+ 
+These programs do not have self-solvers like "magiccube" (Motif) or
+"puzzle" (X).
+-----------------------------
+Have fun
+David (the newbie)
+
+From @wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU  Mon May 30 22:48:07 1994
+Return-Path: <@wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22299; Mon, 30 May 94 22:48:07 EDT
+Message-Id: <9405310248.AA22299@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 2575; Mon, 30 May 94 21:36:09 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 6359; Mon, 30 May 1994 21:36:08 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Mon, 30 May 1994 21:36:07 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Branching Factors and God's Algorithm Search Trees
+
+At various times, there have been discussions about what the maximum
+distance from Start might be in God's algorithm.  One argument is made
+with respect to worst/best case branching factors.  For example,
+a simple calculation is that the first move has at most twelve
+possibilities and that each subsequent move has eleven possibilities,
+when dealing with Q-turns only.  For Q-turns plus H-turns, the same
+argument would be eighteen possibilities for the first move and seventeen
+possibilities for each subsequent move.
+
+My experience is that search trees tend to develop relatively
+constant branching factors after some sort of variable startup.
+I expect Rubik's cube to be no different.  I just wonder if anyone
+has calculated some number of levels for the full Rubik's cube,
+enough levels for the hypothesized steady state branching factor
+to be achieved.  I have not done so, but if anyone has, it might
+shed considerable light on the question of the maximum distance
+from Start.
+
+Subsets of the cube such as corners only and edges only have been
+calculated.  It is suggestive to examine branching factors for the
+cases which have already been calculated.  The question of "average
+branching factor" is subject to interpretation because it is not
+necessarily clear when the distribution has achieved its steady
+state.  I am including a number of tables giving branching factors
+for the cases which have been calculated already.  I will preface
+the tables with the following comments:
+
+   1. The distributions for edges-only cubes have a variable branching
+      factor during a startup phase, then have a relatively constant
+      branching factor for several levels. and finally the distribution
+      has sort of a tail.
+
+   2. The distributions for corners-only cubes have a variable branching
+      factor during a startup phase, and almost immediately the
+      distribution has a tail.  The number of cases simply is not
+      large enough to support an extended constant branching factor
+      in the middle of the distribution.  It's sort of like a very
+      short airplane flight where it is time to descend about the
+      time the ascent is completed.
+
+   3. I would expect the distributions for a full cube to have an
+      even longer period with a constant branching factor than
+      the distributions for edges-only cubes because the number
+      of cases is so much larger.  There should be plenty of time
+      for a plateau between the startup phase and any tail of the
+      distribution.
+
+   4. There are an equal number of odd and even permutations.  For
+      the cases where you restrict yourself to Q-turns, there are
+      therefore equal numbers of states an even distance from Start
+      and an odd distance from Start.  Hence, the distribution tends
+      either to have two adjacent levels with approximately equal
+      numbers of states, or else tends to have one dominant level with
+      a level on each side of the dominant level with about half
+      the number of states in the dominant level.
+
+   5. For the cases where you allow both Q-turns and H-turns, there
+      tends to be one dominant level which contains most of the
+      of the states.
+
+   6. Those of you who followed all the traffic on this list in
+      December and January will recall that my work with God's
+      algorithm exploits symmetric conjugates in order to reduce
+      the size of the problem.  It turns out that using conjugates
+      does not change the average branching factor once you get
+      past the startup portion of the distribution.  This effect
+      can be a bit hard to see for corners-only cubes because the
+      steady state portion of the distribution is so short, but
+      the effect is very striking for edges-only cubes.  I would
+      expect the effect to be very striking, as well, for the
+      case of the full cube.
+
+      ------------------------------------------------------------------
+
+              2x2x2 Cube using Q-turns and H-turns
+
+    Distance    Number of  Branching    Number of  Branching   Ratio of
+        from        Cubes     Factor       M          Factor   Cubes to
+       Start                           Conjugates            Conjugates
+
+           0            1                       1                  1.00
+           1            9       9.00            2       2.00       4.50
+           2           54       6.00            5       2.50      10.80
+           3          321       5.94           19       3.80      16.89
+           4         1847       5.75           68       3.58      27.16
+           5         9992       5.41          271       3.99      36.87
+           6        50136       5.02         1148       4.24      43.67
+           7       227536       4.54         4915       4.28      46.29
+           8       870072       3.82        18364       3.74      47.38
+           9      1887748       2.17        39707       2.16      47.54
+          10       623800       0.33        13225       0.33      47.17
+          11         2644       0.00           77       0.01      34.34
+
+    Total/Avg     3674160     ? 4.83        77802     ? 3.54      47.22
+
+      ------------------------------------------------------------------
+
+              2x2x2 Cube using Q-turns
+
+    Distance    Number of  Branching    Number of  Branching   Ratio of
+        from        Cubes     Factor       M          Factor   Cubes to
+       Start                           Conjugates            Conjugates
+
+           0            1                       1                  1.00
+           1            6       6.00            1       1.00       6.00
+           2           27       4.50            3       3.00       9.00
+           3          120       4.44            6       2.00      20.00
+           4          534       4.45           17       2.83      31.41
+           5         2256       4.22           59       3.47      38.24
+           6         8969       3.98          217       3.68      41.33
+           7        33058       3.69          738       3.40      44.79
+           8       114149       3.45         2465       3.34      46.31
+           9       360508       3.16         7646       3.10      47.15
+          10       930588       2.58        19641       2.57      47.38
+          11      1350852       1.45        28475       1.45      47.44
+          12       782536       0.58        16547       0.58      47.29
+          13        90280       0.12         1976       0.12      45.69
+          14          276       0.00           10       0.01      27.60
+
+    Total/Avg     3674160     ? 3.05        77802     ? 2.92      47.22
+
+      ------------------------------------------------------------------
+
+              Corners of 3x3x3 Cube using Q-turns and H-turns
+
+    Distance    Number of  Branching    Number of  Branching   Ratio of
+        from        Cubes     Factor       M          Factor   Cubes to
+       Start                           Conjugates            Conjugates
+
+           0            1                       1                  1.00
+           1           18      18.00            2       2.00       9.00
+           2          243      13.50            9       4.50      27.00
+           3         2874      11.83           71       7.89      40.48
+           4        28000       9.74          637       8.97      43.96
+           5       205416       7.34         4449       6.98      46.17
+           6      1168516       5.69        24629       5.54      47.44
+           7      5402628       4.62       113049       4.59      47.79
+           8     20776176       3.85       433611       3.84      47.91
+           9     45391616       2.18       947208       2.18      47.92
+          10     15139616       0.33       316823       0.33      47.79
+          11        64736       0.00         1481       0.00      43.71
+
+    Total/Avg    88179840     ? 4.74      1841970     ? 4.63      47.87
+
+      ------------------------------------------------------------------
+
+              Corners of 3x3x3 Cube using Q-turns
+
+    Distance    Number of  Branching    Number of  Branching   Ratio of
+        from        Cubes     Factor       M          Factor   Cubes to
+       Start                           Conjugates            Conjugates
+
+           0            1                       1                  1.00
+           1           12      12.00            1       1.00      12.00
+           2          114       9.50            5       5.00      22.80
+           3          924       8.11           24       4.80      38.50
+           4         6539       7.08          149       6.21      43.89
+           5        39528       6.04          850       5.70      46.50
+           6       199926       5.06         4257       5.01      46.96
+           7       806136       4.03        16937       3.98      47.60
+           8      2761740       3.43        57800       3.41      47.78
+           9      8656152       3.13       180639       3.13      47.92
+          10     22334112       2.58       466052       2.58      47.92
+          11     32420448       1.45       676790       1.45      47.90
+          12     18780864       0.58       392558       0.58      47.84
+          13      2166720       0.12        45744       0.12      47.37
+          14         6624       0.00          163       0.00      40.64
+
+    Total/Avg    88179840     ? 4.48      1841970     ? 4.29      47.87
+
+      ------------------------------------------------------------------
+
+         Edges of 3x3x3 Cube Without Centers using Q-turns and H-Turns
+
+    Distance    Number of  Branching    Number of  Branching   Ratio of
+        from        Cubes     Factor       M          Factor   Cubes to
+       Start                           Conjugates            Conjugates
+
+           0            1                       1                  1.00
+           1           18      18.00            2       2.00       9.00
+           2          243      13.50            9       4.50      27.00
+           3         3240      13.33           75       8.33      43.20
+           4        42359      13.07          919      12.25      46.09
+           5       538034      12.70        11344      12.34      47.43
+           6      6666501      12.39       139325      12.28      47.85
+           7     79820832      11.97      1664347      11.95      47.96
+           8    888915100      11.14     18524022      11.13      47.99
+           9   8056929021       9.06    167864679       9.06      48.00
+          10  27958086888       3.47    582489607       3.47      48.00
+          11   3883792136       0.14     80930364       0.14      47.99
+          12         8827       0.00          314       0.00      28.11
+
+    Total/Avg 40874803200    ? 12.26    851625008    ? 11.99      48.00
+
+
+      ------------------------------------------------------------------
+
+              Edges of 3x3x3 Cube Without Centers Using Q-turns
+
+    Distance    Number of  Branching    Number of  Branching   Ratio of
+        from        Cubes     Factor       M          Factor   Cubes to
+       Start                           Conjugates            Conjugates
+
+           0            1                       1                  1.00
+           1           12      12.00            1       1.00      12.00
+           2          114       9.50            5       5.00      22.80
+           3         1068       9.37           25       5.00      42.72
+           4         9759       9.14          215       8.60      45.39
+           5        88144       9.03         1860       8.65      47.39
+           6       786500       8.92        16481       8.86      47.72
+           7      6916192       8.79       144334       8.76      47.92
+           8     59623239       8.62      1242992       8.61      47.97
+           9    495496593       8.31     10324847       8.31      47.99
+          10   3695351994       7.46     76993295       7.46      48.00
+          11  17853871137       4.83    371975385       4.83      48.00
+          12  18367613703       1.03    382690120       1.03      48.00
+          13    395043663       0.02      8235392       0.02      47.97
+          14         1080       0.00           54       0.00      20.00
+          15            1       0.00            1       0.02       1.00
+
+    Total/Avg 40874803200     ? 8.80    851625008     ? 8.63      48.00
+
+      ------------------------------------------------------------------
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From Joel.Franklin@altosax.reed.edu  Thu Jun  9 15:09:41 1994
+Return-Path: <Joel.Franklin@altosax.reed.edu>
+Received: from dharma.reed.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07939; Thu, 9 Jun 94 15:09:41 EDT
+Received: from 134.10.2.28 by dharma.reed.edu (/\==/\ Smail3.1.25.1 #25.21)
+        id <m0qBpTr-0000xxC@dharma.reed.edu>; Thu, 9 Jun 94 12:09 PDT
+Message-Id: <93428@altosax.reed.EDU>
+Date: 09 Jun 94 12:07:54 PDT
+From: Joel.Franklin@altosax.reed.edu (Joel Franklin)
+Subject: 
+To: CUBE-LOVERS@life.ai.mit.edu
+
+How do I subscribe to this list?
+
+From rprakash@cdotp.ernet.in  Wed Jun 22 08:37:49 1994
+Return-Path: <rprakash@cdotp.ernet.in>
+Received: from sangam.ncst.ernet.in by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01414; Wed, 22 Jun 94 08:37:49 EDT
+Received: (from uucp@localhost) by sangam.ncst.ernet.in (8.6.8.1/8.6.6) with UUCP id SAA03435 for cube-lovers@ai.ai.mit.edu; Wed, 22 Jun 1994 18:07:29 +0530
+Received: from cdotp.UUCP by doe.ernet.in (4.1/SMI-4.1-MHS-7.0)
+	id AA09375; Wed, 22 Jun 94 17:18:53+0530
+Received: by cdotp.ernet.in (4.1/SMI-4.1)
+	id AA07212; Wed, 22 Jun 94 17:14:48+050
+Date: Wed, 22 Jun 94 17:14:48+050
+From: rprakash@cdotp.ernet.in (PRAKASH R.)
+Message-Id: <9406221214.AA07212@cdotp.ernet.in>
+To: cube-lovers@life.ai.mit.edu
+
+Dear cube-lovers-request,
+	please send me some information & problems about the cube. i haven't
+been able to solve the cube fully yet. i can get about 60-70% . i need some
+suggestions about how to solve the cube also.
+	thanking you,
+						-love
+						prakash r.
+
+
+From @wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU  Wed Jun 29 14:11:23 1994
+Return-Path: <@wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20966; Wed, 29 Jun 94 14:11:23 EDT
+Message-Id: <9406291811.AA20966@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4561; Wed, 29 Jun 94 13:45:43 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 1210; Wed, 29 Jun 1994 13:45:43 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 29 Jun 1994 13:45:42 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Comments on Cube Lengths (Long, 1 of 2)
+
+As you all know, the length of a cube X is defined as the shortest
+process P such that XP = I, and is denoted as |X|.  One definition
+of God's Algorithm is simply that God's algorithm is the knowledge
+of |X| for all cubes.  I wish to make some observations about
+|X| as related to various models of the cubes and their symmetries.
+
+The set C is the set of 24 rotations of the cube. The set M is the
+set of 48 rotations and reflections of the cube, where half of M is
+C and the other half of M is C reflected.
+
+The first (obvious) observation is that |X| = |m'Xm| for all m in M.
+That is, the set of all M-conjugates of a cube have the same
+length.  Another way to say the same thing is that |m'Xm| = |n'Xn|
+for all m and n in M.
+
+Actually, there is an even more obvious observation that probably
+should be made.  The set G is the set of all cubes, where
+G is generated as G=<Q>, where Q is the set of 12 quarter-turns
+of the cube.  The *really* obvious observation is that if X
+is in G, then m'Xm is in G for all m in M.  Furthermore, if GC
+is the set of corners-only cubes, then X in GC implies m'Xm in GC,
+and if GE is the set of edges-only cubes, then X in GE implies
+m'Xm in GE.  Finally, the observation that |X| = |m'Xm| remains
+true whether X is in G, in GC, or in GE.
+
+The process of forming M-conjugates in G (or in GC or in GE)
+induces a partition which is an equivalence relation.  Hence, the
+set {m'Xm} for all m in M is an equivalence class.  Since,
+|m'Xm| = |n'Xn| for all m and n in M, it is meaningful to speak
+of the length of {m'Xm}, namely |{m'Xm}| = |Y|, where Y is
+any element of {m'Xm}.
+
+Now, consider cubes of the form Xc where X is in G and c is in C.
+We first observe that Xc is in G if and only if c is even.   Half the
+elements in C are even, and half are odd.  An odd permutation in C is
+even on the corners but is odd on the edges; hence, Xc is not in G when
+c is odd.  On the other hand, Xc is in GC for all X in GC, and Xc is in
+GE for all X in GE.
+
+The fact that Xc is in G only for even elements of C is why I thought
+it was important to make the "really obvious" observation that
+m'Xm is in G for all X in G and all m in M.  The two cases m'Xm and
+Xc are similar on the surface, but different when you dig a
+little bit deeper.
+
+With respect to lengths, we can observe that |Xc| >= |X| whenever
+Xc is well-defined (that is, whenever c is even for G, or for all c
+for GC and GE).
+
+The process of performing rotations in G (even rotations in G, or any
+rotation in GC or in GE) induces a partition which is an equivalence
+relation.  Hence, the set {Xc} for all (or even, as appropriate) c
+in C is an equivalence class.  The collection of all sets of the form
+{Xc} can serve as a model for cubes without centers.
+
+However, it is not the case that |Xc| = |Xd| for all c and d in C.
+Nonetheless, it is meaningful to speak of |{Xc}|.  Namely,
+|{Xc}| = min{|Xd|} for all (or even) d in C.  Hence, we have
+|{Xc}| <= |Xd| for all (or even) d in C.
+
+The definition |{Xc}| = min{|Xd|} probably requires a bit of
+justification.  For a cube without centers, the solved or Start
+state is {Ic} for all (or even) c in C.  Hence, Start is C (or
+C[even]), and we need the shortest process P such that XP is in C
+in order to calculate |{Xc}|.
+
+Consider the set {P[1], P[2], ... P[24]} where P[n] is the shortest
+process for which (Xc[n])P[n] = I.  Observe, that XP[n] is in C for
+all n in 1..24.  This immediately gives us |P| <= |P[n]| for all
+n in 1..24.
+
+Conversely, if XP is in C, then there exists some c[n] in C such that
+Xc[n]P = I.  This gives us |P[n]| <= |P| for some n in 1..24.
+Therefore, |P| = min{|P[n]|} for n in 1..24.
+
+Note that we have |{Xc}| <= |X| <= |Xd|.  On its face, this may seem
+somewhat paradoxical, but I believe that it is entirely correct.
+There is a huge difference is speaking of |{Xc}| as opposed to
+speaking of |Xd|.  Xd is an (atomic) element of G;  {Xc} is a set.
+Elements of {Xc} are also in G, but the *set* {Xc} is not in G.
+
+My model for cubes without centers is really {m'Xmc} rather than
+{Xc}.  However, the results from above are readily combined.  That is,
+we can speak of |{m'Xmc}|, namely |{m'Xmc}| = min{|(m'Xm)d|} for all
+(or even) d in C.  As before, we have |{m'Xmc}| <= |m'Xm| <= |m'Xmd|.
+Note that in the middle of this last string of inequalities we could
+insert any of |X| = |m'Xm| = |{m'Xm}|.
+
+In my God's algorithm data base for cubes without centers, I store
+ordered pairs of the form (Y,|{m'Xmc}|), where Y is a representative
+element of the set {m'Xmc}.  Note that Y is in G (or GC or GE, as
+appropriate).  It is a picky point, but the data base does *not*
+consist of ordered pairs of the form (Y,|Y|).  Remember that
+|Y| >= |{m'Xmc}|.
+
+My God's algorithm data base for cubes with centers nominally consists
+of ordered pairs of the form (Z,|{m'Xm}|), where Z is a representative
+element of the set {m'Xm}.  Unlike the case without centers, we do
+have |Z| = |{m'Xm}|, so we could also say the data base elements are
+of the form (Z,|Z|).
+
+However, the data representation is really a bit different to take
+advantage of the relationship between sets of the form {m'Xmc}
+and sets of the form {m'Xm}.  A set of the form {m'Xmc} can be
+partitioned into (up to) twenty-four sets of the form {m'Xm},
+where the (up to) twenty-four sets are indexed by C.
+
+Let Y=Repr({m'Xmc}).  Then, the data base is ordered pairs of the form
+(Yc[i],|Yc[i]|) for i in 1..24.  Note that Yc[i] is in G, but can be
+said to be a representative element for sets of the form {m'(Yc[i])m},
+which in turn is a set of the form {m'Xm} for some X in G.
+
+Finally, there is no real need to store the Yc[i];  it is only
+necessary to store the lengths.  Hence, a data base
+element for cubes with centers is really, really of the form:
+
+  (Y,|{m'Xmc}|,|Yc[1]|,|Yc[2]|, .... |Yc[24]|),
+
+where Y is a representative element of {m'Xmc}.
+
+Note that this is a very compressed format.  The representative element
+Y is stored only once for the 24 different values for c.  Note also that
+the solution for cubes without centers is stored in the same data base
+as the solution for cubes with centers.   Finally, since
+|m'Yc[i]m| = |Yc[i]|, we have stored the length of all cubes by storing
+the length of only one cube for each M-conjugancy class.
+
+It is not really necessary explicitly to store the solution for cubes
+without centers to have the solution for cubes without centers in the same
+data base.  That is, |{m'Xmc}|=min(|Yc[i]|) for i in 1..24.  But it takes
+very little space to do so and is convenient for certain calculations.
+
+   (to be continued)
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From @wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU  Wed Jun 29 15:00:05 1994
+Return-Path: <@wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23837; Wed, 29 Jun 94 15:00:05 EDT
+Message-Id: <9406291900.AA23837@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4592; Wed, 29 Jun 94 13:56:03 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 1494; Wed, 29 Jun 1994 13:56:03 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 29 Jun 1994 13:56:02 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Comments on Cube Lengths (Long, 2 of 2)
+
+   (continuation)
+
+I have described this data base structure once before (a little
+less formally before), but I wanted to describe it again because
+there is some interesting (to me, at least) analysis that can be
+derived from the data base, over and above God's algorithm.
+
+First, it is interesting to compare |{m'Xmc}| to the various |Yc[i]|.
+Recall that |Yc[i]| >= |{m'Xmc}| for all i in 1..24.  Also, by the
+definition of |{m'Xmc}|, there is at least one i in 1..24 such that
+|Yc[i]| = |{m'Xmc}|.
+
+I posted a comparison of |{m'Xmc}| to |Yc[i]| for corners-only cubes
+on 4 December 1993.  (I have the "without centers" part of the edges-only
+data base done, but it will take many more months to
+complete the "with centers" part.  So corners-only is the only
+complete data base we have to work with.)
+
+At the time, I received a couple of comments to the effect
+that people didn't understand what I was comparing to what.  I hope
+this note clarifies the situation.  For example (and referring to my
+previous note with respect to corners-only cubes), there is only one
+element of the form {m'Xmc} for which |{m'Xmc}| = 0.  The only element
+for which the length is 0 is Start, but in a corners only cube without
+centers, any rotation of Start is still at Start and still has length 0.
+
+Here is a brief excerpt from my note of 4 December 1993.
+
+              Corresponding Distances from Start
+                     Using Only q-turns
+
+        Without           With
+        Centers         Centers         Number
+     Distance from    Distance from    of Nodes
+         Start         Start
+
+           0
+                           0                1
+                           2                1
+                           4                2
+                           6                1
+
+What this means is as follows.  First, we have |{m'Imc}| = 0.  Let
+Y=Repr({m'Imc}).  Then, there is 1 element of the form Yc for which
+|Yc|=0, 1 element of the form Yc for which |Yc|=2, 2 elements of the
+form Yc for which |Yc|=4, and 1 element of the form Yc for which
+|Yc|=6.
+
+In words, suppose you have a corners-only cube (peel off the edge
+tabs, but keep the corners and centers).  Then, suppose the
+corners look "solved" if you ignore the centers.  The corners will
+be rotated relative to the centers.  In all, there are 24 different
+ways they can be rotated, including the identity, where they
+are not rotated.
+
+But under M-conjugancy, some of the 24 rotations are equivalent.
+Under M-conjugancy, there is one way they can be 0 moves from Start,
+one way they can be two moves from Start (RL' is equivalent to DU',
+for example ), two ways they can be four moves from Start, and one way
+they can be six moves from Start.  Among other things, this says that any
+rotation of the corners (ignoring the edges) can be accomplished
+in no more than six quarter turns.
+
+This example illustrates why a set of the form {m'Xmc} may be
+partitioned into "up to" twenty-four elements of the form
+{m'Xm}, rather than "exactly" twenty-four elements.  Normally,
+a set of the form  {m'Xmc} contains 1152 elements,
+where 1152=24*48.  It can in turn be partitioned into twenty-four
+elements of the form {m'Xm} which contain forty-eight elements each.
+But cubes which are "symmetric" reduce the number because
+various M-conjugates are equivalent.
+
+I normally think of the God's algorithm data base as a matrix, with
+the rows indexed by the representative elements Y, and the columns
+indexed by C (or more simply, by 1..24).  Because of M-conjugate
+symmetry, there are always a few empty cells in the matrix.
+
+M-conjugate symmetry did not cause me any computational difficulty
+when I was working with cubes without centers.  That is,
+suppose {m'(X1)mc} and {m'(X2)mc} are the same set for X1 not equal
+X2.  My "representative element calculator" would calculate the
+same representative element Y in both cases.  But in the case of
+cubes with centers, the "representative element calculator" had to
+calculate both a representative element Y and an associated rotation
+index Cind in 1..24.
+
+When a set {m'Xmc} had exactly 1152 elements (most of the time), the
+calculation of Cind was correct.  But when a set {m'Xmc} had fewer
+than 1152 elements, I would get a different Cind depending on which
+element of the set I started with.  That is, the loops in the program
+actually calculate 1152 elements in any case, but if the set really has
+less than 1152 elements, then some of the elements are generated
+multiple times.  (The loops have no way of knowing ahead of time how
+many elements are going to be in the set.)  The generation of the same
+set elements multiple times severely messed up the calculation of Cind
+until I figured out what was going on.
+
+I want to finish by getting back to what I started with, the lengths
+of cubes.  As I said, the God's algorithm results for edges without
+centers are complete (posted to the list back in December), but the
+God's algorithm calculations for edges with centers are still work
+in progress.  However, I noticed something striking about the
+partial edges with centers results when I compared them with the
+completed edges without centers results.  For example, here is a
+table which compares the results when using q-turns only.
+
+
+    Distance    Number of  Branching    Number of  Branching
+        from   M-Conjugate   Factor    M-Conjugate   Factor
+       Start     Classes                 Classes
+                Without                  With
+                Centers                 Centers
+
+           0           1                     1
+           1           1       1.00          1         1.00
+           2           5       5.00          5         5.00
+           3          25       5.00         25         5.00
+           4         215       8.60        215         8.60
+           5        1860       8.65       1886         8.77
+           6       16481       8.86      16902         8.96
+           7      144334       8.76     150442         8.90
+           8     1242992       8.61    1326326         8.81
+           9    10324847       8.31   11505339         8.67
+          10    76993295       7.46   96755918         8.40
+          11   371975385       4.83  750089528         7.75
+          12   382690120       1.03      ....
+          13     8235392       0.02      work
+          14          54       0.00       in
+          15           1       0.02    progress
+
+    Total      851625008
+
+As you can see, with or without centers, there are the same number
+of cubes (actually, equivalence classes) at each distance from
+Start from level 0 through level 4.  From level 5 on, there are more
+cubes with centers than without.  Why is the number the same
+through level 4, and what happens at level 5 to make the numbers
+different?  Actually, overall there are about twenty-four times more
+cubes with centers than without, so it is not surprising to find
+more cubes with centers than without at fairly low levels in the
+search tree.  So fundamentally, the question is, why does the
+divergence occur at level 5?
+
+Well, I can't explain why it is level 5 exactly, but I can explain
+what is going on.  Consider level 0.  There is one row in the data
+base where |{m'Xmc}|=0.  There are twenty-four cells in the same row
+for |Yc[i]|, corresponding to the twenty-four rotations of the
+representative element Y.  For exactly one of these cells, we have
+|Yc[i]|=0.  The remainder of the cells are either undefined (meaning
+the cell represents a rotation which is M-conjugate equivalent with
+another rotation), or else we have |Yc[i]|>=5.  Hence, any
+rotation of the edges of the cube requires at least 5 q-turns to
+accomplish.  After the data base is complete, we can determine
+exactly how many q-turns are required to accomplish each rotation of
+the edges, just as we can already do with the corners.
+
+Similar comments apply to level 1 through 4.  There is exactly one
+rotation of the representative element that has the same length as
+representative element.  All the other rotations of the representative
+element are either M-conjugate equivalent to the representative
+element, or else have a length greater than or equal to 5.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From jkato@tmastb.eec.toshiba.co.jp  Tue Jul  5 20:56:33 1994
+Received: from inet-tsb.toshiba.co.jp by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16890; Tue, 5 Jul 94 20:56:33 EDT
+Received: from tis2.tis.toshiba.co.jp (tis2) by inet-tsb.toshiba.co.jp (5.67+1.6W/2.8Wb)
+	id AA29268; Wed, 6 Jul 94 09:56:25 JST
+Received: from tis4.tis.toshiba.co.jp (tis4) by tis2.tis.toshiba.co.jp (5.67+1.6W/6.4J.6-R05)
+	id AA05152; Wed, 6 Jul 94 09:56:34 JST
+Received: from eecisa by tis4.tis.toshiba.co.jp (5.52/6.4J.6-R06)
+	id AA25603; Wed, 6 Jul 94 09:59:08 JST
+Received: from tmastb.eec.toshiba.co.jp by eecisa.eec.toshiba.co.jp (4.1/6.4J.6-R1)
+	id AA27918; Wed, 6 Jul 94 09:51:13 JST
+Received: by tmastb.eec.toshiba.co.jp (4.0/6.4J.6-R1)
+	id AA03691; Wed, 6 Jul 94 09:56:14 JST
+Date: Wed, 6 Jul 94 09:56:14 JST
+From: jkato@tmastb.eec.toshiba.co.jp (Toshi Kato)
+Return-Path: <jkato@tmastb.eec.toshiba.co.jp>
+Message-Id: <9407060056.AA03691@tmastb.eec.toshiba.co.jp>
+To: cube-lovers@life.ai.mit.edu
+Subject: Cube-Lovers ML
+
+I am a member of NKC(CFF) and Puzzle KONWAKAI(Academy of Recreational 
+Mathematics, Japan).
+I knew your Mailing List from Jerry's Puzzle Collectors Directory.
+I would like to join your ML.
+
+In this summer I am going to 14th International Puzzle collectors Party 
+in Seattle.
+------
+                         Thank you,
+                         Toshi(Junk) Kato
+                         2-14-60 Hishinuma, Chigasaki 253 Japan
+                         Tel/Fax: +81-467-52-1447
+                         E-mail: jkato@tmastb.eec.toshiba.co.jp
+   
+
+
+
+
+
+
+From jkato@tmastb.eec.toshiba.co.jp  Wed Jul  6 07:00:52 1994
+Received: from inet-tsb.toshiba.co.jp by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06244; Wed, 6 Jul 94 07:00:52 EDT
+Received: from tis2.tis.toshiba.co.jp (tis2) by inet-tsb.toshiba.co.jp (5.67+1.6W/2.8Wb)
+	id AA29726; Wed, 6 Jul 94 20:00:23 JST
+Received: from tis4.tis.toshiba.co.jp (tis4) by tis2.tis.toshiba.co.jp (5.67+1.6W/6.4J.6-R05)
+	id AA29247; Wed, 6 Jul 94 20:00:31 JST
+Received: from eecisa by tis4.tis.toshiba.co.jp (5.52/6.4J.6-R06)
+	id AA25259; Wed, 6 Jul 94 20:02:58 JST
+Received: from tmastb.eec.toshiba.co.jp by eecisa.eec.toshiba.co.jp (4.1/6.4J.6-R1)
+	id AA06748; Wed, 6 Jul 94 19:55:10 JST
+Received: by tmastb.eec.toshiba.co.jp (4.0/6.4J.6-R1)
+	id AA05730; Wed, 6 Jul 94 20:00:14 JST
+Date: Wed, 6 Jul 94 20:00:14 JST
+From: jkato@tmastb.eec.toshiba.co.jp (Toshi Kato)
+Return-Path: <jkato@tmastb.eec.toshiba.co.jp>
+Message-Id: <9407061100.AA05730@tmastb.eec.toshiba.co.jp>
+To: Cube-Lovers@ai.mit.edu
+Subject: SBP "Magic sQ"
+
+                                   Sliding Block Puzzle "Magic sQ"
+Fig.1 is incomplete.                      +---+---+---+
+Can you complete a magic square           | 2 | 9 | 4 | 
+with minimum sliding steps?               +---+---+---+
+                                          | 7 | 5 | 3 |
+You, very easy or not?                    +---+---+---+---+
+                                          | 1 | 6 | 8 |   |  Fig.1
+                                          +---+---+---+---+
+------
+                        Toshi(Junk) Kato from Japan
+                        E-mail: jkato@tmastb.eec.toshiba.co.jp
+                        Tel/Fax: +81-467-52-1447
+
+
+
+
+
+
+From mouse@collatz.mcrcim.mcgill.edu  Fri Jul  8 15:24:40 1994
+Return-Path: <mouse@collatz.mcrcim.mcgill.edu>
+Received: from Collatz.McRCIM.McGill.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29240; Fri, 8 Jul 94 15:24:40 EDT
+Received: (root@localhost) by 8873 on Collatz.McRCIM.McGill.EDU (8.6.8.1 Mouse 1.0) id PAA08873; Fri, 8 Jul 1994 15:24:30 -0400
+Date: Fri, 8 Jul 1994 15:24:30 -0400
+From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Message-Id: <199407081924.PAA08873@Collatz.McRCIM.McGill.EDU>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re:  SBP "Magic sQ"
+Cc: jkato@tmastb.eec.toshiba.co.jp
+
+>                                    Sliding Block Puzzle "Magic sQ"
+> Fig.1 is incomplete.                      +---+---+---+
+> Can you complete a magic square           | 2 | 9 | 4 |
+> with minimum sliding steps?               +---+---+---+
+>                                           | 7 | 5 | 3 |
+> You, very easy or not?                    +---+---+---+---+
+>                                           | 1 | 6 | 8 |   |  Fig.1
+>                                           +---+---+---+---+
+
+Not hard, but cutely deceptive.  The figure as supplied is a magic
+square with the 1 and 6 switched.  It is not possible to switch two
+adjacent tiles in a quadrilateral sliding-block puzzle of this sort
+(there's an easy induction proof that only even permutations are
+possible).  Thus, either it's not possible or the solution involves
+some other magic square.
+
+Since the 8 must clearly be in the lower right corner of the resulting
+magic square, there are only two squares possible.  One is the magic
+square that is almost present already; the other is its reflection:
+
+        2 9 4        2 7 6
+        7 5 3        9 5 1
+        6 1 8        4 3 8
+
+Fortunately, the "other" magic square is an even permutation from the
+provided start position.  It's then just a straightforward tree search
+to find a solution.  A simple brute-force "meet in the middle"
+breadth-first search finds a solution easily.  Move the 8 aside, then
+move as follows (* represents the blank space):
+
+2 9 4    2 9 4    2 9 4    2 9 4    2 9 4    2 9 4    2 9 4    2 9 4
+7 5 3 -> 7 5 3 -> 7 5 3 -> * 5 3 -> 5 * 3 -> 5 3 * -> 5 3 6 -> 5 3 6 ->
+1 6 *    1 * 6    * 1 6    7 1 6    7 1 6    7 1 6    7 1 *    7 * 1
+                                                    +-------+
+2 9 4    2 * 4    2 4 *    2 4 6    2 4 6    2 4 6  | 2 4 6 |  2 4 6
+5 * 6 -> 5 9 6 -> 5 9 6 -> 5 9 * -> 5 9 1 -> 5 9 1 -> 5 9 1 -> * 9 1 ->
+7 3 1    7 3 1    7 3 1    7 3 1    7 3 *    7 * 3  | * 7 3 |  5 7 3
+                                                    +-------+
+2 4 6    2 * 6    * 2 6    9 2 6    9 2 6    9 2 6    9 2 6    9 2 6
+9 * 1 -> 9 4 1 -> 9 4 1 -> * 4 1 -> 4 * 1 -> 4 7 1 -> 4 7 1 -> * 7 1 ->
+5 7 3    5 7 3    5 7 3    5 7 3    5 7 3    5 * 3    * 5 3    4 5 3
+
+* 2 6    2 * 6    2 7 6    2 7 6    2 7 6
+9 7 1 -> 9 7 1 -> 9 * 1 -> 9 5 1 -> 9 5 1
+4 5 3    4 5 3    4 5 3    4 * 3    4 3 *
+
+Then put the 8 back, and you're done, in a total of 30 moves (28 shown,
+plus the two moves of the 8).  For those who care about such things,
+the boxed position is the midpoint at which the two searches met.
+(This is fairly obvious - since the number of moves is even, the
+configuration on which the searches met must be the middle one.)
+
+This solution exhibits curious near-symmetries in portions of the path
+taken by the blank space.  Anyone have any thoughts on this?  Perhaps I
+should modify the program so it reports _all_ solutions of this length;
+there may be something interesting lurking here.
+
+					der Mouse
+
+			    mouse@collatz.mcrcim.mcgill.edu
+
+From jkato@tmastb.eec.toshiba.co.jp  Mon Jul 11 00:08:01 1994
+Received: from inet-tsb.toshiba.co.jp by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12507; Mon, 11 Jul 94 00:08:01 EDT
+Received: from tis2.tis.toshiba.co.jp (tis2) by inet-tsb.toshiba.co.jp (5.67+1.6W/2.8Wb)
+	id AA17248; Mon, 11 Jul 94 13:07:26 JST
+Received: from tis4.tis.toshiba.co.jp (tis4) by tis2.tis.toshiba.co.jp (5.67+1.6W/6.4J.6-R05)
+	id AA14931; Mon, 11 Jul 94 13:07:34 JST
+Received: from eecisa by tis4.tis.toshiba.co.jp (5.52/6.4J.6-R06)
+	id AA00693; Mon, 11 Jul 94 13:11:28 JST
+Received: from tmastb.eec.toshiba.co.jp by eecisa.eec.toshiba.co.jp (4.1/6.4J.6-R1)
+	id AA22006; Mon, 11 Jul 94 13:01:23 JST
+Received: by tmastb.eec.toshiba.co.jp (4.0/6.4J.6-R1)
+	id AA17550; Mon, 11 Jul 94 13:06:53 JST
+Date: Mon, 11 Jul 94 13:06:53 JST
+From: jkato@tmastb.eec.toshiba.co.jp (Toshi Kato)
+Return-Path: <jkato@tmastb.eec.toshiba.co.jp>
+Message-Id: <9407110406.AA17550@tmastb.eec.toshiba.co.jp>
+To: mouse@collatz.mcrcim.mcgill.edu
+Cc: Cube-Lovers@ai.mit.edu
+In-Reply-To: der Mouse's message of Fri, 8 Jul 1994 15:24:30 -0400 <199407081924.PAA08873@Collatz.McRCIM.McGill.EDU>
+Subject: Re: SBP "Magic sQ"
+
+Many thanks. 
+Especially to Dan Hoey and der Mouse <mouse@Collatz.McRCIM.McGill.EDU>.
+
+I have recieved E-mail individually from Mr.Dan Hoey too,
+ 
+  Date: Thu, 7 Jul 94 16:43:02 EDT
+  From: hoey@AIC.NRL.Navy.Mil
+  To: jkato@tmastb.eec.toshiba.co.jp (Toshi Kato)
+  Subject: Re: SBP "Magic sQ"
+
+  A little hack tells me you can solve that by moving
+  1,7,3,6,1,9,4,1,7,5,9,4,2,9,4,7,5,9,2,5,8.  That's 21 moves, or 30 if
+  you count by the tile.  It's optimal in both metrics.
+
+  Do you know anything about Rubik's Cube?
+
+  Dan Hoey
+  Hoey@AIC.NRL.Navy.Mil
+
+I was surprised to recieve solutions both so quickly.
+Cubes-Lover is very smart team,　I think.
+
+Thanks again,
+Junk Kato
+jkato@tmastb.eec.toshiba.co.jp
+
+
+
+From @mail.uunet.ca:mark.longridge@canrem.com  Fri Jul 15 03:19:03 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25039; Fri, 15 Jul 94 03:19:03 EDT
+Received: by mail.uunet.ca via suspension id <91049-1>; Fri, 15 Jul 1994 03:02:49 -0400
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <92031-3>; Fri, 15 Jul 1994 02:30:57 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA02807; Fri, 15 Jul 94 01:45:11 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1A658F; Fri, 15 Jul 94 01:40:47 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: DOTC 1.4 is done
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.770.5834.0C1A658F@canrem.com>
+Date: Fri, 15 Jul 1994 01:32:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+        Domain of the Cube 1.4 is finally done!
+        ---------------------------------------
+
+   I've finally finished the new issue of the DOTC newsletter, and I'm
+basically happy with it. I believe I owe my fellow cubists an apology
+for taking so long, especially Greg Schmidt and Dan Hoey.
+
+ I've enjoyed using the cube since 1981 and I wish I had more time and
+energy to put into it. I was also rather ill earlier this year, and
+things at work seemed to always interrupt. Nevertheless, the first
+20 copies are finally ready to mail. Despite the fact these initial
+copies are slightly flawed I am no longer willing to wait. This time
+the issues have beige covers and are stapled like a booklet, much
+the same as David Singmaster's Cubic Circular.
+
+   I'm pleased with the printer's results, and I am mailing out the
+first issues tomorrow. I have considerable work done on issue 1.5
+and I expect the next issue to be ready relatively soon.
+
+ - Mark
+
+New Technique for Pattern Finding:
+
+Cycle a process until you find the identity, e.g. (F1 B1 R1 D1)^24 = I
+ then bisect the process if the order is even,
+   ( F1 B1 R1 D1 ) ^ 12 = Pattern, naturally this process is order 2.
+
+---------------------------------------------------------------------
+
+Hmmmm, actually I have some questions that have been bugging me for
+some time. I while back a guy was watching me use my cube program
+and I explained that the reason I like studying group theory is
+because it provided greater insights into the cube. He then asked
+me:  "What are other uses of group theory?" and "What are the
+practical uses of group theory" to which I haltingly replied (somewhat
+vaguely) that it helped show relationships between geometry and
+algebra. I felt this explanation unsatisfactory. I also mumbled
+about symmetry and architecture. I'm sure there is a better
+answer than that!
+
+Also why is it in math that  |-11| means absolute value and can also
+be the order of G, e.g. Let G be a Group, and |G| means the order
+of G.
+
+Here is another tidbit for the cube archives:
+
+Rare 11-cycle of edges: ( L2 B1 R1 D3 L3 ) ^ 7   (35)
+alternately:  F2 R3 U1 D3 B3 D1 L3 U3 D1 B1 L1 D1 B2 U2 D2 R2 B2 D1 (18)
+
+
+-> Mark <-
+
+From jkato@tmastb.eec.toshiba.co.jp  Mon Jul 18 06:11:51 1994
+Received: from inet-tsb.toshiba.co.jp by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17123; Mon, 18 Jul 94 06:11:51 EDT
+Received: from tis2.tis.toshiba.co.jp (tis2) by inet-tsb.toshiba.co.jp (5.67+1.6W/2.8Wb)
+	id AA04049; Mon, 18 Jul 94 19:11:40 JST
+Received: from tis4.tis.toshiba.co.jp (tis4) by tis2.tis.toshiba.co.jp (5.67+1.6W/6.4J.6-R05)
+	id AA09681; Mon, 18 Jul 94 19:11:50 JST
+Received: from eecisa by tis4.tis.toshiba.co.jp (5.52/6.4J.6-R06)
+	id AA02578; Mon, 18 Jul 94 19:15:59 JST
+Received: from tmastb.eec.toshiba.co.jp by eecisa.eec.toshiba.co.jp (4.1/6.4J.6-R1)
+	id AA17013; Mon, 18 Jul 94 19:05:14 JST
+Received: by tmastb.eec.toshiba.co.jp (4.0/6.4J.6-R1)
+	id AA16075; Mon, 18 Jul 94 19:11:24 JST
+Date: Mon, 18 Jul 94 19:11:24 JST
+From: jkato@tmastb.eec.toshiba.co.jp (Toshi Kato)
+Return-Path: <jkato@tmastb.eec.toshiba.co.jp>
+Message-Id: <9407181011.AA16075@tmastb.eec.toshiba.co.jp>
+To: Cube-Lovers@ai.mit.edu
+Subject: A real robot solve the Rubik's Cube but...
+
+A real robot which had artificial eyes and arms and computer brain was 
+manufactured at Kawasaki Heavy Industry Co.,Ltd in Japan last year. 
+He can solve the real commercial Rubik's Cube.
+
+As he has not so intelligent, it takes about 12 minutes and 120 steps
+average between starting and finishing the Cube to solve it.
+
+Are there any other live robot like him over the world?  Do you know?
+
+And you can help him more clever with your solving algolithm, can't you?
+------
+                        Toshi(Junk) Kato from Japan
+                        E-mail: jkato@tmastb.eec.toshiba.co.jp
+                        Tel/Fax: +81-467-52-1447
+
+
+
+
+
+
+
+
+
+From @wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU  Mon Jul 18 10:44:30 1994
+Return-Path: <@wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25760; Mon, 18 Jul 94 10:44:30 EDT
+Message-Id: <9407181444.AA25760@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 6338; Mon, 18 Jul 94 10:41:50 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 7644; Mon, 18 Jul 1994 10:41:50 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Mon, 18 Jul 1994 10:41:49 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   God's Algorithm, Additional Level
+
+The following is for Q-turns only, whole cubes (both corners and
+edges), and not considering M-conjugates.  I think it would be
+possible to squeeze out another couple of levels by considering
+M-conjugates.  The best previous result I have found in the
+archives was through level 7 (reported on 7 December 1981, and again
+on 3 August 1992).
+
+            Distance              Number     Branching
+              from                  of         Factor
+             Start                Cubes
+
+
+                 0                      1
+                 1                     12     12.00
+                 2                    114      9.50
+                 3                  1,068      9.37
+                 4                 10,011      9.37
+                 5                 93,840      9.37
+                 6                878,880      9.37
+                 7              8,221,632      9.35
+                 8             76,843,595      9.35   (new)
+
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From newfield@vsl.ist.ucf.edu  Mon Jul 18 11:56:37 1994
+Return-Path: <newfield@vsl.ist.ucf.edu>
+Received: from vsl.ist.ucf.edu (sparc1.vsl.ist.ucf.edu) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00687; Mon, 18 Jul 94 11:56:37 EDT
+Received: from flix.vsl.ist.ucf.edu by vsl.ist.ucf.edu (4.1/SMI-4.1)
+	id AA24280; Mon, 18 Jul 94 11:53:21 EDT
+From: newfield@vsl.ist.ucf.edu (Dale Newfield)
+Received: by flix.vsl.ist.ucf.edu (931110.SGI) id AA03650; Mon, 18 Jul 94 11:53:16 -0400
+Date: Mon, 18 Jul 94 11:53:16 -0400
+Message-Id: <9407181553.AA03650@flix.vsl.ist.ucf.edu>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: A reaal robot solve the Rubik's Cube but...
+
+
+Sorry to pick nits, but if it is autonomous(sp?), which I think you implied,
+wouldn't it be an android, instead of a robot?
+-Dale
+
+Dale Newfield							   I'd rather
+newfield@vsl.ist.ucf.edu					   be playing
+dn1l@{cs,andrew}.cmu.edu					       xlife.
+
+
+From jkato@tmastb.eec.toshiba.co.jp  Mon Jul 18 22:40:44 1994
+Received: from inet-tsb.toshiba.co.jp by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03334; Mon, 18 Jul 94 22:40:44 EDT
+Received: from tis2.tis.toshiba.co.jp (tis2) by inet-tsb.toshiba.co.jp (5.67+1.6W/2.8Wb)
+	id AA06478; Tue, 19 Jul 94 11:40:33 JST
+Received: from tis4.tis.toshiba.co.jp (tis4) by tis2.tis.toshiba.co.jp (5.67+1.6W/6.4J.6-R05)
+	id AA20180; Tue, 19 Jul 94 11:40:43 JST
+Received: from eecisa by tis4.tis.toshiba.co.jp (5.52/6.4J.6-R06)
+	id AA20317; Tue, 19 Jul 94 11:44:58 JST
+Received: from tmastb.eec.toshiba.co.jp by eecisa.eec.toshiba.co.jp (4.1/6.4J.6-R1)
+	id AA03398; Tue, 19 Jul 94 11:34:01 JST
+Received: by tmastb.eec.toshiba.co.jp (4.0/6.4J.6-R1)
+	id AA17895; Tue, 19 Jul 94 11:40:15 JST
+Date: Tue, 19 Jul 94 11:40:15 JST
+From: jkato@tmastb.eec.toshiba.co.jp (Toshi Kato)
+Return-Path: <jkato@tmastb.eec.toshiba.co.jp>
+Message-Id: <9407190240.AA17895@tmastb.eec.toshiba.co.jp>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: A real robot solve the Rubik's Cube but...
+
+Dale Newfield said:
+ <Sorry to pick nits, but if it is autonomous(sp?), which I think you implied,
+ <wouldn't it be an android, instead of a robot?
+
+Pardon me. I wonder if I shoudn't use such words "real" and "live". 
+-----
+                                  Toshi(Junk) Kato
+                                  jkato@tmastb.eec.toshiba.co.jp
+
+
+
+
+
+
+
+
+From diamond@jrdv04.enet.dec.com  Mon Jul 18 23:11:47 1994
+Return-Path: <diamond@jrdv04.enet.dec.com>
+Received: from inet-gw-2.pa.dec.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05611; Mon, 18 Jul 94 23:11:47 EDT
+Received: from jrdmax.jrd.dec.com by inet-gw-2.pa.dec.com (5.65/27May94)
+	id AA18406; Mon, 18 Jul 94 20:08:17 -0700
+Message-Id: <9407190307.AA21918@jrdmax.jrd.dec.com>
+Received: from jrdv04.enet.dec.com by jrdmax.jrd.dec.com (5.65/JULT-4.3)
+	id AA21918; Tue, 19 Jul 94 12:07:47 +0900
+Received: from jrdv04.enet.dec.com; by jrdmax.enet.dec.com; Tue, 19 Jul 94 12:07:53 +0900
+Date: Tue, 19 Jul 94 12:07:53 +0900
+From: Norman Diamond  19-Jul-1994 1206 <diamond@jrdv04.enet.dec.com>
+To: cube-lovers@ai.mit.edu
+Apparently-To: cube-lovers@ai.mit.edu
+Subject: Re: A real robot solve the Rubik's Cube but...
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+Toshi Kato says:
+
+>Dale Newfield said:
+> <Sorry to pick nits, but if it is autonomous(sp?), which I think you implied,
+> <wouldn't it be an android, instead of a robot?
+>
+>Pardon me. I wonder if I shoudn't use such words "real" and "live".
+
+Half right.  It was a real dead robot :-)
+
+-- Norman Diamond       diamond@jrdv04.enet.dec.com
+[Digital did not write this.]
+
+From jkato@tmastb.eec.toshiba.co.jp  Tue Jul 19 00:24:58 1994
+Received: from inet-tsb.toshiba.co.jp by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA13058; Tue, 19 Jul 94 00:24:58 EDT
+Received: from tis2.tis.toshiba.co.jp (tis2) by inet-tsb.toshiba.co.jp (5.67+1.6W/2.8Wb)
+	id AA12852; Tue, 19 Jul 94 13:24:54 JST
+Received: from tis4.tis.toshiba.co.jp (tis4) by tis2.tis.toshiba.co.jp (5.67+1.6W/6.4J.6-R05)
+	id AA29994; Tue, 19 Jul 94 13:25:04 JST
+Received: from eecisa by tis4.tis.toshiba.co.jp (5.52/6.4J.6-R06)
+	id AA24830; Tue, 19 Jul 94 13:29:20 JST
+Received: from tmastb.eec.toshiba.co.jp by eecisa.eec.toshiba.co.jp (4.1/6.4J.6-R1)
+	id AA04886; Tue, 19 Jul 94 13:18:24 JST
+Received: by tmastb.eec.toshiba.co.jp (4.0/6.4J.6-R1)
+	id AA18202; Tue, 19 Jul 94 13:24:38 JST
+Date: Tue, 19 Jul 94 13:24:38 JST
+From: jkato@tmastb.eec.toshiba.co.jp (Toshi Kato)
+Return-Path: <jkato@tmastb.eec.toshiba.co.jp>
+Message-Id: <9407190424.AA18202@tmastb.eec.toshiba.co.jp>
+To: cube-lovers@ai.mit.edu
+Subject: Re: A real robot solve the Rubik's Cube but...
+
+Norman Diamond　said:
+> >Pardon me. I wonder if I shouldn't use such words "real" and "live".
+>
+>Half right.  It was a real dead robot :-)
+
+Thanx. I think the robotic machine isn't alive now too. 
+-----
+                                 Toshi(Junk) Kato
+                                 E-mail:jkato@tmastb.eec.toshiba.co.jp
+
+
+
+
+From @wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU  Tue Jul 19 10:55:43 1994
+Return-Path: <@wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00780; Tue, 19 Jul 94 10:55:43 EDT
+Message-Id: <9407191455.AA00780@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 9928; Tue, 19 Jul 94 08:56:30 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 8616; Tue, 19 Jul 1994 08:56:30 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Tue, 19 Jul 1994 08:56:28 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   More on Centerless Cubes
+
+On 13 Feb 1994, I proposed a model for centerless cubes which
+I claimed met two criteria:  1) it was a group, and 2) it
+maintained the symmetrical nature of the problem.  On
+23 May 1994, I retracted the claim that the proposed model
+was a group.
+
+I am now of the opinion that it is impossible to satisfy
+both criteria simultaneously.  I can make a very small modification
+to the proposed model to make it a group, but the small
+modification costs the model its cubic symmetry.
+
+G is the full cube group, GC is the corners only cube group,
+and GE is the edges only cube group.  The proposed model
+for centerless cubes consisted of partitioning any of G,
+GC, or GE into sets of the form {Xc} for all c in C, where
+C is the set of twenty-four rotations of the cube and X is
+a cube.  The sets are the elements of the proposed group.
+The sets are called cosets and can also be denoted as
+xC.  The partitions are denoted as G/C, GC/C, and GE/C,
+respectively.
+
+Originally, the proposed group operator was {Xc} * {Yc} = {XYc}.
+This operator fails to maintain closure, and hence fails to
+define a group.
+
+In order to illustrate the slight modification which will define
+a group, we will start by restricting ourselves to GC.  An
+operator which works to define GC/C as a group is
+{Xc} * {Yc} = {VWc}, where V is the unique element of {Xc} such
+that the urf cubie is properly positioned in the urf cubicle,
+and W is the unique element of {Yc} such that the urf cubie is
+properly positioned in the urf cubicle.
+
+Any other corner could have been used instead of urf, but once
+you choose a corner the problem loses its symmetric nature.
+Well, I guess it still has symmetry, but it is not the uniform
+symmetry of the cube any more, because there is a preferred
+orientation.
+
+I have found only limited discussion in the archives, but
+previous investigators have modeled a corners only, centerless
+cube by leaving one corner fixed.  Such a model is clearly
+a group.  For example, if we leave the urf corner fixed,
+we can generate the group JC as JC=<L,L',D,D',B,B'>, where
+we omit all twists of the U, R, and F faces from the set
+of generators.
+
+It is easy to find an isomorphism between GC/C and JC.  I would
+express it as something like {Xc} = {Wc} <--> W, where W is
+defined as before.  W is an element of JC, and as well is an
+element of {Xc} = {Wc}.  {Xc} = {Wc} is an element of GC/C.
+But W is a particular element of {Xc} = {Wc}, whereas X is
+an arbitrary element.  Also, X is in GC, but X is not in JC
+unless X = W.  The mapping {Wc} <--> W is clearly one-to-one and
+onto in both directions.
+
+For the edges GE, we need to keep one edge cubie fixed, so the
+centerless cube could be generated by something like
+JE=<D,D',L,L',R,R',B,B'>, where we keep the uf cubie fixed by
+omitting all twists of the U and F faces from the set of
+generators.  The isomorphism between GE/C and JE is expressed
+as {Xc} = {Wc} <--> W, where X is an arbitrary element of
+GE, and W is the unique element of {Xc} such that the uf
+cube is properly placed in the uf cubicle.  As before, any
+edge cube would do as well, but once chosen, it is no longer
+arbitrary.
+
+For the whole cube G, at first blush it appears we could model
+centerless cubes either by keeping a corner cubie fixed, or by
+keeping an edge cubie fixed.  But if we keep a corner cubie
+fixed, the three immediately adjacent edge cubies are never moved
+by any Q-turns.  We could solve the difficulty by admitting
+slice turns.  But slice quarter-turns are odd on edges and
+even on corners, so we have to restrict ourselves to slice
+half-turns.  I find this ugly, plus I would prefer to generate
+G with Q-turns only.  Hence, I would prefer to model a
+centerless full cube as J=<D,D',L,L',R,R',B,B'>, where it
+is an edge cubie which is held fixed rather than a corner cubie.
+
+I said at the beginning that I thought it was impossible for a
+model of centerless cubes both to be a group and also to
+maintain cubic symmetry.  The reason is as follows:  it seems
+to me that for any model which is a group, it should be
+possible to find an isomorphism between the model and
+J (or JC or JE, as appropriate).  But J and JC and JE
+do not have cubic symmetry because there is a preferred
+orientation.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From @wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU  Tue Jul 19 19:09:07 1994
+Return-Path: <@wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00316; Tue, 19 Jul 94 19:09:07 EDT
+Message-Id: <9407192309.AA00316@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 0827; Tue, 19 Jul 94 11:43:12 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 3312; Tue, 19 Jul 1994 11:43:12 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Tue, 19 Jul 1994 11:43:11 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   God's Algorithm, Minor Progress, Q+H
+
+Surprisingly, there seems not to be anything in the archives for
+God's Algorithm for Q+H moves for the whole cube past level 3.
+Here are some updated results:
+
+                Distance           Number     Branching
+                 from                 of       Factor
+                Start               Cubes
+
+                   0                    1
+                   1                   18     18.000
+                   2                  243     13.500
+                   3                3,240     13.333
+                   4               43,239     13.345  (new)
+                   5              574,908     13.296  (new)
+                   6            7,618,438     13.252  (new)
+                   7          100,803,036     13.231  (new)
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From jkato@tmastb.eec.toshiba.co.jp  Sun Aug  7 22:18:28 1994
+Received: from inet-tsb.toshiba.co.jp by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23184; Sun, 7 Aug 94 22:18:28 EDT
+Received: from tis2.tis.toshiba.co.jp (tis2) by inet-tsb.toshiba.co.jp (5.67+1.6W/2.8Wb)
+	id AA20727; Mon, 8 Aug 94 11:18:23 JST
+Received: from tis4.tis.toshiba.co.jp (tis4) by tis2.tis.toshiba.co.jp (5.67+1.6W/6.4J.6-R05)
+	id AA23581; Mon, 8 Aug 94 11:18:31 JST
+Received: from eecisa by tis4.tis.toshiba.co.jp (5.52/6.4J.6-R06)
+	id AA21120; Mon, 8 Aug 94 11:16:30 JST
+Received: from tmastb.eec.toshiba.co.jp by eecisa.eec.toshiba.co.jp (4.1/6.4J.6-R1)
+	id AA26984; Fri, 5 Aug 94 19:29:39 JST
+Received: by tmastb.eec.toshiba.co.jp (4.0/6.4J.6-R1)
+	id AA03406; Fri, 5 Aug 94 19:30:13 JST
+Date: Fri, 5 Aug 94 19:30:13 JST
+From: jkato@tmastb.eec.toshiba.co.jp (Toshi Kato)
+Return-Path: <jkato@tmastb.eec.toshiba.co.jp>
+Message-Id: <9408051030.AA03406@tmastb.eec.toshiba.co.jp>
+To: Cube-Lovers@ai.mit.edu
+Subject: HIKIMI Wooden Puzzle Competition
+
+	To promote puzzles throughout the world
+	and to convey the warmth of wood to as many people as possible
+ THE 6th HIKIMI WOODEN PUZZLE COMPETITION
+	will be held in October 1994.
+	We invite puzzlers from around the world to enter.
+
+ APPLICATION GUIDE
+ 1.Conditions
+  1)Puzzle must be made of wood
+  2)Puzzle must be original
+  3)Puzzle has never been sold commercially
+  4)Puzzle can be easily mass produced
+  5)Do not submit puzzles that emphasize artistic design
+  6)Puzzle may have two or more inventors
+  7)Entry with more than one puzzle permitted
+ 
+ 2.Points for consideration
+  1)Entry into the competition is free of charge, but each contestant must bear
+    the expense for the sending the puzzle to Hikimi.
+  2)We may request to purchase the puzzle within the constraints of our budget.
+  3)Copyright of the puzzles entered belongs to the inventor, but  
+    Hikimi Chamber of Commerce reserves the right to first negotiation.
+  4)Deadline: Puzzle and application must be received by October 14,1994.
+
+ 3.For an application form, write to:
+
+   Hikimi-cho Shokokai,Hikimi-cho,Mino-gun,Shimane Prefecture 698-12 Japan
+ 
+    Applications in Japanese are prefered. However, since this may be a 
+   difficult requirement for non-Japanese entrants, you may send your 
+   application in English.
+
+ 4.Judging
+   Judging will be held sometime during October,1994. All applicants will be
+  notified directly of the results. The commendation ceremony will be held on
+  November 12,1994 in Hikimi Town.
+
+ 5.Judges
+   Chief Judge: Saburo Oguro
+   Judge      : Nob Yoshigahara
+   Judge      : Shigeo Takagi
+   Judge      : A. Yamashita
+   Judge      : T. Ohhata
+
+ 6.Prizes
+   Grand Prize (one person): \500,000(about 5,000 US$)
+   2nd Prize  (two persons): \300,000(about 3,000 US$)each
+   3rd Prize(three persons): \100,000(about 1,000 US$)each
+   Runner-ups  (several)   : \ 50,000(about   500 US$)each
+
+ Sponsored by: Hikimicho Shokokai(Hikimi Chamber of Commerce)
+                Tel:+81-856-56-0310  Fax:+81-856-56-0753
+
+APPLICATION FORM FOR THE 6TH HIKIMI WOODEN PUZZLE COMPETITION
+                                                            Date:
++--------------------------------------+--------------------------------------+
+|Applicant's name:              Age(  )|Co-inventors of puzzle                |
+|                                      |       Name         Age   Occupation  |
++--------------------------------------+-------------------+---+--------------+
+|Address:                              |                   |   |              |
+|                                      |                   |   |              |
+|Tel:                Fax:              |                   |   |              |
+|Occupation:                           |                   |   |              |
++--------------------------------------+-------------------+---+--------------+
+|Name of company where you're employed:|Rating by Judges                     *|
+|                                      +--------------------------------------+
+|Address:                              |Application number                   *|
+|                                      +--------------------------------------+
+|Tel:                Fax:              |Remarks                              *|
++--------------------------------------+                                      |
+|Name of puzzle:                       |                                      |
+|                                      |                                      |
+|Number of pieces in the puzzle:       |                                      |
++--------------------------------------+--------------------------------------+
+|Object of puzzle:                     |Solution:                             |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
++--------------------------------------+                                      |
+|Applicant's comments on the puzzle:   |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+[Note] 1)Please type or write in English block letters. For multiple entries, 
+make copies of this form and submit a separate one for each puzzle entered.
+2)If there are any co-inventors of the puzzle entered, be sure to write each
+of their names. 3)Do not write in spaces marked(*).
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From ybanezs%geds@mhsgate.salem.ge.com  Tue Aug  9 11:18:04 1994
+Return-Path: <ybanezs%geds@mhsgate.salem.ge.com>
+Received: from ns.ge.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20205; Tue, 9 Aug 94 11:18:04 EDT
+Received: from thomas.ge.com by ns.ge.com (5.65/GE Gateway 1.24) with SMTP id AA16388; Tue, 9 Aug 94 09:34:14 -0400
+Received: from carsdb.salem.ge.com by thomas.ge.com (5.65/GE Internal Gateway 1.25) with SMTP id AA28765; Tue, 9 Aug 94 09:48:53 -0400
+Received: from mhsgate.salem.ge.com by salem.ge.com (4.1/SMI-4.1)id AA11424; Tue, 9 Aug 94 09:42:46 EDT
+Received: by mhsgate.salem.ge.com from NetWare MHS, SMF-70via XGATE 2.12 MHS to SMTP Gateway (XSMTP Module)
+Message-Id: <617E8B380105AED1@mhsgate.salem.ge.com>
+Date: Tue, 9 Aug 94 09:42:55 EST
+From: Ybanez Sheldon <ybanezs%geds@mhsgate.salem.ge.com>
+To: cube-lovers@ai.mit.edu
+Subject: Cube Availability?
+Return-Receipt-To: <ybanezs%geds@mhsgate.salem.ge.com>
+X-Mailer: XGATE 2.12 MHS/SMTP Gateway
+
+
+Fellow Cubers:
+
+Does anyone know if the original 3x3 Rubik's Cube is still available?  My 
+cube finally fell apart without any hope of repairing....  I still have 
+my 'Revenge (which is also not too far from its last days) but I would 
+still like to be able to play with the original... and keep my fingers 
+nimble....  If the original cube is still available could you please post 
+an address or something so that I can try to acquire one....
+
+thanks,
+                                                         ,,,
+______________________________________________________  (o o)  _________
++----------------------------------------------------ooO-(_)-Ooo-------+
+| Sheldon Ybanez  [ybanez-s@salem.ge.com]  GE Drive Systems  Salem, VA |
+|     Always "Remember. No matter where you go, there you are." 88     |
++======================================================================+
+
+
+
+From @mail.uunet.ca:mark.longridge@canrem.com  Tue Aug  9 15:17:23 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca ([142.77.1.1]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02832; Tue, 9 Aug 94 15:17:23 EDT
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <86930-4>; Tue, 9 Aug 1994 15:17:13 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA15464; Tue, 9 Aug 94 15:14:38 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1A9A39; Tue,  9 Aug 94 13:57:35 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: < U, R> Group
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.783.5834.0C1A9A39@canrem.com>
+Date: Tue, 9 Aug 1994 01:48:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+Well I decided to pull a "Jerry Byran" and take another look at
+ some cube results, plus take a look at some new groups.
+
+
+        Analysis of the 3x3x3 squares group
+        -----------------------------------
+
+                  (h only)      branching
+Moves Deep       arrangements    factor      loc max (h only)
+
+  0                    1           --             0
+  1                    6           6              0
+  2                   27           4.5            0
+  3                  120           4.444          0
+  4                  519           4.325          0
+  5                1,932           3.722          0
+  6                6,484           3.356          1  (6 X pattern)
+  7               20,310           3.132          0
+  8               55,034           2.709         65
+  9              113,892           2.069      1,482
+ 10              178,495           1.567      7,379
+ 11              179,196           1.004     25,980
+ 12               89,728           0.501     50,320
+ 13               16,176           0.180     11,328
+ 14                1,488           0.092        912
+ 15                  144           0.096        144
+                 -------                     ------
+                 663,552                     97,611
+
+        Analysis of the 3x3x3 <U, R> group
+        ----------------------------------
+
+                                          branching
+Moves Deep       arrangements (q only)     factor
+
+  0                    1                      --
+  1                    4                       4
+  2                   10                       2.5
+  3                   24                       2.4
+  4                   58                       2.416
+  5                  140                       2.413
+  6                  338                       2.414
+  7                  816                       2.414
+  8                1,970                       2.414
+ program starts to really bog down after this...
+
+  I leave it to Jerry or Dan to check my results. I checked up to 2
+moves deep by hand and verified 10 different positions. What I don't
+understand is how Jerry manages to look at so many cube positions:
+
+On full 3x3x3 cube,   7     100,803,036     13.231  (new)
+
+  Using 10 bytes to store a single cube position would still
+need over 1 billion bytes, or am I missing something?
+
+  I also used GAP (quite a good program) to calculate the size of
+  < U1, R1 > on the magic dodecahedron: 7,999,675,084,800.
+
+  Once again, I welcome any verification.
+
+  -> Mark <-
+
+From BRYAN@wvnvm.wvnet.edu  Wed Aug 10 08:38:50 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15904; Wed, 10 Aug 94 08:38:50 EDT
+Message-Id: <9408101238.AA15904@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1777; Tue, 09 Aug 94 23:18:07 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 0972; Tue, 9 Aug 1994 23:18:07 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Tue, 9 Aug 1994 23:18:06 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <Cube-Lovers@ai.mit.edu>
+Subject:   Re: < U, R> Group
+In-Reply-To: Message of 08/09/94 at 01:48:00 from mark.longridge@canrem.com
+
+On 08/09/94 at 01:48:00 mark.longridge@canrem.com said:
+
+>  I leave it to Jerry or Dan to check my results. I checked up to 2
+>moves deep by hand and verified 10 different positions. What I don't
+>understand is how Jerry manages to look at so many cube positions:
+
+>On full 3x3x3 cube,   7     100,803,036     13.231  (new)
+
+>  Using 10 bytes to store a single cube position would still
+>need over 1 billion bytes, or am I missing something?
+
+Well, when I deal with the big problems I want to solve to the
+bitter end, I use the M-conjugate and centerless cube tricks
+I have described at much too great length in the past.  This one
+is a quick and dirty program using no conjugate tricks.  The
+only real "trick" is that I externalize the data.  I decided
+long ago that the problems I wanted to solve were too big to
+keep in memory.  Hence, I keep everything in simple (but large)
+flat files and sort and merge the files like crazy.  In this quick
+and dirty program, the cube itself is 13 bytes and the level is
+1 byte, for a total of 14 bytes per cube.  I guess that makes
+the file size about 1.4 gigabytes (10^9).  I am
+leery of using the word "billion" on E-mail forums because
+E-mail is international and "billion" means 10^12 in some
+countries.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From BRYAN@wvnvm.wvnet.edu  Sat Aug 13 17:17:43 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00262; Sat, 13 Aug 94 17:17:43 EDT
+Message-Id: <9408132117.AA00262@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 0294; Sat, 13 Aug 94 17:14:54 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 2921; Sat, 13 Aug 1994 17:14:54 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sat, 13 Aug 1994 17:14:53 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   GC Local Maxima, Additional Information
+
+In all my God's algorithm searches, I have never calculated local
+maxima.  My search technique and data representation do not lend
+themselves very well to calculating local maxima.  However, I thought
+I would give it a try anyway.  I decided to start by calculating local
+maxima for GC, the corners only group, since local maxima for this group
+have been calculated before and I could check my answers.  I have
+come up with some surprising results.
+
+For a given cube X, there are twelve (not necessarily distinct)
+neighbors of the form Xq, where q is in Q, the set of twelve
+quarter turns.  Each Xq is either one move closer to Start or one
+move further from Start than X.  I decided to determine for each cube
+X, how many of the Xq were closer to Start and how many were further
+from Start.  This is a superset of the local maxima problem.  Those
+X for which I determine that all twelve of the Xq are closer to Start
+are the local maxima, but I also determine for how many of the X
+there are eleven neighbors Xq closer to Start, for how many of the X
+there are ten neighbors Xq closer to Start, etc.  This is where the
+surprising results come in.
+
+The following table summarizes the results.  The table is a little hard
+to read.  The rows (from 0 to 14) are the distances from Start.  The
+columns (from 0 to 12) are the number of qturns which take you closer
+to Start.  For example, row 4 column 3 contains 480.  This means that
+there 480 cubes that are 4 moves from Start and for which 3 of the 12
+qturns will take you closer to Start.  The table is too wide for a
+computer screen, so I split it.  Columns 0 through 6 appear first, and
+then columns 7 through 12 are below.
+
+Column 12 represents the local maxima.  The "Total" column is simply
+the total number of cubes at each level. The "Total" column and the
+local maxima column appear several times in the archives, and my
+numbers match the archives.  The first occurrence I have found is
+Dan Hoey's note of 20 August 1984.
+
+                             Number of Twists which Go Towards Start
+
+     Level    Total  0      1        2     3        4     5        6
+              Cubes
+
+        0         1  1      0        0     0        0     0        0
+        1        12  0     12        0     0        0     0        0
+        2       114  0     96       18     0        0     0        0
+        3       924  0    672      192    60        0     0        0
+        4      6539  0   4032     1920   480       51     0       56
+        5     39528  0  19104    14904  3792      984   216      384
+        6    199926  0  71184    90984 16656    13212  1872     3936
+        7    806136  0 123360   478008 42768   117576  7824    16656
+        8   2761740  0  23328  1911312  9024   643536  2736   121872
+        9   8656152  0      0  5573376     0  2327616     0   558336
+       10  22334112  0      0 11167488     0  7057440     0  2818176
+       11  32420448  0      0  4661568     0  8314272     0  8893248
+       12  18780864  0      0    19008     0   123840     0   591744
+       13   2166720  0      0        0     0        0     0        0
+       14      6624  0      0        0     0        0     0        0
+
+     Total 88179840  1 241788 23918778 72780 18598527 12648 13004408
+
+
+                            7        8     9       10    11       12
+
+        0                   0        0     0        0     0        0
+        1                   0        0     0        0     0        0
+        2                   0        0     0        0     0        0
+        3                   0        0     0        0     0        0
+        4                   0        0     0        0     0        0
+        5                 144        0     0        0     0        0
+        6                 528     1344     0       96     0      114
+        7                1680     9096  1536     6552   480      600
+        8                 384    23232    96     7584   720    17916
+        9                   0   167616     0    19008     0    10200
+       10                   0  1020384     0   235584     0    35040
+       11                   0  6746688     0  2986560     0   818112
+       12                   0  2202912     0  6189120     0  9654240
+       13                   0      288     0    39168     0  2127264
+       14                   0        0     0        0     0     6624
+
+                         2736 10171560  1632  9483672  1200 12670110
+
+The first surprising thing I noticed is the diagonals, especially
+close to Start.  I am not quite sure why there should be diagonals.
+I would describe the diagonals as a weak feature of the chart, but
+they are surely there.  I think the diagonals mean something as follows.
+Pick a cube X which is N moves from Start, and for which M qturns
+will take you closer to Start.  Move to a cube Xq which is N+1 moves
+from Start.  Then there is a *tendency* (not a certainty!) for there
+to be M+1 moves which will take Xq closer to Start.  I can't think
+of any reason for this to be so, but the chart has diagonals.
+
+The second surprising thing is that the chart contains a preponderance
+of even numbers.  There are only
+two odd numbers in the whole chart.  Row 0 column 0
+contains a 1, and row 4 column 4 contains a 51.  All the other cells
+in the chart contain an even number.  Furthermore, by comparison to
+each other, the even columns are densely populated and the odd columns
+are sparsely populated.  Finally, below level 8, the
+odd columns are completely empty.
+
+It is often the case that when there are an even number of objects, there
+is some natural pairing that can be performed on the objects.  In this
+case, I think the pairing that can be performed to explain the even numbers
+is twists of opposite faces.  R can be paired with L, R' can be paired
+with L', U can be paired with D, etc.
+
+The corners-only group GC is "almost" the same as the corners-only-
+without-centers group GC/C.  (GC/C is also called a 2x2x2 cube or a
+pocket cube).  In GC/C, the pairing between moves of opposite faces
+is absolute.  You can always choose either of two opposite faces with
+equivalent results.  In GC, the pairing is relative.  You can "almost"
+solve GC the same way as GC/C, but sometimes you have to be sensitive
+to which of two opposite faces you twist in order to rotate the
+corners properly.  Dan's 20 August 1984 note explains this phenomenon
+much better than I can:
+
+>The alert reader will notice that rows 10 through 14 contain values
+>exactly 24 times as large as those for the pocket cube.  This is not
+>surprising, given that the groups are identical except for the position
+>of the entire assembly in space, and each generator of the corner cube
+>is identical to the inverse of the corresponding generator for the
+>opposite face except for the whole-cube position.  Thus when solving a
+>corner-cube position at 10 qtw or more from solved, it can be solved as
+>a pocket cube, making the choice between opposite faces in such a way
+>that the whole-cube position comes out right with no extra moves.
+
+I can't fully explain why Dan's results are for rows 10 through 14,
+whereas in my chart the odd columns are empty for rows 9 through 14.
+Also, any rotation of the corners can be accomplished in no more than
+6 qturns (see my note of 4 December 1993 concerning the corners of
+the 3x3x3).  I think that the explanation is something to the effect
+that for rows 10 through 14, if (for example) R will take you closer
+to Start, then so too will L, and vice versa.  I don't think you have
+to start choosing between (for example) R and L to accomplish the proper
+rotation until you get below level 10.
+
+Perhaps Dan can fully explain the mystery:  why is it
+that a rotation of the corners only requires 6 qturns, full pairing
+of opposite face turns kicks in at level 9, and GC becomes
+exactly 24 times GC/C at level 10?  What is happening between level 6
+and level 10?  Why don't all three phenomena kick in at the same level?
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From BRYAN@wvnvm.wvnet.edu  Fri Aug 19 16:26:59 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12976; Fri, 19 Aug 94 16:26:59 EDT
+Message-Id: <9408192026.AA12976@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8482; Fri, 19 Aug 94 16:00:54 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 1846; Fri, 19 Aug 1994 16:00:54 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Fri, 19 Aug 1994 16:00:53 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Updated Upper Limits, Q-turns
+
+On 9 January 1981, Dan Hoey provided a recursive procedure which
+gives the best known upper bound on the number of
+cubes at each distance from Start.  With Dan's recursive procedure,
+the upper bound for any level is a function of the known value or
+upper bound for the immediately preceding four levels.  Dan's procedure
+takes into account identities of the form XX'=I and RL=LR.
+
+At the time Dan performed his calculations, only level 0 through level 4
+were known for sure.  We now have 8 levels, so Dan's calculations can be
+updated.  I am going to give the new calculations, and I am also
+going to include Dan's original calculations for comparison purposes.
+In both tables, P[n] is the number of cubes which are n moves from
+Start.
+
+Dan's recursion formula is:
+
+>   P[n]  <= 4*2*P[n-1] + 6*2*P[n-2] + 4*2*P[n-3] + 1*2*P[n-4]
+
+
+Dan's calculations:
+
+> P[0]  =           1   P[9]  <  724,477,008     P[18] <  4.048*10^17
+> P[1]  =          12   P[10] <  6.792*10^9      P[19] <  3.795*10^18
+> P[2]  =         114   P[11] <  6.366*10^10     P[20] <  3.557*10^19
+> P[3]  =       1,068   P[12] <  5.967*10^11     P[21] <  3.334*10^20
+> P[4]  =      10,011   P[13] <  5.594*10^12     P[22] <  3.125*10^21
+> P[5]  <=     93,840   P[14] <  5.243*10^13     P[23] <  2.930*10^22
+> P[6]  <     879,624   P[15] <  4.915*10^14     P[24] <  2.746*10^23
+> P[7]  <   8,245,296   P[16] <  4.607*10^15     P[25] <  2.574*10^24
+> P[8]  <  77,288,598   P[17] <  4.319*10^16
+
+
+New Calculations:
+
+  P[0]  =           1   P[9]  <= 720,627,064     P[18] <= 4.026*10^17
+  P[1]  =          12   P[10] <= 6.755*10^09     P[19] <= 3.774*10^18
+  P[2]  =         114   P[11] <= 6.332*10^10     P[20] <= 3.538*10^19
+  P[3]  =       1,068   P[12] <= 5.935*10^11     P[21] <= 3.316*10^20
+  P[4]  =      10,011   P[13] <= 5.563*10^12     P[22] <= 3.108*10^21
+  P[5]  =      93,840   P[14] <= 5.215*10^13     P[23] <= 2.914*10^22
+  P[6]  =     878,880   P[15] <= 4.888*10^14     P[24] <= 2.731*10^23
+  P[7]  =   8,221,632   P[16] <= 4.582*10^15     P[25] <= 2.560*10^24
+  P[8]  =  76,843,595   P[17] <= 4.295*10^16
+
+I think that the two most interesting things about the new calculations
+are: 1) they are nearly the same as the old calculations, and 2) they
+are not exactly the same as the old calculations.  In both cases, the
+question is "why?".
+
+My interpretation is that Dan's analysis not only puts an upper
+bound on the number cubes at each level, it also puts an upper bound
+on the branching factor.  We trivially have an absolute upper limit
+on the branching factor of 12.  After level 1, we trivially have an
+upper limit on the branching factor of 11 (i.e., "don't undo the move
+you just made", or "don't have a sequence of the form XX'").  As before,
+moves of opposite faces commute.  Taking commutations of opposite faces
+into account, the branching factor is reduced (empirically ) to an upper
+limit of about 9.37.
+
+This empirical analysis is starting with a high branching factor and
+subtracting out the cubes we should not count, so that we are
+dealing with identities of the form XX' and commutations of the form
+RL=LR separately.  Dan's analysis deals with cubes we *should* count,
+and he thereby deals with identities of the form XX' and commutations
+of the form RL=LR in one fell swoop.
+
+But Dan's analysis does not yield exact figures, only limits.  It seems
+therefore that there must be other cases our empirical approach must
+choose not to count.  What might those other cases be?  It seems that
+there must be cases where a sequence X1 X2 ... Xn
+is equal to a sequence Y1 Y2 ... Ym, but where there is no obvious
+way to characterize the relationship between two sequences (e.g., they
+are not simple commutations of each other), and where we cannot even
+find the sequences without some sort of exhaustive search.
+
+I would interpret that fact that the new upper limits do not equal the
+old upper limits as meaning that such "duplicate" sequences do exist
+close to Start.  I would interpret the fact that the new upper limits
+are close to the old upper limits as meaning that there are not very
+many such "duplicate" sequences close to Start.
+
+But consider another quote from Dan in the same article:
+
+>The recurrence on which this bound relies is due to the
+>relations F^4 = FBF'B' = I (and their M-conjugates.)  It may be
+>possible to improve the recurrence by recognizing other short
+>relations.  Exhaustive search has shown that there are none of
+>length less than 10.
+
+I am afraid I need Dan to explain this further.  Dan's logic seems
+impeccable.  But on the other hand
+there must be cases where X1 X2 ... Xn = Y1 Y2 ... Ym, where
+the sum of the length of the sequences is less than 10, and where
+the equality is not explained by the relations F^4 = FBF'B' = I.
+Otherwise, Dan's calculations would yield exact values rather than
+upper limits close to Start, and the "new calculations" for upper
+limits would equal the "old calculations".
+
+Let me think out loud just for a second.  Consider relations such as
+LRLRLRLR = I or RR'RR'RR'RR' = I.  These are *sequences* of length 8
+but *cubes* of length 0.  Is it possible that such sequences are being
+counted too many or not enough times when the recursion is four
+levels deep?
+
+Finally, I have argued on purely empirical grounds that the branching
+factor will remain relatively constant from about level 3 to some
+unknown level (maybe about level 18 or 19 or 20?), where the branching
+factor will decay rapidly because you run out of cubes.  Well, I think
+I want to argue further that during this "relatively constant" portion
+of the distribution the branching factor *will* decay.  It might not
+decay very much, and I don't see any easy way to calculate how much
+it will decay.  The argument is very simple.  Any time a "duplicate
+sequence" occurs, it reduces the branching factor at that level, but
+also at subsequent levels.  That is, longer sequences can contain the
+"duplicate sequence" as a sub-sequence.  Hence, any decay in the branching
+factor at one level is propagated to all subsequent levels.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From mouse@collatz.mcrcim.mcgill.edu  Sun Aug 21 06:33:13 1994
+Return-Path: <mouse@collatz.mcrcim.mcgill.edu>
+Received: from Collatz.McRCIM.McGill.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29591; Sun, 21 Aug 94 06:33:13 EDT
+Received: (root@localhost) by 6700 on Collatz.McRCIM.McGill.EDU (8.6.8.1 Mouse 1.0) id GAA06700 for Cube-Lovers@ai.mit.edu; Sun, 21 Aug 1994 06:33:02 -0400
+Date: Sun, 21 Aug 1994 06:33:02 -0400
+From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Message-Id: <199408211033.GAA06700@Collatz.McRCIM.McGill.EDU>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Updated Upper Limits, Q-turns
+
+> Dan's recursion formula is:
+
+>>   P[n]  <= 4*2*P[n-1] + 6*2*P[n-2] + 4*2*P[n-3] + 1*2*P[n-4]
+
+> Dan's calculations:
+
+>> P[0]  =           1
+>> P[1]  =          12
+>> P[2]  =         114
+>> P[3]  =       1,068
+>> P[4]  =      10,011
+
+Ummm.  4*2*P[4-1] + 6*2*P[4-2] + 4*2*P[4-3] + 1*2*P[4-4] =
+       4*2*1068 + 6*2*114 + 4*2*12 + 1*2*1 = 10010 < P[4].
+
+What have I missed?  Is Dan's formula not valid until n=5 or something?
+
+					der Mouse
+
+			    mouse@collatz.mcrcim.mcgill.edu
+
+From BRYAN@wvnvm.wvnet.edu  Sun Aug 21 09:08:01 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03765; Sun, 21 Aug 94 09:08:01 EDT
+Message-Id: <9408211308.AA03765@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1039; Sun, 21 Aug 94 08:18:30 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5568; Sun, 21 Aug 1994 08:18:30 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sun, 21 Aug 1994 08:18:29 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "der Mouse" <mouse@collatz.mcrcim.mcgill.edu>,
+        "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: Updated Upper Limits, Q-turns
+In-Reply-To: Message of 08/21/94 at 06:33:02 from ,
+           mouse@collatz.mcrcim.mcgill.edu
+
+On 08/21/94 at 06:33:02 der Mouse said:
+>> Dan's recursion formula is:
+
+>>>   P[n]  <= 4*2*P[n-1] + 6*2*P[n-2] + 4*2*P[n-3] + 1*2*P[n-4]
+
+>> Dan's calculations:
+
+>>> P[0]  =           1
+>>> P[1]  =          12
+>>> P[2]  =         114
+>>> P[3]  =       1,068
+>>> P[4]  =      10,011
+
+>Ummm.  4*2*P[4-1] + 6*2*P[4-2] + 4*2*P[4-3] + 1*2*P[4-4] =
+>       4*2*1068 + 6*2*114 + 4*2*12 + 1*2*1 = 10010 < P[4].
+
+>What have I missed?  Is Dan's formula not valid until n=5 or something?
+
+>                                        der Mouse
+
+I had just noticed the same thing, and intended to investigate.  I don't
+know what happens to Dan's formula for n=4.
+
+At the time Dan's chart was first published, P[n] was only known
+for sure for n = 0..4.  Dan showed strict equality for these
+levels, and I assume P[4] came from the known values rather than
+from the formula.  It still does not explain why the formula
+yields a value which is too low for P[4]  --  I could easier
+understand why it yielded a value which is too high, but it seems
+to me that it ought to yield the exact value that close to Start.
+
+For P[5], Dan's original chart showed "=<".  Subsequent computer
+search changed this to strict equality, which is a great victory
+for Dans' formula.  The first term for which
+Dan's chart is too high is P[6].  I had therefore intended to
+start my investigations at that point until I discovered the
+discrepancy at P[4].
+
+Just as a reality check, let me mention some trivial points.  Suppose
+it is discovered that (X1 X2 ... Xn) = (Y1 Y2 ... Ym).  Define
+X = (X1 X2 ... Xn) and Y = (Y1 Y2 ... Ym).  Since X = Y, it is
+immediate that XY' = Y'X = X'Y = YX' = I.  Conversely, a sequence
+(X1 X2 ... Xn) = I can be decomposed into X = (X1 X2 ... Xk) and
+Y = (X[k+1] ... Xn).  Then, XY = I and hence X and Y' (and also
+X' and Y) are what I have called "duplicate sequences", that is
+different sequences which yield the same cube.  This is why
+identities are so important for bounding P[n].
+
+I seem to do everything backwards, so I would just look for the duplicate
+sequences.  However, it is probably more elegant to look for the identities.
+Dan's original note said that computer
+search has shown that there are not any identities other than the ones we
+already know about up through length 10.  It looks to me like Dan's
+formula takes care of the identities we already know about.  So
+as usual, I am probably missing something obvious.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From BRYAN@wvnvm.wvnet.edu  Sun Aug 21 09:57:44 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05642; Sun, 21 Aug 94 09:57:44 EDT
+Message-Id: <9408211357.AA05642@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1055; Sun, 21 Aug 94 08:58:31 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5634; Sun, 21 Aug 1994 08:58:31 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sun, 21 Aug 1994 08:58:30 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Analysis of Turns Towards Start for Whole Cube
+
+The following chart for level 0 through level 8 of the whole
+cube using Q-turns gives the number of Q-turns for each cube which will
+move towards Start.  (I recently gave the same analysis for corners only.)
+
+Columns 9 through 12 are omitted from the chart since they contain
+all zeros.  Any local maxima would appear in column 12.
+
+This adds one new level known not to contain any local maxima.  It would
+be extremely interesting to be able to extend the chart at least to
+level 12 because level 12 is known to include a local maximum.
+
+As with the corners-only case, the chart contains almost all even numbers.
+However, unlike the corners-only case, the numbers do not cluster in
+the even columns.  Rather, they cluster towards column 1.  This means that
+(close to Start, at least) most cubes have only one "good" move that
+takes you closer to Start.  It also serves to illustrate why "random"
+moves so quickly scramble the cube.
+
+                           Number of Q-turns which Move
+                                Closer to Start
+
+     Level  Total  0         1         2      3      4   5    6   7   8
+            Cubes
+
+       0        1  1         0         0      0      0   0    0   0   0
+       1       12  0        12         0      0      0   0    0   0   0
+       2      114  0        96        18      0      0   0    0   0   0
+       3     1068  0       912       144     12      0   0    0   0   0
+       4    10011  0      8544      1368     96      3   0    0   0   0
+       5    93840  0     80088     12816    912     24   0    0   0   0
+       6   878880  0    749376    120612   8640    252   0    0   0   0
+       7  8221632  0   7001712   1135104  82152   2664   0    0   0   0
+       8 76843595  0  65391504  10645824 777936  28200  48   56   0  27
+
+  Total  86049153  1  73232244  11915886 869748  31143  48   56   0  27
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From BRYAN@wvnvm.wvnet.edu  Wed Aug 24 23:07:21 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07590; Wed, 24 Aug 94 23:07:21 EDT
+Message-Id: <9408250307.AA07590@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1861; Wed, 24 Aug 94 23:06:53 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 6531; Wed, 24 Aug 1994 23:06:53 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 24 Aug 1994 23:06:52 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "der Mouse" <mouse@collatz.mcrcim.mcgill.edu>,
+        "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: Updated Upper Limits, Q-turns
+In-Reply-To: Message of 08/21/94 at 06:33:02 from ,
+           mouse@collatz.mcrcim.mcgill.edu
+
+On 08/21/94 at 06:33:02 der Mouse said:
+>> Dan's recursion formula is:
+
+>>>   P[n]  <= 4*2*P[n-1] + 6*2*P[n-2] + 4*2*P[n-3] + 1*2*P[n-4]
+
+>> Dan's calculations:
+
+>>> P[0]  =           1
+>>> P[1]  =          12
+>>> P[2]  =         114
+>>> P[3]  =       1,068
+>>> P[4]  =      10,011
+
+>Ummm.  4*2*P[4-1] + 6*2*P[4-2] + 4*2*P[4-3] + 1*2*P[4-4] =
+>       4*2*1068 + 6*2*114 + 4*2*12 + 1*2*1 = 10010 < P[4].
+
+>What have I missed?  Is Dan's formula not valid until n=5 or something?
+
+I just rechecked Dan's original note of 9 January 1981.  He specifically
+says the formula is good for n > 4.  Mea culpa.  However, I still do
+not fully understand *why* this should be the case.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From hoey@aic.nrl.navy.mil  Thu Aug 25 14:43:40 1994
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil ([192.26.18.51]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA19746; Thu, 25 Aug 94 14:43:40 EDT
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA03267; Thu, 25 Aug 94 14:43:13 EDT
+Date: Thu, 25 Aug 94 14:43:13 EDT
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9408251843.AA03267@Sun0.AIC.NRL.Navy.Mil>
+To: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>, <mouse@collatz.mcrcim.mcgill.edu>
+Cc: <Cube-Lovers@ai.mit.edu>
+Subject: Re: Updated Upper Limits, Q-turns
+
+Jerry Bryan was looking at some formulas I had in the archives:
+
+    >> Dan's recursion formula is:
+    >>>   P[n]  <= 4*2*P[n-1] + 6*2*P[n-2] + 4*2*P[n-3] + 1*2*P[n-4]
+
+    ...
+
+    I just rechecked Dan's original note of 9 January 1981.  He
+    specifically says the formula is good for n > 4.  Mea culpa.
+    However, I still do not fully understand *why* this should be the
+    case.
+
+I thought I put the bound in....  I've been meaning to look that up
+and explain it, but time's been short.
+
+The analysis is done by breaking up the minimal processes into
+"syllables", where a syllable is a maximal sequence of commuting turns.
+So for each pair (x,y) in {(F,B),(T,D),(L,R)} there are
+    four syllables of length 1: x, x', y, and y';
+    six syllables of length 2: xx, xy, xy', x'y, x'y', and yy;
+    four syllables of length 3: xxy, xxy', xyy, and x'yy;
+    one syllable of length 4: xxyy.
+
+(It's not really a coincidence that this is most of the fifth line of
+Pascal's triangle.)
+
+Now for the first syllable, we can pick any of the three pairs for
+(x,y).  But for succeeding syllables, we must pick a pair that is not
+equal to the preceding pair.  So each term in the recurrence refers to
+the length of the last syllable:
+
+Length of last syllable=1            2            3            4
+
+  n=1    P[n] = 4*3 P[n-1];
+  n=2    P[n] = 4*2 P[n-1] + 6*3 P[n-2]
+  n=3    P[n] = 4*2 P[n-1] + 6*2 P[n-2] + 4*3 P[n-3]
+  n=4    P[n] = 4*2 P[n-1] + 6*2 P[n-2] + 4*2 P[n-3] + 1*3 P[n-4]
+  n>4    P[n] = 4*2 P[n-1] + 6*2 P[n-2] + 4*2 P[n-3] + 1*2 P[n-4]
+
+The second part of each coefficient is 2, except that when the length
+of the last syllable is equal to n (so that we are counting the first
+syllable), the second part of the coefficient is 3.
+
+In response to my description:
+> >The recurrence on which this bound relies is due to the
+> >relations F^4 = FBF'B' = I (and their M-conjugates.)  It may be
+> >possible to improve the recurrence by recognizing other short
+> >relations.  Exhaustive search has shown that there are none of
+> >length less than 10.
+
+Jerry continues:
+> ... there must be cases where X1 X2 ... Xn = Y1 Y2 ... Ym, where
+> the sum of the length of the sequences is less than 10, and where
+> the equality is not explained by the relations F^4 = FBF'B' = I.
+> Otherwise, Dan's calculations would yield exact values rather than
+> upper limits close to Start, and the "new calculations" for upper
+> limits would equal the "old calculations".
+
+No.  The bounds fail to be exact when we have a relation r=s with
+|r|=|s|=n.  This corresponds to a relation r s'=I of length 2n.  The
+shortest relations of length >4 are the ones of length 12 (as I
+reported on 22 March 1981) so my bounds become inexact at length 6.
+
+Chris Worrell listed the length-12 relations on 08/02/81, and I
+reported that his list was complete on 14 August 1981 0111-EDT.  The
+12-qtw identities (up to M-conjugacy) are:
+
+I12-1	FR' F'R    UF' U'F    RU' R'U
+I12-2	FR' F'R   UF'   F'L FL'   U'F
+I12-3	FR' F'R   UF'   UL' U'L   FU'
+
+As Allan C. Wechsler noted on 17 August 1981, any two of them can be
+combined to form the third.
+
+> Consider relations such as LRLRLRLR = I or RR'RR'RR'RR' = I.
+
+The first is a consequence of the relations L^4=R^4=LRL'R'=I.  The
+second is a consequence of group theory; no relations are needed.  The
+recurrence deals with these: it models the freeest group specified by
+the given relations.
+
+I have tried unsuccessfully to create a recurrence that will deal with
+the 12-qtw identities, but it's complicated.  For instance, repeatedly
+putting I12-1 in the center of another I12-1 yields identities of the
+form:
+
+     F (R'F' RU)^n F'U' (FR U'R')^n U
+
+There are a bunch of other cases, too.
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+
+From BRYAN@wvnvm.wvnet.edu  Wed Aug 31 17:17:08 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18279; Wed, 31 Aug 94 17:17:08 EDT
+Message-Id: <9408312117.AA18279@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 5436; Wed, 31 Aug 94 15:23:48 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 7373; Wed, 31 Aug 1994 15:23:48 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 31 Aug 1994 15:23:47 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@ai.mit.edu>
+Subject:   Re: < U, R> Group
+In-Reply-To: Message of 08/09/94 at 01:48:00 from mark.longridge@canrem.com
+
+On 08/09/94 at 01:48:00 mark.longridge@canrem.com said:
+
+>        Analysis of the 3x3x3 <U, R> group
+>        ----------------------------------
+
+>                                          branching
+>Moves Deep       arrangements (q only)     factor
+
+>  0                    1                      --
+>  1                    4                       4
+>  2                   10                       2.5
+>  3                   24                       2.4
+>  4                   58                       2.416
+>  5                  140                       2.413
+>  6                  338                       2.414
+>  7                  816                       2.414
+>  8                1,970                       2.414
+> program starts to really bog down after this...
+
+>  I leave it to Jerry or Dan to check my results. I checked up to 2
+>moves deep by hand and verified 10 different positions.
+
+Ok, here it is.  This search is narrower and deeper than any
+I have ever done before.  Frey and Singmaster give <U,R>
+a good bit of attention in their book, pointing out that it
+is trickier than it might first appear.
+
+It is called the Two-Generator Group.  The size of the group
+can be calculated as (7!5!/2)(3^6/3) = 73,483,200.  The
+3^6 factor accounts for twisting the corners, but there is no
+2^n factor as the edges cannot be flipped.
+
+These results are in terms of Q turns without any conjugate
+class checking.  I would regard the following as open problems:
+local maxima, results with Q+H turns, and results in terms of
+conjugate classes.  In this particular case, it would not be
+M-conjugates.  I would have to look at Dan Hoey's 98 subgroups
+of M to see which subgroup applies to <U,R>.
+
+  0                    1
+  1                    4                       4
+  2                   10                       2.5
+  3                   24                       2.4
+  4                   58                       2.416
+  5                  140                       2.413
+  6                  338                       2.414
+  7                  816                       2.414
+  8                1,970                       2.414
+  9                4,756                       2.414
+ 10               11,448                       2.407
+ 11               27,448                       2.398
+ 12               65,260                       2.378
+ 13              154,192                       2.363
+ 14              360,692                       2.339
+ 15              827,540                       2.294
+ 16            1,851,345                       2.237
+ 17            3,968,840                       2.144
+ 18            7,891,990                       1.988
+ 19           13,659,821                       1.755
+ 20           18,471,682                       1.352
+ 21           16,586,822                       0.898
+ 22            8,039,455                       0.485
+ 23            1,511,110                       0.188
+ 24               47,351                       0.031
+ 25                   87                       0.002
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+
+From @mail.uunet.ca:mark.longridge@canrem.com  Fri Sep  2 00:08:42 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03291; Fri, 2 Sep 94 00:08:42 EDT
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <95284-1>; Fri, 2 Sep 1994 00:08:46 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA06043; Fri, 2 Sep 94 00:05:44 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1AD333; Thu,  1 Sep 94 23:45:13 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject:  < U, R > revisited
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.796.5834.0C1AD333@canrem.com>
+Date: Thu, 1 Sep 1994 22:56:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+        Analysis of the 3x3x3 <U, R> group (continued)
+        ----------------------------------
+
+                                          branching
+Moves Deep       arrangements (q only)     factor
+
+  0                    1        1             --
+  1                    4        5              4
+  2                   10       15              2.5
+  3                   24       39              2.4
+  4                   58       97              2.416
+  5                  140      237              2.413
+  6                  338      575              2.414
+  7                  816    1,391              2.414
+  8                1,970    3,361              2.414
+  9                4,756    8,117              2.414
+ 10               11,448   19,565              2.407
+ 11               27,448   47,013              2.401
+ML's Conjecture: The < U, R > group is >=20 turns deep in qt metric
+
+UR Reflective processes: (in the q metric)
+A different sort of symmetry which I started to investigate, having
+ been inspired by my friend who solves his cube 2 adjacent faces
+ last!
+
+These are the only UR reflective processes at 10 q turns:
+     U3 R1 U1 R1 (U2) R3 U3 R3 U1 = R3 U1 R1 U1 (R2) U3 R3 U3 R1   (10)
+     U1 R3 U3 R3 (U2) R1 U1 R1 U3 = R1 U3 R3 U3 (R2) U1 R1 U1 R3   (10)
+
+Here is the obvious one we all know:
+                    ( U2 R2 ) ^ 3 = ( R2 U2 ) ^ 3                  (12)
+
+I liked this pattern in particular...
+       U1 R1 U2 R3 U2 R3 U2 R1 U1 = R1 U1 R2 U3 R2 U3 R2 U1 R1     (12)
+
+I hope to have an algorithm to plumb the depths of the < U, R > group
+ soon. Amusingly my friend complained about not been able solve
+ the cube completely as he was stuck in a position with 2 flipped
+ edges. After watching him squirm for a few weeks I did tell him
+ you can't flip edges in the < U, R > group!     ;->
+
+Congrats to Dan Hoey, Dik Winter, Jerry Bryan and Ludwig Plutonium
+ for making it into the 1994 Internet White Pages! I'm in good
+ company.
+
+        -> Mark <-
+        Email: mark.longridge@canrem.com
+
+P.S. I just read the last J.B. post and see I've been somewhat
+     overshadowed. Ok let's see some antipodes! At least our
+     results are the same though. So, ummmm I guess ML's
+     conjecture is correct!
+
+From BRYAN@wvnvm.wvnet.edu  Mon Sep  5 09:25:29 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18977; Mon, 5 Sep 94 09:25:29 EDT
+Message-Id: <9409051325.AA18977@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8919; Mon, 05 Sep 94 09:08:15 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5126; Mon, 5 Sep 1994 09:08:15 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Mon, 5 Sep 1994 09:08:14 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@ai.mit.edu>
+Subject:   Re: < U, R > revisited (with Local Maxima)
+In-Reply-To: Message of 09/01/94 at 22:56:00 from mark.longridge@canrem.com
+
+I performed a Local Maxima analysis.  (This is for Q-turns only.)  The Local
+Maxima are in column 4.  The shortest local maxima (six of them) are of
+length 12.  Interestingly, this is the same length which is suspected of
+being the shortest Q-turn length for a local maximum in the full cube group.
+Is there any connection?  Also, the global maxima are of length 25.  Does
+this tell us anything about the Q-turn length of the global maxima for the
+full cube group?  Finally, pick any cube X in <U,R>.  We know
+|X| in G <= |X| in <U,R>.  Can anybody find a cube X such that
+|X| in G < |X| in <U,R>?  Alternatively, can anybody prove
+|X| in G = |X| in <U,R> for all X in <U,R>?  (This assumes Q-turns only in
+all cases.  The questions would all have to be asked again for Q+H-turns.)
+
+                         Number of Moves Which Go Closer to Start
+
+     Level       Total   0           1           2           3          4
+                 Cubes
+
+         0           1   1           0           0           0          0
+         1           4   0           4           0           0          0
+         2          10   0           8           2           0          0
+         3          24   0          20           4           0          0
+         4          58   0          48          10           0          0
+         5         140   0         116          24           0          0
+         6         338   0         280          58           0          0
+         7         816   0         676         140           0          0
+         8       1,970   0       1,632         338           0          0
+         9       4,756   0       3,940         816           0          0
+        10      11,448   0       9,448       1,996           4          0
+        11      27,448   0      22,584       4,836          28          0
+        12      65,260   0      53,236      11,862         156          6
+        13     154,192   0     125,196      28,616         360         20
+        14     360,692   0     289,908      69,196       1,472        116
+        15     827,540   0     652,792     168,008       6,180        560
+        16   1,851,345   0   1,428,560     398,634      21,860      2,291
+        17   3,968,840   0   2,938,808     934,908      84,312     10,812
+        18   7,891,990   0   5,422,844   2,109,480     309,916     49,750
+        19  13,659,821   0   8,065,268   4,288,796   1,068,480    237,277
+        20  18,471,682   0   7,948,748   6,625,644   2,947,320    949,970
+        21  16,586,822   0   3,485,748   5,507,066   4,831,060  2,762,948
+        22   8,039,455   0     286,176   1,165,888   2,665,080  3,922,311
+        23   1,511,110   0         740      15,202     156,432  1,338,736
+        24      47,351   0           0           8         332     47,011
+        25          87   0           0           0           0         87
+
+            73,483,200   1  30,736,780  21,331,532  12,092,992  9,321,895
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

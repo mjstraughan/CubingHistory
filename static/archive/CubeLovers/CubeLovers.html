@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cube Lovers | Cubing History</title>
+    <link rel="icon" type="image/x-icon" href="./CubingHistory.png" />
+    <link rel="stylesheet" href="./Styles.css" />
+  </head>
+  <body>
+    <h1>Cube Lovers</h1>
+    <div id="filters" class="filters">
+      <label id="searchLabel">
+        Content:
+        <input type="text" id="search-box" placeholder="Search content" />
+      </label>
+      <label id="senderLabel">
+        Sender:
+        <input type="text" id="sender-box" placeholder="Search sender" />
+      </label>
+      <label id="subjectLabel">
+        Subject:
+        <input type="text" id="subject-box" placeholder="Search subject" />
+      </label>
+      <label id="startDateLabel">
+        Start Date: <input type="date" id="start-date" />
+      </label>
+      <label id="endDateLabel">
+        End Date: <input type="date" id="end-date" />
+      </label>
+      <button id="apply-filters">Apply Filters</button>
+      <button id="clear-filters">Clear Filters</button>
+    </div>
+    <div id="email-list"></div>
+    <button id="load-more" onclick="loadMoreEmails()">Load More</button>
+
+    <script>
+      let emailData = [];
+      let filteredData = []; // Stores the currently filtered data
+      let displayCount = 50; // Number of emails to display initially
+
+      const group = document.getElementById("group");
+
+      function loadEmails(fileName) {
+        fetch(`${fileName}.json`)
+          .then((response) => response.json())
+          .then((data) => {
+            emailData = data;
+            filteredData = [...emailData];
+            renderEmails(filteredData.slice(0, displayCount));
+          })
+          .catch((error) => console.error("Error loading emails:", error));
+      }
+
+      loadEmails("cubelovers");
+
+      // Render emails
+      function renderEmails(emails) {
+        const emailList = document.getElementById("email-list");
+        emailList.innerHTML = ""; // Clear the current list
+        if (emails.length === 0) {
+          emailList.innerHTML = "<p>No emails found.</p>";
+          return;
+        }
+        emails.forEach((email) => {
+          const emailElement = document.createElement("div");
+          emailElement.className = "email-item";
+          emailElement.innerHTML = `
+            <strong>From:</strong> ${email.from} <br>
+            <strong>Subject:</strong> ${email.subject} <br>
+            <strong>Date:</strong> ${email.date} <br>
+            <p style="white-space: pre-wrap;">${email.content}</p>
+            <hr>
+        `;
+          emailList.appendChild(emailElement);
+        });
+      }
+
+      // Load more emails
+      function loadMoreEmails() {
+        const nextCount = displayCount + 50;
+        renderEmails(filteredData.slice(0, nextCount)); // Load additional emails
+        displayCount = nextCount;
+      }
+
+      // Apply filters (stacking filters)
+      document.getElementById("apply-filters").addEventListener("click", () => {
+        const searchTerm = document
+          .getElementById("search-box")
+          .value.toLowerCase();
+        const startDate = document.getElementById("start-date").value;
+        const endDate = document.getElementById("end-date").value;
+        const senderTerm = document
+          .getElementById("sender-box")
+          .value.toLowerCase();
+        const subjectTerm = document
+          .getElementById("subject-box")
+          .value.toLowerCase();
+
+        // Reset filteredData to include all emails before filtering
+        filteredData = [...emailData];
+
+        filteredData = filteredData.filter((email) => {
+          const emailDate = new Date(email.date);
+          const startDateFilter = startDate ? new Date(startDate) : null;
+          const endDateFilter = endDate ? new Date(endDate) : null;
+
+          return (
+            (!searchTerm ||
+              (email.content &&
+                email.content.toLowerCase().includes(searchTerm))) &&
+            (!senderTerm ||
+              (email.from && email.from.toLowerCase().includes(senderTerm))) &&
+            (!subjectTerm ||
+              (email.subject &&
+                email.subject.toLowerCase().includes(subjectTerm))) &&
+            (!startDateFilter || emailDate >= startDateFilter) &&
+            (!endDateFilter || emailDate <= endDateFilter)
+          );
+        });
+
+        renderEmails(filteredData.slice(0, displayCount)); // Re-render emails based on current filters
+      });
+
+      // Clear filters
+      document.getElementById("clear-filters").addEventListener("click", () => {
+        document.getElementById("search-box").value = "";
+        document.getElementById("start-date").value = "";
+        document.getElementById("end-date").value = "";
+        document.getElementById("sender-box").value = "";
+        document.getElementById("subject-box").value = "";
+
+        filteredData = [...emailData]; // Reset filteredData to all emails
+        displayCount = 50; // Reset display count
+        renderEmails(filteredData.slice(0, displayCount)); // Render initial set of emails
+      });
+
+      const applyFiltersButton = document.getElementById("apply-filters");
+      const searchBox = document.getElementById("search-box");
+      const startDate = document.getElementById("start-date");
+      const endDate = document.getElementById("end-date");
+      const senderBox = document.getElementById("sender-box");
+      const subjectBox = document.getElementById("subject-box");
+
+      searchBox.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+          applyFiltersButton.click();
+        }
+      });
+
+      startDate.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+          applyFiltersButton.click();
+        }
+      });
+
+      endDate.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+          applyFiltersButton.click();
+        }
+      });
+
+      senderBox.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+          applyFiltersButton.click();
+        }
+      });
+
+      subjectBox.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+          applyFiltersButton.click();
+        }
+      });
+    </script>
+  </body>
+</html>
