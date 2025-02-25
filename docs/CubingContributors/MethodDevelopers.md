@@ -416,17 +416,16 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - EOLR for the Roux method
 - Straughan recognition
 - Block referencing for the standard notation
-- Transformation
-- LEG-1 and Non-Matching LEG-1
-- Non-Matching CLL and EG
+- LEG-1
+- Non-Matching CLL, EG, and LEG-1
 - Conjugated CLL (2x2)
-- Non-matching corner recognition - NMCMLL / ATCRM
-- Conjugated CLL recognition - ATCRM
+- Pseudo corner recognition - NMCMLL / ATCRM / Straughan
 - L5C and SL5C for the 42 method
 - CLL+1 and COLL+1 (development based on Thom Barlow's idea)
 - DFDB recognition for the Roux method
 - Algorithm Unions
-- L7E iterative EO and method
+- 42 method L7E iterative EO and method
+- Tudor method iterative edge orientation
 - ACMLL for the Roux method
 - AOLL and ACLL for the CFOP and CFCE methods
 - NMLL
