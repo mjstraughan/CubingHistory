@@ -1,5 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: monospace;
+  font-size: large;
 }
 .email-item {
   margin-bottom: 20px;
@@ -94,4 +95,11 @@ label {
 #clear-filters {
   grid-column: 1;
   grid-row: 8;
+}
+
+.email-content {
+  white-space: pre; /* Preserve ASCII spacing without wrapping */
+  font-family: monospace; /* Ensure proper ASCII display */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  max-width: 100%; /* Prevents content from exceeding screen width */
 }

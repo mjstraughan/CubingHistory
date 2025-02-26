@@ -35,33 +35,31 @@
     <button id="load-more" onclick="loadMoreEmails()">Load More</button>
 
     <script>
-      let emailData = [];
-      let filteredData = []; // Stores the currently filtered data
-      let displayCount = 50; // Number of emails to display initially
+      let emailData = []; // Stores full dataset
+      let filteredData = []; // Stores filtered dataset
+      let displayCount = 50; // Initial emails displayed
+      const batchSize = 50; // Number of emails to load at a time
 
-      const group = document.getElementById("group");
-
+      // Load emails function
       function loadEmails(fileName) {
         fetch(`${fileName}.json`)
           .then((response) => response.json())
           .then((data) => {
             emailData = data;
-            filteredData = [...emailData];
+            filteredData = [...emailData]; // Start filteredData with all emails
+            displayCount = batchSize; // Reset display count
             renderEmails(filteredData.slice(0, displayCount));
           })
           .catch((error) => console.error("Error loading emails:", error));
       }
 
+      // Load initial emails
       loadEmails("cubelovers");
 
       // Render emails
       function renderEmails(emails) {
         const emailList = document.getElementById("email-list");
-        emailList.innerHTML = ""; // Clear the current list
-        if (emails.length === 0) {
-          emailList.innerHTML = "<p>No emails found.</p>";
-          return;
-        }
+        emailList.innerHTML = ""; // Clear previous results
         emails.forEach((email) => {
           const emailElement = document.createElement("div");
           emailElement.className = "email-item";
@@ -69,21 +67,31 @@
             <strong>From:</strong> ${email.from} <br>
             <strong>Subject:</strong> ${email.subject} <br>
             <strong>Date:</strong> ${email.date} <br>
-            <p style="white-space: pre-wrap;">${email.content}</p>
+            <div class="email-content">${email.content}</div>
             <hr>
         `;
           emailList.appendChild(emailElement);
         });
       }
 
-      // Load more emails
+      // Load more emails when user scrolls down
+      window.addEventListener("scroll", () => {
+        if (
+          window.innerHeight + window.scrollY >=
+          document.body.offsetHeight - 10
+        ) {
+          loadMoreEmails();
+        }
+      });
+
+      // Load more emails function (respects filteredData)
       function loadMoreEmails() {
-        const nextCount = displayCount + 50;
-        renderEmails(filteredData.slice(0, nextCount)); // Load additional emails
-        displayCount = nextCount;
+        if (displayCount >= filteredData.length) return; // Stop if all filtered emails are loaded
+        displayCount += batchSize;
+        renderEmails(filteredData.slice(0, displayCount)); // Ensure filteredData is used
       }
 
-      // Apply filters (stacking filters)
+      // Apply filters (fixing search)
       document.getElementById("apply-filters").addEventListener("click", () => {
         const searchTerm = document
           .getElementById("search-box")
@@ -97,10 +105,8 @@
           .getElementById("subject-box")
           .value.toLowerCase();
 
-        // Reset filteredData to include all emails before filtering
-        filteredData = [...emailData];
-
-        filteredData = filteredData.filter((email) => {
+        // Filter emails based on user input
+        filteredData = emailData.filter((email) => {
           const emailDate = new Date(email.date);
           const startDateFilter = startDate ? new Date(startDate) : null;
           const endDateFilter = endDate ? new Date(endDate) : null;
@@ -119,10 +125,12 @@
           );
         });
 
-        renderEmails(filteredData.slice(0, displayCount)); // Re-render emails based on current filters
+        // Reset display count and render filtered results
+        displayCount = batchSize;
+        renderEmails(filteredData.slice(0, displayCount));
       });
 
-      // Clear filters
+      // Clear filters and restore all emails
       document.getElementById("clear-filters").addEventListener("click", () => {
         document.getElementById("search-box").value = "";
         document.getElementById("start-date").value = "";
@@ -130,9 +138,9 @@
         document.getElementById("sender-box").value = "";
         document.getElementById("subject-box").value = "";
 
-        filteredData = [...emailData]; // Reset filteredData to all emails
-        displayCount = 50; // Reset display count
-        renderEmails(filteredData.slice(0, displayCount)); // Render initial set of emails
+        filteredData = [...emailData]; // Restore all emails
+        displayCount = batchSize; // Reset display count
+        renderEmails(filteredData.slice(0, displayCount));
       });
 
       const applyFiltersButton = document.getElementById("apply-filters");
