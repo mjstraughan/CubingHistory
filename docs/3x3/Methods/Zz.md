@@ -61,9 +61,7 @@ Others who knew Bruchem also stated that Bruchem had been experimenting with sol
 
 ### Website
 
-At the European Rubik's Games Championship 2004 (August 7-8, 2004) [10], Zbigniew Zborowski observed Bruchem demonstrating the previously described methods involving EOLine and or EOCross [11].
-
-Zborowski thought the concept demonstrated by Bruchem was the future of speedcubing, so Zborowski created a website describing the steps of EOLine, first two layers, then last layer and named the method ZZ [12]. Searching the website for "2006" indicates that the website was published in December, 2006.
+At the European Rubik's Games Championship 2004 (August 7-8, 2004) [10], Zbigniew Zborowski observed Bruchem demonstrating the previously described methods involving EOLine and or EOCross [11]. Zborowski thought the concept demonstrated by Bruchem was the future of speedcubing, so Zborowski created a website describing the steps of EOLine, first two layers, then last layer and named the method ZZ [12]. Searching the website for "2006" indicates that the website was published in December, 2006.
 
 edward_9x on the speedsolving.com forum restored the applet functionality of the original website. It can be viewed <a href="/archive/nooks_zz_new.htm">here</a>.
 
