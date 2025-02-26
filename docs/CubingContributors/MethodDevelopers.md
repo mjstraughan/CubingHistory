@@ -49,9 +49,9 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 ## Benson, David
 
-- F2L pairing technique (first known development)
-- OLL (OLL preserving PLL)
-- PLL (PLL disregarding OLL)
+- F2L pairing technique - first known development with John Conway and David Seal
+- OLL (OLL preserving PLL) - with John Conway and David Seal
+- PLL (PLL disregarding OLL) - with John Conway and David Seal
 
 ## Beyer, Daniel
 
@@ -89,9 +89,9 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 ## Conway, John
 
-- F2L pairing technique (first known development)
-- OLL (OLL preserving PLL)
-- PLL (PLL disregarding OLL)
+- F2L pairing technique - first known development with David Benson and David Seal
+- OLL (OLL preserving PLL) - with David Benson and David Seal
+- PLL (PLL disregarding OLL) - with David Benson and David Seal
 
 ## Corr-Robinett, Devin
 
@@ -351,8 +351,8 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 - Roux method
 - Misoriented centers for the Roux method
-- Non-matching corner recognition
-- 1x2x3 block
+- Non-matching corner recognition (NMCLL 1)
+- 1x2x3 block as a first step in a solving method
 - The first known proposal of the CEOR method
 
 ## Rubik, Ernő
@@ -365,9 +365,9 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 ## Seal, David
 
-- F2L pairing technique (first known development)
-- OLL (OLL preserving PLL)
-- PLL (PLL disregarding OLL)
+- F2L pairing technique - first known development with John Conway and David Benson
+- OLL (OLL preserving PLL) - with John Conway and David Benson
+- PLL (PLL disregarding OLL) - with John Conway and David Benson
 
 ## Schiereck, Frans
 
