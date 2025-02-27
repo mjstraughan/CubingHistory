@@ -153,9 +153,9 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 **Method:** ZZ
 
-**Proposer:** Gilles Roux and Adam Géhin (~2003), Ryan Heise (2004, based on Géhin's video)
+**Proposer:** Gilles Roux and Adam Géhin (~2003), Ryan Heise (2004, based on Géhin's video), Ron van Bruchem
 
-Published by: Zbigniew Zborowski (Zborowski learned of the step from others in 2004 then published in 2006)
+**Published by:** Zbigniew Zborowski
 
 ## 2x2x3 + Corners
 
