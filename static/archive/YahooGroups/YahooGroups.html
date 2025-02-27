@@ -73,6 +73,13 @@
       // Load initial emails
       loadEmails("speedsolvingrubikscube");
 
+      group.addEventListener("change", () => {
+        const selectedValue = group.value;
+        const fileName = group.options[group.selectedIndex].id; // Get the id of the selected option
+
+        loadEmails(fileName);
+      });
+
       // Render emails
       function renderEmails(emails) {
         const emailList = document.getElementById("email-list");
