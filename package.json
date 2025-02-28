@@ -21,6 +21,8 @@
     "cubing": "^0.52.1",
     "docusaurus-plugin-goatcounter": "^3.0.0",
     "docusaurus-plugin-zooming": "^1.0.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-citation": "^0.1.1",
     "plugin-image-zoom": "github:flexanalytics/plugin-image-zoom",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
