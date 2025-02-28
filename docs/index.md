@@ -2,6 +2,7 @@
 sidebar_position: 1
 slug: /
 description: The history of the Rubik's Cube, world records, solving methods, Megaminx, Pyraminx, Skewb, Square-1, and more.
+bibliography: [./references.bib]
 ---
 
 # Cubing History
