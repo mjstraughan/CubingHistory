@@ -5,6 +5,7 @@ description: History of the CFOP method for the Rubik's Cube.
 import AnimCube from "@site/src/components/AnimCube";
 import styles from "./CFOP.module.css";
 import ReactPlayer from 'react-player'
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # CFOP
 
@@ -41,8 +42,12 @@ The first known publication of the corner and edge pairing technique appeared in
 
 **Solving the Hungarian Cube**
 
-![](img/CFOP/F2L/CBS1.png)
-![](img/CFOP/F2L/CBS2.png)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/F2L/CBS1.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/F2L/CBS2.png").default}
+]}
+/>
 
 To view a transcribed table of the F2L algorithms click below.
 
@@ -362,14 +367,22 @@ To view a transcribed table of the F2L algorithms click below.
 <br/>
 **Solving the Hungarian Cube in Less Than 100 Moves**
 
-![](img/CFOP/F2L/CBS5.png)
-![](img/CFOP/F2L/CBS6.png)
-![](img/CFOP/F2L/CBS7.png)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/F2L/CBS5.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/F2L/CBS6.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/F2L/CBS7.png").default}
+]}
+/>
 
 The notation used was slightly different from modern notation. Below is the notation as described in the publications.
 
-![](img/CFOP/F2L/CBS3.png)
-![](img/CFOP/F2L/CBS4.png)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/F2L/CBS3.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/F2L/CBS4.png").default}
+]}
+/>
 
 The year of publication being 1979 can be deduced from a major point: In David Singmaster's Notes on Rubik's 'Magic Cube', it is stated "John Conway and Dave Benson have prepared an article for the Journal of Recreational Mathematics showing how to always restore the cube in at most 100 moves. They do bottom layer edges, then bottom corners and middle edges together and then use their tables to first position and then orient the top layer, in at most 13 and 19 moves respectively." [4] This is on page 32 and is dated 30 November 1979 on page 34.
 
@@ -391,8 +404,12 @@ The second known publication of the corner and edge pairs technique comes in Jun
 
 On July 16 1981 in the Slovenian magazine Teleks (year 37, issue 28), the technique is described with some illustrations [8]. The magazine article is written by Rok Sosič and Polona Sosič.
 
-![](img/CFOP/F2L/Sosic1.png)
-![](img/CFOP/F2L/Sosic2.png)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/F2L/Sosic1.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/F2L/Sosic2.png").default}
+]}
+/>
 
 There is video footage of Rok Sosič using the F2L pairing technique. This occurred during the Solvenian Nationals 1982, which was broadcast nationally on Slovenia's RTVSLO. Rok Sosič's solves can be seen starting around 1:49.
 
@@ -455,14 +472,22 @@ Interestingly, the Conway, Benson, and Seal publications included all of the alg
 
 **Solving the Hungarian Cube**
 
-![](img/CFOP/OLLPLL/PLLOLL1.png)
-![](img/CFOP/OLLPLL/PLLOLL2.png)
-![](img/CFOP/OLLPLL/PLLOLL3.png)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/OLLPLL/PLLOLL1.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/OLLPLL/PLLOLL2.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/OLLPLL/PLLOLL3.png").default}
+]}
+/>
 
 **Solving the Hungarian Cube in Less Than 100 Moves**
 
-![](img/CFOP/OLLPLL/PLLOLL4.png)
-![](img/CFOP/OLLPLL/PLLOLL5.png)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/OLLPLL/PLLOLL4.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/OLLPLL/PLLOLL5.png").default}
+]}
+/>
 
 ### OLL Numbering System
 
@@ -472,10 +497,14 @@ The OLL numbering system was initially created by Jessica Fridrich [19]. Fridric
 
 The OLL numbers were expanded upon by the Japanese community to include mirror cases [20, 21, 22].
 
-![](img/CFOP/OLLPLL/OLLNumbers2.png)
-![](img/CFOP/OLLPLL/OLLNumbers3.png)
-![](img/CFOP/OLLPLL/OLLNumbers4.png)
-![](img/CFOP/OLLPLL/OLLNumbers5.png)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/OLLPLL/OLLNumbers2.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/OLLPLL/OLLNumbers3.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/OLLPLL/OLLNumbers4.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/OLLPLL/OLLNumbers5.png").default}
+]}
+/>
 
 > This comes from the site of someone by the name of Naitsu. This site was linked to by Konishi Katsuyuki, which was linked to by Makisumi Shotaro who states that "the numbers are the ones used by Japanese speedcubers."
 
@@ -492,11 +521,15 @@ The PLL letter names were created by Mirek Goljan and appear on Fridrich's site 
 
 XCross and XXCross were proposed by Chris Hardwick from 2003 - 2004 [24, 25].
 
-![](img/CFOP/Techniques/XCross1.png)
-![](img/CFOP/Techniques/XCross2.png)
-![](img/CFOP/Techniques/XCross3.png)
-![](img/CFOP/Techniques/XCross4.png)
-![](img/CFOP/Techniques/XCross5.png)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/Techniques/XCross1.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/Techniques/XCross2.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/Techniques/XCross3.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/Techniques/XCross4.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/Techniques/XCross5.png").default}
+]}
+/>
 
 > These messages were posted to the Speed Solving Rubik's Cube group.
 
@@ -504,16 +537,24 @@ XCross and XXCross were proposed by Chris Hardwick from 2003 - 2004 [24, 25].
 
 The idea of edge control started appearing at the beginning of the online communities [26, 27].
 
-![](img/CFOP/Techniques/EdgeControl.png)
-![](img/CFOP/Techniques/EdgeControl2.png)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/Techniques/EdgeControl.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/Techniques/EdgeControl2.png").default}
+]}
+/>
 
 > The first message is from Dan Knights and the second is from Lars Vandenbergh. It is likely that early talks of ensuring that the LL edges are oriented is what led to the idea of ZBLS.
 
 The earliest found mention of the term "edge control" is by Shotaro Makisumi starting in 2004 [28, 29]. Makisumi eventually created a page on his site to describe the technique.
 
-![](img/CFOP/Techniques/EdgeControl3.png)
-![](img/CFOP/Techniques/EdgeControl4.png)
-![](img/CFOP/Techniques/EdgeControl5.png)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/Techniques/EdgeControl3.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/Techniques/EdgeControl4.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/Techniques/EdgeControl5.png").default}
+]}
+/>
 
 Chris Hardwick also had a page on speedcubing.com in 2005 about edge control [30].
 
@@ -541,9 +582,13 @@ That specific page was created after Olly Hayden's description and website [34, 
 
 Pseudo slotting went through a few name changes over time. Olly Hayden called it non-matching pairs and that name is also used on Shotaro Makisumi's website [36]. It was also called "mis-matched pairs" or "slant pairing" by some in the community [37, 38].
 
-![](img/CFOP/Techniques/PseudoSlotting5.png)
-![](img/CFOP/Techniques/PseudoSlotting6.png)
-![](img/CFOP/Techniques/PseudoSlotting7.png)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/Techniques/PseudoSlotting5.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/Techniques/PseudoSlotting6.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/Techniques/PseudoSlotting7.png").default}
+]}
+/>
 
 ### Free Slotting
 
