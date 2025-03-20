@@ -16,12 +16,13 @@ In this recognition style, the orientation of the corners is determined by check
 
 ![](img/CxLLRecognition/NMCLL1.png)
 
-In the NMCLL recognition method, the orientation of the four stickers that should be facing the left and right side, or front and back side, is checked. Then the position of the stickers that should be facing the upper layer are checked to determine the complete case. This style of recognition was originally proposed and partially developed by Gilles Roux in 2004 [2, 3]. Roux had been experimenting with non-matching bocks in the Roux method and found that corner recognition was difficult when the left and right side blocks don’t match. Roux decided to first check the left and right side corner stickers since those don’t change on a solved cube when L or R turns are performed. The recognition method was completed by Michael James Straughan in 2007 [4, 5].
+In the NMCLL recognition method, the orientation of the four stickers that should be facing the left and right side, or front and back side, is checked. Then the position of the stickers that should be facing the upper layer are checked to determine the complete case. This style of recognition was originally proposed and partially developed by Gilles Roux in 2004 [2, 3]. Roux had been experimenting with non-matching bocks in the Roux method and found that corner recognition was difficult when the left and right side blocks don’t match. Roux decided to first check the left and right side corner stickers since those don’t change on a solved cube when L or R turns are performed. The recognition method was completed by Michael James Straughan in 2006 [4, 5].
 
 ![](img/CxLLRecognition/NMCLL1-1.png)
 ![](img/CxLLRecognition/NMCLL1-2.png)
 ![](img/CxLLRecognition/NMCLL1-3.png)
 ![](img/CxLLRecognition/NMCLL1-4.png)
+![](img/CxLLRecognition/NMCLL1-5.png)
 
 ## Hyperorientations
 
@@ -35,7 +36,7 @@ The first step of the Hyperorientations recognition method is to check the orien
 
 ![](img/CxLLRecognition/NMCLL2.png)
 
-In NMCLL 2, the orientation of the left and right side stickers is checked, just as in NMCLL 1. In the second step, four specific sticker locations are check relative to each orientation, just as in Waterman. When experimenting with NMCLL 1 recognition, Straughan found that the second step of locating the upper layer stickers was still difficult with non-matching blocks. This is because the upper layer stickers are different depending on the type of non-matching blocks. So it was decided to combine the left and right side sticker orientation first step of NMCLL 1 with the pre-determined location, pattern based second step of Waterman. This recognition method was developed in 2010 [7, 8].
+In NMCLL 2, the orientation of the left and right side stickers is checked, just as in NMCLL 1. In the second step, four specific sticker locations are checked relative to each orientation, just as in Waterman. When experimenting with NMCLL 1 recognition, Straughan found that the second step of locating the upper layer stickers was still difficult with non-matching blocks. This is because the upper layer stickers are different depending on the type of non-matching blocks. So it was decided to combine the left and right side sticker orientation first step of NMCLL 1 with the pre-determined location, pattern based second step of Waterman. This recognition method was developed in 2010 [7, 8].
 
 ![](img/CxLLRecognition/NMCLL2-1.png)
 ![](img/CxLLRecognition/NMCLL2-2.png)
