@@ -365,6 +365,7 @@ To view a transcribed table of the F2L algorithms click below.
 
 </details>
 <br/>
+
 **Solving the Hungarian Cube in Less Than 100 Moves**
 
 <ImageCollage
@@ -402,7 +403,7 @@ The second known publication of the corner and edge pairs technique comes in Jun
 
 > This one is only a mention of the idea with no strategies or sequences. I was provided this information by Joseph Briggs.
 
-On July 16 1981 in the Slovenian magazine Teleks (year 37, issue 28), the technique is described with some illustrations [8]. The magazine article is written by Rok Sosič and Polona Sosič.
+In July 1981 in the Slovenian magazine Teleks, the technique is described with some illustrations [8].
 
 <ImageCollage
 images={[
@@ -425,28 +426,36 @@ There is video footage of Rok Sosič using the F2L pairing technique. This occur
 
 > I was provided this information by Joseph Briggs who received it in a private message on speedsolving.com from someone by the name of Mitja. The user credited Rok Sosič as the creator of the F2L pairing technique.
 
-In the September, 1981 issue of Cubism for Fun, the technique is described and credited to René Schoof [9].
+In the September, 1981 issue of Cubism for Fun, the technique is described and credited to Rene Schoof [9].
 
 ![](img/CFOP/F2L/Schoof.png)
 
 > Thanks to Georges Helm and Ron van Bruchem for this information.
 
-According to Ron van Bruchem, the technique appears two months later in December 1981 in a book by Frans Schiereck called _De Hongaarse Kubus Voor Doordraaiers_ [10, 11].
+According to Ron van Bruchem, the technique appears two months later in December 1981 in a book by Frans Schiereck called De Hongaarse Kubus Voor Doordraaiers [10, 11].
 
 ![](img/CFOP/F2L/Schiereck1.png)
 ![](img/CFOP/F2L/Schiereck2.png)
+In June 1984, a table of F2L pair solutions was published in Cubism For Fun by Guus Razoux Schultz [12].
+
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/F2L/SchultzF2L1.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/F2L/SchultzF2L2.png").default}
+]}
+/>
 
 ### Jessica Fridrich's Story
 
-For several years in the online community, it was believed that the totality of CFOP had been created by Jessica Fridrich. However, some in the community were aware of the 1981 Cubism for Fun newsletter and the appearance of the F2L pair technique in _De Hongaarse Kubus Voor Doordraaiers_. In July, 2003, Ryan Heise posed the question to the community as to the origin of the F2L pair technique [12]. Jessica Fridrich responded by saying that she wasn't sure of the origin and that she learned of the technique from friends in college [13]. They had been using the technique, although in a basic form. Fridrich found solutions for additional cases to speed up solving the first two layers.
+For several years in the online community, it was believed that the totality of CFOP had been created by Jessica Fridrich. However, some in the community were aware of the 1981 Cubism for Fun newsletter and the appearance of the F2L pair technique in the mentioned books. In July, 2003, Ryan Heise posed the question to the community as to the origin of the F2L pair technique [13]. Jessica Fridrich responded by saying that she wasn't sure of the origin and that she learned of the technique from friends in college [14]. They had been using the technique, although in a basic form. Fridrich found solutions for additional cases to speed up solving the first two layers.
 
 ![](img/CFOP/F2L/Fridrich1.png)
 
-Before developing her website, Fridrich described the method on the Cube Lovers mailing list [14].
+Before developing her website, Fridrich described the method on the Cube Lovers mailing list [15].
 
 ![](img/CFOP/F2L/Fridrich2.png)
 
-Fridrich developed the website for the method in January, 1997 [15].
+Fridrich developed the website for the method in January, 1997 [16].
 
 ![](img/CFOP/F2L/Fridrich3.png)
 
@@ -454,19 +463,35 @@ Fridrich developed the website for the method in January, 1997 [15].
 
 ### Origin
 
-OLL then PLL was independently developed starting in 1981 [10, 16]. By Hans Dockhorn and Anneke Treep and also by Jessica Fridrich and Mirek Goljan.
+OLL then PLL was independently developed starting in 1981 [10, 17]. By Hans Dockhorn and Anneke Treep and also by Jessica Fridrich and Mirek Goljan.
 
 ![](img/CFOP/OLLPLL/Independent1.png)
 ![](img/CFOP/OLLPLL/Independent2.png)
 
 > The first message is from the Speed Solving Rubik's Cube Yahoo group. The second is from a personal conversation that I had with Guus Razoux Schultz.
 
-Jessica Fridrich published the OLL and PLL algorithms in a 1982 issue of Mladý Svět [17, 15].
+The algorithms were first published in 1981 in _De Hongaarse Kubus Voor Gevorderden_ by Dockhorn and Treep [18]. They were published again in September 1988 in the 18th issue of Cubism For Fun [19].
+
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/OLLPLL/SchiereckOLL.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/OLLPLL/SchiereckPLL.png").default}
+]}
+/>
+
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFOP/OLLPLL/CFFOLLPLL1.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFOP/OLLPLL/CFFOLLPLL2.png").default}
+]}
+/>
+
+Jessica Fridrich published OLL and PLL algorithms in a 1982 issue of Mladý Svět [20, 16].
 
 ![](img/CFOP/OLLPLL/MladySvet.png)
 ![](img/CFOP/OLLPLL/MladySvet2.png)
 
-Jessica Fridrich states on her website "Most of the algorithms were developed by myself during the time period between the summer 1981 and the spring of 1983. However, other speed cubists, most noticeably Mirek Goljan, have also significantly contributed with important moves." [18]
+Jessica Fridrich states on her website "Most of the algorithms were developed by myself during the time period between the summer 1981 and the spring of 1983. However, other speed cubists, most noticeably Mirek Goljan, have also significantly contributed with important moves." [21]
 
 Interestingly, the Conway, Benson, and Seal publications included all of the algorithms for PLL then OLL as the last layer method (not OLL then PLL) [2, 3].
 
@@ -491,11 +516,11 @@ images={[
 
 ### OLL Numbering System
 
-The OLL numbering system was initially created by Jessica Fridrich [19]. Fridrich had the cases numbered on her site. However, mirrors weren't included, as was common during those years.
+The OLL numbering system was initially created by Jessica Fridrich [22]. Fridrich had the cases numbered on her site. However, mirrors weren't included, as was common during those years.
 
 ![](img/CFOP/OLLPLL/OLLNumbers1.png)
 
-The OLL numbers were expanded upon by the Japanese community to include mirror cases [20, 21, 22].
+The OLL numbers were expanded upon by the Japanese community to include mirror cases [23, 24, 25].
 
 <ImageCollage
 images={[
@@ -510,7 +535,7 @@ images={[
 
 ### PLL Letter Names
 
-The PLL letter names were created by Mirek Goljan and appear on Fridrich's site [23]. As with OLL, mirrored cases weren't included. The system of adding a lower case a, b, c, or d after the uppercase letter was added later by the community.
+The PLL letter names were created by Mirek Goljan and appear on Fridrich's site [26]. As with OLL, mirrored cases weren't included. The system of adding a lower case a, b, c, or d after the uppercase letter was added later by the community.
 
 ![](img/CFOP/OLLPLL/PLLNames1.png)
 ![](img/CFOP/OLLPLL/PLLNames2.png)
@@ -519,7 +544,7 @@ The PLL letter names were created by Mirek Goljan and appear on Fridrich's site 
 
 ### XCross and XXCross
 
-XCross and XXCross were proposed by Chris Hardwick from 2003 - 2004 [24, 25].
+XCross and XXCross were proposed by Chris Hardwick from 2003 - 2004 [27, 28].
 
 <ImageCollage
 images={[
@@ -535,7 +560,7 @@ images={[
 
 ### Edge Control
 
-The idea of edge control started appearing at the beginning of the online communities [26, 27].
+The idea of edge control started appearing at the beginning of the online communities [29, 30].
 
 <ImageCollage
 images={[
@@ -546,7 +571,7 @@ images={[
 
 > The first message is from Dan Knights and the second is from Lars Vandenbergh. It is likely that early talks of ensuring that the LL edges are oriented is what led to the idea of ZBLS.
 
-The earliest found mention of the term "edge control" is by Shotaro Makisumi starting in 2004 [28, 29]. Makisumi eventually created a page on his site to describe the technique.
+The earliest found mention of the term "edge control" is by Shotaro Makisumi starting in 2004 [31, 32]. Makisumi eventually created a page on his site to describe the technique.
 
 <ImageCollage
 images={[
@@ -556,31 +581,31 @@ images={[
 ]}
 />
 
-Chris Hardwick also had a page on speedcubing.com in 2005 about edge control [30].
+Chris Hardwick also had a page on speedcubing.com in 2005 about edge control [33].
 
 ![](img/CFOP/Techniques/EdgeControl6.png)
 ![](img/CFOP/Techniques/EdgeControl7.png)
 
 ### Pseudo Slotting
 
-Olly Hayden discussed the technique and called it non-matching pairs in May, 2002 [31, 32]. This is the earliest known mention of the technique.
+Olly Hayden discussed the technique and called it non-matching pairs in May, 2002 [34, 35]. This is the earliest known mention of the technique.
 
 ![](img/CFOP/Techniques/PseudoSlotting.png)
 
 It is described in the paragraph starting with "As stated above". This actually isn't the first discussion by Olly Hayden. It is only the first one remaining in the archived messages. The Speed Solving Rubik's Cube Yahoo! group was originally part of Yahoo! Clubs. In 2001, Yahoo! purchased eGroups, another mailing list company. They merged to become Yahoo! Groups. This change also deleted a year and a half worth of messages. The group was started in June of 2000 and any messages after August 5, 2000 and before March 27, 2002 were deleted. On their website, Olly points out they first talked about non-matching pairs in message 144 of the Yahoo! group. This would have been one of the deleted messages. It seems that the community became aware of Olly Hayden's messages and website. There are multiple instances on the Yahoo! group of others sharing the website.
 
-Jessica Fridrich briefly mentioned the technique on her site on August 26, 2002 [33].
+Jessica Fridrich briefly mentioned the technique on her site on August 26, 2002 [36].
 
 ![](img/CFOP/Techniques/PseudoSlotting2.png)
 
 > Thanks to Filipe Teixeira for finding this on Fridrich's website.
 
-That specific page was created after Olly Hayden's description and website [34, 35].
+That specific page was created after Olly Hayden's description and website [37, 38].
 
 ![](img/CFOP/Techniques/PseudoSlotting3.png)
 ![](img/CFOP/Techniques/PseudoSlotting4.png)
 
-Pseudo slotting went through a few name changes over time. Olly Hayden called it non-matching pairs and that name is also used on Shotaro Makisumi's website [36]. It was also called "mis-matched pairs" or "slant pairing" by some in the community [37, 38].
+Pseudo slotting went through a few name changes over time. Olly Hayden called it non-matching pairs and that name is also used on Shotaro Makisumi's website [39]. It was also called "mis-matched pairs" or "slant pairing" by some in the community [40, 41].
 
 <ImageCollage
 images={[
@@ -594,7 +619,7 @@ images={[
 
 Free slotting is the solving of a corner and edge pair with either its correct bottom layer corner or with a U layer corner correctly oriented with the U layer sticker facing the bottom layer. This allows for ending the solve with normal OLL algorithms then either PLL or TTLL.
 
-Free slotting was proposed by Ryan Hudgens in October, 2019 on the SpeedSolving forum [39].
+Free slotting was proposed by Ryan Hudgens in October, 2019 on the SpeedSolving forum [42].
 
 ![](img/CFOP/Techniques/FreeSlotting1.png)
 ![](img/CFOP/Techniques/FreeSlotting2.png)
@@ -629,58 +654,64 @@ In those early years of the online community the method was almost universally c
 
 [11] F. Schiereck, De Hongaarse Kubus Voor Doordraaiers!, Mondria, 1981.
 
-[12] R. Heise, "F2L system - where did it come from?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 July 2003. [Online].
+[12] G. R. Schultz, Cubism For Fun, vol. 7, pp. 9-11, 1984.
 
-[13] J. Fridrich, "Re: F2L system - where did it come from?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 July 2003. [Online].
+[13] R. Heise, "F2L system - where did it come from?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 July 2003. [Online].
 
-[14] J. Fridrich, Cube Lovers, 10 June 1996. [Online]. Available: http://www.math.rwth-aachen.de/homes/Martin.Schoenert/Cube-Lovers/[unknown_name]__Re__Methods_(Re__Speed_cubing).html.html.
+[14] J. Fridrich, "Re: F2L system - where did it come from?," Yahoo! Groups - Speed Solving Rubik's Cube, 23 July 2003. [Online].
 
-[15] J. Fridrich, "20 years of speedcubing," [Online]. Available: http://www.ws.binghamton.edu/fridrich/history.html.
+[15] J. Fridrich, Cube Lovers, 10 June 1996. [Online]. Available: http://www.math.rwth-aachen.de/homes/Martin.Schoenert/Cube-Lovers/[unknown_name]__Re__Methods_(Re__Speed_cubing).html.html.
 
-[16] G. R. Shultz, "Origins of CFOP," Personal Communication, 22 August 2022. [Online].
+[16] J. Fridrich, "20 years of speedcubing," [Online]. Available: http://www.ws.binghamton.edu/fridrich/history.html.
 
-[17] J. Fridrich, Cube Lovers, 24 June 1996. [Online]. Available: http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/%5bunknown_name%5d__Re__Thistlethwaites_algorithm_(and_others).html.
+[17] G. R. Shultz, "Origins of CFOP," Personal Communication, 22 August 2022. [Online].
 
-[18] J. Fridrich, "My system for solving Rubik's cube," [Online]. Available: http://www.ws.binghamton.edu/fridrich/system.html.
+[18] D. H. K. V. Gevorderden, Frans Schiereck, Mondria, 1981.
 
-[19] J. Fridrich, "Orienting The Last Layer," [Online]. Available: http://www.ws.binghamton.edu/fridrich/Mike/orient.html.
+[19] A. Treep and H. Dockhorn, "The Dockhorn-Treep Production," Cubism For Fun, vol. 18, pp. 17-19, 1988.
 
-[20] Naitsu, "３段目のキューブの色を合わせる," [Online]. Available: https://web.archive.org/web/20040810081051/http://naitsu.hp.infoseek.co.jp/orient.htm.
+[20] J. Fridrich, Cube Lovers, 24 June 1996. [Online]. Available: http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/%5bunknown_name%5d__Re__Thistlethwaites_algorithm_(and_others).html.
 
-[21] K. Konishi, "ＯＬＬ～上面の色合わせ（向き合わせ）," [Online]. Available: https://web.archive.org/web/20040605045823fw_/http://www2.u-netsurf.ne.jp/~katsu-k/cubeoll.html.
+[21] J. Fridrich, "My system for solving Rubik's cube," [Online]. Available: http://www.ws.binghamton.edu/fridrich/system.html.
 
-[22] S. Makisumi, "Orientation of Last Layer (OLL)," [Online]. Available: https://web.archive.org/web/20040602231224/http://cubefreak.hp.infoseek.co.jp/OLL.html.
+[22] J. Fridrich, "Orienting The Last Layer," [Online]. Available: http://www.ws.binghamton.edu/fridrich/Mike/orient.html.
 
-[23] J. Fridrich, "Permuting The Last Layer," [Online]. Available: http://www.ws.binghamton.edu/fridrich/Mike/permute.html.
+[23] Naitsu, "３段目のキューブの色を合わせる," [Online]. Available: https://web.archive.org/web/20040810081051/http://naitsu.hp.infoseek.co.jp/orient.htm.
 
-[24] C. Hardwick, "New F2L method (sort of)," Yahoo! Groups - Speed Solving Rubik's Cube, 15 February 2003. [Online].
+[24] K. Konishi, "ＯＬＬ～上面の色合わせ（向き合わせ）," [Online]. Available: https://web.archive.org/web/20040605045823fw_/http://www2.u-netsurf.ne.jp/~katsu-k/cubeoll.html.
 
-[25] C. Hardwick, "double extended cross," Yahoo! Groups - Speed Solving Rubik's Cube, 5 September 2004. [Online].
+[25] S. Makisumi, "Orientation of Last Layer (OLL)," [Online]. Available: https://web.archive.org/web/20040602231224/http://cubefreak.hp.infoseek.co.jp/OLL.html.
 
-[26] D. Knights, "Re: Solving the first two layers," Yahoo! Groups - Speed Solving Rubik's Cube, 30 June 2000. [Online].
+[26] J. Fridrich, "Permuting The Last Layer," [Online]. Available: http://www.ws.binghamton.edu/fridrich/Mike/permute.html.
 
-[27] L. Vandenbergh, "Some thoughts on learning the ZB system," Yahoo! Groups - Speed Solving Rubik's Cube, 27 October 2003. [Online].
+[27] C. Hardwick, "New F2L method (sort of)," Yahoo! Groups - Speed Solving Rubik's Cube, 15 February 2003. [Online].
 
-[28] S. Makisumi, Yahoo! Groups - Speed Solving Rubik's Cube, 2 July 2004. [Online].
+[28] C. Hardwick, "double extended cross," Yahoo! Groups - Speed Solving Rubik's Cube, 5 September 2004. [Online].
 
-[29] S. Makisumi, "Re: Macky's New Average," Yahoo! Groups - Speed Solving Rubik's Cube, 13 April 2005. [Online].
+[29] D. Knights, "Re: Solving the first two layers," Yahoo! Groups - Speed Solving Rubik's Cube, 30 June 2000. [Online].
 
-[30] C. Hardwick, "The ZBF2L," [Online]. Available: https://web.archive.org/web/20050320040335/https://www.speedcubing.com/chris/zbf2l.html.
+[30] L. Vandenbergh, "Some thoughts on learning the ZB system," Yahoo! Groups - Speed Solving Rubik's Cube, 27 October 2003. [Online].
 
-[31] O. Hayden, "Re: Tactics on the F2L???," Yahoo! Groups - Speed Solving Rubik's Cube, 5 May 2002. [Online].
+[31] S. Makisumi, Yahoo! Groups - Speed Solving Rubik's Cube, 2 July 2004. [Online].
 
-[32] O. Hayden, "Non-matching pairs," [Online]. Available: https://web.archive.org/web/20021002082650/http://homepage.ntlworld.com/angela.hayden/cube/speed4.html.
+[32] S. Makisumi, "Re: Macky's New Average," Yahoo! Groups - Speed Solving Rubik's Cube, 13 April 2005. [Online].
 
-[33] J. Fridrich, "First 2 Layers: Examples," [Online]. Available: http://www.ws.binghamton.edu/fridrich/examples.html.
+[33] C. Hardwick, "The ZBF2L," [Online]. Available: https://web.archive.org/web/20050320040335/https://www.speedcubing.com/chris/zbf2l.html.
 
-[34] J. Fridrich, "Re: Looking ahead: a practice routine?," Yahoo! Groups - Speed Solving Rubik's Cube, 26 August 2002. [Online].
+[34] O. Hayden, "Re: Tactics on the F2L???," Yahoo! Groups - Speed Solving Rubik's Cube, 5 May 2002. [Online].
 
-[35] J. Fridrich, "See how I solve the F2L," Yahoo! Groups - Speed Solving Rubik's Cube, 26 August 2002. [Online].
+[35] O. Hayden, "Non-matching pairs," [Online]. Available: https://web.archive.org/web/20021002082650/http://homepage.ntlworld.com/angela.hayden/cube/speed4.html.
 
-[36] S. Makisumi, "Cube Glossary," [Online]. Available: https://web.archive.org/web/20090131154731/http://cubefreak.net/other/glossary.html.
+[36] J. Fridrich, "First 2 Layers: Examples," [Online]. Available: http://www.ws.binghamton.edu/fridrich/examples.html.
 
-[37] D. Li, "Re: Simple to get to 1 min," Yahoo! Groups - Speed Solving Rubik's Cube, 30 August 2003. [Online].
+[37] J. Fridrich, "Re: Looking ahead: a practice routine?," Yahoo! Groups - Speed Solving Rubik's Cube, 26 August 2002. [Online].
 
-[38] C. Hardwick, "Re: Advanced F2L," Yahoo! Groups - Speed Solving Rubik's Cube, 26 September 2005. [Online].
+[38] J. Fridrich, "See how I solve the F2L," Yahoo! Groups - Speed Solving Rubik's Cube, 26 August 2002. [Online].
 
-[39] R. Hudgens, "Potential New 3x3 Technique: Free Slotting ( CFOP extension/cousin to psuedoslotting)," SpeedSolving.com, 25 October 2019. [Online]. Available: https://www.speedsolving.com/threads/potential-new-3x3-technique-free-slotting-cfop-extension-cousin-to-psuedoslotting.75559/.
+[39] S. Makisumi, "Cube Glossary," [Online]. Available: https://web.archive.org/web/20090131154731/http://cubefreak.net/other/glossary.html.
+
+[40] D. Li, "Re: Simple to get to 1 min," Yahoo! Groups - Speed Solving Rubik's Cube, 30 August 2003. [Online].
+
+[41] C. Hardwick, "Re: Advanced F2L," Yahoo! Groups - Speed Solving Rubik's Cube, 26 September 2005. [Online].
+
+[42] R. Hudgens, "Potential New 3x3 Technique: Free Slotting ( CFOP extension/cousin to psuedoslotting)," SpeedSolving.com, 25 October 2019. [Online]. Available: https://www.speedsolving.com/threads/potential-new-3x3-technique-free-slotting-cfop-extension-cousin-to-psuedoslotting.75559/.
