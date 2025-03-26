@@ -68,6 +68,14 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/SocialCard.png",
+      algolia: {
+        appId: "GOICCKWUQG", // Replace with your App ID
+        apiKey: "17763f481d68f01ab8b730c6913c74c3", // Replace with your Search API Key
+        indexName: "cubinghistory", // Provided by Algolia
+        contextualSearch: true, // Enables smart search within docs
+        searchParameters: {}, // Optional additional search parameters
+      },
+      themes: ["@docusaurus/theme-search-algolia"],
       navbar: {
         title: "Cubing History",
         logo: {
