@@ -53,6 +53,10 @@ The origins of the method were received from Petrus via private message [1]. The
 > At that point I nearly quit. The problem was solved, and there was clearly no $1M reward. But for some reason I just wanted to see how fast I could get. My times never stopped getting better for a year, and then there was a Swedish Championship to think of, and then the World Championship, and here we are.
 >
 > My initial method was different from my current method. Steps 1-3 were the same, but steps 4 and 5 were switched. In theory, you can position corners after step 3 in 3-4 moves on average, and I was always very focused on move count. But as I got faster, the time to recognize which corners to swap became too much of a problem, and I switched to the current method. It's possible some smart way could be created to do my old idea much better.
+>
+> After that my method improved mostly by me learning more LL algs, and recognizing what combination best solved each individual LL case. I guess the rest is known history.
+>
+> SIDE NOTE: One thing people are (IMHO) overly impressed by is how I could find/invent all those LL algs. It’s really simple: On a cube with 2 solved layers, move a corner/edge pair up to the top layer, move it around, and then put it back. Doing this, you will immediately discover Sune. Using 2 pairs, Niklas is obvious. Those 2 is how I did steps 5-7 at first (you can permute edges with two Sunes). If you keep playing around with this strategy, you’ll find a lot of simple LL algs.
 
 Petrus has described the thought process behind the method during other instances in the past. Once in 1996 in the Cube Lovers mailing group and again on the Speed Solving Rubik’s Cube Yahoo! group [2, 3].
 
