@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 slug: /Communities
 description: An archive of Rubik's Cube online communities such as Yahoo! Groups and Cube Lovers.
 ---
