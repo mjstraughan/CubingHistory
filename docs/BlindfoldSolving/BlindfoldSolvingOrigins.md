@@ -99,7 +99,7 @@ Other early multi-blind solvers can be viewed on the speedcubing.com record page
 
 ### John White
 
-John White was previously covered in the First Solvers section as the first known blindfold solver. In January 2004, Duncan Dicks stated that he used to practice blindfold solving with John White [17]. They didn’t use any sort of piece preservation techniques as in modern blindfold solving. Instead, it appears that their blindfold solving style was more akin to SpeedBLD [18]. In SpeedBLD, a normal solving method is used and all pieces are tracked during the memorization phase.
+John White was previously covered in the First Solvers section as the first known blindfold solver. In January 2004, Duncan Dicks stated that he used to practice blindfold solving with John White [17]. White was able to solve blindfolded in around 20 minutes on at least one occasion. They didn’t use any sort of piece preservation techniques as in modern blindfold solving. Instead, it appears that their blindfold solving style was more akin to SpeedBLD [18]. In SpeedBLD, a normal solving method is used and all pieces are tracked during the memorization phase.
 
 <ImageCollage
 images={[

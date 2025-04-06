@@ -69,6 +69,8 @@ Since I joined the community, I have always been interested in method developmen
 
 - Michael Feather: Provided assistance ensuring proper functionality of AnimCubeJS.
 
-- Tadeáš Miler: Provided ideas to take full advantage of AnimCubeJS features.
+- Tadeáš Miler: Gave ideas to take full advantage of AnimCubeJS features.
+
+- James Macdiarmid: Provided a detailed summary of blindfold solving methods and techniques. This aided greatly in finding the starting points amd making the connections for research. Without Macdiarmid's help it would have taken much longer to include the blindfold solving section, and may not have been as accurate with regard to how each method and technique works.
 
 - Others have been very willing to explain the origin of their own developments. Each person is credited on the site in the area in which they provided help.
