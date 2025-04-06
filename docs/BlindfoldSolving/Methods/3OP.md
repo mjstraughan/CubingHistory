@@ -37,7 +37,7 @@ images={[
 
 ## Expanded Development (Olly Hayden)
 
-In 2002, Olly Hayden presented a similar method on his website [2]. The method contains the same general steps as Carr’s method. The primary difference is in the permutation setup moves and algorithms. In Hayden’s development, pieces are moved to the U or D layer using the group `U, D, F2,B2, R2, L2`. After the setup moves, a permutation algorithm is used to cycle the corners, then the setup moves are undone. A complete guide with better algorithms was later developed by Shotaro Makisumi [3].
+In 2002, Olly Hayden presented a similar method on his website [2]. The method contains the same general steps as Carr’s method. The primary difference is in the permutation setup moves and algorithms. In Hayden’s development, pieces are moved to the U or D layer using the group `U, D, F2, B2, R2, L2`. After the setup moves, a permutation algorithm is used to cycle the corners, then the setup moves are undone. A complete guide with better algorithms was later developed by Shotaro Makisumi [3].
 
 <ImageCollage
 images={[
@@ -48,7 +48,7 @@ images={[
 
 ## Discussion Between Carr and Hayden
 
-In August 2002, Carr and Hayden had a conversation comparing the difference in the permutation styles [4] [5] [6]. Carr stated that he had considered the way as described on Hayden’s site, but found it difficult.
+In August 2002, Carr and Hayden had a conversation comparing the difference in the permutation styles [4, 5, 6]. Carr stated that he had considered the way as described on Hayden’s site, but found it difficult.
 
 <ImageCollage
 images={[
@@ -60,7 +60,7 @@ images={[
 
 ## Earlier Proposal (Jessica Fridrich)
 
-On March 11, 1998, Jessica Fridrich responded to a question on the Cube Lovers mailing group in a discussion about whether solving the cube without looking is possible. Fridrich suggested that it may be possible to first orient all pieces, preserving their permutation, then permuting all pieces, preserving their orientation [7].
+On March 11, 1998, Wei-Hwa Huang asked the Cube Lovers mailing group if there were any techniques for blindfold solving [7]. Jessica Fridrich responded by suggesting that it may be possible to first orient all pieces, preserving their permutation, then permute all pieces, preserving their orientation [8].
 
 ![](../img/BlindfoldSolvingOrigins/Fridrich.png)
 
@@ -68,8 +68,7 @@ On March 11, 1998, Jessica Fridrich responded to a question on the Cube Lovers m
 
 [1] R. Carr, "Blindfold cubing," 2002. [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/BC.html.
 
-[2] O. Hayden, "Blindfold Cubing," February 2002. [Online]. Available: https://web.archive.org/web/20020221054757/http://homepage.
-ntlworld.com/angela.hayden/cube/blindfold_frontpage.html.
+[2] O. Hayden, "Blindfold Cubing," February 2002. [Online]. Available: https://web.archive.org/web/20020221054757/http://homepage.ntlworld.com/angela.hayden/cube/blindfold_frontpage.html.
 
 [3] S. Makisumi, "A 3-Cycle Guide to 3x3x3 Blindfold Cubing," 1 January 2008. [Online]. Available: https://www.cubefreak.net/bld/3op_guide.php.
 
@@ -79,4 +78,6 @@ ntlworld.com/angela.hayden/cube/blindfold_frontpage.html.
 
 [6] R. Carr, "Re: [Speed Solving Rubik's Cube] Blindfold," Speed Solving Rubik's Cube Yahoo Group, 19 August 2002. [Online].
 
-[7] J. Fridrich, "Re: Blindfold Cube-solving," Cube Lovers, 11 March 1998. [Online].
+[7] W.-H. Huang, "Blindfold Cube-solving," Cube Lovers, 11 March 1998. [Online].
+
+[8] J. Fridrich, "Re: Blindfold Cube-solving," Cube Lovers, 11 March 1998. [Online].

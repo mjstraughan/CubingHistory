@@ -30,8 +30,9 @@ Use freestyle commutators to solve two pieces at once.
 In March 2006, 程浩 (Hao Cheng) posted the idea of solving two pieces at a time using simple setups and 3-cycles [1]. The initial posts included the idea applied to both corners and edges. This is the earliest known mention of the idea of freestyle 3-cycle blindfold solving on the 3x3x3. Cheng mentions that it was also considered to set up three pieces on the U layer, perform a 3-cycle, then undo the setup – similar to the TuRBo method developed by Erik Akkersdjik in 2007.
 
 ![](../img/3-Style/Cheng.png)
+View an English translation of the first page of the thread [here](hao-cheng-3style).
 
-View an English translation of the first page of the thread [here](hao-cheng-3style). Thanks to crystalcuber for finding this early proposal of 3-Style and for the translation.
+> Thanks to crystalcuber for finding this early proposal of 3-Style and for the translation.
 
 ### Chris Hardwick
 
@@ -77,7 +78,7 @@ images={[
 
 ## Popularity Growth
 
-In the months following Hardwick’s mentions of using freestyle commutators in 3x3x3 blindfold solving, the idea began to grow. Several members of the community started implementing the strategy into their solves or, at the very least, mentioning it alongside blindfold solving methods that were popular at the time. Two branching paths eventually emerged. One being the BH method with its focus on move optimal algorithms and the being the speed optimal algorithm focused 3-Style.
+In the months following Hardwick’s mentions of using freestyle commutators in 3x3x3 blindfold solving, the idea began to grow. Several members of the community started implementing the strategy into their solves or, at the very least, mentioning it alongside blindfold solving methods that were popular at the time. Two branching paths eventually emerged. One being the BH method with its focus on move optimal algorithms and the other being the speed optimal algorithm focused 3-Style.
 
 <ImageCollage
 images={[
@@ -96,7 +97,7 @@ In the earlier years of 3-Style, the buffers that blindfold solvers used had mor
 
 ## Comparison With BH
 
-The difference between 3-Style and BH is commonly stated to be that 3-Style uses speed optimal algorithms and BH uses move optimal algorithms. The original webpages for the BH method also state the use of move optimal algorithms [10, 11]. However, Hardwick once stated that he and Beyer were developing speed optimal algorithms for the method [12]. A related message can be found where, during Beyer and Hardwick’s development of the BH method, Pochmann suggested that using speed optimal algorithms may be a better strategy [13]. Daniel Beyer replied saying that the reason for the use of commutators was to ensure that the algorithms can also be used on big cubes [14]. In 2010, Aron Puddy-Mathew posted the opinion that the definition of BH doesn’t necessarily follow the standards at the time. One of the provided opinions is that the BH algorithms don’t need to be move optimal in order for the method to be considered BH, and that longer, more ergonomic algorithms don’t change the name of the method [15]. Chris Hardwick replied to the post in agreement stating “BH to me is the foundational idea, and any change from that is just a variation to the method.” [16]
+The difference between 3-Style and BH is commonly stated to be that 3-Style uses speed optimal algorithms and BH uses move optimal algorithms. The original webpages for the BH method also state the use of move optimal algorithms [10, 11]. However, Hardwick once stated that he and Beyer were developing speed optimal algorithms for the method [12]. A related message can be found where during Beyer and Hardwick’s development of the BH method. Pochmann suggested that using speed optimal algorithms may be a better strategy [13]. Daniel Beyer replied saying that the reason for the use of commutators was to ensure that the algorithms can also be used on big cubes [14]. In 2010, Aron Puddy-Mathew posted a list of opinions related to how BH should be defined. One of the provided opinions is that the BH algorithms don’t need to be move optimal in order for the method to be considered BH, and that longer, more ergonomic algorithms don’t change the name of the method [15]. Chris Hardwick replied to the post in agreement stating “BH to me is the foundational idea, and any change from that is just a variation to the method.” [16]
 
 <ImageCollage
 images={[
@@ -122,7 +123,7 @@ images={[
 
 ## 3-Style Name
 
-In April 2011, Arlen Tan posted a question to the Random Blindfold Cubing Discussion thread on SpeedSolving.com, asking other forum members various questions including the method that they use [17]. Alexander Yu replied that they use “free(three) cycle” [18]. Amos Tay Swee Hui replied to the post saying that the suggestion should be the name of the method [19], with Chris Hardwick replying in agreement [20]. Aron Puddy-Mathew replied with a further refinement of “threestyle” [21, 22]. The first known appearance of the shortened version – its current name 3-Style – comes from Zane Carney in a post in September 2011 [23].
+In April 2011, Arlen Tan posted a question to the Random Blindfold Cubing Discussion thread on SpeedSolving.com, asking other forum members various questions, including the method that they use [17]. Alexander Yu replied that they use “free(three) cycle” [18]. Amos Tay Swee Hui replied to Yu’s post saying that it should be the name of the method [19], with Chris Hardwick replying in agreement [20]. Aron Puddy-Mathew replied with a further refinement of “threestyle” [21, 22]. The first known appearance of the shortened version – its current name 3-Style – comes from Zane Carney in a post in September 2011 [23].
 
 <ImageCollage
 images={[

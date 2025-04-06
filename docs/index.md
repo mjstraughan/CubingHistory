@@ -38,7 +38,7 @@ When providing credit for a contribution, Cubing History follows a set of attrib
 
 There are some grey areas. Someone may have suggested the idea first and partially developed it. Or someone may have independently fully developed an idea without knowledge that the idea already existed and was fully developed. In these cases, a community consensus is followed.
 
-One example is the ZZ method. The method has a complicated history. Essentially, the idea goes back to Gilles Roux and Adam Géhin, made its way to Ryan Heise, then Ron van Bruchem, and, finally, Zbignew Zborowski. Even though four people prior to Zborowski had experimented with the idea, and Zborowski seemingly got the idea of EOLine from Bruchem, credit for the proposal and creation is given to Zborowski. This is because Zborowski is the first to show confidence in the idea and to develop it, going as far as creating a detailed website and promoting it.
+One example is the ZZ method. The method has a complicated history. Essentially, the idea goes back to Gilles Roux and Adam Géhin, made its way to Ryan Heise, then Ron van Bruchem, and, finally, Zbignew Zborowski. Even though four people prior to Zborowski had experimented with the idea, and Zborowski seemingly got the idea of EOLine or EOCross from Bruchem, credit for the proposal and creation is given to Zborowski. This is because Zborowski is the first to show confidence in the idea and to develop it, going as far as creating a detailed website and promoting it.
 
 ### Classification
 
@@ -71,6 +71,6 @@ Since I joined the community, I have always been interested in method developmen
 
 - Tadeáš Miler: Gave ideas to take full advantage of AnimCubeJS features.
 
-- James Macdiarmid: Provided a detailed summary of blindfold solving methods and techniques. This aided greatly in finding the starting points amd making the connections for research. Without Macdiarmid's help it would have taken much longer to include the blindfold solving section, and may not have been as accurate with regard to how each method and technique works.
+- James Macdiarmid: Provided a detailed summary of blindfold solving methods and techniques. This aided greatly in finding the starting points and making the connections for research. Without Macdiarmid's help it would have taken much longer to include the blindfold solving section, and may not have been as accurate with regard to how each method and technique works.
 
 - Others have been very willing to explain the origin of their own developments. Each person is credited on the site in the area in which they provided help.

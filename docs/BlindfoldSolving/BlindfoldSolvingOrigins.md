@@ -34,7 +34,7 @@ English translation of the Cubism For Fun article:
 
 ### John White
 
-One of the earliest known people to have been capable of solving the cube blindfolded is John White. In Cubic Circular, David Singmaster reported three separate times on White’s ability to solve the cube without looking [4, 5, 6]. These reports started in late 1981, making White the earliest known blindfold solver.
+The earliest person known to have been capable of solving the cube blindfolded is John White. In Cubic Circular, David Singmaster reported three separate times on White’s ability to solve the cube without looking [4, 5, 6]. These reports started in late 1981.
 
 Cubic Circular Issue 1:
 
@@ -79,11 +79,11 @@ images={[
 
 ## First Multi-Blind Solvers
 
-Around the same time that blindfold solving started to gain popularity, multi-blind was also being practiced. The first recorded person to have memorized and blindfold solved more than one cube in a single session is Geir Ugelstad in 1998. Soon after others followed, continually increasing the number solved. A history of a record of the most cubes solved can be viewed on recordholders.org [12]. This is a site created by Ralf Lau, one of the early multi-blind unofficial record holders.
+Around the same time that blindfold solving started to gain popularity, multi-blind was also being practiced. The first recorded person to have memorized and blindfold solved more than one cube in a single session is Geir Ugelstad in 1998. Soon after, others followed, continually increasing the number solved. A history of a record of the most cubes solved can be viewed on recordholders.org [12]. This is a site created by Ralf Lau, one of the early multi-blind unofficial record holders.
 
 ![](img/BlindfoldSolvingOrigins/MultiBLDRecords.png)
 
-There were others who were able to solve more than one cube at in succession. Notably Richard Carr is missing from the record list. In August 2002, Carr posted that he had solved four cubes blindfolded in a total time of two hours including memorization [13]. Carr also mentions his multi-blind achievements on his page hosted on Jessica Fridrich’s website [14].
+There were others who were able to solve more than one cube in succession. Notably Richard Carr is missing from the record list. In August 2002, Carr posted that he had solved four cubes blindfolded in a total time of two hours including memorization [13]. Carr also mentions his multi-blind achievements on his page hosted on Jessica Fridrich’s website [14].
 
 ![](img/BlindfoldSolvingOrigins/Carr1.png)
 
@@ -145,7 +145,7 @@ Knights later added a description of the method to his website [22].
 
 ### Richard Carr
 
-In the early 2000s, Richard Carr began discussing his method with the Speed Solving Rubik’s Cube Yahoo group. Eventually Jessica Fridrich started hosting some of his webpages on her website. Carr’s solving process is described on three different pages [23, 24, 25]. This method is sort of the opposite of Dan Knights’ method in that pieces are oriented then permuted versus permutation coming first. The steps of the method as listed in the PDF:
+In the early 2000s, Richard Carr began discussing his method with the Speed Solving Rubik’s Cube Yahoo group. Eventually Jessica Fridrich started hosting some of his webpages on her website. Carr’s solving process is described on three different pages [23, 24, 25]. This method is sort of the opposite of Dan Knights’ method in that pieces are oriented then permuted. The steps of the method as listed in the PDF:
 
 1. Orient corners
 2. Orient edges
@@ -181,7 +181,7 @@ On December 1 2002, Grant Tregay created a webpage describing blindfold solving 
 
 ### Stefan Pochmann
 
-In March 2004, Stefan Pochmann published a new blindfold solving method to his website [32, 33]. The method, now called Classic Pochmann, uses a single algorithm the T Permutation PLL algorithm. The advancement provided by Classic Pochmann is the direct solving of pieces, contrasting with the separation of orientation and permutation seen in previous methods. On the webpage for the method, Pochmann stated that the reason for the development of the method was to prove that the cube could be solved blindfolded using just one algorithm. The methods that others had been using typically used involved the use of several algorithms. The method may have also been inspired by a post from Pochmann a couple of weeks prior to the new blindfold method announcement. Pochmann had been experimenting with using a single algorithm to solve CLL and other steps, and later in the post mentioned its application to blindfold solving [34].
+In March 2004, Stefan Pochmann published a new blindfold solving method to his website [32, 33]. The method, now called Classic Pochmann, uses a single algorithm - the T Permutation PLL algorithm. The advancement provided by Classic Pochmann is the direct solving of pieces, contrasting with the separation of orientation and permutation seen in previous methods. On the webpage for the method, Pochmann stated that the reason for the development of the method was to prove that the cube could be solved blindfolded using just one algorithm. The methods that others had been using typically used involved the use of several algorithms. The method may have also been inspired by a post from Pochmann a couple of weeks prior to the new blindfold method announcement. Pochmann had been experimenting with using a single algorithm to solve CLL and other steps, and later in the post mentioned its application to blindfold solving [34].
 
 The webpage also proposes the idea of a zero algorithm method that uses intuitive three cycles, which may be similar to the later developed method called 3-Style. Pochmann states “Actually of course you don't need to know any algorithms if you can invent what you need on the fly, e.g. with simple intuitive commutators doing 3-cycles (that's how I solved the Megaminx blindfolded).”
 
@@ -197,7 +197,7 @@ images={[
 
 ### Hao Cheng, Chris Hardwick, and Daniel Beyer
 
-Following Pochmann’s developments of direct solving pieces, blindfold solvers naturally progressed to direct solving two or more pieces at a time. The idea could already be seen in Pochmann’s use of freestyle 3-cycles in solving the Megaminx, and his subsequent mention of its possible application to 3x3x3 blindfold solving. The use of 3-cycles could also be seen in Chris Hardwick’s big cube blindfold solves [35]. However, for 3x3x3 applications, it wasn’t until around 2006 that the idea received development. In March 2006, 程浩 (Hao Cheng) proposed to the MF8 message board the use of 3-cycles for corners and edges to solve two pieces at a time [36]. Starting around 2007, Hardwick began suggesting that the use of freestyle 3-cycles may have potential when used in 3x3x3 blindfold solving [37]. From around 2008 to 2009 Hardwick and Daniel Beyer developed a complete 3-cycle method for 3x3x3 blindfold solving called BH [38, 39]. The developments by Cheng, Hardwick, and Beyer, laid the foundations for the umbrella method of freestyle blindfold solving.
+Following Pochmann’s developments of direct solving pieces, blindfold solvers naturally progressed to direct solving two or more pieces at a time. The idea could already be seen in Pochmann’s use of freestyle 3-cycles in solving the Megaminx, and his subsequent mention of its possible application to 3x3x3 blindfold solving. The use of 3-cycles could also be seen in Chris Hardwick’s big cube blindfold solves [35]. However, for 3x3x3 applications, it wasn’t until around 2006 that the idea received development. In March 2006, 程浩 (Hao Cheng) proposed to the MF8 message board the use of 3-cycles for corners and edges to solve two pieces at a time [36]. Starting around 2007, Hardwick began suggesting that the use of freestyle 3-cycles may have potential when used in 3x3x3 blindfold solving [37]. From around 2008 to 2009 Hardwick and Daniel Beyer developed a complete 3-cycle method for 3x3x3 blindfold solving called BH [38, 39]. The developments by Cheng, Hardwick, and Beyer laid the foundations for the umbrella method of freestyle blindfold solving.
 
 <ImageCollage
 images={[
