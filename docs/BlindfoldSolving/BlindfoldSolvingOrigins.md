@@ -110,7 +110,7 @@ images={[
 
 ### Jessica Fridrich
 
-The first known online description of the idea of preserving the location of other pieces as a technique for blindfold solving comes from Jessica Fridrich. On March 11 1998, Fridrich responded to a question in the Cube Lovers mailing group about whether blindfold solving is possible. Fridrich suggested that it may be possible to first orient all pieces, preserving their permutation, then permuting all pieces, preserving their orientation [19].
+The first known online description of the idea of preserving the location of other pieces as a technique for blindfold solving comes from Jessica Fridrich. On March 11 1998, Fridrich responded to a question in the Cube Lovers mailing group about whether blindfold solving is possible. Fridrich suggested that it may be possible to first orient all pieces, preserving their permutation, then permute all pieces, preserving their orientation [19].
 
 ![](img/BlindfoldSolvingOrigins/Fridrich.png)
 
