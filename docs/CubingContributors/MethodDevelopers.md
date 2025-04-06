@@ -19,6 +19,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 ## Akkersdijk, Erik
 
 - EG method (Alongside Gunnar Krig)
+- TuRBo
 
 ## (Arc)
 
@@ -55,7 +56,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 ## Beyer, Daniel
 
-- BH (3-style)
+- BH (with Chris Hardwick)
 
 ## Bremer, Hanke
 
@@ -86,6 +87,14 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 ## Callan, Will
 
 - 1LLS / LS (2x2 method and L5C subset)
+
+## Carr, Richard
+
+- Early 3OP developments
+
+## Cheng, Hao
+
+- 3-Style (first known complete 3x3 proposal)
 
 ## Conway, John
 
@@ -173,6 +182,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 - EOLR for the Roux method (independent from Straughan's prior development)
 
+## Gritsenko, Oleg
+
+- Eka-Korbins (With Dmitry Karyakin)
+
 ## Guimond, Gaétan
 
 - Guimond method
@@ -187,7 +200,13 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 - XCross (proposal for CFOP, independent of Anthony Snyder's prior proposal as part of Snyder method 2)
 - XXCross
-- BH (3-Style)
+- BH (with Daniel Beyer)
+- Early 3-Style proposal
+
+## Hayden, Olly
+
+- Pseudo Slotting
+- Early 3OP developments
 
 ## Harris, Dan
 
@@ -245,6 +264,14 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 - JLS
 
+## Karyakin, Dmitry
+
+- Eka-Korbins (With Oleg Gritsenko)
+
+## Knights, Dan
+
+- Early 3OP developments
+
 ## Korick, Stachu
 
 - L2Lk
@@ -277,6 +304,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 ## Makisumi, Shotaro
 
 - MGLS (along with Lucas Garron)
+
+## McGaugh, Bill
+
+- McGaugh blindfold solving method
 
 ## McGruddy, Jacob
 
@@ -313,6 +344,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 - ZZ-Orbit
 
+## Orozco-Casillas, Gabriel Alejandro
+
+- Orozco
+
 ## Orser, David
 
 - Lowercase letters to represent wide turns (first known online publication)
@@ -330,7 +365,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 ## Pochmann, Stefan
 
-- Classic Pochmann 3x3x3 blindfold solving method
+- Classic Pochmann
 - M2/R2
 - RoFL
 
@@ -468,7 +503,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - Triforce method
 - TruSRU method
 - Square-101 method
-- Void Swap BLD method
+- Void Swap
 - EOFE variant for the Nautilus method
 - Twisted CT
 - TDR variant for the Mehta method

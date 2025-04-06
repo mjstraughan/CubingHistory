@@ -1,0 +1,43 @@
+---
+description: History of the Eka-Korbins blindfold solving method for the Rubik's Cube.
+---
+
+import AnimCube from "@site/src/components/AnimCube";
+import ReactPlayer from 'react-player'
+import ImageCollage from '@site/src/components/ImageCollage';
+
+# Eka-Korbins
+
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=B2 L' D2 L2 D2 U' L' R D L D L D F2 R' D U&move={Scramble: B2 L' D2 L2 D2 U' L' R D L D L D F2 R' D U}{Buffer -> UBR -> FLU: R' F l' D2 R U R' D2 R U' x' F' R}R' F l' D2 R U R' D2 R U' x' F' R{Buffer -> FRD -> LFD: R U2 R' DR U2 R' D'}R U2 R' D R U2 R' D'{Buffer -> RBD -> DBL: D' x D2 L U2 L' D2 L U2 r' D}D' x D2 L U2 L' D2 L U2 r' D{Buffer -> FUR -> RUB: F x DL U2 L' D' L U2 r' F}F x D L U2 L' D' L U2 r' F'" width="600px" height="400px" />
+**Example solve from Erik Youri** [1]
+
+## Description
+
+**Creator:** [Dmitry Karyakin](CubingContributors/MethodDevelopers.md#karyakin-dmitry), [Oleg Gritsenko](CubingContributors/MethodDevelopers.md#gritsenko-oleg)
+
+**Created:** 2011
+
+**Steps:**
+
+Set up edges and corners to specific positions to apply a three-cycle algorithm.
+
+[Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php?title=Eka)
+
+## Development
+
+The Eka-Korbins method was originally developed by Dmitry Karyakin in September 2011 and was named Eka after Karyakin’s username - ekaerovets [2]. The method was posted on the Russian site speedcubing.ru. This original post included an algorithm set for FRD. In October 2011, Oleg Gritsenko developed the algorithms for DFR and RDF, completing the set [3]. It was decided to incorporate Gritsenko’s username Dr.Korbin into the method name to create the Eka-Korbins method.
+
+<ImageCollage
+images={[
+{ src: require("@site/docs/BlindfoldSolving/img/Eka-Korbins/Proposal1.png").default},
+{ src: require("@site/docs/BlindfoldSolving/img/Eka-Korbins/Proposal2.png").default}
+]}
+/>
+
+## References
+
+[1] Youri, "méthode eka-corners 1," 28 May 2017. [Online]. Available: https://twistypuzzles-ru.translate.goog/forum/index.php?topic=994.0&_x_tr_sch=http&_x_tr_sl=auto&_x_tr_tl=fr&_x_tr_hl=fr.
+
+[2] D. Karyakin, "eka-cornesr 1," 23 September 2011. [Online]. Available: https://speedcubing.ru/forum/index.php?topic=53.0.
+
+[3] O. Gritsenko, "eka-korbins," 26 October 2011. [Online]. Available: https://speedcubing.ru/forum/index.php?topic=281.0.
