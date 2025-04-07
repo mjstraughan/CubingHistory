@@ -19,8 +19,8 @@ import ImageCollage from '@site/src/components/ImageCollage';
 
 **Steps:**
 
-Corners: Solve two corners at once by setting them up at ULB and URF, perform a cycle algorithm, then undo the setup moves.
-Edges: Solve two edges at once by setting them up at UL and UR, perform a cycle algorithm, then undo the setup moves.
+- Corners: Solve two corners at once by setting them up to ULB and URF, perform a cycle algorithm, then undo the setup moves.
+- Edges: Solve two edges at once by setting them up to UL and UR, perform a cycle algorithm, then undo the setup moves.
 
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php?title=TuRBo)
 
@@ -37,7 +37,7 @@ images={[
 ]}
 />
 
-The TuRBo method had a good amount of popularity for several years. Because of the simplicity it was often recommended to blindfold solving newcomers.
+The TuRBo method maintained a relatively large amount of popularity for several years in the community. Because of the simplicity it was often recommended to blindfold solving newcomers.
 
 <ImageCollage
 images={[

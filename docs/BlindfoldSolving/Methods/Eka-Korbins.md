@@ -19,7 +19,7 @@ import ImageCollage from '@site/src/components/ImageCollage';
 
 **Steps:**
 
-Set up edges and corners to specific positions to apply a three-cycle algorithm.
+With ULB as the buffer, solve corners using 3-cycles after setting up the first target corner into the DFR position in any orientation.
 
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php?title=Eka)
 

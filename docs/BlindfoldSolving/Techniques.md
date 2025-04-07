@@ -20,7 +20,7 @@ If the buffer piece happens to become solved during a blindfold solve, the basic
 
 ### Origin
 
-In blindfold solving, it sometimes occurs that the buffer piece becomes solved. To deal with this issue, people used to unsolve the piece, which is called “breaking into a new cycle”. In the late 2000s a new technique started being used, called floating buffers. In this technique, instead of unsolving the buffer piece, the solver sets a new piece as the buffer position. Before this technique was introduced, Chris Hardwick had been using a related idea. If the buffer piece was solved in the current scramble, Hardwick would choose a different piece to become the buffer position. This becomes sort of a “starting floating buffer” technique [1, 2, 3].
+In blindfold solving, it sometimes occurs that the buffer piece becomes solved. To deal with this issue, people used to unsolve the piece, which is called “breaking into a new cycle”. In the late 2000s a new technique emerged, called floating buffers. With floating buffers, instead of unsolving the buffer piece, the solver sets a new piece as the buffer position and continues the solve from that point. Before this technique was introduced, Chris Hardwick had been using a related idea at the start of solves. If the buffer piece was solved in the current scramble, Hardwick would choose a different piece to become the buffer position. This becomes sort of a “starting floating buffer” technique [1, 2, 3].
 
 <ImageCollage
 images={[
@@ -30,7 +30,7 @@ images={[
 ]}
 />
 
-Soon after BH and 3-Style started gaining popularity, some in the community weren’t sure what they are supposed to do if their buffer piece gets solved at some point in the solve. At the time, the answer was to break into a new cycle by unsolving the solved piece. However, some questioned the efficiency of unsolving pieces [4, 5, 6]. This eventually led to a new line of thinking and the idea of switching to the use of a new buffer if the current one becomes solved [7]. Due to the mentioned confusion as to how to handle a solved buffer piece, some, such as Rowe Hessler and Gianfranco Huanqui, even assumed from the start that they were supposed to switch to a new buffer position [8, 9]. The first known video recorded use of this technique in competition is by Rowe Hessler in 2008 [10].
+Soon after BH and 3-Style started gaining popularity, some in the community weren’t sure what they were supposed to do if their buffer piece gets solved at some point in the solve. At the time, the answer was to break into a new cycle by unsolving the solved piece. However, some questioned the efficiency of unsolving pieces [4, 5, 6]. This eventually led to a new line of thinking and the idea of switching to the use of a new buffer if the current one becomes solved [7]. Due to the mentioned confusion as to how to handle a solved buffer piece, some, such as Rowe Hessler and Gianfranco Huanqui, even assumed from the start that they were supposed to switch to a new buffer position [8, 9]. The first known video recorded use of this technique in competition is by Rowe Hessler in 2008 [10].
 
 <ImageCollage
 images={[
@@ -87,7 +87,7 @@ Occasionally there will be two misoriented corners remaining after having solved
 
 ### Origin
 
-On August 20, 2016, Jack Cai posted a message to the SpeedSolving.com forums asking about solves when the ending consists of solving the last corner target then handling two misoriented corners [16]. Cai questioned if there was a way to simultaneously solve both sub-steps. This is likely the beginning of the development of what is now known as Last Target Corner Twist, or LTCT. In April 2019 Cai developed a spreadsheet containing algorithms covering two buffers – UFR and Cai’s previous primary buffer of UBR [17]. Two months later, in June 2019, Masato Fujiwara developed a more comprehensive list of algorithms that included all target locations [18]. Another list, based on Fujiwara’s, was created in 2020 by Philip Maxwell and included additional information, color coding for better legibility, and recommended algorithm execution grips [19]. In 2022, Andy Wong further optimized the algorithm set and added it to a fork of Tao Yu’s algorithm trainer [20].
+On August 20, 2016, Jack Cai posted a message to the SpeedSolving.com forum asking about solves when the ending consists of solving the last corner target then handling two misoriented corners [16]. Cai questioned if there was a way to simultaneously solve both sub-steps. This is likely the beginning of the development of what is now known as Last Target Corner Twist, or LTCT. In April 2019 Cai developed a spreadsheet containing algorithms covering two buffers – UFR and Cai’s previous primary buffer of UBR [17]. Two months later, in June 2019, Masato Fujiwara developed a more comprehensive list of algorithms that included all target locations [18]. Another list, based on Fujiwara’s, was created in 2020 by Philip Maxwell and included additional information, color coding for better legibility, and recommended algorithm execution grips [19]. In 2022, Andy Wong further optimized the algorithm set and added it to a fork of Tao Yu’s algorithm trainer [20].
 
 ![](img/Techniques/Cai.png)
 <ImageCollage
@@ -119,7 +119,7 @@ After having performed many blindfold solves, Andy Wong noticed that a notable p
 
 However, at the time of the proposal of T2C, some other existing advanced techniques hadn’t yet seen widespread use, leading T2C to wait in line for adoption. After seeing that LTCT had started to gain interest from blindfold solvers around 2022, Wong further built upon previous LTCT developments by creating new algorithms and adding them to an algorithm trainer [20]. This then led Wong to take another look at T2C. Working with Elliott Kobelansky, a name for the algorithm set was discussed. Originally it was referred to as “buffer twisted LTCT”. Wong eventually suggested the name T2C, with the T referencing the twisted buffer and 2C taken from the corner swap in the blindfold solving term 2c2c.
 
-In June of 2022, Wong and Kobelansky started development on T2C, together devising a recognition system and an associated case categorization. Algorithms for the set were generated by Wong, with some assistance by Kobelansky. The final document containing the T2C developments were released to the public in October 2022 [22]. In July 2022, in the midst of development, T2C was presented during a seminar at the NAC 2022 competition [23]. This was likely the first public mention of T2C.
+In June of 2022, Wong and Kobelansky started development on T2C, together devising a recognition system and an associated case categorization. Algorithms for the set were generated by Wong, with some assistance from Kobelansky. The final document containing the T2C developments were released to the public in October 2022 [22]. In July 2022, in the midst of development, T2C was presented during a seminar at the NAC 2022 competition [23]. This was likely the first public mention of T2C.
 
 ![](img/Techniques/Wong.png)
 ![](img/Techniques/T2C.png)
@@ -138,11 +138,11 @@ The history of T2C was provided in a personal message by Andy Wong.
 
 ## Parity
 
-In the earlier years of blindfold solving, the typical strategy used to solve parity was to start by solving the last target. Then, after the last target has been solved, setups and commutators were used to solve the parity. This still holds true for the basic forms of blindfold solving methods. However, advancements have been created to better handle parity situations.
+In the earlier years of blindfold solving, the typical strategy used to solve parity was to start by solving the last target. Then, after the last target was solved, setups and commutators were used to solve the parity. This still holds true for the basic forms of blindfold solving methods. However, advancements have been created to better handle parity situations.
 
 ### Memo Swap / Pseudo Swap
 
-The most common way of solving parity is to use a technique called “memo swap” or “pseudo swap”. Using this technique, instead of separately solving the final target and solving parity, the parity solving is built into the final piece target. The final target is solved while positioning the piece currently in the target position to the UR position. For edges this creates a cycle of UF > Target > UR if using UF as the buffer position. Solvers typically memorize the corners first then, if parity exists, the edges are memorized and solved set up to a UF and UR edge swap. It is unknown from where the technique originated, but it has been used at least as far back as 2012, as shown by its use by Noah Arthurs in a tutorial video [24].
+The most common way of solving parity is to use a technique called “memo swap” or “pseudo swap”. Using this technique, instead of separately solving the final target and solving parity, the parity solving is built into the final piece target. The final target is solved while positioning the piece currently in the target position to the UR position. For edges this creates a cycle of UF > Target > UR if using UF as the buffer position. Solvers typically memorize the corners first then, if parity exists, the edges are memorized and solved to have the UF and UR edges swapped. It is unknown from where the technique originated, but it has been used at least as far back as 2012, as shown by its use by Noah Arthurs in a tutorial video [24].
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe loading="lazy" width="100%" height="100%"
@@ -171,8 +171,6 @@ Aside from the M slice, slice turns weren’t always in heavy use during blindfo
 </div>
 
 ## References
-
-References
 
 [1] C. Hardwick, "Re: 4x4 edges - time ?," Blindfold Solving Rubik's Cube Yahoo! Group, 16 December 2005. [Online].
 

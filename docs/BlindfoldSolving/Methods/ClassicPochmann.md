@@ -47,7 +47,7 @@ images={[
 
 ## Memorization
 
-Pochmann also described memorization processes within the method tutorial [4]. Many previous blindfold solving guides assigned numbers to a piece’s orientation and permutation and the number strings were memorized. Pochmann provided two new ways to memorize the solve – the story method and the memory palace technique. In addition to the two memorization techniques, Pochmann advised for memorizing the solving path of the pieces rather than the piece states.
+Pochmann also described memorization processes within the method tutorial [4]. Many previous blindfold solving guides assigned numbers to a piece’s orientation and permutation and the number strings were memorized. Pochmann provided two new ways to memorize the solve – the story method and the memory palace technique. In addition to the two memorization techniques, Pochmann advocated for memorizing the solving path of the pieces rather than the piece states.
 
 ![](../img/ClassicPochmann/Memorization.png)
 
