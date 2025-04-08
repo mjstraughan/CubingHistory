@@ -272,6 +272,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 - Early 3OP developments
 
+## Kobelansky, Elliott
+
+- Assisted Andy Wong with T2C development.
+
 ## Korick, Stachu
 
 - L2Lk
@@ -541,6 +545,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 ## Winter, Lucas
 
 - Winter Variation
+
+## Wong, Andy
+
+- T2C (with assistance from Elliott Kobelansky)
 
 ## Wong, Jason
 
