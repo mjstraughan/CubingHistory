@@ -83,7 +83,7 @@ The competition was held on November 3, 1981 and the results of the competition 
 
 Petrus described an interesting coincidence related to the main story on the front page of the newspaper [1]:
 
-> I’m on the front page! If a Soviet submarine with nuclear weapons hadn’t crashed into the Swedish coast maybe I’d have topped it. Crazy story: A few days earlier I was invited as one of two guests on a current affairs TV show. The other guest was the Swedish foreign minister discussing the risk of war with Russia. I’m glad he did most of the talking…
+> I’m on the front page! If a Soviet submarine with nuclear weapons hadn’t crashed into the Swedish coast maybe I’d have topped it. Crazy story: A few days [later] I was invited as one of two guests on a current affairs TV show. The other guest was the Swedish foreign minister discussing the risk of war with Russia. I’m glad he did most of the talking…
 
 <ImageCollage
 images={[
@@ -96,7 +96,14 @@ images={[
 
 ## World Rubik's Cube Championship 1982
 
-Lars Petrus used the method in the World Rubik's Cube Championship 1982 [11]. The final solve time was 24.57, ranking Petrus in fourth place.
+Thanks to winning the Swedish Championship, Petrus was qualified and invited as a contestant in the World Rubik’s Cube Championship 1982. Before the competition, Aftonbladet again interviewed Petrus, asking how he feels and about his practice regimen [11]. Petrus stated that he was now able to each day solve under his previous best of 27 seconds, and that his new personal record was 22.41 seconds. Petrus achieved a final solve time of 24.57 seconds at the 1982 championship, ranking him in fourth place [12]. The day after the championship, on June 6, 1982, Aftonbladet published another interview with Petrus, congratulating him on his fourth place finish [13].
+
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/Petrus/WC1982Aftonbladet.jpg").default},
+{ src: require("@site/docs/3x3/Methods/img/Petrus/WC1982Lars.jpg").default}
+]}
+/>
 
 ![](img/Petrus/WRC1982.png)
 ![](img/Petrus/WRC1982-2.png)
@@ -108,22 +115,30 @@ This comes from the Cubic Circular newsletter where David Singmaster described t
 
 ## Edge Orientation Rotation
 
-The method as taught by Petrus doesn't include a rotation for edge orientation [12].
+There is a common debate in the community as to the best way to handle edge orientation – rotating to place the 2x2x3 block at db then using `U, R, L, M, F`, or to keep the block at dl and use `U, R, F, f, S`. It is often stated that a weakness is the built-in rotation if orienting edges with the block at db. However, it is important to note that the Petrus method doesn’t naturally include a specific rotation just for the edge orientation step. Petrus himself solves the 2x2x3 block and edge orientation with rotations used at any point for ergonomics reasons, then keeps the block at dr while solving the first two layers with the U and L layers free to turn [1].
+
+> I rotate when I feel like it, basically. Once the 2x2x3 is finished I hold that block with my right hand, and turn the two free sides (U & L) I suppose) mostly with the left. Algs that need more sides I do in whatever way I learned them.
+
+The website for the method also doesn't suggest any particular rotation for edge orientation. Instead, it uses applets set up to an angle that makes all turns visible and displays an animation of the required turns to orient the edges [14].
 
 ![](img/Petrus/EORotation.png)
 
-It seems that having the 2x2x3 block at db during the edge orientation process is a creation of the online community. The earliest known mention of rotating the cube to orient the edges comes from Johannes Laire in October 2006 [13, 14].
+It seems that having the 2x2x3 block strictly at db during the edge orientation process is a creation of the online community. The earliest known mention of rotating the block to a set position to orient the edges comes from Johannes Laire in October 2006 [15, 16].
 
 ![](img/Petrus/Laire.png)
 ![](img/Petrus/Laire2.png)
 
-Soon after the messages from Laire, others in the community were stating that they keep the 2x2x3 block at db during the edge orientation process [15].
+Soon after the messages from Laire, others in the community were stating that they keep the 2x2x3 block at db during the edge orientation process [17].
 
 ![](img/Petrus/OtherEO.png)
 
 ## Morwen Thistlethwaite's 2x2x3 Method
 
-In 1979 in David Singmaster's _Notes on Rubik's 'Magic Cube'_, Singmaster describes a method from Morwen Thistlethwaite [16]. It is stated that Thistlethwaite "involves first doing a 2x2x3 block...he then correctly orients all the remaining edges...then positions [the first two layer edges] and then puts [the first two layer corners] correctly in place. He then does the [U layer edges] and [U layer corners]..."
+In 1979 in David Singmaster's _Notes on Rubik's 'Magic Cube'_, Singmaster describes a method from Morwen Thistlethwaite [18]. It is stated that Thistlethwaite’s method "involves first doing a 2x2x3 block...he then correctly orients all the remaining edges...then positions [the first two layer edges] and then puts [the first two layer corners] correctly in place. He then does the [U layer edges] and [U layer corners]..."
+
+## Credit
+
+Thanks to Lars Petrus for providing in a private message a detailed description of the method and several scans.
 
 ## References
 
@@ -147,14 +162,18 @@ In 1979 in David Singmaster's _Notes on Rubik's 'Magic Cube'_, Singmaster descri
 
 [10] B. Willborg, "Grattis Lasse, till det svenska kubrekordet!," Aftonbladet, 4 November 1981.
 
-[11] D. Singmaster, Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm.
+[11] B. Willborg, "HUR KÄNNS DET I DAG?".Aftonbladet.
 
-[12] L. Petrus, "Step 3," Lars Petrus, [Online]. Available: https://lar5.com/cube/fas3_2.html.
+[12] D. Singmaster, Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm.
 
-[13] J. Laire, "Petrus method, and getting it fast," TwistyPuzzles.com, 26 October 2006. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=40293#p40293.
+[13] L. Petrus, "Lars fyra i kub-VM," Aftonbladet, p. 19, 6 June 1982.
 
-[14] J. Laire, "Some videos," TwistyPuzzles.com, 5 April 2007. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=54631#p54631.
+[14] L. Petrus, "Step 3," Lars Petrus, [Online]. Available: https://lar5.com/cube/fas3_2.html.
 
-[15] Various, "Petrus Method," TwistyPuzzles.com, 2007. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=67431p67431.
+[15] J. Laire, "Petrus method, and getting it fast," TwistyPuzzles.com, 26 October 2006. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=40293#p40293.
 
-[16] D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 32.
+[16] J. Laire, "Some videos," TwistyPuzzles.com, 5 April 2007. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=54631#p54631.
+
+[17] Various, "Petrus Method," TwistyPuzzles.com, 2007. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=67431p67431.
+
+[18] D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 32.
