@@ -105,10 +105,10 @@ images={[
 ]}
 />
 
+In the Cubic Circular newsletter, David Singmaster described the championship results and the methods that each competitor used. The description of Petrus' method is slightly different from how we know it today. Instead of only orienting the edges after the 2x2x3 block, it says that Petrus orients the edges then orients the corners before completing F2L and LL. After seeing the Petrus method page on Cubing History and the noting of this conflicting description, Petrus provided a simple explanation: This was likely a misunderstanding when Singmaster was writing the steps as Petrus explained them at the competition. Petrus had likely described the original corner permutation step that occurred after the edge orientation step, and Singmaster either mistakenly wrote “orient” or misunderstood the step.
+
 ![](img/Petrus/WRC1982.png)
 ![](img/Petrus/WRC1982-2.png)
-
-This comes from the Cubic Circular newsletter where David Singmaster described the results and the methods that each competitor used. The description of Petrus' method is slightly different from how we know it today. Instead of only orienting the edges after the 2x2x3 block, it says that Petrus orients the edges then orients the corners before completing F2L and LL. After seeing the Petrus method page on Cubing History and the noting of this conflicting description, Petrus provided a simple explanation: This was likely a misunderstanding when Singmaster was writing the steps as Petrus explained them at the competition. Petrus had likely described the original corner permutation step that occurred after the edge orientation step, and Singmaster either mistakenly wrote “orient” or misunderstood the step.
 
 > NOTE: This probably explains the “Singmaster misunderstanding” on https://www.cubinghistory.com/3x3/Methods/Petrus. I think I tried explaining this history during our brief chat, and it didn’t come across as intended.
 > ~ Lars Petrus

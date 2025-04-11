@@ -84,6 +84,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 - ZBLS (along with Zbigniew Zborowski)
 
+## Cai, Jack
+
+- LTCT
+
 ## Callan, Will
 
 - 1LLS / LS (2x2 method and L5C subset)

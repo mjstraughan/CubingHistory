@@ -154,13 +154,14 @@ The most common way of solving parity is to use a technique called “memo swap�
 
 ### Full Parity
 
-A more advanced technique is to solve parity involving any two final corner and edge targets. Charlie Harrison and James Macdiarmid have developed a document compiling algorithms covering all possible parity situations from the UF and UFR buffers [25]. Huanqui has stated that he once generated all 462 full parity algorithms because he didn’t know that there were simpler techniques for handling those situations [9]. However, no document was ever created by Huanqui [9].
+A more advanced technique is to solve parity involving any two final corner and edge targets. On December 25, 2016, Daniel Lin released a document covering full parity [25]. In September 2022, Charlie Harrison and James Macdiarmid also developed a document containing algorithms for full parity [26]. Huanqui has stated that he once generated all 462 full parity algorithms because he didn’t know that there were simpler techniques for handling those situations [9]. However, no document was ever created by Huanqui [9].
 
+![](img/Techniques/LinParity.png)
 ![](img/Techniques/FullParity.png)
 
 ## Slice Turns
 
-Aside from the M slice, slice turns weren’t always in heavy use during blindfold solving. This is likely because the ergonomics for E and S slice turns hadn’t yet been strenuously tested within blindfold solves. In addition, outer turns were likely considered safer, with less risk of improperly executing the turns. Eventually E and S moves started making their appearance in top level solves, and it is thought that Gianfranco Huanqui popularized the use of E and S turns in blindfold solving [8]. A notable example of slice turn use is the 23.68 world record solve by Marcin Zalewski, which included the use of E slice turns in two of the edge solving targets [26]. Huanqui stated that he saw the use of E slice commutators in Zalewski’s world record solve and was inspired to use it in any situation possible [9]. In addition to implementing E slice moves, Huanqui also started using S slice moves. Huanqui believes that this came about either naturally after having experimented with E slice moves or from discussions with Ishaan Agrawal, who had been using S slice moves at the time [9].
+Aside from the M slice, slice turns weren’t always in heavy use during blindfold solving. This is likely because the ergonomics for E and S slice turns hadn’t yet been strenuously tested within blindfold solves. In addition, outer turns were likely considered safer, with less risk of improperly executing the turns. Eventually E and S moves started making their appearance in top level solves, and it is thought that Gianfranco Huanqui popularized the use of E and S turns in blindfold solving [8]. A notable example of slice turn use is the 23.68 world record solve by Marcin Zalewski, which included the use of E slice turns in two of the edge solving targets [27]. Huanqui stated that he saw the use of E slice commutators in Zalewski’s world record solve and was inspired to use it in any situation possible [9]. In addition to implementing E slice moves, Huanqui also started using S slice moves. Huanqui believes that this came about either naturally after having experimented with E slice moves or from discussions with Ishaan Agrawal, who had been using S slice moves at the time [9].
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe loading="lazy" width="100%" height="100%"
@@ -220,6 +221,8 @@ Aside from the M slice, slice turns weren’t always in heavy use during blindfo
 
 [24] N. Arthurs, "3-Style Tutorial Part 6 of 10: Parity," YouTube.com, 26 December 2012. [Online]. Available: https://www.youtube.com/watch?v=1xGbJ4ic6oE&t=134s.
 
-[25] C. Harrison and J. Macdiarmid, "Full Parity (UF/UFR)," pp. https://docs.google.com/spreadsheets/d/1-87_Wkxg7WTCXvXS52hfhQeXZj17HC-lWnYJf272RYA/edit?gid=942012310#gid=942012310, 18 September 2022.
+[25] D. Lin, "UF/UFR 3-style," 25 December 2016. [Online]. Available: https://docs.google.com/spreadsheets/d/193v89bVv6mdhaYQegbNOvZX9J4JE85z1nhMAzdan6BI/edit?usp=sharing.
 
-[26] M. Zalewski, "Marcin Zalewski 23.68 BLD WR! [ŚLS Chorzów 2014]," YouTube.com, 4 May 2014. [Online]. Available: https://www.youtube.com/watch?v=-QHaiTRec_8.
+[26] C. Harrison and J. Macdiarmid, "Full Parity (UF/UFR)," pp. https://docs.google.com/spreadsheets/d/1-87_Wkxg7WTCXvXS52hfhQeXZj17HC-lWnYJf272RYA/edit?gid=942012310#gid=942012310, 18 September 2022.
+
+[27] M. Zalewski, "Marcin Zalewski 23.68 BLD WR! [ŚLS Chorzów 2014]," YouTube.com, 4 May 2014. [Online]. Available: https://www.youtube.com/watch?v=-QHaiTRec_8.

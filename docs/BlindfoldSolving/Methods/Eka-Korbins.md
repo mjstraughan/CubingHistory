@@ -8,7 +8,7 @@ import ImageCollage from '@site/src/components/ImageCollage';
 
 # Eka-Korbins
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=B2 L' D2 L2 D2 U' L' R D L D L D F2 R' D U&move={Scramble: B2 L' D2 L2 D2 U' L' R D L D L D F2 R' D U}{Buffer -> UBR -> FLU: R' F l' D2 R U R' D2 R U' x' F' R}R' F l' D2 R U R' D2 R U' x' F' R{Buffer -> FRD -> LFD: R U2 R' DR U2 R' D'}R U2 R' D R U2 R' D'{Buffer -> RBD -> DBL: D' x D2 L U2 L' D2 L U2 r' D}D' x D2 L U2 L' D2 L U2 r' D{Buffer -> FUR -> RUB: F x DL U2 L' D' L U2 r' F}F x D L U2 L' D' L U2 r' F'" width="600px" height="400px" />
+<AnimCube params="config=../../ReconstructionConfig.txt&initmove=B2 L' D2 L2 D2 U' L' R D L D L D F2 R' D U&move={Scramble: B2 L' D2 L2 D2 U' L' R D L D L D F2 R' D U}{UBL-UBR-FLU: R' F l' D2 R U R' D2 R U' x' F' R}R' F l' D2 R U R' D2 R U' x' F' R{UBL-FRD-LFD: R U2 R' D R U2 R' D'}R U2 R' D R U2 R' D'{UBL-RBD-DBL: D' x D2 L U2 L' D2 L U2 r' D}D' x D2 L U2 L' D2 L U2 r' D{UBL-FUR-RUB: F x D L U2 L' D' L U2 r' F'}F x D L U2 L' D' L U2 r' F'" width="600px" height="400px" />
 **Example solve from Erik Youri** [1]
 
 ## Description
