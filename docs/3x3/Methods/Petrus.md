@@ -38,25 +38,30 @@ Petrus realized that a problem with the layer by layer methods was that once the
 
 The origins of the method were received from Petrus via private message [1]. The full response is below:
 
-> It must have been around March 1981. The Cube Craze had started sweeping the world, and the students in my Physics Masters program in Uppsala were of course extra susceptible. Cubes were hard to find so when I heard a new shipment had arrived at the toy store, I rushed to buy one.
->
-> It was very early days in cubing, and there was a rumor that no one had solved, and that there might even be a $1M prize for the first solver. Completely untrue, of course, but before the internet, there was no way to check.
->
-> Since AFAIK no one had solved it, I wanted to avoid the layer by layer method that everyone tried. If that worked, it would surely already be solved! My first attempts also showed how clumsy that is, since you have to break that first layer to do anything.
->
-> Having understood that, the natural question to me was: What can I build that doesn’t have to be broken up to move the rest of the pieces? Once you ask the question, the answers are simple: Solving a 2x2x2 block leaves 3 sides to turn freely, and a 2x2x3 block leaves 2 free sides.
->
-> Side note: Gilles Roux many years later used the very similar idea that solving two 1x1x3 blocks leaves 1 free side and 1 free slice!
->
-> The following may be a case of “the older I get, the better I was”, but as I remember it I had that idea figured out in 1-2 hours, I had built 2 full layers at the end of day 1, and I had a full thought out method I could solve with reliably in 10 minutes after about a week.
->
-> At that point I nearly quit. The problem was solved, and there was clearly no $1M reward. But for some reason I just wanted to see how fast I could get. My times never stopped getting better for a year, and then there was a Swedish Championship to think of, and then the World Championship, and here we are.
->
-> My initial method was different from my current method. Steps 1-3 were the same, but steps 4 and 5 were switched. In theory, you can position corners after step 3 in 3-4 moves on average, and I was always very focused on move count. But as I got faster, the time to recognize which corners to swap became too much of a problem, and I switched to the current method. It's possible some smart way could be created to do my old idea much better.
->
-> After that my method improved mostly by me learning more LL algs, and recognizing what combination best solved each individual LL case. I guess the rest is known history.
->
-> SIDE NOTE: One thing people are (IMHO) overly impressed by is how I could find/invent all those LL algs. It’s really simple: On a cube with 2 solved layers, move a corner/edge pair up to the top layer, move it around, and then put it back. Doing this, you will immediately discover Sune. Using 2 pairs, Niklas is obvious. Those 2 is how I did steps 5-7 at first (you can permute edges with two Sunes). If you keep playing around with this strategy, you’ll find a lot of simple LL algs.
+<details>
+  <summary>Origin Story by Lars Petrus</summary>
+
+It must have been around March 1981. The Cube Craze had started sweeping the world, and the students in my Physics Masters program in Uppsala were of course extra susceptible. Cubes were hard to find so when I heard a new shipment had arrived at the toy store, I rushed to buy one.
+
+It was very early days in cubing, and there was a rumor that no one had solved, and that there might even be a $1M prize for the first solver. Completely untrue, of course, but before the internet, there was no way to check.
+
+Since AFAIK no one had solved it, I wanted to avoid the layer by layer method that everyone tried. If that worked, it would surely already be solved! My first attempts also showed how clumsy that is, since you have to break that first layer to do anything.
+
+Having understood that, the natural question to me was: What can I build that doesn’t have to be broken up to move the rest of the pieces? Once you ask the question, the answers are simple: Solving a 2x2x2 block leaves 3 sides to turn freely, and a 2x2x3 block leaves 2 free sides.
+
+Side note: Gilles Roux many years later used the very similar idea that solving two 1x1x3 blocks leaves 1 free side and 1 free slice!
+
+The following may be a case of “the older I get, the better I was”, but as I remember it I had that idea figured out in 1-2 hours, I had built 2 full layers at the end of day 1, and I had a full thought out method I could solve with reliably in 10 minutes after about a week.
+
+At that point I nearly quit. The problem was solved, and there was clearly no $1M reward. But for some reason I just wanted to see how fast I could get. My times never stopped getting better for a year, and then there was a Swedish Championship to think of, and then the World Championship, and here we are.
+
+My initial method was different from my current method. Steps 1-3 were the same, but steps 4 and 5 were switched. In theory, you can position corners after step 3 in 3-4 moves on average, and I was always very focused on move count. But as I got faster, the time to recognize which corners to swap became too much of a problem, and I switched to the current method. It's possible some smart way could be created to do my old idea much better.
+
+After that my method improved mostly by me learning more LL algs, and recognizing what combination best solved each individual LL case. I guess the rest is known history.
+
+SIDE NOTE: One thing people are (IMHO) overly impressed by is how I could find/invent all those LL algs. It’s really simple: On a cube with 2 solved layers, move a corner/edge pair up to the top layer, move it around, and then put it back. Doing this, you will immediately discover Sune. Using 2 pairs, Niklas is obvious. Those 2 is how I did steps 5-7 at first (you can permute edges with two Sunes). If you keep playing around with this strategy, you’ll find a lot of simple LL algs.
+
+</details>
 
 Petrus has described the thought process behind the method during other instances in the past. Once in 1996 in the Cube Lovers mailing group and again on the Speed Solving Rubik’s Cube Yahoo! group [2, 3].
 
