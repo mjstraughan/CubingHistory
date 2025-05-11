@@ -11,7 +11,9 @@ import ImageCollage from '@site/src/components/ImageCollage';
 
 Rubik’s Cube has made an incredible impact upon the world, spawning not only a new craze, but an entirely new category of puzzles called Twisty Puzzles. Before the 3x3x3 puzzle was patented by Ernő Rubik, there were other shape or sliding based puzzles that maintained a high level of popularity. Rubik himself states that many of these are related or were direct influences upon his design. There were also designs patented or demonstrated that resembled Rubik's Cube before the patent by Rubik.
 
-## 15 Puzzle
+## Pre Rubik’s Cube
+
+### 15 Puzzle
 
 The 15 puzzle is often regarded as the predecessor to Rubik's Cube. Rubik's Cube allows for movement of its individual pieces because of a layer's freedom to rotate around the surface of the two layers below it. The 15 puzzle is instead two dimensional and the pieces move around within the single plane.
 
@@ -86,7 +88,7 @@ Rubik points out another cube shaped puzzle called MacMahon's Cubes. In this puz
 
 A final puzzle mentioned by Rubik is the 15 puzzle. Known worldwide, the 15 puzzle can be compared to a two-dimensional version of Rubik's Cube. Pieces are rotated and positioned along a two-dimensional plane. In order to distinguish each piece, like the colors of Rubik's Cube, numbers from 1-15 are applied.
 
-## Idea and Prototypes
+## Prototypes
 
 Rubik continues by describing the formation of the idea of Rubik's Cube. Rubik had been experimenting with the construction of three-dimensional geometric shapes. Rubik thought it was interesting that, after assembling eight cubes to form a 2x2x2 cube, each side of this new cube could be turned along three different axes.
 
