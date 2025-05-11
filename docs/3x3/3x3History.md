@@ -59,7 +59,7 @@ Later in the patent description, Fox details that one possible production of the
 
 ![](img/History/Fox.png)
 
-### Pyraminx (1970 - 1981)
+### Pyraminx
 
 In 1970, Uwe Meffert designed the Pyraminx puzzle [6]. In the early 1970s, Meffert was studying the effects that various shapes have on the energy field of the human body. He had been trying to prove that the pyramid shape had no difference in energy properties when compared to the other shapes. It was during this line of work that the idea for the Pyraminx occurred to Meffert.
 
@@ -117,6 +117,10 @@ images={[
 />
 
 Images from [Liberty Science Center](https://lsc.org/news-and-social/news/beyond-rubiks-cube-day-24-production-prototype-cube) and [San Antonio Express-News](https://www.expressnews.com/entertainment/arts-culture/article/Beyond-Rubik-s-Cube-exhibit-brightens-up-the-6879799.php)
+
+![](img/History/ErnoHoldingCube.png)
+
+Image from [Ton Dennenbroek](https://www.speedcubing.com/ton/rubik's.htm)
 
 ## Introduction of Rubik's Cube
 
