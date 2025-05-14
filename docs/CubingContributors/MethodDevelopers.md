@@ -166,6 +166,11 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - TCMLL algorithms
 - NLL for the HD method
 
+## Ghodgaonkar, Abhijeeet
+
+- UF5 development
+- Yo notation
+
 ## Goljan, Mirek
 
 - OLL (independent in the same year as Hans Dockhorn and Anneke Treep's development)

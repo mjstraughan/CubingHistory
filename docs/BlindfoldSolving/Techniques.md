@@ -159,9 +159,20 @@ A more advanced technique is to solve parity involving any two final corner and 
 ![](img/Techniques/LinParity.png)
 ![](img/Techniques/FullParity.png)
 
+## Speffz Lettering Scheme
+
+In November 2010 in a community internet relay chat room, Rob Holt expressed dissatisfaction with referring to pieces using their layer combinations. Holt then suggested the idea of creating a standard lettering scheme that assigns a single letter to each sticker. Ville Seppänen responded in agreement. Holt then decided to create a thread on SpeedSolving.com to discuss the idea and included an initial scheme proposal [27]. Several members of the community provided their opinions and eventually settled on a final lettering scheme that was similar to the initial proposal [28]. The name Speffz was chosen as a combination of Seppänen’s username “Spef” and Holt’s username “riffz”.
+
+<ImageCollage
+images={[
+{ src: require("@site/docs/BlindfoldSolving/img/Techniques/Speffz1.png").default},
+{ src: require("@site/docs/BlindfoldSolving/img/Techniques/Speffz2.png").default}
+]}
+/>
+
 ## Slice Turns
 
-Aside from the M slice, slice turns weren’t always in heavy use during blindfold solving. This is likely because the ergonomics for E and S slice turns hadn’t yet been strenuously tested within blindfold solves. In addition, outer turns were likely considered safer, with less risk of improperly executing the turns. Eventually E and S moves started making their appearance in top level solves, and it is thought that Gianfranco Huanqui popularized the use of E and S turns in blindfold solving [8]. A notable example of slice turn use is the 23.68 world record solve by Marcin Zalewski, which included the use of E slice turns in two of the edge solving targets [27]. Huanqui stated that he saw the use of E slice commutators in Zalewski’s world record solve and was inspired to use it in any situation possible [9]. In addition to implementing E slice moves, Huanqui also started using S slice moves. Huanqui believes that this came about either naturally after having experimented with E slice moves or from discussions with Ishaan Agrawal, who had been using S slice moves at the time [9].
+Aside from the M slice, slice turns weren’t always in heavy use during blindfold solving. This is likely because the ergonomics for E and S slice turns hadn’t yet been strenuously tested within blindfold solves. In addition, outer turns were likely considered safer, with less risk of improperly executing the turns. Eventually E and S moves started making their appearance in top level solves, and it is thought that Gianfranco Huanqui popularized the use of E and S turns in blindfold solving [8]. A notable example of slice turn use is the 23.68 world record solve by Marcin Zalewski, which included the use of E slice turns in two of the edge solving targets [29]. Huanqui stated that he saw the use of E slice commutators in Zalewski’s world record solve and was inspired to use it in any situation possible [9]. In addition to implementing E slice moves, Huanqui also started using S slice moves. Huanqui believes that this came about either naturally after having experimented with E slice moves or from discussions with Ishaan Agrawal, who had been using S slice moves at the time [9].
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe loading="lazy" width="100%" height="100%"
@@ -212,7 +223,6 @@ Aside from the M slice, slice turns weren’t always in heavy use during blindfo
 [19] P. Maxwell, "LTCT/Parity + Twist (All)," 1 October 2020. [Online]. Available: https://docs.google.com/spreadsheets/d/1NXmym7wmEVmTCD_E1CqlDWg-HcgfnLZMTK2nvU4wfZw/edit?usp=sharing.
 
 [20] A. Wong, Fork of Train Yu Program, May 2022. [Online]. Available: https://awynndgo.github.io/Alg-Trainer/.
-
 [21] A. Wong, Personal Communication, 22 January 2021. [Online].
 
 [22] A. Wong and E. Kobelansky, "t2c," 1 October 2022. [Online]. Available: https://docs.google.com/spreadsheets/d/1HF4iCgsh_8Hmq3Py2ZZ-b2bcw_3fzsAAZMWH6bje4IM/edit?gid=987955712#gid=987955712.
@@ -225,4 +235,8 @@ Aside from the M slice, slice turns weren’t always in heavy use during blindfo
 
 [26] C. Harrison and J. Macdiarmid, "Full Parity (UF/UFR)," pp. https://docs.google.com/spreadsheets/d/1-87_Wkxg7WTCXvXS52hfhQeXZj17HC-lWnYJf272RYA/edit?gid=942012310#gid=942012310, 18 September 2022.
 
-[27] M. Zalewski, "Marcin Zalewski 23.68 BLD WR! [ŚLS Chorzów 2014]," YouTube.com, 4 May 2014. [Online]. Available: https://www.youtube.com/watch?v=-QHaiTRec_8.
+[27] R. Holt and V. Seppänen, "Standard Lettering Scheme for Reference," SpeedSolving.com, 17 November 2010. [Online]. Available: https://www.speedsolving.com/threads/standard-lettering-scheme-for-reference.25582/.
+
+[28] R. Holt, "Standard Lettering Scheme for Reference," SpeedSolving.com, 18 November 2010. [Online]. Available: https://www.speedsolving.com/threads/standard-lettering-scheme-for-reference.25582/page-2#post-487731.
+
+[29] M. Zalewski, "Marcin Zalewski 23.68 BLD WR! [ŚLS Chorzów 2014]," YouTube.com, 4 May 2014. [Online]. Available: https://www.youtube.com/watch?v=-QHaiTRec_8.
