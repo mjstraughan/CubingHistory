@@ -1,4 +1,14 @@
+---
+description: History of the Roux method for the Rubik's Cube.
+---
+
+import AnimCube from "@site/src/components/AnimCube";
+import ReactPlayer from 'react-player'
+import ImageCollage from '@site/src/components/ImageCollage';
+
 # Roux
+
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ydydydydywwwdwdwwwbbbdbdbbbgggdgdgggodooooooorrrdrrrrr" width="400px" height="400px" />
 
 ## Description
 

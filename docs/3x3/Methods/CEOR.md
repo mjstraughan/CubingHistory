@@ -2,7 +2,11 @@
 description: History of the CEOR method for the Rubik's Cube.
 ---
 
+import AnimCube from "@site/src/components/AnimCube";
+
 # CEOR
+
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=llllyllllwwwwwwllllbbdbblllllldgglggldlooooooldldrdldl" width="400px" height="400px" />
 
 ## Description
 
@@ -69,20 +73,34 @@ The inspiration for Briggs' idea appears to have been a post from Kole Hedrick [
 
 ### Zbigniew Zborowski
 
-In August, 2017 Zbigniew Zborowski proposed a method named C2GR [12, 13]. This method contains the same steps as Arthurs and Briggs had previously proposed.
+In August, 2017 Zbigniew Zborowski proposed a method named C2GR [12, 13]. This method contains the same steps as Arthurs and Briggs had previously proposed. During an email exchange between Zborowski and Michael James Straughan, Zborowski stated that he had been considering the idea since 2006, and that he has switched to this method and no longer uses the ZZ method [14]:
+
+> Maybe you know or not, but I am not using this system any more. During my "carier" I was looking for the system, that will be most ergonomic to achive best times in speedcubing. Since about 8 years I try my new system, which I called c2gr (complex two move generator reduction method). I was thinking about such a possibility (of permuting all corners in preinspection time) since 2006 (or even earlier). Below are the steps of my new system:
+>
+> 1 step. (in preinspection) I permute all corners and make line at bottom-left (1x1x3) - after this step I use only extended 2-move-generation moves, I mean U,u,R,r.
+>
+> 2 step. I orient all edges and complete bottom-left block (2x2x3) - after this step I need classic 2-move-generation moves, I mean U,R.
+>
+> 3 step. I finish F2L (2x3x3) - all edges are oriented and all corners are permuted - the number of LL situations is pretty much limited.
+>
+> 4 step. I solve the LL with one alg, of course.
+>
+> I think now (after these 8 years) that this is not a good choice for speedcubing, but it does not matter to me - now this is only a hobby for me ;)
+>
+> Additionally last year I prepared sollutions (with my own program) for LL situations using only (anti)sunes algs.
 
 ![](img/CEOR/C2GR1.png)
 ![](img/CEOR/C2GR2.png)
 
 ### Yash Mehta
 
-In April, 2020 Yash Mehta proposed a method named YruRU that contained the same steps that Arthurs, Briggs, and Zborowski had previously proposed [14]. A new corner permutation recognition system was included. This was the major turning point for the method. When promoted by Noah Arthurs in 2013 and by Joseph Briggs in 2015, the idea gained some interest from the community and the proposals were likely influential upon future related methods. However, the method didn't catch on and didn't gain users.
+In April, 2020 Yash Mehta proposed a method named YruRU that contained the same steps that Arthurs, Briggs, and Zborowski had previously proposed [15]. A new corner permutation recognition system was included. This was the major turning point for the method. When promoted by Noah Arthurs in 2013 and by Joseph Briggs in 2015, the idea gained some interest from the community and the proposals were likely influential upon future related methods. However, the method didn't catch on and didn't gain users.
 
 When Mehta proposed the method as YruRU in 2020, the idea finally took off thanks to three key factors. The first contributing factor is that, in contrast with prior proposals, a complete recognition method for the early corner permutation step was included in the original post and a guide website was developed. Without an easy way to recognize the corner permutation state, the earlier proposals left potential solvers without a good way to use the method. It can be pointed out that the 2GR method included a recognition method and a guide website in 2017. Although the early corner permutation recognition method used in 2GR was also applicable to CEOR, it was being promoted for a different method, 2GR. In addition, the 2GR method didn't receive enough promotion or enough interest to motivate the community to apply it to CEOR.
 
 Promotion becomes the second major factor in CEOR gaining popularity following the re-proposal in 2020. Mehta titled the speedsolving.com thread _Roux-breaker? The YruRU method_ and included a couple of comparisons with the Roux method within the thread content. The suggestion was that CEOR has potential to perform better in one handed solving than Roux, which is currently perceived as the best performing method for one handed solving. This inevitably led to arguments within the thread about which method has the most potential and even whether CEOR should be compared with Roux.
 
-The arguments within the thread weren't limited to the potential of the method. The third factor that contributed to the thread gaining attention was that many in the community were aware of the previous proposals of the same set of steps by Arthurs, Briggs, Zborowski, and others. This created an argument about who should be credited with the method idea. Mehta and others argued that because the early corner permutation recognition system was new and because more effort was placed into development and confidence into the promotion, the idea should go to Mehta. The other side argued that the steps are the same, that a new recognition method for a step doesn't change the name of a method, and that Briggs and others had put effort into promotion. The two sides in the arguments didn't come to an agreement at the time and promotion continued under the YruRU name.
+The arguments within the thread weren't limited to the potential of the method. The third factor that contributed to the thread gaining attention was that many in the community were aware of the previous proposals of the same set of steps by Arthurs, Briggs, Zborowski, and others. This created an argument about who should be credited with the method idea. Mehta and others argued that because the early corner permutation recognition system was new and because more effort was placed into development and confidence into the promotion, the idea should go to Mehta. The other side argued that the steps are the same, that a new recognition method for a step doesn't change the name of a method, and that Briggs and others had put effort into promotion. The two sides in the arguments didn't come to an agreement at the time and promotion continued under the YruRu name.
 
 Despite the arguments, or because of them, the method continued on to finally gain users. Mehta's promotion of the complete, usable method allowed for interest to turn into users and for those unaware of the previous proposals to learn of the existence and potential of the idea.
 
@@ -90,7 +108,7 @@ Despite the arguments, or because of them, the method continued on to finally ga
 
 ## Method Combination and Name
 
-In December 2021, James Straughan proposed ending the method credit argument by combining all of the similar methods into one with a single name [15]. Mehta agreed that the method shouldn't be named after a person [16, 17] and Joseph Briggs suggested the acronym based name CEOR [18]. CEOR stands for **C**orner Permutation, **E**dge **O**rientation and stripe, **R**ight block. The CEOR name is a sort of adjacent name to the non-early corner permutation method LEOR, with the L standing for **L**eft block.
+In December 2021, James Straughan proposed ending the method credit argument by combining all of the similar methods into one with a single name [16]. Mehta agreed that the method shouldn't be named after a person [17, 18] and Joseph Briggs suggested the acronym based name CEOR [19]. CEOR stands for **C**orner Permutation, **E**dge **O**rientation and stripe, **R**ight block. The CEOR name is a sort of adjacent name to the non-early corner permutation method LEOR, with the L standing for **L**eft block.
 
 ![1](img/CEOR/CombinationProposal1.png)
 ![](img/CEOR/CombinationProposal2.png)
@@ -124,12 +142,14 @@ In December 2021, James Straughan proposed ending the method credit argument by 
 
 [13] Z. Zborowski, "Complex 2-Move Generator Reduction Method (c2gr)," OneDrive, 20 August 2017. [Online]. Available: https://onedrive.live.com/view.aspx?resid=A768425208665B6D!428&ithint=file%2cdocx&authkey=!AMvcyyr1lbYsxzk.
 
-[14] Y. Mehta, "Roux-breaker? The YruRU method," SpeedSolving.com, 27 April 2020. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/.
+[14] Z. Zborowski and M. J. Straughan, "ZZ Method," Personal Communication, 17 April 2025. [Online].
 
-[15] M. J. Straughan, "CP Method History - Noah’s CP Block, Briggs, YruRU, ZZ, and all others described," SpeedSolving.com, 13 December 2021. [Online]. Available: https://www.speedsolving.com/threads/cp-method-history-noah%E2%80%99s-cp-block-briggs-yruru-zz-and-all-others-described.85927/.
+[15] Y. Mehta, "Roux-breaker? The YruRU method," SpeedSolving.com, 27 April 2020. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/.
 
-[16] Y. Mehta, "Roux-breaker? The YruRU method," 10 June 2020. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/page-12#post-1377651.
+[16] M. J. Straughan, "CP Method History - Noah’s CP Block, Briggs, YruRU, ZZ, and all others described," SpeedSolving.com, 13 December 2021. [Online]. Available: https://www.speedsolving.com/threads/cp-method-history-noah%E2%80%99s-cp-block-briggs-yruru-zz-and-all-others-described.85927/.
 
-[17] Y. Mehta, "Roux-breaker? The YruRU method," SpeedSolving.com, 16 December 2021. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/page-15#post-1464897.
+[17] Y. Mehta, "Roux-breaker? The YruRU method," 10 June 2020. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/page-12#post-1377651.
 
-[18] J. Tudor, "CP Method History - Noah’s CP Block, Briggs, YruRU, ZZ, and all others described," SpeedSolving.com, 13 December 2021. [Online]. Available: https://www.speedsolving.com/threads/cp-method-history-noah%E2%80%99s-cp-block-briggs-yruru-zz-and-all-others-described.85927/post-1464625.
+[18] Y. Mehta, "Roux-breaker? The YruRU method," SpeedSolving.com, 16 December 2021. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/page-15#post-1464897.
+
+[19] J. Tudor, "CP Method History - Noah’s CP Block, Briggs, YruRU, ZZ, and all others described," SpeedSolving.com, 13 December 2021. [Online]. Available: https://www.speedsolving.com/threads/cp-method-history-noah%E2%80%99s-cp-block-briggs-yruru-zz-and-all-others-described.85927/post-1464625.

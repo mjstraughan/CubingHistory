@@ -1,4 +1,14 @@
+---
+description: History of the Corners First method for the Rubik's Cube.
+---
+
+import AnimCube from "@site/src/components/AnimCube";
+import ReactPlayer from 'react-player'
+import ImageCollage from '@site/src/components/ImageCollage';
+
 # Corners First
+
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ydydddydywdwdddwdwbdbdddbdbgdgdddgdgododddodordrdddrdr" width="400px" height="400px" />
 
 ## Description
 
