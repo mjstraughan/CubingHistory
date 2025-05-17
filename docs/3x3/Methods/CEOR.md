@@ -3,6 +3,8 @@ description: History of the CEOR method for the Rubik's Cube.
 ---
 
 import AnimCube from "@site/src/components/AnimCube";
+import ReactPlayer from 'react-player'
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # CEOR
 
@@ -10,7 +12,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 ## Description
 
-**Proposer:** [Noah Arthurs](CubingContributors/MethodDevelopers.md#arthurs-noah), [Joseph Briggs](CubingContributors/MethodDevelopers.md#briggs-joseph-shadowslice), [Yash Mehta](CubingContributors/MethodDevelopers.md#mehta-yash), others
+**Proposer:** [Noa Arthurs](CubingContributors/MethodDevelopers.md#arthurs-noa), [Joseph Briggs](CubingContributors/MethodDevelopers.md#briggs-joseph-shadowslice), [Yash Mehta](CubingContributors/MethodDevelopers.md#mehta-yash), others
 
 **Proposed:** 2013
 
@@ -25,11 +27,11 @@ import AnimCube from "@site/src/components/AnimCube";
 
 ## Origin and Proposal
 
-In April, 2012, Noah Arthurs proposed a method called Noah's CP Block [1]. This was a method that permuted all corners after solving a 2x2x2 block.
+In April, 2012, Noa Arthurs proposed a method called Noah's CP Block [1]. This was a method that permuted all corners after solving a 2x2x2 block.
 
 ![](img/CEOR/CPBlock.png)
 
-Noah Arthurs proposed Noah's CP Block 2.0 in May, 2013 [2]. This method was also focused on permuting all corners early in the solve. The difference is that it starts with a 1x2x3 block. This method is close to the modern version of CEOR, but permutes all remaining corners after solving a block on the left instead of during.
+Noa Arthurs proposed Noah's CP Block 2.0 in May, 2013 [2]. This method was also focused on permuting all corners early in the solve. The difference is that it starts with a 1x2x3 block. This method is close to the modern version of CEOR, but permutes all remaining corners after solving a block on the left instead of during.
 
 ![](img/CEOR/CPBlock2.png)
 ![](img/CEOR/CPBlock2-2.png)
@@ -42,13 +44,13 @@ In the Noah's CP Block 2.0 speedsolving.com thread, and on the same day of the t
 
 ### Lars Petrus
 
-The first known mention of early corner permutation was written by Lars Petrus in June, 1996 on the Cube Lovers mailing list [4].
+The first known mention of early corner permutation was written by Lars Petrus in June, 1996 on the Cube Lovers mailing list [4]. As described on the [Petrus](3x3/Methods/Petrus.md) method page, the original steps of the Petrus method involved permuting the remaining six corners after solving the 2x2x3 block and orienting the edges. This doesn’t place the corner permutation within the inspection phase of the solve, but is the first known example of a method that reaches the state of a solved 2x2x3 block with all remaining edges orientated and all remaining corners permuted into the `R U` solvable orbit.
 
 ![](img/CEOR/PetrusCP.png)
 
 ### Gilles Roux
 
-The first known proposal of the steps of CEOR come from Gilles Roux in 2003 [5]. Roux used the method in Dan Harris' online Fewest Moves Competition. Roux mentioned its use on the Speed Solving Rubik's Cube Yahoo group in a reply to Ryan Heise's (re)proposal of EOLine. Although this is the first known proposal, Roux expressed a lack of confidence in the idea and didn't proceed any further with development. Following the attribution standards of Cubing History, the method CEOR is attributed first to Noah Arthurs. Arthurs expressed confidence in the idea and other early corner permutation ideas and proposed the method as one with potential.
+The first known proposal of the steps of CEOR come from Gilles Roux in 2003 [5]. Roux used the method in Dan Harris' online Fewest Moves Competition. Roux mentioned its use on the Speed Solving Rubik's Cube Yahoo group in a reply to Ryan Heise's (re)proposal of EOLine. Although this is the first known proposal, Roux expressed a lack of confidence in the idea and didn't proceed any further with development. Following the attribution standards of Cubing History, the method CEOR is attributed first to Noa Arthurs. Arthurs expressed confidence in the idea and other early corner permutation ideas and proposed the method as one with potential.
 
 ![](img/CEOR/RouxProposal1.png)
 ![](img/CEOR/RouxProposal2.png)
@@ -94,7 +96,7 @@ In August, 2017 Zbigniew Zborowski proposed a method named C2GR [12, 13]. This m
 
 ### Yash Mehta
 
-In April, 2020 Yash Mehta proposed a method named YruRU that contained the same steps that Arthurs, Briggs, and Zborowski had previously proposed [15]. A new corner permutation recognition system was included. This was the major turning point for the method. When promoted by Noah Arthurs in 2013 and by Joseph Briggs in 2015, the idea gained some interest from the community and the proposals were likely influential upon future related methods. However, the method didn't catch on and didn't gain users.
+In April, 2020 Yash Mehta proposed a method named YruRU that contained the same steps that Arthurs, Briggs, and Zborowski had previously proposed [15]. A new corner permutation recognition system was included. This was the major turning point for the method. When promoted by Noa Arthurs in 2013 and by Joseph Briggs in 2015, the idea gained some interest from the community and the proposals were likely influential upon future related methods. However, the method didn't catch on and didn't gain users.
 
 When Mehta proposed the method as YruRU in 2020, the idea finally took off thanks to three key factors. The first contributing factor is that, in contrast with prior proposals, a complete recognition method for the early corner permutation step was included in the original post and a guide website was developed. Without an easy way to recognize the corner permutation state, the earlier proposals left potential solvers without a good way to use the method. It can be pointed out that the 2GR method included a recognition method and a guide website in 2017. Although the early corner permutation recognition method used in 2GR was also applicable to CEOR, it was being promoted for a different method, 2GR. In addition, the 2GR method didn't receive enough promotion or enough interest to motivate the community to apply it to CEOR.
 

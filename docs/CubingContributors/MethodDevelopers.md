@@ -23,13 +23,14 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 ## (Arc)
 
-- LEOR (Independent development from Noah Arthurs' previous proposal, developed independently in the same year as community member "Pyjam")
+- LEOR (Independent development from Noa Arthurs' previous proposal, developed independently in the same year as community member "Pyjam")
 
-## Arthurs, Noah
+## Arthurs, Noa
 
-- Noah's CP Block
-- Noah's CP Block 2.0 (later merged with other similar methods to become CEOR)
+- Noa's CP Block
+- Noa's CP Block 2.0 (later merged with other similar methods to become CEOR)
 - LEOR
+- Memo Swap / Pseudo Swap
 
 ## Aquino, Mariano
 
@@ -67,7 +68,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - 42 method
 - SSC method
 - M-CELL method
-- CCxLL
+- Conjugated CMLL
 - Briggs method (later combined with other previous and later similar methods to become CEOR)
 - B2 (Briggs 2) method
 - Transformation (independent from Straughan's prior development)
@@ -166,7 +167,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - TCMLL algorithms
 - NLL for the HD method
 
-## Ghodgaonkar, Abhijeeet
+## Ghodgaonkar, Abhijeet
 
 - UF5 development
 - Yo notation
@@ -384,7 +385,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 ## (Pyjam)
 
-- LEOR (Independent development from Noah Arthurs' previous proposal, developed independently in the same year as community member "Arc")
+- LEOR (Independent development from Noa Arthurs' previous proposal, developed independently in the same year as community member "Arc")
 
 ## Nyein, Dylan
 
@@ -457,27 +458,26 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 - APB method
 - Nautilus method
-- MI1 method
-- MI2 method
-- Nautilus method for FTO
-- Nautilus method for big cubes
 - EOLR for the Roux method
+- DFDB recognition for the Roux method
 - Straughan recognition
 - Block referencing for the standard notation
 - LEG-1
+- L5C and SL5C for the 42 method
+- CLL+1 and COLL+1 (development based on Thom Barlow's idea)
+- Nautilus method for FTO
+- Nautilus method for big cubes
+- MI1 method
+- MI2 method
 - Non-Matching CLL, EG, and LEG-1
 - Conjugated CLL (2x2)
 - Pseudo corner recognition - NMCMLL / ATCRM / Straughan
-- L5C and SL5C for the 42 method
-- CLL+1 and COLL+1 (development based on Thom Barlow's idea)
-- DFDB recognition for the Roux method
 - Algorithm Unions
 - 42 method L7E iterative EO and method
 - Tudor method iterative edge orientation
 - ACMLL for the Roux method
 - AOLL and ACLL for the CFOP and CFCE methods
 - NMLL
-- Slice Derived EO
 - Rubik's Snake notation (in collaboration with Johannes Laire)
 
 ## Streeter, Ben

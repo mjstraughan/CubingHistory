@@ -54,7 +54,7 @@ In ATCRM, the orientation of the left and right side stickers is checked, just a
 
 ![](img/CxLLRecognition/Straughan.png)
 
-The Straughan recognition method contains one step and is based on finding the minimum amount of information. The locations of the two F stickers and the two R stickers are found. The configuration of the four stickers is enough to determine the complete CxLL case. Four stickers other than the two F and two R can also be checked, such as the two F stickers and two L stickers, the two R stickers with one F sticker and one U sticker, and other possibilities. This recognition method was developed by Straughan in 2024 [11, 12].
+The Straughan recognition method contains one step and is based on finding the minimum amount of information. The locations of the two F stickers and the two R stickers are found. The configuration of the four stickers is enough to determine the complete CxLL case. Four stickers other than the two F and two R can also be checked, such as the two F stickers and two L stickers, the two R stickers with one F sticker and one U sticker, and other possibilities. This recognition method was developed by Straughan in 2024 [11, 12]. The idea originated from an intuitive CMLL recognition method that Straughan used in 2006 [13]. In 2024 he was attempting to develop a pattern based early corner permutation recognition method. This process reminded him of his original CMLL recognition method and in examining the method again realized that the corners can be recognized using four stickers.
 
 ![](img/CxLLRecognition/Straughan2.png)
 
@@ -83,3 +83,5 @@ The Straughan recognition method contains one step and is based on finding the m
 [11] M. J. Straughan, Discord, 17 May 2024. [Online]. Available: https://discord.com/channels/885722463521103892/885722523013103667/1240932644334866442.
 
 [12] M. J. Straughan, "Straughan Recognition," 2024. [Online]. Available: https://sites.google.com/site/athefre/recognition/straughan-recognition?authuser=0.
+
+[13] M. J. Straughan, "Straughan Recognition," 17 May 2025. [Online]. Available: https://sites.google.com/site/athefre/recognition/straughan-recognition.
