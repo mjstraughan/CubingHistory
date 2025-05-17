@@ -27,8 +27,8 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 ## Arthurs, Noa
 
-- Noa's CP Block
-- Noa's CP Block 2.0 (later merged with other similar methods to become CEOR)
+- Noah's CP Block
+- Noah's CP Block 2.0 (later merged with other similar methods to become CEOR)
 - LEOR
 - Memo Swap / Pseudo Swap
 
