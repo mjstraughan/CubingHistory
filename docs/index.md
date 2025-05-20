@@ -2,7 +2,6 @@
 sidebar_position: 1
 slug: /
 description: The history of the Rubik's Cube, world records, solving methods, Megaminx, Pyraminx, Skewb, Square-1, and more.
-bibliography: [../static/references.bib]
 ---
 
 # Cubing History
@@ -19,7 +18,7 @@ If you want to use information from this website, I would love to work with you.
 
 ## Major Historical Discoveries
 
-Below are some of the historical discoveries that have been uncovered while building Cubing History.
+Almost everything on Cubing History is information or discoveries that weren't common knowledge and hadn't yet been recorded anywhere else. Below are just a few of the historical discoveries that have been uncovered while building Cubing History.
 
 - The origin of the F2L pair technique. Many thought that it was from René Schoof because he was credited in the September 1981 issue of Cubism For Fun. But there are several publications of the technique before then. The earliest known publication is by John Conway, David Benson, and David Seal in 1979 that included a complete table of every possible case. It also did PLL then OLL as the last layer method.
 - Cross and the Layer By Layer method is first known to be published by Donald Taylor, in 1978. The puzzle community believed that the method originated in David Singmaster's _Notes on Rubik's 'Magic Cube'_. However, _Notes_ was published starting in 1979 and Singmaster states in _Notes_ that he had heard of the cross and layer method from others and changed his method to his own version of that.

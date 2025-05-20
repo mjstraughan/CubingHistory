@@ -350,6 +350,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 - Hawaiian Kociemba
 
+## Noort, Joël van
+
+- 3-Style early proposal
+
 ## Olson, Christopher
 
 -- LEG-1 (independent from Straughan's prior development)
