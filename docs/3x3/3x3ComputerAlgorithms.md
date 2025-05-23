@@ -9,11 +9,11 @@ import AnimCube from "@site/src/components/AnimCube";
 
 A history of algorithms and their role in proving God's number.
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ywyyywwywwwywwyyywogbrbgrbbgbgogrrgrgbboorobbgroorgoor" width="400px" height="400px" />
+<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=yyyyyyyyywwwwwwwwwdbbdbbdbbdggdggdggdddoooooodrrdrrdrr" width="400px" height="400px" />
 
 ## Morwen Thistlethwaite (1980)
 
-In 1979, Morwen Thistlethwait devised a method for solving the cube that starts by building a 2x2x3 block [1].
+In 1979, Morwen Thistlethwaite devised a method for solving the cube that starts by building a 2x2x3 block [1].
 
 1. Build a 2x2x3 block at bl.
 2. Orient all remaining edges.
@@ -65,13 +65,15 @@ In 1995, Reid ran a calculation on the \<U, D, F2, R2, B2, L2\> group, reducing 
 
 ![](img/ComputerAlgorithms/Reid2.png)
 
+new upper bounds, Cube Lovers, January 7, 1995
+
 ## Dik Winter (1992)
 
 On May 24, 1992, Dik Winter ran an extensive calculation of the first phase of Kociemba's algorithm. This provided a maximum distance of 12 moves. Winter combined this with the results of the final two phases of Kloosterman's algorithm, which was 25. The final result was a maximum distance of 37 [11, 4], which was the record at the time.
 
 ![](img/ComputerAlgorithms/Winter.png)
 
-## Silviu Radu (2005-2006)
+## Silviu Radu (2005, 2006)
 
 In December, 2005, using the same method as Mike Reid, Silviu Radu reduced the maximum to 28 moves [12, 4]. This was accomplished by implementing methods to avoid the cube positions that had previously been calculated to require 29 moves.
 
@@ -87,7 +89,7 @@ The upper bound was further lowered to 26 in 2007, thanks to the work of Daniel 
 
 ![](img/ComputerAlgorithms/KunkleCooperman.png)
 
-## Tomas Rokicki, Herbert Kociemba, Morley Davidson, John Dethridge (2007-2010)
+## Tomas Rokicki, Herbert Kociemba, Morley Davidson, John Dethridge (2007)
 
 In 2006, a team consisting of Tomas Rokicki, Herbert Kociemba, Morley Davidson, John Dethridge set out to further reduce the number [17].
 
