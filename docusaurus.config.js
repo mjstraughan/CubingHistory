@@ -44,7 +44,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/mjstraughan/CubingHistory/tree/main/",
+          // editUrl: "https://github.com/mjstraughan/CubingHistory/tree/main/",
         },
         //blog: false,
         //blog: {

@@ -9,7 +9,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 A history of algorithms and their role in proving God's number.
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=yyyyyyyyywwwwwwwwwdbbdbbdbbdggdggdggdddoooooodrrdrrdrr" width="400px" height="400px" />
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ywyyywwywwwywwyyywogbrbgrbbgbgogrrgrgbboorobbgroorgoor" width="400px" height="400px" />
 
 ## Morwen Thistlethwaite (1980)
 
