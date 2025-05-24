@@ -3,7 +3,7 @@ import React from "react";
 import MDXComponents from "@theme-original/MDXComponents";
 
 import Timeline from "@site/src/components/TimeLine";
-import TimelineItem from "@site/src/components/Timeline/TimeLineItem";
+import TimelineItem from "@site/src/components/TimeLine/TimeLineItem";
 
 export default {
   // Reusing the default mapping
