@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "Cubing History",
   tagline: "Preserving contributions and achievements in the puzzle community",
-  favicon: "img/CubingHistory.png",
+  favicon: "img/CubingHistory.svg",
 
   // Set the production url of your site here
   url: "http://www.cubinghistory.com/",
@@ -67,7 +67,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/SocialCard.png",
+      image: "img/SocialCard.svg",
       algolia: {
         appId: "GOICCKWUQG", // Replace with your App ID
         apiKey: "17763f481d68f01ab8b730c6913c74c3", // Replace with your Search API Key
@@ -80,7 +80,7 @@ const config = {
         title: "Cubing History",
         logo: {
           alt: "Cubing History",
-          src: "img/CubingHistory.png",
+          src: "img/CubingHistory.svg",
         },
         items: [
           /*{
