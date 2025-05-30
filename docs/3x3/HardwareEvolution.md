@@ -343,14 +343,14 @@ On August 19 2016, Chris Tran posted a video to YouTube showing that he had modi
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
 </div>
-
+<br />
 ![](img/HardwareEvolution/Tran1.webp)
 
 Screen capture showing the four center cap internal magnets.
 
 #### Production
 
-The first mass produced magnetic puzzle was the MoYu Magnetic Pyraminx, released in August 2016 [45]. A pre-release version was used by Drew Brads in July 2016 to break the Pyraminx average world record with a time of 2.14 seconds [46].
+MoYu led the charge with implementing magnets into commercially available puzzles. The first mass produced magnetic puzzle was the MoYu Magnetic Pyraminx, released in August 2016 [45]. The magnetic Pyraminx was announced in May 2016, with a pre-release version being used by Drew Brads in July 2016 to break the Pyraminx average world record with a time of 2.14 seconds [46, 47]. In an interesting coincidence, just one day after MoYu's announcement, QiYi announced a magnetic Pyraminx [48].
 
 <ImageCollage
 images={[
@@ -360,7 +360,32 @@ images={[
 ]}
 />
 <br />
-On September 22 2016, Tran posted a video to YouTube demonstrating magnets applied to a GAN 3x3x3 as part of Cubicle Labs [47]. The same day, Tran posted a thread to SpeedSolving.com announcing the first commercially available magnetic 3x3x3 – the Weilong GTS M [48].
+
+On July 21 2016, MoYu had also announced the production plan for a SenHuan Magnetic Magic Clock [49]. Based on the announcement including the statement of "using magnets in the products is our new idea", it was clear that MoYu intended to implement magnets into as many puzzles as possible.
+
+![](img/HardwareEvolution/MoYuClockAnnouncement.webp)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/img/HardwareEvolution/MoYuClock1.webp").default},
+{ src: require("@site/docs/3x3/img/HardwareEvolution/MoYuClock2.webp").default}
+]}
+/>
+
+Images from [MoYu](https://www.facebook.com/moyumagiccube/posts/pfbid0QJVx9zyCcRQNSLUPXBHnAXrCog4LX1NrbCVMd2dbVpfgKEnpcwrECxLyuAfuBBknl?__cft__[0]=AZXIty3nO6RtNyBdFhk1HA33sJBz2fj52w0x616BrLZXe8OBUQ2Wh3OyeKVB0Syj7V8oy0Y0kSjDK9SgC6R0V90vatYxmNd6HYsKDHQQGBxcZdeUvuGrNrSv_3bI-fcep_e8huk37LjglZAVRkZ50zvqmSB6p-_1bhhQVplIchRCYA&__tn__=%2CO%2CP-R)
+
+On the same day, just one hour after MoYu announced their magnetic Clock, QiYi announced the magnetic QiYi Clock [50]. The time difference isn't seen in the Facebook announcements, but in the original threads on a Chinese message board, and MoYu was careful to point this out in their announcement to avoid confusion.
+
+![](img/HardwareEvolution/QiYiClockAnnouncement.webp)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/img/HardwareEvolution/QiYiClock1.webp").default},
+{ src: require("@site/docs/3x3/img/HardwareEvolution/QiYiClock2.webp").default},
+{ src: require("@site/docs/3x3/img/HardwareEvolution/QiYiClock3.webp").default}
+]}
+/>
+Images from [QiYi](https://www.facebook.com/mofanggecube/posts/pfbid02Gh57PbRzi72FKacZRDQsXazswVmoi81fvn9V5UCXqUpSjTZp86rbnaUwuovSzhFol?__cft__[0]=AZUme9zwYeduYS3KdrNJTpRUNiuP_ongVU2SFS-Xva71huBRA2bgpKIjTdtjhSVW4h7iE_b0T7TXFb4GQfMG0iMrOHQUOfiPFLtJbD0UOun8UKq6tlMjMOS1WmCaczcLsFyphAbrr-B5dyeVn0_hitJxeGy-5nuTB8rW_HAcwIdnXUk08BlsaIpjZsAyMFX0Z6BFqVJCGJJattbxfF6vLrtK&__tn__=%2CO%2CP-R)
+
+On September 22 2016, Tran posted a video to YouTube demonstrating magnets applied to a GAN 3x3x3 as part of Cubicle Labs [51]. The same day, Tran posted a thread to SpeedSolving.com announcing the first commercially available magnetic 3x3x3 – the MoYu Weilong GTS M [52].
 
 ![](img/HardwareEvolution/Tran2.webp)
 
@@ -371,10 +396,70 @@ On September 22 2016, Tran posted a video to YouTube demonstrating magnets appli
     style={{position: 'absolute', top: 0, left: 0}}>
   </iframe>
 </div>
+<br />
+Making it clear that they weren't done with applying magnets to puzzles, on October 29 2016, MoYu announced the MoYu Magnetic Skewb [53].
+
+![](img/HardwareEvolution/MoYuMagneticSkewb.webp)
+
+#### Community Opinion
+
+Upon release of the MoYu Weilong GTS M, reactions from the community were mixed. The primary question was whether the cube should be competition legal. Some believed that there wasn't any problem in allowing it, while some others believed that magnets introduce an advantage that strays too far from the standard 3x3x3. One major opposing argument was that magnets automatically align layers, removing the necessity for the solver to put forth effort to avoid a +2 second penalty.
+
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/img/HardwareEvolution/CommunityOpinions1.webp").default},
+{ src: require("@site/docs/3x3/img/HardwareEvolution/CommunityOpinions2.webp").default},
+{ src: require("@site/docs/3x3/img/HardwareEvolution/CommunityOpinions3.webp").default},
+{ src: require("@site/docs/3x3/img/HardwareEvolution/CommunityOpinions4.webp").default},
+{ src: require("@site/docs/3x3/img/HardwareEvolution/CommunityOpinions5.webp").default},
+{ src: require("@site/docs/3x3/img/HardwareEvolution/CommunityOpinions6.webp").default}
+]}
+/>
+
+#### User Modifications
+
+Despite the mixed opinions, many in the community liked the concept. However, due to the expense of having to buy a new cube to have the magnetic experience, some began modifying their existing cubes and other puzzles to add internal magnets. Puzzle manufacturer GAN even began selling magnets on their website, to aid users in modifying their GAN puzzles and possibly signaling that magnetic GAN puzzles were in development [54].
+
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/img/HardwareEvolution/Mod1.webp").default},
+{ src: require("@site/docs/3x3/img/HardwareEvolution/Mod2.webp").default},
+{ src: require("@site/docs/3x3/img/HardwareEvolution/Mod3.webp").default}
+]}
+/>
+<br />
+Some even produced tutorials for modifying puzzles to include magnets. The first known written guide was published by Karl Zhao on September 27 2016, just five days after the release of the GTS M [55]. The first video guide was published by David Miller on October 5 2016 [56]. The goal behind the tutorials was to offer a cheaper alternative to buying a new cube or to show people how to modify cubes that they already owned and enjoyed using [55, 57]. These tutorials likely assisted many in modifying their own cubes before the inevitable release of numerous other magnetic cubes.
+
+![](img/HardwareEvolution/Zhao.webp)
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe loading="lazy" width="100%" height="100%"
+    src="https://www.youtube.com/embed/mouftEig8Gk"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+<br />
+![](img/HardwareEvolution/Miller.webp)
+
+#### Concerns Addressed by Phil Yu
+
+On September 25 2016, after seeing the community price concerns and custom modifications, Phil Yu put out a statement in the Cyoubx's Friends Facebook group [58]. Yu stated that he respects the community modification efforts, but wanted to emphasize that the goal behind releasing the GTS M was to make easily available to everyone a premium magnetic cube. He also felt that the price was fair considering the time, effort, and research and development costs.
+
+> Our goal was to produce a polished product that would be available for speedcubers who might find the cube/concept useful or interesting. We also wanted to get the ball rolling on a technology that might become a mainstream thing for speedcubing in the future. I’ve seen posts about prior existing magnetic 3x3s (one ZhanChi and the dice cube), suggesting that we were not the first to produce them. That is certainly true, and we were definitely not the first to produce magnetic 3x3s. We never claimed ownership of the concept, nor did we claim to make the first magnetic cube. But, from what I know, we were the first to commercially offer competition-viable magnetic speedcubes. These cubes have speedcubing utility, and have the potential to perform well in competitive speedcubing environments. Cubes outfitted with magnets in the past were interesting. Our cube is interesting and useful. I personally think this is an important distinction.
+>
+> I’ve also noticed that some handy people are trying to reverse engineer our product. That’s cool, and I respect that. But, I feel it is inappropriate to do so in attempt to imply or “demonstrate” that the product is priced unfairly. A lot of this reverse engineering was started after information about the cube was made available to the public. I can firmly remember people relying on this information to produce their own magnetic cubes. Given information and a picture showing the magnets, I would be surprised if a resourceful person couldn’t put forward a strong attempt at reverse engineering. I believe a resourceful person’s ability to reverse engineer with guidance at different costs is not indicative that the product is priced unfairly -- it’s more indicative of that person’s ingenuity. We spent meaningful time and resources exercising our own ingenuity without as much guidance, and we’ve also completely ruined many cubes in the process. The pricing of this product comes from considering the costs associated with developing and regularly producing the product, as well as our subjective valuation of our labor (mine included).
+
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/img/HardwareEvolution/Yu1.webp").default},
+{ src: require("@site/docs/3x3/img/HardwareEvolution/Yu2.webp").default}
+]}
+/>
 
 ### Adjustable Magnets
 
-In September 2018, GAN released a teaser video for the first production 3x3x3 with an adjustable magnet strength [49]. The magnets within each edge are directly across from each other on opposite sides and connected through a rod. The packaging comes with sets of additional magnet rods of varying strength that the user can push through and replace the currently inserted rods. The cube was released under the name “356X” in October 2018 [50].
+In September 2018, GAN released a teaser video for the first production 3x3x3 with an adjustable magnet strength [59]. The magnets within each edge are directly across from each other on opposite sides and connected through a rod. The packaging comes with sets of additional magnet rods of varying strength that the user can push through and replace the currently inserted rods. The cube was released under the name “356X” in October 2018 [60].
 
 <div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
   <iframe loading="lazy" width="100%" height="100%"
@@ -406,7 +491,7 @@ images={[
 
 ### Production
 
-In early 2015 Chinese company Giiker started investing into research on a smart cube, with a prototype first completed in late 2015 [51]. After spending two years refining the technology behind the smart cube, Giiker settled on a final product in late 2017. In March 2018, Giiker launched a campaign on Xiaomi crowdfunding to assist with bringing the product to market. After exceeding the crowdfunding goals, thanks to over 15,000 backers and over $200,000 contributed, the Giiker Cube was launched on June 4 2018 [52]. This makes the Giiker Cube the first production smart cube.
+In early 2015 Chinese company Giiker started investing into research on a smart cube, with a prototype first completed in late 2015 [61]. After spending two years refining the technology behind the smart cube, Giiker settled on a final product in late 2017. In March 2018, Giiker launched a campaign on Xiaomi crowdfunding to assist with bringing the product to market. After exceeding the crowdfunding goals, thanks to over 15,000 backers and over $200,000 contributed, the Giiker Cube was launched on June 4 2018 [62]. This makes the Giiker Cube the first production smart cube.
 
 <ImageCollage
 images={[
@@ -427,7 +512,7 @@ images={[
 
 ## Credit
 
-Thanks to Draco Tong for providing the idea behind this page. Within a thread in the Cyoubx’s Friends Facebook group in September 2024, Tong suggested that there should be a page that describes the history of hardware innovations [53].
+Thanks to Draco Tong for providing the idea behind this page. Within a thread in the Cyoubx’s Friends Facebook group in September 2024, Tong suggested that there should be a page that describes the history of hardware innovations [63].
 
 ![](img/HardwareEvolution/Tong.webp)
 
@@ -523,18 +608,38 @@ Thanks to Draco Tong for providing the idea behind this page. Within a thread in
 
 [45] F. Cubes, "MoYu Magnetic Pyraminx," Fabitasia Cubes, 2016. [Online]. Available: https://fabitasia.ch/myou-pyraminx-v2/en.
 
-[46] D. Brads, "2.14 Official Pyraminx World Record Average - Drew Brads," YouTube.com, 1 August 2016. [Online]. Available: https://www.youtube.com/watch?v=g6T0lFNAb1k.
+[46] MoYu, "MoYu Culture Pyraminx & Skewb Magnetic Positioning Patent," Facebook, 19 May 2016. [Online]. Available: https://www.facebook.com/moyumagiccube/posts/pfbid02jLPr5Lvy9155iPMtQaWmKYKEkuga79dJCVWuHXoSYtG3J71FVFkwKyWpf41dXMTtl?__cft__[0]=AZXjJYHBhgQy7IIbOhyYZspZAMZuU0EbnH4AHu61dUHhCDuqLFh_tjni8YLloG59y3Y-f2zZjrKDQWaEAx-vqY1ViF5H8xJkWQjSXFZg1ktw-SWPXwI3l9SuUWjcUj.
 
-[47] C. Tran, "Impromptu demonstration of Cubicle Labs magnetic cubes!," YouTube.com, 22 September 2016. [Online]. Available: https://www.youtube.com/watch?v=o7aTjVGa1d0.
+[47] D. Brads, "2.14 Official Pyraminx World Record Average - Drew Brads," YouTube.com, 1 August 2016. [Online]. Available: https://www.youtube.com/watch?v=g6T0lFNAb1k.
 
-[48] C. Tran, "Cubicle Labs Premium Cubes," SpeedSolving.com, 22 September 2016. [Online]. Available: https://www.speedsolving.com/threads/cubicle-labs-premium-cubes.62448/.
+[48] QiYi, "Magnetic Pyraminx," Facebook, 20 May 2016. [Online]. Available: https://www.facebook.com/mofanggecube/posts/pfbid02SsMN1n8khwRvxL6p22bESvyYSrfT6wmXUJPSwgeET45wrccrnpjfCVumoCYoRbovl?__cft__[0]=AZWfiDJv_NrLVgGhGLZaTs7-z1VcQijhp0s-Xn3Jo6zYqs8Rcn1bNbp5b5Rs6PlZloJFM5nM2n6tGHdSM9QoQ6OKT7KU1CmSl8XlQjvEnsLSomyT7o3gkXfeS2yzXAU.
 
-[49] GAN, "The first replacable cube design: GMS(GAN Magnets System)," YouTube.com, 11 September 2018. [Online]. Available: https://www.youtube.com/watch?v=9QomqgRQR9o.
+[49] MoYu, "New SenHuan magnetic magic clock is on the way!," Facebook, 21 July 2016. [Online]. Available: https://www.facebook.com/moyumagiccube/posts/pfbid0QJVx9zyCcRQNSLUPXBHnAXrCog4LX1NrbCVMd2dbVpfgKEnpcwrECxLyuAfuBBknl?__cft__[0]=AZXIty3nO6RtNyBdFhk1HA33sJBz2fj52w0x616BrLZXe8OBUQ2Wh3OyeKVB0Syj7V8oy0Y0kSjDK9SgC6R0V90vatYxmNd6HYsKDHQQGBxcZdeUvuGrNrSv_3bI-fc.
 
-[50] GAN, "GAN356X & GAN 356R Launching Details and Free give-away.," Facebook, 1 October 2018. [Online]. Available: https://www.facebook.com/100063755462435/posts/1935284509853271/.
+[50] QiYi, "Mold testing of QiYi Clock !!," Facebook, 21 July 2016. [Online]. Available: https://www.facebook.com/mofanggecube/posts/pfbid02Gh57PbRzi72FKacZRDQsXazswVmoi81fvn9V5UCXqUpSjTZp86rbnaUwuovSzhFol?__cft__[0]=AZUme9zwYeduYS3KdrNJTpRUNiuP_ongVU2SFS-Xva71huBRA2bgpKIjTdtjhSVW4h7iE_b0T7TXFb4GQfMG0iMrOHQUOfiPFLtJbD0UOun8UKq6tlMjMOS1WmCaczc.
 
-[51] sosoinvent, "99 元开抢|计客超级魔方已经上线小米众筹啦," bbs.mf8-china.com, 23 March 2018. [Online]. Available: http://bbs.mf8-china.com/forum.php?mod=viewthread&tid=109327&page=1&from=space.
+[51] C. Tran, "Impromptu demonstration of Cubicle Labs magnetic cubes!," YouTube.com, 22 September 2016. [Online]. Available: https://www.youtube.com/watch?v=o7aTjVGa1d0.
 
-[52] eefocus, "小米推出超级魔方，竟然还需要充电？," migelab.com, 4 June 2018. [Online]. Available: https://wx.migelab.com/api.php?s=/Art/index/aid/4980.
+[52] C. Tran, "Cubicle Labs Premium Cubes," SpeedSolving.com, 22 September 2016. [Online]. Available: https://www.speedsolving.com/threads/cubicle-labs-premium-cubes.62448/.
 
-[53] D. Tong, "Cubing History," Cyoubx's Friends Facebook Group, 20 September 2024. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/9282314491794921/?comment_id=9283273761698994&__cft__[0]=AZXVXHBTllL-oC_HjevRoMS_WQ-Oh4qR2zP3-lkafSfqxw2AJWz88NjXRnKGNrODl6sV0Ls0ZTgLbFnESoAHIaiggJfU_ibbiyOdxlJbXeXuPoET4ldYVh38hHv2Okk64079ldcCztqB2KgDnH.
+[53] MoYu, "MoYu magnetic skewb, a puzzle which will change the world record.," Facebook, 29 October 2016. [Online]. Available: https://www.facebook.com/photo/?fbid=1112951922119100&set=a.878198095594485&__tn__=%2CO*F.
+
+[54] S. Boucké, "So Gan is selling magnets now," Facebook, 25 November 2016. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/1576361809056933/?__cft__[0]=AZUWqKt_8gML-AyG91nzfiZOire6eIy_0VnZFTFyK86dXYECe-cPUusvpvjJrqhaPPUK3Df7ObshGKlaQHjudJ1_zJU7gHlKhvUOlO0Bb7UV0rPJzyJwPHRt6-2OLPp0LcBPyDXvk1x_a6F8VRhpvvSeSsmnoDd4k-WCUngnnKowyW.
+
+[55] K. Zhao, "The DIY Magnetic GTS (and a tutorial)," KZ's Cube Review, 27 September 2016. [Online]. Available: https://kzcubereview.blogspot.com/2016/09/the-diy-magnetic-gts-and-tutorial.html?m=1.
+
+[56] D. Miller, "Weilong GTS M (Magnetic) Do It Yourself Tutorial," YouTube, 5 October 2016. [Online]. Available: https://www.youtube.com/watch?v=mouftEig8Gk.
+
+[57] D. Miller and M. J. Straughan, Personal Communication, 27 May 2025. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/24737397515860035/?comment_id=24737706525829134&reply_comment_id=24738050105794776&__cft__[0]=AZVGo8JoSSE1bVPpNo6XN6BIUGU3q4dOddrblz_SBwJn1FVLtCYGuD0IXcKScMc81JkXDfAc7UV4J32Rm-MBwoO07gTXH9BcjHlpRP7JOFGZu.
+
+[58] P. Yu, Facebook, 25 September 2016. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/1506831522676629/?__cft__[0]=AZUi_crmA9Bcfr93RwtUXCnzu67Km-tqkEdSVcnEGYLUZ0bdkuwxftz3P97Le7WZNPjT6FcIbkNi7mIlgB-NH4VE2GpVqNLhEu8B81JJJYD7K1KiX2TPRV3oH2XYTImVMB8F50ANU63f0axIKYIDKEvCaHhIOidwF3rHXRN8hgRWLk.
+
+[59] GAN, "The first replacable cube design: GMS(GAN Magnets System)," YouTube.com, 11 September 2018. [Online]. Available: https://www.youtube.com/watch?v=9QomqgRQR9o.
+
+[60] GAN, "GAN356X & GAN 356R Launching Details and Free give-away.," Facebook, 1 October 2018. [Online]. Available: https://www.facebook.com/100063755462435/posts/1935284509853271/.
+
+[61] sosoinvent, "99 元开抢|计客超级魔方已经上线小米众筹啦," bbs.mf8-china.com, 23 March 2018. [Online]. Available: http://bbs.mf8-china.com/forum.php?mod=viewthread&tid=109327&page=1&from=space.
+
+[62] eefocus, "小米推出超级魔方，竟然还需要充电？," migelab.com, 4 June 2018. [Online]. Available: https://wx.migelab.com/api.php?s=/Art/index/aid/4980.
+
+[63] D. Tong, "Cubing History," Cyoubx's Friends Facebook Group, 20 September 2024. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/9282314491794921/?comment_id=9283273761698994&__cft__[0]=AZXVXHBTllL-oC_HjevRoMS_WQ-Oh4qR2zP3-lkafSfqxw2AJWz88NjXRnKGNrODl6sV0Ls0ZTgLbFnESoAHIaiggJfU_ibbiyOdxlJbXeXuPoET4ldYVh38hHv2Okk64079ldcCztqB2KgDnH.
