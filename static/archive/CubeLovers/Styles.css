@@ -93,3 +93,27 @@ label {
   overflow-x: auto; /* Enable horizontal scrolling */
   max-width: 100%; /* Prevents content from exceeding screen width */
 }
+
+#toTopBtn {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 30px;
+  z-index: 100;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 60px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+  transition: opacity 0.3s ease;
+}
+
+#toTopBtn:hover {
+  background-color: #444;
+}

@@ -179,6 +179,20 @@
           applyFiltersButton.click();
         }
       });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("toTopBtn");
+
+        window.onscroll = function () {
+          btn.style.display = window.scrollY > 100 ? "block" : "none";
+        };
+
+        btn.onclick = function () {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        };
+      });
     </script>
+
+    <button id="toTopBtn">⬆</button>
   </body>
 </html>
