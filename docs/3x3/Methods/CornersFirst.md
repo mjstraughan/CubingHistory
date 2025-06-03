@@ -31,8 +31,9 @@ On page 40 of David Singmaster's _Notes on Rubik's 'Magic Cube'_ [1] dated 1980,
 
 ![](img/CornersFirst/Rubik1.png)
 ![](img/CornersFirst/Rubik2.png)
+<br />
+English translation:
 ![](img/CornersFirst/Rubik2-2.png)
-English translation
 
 Rubik’s method as described by Zoltán Perjés:
 
