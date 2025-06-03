@@ -30,12 +30,9 @@ import ImageCollage from '@site/src/components/ImageCollage';
 On page 40 of David Singmaster's _Notes on Rubik's 'Magic Cube'_ [1] dated 1980, the steps of Erno Rubik's method are written as described by Zoltán Perjés, a relative of Rubik [2]. This makes Ernő Rubik the first to have created the corners first method and also corners first as the first method created to solve the cube. It is notable that the steps are similar to those used by Minh Thai to achieve the first world record recognized by the World Cube Association.
 
 ![](img/CornersFirst/Rubik1.png)
-
-> Zoltán Perjés was a relative of Rubik.
-> ![](img/CornersFirst/Rubik2.png)
-
-> English translation
-> ![](img/CornersFirst/Rubik2-2.png)
+![](img/CornersFirst/Rubik2.png)
+![](img/CornersFirst/Rubik2-2.png)
+English translation
 
 Rubik’s method as described by Zoltán Perjés:
 
