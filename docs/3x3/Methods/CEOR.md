@@ -68,7 +68,7 @@ In September, 2015 Joseph Briggs proposed the steps of CEOR, matching those of A
 
 ![](img/CEOR/Briggs.png)
 
-The inspiration for Briggs' idea appears to have been a post from Kole Hedrick [10, 11].
+The inspiration for Briggs' idea appears to have been a post from Clair Hedrick [10, 11].
 
 ![](img/CEOR/BriggsHedrick1.png)
 ![](img/CEOR/BriggsHedrick2.png)
@@ -136,7 +136,7 @@ In December 2021, James Straughan proposed ending the method credit argument by 
 
 [9] J. Briggs, "Briggs (3x3x3 method)," SpeedSolving.com, 19 September 2015. [Online]. Available: https://www.speedsolving.com/threads/briggs-3x3x3-method.55156/.
 
-[10] K. Hedrick, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 2013 September 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1116703.
+[10] C. Hedrick, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 2013 September 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1116703.
 
 [11] J. Briggs, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 13 September 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1116737.
 
