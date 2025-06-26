@@ -154,20 +154,40 @@ Around the same time that FUBU was completely developed and presented in video f
 
 #### DFDB
 
-In 2012, Straughan proposed a new 4c recognition method with a focus on providing easier look ahead [27]. A pair of stickers from the upper or bottom layer are tracked. This, combined with a center comparison, provides the information necessary to determine all 4c cases. After the proposal and development, the community named the system "DFDB" and added on a way to improve recognition for 4c 3-cycle cases that start with an M2 move.
+In 2012, Straughan proposed a new 4c recognition method with a focus on providing easier look ahead [27]. A pair of stickers from the upper or bottom layer are tracked. This, combined with a center comparison, provides the information necessary to determine all 4c cases. Soon after the thread's creation, Bryan Rusinque recorded a video to visually show how the system works [28].
 
 ![](img/Roux/DFDB.png)
 
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe loading="lazy" width="100%" height="100%"
+    src="https://www.youtube.com/embed/LKXdVfNaLao"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
+After the proposal and development, the community named the system "DFDB" and added on a way to improve recognition for 4c 3-cycle cases that start with an M2 move. The first known to have improved the M2 start cases is Yuta Sasaki (佐々木雄太). In February 2013 Sasaki wrote a blog post detailing the original DFDB proposal by Straughan, while also describing a way to determine if a 3-cycle permutation will start with an M2 move [29].
+
+![](img/Roux/Sasaki.png)
+
+<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
+  <iframe loading="lazy" width="100%" height="100%"
+    src="https://www.youtube.com/embed/vW0bBDdoPlk"
+    frameborder="0" allowfullscreen
+    style={{position: 'absolute', top: 0, left: 0}}>
+  </iframe>
+</div>
+
 ### CMLLEO
 
-The idea of orienting the last six edges during CMLL had been discussed many times since the Roux method's inception. However, Thom Barlow was the first to heavily explore CMLLEO, starting around 2010. Originally, Barlow called the algorithm set KCLL [28], but later decided that it should be called CMLLEO [29].
+The idea of orienting the last six edges during CMLL had been discussed many times since the Roux method's inception. However, Thom Barlow was the first to heavily explore CMLLEO, starting around 2010. Originally, Barlow called the algorithm set KCLL [30], but later decided that it should be called CMLLEO [31].
 
 ![](img/Roux/CMLLEO.png)
 ![](img/Roux/CMLLEO2.png)
 
 ### Table Abuse
 
-The community had long doubted the viability of the Roux method for use in one-handed solving due to the abundance of slice turns. Around 2010, Barlow discovered a one-handed slice turning technique that could be considered technically legal for competition use [30, 31]. The edge of the cube is rested on the table while the user turns the inner slice. This technique came to be known as "table abuse".
+The community had long doubted the viability of the Roux method for use in one-handed solving due to the abundance of slice turns. Around 2010, Barlow discovered a one-handed slice turning technique that could be considered technically legal for competition use [32, 33]. The edge of the cube is rested on the table while the user turns the inner slice. This technique came to be known as "table abuse".
 
 ![](img/Roux/TableAbuse1.png)
 ![](img/Roux/TableAbuse2.png)
@@ -176,28 +196,28 @@ The community had long doubted the viability of the Roux method for use in one-h
 
 #### First Proposal and Development
 
-EOLR was first proposed and developed by Straughan in August, 2012 [32]. EOLR is now split into two types. EOLR orients all edges and places the UL and UR edges on the bottom layer. EOLRb orients all edges and directly solves the UL and UR edges. Straughan's initial proposal was for both types. All of EOLR was developed, including all possible edge orientation angles. Straughan's version of EOLR intentionally left out the final M or M' move [33]. This allowed the user to determine if the UL and UR edges do need to be placed on the bottom layer or if there is the opportunity to directly solve the two edges with a final M or M' turn. Half of EOLRb was developed, with the expressed plan being to complete the other half [33].
+EOLR was first proposed and developed by Straughan in August, 2012 [34]. EOLR is now split into two types. EOLR orients all edges and places the UL and UR edges on the bottom layer. EOLRb orients all edges and directly solves the UL and UR edges. Straughan's initial proposal was for both types. All of EOLR was developed, including all possible edge orientation angles. Straughan's version of EOLR intentionally left out the final M or M' move [35]. This allowed the user to determine if the UL and UR edges do need to be placed on the bottom layer or if there is the opportunity to directly solve the two edges with a final M or M' turn. Half of EOLRb was developed, with the expressed plan being to complete the other half [35].
 
 ![](img/Roux/EOLR1.png)
 ![](img/Roux/EOLR2.png)
 
 #### Re-Development
 
-EOLR, the edge orientation and placing the LR edges on the bottom layer version, was re-developed by Iuri Grangeiro with some assistance from Kian Mansour in August 2016 [34, 35]. Kian Mansour's use of EOLR helped popularize the technique.
+EOLR, the edge orientation and placing the LR edges on the bottom layer version, was re-developed by Iuri Grangeiro with some assistance from Kian Mansour in August 2016 [36, 37]. Kian Mansour's use of EOLR helped popularize the technique.
 
 ![](img/Roux/EOLR3.png)
 ![](img/Roux/EOLR4.png)
 
 ### Pinkie Pie
 
-The first known suggestion of the idea behind Pinkie Pie is by Rob Stuart in October, 2011 [36]. In 2012, Alexander Lau suggested the same idea and gave it the name Pinkie Pie [37].
+The first known suggestion of the idea behind Pinkie Pie is by Rob Stuart in October, 2011 [38]. In 2012, Alexander Lau suggested the same idea and gave it the name Pinkie Pie [39].
 
 ![](img/Roux/PinkiePie1.png)
 ![](img/Roux/PinkiePie2.png)
 
 ### ACMLL
 
-ACMLL was proposed by Straughan in April, 2020 then developed and presented in January, 2021 [38, 39, 40]. The concept is to solve the two 1x2x3 blocks in pseudo configurations then correct the blocks during the CMLL algorithm.
+ACMLL was proposed by Straughan in April, 2020 then developed and presented in January, 2021 [40, 41, 42]. The concept is to solve the two 1x2x3 blocks in pseudo configurations then correct the blocks during the CMLL algorithm.
 
 ![](img/Roux/ACMLL1.png)
 ![](img/Roux/ACMLL2.png)
@@ -205,21 +225,16 @@ ACMLL was proposed by Straughan in April, 2020 then developed and presented in J
 
 ### CMLL Prediction
 
-#### NMCMLL Recognition
+#### Complete Prediction
 
-In November, 2020, Zhouheng Sun suggested the idea that NMCMLL recognition may be well suited for predicting the CMLL case [41]. The thought process is that because NMCMLL recognition has an easier second step when compared to U sticker first recognition, the more difficult first step of NMCMLL recognition can be recognized early during the final moves of the second block.
+In November, 2020, Zhouheng Sun suggested the idea that NMCMLL recognition may be well suited for predicting the CMLL case [43]. The thought process is that because NMCMLL recognition has an easier second step when compared to U sticker first recognition, the more difficult first step of NMCMLL recognition can be recognized early during the final moves of the second block. With ATCRM having a second step involving checking just two stickers [44], compared to NMCMLL's four, Sun's thought process may apply even more. The previously described Straughan recognition has also been suggested to have potential to eliminate the CMLL recognition pause. With just four stickers total required for recognition, it has been suggested that Straughan recognition could be another possibility for predicting a CMLL case before arriving at the step or when one looking a solve [45].
 
 ![](img/Roux/CMLLPrediction1.png)
-
-#### ATCRM
-
-With ATCRM having a second step involving checking just two stickers [42], compared to NMCMLL's four, Sun's thought process may apply even more.
-
-![](img/Roux/CMLLPrediction2.png)
+![](img/Roux/CMLLPrediction3.png)
 
 #### Corner Orientation Prediction
 
-In July, 2022, Straughan developed a corner orientation prediction system [43, 44, 45]. The stickers of the corners are tracked during the final pair of the second block. Recognizing the upper layer sticker orientation while solving the last pair helps to know the final orientation of the corners.
+In July, 2022, Straughan developed a corner orientation prediction system [46, 47, 48]. The stickers of the corners are tracked during the final pair of the second block. Recognizing the upper layer sticker orientation while solving the last pair helps to know the final orientation of the corners.
 
 ![](img/Roux/COPrediction1.png)
 ![](img/Roux/COPrediction2.png)
@@ -280,38 +295,44 @@ In July, 2022, Straughan developed a corner orientation prediction system [43, 4
 
 [27] M. J. Straughan, "Roux 4b to 4c Transition," SpeedSolving.com, 11 February 2012. [Online]. Available: https://www.speedsolving.com/threads/roux-4b-to-4c-transition.35350/.
 
-[28] T. Barlow, "KCLL," SpeedSolving.com, 16 May 2010. [Online]. Available: https://www.speedsolving.com/threads/kcll.21210/#post-381107.
+[28] B. Rusinque, "4b To 4c Transition," YouTube.com, 1 March 2012. [Online]. Available: https://www.youtube.com/watch?v=LKXdVfNaLao.
 
-[29] T. Barlow, "Proposition - Let's fix some cubing terms!," SpeedSolving.com, 27 September 2011. [Online]. Available: https://www.speedsolving.com/threads/proposition-lets-fix-some-cubing-terms.32617/post-648278.
+[29] Y. Sasaki, "LSE 先読みのコツ," kasokube.blog.shinobi.jp, 20 February 2013. [Online]. Available: https://kasocube.blog.shinobi.jp/Entry/190/.
 
-[30] T. Barlow, "28.49 One Handed with Roux," SpeedSolving.com, 14 January 2010. [Online]. Available: https://www.speedsolving.com/threads/28-49-one-handed-with-roux.18549/.
+[30] T. Barlow, "KCLL," SpeedSolving.com, 16 May 2010. [Online]. Available: https://www.speedsolving.com/threads/kcll.21210/#post-381107.
 
-[31] T. Barlow, "OH Table Use," SpeedSolving.com, 11 May 2010. [Online]. Available: https://www.speedsolving.com/threads/oh-table-use.21118/.
+[31] T. Barlow, "Proposition - Let's fix some cubing terms!," SpeedSolving.com, 27 September 2011. [Online]. Available: https://www.speedsolving.com/threads/proposition-lets-fix-some-cubing-terms.32617/post-648278.
 
-[32] M. J. Straughan, "Roux Misoriented Centers Table," SpeedSolving.com, 17 August 2012. [Online]. Available: https://web.archive.org/web/20200924235711/https://www.speedsolving.com/threads/roux-misoriented-centers-table.38176/.
+[32] T. Barlow, "28.49 One Handed with Roux," SpeedSolving.com, 14 January 2010. [Online]. Available: https://www.speedsolving.com/threads/28-49-one-handed-with-roux.18549/.
 
-[33] M. J. Straughan, "Roux Misoriented Centers Table," SpeedSolving.com, 5 July 2013. [Online]. Available: https://www.speedsolving.com/threads/roux-misoriented-centers-table.38176/post-873153.
+[33] T. Barlow, "OH Table Use," SpeedSolving.com, 11 May 2010. [Online]. Available: https://www.speedsolving.com/threads/oh-table-use.21118/.
 
-[34] K. Mansour, "Accomplishment Thread," SpeedSolving.com, 13 August 2016. [Online]. Available: https://www.speedsolving.com/threads/accomplishment-thread.1688/post-1189069.
+[34] M. J. Straughan, "Roux Misoriented Centers Table," SpeedSolving.com, 17 August 2012. [Online]. Available: https://web.archive.org/web/20200924235711/https://www.speedsolving.com/threads/roux-misoriented-centers-table.38176/.
 
-[35] I. Grangeiro, Discord, 9 January 2021. [Online]. Available: https://discord.com/channels/416929203607568404/416929203607568406/797470923153735710.
+[35] M. J. Straughan, "Roux Misoriented Centers Table," SpeedSolving.com, 5 July 2013. [Online]. Available: https://www.speedsolving.com/threads/roux-misoriented-centers-table.38176/post-873153.
 
-[36] R. Stuart, "Roux CFOP mix.," SpeedSolving.com, 19 October 2011. [Online]. Available: https://www.speedsolving.com/threads/roux-cfop-mix.33018/post-657165.
+[36] K. Mansour, "Accomplishment Thread," SpeedSolving.com, 13 August 2016. [Online]. Available: https://www.speedsolving.com/threads/accomplishment-thread.1688/post-1189069.
 
-[37] A. Lau, "University of Leicester Open 2013," SpeedSolving.com, 12 November 2012. [Online]. Available: https://www.speedsolving.com/threads/university-of-leicester-open-2013.39237/post-798616.
+[37] I. Grangeiro, Discord, 9 January 2021. [Online]. Available: https://discord.com/channels/416929203607568404/416929203607568406/797470923153735710.
 
-[38] M. J. Straughan, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 17 April 2020. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1363270.
+[38] R. Stuart, "Roux CFOP mix.," SpeedSolving.com, 19 October 2011. [Online]. Available: https://www.speedsolving.com/threads/roux-cfop-mix.33018/post-657165.
 
-[39] M. J. Straughan, Discord, 3 January 2021. [Online]. Available: https://discord.com/channels/416929203607568404/416933073893195779/795317325355155497.
+[39] A. Lau, "University of Leicester Open 2013," SpeedSolving.com, 12 November 2012. [Online]. Available: https://www.speedsolving.com/threads/university-of-leicester-open-2013.39237/post-798616.
 
-[40] M. J. Straughan, "ACMLL: A new algorithm set for Roux," SpeedSolving.com, 18 March 2021. [Online]. Available: https://www.speedsolving.com/threads/acmll-a-new-algorithm-set-for-roux.79962/.
+[40] M. J. Straughan, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 17 April 2020. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1363270.
 
-[41] Z. Sun, Discord, 12 November 2020. [Online]. Available: https://discord.com/channels/416929203607568404/416932528059056140/776534845492559922.
+[41] M. J. Straughan, Discord, 3 January 2021. [Online]. Available: https://discord.com/channels/416929203607568404/416933073893195779/795317325355155497.
 
-[42] M. J. Straughan, "CMLL Prediction," Michael James Straughan's Development Website, [Online]. Available: https://sites.google.com/site/athefre/roux/cmll-prediction?authuser=0.
+[42] M. J. Straughan, "ACMLL: A new algorithm set for Roux," SpeedSolving.com, 18 March 2021. [Online]. Available: https://www.speedsolving.com/threads/acmll-a-new-algorithm-set-for-roux.79962/.
 
-[43] M. J. Straughan, "CMLL Prediction," Michael James Straughan's Development Website, [Online]. Available: https://sites.google.com/site/athefre/roux/cmll-prediction#h.2q1ipwkbr8j8.
+[43] Z. Sun, Discord, 12 November 2020. [Online]. Available: https://discord.com/channels/416929203607568404/416932528059056140/776534845492559922.
 
-[44] M. J. Straughan, "CMLL Orientation Prediction," Google Sheets, July 2022. [Online]. Available: https://docs.google.com/spreadsheets/d/146FzKPkKbtBILeU4jSt5sFPYXj8U5ovNDzT8iGR3yK4/edit#gid=0.
+[44] M. J. Straughan, "CMLL Prediction," Michael James Straughan's Development Website, [Online]. Available: https://sites.google.com/site/athefre/roux/cmll-prediction?authuser=0.
 
-[45] M. J. Straughan, Discord, 24 July 2022. [Online]. Available: https://discord.com/channels/416929203607568404/416929203607568406/1000747989733752852.
+[45] M. J. Straughan, Discord, 17 May 2024. [Online]. Available: https://discord.com/channels/416929203607568404/416929203607568406/1240938336735203428.
+
+[46] M. J. Straughan, "CMLL Prediction," Michael James Straughan's Development Website, [Online]. Available: https://sites.google.com/site/athefre/roux/cmll-prediction#h.2q1ipwkbr8j8.
+
+[47] M. J. Straughan, "CMLL Orientation Prediction," Google Sheets, July 2022. [Online]. Available: https://docs.google.com/spreadsheets/d/146FzKPkKbtBILeU4jSt5sFPYXj8U5ovNDzT8iGR3yK4/edit#gid=0.
+
+[48] M. J. Straughan, Discord, 24 July 2022. [Online]. Available: https://discord.com/channels/416929203607568404/416929203607568406/1000747989733752852.
