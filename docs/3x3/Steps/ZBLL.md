@@ -64,13 +64,15 @@ In the early 2000s, Helmstetter's algorithms were added to speedcubing.com, a si
 
 ![](img/ZBLL/BCredit.png)
 
-## Name
+## Name Origin
 
 The community eventually started calling the step ZBLL. The first known use of the acronym is by Shotaro Makisumi [8]. However, the acronym may have been used even earlier during the 1.5 year time period of messages that were deleted from the Speed Solving Rubik's Cube Yahoo group.
 
-In the early years of what was called the ZB method, the community referred to ZBLS as ZBF2L. In order to have a name for the last layer step, it's likely that the community simply adopted the name ZBLL to create a matching pair. Some may not have been aware of the developments of Helmstetter and Petrus or that Zborowski and Bruchem both stated the use of Helmstetter's last layer algorithms on their websites.
-
 ![](img/ZBLL/ZBName.png)
+
+In the early years of what was called the ZB method, the community referred to ZBLS as ZBF2L. In order to have a name for the last layer step, it's likely that the community simply adopted the name ZBLL to create a matching pair. Some may not have been aware of the developments of Helmstetter and Petrus. They also may not have been aware that neither Zborowski nor Bruchem proposed or developed the algorithm set and that both stated the use of Helmstetter's last layer algorithms on their individual websites.
+
+In April 2022, James Straughan published a short history of the step including Helmstetter's development of the algorithm set [9]. Because Helmstetter developed the algorithm set for the Petrus method, and because Zborowski and Bruchem didn't individually propose it and instead were themselves promoting Helmstetter's work, Straughan suggested the alternate name PHLL or HPLL to credit Helmstetter for his algorithm development and Petrus for the original all edges oriented last layer method for which the algorithm set was developed.
 
 ## Recognition Methods
 
@@ -150,7 +152,7 @@ In September, 2022, Hudgens created a guide that describes the various ZBLL reco
 
 [8] S. Makisumi, "Re: Oll+corners algs?," Yahoo! Groups - Speed Solving Rubik's Cube, 5 February 2005. [Online].
 
-[9] Z. Zborowski, "zz speedcubing system - 1.7.6 Classic system collection," Zborowski's Website, 2006. [Online]. Available: https://web.archive.org/web/20070428175325/http://www.speedcubing.com.pl/nooks_zz.htm#wprowadzenie_systemy_zb.
+[9] M. J. Straughan, "ZBLL history and making the case for a name change," SpeedSolving.com, 25 April 2022. [Online]. Available: https://www.speedsolving.com/threads/zbll-history-and-making-the-case-for-a-name-change.86829/.
 
 [10] D. Harris, "The Zborowski - Bruchem Last Layer," Harris' Website, 2005. [Online]. Available: https://web.archive.org/web/20050411020801/http://www.necrophagous.co.uk/cubestation/zb/zbll.html.
 
@@ -164,10 +166,12 @@ In September, 2022, Hudgens created a guide that describes the various ZBLL reco
 
 [15] R. Hudgens and J. Tudor, Personal communication, 1 September 2022. [Online].
 
-[16] M. J. Straughan, "Polar ZBLL Recognition," Straughan's Website, 2023. [Online]. Available: https://sites.google.com/site/athefre/other/polar-recognition.
+[16] M. J. Straughan, "Polar ZBLL Recognition," Straughan's Website, 2023. [Online]. Available: https://sites.google.com/site/athefre/recognition/polar-recognition.
 
 [17] M. J. Straughan and T. Mosher, Personal communication, 21 September 2022. [Online].
 
 [18] M. J. Straughan, "Straughan Recognition System for CLL, EG, ZBLL, and more," SpeedSolving.com, 4 June 2024. [Online]. Available: https://www.speedsolving.com/threads/straughan-recognition-system-for-cll-eg-zbll-and-more.92731/.
 
 [19] R. Hudgens, "How to Recognize ZBLL: An Explanation and comparison of the Main Systems (2022 Edition)," SpeedSolving.com, 14 September 2022. [Online]. Available: https://www.speedsolving.com/threads/how-to-recognize-zbll-an-explanation-and-comparison-of-the-main-systems-2022-edition.87814/.
+
+[20] Z. Zborowski, "zz speedcubing system - 1.7.6 Classic system collection," Zborowski's Website, 2006. [Online]. Available: https://web.archive.org/web/20070428175325/http://www.speedcubing.com.pl/nooks_zz.htm#wprowadzenie_systemy_zb.
