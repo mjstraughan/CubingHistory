@@ -32,7 +32,7 @@ Cubing History contains a lot of information and discoveries that weren't common
 
 When providing credit for a contribution, Cubing History follows a set of attribution standards:
 
-- **Substantial Contribution:** Creation or proposal credit goes to the person or group who both had the idea and significantly contributed to its development. If the idea had already been proposed by others, but abandoned or not pursued, credit goes to the person or group who developed it.
+- **Substantial Contribution:** Creation or proposal credit goes to the person or group who both had the idea and significantly contributed to its development. If the idea had already been proposed by others, but abandoned or not pursued, credit goes to the person or group who developed it if the development was an independent proposal. If the new development acknowledges the prior proposal as an inspiration, both the original proposal and the developers are credited.
 
 - **Early Suggestion:** If a person or group simply mentioned an idea and didn't follow it up with development effort, credit isn't given as a creator or proposer if the idea is one that required development and if the idea was later re-proposed and developed by another individual or group. However, these early suggestions are still provided as an interesting part of history.
 
