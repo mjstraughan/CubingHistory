@@ -34,11 +34,13 @@ When providing credit for a contribution, Cubing History follows a set of attrib
 
 - **Substantial Contribution:** Creation or proposal credit goes to the person or group who both had the idea and significantly contributed to its development. If the idea had already been proposed by others, but abandoned or not pursued, credit goes to the person or group who developed it.
 
-- **Early Suggestion:** If a person or group simply mentioned an idea and didn't follow it up with development effort, credit isn't given as a creator or proposer. However, these early suggestions are still provided as an interesting part of history.
+- **Early Suggestion:** If a person or group simply mentioned an idea and didn't follow it up with development effort, credit isn't given as a creator or proposer if the idea is one that required development and if the idea was later re-proposed and developed by another individual or group. However, these early suggestions are still provided as an interesting part of history.
 
 There are some grey areas. Someone may have suggested the idea first and partially developed it. Or someone may have independently fully developed an idea without knowledge that the idea already existed and was fully developed. In these cases, a community consensus is followed.
 
-One example is the ZZ method. The method has a complicated history. Essentially, the idea goes back to Gilles Roux and Adam Géhin, made its way to Ryan Heise, then Ron van Bruchem, and, finally, Zbignew Zborowski. Even though four people prior to Zborowski had experimented with the idea, and Zborowski seemingly got the idea of EOLine or EOCross from Bruchem, credit for the proposal and creation is given to Zborowski. This is because Zborowski is the first to show confidence in the idea and to develop it, going as far as creating a detailed website and promoting it.
+One example is the ZZ method. The method has a complicated history. Essentially, the idea goes back to Gilles Roux and Adam Géhin, made its way to Ryan Heise, then Ron van Bruchem, and, finally, Zbignew Zborowski. Even though four people prior to Zborowski had experimented with the idea, and Zborowski seemingly got the idea of an edge orientation start from Bruchem, credit for the proposal and creation is given to Zborowski. This is because Zborowski is the first to show confidence in the idea and to develop it, going as far as creating a detailed website and promoting it.
+
+Other examples include CFOP and CEOR. Both methods have a history of numerous independent proposers. In the case of these methods, credit is given to the various contributing developers and the community has assigned the methods acronym based names that describe the individual steps.
 
 ### Classification
 

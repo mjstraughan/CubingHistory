@@ -559,6 +559,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 - Winter Variation
 
+## Woner, David
+
+- EG2 development
+
 ## Wong, Andy
 
 - T2C (with assistance from Elliott Kobelansky)

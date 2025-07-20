@@ -11,7 +11,7 @@ import ImageCollage from '@site/src/components/ImageCollage';
 
 ## Description
 
-**Creator:** [Gunnar Krig](CubingContributors/MethodDevelopers.md#krig-gunnar), [Erik Akkersdijk](CubingContributors/MethodDevelopers.md#akkersdijk-erik)
+**Creator:** [Gunnar Krig](CubingContributors/MethodDevelopers.md#krig-gunnar), [Erik Akkersdijk](CubingContributors/MethodDevelopers.md#akkersdijk-erik), [David Woner](CubingContributors/MethodDevelopers.md#woner-david), others
 
 **Created:** 2006
 
@@ -62,7 +62,7 @@ Gustavsson also responded to the thread, reiterating that he had generated the a
 ![](img/EG/Gustavsson2.png)
 ![](img/EG/Cialon.png)
 
-If the method is about the idea, as Akkersdjik suggested, this would credit Ciałoń. A previous discussion occurred in September 2006 between Stefan Pochmann and Akkersdjik. Pochmann pointed out Ciałoń's prior proposal [15], with Akkersdjik acknowledging that the idea is the same [16]. If the method is about the development, Henrik Buus-Aagaard or Woner would be credited with the EG2 portion. In September 2008, Ciałoń posted a thread to SpeedSolving.com containing a YouTube video of a 2.98 second 2x2x2 solve average [17]. A comment in the thread by Woner mentioned Ciałoń's use of advanced 2x2x2 methods beyond CLL [18]. Ciałoń responded to this comment, stating that he uses only CLL [19]. It is possible that Ciałoń decided against implementing the idea in speedsolves, instead focusing on mastering CLL.
+If the method is about the idea, as Akkersdjik suggested, this would credit Ciałoń. A previous discussion occurred in September 2006 between Stefan Pochmann and Akkersdjik. Pochmann pointed out Ciałoń's prior proposal [15], with Akkersdjik acknowledging that the idea is the same [16]. If the method is about the development, which is more in line with the [CubingHistory.com standards](index.md#cubing-history-standards), Henrik Buus-Aagaard or Woner would be credited with the EG2 portion. Or, if a method is solely defined by its popularizers, Akkersdjik and Krig would be the only ones credited. In September 2008, Ciałoń posted a thread to SpeedSolving.com containing a YouTube video of a 2.98 second 2x2x2 solve average [17]. A comment in the thread by Woner mentioned Ciałoń's use of advanced 2x2x2 methods beyond CLL [18]. Ciałoń responded to this comment, stating that he uses only CLL [19]. It is possible that Ciałoń decided against implementing the idea in speedsolves, instead focusing on mastering CLL.
 
 <ImageCollage
 images={[
