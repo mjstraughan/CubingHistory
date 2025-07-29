@@ -97,6 +97,11 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 - Early 3OP developments
 
+## Ciałoń, Łukasz
+
+- EG proposal and use
+- 1LLS proposal and use
+
 ## Cheng, Hao
 
 - 3-Style (first known complete 3x3 proposal)
