@@ -1,5 +1,6 @@
 ---
 description: History of the 3-Color method for the Rubik's Cube.
+id: 3Color
 ---
 
 import AnimCube from "@site/src/components/AnimCube";
