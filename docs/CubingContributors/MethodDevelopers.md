@@ -97,6 +97,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 - Early 3OP developments
 
+## Christos, George
+
+- 3-Color method (independent from Michael Feather's development)
+
 ## Ciałoń, Łukasz
 
 - EG proposal and use
@@ -145,6 +149,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - LMCF method
 - WaterRoux method
 - 3 edges on U, 2 on D L5E
+
+## Feather, Michael
+
+- 3-Color method (independent from George Christos' development)
 
 ## Fleischman, Jeremy
 
