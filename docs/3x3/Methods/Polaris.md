@@ -1,5 +1,6 @@
 ---
 description: History of the Polaris method for Rubik's Cube.
+id: Polaris
 ---
 
 import AnimCube from "@site/src/components/AnimCube";
