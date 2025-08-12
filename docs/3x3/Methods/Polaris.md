@@ -26,9 +26,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/Polaris)
 
-## Origin
-
-### Development
+## Development
 
 In late 2009, Michael James Straughan began experimenting with combining the EOLine step of ZZ with Corners First. The result was a method that solved all corners after EOLine, then the permutation of all remaining edges [1, 2].
 
@@ -43,7 +41,7 @@ In October 2011, Straughan changed the initial steps to an oriented blockbuildin
 
 ![](img/Polaris/FinalSteps.png)
 
-### Name Update
+## Name Update
 
 In August 2025, Straughan gave the method a proper name of Polaris [5]. This name was chosen to match the "Polar" concept that Straughan developed in steps such as Polar LSLL, Polar ZBLL recognition, and NMLL.
 

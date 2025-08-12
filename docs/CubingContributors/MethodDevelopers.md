@@ -485,7 +485,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - Nautilus method for FTO
 - Nautilus method for big cubes
 - MI1 method
-- MI2 method
+- Polaris method
 - Non-Matching CLL, EG, and LEG-1
 - Conjugated CLL (2x2)
 - Pseudo corner recognition - NMCMLL / ATCRM / Straughan
