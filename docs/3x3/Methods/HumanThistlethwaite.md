@@ -19,11 +19,15 @@ import AnimCube from "@site/src/components/AnimCube";
 
 [Click here for more step details on the SpeedSolving wiki](https://www.speedsolving.com/wiki/index.php/Human_Thistlethwaite_Algorithm)
 
+## Introduction
+
+This page describes a method developed by Ryan Heise, that is an adaption of the Thistlethwaite algorithm for human use. There is a very similar method called [3-Color](3x3/Methods/3Color.md). For now, the two methods are described separately due to the different intents. More specifically, Human Thistlethwaite is best described as an easy to use version of the Thistlethwaite computer algorithm and 3-Color is intended to be a primary method with which to solve.
+
 ## Origin
 
 ### Initial Description
 
-The first mention of the method was in June, 2003. Ryan Heise stated that he had once developed the method [1].
+The first mention of the method was in June, 2003. Ryan Heise stated that he had once developed a human adaption of the Thistlethwaite algorithm [1].
 
 ![](img/HumanThistlethwaite/FirstMention.png)
 
@@ -43,10 +47,10 @@ In late April or early May, 2006, Heise added the method to his website [3, 4]. 
 
 ## References
 
-[1]	R. Heise, "Re: [Speed cubing group] Looking ahead: how good are you?," Yahoo! Groups - Speed Solving Rubik's Cube, 20 June 2003. [Online].
+[1] R. Heise, "Re: [Speed cubing group] Looking ahead: how good are you?," Yahoo! Groups - Speed Solving Rubik's Cube, 20 June 2003. [Online].
 
-[2]	R. Heise, "Thistlethwaite, human version," Yahoo! Groups - Speed Solving Rubik's Cube, 1 July 2003. [Online].
+[2] R. Heise, "Thistlethwaite, human version," Yahoo! Groups - Speed Solving Rubik's Cube, 1 July 2003. [Online].
 
-[3]	R. Heise, "Re: [Speed cubing group] Noob Cuber looking for new solution…," Yahoo! Groups - Speed Solving Rubik's Cube, 2 May 2006. [Online]. 
+[3] R. Heise, "Re: [Speed cubing group] Noob Cuber looking for new solution…," Yahoo! Groups - Speed Solving Rubik's Cube, 2 May 2006. [Online].
 
-[4]	R. Heise, " Human Thistlethwaite Algorithm," ryanheise.com. [Online]. Available: https://web.archive.org/web/20060703235037/http://www.ryanheise.com/cube/human_thistlethwaite_algorithm.html.
+[4] R. Heise, " Human Thistlethwaite Algorithm," ryanheise.com. [Online]. Available: https://web.archive.org/web/20060703235037/http://www.ryanheise.com/cube/human_thistlethwaite_algorithm.html.
