@@ -43,7 +43,7 @@ During an email exchange with CubingHistory.com, Michael Feather described the o
 ![](img/3-Color/FeatherOrigin.png)
 <a href="/archive/MethodFiles/rc.zip">Backup Files</a>
 
-In 2024, Feather published the method on a new web page that is more detailed than the original, with more in-depth explanations, even more applets to demonstrate instructions, and solvers [4].
+In 2017, Feather moved the method documentation to a new web page [4].
 
 ![](img/3-Color/FeatherNew.png)
 
@@ -52,7 +52,7 @@ In 2024, Feather published the method on a new web page that is more detailed th
 1. Corners
    1. Solve the corners as a 3-Color cube. This means to simply orient all corners on Rubik's Cube (a six color cube).
    2. Reduce the corners to be half turn solvable.
-   3. Permute the corners using half turns.
+   3. Optionally, the user can completely solve the corners at this point, or at a later stage.
 2. Edges
    1. Solve the edges as a 3-Color cube. This means to orient and position opposite colored edges on either side.
    2. Permute edges to their correct sides.
