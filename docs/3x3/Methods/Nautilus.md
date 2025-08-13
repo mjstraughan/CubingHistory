@@ -2,15 +2,11 @@
 description: History of the Nautilus method for the Rubik's Cube
 ---
 
-import TwistyPlayer from "@site/src/components/TwistyPlayer";
+import AnimCube from "@site/src/components/AnimCube";
 
 # Nautilus
 
-<TwistyPlayer
- puzzle="3x3x3"
- experimentalStickeringMaskOrbits="EDGES:IIIII---I---,CORNERS:IIIII---,CENTERS:------"
- controlPanel="none"
-/>
+<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwdwwdwwdbbdbdddddggdggdggdddooooooddddrrdrr" width="400px" height="400px" />
 
 ## Description
 
