@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.twistyPlayer {
+  width: 100%;
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .twistyPlayer {
+    width: 500px;
+  }
+}
+
+.recon {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+}

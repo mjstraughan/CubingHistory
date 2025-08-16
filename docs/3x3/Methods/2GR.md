@@ -1,8 +1,15 @@
-import AnimCube from "@site/src/components/AnimCube";
+import Exhibit from "@site/src/components/Exhibit";
 
 # 2GR
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=dldlyldlddwwlwldlddlddbddlddlddgddlgddddoddooddddrdddd" width="400px" height="400px" />
+<Exhibit
+  stickering={{
+    solved: "U D F B L R DL DBL",
+    orientedWithoutPermutation: "UL UF UR UB FL FR BL BR DF DR DB"
+  }}
+  cameraLatitude={30}
+  cameraLongitude={-20}
+/>
 
 ## Description
 
