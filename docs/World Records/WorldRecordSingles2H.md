@@ -4,14 +4,28 @@ description: History of Rubik's Cube world records. The achievements of Feliks Z
 ---
 
 import AnimCube from "@site/src/components/AnimCube";
+import ReconViewer from "@site/src/components/ReconViewer";
 
 # World Record Singles (2H)
 
 ## 22.95 (Minh Thai) - Rubik's Cube World Championship (1982)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&move={Scramble: U L2 D' B2 U' R2 B2 F2 D' F2 L2 R2 F R2 D L2 R2 B' L' D' R F'}{Inspection: x2 y}x2 y.{First layer corners and one edge: D' R u D R' y' D' R D R'}D' R u D R' y' D' R D R'.{First layer center and second edge: y D r' E' L}y D r' E' L.{CLL: z2 U y l D R' z' R' x z' r' R2 U2 z D R2 D2}z2 U y l D R' z' R' x z' r' R2 U2 z D R2 D2.{First layer third edge: R' l' z M D2 M'}R' l' z M D2 M'.{Last layer first edge: z2 y R z' M z R'}z2 y R z' M z R'.{Last layer second edge: z' r' L' z D R' E R}z' r' L' z D R' E R.{Last layer third edge: U' u' R E' R'}U' u' R E' R'.{Last six edges: u R' E' R E2 R E R'}u R' E' R E2 R E R'.{Last four centers: R2 E E' r2 E M2 E'}R2 E E' r2 E M2 E'&initmove=U L2 D' B2 U' R2 B2 F2 D' F2 L2 R2 F R2 D L2 R2 B' L' D' R F'" width="600px" height="400px" />
-
 **22.95 second solve by Minh Thai**
+
+<ReconViewer
+  scramble="U L2 D' B2 U' R2 B2 F2 D' F2 L2 R2 F R2 D L2 R2 B' L' D' R F'"
+  solution={`x2 y . // Inspection
+D' R u D R' y' D' R D R' . // First layer corners and one edge
+y D r' E' L . // First layer center and second edge
+z2 U y l D R' z' R' x z' r' R2 U2 z D R2 D2 . // CLL
+R' l' z M D2 M' . // First layer third edge
+z2 y R z' M z R' . // Last layer first edge
+z' r' L' z D R' E R . // Last layer second edge
+U' u' R E' R' . // Last layer third edge
+u R' E' R E2 R E R' . // Last six edges
+R2 E E' r2 E M2 E' . // Last four centers`}
+/>
+
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
 |------|------|----|-----|------|-----|------|
 | Corners First | Provided by competition | 22.95 | 58 | 2.53 | 75 | 3.27 |
@@ -71,9 +85,20 @@ https://www.worldcubeassociation.org/competitions/CaltechWinter2004/results/all?
 
 ## 13.93 and 12.11 (Shotaro Makisumi)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&move={Scramble: B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2}{Inspection: z2 y'}z2 y'.{Cross: R F R U' R}R F R U' R.{First Pair: R' U2 R2 U R'}R' U2 R2 U R'.{Second Pair: d R U' R' U2 F' U' F}d R U' R' U2 F' U' F.{Third Pair: L' U' L2 U L'}L' U' L2 U L'.{Fourth Pair: U L' U L}U L' U L.{OLL: y2 F R U R' U' F'}y2 F R U R' U' F'.{PLL: U y R B' R F2 R' B R F2 R2}U y R B' R F2 R' B R F2 R2&initmove=B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2" width="600px" height="400px" />
-
 **12.11 second solve by Shotaro Makisumi**
+
+<ReconViewer
+  scramble="B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2"
+  solution={`z2 y' . // Inspection
+R F R U' R . // Cross
+R' U2 R2 U R' . // First Pair
+d R U' R' U2 F' U' F . // Second Pair
+L' U' L2 U L' . // Third Pair
+U L' U L . // Fourth Pair
+y2 F R U R' U' F' . // OLL
+U y R B' R F2 R' B R F2 R2 . // PLL`}
+/>
+
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
 |------|------|----|-----|------|-----|------|
 | CFOP | Unknown | 12.11 | 43 | 3.55 | 47 | 3.88 |
@@ -85,9 +110,20 @@ At Caltech Spring 2004, Makisumi set a record of 13.93 seconds during the first 
 
 ## 11.75 to 10.36
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D2 L D2 U2 F' U R2 B L R' B2 L F' L R D' U2&move={Scramble: D2 L D2 U2 F' U R2 B L R' B2 L F' L R D' U2}{Inspection: y2}y2.{Cross: r U x' U R' U R' z2 y' D2'}r U x' U R' U R' z2 y' D2'.{1st pair: U R' U' R2 U R'}U R' U' R2 U R'.{2nd pair: U' y' U' R U' R' U2 R U' R'}U' y' U' R U' R' U2 R U' R'.{3rd pair: U y R' U2 R U R' U' R}U y R' U2 R U R' U' R.{4th pair: U' y U' R' U R U' R' U' R}U' y U' R' U R U' R' U' R.{OLL: U' R' U' R' F R F' U R}U' R' U' R' F R F' U R.{PLL: R U R' U' R' F R2 U' R' U' R U R' F'}R U R' U' R' F R2 U' R' U' R U R' F'" width="600px" height="400px" />
-
 **11.75 second solve by Jean Pons**
+
+<ReconViewer
+  scramble="D2 L D2 U2 F' U R2 B L R' B2 L F' L R D' U2"
+  solution={`y2 . // Inspection
+r U x' U R' U R' z2 y' D2' . // Cross
+U R' U' R2 U R' . // 1st pair
+U' y' U' R U' R' U2 R U' R' . // 2nd pair
+U y R' U2 R U R' U' R . // 3rd pair
+U' y U' R' U R U' R' U' R . // 4th pair
+U' R' U' R' F R F' U R . // OLL
+R U R' U' R' F R2 U' R' U' R U R' F' . // PLL`}
+/>
+
 | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
 |------|------|----|-----|------|-----|------|
 | CFOP | Unknown | 11.75 | 62 | 5.28 | 69 | 5.87 |
