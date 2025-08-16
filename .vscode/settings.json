@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".*\\.md$",
+        "cmd": "node \"${workspaceFolder}/static/DocFormatter.js\" \"${file}\""
+      }
+    ]
+  }
+}
