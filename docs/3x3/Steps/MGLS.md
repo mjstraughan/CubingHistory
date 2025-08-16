@@ -8,7 +8,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 MGLS is a system for orienting last layer while solving the last slot of the first two layers.
 
-**Proposer:** [Shotaro Makisumi](CubingContributors/MethodDevelopers.md#makisumi-shotaro), [Lukas Garron](CubingContributors/MethodDevelopers.md#garron-lukas)
+**Proposer:** [Shotaro Makisumi](CubingContributors/MethodDevelopers.md#makisumi-shotaro), [Lucas Garron](CubingContributors/MethodDevelopers.md#garron-lucas)
 
 **Proposed:** 2004
 

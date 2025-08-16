@@ -9,11 +9,11 @@ import ImageCollage from '@site/src/components/ImageCollage';
 # TuRBo
 
 <AnimCube params="config=../../ReconstructionConfig.txt&initmove=B F' D U2 F2 U' R' F U2 F2 L' U2 B' D' U2 F2 D' U2 L' B F' L2 D2 B2 L'&move={Scramble: B F' D U2 F2 U' R' F U2 F2 L' U2 B' D' U2 F2 D' U2 L' B F' L2 D2 B2 L'}{FRD > ULB: F' B L B' R B L' B' R' F}F' B L B' R B L' B' R' F.{URF > LBU: D L U2 F' L' B' L F L' B L U2 L' D'}D L U2 F' L' B' L F L' B L U2 L' D'.{ULB > URF: L' F x R2 D2 R U R' D2 R U' R x' F' L}L' F x R2 D2 R U R' D2 R U' R x' F' L.{BUL > URF: L R2 D' R U2 R' D R U2 R L'}L R2 D' R U2 R' D R U2 R L'.{BL > RD: L R2 U L' U' L U M' U' L' U l U' R2 L'}L R2 U L' U' L U M' U' L' U l U' R2 L'.{RB > DF: R' D' L2 U l' U' L U M U' L' U L U' L2 D R}R' D' L2 U l' U' L U M U' L' U L U' L2 D R.{FR > LF: R L' U' R U R' U' M' U R U' r' U L R'}R L' U' R U R' U' M' U R U' r' U L R'.{UB > BD: B R' L U' r U R' U' M U R U' R' U L' R B'}B R' L U' r U R' U' M U R U' R' U L' R B'.{DL > LU: b' U' r U R' U' M U R U' R' U b}b' U' r U R' U' M U R U' R' U b.{Orient UF and UR: R' U2 R2 U R' U' R' U2 L F R F' L'}R' U2 R2 U R' U' R' U2 L F R F' L'." width="600px" height="400px" />
-**Example solve from Erik Akkersdjik**
+**Example solve from Erik Akkersdijk**
 
 ## Description
 
-**Creator:** [Erik Akkersdjik](CubingContributors/MethodDevelopers.md#akkersdjik-erik)
+**Creator:** [Erik Akkersdijk](CubingContributors/MethodDevelopers.md#akkersdijk-erik)
 
 **Created:** 2007
 
@@ -26,7 +26,7 @@ import ImageCollage from '@site/src/components/ImageCollage';
 
 ## Origin and Reveal
 
-Erik Akkersdjik first publicly mentioned the TuRBo method in August 2007 within a weekly competition thread on speedsolving.com [1]. After several other mentions of the method’s development, Akkersdjik revealed the steps of the method on October 8 2007 [2, 3, 4, 5].
+Erik Akkersdijk first publicly mentioned the TuRBo method in August 2007 within a weekly competition thread on speedsolving.com [1]. After several other mentions of the method’s development, Akkersdijk revealed the steps of the method on October 8 2007 [2, 3, 4, 5].
 
 <ImageCollage
 images={[
@@ -48,7 +48,7 @@ images={[
 
 ## Name Origin
 
-The name “TuRBo” comes from the fact that Akkersdjik found it amusing that Rama Temmink used the term “turbo” when describing something as being good. Kai Jiptner then suggested to use it as an acronym and have it stand for “The Ruling Blindfold Method” [6].
+The name “TuRBo” comes from the fact that Akkersdijk found it amusing that Rama Temmink used the term “turbo” when describing something as being good. Kai Jiptner then suggested to use it as an acronym and have it stand for “The Ruling Blindfold Method” [6].
 
 ![](../img/TuRBo/Jiptner.png)
 ![](../img/TuRBo/Rama.png)
@@ -59,10 +59,10 @@ The name “TuRBo” comes from the fact that Akkersdjik found it amusing that R
 
 [2] "TuRBo method," SpeedSolving.com, 8 October 2007. [Online]. Available: https://www.speedsolving.com/threads/turbo-method.1671/.
 
-[3] E. Akkersdjik, "Edge solving for BLD with TuRBo method," Erik Akkersdjik's Website, October 2007. [Online]. Available: https://web.archive.org/web/20071028172925/http://erikku.er.funpic.org/rubik/turboedges.html.
+[3] E. Akkersdijk, "Edge solving for BLD with TuRBo method," Erik Akkersdijk's Website, October 2007. [Online]. Available: https://web.archive.org/web/20071028172925/http://erikku.er.funpic.org/rubik/turboedges.html.
 
-[4] "Corner solving for BLD with TuRBo method," Erik Akkersdjik's Website, October 2007. [Online]. Available: https://web.archive.org/web/20071112092629/http://erikku.er.funpic.org/rubik/turbocorners.html.
+[4] "Corner solving for BLD with TuRBo method," Erik Akkersdijk's Website, October 2007. [Online]. Available: https://web.archive.org/web/20071112092629/http://erikku.er.funpic.org/rubik/turbocorners.html.
 
-[5] E. Akkersdjik, "The Ruling Blindfold method (TuRBo)," Erik Akkersdjik's Website, 2008. [Online]. Available: https://web.archive.org/web/20081217163953/http://www.erikku.110mb.com/TuRBo.html.
+[5] E. Akkersdijk, "The Ruling Blindfold method (TuRBo)," Erik Akkersdijk's Website, 2008. [Online]. Available: https://web.archive.org/web/20081217163953/http://www.erikku.110mb.com/TuRBo.html.
 
 [6] K. Jiptner, "Turbo?," SpeedSolving.com, 29 January 2009. [Online]. Available: https://www.speedsolving.com/threads/turbo.9049/post-129348.
