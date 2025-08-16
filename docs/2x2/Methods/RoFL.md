@@ -1,4 +1,5 @@
 import AnimCube2x2 from "@site/src/components/AnimCube2";
+import YouTube from "@site/src/components/YouTube";
 
 # RoFL
 
@@ -40,13 +41,7 @@ In November, 2023, Hitchcock started development on the entire method, eventuall
 
 ![](img/RoFL/CBLAlgSheet.png)
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/3fnvk7kclDw"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="3fnvk7kclDw" />
 
 ## TCLL
 

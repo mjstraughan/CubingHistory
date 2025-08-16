@@ -1,4 +1,5 @@
 import AnimCube from "@site/src/components/AnimCube";
+import YouTube from "@site/src/components/YouTube";
 
 # ZBLL
 
@@ -89,13 +90,12 @@ BH was proposed in 2004-2005 by Dan Harris and Jason Baum [10, 11].
 
 Tran Style recognition was first mentioned in 2015 in a seminar by Chris Tran then detailed in February 2016.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/JyW1dm6mG-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<YouTube embedId="JyW1dm6mG-s" />
 ### No Corner Permutation (NCP)
 
 No Corner Permutation (NCP) was developed in November 2021 by Ryan Hudgens [12].
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/6fMDp5o2Ca8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube embedId="6fMDp5o2Ca8" />
 
 ![](img/ZBLL/NCP.png)
 

@@ -1,4 +1,5 @@
 import AnimCube from "@site/src/components/AnimCube";
+import YouTube from "@site/src/components/YouTube";
 
 # Pseudo
 
@@ -96,13 +97,7 @@ In 2017, Joseph Briggs independently discovered the technique and incorporated i
 
 Upon proposal of the 42 method, Briggs provided a recognition method and algorithm document [15, 16]. The recognition method involves first checking the orientation of the U/D corner stickers. Then a pattern of additional stickers is compared with the right side sticker of the unsolved corner that is currently on the bottom layer.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/DZZZ2WvFiZs"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="DZZZ2WvFiZs" />
 
 ![](img/Pseudo/BriggsCCMLL.png)
 ![](img/Pseudo/BriggsCCMLL2.png)

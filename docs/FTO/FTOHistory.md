@@ -3,6 +3,8 @@ sidebar_position: 1
 description: History of the Face Turning Octahedron (FTO)
 ---
 
+import YouTube from "@site/src/components/YouTube";
+
 # FTO History
 
 ## Early Patents
@@ -44,13 +46,7 @@ According to a post on ptt.cc, 1000 units of the puzzle were produced in Taiwan 
 ![](img/Hardware/Xie4.png)
 ![](img/Hardware/Xie5.png)
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/BFSorFjezO8"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="BFSorFjezO8" />
 
 ### David Pitcher
 

@@ -3,6 +3,7 @@ sidebar_position: 2
 description: History of Rubik's Cube world records. The achievements of Feliks Zemdegs, Max Park, Yiheng Wang, and more.
 ---
 
+import YouTube from "@site/src/components/YouTube";
 import AnimCube from "@site/src/components/AnimCube";
 import ReconViewer from "@site/src/components/ReconViewer";
 
@@ -42,13 +43,7 @@ The competition featured three rounds with each competitor solving the cube once
 
 Today, Minh Thai’s 22.95 solve time is considered the first ever official world record because it was performed in the first competition to be officially recognized by the WCA. Lower record solve times were achieved in the early 1980s, such as a 17.04 second solve by Robert Pergl in the 1983 Czechoslovakian Championship [3]. However, these other solves aren’t considered by the WCA to be official.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/kRs3u54kMbI"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="kRs3u54kMbI" />
 
 ## 16.71 (Dan Knights) and 16.53 (Jess Bonde) - World Rubik's Games Championship (2003)
 
@@ -132,37 +127,13 @@ From October 2005 to February 2007, the world record single was reduced to 10.36
 
 ![](img/WRSingles2H/11.75to10.36.png)
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/2BcxVZvIxTI"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="2BcxVZvIxTI" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/uNBFGl7ErJE"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="uNBFGl7ErJE" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/zHTuvB9Vm9s"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="zHTuvB9Vm9s" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/WpqYc_P51N4"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="WpqYc_P51N4" />
 
 ## 9.86 (Thibaut Jacquinot)
 
@@ -185,29 +156,11 @@ On May 5 2007, the first ever sub-10 world record single solve was set by Thibau
 
 The world record was further reduced to 8.87 seconds from October 2007 to May 2008. This started with a 9.77 from Erik Akkersdijk and was followed by a 9.55 by Ron van Bruchem, a 9.18 by Edouard Chambon, and two 8.72 solves by Yu Nakajima at a single competition in the final two rounds.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/JqFFXs0RAnI"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="JqFFXs0RAnI" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/PLOT1Z_c1Dc"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="PLOT1Z_c1Dc" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/J25n7OOdnMI"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="J25n7OOdnMI" />
 
 ## 7.08 (Erik Akkersdijk)
 
@@ -220,13 +173,7 @@ The world record was further reduced to 8.87 seconds from October 2007 to May 20
 
 On July 12, 2008, Erik Akkersdijk set a world record of 7.08 seconds. This is one of the most famous world records due to the large solve time drop compared to the previous world record.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/VzGjbjUPVUo"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="VzGjbjUPVUo" />
 
 ## 7.03 to 5.66 (Feliks Zemdegs)
 
@@ -245,61 +192,19 @@ Interestingly, when the 7.08 world record was set, Zemdegs commented that he did
 
 ![](img/WRSingles2H/Zemdegs.png)
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/TiFwEBUKcsY"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="TiFwEBUKcsY" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/t32VQ2HeELA"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="t32VQ2HeELA" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/Vn_-253xO4s"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="Vn_-253xO4s" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/X6zjv-PP24g"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="X6zjv-PP24g" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/wIvHw17vuGU"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="wIvHw17vuGU" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/uIcbAsoT8y0"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="uIcbAsoT8y0" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/3v_Km6cv6DU"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="3v_Km6cv6DU" />
 
 ## 5.55 (Mats Valk) and 5.25 (Collin Burns)
 
@@ -312,21 +217,9 @@ Interestingly, when the 7.08 world record was set, Zemdegs commented that he did
 
 The 5.66 world record from Zemdegs stood for almost two years before being broken. On March 2, 2013, Mats Valk achieved a new world record time of 5.55 seconds. This was followed by a 5.25 second solve from Collin Burns on April 25, 2015.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/nn7svkdrE7I"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="nn7svkdrE7I" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/i8RBl7NmL8g"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="i8RBl7NmL8g" />
 
 ## 4.90 (Lucas Etter)
 
@@ -339,13 +232,7 @@ The 5.66 world record from Zemdegs stood for almost two years before being broke
 
 On November 21, 2015, the first ever sub-5 second official solve was achieved. This world record was set by Lucas Etter.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/vh0W8E4cNkQ"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="vh0W8E4cNkQ" />
 
 ## 4.73 to 4.22
 
@@ -358,47 +245,17 @@ On November 21, 2015, the first ever sub-5 second official solve was achieved. T
 
 From December 2016 to May 2018, the world record was dropped to 4.22 seconds. Starting it off was Zemdegs with a 4.73 second solve, just .01 seconds faster than the world record at the time. This was the return of Zemdegs to the single solve world records, having not set one in around five and a half years.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/R07JiT0PlcE"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="R07JiT0PlcE" />
 
 Ten months later, on September 2, 2017, Patrick Ponce achieved a world record of 4.69 seconds. This was followed by SeungBeom Cho in October 2017 with a 4.59 second solve. In early 2018, Zemdegs returned yet again to the single solve world records, first matching the 4.59 second record in January then a 4.22 in May.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/np2G0yr5xI0"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="np2G0yr5xI0" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/5x8jgGX3iNM"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="5x8jgGX3iNM" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/Sz67ipXnKNg"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="Sz67ipXnKNg" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/NevGDFBfQGw"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="NevGDFBfQGw" />
 
 ## 3.47 (Yusheng Du)
 
@@ -415,13 +272,7 @@ The length that the world record stood can potentially be attributed to the impa
 
 The solve was also the subject of some controversy. Yusheng Du’s averages at the competition over three rounds were: [11.13 (3.47) 8.80 (DNF) 7.07], [(6.95) 7.72 8.20 (10.43) 9.62], and [(8.01) 8.84 8.42 (11.02) 9.44]. The 3.47 solve was viewed as extremely low compared to the remainder of the solves within the averages. The footage of the solve was also of low quality. These aspects led some to doubt the authenticity of the solve [5].
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/SB3ut65SFUU"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="SB3ut65SFUU" />
 
 ## 3.13 (Max Park)
 
@@ -434,13 +285,7 @@ The solve was also the subject of some controversy. Yusheng Du’s averages at t
 
 The world record was finally beaten again on June 11, 2023. After years of attaining world records in the 3x3 2H average category and in other events, Max Park set a world record single solve time of 3.13 seconds.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/gh8HX4itF_w"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="gh8HX4itF_w" />
 
 ## Sources
 

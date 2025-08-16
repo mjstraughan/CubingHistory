@@ -6,6 +6,7 @@ description: The history of Rubik's Cube hardware innovations, such as magnets, 
 import AnimCube from "@site/src/components/AnimCube";
 import ReactPlayer from 'react-player'
 import ImageCollage from '@site/src/components/ImageCollage';
+import YouTube from "@site/src/components/YouTube";
 
 # Hardware Evolution
 
@@ -336,13 +337,7 @@ In February 2016, Julien Adam posted the idea of a repel only 3x3x3 on SpeedSolv
 
 On August 19 2016, Chris Tran posted a video to YouTube showing that he had modified a ShengShou FangYuan 3x3x3 to add internal magnets [44]. The arrangement was the same as Wilson’s Zhanchi modification, with four magnets inside of each center cap and two magnets inside of each edge.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/bBEkEapVLIU"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="bBEkEapVLIU" />
 <br />
 ![](img/HardwareEvolution/Tran1.webp)
 
@@ -389,13 +384,7 @@ On September 22 2016, Tran posted a video to YouTube demonstrating magnets appli
 
 ![](img/HardwareEvolution/Tran2.webp)
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/o7aTjVGa1d0"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="o7aTjVGa1d0" />
 <br />
 Making it clear that they weren't done with applying magnets to puzzles, on October 29 2016, MoYu announced the MoYu Magnetic Skewb [53].
 
@@ -432,13 +421,7 @@ Some even produced tutorials for modifying puzzles to include magnets. The first
 
 ![](img/HardwareEvolution/Zhao.webp)
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/mouftEig8Gk"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="mouftEig8Gk" />
 <br />
 ![](img/HardwareEvolution/Miller.webp)
 
@@ -461,13 +444,7 @@ images={[
 
 In September 2018, GAN released a teaser video for the first production 3x3x3 with an adjustable magnet strength [59]. The magnets within each edge are directly across from each other on opposite sides and connected through a rod. The packaging comes with sets of additional magnet rods of varying strength that the user can push through and replace the currently inserted rods. The cube was released under the name “356X” in October 2018 [60].
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/9QomqgRQR9o"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="9QomqgRQR9o" />
 
 ![](img/HardwareEvolution/GAN.webp)
 

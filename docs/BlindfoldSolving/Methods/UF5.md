@@ -5,6 +5,7 @@ description: History of the UF5 blindfold solving method for the Rubik's Cube.
 import AnimCube from "@site/src/components/AnimCube";
 import ReactPlayer from 'react-player'
 import ImageCollage from '@site/src/components/ImageCollage';
+import YouTube from "@site/src/components/YouTube";
 
 # UF5
 
@@ -49,13 +50,7 @@ Although the idea had been suggested numerous times in the past, it hadn’t bee
 
 In June 2018, Ghodgaonkar posted a video to YouTube detailing a new way to memorize blindfold solving algorithms [12]. Then, in January 2019, he announced that he was developing it into a mnemonic system called “Yo Notation” that is intended to make algorithm memorization easier [13]. The notation document was developed and published in February 2019 [14, 15, 16].
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/y56Ljj4TeEg"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="y56Ljj4TeEg" />
 
 <ImageCollage
 images={[
@@ -101,34 +96,16 @@ images={[
 ]}
 />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/-SantOHuPcs"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="-SantOHuPcs" />
 <br />
 
 Ghodgaonkar even went as far as compiling a survey to ask the community how they felt about UF5 [27, 28]. Many responses reflected the negative opinions expressed in the message board posts and Facebook groups. Some respondents, both to the surveys and online message boards and groups, were more optimistic, comparing it to the ZBLL and ZBLS algorithm sets [29, 27, 28]. It was noted that for several years after the proposals of ZBLL and ZBLS many doubted the viability of learning and recalling the large number of algorithms, yet the two algorithm sets are now being learned and implemented into competition solves. After putting effort into development, practice, and considering the feedback from the community, Ghodgaonkar settled on a mixed opinion [30]:
 
 > I was in two minds always, one mind thinking that method will not give any returns, and the other was that this method will just restructure the human brain, as to how we consume information and the thin line between memorisation and understanding a thing fully that we are able to reconstruct it.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/Le8dVjF5Jog"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="Le8dVjF5Jog" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/F8VSVnCXx5k"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="F8VSVnCXx5k" />
 <br />
 
 <ImageCollage

@@ -3,6 +3,8 @@ sidebar_position: 3
 description: History of Rubik's Cube Notation
 ---
 
+import YouTube from "@site/src/components/YouTube";
+
 # Notation
 
 ## Outer Turns
@@ -36,13 +38,7 @@ Throughout the years, many have questioned the direction that the M, E, and S no
 ![](img/Notation/Williams1.png)
 ![](img/Notation/Williams2.png)
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/24eHm4ri8WM?start=51"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="24eHm4ri8WM?start=51" />
 
 > Thanks to xyzzy for pointing out the alphabetical order mention in this video.
 
