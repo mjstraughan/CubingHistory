@@ -6,6 +6,7 @@ description: History of blindfold solving the Rubik's Cube.
 import AnimCube from "@site/src/components/AnimCube";
 import ReactPlayer from 'react-player'
 import ImageCollage from '@site/src/components/ImageCollage';
+import YouTube from "@site/src/components/YouTube";
 
 # Blindfold Solving Origins
 
@@ -69,13 +70,7 @@ images={[
 ]}
 />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/VZuC1lXnUcc"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="VZuC1lXnUcc" />
 
 ## First Multi-Blind Solvers
 

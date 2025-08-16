@@ -4,6 +4,7 @@ description: History of Rubik's Cube world record averages. The achievements of 
 ---
 
 import AnimCube from "@site/src/components/AnimCube";
+import YouTube from "@site/src/components/YouTube";
 
 # World Record Averages (2H)
 
@@ -25,13 +26,7 @@ Throughout 2004, Shotaro Makisumi reduced the world record average to 14.52. Sta
 | 15.38   | 15.29 16.64 17.65 (18.05) (14.76) | April 3, 2004    |
 | 14.52   | (13.16) 13.77 15.49 14.29 (15.60) | October 16, 2004 |
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/aOmgT6GjZIg"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="aOmgT6GjZIg" />
 
 ## 14.40 and 13.22 (Anssi Vanhala)
 
@@ -42,13 +37,7 @@ On March 18, 2006, a year and a half after the 14.52 second average was set, the
 | 14.40   | (16.59) 14.18 15.29 (13.08) 13.74 | March 18, 2006 |
 | 13.22   | 14.08 12.81 12.77 (12.47) (14.09) | March 18, 2006 |
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/eX-LRl6JA1Y"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="eX-LRl6JA1Y" />
 
 ## 11.76 to 10.07
 
@@ -67,53 +56,17 @@ From January 2007 to September 2009, the record was reduced to 10.07 seconds. Th
 | Tomasz Żołnowski | 10.63   | 10.88 10.19 10.81 (9.43) (DNF)    | April 4, 2009      |
 | Tomasz Żołnowski | 10.07   | 10.80 (12.08) 9.77 (8.68) 9.65    | September 26, 2009 |
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/bZv_YtXwKzo"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="bZv_YtXwKzo" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/MUP0T_bH7Vc"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="MUP0T_bH7Vc" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/id2xtbfVbn8"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="id2xtbfVbn8" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/WYL2Gmpn0sA"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="WYL2Gmpn0sA" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/YJdGN0Opuvc"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="YJdGN0Opuvc" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/Kfvz0EU7_-Y"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="Kfvz0EU7_-Y" />
 
 ## 9.21 to 6.45 (Feliks Zemdegs)
 
@@ -142,21 +95,9 @@ In 2010, the sub-10 second barrier for the world record average was broken for t
 | 6.54    | 6.91 6.41 (6.25) (7.30) 6.31  | November 16, 2013 |
 | 6.45    | (7.16) 6.58 6.79 (5.88) 5.99  | July 9, 2016      |
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/Lv54OeFQZOk"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="Lv54OeFQZOk" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/93KEXSfKp4c"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="93KEXSfKp4c" />
 
 ## 6.39 (Max Park)
 
@@ -173,13 +114,7 @@ In 2010, the sub-10 second barrier for the world record average was broken for t
 
 In 2017, for the first time in over seven years, Zemdegs’ streak was broken. On April 23, 2017, broke the world record with an average of 6.39 seconds. What people began to notice about Max Park’s solving style was his turns per second. This contrasted with Zemdegs’ solves which had lower turns per second, but were more move efficient.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/7hEVhvpcFZI"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="7hEVhvpcFZI" />
 
 ## 5.97 to 5.53 (Feliks Zemdegs)
 
@@ -203,21 +138,9 @@ In 2017, for the first time in over seven years, Zemdegs’ streak was broken. O
 | 5.69    | (6.90) 5.64 (5.57) 5.79 5.63 | April 6, 2019     |
 | 5.53    | (7.16) 5.04 (4.67) 6.55 4.99 | November 10, 2019 |
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/kWUQbhbqvqo"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="kWUQbhbqvqo" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/Pj796Dd95-w"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="Pj796Dd95-w" />
 
 ## 5.48 to 5.08
 
@@ -241,37 +164,13 @@ From June 2021 to April 2022, the world record average was brought down to 5.08 
 | Tymon Kolasiński | 5.09    | (4.73) 4.83 5.24 (6.57) 5.20 | December 18, 2021 |
 | Max Park         | 5.08    | 4.88 (5.70) 5.56 (4.53) 4.80 | April 3, 2022     |
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/UDbTMnGBuEQ"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="UDbTMnGBuEQ" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/QMRDcx0iTBc"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="QMRDcx0iTBc" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/BxWbYB4kI8M"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="BxWbYB4kI8M" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/X3UFiUnWIqc"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="X3UFiUnWIqc" />
 
 ## 4.86 (Tymon Kolasiński and Max Park)
 
@@ -305,21 +204,9 @@ On July 30, 2022, Kolasiński broke the sub-5 barrier with a 4.86 second average
 
 ![](img/WRAverages2H/MaxTymonComparison.png)
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/yZywq-ROTbg"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="yZywq-ROTbg" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/s3ypNkatnwg"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="s3ypNkatnwg" />
 
 ## 4.69 to 4.09 (Yiheng Wang)
 
@@ -346,13 +233,7 @@ The 4.69 second average was the first of several world records. From June 2023 t
 | 4.25    | 4.76 3.98 (4.81) 4.00 (3.96) | August 25, 2024    |
 | 4.09    | 3.83 (5.16) 4.55 (3.71) 3.88 | September 21, 2024 |
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/RcIFY4_PO3E"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="RcIFY4_PO3E" />
 
 ## Sources
 

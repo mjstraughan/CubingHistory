@@ -6,6 +6,7 @@ id: 3Color
 import AnimCube from "@site/src/components/AnimCube";
 import ReactPlayer from 'react-player'
 import ImageCollage from '@site/src/components/ImageCollage';
+import YouTube from "@site/src/components/YouTube";
 
 # 3-Color
 
@@ -72,31 +73,13 @@ In February 2009, Christos published his 3-Color solution, making it available f
 ![](img/3-Color/Christos2.png)
 <br/>
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/upub1rOvfqI"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="upub1rOvfqI" />
 <br/>
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/18_WoFQp8WQ"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="18_WoFQp8WQ" />
 <br/>
 In July 2016, Christos made the booklet available for free through a YouTube video that displays each page of the booklet [12]. On January 18 2025, Christos posted a comment on the video with a link to the .pdf version of the booklet [13]. A backup link to the booklet is <a href="/archive/MethodFiles/g_christos_soln_rubics_cube_3x3.pdf ">here</a>. On the same day, Christos posted a short video to his Facebook page with an example solve of his method [14, 15].
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/2t_EIyowSIY"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="2t_EIyowSIY" />
 <br/>
 <ImageCollage
 images={[

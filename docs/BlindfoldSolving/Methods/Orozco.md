@@ -5,6 +5,7 @@ description: History of the Orozco blindfold solving method for the Rubik's Cube
 import AnimCube from "@site/src/components/AnimCube";
 import ReactPlayer from 'react-player'
 import ImageCollage from '@site/src/components/ImageCollage';
+import YouTube from "@site/src/components/YouTube";
 
 # Orozco
 
@@ -46,13 +47,7 @@ images={[
 
 On November 9, 2013, Gabriel Alejandro Orozco Casillas posted a video of a new blindfold solving method, which eventually became known as Orozco [3]. Elements of his previously proposed U2 method can be seen within Orozco, so it is possible that the idea of Orozco arose from the thought process behind the U2 method. It took some time before the Orozco method reached the non-Spanish speaking community. It is likely that the rest of the community first learned of the method through a thread by Jayden McNeill on SpeedSolving.com. In the thread, McNeill described the method, compared and contrasted it with the M2 method, and included an example solve [4].
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/qutNt4f5z8g"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="qutNt4f5z8g" />
 
 <ImageCollage
 images={[

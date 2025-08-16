@@ -3,6 +3,7 @@ description: History of the Bencisco method for the FTO
 ---
 
 import TwistyPlayer from "@site/src/components/TwistyPlayer";
+import YouTube from "@site/src/components/YouTube";
 
 # Bencisco
 
@@ -29,43 +30,19 @@ import TwistyPlayer from "@site/src/components/TwistyPlayer";
 
 Development on the Bencisco method started on April 1, 2018 [1] and the method was first shown in video form on YouTube on April 23, 2018 [2]. This video demonstrated the potential of the method with a solve time under one minute.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/HKKhHqHw8ps"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="HKKhHqHw8ps" />
 
 ## Release
 
 In September of 2019, Streeter officially revealed the steps of the method to the puzzle community. Initially the steps were presented through an example solve video [3] and, later on the same day, a video announcing the release of a document detailing the steps of the method [4]. A couple of days after the YouTube reveal, Streeter presented the complete method to the rest of the community through a post to TwistyPuzzles.com [5]. A few months later, Streeter released an in-depth tutorial for the method [6].
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/XdgZcz5Pt9g"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="XdgZcz5Pt9g" />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/dOx2mqe6cTw"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="dOx2mqe6cTw" />
 
 ![](img/Bencisco/Streeter1.png)
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/tYeV8LvqVDY"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="tYeV8LvqVDY" />
 
 ## Name Origin
 

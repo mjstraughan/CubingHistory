@@ -5,6 +5,7 @@ description: History of techniques for blindfold solving the Rubik's Cube.
 import AnimCube from "@site/src/components/AnimCube";
 import ReactPlayer from 'react-player'
 import ImageCollage from '@site/src/components/ImageCollage';
+import YouTube from "@site/src/components/YouTube";
 
 # Techniques
 
@@ -40,25 +41,13 @@ images={[
 ]}
 />
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/hpxOIQ6j0rk"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="hpxOIQ6j0rk" />
 
 ### Popularization
 
 Many blindfold solvers implemented floating buffers into their solves starting in the late 2010s. However, widespread use of the technique can be traced to at least one point in time. In January 2016, Gianfranco Huanqui achieved a 3x3 blindfold solving continental record time of 21.51 seconds [11]. In the solve, Huanqui made use of the technique, catching the attention of several people in the community. One of those people who took notice of the solve was Jayden McNeill. Impressed by the use of floating buffers within such a high level solve in competition, McNeill posted a thread to SpeedSolving.com attempting to standardize the process in a way that could be consistently implemented [12].
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/Og-E8v1rihc"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="Og-E8v1rihc" />
 
 ![](img/Techniques/McNeill.png)
 
@@ -124,13 +113,7 @@ In June of 2022, Wong and Kobelansky started development on T2C, together devisi
 ![](img/Techniques/Wong.png)
 ![](img/Techniques/T2C.png)
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/NKNAE-0FTBA?start=1109s"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="NKNAE-0FTBA?start=1109s" />
 
 ### Credit
 
@@ -144,13 +127,7 @@ In the earlier years of blindfold solving, the typical strategy used to solve pa
 
 The most common way of solving parity is to use a technique called “memo swap” or “pseudo swap”. Using this technique, instead of separately solving the final target and solving parity, the parity solving is built into the final piece target. The final target is solved while positioning the piece currently in the target position to the UR position. For edges this creates a cycle of UF > Target > UR if using UF as the buffer position. Solvers typically memorize the corners first then, if parity exists, the edges are memorized and solved to have the UF and UR edges swapped. It is unknown from where the technique originated, but it has been used at least as far back as 2012, as shown by its use by Noa Arthurs in a tutorial video [24].
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/1xGbJ4ic6oE?start=134s"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="1xGbJ4ic6oE?start=134s" />
 
 ### Full Parity
 
@@ -174,13 +151,7 @@ images={[
 
 Aside from the M slice, slice turns weren’t always in heavy use during blindfold solving. This is likely because the ergonomics for E and S slice turns hadn’t yet been strenuously tested within blindfold solves. In addition, outer turns were likely considered safer, with less risk of improperly executing the turns. Eventually E and S moves started making their appearance in top level solves, and it is thought that Gianfranco Huanqui popularized the use of E and S turns in blindfold solving [8]. A notable example of slice turn use is the 23.68 world record solve by Marcin Zalewski, which included the use of E slice turns in two of the edge solving targets [29]. Huanqui stated that he saw the use of E slice commutators in Zalewski’s world record solve and was inspired to use it in any situation possible [9]. In addition to implementing E slice moves, Huanqui also started using S slice moves. Huanqui believes that this came about either naturally after having experimented with E slice moves or from discussions with Ishaan Agrawal, who had been using S slice moves at the time [9].
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/-QHaiTRec_8"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="-QHaiTRec_8" />
 
 ## References
 

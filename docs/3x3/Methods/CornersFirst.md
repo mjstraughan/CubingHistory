@@ -5,6 +5,7 @@ description: History of the Corners First method for the Rubik's Cube.
 import AnimCube from "@site/src/components/AnimCube";
 import ReactPlayer from 'react-player'
 import ImageCollage from '@site/src/components/ImageCollage';
+import YouTube from "@site/src/components/YouTube";
 
 # Corners First
 
@@ -75,13 +76,7 @@ The steps of Minh Thai’s method, as described in _The Winning Solution_, are a
 3. Solve three edges of one side, three edges of the opposite side, then simultaneously solve the final two opposite side edges.
 4. Orient the final middle layer edges then permute the edges.
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/zVkZEQeUk-g"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="zVkZEQeUk-g" />
 
 ### Others
 
