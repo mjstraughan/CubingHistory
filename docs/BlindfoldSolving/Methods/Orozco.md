@@ -13,7 +13,7 @@ import ImageCollage from '@site/src/components/ImageCollage';
 
 ## Description
 
-**Creator:** [Gabriel Alejandro Orozco Casillas](CubingContributors/MethodDevelopers.md#orozco-casillas-alejandro-gabriel)
+**Creator:** [Gabriel Alejandro Orozco Casillas](CubingContributors/MethodDevelopers.md#orozco-casillas-gabriel-alejandro)
 
 **Created:** 2013
 
