@@ -4,6 +4,8 @@ description: History of Rubik's Cube world record averages. The achievements of 
 ---
 
 import AnimCube from "@site/src/components/AnimCube";
+import ReconViewer from "@site/src/components/ReconViewer";
+import ReconCarousel from "@site/src/components/ReconCarousel";
 import YouTube from "@site/src/components/YouTube";
 
 # World Record Averages (2H)
@@ -70,7 +72,58 @@ From January 2007 to September 2009, the record was reduced to 10.07 seconds. Th
 
 ## 9.21 to 6.45 (Feliks Zemdegs)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=D2 B R2 B' F2 D2 L2 F' L B' R' D R B' D F2 D' L F;B2 R2 D2 F2 U2 R2 U2 L F2 D B D U' F R U' B' U2 R';R' F2 L2 F2 R F' D' B L' D R' B' R2 U2 B R2 D';D2 U L2 B' R B U' F2 R F' U' B2 F' U L2 B D U2;B' L2 B L2 F L U F' L' D F2 L2 R' D2 F L R' B'&move={Scramble: D2 B R2 B' F2 D2 L2 F' L B' R' D R B' D F2 D' L F}{Inspection: z}z.{Xcross: R' F R u' R U' R D U' L2'}R' F R u' R U' R D U' L2'.{2nd pair: y2' R U' R' U R U2' R' U R U' R2'}y2' R U' R' U R U2' R' U R U' R2'.{3rd pair: U R L' U L}U R L' U L.{4th pair: U' U R' U2' R}U' U R' U2' R.{OLL(CP): U' R' U' F' U F R U' R U2' R' U' R U' R'}U' R' U' F' U F R U' R U2' R' U' R U' R'.{EPLL: U' R2 U R U R' U' R' U' R' U R' U'}U' R2 U R U R' U' R' U' R' U R' U';{Scramble: B2 R2 D2 F2 U2 R2 U2 L F2 D B D U' F R U' B' U2 R'}{Inspection: x' y'}x' y'.{Cross: R2' D2 R r U' r' D}R2' D2 R r U' r' D.{1st pair: R' F U' F' R}R' F U' F' R.{2nd pair: U L' U U R U' R'}U L' U U R U' R'.{3rd pair: U L U' L' U L}U L U' L' U L.{4th pair: U2' L U' L' U L U' L'}U2' L U' L' U L U' L'.{OLL: U' U' R U R' U' R' F R2 U R' U' F'}U' U' R U R' U' R' F R2 U R' U' F'.{PLL: x R2' D2 R U R' D2 R U' R}x R2' D2 R U R' D2 R U' R;{Scramble: R' F2 L2 F2 R F' D' B L' D R' B' R2 U2 B R2 D'}{Inspection: y x'}y x'.{Cross: R D R D2 R2'}R D R D2 R2'.{1st pair: U' L U2 L'}U' L U2 L'.{2nd pair: y L U L2'}y L U L2'.{3rd pair: U L U R U R'}U L U R U R'.{4th pair: y' U' R U R' U R U R'}y' U' R U R' U R U R'.{EO: U' F R U R' U' F'}U' F R U R' U' F'.{ZBLL: U' U' R' U' R U' R' D D' U' R2 D r' U2 r D' R2' U' R U2}U' U' R' U' R U' R' D D' U' R2 D r' U2 r D' R2' U' R U2;{Scramble: D2 U L2 B' R B U' F2 R F' U' B2 F' U L2 B D U2}{Inspection: x}x.{Xcross: (r' L') D' R' y R' U' R D2}(r' L') D' R' y R' U' R D2.{2nd pair: R U' U' R' L U' L'}R U' U' R' L U' L'.{3rd pair: y' R U R' U R U R' U' R U' R'}y' R U R' U R U R' U' R U' R'.{4th pair / EOLS: y R' F R F'}y R' F R F'.{ZBLL: U R U2' R2' U' R2 U' R' U R' U' R U R' U R U2'}U R U2' R2' U' R2 U' R' U R' U' R U R' U R U2';{Scramble: B' L2 B L2 F L U F' L' D F2 L2 R' D2 F L R' B'}{Inspection: z y2}z y2.{XXcross: U' l' U2 L' x' y L U L' U R' U' R D2 U' l' U l}U' l' U2 L' x' y L U L' U R' U' R D2 U' l' U l.{3rd pair: y' R' U' R U' R' U R}y' R' U' R U' R' U R.{4th pair: U R U2' R' d R' U' R}U R U2' R' d R' U' R.{OLL: U' R U2' R2' F R F' R U2' R'}U' R U2' R2' F R F' R U2' R'.{PLL: U' R' U2 R U' U' R' F R U R' U' R' F' R2 U'}U' R' U2 R U' U' R' F R U R' U' R' F' R2 U'" width="600px" height="400px" />
+<ReconCarousel>
+<ReconViewer
+  scramble="D2 B R2 B' F2 D2 L2 F' L B' R' D R B' D F2 D' L F"
+  solution={`z . // Inspection
+R' F R u' R U' R D U' L2' . // Xcross
+y2' R U' R' U R U2' R' U R U' R2' . // 2nd pair
+U R L' U L . // 3rd pair
+U' U R' U2' R . // 4th pair
+U' R' U' F' U F R U' R U2' R' U' R U' R' . // OLL(CP)
+U' R2 U R U R' U' R' U' R' U R' U' . // EPLL`}
+/>
+<ReconViewer
+  scramble="B2 R2 D2 F2 U2 R2 U2 L F2 D B D U' F R U' B' U2 R'"
+  solution={`x' y' . // Inspection
+R2' D2 R r U' r' D . // Cross
+R' F U' F' R . // 1st pair
+U L' U U R U' R' . // 2nd pair
+U L U' L' U L . // 3rd pair
+U2' L U' L' U L U' L' . // 4th pair
+U' U' R U R' U' R' F R2 U R' U' F' . // OLL
+x R2' D2 R U R' D2 R U' R . // PLL`}
+/>
+<ReconViewer
+  scramble="R' F2 L2 F2 R F' D' B L' D R' B' R2 U2 B R2 D'"
+  solution={`y x' . // Inspection
+R D R D2 R2' . // Cross
+U' L U2 L' . // 1st pair
+y L U L2' . // 2nd pair
+U L U R U R' . // 3rd pair
+y' U' R U R' U R U R' . // 4th pair
+U' F R U R' U' F' . // EO
+U' U' R' U' R U' R' D D' U' R2 D r' U2 r D' R2' U' R U2 . // ZBLL`}
+/>
+<ReconViewer
+  scramble="D2 U L2 B' R B U' F2 R F' U' B2 F' U L2 B D U2"
+  solution={`x . // Inspection
+(r' L') D' R' y R' U' R D2 . // Xcross
+R U' U' R' L U' L' . // 2nd pair
+y' R U R' U R U R' U' R U' R' . // 3rd pair
+y R' F R F' . // 4th pair / EOLS
+U R U2' R2' U' R2 U' R' U R' U' R U R' U R U2' . // ZBLL`}
+/>
+<ReconViewer
+  scramble="B' L2 B L2 F L U F' L' D F2 L2 R' D2 F L R' B'"
+  solution={`z y2 . // Inspection
+U' l' U2 L' x' y L U L' U R' U' R D2 U' l' U l . // XXcross
+y' R' U' R U' R' U R . // 3rd pair
+U R U2' R' d R' U' R . // 4th pair
+U' R U2' R2' F R F' R U2' R' . // OLL
+U' R' U2 R U' U' R' F R U R' U' R' F' R2 U' . // PLL`}
+/>
+</ReconCarousel>
 
 **6.45 second average by Feliks Zemdegs**
 | **Solve** | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -101,7 +154,60 @@ In 2010, the sub-10 second barrier for the world record average was broken for t
 
 ## 6.39 (Max Park)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=U2 F2 B2 D' F2 L B D' F D R' L2 B2 U2 D2 L' U2 D2 F2;D F2 R2 U F' B2 U2 R' U2 L B' R2 U' F2 L2 F2 R2 D' R2 L2;D U R2 U' B2 D' F2 D2 R' U B' U' F2 D2 R F2 L' F' U;D F2 U2 R2 U2 L2 B2 L2 U2 B R' U2 F' R2 D' F2 U' L F' U;R2 B' R2 D2 B' R2 F L2 B L' U' B2 U F D' F' D' U' L2 D'&move={Scramble: U2 F2 B2 D' F2 L B D' F D R' L2 B2 U2 D2 L' U2 D2 F2}{Inspection: z2}z2.{Cross: r D R D D F}r D R D D F.{1st pair: L U L'}L U L'.{2nd pair: U R' U R2 U' R'}U R' U R2 U' R'.{3rd pair: U U L' U L R' U R}U U L' U L R' U R.{4th pair: U' U' L' U U L U' L' U L}U' U' L' U U L U' L' U L.{OLL: U U' F U R U' R' F'}U U' F U R U' R' F'.{PLL: U' U' U' R2 U R' U R' U' R U' R2' (U' D) R' U R D'}U' U' U' R2 U R' U R' U' R U' R2' (U' D) R' U R D';{Scramble: D F2 R2 U F' B2 U2 R' U2 L B' R2 U' F2 L2 F2 R2 D' R2 L2}{Inspection: z2}z2.{Xcross: (r' L') U x R r U' r' y U R U' R' u'}(r' L') U x R r U' r' y U R U' R' u'.{2nd pair: U L' U U L U L' U' L}U L' U U L U L' U' L.{3rd pair: R U' R' d R' U' R U' R' U' R}R U' R' d R' U' R U' R' U' R.{4th pair: U L' U' L U L' U' L}U L' U' L U L' U' L.{OLL: R' U' R' F R F' U R}R' U' R' F R F' U R.{PLL: U' U L U' R U' U' L' U L R' U' R U' U' L' U l'}U' U L U' R U' U' L' U L R' U' R U' U' L' U l';{Scramble: D U R2 U' B2 D' F2 D2 R' U B' U' F2 D2 R F2 L' F' U}{Inspection: y2 x'}y2 x'.{Cross: D' L2' U' R' F R D'}D' L2' U' R' F R D'.{1st pair: R' U R}R' U R.{2nd pair: U' U' R U R' U R U' R'}U' U' R U R' U R U' R'.{3rd pair: y' U' R U R'}y' U' R U R'.{4th pair: y' R U' R' U R U' U' R' U R U' R'}y' R U' R' U R U' U' R' U R U' R'.{OLL: U U r U' r2' U r2 U r2' U' r}U U r U' r2' U r2 U r2' U' r.{PLL: U U' R' U L' U U R U' R' L U L' U U R U' L U U}U U' R' U L' U U R U' R' L U L' U U R U' L U U;{Scramble: D F2 U2 R2 U2 L2 B2 L2 U2 B R' U2 F' R2 D' F2 U' L F' U}{Inspection: y'}y'.{Xcross: R' U' B' R U' R' F R2 U' R'}R' U' B' R U' R' F R2 U' R'.{2nd pair: y U R U' R' U U R U' R2'}y U R U' R' U U R U' R2'.{3rd pair: U R y U R' U R}U R y U R' U R.{4th pair: U U R U' U' R' U R U' R'}U U R U' U' R' U R U' R'.{OLL: U U r' U' R U' R' U R U' R' U' U' r}U U r' U' R U' R' U R U' R' U' U' r.{PLL: U' R' U U R U' U' R' F R U R' U' R' F' R2 U'}U' R' U U R U' U' R' F R U R' U' R' F' R2 U';{Scramble: R2 B' R2 D2 B' R2 F L2 B L' U' B2 U F D' F' D' U' L2 D'}{Cross: R U r U' r' D' R' u}R U r U' r' D' R' u.{1st pair: U R' U' R}U R' U' R.{2nd pair: U' R U' R' U' L U' L'}U' R U' R' U' L U' L'.{3rd pair: R U' U' R' U U R U' R'}R U' U' R' U U R U' R'.{4th pair: U L' U L d R U R'}U L' U L d R U R'.{OLL: U R U R' U' M' U R U' r'}U R U R' U' M' U R U' r'.{PLL: U' R2 U R' U R' U' R U' R2' (U' D) R' U R (U D')}U' R2 U R' U R' U' R U' R2' (U' D) R' U R (U D')" width="600px" height="400px" />
+<ReconCarousel>
+<ReconViewer
+  scramble="U2 F2 B2 D' F2 L B D' F D R' L2 B2 U2 D2 L' U2 D2 F2"
+  solution={`z2 . // Inspection
+r D R D D F . // Cross
+L U L' . // 1st pair
+U R' U R2 U' R' . // 2nd pair
+U U L' U L R' U R . // 3rd pair
+U' U' L' U U L U' L' U L . // 4th pair
+U U' F U R U' R' F' . // OLL
+U' U' U' R2 U R' U R' U' R U' R2' (U' D) R' U R D' . // PLL`}
+/>
+<ReconViewer
+  scramble="D F2 R2 U F' B2 U2 R' U2 L B' R2 U' F2 L2 F2 R2 D' R2 L2"
+  solution={`z2 . // Inspection
+(r' L') U x R r U' r' y U R U' R' u' . // Xcross
+U L' U U L U L' U' L . // 2nd pair
+R U' R' d R' U' R U' R' U' R . // 3rd pair
+U L' U' L U L' U' L . // 4th pair
+R' U' R' F R F' U R . // OLL
+U' U L U' R U' U' L' U L R' U' R U' U' L' U l' . // PLL`}
+/>
+<ReconViewer
+  scramble="D U R2 U' B2 D' F2 D2 R' U B' U' F2 D2 R F2 L' F' U"
+  solution={`y2 x' . // Inspection
+D' L2' U' R' F R D' . // Cross
+R' U R . // 1st pair
+U' U' R U R' U R U' R' . // 2nd pair
+y' U' R U R' . // 3rd pair
+y' R U' R' U R U' U' R' U R U' R' . // 4th pair
+U U r U' r2' U r2 U r2' U' r . // OLL
+U U' R' U L' U U R U' R' L U L' U U R U' L U U . // PLL`}
+/>
+<ReconViewer
+  scramble="D F2 U2 R2 U2 L2 B2 L2 U2 B R' U2 F' R2 D' F2 U' L F' U"
+  solution={`y' . // Inspection
+R' U' B' R U' R' F R2 U' R' . // Xcross
+y U R U' R' U U R U' R2' . // 2nd pair
+U R y U R' U R . // 3rd pair
+U U R U' U' R' U R U' R' . // 4th pair
+U U r' U' R U' R' U R U' R' U' U' r . // OLL
+U' R' U U R U' U' R' F R U R' U' R' F' R2 U' . // PLL`}
+/>
+<ReconViewer
+  scramble="R2 B' R2 D2 B' R2 F L2 B L' U' B2 U F D' F' D' U' L2 D'"
+  solution={`R U r U' r' D' R' u . // Cross
+U R' U' R . // 1st pair
+U' R U' R' U' L U' L' . // 2nd pair
+R U' U' R' U U R U' R' . // 3rd pair
+U L' U L d R U R' . // 4th pair
+U R U R' U' M' U R U' r' . // OLL
+U' R2 U R' U R' U' R U' R2' (U' D) R' U R (U D') . // PLL`}
+/>
+</ReconCarousel>
 
 **6.39 second average by Max Park**
 | **Solve** | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -118,7 +224,60 @@ In 2017, for the first time in over seven years, Zemdegs’ streak was broken. O
 
 ## 5.97 to 5.53 (Feliks Zemdegs)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=R2 F' U2 L D' L' D' R D2 U2 F2 L' D2 L' D' B' U';D' L D' U2 R2 U' B L U2 B2 R U R2 F2 D' U2 B';U' R2 B U' L' F' R D2 U L' F2 D2 R' F' D B' D' U';L B2 U2 B' R' D2 R' B L B F' U2 L D R2 B R;U' R F U2 F' U2 F2 D' R D' L2 R' F D B2 L' B R' U2&move={Scramble: R2 F' U2 L D' L' D' R D2 U2 F2 L' D2 L' D' B' U'}{Inspection: y}y.{Cross: R2' F D F D2}R2' F D F D2.{1st pair: R U' R' y R U' R' U R' U' R}R U' R' y R U' R' U R' U' R.{2nd pair: y' U' L' U L R' U R}y' U' L' U L R' U R.{3rd pair: R U' R' F U F'}R U' R' F U F'.{4th pair: U' R U R'}U' R U R'.{OLL: U' U' F U R U2 R' U' R U2 R' U' F'}U' U' F U R U2 R' U' R U2 R' U' F'.{PLL: U R U R' F' R U2' R' U2' R' F R U R U2' R' U}U R U R' F' R U2' R' U2' R' F R U R U2' R' U;{Scramble: D' L D' U2 R2 U' B L U2 B2 R U R2 F2 D' U2 B'}{Inspection: x y2}x y2.{Cross: U' R2 D R' D2}U' R2 D R' D2.{1st pair: R U' U' R' U L U L'}R U' U' R' U L U L'.{2nd pair: U' R' U2 R d' R U R'}U' R' U2 R d' R U R'.{3rd pair: U' L U2 L'}U' L U2 L'.{4th pair: y' U R U' R' y' R' U' R}y' U R U' R' y' R' U' R.{OLL(CP): F R U' R' U' R U R' F'}F R U' R' U' R U R' F'.{EPLL: R U' R U R U R U' R' U' R2 U'}R U' R U R U R U' R' U' R2 U';{Scramble: U' R2 B U' L' F' R D2 U L' F2 D2 R' F' D B' D' U'}{Inspection: z' x'}z' x'.{Xcross: L' U' r' l U' l' R' U' R D}L' U' r' l U' l' R' U' R D.{2nd pair: y' U' U L F' L' F}y' U' U L F' L' F.{3rd pair: U' R' U R}U' R' U R.{4th pair+OLS: U R' F R F' U' R' F R F'}U R' F R F' U' R' F R F'.{EPLL: R U' R U R U R U' R' U' R2}R U' R U R U R U' R' U' R2;{Scramble: L B2 U2 B' R' D2 R' B L B F' U2 L D R2 B R}{Inspection: x z'}x z'.{Cross: U' R' F D2 R' U R' D'}U' R' F D2 R' U R' D'.{1st pair: L U L'}L U L'.{2nd pair: U' R U' R' U' R' U' R}U' R U' R' U' R' U' R.{3rd pair: U' R U' R' U L' U' L}U' R U' R' U L' U' L.{4th pair: U R U R' U' R U R'}U R U R' U' R U R'.{OLL: U' l' U' L U' L' U L U' L' U U l}U' l' U' L U' L' U L U' L' U U l.{PLL: R2 U R' U R' U' R U' R2 (D U') R' U R D'}R2 U R' U R' U' R U' R2 (D U') R' U R D';{Scramble: U' R F U2 F' U2 F2 D' R D' L2 R' F D B2 L' B R' U2}{Inspection: x}x.{Cross: U' R U2 R (U' D)}U' R U2 R (U' D).{1st+2nd pairs: R' U R2 U' R'}R' U R2 U' R'.{3rd pair: y' R U' R' U' R U R' U2 R U' R'}y' R U' R' U' R U R' U2 R U' R'.{4th pair: y' U R' F R F' U R U' R' R U' R'}y' U R' F R F' U R U' R' R U' R'.{OLL: F R U R' U' F'}F R U R' U' F'.{PLL: y' x' R U' R D2 R' U R D2 R2'}y' x' R U' R D2 R' U R D2 R2'" width="600px" height="400px" />
+<ReconCarousel>
+<ReconViewer
+  scramble="R2 F' U2 L D' L' D' R D2 U2 F2 L' D2 L' D' B' U'"
+  solution={`y . // Inspection
+R2' F D F D2 . // Cross
+R U' R' y R U' R' U R' U' R . // 1st pair
+y' U' L' U L R' U R . // 2nd pair
+R U' R' F U F' . // 3rd pair
+U' R U R' . // 4th pair
+U' U' F U R U2 R' U' R U2 R' U' F' . // OLL
+U R U R' F' R U2' R' U2' R' F R U R U2' R' U . // PLL`}
+/>
+<ReconViewer
+  scramble="D' L D' U2 R2 U' B L U2 B2 R U R2 F2 D' U2 B'"
+  solution={`x y2 . // Inspection
+U' R2 D R' D2 . // Cross
+R U' U' R' U L U L' . // 1st pair
+U' R' U2 R d' R U R' . // 2nd pair
+U' L U2 L' . // 3rd pair
+y' U R U' R' y' R' U' R . // 4th pair
+F R U' R' U' R U R' F' . // OLL(CP)
+R U' R U R U R U' R' U' R2 U' . // EPLL`}
+/>
+<ReconViewer
+  scramble="U' R2 B U' L' F' R D2 U L' F2 D2 R' F' D B' D' U'"
+  solution={`z' x' . // Inspection
+L' U' r' l U' l' R' U' R D . // Xcross
+y' U' U L F' L' F . // 2nd pair
+U' R' U R . // 3rd pair
+U R' F R F' U' R' F R F' . // 4th pair+OLS
+R U' R U R U R U' R' U' R2 . // EPLL`}
+/>
+<ReconViewer
+  scramble="L B2 U2 B' R' D2 R' B L B F' U2 L D R2 B R"
+  solution={`x z' . // Inspection
+U' R' F D2 R' U R' D' . // Cross
+L U L' . // 1st pair
+U' R U' R' U' R' U' R . // 2nd pair
+U' R U' R' U L' U' L . // 3rd pair
+U R U R' U' R U R' . // 4th pair
+U' l' U' L U' L' U L U' L' U U l . // OLL
+R2 U R' U R' U' R U' R2 (D U') R' U R D' . // PLL`}
+/>
+<ReconViewer
+  scramble="U' R F U2 F' U2 F2 D' R D' L2 R' F D B2 L' B R' U2"
+  solution={`x . // Inspection
+U' R U2 R (U' D) . // Cross
+R' U R2 U' R' . // 1st+2nd pairs
+y' R U' R' U' R U R' U2 R U' R' . // 3rd pair
+y' U R' F R F' U R U' R' R U' R' . // 4th pair
+F R U R' U' F' . // OLL
+y' x' R U' R D2 R' U R D2 R2' . // PLL`}
+/>
+</ReconCarousel>
 
 **5.53 second average by Feliks Zemdegs**
 | **Solve** | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -144,7 +303,59 @@ In 2017, for the first time in over seven years, Zemdegs’ streak was broken. O
 
 ## 5.48 to 5.08
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=L2 B2 L2 D B2 F2 D2 R' F2 D2 L U2 B U' R' F' L2 U2 L';U F2 U' L2 D' F2 D' R2 B' L' F D R U2 B' L' F' R' F2;D2 L2 B2 F2 D' F2 U L2 D' B2 L' U' F' D B2 R' U' B D2 L2 R2 U';L2 B2 D' U' L2 F2 U F2 D' U2 B' U' B L' U2 L F D L' F' U2;R B2 L2 B2 R B2 R D2 U' L2 B' F2 D2 B' U R B' U2 L F2&move={Scramble: L2 B2 L2 D B2 F2 D2 R' F2 D2 L U2 B U' R' F' L2 U2 L'}{Inspection: x' z2}x' z2.{Cross: R' F R' F R L D}R' F R' F R L D.{1st pair: R U' R' U R U R'}R U' R' U R U R'.{2nd pair: y' d R' U' R}y' d R' U' R.{3rd and 4th pairs: U L' U L U' y' R U R2' U' R2 U' R'}U L' U L U' y' R U R2' U' R2 U' R'.{OLL: U R' U' R U' R' U U R}U R' U' R U' R' U U R.{PLL: U l' U R' D D R U' R' D D R2}U l' U R' D D R U' R' D D R2;{Scramble: U F2 U' L2 D' F2 D' R2 B' L' F D R U2 B' L' F' R' F2}{Inspection: z y2}z y2.{Cross: R' r D' R' F R D}R' r D' R' F R D.{1st pair: R' U R U' R' U' R2 R'}R' U R U' R' U' R2 R'.{2nd pair: L' U L U R U' R' F U F'}L' U L U R U' R' F U F'.{3rd pair: U' R U' U' R' d' R' U' R}U' R U' U' R' d' R' U' R.{4th pair: y' U' U' R U R' U U R U' R'}y' U' U' R U R' U U R U' R'.{OLL: U U R' U' R' F R F' U R}U U R' U' R' F R F' U R.{PLL: U x R2' D D R U R' D D R U' R x' U'}U x R2' D D R U R' D D R U' R x' U';{Scramble: D2 L2 B2 F2 D' F2 U L2 D' B2 L' U' F' D B2 R' U' B D2 L2 R2 U'}{Inspection: x y2}x y2.{Xxcross: U r' R2 D L2' R U R' d' R' U' R u'}U r' R2 D L2' R U R' d' R' U' R u'.{3rd pair: U' F U F' U' L' U L}U' F U F' U' L' U L.{4th pair: U R U R' U U R U R'}U R U R' U U R U R'.{OLL: U' U' R U R' U R U' U' R' F R U R' U' F'}U' U' R U R' U R U' U' R' F R U R' U' F'.{PLL: U F R U' R' U' R U R' R R' F' R U R' U' R' F R F' U}U F R U' R' U' R U R' R R' F' R U R' U' R' F R F' U;{Scramble: L2 B2 D' U' L2 F2 U F2 D' U2 B' U' B L' U2 L F D L' F' U2}{Inspection: z}z.{Xcross: r' F R U R2 D' L}r' F R U R2 D' L.{2nd pair: U R U' R' U R U R'}U R U' R' U R U R'.{3rd pair: y' U L' U U L U L' U' L}y' U L' U U L U L' U' L.{4th pair: d U R' U' R U U R' U R}d U R' U' R U U R' U R.{OLL: U' U' R U R' U' R' F R F'}U' U' R U R' U' R' F R F'.{PLL: L' U R' U' U' z U R' U' R2 D U}L' U R' U' U' z U R' U' R2 D U;{Scramble: R B2 L2 B2 R B2 R D2 U' L2 B' F2 D2 B' U R B' U2 L F2}{Inspection: z2}z2.{Cross: D D x' U' R' F}D D x' U' R' F.{1st pair: U' L' U L U R' U R2}U' L' U L U R' U R2.{2nd pair: U' U' R' d' R' U' R}U' U' R' d' R' U' R.{3rd pair: U D d R U R' D'}U D d R U R' D'.{4th pair: U' R U' U' R' U U R U' R'}U' R U' U' R' U U R U' R'.{OLL: r U R' U R U' U' r'}r U R' U R U' U' r'.{PLL: R U R' F' R U R' U' R' F R2 U' R'}R U R' F' R U R' U' R' F R2 U' R'" width="600px" height="400px" />
+<ReconCarousel>
+<ReconViewer
+  scramble="L2 B2 L2 D B2 F2 D2 R' F2 D2 L U2 B U' R' F' L2 U2 L'"
+  solution={`x' z2 . // Inspection
+R' F R' F R L D . // Cross
+R U' R' U R U R' . // 1st pair
+y' d R' U' R . // 2nd pair
+U L' U L U' y' R U R2' U' R2 U' R' . // 3rd and 4th pairs
+U R' U' R U' R' U U R . // OLL
+U l' U R' D D R U' R' D D R2 . // PLL`}
+/>
+<ReconViewer
+  scramble="U F2 U' L2 D' F2 D' R2 B' L' F D R U2 B' L' F' R' F2"
+  solution={`z y2 . // Inspection
+R' r D' R' F R D . // Cross
+R' U R U' R' U' R2 R' . // 1st pair
+L' U L U R U' R' F U F' . // 2nd pair
+U' R U' U' R' d' R' U' R . // 3rd pair
+y' U' U' R U R' U U R U' R' . // 4th pair
+U U R' U' R' F R F' U R . // OLL
+U x R2' D D R U R' D D R U' R x' U' . // PLL`}
+/>
+<ReconViewer
+  scramble="D2 L2 B2 F2 D' F2 U L2 D' B2 L' U' F' D B2 R' U' B D2 L2 R2 U'"
+  solution={`x y2 . // Inspection
+U r' R2 D L2' R U R' d' R' U' R u' . // Xxcross
+U' F U F' U' L' U L . // 3rd pair
+U R U R' U U R U R' . // 4th pair
+U' U' R U R' U R U' U' R' F R U R' U' F' . // OLL
+U F R U' R' U' R U R' R R' F' R U R' U' R' F R F' U . // PLL`}
+/>
+<ReconViewer
+  scramble="L2 B2 D' U' L2 F2 U F2 D' U2 B' U' B L' U2 L F D L' F' U2"
+  solution={`z . // Inspection
+r' F R U R2 D' L . // Xcross
+U R U' R' U R U R' . // 2nd pair
+y' U L' U U L U L' U' L . // 3rd pair
+d U R' U' R U U R' U R . // 4th pair
+U' U' R U R' U' R' F R F' . // OLL
+L' U R' U' U' z U R' U' R2 D U . // PLL`}
+/>
+<ReconViewer
+  scramble="R B2 L2 B2 R B2 R D2 U' L2 B' F2 D2 B' U R B' U2 L F2"
+  solution={`z2 . // Inspection
+D D x' U' R' F . // Cross
+U' L' U L U R' U R2 . // 1st pair
+U' U' R' d' R' U' R . // 2nd pair
+U D d R U R' D' . // 3rd pair
+U' R U' U' R' U U R U' R' . // 4th pair
+r U R' U R U' U' r' . // OLL
+R U R' F' R U R' U' R' F R2 U' R' . // PLL`}
+/>
+</ReconCarousel>
 
 **5.08 second average by Max Park**
 | **Solve** | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -174,13 +385,111 @@ From June 2021 to April 2022, the world record average was brought down to 5.08 
 
 ## 4.86 (Tymon Kolasiński and Max Park)
 
-<div style={{ display: 'flex' }}>
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=U' L2 D' B2 L2 R2 D2 U B2 F' D F2 U B' F' L R F L R2;B2 L2 F2 U2 L2 D' F2 U2 R2 U2 F' D' L' F' U2 R B2 F2 L U' R';L2 U L2 U B2 U B2 U' R2 B2 L' F R F2 R2 F U L U2 B';U R2 D B2 R2 D F2 U' L2 U L' R D2 U' B R' D2 U B' L' R2 U;L2 D2 U' L2 D2 R2 F2 R2 U L2 R' U2 F' U2 L D2 B' F2 U' B' U&move={Scramble: U' L2 D' B2 L2 R2 D2 U B2 F' D F2 U B' F' L R F L R2}{Inspection: x y}x y.{Xcross: D' F' r U' r'}D' F' r U' r'.{2nd pair: U2' L U L'}U2' L U L'.{3rd pair: d' U' R U R' U' R U R'}d' U' R U R' U' R U R'.{4th pair: U' L' U' L U' L' U L}U' L' U' L U' L' U L.{EO: U r U R' U' r' R U R2}U r U R' U' r' R U R2.{ZBLL: D R' U' R D' R2' U2'}D R' U' R D' R2' U2';{Scramble: B2 L2 F2 U2 L2 D' F2 U2 R2 U2 F' D' L' F' U2 R B2 F2 L U' R'}{Inspection: z2 y}z2 y.{Xcross: R u' U2 R L2'}R u' U2 R L2'.{2nd 3rd pairs: y' U' R U2' R' D R U' R' D'}y' U' R U2' R' D R U' R' D'.{4th pair: U' R' U R y U R U R'}U' R' U R y U R U R'.{OLL: U L' U' L U' L' U2 L}U L' U' L U' L' U2 L.{PLL: R' U L' U2 R U' R' U U L R U'}R' U L' U2 R U' R' U U L R U';{Scramble: L2 U L2 U B2 U B2 U' R2 B2 L' F R F2 R2 F U L U2 B'}{Inspection: z2 y}z2 y.{Xcross: U' R2 D L U2 F' L' u}U' R2 D L U2 F' L' u.{2nd pair: L' U L2 U' L'}L' U L2 U' L'.{3rd pair: U2 y' R U R'}U2 y' R U R'.{4th pair: y U U' r U' r' U r R' U2' R U r'}y U U' r U' r' U r R' U2' R U r'.{ZBLL: U2 U R U2' R' U' R U' R' U' R U R' U R U2' R' U'}U2 U R U2' R' U' R U' R' U' R U R' U R U2' R' U';{Scramble: U R2 D B2 R2 D F2 U' L2 U L' R D2 U' B R' D2 U B' L' R2 U}{Inspection: x2 y}x2 y.{Cross: D' R' F U' D U' R2' F R2}D' R' F U' D U' R2' F R2.{1st pair: U L U L'}U L U L'.{2nd pair: y L U L' U L U L'}y L U L' U L U L'.{3rd pair: R U' R'}R U' R'.{4th pair: y' U2 R U R' U R' F R F'}y' U2 R U R' U R' F R F'.{OLL: R U R' U R U2' R'}R U R' U R U2' R'.{PLL: U2 R U R' U' R' F R2 U' R' U' R U R' F'}U2 R U R' U' R' F R2 U' R' U' R U R' F';{Scramble: L2 D2 U' L2 D2 R2 F2 R2 U L2 R' U2 F' U2 L D2 B' F2 U' B' U}{Inspection: x2}x2.{Xcross: U R D L F' U R U' R U R' D}U R D L F' U R U' R U R' D.{2nd pair: y' U' L' U2 L U' L' U L}y' U' L' U2 L U' L' U L.{3rd pair: R U' R' y L' U' L}R U' R' y L' U' L.{4th pair: U r U' r' U2 r U r' R U R'}U r U' r' U2 r U r' R U R'.{ZBLL: U U2' R R' R U R' U F2 R U2' R' U2' R' F2 R U}U U2' R R' R U R' U F2 R U2' R' U2' R' F2 R U" width="600px" height="400px" />
+<ReconCarousel>
+<ReconViewer
+  scramble="U' L2 D' B2 L2 R2 D2 U B2 F' D F2 U B' F' L R F L R2"
+  solution={`x y . // Inspection
+D' F' r U' r' . // Xcross
+U2' L U L' . // 2nd pair
+d' U' R U R' U' R U R' . // 3rd pair
+U' L' U' L U' L' U L . // 4th pair
+U r U R' U' r' R U R2 . // EO
+D R' U' R D' R2' U2' . // ZBLL`}
+/>
+<ReconViewer
+  scramble="B2 L2 F2 U2 L2 D' F2 U2 R2 U2 F' D' L' F' U2 R B2 F2 L U' R'"
+  solution={`z2 y . // Inspection
+R u' U2 R L2' . // Xcross
+y' U' R U2' R' D R U' R' D' . // 2nd 3rd pairs
+U' R' U R y U R U R' . // 4th pair
+U L' U' L U' L' U2 L . // OLL
+R' U L' U2 R U' R' U U L R U' . // PLL`}
+/>
+<ReconViewer
+  scramble="L2 U L2 U B2 U B2 U' R2 B2 L' F R F2 R2 F U L U2 B'"
+  solution={`z2 y . // Inspection
+U' R2 D L U2 F' L' u . // Xcross
+L' U L2 U' L' . // 2nd pair
+U2 y' R U R' . // 3rd pair
+y U U' r U' r' U r R' U2' R U r' . // 4th pair
+U2 U R U2' R' U' R U' R' U' R U R' U R U2' R' U' . // ZBLL`}
+/>
+<ReconViewer
+  scramble="U R2 D B2 R2 D F2 U' L2 U L' R D2 U' B R' D2 U B' L' R2 U"
+  solution={`x2 y . // Inspection
+D' R' F U' D U' R2' F R2 . // Cross
+U L U L' . // 1st pair
+y L U L' U L U L' . // 2nd pair
+R U' R' . // 3rd pair
+y' U2 R U R' U R' F R F' . // 4th pair
+R U R' U R U2' R' . // OLL
+U2 R U R' U' R' F R2 U' R' U' R U R' F' . // PLL`}
+/>
+<ReconViewer
+  scramble="L2 D2 U' L2 D2 R2 F2 R2 U L2 R' U2 F' U2 L D2 B' F2 U' B' U"
+  solution={`x2 . // Inspection
+U R D L F' U R U' R U R' D . // Xcross
+y' U' L' U2 L U' L' U L . // 2nd pair
+R U' R' y L' U' L . // 3rd pair
+U r U' r' U2 r U r' R U R' . // 4th pair
+U U2' R R' R U R' U F2 R U2' R' U2' R' F2 R U . // ZBLL`}
+/>
+</ReconCarousel>
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=R2 B2 F2 U L2 F2 U2 B2 D U2 L' D2 B L2 D' B' U' R2 D' F D';U2 B2 D R2 B2 U' R2 B2 L2 U B' U2 B' U' B' R' B' D L2 D2;U' F2 U' B2 F2 U R2 B2 R2 F2 L' U B2 U2 B2 R2 F D U L' F';B2 L2 D2 L2 U F2 L2 D' L2 U2 F L B F' D' U2 B' D' L2 R2;U' F2 U' L2 R2 U' B2 U B2 D2 R' U B U' R2 F D B R2&move={Scramble: R2 B2 F2 U L2 F2 U2 B2 D U2 L' D2 B L2 D' B' U' R2 D' F D'}{Inspection: z}z.{Xcross: F' U' U' R' F D' R U R' U' D'}F' U' U' R' F D' R U R' U' D'.{2nd pair: d' R U' R'}d' R U' R'.{3rd pair: U' y' R U' R' L U U L'}U' y' R U' R' L U U L'.{4th pair: U R U' R' F' U' F}U R U' R' F' U' F.{OLL(CP): U r U' r2' U r2 U r2' U' r U}U r U' r2' U r2 U r2' U' r U;{Scramble: U2 B2 D R2 B2 U' R2 B2 L2 U B' U2 B' U' B' R' B' D L2 D2}{Inspection: y'}y'.{Xcross: R D R D' R' U R U' R' D'}R D R D' R' U R U' R' D'.{2nd pair: U' y U' R' U' R2 U R'}U' y U' R' U' R2 U R'.{3rd pair: d' R U' U' R' L U' L'}d' R U' U' R' L U' L'.{4th pair: R U R' d R' U' R}R U R' d R' U' R.{OLL: U' F R U R' U' F'}U' F R U R' U' F'.{PLL: U R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R U2'}U R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R U2';{Scramble: U' F2 U' B2 F2 U R2 B2 R2 F2 L' U B2 U2 B2 R2 F D U L' F'}{Inspection: y z}y z.{Xcross: D' L F' U' R U' R U' D'}D' L F' U' R U' R U' D'.{2nd pair: U' L' U' L}U' L' U' L.{3rd pair: U' y U' L' U L U' y U' L U L'}U' y U' L' U L U' y U' L U L'.{4th pair: U' R U' R' d R' U' R}U' R U' R' d R' U' R.{OLL(CP): F R U R' U' F' U U' r U R' U' r' F R F'}F R U R' U' F' U U' r U R' U' r' F R F'.{EPLL: R U' R U R U R U' R' U' R2 U'}R U' R U R U R U' R' U' R2 U';{Scramble: B2 L2 D2 L2 U F2 L2 D' L2 U2 F L B F' D' U2 B' D' L2 R2}{Inspection: z2}z2.{Cross: R' D D R' U D' R D'}R' D D R' U D' R D'.{1st pair: L U' L'}L U' L'.{2nd pair: U R' U' R U L' U L}U R' U' R U L' U L.{3rd pair: U R' U' R U' R U' R'}U R' U' R U' R U' R'.{4th pair: d' R U' R' U R U R'}d' R U' R' U R U R'.{OLL: U' U' F R U R' U' R U R' U' F'}U' U' F R U R' U' R U R' U' F'.{PLL: U' F R U' R' U' R U R' F' R U R' U' R' F R F'}U' F R U' R' U' R U R' F' R U R' U' R' F R F';{Scramble: U' F2 U' L2 R2 U' B2 U B2 D2 R' U B U' R2 F D B R2}{Inspection: z'}z'.{Cross: U' r' U R' D R D R D'}U' r' U R' D R D R D'.{1st pair: d' U' R' U R}d' U' R' U R.{2nd pair: d R U' R' U R' U' R}d R U' R' U R' U' R.{3rd pair: U' U' R U R' U' F U' F'}U' U' R U R' U' F U' F'.{4th pair: U U R U' R' U R U R'}U U R U' R' U R U R'.{OLL(CP): U' U' r U R' U R U' U' r' U}U' U' r U R' U R U' U' r' U" width="600px" height="400px" />
-</div>
+<ReconCarousel>
+<ReconViewer
+  scramble="R2 B2 F2 U L2 F2 U2 B2 D U2 L' D2 B L2 D' B' U' R2 D' F D'"
+  solution={`z . // Inspection
+F' U' U' R' F D' R U R' U' D' . // Xcross
+d' R U' R' . // 2nd pair
+U' y' R U' R' L U U L' . // 3rd pair
+U R U' R' F' U' F . // 4th pair
+U r U' r2' U r2 U r2' U' r U . // OLL(CP)`}
+/>
+<ReconViewer
+  scramble="U2 B2 D R2 B2 U' R2 B2 L2 U B' U2 B' U' B' R' B' D L2 D2"
+  solution={`y' . // Inspection
+R D R D' R' U R U' R' D' . // Xcross
+U' y U' R' U' R2 U R' . // 2nd pair
+d' R U' U' R' L U' L' . // 3rd pair
+R U R' d R' U' R . // 4th pair
+U' F R U R' U' F' . // OLL
+U R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R U2' . // PLL`}
+/>
+<ReconViewer
+  scramble="U' F2 U' B2 F2 U R2 B2 R2 F2 L' U B2 U2 B2 R2 F D U L' F'"
+  solution={`y z . // Inspection
+D' L F' U' R U' R U' D' . // Xcross
+U' L' U' L . // 2nd pair
+U' y U' L' U L U' y U' L U L' . // 3rd pair
+U' R U' R' d R' U' R . // 4th pair
+F R U R' U' F' U U' r U R' U' r' F R F' . // OLL(CP)
+R U' R U R U R U' R' U' R2 U' . // EPLL`}
+/>
+<ReconViewer
+  scramble="B2 L2 D2 L2 U F2 L2 D' L2 U2 F L B F' D' U2 B' D' L2 R2"
+  solution={`z2 . // Inspection
+R' D D R' U D' R D' . // Cross
+L U' L' . // 1st pair
+U R' U' R U L' U L . // 2nd pair
+U R' U' R U' R U' R' . // 3rd pair
+d' R U' R' U R U R' . // 4th pair
+U' U' F R U R' U' R U R' U' F' . // OLL
+U' F R U' R' U' R U R' F' R U R' U' R' F R F' . // PLL`}
+/>
+<ReconViewer
+  scramble="U' F2 U' L2 R2 U' B2 U B2 D2 R' U B U' R2 F D B R2"
+  solution={`z' . // Inspection
+U' r' U R' D R D R D' . // Cross
+d' U' R' U R . // 1st pair
+d R U' R' U R' U' R . // 2nd pair
+U' U' R U R' U' F U' F' . // 3rd pair
+U U R U' R' U R U R' . // 4th pair
+U' U' r U R' U R U' U' r' U . // OLL(CP)`}
+/>
+</ReconCarousel>
 
-**4.86 second average by Tymon Kolasiński (left) and Max Park (right)**
+**4.86 second average by Tymon Kolasiński (top) and Max Park (bottom)**
 
 **Tymon Kolasiński**
 | **Solve** | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -210,7 +519,58 @@ On July 30, 2022, Kolasiński broke the sub-5 barrier with a 4.86 second average
 
 ## 4.69 to 4.09 (Yiheng Wang)
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=U' B2 L2 R2 U' L2 U' F2 D2 U' R' D' U' F U' R' B' U F L2 R' U2;F2 R2 D' L2 B2 L2 U' F2 U2 L2 F L' R' U2 F2 L2 U' L' U2 B L';L2 D R2 D B2 L2 U2 B2 L2 D L' D2 F D2 R2 U2 L' R' F D' R;L2 R2 D' U2 B2 D2 U' F2 L2 B2 L' B' F R F R B R B' F';B2 D' L2 D L2 D' L2 U2 F2 R2 F L2 B R D' R2 F U L2 F D U'&move={Scramble: U' B2 L2 R2 U' L2 U' F2 D2 U' R' D' U' F U' R' B' U F L2 R' U2}{Inspection: x2 y}x2 y.{Xcross: D L F' D' U L F' L' F R}D L F' D' U L F' L' F R.{2nd pair: U L U' L'}U L U' L'.{3rd pair: R' F R F' R U' R2'}R' F R F' R U' R2'.{4th pair: U R}U R.{OLL: U2' r U R' U R U2' r'}U2' r U R' U R U2' r'.{PLL: R U' R' U' R U R D R' U' R D' R' U2 R'}R U' R' U' R U R D R' U' R D' R' U2 R';{Scramble: F2 R2 D' L2 B2 L2 U' F2 U2 L2 F L' R' U2 F2 L2 U' L' U2 B L'}{Inspection: y2}y2.{Cross: U' L' F' D' R' F R2}U' L' F' D' R' F R2.{1st pair: U' y U' L' U' L}U' y U' L' U' L.{2nd pair: U D' R' U' R U u}U D' R' U' R U u.{3rd pair: L' U L R U' R'}L' U L R U' R'.{4th pair: U' L F' L' F U' L' U L}U' L F' L' F U' L' U L.{OLL(CP): l' U' L U' L' U2 l}l' U' L U' L' U2 l.{EPLL: U' R2' U R U R' U' R3 U' R' U R' U'}U' R2' U R U R' U' R3 U' R' U R' U';{Scramble: L2 D R2 D B2 L2 U2 B2 L2 D L' D2 F D2 R2 U2 L' R' F D' R}{Cross: D L' D' L l' U' l}D L' D' L l' U' l.{1st pair: d L' U2 L}d L' U2 L.{2nd pair: U' R U R2' U' R}U' R U R2' U' R.{3rd pair: U R U' R' y' L' U' L}U R U' R' y' L' U' L.{4th pair: R' U' R U R' U2' R}R' U' R U R' U2' R.{OLL: U r' U2' R U R' U r}U r' U2' R U R' U r.{PLL: U2' U L' U' L F L' U' L U L F' L2' U L}U2' U L' U' L F L' U' L U L F' L2' U L;{Scramble: L2 R2 D' U2 B2 D2 U' F2 L2 B2 L' B' F R F R B R B' F'}{Inspection: x' z2}x' z2.{Xcross: F' U' D r' R F' U R U R' D2}F' U' D r' R F' U R U R' D2.{2nd pair: U' y U' R U R' U' L U L2'}U' y U' R U R' U' L U L2'.{3rd pair: U L}U L.{4th pair: U R U R' U R U' R'}U R U R' U R U' R'.{OLL(CP): R U2' R' U' R U' R'}R U2' R' U' R U' R';{Scramble: B2 D' L2 D L2 D' L2 U2 F2 R2 F L2 B R D' R2 F U L2 F D U'}{Inspection: z2 y}z2 y.{Xcross: R' U' R2 F' D U L U' L' U' r U' r'}R' U' R2 F' D U L U' L' U' r U' r'.{2nd pair: R U' R' U R' U2' R}R U' R' U R' U2' R.{3rd pair: F U F' U' L' U L}F U F' U' L' U L.{4th pair: U R U' R' U' R U R'}U R U' R' U' R U R'.{OLL: U' R' F R U R' F' R F U' F'}U' R' F R U R' F' R F U' F'.{PLL: R U R' U' R' F R2 U' R' U' R U R' F' U}R U R' U' R' F R2 U' R' U' R U R' F' U" width="600px" height="400px" />
+<ReconCarousel>
+<ReconViewer
+  scramble="U' B2 L2 R2 U' L2 U' F2 D2 U' R' D' U' F U' R' B' U F L2 R' U2"
+  solution={`x2 y . // Inspection
+D L F' D' U L F' L' F R . // Xcross
+U L U' L' . // 2nd pair
+R' F R F' R U' R2' . // 3rd pair
+U R . // 4th pair
+U2' r U R' U R U2' r' . // OLL
+R U' R' U' R U R D R' U' R D' R' U2 R' . // PLL`}
+/>
+<ReconViewer
+  scramble="F2 R2 D' L2 B2 L2 U' F2 U2 L2 F L' R' U2 F2 L2 U' L' U2 B L'"
+  solution={`y2 . // Inspection
+U' L' F' D' R' F R2 . // Cross
+U' y U' L' U' L . // 1st pair
+U D' R' U' R U u . // 2nd pair
+L' U L R U' R' . // 3rd pair
+U' L F' L' F U' L' U L . // 4th pair
+l' U' L U' L' U2 l . // OLL(CP)
+U' R2' U R U R' U' R3 U' R' U R' U' . // EPLL`}
+/>
+<ReconViewer
+  scramble="L2 D R2 D B2 L2 U2 B2 L2 D L' D2 F D2 R2 U2 L' R' F D' R"
+  solution={`D L' D' L l' U' l . // Cross
+d L' U2 L . // 1st pair
+U' R U R2' U' R . // 2nd pair
+U R U' R' y' L' U' L . // 3rd pair
+R' U' R U R' U2' R . // 4th pair
+U r' U2' R U R' U r . // OLL
+U2' U L' U' L F L' U' L U L F' L2' U L . // PLL`}
+/>
+<ReconViewer
+  scramble="L2 R2 D' U2 B2 D2 U' F2 L2 B2 L' B' F R F R B R B' F'"
+  solution={`x' z2 . // Inspection
+F' U' D r' R F' U R U R' D2 . // Xcross
+U' y U' R U R' U' L U L2' . // 2nd pair
+U L . // 3rd pair
+U R U R' U R U' R' . // 4th pair
+R U2' R' U' R U' R' . // OLL(CP)`}
+/>
+<ReconViewer
+  scramble="B2 D' L2 D L2 D' L2 U2 F2 R2 F L2 B R D' R2 F U L2 F D U'"
+  solution={`z2 y . // Inspection
+R' U' R2 F' D U L U' L' U' r U' r' . // Xcross
+R U' R' U R' U2' R . // 2nd pair
+F U F' U' L' U L . // 3rd pair
+U R U' R' U' R U R' . // 4th pair
+U' R' F R U R' F' R F U' F' . // OLL
+R U R' U' R' F R2 U' R' U' R U R' F' U . // PLL`}
+/>
+</ReconCarousel>
 
 **4.09 second average by Yiheng Wang**
 | **Solve** | **Method** | **Cube** | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |

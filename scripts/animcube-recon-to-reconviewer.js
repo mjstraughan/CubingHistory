@@ -9,26 +9,32 @@ How to use:
 
 // ADD MORE LINES HERE
 const paramsList = `
-config=../../ReconstructionConfig.txt&move={Scramble: U L2 D' B2 U' R2 B2 F2 D' F2 L2 R2 F R2 D L2 R2 B' L' D' R F'}{Inspection: x2 y}x2 y.{First layer corners and one edge: D' R u D R' y' D' R D R'}D' R u D R' y' D' R D R'.{First layer center and second edge: y D r' E' L}y D r' E' L.{CLL: z2 U y l D R' z' R' x z' r' R2 U2 z D R2 D2}z2 U y l D R' z' R' x z' r' R2 U2 z D R2 D2.{First layer third edge: R' l' z M D2 M'}R' l' z M D2 M'.{Last layer first edge: z2 y R z' M z R'}z2 y R z' M z R'.{Last layer second edge: z' r' L' z D R' E R}z' r' L' z D R' E R.{Last layer third edge: U' u' R E' R'}U' u' R E' R'.{Last six edges: u R' E' R E2 R E R'}u R' E' R E2 R E R'.{Last four centers: R2 E E' r2 E M2 E'}R2 E E' r2 E M2 E'&initmove=U L2 D' B2 U' R2 B2 F2 D' F2 L2 R2 F R2 D L2 R2 B' L' D' R F'
-config=../../ReconstructionConfig.txt&move={Scramble: B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2}{Inspection: z2 y'}z2 y'.{Cross: R F R U' R}R F R U' R.{First Pair: R' U2 R2 U R'}R' U2 R2 U R'.{Second Pair: d R U' R' U2 F' U' F}d R U' R' U2 F' U' F.{Third Pair: L' U' L2 U L'}L' U' L2 U L'.{Fourth Pair: U L' U L}U L' U L.{OLL: y2 F R U R' U' F'}y2 F R U R' U' F'.{PLL: U y R B' R F2 R' B R F2 R2}U y R B' R F2 R' B R F2 R2&initmove=B R D2 F2 R F2 U D F2 R2 L2 D' U' R2 U2 F' L' B2 F R U2 R' B F U2
+config=../../ReconstructionConfig.txt&initmove=U' B2 L2 R2 U' L2 U' F2 D2 U' R' D' U' F U' R' B' U F L2 R' U2&move={Scramble: U' B2 L2 R2 U' L2 U' F2 D2 U' R' D' U' F U' R' B' U F L2 R' U2}{Inspection: x2 y}x2 y.{Xcross: D L F' D' U L F' L' F R}D L F' D' U L F' L' F R.{2nd pair: U L U' L'}U L U' L'.{3rd pair: R' F R F' R U' R2'}R' F R F' R U' R2'.{4th pair: U R}U R.{OLL: U2' r U R' U R U2' r'}U2' r U R' U R U2' r'.{PLL: R U' R' U' R U R D R' U' R D' R' U2 R'}R U' R' U' R U R D R' U' R D' R' U2 R'
+config=../../ReconstructionConfig.txt&initmove=F2 R2 D' L2 B2 L2 U' F2 U2 L2 F L' R' U2 F2 L2 U' L' U2 B L'&move={Scramble: F2 R2 D' L2 B2 L2 U' F2 U2 L2 F L' R' U2 F2 L2 U' L' U2 B L'}{Inspection: y2}y2.{Cross: U' L' F' D' R' F R2}U' L' F' D' R' F R2.{1st pair: U' y U' L' U' L}U' y U' L' U' L.{2nd pair: U D' R' U' R U u}U D' R' U' R U u.{3rd pair: L' U L R U' R'}L' U L R U' R'.{4th pair: U' L F' L' F U' L' U L}U' L F' L' F U' L' U L.{OLL(CP): l' U' L U' L' U2 l}l' U' L U' L' U2 l.{EPLL: U' R2' U R U R' U' R3 U' R' U R' U'}U' R2' U R U R' U' R3 U' R' U R' U'
+config=../../ReconstructionConfig.txt&initmove=L2 D R2 D B2 L2 U2 B2 L2 D L' D2 F D2 R2 U2 L' R' F D' R&move={Scramble: L2 D R2 D B2 L2 U2 B2 L2 D L' D2 F D2 R2 U2 L' R' F D' R}{Cross: D L' D' L l' U' l}D L' D' L l' U' l.{1st pair: d L' U2 L}d L' U2 L.{2nd pair: U' R U R2' U' R}U' R U R2' U' R.{3rd pair: U R U' R' y' L' U' L}U R U' R' y' L' U' L.{4th pair: R' U' R U R' U2' R}R' U' R U R' U2' R.{OLL: U r' U2' R U R' U r}U r' U2' R U R' U r.{PLL: U2' U L' U' L F L' U' L U L F' L2' U L}U2' U L' U' L F L' U' L U L F' L2' U L
+config=../../ReconstructionConfig.txt&initmove=L2 R2 D' U2 B2 D2 U' F2 L2 B2 L' B' F R F R B R B' F'&move={Scramble: L2 R2 D' U2 B2 D2 U' F2 L2 B2 L' B' F R F R B R B' F'}{Inspection: x' z2}x' z2.{Xcross: F' U' D r' R F' U R U R' D2}F' U' D r' R F' U R U R' D2.{2nd pair: U' y U' R U R' U' L U L2'}U' y U' R U R' U' L U L2'.{3rd pair: U L}U L.{4th pair: U R U R' U R U' R'}U R U R' U R U' R'.{OLL(CP): R U2' R' U' R U' R'}R U2' R' U' R U' R'
+config=../../ReconstructionConfig.txt&initmove=B2 D' L2 D L2 D' L2 U2 F2 R2 F L2 B R D' R2 F U L2 F D U'&move={Scramble: B2 D' L2 D L2 D' L2 U2 F2 R2 F L2 B R D' R2 F U L2 F D U'}{Inspection: z2 y}z2 y.{Xcross: R' U' R2 F' D U L U' L' U' r U' r'}R' U' R2 F' D U L U' L' U' r U' r'.{2nd pair: R U' R' U R' U2' R}R U' R' U R' U2' R.{3rd pair: F U F' U' L' U L}F U F' U' L' U L.{4th pair: U R U' R' U' R U R'}U R U' R' U' R U R'.{OLL: U' R' F R U R' F' R F U' F'}U' R' F R U R' F' R F U' F'.{PLL: R U R' U' R' F R2 U' R' U' R U R' F' U}R U R' U' R' F R2 U' R' U' R U R' F' U
 `;
 
 function animcubeParamsToReconViewer(params) {
   const regexp = /{.*?}/g;
   // get only the stuff within the curly braces
-  const lines = [...params.matchAll(regexp)].map(line => line[0]);
-  const formatted = lines.map(line => {
+  const lines = [...params.matchAll(regexp)].map((line) => line[0]);
+  const formatted = lines.map((line) => {
     // take out the curly braces
     const withoutBraces = line.substring(1, line.length - 1);
     // get the comment and moves
     const [comment, moves] = withoutBraces.split(": ");
     return { comment, moves };
-  })
+  });
 
   const scramble = formatted[0].moves;
-  const solution = formatted.slice(1).map(({ comment, moves }) => {
-    return `${moves} . // ${comment}`;
-  }).join("\n");
+  const solution = formatted
+    .slice(1)
+    .map(({ comment, moves }) => {
+      return `${moves} . // ${comment}`;
+    })
+    .join("\n");
 
   return `<ReconViewer
   scramble="${scramble}"
@@ -38,7 +44,7 @@ function animcubeParamsToReconViewer(params) {
 
 paramsList
   .split("\n")
-  .filter(l => l)
+  .filter((l) => l)
   .forEach((params, index) => {
     console.log(`Reconstruction #${index + 1}:\n`);
     console.log(animcubeParamsToReconViewer(params) + "\n\n");

@@ -22,6 +22,7 @@
     "cubing": "^0.52.1",
     "docusaurus-plugin-goatcounter": "^3.0.0",
     "docusaurus-plugin-zooming": "^1.0.0",
+    "framer-motion": "^12.23.12",
     "markdown-it": "^14.1.0",
     "markdown-it-citation": "^0.1.1",
     "plugin-image-zoom": "github:flexanalytics/plugin-image-zoom",
