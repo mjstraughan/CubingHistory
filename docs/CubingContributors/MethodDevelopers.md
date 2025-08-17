@@ -91,7 +91,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 ## Callan, Will
 
-- 1LLS / LS (2x2 method and L5C subset)
+- 2x2 L5C (1LLS / LS) development
 
 ## Carr, Richard
 
@@ -338,7 +338,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 ## McGruddy, Jacob
 
-- 1LLS / LS (2x2 method and L5C subset, developed two sets out of nine)
+- 2x2 L5C (1LLS / LS) development ( developed two sets out of nine)
 
 ## McNeill, Jayden
 
@@ -369,7 +369,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 
 ## Olson, Christopher
 
--- LEG-1 (independent from Straughan's prior development)
+- LEG-1 (independent from Straughan's prior development)
 
 ## Orbit, Kim
 

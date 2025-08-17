@@ -1,14 +1,25 @@
-import AnimCube2x2 from "@site/src/components/AnimCube2";
+---
+description: History of the LEG-1 method for the 2x2x2 puzzle.
+---
+
+import ReconViewer from "@site/src/components/ReconViewer";
+import YouTube from "@site/src/components/YouTube";
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # LEG-1
 
-<AnimCube2x2 params="config=../../InteractConfig.txt&move={LEG-1: U' R U R' U' R U2 R U' R2}U' R U R' U' R U2 R U' R2" width="600px" height="400px" />
+<ReconViewer
+puzzle="2x2x2"
+scramble="R2 U R' U2 R' U R U' R'"
+solution={`R U R' U' R U2 R U' R2 // LEG-1
+`}
+/>
 
 ## Description
 
-**Proposer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre), [Christopher Olson](CubingContributors/MethodDevelopers.md#olson-christopher)
+**Creator:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre), [Christopher Olson](CubingContributors/MethodDevelopers.md#olson-christopher)
 
-**Proposed:** 2012
+**Created:** 2012
 
 **Steps:**
 
@@ -19,19 +30,17 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 ## Origin and Development
 
-In June, 2012, Michael James Straughan developed the LEG-1 method [1]. Instead of having the correctly permuted bar in the back as in EG-1, Straughan chose to have the bar on the left. All algorithms were developed and placed on Straughan's website [2]. This development coincided with the development of NMCLL and NMEG.
+In June, 2012, Michael James Straughan developed the LEG-1 method [^1]. Instead of having the correctly permuted bar in the back as in EG-1, Straughan chose to have the bar on the left. All algorithms were developed and placed on Straughan's website [^2]. This development coincided with the development of NMCLL and NMEG.
 
 ![](img/LEG-1/LEG1-1.png)
 ![](img/LEG-1/LEG1-2.png)
 
-In March, 2014, Christopher Olson developed the same idea [3], not knowing that the method already existed and had been developed by Straughan. Olson named the method LEG-1.
+In March 2014, Christopher Olson developed the same idea [^3], not knowing that the method already existed and had been developed by Straughan. Olson named the method LEG-1.
 
 ![](img/LEG-1/LEG1-3.png)
 
-## References
+[^1]: M. J. Straughan, "2x2 Pseudo Solving: Improving CLL and EG," SpeedSolving.com, 1 June 2012. [Online]. Available: https://www.speedsolving.com/threads/2x2-pseudo-solving-improving-cll-and-eg.37073/.
 
-[1] M. J. Straughan, "2x2 Pseudo Solving: Improving CLL and EG," SpeedSolving.com, 1 June 2012. [Online]. Available: https://www.speedsolving.com/threads/2x2-pseudo-solving-improving-cll-and-eg.37073/.
+[^2]: M. J. Straughan, "A2," Straughan's website, 2012. [Online]. Available: https://sites.google.com/site/athefre/other-puzzles/nmcll.
 
-[2] M. J. Straughan, "A2," Straughan's website, 2012. [Online]. Available: https://sites.google.com/site/athefre/other-puzzles/nmcll.
-
-[3] C. Olson, "Introducing EG-1 Bar on Left Algs," SpeedSolving.com, 7 March 2014. [Online]. Available: https://www.speedsolving.com/threads/introducing-eg-1-bar-on-left-algs.46636/.
+[^3]: C. Olson, "Introducing EG-1 Bar on Left Algs," SpeedSolving.com, 7 March 2014. [Online]. Available: https://www.speedsolving.com/threads/introducing-eg-1-bar-on-left-algs.46636/.

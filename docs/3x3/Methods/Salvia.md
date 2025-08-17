@@ -1,8 +1,17 @@
-import AnimCube from "@site/src/components/AnimCube";
+---
+description: History of the Salvia method for Rubik's Cube.
+---
+
+import Exhibit from "@site/src/components/Exhibit";
+import YouTube from "@site/src/components/YouTube";
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # Salvia
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwdwdwdwdwdbbdbdddbddgdgddggdddoooododdrdrdddr" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "U D F B L R DFR DFL DBL DBR FL BL"}}
+/>
 
 ## Description
 
@@ -25,17 +34,15 @@ import AnimCube from "@site/src/components/AnimCube";
 
 ## Origin
 
-On the webpage for the Salvia method, Salvia states that he first got a cube in 1981 [1]. It is possible that the method was developed in that same year.
+On the webpage for the Salvia method, Salvia states that he first got a cube in 1981 [^1]. It is possible that the method was developed in that same year.
 
 ![](img/Salvia/Salvia1.png)
 
-Salvia first described the method in December, 2003 [2]. This description led to the method getting its own dedicated page on speedcubing.com
+Salvia first described the method in December, 2003 [^2]. This description led to the method getting its own dedicated page on speedcubing.com
 
 ![](img/Salvia/Salvia2.png)
 ![](img/Salvia/Salvia3.png)
 
-## References
+[^1]: D. J. Salvia, "The Salvia method," SpeedCubing.com, [Online]. Available: http://www.speedcubing.com/DavidJSalvia.html.
 
-[1] D. J. Salvia, "The Salvia method," SpeedCubing.com, [Online]. Available: http://www.speedcubing.com/DavidJSalvia.html.
-
-[2] D. J. Salvia, "Re: Solving the last layer: My Method," Yahoo! Groups - Speed Solving Rubik's Cube, 3 December 2003. [Online].
+[^2]: D. J. Salvia, "Re: Solving the last layer: My Method," Yahoo! Groups - Speed Solving Rubik's Cube, 3 December 2003. [Online].

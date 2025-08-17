@@ -1,8 +1,17 @@
-import AnimCube from "@site/src/components/AnimCube";
+---
+description: History of the Ribbon method for Rubik's Cube.
+---
+
+import Exhibit from "@site/src/components/Exhibit";
+import YouTube from "@site/src/components/YouTube";
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # Ribbon
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddydddddwdwwwdwdddddbbdddddddggdgdddddoododddddrrddd" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "U D F B L R DF DL DB DR BL"}}
+/>
 
 ## Description
 

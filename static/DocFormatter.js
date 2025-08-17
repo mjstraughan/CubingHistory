@@ -2,43 +2,59 @@
 const fs = require("fs");
 
 function transformMarkdown(input) {
-  // normalize line endings so ^/$ work reliably
+  // Normalize line endings
   let text = input.replace(/\r\n/g, "\n");
 
-  // Split at the first "## References" header (case-insensitive, flexible spaces)
-  const splitRe = /(?:^|\n)##\s*References\s*\n/i;
-  const parts = text.split(splitRe);
+  // Step 1: Find and remove the "References" header/line.
+  const headerRegex =
+    /(?:^|\n)\s*##?\s*References\s*\n+|\n\s*References\s*\n+/i;
+  const splitByHeader = text.split(headerRegex);
 
-  // If no references section, just do in-text conversion and return
-  if (parts.length < 2) {
-    const bodyOnly = text.replace(/(?<!\^)\[(\d+)\](?!:|\()/g, "[^$1]");
-    return bodyOnly;
+  let body = splitByHeader[0];
+  let references = splitByHeader.length > 1 ? splitByHeader[1] : null;
+
+  // Step 2: Handle in-text citations in the body.
+  // This regex handles both single [1] and combined [1, 2, 3] formats.
+  body = body.replace(
+    /(?<!\^|:|a-zA-Z\d)\[([\d,\s]+)\](?!:|\()/g,
+    (match, p1) => {
+      // Split the numbers, trim whitespace, and format each one.
+      const citations = p1.split(",").map((num) => `[^${num.trim()}]`);
+      return citations.join(" "); // Join with a space.
+    }
+  );
+
+  // If no references block was found via the header, try to find it at the end of the file.
+  if (!references) {
+    const endBlockRegex = /(?:\n\n|^)((?:\[\d+\][\s\S]+?)+)$/m;
+    const endBlockMatch = body.match(endBlockRegex);
+    if (endBlockMatch) {
+      references = endBlockMatch[1];
+      body = body.substring(0, endBlockMatch.index);
+    }
   }
 
-  const body = parts[0];
-  let refsTail = parts.slice(1).join("\n"); // in case "References" appears again later
+  // Step 3: If a references block was found, process it.
+  if (references) {
+    // 3a. Change starting format from [1] to [^1]:
+    references = references.replace(/^\[(\d+)\]/gm, "[^$1]:");
 
-  // 1) Convert in-text citations in the body only:
-  //    - not already a footnote ([^n])
-  //    - not a link like [1](...)
-  const bodyConverted = body.replace(/(?<!\^)\[(\d+)\](?!:|\()/g, "[^$1]");
+    // 3b. Add a blank line after the last period of each reference.
+    // This looks for a period or closing bracket followed by a newline and the start of a new reference.
+    references = references.replace(/(\.|\))\n(?=\[\^)/g, "$1\n\n");
 
-  // 2) Clean the Word-inserted plain "References" line right under the header, if present
-  refsTail = refsTail.replace(/^\s*References\s*\n+/i, "");
+    // 3c. Ensure multiple newlines are collapsed to a single blank line.
+    references = references.replace(/\n{2,}/g, "\n\n");
 
-  // 3) Convert footer lines:
-  //    Match optional leading spaces, [n], optional spaces, then the rest of the line
-  //    Example: "   [1]  Author..." -> "[^1]: Author..."
-  refsTail = refsTail.replace(/^\s*\[(\d+)\]\s*(.+)$/gm, "[^$1]: $2");
+    references = references.trim();
+  }
 
-  // 4) Optional: collapse multiple blank lines in refs
-  refsTail = refsTail.replace(/\n{3,}/g, "\n\n");
-
-  // Reassemble with a normalized header
-  return `${bodyConverted}\n\n## References\n${refsTail}`.replace(
-    /\n{3,}/g,
-    "\n\n"
-  );
+  // Step 4: Reassemble the document.
+  if (references) {
+    return `${body.trim()}\n\n${references}`;
+  } else {
+    return body.trim();
+  }
 }
 
 const filePath = process.argv[2];

@@ -1,8 +1,17 @@
-import AnimCube from "@site/src/components/AnimCube";
+---
+description: History of the Human Thistlethwaite method for Rubik's Cube.
+---
+
+import TwistyPlayer from "@site/src/components/TwistyPlayer";
+import YouTube from "@site/src/components/YouTube";
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # Human Thistlethwaite
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=yyyyyyywywwwwwywwwbgbgbggbggbgbgbbgborrrooorroroororor" width="400px" height="400px" />
+<TwistyPlayer
+  alg="x2 D2 U2 L2 B2 L2"
+ controlPanel="none"
+/>
 
 ## Description
 
@@ -27,11 +36,11 @@ This page describes a method developed by Ryan Heise, that is an adaption of the
 
 ### Initial Description
 
-The first mention of the method was in June, 2003. Ryan Heise stated that he had once developed a human adaption of the Thistlethwaite algorithm [1].
+The first mention of the method was in June, 2003. Ryan Heise stated that he had once developed a human adaption of the Thistlethwaite algorithm [^1].
 
 ![](img/HumanThistlethwaite/FirstMention.png)
 
-A couple of weeks later, in July, 2003, Heise described the steps and process [2].
+A couple of weeks later, in July, 2003, Heise described the steps and process [^2].
 
 ![](img/HumanThistlethwaite/Described1.png)
 ![](img/HumanThistlethwaite/Described2.png)
@@ -41,16 +50,14 @@ A couple of weeks later, in July, 2003, Heise described the steps and process [2
 
 ### Website Addition
 
-In late April or early May, 2006, Heise added the method to his website [3, 4]. The website states that the method was created in December of 2002.
+In late April or early May, 2006, Heise added the method to his website [^3] [^4]. The website states that the method was created in December of 2002.
 
 ![](img/HumanThistlethwaite/Website.png)
 
-## References
+[^1]: R. Heise, "Re: [Speed cubing group] Looking ahead: how good are you?," Yahoo! Groups - Speed Solving Rubik's Cube, 20 June 2003. [Online].
 
-[1] R. Heise, "Re: [Speed cubing group] Looking ahead: how good are you?," Yahoo! Groups - Speed Solving Rubik's Cube, 20 June 2003. [Online].
+[^2]: R. Heise, "Thistlethwaite, human version," Yahoo! Groups - Speed Solving Rubik's Cube, 1 July 2003. [Online].
 
-[2] R. Heise, "Thistlethwaite, human version," Yahoo! Groups - Speed Solving Rubik's Cube, 1 July 2003. [Online].
+[^3]: R. Heise, "Re: [Speed cubing group] Noob Cuber looking for new solution…," Yahoo! Groups - Speed Solving Rubik's Cube, 2 May 2006. [Online].
 
-[3] R. Heise, "Re: [Speed cubing group] Noob Cuber looking for new solution…," Yahoo! Groups - Speed Solving Rubik's Cube, 2 May 2006. [Online].
-
-[4] R. Heise, " Human Thistlethwaite Algorithm," ryanheise.com. [Online]. Available: https://web.archive.org/web/20060703235037/http://www.ryanheise.com/cube/human_thistlethwaite_algorithm.html.
+[^4]: R. Heise, "Human Thistlethwaite Algorithm," ryanheise.com, [Online]. Available: https://web.archive.org/web/20060703235037/http://www.ryanheise.com/cube/human_thistlethwaite_algorithm.html.

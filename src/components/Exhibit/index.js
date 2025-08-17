@@ -42,14 +42,18 @@ export default function Exhibit({
     }
   }
 
-  const maskOrbits = `EDGES:${edges.join("")},CORNERS:${corners.join("")},CENTERS:${centers.join("")}`;
-  return <TwistyPlayer
-    controlPanel="none"
-    cameraLatitude={cameraLatitude}
-    cameraLongitude={cameraLongitude}
-    rotateStickering="x2"
-    experimentalStickeringMaskOrbits={maskOrbits}
-  />
+  const maskOrbits = `EDGES:${edges.join("")},CORNERS:${corners.join(
+    ""
+  )},CENTERS:${centers.join("")}`;
+  return (
+    <TwistyPlayer
+      controlPanel="none"
+      cameraLatitude={cameraLatitude}
+      cameraLongitude={cameraLongitude}
+      rotateStickering="x2"
+      experimentalStickeringMaskOrbits={maskOrbits}
+    />
+  );
 }
 
 const STICKERING_CHARS_MAP = {
@@ -72,12 +76,27 @@ const centerIndices = {
 };
 
 const edgeIndices = {
-  UF: 0, UR: 1, UB: 2, UL: 3,
-  DF: 4, DR: 5, DB: 6, DL: 7,
-  FR: 8, FL: 9, BR: 10, BL: 11,
+  UF: 0,
+  UR: 1,
+  UB: 2,
+  UL: 3,
+  DF: 4,
+  DR: 5,
+  DB: 6,
+  DL: 7,
+  FR: 8,
+  FL: 9,
+  BR: 10,
+  BL: 11,
 };
 
 const cornerIndices = {
-  UFR: 0, UBR: 1, UBL: 2, UFL: 3,
-  DFR: 4, DFL: 5, DBL: 6, DBR: 7,
+  UFR: 0,
+  UBR: 1,
+  UBL: 2,
+  UFL: 3,
+  DFR: 4,
+  DFL: 5,
+  DBL: 6,
+  DBR: 7,
 };

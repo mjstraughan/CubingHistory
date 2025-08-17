@@ -1,14 +1,25 @@
-import AnimCube2x2 from "@site/src/components/AnimCube2";
+---
+description: History of the NMEG method for the 2x2x2 puzzle.
+---
+
+import ReconViewer from "@site/src/components/ReconViewer";
+import YouTube from "@site/src/components/YouTube";
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # NMEG
 
-<AnimCube2x2 params="config=../../InteractConfig.txt&move={EG: U' R U R' U' R U2 R U'}U' R U R' U' R U2 R U'.{Undo pseudo: R}R" width="600px" height="400px" />
+<ReconViewer
+puzzle="2x2x2"
+scramble="R' U R' U2 R' U R U' R' U"
+solution={`U' R U R' U' R U2 R U' . // NMEG
+R // Undo pseudo`}
+/>
 
 ## Description
 
-**Proposer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre)
+**Creator:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre)
 
-**Proposed:** 2012
+**Created:** 2012
 
 **Steps:**
 
@@ -19,14 +30,11 @@ import AnimCube2x2 from "@site/src/components/AnimCube2";
 
 ## Origin and Development
 
-Non-Matching EG (NMEG) was developed by Michael James Straughan in June, 2012 [1, 2]. NMEG was released as part of the development of NMEG, NMCLL, and LEG-1.
+Non-Matching EG (NMEG) was developed by Michael James Straughan in June, 2012 [^1] [^2]. NMEG was released as part of the development of NMEG, NMCLL, and LEG-1.
 
 ![](img/NMEG/NMEG1.png)
 ![](img/NMEG/NMEG2.png)
 ![](img/NMEG/NMEG3.png)
 
-## References
-
-[1] M. J. Straughan, "2x2 Pseudo Solving: Improving CLL and EG," SpeedSolving.com, 1 June 2012. [Online]. Available: https://www.speedsolving.com/threads/2x2-pseudo-solving-improving-cll-and-eg.37073/.
-
-[2] M. J. Straughan, "A2," Straughan's website, 2012. [Online]. Available: https://sites.google.com/site/athefre/other-puzzles/nmcll.
+[^1]: M. J. Straughan, "2x2 Pseudo Solving: Improving CLL and EG," SpeedSolving.com, 1 June 2012. [Online]. Available: https://www.speedsolving.com/threads/2x2-pseudo-solving-improving-cll-and-eg.37073/.
+[^2]: M. J. Straughan, "A2," Straughan's website, 2012. [Online]. Available: https://sites.google.com/site/athefre/other/nmcll?authuser=0.

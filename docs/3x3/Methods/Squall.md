@@ -1,9 +1,21 @@
-import AnimCube from "@site/src/components/AnimCube";
+---
+description: History of the Squall method for Rubik's Cube.
+---
+
+import Exhibit from "@site/src/components/Exhibit";
 import YouTube from "@site/src/components/YouTube";
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # Squall
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=dldlyldlddwwlwldlddlddbddlddlddgddggddddoodooddddrdddd" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "L R DL BL DBL",
+    orientedWithoutPermutation: "DF DB DR FR FL BR UF UL UB UR"
+  }}
+cameraLatitude={30}
+cameraLongitude={-20}
+/>
 
 ## Description
 
@@ -28,7 +40,7 @@ import YouTube from "@site/src/components/YouTube";
 
 ### Development
 
-In January, 2021, Vincent Trang joined the 2021 Method Development Competition. Trang developed Squall as the submission. At the end of the competition, Squall was chosen by a community vote as the best method, making it the winner of the competition [1].
+In January, 2021, Vincent Trang joined the 2021 Method Development Competition. Trang developed Squall as the submission. At the end of the competition, Squall was chosen by a community vote as the best method, making it the winner of the competition [^1].
 
 ![](img/Squall/Comp.png)
 
@@ -38,8 +50,6 @@ In 2022, Trang was interviewed as part of the Methodical Cubing Podcast. Trang d
 
 Squall was developed backwards, with a focus on ending with a quality 2-gen step. Eventually, Trang settled on L5EP as the final step because it has few cases and a good move count. The natural idea for the two steps to come before L5EP was to solve two pairs then the upper layer corners. This left a 2x2x3 block with all edges oriented. To achieve this state, Trang decided to solve the DF and DB edges while preserving an edge orientation step that would come earlier in the solve. This leaves a first step that is commonly called EOFB, or edge orientation and a 1x2x3 block. Trang felt that this is too much to plan in inspection, so it was decided to split the step into two. The first part being to orient all edges while building a 1x2x2 block, called EOSquare, then add a corner and edge pair to the 1x2x2 block to complete the 1x2x3 block.
 
-<YouTube embedId="IGOAQc3l_jg?start=262" />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/IGOAQc3l_jg?start=262" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## References
-
-[1] M. J. Straughan, "Method Development Competition January 2021 - The winner receives a $10 gift card! - Sponsored by SpeedCubeShop.com," SpeedSolving.com, 27 February 2021. [Online]. Available: https://www.speedsolving.com/threads/method-development-competition-january-2021-the-winner-receives-a-10-gift-card-sponsored-by-speedcubeshop-com.79437/post-1421151.
+[^1]: M. J. Straughan, "Method Development Competition January 2021 - The winner receives a $10 gift card! - Sponsored by SpeedCubeShop.com," SpeedSolving.com, 27 February 2021. [Online]. Available: https://www.speedsolving.com/threads/method-development-competition-january-2021-the-winner-receives-a-10-gift-card-sponsored-by-speedcubeshop-com.79437/post-1421151.

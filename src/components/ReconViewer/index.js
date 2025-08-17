@@ -17,7 +17,7 @@ import styles from "./ReconViewer.module.css";
   U y R B' R F2 R' B R F2 R2 . // PLL`}
   />
  */
-export default function ReconViewer({ scramble, solution }) {
+export default function ReconViewer({ puzzle, scramble, solution }) {
   const player = useRef(null);
   const playerContainer = useRef(null);
   const algViewer = useRef(null);
@@ -34,6 +34,7 @@ export default function ReconViewer({ scramble, solution }) {
       // Twisty Player settings
       background: "none",
       tempoScale: 1.5,
+      puzzle: puzzle,
     });
     player.current.className = styles.twistyPlayer;
 
@@ -48,8 +49,8 @@ export default function ReconViewer({ scramble, solution }) {
     return () => {
       playerContainer.current?.replaceChildren();
       algViewerContainer.current?.replaceChildren();
-    }
-  }, []);
+    };
+  }, [puzzle]);
 
   // Update the player if scramble or solution changes
   useEffect(() => {

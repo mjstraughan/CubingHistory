@@ -53,6 +53,8 @@ const TwistyPlayer = forwardRef(
       const newTwisty = new TP({
         // override default style
         background: "none",
+        cameraLatitude: 45,
+        cameraLongitude: 45,
         ...props,
         ...(setupAlgOverride && { experimentalSetupAlg: setupAlgOverride }),
       });

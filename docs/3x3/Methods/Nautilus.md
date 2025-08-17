@@ -1,12 +1,17 @@
 ---
-description: History of the Nautilus method for the Rubik's Cube
+description: History of the Nautilus method for Rubik's Cube.
 ---
 
-import AnimCube from "@site/src/components/AnimCube";
+import Exhibit from "@site/src/components/Exhibit";
+import YouTube from "@site/src/components/YouTube";
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # Nautilus
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwdwwdwwdbbdbdddddggdggdggdddooooooddddrrdrr" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "U D F B L R DL DB DR DFL DBL DBR FL BL BR"}}
+/>
 
 ## Description
 
@@ -39,7 +44,8 @@ In 2020, Straughan again began experimenting with the method [^2]. It was then d
 
 ![](img/Nautilus/2020.png)
 
-## References
 [^1]: M. J. Straughan, 110mb.com, March 2010. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
+
 [^2]: M. J. Straughan, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 5 September 2020. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1391229.
+
 [^3]: M. J. Straughan, Nautilus Website, [Online]. Available: https://sites.google.com/view/nautilus-method.
