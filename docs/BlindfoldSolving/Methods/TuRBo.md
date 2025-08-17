@@ -26,7 +26,7 @@ import ImageCollage from '@site/src/components/ImageCollage';
 
 ## Origin and Reveal
 
-Erik Akkersdijk first publicly mentioned the TuRBo method in August 2007 within a weekly competition thread on speedsolving.com [1]. After several other mentions of the method’s development, Akkersdijk revealed the steps of the method on October 8 2007 [2, 3, 4, 5].
+Erik Akkersdijk first publicly mentioned the TuRBo method in August 2007 within a weekly competition thread on speedsolving.com [^1]. After several other mentions of the method’s development, Akkersdijk revealed the steps of the method on October 8 2007 [^2] [^3] [^4] [^5].
 
 <ImageCollage
 images={[
@@ -48,21 +48,19 @@ images={[
 
 ## Name Origin
 
-The name “TuRBo” comes from the fact that Akkersdijk found it amusing that Rama Temmink used the term “turbo” when describing something as being good. Kai Jiptner then suggested to use it as an acronym and have it stand for “The Ruling Blindfold Method” [6].
+The name “TuRBo” comes from the fact that Akkersdijk found it amusing that Rama Temmink used the term “turbo” when describing something as being good. Kai Jiptner then suggested to use it as an acronym and have it stand for “The Ruling Blindfold Method” [^6].
 
 ![](../img/TuRBo/Jiptner.png)
 ![](../img/TuRBo/Rama.png)
 
-## References
+[^1]: "Weekly competition 2007-28 (2,3,3OH,4,5,BF,SQ1,MG,FMC,MM,PM)," SpeedSolving.com, 20 August 2007. [Online]. Available: https://www.speedsolving.com/threads/weekly-competition-2007-28-2-3-3oh-4-5-bf-sq1-mg-fmc-mm-pm.1332/post-12904.
 
-[1] "Weekly competition 2007-28 (2,3,3OH,4,5,BF,SQ1,MG,FMC,MM,PM)," SpeedSolving.com, 20 August 2007. [Online]. Available: https://www.speedsolving.com/threads/weekly-competition-2007-28-2-3-3oh-4-5-bf-sq1-mg-fmc-mm-pm.1332/post-12904.
+[^2]: "TuRBo method," SpeedSolving.com, 8 October 2007. [Online]. Available: https://www.speedsolving.com/threads/turbo-method.1671/.
 
-[2] "TuRBo method," SpeedSolving.com, 8 October 2007. [Online]. Available: https://www.speedsolving.com/threads/turbo-method.1671/.
+[^3]: E. Akkersdijk, "Edge solving for BLD with TuRBo method," Erik Akkersdijk's Website, October 2007. [Online]. Available: https://web.archive.org/web/20071028172925/http://erikku.er.funpic.org/rubik/turboedges.html.
 
-[3] E. Akkersdijk, "Edge solving for BLD with TuRBo method," Erik Akkersdijk's Website, October 2007. [Online]. Available: https://web.archive.org/web/20071028172925/http://erikku.er.funpic.org/rubik/turboedges.html.
+[^4]: "Corner solving for BLD with TuRBo method," Erik Akkersdijk's Website, October 2007. [Online]. Available: https://web.archive.org/web/20071112092629/http://erikku.er.funpic.org/rubik/turbocorners.html.
 
-[4] "Corner solving for BLD with TuRBo method," Erik Akkersdijk's Website, October 2007. [Online]. Available: https://web.archive.org/web/20071112092629/http://erikku.er.funpic.org/rubik/turbocorners.html.
+[^5]: E. Akkersdijk, "The Ruling Blindfold method (TuRBo)," Erik Akkersdijk's Website, 2008. [Online]. Available: https://web.archive.org/web/20081217163953/http://www.erikku.110mb.com/TuRBo.html.
 
-[5] E. Akkersdijk, "The Ruling Blindfold method (TuRBo)," Erik Akkersdijk's Website, 2008. [Online]. Available: https://web.archive.org/web/20081217163953/http://www.erikku.110mb.com/TuRBo.html.
-
-[6] K. Jiptner, "Turbo?," SpeedSolving.com, 29 January 2009. [Online]. Available: https://www.speedsolving.com/threads/turbo.9049/post-129348.
+[^6]: K. Jiptner, "Turbo?," SpeedSolving.com, 29 January 2009. [Online]. Available: https://www.speedsolving.com/threads/turbo.9049/post-129348.

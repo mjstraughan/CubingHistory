@@ -50,7 +50,7 @@ In November, 2023, Hitchcock started development on the entire method, eventuall
 
 ![](img/RoFL/CBLAlgSheet.png)
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/3fnvk7kclDw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube embedId="3fnvk7kclDw" />
 
 ## TCLL
 

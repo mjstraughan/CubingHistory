@@ -1,8 +1,19 @@
-import AnimCube from "@site/src/components/AnimCube";
+---
+description: History of the TruSRU method for Rubik's Cube.
+---
+
+import Exhibit from "@site/src/components/Exhibit";
+import YouTube from "@site/src/components/YouTube";
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # TruSRU
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ldldydldlwdwwwwldllbbdbbldlldldgglggldloooodoldldrdldl" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "F B DF FL DFL DB BL DBL",
+    orientedWithoutPermutation: "UL UF UR UB FR BR DL DR"
+  }}
+/>
 
 ## Description
 
@@ -25,7 +36,7 @@ import AnimCube from "@site/src/components/AnimCube";
 
 ### Development
 
-Vincent Trang first talked about the idea on October 16, 2021 [1, 2, 3].
+Vincent Trang first talked about the idea on October 16, 2021 [^1] [^2] [^3].
 
 ![](img/TruSRU/Origin1.png)
 ![](img/TruSRU/Origin2.png)
@@ -34,19 +45,17 @@ Vincent Trang first talked about the idea on October 16, 2021 [1, 2, 3].
 
 ### Proposal
 
-Development was completed on October 25, 2021 [4, 5].
+Development was completed on October 25, 2021 [^4] [^5].
 
 ![](img/TruSRU/Proposal1.png)
 ![](img/TruSRU/Proposal2.png)
 
-## References
+[^1]: V. Trang, Discord, 16 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/809240454985941003/898708368577941585.
 
-[1] V. Trang, Discord, 16 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/809240454985941003/898708368577941585.
+[^2]: V. Trang, Discord, 17 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/809240454985941003/899049772290306089.
 
-[2] V. Trang, Discord, 17 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/809240454985941003/899049772290306089.
+[^3]: V. Trang, Discord, 17 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/769494669070958602/899040492086513714.
 
-[3] V. Trang, Discord, 17 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/769494669070958602/899040492086513714.
+[^4]: V. Trang, Discord, 25 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/809240454985941003/901849654394765373.
 
-[4] V. Trang, Discord, 25 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/809240454985941003/901849654394765373.
-
-[5] V. Trang, "TruSRU overview," Discord, 25 October 2021. [Online]. Available: https://docs.google.com/document/d/1gE9atXcSqNNsiunAbsHYaSvBgTcosPmjTe1VDYz8OzM/edit.
+[^5]: V. Trang, "TruSRU overview," Discord, 25 October 2021. [Online]. Available: https://docs.google.com/document/d/1gE9atXcSqNNsiunAbsHYaSvBgTcosPmjTe1VDYz8OzM/edit.

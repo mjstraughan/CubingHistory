@@ -1,8 +1,17 @@
-import AnimCube from "@site/src/components/AnimCube";
+---
+description: History of the Waterman method for Rubik's Cube.
+---
+
+import Exhibit from "@site/src/components/Exhibit";
+import YouTube from "@site/src/components/YouTube";
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # Waterman
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ydyyydydywwwdwdwwwbbbdbdbdbgggdgdgggooooooooordrdrrrrr" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "L R FL DFL DL DBL BL DFR DBR UFR UFL UBL UBR"}}
+/>
 
 ## Description
 
@@ -26,9 +35,11 @@ import AnimCube from "@site/src/components/AnimCube";
 
 ### Waterman
 
-The Waterman method was developed in 1981. As booklet was produced describing the method and published as part of Cubing For Fun [1]. View an archive of the booklet <a href="/archive/Documents/WatermanBooklet.pdf">here</a>.
+The Waterman method was developed in 1981. As booklet was produced describing the method and published as part of Cubing For Fun [^1].
 
 ![](img/Waterman/Waterman.png)
+
+> This is a screenshot from the original Waterman booklet.
 
 ### Other Similar Methods
 
@@ -70,6 +81,4 @@ Other Waterman-like methods had been published in 1981 or prior.
 
 > Much of this information is found in David Singmaster's _Notes on Rubik's 'Magic Cube'_. I reached out to Georges Helm, who owns copies of these books. He kindly wrote out the steps of the methods in each book. Waterman and Kraamer's development of the Waterman method is likely the most thorough of them all with hundreds of edge solving algorithms developed, full CLL, and a recognition method for CLL.
 
-## References
-
-[1] M. Waterman and A. Treep, "Waterman Method," Cubsim For Fun, 1987. [Online]. Available: https://web.archive.org/web/20071029152943/http://rubikscube.info/waterman/booklet.php.
+[^1]: M. Waterman and A. Treep, "Waterman Method," Cubsim For Fun, 1987. [Online]. Available: https://web.archive.org/web/20071029152943/http://rubikscube.info/waterman/booklet.php.

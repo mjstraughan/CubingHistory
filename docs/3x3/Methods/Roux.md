@@ -162,25 +162,13 @@ In 2012, Straughan proposed a new 4c recognition method with a focus on providin
 
 ![](img/Roux/DFDB.png)
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/LKXdVfNaLao"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="LKXdVfNaLao" />
 
 After the proposal and development, the community named the system "DFDB" and added on a way to improve recognition for 4c 3-cycle cases that start with an M2 move. The first known to have improved the M2 start cases is Yuta Sasaki (佐々木雄太). In February 2013 Sasaki wrote a blog post detailing the original DFDB proposal by Straughan, while also describing a way to determine if a 3-cycle permutation will start with an M2 move [^29].
 
 ![](img/Roux/Sasaki.png)
 
-<div style={{paddingBottom: '56.25%', position: 'relative', display: 'block', width: '100%'}}>
-  <iframe loading="lazy" width="100%" height="100%"
-    src="https://www.youtube.com/embed/vW0bBDdoPlk"
-    frameborder="0" allowfullscreen
-    style={{position: 'absolute', top: 0, left: 0}}>
-  </iframe>
-</div>
+<YouTube embedId="vW0bBDdoPlk" />
 
 ### CMLLEO
 
