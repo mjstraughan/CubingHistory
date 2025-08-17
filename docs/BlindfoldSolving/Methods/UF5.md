@@ -2,14 +2,25 @@
 description: History of the UF5 blindfold solving method for the Rubik's Cube.
 ---
 
-import AnimCube from "@site/src/components/AnimCube";
+import ReconViewer from "@site/src/components/ReconViewer";
+import YouTube from "@site/src/components/YouTube";
 import ReactPlayer from 'react-player'
 import ImageCollage from '@site/src/components/ImageCollage';
-import YouTube from "@site/src/components/YouTube";
 
 # UF5
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=B' D L' U2 R2 B D' F' R U2 D2 B R2 F' U2 F' B' R2 L2 U2&move={Scramble: B' D L' U2 R2 B D' F' R U2 D2 B R2 F' U2 F' B' R2 L2 U2}.{Rotate: z2 y}z2 y.{UF-UB-FL-DL-DR: [U:[L' S,L2 S2]]}U L' S L2 S2 S' L S2 L2 U'.{UF-RU-FD-BD-UL: M U M U2 M2 U M' U M U'}M U M U2 M2 U M' U M U'.{UF-BL-RB-RF-UL: [f' U:[L',E]]}f' U L' E L E' U' f.{UFR-LBU-RDF: [D' R U : [R' D R, U]]}D' R U R' D R U R' D' R U' U' R' D.{UFR-BLD-DRB: [U R : [D2, R U' R']]}U R D2 R U' R' D2 R U R' R' U'.{UFR-UFL-RUB: [U' R' : [U2, R' D' R]]}U' R' U2 R' D' R U2 R' D R R U.{Parity: D U' F' R U R' U' R' F R2 U' R' U' R U R' U D'}D U' F' R U R' U' R' F R2 U' R' U' R U R' U D'" width="600px" height="400px" />
+<ReconViewer
+scramble="B' D L' U2 R2 B D' F' R U2 D2 B R2 F' U2 F' B' R2 L2 U2"
+solution={`z2 y . // Rotate
+U L' S L2 S2 S' L S2 L2 U' . // UF-UB-FL-DL-DR
+M U M U2 M2 U M' U M U' . // UF-RU-FD-BD-UL
+f' U L' E L E' U' f . // UF-BL-RB-RF-UL
+D' R U R' D R U R' D' R U' U' R' D . // UFR-LBU-RDF
+U R D2 R U' R' D2 R U R' R' U' . // UFR-BLD-DRB
+U' R' U2 R' D' R U2 R' D R R U . // UFR-UFL-RUB
+D U' F' R U R' U' R' F R2 U' R' U' R U R' U D' // Parity`}
+/>
+
 **Example solve by Abhijeet Ghodgaonkar.**
 
 ## Description
@@ -117,61 +128,32 @@ images={[
 />
 
 [^1]: M. Sidabras, "Speedcubing - What are the limits?," SpeedSolving.com, 1 October 2012. [Online]. Available: https://www.speedsolving.com/threads/speedcubing-what-are-the-limits.38766/post-787128.
-
 [^2]: WCA, "Records," World Cube Association, [Online]. Available: https://www.worldcubeassociation.org/results/records?event_id=333bf&show=history.
-
 [^3]: randomtypos, "What do you think is the absolute human limit of 3BLD?," SpeedSolving.com, 30 April 2013. [Online]. Available: https://www.speedsolving.com/threads/what-do-you-think-is-the-absolute-human-limit-of-3bld.41783/.
-
 [^4]: C. Schoon, "Random Blindfold Cubing Discussion," SpeedSolving.com, 17 August 2014. [Online]. Available: https://www.speedsolving.com/threads/random-blindfold-cubing-discussion.27436/post-1008573.
-
 [^5]: O. Gritsenko, "What do you think is the absolute human limit of 3BLD?," SpeedSolving.com, 1 May 2013. [Online]. Available: https://www.speedsolving.com/threads/what-do-you-think-is-the-absolute-human-limit-of-3bld.41783/post-848844.
-
 [^6]: O. Gritsenko, "MU 5-cycles," 1 May 2013. [Online]. Available: https://docs.google.com/spreadsheets/d/1GR_1q5lrBbkCGIcziMhN5UjrhpILwmrRd3v59-8wTyA/edit?gid=0#gid=0.
-
 [^7]: fp4316, "5cyles," SpeedSolving.com, 16 July 2016. [Online]. Available: https://www.speedsolving.com/threads/5cyles.61725/.
-
 [^8]: T. D. G. Cuevas, "5 edge commutators," SpeedSolving.com, 6 August 2018. [Online]. Available: https://www.speedsolving.com/threads/5-edge-commutators.70664/.
-
 [^9]: M. J. Straughan and A. Ghodgaonkar, Personal Communication, 6 May 2025. [Online].
-
 [^10]: A. Ghodgaonkar, "Thoughts about the BH method," SpeedSolving.com, 30 September 2018. [Online]. Available: https://www.speedsolving.com/threads/thoughts-about-the-bh-method.11909/post-1302959.
-
 [^11]: A. Ghodgaonkar, "5cyles," SpeedSolving.com, 11 March 2019. [Online]. Available: https://www.speedsolving.com/threads/5cyles.61725/post-1313931.
-
 [^12]: A. Ghodgaonkar, "How to Memorise Algorithms?," YouTube, 15 June 2018. [Online]. Available: https://www.youtube.com/watch?v=y56Ljj4TeEg.
-
 [^13]: A. Ghodgaonkar, "Converting algorithms to letters?," SpeedSolving.com, 27 January 2019. [Online]. Available: https://www.speedsolving.com/threads/converting-algorithms-to-letters.72367/post-1311081.
-
 [^14]: A. Ghodgaonkar, "Converting algorithms to letters?," SpeedSolving.com, 3 February 2019. [Online]. Available: https://www.speedsolving.com/threads/converting-algorithms-to-letters.72367/post-1311583.
-
-[^15]: A. Ghodgaonkar, "Archived*UFR_Abhi," 28 January 2019. [Online]. Available: https://docs.google.com/spreadsheets/d/1XiNdbdbj14t6p-38t_IfRyLEyjYZzR6D1M16dTZudpM/edit?gid=0#gid=0.
-
+[^15]: A. Ghodgaonkar, "Archived\*UFR_Abhi," 28 January 2019. [Online]. Available: https://docs.google.com/spreadsheets/d/1XiNdbdbj14t6p-38t_IfRyLEyjYZzR6D1M16dTZudpM/edit?gid=0#gid=0.
 [^16]: A. Ghodgaonkar, "Yo Notation: A turn-based encoding notation system for memorizing 3x3 algs (non-trivial algs only)," 3 February 2019. [Online]. Available: https://docs.google.com/document/d/1bfDsydw6pxBftd8Xwik95FNjILGkdrJMBO5EORbftII/edit?tab=t.0.
-
 [^17]: A. Ghodgaonkar, "Proving UF5," SpeedSolving.com, 31 March 2019. [Online]. Available: https://www.speedsolving.com/threads/proving-uf5.73119/.
-
 [^18]: A. Ghodgaonkar, "5cyles," SpeedSolving.com, 5 June 2019. [Online]. Available: https://www.speedsolving.com/threads/5cyles.61725/post-1320963.
-
 [^19]: A. Ghodgaonkar, "Abhi_Algs_Public," 5 June 2019. [Online]. Available: https://docs.google.com/spreadsheets/d/158F-jyu8ld8kbdD4I_Lqy4fsX5vvp_MQOq7Ofg8NdSI/edit?gid=1229717195#gid=1229717195.
-
 [^20]: "Abhijeet Ghodgaonkar," YouTube, [Online]. Available: https://www.youtube.com/channel/UCa7dTclUqnR9VwSeOCpRwAQ/videos.
-
 [^21]: E. Jernqvist, "Speedcubing - What are the limits?," SpeedSolving.com, 1 October 2012. [Online]. Available: https://www.speedsolving.com/threads/speedcubing-what-are-the-limits.38766/post-787129.
-
 [^22]: A. Ghodgaonkar, "is anyone going to develop 5style soon?," Facebook - BLD Support Group, 10 February 2017. [Online]. Available: https://www.facebook.com/groups/BLDSupportGroup/permalink/1209669535820466/?rdid=utLcedabIX1HSjKk#.
-
-[^23]: Various, "Would partial uf5 ever be viable?," Facebook - BLD Support Group, 16 October 2023. [Online]. Available: https://www.facebook.com/groups/BLDSupportGroup/posts/6751340631653301/?__cft__[0]=AZXTWhyfMnQ74q9P59C75lZBZaWY-Hc3yTLaGqYQbRxBMqhuYFaqZUPw_azv-17oPiQtAqyNdPuMI8g4JU3jKsQjmhOVJ3eCh32Le_1RwKhsOkGhi02rEVowsAzlWTx6AjRGcsEPnav6BJO-TOhHDYV0&__tn__=%2CO%2CP-R-R.
-
-[^24]: Various, Facebook - BLD Support Group, 8 January 2022. [Online]. Available: https://www.facebook.com/groups/BLDSupportGroup/posts/4749882598465791/?__cft__[0]=AZVcWo0qkIsLkpc5S4W2BK2rnzzB5TKuYFXf_SoH0JYHzVSQu77-KfihYyL5tvcR7_FxmAkbw4aTLNSJ*-x7F7cwIxlR393w9yon0ZHYyI4egEzFcmoB4ZjLOrgvVRUwjrO2HCSoBFzmsrKNt4O992Hc&**tn**=%2CO%2CP-R-R.
-
+[^23]: Various, "Would partial uf5 ever be viable?," Facebook - BLD Support Group, 16 October 2023. [Online]. Available: https://www.facebook.com/groups/BLDSupportGroup/posts/6751340631653301/?__cft__[^0]=AZXTWhyfMnQ74q9P59C75lZBZaWY-Hc3yTLaGqYQbRxBMqhuYFaqZUPw_azv-17oPiQtAqyNdPuMI8g4JU3jKsQjmhOVJ3eCh32Le_1RwKhsOkGhi02rEVowsAzlWTx6AjRGcsEPnav6BJO-TOhHDYV0&__tn__=%2CO%2CP-R-R.
+[^24]: Various, Facebook - BLD Support Group, 8 January 2022. [Online]. Available: https://www.facebook.com/groups/BLDSupportGroup/posts/4749882598465791/?__cft__[^0]=AZVcWo0qkIsLkpc5S4W2BK2rnzzB5TKuYFXf_SoH0JYHzVSQu77-KfihYyL5tvcR7_FxmAkbw4aTLNSJ*-x7F7cwIxlR393w9yon0ZHYyI4egEzFcmoB4ZjLOrgvVRUwjrO2HCSoBFzmsrKNt4O992Hc&**tn**=%2CO%2CP-R-R.
 [^25]: Various, Facebook - BLD Support Group, 13 May 2024. [Online]. Available: https://www.facebook.com/groups/BLDSupportGroup/posts/7577352269052129/.
-
 [^26]: T. Cherry and A. Ghodgaonkar, "Tommy Cherry: Why UF5 is not viable algset at all? | Euros 2024," YouTube, 1 August 2024. [Online]. Available: https://www.youtube.com/watch?v=-SantOHuPcs.
-
 [^27]: A. Ghodgaonkar, "UF5 Feedback Part 1," YouTube, 6 August 2019. [Online]. Available: https://www.youtube.com/watch?v=Le8dVjF5Jog.
-
 [^28]: A. Ghodgaonkar, "UF5 Feedback Part 2," YouTube, 13 January 2022. [Online]. Available: https://www.youtube.com/watch?v=F8VSVnCXx5k.
-
-[^29]: X. Zhu, Facebook - BLD Support Group, 13 May 2024. [Online]. Available: https://www.facebook.com/groups/BLDSupportGroup/posts/7577352269052129/?comment_id=7577634859023870&__cft__[0]=AZXrCdYIQApmYMXSkjoVWY8ENaZi1S7Y_VgME36kKx2JMH_tWE0IDA1p_NrW__fAcrYUFW6HrvLC3dv20dBZ5XG07obEpOVm2D5p_A432Z0o6zGa30TJuU5g-QuKfDF8MyO2B4IPNacmCSF8.
-
+[^29]: X. Zhu, Facebook - BLD Support Group, 13 May 2024. [Online]. Available: https://www.facebook.com/groups/BLDSupportGroup/posts/7577352269052129/?comment_id=7577634859023870&__cft__[^0]=AZXrCdYIQApmYMXSkjoVWY8ENaZi1S7Y_VgME36kKx2JMH_tWE0IDA1p_NrW__fAcrYUFW6HrvLC3dv20dBZ5XG07obEpOVm2D5p_A432Z0o6zGa30TJuU5g-QuKfDF8MyO2B4IPNacmCSF8.
 [^30]: A. Ghodgaonkar, "Proving UF5," SpeedSolving.com, 21 September 2020. [Online]. Available: https://www.speedsolving.com/threads/proving-uf5.73119/post-1394069.

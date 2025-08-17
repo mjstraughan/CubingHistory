@@ -4,9 +4,10 @@ description: Timeline of Rubik's Cube speed solving method development
 ---
 
 import AnimCube from "@site/src/components/AnimCube";
+import TwistyPlayer from "@site/src/components/TwistyPlayer";
+import Exhibit from "@site/src/components/Exhibit";
 import Timeline from "@site/src/components/TimeLine";
 import TimelineItem from "@site/src/components/TimeLine/TimeLineItem";
-import TwistyPlayer from "@site/src/components/TwistyPlayer";
 
 # Method Timeline
 
@@ -29,10 +30,10 @@ import TwistyPlayer from "@site/src/components/TwistyPlayer";
   ### [Corners First](3x3/Methods/CornersFirst.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ydydddydywdwdddwdwbdbdddbdbgdgdddgdgododddodordrdddrdr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "DFR DFL DBL DBR UFR UFL UBL UBR",
+    }}
   />
 </div>
 
@@ -59,10 +60,10 @@ Proposer: [Ernő Rubik](CubingContributors/MethodDevelopers.md#rubik-ernő), oth
   ### [Layer By Layer](3x3/Methods/LayerByLayer.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwwwwwwwddbdbbddbddgdggddgddddodoooddrdrrddr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R DF DL DB DR DFR DFL DBL DBR",
+    }}
   />
 </div>
 
@@ -89,10 +90,10 @@ Proposer: [Donald Taylor](CubingContributors/MethodDevelopers.md#taylor-donald),
   ### [Edges First](3x3/Methods/EdgesFirst.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dydyyydyddwdwwwdwddbdbbbdbddgdgggdgddodooododdrdrrrdrd"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R DF DL DB DR FR FL BL BR UF UL UB UR",
+    }}
   />
 </div>
 
@@ -101,10 +102,11 @@ Proposer: Various
 ### [F2L Pairs](3x3/Methods/CFOP.md#first-two-layers)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dddddddddlwlwwwlwldlldbbdlldlldggdlldddlolloldlldrrdll"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "DFR DFL DBL DBR FR FL BL BR",
+      dim: "U D F B L R DF DL DB DR",
+    }}
   />
 </div>
 
@@ -131,11 +133,11 @@ Proposer: [John Conway](CubingContributors/MethodDevelopers.md#conway-john), [Da
   ### [3-Color Method](Methods/3Color)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=wyywyywwywwwywwyyybgggbbbbgbbgbggbggrrorooroorrrrroooo"
-    width="200px"
-    height="200px"
-  />
+  <TwistyPlayer
+  alg="x2 R2 F2 U2 R2"
+ controlPanel="none"
+/>
+
 </div>
 
 Proposer: [Michael Feather](CubingContributors/MethodDevelopers.md#feather-michael), [George Christos](CubingContributors/MethodDevelopers.md#christos-george)
@@ -161,11 +163,11 @@ Proposer: [Michael Feather](CubingContributors/MethodDevelopers.md#feather-micha
   ### [Waterman](3x3/Methods/Waterman.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ydyyydydywwwdwdwwwbbbdbdbdbgggdgdgggooooooooordrdrrrrr"
-    width="200px"
-    height="200px"
-  />
+  <Exhibit
+  stickering={{
+    solved: "L R FL DFL DL DBL BL DFR DBR UFR UFL UBL UBR"}}
+/>
+
 </div>
 
 Proposer: [Marc Waterman](CubingContributors/MethodDevelopers.md#waterman-marc), [Daan Krammer](CubingContributors/MethodDevelopers.md#krammer-daan)
@@ -173,11 +175,13 @@ Proposer: [Marc Waterman](CubingContributors/MethodDevelopers.md#waterman-marc),
 ### [Petrus](3x3/Methods/Petrus.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dldlyldldwwwwwwdlddbbdbbdlddlddggdggdddooooooddddrdddd"
-    width="200px"
-    height="200px"
-  />
+  <Exhibit
+  stickering={{
+    solved: "U D F B L R DF DL DB FL BL DFL DBL",
+    orientedWithoutPermutation: "UL UF UR UB FR BR DR"
+  }}
+/>
+
 </div>
 
 Proposer: [Lars Petrus](CubingContributors/MethodDevelopers.md#petrus-lars)
@@ -187,11 +191,13 @@ Proposer: [Lars Petrus](CubingContributors/MethodDevelopers.md#petrus-lars)
 (CFOP finalized)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=yyyyyyyyywwwwwwwwwdbbdbbdbbdggdggdggdddoooooodrrdrrdrr"
-    width="200px"
-    height="200px"
-  />
+  <Exhibit
+  stickering={{
+    solved: "U D F B L R DF DL DB DR DFR DFL DBL DBR FR FL BL BR",
+    oriented: "UL UF UR UB UFR UFL UBL UBR "
+}}
+/>
+
 </div>
 
 Proposer: [Hans Dockhorn](CubingContributors/MethodDevelopers.md#dockhorn-hans), [Anneke Treep](CubingContributors/MethodDevelopers.md#treep-anneke), [Jessica Fridrich](CubingContributors/MethodDevelopers.md#fridrich-jessica), [Mirek Goljan](CubingContributors/MethodDevelopers.md#goljan-mirek)
@@ -199,11 +205,11 @@ Proposer: [Hans Dockhorn](CubingContributors/MethodDevelopers.md#dockhorn-hans),
 ### [CFCE](3x3/Methods/CFCE.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ydydydydywwwwwwwwwbbbdbbbbbgggdgggggodooooooorrrdrrrrr"
-    width="200px"
-    height="200px"
-  />
+  <Exhibit
+  stickering={{
+    solved: "U D F B L R DF DL DB DR DFR DFL DBL DBR FR FL BL BR UFR UFL UBL UBR"}}
+/>
+
 </div>
 
 Proposer: [Guus Razoux Schultz](CubingContributors/MethodDevelopers.md#schultz-guus-razoux)
@@ -211,11 +217,11 @@ Proposer: [Guus Razoux Schultz](CubingContributors/MethodDevelopers.md#schultz-g
 ### [Salvia](3x3/Methods/Salvia.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ddddyddddwdwdwdwdwdbbdbdddbddgdgddggdddoooododdrdrdddr"
-    width="200px"
-    height="200px"
-  />
+  <Exhibit
+  stickering={{
+    solved: "U D F B L R DFR DFL DBL DBR FL BL"}}
+/>
+
 </div>
 
 Proposer: [David Salvia](CubingContributors/MethodDevelopers.md#salvia-david)
@@ -241,11 +247,11 @@ Proposer: [David Salvia](CubingContributors/MethodDevelopers.md#salvia-david)
   ### [Snyder Method 2](3x3/Methods/SnyderMethod2.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dldlyllldwwwwwwwwwdbblbbdbbdgglgglggdlloooooodrrlrrdrr"
-    width="200px"
-    height="200px"
-  />
+  <Exhibit
+  stickering={{
+    solved: "U D F B L R DF DL DB DR DFR DFL DBL DBR FR FL BL BR UF UL UB UR UBL"}}
+/>
+
 </div>
 
 Proposer: [Anthony Snyder](CubingContributors/MethodDevelopers.md#snyder-anthony)
@@ -271,10 +277,10 @@ Proposer: [Anthony Snyder](CubingContributors/MethodDevelopers.md#snyder-anthony
   ### [Tripod](3x3/Methods/Tripod.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dddyydyydwwwwwwdwwdbbdbbddddggggggggdooooooooddddrrdrr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R DF DL DB DR DFL DBL DBR FL BL BR UL UB UBL",
+    }}
   />
 </div>
 
@@ -283,11 +289,11 @@ Proposer: [Ryan Heise](CubingContributors/MethodDevelopers.md#heise-ryan), [Mich
 ### [Human Thistlethwaite](3x3/Methods/HumanThistlethwaite.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=yyyyyyywywwwwwywwwbgbgbggbggbgbgbbgborrrooorroroororor"
-    width="200px"
-    height="200px"
-  />
+  <TwistyPlayer
+  alg="x2 D2 U2 L2 B2 L2"
+ controlPanel="none"
+/>
+
 </div>
 
 Proposer: [Ryan Heise](CubingContributors/MethodDevelopers.md#heise-ryan)
@@ -295,10 +301,10 @@ Proposer: [Ryan Heise](CubingContributors/MethodDevelopers.md#heise-ryan)
 ### [Doug Li](3x3/Methods/DougLi.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=yyydyyyyyddddwddddbbdbbdbbdggdggdggdodoooodddrrdrrdrrd"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R FR FL BL BR UFR UFL UBL UBR UF UB UR",
+    }}
   />
 </div>
 
@@ -325,10 +331,10 @@ Proposer: [Doug Li](CubingContributors/MethodDevelopers.md#li-doug)
   ### [Roux](3x3/Methods/Roux.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ydydydydywwwdwdwwwbbbdbdbbbgggdgdgggodooooooorrrdrrrrr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "L R FL DFL DL DBL BL FR DFR DR DBR BR UFR UFL UBL UBR",
+    }}
   />
 </div>
 
@@ -337,10 +343,11 @@ Proposer: [Gilles Roux](CubingContributors/MethodDevelopers.md#roux-gilles)
 ### [Heise](3x3/Methods/Heise.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dlyyyyyldwwwwwwdwwdbblbbrlddgglgggggdoooooooogldgrrdrr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R DF DL DB DR DFL DBL DBR FL BL BR UFR UR UL UBL",
+      orientedWithoutPermutation: "UF UB FR",
+    }}
   />
 </div>
 
@@ -367,10 +374,10 @@ Proposer: [Ryan Heise](CubingContributors/MethodDevelopers.md#heise-ryan)
   ### [L2L](3x3/Methods/L2L.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwwwwwwwdbbdbbddbdggdggdggdddooooooddrdrrdrr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R DF DL DB DR DFR DFL DBL DBR FL BL BR",
+    }}
   />
 </div>
 
@@ -397,10 +404,10 @@ Proposer: [Duncan Dicks](CubingContributors/MethodDevelopers.md#dicks-duncan)
   ### [MI1](3x3/Methods/Mi1.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwdwwddwdbbdbdddddggdggdggdddooooooddddrddrr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R DL DB DFL DBL DBR FL BL BR",
+    }}
   />
 </div>
 
@@ -409,10 +416,10 @@ Proposer: [Michael James Straughan](CubingContributors/MethodDevelopers.md#strau
 ### [Nautilus](3x3/Methods/Nautilus.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwdwwdwwdbbdbdddddggdggdggdddooooooddddrrdrr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R DL DB DR DFL DBL DBR FL BL BR",
+    }}
   />
 </div>
 
@@ -421,10 +428,11 @@ Proposer: [Michael James Straughan](CubingContributors/MethodDevelopers.md#strau
 ### [ZZ](3x3/Methods/Zz.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dldlyldlddwdwwwdwddlddbbdlddlddggdldddddoddodddddrrddd"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R DF DL DB DR",
+      orientedWithoutPermutation: "UL UF UR UB FL FR BL BR",
+    }}
   />
 </div>
 
@@ -451,10 +459,10 @@ Proposer: [Zbigniew Zborowski](CubingContributors/MethodDevelopers.md#zborowski-
   ### [Polaris](Methods/Polaris)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=wydwylywdwwyywydlddbddbddlddlddgddgddddooodddddddrdddd"
-    width="200px"
-    height="200px"
+  <TwistyPlayer
+    alg="x2 R2 D R2 D R2 D U' R2 U' R2 U'"
+    experimentalStickeringMaskOrbits="EDGES:----?--??-?-,CORNERS:--II-II-,CENTERS:------"
+    controlPanel="none"
   />
 </div>
 
@@ -463,10 +471,11 @@ Proposer: [Michael James Straughan](CubingContributors/MethodDevelopers.md#strau
 ### [ZBRoux](3x3/Methods/ZBRoux.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dldllldldwwwlllwwwdbbdlldbbdggdlldggdddoooooodrrdrrdrr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "L R FL DFL DL DBL BL FR DFR DR DBR BR",
+      orientedWithoutPermutation: "U D F B DF DB UF UL UB UR",
+    }}
   />
 </div>
 
@@ -493,10 +502,11 @@ Proposer: [Michael James Straughan](CubingContributors/MethodDevelopers.md#strau
   ### [CEOR](3x3/Methods/CEOR.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=llllyllllwwwwwwllllbbdbblllllldgglggldlooooooldldrdldl"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "L R FL DFL DL DBL BL",
+      orientedWithoutPermutation: "UL UF UR UB DF DB FR DR BR",
+    }}
   />
 </div>
 
@@ -505,10 +515,11 @@ Proposer: [Noa Arthurs](CubingContributors/MethodDevelopers.md#arthurs-noa), [Zb
 ### [LEOR](3x3/Methods/Leor.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dldllldldwwwllldlddbbdlldlddlddlldggdddooooooddddrdddd"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "L R FL DFL DL DBL BL",
+      orientedWithoutPermutation: "UL UF UR UB DF DB FR DR BR",
+    }}
   />
 </div>
 
@@ -535,10 +546,10 @@ Proposer: [Noa Arthurs](CubingContributors/MethodDevelopers.md#arthurs-noa), [Ar
   ### [SSC](3x3/Methods/Ssc.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dldyyldbddgdywwdldddwdbddlddldrgdddyddwdoddrdddddrdddd"
-    width="200px"
-    height="200px"
+  <TwistyPlayer
+    alg="x2 R2 D R2 D R2 D U' R2 U' R2 R' D2 U"
+    experimentalStickeringMaskOrbits="EDGES:??-?--??---,CORNERS:I--III-I,CENTERS:------"
+    controlPanel="none"
   />
 </div>
 
@@ -547,10 +558,10 @@ Proposer: [Joseph Briggs](CubingContributors/MethodDevelopers.md#briggs-joseph-s
 ### [M-CELL](3x3/Methods/M-CELL.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=llllyllllwwwlwwrwwlbblbllbwlgglgglggllloooooolrblrrlrr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R FL DFL DL DBL BL DB BR DR DBR FR",
+    }}
   />
 </div>
 
@@ -577,10 +588,10 @@ Proposer: [Joseph Briggs](CubingContributors/MethodDevelopers.md#briggs-joseph-s
   ### [42](3x3/Methods/42.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ldldydldlwwwdwdlwwlbbdbdldllggdgdlggldlooooooldldrrlrr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "L R FL DFL DL DBL BL BR DBR DR DFR UFR UFL UBL UBR",
+    }}
   />
 </div>
 
@@ -589,10 +600,11 @@ Proposer: [Joseph Briggs](CubingContributors/MethodDevelopers.md#briggs-joseph-s
 ### [2GR](3x3/Methods/2GR.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dldlyldlddwwlwldlddlddbddlddlddgddlgddddoddooddddrdddd"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R DL DBL",
+      orientedWithoutPermutation: "UL UF UR UB FL FR BL BR DF DR DB",
+    }}
   />
 </div>
 
@@ -601,10 +613,11 @@ Proposer: [John Li](CubingContributors/MethodDevelopers.md#li-john-teoidus)
 ### [Zipper](3x3/Methods/Zipper.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ydydydydywwwwwwwwwbbbdbbbdbgggdgggggodooooooordrdrrrrr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved:
+        "U D F B L R DF DL DB DR DFR DFL DBL DBR FL BL BR UFR UFL UBL UBR",
+    }}
   />
 </div>
 
@@ -613,10 +626,10 @@ Proposer: [Justin Taylor](CubingContributors/MethodDevelopers.md#taylor-justin)
 ### [LMCF](3x3/Methods/Lmcf.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ylyyylylywwwlwlwwwbbbdbdblbgggdgdgggooooooooorlrlrrrrr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "DFR DFL DBL DBR UFR UFL UBL UBR",
+    }}
   />
 </div>
 
@@ -625,10 +638,10 @@ Proposer: [Eric Fattah](CubingContributors/MethodDevelopers.md#fattah-eric)
 ### [WaterRoux](3x3/Methods/Waterroux.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ydydydydywwwdwdwdwbbbdbdbdbgdgdgdgggodooooooordrdrdrdr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "L R FL DFL DL DBL BL DFR DBR UFR UFL UBL UBR",
+    }}
   />
 </div>
 
@@ -655,10 +668,10 @@ Proposer: [Eric Fattah](CubingContributors/MethodDevelopers.md#fattah-eric), [Ma
   ### [Tudor](3x3/Methods/Tudor.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ydydydydywwwwwwwdwbbbdbbbdbgdgdgggggodooooooordrdrdrdr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R DF DL DB DFL DBL FL BL DFR DBR UFR UFL UBL UBR",
+    }}
   />
 </div>
 
@@ -685,10 +698,10 @@ Proposer: [Joseph Tudor](CubingContributors/MethodDevelopers.md#tudor-joseph)
   ### [Square 101](3x3/Methods/Square101.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=wydyyldbdwwyywwdldddddbddlddldrgddddddwdoddddddddrdddd"
-    width="200px"
-    height="200px"
+  <TwistyPlayer
+    alg="x2 R2 D R2 D R2 D U' R2 U' R2 U' R U'"
+    experimentalStickeringMaskOrbits="EDGES:---??--?--?-,CORNERS:--I--III,CENTERS:------"
+    controlPanel="none"
   />
 </div>
 
@@ -697,10 +710,11 @@ Proposer: [Vincent Trang](CubingContributors/MethodDevelopers.md#trang-vincent-t
 ### [Mehta](3x3/Methods/Mehta.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dydyyydydwwwwwwllldbbdbbdbldgldggdggdddoooooodrldrldrl"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R DF DL DB DFL DBL FR FL BL BR",
+      orientedWithoutPermutation: "UL UF UR UB DR",
+    }}
   />
 </div>
 
@@ -709,10 +723,10 @@ Proposer: [Yash Mehta](CubingContributors/MethodDevelopers.md#mehta-yash)
 ### [SSRC](3x3/Methods/Ssrc.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ydydydydywwwdwdwdwbbbdbdbbbgggdgdgggodooooooorrrdrdrrr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "L R FL DFL DL DBL BL FR DFR DBR BR UFR UFL UBL UBR",
+    }}
   />
 </div>
 
@@ -739,10 +753,11 @@ Proposer: [Silky](CubingContributors/MethodDevelopers.md#silky)
   ### [APB](3x3/Methods/APB.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dldlyldldwwwwwwdlwdbbdbbdlddggdggdggdddooooooddddrddrr"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "U D F B L R FL DFL DL DBL BL DF DB BR DBR",
+      orientedWithoutPermutation: "UL UF UR UB FR DR",
+    }}
   />
 </div>
 
@@ -751,10 +766,11 @@ Proposer: [Michael James Straughan](CubingContributors/MethodDevelopers.md#strau
 ### [Squall](3x3/Methods/Squall.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=dldlyldlddwwlwldlddlddbddlddlddgddggddddoodooddddrdddd"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "L R DL BL DBL",
+      orientedWithoutPermutation: "DF DB DR FR FL BR UF UL UB UR",
+    }}
   />
 </div>
 
@@ -763,10 +779,11 @@ Proposer: [Vincent Trang](CubingContributors/MethodDevelopers.md#trang-vincent-t
 ### [TruSRU](3x3/Methods/TruSRU.md)
 
 <div style={{ display: "flex", justifyContent: "center" }}>
-  <AnimCube
-    params="config=../../ExhibitConfig.txt&facelets=ldldydldlwdwwwwldllbbdbbldlldldgglggldloooodoldldrdldl"
-    width="200px"
-    height="200px"
+  <Exhibit
+    stickering={{
+      solved: "F B DF FL DFL DB BL DBL",
+      orientedWithoutPermutation: "UL UF UR UB FR BR DL DR",
+    }}
   />
 </div>
 

@@ -3,7 +3,10 @@ sidebar_position: 5
 description: History of Rubik's Cube solving method shapes
 ---
 
-import AnimCube from "@site/src/components/AnimCube";
+import TwistyPlayer from "@site/src/components/TwistyPlayer";
+import Exhibit from "@site/src/components/Exhibit";
+import YouTube from "@site/src/components/YouTube";
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # Method Shapes
 
@@ -13,7 +16,10 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Eight Corners
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ydydydydywdwdwdwdwbdbdbdbdbgdgdgdgdgododododordrdrdrdr" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "DFR DFL DBL DBR UFR UFL UBL UBR"}}
+/>
 
 **Method:** Corners First
 
@@ -21,7 +27,10 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Twelve Edges
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=dydyyydyddwdwwwdwddbdbbbdbddgdgggdgddodooododdrdrrrdrd" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "U D F B L R DF DL DB DR FR FL BL BR UF UL UB UR"}}
+/>
 
 **Method:** Edges First
 
@@ -29,7 +38,10 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Cross
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddydddddwdwwwdwdddddbbdddddddggdddddddoddodddddrrddd" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "U D F B L R DF DL DB DR"}}
+/>
 
 **Method:** Layer By Layer, CFOP, CFCE
 
@@ -37,7 +49,12 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Cross + F2L Pairs
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddlwlwwwlwldlldbbdlldlldggdlldddlolloldlldrrdll" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "DFR DFL DBL DBR FR FL BL BR",
+    dim: "U D F B L R DF DL DB DR"
+}}
+/>
 
 **Method:** CFOP, CFCE
 
@@ -45,7 +62,10 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Oriented State
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ywyyywwywwwywwyyywogbrbgrbbgbgogrrgrgbboorobbgroorgoor" width="400px" height="400px" />
+<TwistyPlayer
+  alg="x2 D2 U2 L2 B2 L2"
+ controlPanel="none"
+/>
 
 **Method:** Thistlethwaite, Kociemba, Human Thistlethwaite, MI2, SSC
 
@@ -53,7 +73,12 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## EOLine > Oriented State
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=llllylllllwllwlllldbddbddlddlddgddgddddooodddddddrdddd" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    dim: "L R U D F B FL BL",
+    orientedWithoutPermutation: "DFR DF DFL DL DBL DB DBR DR FR BR UFR UF UFL UL UBL UB UBR UR"
+}}
+/>
 
 **Method:** MI2, SSC
 
@@ -61,7 +86,11 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Layer + LL Corners
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ydydydydywwwwwwwwwbdbdbbbdbgdgdgggdgodododooordrdrrrdr" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "L R U D F B DFR DFL DBL DBR DF DL DB DR UFR UFL UBL UBR"
+}}
+/>
 
 **Method:** Waterman
 
@@ -69,7 +98,11 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## 2x2x3 Block
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwwwwddddbbdbbdddddddggdggdddooooooddddrdddd" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "L R U D F B DF DFL DL DBL DB FL BL"
+}}
+/>
 
 **Method:** Petrus, early unnamed methods by Thistlethwaite and Jackson
 
@@ -77,7 +110,11 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## XCross
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddydddddwwwwwdwdddddbbdddddddggdggddddoodooddddrrddd" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "L R U D F B DF DL DBL DB DR BL"
+}}
+/>
 
 **Method:** CFOP, CFCE, Snyder Method 2
 
@@ -85,7 +122,10 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Tripod
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=dddyydyydwwwwwwdwwdbbdbbddddggggggggdooooooooddddrrdrr" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "U D F B L R DF DL DB DR DFL DBL DBR FL BL BR UL UB UBL"}}
+/>
 
 **Method:** Tripod
 
@@ -93,15 +133,23 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Doug Li Block
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwdwwwwddddbbdbbdddddddggdggdddoooododdddrdddd" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "L R U D F B DF DFL FL DBL DB BL"
+}}
+/>
 
 **Method:** Doug Li
 
 **Proposer:** Doug Li (2002)
 
-## 1x2x3 Block
+## 1x2x3 Block Start
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwdwdddddbbdbddddddddgddggdddooooooddddrdddd" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "L R FL DFL DL DBL BL"
+}}
+/>
 
 **Method:** Roux
 
@@ -109,7 +157,11 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Four Squares
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddrbbrwodwodbbdbbddddggdggdwwdddwoowooddddrrdww" width="400px" height="400px" />
+<TwistyPlayer
+alg="x2 B L F"
+experimentalStickeringMaskOrbits="EDGES:----IIIII---,CORNERS:I---IIII,CENTERS:------"
+controlPanel="none"
+/>
 
 **Method:** Heise
 
@@ -117,7 +169,11 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Cross + One Corner
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddydddddwwwwwdwdddddbbdddddddggddgddddoddooddddrrddd" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "L R U D F B DF DL DBL DB DR"
+}}
+/>
 
 **Method:** L2L
 
@@ -125,7 +181,10 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## Columns
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ydydydydywdwdwdwdwbbbdbdbbbgggdgdgggodooooodorrrdrdrrr" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "DFR DFL DBL DBR FR FL BL BR UFR UFL UBL UBR"}}
+/>
 
 **Method:** Columns First
 
@@ -133,7 +192,10 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## 1x2x3 + adjacent 1x2x2 block
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwdwwddwdbbdbdddddggdggdggdddooooooddddrddrr" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "U D F B L R DL DB DFL DBL DBR FL BL BR"}}
+/>
 
 **Method:** MI1
 
@@ -141,7 +203,10 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## 1x2x3 + 2x2x2 block
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwdwwdwwdbbdbdddddggdggdggdddooooooddddrrdrr" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "U D F B L R DL DB DR DFL DBL DBR FL BL BR"}}
+/>
 
 **Method:** Nautilus, M-CELL
 
@@ -149,7 +214,12 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## EOLine
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=dldlyldlddldwwwdlddlddbbdlddlddggdldddddoddddddddrdddd" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "U D F B L R DF DB",
+    orientedWithoutPermutation: "UL UF UR UB FL FR BL BR DL DR"
+  }}
+/>
 
 **Method:** ZZ
 
@@ -159,7 +229,10 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## 2x2x3 + Corners
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ydydydydywwwwwwwdwbbbdbbbdbgdgdgggggodooooooordrdrdrdr" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "U D F B L R DF DL DB DFL DBL FL BL DFR DBR UFR UFL UBL UBR"}}
+/>
 
 **Method:** Tudor
 
@@ -167,7 +240,10 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## 1x2x3 + opposite 1x2x2 block
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=ddddyddddwwwdwddwwdbbdbdddddggdgddggdddooooooddddrrdrr" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "L R FL DFL DL DBL BL BR DBR DR"}}
+/>
 
 **Method:** 42
 
@@ -175,7 +251,12 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## 2x2x3 + EOBelt
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=dldlyldldwwwwwwdlddbbdbbdbddgddggdggdddoooooodrddrddrd" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "U D F B L R DF DL DB DFL DBL FR FL BL BR",
+    orientedWithoutPermutation: "UL UF UR UB DR"
+  }}
+/>
 
 **Method:** Mehta
 
@@ -183,7 +264,12 @@ https://www.ryanheise.com/cube/solutions_history.html
 
 ## EOSquare
 
-<AnimCube params="config=../../ExhibitConfig.txt&facelets=dldlyldlddwwlwldlddlddbddlddlddgddggddddoodooddddrdddd" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "L R DL BL DBL",
+    orientedWithoutPermutation: "DF DB DR FR FL BR UF UL UB UR"
+  }}
+/>
 
 **Method:** Squall
 

@@ -2,13 +2,26 @@
 description: History of the TuRBo blindfold solving method for the Rubik's Cube.
 ---
 
-import AnimCube from "@site/src/components/AnimCube";
+import ReconViewer from "@site/src/components/ReconViewer";
+import YouTube from "@site/src/components/YouTube";
 import ReactPlayer from 'react-player'
 import ImageCollage from '@site/src/components/ImageCollage';
 
 # TuRBo
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=B F' D U2 F2 U' R' F U2 F2 L' U2 B' D' U2 F2 D' U2 L' B F' L2 D2 B2 L'&move={Scramble: B F' D U2 F2 U' R' F U2 F2 L' U2 B' D' U2 F2 D' U2 L' B F' L2 D2 B2 L'}{FRD > ULB: F' B L B' R B L' B' R' F}F' B L B' R B L' B' R' F.{URF > LBU: D L U2 F' L' B' L F L' B L U2 L' D'}D L U2 F' L' B' L F L' B L U2 L' D'.{ULB > URF: L' F x R2 D2 R U R' D2 R U' R x' F' L}L' F x R2 D2 R U R' D2 R U' R x' F' L.{BUL > URF: L R2 D' R U2 R' D R U2 R L'}L R2 D' R U2 R' D R U2 R L'.{BL > RD: L R2 U L' U' L U M' U' L' U l U' R2 L'}L R2 U L' U' L U M' U' L' U l U' R2 L'.{RB > DF: R' D' L2 U l' U' L U M U' L' U L U' L2 D R}R' D' L2 U l' U' L U M U' L' U L U' L2 D R.{FR > LF: R L' U' R U R' U' M' U R U' r' U L R'}R L' U' R U R' U' M' U R U' r' U L R'.{UB > BD: B R' L U' r U R' U' M U R U' R' U L' R B'}B R' L U' r U R' U' M U R U' R' U L' R B'.{DL > LU: b' U' r U R' U' M U R U' R' U b}b' U' r U R' U' M U R U' R' U b.{Orient UF and UR: R' U2 R2 U R' U' R' U2 L F R F' L'}R' U2 R2 U R' U' R' U2 L F R F' L'." width="600px" height="400px" />
+<ReconViewer
+scramble="B F' D U2 F2 U' R' F U2 F2 L' U2 B' D' U2 F2 D' U2 L' B F' L2 D2 B2 L'"
+solution={`F' B L B' R B L' B' R' F . // FRD > ULB
+D L U2 F' L' B' L F L' B L U2 L' D' . // URF > LBU
+L' F x R2 D2 R U R' D2 R U' R x' F' L . // ULB > URF
+L R2 D' R U2 R' D R U2 R L' . // BUL > URF
+L R2 U L' U' L U M' U' L' U l U' R2 L' . // BL > RD
+R' D' L2 U l' U' L U M U' L' U L U' L2 D R . // RB > DF
+R L' U' R U R' U' M' U R U' r' U L R' . // FR > LF
+B R' L U' r U R' U' M U R U' R' U L' R B' . // UB > BD
+b' U' r U R' U' M U R U' R' U b . // DL > LU
+R' U2 R2 U R' U' R' U2 L F R F' L' // Orient UF and UR`}
+/>
 **Example solve from Erik Akkersdijk**
 
 ## Description

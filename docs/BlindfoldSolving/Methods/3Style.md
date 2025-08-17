@@ -2,13 +2,26 @@
 description: History of the 3-Style blindfold solving method for the Rubik's Cube.
 ---
 
-import AnimCube from "@site/src/components/AnimCube";
+import ReconViewer from "@site/src/components/ReconViewer";
+import YouTube from "@site/src/components/YouTube";
 import ReactPlayer from 'react-player'
 import ImageCollage from '@site/src/components/ImageCollage';
 
 # 3-Style
 
-<AnimCube params="config=../../ReconstructionConfig.txt &initmove=B L2 D B2 D2 B2 D2 L U2 R2 U' L' U2 F U' L R' D r' u2 z y'&move={Scramble: B L2 D B2 D2 B2 D2 L U2 R2 U' L' U2 F U' L R' D r' u2 z y'}.{Rotate: z}z.{UB-DL-LB: U' E' L E L2 E' L U E}U' E' L E L2 E' L U E.{UB-RU-RF: S' U' L E' L' U L E L' S}S' U' L E' L' U L E L' S.{UB-BR-FL: R U R E R2 E' R U' R'}R U R E R2 E' R U' R'.{UF-RD-BD: U' S L' D' L S' L' D L U}U' S L' D' L S' L' D L U.{UF-DF-UL: R' F R S R' F2 R S' R' F R}R' F R S R' F2 R S' R' F R.{UFR-UBR-DRB: U' R D R' U R D' R'}U' R D R' U R D' R'.{UFR-FDR-UFL: U' D' R' D R U R' D' R D}U' D' R' D R U R' D' R D.{UFR-UBR-LBU: R U R D R' U' R D' R2}R U R D R' U' R D' R2.{UFR-BUL [LDB] (LTCT): D' U R2 D' R U R' D R2 U R' U2 R D}D' U R2 D' R U R' D R2 U R' U2 R D" width="600px" height="400px" />
+<ReconViewer
+scramble="B L2 D B2 D2 B2 D2 L U2 R2 U' L' U2 F U' L R' D r' u2 z y'"
+solution={`z . // Rotate
+U' E' L E L2 E' L U E . // UB-DL-LB
+S' U' L E' L' U L E L' S . // UB-RU-RF
+R U R E R2 E' R U' R' . // UB-BR-FL
+U' S L' D' L S' L' D L U . // UF-RD-BD
+R' F R S R' F2 R S' R' F R . // UF-DF-UL
+U' R D R' U R D' R' . // UFR-UBR-DRB
+U' D' R' D R U R' D' R D . // UFR-FDR-UFL
+R U R D R' U' R D' R2 . // UFR-UBR-LBU
+D' U R2 D' R U R' D R2 U R' U2 R D // UFR-BUL [LDB] (LTCT)`}
+/>
 **Solve from 14.05 world record mean by Tommy Cherry. Reconstruction by Andy Wong.**
 
 ## Description

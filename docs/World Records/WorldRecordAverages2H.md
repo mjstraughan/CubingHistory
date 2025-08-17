@@ -81,7 +81,7 @@ y2' R U' R' U R U2' R' U R U' R2' . // 2nd pair
 U R L' U L . // 3rd pair
 U' U R' U2' R . // 4th pair
 U' R' U' F' U F R U' R U2' R' U' R U' R' . // OLL(CP)
-U' R2 U R U R' U' R' U' R' U R' U' . // EPLL`}
+U' R2 U R U R' U' R' U' R' U R' U' // EPLL`}
 />
 <ReconViewer
   scramble="B2 R2 D2 F2 U2 R2 U2 L F2 D B D U' F R U' B' U2 R'"
@@ -92,7 +92,7 @@ U L' U U R U' R' . // 2nd pair
 U L U' L' U L . // 3rd pair
 U2' L U' L' U L U' L' . // 4th pair
 U' U' R U R' U' R' F R2 U R' U' F' . // OLL
-x R2' D2 R U R' D2 R U' R . // PLL`}
+x R2' D2 R U R' D2 R U' R // PLL`}
 />
 <ReconViewer
   scramble="R' F2 L2 F2 R F' D' B L' D R' B' R2 U2 B R2 D'"
@@ -103,7 +103,7 @@ y L U L2' . // 2nd pair
 U L U R U R' . // 3rd pair
 y' U' R U R' U R U R' . // 4th pair
 U' F R U R' U' F' . // EO
-U' U' R' U' R U' R' D D' U' R2 D r' U2 r D' R2' U' R U2 . // ZBLL`}
+U' U' R' U' R U' R' D D' U' R2 D r' U2 r D' R2' U' R U2 // ZBLL`}
 />
 <ReconViewer
   scramble="D2 U L2 B' R B U' F2 R F' U' B2 F' U L2 B D U2"
@@ -112,7 +112,7 @@ U' U' R' U' R U' R' D D' U' R2 D r' U2 r D' R2' U' R U2 . // ZBLL`}
 R U' U' R' L U' L' . // 2nd pair
 y' R U R' U R U R' U' R U' R' . // 3rd pair
 y R' F R F' . // 4th pair / EOLS
-U R U2' R2' U' R2 U' R' U R' U' R U R' U R U2' . // ZBLL`}
+U R U2' R2' U' R2 U' R' U R' U' R U R' U R U2' // ZBLL`}
 />
 <ReconViewer
   scramble="B' L2 B L2 F L U F' L' D F2 L2 R' D2 F L R' B'"
@@ -121,7 +121,7 @@ U' l' U2 L' x' y L U L' U R' U' R D2 U' l' U l . // XXcross
 y' R' U' R U' R' U R . // 3rd pair
 U R U2' R' d R' U' R . // 4th pair
 U' R U2' R2' F R F' R U2' R' . // OLL
-U' R' U2 R U' U' R' F R U R' U' R' F' R2 U' . // PLL`}
+U' R' U2 R U' U' R' F R U R' U' R' F' R2 U' // PLL`}
 />
 </ReconCarousel>
 
@@ -164,7 +164,7 @@ U R' U R2 U' R' . // 2nd pair
 U U L' U L R' U R . // 3rd pair
 U' U' L' U U L U' L' U L . // 4th pair
 U U' F U R U' R' F' . // OLL
-U' U' U' R2 U R' U R' U' R U' R2' (U' D) R' U R D' . // PLL`}
+U' U' U' R2 U R' U R' U' R U' R2' (U' D) R' U R D' // PLL`}
 />
 <ReconViewer
   scramble="D F2 R2 U F' B2 U2 R' U2 L B' R2 U' F2 L2 F2 R2 D' R2 L2"
@@ -174,7 +174,7 @@ U L' U U L U L' U' L . // 2nd pair
 R U' R' d R' U' R U' R' U' R . // 3rd pair
 U L' U' L U L' U' L . // 4th pair
 R' U' R' F R F' U R . // OLL
-U' U L U' R U' U' L' U L R' U' R U' U' L' U l' . // PLL`}
+U' U L U' R U' U' L' U L R' U' R U' U' L' U l' // PLL`}
 />
 <ReconViewer
   scramble="D U R2 U' B2 D' F2 D2 R' U B' U' F2 D2 R F2 L' F' U"
@@ -185,7 +185,7 @@ U' U' R U R' U R U' R' . // 2nd pair
 y' U' R U R' . // 3rd pair
 y' R U' R' U R U' U' R' U R U' R' . // 4th pair
 U U r U' r2' U r2 U r2' U' r . // OLL
-U U' R' U L' U U R U' R' L U L' U U R U' L U U . // PLL`}
+U U' R' U L' U U R U' R' L U L' U U R U' L U U // PLL`}
 />
 <ReconViewer
   scramble="D F2 U2 R2 U2 L2 B2 L2 U2 B R' U2 F' R2 D' F2 U' L F' U"
@@ -195,7 +195,7 @@ y U R U' R' U U R U' R2' . // 2nd pair
 U R y U R' U R . // 3rd pair
 U U R U' U' R' U R U' R' . // 4th pair
 U U r' U' R U' R' U R U' R' U' U' r . // OLL
-U' R' U U R U' U' R' F R U R' U' R' F' R2 U' . // PLL`}
+U' R' U U R U' U' R' F R U R' U' R' F' R2 U' // PLL`}
 />
 <ReconViewer
   scramble="R2 B' R2 D2 B' R2 F L2 B L' U' B2 U F D' F' D' U' L2 D'"
@@ -205,7 +205,7 @@ U' R U' R' U' L U' L' . // 2nd pair
 R U' U' R' U U R U' R' . // 3rd pair
 U L' U L d R U R' . // 4th pair
 U R U R' U' M' U R U' r' . // OLL
-U' R2 U R' U R' U' R U' R2' (U' D) R' U R (U D') . // PLL`}
+U' R2 U R' U R' U' R U' R2' (U' D) R' U R (U D') // PLL`}
 />
 </ReconCarousel>
 
@@ -234,7 +234,7 @@ y' U' L' U L R' U R . // 2nd pair
 R U' R' F U F' . // 3rd pair
 U' R U R' . // 4th pair
 U' U' F U R U2 R' U' R U2 R' U' F' . // OLL
-U R U R' F' R U2' R' U2' R' F R U R U2' R' U . // PLL`}
+U R U R' F' R U2' R' U2' R' F R U R U2' R' U // PLL`}
 />
 <ReconViewer
   scramble="D' L D' U2 R2 U' B L U2 B2 R U R2 F2 D' U2 B'"
@@ -245,7 +245,7 @@ U' R' U2 R d' R U R' . // 2nd pair
 U' L U2 L' . // 3rd pair
 y' U R U' R' y' R' U' R . // 4th pair
 F R U' R' U' R U R' F' . // OLL(CP)
-R U' R U R U R U' R' U' R2 U' . // EPLL`}
+R U' R U R U R U' R' U' R2 U' // EPLL`}
 />
 <ReconViewer
   scramble="U' R2 B U' L' F' R D2 U L' F2 D2 R' F' D B' D' U'"
@@ -254,7 +254,7 @@ L' U' r' l U' l' R' U' R D . // Xcross
 y' U' U L F' L' F . // 2nd pair
 U' R' U R . // 3rd pair
 U R' F R F' U' R' F R F' . // 4th pair+OLS
-R U' R U R U R U' R' U' R2 . // EPLL`}
+R U' R U R U R U' R' U' R2 // EPLL`}
 />
 <ReconViewer
   scramble="L B2 U2 B' R' D2 R' B L B F' U2 L D R2 B R"
@@ -265,7 +265,7 @@ U' R U' R' U' R' U' R . // 2nd pair
 U' R U' R' U L' U' L . // 3rd pair
 U R U R' U' R U R' . // 4th pair
 U' l' U' L U' L' U L U' L' U U l . // OLL
-R2 U R' U R' U' R U' R2 (D U') R' U R D' . // PLL`}
+R2 U R' U R' U' R U' R2 (D U') R' U R D' // PLL`}
 />
 <ReconViewer
   scramble="U' R F U2 F' U2 F2 D' R D' L2 R' F D B2 L' B R' U2"
@@ -275,7 +275,7 @@ R' U R2 U' R' . // 1st+2nd pairs
 y' R U' R' U' R U R' U2 R U' R' . // 3rd pair
 y' U R' F R F' U R U' R' R U' R' . // 4th pair
 F R U R' U' F' . // OLL
-y' x' R U' R D2 R' U R D2 R2' . // PLL`}
+y' x' R U' R D2 R' U R D2 R2' // PLL`}
 />
 </ReconCarousel>
 
@@ -312,7 +312,7 @@ R U' R' U R U R' . // 1st pair
 y' d R' U' R . // 2nd pair
 U L' U L U' y' R U R2' U' R2 U' R' . // 3rd and 4th pairs
 U R' U' R U' R' U U R . // OLL
-U l' U R' D D R U' R' D D R2 . // PLL`}
+U l' U R' D D R U' R' D D R2 // PLL`}
 />
 <ReconViewer
   scramble="U F2 U' L2 D' F2 D' R2 B' L' F D R U2 B' L' F' R' F2"
@@ -323,7 +323,7 @@ L' U L U R U' R' F U F' . // 2nd pair
 U' R U' U' R' d' R' U' R . // 3rd pair
 y' U' U' R U R' U U R U' R' . // 4th pair
 U U R' U' R' F R F' U R . // OLL
-U x R2' D D R U R' D D R U' R x' U' . // PLL`}
+U x R2' D D R U R' D D R U' R x' U' // PLL`}
 />
 <ReconViewer
   scramble="D2 L2 B2 F2 D' F2 U L2 D' B2 L' U' F' D B2 R' U' B D2 L2 R2 U'"
@@ -332,7 +332,7 @@ U r' R2 D L2' R U R' d' R' U' R u' . // Xxcross
 U' F U F' U' L' U L . // 3rd pair
 U R U R' U U R U R' . // 4th pair
 U' U' R U R' U R U' U' R' F R U R' U' F' . // OLL
-U F R U' R' U' R U R' R R' F' R U R' U' R' F R F' U . // PLL`}
+U F R U' R' U' R U R' R R' F' R U R' U' R' F R F' U // PLL`}
 />
 <ReconViewer
   scramble="L2 B2 D' U' L2 F2 U F2 D' U2 B' U' B L' U2 L F D L' F' U2"
@@ -342,7 +342,7 @@ U R U' R' U R U R' . // 2nd pair
 y' U L' U U L U L' U' L . // 3rd pair
 d U R' U' R U U R' U R . // 4th pair
 U' U' R U R' U' R' F R F' . // OLL
-L' U R' U' U' z U R' U' R2 D U . // PLL`}
+L' U R' U' U' z U R' U' R2 D U // PLL`}
 />
 <ReconViewer
   scramble="R B2 L2 B2 R B2 R D2 U' L2 B' F2 D2 B' U R B' U2 L F2"
@@ -353,7 +353,7 @@ U' U' R' d' R' U' R . // 2nd pair
 U D d R U R' D' . // 3rd pair
 U' R U' U' R' U U R U' R' . // 4th pair
 r U R' U R U' U' r' . // OLL
-R U R' F' R U R' U' R' F R2 U' R' . // PLL`}
+R U R' F' R U R' U' R' F R2 U' R' // PLL`}
 />
 </ReconCarousel>
 
@@ -394,7 +394,7 @@ U2' L U L' . // 2nd pair
 d' U' R U R' U' R U R' . // 3rd pair
 U' L' U' L U' L' U L . // 4th pair
 U r U R' U' r' R U R2 . // EO
-D R' U' R D' R2' U2' . // ZBLL`}
+D R' U' R D' R2' U2' // ZBLL`}
 />
 <ReconViewer
   scramble="B2 L2 F2 U2 L2 D' F2 U2 R2 U2 F' D' L' F' U2 R B2 F2 L U' R'"
@@ -403,7 +403,7 @@ R u' U2 R L2' . // Xcross
 y' U' R U2' R' D R U' R' D' . // 2nd 3rd pairs
 U' R' U R y U R U R' . // 4th pair
 U L' U' L U' L' U2 L . // OLL
-R' U L' U2 R U' R' U U L R U' . // PLL`}
+R' U L' U2 R U' R' U U L R U' // PLL`}
 />
 <ReconViewer
   scramble="L2 U L2 U B2 U B2 U' R2 B2 L' F R F2 R2 F U L U2 B'"
@@ -412,7 +412,7 @@ U' R2 D L U2 F' L' u . // Xcross
 L' U L2 U' L' . // 2nd pair
 U2 y' R U R' . // 3rd pair
 y U U' r U' r' U r R' U2' R U r' . // 4th pair
-U2 U R U2' R' U' R U' R' U' R U R' U R U2' R' U' . // ZBLL`}
+U2 U R U2' R' U' R U' R' U' R U R' U R U2' R' U' // ZBLL`}
 />
 <ReconViewer
   scramble="U R2 D B2 R2 D F2 U' L2 U L' R D2 U' B R' D2 U B' L' R2 U"
@@ -423,7 +423,7 @@ y L U L' U L U L' . // 2nd pair
 R U' R' . // 3rd pair
 y' U2 R U R' U R' F R F' . // 4th pair
 R U R' U R U2' R' . // OLL
-U2 R U R' U' R' F R2 U' R' U' R U R' F' . // PLL`}
+U2 R U R' U' R' F R2 U' R' U' R U R' F' // PLL`}
 />
 <ReconViewer
   scramble="L2 D2 U' L2 D2 R2 F2 R2 U L2 R' U2 F' U2 L D2 B' F2 U' B' U"
@@ -432,7 +432,7 @@ U R D L F' U R U' R U R' D . // Xcross
 y' U' L' U2 L U' L' U L . // 2nd pair
 R U' R' y L' U' L . // 3rd pair
 U r U' r' U2 r U r' R U R' . // 4th pair
-U U2' R R' R U R' U F2 R U2' R' U2' R' F2 R U . // ZBLL`}
+U U2' R R' R U R' U F2 R U2' R' U2' R' F2 R U // ZBLL`}
 />
 </ReconCarousel>
 
@@ -444,7 +444,7 @@ F' U' U' R' F D' R U R' U' D' . // Xcross
 d' R U' R' . // 2nd pair
 U' y' R U' R' L U U L' . // 3rd pair
 U R U' R' F' U' F . // 4th pair
-U r U' r2' U r2 U r2' U' r U . // OLL(CP)`}
+U r U' r2' U r2 U r2' U' r U // OLL(CP)`}
 />
 <ReconViewer
   scramble="U2 B2 D R2 B2 U' R2 B2 L2 U B' U2 B' U' B' R' B' D L2 D2"
@@ -454,7 +454,7 @@ U' y U' R' U' R2 U R' . // 2nd pair
 d' R U' U' R' L U' L' . // 3rd pair
 R U R' d R' U' R . // 4th pair
 U' F R U R' U' F' . // OLL
-U R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R U2' . // PLL`}
+U R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R U2' // PLL`}
 />
 <ReconViewer
   scramble="U' F2 U' B2 F2 U R2 B2 R2 F2 L' U B2 U2 B2 R2 F D U L' F'"
@@ -464,7 +464,7 @@ U' L' U' L . // 2nd pair
 U' y U' L' U L U' y U' L U L' . // 3rd pair
 U' R U' R' d R' U' R . // 4th pair
 F R U R' U' F' U U' r U R' U' r' F R F' . // OLL(CP)
-R U' R U R U R U' R' U' R2 U' . // EPLL`}
+R U' R U R U R U' R' U' R2 U' // EPLL`}
 />
 <ReconViewer
   scramble="B2 L2 D2 L2 U F2 L2 D' L2 U2 F L B F' D' U2 B' D' L2 R2"
@@ -475,7 +475,7 @@ U R' U' R U L' U L . // 2nd pair
 U R' U' R U' R U' R' . // 3rd pair
 d' R U' R' U R U R' . // 4th pair
 U' U' F R U R' U' R U R' U' F' . // OLL
-U' F R U' R' U' R U R' F' R U R' U' R' F R F' . // PLL`}
+U' F R U' R' U' R U R' F' R U R' U' R' F R F' // PLL`}
 />
 <ReconViewer
   scramble="U' F2 U' L2 R2 U' B2 U B2 D2 R' U B U' R2 F D B R2"
@@ -485,7 +485,7 @@ d' U' R' U R . // 1st pair
 d R U' R' U R' U' R . // 2nd pair
 U' U' R U R' U' F U' F' . // 3rd pair
 U U R U' R' U R U R' . // 4th pair
-U' U' r U R' U R U' U' r' U . // OLL(CP)`}
+U' U' r U R' U R U' U' r' U // OLL(CP)`}
 />
 </ReconCarousel>
 
@@ -528,7 +528,7 @@ U L U' L' . // 2nd pair
 R' F R F' R U' R2' . // 3rd pair
 U R . // 4th pair
 U2' r U R' U R U2' r' . // OLL
-R U' R' U' R U R D R' U' R D' R' U2 R' . // PLL`}
+R U' R' U' R U R D R' U' R D' R' U2 R' // PLL`}
 />
 <ReconViewer
   scramble="F2 R2 D' L2 B2 L2 U' F2 U2 L2 F L' R' U2 F2 L2 U' L' U2 B L'"
@@ -539,7 +539,7 @@ U D' R' U' R U u . // 2nd pair
 L' U L R U' R' . // 3rd pair
 U' L F' L' F U' L' U L . // 4th pair
 l' U' L U' L' U2 l . // OLL(CP)
-U' R2' U R U R' U' R3 U' R' U R' U' . // EPLL`}
+U' R2' U R U R' U' R3 U' R' U R' U' // EPLL`}
 />
 <ReconViewer
   scramble="L2 D R2 D B2 L2 U2 B2 L2 D L' D2 F D2 R2 U2 L' R' F D' R"
@@ -549,7 +549,7 @@ U' R U R2' U' R . // 2nd pair
 U R U' R' y' L' U' L . // 3rd pair
 R' U' R U R' U2' R . // 4th pair
 U r' U2' R U R' U r . // OLL
-U2' U L' U' L F L' U' L U L F' L2' U L . // PLL`}
+U2' U L' U' L F L' U' L U L F' L2' U L // PLL`}
 />
 <ReconViewer
   scramble="L2 R2 D' U2 B2 D2 U' F2 L2 B2 L' B' F R F R B R B' F'"
@@ -558,7 +558,7 @@ F' U' D r' R F' U R U R' D2 . // Xcross
 U' y U' R U R' U' L U L2' . // 2nd pair
 U L . // 3rd pair
 U R U R' U R U' R' . // 4th pair
-R U2' R' U' R U' R' . // OLL(CP)`}
+R U2' R' U' R U' R' // OLL(CP)`}
 />
 <ReconViewer
   scramble="B2 D' L2 D L2 D' L2 U2 F2 R2 F L2 B R D' R2 F U L2 F D U'"
@@ -568,7 +568,7 @@ R U' R' U R' U2' R . // 2nd pair
 F U F' U' L' U L . // 3rd pair
 U R U' R' U' R U R' . // 4th pair
 U' R' F R U R' F' R F U' F' . // OLL
-R U R' U' R' F R2 U' R' U' R U R' F' U . // PLL`}
+R U R' U' R' F R2 U' R' U' R U R' F' U // PLL`}
 />
 </ReconCarousel>
 

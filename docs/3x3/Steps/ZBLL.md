@@ -1,9 +1,18 @@
-import AnimCube from "@site/src/components/AnimCube";
+---
+description: History of the ZBLL last layer method for Rubik's Cube.
+---
+
+import TwistyPlayer from "@site/src/components/TwistyPlayer";
+import Exhibit from "@site/src/components/Exhibit";
 import YouTube from "@site/src/components/YouTube";
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # ZBLL
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=lylyyylylwwwwwwwwwlbblbblbblgglgglggllloooooolrrlrrlrr" width="400px" height="400px" />
+<TwistyPlayer
+  alg="x2 F U' R' U R U F' R' U R U' R' U2 R"
+ controlPanel="none"
+/>
 
 ## Description
 

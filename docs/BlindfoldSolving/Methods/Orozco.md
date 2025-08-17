@@ -2,14 +2,35 @@
 description: History of the Orozco blindfold solving method for the Rubik's Cube.
 ---
 
-import AnimCube from "@site/src/components/AnimCube";
+import ReconViewer from "@site/src/components/ReconViewer";
+import YouTube from "@site/src/components/YouTube";
 import ReactPlayer from 'react-player'
 import ImageCollage from '@site/src/components/ImageCollage';
-import YouTube from "@site/src/components/YouTube";
 
 # Orozco
 
-<AnimCube params="config=../../ReconstructionConfig.txt&initmove=L R2 D' U B2 U2 F D' B2 F' L2 U2 F' D U' B D' U R D' U' F2 D' R D2&move={Scramble: L R2 D' U B2 U2 F D' B2 F' L2 U2 F' D U' B D' U R D' U' F2 D' R D2}{URF-LUF-UBR: R' U' R' D' R U R' D R2}R' U' R' D' R U R' D R2.{URF-UBR-DLF: U' R D2 R' U R D2 R'}U' R D2 R' U R D2 R'.{URF-DFR-UBR: D' l U R' D2 R U' R' D2 x D}D' l U R' D2 R U' R' D2 x D.{URF-UBR-BRU: U L' U' L U L' U' R' U L U' L' U L U' R}U L' U' L U L' U' R' U L U' L' U L U' R.{URF-DRB-UBR: D x D2 R' U' R D2 R' U l D'}D x D2 R' U' R D2 R' U l D'.{URF-UBR-LBU: R U R D R' U' R D' R2}R U R D R' U' R D' R2.{UF-LB-UB: U' L U M' U' L' U M}U' L U M' U' L' U M.{UF-UB-BR: M' U R' U' M U R U'}M' U R' U' M U R U'.{UF-BD-UB: D' U R2 U' M' U R2 U' M D}D' U R2 U' M' U R2 U' M D.{UF-UB-DR: M' U R2 U' M U R2 U'}M' U R2 U' M U R2 U'.{UF-UR-UB: R U R' U' M' U R U' r'}R U R' U' M' U R U' r'.{UF-UB-FD: D U' R2 U M U' R2 U M' D'}D U' R2 U M U' R2 U M' D'.{UF-LD-UB: U' L2 U M' U' L2 U M}U' L2 U M' U' L2 U M.{UF-UB-RF: U' R U M U' R' U M'}U' R U M U' R' U M'.{UF + UB flip: M U M U M U2 M' U M' U M' U2}M U M U M U2 M' U M' U M' U2.{UF-UB-UR: r U R' U' M U R U' R'}r U R' U' M U R U' R'.{UF-UL-UB: L' U' L U M' U' L' U l}L' U' L U M' U' L' U l.{UF-UB-LF: M' U' L' U M U' L U}M' U' L' U M U' L U.{Parity: y' L2 R' U2 R U2 R' F R U R' U' R' F' R2' U' L2 y}y' L2 R' U2 R U2 R' F R U R' U' R' F' R2' U' L2 y" width="600px" height="400px" />
+<ReconViewer
+scramble="L R2 D' U B2 U2 F D' B2 F' L2 U2 F' D U' B D' U R D' U' F2 D' R D2"
+solution={`R' U' R' D' R U R' D R2 . // URF-LUF-UBR
+U' R D2 R' U R D2 R' . // URF-UBR-DLF
+D' l U R' D2 R U' R' D2 x D . // URF-DFR-UBR
+U L' U' L U L' U' R' U L U' L' U L U' R . // URF-UBR-BRU
+D x D2 R' U' R D2 R' U l D' . // URF-DRB-UBR
+R U R D R' U' R D' R2 . // URF-UBR-LBU
+U' L U M' U' L' U M . // UF-LB-UB
+M' U R' U' M U R U' . // UF-UB-BR
+D' U R2 U' M' U R2 U' M D . // UF-BD-UB
+M' U R2 U' M U R2 U' . // UF-UB-DR
+R U R' U' M' U R U' r' . // UF-UR-UB
+D U' R2 U M U' R2 U M' D' . // UF-UB-FD
+U' L2 U M' U' L2 U M . // UF-LD-UB
+U' R U M U' R' U M' . // UF-UB-RF
+M U M U M U2 M' U M' U M' U2 . // UF + UB flip
+r U R' U' M U R U' R' . // UF-UB-UR
+L' U' L U M' U' L' U l . // UF-UL-UB
+M' U' L' U M U' L U . // UF-UB-LF
+y' L2 R' U2 R U2 R' F R U R' U' R' F' R2' U' L2 y // Parity`}
+/>
 **Example solve from Gabriel Alejandro Orozco Casillas**
 
 ## Description

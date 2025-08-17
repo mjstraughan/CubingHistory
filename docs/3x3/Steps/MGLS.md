@@ -2,15 +2,24 @@
 description: History of MGLS for Rubik's Cube.
 ---
 
-import AnimCube from "@site/src/components/AnimCube";
+import TwistyPlayer from "@site/src/components/TwistyPlayer";
+import Exhibit from "@site/src/components/Exhibit";
+import YouTube from "@site/src/components/YouTube";
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # MGLS
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&borderwidth=10&facelets=lylyyylylwwwwwwlwwdbbdbbdbldggdggdggdddoooooodrldrrdrr" width="400px" height="400px" />
+<Exhibit
+stickering={{
+    solved: "DFR",
+    dim: "U D F B L R DF DL DB DR DFL DBL DBR FR FL BL BR",
+    oriented: "UL UF UR UB UFR UFL UBL UBR",
+  }}
+/>
 
 ## Description
 
-MGLS is a system for orienting last layer while solving the last slot of the first two layers.
+MGLS is a system for orienting the last layer while solving the last slot of the first two layers.
 
 **Proposer:** [Shotaro Makisumi](CubingContributors/MethodDevelopers.md#makisumi-shotaro), [Lucas Garron](CubingContributors/MethodDevelopers.md#garron-lucas)
 

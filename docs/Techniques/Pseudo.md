@@ -3,13 +3,20 @@ description: History of the pseudo techniques for Rubik's Cube.
 ---
 
 import AnimCube from "@site/src/components/AnimCube";
+import TwistyPlayer from "@site/src/components/TwistyPlayer";
+import Exhibit from "@site/src/components/Exhibit";
 import YouTube from "@site/src/components/YouTube";
+import ImageCollage from '@site/src/components/ImageCollage';
 
 # Pseudo
 
 ## Non-Matching
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ddddyddddwwwdwdgggdbbdbddwwdyydgddggdddoooooodrrdrrdrr" width="400px" height="400px" />
+<TwistyPlayer
+alg="x2 R"
+experimentalStickeringMaskOrbits="EDGES:I-I-I-II--I-,CORNERS:-I---III,CENTERS:I-I-II"
+controlPanel="none"
+/>
 
 ### Description
 
@@ -66,7 +73,11 @@ In 2023, Straughan presented a recognition method called Polar for solving a pse
 
 ## Transformation / Conjugation
 
-<AnimCube params="buttonbar=0&position=lluuu&scale=6&hint=10&hintborder=1&facelets=ydbdydydrwwwdwdggorbbdbdwwwydydgdoggbdboooooorrrdrrgdg" width="400px" height="400px" />
+<TwistyPlayer
+alg="x2 U R"
+experimentalStickeringMaskOrbits="EDGES:I-I-IIII--I-,CORNERS:--------,CENTERS:I-I-II"
+controlPanel="none"
+/>
 
 ### Description
 
@@ -138,7 +149,11 @@ An earlier mention of the idea can be found in 2003. This comes from a short dis
 
 ## Retroactive Solving
 
-<AnimCube params="buttonbar=1&position=lluuu&scale=6&hint=10&hintborder=1&movetext=3&initrevmove=U'R'FRU'R'FRURUR'F'&facelets=ydydydydywwwdwdwwwbbbdbdbbbgggdgdgggodooooooorrrdrrrrr" width="400px" height="400px" />
+<TwistyPlayer
+alg="x2 r' U r U r'"
+experimentalStickeringMaskOrbits="EDGES:I-I-IIII----,CORNERS:--------,CENTERS:I-I-II"
+controlPanel="none"
+/>
 
 ### Description
 
