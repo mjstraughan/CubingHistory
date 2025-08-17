@@ -11,7 +11,8 @@ import ImageCollage from '@site/src/components/ImageCollage';
 <Exhibit
 stickering={{
     solved: "U D F B L R DF DL DB DFR DFL DBL DBR FR FL BL BR",
-    orientedWithoutPermutation: "UL UF UR UB UFR UFL UBL UBR DR"
+    orientedWithoutPermutation: "UL UF UR UB DR",
+    oriented: "UFR UFL UBL UBR"
   }}
 />
 
