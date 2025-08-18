@@ -67,7 +67,7 @@ stickering={{
  controlPanel="none"
 />
 
-**Method:** Thistlethwaite, Kociemba, Human Thistlethwaite, MI2, SSC
+**Method:** Thistlethwaite, Kociemba, Human Thistlethwaite, Polaris, SSC
 
 **Proposer:** Morwen Thistlethwaite (1979-1980)
 
@@ -80,7 +80,7 @@ stickering={{
 }}
 />
 
-**Method:** MI2, SSC
+**Method:** Polaris, SSC
 
 **Proposer:** James Straughan (2011), Joseph Briggs (2015)
 

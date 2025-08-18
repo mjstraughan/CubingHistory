@@ -122,7 +122,7 @@ TV2 was proposed by Ryan Hudgens in September 2022 [^13] [^14] [^15].
 
 ### Polar
 
-Polar was documented by Michael James Straughan in August 2023 [^16]. Although documented in 2023, the idea goes back to around 2010-2012 when NMLL, the MI2 method, and the second version of NMCLL recognition were developed [^17]. Each of those have a focus on positioning stickers or pieces on the left and right sides of the cube. Polar is similar to Tran V2, which was published first. The major difference is the CLL recognition system.
+Polar was documented by Michael James Straughan in August 2023 [^16]. Although documented in 2023, the idea goes back to around 2010-2012 when NMLL, the Polaris method, and the second version of NMCLL recognition were developed [^17]. Each of those have a focus on positioning stickers or pieces on the left and right sides of the cube. Polar is similar to Tran V2, which was published first. The major difference is the CLL recognition system.
 
 ![](img/ZBLL/Polar1.png)
 
