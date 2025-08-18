@@ -1,5 +1,5 @@
 import { TwistyAlgViewer, TwistyPlayer } from "cubing/twisty";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "./ReconViewer.module.css";
 
 /**
@@ -63,11 +63,57 @@ export default function ReconViewer({ puzzle, scramble, solution }) {
   return (
     <div className={styles.container}>
       <div ref={playerContainer} />
-      <div className={styles.recon}>
-        <strong>Scramble:</strong>
-        <span>{scramble}</span>
-        <strong>Solution:</strong>
-        <div ref={algViewerContainer} />
+      <ScrollContainerWithGradient>
+        <div className={styles.recon}>
+          <strong>Scramble:</strong>
+          <span>{scramble}</span>
+          <strong>Solution:</strong>
+          <div ref={algViewerContainer} />
+        </div>
+      </ScrollContainerWithGradient>
+    </div>
+  );
+}
+
+function ScrollContainerWithGradient({ children }) {
+  const scrollRef = useRef(null);
+  const [showTopGradient, setShowTopGradient] = useState(false);
+  const [showBottomGradient, setShowBottomGradient] = useState(false);
+
+  const handleScroll = () => {
+    const el = scrollRef.current;
+    if (!el) return;
+
+    const atTop = el.scrollTop === 0;
+    const atBottom = el.scrollHeight - el.scrollTop === el.clientHeight;
+
+    setShowTopGradient(!atTop);
+    setShowBottomGradient(!atBottom);
+  };
+
+  // Run on mount to set initial state
+  useEffect(() => {
+    // Delay is necessary because `<twisty-alg-viewer>` needs time to load
+    setTimeout(handleScroll, 50);
+  }, []);
+
+  return (
+    <div className={styles.scrollContainer}>
+      <div
+        className={[styles.gradient, styles.gradientTop].join(" ")}
+        style={{ opacity: showTopGradient ? 1 : 0 }}
+      />
+      <div
+        className={[styles.gradient, styles.gradientBottom].join(" ")}
+        style={{ opacity: showBottomGradient ? 1 : 0 }}
+      />
+
+      <div
+        className={styles.scrollContent}
+        onScroll={handleScroll}
+        ref={scrollRef}
+      >
+        {children}
       </div>
     </div>
   );
