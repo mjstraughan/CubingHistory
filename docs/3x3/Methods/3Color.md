@@ -31,7 +31,7 @@ import YouTube from "@site/src/components/YouTube";
 
 ## Introduction
 
-In 1980, two individuals independently arrived at the idea of a human solving method based on reducing a scrambled Rubik's Cube to a 3-Color version of Rubik's Cube. One being Michael Feather and the other George Christos. However, the steps each person follows are different to reach the 3-Color state and solve from that point.
+In 1980, two individuals independently arrived at the idea of a human solving method based on reducing a scrambled Rubik's Cube to a 3-Color version of Rubik's Cube. One being Michael Feather and the other George Christos. However, the steps each person follows contain some key differences.
 
 The 3 Color method is described as a human solving method to distinguish it from the very similar, and prior existing, computer algorithm [Thistlethwaite](3x3/3x3ComputerAlgorithms.md). There is also the method called [Human Thistlethwaite](HumanThistlethwaite.md), which is an adaption of the Thistlethwaite algorithm for human use. For now, Human Thistlethwaite is kept as a separate entity due to its steps intentionally closely following those of the computer algorithm.
 
@@ -39,13 +39,14 @@ The 3 Color method is described as a human solving method to distinguish it from
 
 ### Origin and Publication
 
-During an email exchange with CubingHistory.com, Michael Feather described the origin of his development of the idea [^1]. In 1980 he obtained a cube and initially had been attempting to solve using the layer by layer method. He then tried to solve the corners or the edges first and eventually realized that it would be possible to simplify the solve by treating opposite face pieces as the same color. The method wasn't published at the time and the earliest known initial publication occurred in 2011 on a personal website. This is potentially confirmed based on dated files provided to CubingHistory.com by Feather. The method made its appearance on a domain, which may or may not be the 2011 original, starting at least as far back as 2015 [^2] [^3].
+During an email exchange with CubingHistory.com, Michael Feather described the origin of his development of the idea [^1]. In 1980 he obtained a cube and initially had been attempting to solve using the layer by layer method. He then tried to solve the corners or the edges first and eventually realized that it would be possible to simplify the solve by treating opposite face pieces as the same color. The method wasn't published at the time and the earliest known initial publication occurred in 2011 on a personal website [^2]. Feather provided to CubingHistory.com the files used on the website, and the publication year of 2011 is potentially confirmed based on dates contained within. Archive.org has only recorded as far back as 2016 [^3].
 
 > I created my 3-color method in 1980 after getting my first cube which I saw on a TV commercial. Solving took a few weeks, not exactly sure how long. After initial attempts to solve it became apparent that the last layer would be difficult so tried to simplify by doing either corners or edges first but it was still too tedious. In need of a way to further simplify I noticed that it would be much easier if opposite faces were the same color so tried solving as if it were a 3-color cube and had much more success. Nothing was written down, everything was done from memory.
 >
 > As for publishing, that wasn't until after I was able to get a cube simulator to work in the browser and despite the java version of Josef Jelínek's AnimCube being available since 2001, wasn't able to use it until many years later. Had looked at several different simulators over the years with varying degrees of success and finally got Josef's to work. Initial use was a website for my cube solver and eventually got the idea to publish my solving method. The oldest backup I found of website for solving method is from 2011 (see attached zip file, the pages have been updated to use the cheerpj jvm but the originals are in file rz.tar.gz within the zip).
 
 ![](img/3-Color/FeatherOrigin.png)
+![](img/3-Color/FeatherOrigin2.png)
 <a href="/archive/MethodFiles/rc.zip">Backup Files</a>
 
 In 2017, Feather moved the method documentation to a new web page [^4].
@@ -95,9 +96,8 @@ images={[
 
 1. Solve as a 3-Color cube on each face.
    1. Create two opposite oriented faces consisting of colors from either side.
-   2. Form another two faces consisting of opposite colors.
-   3. Form the final two faces consisting of opposite colors.
-   4. Permute the corners, if necessary, to be half turn solvable.
+   2. Form another two opposite faces consisting of opposite colors. Afterward, the remaining two faces will automatically contain opposite colors.
+   3. Permute the corners, if necessary, to be half turn solvable.
 2. Solve each opposite colored face.
    1. Solve a pair of opposite faces.
    2. Solve another pair of opposite faces.
@@ -109,9 +109,9 @@ Thanks to Tadeáš Miler for suggesting the creation of this page and for provid
 
 [^1]: M. Feather and M. J. Straughan, "Personal Communication," 8 August 2025. [Online].
 
-[^2]: M. Feather, "How to Solve Rubik's Cube - A 3-Color Method," 19 September 2016. [Online]. Available: https://web.archive.org/web/20160919154216/http://www.irbsystems.com/test2/rc/.
+[^2]: M. Feather and M. J. Straughan, "Personal Communication," 16 August 2025. [Online].
 
-[^3]: T. Miler, "Programmers wanted," SpeedSolving.com, 29 June 2015. [Online]. Available: https://www.speedsolving.com/threads/programmers-wanted.53140/page-2#post-1095551.
+[^3]: M. Feather, "How to Solve Rubik's Cube - A 3-Color Method," 19 September 2016. [Online]. Available: https://web.archive.org/web/20160916132454/http://www.irbsystems.com:80/test2/rc/.
 
 [^4]: M. Feather, "Unique Solving Method for Rubik's Cube," GitHub, 2024. [Online]. Available: https://mfeather1.github.io/3ColorCube/.
 
@@ -136,3 +136,5 @@ Thanks to Tadeáš Miler for suggesting the creation of this page and for provid
 [^14]: G. Christos, Facebook, 18 January 2025. [Online]. Available: https://www.facebook.com/reel/1600959130532266.
 
 [^15]: G. Christos, "Alternate Rubik Cube solution by Dr George Christos," Facebook, 19 July 2016. [Online]. Available: https://www.facebook.com/DrGeorgeChristos/.
+
+[^16]: T. Miler, "Programmers wanted," SpeedSolving.com, 29 June 2015. [Online]. Available: https://www.speedsolving.com/threads/programmers-wanted.53140/page-2#post-1095551.
