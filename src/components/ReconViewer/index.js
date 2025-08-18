@@ -62,14 +62,14 @@ export default function ReconViewer({ puzzle, scramble, solution }) {
 
   return (
     <div className={styles.container}>
-      <span ref={playerContainer} style={{ position: "relative", height: '256px' }}>
+      <span ref={playerContainer} style={{ position: "relative" }}>
         {/* Temporary workaround to make twisty player playback controls legible in dark mode */}
         <div
           style={{
             position: "absolute",
             bottom: 0,
             width: "100%",
-            height: "36px",
+            height: "50px",
             backgroundColor: "grey",
           }}
         />

@@ -7,6 +7,7 @@
 
 .twistyPlayer {
   width: 100%;
+  height: 400px;
 }
 
 .recon {
@@ -42,7 +43,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  height: 30px;
+  height: 45px;
   pointer-events: none;
   transition: opacity 0.3s;
   z-index: 1;
