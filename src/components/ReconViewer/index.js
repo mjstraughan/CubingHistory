@@ -62,18 +62,18 @@ export default function ReconViewer({ puzzle, scramble, solution }) {
 
   return (
     <div className={styles.container}>
-      <div ref={playerContainer} style={{ position: "relative" }}>
+      <span ref={playerContainer} style={{ position: "relative", height: '256px' }}>
         {/* Temporary workaround to make twisty player playback controls legible in dark mode */}
         <div
           style={{
             position: "absolute",
             bottom: 0,
             width: "100%",
-            height: "32px",
+            height: "36px",
             backgroundColor: "grey",
           }}
         />
-      </div>
+      </span>
       <ScrollContainerWithGradient>
         <div className={styles.recon}>
           <strong>Scramble:</strong>
