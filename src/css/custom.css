@@ -65,6 +65,10 @@
   left: 0;
 }
 
+[id^="user-content-fn"] {
+  scroll-margin-top: 80px;
+}
+
 .hidden {
   display: none !important;
 }
