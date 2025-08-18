@@ -7,7 +7,7 @@ import {
   useImperativeHandle,
 } from "react";
 import { TwistyPlayer as TP } from "cubing/twisty";
-import { cube3x3x3, puzzles } from "cubing/puzzles";
+import { puzzles } from "cubing/puzzles";
 import { Alg } from "cubing/alg";
 
 /**
@@ -79,7 +79,26 @@ const TwistyPlayer = forwardRef(
       return twistyPlayer;
     });
 
-    return <span className={rootClassName} ref={spanRef} />;
+    return (
+      <span
+        style={{ maxWidth: "100%", position: "relative" }}
+        className={rootClassName}
+        ref={spanRef}
+      >
+        {/* Temporary workaround to make twisty player playback controls legible in dark mode */}
+        {props.controlPanel !== "none" && (
+          <div
+            style={{
+              position: "absolute",
+              bottom: 0,
+              width: "100%",
+              height: "36px",
+              backgroundColor: "grey",
+            }}
+          />
+        )}
+      </span>
+    );
   }
 );
 
@@ -90,7 +109,6 @@ async function transformTPMask(twisty, transformationSource) {
   const kpuzzle = await puzzles[
     await twisty.experimentalModel.puzzleID.get()
   ].kpuzzle();
-  console.log({ kpuzzle });
   const mask =
     await twisty.experimentalModel.twistySceneModel.stickeringMask.get();
   const transformation = kpuzzle.algToTransformation(transformationSource);

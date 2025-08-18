@@ -12,7 +12,6 @@ export default function YouTube({ embedId }) {
         height="100%"
         src={`https://www.youtube-nocookie.com/embed/${embedId}`}
         allow="accelerometer; clipboard-write; encrypted-media; fullscreen; gyroscope; picture-in-picture"
-        frameborder="0"
         style={{position: 'absolute', top: 0, left: 0}}
       />
     </div>
