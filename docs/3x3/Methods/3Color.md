@@ -69,7 +69,8 @@ images={[
 2. Edges
    1. Solve the edges as a 3-Color cube. This means to orient and position opposite colored edges on either side.
    2. Permute edges to their correct sides.
-      A note is that the corners and edges can be solved in either order, with an additional possible step if the edges are solved first.
+
+A note is that the corners and edges can be solved in either order, with an additional possible step if the edges are solved first.
 
 ## George Christos
 
@@ -115,19 +116,35 @@ images={[
 Thanks to Tadeáš Miler for suggesting the creation of this page and for providing the various websites by Feather and Christos.
 
 [^1]: M. Feather and M. J. Straughan, "Personal Communication," 8 August 2025. [Online].
+
 [^2]: M. Feather and M. J. Straughan, "Personal Communication," 16 August 2025. [Online].
+
 [^3]: M. Feather, "How to Solve Rubik's Cube - A 3-Color Method," 19 September 2016. [Online]. Available: https://web.archive.org/web/20160916132454/http://www.irbsystems.com:80/test2/rc/.
+
 [^4]: T. Miler, "Programmers wanted," SpeedSolving.com, 29 June 2015. [Online]. Available: https://www.speedsolving.com/threads/programmers-wanted.53140/page-2#post-1095551.
+
 [^5]: M. Feather, "How to Solve Rubik's Cube - A 3-Color Method," 27 October 2017. [Online]. Available: https://web.archive.org/web/20171027001944/http://www.irbsystems.com/test2/rc/.
+
 [^6]: M. Feather, "Unique Solving Method for Rubik's Cube," GitHub, 2025. [Online]. Available: https://mfeather1.github.io/3ColorCube/.
+
 [^7]: G. Christos, "Rubic's cube My own method," 2004. [Online]. Available: https://web.archive.org/web/20040307094950/http://www.maths.curtin.edu.au:80/~christos/rubic.shtml.
+
 [^8]: G. Christos, "'NEW' alternate illustrated solution to Rubik's cube puzzle," SpeedSolving.com, 25 February 2009. [Online]. Available: https://www.speedsolving.com/threads/new-alternate-illustrated-solution-to-rubiks-cube-puzzle.9909/.
+
 [^9]: G. Christos, "'NEW' alternate illustrated solution to Rubik's cube puzzle," February 2009. [Online]. Available: https://web.archive.org/web/20110706123719/http://www.members.iinet.net.au/~justgeorgeous/solvingRubikscube.html.
+
 [^10]: G. Christos, "'NEW' alternate illustrated solution to Rubik's cube puzzle," February 2009. [Online]. Available: https://web.archive.org/web/20090228055942/https://ubuyonline.com.au/rubik_cube.html.
+
 [^11]: G. Christos, eBay, February 2009. [Online]. Available: http://shop.ebay.com.au/merchant/justgeorgeous.
+
 [^12]: G. Christos, "solve Rubik Cube puzzle, solution, learn how to NEW quick easy METHOD," YouTube.com, 21 February 2009. [Online]. Available: https://www.youtube.com/watch?v=upub1rOvfqI.
+
 [^13]: G. Christos, "NEW SOLUTION to Rubik's Cube. Fully illustrated step-by-step booklet by Dr George Christos," YouTube.com, 3 March 2009. [Online]. Available: https://www.youtube.com/watch?v=18_WoFQp8WQ.
+
 [^14]: G. Christos, "New Solution to Rubik's Cube: step by step solution booklet. FREE!!," YouTube.com, 22 July 2016. [Online]. Available: https://www.youtube.com/watch?v=2t_EIyowSIY.
+
 [^15]: G. Christos, "NEW solution to Rubik's cube," 2009. [Online]. Available: https://justgeorgeous.net/g%20christos%20soln%20rubics%20cube%203x3.pdf.
+
 [^16]: G. Christos, Facebook, 18 January 2025. [Online]. Available: https://www.facebook.com/reel/1600959130532266.
+
 [^17]: G. Christos, "Alternate Rubik Cube solution by Dr George Christos," Facebook, 19 July 2016. [Online]. Available: https://www.facebook.com/DrGeorgeChristos/.
