@@ -49,9 +49,16 @@ During an email exchange with CubingHistory.com, Michael Feather described the o
 ![](img/3-Color/FeatherOrigin2.png)
 <a href="/archive/MethodFiles/rc.zip">Backup Files</a>
 
-In 2017, Feather moved the method documentation to a new web page [^5].
+In 2017, Feather moved the method documentation to a new web page [^5] [^6].
 
-![](img/3-Color/FeatherNew.png)
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/3-Color/FeatherOld.png").default},
+{ src: require("@site/docs/3x3/Methods/img/3-Color/FeatherNew.png").default}
+]}
+/>
+
+> Original website versus the new website. The original website in this capture from 2017 contains a link at the top directing viewers to the new one.
 
 ### Steps
 
@@ -68,11 +75,11 @@ In 2017, Feather moved the method documentation to a new web page [^5].
 
 ### Origin and Publication
 
-On a personal website in 2004, George Christos stated that while in university in 1980, he obtained a cube and devised a custom solution [^6]. He stated that his solution was different from the layer by layer solutions that were popular at the time, and instead "does the whole puzzle at once". In 1982 he wrote a book detailing the solution, but wasn't able to publish it due to living in a foreign country at the time.
+On a personal website in 2004, George Christos stated that while in university in 1980, he obtained a cube and devised a custom solution [^7]. He stated that his solution was different from the layer by layer solutions that were popular at the time, and instead "does the whole puzzle at once". Christos also stated on the website that in 1982 he wrote a book detailing the solution, but that he wasn't able to publish it due to living in a foreign country at the time.
 
 ![](img/3-Color/ChristosFirstSite.png)
 
-In February 2009, Christos published his 3-Color solution, making it available for purchase in booklet form [^7]. The booklet could be purchased on three different websites [^8] [^9] [^10]. Accompanying the post was a video providing an example solve [^11]. In March 2009, Christos posted another video that discusses the booklet [^12].
+In February 2009, Christos published his 3-Color solution, making it available for purchase in booklet form [^8]. The booklet could be purchased on three different websites [^9] [^10] [^11]. Accompanying the post was a video providing an example solve [^12]. In March 2009, Christos posted another video that discusses the booklet [^13].
 
 ![](img/3-Color/Christos2.png)
 <br/>
@@ -80,7 +87,7 @@ In February 2009, Christos published his 3-Color solution, making it available f
 <br/>
 <YouTube embedId="18_WoFQp8WQ" />
 <br/>
-In July 2016, Christos made the booklet available for free through a YouTube video that displays each page of the booklet [^13]. On January 18 2025, Christos posted a comment on the video with a link to the .pdf version of the booklet [^14]. A backup link to the booklet is <a href="/archive/MethodFiles/g_christos_soln_rubics_cube_3x3.pdf ">here</a>. On the same day, Christos posted a short video to his Facebook page with an example solve of his method [^15] [^16].
+In July 2016, Christos made the booklet available for free through a YouTube video that displays each page of the booklet [^14]. On January 18 2025, Christos posted a comment on the video with a link to the .pdf version of the booklet [^15]. A backup link to the booklet is <a href="/archive/MethodFiles/g_christos_soln_rubics_cube_3x3.pdf ">here</a>. On the same day, Christos posted a short video to his Facebook page with an example solve of his method [^16] [^17].
 
 <YouTube embedId="2t_EIyowSIY" />
 <br/>
@@ -108,33 +115,19 @@ images={[
 Thanks to Tadeáš Miler for suggesting the creation of this page and for providing the various websites by Feather and Christos.
 
 [^1]: M. Feather and M. J. Straughan, "Personal Communication," 8 August 2025. [Online].
-
 [^2]: M. Feather and M. J. Straughan, "Personal Communication," 16 August 2025. [Online].
-
 [^3]: M. Feather, "How to Solve Rubik's Cube - A 3-Color Method," 19 September 2016. [Online]. Available: https://web.archive.org/web/20160916132454/http://www.irbsystems.com:80/test2/rc/.
-
 [^4]: T. Miler, "Programmers wanted," SpeedSolving.com, 29 June 2015. [Online]. Available: https://www.speedsolving.com/threads/programmers-wanted.53140/page-2#post-1095551.
-
-[^5]: M. Feather, "Unique Solving Method for Rubik's Cube," GitHub, 2024. [Online]. Available: https://mfeather1.github.io/3ColorCube/.
-
-[^6]: G. Christos, "Rubic's cube My own method," 2004. [Online]. Available: https://web.archive.org/web/20040307094950/http://www.maths.curtin.edu.au:80/~christos/rubic.shtml.
-
-[^7]: G. Christos, "'NEW' alternate illustrated solution to Rubik's cube puzzle," SpeedSolving.com, 25 February 2009. [Online]. Available: https://www.speedsolving.com/threads/new-alternate-illustrated-solution-to-rubiks-cube-puzzle.9909/.
-
-[^8]: G. Christos, "'NEW' alternate illustrated solution to Rubik's cube puzzle," February 2009. [Online]. Available: https://web.archive.org/web/20110706123719/http://www.members.iinet.net.au/~justgeorgeous/solvingRubikscube.html.
-
-[^9]: G. Christos, "'NEW' alternate illustrated solution to Rubik's cube puzzle," February 2009. [Online]. Available: https://web.archive.org/web/20090228055942/https://ubuyonline.com.au/rubik_cube.html.
-
-[^10]: G. Christos, eBay, February 2009. [Online]. Available: http://shop.ebay.com.au/merchant/justgeorgeous.
-
-[^11]: G. Christos, "solve Rubik Cube puzzle, solution, learn how to NEW quick easy METHOD," YouTube.com, 21 February 2009. [Online]. Available: https://www.youtube.com/watch?v=upub1rOvfqI.
-
-[^12]: G. Christos, "NEW SOLUTION to Rubik's Cube. Fully illustrated step-by-step booklet by Dr George Christos," YouTube.com, 3 March 2009. [Online]. Available: https://www.youtube.com/watch?v=18_WoFQp8WQ.
-
-[^13]: G. Christos, "New Solution to Rubik's Cube: step by step solution booklet. FREE!!," YouTube.com, 22 July 2016. [Online]. Available: https://www.youtube.com/watch?v=2t_EIyowSIY.
-
-[^14]: G. Christos, "NEW solution to Rubik's cube," 2009. [Online]. Available: https://justgeorgeous.net/g%20christos%20soln%20rubics%20cube%203x3.pdf.
-
-[^15]: G. Christos, Facebook, 18 January 2025. [Online]. Available: https://www.facebook.com/reel/1600959130532266.
-
-[^16]: G. Christos, "Alternate Rubik Cube solution by Dr George Christos," Facebook, 19 July 2016. [Online]. Available: https://www.facebook.com/DrGeorgeChristos/.
+[^5]: M. Feather, "How to Solve Rubik's Cube - A 3-Color Method," 27 October 2017. [Online]. Available: https://web.archive.org/web/20171027001944/http://www.irbsystems.com/test2/rc/.
+[^6]: M. Feather, "Unique Solving Method for Rubik's Cube," GitHub, 2025. [Online]. Available: https://mfeather1.github.io/3ColorCube/.
+[^7]: G. Christos, "Rubic's cube My own method," 2004. [Online]. Available: https://web.archive.org/web/20040307094950/http://www.maths.curtin.edu.au:80/~christos/rubic.shtml.
+[^8]: G. Christos, "'NEW' alternate illustrated solution to Rubik's cube puzzle," SpeedSolving.com, 25 February 2009. [Online]. Available: https://www.speedsolving.com/threads/new-alternate-illustrated-solution-to-rubiks-cube-puzzle.9909/.
+[^9]: G. Christos, "'NEW' alternate illustrated solution to Rubik's cube puzzle," February 2009. [Online]. Available: https://web.archive.org/web/20110706123719/http://www.members.iinet.net.au/~justgeorgeous/solvingRubikscube.html.
+[^10]: G. Christos, "'NEW' alternate illustrated solution to Rubik's cube puzzle," February 2009. [Online]. Available: https://web.archive.org/web/20090228055942/https://ubuyonline.com.au/rubik_cube.html.
+[^11]: G. Christos, eBay, February 2009. [Online]. Available: http://shop.ebay.com.au/merchant/justgeorgeous.
+[^12]: G. Christos, "solve Rubik Cube puzzle, solution, learn how to NEW quick easy METHOD," YouTube.com, 21 February 2009. [Online]. Available: https://www.youtube.com/watch?v=upub1rOvfqI.
+[^13]: G. Christos, "NEW SOLUTION to Rubik's Cube. Fully illustrated step-by-step booklet by Dr George Christos," YouTube.com, 3 March 2009. [Online]. Available: https://www.youtube.com/watch?v=18_WoFQp8WQ.
+[^14]: G. Christos, "New Solution to Rubik's Cube: step by step solution booklet. FREE!!," YouTube.com, 22 July 2016. [Online]. Available: https://www.youtube.com/watch?v=2t_EIyowSIY.
+[^15]: G. Christos, "NEW solution to Rubik's cube," 2009. [Online]. Available: https://justgeorgeous.net/g%20christos%20soln%20rubics%20cube%203x3.pdf.
+[^16]: G. Christos, Facebook, 18 January 2025. [Online]. Available: https://www.facebook.com/reel/1600959130532266.
+[^17]: G. Christos, "Alternate Rubik Cube solution by Dr George Christos," Facebook, 19 July 2016. [Online]. Available: https://www.facebook.com/DrGeorgeChristos/.
