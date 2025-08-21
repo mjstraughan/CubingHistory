@@ -6,6 +6,7 @@ description: A comprehensive history of Rubik's Cube. Including predecessors, pa
 import AnimCube from "@site/src/components/AnimCube";
 import ReactPlayer from 'react-player'
 import ImageCollage from '@site/src/components/ImageCollage';
+import YouTube from "@site/src/components/YouTube";
 
 # Rubik's Cube History
 
@@ -126,7 +127,7 @@ Image from [Ton Dennenbroek](https://www.speedcubing.com/ton/rubik's.htm)
 
 ## Introduction of Rubik's Cube
 
-In the Spring of 1974, Rubik realized that the cube is an object that could be produced and marketed. Before this, Rubik had been using it only as a geometric and spatial demonstration tool. On January 30, 1975, Rubik applied for a patent [^9]. In 1977, Rubik partnered with Politechnika Cooperative to get the cube to market under the name "Magic Cube" [^8]. Ideal Toy Corporation later became the distributor where it was renamed to "Rubik's Cube" [^10].
+In the Spring of 1974, Rubik realized that the cube is an object that could be produced and marketed. Before this, Rubik had been using it only as a geometric and spatial demonstration tool. On January 30, 1975, Rubik applied for a patent [^9]. In 1977, Rubik partnered with Politechnika Cooperative to get the cube to market under the name "Magic Cube" [^8].
 
 <ImageCollage
 images={[
@@ -135,7 +136,7 @@ images={[
 ]}
 />
 
-However, Rubik only applied for the patent in Hungary and not an international patent. Once Rubik's Cube started reaching the rest of the world, litigations occurred. Moleculon Research Corporation obtained ownership of Nichols' 2x2x2 puzzle patent and sued Ideal Toy Corporation in a $60 million dollar patent infringement case [^11]. Moleculon's president stated that Moleculon had approached Ideal Toy Corporation in 1969 to start a potential deal to create and market the puzzle described in Nichols' patent. The final decision of the courts was that the Rubik's Pocket Cube, the 2x2x2 cube, infringed upon Nichols' patent. The Rubik's Cube, 3x3x3 cube, was deemed as not infringing upon Nichols' patent [^10].
+However, Rubik only applied for the patent in Hungary and not an international patent. Once Rubik's Cube started reaching the rest of the world, litigations occurred. Moleculon Research Corporation obtained ownership of Nichols' 2x2x2 puzzle patent and sued Ideal Toy Corporation in a $60 million dollar patent infringement case [^10]. Moleculon's president stated that Moleculon had approached Ideal Toy Corporation in 1969 to start a potential deal to create and market the puzzle described in Nichols' patent. The final decision of the courts was that the Rubik's Pocket Cube, the 2x2x2 cube, infringed upon Nichols' patent. The Rubik's Cube, 3x3x3 cube, was deemed as not infringing upon Nichols' patent [^11].
 
 Throughout the years after the production of Rubik's Cube, some came forward to claim that the puzzle design had existed before Rubik’s' patent and development, and even before the prior similar patents. Most notably, in _Rubik's Cubic Compendium_ and also issues 5 and 6 of Cubic Circular, David Singmaster recounts that in the French book on Rubik's Cube, _Le Cube Hongrois_, authors André Deledicq and Jean-Baptiste Touchard reported a story by Inspector General Semah [^8] [^12]. Semah stated that in 1920 he had played with a similar wooden cube in Istanbul. Then again in 1935 in Marseilles, Semah encountered another similar cube with five white faces and one green face.
 
@@ -150,7 +151,13 @@ images={[
 ]}
 />
 
-Although the history of Rubik's Cube is complicated with various similar or matching prior patents and claims, Rubik is the one who took action to develop a working product and find a manufacturer to produce and market the cube as a product. It is also clear that Rubik's development was of major influence. Rubik's Cube captivated the entire world and inspired an entirely new category of three-dimensional twisty puzzles.
+## Western Distribution and Popularity Rise
+
+Stewart Sims, marketing manager of the toy division at Ideal Toy Company, described the history of how Rubik's Cube became a worldwide phenomenon in an interview with Allan Miller [^17]. Upon its initial release, Rubik's Cube already maintained a level of popularity in Hungary thanks to distribution being handled by Polytechnika. However, there was a desire to sell the puzzle in other countries. Sims states that this interest was expressed to Konsumex, the Hungarian government trading company that was focused on consumer products. The second person in charge of Konsumex contacted a high school friend named Tibor Laczi to request help in finding a distributor for the West. Laczi took the cube to a booth at the largest gaming company in Germany. There he met a man named Tom Kremer, who became interested in helping find a distributor. After various discussions and meetings, Kremer found a distributor in Ideal Toy Company. When Ideal was approached, Sims took an interest in the cube, becoming the primary facilitator for the deal. As part of Ideal's obtaining of the Western distribution rights, Ideal was to devise a new name for the cube. It is revealed in the interview that Sims, while on a morning run, thought to simply name it "Rubik's Cube".
+
+The above is just a brief summary of events. Watch the entire interview below to hear the full story. It should be noted that a different version of the story was told in the March 1986 issue of Discover magazine [^18]. In direct quotes to Discover magazine from Rubik and others, it was stated that Tibor Laczi first encountered the cube at a café. After playing with a cube owned by a waiter, Laczi was so intrigued that he directly approached Konsumex and asked for permission to distribute the cube in the West. This request was denied and so he obtained permission to visit Rubik, learned from Rubik interesting ways to demonstrate the cube, and proceeded to demonstrate it at the Nuremberg toy fair, where he met Kremer. The magazine article also states that the name "Rubik's Cube" was created as a way to compensate for Rubik having not patented the product in other countries before the typical one-year limit was reached.
+
+<YouTube embedId="mHwT5GDKMe0" />
 
 ## Sources and Credit
 
@@ -180,9 +187,9 @@ https://jipel.law.nyu.edu/the-legal-puzzle-of-the-rubiks-cube/
 
 [^9]: E. Rubik, "térbeli logikai játék," 30 January 1975. [Online]. Available: https://www.sztnh.gov.hu/sites/default/files/anim/pics/HU-170062.pdf.
 
-[^10]: C. Chen, "The Legal Puzzle of the Rubik’s Cube," NYU Journal of Intellectual Property & Entertainment Law, 2 October 2015. [Online]. Available: https://jipel.law.nyu.edu/the-legal-puzzle-of-the-rubiks-cube/.
+[^10]: C. George, "Cambridge firm seeks $60m in Rubik's Cube suit," The Boston Globe, 27 May 1982.
 
-[^11]: C. George, "Cambridge firm seeks $60m in Rubik's Cube suit," The Boston Globe, 27 May 1982.
+[^11]: C. Chen, "The Legal Puzzle of the Rubik’s Cube," NYU Journal of Intellectual Property & Entertainment Law, 2 October 2015. [Online]. Available: https://jipel.law.nyu.edu/the-legal-puzzle-of-the-rubiks-cube/.
 
 [^12]: D. Singmaster, "PREHISTORY OF THE CUBE," Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic5.htm.
 
@@ -193,3 +200,7 @@ https://jipel.law.nyu.edu/the-legal-puzzle-of-the-rubiks-cube/
 [^15]: T. Ishige, "回転式組合わせ玩具," 12 March 1977. [Online]. Available: https://www.j-platpat.inpit.go.jp/c1801/PU/JP-S53-113642/11/ja.
 
 [^16]: T. Ishige, "回転式立体組合わせ玩具," 29 March 1977. [Online]. Available: https://www.j-platpat.inpit.go.jp/c1801/PU/JP-S53-120946/11/ja.
+
+[^17]: S. S. Allan Miller, "Stewart Sims and the Rubik's Cube," YouTube.com, 5 August 2025. [Online]. Available: https://www.youtube.com/watch?v=mHwT5GDKMe0.
+
+[^18]: J. Tierney, "The Perplexing Life of Erno Rubik," Discover, p. 81, March 1986.
