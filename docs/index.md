@@ -8,9 +8,13 @@ description: The history of the Rubik's Cube, world records, solving methods, Me
 
 ## Purpose
 
-This website was created to serve as an archive of Rubik's Cube history - including world records, solving methods, hardware, and more - as well as the history of other puzzles such as Megaminx, Pyraminx, Skewb, Square-1, FTO, 2x2, and big cubes. The history of the community has been poorly documented so this is an attempt to recover and preserve everyone's contributions. Information has been compiled from various message boards, mailing lists, newsletters, books, conversing with others through private messages, and many years of my own experience and knowledge since joining the community in 2005. All content on the site is original research starting from the ground up for each subject. In addition, the original creators of contributions have been contacted in most cases and they have provided information, scans, images, and files.
+This website was created to serve as an archive of Rubik's Cube history - including world records, solving methods, hardware, and more - as well as the history of other puzzles such as Megaminx, Pyraminx, Skewb, Square-1, FTO, 2x2, and big cubes. The history of the community has been poorly documented so this is an attempt to recover and preserve everyone's contributions. Information has been compiled from various message boards, mailing lists, newsletters, books, conversing with others through private messages, and many years of my own experience and knowledge since joining the community in 2005. All content on the site is original research starting from the ground up for each subject. In addition, the original creators of contributions have been contacted in many cases and they have provided information, scans, images, and files.
 
-If you would like to support the hard work behind this project, a donation link is provided at the top of the page or click <a href="https://www.paypal.com/donate/?hosted_button_id=4TMHMJNVB62YY">here</a> if on mobile. This website is the result of hundreds of hours of research, writing, and website development.
+This website is the result of hundreds of hours of research, writing, and website development. If you would like to support the hard work behind this project, a donation link is provided at the top of the page or click below if on mobile.
+
+<a href="https://ko-fi.com/straughan">Click here to donate</a>
+
+## Content Use
 
 If you want to use information from this website, I would love to work with you. Send me an email at athefre@gmail.com or contact me on one of the various puzzle communities such as speedsolving.com or Discord. My username everywhere is Athefre. My real name is Michael James Straughan.
 

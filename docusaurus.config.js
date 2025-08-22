@@ -92,7 +92,7 @@ const config = {
           },*/
           //{ to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://www.paypal.com/donate/?hosted_button_id=4TMHMJNVB62YY",
+            href: "https://ko-fi.com/straughan",
             label: "Donate",
             position: "right",
           },
