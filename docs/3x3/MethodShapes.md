@@ -10,9 +10,7 @@ import ImageCollage from '@site/src/components/ImageCollage';
 
 # Method Shapes
 
-A list of significant shapes that have defined the various methods. This page is influenced by, and is an extension of, Ryan Heise's page that covered some of the early method shapes.
-
-https://www.ryanheise.com/cube/solutions_history.html
+A list of significant shapes that have defined the various methods. This page is influenced by, and is an extension of, [Ryan Heise's page](https://www.ryanheise.com/cube/solutions_history.html) that covered some of the early method shapes.
 
 ## Eight Corners
 
@@ -21,9 +19,9 @@ stickering={{
     solved: "DFR DFL DBL DBR UFR UFL UBL UBR"}}
 />
 
-**Method:** Corners First
+**Method:** [Corners First](3x3/Methods/CornersFirst.md)
 
-**Proposer:** Ernő Rubik (1974)
+**Proposer:** [Ernő Rubik](CubingContributors/MethodDevelopers.md#rubik-ernő) (1974)
 
 ## Twelve Edges
 
@@ -32,9 +30,9 @@ stickering={{
     solved: "U D F B L R DF DL DB DR FR FL BL BR UF UL UB UR"}}
 />
 
-**Method:** Edges First
+**Method:** [Edges First](3x3/Methods/EdgesFirst.md)
 
-**Proposer:** Ulrich Roddewig (1979, earliest known)
+**Proposer:** [Ulrich Roddewig](CubingContributors/MethodDevelopers.md#roddewig-ulrich) (1979, earliest known)
 
 ## Cross
 
@@ -43,9 +41,9 @@ stickering={{
     solved: "U D F B L R DF DL DB DR"}}
 />
 
-**Method:** Layer By Layer, CFOP, CFCE
+**Method:** [Layer By Layer](3x3/Methods/LayerByLayer.md), [CFOP](3x3/Methods/CFOP.md), [CFCE](3x3/Methods/CFCE.md)
 
-**Proposer:** Donald Taylor (1978, earliest known)
+**Proposer:** [Donald Taylor](CubingContributors/MethodDevelopers.md#taylor-donald) (1978, earliest known)
 
 ## Cross + F2L Pairs
 
@@ -56,9 +54,9 @@ stickering={{
 }}
 />
 
-**Method:** CFOP, CFCE
+**Method:** [CFOP](3x3/Methods/CFOP.md), [CFCE](3x3/Methods/CFCE.md)
 
-**Proposer:** John Conway, David Benson, and David Seal (1979)
+**Proposer:** [John Conway](CubingContributors/MethodDevelopers.md#conway-john), [David Benson](CubingContributors/MethodDevelopers.md#benson-david), [David Seal](CubingContributors/MethodDevelopers.md#seal-david) (1979)
 
 ## Oriented State
 
@@ -67,9 +65,9 @@ stickering={{
  controlPanel="none"
 />
 
-**Method:** Thistlethwaite, Kociemba, Human Thistlethwaite, Polaris, SSC
+**Method:** [Thistlethwaite](3x3/3x3ComputerAlgorithms.md#morwen-thistlethwaite-1980), [Kociemba](3x3/3x3ComputerAlgorithms.md#herbert-kociemba-1992), [Human Thistlethwaite](3x3/Methods/HumanThistlethwaite.md), [Polaris](Methods/Polaris), [SSC](3x3/Methods/Ssc.md), [Square 101](3x3/Methods/Square101.md)
 
-**Proposer:** Morwen Thistlethwaite (1979-1980)
+**Proposer:** [Morwen Thistlethwaite](CubingContributors/MethodDevelopers.md#thistlethwaite-morwen) (1979-1980)
 
 ## EOLine > Oriented State
 
@@ -80,9 +78,9 @@ stickering={{
 }}
 />
 
-**Method:** Polaris, SSC
+**Method:** [Polaris](Methods/Polaris), [SSC](3x3/Methods/Ssc.md), [Square 101](3x3/Methods/Square101.md)
 
-**Proposer:** James Straughan (2011), Joseph Briggs (2015)
+**Proposer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre) (2010), [Joseph Briggs](CubingContributors/MethodDevelopers.md#briggs-joseph-shadowslice) (2015), [Vincent Trang](CubingContributors/MethodDevelopers.md#trang-vincent-trangium) (2020)
 
 ## Layer + LL Corners
 
@@ -92,9 +90,9 @@ stickering={{
 }}
 />
 
-**Method:** Waterman
+**Method:** [Waterman](3x3/Methods/Waterman.md)
 
-**Proposer:** Marc Waterman and Daan Krammer (1981), Others prior (1979-1981)
+**Proposer:** [Marc Waterman](CubingContributors/MethodDevelopers.md#waterman-marc) and [Daan Krammer](CubingContributors/MethodDevelopers.md#krammer-daan) (1981), Others prior (1979-1981)
 
 ## 2x2x3 Block
 
@@ -104,9 +102,9 @@ stickering={{
 }}
 />
 
-**Method:** Petrus, early unnamed methods by Thistlethwaite and Jackson
+**Method:** [Petrus](3x3/Methods/Petrus.md), early unnamed methods by Thistlethwaite and Jackson
 
-**Proposer:** Morwen Thistlethwaite (1979), Bradley Jackson (1979), Lars Petrus (1981)
+**Proposer:** [Morwen Thistlethwaite](CubingContributors/MethodDevelopers.md#thistlethwaite-morwen) (1979), Bradley Jackson (1979), [Petrus](3x3/Methods/Petrus.md) (1981)
 
 ## XCross
 
@@ -116,9 +114,9 @@ stickering={{
 }}
 />
 
-**Method:** CFOP, CFCE, Snyder Method 2
+**Method:** [CFOP](3x3/Methods/CFOP.md), [CFCE](3x3/Methods/CFCE.md), [Snyder Method 2](3x3/Methods/SnyderMethod2.md)
 
-**Proposer:** Anthony Snyder (1982 for Snyder Method 2), Chris Hardwick (2003 for CFOP)
+**Proposer:** [Anthony Snyder](CubingContributors/MethodDevelopers.md#snyder-anthony) (1982 for Snyder Method 2), [Chris Hardwick](CubingContributors/MethodDevelopers.md#hardwick-chris) (2003 for CFOP)
 
 ## Tripod
 
@@ -127,9 +125,9 @@ stickering={{
     solved: "U D F B L R DF DL DB DR DFL DBL DBR FL BL BR UL UB UBL"}}
 />
 
-**Method:** Tripod
+**Method:** [Tripod](3x3/Methods/Tripod.md)
 
-**Proposer:** Ryan Heise (2002), Michael Gottlieb (2008)
+**Proposer:** [Ryan Heise](CubingContributors/MethodDevelopers.md#heise-ryan) (2002), [Michael Gottlieb](CubingContributors/MethodDevelopers.md#gottlieb-michael) (2008)
 
 ## Doug Li Block
 
@@ -139,21 +137,21 @@ stickering={{
 }}
 />
 
-**Method:** Doug Li
+**Method:** [Doug Li](3x3/Methods/DougLi.md)
 
-**Proposer:** Doug Li (2002)
+**Proposer:** [Doug Li](CubingContributors/MethodDevelopers.md#li-doug) (2002)
 
-## 1x2x3 Block Start
+## Two 1x2x3 Blocks
 
 <Exhibit
 stickering={{
-    solved: "L R FL DFL DL DBL BL"
+    solved: "L R FL DFL DL DBL BL FR DFR DR DBR BR"
 }}
 />
 
-**Method:** Roux
+**Method:** [Roux](3x3/Methods/Roux.md)
 
-**Proposer:** Gilles Roux (2003)
+**Proposer:** [Gilles Roux](CubingContributors/MethodDevelopers.md#roux-gilles) (2003)
 
 ## Four Squares
 
@@ -163,9 +161,9 @@ experimentalStickeringMaskOrbits="EDGES:----IIIII---,CORNERS:I---IIII,CENTERS:--
 controlPanel="none"
 />
 
-**Method:** Heise
+**Method:** [Heise](3x3/Methods/Heise.md)
 
-**Proposer:** Ryan Heise (2003)
+**Proposer:** [Ryan Heise](CubingContributors/MethodDevelopers.md#heise-ryan) (2003)
 
 ## Cross + One Corner
 
@@ -175,9 +173,9 @@ stickering={{
 }}
 />
 
-**Method:** L2L
+**Method:** [L2L](3x3/Methods/L2L.md)
 
-**Proposer:** Duncan Dicks (2004)
+**Proposer:** [Duncan Dicks](CubingContributors/MethodDevelopers.md#dicks-duncan) (2004)
 
 ## Columns
 
@@ -186,7 +184,7 @@ stickering={{
     solved: "DFR DFL DBL DBR FR FL BL BR UFR UFL UBL UBR"}}
 />
 
-**Method:** Columns First
+**Method:** [Columns First](3x3/Methods/ColumnsFirst.md)
 
 **Proposer:** Various (2004, 2007, and further)
 
@@ -197,9 +195,9 @@ stickering={{
     solved: "U D F B L R DL DB DFL DBL DBR FL BL BR"}}
 />
 
-**Method:** MI1
+**Method:** [MI1](3x3/Methods/Mi1.md)
 
-**Proposer:** Michael James Straughan (2006)
+**Proposer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre) (2006)
 
 ## 1x2x3 + 2x2x2 block
 
@@ -208,9 +206,9 @@ stickering={{
     solved: "U D F B L R DL DB DR DFL DBL DBR FL BL BR"}}
 />
 
-**Method:** Nautilus, M-CELL
+**Method:** [Nautilus](3x3/Methods/Nautilus.md)
 
-**Proposer:** Michael James Straughan (2006), Joseph Briggs (2015)
+**Proposer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre) (2006)
 
 ## EOLine
 
@@ -221,9 +219,9 @@ stickering={{
   }}
 />
 
-**Method:** ZZ
+**Method:** [ZZ](3x3/Methods/Zz.md)
 
-**Proposer:** Gilles Roux and Adam Géhin (~2003), Ryan Heise (2004, based on Géhin's video), Ron van Bruchem
+**Proposer:** [Gilles Roux](CubingContributors/MethodDevelopers.md#roux-gilles) and [Adam Géhin](CubingContributors/MethodDevelopers.md#géhin-adam) (~2003), [Ryan Heise](CubingContributors/MethodDevelopers.md#heise-ryan) (2004, based on Géhin's video), [Ron van Bruchem](CubingContributors/MethodDevelopers.md#bruchem-ron-van), [Zbigniew Zborowski](CubingContributors/MethodDevelopers.md#zborowski-zbigniew)
 
 **Published by:** Zbigniew Zborowski
 
@@ -234,9 +232,20 @@ stickering={{
     solved: "U D F B L R DF DL DB DFL DBL FL BL DFR DBR UFR UFL UBL UBR"}}
 />
 
-**Method:** Tudor
+**Method:** [Tudor](3x3/Methods/Tudor.md)
 
-**Proposer:** Kenneth Gustavsson and others (2007+), Joseph Tudor (2018)
+**Proposer:** [Kenneth Gustavsson](CubingContributors/MethodDevelopers.md#gustavsson-kenneth) and others (2007+), [Joseph Tudor](CubingContributors/MethodDevelopers.md#tudor-joseph) (2018)
+
+## F2L Minus First Layer Pair
+
+<Exhibit
+stickering={{
+    solved: "U D F B L R FL DFL DL DBL BL DB BR DR DBR FR"}}
+/>
+
+**Method:** [M-CELL](3x3/Methods/M-CELL.md)
+
+**Proposer:** [Joseph Briggs](CubingContributors/MethodDevelopers.md#briggs-joseph-shadowslice) (2015)
 
 ## 1x2x3 + opposite 1x2x2 block
 
@@ -245,9 +254,9 @@ stickering={{
     solved: "L R FL DFL DL DBL BL BR DBR DR"}}
 />
 
-**Method:** 42
+**Method:** [42](3x3/Methods/42.md)
 
-**Proposer:** Joseph Briggs (2017)
+**Proposer:** [Joseph Briggs](CubingContributors/MethodDevelopers.md#briggs-joseph-shadowslice) (2017)
 
 ## 2x2x3 + EOBelt
 
@@ -258,9 +267,9 @@ stickering={{
   }}
 />
 
-**Method:** Mehta
+**Method:** [Mehta](3x3/Methods/Mehta.md)
 
-**Proposer:** Yash Mehta (2020)
+**Proposer:** [Yash Mehta](CubingContributors/MethodDevelopers.md#mehta-yash) (2020)
 
 ## EOSquare
 
@@ -271,6 +280,6 @@ stickering={{
   }}
 />
 
-**Method:** Squall
+**Method:** [Squall](3x3/Methods/Squall.md)
 
-**Proposer:** Vincent Trang (2021)
+**Proposer:** [Vincent Trang](CubingContributors/MethodDevelopers.md#trang-vincent-trangium) (2021)

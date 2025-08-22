@@ -180,6 +180,10 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - TCMLL algorithms
 - NLL for the HD method
 
+## Géhin, Adam
+
+- EOLine > F2L (ZZ like method in collaboration with Gilles Roux around 2002)
+
 ## Ghodgaonkar, Abhijeet
 
 - UF5 development
@@ -420,6 +424,7 @@ Since the inception of twisty puzzles, many people have contributed ideas and de
 - Non-matching corner recognition (NMCLL 1)
 - 1x2x3 block as a first step in a solving method
 - The first known proposal of the CEOR method
+- EOLine > F2L (ZZ like method in collaboration with Adam Géhin around 2002)
 
 ## Rubik, Ernő
 
