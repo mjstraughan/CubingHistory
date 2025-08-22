@@ -221,7 +221,7 @@ stickering={{
 
 **Method:** [ZZ](3x3/Methods/Zz.md)
 
-**Proposer:** [Gilles Roux](CubingContributors/MethodDevelopers.md#roux-gilles) and [Adam Géhin](CubingContributors/MethodDevelopers.md#géhin-adam) (~2003), [Ryan Heise](CubingContributors/MethodDevelopers.md#heise-ryan) (2004, based on Géhin's video), [Ron van Bruchem](CubingContributors/MethodDevelopers.md#bruchem-ron-van), [Zbigniew Zborowski](CubingContributors/MethodDevelopers.md#zborowski-zbigniew)
+**Proposer:** [Gilles Roux](CubingContributors/MethodDevelopers.md#roux-gilles) and [Adam Géhin](CubingContributors/MethodDevelopers.md#géhin-adam) (~2002), [Ryan Heise](CubingContributors/MethodDevelopers.md#heise-ryan) (2003, based on Géhin's video), [Ron van Bruchem](CubingContributors/MethodDevelopers.md#bruchem-ron-van), [Zbigniew Zborowski](CubingContributors/MethodDevelopers.md#zborowski-zbigniew)
 
 **Published by:** Zbigniew Zborowski
 

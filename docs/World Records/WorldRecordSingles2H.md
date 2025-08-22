@@ -201,7 +201,7 @@ U' y' R' U R U' R' U' R . // 2nd pair
 R U R' U2 R U' R' . // 3rd pair
 L' U L U r' F' r . // 4th pair
 U' R' U' F U R U' R' F' R . // OLL
-R' U R' U' R' U' R' U R U R2 U . // PLL`}
+R' U R' U' R' U' R' U R U R2 U // PLL`}
 />
 
 | **Method** | **Cube**      | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -242,7 +242,7 @@ R U' R' U' L' U' L . // 1st pair
 U L U' L' . // 2nd pair
 R' U' U' R U' U' R' U R . // 3rd pair
 U' R U R' . // 4th pair
-U' U R' F R U R U' R2 F' R2 U' R' U R U R' . // OLL(CP)`}
+U' U R' F R U R U' R2 F' R2 U' R' U R U R' // OLL(CP)`}
 />
 
 | **Method** | **Cube**  | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -265,7 +265,7 @@ U2 L' U' L . // 1st pair
 U' U' U' F' U' F U R U' R' . // 2nd pair
 y R U R' . // 3rd pair
 U' y U' U' R U R' . // 4th pair
-U r U r' R U R' U' r U' r' . // OLL(CP)`}
+U r U r' R U R' U' r U' r' // OLL(CP)`}
 />
 
 | **Method** | **Cube**       | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -286,7 +286,7 @@ solution={`F' R' D' R y R U' R' u' . // Xcross
 U' R U R' . // 2nd pair
 y' L' U2 L U' L' U L . // 3rd pair
 d U R' U' R U R' U' R . // 4th pair
-U' R U2' R' R' F R F' R U2' R' . // OLL(CP)`}
+U' R U2' R' R' F R F' R U2' R' // OLL(CP)`}
 />
 
 | **Method** | **Cube**            | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -316,7 +316,7 @@ U R2 U' F' L F' L' . // Xcross
 L U' L' . // 2nd pair
 U' R U R' . // 3rd pair
 R' U R U' U' R' U R . // 4th pair
-U R' U' R U' R' U2 R . // OLL(CP)`}
+U R' U' R U' R' U2 R // OLL(CP)`}
 />
 
 | **Method** | **Cube**           | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -339,7 +339,7 @@ solution={`x2 . // Inspection
 R' D D R' D L' U L D R' U' R D . // Xxcross
 L U' L' . // 3rd pair
 U' R U R' d R' U' R . // 4th pair
-r' U' R U' R' U U r U . // OLL(CP)`}
+r' U' R U' R' U U r U // OLL(CP)`}
 />
 
 | **Method** | **Cube**   | **Time** | **STM** | **STPS** | **ETM** | **ETPS** |
@@ -363,11 +363,7 @@ http://cubesolv.es/?query=Feliks+Zemdegs
 https://www.reddit.com/r/Cubers/comments/i9gez/566_single_wr_feliks_zemdegs/
 
 [^1]: "Rubikmania: Lots of New Twists," Newsweek, vol. 19, p. April, 1982.
-
 [^2]: M. Thai, "Issue 1," Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p4.
-
 [^3]: R. Laue, "Rubik's Cube World Records," recordholders.org, 2000. [Online]. Available: https://web.archive.org/web/20021211215840/http://www.recordholders.org/en/list/rubik.html.
-
 [^4]: F. Zemdegs, "[WR] 7.08 3x3x3 single Erik Akkersdijk," speedsolving.com, 22 July 2009. [Online]. Available: https://www.speedsolving.com/threads/7-08-3x3x3-single-erik-akkersdijk.5179/post-211541.
-
 [^5]: Various, "[WR] Yusheng Du - 3.47 3×3 single," speedsolving.com, November 2018. [Online]. Available: https://www.speedsolving.com/threads/yusheng-du-3-47-3%C3%973-single.71715/.
