@@ -30,17 +30,17 @@ solution={`R U R' U' R U2 R U' R2 // LEG-1
 
 ## Origin and Development
 
-In June, 2012, Michael James Straughan developed the LEG-1 method [^1]. Instead of having the correctly permuted bar in the back as in EG-1, Straughan chose to have the bar on the left. All algorithms were developed and placed on Straughan's website [^2]. This development coincided with the development of NMCLL and NMEG.
+In June, 2012, Michael James Straughan developed the LEG-1 method [^straughan-2012-1]. Instead of having the correctly permuted bar in the back as in EG-1, Straughan chose to have the bar on the left. All algorithms were developed and placed on Straughan's website [^straughan-2012-2]. This development coincided with the development of NMCLL and NMEG.
 
 ![](img/LEG-1/LEG1-1.png)
 ![](img/LEG-1/LEG1-2.png)
 
-In March 2014, Christopher Olson developed the same idea [^3], not knowing that the method already existed and had been developed by Straughan. Olson named the method LEG-1.
+In March 2014, Christopher Olson developed the same idea [^olson-2014], not knowing that the method already existed and had been developed by Straughan. Olson named the method LEG-1.
 
 ![](img/LEG-1/LEG1-3.png)
 
-[^1]: M. J. Straughan, "2x2 Pseudo Solving: Improving CLL and EG," SpeedSolving.com, 1 June 2012. [Online]. Available: https://www.speedsolving.com/threads/2x2-pseudo-solving-improving-cll-and-eg.37073/.
+[^straughan-2012-1]: M. J. Straughan, "2x2 Pseudo Solving: Improving CLL and EG," SpeedSolving.com, 1 June 2012. [Online]. Available: https://www.speedsolving.com/threads/2x2-pseudo-solving-improving-cll-and-eg.37073/.
 
-[^2]: M. J. Straughan, "A2," Straughan's website, 2012. [Online]. Available: https://sites.google.com/site/athefre/other-puzzles/nmcll.
+[^straughan-2012-2]: M. J. Straughan, "A2," Straughan's website, 2012. [Online]. Available: https://sites.google.com/site/athefre/other-puzzles/nmcll.
 
-[^3]: C. Olson, "Introducing EG-1 Bar on Left Algs," SpeedSolving.com, 7 March 2014. [Online]. Available: https://www.speedsolving.com/threads/introducing-eg-1-bar-on-left-algs.46636/.
+[^olson-2014]: C. Olson, "Introducing EG-1 Bar on Left Algs," SpeedSolving.com, 7 March 2014. [Online]. Available: https://www.speedsolving.com/threads/introducing-eg-1-bar-on-left-algs.46636/.

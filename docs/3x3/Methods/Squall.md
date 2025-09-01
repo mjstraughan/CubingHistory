@@ -40,7 +40,7 @@ cameraLongitude={-20}
 
 ### Development
 
-In January, 2021, Vincent Trang joined the 2021 Method Development Competition. Trang developed Squall as the submission. At the end of the competition, Squall was chosen by a community vote as the best method, making it the winner of the competition [^1].
+In January, 2021, Vincent Trang joined the 2021 Method Development Competition. Trang developed Squall as the submission. At the end of the competition, Squall was chosen by a community vote as the best method, making it the winner of the competition [^straughan-2021].
 
 ![](img/Squall/Comp.png)
 
@@ -52,4 +52,4 @@ Squall was developed backwards, with a focus on ending with a quality 2-gen step
 
 <YouTube embedId="IGOAQc3l_jg?start=262" />
 
-[^1]: M. J. Straughan, "Method Development Competition January 2021 - The winner receives a $10 gift card! - Sponsored by SpeedCubeShop.com," SpeedSolving.com, 27 February 2021. [Online]. Available: https://www.speedsolving.com/threads/method-development-competition-january-2021-the-winner-receives-a-10-gift-card-sponsored-by-speedcubeshop-com.79437/post-1421151.
+[^straughan-2021]: M. J. Straughan, "Method Development Competition January 2021 - The winner receives a $10 gift card! - Sponsored by SpeedCubeShop.com," SpeedSolving.com, 27 February 2021. [Online]. Available: https://www.speedsolving.com/threads/method-development-competition-january-2021-the-winner-receives-a-10-gift-card-sponsored-by-speedcubeshop-com.79437/post-1421151.

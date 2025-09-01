@@ -31,15 +31,15 @@ R2 E E' r2 E M2 E' // Last four centers`}
 
 The first officially recognized competition is the Rubik's Cube World Championship held in 1982. Although there were many small and large competitions held before this one, the 1982 championship was likely chosen as the first official one due to the involvement and presence of many high profile names and organizers, such as Ernő Rubik and David Singmaster, the competition being highly organized and filmed, and its bringing together of competitors from around the world.
 
-The competition was held on June 5, 1982 in Budapest, Hungary. Competitors from various countries were chosen to participate. In order to qualify, a competitor must have been able to solve the cube in under one minute [^1].
+The competition was held on June 5, 1982 in Budapest, Hungary. Competitors from various countries were chosen to participate. In order to qualify, a competitor must have been able to solve the cube in under one minute [^newsweek-1982].
 
 ![](img/WRSingles2H/WC1982Stamp.jpg)
 
 > Stamp issued by the government of Hungary in 1982 commemorating the 1982 championships. The stamp is shown here as framed and redistributed in 1983 by the Franklin Mint as part of a "World of Sports" series. From my personal collection.
 
-The competition featured three rounds with each competitor solving the cube once each round. The best time of the competition was 22.95, achieved by Minh Thai in the second round. This resulted in Minh Thai winning the competition and setting the first ever official world record. The competitors all used varying solving methods, with Minh Thai using Corners First to win the competition [^2]. A couple of months before the championship, in April of 1982, Minh Thai published the method that he uses in a book called _The Winning Solution_. The book was titled such due to Minh Thai having won the U.S. National Rubik's Cube-A-Thon.
+The competition featured three rounds with each competitor solving the cube once each round. The best time of the competition was 22.95, achieved by Minh Thai in the second round. This resulted in Minh Thai winning the competition and setting the first ever official world record. The competitors all used varying solving methods, with Minh Thai using Corners First to win the competition [^thai-1982]. A couple of months before the championship, in April of 1982, Minh Thai published the method that he uses in a book called _The Winning Solution_. The book was titled such due to Minh Thai having won the U.S. National Rubik's Cube-A-Thon.
 
-Today, Minh Thai’s 22.95 solve time is considered the first ever official world record because it was performed in the first competition to be officially recognized by the WCA. Lower record solve times were achieved in the early 1980s, such as a 17.04 second solve by Robert Pergl in the 1983 Czechoslovakian Championship [^3]. However, these other solves aren’t considered by the WCA to be official.
+Today, Minh Thai’s 22.95 solve time is considered the first ever official world record because it was performed in the first competition to be officially recognized by the WCA. Lower record solve times were achieved in the early 1980s, such as a 17.04 second solve by Robert Pergl in the 1983 Czechoslovakian Championship [^laue-2000]. However, these other solves aren’t considered by the WCA to be official.
 
 <YouTube embedId="kRs3u54kMbI" />
 
@@ -212,7 +212,7 @@ After standing for almost 2.5 years, the 7.08 world record was beaten on Novembe
 
 The 7.03 was followed by a 6.77, two 6.65 second solves, a 6.24, a 6.18, and a 5.66. These records were set over a seven month period from November 2010 to June 2011.
 
-Interestingly, when the 7.08 world record was set, Zemdegs commented that he didn’t think that a faster solve could be achieved in competition unless it was a very lucky solve [^4]. Zemdegs then went on to break the record numerous times.
+Interestingly, when the 7.08 world record was set, Zemdegs commented that he didn’t think that a faster solve could be achieved in competition unless it was a very lucky solve [^zemdegs-2009]. Zemdegs then went on to break the record numerous times.
 
 ![](img/WRSingles2H/Zemdegs.png)
 
@@ -327,7 +327,7 @@ On November 24, 2018, Yusheng Du set a new world record of 3.47 seconds. This re
 
 The length that the world record stood can potentially be attributed to the impact of COVID on the number of competitions held. Prior to the 3.47 world record and up through 2019, the number of competitions was on a large upward trajectory. The number of competitions for each year was: 2016 (679), 2017 (924), 2018 (1154), 2019 (1328). In 2020, the year when the world started taking measures against COVID, there were just 240 competitions held and 242 in 2021. 2022 marked a return to the normal volume of competitions with 1,082, and 2,135 in 2023.
 
-The solve was also the subject of some controversy. Yusheng Du’s averages at the competition over three rounds were: [11.13 (3.47) 8.80 (DNF) 7.07], [(6.95) 7.72 8.20 (10.43) 9.62], and [(8.01) 8.84 8.42 (11.02) 9.44]. The 3.47 solve was viewed as extremely low compared to the remainder of the solves within the averages. The footage of the solve was also of low quality. These aspects led some to doubt the authenticity of the solve [^5].
+The solve was also the subject of some controversy. Yusheng Du’s averages at the competition over three rounds were: [11.13 (3.47) 8.80 (DNF) 7.07], [(6.95) 7.72 8.20 (10.43) 9.62], and [(8.01) 8.84 8.42 (11.02) 9.44]. The 3.47 solve was viewed as extremely low compared to the remainder of the solves within the averages. The footage of the solve was also of low quality. These aspects led some to doubt the authenticity of the solve [^various-2018].
 
 <YouTube embedId="SB3ut65SFUU" />
 
@@ -362,8 +362,8 @@ http://cubesolv.es/?query=Feliks+Zemdegs
 
 https://www.reddit.com/r/Cubers/comments/i9gez/566_single_wr_feliks_zemdegs/
 
-[^1]: "Rubikmania: Lots of New Twists," Newsweek, vol. 19, p. April, 1982.
-[^2]: M. Thai, "Issue 1," Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p4.
-[^3]: R. Laue, "Rubik's Cube World Records," recordholders.org, 2000. [Online]. Available: https://web.archive.org/web/20021211215840/http://www.recordholders.org/en/list/rubik.html.
-[^4]: F. Zemdegs, "[WR] 7.08 3x3x3 single Erik Akkersdijk," speedsolving.com, 22 July 2009. [Online]. Available: https://www.speedsolving.com/threads/7-08-3x3x3-single-erik-akkersdijk.5179/post-211541.
-[^5]: Various, "[WR] Yusheng Du - 3.47 3×3 single," speedsolving.com, November 2018. [Online]. Available: https://www.speedsolving.com/threads/yusheng-du-3-47-3%C3%973-single.71715/.
+[^newsweek-1982]: "Rubikmania: Lots of New Twists," Newsweek, vol. 19, p. April, 1982.
+[^thai-1982]: M. Thai, "Issue 1," Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p4.
+[^laue-2000]: R. Laue, "Rubik's Cube World Records," recordholders.org, 2000. [Online]. Available: https://web.archive.org/web/20021211215840/http://www.recordholders.org/en/list/rubik.html.
+[^zemdegs-2009]: F. Zemdegs, "[WR] 7.08 3x3x3 single Erik Akkersdijk," speedsolving.com, 22 July 2009. [Online]. Available: https://www.speedsolving.com/threads/7-08-3x3x3-single-erik-akkersdijk.5179/post-211541.
+[^various-2018]: Various, "[WR] Yusheng Du - 3.47 3×3 single," speedsolving.com, November 2018. [Online]. Available: https://www.speedsolving.com/threads/yusheng-du-3-47-3%C3%973-single.71715/.

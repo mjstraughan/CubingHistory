@@ -48,7 +48,7 @@ y' L2 R' U2 R U2 R' F R U R' U' R' F' R2' U' L2 y // Parity`}
 
 ## Origin
 
-In June of 2012, Gabriel Alejandro Orozco Casillas posted a thread to SpeedSolving.com describing a blindfold corner solving method called D2 [^1]. This was a translation of the R2 method to instead use D2 as the solving move. In December of the same year, he posted a thread presenting a variant of the method called “U2” [^2]. The idea was to take the M2/R2 method and to instead use U2 for solving both the corners and the edges. 21 algorithms are used for the corners and 22 algorithms are used for the edges. The same method was again proposed in 2017 by Yuri Alexandrovich [^3].
+In June of 2012, Gabriel Alejandro Orozco Casillas posted a thread to SpeedSolving.com describing a blindfold corner solving method called D2 [^casillas-2012-1]. This was a translation of the R2 method to instead use D2 as the solving move. In December of the same year, he posted a thread presenting a variant of the method called “U2” [^casillas-2012-2]. The idea was to take the M2/R2 method and to instead use U2 for solving both the corners and the edges. 21 algorithms are used for the corners and 22 algorithms are used for the edges. The same method was again proposed in 2017 by Yuri Alexandrovich [^casillas-2013].
 
 <ImageCollage
 images={[
@@ -66,7 +66,7 @@ images={[
 
 ## Development
 
-On November 9, 2013, Gabriel Alejandro Orozco Casillas posted a video of a new blindfold solving method, which eventually became known as Orozco [^3]. Elements of his previously proposed U2 method can be seen within Orozco, so it is possible that the idea of Orozco arose from the thought process behind the U2 method. It took some time before the Orozco method reached the non-Spanish speaking community. It is likely that the rest of the community first learned of the method through a thread by Jayden McNeill on SpeedSolving.com. In the thread, McNeill described the method, compared and contrasted it with the M2 method, and included an example solve [^4].
+On November 9, 2013, Gabriel Alejandro Orozco Casillas posted a video of a new blindfold solving method, which eventually became known as Orozco [^casillas-2013]. Elements of his previously proposed U2 method can be seen within Orozco, so it is possible that the idea of Orozco arose from the thought process behind the U2 method. It took some time before the Orozco method reached the non-Spanish speaking community. It is likely that the rest of the community first learned of the method through a thread by Jayden McNeill on SpeedSolving.com. In the thread, McNeill described the method, compared and contrasted it with the M2 method, and included an example solve [^mcneill-2018].
 
 <YouTube embedId="qutNt4f5z8g" />
 
@@ -85,10 +85,10 @@ The original video of the method was provided in a private message by Gabriel Al
 
 ![](../img/Orozco/OrozcoChat.png)
 
-[^1]: G. A. O. Casillas, "D2 method," SpeedSolving.com, 17 June 2012. [Online]. Available: https://www.speedsolving.com/threads/d2-method.37354/.
+[^casillas-2012-1]: G. A. O. Casillas, "D2 method," SpeedSolving.com, 17 June 2012. [Online]. Available: https://www.speedsolving.com/threads/d2-method.37354/.
 
-[^2]: G. A. O. Casillas, "U2 method for corners and edges," SpeedSolving.com, 31 December 2012. [Online]. Available: https://www.speedsolving.com/threads/u2-method-for-corners-and-edges.39840/.
+[^casillas-2012-2]: G. A. O. Casillas, "U2 method for corners and edges," SpeedSolving.com, 31 December 2012. [Online]. Available: https://www.speedsolving.com/threads/u2-method-for-corners-and-edges.39840/.
 
-[^3]: G. A. O. Casillas, "Como armar el cubo rubik sin ver," YouTube, 9 November 2013. [Online]. Available: https://www.youtube.com/watch?v=qutNt4f5z8g.
+[^casillas-2013]: G. A. O. Casillas, "Como armar el cubo rubik sin ver," YouTube, 9 November 2013. [Online]. Available: https://www.youtube.com/watch?v=qutNt4f5z8g.
 
-[^4]: J. McNeill, "How the Orozco BLD method works," SpeedSolving.com, 2 April 2018. [Online]. Available: https://www.speedsolving.com/threads/how-the-orozco-bld-method-works.60487/.
+[^mcneill-2018]: J. McNeill, "How the Orozco BLD method works," SpeedSolving.com, 2 April 2018. [Online]. Available: https://www.speedsolving.com/threads/how-the-orozco-bld-method-works.60487/.

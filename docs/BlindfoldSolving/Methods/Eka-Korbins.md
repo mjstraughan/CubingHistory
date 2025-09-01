@@ -16,7 +16,7 @@ R U2 R' D R U2 R' D' . // UBL-FRD-LFD
 D' x D2 L U2 L' D2 L U2 r' D . // UBL-RBD-DBL
 F x D L U2 L' D' L U2 r' F' // UBL-FUR-RUB`}
 />
-**Example solve from Erik Youri** [^1]
+**Example solve from Erik Youri** [^youri-2017]
 
 ## Description
 
@@ -32,7 +32,7 @@ With ULB as the buffer, solve corners using 3-cycles after setting up the first 
 
 ## Development
 
-The Eka-Korbins method was originally developed by Dmitry Karyakin in September 2011 and was named Eka after Karyakin’s username - ekaerovets [^2]. The method was posted on the Russian site speedcubing.ru. This original post included an algorithm set for FRD. In October 2011, Oleg Gritsenko developed the algorithms for DFR and RDF, completing the set [^3]. It was decided to incorporate Gritsenko’s username Dr.Korbin into the method name to create the Eka-Korbins method.
+The Eka-Korbins method was originally developed by Dmitry Karyakin in September 2011 and was named Eka after Karyakin’s username - ekaerovets [^karyakin-2011]. The method was posted on the Russian site speedcubing.ru. This original post included an algorithm set for FRD. In October 2011, Oleg Gritsenko developed the algorithms for DFR and RDF, completing the set [^gritsenko-2011]. It was decided to incorporate Gritsenko’s username Dr.Korbin into the method name to create the Eka-Korbins method.
 
 <ImageCollage
 images={[
@@ -41,8 +41,8 @@ images={[
 ]}
 />
 
-[^1]: Youri, "méthode eka-corners 1," 28 May 2017. [Online]. Available: https://twistypuzzles-ru.translate.goog/forum/index.php?topic=994.0&_x_tr_sch=http&_x_tr_sl=auto&_x_tr_tl=fr&_x_tr_hl=fr.
+[^youri-2017]: Youri, "méthode eka-corners 1," 28 May 2017. [Online]. Available: https://twistypuzzles-ru.translate.goog/forum/index.php?topic=994.0&_x_tr_sch=http&_x_tr_sl=auto&_x_tr_tl=fr&_x_tr_hl=fr.
 
-[^2]: D. Karyakin, "eka-cornesr 1," 23 September 2011. [Online]. Available: https://speedcubing.ru/forum/index.php?topic=53.0.
+[^karyakin-2011]: D. Karyakin, "eka-cornesr 1," 23 September 2011. [Online]. Available: https://speedcubing.ru/forum/index.php?topic=53.0.
 
-[^3]: O. Gritsenko, "eka-korbins," 26 October 2011. [Online]. Available: https://speedcubing.ru/forum/index.php?topic=281.0.
+[^gritsenko-2011]: O. Gritsenko, "eka-korbins," 26 October 2011. [Online]. Available: https://speedcubing.ru/forum/index.php?topic=281.0.

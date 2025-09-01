@@ -51,9 +51,9 @@ R2 U (R B R' U2' r U' r B r2' U2') U' R2 // DFR`}
 
 ## Origin and Development
 
-While learning blindfold solving, Vincent Trang found that it wasn’t beginner friendly to remember the setups to solve pieces, and to also have to reverse the setups after pieces are solved [^1]. Around the same time, Trang was experimenting with FMC techniques such as edge and center insertions and how they relate with the NISS technique. This led Trang to make a connection from the FMC techniques to the thought that there may be an easier way of blindfold solving. The realization was that two edges could be swapped when centers are also swapped.
+While learning blindfold solving, Vincent Trang found that it wasn’t beginner friendly to remember the setups to solve pieces, and to also have to reverse the setups after pieces are solved [^straughan-trang-2025]. Around the same time, Trang was experimenting with FMC techniques such as edge and center insertions and how they relate with the NISS technique. This led Trang to make a connection from the FMC techniques to the thought that there may be an easier way of blindfold solving. The realization was that two edges could be swapped when centers are also swapped.
 
-On April 30, 2021, Trang posted the preliminary idea to the SpeedSolving.com forum [^2]. This original version of the method used the buffer BD and the target UF while cycling the M slice centers. After further refining the process, and taking into account feedback received from the initial post, Trang posted a dedicated thread officially introducing Void Swap to the puzzle community [^3]. The edge buffer and target was updated to become LB and UR, with the new edge swap algorithm now cycling the E slice centers.
+On April 30, 2021, Trang posted the preliminary idea to the SpeedSolving.com forum [^trang-2021-1]. This original version of the method used the buffer BD and the target UF while cycling the M slice centers. After further refining the process, and taking into account feedback received from the initial post, Trang posted a dedicated thread officially introducing Void Swap to the puzzle community [^trang-2021-2]. The edge buffer and target was updated to become LB and UR, with the new edge swap algorithm now cycling the E slice centers.
 
 <ImageCollage
 images={[
@@ -64,7 +64,7 @@ images={[
 
 ## Previous Proposal
 
-In November 2005, Stefan Pochmann suggested a similar idea of swapping two edges while cycling centers [^4]. Pochmanns version swapped the edges at UR and UL and cycled the S slice centers. However, the idea received no further development beyond the introduction of an alternate edge swapping algorithm [^5].
+In November 2005, Stefan Pochmann suggested a similar idea of swapping two edges while cycling centers [^pochmann-2005-1]. Pochmanns version swapped the edges at UR and UL and cycled the S slice centers. However, the idea received no further development beyond the introduction of an alternate edge swapping algorithm [^pochmann-2005-2].
 
 <ImageCollage
 images={[
@@ -74,12 +74,12 @@ images={[
 ]}
 />
 
-[^1]: M. Straughan and V. Trang, Personal Communication, 5 April 2025. [Online].
+[^straughan-trang-2025]: M. Straughan and V. Trang, Personal Communication, 5 April 2025. [Online].
 
-[^2]: V. Trang, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 30 April 2021. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1439675.
+[^trang-2021-1]: V. Trang, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 30 April 2021. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1439675.
 
-[^3]: V. Trang, "Void Swap: A Unique Beginner 3BLD Method," SpeedSolving.com, 21 November 2021. [Online]. Available: https://www.speedsolving.com/threads/void-swap-a-unique-beginner-3bld-method.85777/.
+[^trang-2021-2]: V. Trang, "Void Swap: A Unique Beginner 3BLD Method," SpeedSolving.com, 21 November 2021. [Online]. Available: https://www.speedsolving.com/threads/void-swap-a-unique-beginner-3bld-method.85777/.
 
-[^4]: S. Pochmann, "just swapping 2 pieces," Blindfold Solving Rubik's Cube Yahoo! Group, 22 November 2005. [Online].
+[^pochmann-2005-1]: S. Pochmann, "just swapping 2 pieces," Blindfold Solving Rubik's Cube Yahoo! Group, 22 November 2005. [Online].
 
-[^5]: S. Pochmann, "Re: just swapping 2 pieces," Blindfold Solving Rubik's Cube Yahoo! Group, 23 November 2005. [Online].
+[^pochmann-2005-2]: S. Pochmann, "Re: just swapping 2 pieces," Blindfold Solving Rubik's Cube Yahoo! Group, 23 November 2005. [Online].

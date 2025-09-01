@@ -33,20 +33,20 @@ U' R' F R' F2 R U' R // Permute both layers`}
 
 ## Origin and Development
 
-On Gaétan Guimond’s website, he states that the method was created in 1982 [^1].
+On Gaétan Guimond’s website, he states that the method was created in 1982 [^guimond-2003].
 
 ![](img/Guimond/Guimond.png)
 
 ## 3x3x3 Method
 
-In June, 2004, Guimond proposed a 3x3x3 method that uses algorithms from later steps of the Guimond method [^2] [^3]. The complete list of steps weren’t provided, but it appears to have been a method that starts with a 2x2x2 block and eventually gets to an oriented state where there are at least three U layer corners residing on the U layer. From there the corners are separated then permuted.
+In June, 2004, Guimond proposed a 3x3x3 method that uses algorithms from later steps of the Guimond method [^guimond-2004-1] [^guimond-2004-2]. The complete list of steps weren’t provided, but it appears to have been a method that starts with a 2x2x2 block and eventually gets to an oriented state where there are at least three U layer corners residing on the U layer. From there the corners are separated then permuted.
 
 ![](img/Guimond/G3-1.png)
 ![](img/Guimond/G3-2.png)
 ![](img/Guimond/G3-3.png)
 
-[^1]: G. Guimond, "CORNER Method," Guimond's website, 2003. [Online]. Available: https://web.archive.org/web/20040607101459/http://www.rubikscuberecord.com/.
+[^guimond-2003]: G. Guimond, "CORNER Method," Guimond's website, 2003. [Online]. Available: https://web.archive.org/web/20040607101459/http://www.rubikscuberecord.com/.
 
-[^2]: G. Guimond, "New method," Yahoo! Groups - Speed Solving Rubik's Cube, 9 June 2004. [Online].
+[^guimond-2004-1]: G. Guimond, "New method," Yahoo! Groups - Speed Solving Rubik's Cube, 9 June 2004. [Online].
 
-[^3]: G. Guimond, "Re: New method," Yahoo! Groups - Speed Solving Rubik's Cube, 11 June 2004. [Online].
+[^guimond-2004-2]: G. Guimond, "Re: New method," Yahoo! Groups - Speed Solving Rubik's Cube, 11 June 2004. [Online].

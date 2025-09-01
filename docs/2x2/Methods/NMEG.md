@@ -30,11 +30,11 @@ R // Undo pseudo`}
 
 ## Origin and Development
 
-Non-Matching EG (NMEG) was developed by Michael James Straughan in June, 2012 [^1] [^2]. NMEG was released as part of the development of NMEG, NMCLL, and LEG-1.
+Non-Matching EG (NMEG) was developed by Michael James Straughan in June, 2012 [^straughan-2012-1] [^straughan-2012-2]. NMEG was released as part of the development of NMEG, NMCLL, and LEG-1.
 
 ![](img/NMEG/NMEG1.png)
 ![](img/NMEG/NMEG2.png)
 ![](img/NMEG/NMEG3.png)
 
-[^1]: M. J. Straughan, "2x2 Pseudo Solving: Improving CLL and EG," SpeedSolving.com, 1 June 2012. [Online]. Available: https://www.speedsolving.com/threads/2x2-pseudo-solving-improving-cll-and-eg.37073/.
-[^2]: M. J. Straughan, "A2," Straughan's website, 2012. [Online]. Available: https://sites.google.com/site/athefre/other/nmcll?authuser=0.
+[^straughan-2012-1]: M. J. Straughan, "2x2 Pseudo Solving: Improving CLL and EG," SpeedSolving.com, 1 June 2012. [Online]. Available: https://www.speedsolving.com/threads/2x2-pseudo-solving-improving-cll-and-eg.37073/.
+[^straughan-2012-2]: M. J. Straughan, "A2," Straughan's website, 2012. [Online]. Available: https://sites.google.com/site/athefre/other/nmcll?authuser=0.

@@ -31,7 +31,7 @@ stickering={{
 
 ### Ernő Rubik
 
-On page 40 of David Singmaster's _Notes on Rubik's 'Magic Cube'_ [^1] dated 1980, the steps of Erno Rubik's method are written as described by Zoltán Perjés, a relative of Rubik [^2]. This makes Ernő Rubik the first to have created the corners first method and also corners first as the first method created to solve the cube. It is notable that the steps are similar to those used by Minh Thai to achieve the first world record recognized by the World Cube Association.
+On page 40 of David Singmaster's _Notes on Rubik's 'Magic Cube'_ [^singmaster-1981] dated 1980, the steps of Erno Rubik's method are written as described by Zoltán Perjés, a relative of Rubik [^forgacs-2007]. This makes Ernő Rubik the first to have created the corners first method and also corners first as the first method created to solve the cube. It is notable that the steps are similar to those used by Minh Thai to achieve the first world record recognized by the World Cube Association.
 
 ![](img/CornersFirst/Rubik1.png)
 ![](img/CornersFirst/Rubik2.png)
@@ -46,7 +46,7 @@ Rubik’s method as described by Zoltán Perjés:
 3. Solve three bottom layer edges, solve three upper layer edges, then solve the final two bottom and upper layer edges.
 4. Solve the middle layer edges.
 
-In May, 2003, Dan Knights stated that in 1999 he observed Rubik solve the cube [^3]. He outlined the steps that he saw. The steps are slightly different when comparing with Perjés' description. In Knights' description, three edges of the first layer are solved before the last layer corners.
+In May, 2003, Dan Knights stated that in 1999 he observed Rubik solve the cube [^knights-nd]. He outlined the steps that he saw. The steps are slightly different when comparing with Perjés' description. In Knights' description, three edges of the first layer are solved before the last layer corners.
 
 ![](img/CornersFirst/Rubik3.png)
 
@@ -59,7 +59,7 @@ Rubik’s method as described by Dan Knights:
 
 ### First Publication
 
-The first known published Corners First method came in 1978 by Hanke Bremer in _Ein Paar Würfeldrehungen_ [^4].
+The first known published Corners First method came in 1978 by Hanke Bremer in _Ein Paar Würfeldrehungen_ [^bremer-1978].
 
 ![](img/CornersFirst/Bremer.jpg)
 
@@ -67,7 +67,7 @@ The first known published Corners First method came in 1978 by Hanke Bremer in _
 
 ### Minh Thai
 
-Minh Thai used Corners First to win the Rubik's Cube World Championship on June 5, 1982 [^5]. This is where he achieved the 22.95 seconds world record. It is often thought that Minh Thai’s book, _The Winning Solution_, is titled so because of his win at the 1982 championship. However, the book’s title comes from his wins at earlier competitions [^6]. Prior to the 1982 championship, Minh Thai won the Rubik’s Cube-A-Thon held on November 13 1981, becoming the United States National Champion [^7]. The book was published in April 1982, two months before the 1982 championship.
+Minh Thai used Corners First to win the Rubik's Cube World Championship on June 5, 1982 [^singmaster-1982]. This is where he achieved the 22.95 seconds world record. It is often thought that Minh Thai’s book, _The Winning Solution_, is titled so because of his win at the 1982 championship. However, the book’s title comes from his wins at earlier competitions [^thai-1982]. Prior to the 1982 championship, Minh Thai won the Rubik’s Cube-A-Thon held on November 13 1981, becoming the United States National Champion [^parks-1982]. The book was published in April 1982, two months before the 1982 championship.
 
 ![](img/CornersFirst/Thai.png)
 ![](img/CornersFirst/Thai2.png)
@@ -102,16 +102,16 @@ Various Corners First methods were published in 1979.
 
 The steps for Claxton's method were provided to CubingHistory.com by Georges Helm. The others can be found in Notes on Rubik's 'Magic Cube'.
 
-[^1]: D. Singmaster, in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 40.
+[^singmaster-1981]: D. Singmaster, in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 40.
 
-[^2]: P. Forgács, "fizikai szemle," January 2007. [Online]. Available: http://www.epa.oszk.hu/00300/00342/00200/pdf/FizSzem_EPA00342_2007_01.pdf.
+[^forgacs-2007]: P. Forgács, "fizikai szemle," January 2007. [Online]. Available: http://www.epa.oszk.hu/00300/00342/00200/pdf/FizSzem_EPA00342_2007_01.pdf.
 
-[^3]: D. Knights, "Re: Mr. Rubik's solving system," Yahoo! Groups - Speed Solving Rubik's Cube, 18 May 2003. [Online].
+[^knights-nd]: D. Knights, "Re: Mr. Rubik's solving system," Yahoo! Groups - Speed Solving Rubik's Cube, 18 May 2003. [Online].
 
-[^4]: H. Bremer, Ein Paar Würfeldrehungen, Frankfurt, Germany, 1978.
+[^bremer-1978]: H. Bremer, Ein Paar Würfeldrehungen, Frankfurt, Germany, 1978.
 
-[^5]: D. Singmaster, Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm.
+[^singmaster-1982]: D. Singmaster, Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm.
 
-[^6]: M. Thai, The Winning Solution, Wayne, PA: Banbury Books, 1982.
+[^thai-1982]: M. Thai, The Winning Solution, Wayne, PA: Banbury Books, 1982.
 
-[^7]: T. Parks, "AT THE U.S. NATIONAL CHAMPIONSHIPS," Rubik's Cube-A-Thon, vol. 1, no. https://www.speedcubing.com/ton/Archive/Rubik's%20Cube%20News%20Letter%20Vol%201%20No1.pdf, p. 1, 1982.
+[^parks-1982]: T. Parks, "AT THE U.S. NATIONAL CHAMPIONSHIPS," Rubik's Cube-A-Thon, vol. 1, no. https://www.speedcubing.com/ton/Archive/Rubik's%20Cube%20News%20Letter%20Vol%201%20No1.pdf, p. 1, 1982.

@@ -35,23 +35,23 @@ stickering={{
 
 ### Initial Ideas
 
-In December, 2003, Duncan Dicks started discussing ideas for a new method [^1]. It started with some last layer ideas, each manipulating multiple piece types at once.
+In December, 2003, Duncan Dicks started discussing ideas for a new method [^dicks-2003]. It started with some last layer ideas, each manipulating multiple piece types at once.
 
 ![](img/L2L/NewMethod.png)
 
-In February, 2004, he mentioned the idea of getting to the F2L minus second layer edge state [^2].
+In February, 2004, he mentioned the idea of getting to the F2L minus second layer edge state [^dicks-2004-1].
 
 ![](img/L2L/F2LMinusEdge.png)
 
 ### L2L Proposal
 
-In May, 2004, L2L was proposed [^3].
+In May, 2004, L2L was proposed [^dicks-2004-2].
 
 ![](img/L2L/InitialProposal.png)
 
 ### Variants
 
-In June, 2004, several variants were added [^4].
+In June, 2004, several variants were added [^dicks-2004-3].
 
 ![](img/L2L/Variants1.png)
 ![](img/L2L/Variants2.png)
@@ -59,7 +59,7 @@ In June, 2004, several variants were added [^4].
 
 ### Website
 
-A website was created for L2L in September, 2004 [^5] [^6].
+A website was created for L2L in September, 2004 [^dicks-2004-4] [^korick-2004].
 
 ![](img/L2L/Site.png)
 https://web.archive.org/web/20080308133423/cubertscubicle.mysite.wanadoo-members.co.uk/
@@ -70,14 +70,14 @@ https://web.archive.org/web/20080308133423/cubertscubicle.mysite.wanadoo-members
 
 Several people in the community have expressed interest in the method. Enough that additional variants have been developed.
 
-Stachu Korick began taking an interest in L2L development possibly in October, 2010 [^7] [^8].
+Stachu Korick began taking an interest in L2L development possibly in October, 2010 [^korick-2010-1] [^korick-2010-2].
 
 ![](img/L2L/Korick1.png)
 ![](img/L2L/Korick2.png)
 ![](img/L2L/Korick3.png)
 https://www.speedsolving.com/threads/l2l4-the-lost-methode-help-find-it.24508/
 
-In December, 2010, Korick created a thread on speedsolving.com about development efforts [^9]. Four files were uploaded and linked to in the post [^10] [^11] [^12] [^13].
+In December, 2010, Korick created a thread on speedsolving.com about development efforts [^korick-2010-3]. Four files were uploaded and linked to in the post [^korick-2010-4] [^korick-2010-5] [^korick-2010-6] [^korick-2010-7].
 
 ![](img/L2L/Korick4.png)
 
@@ -86,13 +86,13 @@ https://web.archive.org/web/20101217061515/https://dl.dropbox.com/u/4101778/L2L4
 https://web.archive.org/web/20101217060921/https://dl.dropbox.com/u/4101778/L2L4%20alpha/EO.txt
 https://web.archive.org/web/20101217061522/https://dl.dropbox.com/u/4101778/L2L4%20alpha/EP.txt
 
-In 2011, Stachu Korick completed development on a new variant called L2Lk [^14].
+In 2011, Stachu Korick completed development on a new variant called L2Lk [^korick-2011].
 
 ![](img/L2L/Korick5.png)
 
 ### Joseph Tudor
 
-As part of the Method Development Competition held in August, 2020, Joseph Tudor developed an L2L variant named L2L5 [^15]. The steps of this variant are:
+As part of the Method Development Competition held in August, 2020, Joseph Tudor developed an L2L variant named L2L5 [^tudor-nd]. The steps of this variant are:
 
 1. Solve the bottom layer.
 2. Solve three edges in the E layer
@@ -101,32 +101,32 @@ As part of the Method Development Competition held in August, 2020, Joseph Tudor
 
 ![](img/L2L/Tudor.png)
 
-[^1]: D. Dicks, "The genius of Fridrich," Yahoo! Groups - Speed Solving Rubik's Cube, 11 December 2003. [Online].
+[^dicks-2003]: D. Dicks, "The genius of Fridrich," Yahoo! Groups - Speed Solving Rubik's Cube, 11 December 2003. [Online].
 
-[^2]: D. Dicks, "A scheme and searching for some moves," Yahoo! Groups - Speed Solving Rubik's Cube, 26 February 2004. [Online].
+[^dicks-2004-1]: D. Dicks, "A scheme and searching for some moves," Yahoo! Groups - Speed Solving Rubik's Cube, 26 February 2004. [Online].
 
-[^3]: D. Dicks, "Re: [Speed cubing grou] Re:z-b," Yahoo! Groups - Speed Solving Rubik's Cube, 14 May 2004. [Online].
+[^dicks-2004-2]: D. Dicks, "Re: [Speed cubing grou] Re:z-b," Yahoo! Groups - Speed Solving Rubik's Cube, 14 May 2004. [Online].
 
-[^4]: D. Dicks, "A Sequence of L2L Strategies," Yahoo! Groups - Speed Solving Rubik's Cube, 10 June 2004. [Online].
+[^dicks-2004-3]: D. Dicks, "A Sequence of L2L Strategies," Yahoo! Groups - Speed Solving Rubik's Cube, 10 June 2004. [Online].
 
-[^5]: D. Dicks, "Last 2 Layer Strategy website," Yahoo! Groups - Speed Solving Rubik's Cube, 12 September 2004. [Online].
+[^dicks-2004-4]: D. Dicks, "Last 2 Layer Strategy website," Yahoo! Groups - Speed Solving Rubik's Cube, 12 September 2004. [Online].
 
-[^6]: D. Dicks, "L2L Strategies," Cubert’s Cubicle, 12 September 2004. [Online]. Available: https://web.archive.org/web/20080308133423/cubertscubicle.mysite.wanadoo-members.co.uk/.
+[^korick-2004]: D. Dicks, "L2L Strategies," Cubert’s Cubicle, 12 September 2004. [Online]. Available: https://web.archive.org/web/20080308133423/cubertscubicle.mysite.wanadoo-members.co.uk/.
 
-[^7]: S. Korick, "L2L4 - The Lost Methode ? Help Find it!," SpeedSolving.com, 2 October 2010. [Online]. Available: https://www.speedsolving.com/threads/l2l4-the-lost-methode-help-find-it.24508/post-463780.
+[^korick-2010-1]: S. Korick, "L2L4 - The Lost Methode ? Help Find it!," SpeedSolving.com, 2 October 2010. [Online]. Available: https://www.speedsolving.com/threads/l2l4-the-lost-methode-help-find-it.24508/post-463780.
 
-[^8]: S. Korick, "L2L4 - The Lost Methode ? Help Find it!," SpeedSolving.com, 1 December 2010. [Online]. Available: https://www.speedsolving.com/threads/l2l4-the-lost-methode-help-find-it.24508/post-494669.
+[^korick-2010-2]: S. Korick, "L2L4 - The Lost Methode ? Help Find it!," SpeedSolving.com, 1 December 2010. [Online]. Available: https://www.speedsolving.com/threads/l2l4-the-lost-methode-help-find-it.24508/post-494669.
 
-[^9]: S. Korick, "L2L4 Documentation ("Finished") and Discussion," SpeedSolving.com, 13 December 2010. [Online]. Available: https://www.speedsolving.com/threads/l2l4-documentation-finished-and-discussion.26099/.
+[^korick-2010-3]: S. Korick, "L2L4 Documentation ("Finished") and Discussion," SpeedSolving.com, 13 December 2010. [Online]. Available: https://www.speedsolving.com/threads/l2l4-documentation-finished-and-discussion.26099/.
 
-[^10]: S. Korick, "CO," Dropbox, 13 December 2010. [Online]. Available: https://web.archive.org/web/20101217011022/https://dl.dropbox.com/u/4101778/L2L4%20alpha/CO.txt.
+[^korick-2010-4]: S. Korick, "CO," Dropbox, 13 December 2010. [Online]. Available: https://web.archive.org/web/20101217011022/https://dl.dropbox.com/u/4101778/L2L4%20alpha/CO.txt.
 
-[^11]: S. Korick, "CP," Dropbox, 13 December 2010. [Online]. Available: https://web.archive.org/web/20101217061515/https://dl.dropbox.com/u/4101778/L2L4%20alpha/CP.txt.
+[^korick-2010-5]: S. Korick, "CP," Dropbox, 13 December 2010. [Online]. Available: https://web.archive.org/web/20101217061515/https://dl.dropbox.com/u/4101778/L2L4%20alpha/CP.txt.
 
-[^12]: S. Korick, "EO," Dropbox, 13 December 2010. [Online]. Available: https://web.archive.org/web/20101217060921/https://dl.dropbox.com/u/4101778/L2L4%20alpha/EO.txt.
+[^korick-2010-6]: S. Korick, "EO," Dropbox, 13 December 2010. [Online]. Available: https://web.archive.org/web/20101217060921/https://dl.dropbox.com/u/4101778/L2L4%20alpha/EO.txt.
 
-[^13]: S. Korick, "EP," Dropbox, 13 December 2010. [Online]. Available: https://web.archive.org/web/20101217061522/https://dl.dropbox.com/u/4101778/L2L4%20alpha/EP.txt.
+[^korick-2010-7]: S. Korick, "EP," Dropbox, 13 December 2010. [Online]. Available: https://web.archive.org/web/20101217061522/https://dl.dropbox.com/u/4101778/L2L4%20alpha/EP.txt.
 
-[^14]: S. Korick, "L2Lk (Last 2 Layers, as proposed by Stachu Korick)," stachu.cubing.net, 2011. [Online]. Available: https://web.archive.org/web/20160825153229/http://stachu.cubing.net/l2lk/.
+[^korick-2011]: S. Korick, "L2Lk (Last 2 Layers, as proposed by Stachu Korick)," stachu.cubing.net, 2011. [Online]. Available: https://web.archive.org/web/20160825153229/http://stachu.cubing.net/l2lk/.
 
-[^15]: J. Tudor, "L2L5," Google Docs, August 2020. [Online]. Available: https://docs.google.com/document/d/1rGoKnkEjS2Tfs3JJ2t1zcU7F6b7bati8te5oGhqJuGY/edit.
+[^tudor-nd]: J. Tudor, "L2L5," Google Docs, August 2020. [Online]. Available: https://docs.google.com/document/d/1rGoKnkEjS2Tfs3JJ2t1zcU7F6b7bati8te5oGhqJuGY/edit.

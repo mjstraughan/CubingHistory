@@ -31,16 +31,16 @@ stickering={{
 
 ### Development
 
-The origin of the method may be traced to another method proposal by Joseph Briggs [^1]. A little over a week before proposing M-CELL, Briggs posted a similar method idea. The idea was to reach the F2L-1 state by building a 1x2x3 block, adding a 2x2x2 block, then adding a final edge. The finish was to orient all edges then use Winter Variation and PLL.
+The origin of the method may be traced to another method proposal by Joseph Briggs [^briggs-2015-1]. A little over a week before proposing M-CELL, Briggs posted a similar method idea. The idea was to reach the F2L-1 state by building a 1x2x3 block, adding a 2x2x2 block, then adding a final edge. The finish was to orient all edges then use Winter Variation and PLL.
 
 ![](img/M-CELL/Origin.png)
 
 ### Proposal
 
-The previous idea was refined into a more unique method. M-CELL was proposed on August 21, 2015 [^2].
+The previous idea was refined into a more unique method. M-CELL was proposed on August 21, 2015 [^briggs-2015-2].
 
 ![](img/M-CELL/Proposal.png)
 
-[^1]: J. Briggs, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 21 August 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1111041.
+[^briggs-2015-1]: J. Briggs, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 21 August 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1111041.
 
-[^2]: J. Briggs, "Immune System (solving method+ potential 1LLL)," SpeedSolving.com, 31 August 2015. [Online]. Available: https://www.speedsolving.com/threads/immune-system-solving-method-potential-1lll.54872/.
+[^briggs-2015-2]: J. Briggs, "Immune System (solving method+ potential 1LLL)," SpeedSolving.com, 31 August 2015. [Online]. Available: https://www.speedsolving.com/threads/immune-system-solving-method-potential-1lll.54872/.

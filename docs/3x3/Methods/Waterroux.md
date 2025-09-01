@@ -33,19 +33,19 @@ stickering={{
 
 ### Development
 
-In March, 2017, initial discussions for the method idea started between Eric Fattah and Max Garza. One of the original ideas was to solve a 1x2x2 block on the right side then solve the remaining five corners [^1]. However, that was eventually abandoned in favor of a corners-based approach [^2].
+In March, 2017, initial discussions for the method idea started between Eric Fattah and Max Garza. One of the original ideas was to solve a 1x2x2 block on the right side then solve the remaining five corners [^fattah-garza-2017]. However, that was eventually abandoned in favor of a corners-based approach [^fattah-2017-1].
 
 ![](img/WaterRoux/Origin.png)
 ![](img/WaterRoux/Update.png)
 
 ### Proposal
 
-A few days after the original ideas had been discussed, Fattah posted the method proposal on speedsolving.com [^3].
+A few days after the original ideas had been discussed, Fattah posted the method proposal on speedsolving.com [^fattah-2017-2].
 
 ![](img/WaterRoux/Proposal.png)
 
-[^1]: E. Fattah and M. Garza, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, March 2017. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1222720.
+[^fattah-garza-2017]: E. Fattah and M. Garza, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, March 2017. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1222720.
 
-[^2]: E. Fattah, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 24 August 2017. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/page-199#post-1251599.
+[^fattah-2017-1]: E. Fattah, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 24 August 2017. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/page-199#post-1251599.
 
-[^3]: E. Fattah, "The WaterRoux 3x3 method thread," SpeedSolving.com, 9 March 2017. [Online]. Available: https://www.speedsolving.com/threads/the-waterroux-3x3-method-thread.64140/.
+[^fattah-2017-2]: E. Fattah, "The WaterRoux 3x3 method thread," SpeedSolving.com, 9 March 2017. [Online]. Available: https://www.speedsolving.com/threads/the-waterroux-3x3-method-thread.64140/.

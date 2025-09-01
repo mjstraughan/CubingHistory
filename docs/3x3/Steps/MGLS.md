@@ -34,13 +34,13 @@ MGLS is a system for orienting the last layer while solving the last slot of the
 
 ## Origin
 
-Shotaro Makisumi started developing the idea in 2004 [^1].
+Shotaro Makisumi started developing the idea in 2004 [^makisumi-2004].
 
 ![](img/MGLS/Makisumi1.png)
 
 ## Development
 
-From 2006-2007 Lucas Garron completed development and the set of steps were named MGLS after the last names of Makisumi and Garron [^2] [^3]. MGLS is similar to one of the original forms of the Heise method [^4].
+From 2006-2007 Lucas Garron completed development and the set of steps were named MGLS after the last names of Makisumi and Garron [^garron-2007-1] [^garron-2007-2]. MGLS is similar to one of the original forms of the Heise method [^heise-2007].
 
 ![](img/MGLS/Development1.png)
 ![](img/MGLS/Development2.png)
@@ -70,7 +70,7 @@ From 2006-2007 Lucas Garron completed development and the set of steps were name
 
 ### Pronunciation
 
-In June, 2010, Garron declared the official pronunciation of MGLS to be "muggles" [^5].
+In June, 2010, Garron declared the official pronunciation of MGLS to be "muggles" [^garron-2010].
 
 ![](img/MGLS/Pronunciation.png)
 
@@ -78,12 +78,12 @@ In June, 2010, Garron declared the official pronunciation of MGLS to be "muggles
 
 Thanks to Lucas Garron for providing links to the sources on this page.
 
-[^1]: S. Makisumi, "F2L Last Corner + LLCO," Makisumi's Website, 2004. [Online]. Available: https://web.archive.org/web/20070913114107/http://cubefreak.net:80/f2lc_llco.html.
+[^makisumi-2004]: S. Makisumi, "F2L Last Corner + LLCO," Makisumi's Website, 2004. [Online]. Available: https://web.archive.org/web/20070913114107/http://cubefreak.net:80/f2lc_llco.html.
 
-[^2]: L. Garron, "MGLS - Makisumi-Garron Last Slot," Garron's Website, 2007. [Online]. Available: https://cube.garron.us/MGLS/.
+[^garron-2007-1]: L. Garron, "MGLS - Makisumi-Garron Last Slot," Garron's Website, 2007. [Online]. Available: https://cube.garron.us/MGLS/.
 
-[^3]: L. Garron, "[Speed cubing group] MGLS speedcubing method," Yahoo! Groups - Speed Solving Rubik's Cube, 15 June 2007. [Online].
+[^garron-2007-2]: L. Garron, "[Speed cubing group] MGLS speedcubing method," Yahoo! Groups - Speed Solving Rubik's Cube, 15 June 2007. [Online].
 
-[^4]: R. Heise, "Re: [Speed cubing group] MGLS speedcubing method," Yahoo! Groups - Speed Solving Rubik's Cube, 15 June 2007. [Online].
+[^heise-2007]: R. Heise, "Re: [Speed cubing group] MGLS speedcubing method," Yahoo! Groups - Speed Solving Rubik's Cube, 15 June 2007. [Online].
 
-[^5]: L. Garron, "MGLS: Now with pronunciation!," SpeedSolving.com, 16 June 2010. [Online]. Available: https://www.speedsolving.com/threads/mgls-now-with-pronunciation.21922/.
+[^garron-2010]: L. Garron, "MGLS: Now with pronunciation!," SpeedSolving.com, 16 June 2010. [Online]. Available: https://www.speedsolving.com/threads/mgls-now-with-pronunciation.21922/.

@@ -49,7 +49,7 @@ Orient then permute edges and corners one piece at a time.
 
 McGaugh is a blindfold solving method that is closely related to the 3OP method. The primary difference is that the goal of McGaugh is to make blindfold solving as simple as possible. Four steps are followed: edge orientation, corner orientation, corner permutation, and edge permutation. Within each step, pieces are handled one at a time.
 
-On August 26, 2005, Bill McGaugh completed development of a website for the method and presented it to the Speed Solving Rubik’s Cube Yahoo! group [^1]. In October of the same year, McGaugh mentioned the intent to advance the method by adding on 3-cycles as a way of solving [^2]. It is unknown whether this was ever developed.
+On August 26, 2005, Bill McGaugh completed development of a website for the method and presented it to the Speed Solving Rubik’s Cube Yahoo! group [^mcgaugh-2005-1]. In October of the same year, McGaugh mentioned the intent to advance the method by adding on 3-cycles as a way of solving [^mcgaugh-2005-2]. It is unknown whether this was ever developed.
 
 <ImageCollage
 images={[
@@ -59,7 +59,7 @@ images={[
 ]}
 />
 
-After its development, the McGaugh method did maintain at least a small amount of popularity. Some members of the SpeedSolving.com forum learned the method, and even the creator of the forum, Patrick Kelly, wrote a guide [^3] [^4].
+After its development, the McGaugh method did maintain at least a small amount of popularity. Some members of the SpeedSolving.com forum learned the method, and even the creator of the forum, Patrick Kelly, wrote a guide [^kelly-2007-1] [^kelly-2007-2].
 
 <ImageCollage
 images={[
@@ -70,16 +70,16 @@ images={[
 ]}
 />
 
-[^1]: B. McGaugh, "Bill McGaugh's Simplest System for Blindfold Cubing," 26 August 2005. [Online]. Available: https://web.archive.org/web/20060623081947/http://home.earthlink.net/~bmcgaugh/.
+[^mcgaugh-2005-1]: B. McGaugh, "Bill McGaugh's Simplest System for Blindfold Cubing," 26 August 2005. [Online]. Available: https://web.archive.org/web/20060623081947/http://home.earthlink.net/~bmcgaugh/.
 
-[^2]: B. McGaugh, "Re: [Speed cubing group] Blindfold solving," Speed Solving Rubik's Cube Yahoo! Group, 31 October 2005. [Online].
+[^mcgaugh-2005-2]: B. McGaugh, "Re: [Speed cubing group] Blindfold solving," Speed Solving Rubik's Cube Yahoo! Group, 31 October 2005. [Online].
 
-[^3]: P. Kelly, "What's The Easiest Blindfold System?," SpeedSolving.com, 28 February 2007. [Online]. Available: https://www.speedsolving.com/threads/whats-the-easiest-blindfold-system.654/post-5033.
+[^kelly-2007-1]: P. Kelly, "What's The Easiest Blindfold System?," SpeedSolving.com, 28 February 2007. [Online]. Available: https://www.speedsolving.com/threads/whats-the-easiest-blindfold-system.654/post-5033.
 
-[^4]: P. Kelly, "Blindfold Cubing Guide," 2007. [Online]. Available: https://pjkcubed.com/puzzles/blindfold-cubing-guide/.
+[^kelly-2007-2]: P. Kelly, "Blindfold Cubing Guide," 2007. [Online]. Available: https://pjkcubed.com/puzzles/blindfold-cubing-guide/.
 
-[^5]: S. Pochmann, "Re: Blindfold cubing: Parity error," Speed Solving Rubik's Cube Yahoo Group, 7 March 2004. [Online].
+[^pochmann-2004-1]: S. Pochmann, "Re: Blindfold cubing: Parity error," Speed Solving Rubik's Cube Yahoo Group, 7 March 2004. [Online].
 
-[^6]: S. Pochmann, "Single algorithm 3x3 blindsolving," Stefan Pochmann, March 2004. [Online]. Available: https://www.stefan-pochmann.info/spocc/blindsolving/3x3_single_alg/old_index.php.
+[^pochmann-2004-2]: S. Pochmann, "Single algorithm 3x3 blindsolving," Stefan Pochmann, March 2004. [Online]. Available: https://www.stefan-pochmann.info/spocc/blindsolving/3x3_single_alg/old_index.php.
 
-[^7]: S. Pochmann, "Key idea of my methods," SpeedSolving.com, 28 July 2008. [Online]. Available: https://www.speedsolving.com/threads/key-idea-of-my-methods.5427/.
+[^pochmann-2008]: S. Pochmann, "Key idea of my methods," SpeedSolving.com, 28 July 2008. [Online]. Available: https://www.speedsolving.com/threads/key-idea-of-my-methods.5427/.
