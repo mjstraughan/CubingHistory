@@ -73,7 +73,7 @@ images={[
 
 ### Algorithms
 
-Soon after the development of Yo Notation, Ghodgaonkar created a thread on SpeedSolving.com dedicated to discussion of the method. The thread included various details about the method and links to relevant documents, including a new document providing a learning plan [^ghodgaonkar-2019-6]. In June 2019, Ghodgaonkar published a document including algorithms for several cases [^ghodgaonkar-2019-7] [^ghodgaonkar-2019-8]. Ghodgaonkar also maintains a YouTube channel dedicated to UF5 discussion and algorithm development [^abhijeet-ghodgaonkar-nd].
+Soon after the development of Yo Notation, Ghodgaonkar created a thread on SpeedSolving.com dedicated to discussion of the method. The thread included various details about the method and links to relevant documents, including a new document providing a learning plan [^ghodgaonkar-2019-6]. In June 2019, Ghodgaonkar published a document including algorithms for several cases [^ghodgaonkar-2019-7] [^ghodgaonkar-2019-8]. Ghodgaonkar also maintains a YouTube channel dedicated to UF5 discussion and algorithm development [^ghodgaonkar-nd].
 
 <ImageCollage
 images={[
@@ -146,7 +146,7 @@ images={[
 [^ghodgaonkar-2019-6]: A. Ghodgaonkar, "Proving UF5," SpeedSolving.com, 31 March 2019. [Online]. Available: https://www.speedsolving.com/threads/proving-uf5.73119/.
 [^ghodgaonkar-2019-7]: A. Ghodgaonkar, "5cyles," SpeedSolving.com, 5 June 2019. [Online]. Available: https://www.speedsolving.com/threads/5cyles.61725/post-1320963.
 [^ghodgaonkar-2019-8]: A. Ghodgaonkar, "Abhi_Algs_Public," 5 June 2019. [Online]. Available: https://docs.google.com/spreadsheets/d/158F-jyu8ld8kbdD4I_Lqy4fsX5vvp_MQOq7Ofg8NdSI/edit?gid=1229717195#gid=1229717195.
-[^abhijeet-ghodgaonkar-nd]: "Abhijeet Ghodgaonkar," YouTube, [Online]. Available: https://www.youtube.com/channel/UCa7dTclUqnR9VwSeOCpRwAQ/videos.
+[^ghodgaonkar-nd]: "Abhijeet Ghodgaonkar," YouTube, [Online]. Available: https://www.youtube.com/channel/UCa7dTclUqnR9VwSeOCpRwAQ/videos.
 [^jernqvist-2012]: E. Jernqvist, "Speedcubing - What are the limits?," SpeedSolving.com, 1 October 2012. [Online]. Available: https://www.speedsolving.com/threads/speedcubing-what-are-the-limits.38766/post-787129.
 [^ghodgaonkar-2017]: A. Ghodgaonkar, "is anyone going to develop 5style soon?," Facebook - BLD Support Group, 10 February 2017. [Online]. Available: https://www.facebook.com/groups/BLDSupportGroup/permalink/1209669535820466/?rdid=utLcedabIX1HSjKk#.
 [^various-2023]: Various, "Would partial uf5 ever be viable?," Facebook - BLD Support Group, 16 October 2023. [Online]. Available: https://www.facebook.com/groups/BLDSupportGroup/posts/6751340631653301/?__cft__[^0]=AZXTWhyfMnQ74q9P59C75lZBZaWY-Hc3yTLaGqYQbRxBMqhuYFaqZUPw_azv-17oPiQtAqyNdPuMI8g4JU3jKsQjmhOVJ3eCh32Le_1RwKhsOkGhi02rEVowsAzlWTx6AjRGcsEPnav6BJO-TOhHDYV0&__tn__=%2CO%2CP-R-R.

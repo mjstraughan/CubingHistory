@@ -40,7 +40,5 @@ In March 2014, Christopher Olson developed the same idea [^olson-2014], not know
 ![](img/LEG-1/LEG1-3.png)
 
 [^straughan-2012-1]: M. J. Straughan, "2x2 Pseudo Solving: Improving CLL and EG," SpeedSolving.com, 1 June 2012. [Online]. Available: https://www.speedsolving.com/threads/2x2-pseudo-solving-improving-cll-and-eg.37073/.
-
 [^straughan-2012-2]: M. J. Straughan, "A2," Straughan's website, 2012. [Online]. Available: https://sites.google.com/site/athefre/other-puzzles/nmcll.
-
 [^olson-2014]: C. Olson, "Introducing EG-1 Bar on Left Algs," SpeedSolving.com, 7 March 2014. [Online]. Available: https://www.speedsolving.com/threads/introducing-eg-1-bar-on-left-algs.46636/.

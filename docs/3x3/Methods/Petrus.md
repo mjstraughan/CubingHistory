@@ -87,7 +87,7 @@ On November 2, 1981, the day before the competition, the final list of 11 contes
 
 The competition was held on November 3, 1981 and the results of the competition were published the next day [^aftonbladet-1981] [^willborg-1981-2]. Petrus was announced as the champion, making the front page of the newspaper. Petrus achieved the best time at the competition of 40.48 seconds, also making it the Swedish national record.
 
-Petrus described an interesting coincidence related to the main story on the front page of the newspaper [1]:
+Petrus described an interesting coincidence related to the main story on the front page of the newspaper [^straughan-petrus-2025]:
 
 > I’m on the front page! If a Soviet submarine with nuclear weapons hadn’t crashed into the Swedish coast maybe I’d have topped it. Crazy story: A few days [later] I was invited as one of two guests on a current affairs TV show. The other guest was the Swedish foreign minister discussing the risk of war with Russia. I’m glad he did most of the talking…
 
@@ -102,7 +102,7 @@ images={[
 
 ## World Rubik's Cube Championship 1982
 
-Thanks to winning the Swedish Championship, Petrus was qualified and invited as a contestant in the World Rubik’s Cube Championship 1982. Before the competition, Aftonbladet again interviewed Petrus, asking how he feels and about his practice regimen [^aftonbladet-nd]. Petrus stated that he was now able to each day solve under his previous best of 27 seconds, and that his new personal record was 22.41 seconds. Petrus achieved a final solve time of 24.57 seconds at the 1982 championship, ranking him in fourth place [^singmaster-1982]. The day after the championship, on June 6, 1982, Aftonbladet published another interview with Petrus, congratulating him on his fourth place finish [^petrus-1982].
+Thanks to winning the Swedish Championship, Petrus was qualified and invited as a contestant in the World Rubik’s Cube Championship 1982. Before the competition, Aftonbladet again interviewed Petrus, asking how he feels and about his practice regimen [^aftonbladet-1982]. Petrus stated that he was now able to each day solve under his previous best of 27 seconds, and that his new personal record was 22.41 seconds. Petrus achieved a final solve time of 24.57 seconds at the 1982 championship, ranking him in fourth place [^singmaster-1982]. The day after the championship, on June 6, 1982, Aftonbladet published another interview with Petrus, congratulating him on his fourth place finish [^petrus-1982].
 
 <ImageCollage
 images={[
@@ -156,7 +156,7 @@ Thanks to Lars Petrus for providing in a private message a detailed description 
 [^willborg-1981-1]: B. Willborg, "Blir det ett nytt världsrekord?," Aftonbladet, 2 November 1981.
 [^aftonbladet-1981]: "Lars, 21 förste svenske kubmästaren," Aftonbladet, 4 November 1981.
 [^willborg-1981-2]: B. Willborg, "Grattis Lasse, till det svenska kubrekordet!," Aftonbladet, 4 November 1981.
-[^aftonbladet-nd]: B. Willborg, "HUR KÄNNS DET I DAG?".Aftonbladet.
+[^aftonbladet-1982]: B. Willborg, "HUR KÄNNS DET I DAG?".Aftonbladet.
 [^singmaster-1982]: D. Singmaster, Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm.
 [^petrus-1982]: L. Petrus, "Lars fyra i kub-VM," Aftonbladet, p. 19, 6 June 1982.
 [^petrus-nd]: L. Petrus, "Step 3," Lars Petrus, [Online]. Available: https://lar5.com/cube/fas3_2.html.

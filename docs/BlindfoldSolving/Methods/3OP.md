@@ -40,7 +40,7 @@ D' R2 D2 B2 R B' R F2 R' B R F2 R2 B2 D2 R2 D // UFL - DFR - UBR`}
 
 ## Original Development (Richard Carr)
 
-Around 2001 to 2002, Richard Carr developed a blindfold solving method that involved first separately orienting all corners and edges [^carr-2002]. The corners are then permuted using simple one move setups in combination with a corner three cycle algorithm executed on the U layer. Carr’s method was placed on Jessica Fridrich’s website.
+Around 2001 to 2002, Richard Carr developed a blindfold solving method that involved first separately orienting all corners and edges [^carr-2002-1]. The corners are then permuted using simple one move setups in combination with a corner three cycle algorithm executed on the U layer. Carr’s method was placed on Jessica Fridrich’s website.
 
 <ImageCollage
 images={[
@@ -62,7 +62,7 @@ images={[
 
 ## Discussion Between Carr and Hayden
 
-In August 2002, Carr and Hayden had a conversation comparing the difference in the permutation styles [^carr-nd-1] [^hayden-2002-2] [^carr-nd-2]. Carr stated that he had considered the way as described on Hayden’s site, but found it difficult.
+In August 2002, Carr and Hayden had a conversation comparing the difference in the permutation styles [^carr-2002-2] [^hayden-2002-2] [^carr-2002-3]. Carr stated that he had considered the way as described on Hayden’s site, but found it difficult.
 
 <ImageCollage
 images={[
@@ -78,18 +78,11 @@ On March 11, 1998, Wei-Hwa Huang asked the Cube Lovers mailing group if there we
 
 ![](../img/BlindfoldSolvingOrigins/Fridrich.png)
 
-[^carr-2002]: R. Carr, "Blindfold cubing," 2002. [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/BC.html.
-
+[^carr-2002-1]: R. Carr, "Blindfold cubing," 2002. [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/BC.html.
 [^hayden-2002-1]: O. Hayden, "Blindfold Cubing," February 2002. [Online]. Available: https://web.archive.org/web/20020221054757/http://homepage.ntlworld.com/angela.hayden/cube/blindfold_frontpage.html.
-
 [^makisumi-2008]: S. Makisumi, "A 3-Cycle Guide to 3x3x3 Blindfold Cubing," 1 January 2008. [Online]. Available: https://www.cubefreak.net/bld/3op_guide.php.
-
-[^carr-nd-1]: R. Carr, "Re: [Speed Solving Rubik's Cube] Blindfold," Speed Solving Rubik's Cube Yahoo Group, 16 August 2002. [Online].
-
+[^carr-2002-2]: R. Carr, "Re: [Speed Solving Rubik's Cube] Blindfold," Speed Solving Rubik's Cube Yahoo Group, 16 August 2002. [Online].
 [^hayden-2002-2]: O. Hayden, "Re: [Speed Solving Rubik's Cube] Blindfold," Speed Solving Rubik's Cube Yahoo Group, 19 August 2002. [Online].
-
-[^carr-nd-2]: R. Carr, "Re: [Speed Solving Rubik's Cube] Blindfold," Speed Solving Rubik's Cube Yahoo Group, 19 August 2002. [Online].
-
+[^carr-2002-3]: R. Carr, "Re: [Speed Solving Rubik's Cube] Blindfold," Speed Solving Rubik's Cube Yahoo Group, 19 August 2002. [Online].
 [^huang-1998]: W.-H. Huang, "Blindfold Cube-solving," Cube Lovers, 11 March 1998. [Online].
-
 [^fridrich-1998]: J. Fridrich, "Re: Blindfold Cube-solving," Cube Lovers, 11 March 1998. [Online].

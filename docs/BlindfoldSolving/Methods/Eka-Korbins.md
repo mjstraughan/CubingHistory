@@ -42,7 +42,5 @@ images={[
 />
 
 [^youri-2017]: Youri, "méthode eka-corners 1," 28 May 2017. [Online]. Available: https://twistypuzzles-ru.translate.goog/forum/index.php?topic=994.0&_x_tr_sch=http&_x_tr_sl=auto&_x_tr_tl=fr&_x_tr_hl=fr.
-
 [^karyakin-2011]: D. Karyakin, "eka-cornesr 1," 23 September 2011. [Online]. Available: https://speedcubing.ru/forum/index.php?topic=53.0.
-
 [^gritsenko-2011]: O. Gritsenko, "eka-korbins," 26 October 2011. [Online]. Available: https://speedcubing.ru/forum/index.php?topic=281.0.

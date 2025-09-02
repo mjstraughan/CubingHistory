@@ -85,19 +85,11 @@ In February, 2006, Heise described the goal of the method [^heise-2006-4]. The i
 ![](img/Heise/Goal.png)
 
 [^heise-2002-1]: R. Heise, "A different approach," Yahoo! Groups - Speed Solving Rubik's Cube, 26 August 2002. [Online].
-
 [^heise-2002-2]: R. Heise, "Possible improvement," Yahoo! Groups - Speed Solving Rubik's Cube, 11 December 2002. [Online].
-
 [^heise-2003]: R. Heise, "Details of my system," Yahoo! Groups - Speed Solving Rubik's Cube, 1 July 2003. [Online].
-
 [^heise-2006-1]: R. Heise, "link change," Yahoo! Groups - Speed Solving Rubik's Cube, 20 May 2006. [Online].
-
 [^heise-2004-1]: R. Heise, "Corners Last," Yahoo! Groups - Speed Solving Rubik's Cube, 12 August 2004. [Online].
-
 [^heise-2004-2]: R. Heise, "Corners Last - intuitive method," Yahoo! Groups - Speed Solving Rubik's Cube, 15 August 2004. [Online].
-
 [^heise-2006-2]: R. Heise, "Step 2," ryanheise.com, 2006. [Online]. Available: https://web.archive.org/web/20060417173202/http://www.ryanheise.com/cube/step2.html.
-
 [^heise-2006-3]: R. Heise, "Solving the edges plus 2 corners," ryanheise.com, 2006. [Online]. Available: https://web.archive.org/web/20060705001356/http://www.ryanheise.com/cube/method.html.
-
 [^heise-2006-4]: R. Heise, "Re: [Speed cubing group] Very important update to my site!!," Yahoo! Groups - Speed Solving Rubik's Cube, 21 February 2006. [Online].

@@ -45,7 +45,5 @@ A few days after the original ideas had been discussed, Fattah posted the method
 ![](img/WaterRoux/Proposal.png)
 
 [^fattah-garza-2017]: E. Fattah and M. Garza, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, March 2017. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1222720.
-
 [^fattah-2017-1]: E. Fattah, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 24 August 2017. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/page-199#post-1251599.
-
 [^fattah-2017-2]: E. Fattah, "The WaterRoux 3x3 method thread," SpeedSolving.com, 9 March 2017. [Online]. Available: https://www.speedsolving.com/threads/the-waterroux-3x3-method-thread.64140/.

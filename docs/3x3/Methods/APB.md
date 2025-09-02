@@ -81,21 +81,12 @@ Vincent Trang pushed for the 1x2x3 start to be the standard for the method [^tra
 ![Origin](img/APB/TrangPairTypes.png)
 
 [^straughan-2008]: M. J. Straughan, SpeedSolving.com, 25 October 2008. [Online]. Available: https://www.speedsolving.com/threads/the-disadvantage-of-block-building.7071/post-97217.
-
 [^straughan-2021-1]: M. J. Straughan, Discord, 3 May 2021. [Online]. Available: https://discord.com/channels/95625180205813760/373480359280640001/838755756505169940.
-
 [^straughan-2021-2]: M. J. Straughan, Discord, 19 May 2021. [Online]. Available: https://discord.com/channels/95625180205813760/373480359280640001/844259035300626432.
-
 [^straughan-2021-3]: M. J. Straughan, Discord, 4 May 2021. [Online]. Available: https://discord.com/channels/95625180205813760/373480359280640001/838827839050088451.
-
 [^straughan-2021-4]: M. J. Straughan, SpeedSolving.com, 17 September 2021. [Online]. Available: https://www.speedsolving.com/threads/apb-an-efficient-ergonomic-algorithmic-2x2x3-based-method.85409/.
-
 [^hudgens-2021]: R. Hudgens, Discord, 18 September 2021. [Online]. Available: https://discord.com/channels/455707295205294081/538836158344331306/888472853375221840.
-
 [^melkor-2021]: Melkor, Discord, 8 November 2021. [Online]. Available: https://discord.com/channels/885722463521103892/885783926541529109/906955240631337011.
-
 [^highducheck-2022]: L. Highducheck, Discord, 1 January 2022. [Online]. Available: https://discord.com/channels/769483322278805504/769491580762456104/926557167060910090.
-
 [^trang-2021-1]: V. Trang, Discord, 5 December 2021. [Online]. Available: https://discord.com/channels/769483322278805504/783035653947523073/916844822621458452.
-
 [^trang-2021-2]: V. Trang, Discord, 31 December 2021. [Online]. Available: https://discord.com/channels/926220744193622049/926224908369948672/926318861454835743.

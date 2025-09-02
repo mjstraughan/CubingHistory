@@ -64,21 +64,12 @@ As seen in the initial proposals, Gustavsson had given the algorithm set the nam
 ![](img/OLLCP/Name2.png)
 
 [^stuber-2005]: J. Stuber, "Oll+corners algs?," Yahoo! Groups - Speed Solving Rubik's Cube, 5 February 2005. [Online].
-
 [^akimoto-2005]: M. Akimoto, "Re: Oll+corners algs?," Yahoo! Groups - Speed Solving Rubik's Cube, 5 February 2005. [Online].
-
 [^li-2005]: D. Li, "Re: Your own method and algs," Yahoo! Groups - Speed Solving Rubik's Cube, 11 September 2005. [Online].
-
 [^gustavsson-2006-1]: K. Gustavsson, "Re: Freeslice F2L," Yahoo! Groups - Speed Solving Rubik's Cube, 17 September 2006. [Online].
-
 [^gustavsson-2006-2]: K. Gustavsson, "Extended CLL - Short: XCLL," Gustavsson's Website, September 2006. [Online]. Available: https://web.archive.org/web/20080415204030/http://web.comhem.se/solgrop/kub/XCLL.htm.
-
 [^gustavsson-2008]: K. Gustavsson, "A collection of CxLL algs.," SpeedSolving.com, 3 October 2008. [Online]. Available: https://www.speedsolving.com/threads/a-collection-of-cxll-algs.6365/post-91112.
-
 [^barlow-2011-1]: T. Barlow, "OLLCP (hax)," SpeedSolving.com, 15 August 2011. [Online]. Available: https://www.speedsolving.com/threads/ollcp-hax.31506/.
-
 [^barlow-2011-2]: T. Barlow, "OLLCP (hax)," SpeedSolving.com Wiki, 2011. [Online]. Available: https://web.archive.org/web/20120113073719/https://www.speedsolving.com/wiki/index.php/OLLCP_%28hax%29.
-
 [^barlow-brooks-2010]: T. Barlow and A. Brooks, "Accomplishment Thread," SpeedSolving.com, 20 July 2010. [Online]. Available: https://www.speedsolving.com/threads/accomplishment-thread.1688/post-420402.
-
 [^barlow-2010]: T. Barlow, "CPEOLL (Fridrich add on method)," SpeedSolving.com, 4 August 2010. [Online]. Available: https://www.speedsolving.com/threads/cpeoll-fridrich-add-on-method.23005/post-428797.

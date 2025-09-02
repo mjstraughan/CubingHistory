@@ -73,14 +73,14 @@ In September, 2015 Joseph Briggs proposed the steps of CEOR, matching those of A
 
 ![](img/CEOR/Briggs.png)
 
-The inspiration for Briggs' idea appears to have been a post from Clair Hedrick [^hedrick-nd] [^briggs-2015-2].
+The inspiration for Briggs' idea appears to have been a post from Clair Hedrick [^hedrick-2015] [^briggs-2015-2].
 
 ![](img/CEOR/BriggsHedrick1.png)
 ![](img/CEOR/BriggsHedrick2.png)
 
 ### Zbigniew Zborowski
 
-In August, 2017 Zbigniew Zborowski proposed a method named C2GR [^zborowski-2017-1] [^zborowski-2017-2]. This method contains the same steps as Arthurs and Briggs had previously proposed. During an email exchange between Zborowski and Michael James Straughan, Zborowski stated that he had been considering the idea since 2006, and that he has switched to this method and no longer uses the ZZ method [14]:
+In August, 2017 Zbigniew Zborowski proposed a method named C2GR [^zborowski-2017-1] [^zborowski-2017-2]. This method contains the same steps as Arthurs and Briggs had previously proposed. During an email exchange between Zborowski and Michael James Straughan, Zborowski stated that he had been considering the idea since 2006, and that he has switched to this method and no longer uses the ZZ method [^zborowski-straughan-2025]:
 
 > Maybe you know or not, but I am not using this system any more. During my "carier" I was looking for the system, that will be most ergonomic to achive best times in speedcubing. Since about 8 years I try my new system, which I called c2gr (complex two move generator reduction method). I was thinking about such a possibility (of permuting all corners in preinspection time) since 2006 (or even earlier). Below are the steps of my new system:
 >
@@ -115,46 +115,28 @@ Despite the arguments, or because of them, the method continued on to finally ga
 
 ## Method Combination and Name
 
-In December 2021, James Straughan proposed ending the method credit argument by combining all of the similar methods into one with a single name [^straughan-2021]. Mehta agreed that the method shouldn't be named after a person [^mehta-nd] [^mehta-2021] and Joseph Briggs suggested the acronym based name CEOR [^tudor-2021]. CEOR stands for **C**orner Permutation, **E**dge **O**rientation and stripe, **R**ight block. The CEOR name is a sort of adjacent name to the non-early corner permutation method LEOR, with the L standing for **L**eft block.
+In December 2021, James Straughan proposed ending the method credit argument by combining all of the similar methods into one with a single name [^straughan-2021]. Mehta agreed that the method shouldn't be named after a person [^mehta-2020] [^mehta-2021] and Joseph Briggs suggested the acronym based name CEOR [^tudor-2021]. CEOR stands for **C**orner Permutation, **E**dge **O**rientation and stripe, **R**ight block. The CEOR name is a sort of adjacent name to the non-early corner permutation method LEOR, with the L standing for **L**eft block.
 
 ![1](img/CEOR/CombinationProposal1.png)
 ![](img/CEOR/CombinationProposal2.png)
 ![](img/CEOR/TudorCEOR.png)
 
 [^arthurs-2012]: N. Arthurs, "Noah's CP-Block Method," SpeedSolving.com, 22 April 2012. [Online]. Available: https://www.speedsolving.com/threads/noahs-cp-block-method.36538/.
-
 [^arthurs-2013-1]: N. Arthurs, "Noah's CP Block Method 2.0," SpeedSolving.com, 14 May 2013. [Online]. Available: https://www.speedsolving.com/threads/noahs-cp-block-method-2-0.41986/.
-
 [^arthurs-2013-2]: N. Arthurs, "Noah's CP Block Method 2.0," SpeedSolving, 14 May 2013. [Online]. Available: https://www.speedsolving.com/threads/noahs-cp-block-method-2-0.41986/post-853203.
-
 [^petrus-1996]: L. Petrus, "Re: Speed cubing," Cube Lovers, 10 June 1996. [Online]. Available: http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/Lars_Petrus__Re__Speed_cubing.html.
-
 [^roux-2003]: G. Roux, "Results for 23/05/03 FMC," Fewest Moves Competition, 23 May 2003. [Online]. Available: https://web.archive.org/web/20040211055843/http://homepage.ntlworld.com/dan_j_harris/fmcresults/230503results.html.
-
 [^aquino-2011-1]: M. Aquino, "CPLS and 2GLL discussion," SpeedSolving.com, 20 June 2011. [Online]. Available: https://www.speedsolving.com/threads/cpls-and-2gll-discussion.24125/page-4#post-594576.
-
 [^aquino-2011-2]: M. Aquino, "F2G (MAF2L c/ FRUM Variation)," Google Sites, 20 June 2011. [Online]. Available: https://sites.google.com/site/recursoscuberos/f2g.
-
 [^aquino-2011-3]: M. Aquino, "Solve with F2G method - By DrMaquino," YouTube, 20 June 2011. [Online]. Available: https://www.youtube.com/watch?v=xLu7yQLS24Q.
-
 [^briggs-2015-1]: J. Briggs, "Briggs (3x3x3 method)," SpeedSolving.com, 19 September 2015. [Online]. Available: https://www.speedsolving.com/threads/briggs-3x3x3-method.55156/.
-
-[^hedrick-nd]: C. Hedrick, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 2013 September 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1116703.
-
+[^hedrick-2015]: C. Hedrick, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 13 September 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1116703.
 [^briggs-2015-2]: J. Briggs, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 13 September 2015. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1116737.
-
 [^zborowski-2017-1]: Z. Zborowski, "Complex 2-Move Generator Reduction Method (c2gr)," SpeedSolving.com, 20 August 2017. [Online]. Available: https://www.speedsolving.com/threads/complex-2-move-generator-reduction-method-c2gr.66089/.
-
 [^zborowski-2017-2]: Z. Zborowski, "Complex 2-Move Generator Reduction Method (c2gr)," OneDrive, 20 August 2017. [Online]. Available: https://onedrive.live.com/view.aspx?resid=A768425208665B6D!428&ithint=file%2cdocx&authkey=!AMvcyyr1lbYsxzk.
-
-[^nd)]: Z. Zborowski and M. J. Straughan, "ZZ Method," Personal Communication, 17 April 2025. [Online].
-
+[^zborowski-straughan-2025]: Z. Zborowski and M. J. Straughan, "ZZ Method," Personal Communication, 17 April 2025. [Online].
 [^mehta-2020]: Y. Mehta, "Roux-breaker? The YruRU method," SpeedSolving.com, 27 April 2020. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/.
-
 [^straughan-2021]: M. J. Straughan, "CP Method History - Noah’s CP Block, Briggs, YruRU, ZZ, and all others described," SpeedSolving.com, 13 December 2021. [Online]. Available: https://www.speedsolving.com/threads/cp-method-history-noah%E2%80%99s-cp-block-briggs-yruru-zz-and-all-others-described.85927/.
-
-[^mehta-nd]: Y. Mehta, "Roux-breaker? The YruRU method," 10 June 2020. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/page-12#post-1377651.
-
+[^mehta-2020]: Y. Mehta, "Roux-breaker? The YruRU method," 10 June 2020. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/page-12#post-1377651.
 [^mehta-2021]: Y. Mehta, "Roux-breaker? The YruRU method," SpeedSolving.com, 16 December 2021. [Online]. Available: https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/page-15#post-1464897.
-
 [^tudor-2021]: J. Tudor, "CP Method History - Noah’s CP Block, Briggs, YruRU, ZZ, and all others described," SpeedSolving.com, 13 December 2021. [Online]. Available: https://www.speedsolving.com/threads/cp-method-history-noah%E2%80%99s-cp-block-briggs-yruru-zz-and-all-others-described.85927/post-1464625.

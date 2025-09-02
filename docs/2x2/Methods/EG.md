@@ -57,11 +57,11 @@ In July 2008, David Woner generated all of the algorithms for EG2 and posted a t
 
 ## Prior Proposals and EG Name
 
-In 2005, Ron van Bruchem wrote about his experience at the 2005 Polish Open [^v-bruchem-2005]. During the competition Bruchem talked to Łukasz Ciałoń, the top performer at the competition in the 2x2x2 event, and asked about Ciałoń's strategies. The strategy according to Bruchem is the same as the steps of the method currently called EG:
+In 2005, Ron van Bruchem wrote about his experience at the 2005 Polish Open [^bruchem-2005]. During the competition Bruchem talked to Łukasz Ciałoń, the top performer at the competition in the 2x2x2 event, and asked about Ciałoń's strategies. The strategy according to Bruchem is the same as the steps of the method currently called EG:
 
 > He first solves one face without permuting the pieces, then he solves the rest of the cube in one step. That requires 3 (all corners correct, connecting corners swapped, opposite corners swapped) times 42 CLL algorithms!
 
-This means that Ciałoń had been using the method prior to it being published under the name EG. After the method was published by Akkersdijk and Krig, Ciałoń's use of the method was discussed on the Speed Solving Rubik's Cube Yahoo! group. In one message, Bruchem again described Ciałoń's strategies [^v-bruchem-2007]. This time more detail was provided, along with the inclusion of a third method that is L5C, or 1LLS as commonly called by 2x2x2 solvers.
+This means that Ciałoń had been using the method prior to it being published under the name EG. After the method was published by Akkersdijk and Krig, Ciałoń's use of the method was discussed on the Speed Solving Rubik's Cube Yahoo! group. In one message, Bruchem again described Ciałoń's strategies [^bruchem-2007]. This time more detail was provided, along with the inclusion of a third method that is L5C, or 1LLS as commonly called by 2x2x2 solvers.
 
 ![](img/EG/Ron.png)
 
@@ -92,45 +92,24 @@ If the method is about the idea, as Akkersdijk suggested, this would credit Cia�
 Thanks to Tadeáš Miler for providing Bruchem's 2005 Polish Open page and the SpeedSolving.com thread about Łukasz Ciałoń's 2.98 second average. This prompted further research as to Ciałoń's role in the method's development, use, and popularization.
 
 [^daneels-2006]: T. Daneels, "2x2 cube method," Yahoo! Groups - Speed Solving Rubik's Cube, 23 April 2006. [Online].
-
 [^krig-2006-1]: G. Krig, "Re: 2x2 cube method," Yahoo! Groups - Speed Solving Rubik's Cube, 25 April 2006. [Online].
-
 [^krig-2006-2]: G. Krig, "[Speed cubing group] Re: 2x2x2 Uber-Method," Yahoo! Groups - Speed Solving Rubik's Cube, 27 July 2006. [Online].
-
 [^krig-2006-3]: G. Krig, "[Speed cubing group] Re: Advanced 2x2 methods (really advanced)," Yahoo! Groups - Speed Solving Rubik's Cube, 12 October 2006. [Online].
-
 [^akkersdijk-2006-1]: E. Akkersdijk, "[Speed cubing group] Re: Advanced 2x2 methods (really advanced)," Yahoo! Groups - Speed Solving Rubik's Cube, 12 October 2006. [Online].
-
 [^gustavsson-2006]: K. Gustavsson, "[Speed cubing group] Re: Advanced 2x2 methods (really advanced)," Yahoo! Groups - Speed Solving Rubik's Cube, 12 October 2006. [Online].
-
 [^akkersdijk-2006-2]: E. Akkersdijk, "new 2x2 tutorials on my site," Yahoo! Groups - Speed Solving Rubik's Cube, 25 October 2006. [Online].
-
 [^akkersdijk-2006-3]: E. Akkersdijk, "EG Method," Akkersdijk's website, 2006. [Online]. Available: https://web.archive.org/web/20070710211656fw_/http://www.hio.hen.nl/~s98134/rubik/EGIndex.html.
-
 [^akkersdijk-2007-1]: E. Akkersdijk, "EG Method," Akkersdijk's website, 2007. [Online]. Available: https://web.archive.org/web/20071013114724/http://erikku.er.funpic.org/rubik/EGIndex.html.
-
 [^woner-2008-1]: D. Woner, "EG(D?) 2x2 method- 12.35 move avg.," SpeedSolving.com, 15 July 2008. [Online]. Available: https://www.speedsolving.com/threads/eg-d-2x2-method-12-35-move-avg.5184/.
-
-[^v-bruchem-2005]: R. v. Bruchem, "Report on Polish Open 2005," September 2005. [Online]. Available: https://www.speedcubing.com/events/po2005/polishopen2005.html.
-
-[^v-bruchem-2007]: R. v. Bruchem, "Re: [Speed cubing group] Re: Allowed / Blocked cubes at WC2007," Speed Solving Rubik's Cube Yahoo! Group, 28 May 2007. [Online].
-
+[^bruchem-2005]: R. v. Bruchem, "Report on Polish Open 2005," September 2005. [Online]. Available: https://www.speedcubing.com/events/po2005/polishopen2005.html.
+[^bruchem-2007]: R. v. Bruchem, "Re: [Speed cubing group] Re: Allowed / Blocked cubes at WC2007," Speed Solving Rubik's Cube Yahoo! Group, 28 May 2007. [Online].
 [^akkersdijk-2007-2]: E. Akkersdijk, "[Speed cubing group] Re: Allowed / Blocked cubes at WC2007," Speed Solving Rubik's Cube Yahoo! Group, 28 May 2007. [Online].
-
 [^gustavsson-2007]: K. Gustavsson, "[Speed cubing group] Re: Allowed / Blocked cubes at WC2007," Speed Solving Rubik's Cube Yahoo! Group, 30 May 2007. [Online].
-
 [^cialon-2008-1]: Ł. Ciałoń, "Lukasz Cialon 2.98 avg on 2x2," SpeedSolving.com, 7 September 2008. [Online]. Available: https://www.speedsolving.com/threads/lukasz-cialon-2-98-avg-on-2x2.6251/.
-
 [^woner-2008-2]: D. Woner, "Lukasz Cialon 2.98 avg on 2x2," SpeedSolving.com, 7 September 2008. [Online]. Available: https://www.speedsolving.com/threads/lukasz-cialon-2-98-avg-on-2x2.6251/post-84011.
-
 [^cialon-2008-2]: Ł. Ciałoń, "Lukasz Cialon 2.98 avg on 2x2," SpeedSolving.com, 7 September 2008. [Online]. Available: https://www.speedsolving.com/threads/lukasz-cialon-2-98-avg-on-2x2.6251/post-84012.
-
 [^woner-2008-3]: D. Woner, "EG(D?) 2x2 method- 12.35 move avg.," SpeedSolving.com, 16 July 2008. [Online]. Available: https://www.speedsolving.com/threads/eg-d-2x2-method-12-35-move-avg.5184/post-66935.
-
 [^akkersdijk-2008]: E. Akkersdijk, "EG(D?) 2x2 method- 12.35 move avg.," SpeedSolving.com, 16 July 2008. [Online]. Available: https://www.speedsolving.com/threads/eg-d-2x2-method-12-35-move-avg.5184/post-67026.
-
 [^gustavsson-2008]: K. Gustavsson, "EG(D?) 2x2 method- 12.35 move avg.," SpeedSolving.com, 16 July 2008. [Online]. Available: https://www.speedsolving.com/threads/eg-d-2x2-method-12-35-move-avg.5184/post-67056.
-
 [^pochmann-2006]: S. Pochmann, "new 2x2 tutorials on my site," SpeedSolving.com, 19 September 2006. [Online]. Available: https://www.speedsolving.com/threads/new-2x2-tutorials-on-my-site.441/post-3395.
-
 [^akkersdijk-2006-4]: E. Akkersdijk, "new 2x2 tutorials on my site," SpeedSolving.com, 20 September 2006. [Online]. Available: https://www.speedsolving.com/threads/new-2x2-tutorials-on-my-site.441/post-3415.

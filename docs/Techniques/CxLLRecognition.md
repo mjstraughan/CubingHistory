@@ -45,7 +45,7 @@ In NMCLL 2, the orientation of the left and right side stickers is checked, just
 
 ![](img/CxLLRecognition/ATCRM.png)
 
-In ATCRM, the orientation of the left and right side stickers is checked, just as in NMCLL 1 and NMCLL 2. Then, two pre-determined sticker locations are checked. ATCRM is a simplification of the NMCLL 2 recognition method, requiring just two stickers in the second step versus the original four. ATCRM originally started development as an adaption of NMCLL 2, retaining the second step four sticker method, for recognizing conjugated CMLL as used in the 42 method. During development, it was realized that only two stickers are necessary in the second step to completely identify corner cases. ATCRM was developed in 2021 [^jmark-2021] [^straussian-mosher-2021], with the recognition method created by Straughan and the document by Tim Mosher.
+In ATCRM, the orientation of the left and right side stickers is checked, just as in NMCLL 1 and NMCLL 2. Then, two pre-determined sticker locations are checked. ATCRM is a simplification of the NMCLL 2 recognition method, requiring just two stickers in the second step versus the original four. ATCRM originally started development as an adaption of NMCLL 2, retaining the second step four sticker method, for recognizing conjugated CMLL as used in the 42 method. During development, it was realized that only two stickers are necessary in the second step to completely identify corner cases. ATCRM was developed in 2021 [^jmark-2021] [^straughan-mosher-2021], with the recognition method created by Straughan and the document by Tim Mosher.
 
 ![](img/CxLLRecognition/ATCRMRelease.png)
 ![](img/CxLLRecognition/ATCRM2.png)
@@ -59,27 +59,15 @@ The Straughan recognition method contains one step and is based on finding the m
 ![](img/CxLLRecognition/Straughan2.png)
 
 [^waterman-krammer-1981]: M. Waterman and D. Krammer, The Algorithm of Marc Waterman and Daan Krammer, 1981.
-
 [^roux-2004-1]: G. Roux, ""LL" corners," Yahoo! Groups - Speed Solving Rubik's Cube, 6 December 2004. [Online].
-
 [^roux-2004-2]: G. Roux, "Step 3," Roux's website, 2004. [Online]. Available: https://web.archive.org/web/20041214140729/http://grrroux.free.fr:80/method/Step_3.html.
-
 [^straughan-2006]: M. J. Straughan, "NMCMLL," Personal communication, 3 October 2006. [Online].
-
 [^roux-2006]: G. Roux, "Step 3," Roux Method Website, 2006. [Online]. Available: http://grrroux.free.fr/method/Step_3.html.
-
 [^smith-2007]: R. Smith, "Hyperorientation Recognition," 2007. [Online]. Available: https://web.archive.org/web/20140527061214/http://home.comcast.net/~quadricode/hyperorientations/.
-
 [^straughan-2010]: M. J. Straughan, "I found a new way to recognize NMCMLL," Personal communication, 26 April 2010. [Online].
-
 [^roux-2011]: G. Roux, "Step 3," Roux Method Website, 2011. [Online]. Available: https://web.archive.org/web/20111204185452/http://grrroux.free.fr/method/Step_3.html.
-
 [^jmark-2021]: JMark, Discord, 19 December 2021. [Online]. Available: https://discord.com/channels/913104731814105088/913129515541233734/922200195092066355.
-
-[^straussian-mosher-2021]: M. J. Straughan and T. Mosher, "ATCRM," Straughan's Website, 2021. [Online]. Available: https://sites.google.com/site/athefre/recognition/atcrm.
-
+[^straughan-mosher-2021]: M. J. Straughan and T. Mosher, "ATCRM," Straughan's Website, 2021. [Online]. Available: https://sites.google.com/site/athefre/recognition/atcrm.
 [^straughan-2024-1]: M. J. Straughan, Discord, 17 May 2024. [Online]. Available: https://discord.com/channels/885722463521103892/885722523013103667/1240932644334866442.
-
 [^straughan-2024-2]: M. J. Straughan, "Straughan Recognition," 2024. [Online]. Available: https://sites.google.com/site/athefre/recognition/straughan-recognition?authuser=0.
-
 [^straughan-2025]: M. J. Straughan, "Straughan Recognition," 17 May 2025. [Online]. Available: https://sites.google.com/site/athefre/recognition/straughan-recognition.

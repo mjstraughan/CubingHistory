@@ -37,7 +37,7 @@ English translation of the Cubism For Fun article:
 
 ### John White
 
-The earliest person known to have been capable of solving the cube blindfolded is John White. In Cubic Circular, David Singmaster reported three separate times on White’s ability to solve the cube without looking [^singmaster-cubic-circular-issue-1-nd] [^singmaster-cubic-circular-issue-2-nd] [^singmaster-cubic-circular-issue-3-4-nd]. These reports started in late 1981.
+The earliest person known to have been capable of solving the cube blindfolded is John White. In Cubic Circular, David Singmaster reported three separate times on White’s ability to solve the cube without looking [^singmaster-1] [^singmaster-2] [^singmaster-3]. These reports started in late 1981.
 
 Cubic Circular Issue 1:
 
@@ -63,7 +63,7 @@ Another mention on Cube Lovers is Joe Killian. On June 21, 1992, Michael Reid, o
 
 ### Gaétan Guimond
 
-In the early years of the online community, Gaétan Guimond often claimed that he was the first person to solve the cube blindfolded on television [^guimond-extreme-message-2004]. He occasionally posted messages to the Speed Solving Rubik’s Cube Yahoo group, including a link to his website that contains videos of him blindfold solving [^guimond-le-premier-humain-a-resoudre-un-cube-sans-regarder-2011] [^guimond-tv-apparitions-nd]. The videos depict various different television appearances from the early 1990s through the early 2000s.
+In the early years of the online community, Gaétan Guimond often claimed that he was the first person to solve the cube blindfolded on television [^guimond-2004]. He occasionally posted messages to the Speed Solving Rubik’s Cube Yahoo group, including a link to his website that contains videos of him blindfold solving [^guimond-2011] [^guimond-nd]. The videos depict various different television appearances from the early 1990s through the early 2000s.
 
 <ImageCollage
 images={[
@@ -76,19 +76,19 @@ images={[
 
 ## First Multi-Blind Solvers
 
-Around the same time that blindfold solving started to gain popularity, multi-blind was also being practiced. The first recorded person to have memorized and blindfold solved more than one cube in a single session is Geir Ugelstad in 1998. Soon after, others followed, continually increasing the number solved. A history of a record of the most cubes solved can be viewed on recordholders.org [^laue-world-record-for-doing-a-rubiks-cube-while-blindfolded-nd]. This is a site created by Ralf Lau, one of the early multi-blind unofficial record holders.
+Around the same time that blindfold solving started to gain popularity, multi-blind was also being practiced. The first recorded person to have memorized and blindfold solved more than one cube in a single session is Geir Ugelstad in 1998. Soon after, others followed, continually increasing the number solved. A history of a record of the most cubes solved can be viewed on recordholders.org [^laue-nd]. This is a site created by Ralf Lau, one of the early multi-blind unofficial record holders.
 
 ![](img/BlindfoldSolvingOrigins/MultiBLDRecords.png)
 
-There were others who were able to solve more than one cube in succession. Notably Richard Carr is missing from the record list. In August 2002, Carr posted that he had solved four cubes blindfolded in a total time of two hours including memorization [^carr-a-night-of-4s-2002]. Carr also mentions his multi-blind achievements on his page hosted on Jessica Fridrich’s website [^carr-nd].
+There were others who were able to solve more than one cube in succession. Notably Richard Carr is missing from the record list. In August 2002, Carr posted that he had solved four cubes blindfolded in a total time of two hours including memorization [^carr-2002]. Carr also mentions his multi-blind achievements on his page hosted on Jessica Fridrich’s website [^carr-nd].
 
 ![](img/BlindfoldSolvingOrigins/Carr1.png)
 
-In August 2002, Ron van Bruchem announced to the Speed Solving Rubik’s Cube Yahoo group that Dave Barr had solved 3 cubes blindfolded [^v-bruchem-cheers-for-another-3-cubes-blindfold-2002].
+In August 2002, Ron van Bruchem announced to the Speed Solving Rubik’s Cube Yahoo group that Dave Barr had solved 3 cubes blindfolded [^bruchem-2002].
 
 ![](img/BlindfoldSolvingOrigins/Bruchem.png)
 
-Other early multi-blind solvers can be viewed on the speedcubing.com record page [^v-bruchem-rubiks-cube-blindfolded-number-of-cubes-nd]. An interesting example is Dave Orser, who in 2003 solved 10 cubes in succession blindfolded.
+Other early multi-blind solvers can be viewed on the speedcubing.com record page [^bruchem-nd]. An interesting example is Dave Orser, who in 2003 solved 10 cubes in succession blindfolded.
 
 ![](img/BlindfoldSolvingOrigins/Orser.png)
 
@@ -96,7 +96,7 @@ Other early multi-blind solvers can be viewed on the speedcubing.com record page
 
 ### John White
 
-John White was previously covered in the First Solvers section as the first known blindfold solver. In January 2004, Duncan Dicks stated that he used to practice blindfold solving with John White [^dicks-re-blindfold-cube-solving-2004]. White was able to solve blindfolded in around 20 minutes on at least one occasion. They didn’t use any sort of piece preservation techniques as in modern blindfold solving. Instead, it appears that their blindfold solving style was more akin to SpeedBLD [^dicks-re-speed-cubing-group-tournaments-2005]. In SpeedBLD, a normal solving method is used and all pieces are tracked during the memorization phase.
+John White was previously covered in the First Solvers section as the first known blindfold solver. In January 2004, Duncan Dicks stated that he used to practice blindfold solving with John White [^dicks-2004]. White was able to solve blindfolded in around 20 minutes on at least one occasion. They didn’t use any sort of piece preservation techniques as in modern blindfold solving. Instead, it appears that their blindfold solving style was more akin to SpeedBLD [^dicks-2005]. In SpeedBLD, a normal solving method is used and all pieces are tracked during the memorization phase.
 
 <ImageCollage
 images={[
@@ -107,13 +107,13 @@ images={[
 
 ### Jessica Fridrich
 
-The first known online description of the idea of preserving the location of other pieces as a technique for blindfold solving comes from Jessica Fridrich. On March 11 1998, Fridrich responded to a question in the Cube Lovers mailing group about whether blindfold solving is possible. Fridrich suggested that it may be possible to first orient all pieces, preserving their permutation, then permute all pieces, preserving their orientation [^fridrich-re-blindfold-cube-solving-1998].
+The first known online description of the idea of preserving the location of other pieces as a technique for blindfold solving comes from Jessica Fridrich. On March 11 1998, Fridrich responded to a question in the Cube Lovers mailing group about whether blindfold solving is possible. Fridrich suggested that it may be possible to first orient all pieces, preserving their permutation, then permute all pieces, preserving their orientation [^fridrich-1998].
 
 ![](img/BlindfoldSolvingOrigins/Fridrich.png)
 
 ### Dan Knights
 
-Around a year and a half later, Dan Knights described his blindfold solving process. On October 4 1999 in the Cube Lovers mailing list, Knights described a process similar to Fridrich’s discussion from the year prior [^knights-3-cube-in-1-one-look-1999]. Knights first solves the corners, preserving the edges, then solves the edges.
+Around a year and a half later, Dan Knights described his blindfold solving process. On October 4 1999 in the Cube Lovers mailing list, Knights described a process similar to Fridrich’s discussion from the year prior [^knights-1999-1]. Knights first solves the corners, preserving the edges, then solves the edges.
 
 <ImageCollage
 images={[
@@ -122,7 +122,7 @@ images={[
 ]}
 />
 
-A few weeks later, Knights described the entire process in more detail [^knights-3-cube-in-1-look-1999]. This is the first known list of steps and written guide for blindfold solving. Knights also described the modern technique of memorizing the “path” or sequence of solutions rather than memorizing the locations of pieces then visualizing solving them. The steps are:
+A few weeks later, Knights described the entire process in more detail [^knights-1999-2]. This is the first known list of steps and written guide for blindfold solving. Knights also described the modern technique of memorizing the “path” or sequence of solutions rather than memorizing the locations of pieces then visualizing solving them. The steps are:
 
 1. Permute corners
 2. Orient corners
@@ -136,13 +136,13 @@ images={[
 ]}
 />
 
-Knights later added a description of the method to his website [^knights-about-rubiks-cube-you-can-solve-it-with-your-eyes-closed-2001].
+Knights later added a description of the method to his website [^knights-nd].
 
 ![](img/BlindfoldSolvingOrigins/Knights5.png)
 
 ### Richard Carr
 
-In the early 2000s, Richard Carr began discussing his method with the Speed Solving Rubik’s Cube Yahoo group. Eventually Jessica Fridrich started hosting some of his webpages on her website. Carr’s solving process is described on three different pages [^carr-blindfold-cubing-nd] [^carr-blindfold-cubing-2002] [^carr-blindfold-revenge-2002]. This method is sort of the opposite of Dan Knights’ method in that pieces are oriented then permuted. The steps of the method as listed in the PDF:
+In the early 2000s, Richard Carr began discussing his method with the Speed Solving Rubik’s Cube Yahoo group. Eventually Jessica Fridrich started hosting some of his webpages on her website. Carr’s solving process is described on three different pages [^carr-2002-1] [^carr-2002-2] [^carr-2002-3]. This method is sort of the opposite of Dan Knights’ method in that pieces are oriented then permuted. The steps of the method as listed in the PDF:
 
 1. Orient corners
 2. Orient edges
@@ -155,7 +155,7 @@ Carr also explained his memorization process. First the cube is oriented to have
 
 ### Olly Hayden
 
-On March 23 2002, Olly Hayden added pages to his website describing blindfold solving [^hayden-blindfold-cubing-2002-1]. The steps of the method are the same as those used by Richard Carr [^hayden-blindfold-cubing-2002-2]. Hayden’s memorization process of assigning numbers to each piece is also similar [^hayden-blindfold-cubing-2002-3]. In August 2002, Hayden explained the thought process behind the development of the method [^hayden-re-speed-solving-rubiks-cube-blindfold-2002].
+On March 23 2002, Olly Hayden added pages to his website describing blindfold solving [^hayden-2002-1]. The steps of the method are the same as those used by Richard Carr [^hayden-2002-2]. Hayden’s memorization process of assigning numbers to each piece is also similar [^hayden-2002-3]. In August 2002, Hayden explained the thought process behind the development of the method [^hayden-2002-4].
 
 1. Orient corners
 2. Orient edges
@@ -172,13 +172,13 @@ images={[
 
 ### Grant Tregay
 
-On December 1 2002, Grant Tregay created a webpage describing blindfold solving [^tregay-grant-tregay-and-erno-rubiks-cube-2002]. On the page, Tregay states that his method is the same as Richard Carr’s [^tregay-blindfold-cubing-2002]. One key difference is that Tregay used algorithms that he had already been using for normal solving rather than more blindfold solving optimal algorithms.
+On December 1 2002, Grant Tregay created a webpage describing blindfold solving [^tregay-2002-1]. On the page, Tregay states that his method is the same as Richard Carr’s [^tregay-2002-2]. One key difference is that Tregay used algorithms that he had already been using for normal solving rather than more blindfold solving optimal algorithms.
 
 ![](img/BlindfoldSolvingOrigins/Tregay.png)
 
 ### Stefan Pochmann
 
-In March 2004, Stefan Pochmann published a new blindfold solving method to his website [^pochmann-re-blindfold-cubing-parity-error-2004] [^pochmann-single-algorithm-3x3-blindsolving-2004]. The method, now called Classic Pochmann, uses a single algorithm the - T Permutation PLL algorithm. The advancement provided by Classic Pochmann is the direct solving of pieces, contrasting with the separation of orientation and permutation seen in previous methods. On the webpage for the method, Pochmann stated that the reason for the development of the method was to prove that the cube could be solved blindfolded using just one algorithm. The methods that others had been using typically used involved the use of several algorithms. The method may have also been inspired by a post from Pochmann a couple of weeks prior to the new blindfold method announcement. Pochmann had been experimenting with using a single algorithm to solve CLL and other steps, and later in the post mentioned its application to blindfold solving [^pochmann-boy-am-i-proud-my-cll-method-and-applications-2004].
+In March 2004, Stefan Pochmann published a new blindfold solving method to his website [^pochmann-2004-1] [^pochmann-2004-2]. The method, now called Classic Pochmann, uses a single algorithm the - T Permutation PLL algorithm. The advancement provided by Classic Pochmann is the direct solving of pieces, contrasting with the separation of orientation and permutation seen in previous methods. On the webpage for the method, Pochmann stated that the reason for the development of the method was to prove that the cube could be solved blindfolded using just one algorithm. The methods that others had been using typically used involved the use of several algorithms. The method may have also been inspired by a post from Pochmann a couple of weeks prior to the new blindfold method announcement. Pochmann had been experimenting with using a single algorithm to solve CLL and other steps, and later in the post mentioned its application to blindfold solving [^pochmann-2004-3].
 
 The webpage also proposes the idea of a zero algorithm method that uses intuitive three cycles, which may be similar to the later developed method called 3-Style. Pochmann states “Actually of course you don't need to know any algorithms if you can invent what you need on the fly, e.g. with simple intuitive commutators doing 3-cycles (that's how I solved the Megaminx blindfolded).”
 
@@ -194,7 +194,7 @@ images={[
 
 ### Hao Cheng, Chris Hardwick, and Daniel Beyer
 
-Following Pochmann’s developments of direct solving pieces, blindfold solvers naturally progressed to direct solving two or more pieces at a time. The idea could already be seen in Pochmann’s use of freestyle 3-cycles in solving the Megaminx, and his subsequent mention of its possible application to 3x3x3 blindfold solving. The use of 3-cycles could also be seen in Chris Hardwick’s big cube blindfold solves [^hardwick-re-more-4x4x4-bld-2005]. However, for 3x3x3 applications, it wasn’t until around 2006 that the idea received development. In March 2006, 程浩 (Hao Cheng) proposed to the MF8 message board the use of 3-cycles for corners and edges to solve two pieces at a time [^cheng-san-xing-lu-xing-jie-dong-2006]. Starting around 2007, Hardwick began suggesting that the use of freestyle 3-cycles may have potential when used in 3x3x3 blindfold solving [^hardwick-treating-the-3x3x3-as-part-of-a-5x5x5-2007]. From around 2008 to 2009 Hardwick and Daniel Beyer developed a complete 3-cycle method for 3x3x3 blindfold solving called BH [^hardwick-interest-in-a-bh-method-website-2009-1] [^hardwick-interest-in-a-bh-method-website-2009-2]. The developments by Cheng, Hardwick, and Beyer laid the foundations for the umbrella method of freestyle blindfold solving.
+Following Pochmann’s developments of direct solving pieces, blindfold solvers naturally progressed to direct solving two or more pieces at a time. The idea could already be seen in Pochmann’s use of freestyle 3-cycles in solving the Megaminx, and his subsequent mention of its possible application to 3x3x3 blindfold solving. The use of 3-cycles could also be seen in Chris Hardwick’s big cube blindfold solves [^hardwick-2005]. However, for 3x3x3 applications, it wasn’t until around 2006 that the idea received development. In March 2006, 程浩 (Hao Cheng) proposed to the MF8 message board the use of 3-cycles for corners and edges to solve two pieces at a time [^cheng-2006]. Starting around 2007, Hardwick began suggesting that the use of freestyle 3-cycles may have potential when used in 3x3x3 blindfold solving [^hardwick-2007]. From around 2008 to 2009 Hardwick and Daniel Beyer developed a complete 3-cycle method for 3x3x3 blindfold solving called BH [^hardwick-2009-1] [^hardwick-2009-2]. The developments by Cheng, Hardwick, and Beyer laid the foundations for the umbrella method of freestyle blindfold solving.
 
 <ImageCollage
 images={[
@@ -212,79 +212,41 @@ It is unknown who popularized or first used the term “blindfold” solving ver
 ![](img/BlindfoldSolvingOrigins/Zimmermann.png)
 
 [^zimmermann-1980]: M. Zimmermann, ""blindfold" cube?," Cube Lovers, 25 July 1980. [Online].
-
 [^atwood-1998]: M. Atwood, Cube Lovers, 12 March 1998. [Online].
-
 [^steenhuis-1985]: K. Steenhuis, "ALTERNATIEVE IDEEËN VOOR HET STELLEN VAN KUBUS-OPGAVEN," Cubism For Fun, no. 10, p. 5, 1985.
-
-[^singmaster-cubic-circular-issue-1-nd]: D. Singmaster, "Cubic Circular Issue 1," Jaap's Puzzle Page, [Online]. Available: https://www.jaapsch.net/puzzles/cubic1.htm#p13.
-
-[^singmaster-cubic-circular-issue-2-nd]: D. Singmaster, "Cubic Circular Issue 2," Jaap's Puzzle Page, [Online]. Available: https://www.jaapsch.net/puzzles/cubic2.htm#p4.
-
-[^singmaster-cubic-circular-issue-3-4-nd]: D. Singmaster, "Cubic Circular Issue 3/4," Jaap's Puzzle Page, [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p7.
-
+[^singmaster-1]: D. Singmaster, "Cubic Circular Issue 1," Jaap's Puzzle Page, [Online]. Available: https://www.jaapsch.net/puzzles/cubic1.htm#p13.
+[^singmaster-2]: D. Singmaster, "Cubic Circular Issue 2," Jaap's Puzzle Page, [Online]. Available: https://www.jaapsch.net/puzzles/cubic2.htm#p4.
+[^singmaster-3]: D. Singmaster, "Cubic Circular Issue 3/4," Jaap's Puzzle Page, [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p7.
 [^gvksen-1999]: Gvksen, "Rubik's cube," Cube Lovers, 17 February 1999. [Online].
-
 [^reid-1992]: M. Reid, "Re: reminiscences," Cube Lovers, 21 June 1992. [Online].
-
-[^guimond-extreme-message-2004]: G. Guimond, "EXTREME MESSAGE," Speed Solving Rubik's Cube Yahoo Group, 6 May 2004. [Online].
-
-[^guimond-le-premier-humain-a-resoudre-un-cube-sans-regarder-2011]: G. Guimond, "Le premier humain à résoudre un cube sans regarder," YouTube, 13 February 2011. [Online]. Available: https://www.youtube.com/watch?v=VZuC1lXnUcc.
-
-[^guimond-tv-apparitions-nd]: G. Guimond, "TV Apparitions," [Online]. Available: https://web.archive.org/web/20050405213835/http://www.rubikscuberecord.com/.
-
-[^laue-world-record-for-doing-a-rubiks-cube-while-blindfolded-nd]: R. Laue, "World Record For Doing A Rubik's Cube While Blindfolded," recordholders.org, [Online]. Available: https://www.recordholders.org/en/records/rubik-blindfold.html.
-
-[^carr-a-night-of-4s-2002]: R. Carr, "A night of 4s," Speed Solving Rubik's Cube, 29 August 2002. [Online].
-
+[^guimond-2004]: G. Guimond, "EXTREME MESSAGE," Speed Solving Rubik's Cube Yahoo Group, 6 May 2004. [Online].
+[^guimond-2011]: G. Guimond, "Le premier humain à résoudre un cube sans regarder," YouTube, 13 February 2011. [Online]. Available: https://www.youtube.com/watch?v=VZuC1lXnUcc.
+[^guimond-nd]: G. Guimond, "TV Apparitions," [Online]. Available: https://web.archive.org/web/20050405213835/http://www.rubikscuberecord.com/.
+[^laue-nd]: R. Laue, "World Record For Doing A Rubik's Cube While Blindfolded," recordholders.org, [Online]. Available: https://www.recordholders.org/en/records/rubik-blindfold.html.
+[^carr-2002]: R. Carr, "A night of 4s," Speed Solving Rubik's Cube, 29 August 2002. [Online].
 [^carr-nd]: R. Carr, Carr's Page on Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/times.html.
-
-[^v-bruchem-cheers-for-another-3-cubes-blindfold-2002]: R. v. Bruchem, "Cheers for another 3 cubes blindfold!," Speed Solving Rubik's Cube Yahoo Group, 16 August 2002. [Online].
-
-[^v-bruchem-rubiks-cube-blindfolded-number-of-cubes-nd]: R. v. Bruchem, "Rubik's Cube: Blindfolded number of cubes," speedcubing.com, [Online]. Available: https://speedcubing.com/records/recs_bf_333num.html.
-
-[^dicks-re-blindfold-cube-solving-2004]: D. Dicks, "Re: [Speed cubing group] Finally, I solved 3x3 in blindfold manner!," Speed Solving Rubik's Cube Yahoo Group, 8 January 2004. [Online].
-
-[^dicks-re-speed-cubing-group-tournaments-2005]: D. Dicks, "Re: [Speed cubing group] $ at tournaments?," Speed Solving Rubik's Cube Yahoo Group, 9 February 2005. [Online].
-
-[^fridrich-re-blindfold-cube-solving-1998]: J. Fridrich, "Re: Blindfold Cube-solving," Cube Lovers, 11 March 1998. [Online].
-
-[^knights-3-cube-in-1-one-look-1999]: D. Knights, "3-Cube in 1 One-Look," Cube Lovers, 4 October 1999. [Online].
-
-[^knights-3-cube-in-1-look-1999]: D. Knights, "3-Cube in 1 Look," Cube Lovers, 28 October 1999. [Online].
-
-[^knights-about-rubiks-cube-you-can-solve-it-with-your-eyes-closed-2001]: D. Knights, "About Rubik's Cube: You can solve it with your eyes closed?-->," Dan Knights, [Online]. Available: https://web.archive.org/web/20010421113506/http://benjerry.middlebury.edu/~knights/Cube/CubeInfo1.html.
-
-[^carr-blindfold-cubing-nd]: R. Carr, Carr's Page on Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/blindfoldtechnique.html.
-
-[^carr-blindfold-cubing-2002]: R. Carr, "Blindfold cubing," Carr's Page on Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/BC.html.
-
-[^carr-blindfold-revenge-2002]: R. Carr, "Blindfold Cubing," Carr's Page on Fridrich's Website, 23 February 2002. [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/BlindfoldRevenge.pdf.
-
-[^hayden-blindfold-cubing-2002-1]: O. Hayden, "Blindfold Cubing," Olly Hayden, 23 March 2002. [Online]. Available: https://web.archive.org/web/20021221012211fw_/http://homepage.ntlworld.com/angela.hayden/cube/blindfold_frontpage.html.
-
-[^hayden-blindfold-cubing-2002-2]: O. Hayden, "Blindfold Cubing," Olly Hayden, 23 March 2002. [Online]. Available: https://web.archive.org/web/20030407141931fw_/http://homepage.ntlworld.com/angela.hayden/cube/blind4.html.
-
-[^hayden-blindfold-cubing-2002-3]: O. Hayden, "Blindfold Cubing," Olly Hayden, 23 March 2002. [Online]. Available: https://web.archive.org/web/20030407141316fw_/http://homepage.ntlworld.com/angela.hayden/cube/blind2.html.
-
-[^hayden-re-speed-solving-rubiks-cube-blindfold-2002]: O. Hayden, "Re: [Speed Solving Rubik's Cube] Blindfold," Speed Solving Rubik's Cube Yahoo Group, 19 August 2002. [Online].
-
-[^tregay-grant-tregay-and-erno-rubiks-cube-2002]: G. Tregay, "Grant Tregay and Ernö Rubik's Cube," Grant Tregay, 1 December 2002. [Online]. Available: https://www.grantnbetty.com/cube/.
-
-[^tregay-blindfold-cubing-2002]: G. Tregay, "Blindfold Cubing," Grant Tregay, 1 December 2002. [Online]. Available: https://www.grantnbetty.com/cube/blindfold.html.
-
-[^pochmann-re-blindfold-cubing-parity-error-2004]: S. Pochmann, "Re: Blindfold cubing: Parity error," Speed Solving Rubik's Cube Yahoo Group, 7 March 2004. [Online].
-
-[^pochmann-single-algorithm-3x3-blindsolving-2004]: S. Pochmann, "Single algorithm 3x3 blindsolving," Stefan Pochmann, March 2004. [Online]. Available: https://www.stefan-pochmann.info/spocc/blindsolving/3x3_single_alg/old_index.php.
-
-[^pochmann-boy-am-i-proud-my-cll-method-and-applications-2004]: S. Pochmann, "Boy am I proud - My CLL method and applications," Speed Solving Rubik's Cube Yahoo Group, 26 February 2004. [Online].
-
-[^hardwick-re-more-4x4x4-bld-2005]: C. Hardwick, "Re: more 4x4x4 BLD," Blindfold Solving Rubik's Cube Yahoo! Group, 15 November 2005. [Online].
-
-[^cheng-san-xing-lu-xing-jie-dong-2006]: H. Cheng, "三循环同时解决位置和方向（思路）," 18 March 2006. [Online]. Available: http://bbs.mf8-china.com/forum.php?mod=viewthread&tid=2101&extra=&page=1.
-
-[^hardwick-treating-the-3x3x3-as-part-of-a-5x5x5-2007]: C. Hardwick, "Treating the 3x3x3 as part of a 5x5x5," Blindfold Solving Rubik's Cube Yahoo! Group, 21 January 2007. [Online].
-
-[^hardwick-interest-in-a-bh-method-website-2009-1]: C. Hardwick, "Interest in a BH method website?," SpeedSolving.com, 3 May 2009. [Online]. Available: https://www.speedsolving.com/threads/interest-in-a-bh-method-website.10756/post-174576.
-
-[^hardwick-interest-in-a-bh-method-website-2009-2]: C. Hardwick, "Interest in a BH method website?," SpeedSolving.com, 12 May 2009. [Online]. Available: https://www.speedsolving.com/threads/interest-in-a-bh-method-website.10756/post-178458.
+[^bruchem-2002]: R. v. Bruchem, "Cheers for another 3 cubes blindfold!," Speed Solving Rubik's Cube Yahoo Group, 16 August 2002. [Online].
+[^bruchem-nd]: R. v. Bruchem, "Rubik's Cube: Blindfolded number of cubes," speedcubing.com, [Online]. Available: https://speedcubing.com/records/recs_bf_333num.html.
+[^dicks-2004]: D. Dicks, "Re: [Speed cubing group] Finally, I solved 3x3 in blindfold manner!," Speed Solving Rubik's Cube Yahoo Group, 8 January 2004. [Online].
+[^dicks-2005]: D. Dicks, "Re: [Speed cubing group] $ at tournaments?," Speed Solving Rubik's Cube Yahoo Group, 9 February 2005. [Online].
+[^fridrich-1998]: J. Fridrich, "Re: Blindfold Cube-solving," Cube Lovers, 11 March 1998. [Online].
+[^knights-1999-1]: D. Knights, "3-Cube in 1 One-Look," Cube Lovers, 4 October 1999. [Online].
+[^knights-1999-2]: D. Knights, "3-Cube in 1 Look," Cube Lovers, 28 October 1999. [Online].
+[^knights-nd]: D. Knights, "About Rubik's Cube: You can solve it with your eyes closed?-->," Dan Knights, [Online]. Available: https://web.archive.org/web/20010421113506/http://benjerry.middlebury.edu/~knights/Cube/CubeInfo1.html.
+[^carr-2002-1]: R. Carr, Carr's Page on Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/blindfoldtechnique.html.
+[^carr-2002-2]: R. Carr, "Blindfold cubing," Carr's Page on Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/BC.html.
+[^carr-2002-3]: R. Carr, "Blindfold Cubing," Carr's Page on Fridrich's Website, 23 February 2002. [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/BlindfoldRevenge.pdf.
+[^hayden-2002-1]: O. Hayden, "Blindfold Cubing," Olly Hayden, 23 March 2002. [Online]. Available: https://web.archive.org/web/20021221012211fw_/http://homepage.ntlworld.com/angela.hayden/cube/blindfold_frontpage.html.
+[^hayden-2002-2]: O. Hayden, "Blindfold Cubing," Olly Hayden, 23 March 2002. [Online]. Available: https://web.archive.org/web/20030407141931fw_/http://homepage.ntlworld.com/angela.hayden/cube/blind4.html.
+[^hayden-2002-3]: O. Hayden, "Blindfold Cubing," Olly Hayden, 23 March 2002. [Online]. Available: https://web.archive.org/web/20030407141316fw_/http://homepage.ntlworld.com/angela.hayden/cube/blind2.html.
+[^hayden-2002-4]: O. Hayden, "Re: [Speed Solving Rubik's Cube] Blindfold," Speed Solving Rubik's Cube Yahoo Group, 19 August 2002. [Online].
+[^tregay-2002-1]: G. Tregay, "Grant Tregay and Ernö Rubik's Cube," Grant Tregay, 1 December 2002. [Online]. Available: https://www.grantnbetty.com/cube/.
+[^tregay-2002-2]: G. Tregay, "Blindfold Cubing," Grant Tregay, 1 December 2002. [Online]. Available: https://www.grantnbetty.com/cube/blindfold.html.
+[^pochmann-2004-1]: S. Pochmann, "Re: Blindfold cubing: Parity error," Speed Solving Rubik's Cube Yahoo Group, 7 March 2004. [Online].
+[^pochmann-2004-2]: S. Pochmann, "Single algorithm 3x3 blindsolving," Stefan Pochmann, March 2004. [Online]. Available: https://www.stefan-pochmann.info/spocc/blindsolving/3x3_single_alg/old_index.php.
+[^pochmann-2004-3]: S. Pochmann, "Boy am I proud - My CLL method and applications," Speed Solving Rubik's Cube Yahoo Group, 26 February 2004. [Online].
+[^hardwick-2005]: C. Hardwick, "Re: more 4x4x4 BLD," Blindfold Solving Rubik's Cube Yahoo! Group, 15 November 2005. [Online].
+[^cheng-2006]: H. Cheng, "三循环同时解决位置和方向（思路）," 18 March 2006. [Online]. Available: http://bbs.mf8-china.com/forum.php?mod=viewthread&tid=2101&extra=&page=1.
+[^hardwick-2007]: C. Hardwick, "Treating the 3x3x3 as part of a 5x5x5," Blindfold Solving Rubik's Cube Yahoo! Group, 21 January 2007. [Online].
+[^hardwick-2009-1]: C. Hardwick, "Interest in a BH method website?," SpeedSolving.com, 3 May 2009. [Online]. Available: https://www.speedsolving.com/threads/interest-in-a-bh-method-website.10756/post-174576.
+[^hardwick-2009-2]: C. Hardwick, "Interest in a BH method website?," SpeedSolving.com, 12 May 2009. [Online]. Available: https://www.speedsolving.com/threads/interest-in-a-bh-method-website.10756/post-178458.

@@ -103,15 +103,9 @@ Various Corners First methods were published in 1979.
 The steps for Claxton's method were provided to CubingHistory.com by Georges Helm. The others can be found in Notes on Rubik's 'Magic Cube'.
 
 [^singmaster-1981]: D. Singmaster, in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 40.
-
 [^forgacs-2007]: P. Forgács, "fizikai szemle," January 2007. [Online]. Available: http://www.epa.oszk.hu/00300/00342/00200/pdf/FizSzem_EPA00342_2007_01.pdf.
-
 [^knights-nd]: D. Knights, "Re: Mr. Rubik's solving system," Yahoo! Groups - Speed Solving Rubik's Cube, 18 May 2003. [Online].
-
 [^bremer-1978]: H. Bremer, Ein Paar Würfeldrehungen, Frankfurt, Germany, 1978.
-
 [^singmaster-1982]: D. Singmaster, Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm.
-
 [^thai-1982]: M. Thai, The Winning Solution, Wayne, PA: Banbury Books, 1982.
-
 [^parks-1982]: T. Parks, "AT THE U.S. NATIONAL CHAMPIONSHIPS," Rubik's Cube-A-Thon, vol. 1, no. https://www.speedcubing.com/ton/Archive/Rubik's%20Cube%20News%20Letter%20Vol%201%20No1.pdf, p. 1, 1982.

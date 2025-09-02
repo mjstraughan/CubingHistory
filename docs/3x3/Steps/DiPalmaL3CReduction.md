@@ -55,23 +55,16 @@ SIMPLE was proposed in August, 2017 [^dipalma-2017-2].
 
 ## Early Developments
 
-In July, 2012, DiPalma posted a couple of messages to speedsolving.com that may have been the start of DiPalma's exploration of L3C ideas [^dipalma-nd-1] [^dipalma-nd-2].
+In July, 2012, DiPalma posted a couple of messages to speedsolving.com that may have been the start of DiPalma's exploration of L3C ideas [^dipalma-2012-1] [^dipalma-2012-2].
 
 ![](img/DiPalmaL3CReduction/Origin1.png)
 ![](img/DiPalmaL3CReduction/Origin2.png)
 
 [^dipalma-2014]: M. DiPalma, "Algoritmi "Speed-Heise"," SpeedCubing.it, 4 December 2014. [Online]. Available: https://www.speedcubing.it/forum/Thread-Algoritmi-Speed-Heise.
-
 [^dipalma-2015-1]: M. DiPalma, "Simplified Speed-Heise (EN)," WordPress - DiPalma, 3 March 2015. [Online]. Available: https://dipalm.wordpress.com/2015/03/03/speed-heise-algorithms-en/.
-
 [^dipalma-2015-2]: M. DiPalma, "Complete Speed-Heise (EN)," WordPress - DiPalma, 4 March 2015. [Online]. Available: https://dipalm.wordpress.com/2015/03/04/complete-speed-heise/.
-
 [^dipalma-2015-3]: M. DiPalma, "Tripod Method Supplement (EN)," WordPress - DiPalma, 5 March 2015. [Online]. Available: https://dipalm.wordpress.com/2015/03/05/tripod-method-supplement-en/.
-
 [^dipalma-2017-1]: M. DiPalma, "Cardan Reduction (novel LS/LL approach)," SpeedSolving.com, 1 March 2017. [Online]. Available: https://www.speedsolving.com/threads/cardan-reduction-novel-ls-ll-approach.64042/.
-
 [^dipalma-2017-2]: M. DiPalma, "[SIMPLE] LL Variant (Revamped 'Fish & Chips')," SpeedSolving.com, 10 August 2017. [Online]. Available: https://www.speedsolving.com/threads/simple-ll-variant-revamped-fish-chips.65978.
-
-[^dipalma-nd-1]: M. DiPalma, "ZZ and ZB Discussion," SpeedSolving.com, 30 July 2012. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-767013.
-
-[^dipalma-nd-2]: M. DiPalma, "ZZ and ZB Discussion," SpeedSolving.com, 30 July 2012. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-767137.
+[^dipalma-2012-1]: M. DiPalma, "ZZ and ZB Discussion," SpeedSolving.com, 30 July 2012. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-767013.
+[^dipalma-2012-2]: M. DiPalma, "ZZ and ZB Discussion," SpeedSolving.com, 30 July 2012. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-767137.

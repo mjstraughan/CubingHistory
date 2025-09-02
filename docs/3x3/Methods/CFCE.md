@@ -43,5 +43,4 @@ Schultz used CFCE at the World Rubik's Cube Championship 1982 [^singmaster-1982]
 ![](img/CFCE/WorldChampionship.png)
 
 [^schultz-2022]: G. R. Schultz, "Personal communication with M. J. Straughan," SpeedSolving.com, 25 August 2022. [Online].
-
 [^singmaster-1982]: D. Singmaster, "THE FIRST WORLD CHAMPIONSHIP," Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p4.

@@ -160,51 +160,27 @@ images={[
 />
 
 [^cheng-2006]: H. Cheng, "三循环同时解决位置和方向（思路）," 18 March 2006. [Online]. Available: http://bbs.mf8-china.com/forum.php?mod=viewthread&tid=2101&extra=&page=1.
-
 [^noort-2006]: J. v. Noort, "What is your BLD method?," SpeedSolving.com, 19 March 2006. [Online]. Available: https://www.speedsolving.com/threads/what-is-your-bld-method.46/post-187.
-
 [^hardwick-2005]: C. Hardwick, "Re: more 4x4x4 BLD," Blindfold Solving Rubik's Cube Yahoo! Group, 15 November 2005. [Online].
-
 [^pochmann-2005]: S. Pochmann, "Re: 4x4 edges - time ?," Blindfold Solving Rubik's Cube Yahoo! Group, 15 December 2005. [Online].
-
 [^hardwick-2007-1]: C. Hardwick, "Treating the 3x3x3 as part of a 5x5x5," Blindfold Solving Rubik's Cube Yahoo! Group, 21 January 2007. [Online].
-
 [^hardwick-2007-2]: C. Hardwick, "My commutator BLD corner method," SpeedSolving.com, 12 October 2007. [Online]. Available: https://www.speedsolving.com/threads/my-commutator-bld-corner-method.1692/.
-
 [^beyer-2006-1]: D. Beyer, "Re: Sub-3 4x4x4 BLD solve (just the solving phase)!!!!," Blindfold Solving Rubik's Cube Yahoo! Group, 24 November 2006. [Online].
-
 [^beyer-2006-2]: D. Beyer, "Centers Method Coming Soon," Blindfold Solving Rubik's Cube Yahoo! Group, 2 December 2006. [Online].
-
 [^macdiarmid-2024]: J. Macdiarmid, "Personal Communication," 10 October 2024. [Online].
-
 [^huanqui-2025]: G. Huanqui, "Personal Communication," 28 March 2025. [Online].
-
 [^wang-sun-2022]: Z. Wang and C. Sun, "BLDDB Documentation," 12 June 2022. [Online]. Available: https://docs.blddb.net/en/.
-
 [^hardwick-beyer-2009-1]: C. Hardwick and D. Beyer, "Beyer-Hardwick Corner Algorithms," 2009. [Online]. Available: https://www.speedcubing.com/chris/bhcorners.html.
-
 [^hardwick-beyer-2009-2]: C. Hardwick and D. Beyer, "Beyer-Hardwick Edge Algorithms," 2009. [Online]. Available: https://www.speedcubing.com/chris/bhedges.html.
-
 [^hardwick-2008]: C. Hardwick, "Rowe's 51 solve reconstructed," SpeedSolving.com, 2007 February 2008. [Online]. Available: https://www.speedsolving.com/threads/rowes-51-solve-reconstructed.3060/post-36284.
-
 [^pochmann-2008]: S. Pochmann, "Free Edges," SpeedSolving.com, 15 February 2008. [Online]. Available: https://www.speedsolving.com/threads/free-edges.2457/post-34009.
-
 [^beyer-2008]: D. Beyer, "Free Edges," SpeedSolving.com, 15 February 2008. [Online]. Available: https://www.speedsolving.com/threads/free-edges.2457/post-34107.
-
 [^puddy-mathew-2010]: A. Puddy-Mathew, "DIADEM Method," SpeedSolving.com, 24 September 2010. [Online]. Available: https://www.speedsolving.com/threads/diadem-method.18677/post-459344.
-
 [^hardwick-2010]: C. Hardwick, "DIADEM Method," SpeedSolving.com, 24 September 2010. [Online]. Available: https://www.speedsolving.com/threads/diadem-method.18677/post-459410.
-
 [^tan-2011]: A. Tan, "Random Blindfold Cubing Discussion," SpeedSolving.com, 19 April 2011. [Online]. Available: https://www.speedsolving.com/threads/random-blindfold-cubing-discussion.27436/post-562538.
-
 [^yu-2009]: A. Yu, "Random Blindfold Cubing Discussion," SpeedSolving.com, 19 April 2009. [Online]. Available: https://www.speedsolving.com/threads/random-blindfold-cubing-discussion.27436/post-562625.
-
 [^hui-2009]: A. T. S. Hui, "Random Blindfold Cubing Discussion," SpeedSolving.com, 19 April 2009. [Online]. Available: https://www.speedsolving.com/threads/random-blindfold-cubing-discussion.27436/post-562642.
-
 [^hardwick-2009]: C. Hardwick, "Random Blindfold Cubing Discussion," SpeedSolving.com, 19 April 2009. [Online]. Available: https://www.speedsolving.com/threads/random-blindfold-cubing-discussion.27436/post-562654.
-
 [^puddy-mathew-2009]: A. Puddy-Mathew, "Random Blindfold Cubing Discussion," SpeedSolving.com, 19 April 2009. [Online]. Available: https://www.speedsolving.com/threads/random-blindfold-cubing-discussion.27436/post-562779.
-
 [^puddy-mathew-2011]: A. Puddy-Mathew, "Blindsolving Discussion and Help," SpeedSolving.com, 23 June 2011. [Online]. Available: https://www.speedsolving.com/threads/blindsolving-discussion-and-help.27353/post-596515.
-
 [^carney-2011]: Z. Carney, "3x3 BLD - my first sub-30," SpeedSolving.com, 18 September 2011. [Online]. Available: https://www.speedsolving.com/threads/3x3-bld-my-first-sub-30.32392/.

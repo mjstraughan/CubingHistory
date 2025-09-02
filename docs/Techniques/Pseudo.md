@@ -172,43 +172,23 @@ An example of a complete development of the technique for the 3x3 puzzle is ACML
 ![](img/Pseudo/ACMLL.png)
 
 [^heise-2002]: R. Heise, "Possible improvement," Yahoo! Groups - Speed Solving Rubik's Cube, 11 December 2002. [Online].
-
 [^roux-2004]: G. Roux, ""LL" corners," Yahoo! Groups - Speed Solving Rubik's Cube, 6 December 2004. [Online].
-
 [^straughan-2006]: M. J. Straughan, "NMCMLL," Personal communication, 3 October 2006. [Online].
-
 [^straughan-2010-1]: M. J. Straughan, "I found a new way to recognize NMCMLL," Personal communication, 26 April 2010. [Online].
-
 [^roux-2009]: G. Roux, "Step 3," Roux Method Website, 2009. [Online]. Available: https://web.archive.org/web/20090123084804/http://grrroux.free.fr/method/Step_3.html.
-
 [^straughan-mosher-2021]: M. J. Straughan and T. Mosher, "ATCRM," Straughan's Website, 2021. [Online]. Available: https://sites.google.com/site/athefre/recognition/atcrm.
-
 [^straughan-2023-1]: M. J. Straughan, "Straughan Recognition," 2024. [Online]. Available: https://sites.google.com/site/athefre/recognition/straughan-recognition?authuser=0.
-
 [^straughan-2023-2]: M. J. Straughan, "Polar ZBLL Recognition," Straughan's Website, 2023. [Online]. Available: https://sites.google.com/site/athefre/recognition/polar-recognition.
-
 [^straughan-2010-2]: M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 31 December 2010. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-509957.
-
 [^straughan-2010-3]: M. J. Straughan, "NMLL Recognition," Google Docs, 2010. [Online]. Available: https://docs.google.com/spreadsheets/d/1Z-rJzroZ7QrGcqd2RvZ5P3OW7DyX7H-GpT-dK-xWZgA/edit?hl=en_US&hl=en_US#gid=0.
-
 [^straughan-2012-1]: M. J. Straughan, "CLL Transformation Table," SpeedSolving.com, 8 February 2012. [Online]. Available: https://www.speedsolving.com/threads/cll-transformation-table.35293/.
-
 [^straughan-2012-2]: M. J. Straughan, "2x2 Pseudo Solving: Improving CLL and EG," SpeedSolving.com, 1 June 2012. [Online]. Available: https://www.speedsolving.com/threads/2x2-pseudo-solving-improving-cll-and-eg.37073/.
-
 [^straughan-2012-3]: M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 5 May 2012. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/page-85#post-741058.
-
 [^briggs-2017-1]: J. Briggs, "42 - Method Proposal," SpeedSolving.com, 16 August 2017. [Online]. Available: https://www.speedsolving.com/threads/42-method-proposal.66052/.
-
 [^briggs-2017-2]: J. Briggs, "42- Method Proposal," SpeedSolving.com, 17 August 2017. [Online]. Available: https://www.speedsolving.com/threads/42-method-proposal.66052/post-1250449.
-
 [^briggs-2017-3]: J. Briggs, "Conjugated CMLL/BT-redux recognition," YouTube.com, 17 August 2017. [Online]. Available: https://www.youtube.com/watch?v=DZZZ2WvFiZs.
-
 [^straughan-2024]: M. J. Straughan, "Straughan Recognition," May 2024. [Online]. Available: https://sites.google.com/site/athefre/recognition/straughan-recognition?authuser=0#h.e5b7xqhqvojm.
-
 [^enget-2003]: J. Enget, "Re: Back to cubing! What is everyone doing after WC 2003?," Yahoo! Groups - Speed Solving Rubik's Cube, 24 October 2003. [Online].
-
 [^bruchem-2003]: R. v. Bruchem, "Re: Three months later," Yahoo! Groups - Speed Solving Rubik's Cube, 25 October 2003. [Online].
-
 [^krig-2006]: G. Krig, "[Speed cubing group] Re: 2x2 cube method," Yahoo! Groups - Speed Solving Rubik's Cube, 25 April 2006. [Online].
-
 [^straughan-2020]: M. J. Straughan, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 17 April 2020. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1363270.

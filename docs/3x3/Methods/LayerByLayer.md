@@ -80,11 +80,11 @@ Keyhole appears in March 1981 in Pierre Julien's _Le Cube Hongrois_ [^singmaster
 ![](img/LBL/Pierre2.png)
 ![](img/LBL/Pierre3.png)
 
-An early version of Keyhole also appeared in the September, 1981 issue of Cubism for Fun and is credited to Marko van Eekelen [^treep-van-rossum-1981].
+An early version of Keyhole also appeared in the September, 1981 issue of Cubism for Fun and is credited to Marko van Eekelen [^treep-rossum-1981].
 
 ![](img/LBL/Keyhole.png)
 
-Marko Eekelen published a 1981 book titled _Het Geheim Van De Wonderbaarlijke Kubus_ (English: How to Solve the Cube Puzzle) [^v-eekelen-vincent-1981]. The method follows the below steps:
+Marko Eekelen published a 1981 book titled _Het Geheim Van De Wonderbaarlijke Kubus_ (English: How to Solve the Cube Puzzle) [^eekelen-vincent-1981]. The method follows the below steps:
 
 1. Edges of the first layer.
 2. Three edges of the second layer.
@@ -92,7 +92,7 @@ Marko Eekelen published a 1981 book titled _Het Geheim Van De Wonderbaarlijke Ku
 4. Last edge of the second layer.
 5. Last layer typical of other Layer By Layer methods at the time.
 
-The September 1981 issue of Cubism For Fun provides an upgrade to Eekelen's method [^treep-van-rossum-1981].
+The September 1981 issue of Cubism For Fun provides an upgrade to Eekelen's method [^treep-rossum-1981].
 
 ![](img/LBL/Keyhole2.png)
 
@@ -105,21 +105,12 @@ This version is more like the current basic keyhole methods:
 5. Last layer.
 
 [^taylor-1978]: D. Taylor, in The Group of a Coloured Cube, New South Wales, Pure Mathematics, 1978.
-
 [^singmaster-1981-1]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 24.
-
 [^singmaster-1981-2]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 16.
-
 [^johnson-2002-1]: W. Johnson, "INTERVIEW WITH DAVID SINGMASTER," TwistyPuzzles, 6 January 2002. [Online]. Available: https://twistypuzzles.com/articles/spotlight-singmaster/.
-
 [^johnson-2002-2]: W. Johnson, "3x3x2, 2x2x3 cuboid article now on Twisty," TwistyPuzzles, 6 January 2002. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=1514.
-
 [^singmaster-1982]: D. Singmaster, "Cubic Circular," Jaap's Puzzle Page, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p4.
-
 [^keima-2014]: Keima, "Bonjours les cubeurs," FrancoCube, 11 March 2014. [Online]. Available: https://forum.francocube.com/viewtopic.php?t=11468.
-
 [^singmaster-1981-3]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 61.
-
-[^treep-van-rossum-1981]: A. Treep and J. v. Rossum, Cubism For Fun, September 1981.
-
-[^v-eekelen-vincent-1981]: M. v. Eekelen and M. Vincent, Het Geheim Van De Wonderbaarlijke Kubus, 1981.
+[^treep-rossum-1981]: A. Treep and J. v. Rossum, Cubism For Fun, September 1981.
+[^eekelen-vincent-1981]: M. v. Eekelen and M. Vincent, Het Geheim Van De Wonderbaarlijke Kubus, 1981.

@@ -52,11 +52,7 @@ In August 2025, Straughan gave the method a proper name of Polaris [^straughan-2
 ![](img/Polaris/NameUpdate.png)
 
 [^straughan-2010-1]: M. J. Straughan, "ZZ and ZB Discussion," SpeedSolving.com, 4 May 2010. [Online]. Available: https://www.speedsolving.com/threads/zz-and-zb-discussion.20834/post-374352.
-
 [^straughan-2011-1]: M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 6 September 2011. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-638800.
-
 [^straughan-2010-2]: M. J. Straughan, 110mb.com, March 2010. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
-
 [^straughan-2011-2]: M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 3 October 2011. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-650817.
-
 [^straughan-2025]: M. J. Straughan, Discord, 10 August 2025. [Online]. Available: https://discord.com/channels/885722463521103892/885730030431391815/1404178016111689912.

@@ -40,10 +40,10 @@ During development of the MI1 method, Michael James Straughan determined that th
 
 ### Re-Development
 
-In 2020, Straughan again began experimenting with the method [^straughan-2020]. It was then decided to re-develop and present the method to the community with new algorithms [^nautilus-nd].
+In 2020, Straughan again began experimenting with the method [^straughan-2020]. It was then decided to re-develop and present the method to the community with new algorithms [^straughan-2020].
 
 ![](img/Nautilus/2020.png)
 
 [^straughan-2010]: M. J. Straughan, 110mb.com, March 2010. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
 [^straughan-2020]: M. J. Straughan, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 5 September 2020. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1391229.
-[^nautilus-nd]: M. J. Straughan, Nautilus Website, [Online]. Available: https://sites.google.com/view/nautilus-method.
+[^straughan-2020]: M. J. Straughan, Nautilus Website, [Online]. Available: https://sites.google.com/view/nautilus-method.

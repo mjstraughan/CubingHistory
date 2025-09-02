@@ -43,5 +43,4 @@ In 2020, Vincent Trang joined the August 2020 Method Development Competition. Tr
 ![](img/Square101/Results.png)
 
 [^straughan-2020-1]: M. J. Straughan, "Method Development Competition - August 2020," SpeedSolving.com, 12 September 2020. [Online]. Available: https://www.speedsolving.com/threads/method-development-competition-august-2020.78368/post-1392585.
-
 [^straughan-2020-2]: M. J. Straughan, "Method Development Competition - August 2020," SpeedSolving.com, 14 September 2020. [Online]. Available: https://www.speedsolving.com/threads/method-development-competition-august-2020.78368/post-1392723.

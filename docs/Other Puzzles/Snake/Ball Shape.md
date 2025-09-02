@@ -1,6 +1,6 @@
 # Ball Shape
 
-When speed solving the Rubik's Snake, the common end state is to from the ball shape. In 2006, Michael James Straughan and Johannes Laire shared their own speed-oriented solutions for the ball shape [^straughan-laire-nd].
+When speed solving the Rubik's Snake, the common end state is to from the ball shape. In 2006, Michael James Straughan and Johannes Laire shared their own speed-oriented solutions for the ball shape [^straughan-laire-2006].
 
 ## Michael James Straughan
 
@@ -14,4 +14,4 @@ Another way to read the solution, with more numbers included:
 
 ![](img/BallShape/Laire.png)
 
-[^straughan-laire-nd]: M. J. Straughan and J. Laire, "Snake," Personal communication, October 2006. [Online].
+[^straughan-laire-2006]: M. J. Straughan and J. Laire, "Snake," Personal communication, October 2006. [Online].

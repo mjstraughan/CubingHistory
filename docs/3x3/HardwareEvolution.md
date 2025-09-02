@@ -301,7 +301,7 @@ In 2013 Michael Fuentes-Vasques-Wilson posted a thread to SpeedSolving.com stati
 
 ![](img/HardwareEvolution/Wilson1.webp)
 
-Before adding the magnets, Wilson shared additional ideas and thoughts within the thread. Notably, Wilson found Fixler’s magnet-based acrylic 3x3x3 and stated the intent to use the magnet polarity configuration from that puzzle as a guide when modifying the Zhanchi [^36]. On January 30 2013, Wilson announced the completion of the modification and provided additional details regarding the magnet placement [37]:
+Before adding the magnets, Wilson shared additional ideas and thoughts within the thread. Notably, Wilson found Fixler’s magnet-based acrylic 3x3x3 and stated the intent to use the magnet polarity configuration from that puzzle as a guide when modifying the Zhanchi [^36]. On January 30 2013, Wilson announced the completion of the modification and provided additional details regarding the magnet placement [^37]:
 
 > in case anyone is wondering about the polarity's what i did was all the center pieces have a magnet with N pointing outwards and all of the edge pieces have a magnet with S pointing inwards, this way the pieces will always attract to each other, even if turned around.
 > This also means that inside each edge piece the magnets repel each other, not strong enough to push the edge piece apart but enough to stop them pulling to each other and possible breaking the glue over time.
@@ -506,127 +506,65 @@ Thanks to Draco Tong for providing the idea behind this page. Within a thread in
 ![](img/HardwareEvolution/Tong.webp)
 
 [^1]: E. Rubik, T. Varga, G. Keri, G. Marx and T. Vekerdy, Rubik's Cubic Compendium (Recreations in Mathematics), New York: Oxford University Press, 1987.
-
 [^2]: TwistyPuzzles, "Rubik's Cube (first batch by Politechnika)," [Online]. Available: https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=2968.
-
 [^3]: G. Helm, "Re: 1977 cubes...," TwistyPuzzles.com, 14 December 2009. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=190604#p190604.
-
 [^4]: TwistyPuzzles, "Rubik's Cube (second batch by Politechnika)," TwistyPuzzles.com, [Online]. Available: https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=506.
-
 [^5]: TwistyPuzzles, "Rubik's Cube (printed colours)," TwistyPuzzles.com, [Online]. Available: https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=590.
-
 [^6]: TwistyPuzzles, "ITC Rubik's Cube Deluxe Edition (tiles)," TwistyPuzzles.com, [Online]. Available: https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1247.
-
 [^7]: P. Kobayashi, "New Rubik's 3x3x3 molds (pics)," TwistyPuzzles.com, 15 March 2004. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=15706.
-
 [^8]: TwistyPuzzles, "Zauberpuzzle," TwistyPuzzles.com, [Online]. Available: https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=4892.
-
 [^9]: TM-Jason, "First Rubik's DIY data released!," TwistyPuzzles.com, 9 October 2001. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=859#p859.
-
 [^10]: Hessport, "DIY Kits!," Hessport, 8 January 2002. [Online]. Available: https://web.archive.org/web/20020108212830/http://www.hessport.com/Rubik/cgi-local/shop_new.cgi/SID=1009067177.25464.r/page=diy_kits.html.
-
 [^11]: T. Dennenbroek, "Rubik's Studio Speedcube," TwistyPuzzles.com, 17 October 2003. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=11325#p11325.
-
 [^12]: T. Dennenbroek, "Rubik's Studio Speedcube 2003," Speed Solving Rubik's Cube Yahoo! group, 17 October 2003. [Online].
-
 [^13]: T. Dennenbroek, "Buy New Puzzles," 17 October 2003. [Online]. Available: https://web.archive.org/web/20031222070625/https://www.speedcubing.com/ton/buy1.htm.
-
 [^14]: D. H. Jones, "RE: [Speed cubing group] Re: tiles / deluxe," Speed Solving Rubik's Cube Yahoo! group;, 21 July 2004. [Online].
-
 [^15]: W. Johnson, "New Rubik's 3x3x3 molds (pics)," TwistyPuzzles.com, 16 June 2004. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=15466#p15466.
-
 [^16]: D. H. Jones, "RE: [Speed cubing group] Re: Got a kick-booty good cube from wal-mart!," Speed Solving Rubik's Cube Yahoo! group, 18 August 2004. [Online].
-
 [^17]: D. H. Jones, "DIY 3x3 on www.rubiks.com," Speed Solving Rubik's Cube Yahoo! group, 1 September 2004. [Online].
-
 [^18]: Rubik's, "DIY KITS," Rubik's, 2 November 2006. [Online]. Available: https://web.archive.org/web/20061102101438/https://secure.rubiks.com/lvl3/index_lvl3.cfm?lan=eng&lvl1=produc&lvl2=rubbrn&lvl3=diykit.
-
 [^19]: Rubik's, "Rubik's 3x3 Assembly Cube® w/Lube," Rubik's, 2 November 2006. [Online]. Available: https://web.archive.org/web/20061102113223/https://secure.rubiks.com/lvl3/index_lvl3.cfm?lan=eng&lvl1=produc&lvl2=rubbrn&lvl3=rbkshp&lvl4=cubasy.
-
 [^20]: Baidu, "国甲魔方," Baidu, [Online]. Available: https://baike.baidu.com/item/%E5%9B%BD%E7%94%B2%E9%AD%94%E6%96%B9/8552780.
-
 [^21]: Baidu, "Gan," Baidu, [Online]. Available: https://baike.baidu.com/item/Gan/20103612.
-
 [^22]: pentrixter, "Review of Main 3x3x3 Cube Models and Clarification on the Naming System of Type A," SpeedSolving.com, 9 June 2009. [Online]. Available: https://www.speedsolving.com/threads/review-of-main-3x3x3-cube-models-and-clarification-on-the-naming-system-of-type-a.12659/.
-
 [^23]: Baidu, "大雁魔方," Baidu, [Online]. Available: https://baike.baidu.com/item/%E5%A4%A7%E9%9B%81%E9%AD%94%E6%96%B9/7236070.
-
 [^24]: Baidu, "大雁魔方," Baidu, [Online]. Available: https://baike.baidu.com/item/%E5%A4%A7%E9%9B%81%E9%AD%94%E6%96%B9/7236070.
-
 [^25]: L. Nichols, "Pattern forming puzzle and method with pieces rotatable in groups," 4 March 1970. [Online]. Available: https://patents.google.com/patent/US3655201.
-
 [^26]: J. Scherphuis, "2x2x2 magnet cube," jaapsch.net, [Online]. Available: https://www.jaapsch.net/puzzles/images/collection/big/2x2x2%20magnet%20cube.jpg.
-
 [^27]: T. Dennenbroek, "Magneto," [Online]. Available: https://www.speedcubing.com/ton/collection/Other%20Puzzles/pages/Magneto.htm.
-
 [^28]: W. T. S. Asia, "Magnetic Puzzle Cube," WorldWide Tech Solutions Asia, 2003. [Online]. Available: https://www.wwtsasia.com/cube.htm.
-
 [^29]: G. Fixler, "Magnetic Acrylic Rubik's Cube Project," Flickr, April 2006. [Online]. Available: https://www.flickr.com/photos/garyfixler/albums/72057594101653870/.
-
 [^30]: G. Fixler, "Rubik's Magnetic Cube Project," Flickr, April 2006. [Online]. Available: https://www.flickr.com/photos/garyfixler/albums/72057594105668430/.
-
 [^31]: G. Fixler, "Magnetic Acrylic Rubik's Cube," Instructables, April 2006. [Online]. Available: https://www.instructables.com/Magnetic-Acrylic-Rubik-s-Cube/.
-
 [^32]: G. Fixler, "Rubik's Magnetic Cube prototype: labels!," Flickr, 13 April 2006. [Online]. Available: https://www.flickr.com/photos/garyfixler/127985197/in/album-72057594105668430/.
-
 [^33]: Dylan, "Anti-locking cube," Speed Solving Rubik's Cube Yahoo! group, 15 May 2003. [Online].
-
 [^34]: M. Smith, "FS: Custom Made Magnetic 3x3x3," SpeedSolving.com, 30 September 2009. [Online]. Available: https://www.speedsolving.com/threads/fs-custom-made-magnetic-3x3x3.15864/#post-243833.
-
 [^35]: M. Fuentes-Vasques-Wilson, "Modding Cube (probably Zhanchi) with magnets?," SpeedSolving.com, 4 January 2013. [Online]. Available: https://www.speedsolving.com/threads/modding-cube-probably-zhanchi-with-magnets.39918/.
-
 [^36]: M. Fuentes-Vasques-Wilson, "Modding Cube (probably Zhanchi) with magnets?," SpeedSolving.com, 4 January 2013. [Online]. Available: https://www.speedsolving.com/threads/modding-cube-probably-zhanchi-with-magnets.39918/post-812987.
-
 [^37]: M. Fuentes-Vasques-Wilson, "Modding Cube (probably Zhanchi) with magnets?," SpeedSolving.com, 30 January 2013. [Online]. Available: https://www.speedsolving.com/threads/modding-cube-probably-zhanchi-with-magnets.39918/post-820770.
-
 [^38]: M. Fuentes-Vasques-Wilson, "Modding Cube (probably Zhanchi) with magnets?," SpeedSolving.com, 1 February 2013. [Online]. Available: https://www.speedsolving.com/threads/modding-cube-probably-zhanchi-with-magnets.39918/post-821328.
-
 [^39]: M. Fuentes-Vasques-Wilson, "Dayan zhanchi with magnets :D," YouTube.com, 1 February 2013. [Online]. Available: https://www.youtube.com/watch?v=oa3p9CeUmdg.
-
 [^40]: speedpicker, "Modding Cube (probably Zhanchi) with magnets?," SpeedSolving.com, 4 January 2013. [Online]. Available: https://www.speedsolving.com/threads/modding-cube-probably-zhanchi-with-magnets.39918/post-813013.
-
 [^41]: J. Adam, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 19 February 2016. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1153152.
-
 [^42]: K. Mansour, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 19 February 2016. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1153156.
-
 [^43]: J. Li, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 20 February 2016. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1153160.
-
 [^44]: C. Tran, "Magnetic Shengshou Fengyuan Mod and Review," YouTube.com, 19 August 2016. [Online]. Available: Magnetic Shengshou Fengyuan Mod and Review.
-
 [^45]: F. Cubes, "MoYu Magnetic Pyraminx," Fabitasia Cubes, 2016. [Online]. Available: https://fabitasia.ch/myou-pyraminx-v2/en.
-
-[^46]: MoYu, "MoYu Culture Pyraminx & Skewb Magnetic Positioning Patent," Facebook, 19 May 2016. [Online]. Available: https://www.facebook.com/moyumagiccube/posts/pfbid02jLPr5Lvy9155iPMtQaWmKYKEkuga79dJCVWuHXoSYtG3J71FVFkwKyWpf41dXMTtl?__cft__[0]=AZXjJYHBhgQy7IIbOhyYZspZAMZuU0EbnH4AHu61dUHhCDuqLFh_tjni8YLloG59y3Y-f2zZjrKDQWaEAx-vqY1ViF5H8xJkWQjSXFZg1ktw-SWPXwI3l9SuUWjcUj.
-
+[^46]: MoYu, "MoYu Culture Pyraminx & Skewb Magnetic Positioning Patent," Facebook, 19 May 2016. [Online]. Available: https://www.facebook.com/moyumagiccube/posts/pfbid02jLPr5Lvy9155iPMtQaWmKYKEkuga79dJCVWuHXoSYtG3J71FVFkwKyWpf41dXMTtl?__cft__[^0]=AZXjJYHBhgQy7IIbOhyYZspZAMZuU0EbnH4AHu61dUHhCDuqLFh_tjni8YLloG59y3Y-f2zZjrKDQWaEAx-vqY1ViF5H8xJkWQjSXFZg1ktw-SWPXwI3l9SuUWjcUj.
 [^47]: D. Brads, "2.14 Official Pyraminx World Record Average - Drew Brads," YouTube.com, 1 August 2016. [Online]. Available: https://www.youtube.com/watch?v=g6T0lFNAb1k.
-
-[^48]: QiYi, "Magnetic Pyraminx," Facebook, 20 May 2016. [Online]. Available: https://www.facebook.com/mofanggecube/posts/pfbid02SsMN1n8khwRvxL6p22bESvyYSrfT6wmXUJPSwgeET45wrccrnpjfCVumoCYoRbovl?__cft__[0]=AZWfiDJv_NrLVgGhGLZaTs7-z1VcQijhp0s-Xn3Jo6zYqs8Rcn1bNbp5b5Rs6PlZloJFM5nM2n6tGHdSM9QoQ6OKT7KU1CmSl8XlQjvEnsLSomyT7o3gkXfeS2yzXAU.
-
-[^49]: MoYu, "New SenHuan magnetic magic clock is on the way!," Facebook, 21 July 2016. [Online]. Available: https://www.facebook.com/moyumagiccube/posts/pfbid0QJVx9zyCcRQNSLUPXBHnAXrCog4LX1NrbCVMd2dbVpfgKEnpcwrECxLyuAfuBBknl?__cft__[0]=AZXIty3nO6RtNyBdFhk1HA33sJBz2fj52w0x616BrLZXe8OBUQ2Wh3OyeKVB0Syj7V8oy0Y0kSjDK9SgC6R0V90vatYxmNd6HYsKDHQQGBxcZdeUvuGrNrSv_3bI-fc.
-
-[^50]: QiYi, "Mold testing of QiYi Clock !!," Facebook, 21 July 2016. [Online]. Available: https://www.facebook.com/mofanggecube/posts/pfbid02Gh57PbRzi72FKacZRDQsXazswVmoi81fvn9V5UCXqUpSjTZp86rbnaUwuovSzhFol?__cft__[0]=AZUme9zwYeduYS3KdrNJTpRUNiuP_ongVU2SFS-Xva71huBRA2bgpKIjTdtjhSVW4h7iE_b0T7TXFb4GQfMG0iMrOHQUOfiPFLtJbD0UOun8UKq6tlMjMOS1WmCaczc.
-
+[^48]: QiYi, "Magnetic Pyraminx," Facebook, 20 May 2016. [Online]. Available: https://www.facebook.com/mofanggecube/posts/pfbid02SsMN1n8khwRvxL6p22bESvyYSrfT6wmXUJPSwgeET45wrccrnpjfCVumoCYoRbovl?__cft__[^0]=AZWfiDJv_NrLVgGhGLZaTs7-z1VcQijhp0s-Xn3Jo6zYqs8Rcn1bNbp5b5Rs6PlZloJFM5nM2n6tGHdSM9QoQ6OKT7KU1CmSl8XlQjvEnsLSomyT7o3gkXfeS2yzXAU.
+[^49]: MoYu, "New SenHuan magnetic magic clock is on the way!," Facebook, 21 July 2016. [Online]. Available: https://www.facebook.com/moyumagiccube/posts/pfbid0QJVx9zyCcRQNSLUPXBHnAXrCog4LX1NrbCVMd2dbVpfgKEnpcwrECxLyuAfuBBknl?__cft__[^0]=AZXIty3nO6RtNyBdFhk1HA33sJBz2fj52w0x616BrLZXe8OBUQ2Wh3OyeKVB0Syj7V8oy0Y0kSjDK9SgC6R0V90vatYxmNd6HYsKDHQQGBxcZdeUvuGrNrSv_3bI-fc.
+[^50]: QiYi, "Mold testing of QiYi Clock !!," Facebook, 21 July 2016. [Online]. Available: https://www.facebook.com/mofanggecube/posts/pfbid02Gh57PbRzi72FKacZRDQsXazswVmoi81fvn9V5UCXqUpSjTZp86rbnaUwuovSzhFol?__cft__[^0]=AZUme9zwYeduYS3KdrNJTpRUNiuP_ongVU2SFS-Xva71huBRA2bgpKIjTdtjhSVW4h7iE_b0T7TXFb4GQfMG0iMrOHQUOfiPFLtJbD0UOun8UKq6tlMjMOS1WmCaczc.
 [^51]: C. Tran, "Impromptu demonstration of Cubicle Labs magnetic cubes!," YouTube.com, 22 September 2016. [Online]. Available: https://www.youtube.com/watch?v=o7aTjVGa1d0.
-
 [^52]: C. Tran, "Cubicle Labs Premium Cubes," SpeedSolving.com, 22 September 2016. [Online]. Available: https://www.speedsolving.com/threads/cubicle-labs-premium-cubes.62448/.
-
 [^53]: MoYu, "MoYu magnetic skewb, a puzzle which will change the world record.," Facebook, 29 October 2016. [Online]. Available: https://www.facebook.com/photo/?fbid=1112951922119100&set=a.878198095594485&__tn__=%2CO*F.
-
-[^54]: S. Boucké, "So Gan is selling magnets now," Facebook, 25 November 2016. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/1576361809056933/?__cft__[0]=AZUWqKt_8gML-AyG91nzfiZOire6eIy_0VnZFTFyK86dXYECe-cPUusvpvjJrqhaPPUK3Df7ObshGKlaQHjudJ1_zJU7gHlKhvUOlO0Bb7UV0rPJzyJwPHRt6-2OLPp0LcBPyDXvk1x_a6F8VRhpvvSeSsmnoDd4k-WCUngnnKowyW.
-
+[^54]: S. Boucké, "So Gan is selling magnets now," Facebook, 25 November 2016. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/1576361809056933/?__cft__[^0]=AZUWqKt_8gML-AyG91nzfiZOire6eIy_0VnZFTFyK86dXYECe-cPUusvpvjJrqhaPPUK3Df7ObshGKlaQHjudJ1_zJU7gHlKhvUOlO0Bb7UV0rPJzyJwPHRt6-2OLPp0LcBPyDXvk1x_a6F8VRhpvvSeSsmnoDd4k-WCUngnnKowyW.
 [^55]: K. Zhao, "The DIY Magnetic GTS (and a tutorial)," KZ's Cube Review, 27 September 2016. [Online]. Available: https://kzcubereview.blogspot.com/2016/09/the-diy-magnetic-gts-and-tutorial.html?m=1.
-
 [^56]: D. Miller, "Weilong GTS M (Magnetic) Do It Yourself Tutorial," YouTube, 5 October 2016. [Online]. Available: https://www.youtube.com/watch?v=mouftEig8Gk.
-
-[^57]: D. Miller and M. J. Straughan, Personal Communication, 27 May 2025. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/24737397515860035/?comment_id=24737706525829134&reply_comment_id=24738050105794776&__cft__[0]=AZVGo8JoSSE1bVPpNo6XN6BIUGU3q4dOddrblz_SBwJn1FVLtCYGuD0IXcKScMc81JkXDfAc7UV4J32Rm-MBwoO07gTXH9BcjHlpRP7JOFGZu.
-
-[^58]: P. Yu, Facebook, 25 September 2016. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/1506831522676629/?__cft__[0]=AZUi_crmA9Bcfr93RwtUXCnzu67Km-tqkEdSVcnEGYLUZ0bdkuwxftz3P97Le7WZNPjT6FcIbkNi7mIlgB-NH4VE2GpVqNLhEu8B81JJJYD7K1KiX2TPRV3oH2XYTImVMB8F50ANU63f0axIKYIDKEvCaHhIOidwF3rHXRN8hgRWLk.
-
+[^57]: D. Miller and M. J. Straughan, Personal Communication, 27 May 2025. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/24737397515860035/?comment_id=24737706525829134&reply_comment_id=24738050105794776&__cft__[^0]=AZVGo8JoSSE1bVPpNo6XN6BIUGU3q4dOddrblz_SBwJn1FVLtCYGuD0IXcKScMc81JkXDfAc7UV4J32Rm-MBwoO07gTXH9BcjHlpRP7JOFGZu.
+[^58]: P. Yu, Facebook, 25 September 2016. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/1506831522676629/?__cft__[^0]=AZUi_crmA9Bcfr93RwtUXCnzu67Km-tqkEdSVcnEGYLUZ0bdkuwxftz3P97Le7WZNPjT6FcIbkNi7mIlgB-NH4VE2GpVqNLhEu8B81JJJYD7K1KiX2TPRV3oH2XYTImVMB8F50ANU63f0axIKYIDKEvCaHhIOidwF3rHXRN8hgRWLk.
 [^59]: GAN, "The first replacable cube design: GMS(GAN Magnets System)," YouTube.com, 11 September 2018. [Online]. Available: https://www.youtube.com/watch?v=9QomqgRQR9o.
-
 [^60]: GAN, "GAN356X & GAN 356R Launching Details and Free give-away.," Facebook, 1 October 2018. [Online]. Available: https://www.facebook.com/100063755462435/posts/1935284509853271/.
-
 [^61]: sosoinvent, "99 元开抢|计客超级魔方已经上线小米众筹啦," bbs.mf8-china.com, 23 March 2018. [Online]. Available: http://bbs.mf8-china.com/forum.php?mod=viewthread&tid=109327&page=1&from=space.
-
 [^62]: eefocus, "小米推出超级魔方，竟然还需要充电？," migelab.com, 4 June 2018. [Online]. Available: https://wx.migelab.com/api.php?s=/Art/index/aid/4980.
-
-[^63]: D. Tong, "Cubing History," Cyoubx's Friends Facebook Group, 20 September 2024. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/9282314491794921/?comment_id=9283273761698994&__cft__[0]=AZXVXHBTllL-oC_HjevRoMS_WQ-Oh4qR2zP3-lkafSfqxw2AJWz88NjXRnKGNrODl6sV0Ls0ZTgLbFnESoAHIaiggJfU_ibbiyOdxlJbXeXuPoET4ldYVh38hHv2Okk64079ldcCztqB2KgDnH.
+[^63]: D. Tong, "Cubing History," Cyoubx's Friends Facebook Group, 20 September 2024. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/9282314491794921/?comment_id=9283273761698994&__cft__[^0]=AZXVXHBTllL-oC_HjevRoMS_WQ-Oh4qR2zP3-lkafSfqxw2AJWz88NjXRnKGNrODl6sV0Ls0ZTgLbFnESoAHIaiggJfU_ibbiyOdxlJbXeXuPoET4ldYVh38hHv2Okk64079ldcCztqB2KgDnH.

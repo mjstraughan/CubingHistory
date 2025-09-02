@@ -44,5 +44,4 @@ Salvia first described the method in December, 2003 [^salvia-2003]. This descrip
 ![](img/Salvia/Salvia3.png)
 
 [^salvia-nd]: D. J. Salvia, "The Salvia method," SpeedCubing.com, [Online]. Available: http://www.speedcubing.com/DavidJSalvia.html.
-
 [^salvia-2003]: D. J. Salvia, "Re: Solving the last layer: My Method," Yahoo! Groups - Speed Solving Rubik's Cube, 3 December 2003. [Online].

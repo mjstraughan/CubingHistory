@@ -63,15 +63,9 @@ In 2020, Cubingcubecuber proposed a version of Hawaiian Kociemba for big cubes, 
 ![](img/HawaiianKociemba/HK+.png)
 
 [^cubicle-2016-1]: The Cubicle, "Michael Humuhumunukunukuapua'a's International Debut," YouTube, 1 April 2016. [Online]. Available: https://www.youtube.com/watch?v=JuqPJxmeR7E.
-
 [^korick-2016]: S. Korick, "Michael Humuhumunukunukuapua'a - Speedcubing Prodigy Video Debut," Reddit, 1 April 2016. [Online]. Available: https://www.reddit.com/r/Cubers/comments/4cqj3p/michael_humuhumunukunukuapuaa_speedcubing_prodigy/.
-
 [^vikktorz-2016]: vikktorz, "Michael Humuhumunukunukuapua'a - Speedcubing Prodigy Video Debut," Reddit, 1 April 2016. [Online]. Available: https://www.reddit.com/r/Cubers/comments/4cqj3p/comment/d1knff1/?utm_source=reddit&utm_medium=web2x&context=3.
-
 [^cubicle-2016-2]: The Cubicle, "Michael Humuhumunukunukuapua'a Explained," YouTube, 22 April 2016. [Online]. Available: https://www.youtube.com/watch?v=1MniU99_hw4.
-
 [^mossey-2016]: B. Mossey, "Hawaiian Kociemba 3x3x3 TUTORIAL - Method of Michael H.," SpeedSolving.com, 2 April 2016. [Online]. Available: https://www.speedsolving.com/threads/hawaiian-kociemba-3x3x3-tutorial-method-of-michael-h.60492/.
-
 [^cubingcubecuber-nd]: Cubingcubecuber, Google Sites, [Online]. Available: https://sites.google.com/view/hkmethod/home?authuser=0.
-
 [^cubingcubecuber-2020]: Cubingcubecuber, Google Sites, 2020. [Online]. Available: https://sites.google.com/view/hkmethod/big-cubes/hk?authuser=0.

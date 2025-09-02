@@ -46,7 +46,5 @@ In June, 2004, Guimond proposed a 3x3x3 method that uses algorithms from later s
 ![](img/Guimond/G3-3.png)
 
 [^guimond-2003]: G. Guimond, "CORNER Method," Guimond's website, 2003. [Online]. Available: https://web.archive.org/web/20040607101459/http://www.rubikscuberecord.com/.
-
 [^guimond-2004-1]: G. Guimond, "New method," Yahoo! Groups - Speed Solving Rubik's Cube, 9 June 2004. [Online].
-
 [^guimond-2004-2]: G. Guimond, "Re: New method," Yahoo! Groups - Speed Solving Rubik's Cube, 11 June 2004. [Online].

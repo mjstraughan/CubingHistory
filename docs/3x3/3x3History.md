@@ -50,7 +50,7 @@ In March, 1970, Larry Nichols applied for a patent for a "pattern forming puzzle
 
 ### Fox's Amusement Device
 
-In April, 1970, Frank Fox applied for a patent for an "amusement device" [^fox-nd]. The device is a spherical shape segmented into a 3x3x3 group of pieces. The initially described function is for use as a more complex, three-dimensional version of noughts and crosses (or tic tac toe).
+In April, 1970, Frank Fox applied for a patent for an "amusement device" [^fox-1970]. The device is a spherical shape segmented into a 3x3x3 group of pieces. The initially described function is for use as a more complex, three-dimensional version of noughts and crosses (or tic tac toe).
 
 Later in the patent description, Fox details that one possible production of the puzzle is to have individual pieces connected together using interlocking tongues and grooves, similar to the later patented Rubik's Cube. Fox's patent also describes a configuration where the individual pieces may be given different colors. Manipulation, or turning, will then result in a large variety of patterns. This makes Fox's patent the first known introduction and patent of the 3x3x3 puzzle.
 
@@ -153,7 +153,7 @@ images={[
 
 ## Western Distribution and Popularity Rise
 
-Stewart Sims, marketing manager of the toy division at Ideal Toy Company, described the history of how Rubik's Cube became a worldwide phenomenon in an interview with Allan Miller [^allan-miller-2025]. Upon its initial release, Rubik's Cube already maintained a level of popularity in Hungary thanks to distribution being handled by Polytechnika. However, there was a desire to sell the puzzle in other countries. Sims states that this interest was expressed to Konsumex, the Hungarian government trading company that was focused on consumer products. The second person in charge of Konsumex contacted a high school friend named Tibor Laczi to request help in finding a distributor for the West. Laczi took the cube to a booth at the largest gaming company in Germany. There he met a man named Tom Kremer, who became interested in helping find a distributor. After various discussions and meetings, Kremer found a distributor in Ideal Toy Company. When Ideal was approached, Sims took an interest in the cube, becoming the primary facilitator for the deal. As part of Ideal's obtaining of the Western distribution rights, Ideal was to devise a new name for the cube. It is revealed in the interview that Sims, while on a morning run, thought to simply name it "Rubik's Cube".
+Stewart Sims, marketing manager of the toy division at Ideal Toy Company, described the history of how Rubik's Cube became a worldwide phenomenon in an interview with Allan Miller [^sims-miller-2025]. Upon its initial release, Rubik's Cube already maintained a level of popularity in Hungary thanks to distribution being handled by Polytechnika. However, there was a desire to sell the puzzle in other countries. Sims states that this interest was expressed to Konsumex, the Hungarian government trading company that was focused on consumer products. The second person in charge of Konsumex contacted a high school friend named Tibor Laczi to request help in finding a distributor for the West. Laczi took the cube to a booth at the largest gaming company in Germany. There he met a man named Tom Kremer, who became interested in helping find a distributor. After various discussions and meetings, Kremer found a distributor in Ideal Toy Company. When Ideal was approached, Sims took an interest in the cube, becoming the primary facilitator for the deal. As part of Ideal's obtaining of the Western distribution rights, Ideal was to devise a new name for the cube. It is revealed in the interview that Sims, while on a morning run, thought to simply name it "Rubik's Cube".
 
 The above is just a brief summary of events. Watch the entire interview below to hear the full story. It should be noted that a different version of the story was told in the March 1986 issue of Discover magazine [^tierney-1986]. In direct quotes to Discover magazine from Rubik and others, it was stated that Tibor Laczi first encountered the cube at a café. After playing with a cube owned by a waiter, Laczi was so intrigued that he directly approached Konsumex and asked for permission to distribute the cube in the West. This request was denied and so he obtained permission to visit Rubik, learned from Rubik interesting ways to demonstrate the cube, and proceeded to demonstrate it at the Nuremberg toy fair, where he met Kremer. The magazine article also states that the name "Rubik's Cube" was created as a way to compensate for Rubik having not patented the product in other countries before the typical one-year limit was reached.
 
@@ -170,37 +170,20 @@ https://www.calormen.com/twistypuzzles/twisty.htm#Patents
 https://jipel.law.nyu.edu/the-legal-puzzle-of-the-rubiks-cube/
 
 [^slocum-sonneveld-2006]: J. Slocum and D. Sonneveld, The 15 Puzzle Book: How it Drove the World Crazy, Beverly Hills, CA: The Slocum Puzzle Foundation, 2006.
-
 [^loyd-1914]: S. Loyd, Sam Loyd's Cyclopedia of 5000 Puzzles, Tricks, and Conundrums With Answers, New York: The Lamb Publishing Company, 1914.
-
 [^gustafson-1960]: W. Gustafson, "Manipulatable toy," 2 February 1960. [Online]. Available: https://patents.google.com/patent/US3081089A/en?oq=3%2c081%2c089.
-
 [^nichols-1970]: L. Nichols, "Pattern forming puzzle and method with pieces rotatable in groups," 4 March 1970. [Online]. Available: https://patents.google.com/patent/US3655201.
-
-[^fox-nd]: F. Fox, "AMUSEMENT DEVICE," 9 April 1970. [Online]. Available: https://www.jaapsch.net/puzzles/patents/gb1344259.pdf.
-
+[^fox-1970]: F. Fox, "AMUSEMENT DEVICE," 9 April 1970. [Online]. Available: https://www.jaapsch.net/puzzles/patents/gb1344259.pdf.
 [^oconnor-meffert-2013]: J. O'Connor and U. Meffert, "Uwe Meffert’s Amazing Mind at Rubik's Cube Worlds 2013," YouTube, 19 December 2013. [Online]. Available: https://www.youtube.com/watch?v=X8CRld9CCnQ.
-
 [^meffert-1981]: U. Meffert, "Puzzle toy," 6 October 1981. [Online]. Available: https://patentimages.storage.googleapis.com/45/5a/0d/07c7c8b964a460/EP0042695A3.pdf.
-
 [^rubik-varga-keri-marx-vekerdy-1987]: E. Rubik, T. Varga, G. Keri, G. Marx and T. Vekerdy, Rubik's Cubic Compendium (Recreations in Mathematics), New York: Oxford University Press, 1987.
-
 [^rubik-1975]: E. Rubik, "térbeli logikai játék," 30 January 1975. [Online]. Available: https://www.sztnh.gov.hu/sites/default/files/anim/pics/HU-170062.pdf.
-
 [^george-1982]: C. George, "Cambridge firm seeks $60m in Rubik's Cube suit," The Boston Globe, 27 May 1982.
-
 [^chen-2015]: C. Chen, "The Legal Puzzle of the Rubik’s Cube," NYU Journal of Intellectual Property & Entertainment Law, 2 October 2015. [Online]. Available: https://jipel.law.nyu.edu/the-legal-puzzle-of-the-rubiks-cube/.
-
 [^singmaster-1982]: D. Singmaster, "PREHISTORY OF THE CUBE," Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic5.htm.
-
 [^ishige-1975]: T. Ishige, "サイコロガタカイテンシキクミアワセガング," 25 November 1975. [Online]. Available: https://www.j-platpat.inpit.go.jp/c1801/PU/JP-S52-066038/11/ja.
-
 [^ishige-1976]: T. Ishige, "サイコロ型回転式組合せ玩具," 12 October 1976. [Online]. Available: https://www.j-platpat.inpit.go.jp/c1801/PU/JP-S53-046833/11/ja.
-
 [^ishige-1977-1]: T. Ishige, "回転式組合わせ玩具," 12 March 1977. [Online]. Available: https://www.j-platpat.inpit.go.jp/c1801/PU/JP-S53-113642/11/ja.
-
 [^ishige-1977-2]: T. Ishige, "回転式立体組合わせ玩具," 29 March 1977. [Online]. Available: https://www.j-platpat.inpit.go.jp/c1801/PU/JP-S53-120946/11/ja.
-
-[^allan-miller-2025]: S. S. Allan Miller, "Stewart Sims and the Rubik's Cube," YouTube.com, 5 August 2025. [Online]. Available: https://www.youtube.com/watch?v=mHwT5GDKMe0.
-
+[^sims-miller-2025]: S. Sims, A. Miller, "Stewart Sims and the Rubik's Cube," YouTube.com, 5 August 2025. [Online]. Available: https://www.youtube.com/watch?v=mHwT5GDKMe0.
 [^tierney-1986]: J. Tierney, "The Perplexing Life of Erno Rubik," Discover, p. 81, March 1986.

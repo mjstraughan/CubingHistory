@@ -47,7 +47,5 @@ In 2013, Robert Yau and Christopher Olson created a webpage with new algorithms 
 ![](img/CLL/TCLL5.png)
 
 [^pochmann-2009]: S. Pochmann, "RoFL 2x2x2," Pochmann's Website, 2009. [Online]. Available: https://www.stefan-pochmann.info//spocc/speedsolving/RoFL/.
-
 [^olson-yau-2013-1]: C. Olson and R. Yau, "TCLL - 2x2 Method," SpeedSolving.com, 16 October 2013. [Online]. Available: https://www.speedsolving.com/threads/tcll-2x2-method.44438/.
-
 [^olson-yau-2013-2]: C. Olson and R. Yau, "Twisty CLL," Olson's website, 2013. [Online]. Available: https://cyotheking.squarespace.com/tcll.

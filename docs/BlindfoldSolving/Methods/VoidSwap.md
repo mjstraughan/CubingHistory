@@ -75,11 +75,7 @@ images={[
 />
 
 [^straughan-trang-2025]: M. Straughan and V. Trang, Personal Communication, 5 April 2025. [Online].
-
 [^trang-2021-1]: V. Trang, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 30 April 2021. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1439675.
-
 [^trang-2021-2]: V. Trang, "Void Swap: A Unique Beginner 3BLD Method," SpeedSolving.com, 21 November 2021. [Online]. Available: https://www.speedsolving.com/threads/void-swap-a-unique-beginner-3bld-method.85777/.
-
 [^pochmann-2005-1]: S. Pochmann, "just swapping 2 pieces," Blindfold Solving Rubik's Cube Yahoo! Group, 22 November 2005. [Online].
-
 [^pochmann-2005-2]: S. Pochmann, "Re: just swapping 2 pieces," Blindfold Solving Rubik's Cube Yahoo! Group, 23 November 2005. [Online].

@@ -60,15 +60,9 @@ Hungarian physicist Zoltán Perjés, a relative of Ernő Rubik [^forgacs-2007], 
 > The steps are: First layer edges, second layer edges, third layer edges, permute all corners, orient all corners.
 
 [^roddewig-1979]: U. Roddewig, Solution Guide for the Hungarian Magic Cube, Cologne, Germany, 1979.
-
 [^easter-1979]: B. Easter, Magic Cube Solution, San Francisco, 1979.
-
 [^isaacs-1981]: S. Isaacs, "misc," Cube Lovers, 8 September 1981. [Online]. Available: https://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/Stan_Isaacs__misc.html.
-
 [^singmaster-1981-1]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 26.
-
 [^singmaster-1981-2]: D. Singmaster, in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 29.
-
 [^forgacs-2007]: P. Forgács, "fizikai szemle," January 2007. [Online]. Available: http://www.epa.oszk.hu/00300/00342/00200/pdf/FizSzem_EPA00342_2007_01.pdf.
-
 [^singmaster-1981-3]: D. Singmaster, in Notes on Rubik's 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 40.

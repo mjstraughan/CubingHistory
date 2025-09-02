@@ -80,7 +80,7 @@ On a personal website in 2004, George Christos stated that while in university i
 
 ![](img/3-Color/ChristosFirstSite.png)
 
-In February 2009, Christos published his 3-Color solution, making it available for purchase in booklet form [^christos-2009-1]. The booklet could be purchased on three different websites [^christos-2009-2] [^christos-2009-3] [^christos-nd]. Accompanying the post was a video providing an example solve [^christos-2009-4]. In March 2009, Christos posted another video that discusses the booklet [^christos-2009-5].
+In February 2009, Christos published his 3-Color solution, making it available for purchase in booklet form [^christos-2009-1]. The booklet could be purchased on three different websites [^christos-2009-2] [^christos-2009-3] [^christos-2009-4]. Accompanying the post was a video providing an example solve [^christos-2009-5]. In March 2009, Christos posted another video that discusses the booklet [^christos-2009-6].
 
 ![](img/3-Color/Christos2.png)
 <br/>
@@ -88,7 +88,7 @@ In February 2009, Christos published his 3-Color solution, making it available f
 <br/>
 <YouTube embedId="18_WoFQp8WQ" />
 <br/>
-In July 2016, Christos made the booklet available for free through a YouTube video that displays each page of the booklet [^christos-2016-1]. On January 18 2025, Christos posted a comment on the video with a link to the .pdf version of the booklet [^christos-2009-6]. A backup link to the booklet is <a href="/archive/MethodFiles/g_christos_soln_rubics_cube_3x3.pdf ">here</a>. On the same day, Christos posted a short video to his Facebook page with an example solve of his method [^christos-2025] [^christos-2016-2].
+In July 2016, Christos made the booklet available for free through a YouTube video that displays each page of the booklet [^christos-2016-1]. On January 18 2025, Christos posted a comment on the video with a link to the .pdf version of the booklet [^christos-2009-7]. A backup link to the booklet is <a href="/archive/MethodFiles/g_christos_soln_rubics_cube_3x3.pdf ">here</a>. On the same day, Christos posted a short video to his Facebook page with an example solve of his method [^christos-2025] [^christos-2016-2].
 
 <YouTube embedId="2t_EIyowSIY" />
 <br/>
@@ -116,35 +116,19 @@ images={[
 Thanks to Tadeáš Miler for suggesting the creation of this page and for providing the various websites by Feather and Christos.
 
 [^feather-straughan-2025-1]: M. Feather and M. J. Straughan, "Personal Communication," 8 August 2025. [Online].
-
 [^feather-straughan-2025-2]: M. Feather and M. J. Straughan, "Personal Communication," 16 August 2025. [Online].
-
 [^feather-2016]: M. Feather, "How to Solve Rubik's Cube - A 3-Color Method," 19 September 2016. [Online]. Available: https://web.archive.org/web/20160916132454/http://www.irbsystems.com:80/test2/rc/.
-
 [^miler-2015]: T. Miler, "Programmers wanted," SpeedSolving.com, 29 June 2015. [Online]. Available: https://www.speedsolving.com/threads/programmers-wanted.53140/page-2#post-1095551.
-
 [^feather-2017]: M. Feather, "How to Solve Rubik's Cube - A 3-Color Method," 27 October 2017. [Online]. Available: https://web.archive.org/web/20171027001944/http://www.irbsystems.com/test2/rc/.
-
 [^feather-2025]: M. Feather, "Unique Solving Method for Rubik's Cube," GitHub, 2025. [Online]. Available: https://mfeather1.github.io/3ColorCube/.
-
 [^christos-2004]: G. Christos, "Rubic's cube My own method," 2004. [Online]. Available: https://web.archive.org/web/20040307094950/http://www.maths.curtin.edu.au:80/~christos/rubic.shtml.
-
 [^christos-2009-1]: G. Christos, "'NEW' alternate illustrated solution to Rubik's cube puzzle," SpeedSolving.com, 25 February 2009. [Online]. Available: https://www.speedsolving.com/threads/new-alternate-illustrated-solution-to-rubiks-cube-puzzle.9909/.
-
 [^christos-2009-2]: G. Christos, "'NEW' alternate illustrated solution to Rubik's cube puzzle," February 2009. [Online]. Available: https://web.archive.org/web/20110706123719/http://www.members.iinet.net.au/~justgeorgeous/solvingRubikscube.html.
-
 [^christos-2009-3]: G. Christos, "'NEW' alternate illustrated solution to Rubik's cube puzzle," February 2009. [Online]. Available: https://web.archive.org/web/20090228055942/https://ubuyonline.com.au/rubik_cube.html.
-
-[^christos-nd]: G. Christos, eBay, February 2009. [Online]. Available: http://shop.ebay.com.au/merchant/justgeorgeous.
-
-[^christos-2009-4]: G. Christos, "solve Rubik Cube puzzle, solution, learn how to NEW quick easy METHOD," YouTube.com, 21 February 2009. [Online]. Available: https://www.youtube.com/watch?v=upub1rOvfqI.
-
-[^christos-2009-5]: G. Christos, "NEW SOLUTION to Rubik's Cube. Fully illustrated step-by-step booklet by Dr George Christos," YouTube.com, 3 March 2009. [Online]. Available: https://www.youtube.com/watch?v=18_WoFQp8WQ.
-
+[^christos-2009-4]: G. Christos, eBay, February 2009. [Online]. Available: http://shop.ebay.com.au/merchant/justgeorgeous.
+[^christos-2009-5]: G. Christos, "solve Rubik Cube puzzle, solution, learn how to NEW quick easy METHOD," YouTube.com, 21 February 2009. [Online]. Available: https://www.youtube.com/watch?v=upub1rOvfqI.
+[^christos-2009-6]: G. Christos, "NEW SOLUTION to Rubik's Cube. Fully illustrated step-by-step booklet by Dr George Christos," YouTube.com, 3 March 2009. [Online]. Available: https://www.youtube.com/watch?v=18_WoFQp8WQ.
 [^christos-2016-1]: G. Christos, "New Solution to Rubik's Cube: step by step solution booklet. FREE!!," YouTube.com, 22 July 2016. [Online]. Available: https://www.youtube.com/watch?v=2t_EIyowSIY.
-
-[^christos-2009-6]: G. Christos, "NEW solution to Rubik's cube," 2009. [Online]. Available: https://justgeorgeous.net/g%20christos%20soln%20rubics%20cube%203x3.pdf.
-
+[^christos-2009-7]: G. Christos, "NEW solution to Rubik's cube," 2009. [Online]. Available: https://justgeorgeous.net/g%20christos%20soln%20rubics%20cube%203x3.pdf.
 [^christos-2025]: G. Christos, Facebook, 18 January 2025. [Online]. Available: https://www.facebook.com/reel/1600959130532266.
-
 [^christos-2016-2]: G. Christos, "Alternate Rubik Cube solution by Dr George Christos," Facebook, 19 July 2016. [Online]. Available: https://www.facebook.com/DrGeorgeChristos/.

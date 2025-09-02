@@ -34,7 +34,7 @@ In June, 2020, Silky posted a method idea that was a combination of Roux and the
 
 ![](img/SSRC/Original.png)
 
-Over time the method evolved to include blockbuilding before solving the last layer corners [^silky-2021] [^straughan-silky-nd].
+Over time the method evolved to include blockbuilding before solving the last layer corners [^silky-2021] [^straughan-silky-2022].
 
 ![](img/SSRC/Evo1.png)
 ![](img/SSRC/Evo2.png)
@@ -65,17 +65,10 @@ As part of the official proposal in March, 2024, Silky included the development 
 ![](img/SSRC/EODR.png)
 
 [^silky-2020]: Silky, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 16 June 2020. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/page-319#post-1378722.
-
 [^silky-2021]: Silky, Discord, 19 July 2021. [Online]. Available: https://discord.com/channels/866379683108749343/866379796618412032/866380854238642196.
-
-[^straughan-silky-nd]: M. J. Straughan and Silky, Personal communication, 10 March 2022. [Online].
-
+[^straughan-silky-2022]: M. J. Straughan and Silky, Personal communication, 10 March 2022. [Online].
 [^silky-2024-1]: Silky, "Et tu Brutus? - SSRC Method Proposal," SpeedSolving.com, 15 March 2024. [Online]. Available: https://www.speedsolving.com/threads/et-tu-brutus-ssrc-method-proposal.92060/.
-
 [^straughan-2022-1]: M. J. Straughan, Discord, 8 March 2022. [Online]. Available: https://discord.com/channels/866379683108749343/879086421003096094/950475008197677126.
-
 [^straughan-2022-2]: M. J. Straughan, "L7E Iterative EO," Google Sheets, 8 March 2022. [Online]. Available: https://docs.google.com/spreadsheets/d/1iosJgoJutJapVt5BGSmaGDqPOHWvxFBWHRDlDomTGNY/edit#gid=1260826725.
-
 [^straughan-2022-3]: M. J. Straughan, "L7E LR Permutation," Google Sheets, 8 March 2022. [Online]. Available: https://docs.google.com/spreadsheets/d/1kgOYB_i9Q7u1mV_cmYGTU6jdEC8pxtoDsrfcH9Vo7sM/edit#gid=96782145.
-
 [^silky-2024-2]: Silky, "SSRC Algs," Google Sheets, 15 March 2024. [Online]. Available: https://docs.google.com/spreadsheets/d/1EtFxTViQuqcxch7YOIhZSOsMcrnJA5YMUuiaVJoKjPQ/edit?usp=sharing.

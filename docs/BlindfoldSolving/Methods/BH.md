@@ -51,7 +51,7 @@ images={[
 
 ## BH Reveal
 
-In 2008, Beyer added lists of algorithms to his website for solving the corners and edges [^beyer-nd-1] [^beyer-nd-2]. In March 2009, Hardwick posted a thread on SpeedSolving.com asking if there was interest in a complete website for the BH method [^hardwick-2009-1]. Seeing the large amount of interest from the forum members, Hardwick and Beyer began development on the website [^hardwick-nd]. A little over a month later, Hardwick posted the link to the page that covers the corner solving step of the method [^hardwick-2009-2]. This was soon followed by the edge solving page [^hardwick-2009-3]. Lucas Garron helped create links to applets for each case [^hardwick-2009-4].
+In 2008, Beyer added lists of algorithms to his website for solving the corners and edges [^beyer-2008-3] [^beyer-2008-4]. In March 2009, Hardwick posted a thread on SpeedSolving.com asking if there was interest in a complete website for the BH method [^hardwick-2009-1]. Seeing the large amount of interest from the forum members, Hardwick and Beyer began development on the website [^hardwick-2008-3]. A little over a month later, Hardwick posted the link to the page that covers the corner solving step of the method [^hardwick-2009-2]. This was soon followed by the edge solving page [^hardwick-2009-3]. Lucas Garron helped create links to applets for each case [^hardwick-2009-4].
 
 <ImageCollage
 images={[
@@ -64,23 +64,13 @@ images={[
 />
 
 [^hardwick-2008-1]: C. Hardwick, "Free Edges," SpeedSolving.com, 14 February 2008. [Online]. Available: https://www.speedsolving.com/threads/free-edges.2457/post-33964.
-
 [^beyer-2008-1]: D. Beyer, "R2, 3 cycle, or Pochmann for corners?," SpeedSolving.com, 22 February 2008. [Online]. Available: https://www.speedsolving.com/threads/r2-3-cycle-or-pochmann-for-corners.2958/post-35330.
-
 [^hardwick-2008-2]: C. Hardwick, "R2, 3 cycle, or Pochmann for corners?," SpeedSolving.com, 23 February 2008. [Online]. Available: https://www.speedsolving.com/threads/r2-3-cycle-or-pochmann-for-corners.2958/post-35433.
-
 [^beyer-2008-2]: D. Beyer, "Commutators for r/l edges on big cubes," SpeedSolving.com, 21 June 2008. [Online]. Available: https://www.speedsolving.com/threads/commutators-for-r-l-edges-on-big-cubes.4727/post-60018.
-
-[^beyer-nd-1]: D. Beyer, "BH Corners," 2008. [Online]. Available: https://web.archive.org/web/20090129214146/http://dbeyer.110mb.com/BHcorners.txt.
-
-[^beyer-nd-2]: D. Beyer, "BH Edges," 2008. [Online]. Available: https://web.archive.org/web/20100421044200/http://dbeyer.110mb.com/BHedges.txt.
-
+[^beyer-2008-3]: D. Beyer, "BH Corners," 2008. [Online]. Available: https://web.archive.org/web/20090129214146/http://dbeyer.110mb.com/BHcorners.txt.
+[^beyer-2008-4]: D. Beyer, "BH Edges," 2008. [Online]. Available: https://web.archive.org/web/20100421044200/http://dbeyer.110mb.com/BHedges.txt.
 [^hardwick-2009-1]: C. Hardwick, "Interest in a BH method website?," SpeedSolving.com, 27 March 2009. [Online]. Available: https://www.speedsolving.com/threads/interest-in-a-bh-method-website.10756/.
-
-[^hardwick-nd]: C. Hardwick, "Interest in a BH method website?," SpeedSolving.com, 30 March 2008. [Online]. Available: https://www.speedsolving.com/threads/interest-in-a-bh-method-website.10756/post-156409.
-
+[^hardwick-2008-3]: C. Hardwick, "Interest in a BH method website?," SpeedSolving.com, 30 March 2008. [Online]. Available: https://www.speedsolving.com/threads/interest-in-a-bh-method-website.10756/post-156409.
 [^hardwick-2009-2]: C. Hardwick, "Interest in a BH method website?," SpeedSolving.com, 3 May 2009. [Online]. Available: https://www.speedsolving.com/threads/interest-in-a-bh-method-website.10756/post-174576.
-
 [^hardwick-2009-3]: C. Hardwick, "Interest in a BH method website?," SpeedSolving.com, 12 May 2009. [Online]. Available: https://www.speedsolving.com/threads/interest-in-a-bh-method-website.10756/post-178458.
-
 [^hardwick-2009-4]: C. Hardwick, "Interest in a BH method website?," SpeedSolving.com, 5 May 2009. [Online]. Available: https://www.speedsolving.com/threads/interest-in-a-bh-method-website.10756/post-175409.

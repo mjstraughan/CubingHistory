@@ -52,16 +52,12 @@ In 2010, MI1 was placed on Straughan's first website [^straughan-2010]. This web
 
 ## Variants
 
-In July, 2021 Cubing Forever proposed an advanced version of the method that ends in LXS [^k-cubingforever-2021]. The idea is to orient all edges while placing one of the bottom layer edges after the initial 1x2x3 and 1x2x2 blocks. Then solve the remaining square of the first two layers, called LXS. This proposal may have been inspired by Nautilus which has the LXS step in some variants.
+In July, 2021 Shrihari Kavale proposed an advanced version of the method that ends in LXS [^kavale-2021]. The idea is to orient all edges while placing one of the bottom layer edges after the initial 1x2x3 and 1x2x2 blocks. Then solve the remaining square of the first two layers, called LXS. This proposal may have been inspired by Nautilus which has the LXS step in some variants.
 
 ![](img/MI1/CubingForever.png)
 
 [^straughan-2006]: M. J. Straughan, "Petrus or Roux?," TwistyPuzzles.com, 22 February 2006. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=28141#p28141.
-
 [^straughan-roux-2006]: M. J. Straughan and G. Roux, "Method Discussions," Emails between Michael James Straughan and Gilles Roux, February 2006. [Online].
-
 [^straughan-laire-2006]: M. J. Straughan and J. Laire, "Method Discussions," Emails between Michael James Straughan and Johannes Laire, August 2006. [Online].
-
 [^straughan-2010]: M. J. Straughan, 110mb.com, March 2010. [Online]. Available: https://web.archive.org/web/20110224050936/http://athefre.110mb.com/.
-
-[^k-cubingforever-2021]: S. K. (CubingForever), Discord, 28 July 2021. [Online].
+[^kavale-2021]: S. Kavale, (CubingForever), Discord, 28 July 2021. [Online].

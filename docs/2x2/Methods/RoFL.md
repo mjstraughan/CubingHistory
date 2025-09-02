@@ -59,13 +59,8 @@ An interesting part of history is the development of TCLL. TCLL is a subset of R
 In 2013, Robert Yau and Christopher Olson identified TCLL from RoFL as a method that they would like to develop. Yau and Olson generated new algorithms, gave the method the name Twisty CLL (TCLL), and presented to speedsolving.com. See the [TCLL](2x2/Methods/TCLL.md) page for the complete history.
 
 [^pochmann-2009]: S. Pochmann, "RoFL 2x2x2," Pochmann's Website, 2009. [Online]. Available: https://www.stefan-pochmann.info//spocc/speedsolving/RoFL/.
-
 [^pochmann-2013]: S. Pochmann, "RoFL method," SpeedSolving.com, 7 September 2013. [Online]. Available: https://www.speedsolving.com/threads/rofl-method.43898/.
-
 [^hcthepro-2023]: hcthepro, Discord, 8 May 2023. [Online]. Available: https://discord.com/channels/987246070750924870/987246942809649224/1105085400227258449.
-
 [^mourad-hitchcock-paterakis-porteners-callan-khanani-2023]: B. Mourad, K. Hitchcock, A. Paterakis, J. Porteners, W. Callan and Z. Khanani, Discord, August 2023. [Online]. Available: https://discord.com/channels/987246070750924870/987246942809649224/1146582096903688192.
-
 [^mourad-hitchcock-paterakis-porteners-callan-khanani-2024]: B. Mourad, K. Hitchcock, A. Paterakis, J. Porteners, W. Callan and Z. Khanani, Discord, March 2024. [Online]. Available: https://discord.com/channels/987246070750924870/1139255360545362033/1218328846093520989.
-
 [^hitchcock-2023]: K. Hitchcock, "CBL(unfinished)," Google Sheets, 18 November 2023. [Online]. Available: https://docs.google.com/spreadsheets/d/1ZByoB9a4eDOKzr8N1s3yckhMy5VRo-Mn6VDkK4WVgI4/edit#gid=1159375609.

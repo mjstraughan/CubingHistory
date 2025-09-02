@@ -59,7 +59,5 @@ In December, 2017, Lukas Zerghi had proposed the same method idea on the French 
 ![](img/Mehta/Zerghi2.png)
 
 [^mehta-2020-1]: Y. Mehta, "The New Method / Substep / Concept Idea Thread," SpeedSolving.com, 13 August 2020. [Online]. Available: https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1387722.
-
 [^mehta-2020-2]: Y. Mehta, "CFOP-Breaker? Mehta method," SpeedSolving.com, 15 August 2020. [Online]. Available: https://www.speedsolving.com/threads/cfop-breaker-mehta-method.78352/.
-
 [^zerghi-2017]: L. Zerghi, "Nouvelle méthode de speed ?," FrancoCube, 5 December 2017. [Online]. Available: https://forum.francocube.com/viewtopic.php?f=20&t=14632.

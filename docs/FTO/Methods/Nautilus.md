@@ -60,11 +60,7 @@ There weren’t many FTO image generators available at the time of the developme
 ![](img/Nautilus/Xu2.png)
 
 [^straughan-2024-1]: M. J. Straughan, 17 June 2024. [Online]. Available: https://discord.com/channels/885722463521103892/885722523013103667/1252286440289599551.
-
 [^straughan-2024-2]: M. J. Straughan, "Introduction," July 2024. [Online]. Available: https://sites.google.com/view/nautilusfto.
-
 [^straughan-highducheck-2024]: M. J. Straughan and L. Highducheck, 24 July 2024. [Online]. Available: https://discord.com/channels/885722463521103892/1259323911892504662/1265823831201808504.
-
 [^trang-2024]: V. Trang, 19 July 2024. [Online]. Available: https://discord.com/channels/885722463521103892/1259323911892504662/1263727261153235099.
-
 [^xu-2024]: E. Xu, "FTO Image Generator," 14 July 2024. [Online]. Available: https://discord.com/channels/885722463521103892/1259323911892504662/1265659206120509570.

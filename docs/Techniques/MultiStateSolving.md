@@ -56,29 +56,16 @@ In 2020, while trying to find a system for solving CLL+1, Michael James Straugha
 ![](img/MultiStateSolving/Unions3.png)
 
 [^petrus-2004-1]: L. Petrus, "Re: [Speed cubing group] 3 Looks !," Yahoo! Groups - Speed Solving Rubik's Cube, 10 September 2004. [Online].
-
 [^petrus-2004-2]: L. Petrus, "Re: [Speed cubing group] Petrus- breakdown # of moves," Yahoo! Groups - Speed Solving Rubik's Cube, 2 December 2004. [Online].
-
 [^roux-2005]: G. Roux, "Re: Sunes vs (O)LL," Yahoo! Groups - Speed Solving Rubik's Cube, 21 December 2005. [Online].
-
 [^petrus-2006]: L. Petrus, "Re: [Speed cubing group] Re: T PERM that flips 2 edges??," Yahoo! Groups - Speed Solving Rubik's Cube, 18 August 2006. [Online].
-
 [^petrus-nd]: L. Petrus, "Solving the final layer as 270 special cases with alg combos," Petrus' Website, [Online]. Available: https://lar5.com/cube/270/index.html.
-
 [^barlow-yau-2010]: T. Barlow and R. Yau, "SuneOLL," SpeedSolving.com, 13 August 2010. [Online]. Available: https://www.speedsolving.com/threads/suneoll.23222/.
-
 [^barlow-2011-1]: T. Barlow, "OLLCP (hax)," SpeedSolving.com, 15 August 2011. [Online]. Available: https://www.speedsolving.com/threads/ollcp-hax.31506/.
-
 [^barlow-2011-2]: T. Barlow, "OLLCP (hax)," SpeedSolving.com Wiki, 2011. [Online]. Available: https://web.archive.org/web/20120113073719/https://www.speedsolving.com/wiki/index.php/OLLCP_%28hax%29.
-
 [^barlow-2012]: T. Barlow, "Developing a better LL system," SpeedSolving.com, 11 May 2012. [Online]. Available: https://www.speedsolving.com/threads/developing-a-better-ll-system.36791/.
-
 [^barlow-2019]: T. Barlow, "Duplex Method," SpeedSolving.com, 9 February 2019. [Online]. Available: https://www.speedsolving.com/threads/duplex-method.72533/.
-
 [^barlow-nd]: T. Barlow, "Duplex Method," Duplex Website, [Online]. Available: http://duplex.kirjava.xyz/.
-
 [^whitmore-2014]: B. Whitmore, "What is the minimum number of algorithms needed for 2 look last layer?," SpeedSolving.com, 12 May 2014. [Online]. Available: https://www.speedsolving.com/threads/what-is-the-minimum-number-of-algorithms-needed-for-2-look-last-layer.47581/.
-
 [^tempus-2014]: Tempus, "What is the minimum number of algorithms needed for 2 look last layer?," SpeedSolving.com, 18 June 2014. [Online]. Available: https://www.speedsolving.com/threads/what-is-the-minimum-number-of-algorithms-needed-for-2-look-last-layer.47581/page-4#post-988568.
-
 [^straughan-2020]: M. J. Straughan, "Algorithm Unions: A New Approach to Method Development," SpeedSolving.com, 28 September 2020. [Online]. Available: https://www.speedsolving.com/threads/union-principle-a-new-approach-to-method-development.78642/.
