@@ -386,7 +386,7 @@ On September 22 2016, Tran posted a video to YouTube demonstrating magnets appli
 
 <YouTube embedId="o7aTjVGa1d0" />
 <br />
-Making it clear that they weren't done with applying magnets to puzzles, on October 29 2016, MoYu announced the MoYu Magnetic Skewb [^mo-yu-2016].
+Making it clear that they weren't done with applying magnets to puzzles, on October 29 2016, MoYu announced the MoYu Magnetic Skewb [^mo-yu-2016-3].
 
 ![](img/HardwareEvolution/MoYuMagneticSkewb.webp)
 
@@ -557,7 +557,7 @@ Thanks to Draco Tong for providing the idea behind this page. Within a thread in
 [^qiyi-2016-2]: QiYi, "Mold testing of QiYi Clock !!," Facebook, 21 July 2016. [Online]. Available: https://www.facebook.com/mofanggecube/posts/pfbid02Gh57PbRzi72FKacZRDQsXazswVmoi81fvn9V5UCXqUpSjTZp86rbnaUwuovSzhFol?__cft__[^0]=AZUme9zwYeduYS3KdrNJTpRUNiuP_ongVU2SFS-Xva71huBRA2bgpKIjTdtjhSVW4h7iE_b0T7TXFb4GQfMG0iMrOHQUOfiPFLtJbD0UOun8UKq6tlMjMOS1WmCaczc.
 [^tran-2016-2]: C. Tran, "Impromptu demonstration of Cubicle Labs magnetic cubes!," YouTube.com, 22 September 2016. [Online]. Available: https://www.youtube.com/watch?v=o7aTjVGa1d0.
 [^tran-2016-3]: C. Tran, "Cubicle Labs Premium Cubes," SpeedSolving.com, 22 September 2016. [Online]. Available: https://www.speedsolving.com/threads/cubicle-labs-premium-cubes.62448/.
-[^mo-yu-2016]: MoYu, "MoYu magnetic skewb, a puzzle which will change the world record.," Facebook, 29 October 2016. [Online]. Available: https://www.facebook.com/photo/?fbid=1112951922119100&set=a.878198095594485&__tn__=%2CO*F.
+[^mo-yu-2016-3]: MoYu, "MoYu magnetic skewb, a puzzle which will change the world record.," Facebook, 29 October 2016. [Online]. Available: https://www.facebook.com/photo/?fbid=1112951922119100&set=a.878198095594485&__tn__=%2CO*F.
 [^boucke-2016]: S. Boucké, "So Gan is selling magnets now," Facebook, 25 November 2016. [Online]. Available: https://www.facebook.com/groups/cyoubxfriends/posts/1576361809056933/?__cft__[^0]=AZUWqKt_8gML-AyG91nzfiZOire6eIy_0VnZFTFyK86dXYECe-cPUusvpvjJrqhaPPUK3Df7ObshGKlaQHjudJ1_zJU7gHlKhvUOlO0Bb7UV0rPJzyJwPHRt6-2OLPp0LcBPyDXvk1x_a6F8VRhpvvSeSsmnoDd4k-WCUngnnKowyW.
 [^zhao-2016]: K. Zhao, "The DIY Magnetic GTS (and a tutorial)," KZ's Cube Review, 27 September 2016. [Online]. Available: https://kzcubereview.blogspot.com/2016/09/the-diy-magnetic-gts-and-tutorial.html?m=1.
 [^miller-2016]: D. Miller, "Weilong GTS M (Magnetic) Do It Yourself Tutorial," YouTube, 5 October 2016. [Online]. Available: https://www.youtube.com/watch?v=mouftEig8Gk.
