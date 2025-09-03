@@ -36,7 +36,7 @@ stickering={{
 
 ### Development
 
-Vincent Trang first talked about the idea on October 16, 2021 [^1] [^2] [^3].
+Vincent Trang first talked about the idea on October 16, 2021 [^trang-2021-1] [^trang-2021-2] [^trang-2021-3].
 
 ![](img/TruSRU/Origin1.png)
 ![](img/TruSRU/Origin2.png)
@@ -45,17 +45,13 @@ Vincent Trang first talked about the idea on October 16, 2021 [^1] [^2] [^3].
 
 ### Proposal
 
-Development was completed on October 25, 2021 [^4] [^5].
+Development was completed on October 25, 2021 [^trang-2021-4] [^trang-2021-5].
 
 ![](img/TruSRU/Proposal1.png)
 ![](img/TruSRU/Proposal2.png)
 
-[^1]: V. Trang, Discord, 16 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/809240454985941003/898708368577941585.
-
-[^2]: V. Trang, Discord, 17 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/809240454985941003/899049772290306089.
-
-[^3]: V. Trang, Discord, 17 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/769494669070958602/899040492086513714.
-
-[^4]: V. Trang, Discord, 25 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/809240454985941003/901849654394765373.
-
-[^5]: V. Trang, "TruSRU overview," Discord, 25 October 2021. [Online]. Available: https://docs.google.com/document/d/1gE9atXcSqNNsiunAbsHYaSvBgTcosPmjTe1VDYz8OzM/edit.
+[^trang-2021-1]: V. Trang, Discord, 16 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/809240454985941003/898708368577941585.
+[^trang-2021-2]: V. Trang, Discord, 17 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/809240454985941003/899049772290306089.
+[^trang-2021-3]: V. Trang, Discord, 17 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/769494669070958602/899040492086513714.
+[^trang-2021-4]: V. Trang, Discord, 25 October 2021. [Online]. Available: https://discord.com/channels/769483322278805504/809240454985941003/901849654394765373.
+[^trang-2021-5]: V. Trang, "TruSRU overview," Discord, 25 October 2021. [Online]. Available: https://docs.google.com/document/d/1gE9atXcSqNNsiunAbsHYaSvBgTcosPmjTe1VDYz8OzM/edit.

@@ -32,7 +32,7 @@ stickering={{
 
 ### First Known Publication
 
-The first known publication of the Layer By Layer method is in 1978 by Donald Taylor in _The Group of a Coloured Cube_ [^1].
+The first known publication of the Layer By Layer method is in 1978 by Donald Taylor in _The Group of a Coloured Cube_ [^taylor-1978].
 
 ![](img/LBL/Taylor.jpg)
 
@@ -42,13 +42,13 @@ The first known publication of the Layer By Layer method is in 1978 by Donald Ta
 
 ### David Singmaster
 
-One of the most well known examples of the Layer By Layer method is the one described in September, 1979 by David Singmaster in _Notes on Rubik's 'Magic Cube'_ [^2]. Originally, Singmaster had been using a Corners First method [^3]. Then, upon learning that some had been using a Layer By Layer Method, Singmaster designed a Layer By Layer method of his own with a different last layer solving variant.
+One of the most well known examples of the Layer By Layer method is the one described in September, 1979 by David Singmaster in _Notes on Rubik's 'Magic Cube'_ [^singmaster-1981-1]. Originally, Singmaster had been using a Corners First method [^singmaster-1981-2]. Then, upon learning that some had been using a Layer By Layer Method, Singmaster designed a Layer By Layer method of his own with a different last layer solving variant.
 
 Singmaster stated: "I have found that different people have quite different strategies for restoring the cube to START. Several people get all the edges in place first, then apply P4's or other combinations of commutators to get the corners in place. Many people get the whole bottom layer correct, then the middle layer, then the top layer."
 
 This appears in a section dated February 1979, before Singmaster changed to a Layer By Layer method. It seems that David Singmaster developed his Layer By Layer method based on the other Layer By Layer methods that he had seen others using.
 
-Additionally, Singmaster was featured in an interview on twistypuzzles.com where he stated "The next major insight was the use of double level commutators. I recall Peter McMullen telling me about the Cambridge group using moves that only affected one or two U pieces. At first this seemed silly, but then commuting this with U gives easy useful processes. I realised that the square and the cube of the commutator [F,R] gave easy moves that affected just one corner in the L face and this allowed me to produce easy processes for moving and twisting corners. From this, I built up the method given in my Notes, initially in Oct 1979, then developed in detail and made into a separate handout in Aug 1980." [^4] [^5]
+Additionally, Singmaster was featured in an interview on twistypuzzles.com where he stated "The next major insight was the use of double level commutators. I recall Peter McMullen telling me about the Cambridge group using moves that only affected one or two U pieces. At first this seemed silly, but then commuting this with U gives easy useful processes. I realised that the square and the cube of the commutator [F,R] gave easy moves that affected just one corner in the L face and this allowed me to produce easy processes for moving and twisting corners. From this, I built up the method given in my Notes, initially in Oct 1979, then developed in detail and made into a separate handout in Aug 1980." [^johnson-2002-1] [^johnson-2002-2]
 
 The steps of Singmaster's Layer By Layer variant, as written by Singmaster:
 
@@ -74,17 +74,17 @@ Other Layer By Layer methods were published in 1979.
 
 ## Keyhole
 
-Keyhole appears in March 1981 in Pierre Julien's _Le Cube Hongrois_ [^6] [^7]. This publication is also mentioned in the blibliography of _Notes on Rubik's 'Magic Cube'_ [^8].
+Keyhole appears in March 1981 in Pierre Julien's _Le Cube Hongrois_ [^singmaster-1982] [^keima-2014]. This publication is also mentioned in the blibliography of _Notes on Rubik's 'Magic Cube'_ [^singmaster-1981-3].
 
 ![](img/LBL/Pierre1.png)
 ![](img/LBL/Pierre2.png)
 ![](img/LBL/Pierre3.png)
 
-An early version of Keyhole also appeared in the September, 1981 issue of Cubism for Fun and is credited to Marko van Eekelen [^9].
+An early version of Keyhole also appeared in the September, 1981 issue of Cubism for Fun and is credited to Marko van Eekelen [^treep-rossum-1981].
 
 ![](img/LBL/Keyhole.png)
 
-Marko Eekelen published a 1981 book titled _Het Geheim Van De Wonderbaarlijke Kubus_ (English: How to Solve the Cube Puzzle) [^10]. The method follows the below steps:
+Marko Eekelen published a 1981 book titled _Het Geheim Van De Wonderbaarlijke Kubus_ (English: How to Solve the Cube Puzzle) [^eekelen-vincent-1981]. The method follows the below steps:
 
 1. Edges of the first layer.
 2. Three edges of the second layer.
@@ -92,7 +92,7 @@ Marko Eekelen published a 1981 book titled _Het Geheim Van De Wonderbaarlijke Ku
 4. Last edge of the second layer.
 5. Last layer typical of other Layer By Layer methods at the time.
 
-The September 1981 issue of Cubism For Fun provides an upgrade to Eekelen's method [^9].
+The September 1981 issue of Cubism For Fun provides an upgrade to Eekelen's method [^treep-rossum-1981].
 
 ![](img/LBL/Keyhole2.png)
 
@@ -104,22 +104,13 @@ This version is more like the current basic keyhole methods:
 4. Last edge of the second layer.
 5. Last layer.
 
-[^1]: D. Taylor, in The Group of a Coloured Cube, New South Wales, Pure Mathematics, 1978.
-
-[^2]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 24.
-
-[^3]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 16.
-
-[^4]: W. Johnson, "INTERVIEW WITH DAVID SINGMASTER," TwistyPuzzles, 6 January 2002. [Online]. Available: https://twistypuzzles.com/articles/spotlight-singmaster/.
-
-[^5]: W. Johnson, "3x3x2, 2x2x3 cuboid article now on Twisty," TwistyPuzzles, 6 January 2002. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=1514.
-
-[^6]: D. Singmaster, "Cubic Circular," Jaap's Puzzle Page, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p4.
-
-[^7]: Keima, "Bonjours les cubeurs," FrancoCube, 11 March 2014. [Online]. Available: https://forum.francocube.com/viewtopic.php?t=11468.
-
-[^8]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 61.
-
-[^9]: A. Treep and J. v. Rossum, Cubism For Fun, September 1981.
-
-[^10]: M. v. Eekelen and M. Vincent, Het Geheim Van De Wonderbaarlijke Kubus, 1981.
+[^taylor-1978]: D. Taylor, in The Group of a Coloured Cube, New South Wales, Pure Mathematics, 1978.
+[^singmaster-1981-1]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 24.
+[^singmaster-1981-2]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 16.
+[^johnson-2002-1]: W. Johnson, "INTERVIEW WITH DAVID SINGMASTER," TwistyPuzzles, 6 January 2002. [Online]. Available: https://twistypuzzles.com/articles/spotlight-singmaster/.
+[^johnson-2002-2]: W. Johnson, "3x3x2, 2x2x3 cuboid article now on Twisty," TwistyPuzzles, 6 January 2002. [Online]. Available: https://twistypuzzles.com/forum/viewtopic.php?p=1514.
+[^singmaster-1982]: D. Singmaster, "Cubic Circular," Jaap's Puzzle Page, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p4.
+[^keima-2014]: Keima, "Bonjours les cubeurs," FrancoCube, 11 March 2014. [Online]. Available: https://forum.francocube.com/viewtopic.php?t=11468.
+[^singmaster-1981-3]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 61.
+[^treep-rossum-1981]: A. Treep and J. v. Rossum, Cubism For Fun, September 1981.
+[^eekelen-vincent-1981]: M. v. Eekelen and M. Vincent, Het Geheim Van De Wonderbaarlijke Kubus, 1981.

@@ -34,15 +34,14 @@ stickering={{
 
 ## Origin
 
-On the webpage for the Salvia method, Salvia states that he first got a cube in 1981 [^1]. It is possible that the method was developed in that same year.
+On the webpage for the Salvia method, Salvia states that he first got a cube in 1981 [^salvia-nd]. It is possible that the method was developed in that same year.
 
 ![](img/Salvia/Salvia1.png)
 
-Salvia first described the method in December, 2003 [^2]. This description led to the method getting its own dedicated page on speedcubing.com
+Salvia first described the method in December, 2003 [^salvia-2003]. This description led to the method getting its own dedicated page on speedcubing.com
 
 ![](img/Salvia/Salvia2.png)
 ![](img/Salvia/Salvia3.png)
 
-[^1]: D. J. Salvia, "The Salvia method," SpeedCubing.com, [Online]. Available: http://www.speedcubing.com/DavidJSalvia.html.
-
-[^2]: D. J. Salvia, "Re: Solving the last layer: My Method," Yahoo! Groups - Speed Solving Rubik's Cube, 3 December 2003. [Online].
+[^salvia-nd]: D. J. Salvia, "The Salvia method," SpeedCubing.com, [Online]. Available: http://www.speedcubing.com/DavidJSalvia.html.
+[^salvia-2003]: D. J. Salvia, "Re: Solving the last layer: My Method," Yahoo! Groups - Speed Solving Rubik's Cube, 3 December 2003. [Online].

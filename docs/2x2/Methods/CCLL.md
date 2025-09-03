@@ -31,7 +31,7 @@ R' U' // Undo pseudo`}
 
 Conjugated CLL (CLL) is the placement of a U layer corner on the bottom layer with a D layer corner. The upper layer corners are now in a pseudo state and are solved relative to the U layer corner that was placed on the bottom layer.
 
-This concept was first developed by Michael James Straughan in 2012 [^1].
+This concept was first developed by Michael James Straughan in 2012 [^straughan-2012].
 
 ![](img/CLL/CCLL.png)
 
@@ -39,4 +39,4 @@ In 2018, Joseph Briggs independently proposed the same concept as an application
 
 <YouTube embedId="AJjT5bYknls" />
 
-[^1]: M. J. Straughan, "CLL Transformation Table," SpeedSolving.com, 8 February 2012. [Online]. Available: https://www.speedsolving.com/threads/cll-transformation-table.35293/.
+[^straughan-2012]: M. J. Straughan, "CLL Transformation Table," SpeedSolving.com, 8 February 2012. [Online]. Available: https://www.speedsolving.com/threads/cll-transformation-table.35293/.
