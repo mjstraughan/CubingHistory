@@ -38,7 +38,7 @@ Guus Razoux Schultz started developing CFCE in September, 1981 [^schultz-2022]. 
 
 ## Development
 
-In December 1983, Schultz published CLL and ELL algorithms in issue number 6 of Cubism For Fun.
+In December 1983, Schultz published CLL and ELL algorithms in issue number 6 of Cubism For Fun [^schultz-1983-1] [^schultz-1983-2].
 
 <ImageCollage
 images={[
@@ -55,3 +55,5 @@ Schultz used CFCE at the World Rubik's Cube Championship 1982 [^singmaster-1982]
 
 [^schultz-2022]: G. R. Schultz, "Personal communication with M. J. Straughan," SpeedSolving.com, 25 August 2022. [Online].
 [^singmaster-1982]: D. Singmaster, "THE FIRST WORLD CHAMPIONSHIP," Cubic Circular, 1982. [Online]. Available: https://www.jaapsch.net/puzzles/cubic3.htm#p4.
+[^schultz-1983-1]: G. R. Schultz, "RANDBLOKJES VAN HET LAATSTE VLAK,” Cubism For Fun, December 1983.
+[^schultz-1983-2]: G. R. Schultz, "HOEKPUNTENTABEL,” Cubism For Fun, December 1983.
