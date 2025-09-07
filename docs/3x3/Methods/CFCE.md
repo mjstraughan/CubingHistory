@@ -36,6 +36,17 @@ Guus Razoux Schultz started developing CFCE in September, 1981 [^schultz-2022]. 
 
 > Schultz described the method's origins to me in the above private message.
 
+## Development
+
+In December 1983, Schultz published CLL and ELL algorithms in issue number 6 of Cubism For Fun.
+
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Methods/img/CFCE/CFF_CLL.png").default},
+{ src: require("@site/docs/3x3/Methods/img/CFCE/CFF_ELL.png").default}
+]}
+/>
+
 ## World Rubik's Cube Championship 1982
 
 Schultz used CFCE at the World Rubik's Cube Championship 1982 [^singmaster-1982]. This makes Schultz the first person to have used the F2L pairing technique in an official World Cube Association competition.

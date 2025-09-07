@@ -68,14 +68,15 @@ Since I joined the community, I have always been interested in method developmen
   - Helped fix problems during the setup process.
   - Set up AnimCubeJS and Twisty Player on the site to allow cube applets to be used.
   - Got archive html links working. This allowed for linking to html pages of old websites that are now stored here.
+  - Implemented an automated reference system and converted all existing pages, 86 of them at the time, to the new reference ID format.
 
-- Georges Helm: Has been kind enough to look through the books that he owns and confirm my suspicions and provide me details. Helm sent me a lot of information and hand written descriptions of the steps within numerous books. Some of this information changed the history that was previously thought, especially as it relates to Layer By Layer and CFOP.
+- Georges Helm: Has been kind enough to look through the books that he owns and confirm my suspicions and provide details. Helm sent me a lot of information and hand written descriptions of the steps within numerous books. Some of this information changed the history that was previously thought, especially as it relates to Layer By Layer and CFOP.
 
 - Ron van Bruchem: Has been very helpful in providing information about early method development and locating information in the books that he owns.
 
 - Michael Feather: Provided assistance ensuring proper functionality of AnimCubeJS.
 
-- Tadeáš Miler: Gave ideas to take full advantage of AnimCubeJS features.
+- Tadeáš Miler: Gave ideas to take full advantage of AnimCubeJS features and recommended various page updates.
 
 - James Macdiarmid: Provided a detailed summary of blindfold solving methods and techniques. This aided greatly in finding the starting points and making the connections for research. Without Macdiarmid's help it would have taken much longer to include the blindfold solving section, and may not have been as accurate with regard to how each method and technique works.
 
