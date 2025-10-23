@@ -1,68 +1,48 @@
+#!/usr/bin/env python3
 import json
 from pathlib import Path
 import html
 import sys
-import re # Used for robust year extraction
-from datetime import datetime
+import re
 
 # === CONFIG ===
-INPUT_JSON = "deutscherspeedcubingclub.json"  # Change to your JSON filename
-OUTPUT_BASE_FILENAME = "deutscherspeedcubingclub"
+INPUT_JSON = "zbmethod.json"   # Change to your JSON file
+OUTPUT_BASE_FILENAME = "zbmethod"
 TITLE = "Email Archive"
+MESSAGES_PER_FILE = 2000
+SPLIT_THRESHOLD = 3000   # Split into parts when messages > this number
 
-# === PATH & LOAD JSON ===
-# Get the directory where the current Python script is located
+# === LOAD JSON ===
 script_dir = Path(sys.argv[0]).resolve().parent
-
-# Combine the script's directory with the JSON filename to get the absolute path
 input_file_path = script_dir / INPUT_JSON
 
 print(f"Loading data from: {input_file_path}")
-
 try:
     with open(input_file_path, "r", encoding="utf-8") as f:
         messages = json.load(f)
 except FileNotFoundError:
-    print(f"Error: JSON file not found at {input_file_path}")
+    print(f"❌ Error: JSON file not found at {input_file_path}")
     sys.exit(1)
 except json.JSONDecodeError as e:
-    print(f"Error decoding JSON. Please check file structure and ensure no hidden characters (e.g., U+00A0). Error: {e}")
+    print(f"❌ Error decoding JSON: {e}")
     sys.exit(1)
 
-# === NEW: Group messages by year ===
+# === GROUP MESSAGES BY YEAR ===
 yearly_messages = {}
-last_known_year = None # Store the year of the previous message that had a valid date
-
+last_known_year = None
 for i, msg in enumerate(messages):
-    date_str = msg.get("date", "Unknown Date")
-    current_year = "Unknown"
-
-    # 1. Attempt to extract the year
-    # Heuristic: Find 4 consecutive digits that look like a year (19xx or 20xx)
+    date_str = msg.get("date", "")
     match = re.search(r'\b(19\d{2}|20\d{2})\b', date_str)
-
     if match:
-         # Success: Use the found year and update last_known_year
-         current_year = match.group(0)
-         last_known_year = current_year
+        year = match.group(0)
+        last_known_year = year
+    elif last_known_year:
+        year = last_known_year
     else:
-        # Failure: Try to inherit the year from the previous message
-        if last_known_year is not None:
-            current_year = last_known_year
-        else:
-            # Still Unknown (e.g., first message, or long string of undated messages)
-            # Print warning only if it's a date string but couldn't be parsed
-            if date_str != "Unknown Date":
-                print(f"Warning: Message {i+1} date '{date_str}' could not be parsed. Grouping as '{current_year}'.")
-            
-            current_year = "Unknown" # Keep default 'Unknown' if no previous year exists
-            
-    # Group the message using the determined year
-    if current_year not in yearly_messages:
-        yearly_messages[current_year] = []
-    yearly_messages[current_year].append(msg)
+        year = "Unknown"
+    yearly_messages.setdefault(year, []).append(msg)
 
-# === CSS STYLES (copied from your sample) ===
+# === STYLES ===
 CSS = """
 body {
     font-family: monospace;
@@ -90,7 +70,7 @@ h1 {
     font-style: normal;
 }
 .email-content {
-    white-space: pre-wrap; /* Preserve ASCII spacing and allow wrapping */
+    white-space: pre-wrap;
     font-family: monospace;
     overflow-x: auto;
     max-width: 100%;
@@ -98,8 +78,19 @@ h1 {
     padding: 10px;
     background-color: #fff;
     border-left: 3px solid #ccc;
+    user-select: text;
 }
-
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+.nav-links a:hover { color: #0056b3; }
 #toTopBtn {
     position: fixed;
     width: 60px;
@@ -122,8 +113,27 @@ h1 {
 #toTopBtn:hover { background-color: #444; }
 """
 
-# === FUNCTION TO BUILD SINGLE YEAR HTML FILE ===
-def generate_html_file(filename, title, messages_list, css):
+# === HELPER: SANITIZE CONTENT ===
+def sanitize_and_preserve_newlines(content_raw: str) -> str:
+    if not content_raw:
+        return ""
+    content = content_raw.replace("\r\n", "\n").replace("\r", "\n")
+    has_tags = bool(re.search(r"<\s*\w", content))
+    if has_tags:
+        safe = html.escape(content)
+        safe = re.sub(r"&lt;a\s+", "<a ", safe, flags=re.IGNORECASE)
+        safe = safe.replace("&lt;/a&gt;", "</a>")
+        safe = safe.replace("&lt;br&gt;", "<br>")
+        safe = safe.replace("&gt;", ">")
+        if safe.count("<a ") > safe.count("</a>"):
+            safe += "</a>"
+        return safe
+    else:
+        safe = html.escape(content)
+        return safe.replace("\n", "<br>\n")
+
+# === GENERATE SINGLE HTML PAGE ===
+def generate_html_file(filename, title, messages_list, css, nav_prev=None, nav_next=None):
     parts = [
         "<!DOCTYPE html>",
         "<html><head><meta charset='utf-8'>",
@@ -134,39 +144,38 @@ def generate_html_file(filename, title, messages_list, css):
         f"<p><a href='../ArchiveIndex.html'>&larr; Back to Archive Index</a></p>"
     ]
 
+    # navigation links at top
+    if nav_prev or nav_next:
+        parts.append('<div class="nav-links">')
+        parts.append(f'<a href="{nav_prev}">&larr; Previous</a>' if nav_prev else "<span></span>")
+        parts.append(f'<a href="{nav_next}">Next &rarr;</a>' if nav_next else "<span></span>")
+        parts.append("</div>")
+
     for i, msg in enumerate(messages_list, start=1):
         subject = html.escape(msg.get("subject", "No Subject"))
         sender = html.escape(msg.get("from", "Unknown Sender"))
-        to = html.escape(msg.get("to", ""))
+        to_field = html.escape(msg.get("to", ""))
         date = html.escape(msg.get("date", ""))
-        content = msg.get("content", "").strip()
-
-        # 1. Escape all content initially
-        safe_content = html.escape(content)
-
-        # 2. Un-escape common HTML tags
-        safe_content = safe_content.replace("&lt;br&gt;", "<br>")
-        safe_content = safe_content.replace("&lt;a ", "<a ")
-        safe_content = safe_content.replace("&lt;/a&gt;", "</a>")
-        safe_content = safe_content.replace("&gt;", ">")
-
-        # 3. *** HEURISTIC FIX FOR BLEEDING LINKS ***
-        # Close any open anchor tag to prevent it from linking the rest of the file
-        if "<a " in safe_content and safe_content.count("<a ") > safe_content.count("</a>"):
-            safe_content += "</a>"
-        # *** END HEURISTIC FIX ***
+        content_raw = msg.get("content", "") or ""
+        safe_content = sanitize_and_preserve_newlines(content_raw)
 
         parts.append(f"""
         <div class="email-item" id="msg-{i}">
-          <strong>{i}. {subject}</strong><br>
+          <a class="header-link" href="#msg-{i}"><strong>{i}. {subject}</strong></a><br>
           <em>From:</em> {sender}<br>
-          <em>To:</em> {to}<br>
+          <em>To:</em> {to_field}<br>
           <em>Date:</em> {date}<br><br>
           <div class="email-content">{safe_content}</div>
         </div>
         """)
 
-    # Add a simple “scroll to top” button
+    # navigation links at bottom
+    if nav_prev or nav_next:
+        parts.append('<div class="nav-links">')
+        parts.append(f'<a href="{nav_prev}">&larr; Previous</a>' if nav_prev else "<span></span>")
+        parts.append(f'<a href="{nav_next}">Next &rarr;</a>' if nav_next else "<span></span>")
+        parts.append("</div>")
+
     parts.append("""
     <button id="toTopBtn" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑</button>
     <script>
@@ -175,79 +184,58 @@ def generate_html_file(filename, title, messages_list, css):
         btn.style.display = (document.documentElement.scrollTop > 200) ? "block" : "none";
     };
     </script>
+    </body></html>
     """)
-
-    parts.append("</body></html>")
 
     Path(filename).write_text("\n".join(parts), encoding="utf-8")
     return len(messages_list)
 
-# === FUNCTION TO GENERATE INDEX FILE ===
-def generate_index(yearly_messages_count):
+# === GENERATE INDEX ===
+def generate_index(yearly_data):
     index_file = "index.html"
-    index_parts = [
+    parts = [
         "<!DOCTYPE html>",
         "<html><head><meta charset='utf-8'>",
         f"<title>{html.escape(TITLE)} - Index</title>",
         """<style>
-            body { font-family: sans-serif; padding: 20px; background-color: #f4f4f4;}
-            h1 { color: #0056b3; border-bottom: 3px solid #0056b3; padding-bottom: 10px; }
-            ul { list-style: none; padding: 0; }
-            li { margin: 15px 0; background-color: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-            a { text-decoration: none; color: #007bff; font-weight: bold; font-size: 1.2em; transition: color 0.2s; }
-            a:hover { color: #0056b3; }
-            span { color: #888; font-size: 0.9em; margin-left: 20px; }
-        </style>""",
-        "</head><body>",
+        body { font-family: sans-serif; padding: 20px; background-color: #f4f4f4;}
+        h1 { color: #0056b3; border-bottom: 3px solid #0056b3; padding-bottom: 10px; }
+        ul { list-style: none; padding: 0; }
+        li { margin: 15px 0; background-color: #fff; padding: 15px; border-radius: 8px;
+             box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        a { text-decoration: none; color: #007bff; font-weight: bold; font-size: 1.2em; transition: color 0.2s; }
+        a:hover { color: #0056b3; }
+        span { color: #888; font-size: 0.9em; margin-left: 20px; }
+        </style></head><body>""",
         f"<h1>{html.escape(TITLE)} - Archive Index</h1>",
-        "<p>Select a year below to view the messages from that period.</p>",
         "<ul>"
     ]
+    for year in sorted(yearly_data.keys()):
+        for entry in yearly_data[year]:
+            ptxt = f" (Part {entry['part']} of {entry['total_parts']})" if entry['total_parts'] > 1 else ""
+            parts.append(f"<li><a href='{entry['filename']}'>Archive for {year}{ptxt}</a> <span>({entry['count']} messages)</span></li>")
+    parts.append("</ul></body></html>")
+    Path(index_file).write_text("\n".join(parts), encoding="utf-8")
+    print(f"✅ Created index: {index_file}")
 
-    # Sort years from oldest to newest for chronological display
-    sorted_years = sorted(yearly_messages_count.keys())
-
-    for year in sorted_years:
-        count = yearly_messages_count[year]['count']
-        filename = yearly_messages_count[year]['filename']
-
-        index_parts.append(f"""
-        <li>
-            <a href="{filename}">Archive for {year}</a>
-            <span>({count} messages)</span>
-        </li>
-        """)
-
-    index_parts.append("</ul></body></html>")
-    Path(index_file).write_text("\n".join(index_parts), encoding="utf-8")
-    print(f"✅ Created index file: '{index_file}'")
-
-# === MAIN EXECUTION LOOP FOR FILE GENERATION ===
-yearly_messages_count = {}
-total_messages_processed = 0
-
-print("-" * 40)
-print("Starting file generation...")
-print("-" * 40)
-
-# Generate files for each year
+# === MAIN LOOP ===
+yearly_output_info = {}
 for year, msgs in yearly_messages.items():
-    output_filename = f"{OUTPUT_BASE_FILENAME}_{year}.html"
-    page_title = f"{TITLE} - Archive {year} ({len(msgs)} messages)"
+    total_msgs = len(msgs)
+    chunks = [msgs[i:i + MESSAGES_PER_FILE] for i in range(0, total_msgs, MESSAGES_PER_FILE)] if total_msgs > SPLIT_THRESHOLD else [msgs]
+    total_parts = len(chunks)
+    yearly_output_info.setdefault(year, [])
 
-    # Generate the yearly file
-    count = generate_html_file(output_filename, page_title, msgs, CSS)
+    for part_index, chunk in enumerate(chunks, start=1):
+        base = f"{OUTPUT_BASE_FILENAME}_{year}"
+        filename = f"{base}_Part{part_index}.html" if total_parts > 1 else f"{base}.html"
+        title = f"{TITLE} - Archive {year} ({total_msgs} messages){f' (Part {part_index} of {total_parts})' if total_parts > 1 else ''}"
+        nav_prev = f"{base}_Part{part_index-1}.html" if part_index > 1 else None
+        nav_next = f"{base}_Part{part_index+1}.html" if part_index < total_parts else None
 
-    yearly_messages_count[year] = {
-        'count': count,
-        'filename': output_filename
-    }
-    total_messages_processed += count
-    print(f"   Generated: '{output_filename}' with {count} messages.")
+        count = generate_html_file(filename, title, chunk, CSS, nav_prev, nav_next)
+        yearly_output_info[year].append({'filename': filename, 'count': count, 'part': part_index, 'total_parts': total_parts})
+        print(f"Generated {filename} with {count} messages.")
 
-# Generate the index file
-generate_index(yearly_messages_count)
-
-print("-" * 40)
-print(f"Successfully split archive into {len(yearly_messages)} files.")
-print(f"Total archive messages processed: {total_messages_processed}")
+generate_index(yearly_output_info)
+print("✅ Done!")

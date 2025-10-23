@@ -28,7 +28,7 @@ h1 {
     font-style: normal;
 }
 .email-content {
-    white-space: pre-wrap; /* Preserve ASCII spacing and allow wrapping */
+    white-space: pre-wrap;
     font-family: monospace;
     overflow-x: auto;
     max-width: 100%;
@@ -36,9 +36,19 @@ h1 {
     padding: 10px;
     background-color: #fff;
     border-left: 3px solid #ccc;
-    user-select: text; /* Explicitly ensure content is selectable */
+    user-select: text;
 }
-
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+.nav-links a:hover { color: #0056b3; }
 #toTopBtn {
     position: fixed;
     width: 60px;
@@ -65,29 +75,37 @@ h1 {
 <p><a href='../ArchiveIndex.html'>&larr; Back to Archive Index</a></p>
 
         <div class="email-item" id="msg-1">
-          <strong>1. Speed Solving Rubik&#x27;s Cube</strong><br>
+          <a class="header-link" href="#msg-1"><strong>1. Speed Solving Rubik&#x27;s Cube</strong></a><br>
           <em>From:</em> weirdman71<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Sun, 18 Jun 2000 19:01:34 -0700<br><br>
-          <div class="email-content">Welcome to the Yahoo! Message Board for Speed Solving Rubik&#x27;s Cube</div>
+          <div class="email-content">Welcome to the Yahoo! Message Board for Speed Solving Rubik&#x27;s Cube<br>
+<br>
+<br>
+<br>
+</div>
         </div>
         
 
         <div class="email-item" id="msg-2">
-          <strong>2. Welcome</strong><br>
+          <a class="header-link" href="#msg-2"><strong>2. Welcome</strong></a><br>
           <em>From:</em> weirdman71<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Sun, 18 Jun 2000 19:13:41 -0700<br><br>
-          <div class="email-content">Welcome to the speed solving rubik&#x27;s cube club.
-If you know how to speed solve then you can offer
-hints to others who are just learning. If you don&#x27;t
-know how to speed solve then ask questions! That&#x27;s
-what this club is for.</div>
+          <div class="email-content">Welcome to the speed solving rubik&#x27;s cube club.<br>
+If you know how to speed solve then you can offer<br>
+hints to others who are just learning. If you don&#x27;t<br>
+know how to speed solve then ask questions! That&#x27;s<br>
+what this club is for.<br>
+<br>
+<br>
+<br>
+</div>
         </div>
         
 
         <div class="email-item" id="msg-3">
-          <strong>3. Two types of speedsolving</strong><br>
+          <a class="header-link" href="#msg-3"><strong>3. Two types of speedsolving</strong></a><br>
           <em>From:</em> _jaap<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Tue, 20 Jun 2000 04:50:40 -0700<br><br>
@@ -109,12 +127,16 @@ use essentially a layer method (though Lars does the
 first two layers differently). Are there any
 speedcubers out there who do a corners first method like Minh
 Thai did?<br><br>Jaap<br>Jaap&#x27;s Puzzle Page:
-<a href=http://www.org2.com/jaap/puzzles target=new>http://www.org2.com/jaap/puzzles</a></div>
+<a href=http://www.org2.com/jaap/puzzles target=new>http://www.org2.com/jaap/puzzles</a>
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-4">
-          <strong>4. Re: Two types of speedsolving</strong><br>
+          <a class="header-link" href="#msg-4"><strong>4. Re: Two types of speedsolving</strong></a><br>
           <em>From:</em> weirdman71<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Wed, 21 Jun 2000 11:45:39 -0700<br><br>
@@ -148,12 +170,16 @@ That sounds interesting.<br><br>I want to try to learn
 Lars&#x27; solution so that I can have a basis of comparison
 between the two main methods of speed solving, how many
 moves does it take, on average, for his method? Jiri&#x27;s
-is about 55 or 56 moves on average.<br><br>Chris</div>
+is about 55 or 56 moves on average.<br><br>Chris
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-5">
-          <strong>5. Solving the first two layers</strong><br>
+          <a class="header-link" href="#msg-5"><strong>5. Solving the first two layers</strong></a><br>
           <em>From:</em> weirdman71<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Mon, 26 Jun 2000 21:15:35 -0700<br><br>
@@ -174,12 +200,16 @@ times improved slightly, to about 24-25 seconds on
 average for a period of a few minutes. Also should I use
 any finger shortcuts and if so how often? If anyone
 has any tips or hints or can help me then I&#x27;d really
-appreciate it. Thanks in advance.<br><br>Chris</div>
+appreciate it. Thanks in advance.<br><br>Chris
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-6">
-          <strong>6. Re: Solving the first two layers</strong><br>
+          <a class="header-link" href="#msg-6"><strong>6. Re: Solving the first two layers</strong></a><br>
           <em>From:</em> ilovemycube<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 30 Jun 2000 12:18:43 -0700<br><br>
@@ -198,12 +228,16 @@ edges)<br>- solve the last corner of the first layer together
 with the last edges of the second<br><br>This method
 will take about 5 or 6 moves extra, but you can focus
 on solving one cubelet at a time. So it takes almost
-the same time.<br><br>Good luck.<br><br>Ilovemycube</div>
+the same time.<br><br>Good luck.<br><br>Ilovemycube
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-7">
-          <strong>7. Re: Solving the first two layers</strong><br>
+          <a class="header-link" href="#msg-7"><strong>7. Re: Solving the first two layers</strong></a><br>
           <em>From:</em> cubin4speed<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 30 Jun 2000 13:08:18 -0700<br><br>
@@ -258,12 +292,16 @@ especially during the first few corner-edge pairs when you
 have still have some &quot;empty&quot; slots left. Also, when
 the last move of inserting one corner-edge pair is R&#x27;
 and the first move of the next pair is going to be
-R&#x27;, try to anticipate this and just do R2.<br><br>Dan</div>
+R&#x27;, try to anticipate this and just do R2.<br><br>Dan
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-8">
-          <strong>8. Re: Solving the first two layers</strong><br>
+          <a class="header-link" href="#msg-8"><strong>8. Re: Solving the first two layers</strong></a><br>
           <em>From:</em> rubixsux<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 30 Jun 2000 15:09:21 -0700<br><br>
@@ -289,34 +327,46 @@ putting them in the right place.<br><br>4. Practice a lot
 going slow but with no stalls for
 recognition.<br><br>5. Practice, Practice, Practice...This stage more
 than any other just gets better and better the more
-you do it.</div>
+you do it.
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-9">
-          <strong>9. The Rubik&#x27;s Cube is easy</strong><br>
+          <a class="header-link" href="#msg-9"><strong>9. The Rubik&#x27;s Cube is easy</strong></a><br>
           <em>From:</em> crazycomputers<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Mon, 03 Jul 2000 10:39:25 -0700<br><br>
-          <div class="email-content">I can usually solve the Rubik&#x27;s Cube in 2-3 minutes.</div>
+          <div class="email-content">I can usually solve the Rubik&#x27;s Cube in 2-3 minutes.<br>
+<br>
+<br>
+<br>
+</div>
         </div>
         
 
         <div class="email-item" id="msg-10">
-          <strong>10. Posting cube averages here?</strong><br>
+          <a class="header-link" href="#msg-10"><strong>10. Posting cube averages here?</strong></a><br>
           <em>From:</em> rubixsux<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Thu, 06 Jul 2000 16:51:45 -0700<br><br>
-          <div class="email-content">I was thinking that it would be cool if we could
-set up an averages board that people could post their
-averages to. I think that this would be a pretty cool
-thing. Does anyone know if we could set something like
-this up with Yahoo Clubs?</div>
+          <div class="email-content">I was thinking that it would be cool if we could<br>
+set up an averages board that people could post their<br>
+averages to. I think that this would be a pretty cool<br>
+thing. Does anyone know if we could set something like<br>
+this up with Yahoo Clubs?<br>
+<br>
+<br>
+<br>
+</div>
         </div>
         
 
         <div class="email-item" id="msg-11">
-          <strong>11. Re: Posting cube averages here?</strong><br>
+          <a class="header-link" href="#msg-11"><strong>11. Re: Posting cube averages here?</strong></a><br>
           <em>From:</em> cubin4speed<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Thu, 06 Jul 2000 19:27:26 -0700<br><br>
@@ -325,25 +375,33 @@ posting
 averages:<br><a href=http://www.geocities.com/Area51/Zone/7362/rubik/recordtimes.html target=new>http://www.geocities.com/Area51/Zone/7362/rubik/recordtimes.html</a><br><br>Also, I agreed with what rubixsux said about solving
 the first two layers. Do you mind if I add your
 comments to my home page? My address is in my
-profile.<br>-Dan</div>
+profile.<br>-Dan
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-12">
-          <strong>12. First two layers</strong><br>
+          <a class="header-link" href="#msg-12"><strong>12. First two layers</strong></a><br>
           <em>From:</em> slowcuber<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Sat, 08 Jul 2000 11:34:23 -0700<br><br>
-          <div class="email-content">I started out placing the cross on top, and then
-solving top layers while holding cross on top. It was
-hard to find the next pair of cubes that way. I am now
-trying solving cross on top, flipping it over and
-solving bottom up. What do others do? What&#x27;s fastest?</div>
+          <div class="email-content">I started out placing the cross on top, and then<br>
+solving top layers while holding cross on top. It was<br>
+hard to find the next pair of cubes that way. I am now<br>
+trying solving cross on top, flipping it over and<br>
+solving bottom up. What do others do? What&#x27;s fastest?<br>
+<br>
+<br>
+<br>
+</div>
         </div>
         
 
         <div class="email-item" id="msg-13">
-          <strong>13. Re: First two layers</strong><br>
+          <a class="header-link" href="#msg-13"><strong>13. Re: First two layers</strong></a><br>
           <em>From:</em> ilovemycube<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Sat, 08 Jul 2000 14:00:33 -0700<br><br>
@@ -363,12 +421,16 @@ advantage that you can combine the moves of the right and
 upper side in short cuts.<br><br>The best would be to
 never turn the cube at all. So build the cross at the
 bottom, and keep it there.<br><br>Good
-luck.<br><br>Ilovemycube</div>
+luck.<br><br>Ilovemycube
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-14">
-          <strong>14. Empty slots in first two layers</strong><br>
+          <a class="header-link" href="#msg-14"><strong>14. Empty slots in first two layers</strong></a><br>
           <em>From:</em> slowcuber<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Sat, 08 Jul 2000 17:25:50 -0700<br><br>
@@ -377,12 +439,16 @@ pieces together before placing them, as a few of you
 have referred? I know it&#x27;s probably hard to explain
 and really easy to show.<br><br>And how do you
 approach the situation where all 4 corner pieces are in
-the wrong corners? This seems to really slow me down.</div>
+the wrong corners? This seems to really slow me down.
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-15">
-          <strong>15. orientation of last layer</strong><br>
+          <a class="header-link" href="#msg-15"><strong>15. orientation of last layer</strong></a><br>
           <em>From:</em> slowcuber<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Sat, 08 Jul 2000 17:30:37 -0700<br><br>
@@ -393,12 +459,16 @@ or did you draw them so you could recognize the
 patterns, memorize, and then change to fit your hands? Or
 something else?<br><br>And when we talk of 40 cases;
 shouldn&#x27;t we say there are 57? Unless I&#x27;m missing
-something, that&#x27;s what you really have to memorize, right?</div>
+something, that&#x27;s what you really have to memorize, right?
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-16">
-          <strong>16. Re: Empty slots in first two layers</strong><br>
+          <a class="header-link" href="#msg-16"><strong>16. Re: Empty slots in first two layers</strong></a><br>
           <em>From:</em> ilovemycube<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Sun, 09 Jul 2000 13:15:08 -0700<br><br>
@@ -411,12 +481,16 @@ top (green orange white) would not yet be in its
 place? Then it can be done in five moves: F&#x27;DF2DF&#x27;.
 There are lots of situations in which you could win
 even more than one move.<br><br>Good
-luck.<br><br>Ilovemycube</div>
+luck.<br><br>Ilovemycube
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-17">
-          <strong>17. Re: orientation of last layer</strong><br>
+          <a class="header-link" href="#msg-17"><strong>17. Re: orientation of last layer</strong></a><br>
           <em>From:</em> ilovemycube<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Mon, 10 Jul 2000 10:28:51 -0700<br><br>
@@ -437,12 +511,16 @@ corners separately.<br>Next learn the cases where the two
 flipped edges are opposite each other.<br>Finally learn
 the cases where the two flipped edges are next to
 each other.<br><br>Hope this helps.<br>Good
-luck.<br><br>Ilovemycube</div>
+luck.<br><br>Ilovemycube
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-18">
-          <strong>18. Re: orientation of last layer</strong><br>
+          <a class="header-link" href="#msg-18"><strong>18. Re: orientation of last layer</strong></a><br>
           <em>From:</em> slowcuber<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Mon, 10 Jul 2000 13:28:31 -0700<br><br>
@@ -457,12 +535,16 @@ that way? Or do you continue recognizing the pattern
 the first way, and then rotate the cube to make the
 move easier for hands?<br><br>Not critical; I was just
 curious as to how different people tackled this.
-<br><br>Thanks again, <br><br>slowcuber</div>
+<br><br>Thanks again, <br><br>slowcuber
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-19">
-          <strong>19. Re: orientation of last layer</strong><br>
+          <a class="header-link" href="#msg-19"><strong>19. Re: orientation of last layer</strong></a><br>
           <em>From:</em> ilovemycube<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Mon, 10 Jul 2000 13:38:18 -0700<br><br>
@@ -479,12 +561,16 @@ angle.<br><br>The easiest way to learn the algorithms is to use a
 system to know which starting position to take. In that
 sense it is important which angle to take.<br>But
 again, you can easily switch later on.<br><br>Good
-luck,<br><br>Ilovemycube</div>
+luck,<br><br>Ilovemycube
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-20">
-          <strong>20. Re: orientation of last layer</strong><br>
+          <a class="header-link" href="#msg-20"><strong>20. Re: orientation of last layer</strong></a><br>
           <em>From:</em> weirdman71<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Mon, 10 Jul 2000 16:17:29 -0700<br><br>
@@ -519,12 +605,16 @@ losing speed. I&#x27;m still trying to get my hands used to
 it so I haven&#x27;t timed myself but I&#x27;m pretty sure
 I&#x27;ve done a few times in under 1.5 seconds. Does
 anyone know any other moves that can be done really
-fast?<br><br>Later,<br>Chris</div>
+fast?<br><br>Later,<br>Chris
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-21">
-          <strong>21. Re: orientation of last layer</strong><br>
+          <a class="header-link" href="#msg-21"><strong>21. Re: orientation of last layer</strong></a><br>
           <em>From:</em> rubixsux<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Mon, 10 Jul 2000 18:36:15 -0700<br><br>
@@ -569,12 +659,16 @@ other move.<br><br>5. have patience.<br><br>6. One
 other thought is that when getting ready for the
 orientation case (right after finishing the F2L) instead of
 turning the whole cube to get it to the right position,
-just turn the up face. I have found this quicker.</div>
+just turn the up face. I have found this quicker.
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-22">
-          <strong>22. quick moves</strong><br>
+          <a class="header-link" href="#msg-22"><strong>22. quick moves</strong></a><br>
           <em>From:</em> rubixsux<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Mon, 10 Jul 2000 19:20:41 -0700<br><br>
@@ -591,12 +685,16 @@ that this could be done maybe as fast as ten moves a
 second (that would be rad) (in Singmaster&#x27;s book the
 suggested maximum moves per second is something like two or
 three) (granted this move doesn&#x27;t do
-anything)<br><br>Who knows other fast sequences?</div>
+anything)<br><br>Who knows other fast sequences?
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-23">
-          <strong>23. Re: Empty slots in first two layers</strong><br>
+          <a class="header-link" href="#msg-23"><strong>23. Re: Empty slots in first two layers</strong></a><br>
           <em>From:</em> _jaap<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Tue, 11 Jul 2000 03:59:59 -0700<br><br>
@@ -605,12 +703,16 @@ don&#x27;t work properly. You will have to change all the \
 to / in the image
 refs.<br><a href=http://members1.chello.nl/~r.vanbruchem target=new>http://members1.chello.nl/~r.vanbruchem</a><br>Let me know when your page is finished, so I can then
 link to it from
-mine.<br><a href=http://www.org2.com/jaap/puzzles target=new>http://www.org2.com/jaap/puzzles</a><br><br>Jaap</div>
+mine.<br><a href=http://www.org2.com/jaap/puzzles target=new>http://www.org2.com/jaap/puzzles</a><br><br>Jaap
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-24">
-          <strong>24. club links - </strong><br>
+          <a class="header-link" href="#msg-24"><strong>24. club links - </strong></a><br>
           <em>From:</em> starwatcher_1<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Tue, 11 Jul 2000 23:42:42 -0700<br><br>
@@ -620,12 +722,16 @@ links<br><br><a href=http://ng.netgate.net/~mette/lars/cubedude/index.html targe
 forgetting some steps and its quite frustrating having to
 connect everytime I want to look up the page. (I think
 the rotating cube is some applets of some
-sort)<br><br><br>Thanks</div>
+sort)<br><br><br>Thanks
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-25">
-          <strong>25. Re: club links - </strong><br>
+          <a class="header-link" href="#msg-25"><strong>25. Re: club links - </strong></a><br>
           <em>From:</em> ilovemycube<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Thu, 13 Jul 2000 11:04:55 -0700<br><br>
@@ -638,54 +744,66 @@ directory &quot;c:\windows\Temporary Internet Files&quot; to find the
 applet. Look for lrubik.class.<br>Maybe it will be called
 lrubik[1].class.<br>Copy (and rename if necessary to lrubik.class) the
 class to the directory where you saved the
-page.<br><br>Good luck,<br><br>Ilovemycube</div>
+page.<br><br>Good luck,<br><br>Ilovemycube
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-26">
-          <strong>26. Re: club links - </strong><br>
+          <a class="header-link" href="#msg-26"><strong>26. Re: club links - </strong></a><br>
           <em>From:</em> starwatcher_1<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Thu, 13 Jul 2000 20:29:03 -0700<br><br>
-          <div class="email-content">Thanks<br>Ilovemycube  :)</div>
+          <div class="email-content">Thanks<br>Ilovemycube  :)
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-27">
-          <strong>27. first two layers upside down</strong><br>
+          <a class="header-link" href="#msg-27"><strong>27. first two layers upside down</strong></a><br>
           <em>From:</em> weirdman71<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 14 Jul 2000 10:47:22 -0700<br><br>
-          <div class="email-content">I know a that there are people who do the first
-two layers holding the cube so that the cross is on
-the bottom so this isn&#x27;t new I know. I&#x27;ve started
-doing the cross and the corners and edge pieces with
-the cube flipped over, I form the cross on the bottom
-and then finish the first two layers. I&#x27;m still
-trying to get used to it but from the times I&#x27;ve
-practiced it my hands don&#x27;t feel that they get in the way
-of each other or anything so it seems like it would
-go pretty well. I do like the fact that I never need
-to flip the cube, which saves the sum .5 or .6
-second it takes to flip it :-) I was curious though
-becuase I used to hold the cross kind of half left and
-half back, on a kind of diagonal. Is doing the first
-two layers the same as the 3rd layer algorithms, you
-just have to customize it for your hands or is there
-one way that is better or faster than another? I
-haven&#x27;t gotten used to holding the cube upside down
-enough to try it fast but once I do I&#x27;ll probably know
-the answer to my own question, whether one is faster
-or not. But if anyone who does the cross upside down
-likes it, or thinks it&#x27;s terrible or anything I&#x27;d like
-to hear about it. I&#x27;m trying to find the way that&#x27;s
-the fastest I can do but still comfortable to my
-hands.</div>
+          <div class="email-content">I know a that there are people who do the first<br>
+two layers holding the cube so that the cross is on<br>
+the bottom so this isn&#x27;t new I know. I&#x27;ve started<br>
+doing the cross and the corners and edge pieces with<br>
+the cube flipped over, I form the cross on the bottom<br>
+and then finish the first two layers. I&#x27;m still<br>
+trying to get used to it but from the times I&#x27;ve<br>
+practiced it my hands don&#x27;t feel that they get in the way<br>
+of each other or anything so it seems like it would<br>
+go pretty well. I do like the fact that I never need<br>
+to flip the cube, which saves the sum .5 or .6<br>
+second it takes to flip it :-) I was curious though<br>
+becuase I used to hold the cross kind of half left and<br>
+half back, on a kind of diagonal. Is doing the first<br>
+two layers the same as the 3rd layer algorithms, you<br>
+just have to customize it for your hands or is there<br>
+one way that is better or faster than another? I<br>
+haven&#x27;t gotten used to holding the cube upside down<br>
+enough to try it fast but once I do I&#x27;ll probably know<br>
+the answer to my own question, whether one is faster<br>
+or not. But if anyone who does the cross upside down<br>
+likes it, or thinks it&#x27;s terrible or anything I&#x27;d like<br>
+to hear about it. I&#x27;m trying to find the way that&#x27;s<br>
+the fastest I can do but still comfortable to my<br>
+hands.<br>
+<br>
+<br>
+<br>
+</div>
         </div>
         
 
         <div class="email-item" id="msg-28">
-          <strong>28. Re: first two layers upside down</strong><br>
+          <a class="header-link" href="#msg-28"><strong>28. Re: first two layers upside down</strong></a><br>
           <em>From:</em> cubin4speed<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 14 Jul 2000 14:02:29 -0700<br><br>
@@ -700,12 +818,16 @@ solution.<br><br>Actually, I used to solve my cross on the top and then flip
 it over for the rest of the solution, which caused
 me to get lost sometimes when starting the F2L. I&#x27;m
 currently practicing doing the whole thing from bottom to
-top.<br><br>BTW, I don&#x27;t solve the cube upside down, you do... : )</div>
+top.<br><br>BTW, I don&#x27;t solve the cube upside down, you do... : )
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-29">
-          <strong>29. Re: first two layers upside down</strong><br>
+          <a class="header-link" href="#msg-29"><strong>29. Re: first two layers upside down</strong></a><br>
           <em>From:</em> slowcuber<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 14 Jul 2000 18:58:40 -0700<br><br>
@@ -730,12 +852,16 @@ next pair I see are separated and belong in the back
 left slots, what do I do? Right now, I&#x27;m reduced to
 turning the cube to get the &quot;target slots&quot; into front
 right positions to orient myself for the memorized
-move. I hope this makes sense. Any help? Thanks.</div>
+move. I hope this makes sense. Any help? Thanks.
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-30">
-          <strong>30. Re: first two layers upside down</strong><br>
+          <a class="header-link" href="#msg-30"><strong>30. Re: first two layers upside down</strong></a><br>
           <em>From:</em> cubin4speed<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Sat, 15 Jul 2000 09:56:58 -0700<br><br>
@@ -755,12 +881,16 @@ this, and when I started again, I had cut my times by
 about 20%.<br><br><br>A while back I recommended trying
 to solve the cube without (hardly) ever rotating it,
 and then incorporating that into your solution - this
-is what I was talking about.</div>
+is what I was talking about.
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-31">
-          <strong>31. This time gap should be easy...</strong><br>
+          <a class="header-link" href="#msg-31"><strong>31. This time gap should be easy...</strong></a><br>
           <em>From:</em> AdamOne11<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Sat, 15 Jul 2000 17:07:43 -0700<br><br>
@@ -788,12 +918,16 @@ facelets the same color<br> 3. Do I know this one, or do I
 need to reflect it?<br><br>But by the time I narrow it
 down, I&#x27;ve forgotten which one I was doing.<br><br>Any
 help would be great. Sorry for redundancy,
-Dan.<br><br>Adam</div>
+Dan.<br><br>Adam
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-32">
-          <strong>32. Re: This time gap should be easy...</strong><br>
+          <a class="header-link" href="#msg-32"><strong>32. Re: This time gap should be easy...</strong></a><br>
           <em>From:</em> weirdman71<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Sat, 15 Jul 2000 22:28:16 -0700<br><br>
@@ -832,12 +966,16 @@ that the cross can be done in 7 moves or
 less.<br><br>Also practice the first two layer moves (also without
 timing) just to get used to them. After enough practice
 your decision time will start to noticably improve. I
-hope this helps.<br><br>Chris</div>
+hope this helps.<br><br>Chris
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-33">
-          <strong>33. Reflections</strong><br>
+          <a class="header-link" href="#msg-33"><strong>33. Reflections</strong></a><br>
           <em>From:</em> AdamOne11<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Mon, 17 Jul 2000 14:09:08 -0700<br><br>
@@ -847,12 +985,16 @@ decided to learn Jiri&#x27;s reflecting guide (Fa and Fs etc
 really mess me up) before I start doing the last layer
 permutions(?) Anyone have some tips? <br><br>BTW I&#x27;m getting
 more and more used to inserting two cube blocks, its
-just a matter of time</div>
+just a matter of time
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-34">
-          <strong>34. Re: Reflections</strong><br>
+          <a class="header-link" href="#msg-34"><strong>34. Re: Reflections</strong></a><br>
           <em>From:</em> wyntyrmute<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Mon, 17 Jul 2000 17:59:47 -0700<br><br>
@@ -862,12 +1004,16 @@ rather than trying to memorize algorithms twice or
 <br>try to translate one move into another. For sideways
 reflections just do the opposite side in the opposite
 direction for each move. It&#x27;s pretty much just a matter of
-practice.</div>
+practice.
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-35">
-          <strong>35. Speed solving under 10 consistently?</strong><br>
+          <a class="header-link" href="#msg-35"><strong>35. Speed solving under 10 consistently?</strong></a><br>
           <em>From:</em> weirdman71<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Wed, 19 Jul 2000 07:30:26 -0700<br><br>
@@ -885,12 +1031,16 @@ extremely fast times leaving the third layer to be done in
 5-7 seconds? Just a thought but I want to practice it
 anyway :-) If anyone has any thoughts on this I&#x27;d be
 interested to hear what other people think, especially about
-whether or not this seems practical.<br><br>Chris</div>
+whether or not this seems practical.<br><br>Chris
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-36">
-          <strong>36. Re: Speed solving under 10 consistently?</strong><br>
+          <a class="header-link" href="#msg-36"><strong>36. Re: Speed solving under 10 consistently?</strong></a><br>
           <em>From:</em> cubin4speed<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Wed, 19 Jul 2000 11:34:24 -0700<br><br>
@@ -922,12 +1072,16 @@ times for the F2L, and furthermore that about 8 seconds
 is the minimum (32 moves / 4 m/s). I&#x27;ve therefore
 almost entirely phased the finger-shortcuts out of my
 F2L because they cut down on fluidity and looking
-ahead.<br><br>Anyway, prove me wrong and let us know how it turns out.</div>
+ahead.<br><br>Anyway, prove me wrong and let us know how it turns out.
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-37">
-          <strong>37. Finding the cube pairs quickly in F2L</strong><br>
+          <a class="header-link" href="#msg-37"><strong>37. Finding the cube pairs quickly in F2L</strong></a><br>
           <em>From:</em> slowcuber<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Thu, 20 Jul 2000 18:18:09 -0700<br><br>
@@ -949,12 +1103,16 @@ first corner piece I spot is often one with the bottom
 color on top; in other words, a &quot;separated on top&quot; move
 which happen to be my s-l-o-w-e-s-t. <br><br>Just
 wondering how you pros handle or avoid these situations; as
-usual, thanks in advance.</div>
+usual, thanks in advance.
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-38">
-          <strong>38. Not changing cube orientation, F2L</strong><br>
+          <a class="header-link" href="#msg-38"><strong>38. Not changing cube orientation, F2L</strong></a><br>
           <em>From:</em> slowcuber<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Thu, 20 Jul 2000 18:56:22 -0700<br><br>
@@ -971,21 +1129,29 @@ target? <br><br>And, for the &quot;separated on top&quot; moves,
 you have learned the moves to place them when the
 target slot is BL, BR, FR, or FL, and regardless of
 where the two &quot;separated on top&quot; cubes
-are?<br><br>Geez, I hope this makes sense to someone :).</div>
+are?<br><br>Geez, I hope this makes sense to someone :).
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-39">
-          <strong>39. Memorizing algorithms</strong><br>
+          <a class="header-link" href="#msg-39"><strong>39. Memorizing algorithms</strong></a><br>
           <em>From:</em> wyntyrmute<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 21 Jul 2000 02:45:39 -0700<br><br>
-          <div class="email-content">Do you guys have any tricks or tips on memorizing algorithms?</div>
+          <div class="email-content">Do you guys have any tricks or tips on memorizing algorithms?<br>
+<br>
+<br>
+<br>
+</div>
         </div>
         
 
         <div class="email-item" id="msg-40">
-          <strong>40. Re: Memorizing algorithms</strong><br>
+          <a class="header-link" href="#msg-40"><strong>40. Re: Memorizing algorithms</strong></a><br>
           <em>From:</em> ilovemycube<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 21 Jul 2000 08:49:14 -0700<br><br>
@@ -998,12 +1164,16 @@ algorithms it is much easier to start from a position which
 fits better to your hands<br>- always have a print-out
 of the algorithms with you (and a cube of
 course)<br>- practice, practice, practice<br><br>Good
-luck,<br><br>Ilovemycube</div>
+luck,<br><br>Ilovemycube
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-41">
-          <strong>41. Re: Memorizing algorithms</strong><br>
+          <a class="header-link" href="#msg-41"><strong>41. Re: Memorizing algorithms</strong></a><br>
           <em>From:</em> weirdman71<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 21 Jul 2000 12:27:20 -0700<br><br>
@@ -1020,12 +1190,16 @@ head is the first part of the &quot;story&quot; that you created
 by practicing the move and then you&#x27;ll remember what
 the design is after the first move, therefore you
 remember the first move. The rest come the same
-way.<br><br>Chris</div>
+way.<br><br>Chris
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-42">
-          <strong>42. Re: Not changing cube orientation, F2L</strong><br>
+          <a class="header-link" href="#msg-42"><strong>42. Re: Not changing cube orientation, F2L</strong></a><br>
           <em>From:</em> weirdman71<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 21 Jul 2000 12:56:36 -0700<br><br>
@@ -1098,12 +1272,16 @@ BL, BR, FR, or FL, and regardless of where the two
 same moves and they still have to be in the correct
 position but it is possible to do any of these moves from
 a different angle without losing speed.<br><br>Hope
-this helps :-)<br><br>Chris</div>
+this helps :-)<br><br>Chris
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-43">
-          <strong>43. Strange experience</strong><br>
+          <a class="header-link" href="#msg-43"><strong>43. Strange experience</strong></a><br>
           <em>From:</em> weirdman71<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 21 Jul 2000 13:35:06 -0700<br><br>
@@ -1143,12 +1321,16 @@ notice what the next move was wach time. Has anyone ever
 experienced this? Or scrambled to the same position more than
 once?<br><br>heh heh or have I just gone waaaaaay too far off the
 deep end? :-)<br><br>the voices have been talking
-really loud lately...... :-)<br><br>Chris</div>
+really loud lately...... :-)<br><br>Chris
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-44">
-          <strong>44. Re: Strange experience</strong><br>
+          <a class="header-link" href="#msg-44"><strong>44. Re: Strange experience</strong></a><br>
           <em>From:</em> ilovemycube<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 21 Jul 2000 15:40:06 -0700<br><br>
@@ -1159,12 +1341,16 @@ I had repeatedly used a scramble routine with order
 6.<br>In fact I think that scrambling the cube is never
 completely random. You always have some preferred scramble
 routines that you combine.<br><br>Good
-luck,<br><br>Ilovemycube</div>
+luck,<br><br>Ilovemycube
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-45">
-          <strong>45. Re: Strange experience</strong><br>
+          <a class="header-link" href="#msg-45"><strong>45. Re: Strange experience</strong></a><br>
           <em>From:</em> rubixsux<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Mon, 24 Jul 2000 10:21:56 -0700<br><br>
@@ -1178,12 +1364,16 @@ coming.<br><br>Solution: Now when I scramble it I do about 5 or 6 totally
 random turns then keep doing my fast more regular mixup.
 I also just try to include random triggers here and
 there, and spin the cube in the middle to change which
-face is up...All this seems to work pretty well.</div>
+face is up...All this seems to work pretty well.
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-46">
-          <strong>46. 3rd layer in one algorithm</strong><br>
+          <a class="header-link" href="#msg-46"><strong>46. 3rd layer in one algorithm</strong></a><br>
           <em>From:</em> weirdman71<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Wed, 26 Jul 2000 22:09:46 -0700<br><br>
@@ -1234,12 +1424,16 @@ how much time it takes. I don&#x27;t know very many moves
 but when I see one I know I&#x27;ll let you all know how
 it went. Anyway if anyone has any info on this
 please let me know, I&#x27;d be interested in hearing
-it.<br><br>Thanks,<br>Chris</div>
+it.<br><br>Thanks,<br>Chris
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-47">
-          <strong>47. Re: 3rd layer in one algorithm</strong><br>
+          <a class="header-link" href="#msg-47"><strong>47. Re: 3rd layer in one algorithm</strong></a><br>
           <em>From:</em> slowcuber<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Thu, 27 Jul 2000 18:40:28 -0700<br><br>
@@ -1252,12 +1446,16 @@ remembered about 40% of the moves. <br>Very odd feeling.
 Anyhow, I wouldn&#x27;t doubt you can learn the moves; of
 course practicing each pattern for its yearly occurrence
 will be the fun part :). But I suppose you always have
-the two step method to fall back on. So, go for it!</div>
+the two step method to fall back on. So, go for it!
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-48">
-          <strong>48. Re: Solving the first two layers</strong><br>
+          <a class="header-link" href="#msg-48"><strong>48. Re: Solving the first two layers</strong></a><br>
           <em>From:</em> stiff_hands<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Sun, 30 Jul 2000 13:31:26 -0700<br><br>
@@ -1273,12 +1471,16 @@ pausing for a closer look at that point?<br>Question 3:
 what do other people look for after solving the cross?
 Merely any appropriate pair to place, or something more
 complicated like where all the corners are, or edges, or even
-something else?</div>
+something else?
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-49">
-          <strong>49. Re: Solving the first two layers</strong><br>
+          <a class="header-link" href="#msg-49"><strong>49. Re: Solving the first two layers</strong></a><br>
           <em>From:</em> weirdman71<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Sun, 30 Jul 2000 20:51:30 -0700<br><br>
@@ -1302,12 +1504,16 @@ think it is quicker to go ahead and have an idea of
 where the first corner-edge pair will be after solving
 the cross. It may take more time examining the cube
 before you start but it will help your times a
-lot.<br><br>Chris</div>
+lot.<br><br>Chris
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-50">
-          <strong>50. Re: 3rd layer in 1-alg &amp; Memorizing algs</strong><br>
+          <a class="header-link" href="#msg-50"><strong>50. Re: 3rd layer in 1-alg &amp; Memorizing algs</strong></a><br>
           <em>From:</em> stiff_hands<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 04 Aug 2000 09:25:37 -0700<br><br>
@@ -1325,12 +1531,16 @@ painful method!<br>Does anybody else use memory tricks to
 learn the moves quickly? If so maybe you could be the
 partner that Chris is after on his long
 journey.<br>Whatever method you use for the memorisation, I would be
-interested in hearing about it. Post now...</div>
+interested in hearing about it. Post now...
+
+
+
+</div>
         </div>
         
 
         <div class="email-item" id="msg-51">
-          <strong>51. Re: 3rd layer in 1-alg &amp; Memorizing algs</strong><br>
+          <a class="header-link" href="#msg-51"><strong>51. Re: 3rd layer in 1-alg &amp; Memorizing algs</strong></a><br>
           <em>From:</em> slowcuber<br>
           <em>To:</em> speedsolvingrubikscube@yahoogroups.com<br>
           <em>Date:</em> Fri, 04 Aug 2000 17:55:40 -0700<br><br>
@@ -1349,7 +1559,11 @@ find this really helps me.<br><br>And then eventually
 the move is remembered all in my hands. Your hands
 can remember a surprising amount of moves.<br><br>My
 huge problem is finding the cube pairs quickly in F2L;
-that to me is the biggest challenge with this method.</div>
+that to me is the biggest challenge with this method.
+
+
+
+</div>
         </div>
         
 
@@ -1360,5 +1574,5 @@ that to me is the biggest challenge with this method.</div>
         btn.style.display = (document.documentElement.scrollTop > 200) ? "block" : "none";
     };
     </script>
+    </body></html>
     
-</body></html>
