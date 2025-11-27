@@ -129,7 +129,7 @@ Although a new scramble was provided in the 11th issue, the competition was canc
 
 ### Early Discussions
 
-In the early years of the Speed Solving Rubik's Cube Yahoo! group, some had shown an interest in solving a particular scramble in as few moves as possible. One standout example came in December 2002 when Lucas Winter suggested the idea of solving the same scramble multiple times to try to each time solve more quickly than the last, a solving style now called downsolving [^winter-2002]. In one reply, Lars Petrus described his experience, stating that in addition to the initial challenge he spent time trying to find the shortest solution to memorize before downsolving [^petrus-2002]. Petrus found a 32 move solution, stating the possibility of using optimal last layer solutions to reduce the overall solution to 26 moves. Impressed by the low move count, Jessica Fridrich replied to the message by Petrus [^fridrich-2002]. Fridrich sent the scramble to Mirek Goljan who found a 29 move solution.
+In the early years of the Speed Solving Rubik's Cube Yahoo! group, some had shown an interest in solving a particular scramble in as few moves as possible. One standout example came in December 2002 when Lucas Winter suggested the idea of solving the same scramble multiple times to try to each time solve more quickly than the last, a solving style now called downsolving [^winter-2002]. Lars Petrus replied with his experience, stating that, in addition to the initial challenge, he spent time trying to find the shortest solution to memorize before downsolving [^petrus-2002]. Petrus found a 32 move solution, stating the possibility of using optimal last layer solutions to reduce the overall solution to 26 moves. Impressed by the low move count, Jessica Fridrich replied to the message by Petrus [^fridrich-2002]. Fridrich sent the scramble to Mirek Goljan who found a 29 move solution.
 
 <ImageCollage
 images={[
@@ -138,6 +138,10 @@ images={[
 { src: require("@site/docs/FewestMoves/img/Origin/Fridrich.png").default}
 ]}
 />
+
+In addition to the discussions, an unofficial world records page was maintained by Chris Hardwick on speedcubing.com starting in the early 2000s. Among the categories were various types of fewest moves events [^speedcubing.com-2003].
+
+![](img/Origin/speedcubing.comRecords.png)
 
 ### Challenge Creation
 
@@ -151,7 +155,7 @@ images={[
 />
 <br />
 
-In March 2008 it was announced that the fewest moves challenge as held by Harris would be coming to an end [^harris-2008]. Per Kristen Fredlund took over control of the challenge, hosting it on a new domain [^fredlund-2008].
+In March 2008 it was announced that the Fewest Moves Challenge as held by Harris would be coming to an end [^harris-2008]. Per Kristen Fredlund took over control of the challenge, hosting it on a new domain [^fredlund-2008].
 
 <ImageCollage
 images={[
@@ -161,9 +165,21 @@ images={[
 />
 <br />
 
+During an email exchange with Cubing History, Harris described the origin of the Fewest Moves Challenge as well as restored the website containing the results.
+
+> The idea of solving in the fewest moves wasn't mine originally - but it was a pretty niche "category" in cube solving with only a handful of people specialising in it before 2003. And probably people like Mirek Goljan had been doing it since the cube originally came out in the 1980s. There was the unofficial world records page, administered by Chris Hardwick, who had a "space" on Ron van Bruchem's pages at www.speedcubing.com.
+>
+> However, there was no online competition as such, compared with speedcubing where people were already using various online means of competing against one another to solve in the fastest time. The first iteration of my website came along I guess in early 2003, or maybe end of 2002, although I only took up cubing in I think April or May 2002, so it would not have been any earlier than end of 2002 I think. It was already quite popular by April 2003, and Ron van Bruchem challenged me to set up an online fewest moves competition (I'm pretty sure he said if I didn't do it, he would :-) ), which I duly did. It was probably during the time I went to visit him at his house in Almere, which was Easter weekend 2003. It was a lot of manual effort in the early days but gradually I made the submission and checking/verification process more automatic, and at some point I added a rating system.
+
+Harris' website with the results can be viewed <a href="https://www.cubestation.co.uk/index.php?page=fmc/fmcnewsystem">here</a>.
+
+The popularity of the Fewest Moves Challenge was likely a major reason for the event's inclusion in the World Championship 2003 and subsequently becoming a standard official competition event. On this possibility, Harris stated to Cubing History:
+
+> I cannot prove that it was the reason for Fewest moves being included in WC 2003, but I suspect it was a contributing factor as you mention, since it served to popularise it between April 2003 and August 2003.
+
 ### Examples
 
-The popularity of the Fewest Moves Challenge was likely a major reason for the event's inclusion in the World Championship 2003 and subsequently becoming a standard official competition event. Competitors in the challenge used a variety of methods, including speed methods such as CFOP, Petrus, Roux, and ZZ, as well as general blockbuilding and domino reduction. Below is a sample of some solutions.
+Competitors in the Fewest Moves Challenge used a variety of methods, including speed methods such as CFOP, Petrus, Roux, and ZZ, as well as general blockbuilding and domino reduction. Below is a sample of some solutions.
 
 **Frederick Badie (Line > F2L > LL, 27 moves)**
 <ReconViewer
@@ -215,5 +231,6 @@ NISS
 [^harris-2003-1]: D. Harris, "Saturday Contest," Speed Solving Rubik's Cube Yahoo! Group, 25 April 2003. [Online].
 [^harris-2003-2]: D. Harris, "\*\*Fewest Moves Challenge (aka Saturday Contest)\*\*," Speed Solving Rubik's Cube Yahoo! Group, 25 April 2003. [Online].
 [^harris-2003-3]: D. Harris, "cubestation.co.uk has been launched!," Speed Solving Rubik's Cube Yahoo! Group, 17 May 2003. [Online].
+[^speedcubing.com-2003]: C. Hardwick, "Rubik's Cube Statistical Records", 28 October 2003. [Online] https://web.archive.org/web/20031028193325/http://www.speedcubing.com/records/recs_stats.html.
 [^harris-2008]: D. Harris, "Per's New FMC," Dan's Cube Station!, 16 March 2008. [Online]. https://web.archive.org/web/20080913221748/http://www.cubestation.co.uk/.
 [^fredlund-2008]: P. K. Fredlund, "FMC is reopening!!," SpeedSolving.com, 10 March 2008. [Online]. Available: https://www.speedsolving.com/threads/fmc-is-reopening.3176/.
