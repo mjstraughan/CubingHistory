@@ -1,3 +1,7 @@
+---
+description: A guide for setting up development, editing pages, and research resources.
+---
+
 # Cubing History Guide
 
 ## Development set up:
