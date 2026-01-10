@@ -5,13 +5,18 @@
 1. Set up a GitHub account.
 2. Download Visual Studio Code.
 3. Install Git if necessary. https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-4. Install node.js: https://nodejs.org/en/download/. Then in VSCode, go to Terminal in the top menu bar then New Terminal. In the Terminal at the bottom of VSCode, install npm by typing ```npm install```
-5. In VSCode, go to Extensions on the left and install the extension called GitHub Pull Requests.
-6. Click the Accounts symbol at the bottom left and sign in to your GitHub account.
-7. Clone the Cubing History GitHub repository. The simplest way is to click the “Source Control” icon on the left side, click “Clone Repository”, at the top of the VSCode application click “Clone from GitHub”, then click the Cubing History repository in the drop down or search for it.
-8. Save the repository in a memorable place, then choose to open it when prompted by VSCode. Otherwise, go to File > Open Folder and choose the Cubing History folder then open it. Each time you want to make site changes, you can open the same cloned folder that you saved.
-9. From here, there is a pretty standard file system on the left side of VSCode.
-10. Go to the “docs” folder to add or edit pages.
+4. Add your GitHub username and email to Git. Open Terminal and enter:
+
+```git config --global user.name your_username```
+
+```git config --global user.email your_email```
+
+5. Install node.js: https://nodejs.org/en/download/. Then in VSCode, go to Terminal in the top menu bar then New Terminal. In the Terminal at the bottom of VSCode, install npm by typing ```npm install```
+6. In VSCode, go to Extensions on the left and install the extension called GitHub Pull Requests.
+7. Click the Accounts symbol at the bottom left and sign in to your GitHub account.
+8. Clone the Cubing History GitHub repository. The simplest way is to click the “Source Control” icon on the left side, click “Clone Repository”, at the top of the VSCode application click “Clone from GitHub”, then click the Cubing History repository in the drop down or search for it.
+9. Save the repository in a memorable place, then choose to open it when prompted by VSCode. Otherwise, go to File > Open Folder and choose the Cubing History folder then open it. Each time you want to make site changes, you can open the same cloned folder that you saved.
+10. From here, there is a pretty standard file system on the left side of VSCode. Go to the “docs” folder to add or edit pages.
 
 ## Making edits:
 
@@ -118,3 +123,17 @@ u R' E' R E2 R E R' . // Last six edges
 R2 E E' r2 E M2 E' // Last four centers`}
 />
 ```
+## Resources
+
+Below are many of the resources used for research. It is also often necessary to contact the individuals involved in the subject being written about.
+
+* Yahoo! groups. Many of these are archived and searchable on the Cubing History site on the Communities page.
+* Cube Lovers, an early email group that started in 1980. This is also fully archived on the Communities page.
+* [SpeedSolving.com](https://www.speedsolving.com). A very popular message board created in 2006.
+* Non-English message boards such as [mf8](http://bbs.mf8-china.com/forum.php) from China and [Franco Cube](https://forum.francocube.com) from France.
+* Other online communities such as Discord, Facebook, and Reddit.
+* Websites from individuals and groups. Some in the community have their own website where they host their contributions. This was much more common in the 1990s and 2000s.
+* Archive.org when a website is no longer available. Often these websites have been archived there, but not always.
+* Video sharing sites such as YouTube and bilibili.
+* [Cubic Circular](https://www.jaapsch.net/puzzles/cubic.htm). One of the earliest newsletters. Jaap Scherphuis has it archived in the provided link.
+* Puzzle books, magazines, and newspapers. Many of the early publications contain information that hasn't been properly preserved.
