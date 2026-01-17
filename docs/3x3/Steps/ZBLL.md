@@ -130,12 +130,23 @@ Polar was documented by Michael James Straughan in August 2023 [^straughan-2023]
 
 ![](img/ZBLL/Polar2.png)
 
-### Straughan
+### Straughan Minimum Sticker
 
 In June 2024, Straughan developed a new recognition method for ZBLL [^straughan-2024]. The recognition method is based on checking the minimum number of stickers necessary. Whereas other recognition methods are a two step process of checking corner orientation then looking at other information, Straughan recognition is a single step process of locating specific, pre-determined stickers. The standard sticker set to locate consists of the six stickers along the front and right side layers. U layer stickers aren't involved in this standard set with Straughan recognition.
 
 ![](img/ZBLL/Straughan1.png)
 ![](img/ZBLL/Straughan2.png)
+
+### Straughan Minimum Piece
+
+In January 2026, Straughan created an alternate recognition system that is focused on the minimum number of pieces and visible stickers [^straughan-2026]. The stickers visible within the UF and UR 1x1x3 areas provide enough information to determine any case. Like the base Straughan recognition, fewer stickers are required on average compared to other systems. This was developed in response to many solvers wanting Straughan recognition to be useful during impromptu recognition and for multi-angle use. The below example images show no swap Sune and Pi cases.
+
+<ImageCollage
+images={[
+{ src: require("@site/docs/3x3/Steps/img/ZBLL/SMP1.png").default},
+{ src: require("@site/docs/3x3/Steps/img/ZBLL/SMP2.png").default}
+]}
+/>
 
 ## Resources
 
@@ -162,5 +173,6 @@ In September, 2022, Hudgens created a guide that describes the various ZBLL reco
 [^straughan-2023]: M. J. Straughan, "Polar ZBLL Recognition," Straughan's Website, 2023. [Online]. Available: https://sites.google.com/site/athefre/recognition/polar-recognition.
 [^straughan-mosher-2022]: M. J. Straughan and T. Mosher, Personal communication, 21 September 2022. [Online].
 [^straughan-2024]: M. J. Straughan, "Straughan Recognition System for CLL, EG, ZBLL, and more," SpeedSolving.com, 4 June 2024. [Online]. Available: https://www.speedsolving.com/threads/straughan-recognition-system-for-cll-eg-zbll-and-more.92731/.
+[^straughan-2026]: M. J. Straughan, "ZBLL Straughan Minimum Piece", Google Sheets, 16 January 2026. [Online]. Available: https://docs.google.com/spreadsheets/d/1LL3tXuRqzHz0xtjaawHNyjq9KyUIH8703CgSLk3HD_s/edit?gid=611826690#gid=611826690
 [^hudgens-2022-3]: R. Hudgens, "How to Recognize ZBLL: An Explanation and comparison of the Main Systems (2022 Edition)," SpeedSolving.com, 14 September 2022. [Online]. Available: https://www.speedsolving.com/threads/how-to-recognize-zbll-an-explanation-and-comparison-of-the-main-systems-2022-edition.87814/.
 [^zborowski-2006]: Z. Zborowski, "zz speedcubing system - 1.7.6 Classic system collection," Zborowski's Website, 2006. [Online]. Available: https://web.archive.org/web/20070428175325/http://www.speedcubing.com.pl/nooks_zz.htm#wprowadzenie_systemy_zb.
