@@ -86,12 +86,6 @@ In 1995, Reid ran a calculation on the \<U, D, F2, R2, B2, L2\> group, reducing 
 
 new upper bounds, Cube Lovers, January 7, 1995
 
-## Dik Winter (1992)
-
-On May 24, 1992, Dik Winter ran an extensive calculation of the first phase of Kociemba's algorithm. This provided a maximum distance of 12 moves. Winter combined this with the results of the final two phases of Kloosterman's algorithm, which was 25. The final result was a maximum distance of 37 [^winter-1992-2] [^rokicki-kociemba-davidson-dethridge-2010-1], which was the record at the time.
-
-![](img/ComputerAlgorithms/Winter.png)
-
 
 [^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 14-15. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^scherphuis-nd]: J. Scherphuis, "Computer Puzzling". [Online]. Available: https://www.jaapsch.net/puzzles/compcube.htm#thisal
