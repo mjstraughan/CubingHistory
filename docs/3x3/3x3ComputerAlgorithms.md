@@ -13,7 +13,7 @@ The number of 3x3x3 Rubik's Cube states is 43,252,003,274,489,856,000. Even at a
 
 An alternative method is to use a complete lookup table storing every state. While this would be very fast once the table was built, storing the solutions for all 43 quintillion possible states in memory is practically impossible. 
 
-Hence, another technique must be used. Since we lack the time to compute everything on the fly and the capacity to store a full index of states and corresponding solutions, we must seek a middle ground.
+Hence, another technique must be used. Since we lack the time to compute everything on the fly and the capacity to store a full index of states with corresponding solutions, we must seek a middle ground.
 
 <TwistyPlayer
   alg="x2 D2 U2 L2 B2 L2"
@@ -116,7 +116,7 @@ Finally, in July, 2010, the team proved that the maximum is 20 moves [^rokicki-k
 
 ![](img/ComputerAlgorithms/Team5.png)
 
-[^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles," 2008, pp. 14-15, [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
+[^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles," 2008, pp. 14-15. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^scherphuis-nd]: J. Scherphuis, "Computer Puzzling," [Online]. Available: https://www.jaapsch.net/puzzles/compcube.htm#thisal
 [^bawden-1987]: A Bawden, "Shamir's talk really was about how to solve the cube!," Cube Lovers, 27 May 1987. [Online]. Available: https://www.cube20.org/cubelovers/CL06/024.txt
 [^shamir-fiat-moses-shimshoni-tardos-1989]: Adi Shamir, Amos Fiat, Shahar Moses, Ilan Shimshoni, Gábor Tardos, "Planning and learning in permutation groups", January 1989, pp. 274-276. [Online]. Available: https://www.researchgate.net/publication/3501931_Planning_and_learning_in_permutation_groups
