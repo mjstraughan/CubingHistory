@@ -119,7 +119,7 @@ Finally, in July, 2010, the team proved that the maximum is 20 moves [^rokicki-k
 [^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles," 2008, pp. 14-15, [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^scherphuis-nd]: J. Scherphuis, "Computer Puzzling," [Online]. Available: https://www.jaapsch.net/puzzles/compcube.htm#thisal
 [^bawden-1987]: A Bawden, "Shamir's talk really was about how to solve the cube!," Cube Lovers, 27 May 1987. [Online]. Available: https://www.cube20.org/cubelovers/CL06/024.txt
-[^shamir-fiat-moses-shimshoni-tardos-1989]: Adi Shamir, Amos Fiat, Shahar Moses, Ilan Shimshoni, Gábor Tardos, "Planning and learning in permutation groups", January 1989. [Online]. Available: https://www.researchgate.net/publication/3501931_Planning_and_learning_in_permutation_groups
+[^shamir-fiat-moses-shimshoni-tardos-1989]: Adi Shamir, Amos Fiat, Shahar Moses, Ilan Shimshoni, Gábor Tardos, "Planning and learning in permutation groups", January 1989, pp. 274-276. [Online]. Available: https://www.researchgate.net/publication/3501931_Planning_and_learning_in_permutation_groups
 [^singmaster-1981]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 34.
 [^smith-nd]: R. Smith, "Can a Rubik's Cube be brute-forced?", [Online]. Available: https://www.stylewarning.com/posts/brute-force-rubiks-cube/#the-4-list-algorithm-and-solving-the-rubiks-cube
 [^singmaster-1981-1]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 32.
