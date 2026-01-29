@@ -48,7 +48,7 @@ Driven by a fascination with the 2x3x3 Rubik's Domino, Hans Kloosterman's 1989 c
 
 The shortest solution for the Rubik's Domino he knew involved applying Thistlethwaite's third and fourth phases (these are optimally solvable in at most 13+15 moves on Rubik's Cube) [^kloosterman-1989]. He optimized them into a two-step process with a maximum of 25 moves.
 
-In step 1, he placed all U-face cubies to the upper layer; essentially orienting both layers. This can be done in 8 moves. In step 2, he restored the rest of the puzzle; essentially permuting both layers. This can be done in 17 moves. Kloosterman noted that stage 3 and 4 of the Thistlethwaite's algorithm share the same class of moves as his Domino solution, which allowed him to successfully adapt those principles to the Rubik's Cube.
+In step 1, he placed all U-face cubies to the upper layer; essentially orienting both layers. This can be done in 8 moves. In step 2, he restored the rest of the puzzle; essentially permuting both layers. This can be done in 17 moves. Kloosterman noted that stages 3 and 4 of the Thistlethwaite's algorithm share the same class of moves as his Domino solution, which allowed him to successfully adapt those principles to the Rubik's Cube.
 
 ![](img/ComputerAlgorithms/Kloosterman1.png)
 
