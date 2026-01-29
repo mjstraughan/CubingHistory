@@ -42,16 +42,21 @@ Even though advertised as "the first practical algorithm for finding the shortes
 
 A simple counting argument known from the early 1980s dictates that there are states requiring at least 18 face turns [^singmaster-1981]. Unfortunately, such states seemed to be beyond the reach of the 4-list algorithm executed on the hardware of the late 1980s. Today, however, running the same algorithm on a modern PC guarantees a solution within 20 moves, including the optimal one [^smith-nd].
 
-## Hans Kloosterman (1990)
+## Hans Kloosterman (1989)
 
-In 1990, Hans Kloosterman improved upon Thistlethwaite's algorithm [^kloosterman-1990] [^longridge-nd] [^reid-1992-1] [^rokicki-kociemba-davidson-dethridge-2010-1]. A similar structure is followed, but later steps are combined and the pieces of the 90 degree turns in Group 2 are within their correct layers. This algorithm reduced the maximum number of moves to 42.
+Driven by a fascination with the 2x3x3 Rubik's Domino, Hans Kloosterman's 1989 contribution focused on refining computer-generated solution for that puzzle. This work served as a foundantion for his later development of a full 3x3x3 cube algorithm.
 
-1. Orient all edges. (Group 1: \<L, R, U, D, F2, B2\>)
-2. Move all U/D pieces to U/D and orient all corners to U/D. (Group 2: \<U, D, L2, R2, F2, B2\>)
-3. Move U and D pieces to their correct layers.
-4. Finish.
+The shortest solution for the Rubik's Domino he knew involved applying Thistlethwaite's third and fourth phases (these are optimally solvable in at most 13+15 moves on Rubik's Cube) [^kloosterman-1989]. He optimized them into a two-step process with a maximum of 25 moves.
 
-![](img/ComputerAlgorithms/Kloosterman.png)
+In step 1, he placed all U-face cubies to the upper layer; essentially orienting both layers. This can be done in 8 moves. In step 2, he restored the rest of the puzzle; essentially permuting both layers. This can be done in 17 moves. Kloosterman noted that stage 3 and 4 of the Thistlethwaite's algorithm share the same class of moves as his Domino solution, which allowed him to successfully adapt those principles to the Rubik's Cube.
+
+![](img/ComputerAlgorithms/Kloosterman1.png)
+
+By substituting Thistlethwaite's third and fourth phases with his two-phase Domino algorithm, Kloosterman found out that the new 3x3x3 phase 3 remained solvable within 8 moves using the <U, D, R2, L2, F2, B2> move set, and the new 3x3x3 phase 4 could be completed in a maximum of 19 moves within the same move set.
+
+In 1990, following an exhaustive computer-aided search, Kloosterman lowered the phase 4 move count by one, achieving the optimal value of 18. He subsequently demonstrated that the overall move count could be further reduced by canceling out moves at the transition between phase 3 and 4.
+
+![](img/ComputerAlgorithms/Kloosterman2.png)
 
 ## Herbert Kociemba (1992)
 
@@ -60,7 +65,7 @@ In 1992, another improvement upon Thistlethwaite's algorithm was published in Cu
 1. Orient edges, move all U/D pieces to U/D, and orient all corners to U/D. (Group 1: \<U, D, L2, R2, F2, B2\>)
 2. Solve using the move group from step 1.
 
-![](img/ComputerAlgorithms/Kociemba.png)
+
 
 ## Mike Reid (1992, 1994)
 
@@ -116,12 +121,15 @@ Finally, in July, 2010, the team proved that the maximum is 20 moves [^rokicki-k
 
 ![](img/ComputerAlgorithms/Team5.png)
 
-[^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles," 2008, pp. 14-15. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
-[^scherphuis-nd]: J. Scherphuis, "Computer Puzzling," [Online]. Available: https://www.jaapsch.net/puzzles/compcube.htm#thisal
-[^bawden-1987]: A Bawden, "Shamir's talk really was about how to solve the cube!," Cube Lovers, 27 May 1987. [Online]. Available: https://www.cube20.org/cubelovers/CL06/024.txt
-[^shamir-fiat-moses-shimshoni-tardos-1989]: Adi Shamir, Amos Fiat, Shahar Moses, Ilan Shimshoni, Gábor Tardos, "Planning and learning in permutation groups", January 1989, pp. 274-276. [Online]. Available: https://www.researchgate.net/publication/3501931_Planning_and_learning_in_permutation_groups
-[^singmaster-1981]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 34.
-[^smith-nd]: R. Smith, "Can a Rubik's Cube be brute-forced?", [Online]. Available: https://www.stylewarning.com/posts/brute-force-rubiks-cube/#the-4-list-algorithm-and-solving-the-rubiks-cube
+[^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 14-15. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
+[^scherphuis-nd]: J. Scherphuis, "Computer Puzzling". [Online]. Available: https://www.jaapsch.net/puzzles/compcube.htm#thisal
+[^bawden-1987]: A. Bawden, "Shamir's talk really was about how to solve the cube!", Cube Lovers, 27 May 1987. [Online]. Available: https://www.cube20.org/cubelovers/CL06/024.txt
+[^shamir-fiat-moses-shimshoni-tardos-1989]: A. Shamir, A. Fiat, S. Moses, I. Shimshoni, G. Tardos, "Planning and learning in permutation groups", January 1989, pp. 274-276. [Online]. Available: https://www.researchgate.net/publication/3501931_Planning_and_learning_in_permutation_groups
+[^singmaster-1981]: D. Singmaster, "Notes on Rubik's Magic Cube", Hillside, NJ, Enslow Publishers, 1981, p. 34.
+[^smith-nd]: R. Smith, "Can a Rubik's Cube be brute-forced?". [Online]. Available: https://www.stylewarning.com/posts/brute-force-rubiks-cube/#the-4-list-algorithm-and-solving-the-rubiks-cube
+[^kloosterman-1989]: H. Kloosterman, "Rubik's Cube in 44 moves", Cubism For Fun #22, 1989, p. 9.
+[^kloosterman-1990]: H. Kloosterman, "Rubik's Cube in 42 moves", Cubism For Fun #25, 1989, p. 19.
+
 [^singmaster-1981-1]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 32.
 [^singmaster-1981-2]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, pp. 36, 39.
 [^longridge-nd]: M. Longridge, "Progress in Solving Algorithms," CubeMan, [Online]. Available: http://cubeman.org/dotcs.txt.
