@@ -9,7 +9,11 @@ import ImageCollage from '@site/src/components/ImageCollage';
 
 # Computer Algorithms
 
-A history of algorithms and their role in proving God's number.
+The number of 3x3x3 Rubik's Cube states is 43,252,003,274,489,856,000. Even at a million turns per second it would take a computer about 650,000 years on average to solve the cube with a simple brute-force search. 
+
+An alternative method is to use a complete lookup table storing every state. While this would be very fast once the table was built, storing the solutions for all 43 quintillion possible states in memory is practically impossible. 
+
+Hence, another technique must be used. Since we lack the time to compute everything on the fly and the capacity to store a full index of states and corresponding solutions, we must seek a middle ground.
 
 <TwistyPlayer
   alg="x2 D2 U2 L2 B2 L2"
