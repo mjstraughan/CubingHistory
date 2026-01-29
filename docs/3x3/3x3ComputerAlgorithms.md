@@ -60,12 +60,15 @@ In 1990, following an exhaustive computer-aided search, Kloosterman lowered the 
 
 ## Herbert Kociemba (1992)
 
-In 1992, another improvement upon Thistlethwaite's algorithm was published in Cubism For Fun [^kociemba-1992] [^winter-1992-1]. Herbert Kociemba combined steps of Thistlethwaite's algorithm to reduce it to a two stage process. It was stated that all tested positions were solved in a maximum of 21 moves. However, a complete proof wasn’t included with the publication.
+In 1992, Herbert Kociemba created an algorithm that was both evolutionary and revolutionary at the same time [^kociemba-1992].
 
-1. Orient edges, move all U/D pieces to U/D, and orient all corners to U/D. (Group 1: \<U, D, L2, R2, F2, B2\>)
-2. Solve using the move group from step 1.
+He basically combined Thistlethwaite's first two and last two steps into one step each, resulting in a two-phase algorithm capable of finding instant and near-optimal solutions with minimal memory usage. The algorithm does not stop after finding its first solution but continues searching with an increasing phase 1 length and decreasing phase 2 length, which leads to a shorter overall solution [^pochmann-2008-2]. However, it is not designed to find optimal solutions.
 
+Phase 1 contains roughly 2 billion states and can be solved in 12 moves. Phase 2 contains almost 20 billion states and it needs at most 18 moves. Kociemba's contribution was not only developing a two-phase algorithm, but also introducing new and efficient ways to represent cube permutations and orientations that made large-scale searches possible [^kociemba-nd]. 
 
+![](img/ComputerAlgorithms/Kociemba.png)
+
+Since its release to the public, Kociemba's 2-phase algorithm has become very popular in the cubing community. It is often - though not always - powering cube-solving robots or generating scrambling & solving sequences in cubing apps. It was also utilized in the search for God's number (// link to Maksymilian´s page once it is ready) to name a few applications where a quick and not necessarily optimal solution (but still 20 moves or less) for a randomly scrambled cube is needed.
 
 ## Mike Reid (1992, 1994)
 
@@ -127,8 +130,10 @@ Finally, in July, 2010, the team proved that the maximum is 20 moves [^rokicki-k
 [^shamir-fiat-moses-shimshoni-tardos-1989]: A. Shamir, A. Fiat, S. Moses, I. Shimshoni, G. Tardos, "Planning and learning in permutation groups", January 1989, pp. 274-276. [Online]. Available: https://www.researchgate.net/publication/3501931_Planning_and_learning_in_permutation_groups
 [^singmaster-1981]: D. Singmaster, "Notes on Rubik's Magic Cube", Hillside, NJ, Enslow Publishers, 1981, p. 34.
 [^smith-nd]: R. Smith, "Can a Rubik's Cube be brute-forced?". [Online]. Available: https://www.stylewarning.com/posts/brute-force-rubiks-cube/#the-4-list-algorithm-and-solving-the-rubiks-cube
-[^kloosterman-1989]: H. Kloosterman, "Rubik's Cube in 44 moves", Cubism For Fun #22, 1989, p. 9.
-[^kloosterman-1990]: H. Kloosterman, "Rubik's Cube in 42 moves", Cubism For Fun #25, 1989, p. 19.
+[^kloosterman-1989]: H. Kloosterman, "Rubik's Cube in 44 moves", Cubism For Fun #22, December 1989, p. 9.
+[^kociemba-1992]: H. Kociemba, "Close to God's algorithm" Cubism For Fun #28, April 1992, pp. 10-13.
+[^pochmann-2008-2]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 15-16. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
+[^kociemba-nd]: H. Kociemba, "Two-Phase Algorithm Details". [Online]. Available: https://kociemba.org/math/imptwophase.htm
 
 [^singmaster-1981-1]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 32.
 [^singmaster-1981-2]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, pp. 36, 39.
