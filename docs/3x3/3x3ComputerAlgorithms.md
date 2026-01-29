@@ -92,37 +92,6 @@ On May 24, 1992, Dik Winter ran an extensive calculation of the first phase of K
 
 ![](img/ComputerAlgorithms/Winter.png)
 
-## Silviu Radu (2005, 2006)
-
-In December, 2005, using the same method as Mike Reid, Silviu Radu reduced the maximum to 28 moves [^radu-2005-1] [^rokicki-kociemba-davidson-dethridge-2010-1]. This was accomplished by implementing methods to avoid the cube positions that had previously been calculated to require 29 moves.
-
-![](img/ComputerAlgorithms/Radu1.png)
-
-In 2005, Radu further decreased the number to 27 moves [^radu-2005-2] [^radu-2006] [^rokicki-kociemba-davidson-dethridge-2010-1].
-
-![](img/ComputerAlgorithms/Radu2.png)
-
-## Daniel Kunkle and Gene Cooperman (2007)
-
-The upper bound was further lowered to 26 in 2007, thanks to the work of Daniel Kunkle and Gene Cooperman [^kunkle-cooperman-2007-1] [^kunkle-cooperman-2007-2] [^rokicki-kociemba-davidson-dethridge-2010-1].
-
-![](img/ComputerAlgorithms/KunkleCooperman.png)
-
-## Tomas Rokicki, Herbert Kociemba, Morley Davidson, John Dethridge (2007)
-
-In 2006, a team consisting of Tomas Rokicki, Herbert Kociemba, Morley Davidson, John Dethridge set out to further reduce the number [^rokicki-2006].
-
-![](img/ComputerAlgorithms/Team1.png)
-
-Over a five month period in 2008, the team gradually reduced the maximum from 25 [^rokicki-2008-1], to 23 [^rokicki-2008-2], and then to 22 [^rokicki-kociemba-davidson-dethridge-2010-2].
-
-![](img/ComputerAlgorithms/Team2.png)
-![](img/ComputerAlgorithms/Team3.png)
-![](img/ComputerAlgorithms/Team4.png)
-
-Finally, in July, 2010, the team proved that the maximum is 20 moves [^rokicki-kociemba-davidson-dethridge-2014] [^rokicki-2013] [^rokicki-kociemba-davidson-dethridge-2010-1].
-
-![](img/ComputerAlgorithms/Team5.png)
 
 [^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 14-15. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^scherphuis-nd]: J. Scherphuis, "Computer Puzzling". [Online]. Available: https://www.jaapsch.net/puzzles/compcube.htm#thisal
