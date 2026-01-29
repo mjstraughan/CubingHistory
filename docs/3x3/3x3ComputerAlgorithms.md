@@ -20,7 +20,11 @@ Hence, another technique must be used. Since we lack the time to compute everyth
  controlPanel="none"
 />
 
-## Morwen Thistlethwaite (1980)
+## Morwen Bernard Thistlethwaite (1980)
+
+Early human-based methods for solving the Rubik's Cube typically required around 100 moves. A significant breakthrough occurred in 1980 when Morwen Thistlethwaite developed a novel four-phase algorithm that reduced the maximum move count to 52. Each of its 4 steps progressively restricts the allowed types of turns until the cube reaches a solved state.
+
+In phase 1, all 18 cube turns (U, U', U2, D, D', D2, R, R', R2, L, L', L2, F, F', F2, B, B', B2) are allowed. In phase 2, U and D are restricted to half-turns only (that means no U and D quarter-turns anymore). Phase 3 additionally disallows F and B quarter-turns, and finally phase 4 restricts all six faces to half-turns only [^pochmann-2008-1].
 
 In 1979, Morwen Thistlethwaite devised a method for solving the cube that starts by building a 2x2x3 block [^singmaster-1981-1].
 
@@ -114,6 +118,7 @@ Finally, in July, 2010, the team proved that the maximum is 20 moves [^rokicki-k
 
 ![](img/ComputerAlgorithms/Team5.png)
 
+[^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles," 2008, pp. 14-15, [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf. 
 [^singmaster-1981-1]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 32.
 [^singmaster-1981-2]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, pp. 36, 39.
 [^longridge-nd]: M. Longridge, "Progress in Solving Algorithms," CubeMan, [Online]. Available: http://cubeman.org/dotcs.txt.
