@@ -26,23 +26,13 @@ Early human-based methods for solving the Rubik's Cube typically required around
 
 In phase 1, all 18 cube turns (U, U', U2, D, D', D2, R, R', R2, L, L', L2, F, F', F2, B, B', B2) are allowed. In phase 2, U and D are restricted to half-turns only (that means no U and D quarter-turns anymore). Phase 3 additionally disallows F and B quarter-turns, and finally phase 4 restricts all six faces to half-turns only [^pochmann-2008-1].
 
-In 1979, Morwen Thistlethwaite devised a method for solving the cube that starts by building a 2x2x3 block [^singmaster-1981-1].
+![](img/ComputerAlgorithms/Thistlethwaite2.png)
 
-1. Build a 2x2x3 block at bl.
-2. Orient all remaining edges.
-3. Solve the FU, FL, and FD edges.
-4. Solve the UFL and DFL corners.
-5. Solve the right side layer edges.
-6. Solve the right side layer corners.
+To navigate between the stages, big lookup tables are required: for phase 1 a set of 2048 move sequences is necessary to make the cube solvable in the later steps. Those need 1082565, 29400 and 663552 move sequences, respectively.
 
-In 1980, Thistlethwaite created a new strategy for solving the cube [^singmaster-1981-2] [^longridge-nd] [^rokicki-kociemba-davidson-dethridge-2010-1]. This is the algorithm that influenced many later methods for solving the cube in as few moves as possible. This algorithm was stated to take a maximum of 52 moves and was later reduced to below 50 moves.
+The version originally presented by Thistlethwaite guaranteed a solution within 52 moves based on worst-case scenarios for all of its four stages (7+13+15+17). Subsequent research has optimized those figures. We now know that the algorithm as described above can solve any cube configuration in at most 45 moves (7+10+13+15), with a typical solution averaging 31 turns [^scherphuis-nd]. Furthermore, phase 4 is optimally solvable in just 13 moves if quarter-turns are allowed as well.
 
-1. Orient all edges. (Group 1: \<L, R, F, B, U2, D2\>). Moves: 7.
-2. Move L/R edges to L/R and orient all corners to L/R. (Group 2: \<L, R, F2, B2, U2, D2\>). Moves: 13.
-3. Move all edges into their correct inner slices and position all corner stickers to their matching or opposite layers. (Group 2: \<L2, R2, F2, B2, U2, D2\>). Moves: 15.
-4. Solve using the move group from step 3. Moves: 17.
-
-![](img/ComputerAlgorithms/Thistlethwaite1.png)
+It is worth mentioning that already in 1980, Michael Feather and George Christos independently developed the [3-Color method](3x3/Methods/3Color.md). Similarly to Thistlethwaite's approach, this method simplifies the cube by treating opposite colors as being the same. However, while Thistlethwaite's algorithm was computionally driven, the 3-Color method was designed specifically for human solvers. In 2002, Ryan Heise devised the [Human Thistlethwaite method](3x3/Methods/HumanThistlethwaite.md). Today, Thistlethwaite's legacy persists, as his 4-phase algorithm serves as a base for a high-level FMC. (// link to the FMC page once it is published on Cubing History).
 
 ## Hans Kloosterman (1990)
 
@@ -118,7 +108,8 @@ Finally, in July, 2010, the team proved that the maximum is 20 moves [^rokicki-k
 
 ![](img/ComputerAlgorithms/Team5.png)
 
-[^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles," 2008, pp. 14-15, [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf. 
+[^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles," 2008, pp. 14-15, [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf.
+[^scherphuis-nd]: J. Scherphuis, "Thistlethwaite's algorithm," [Online]. Available: https://www.jaapsch.net/puzzles/compcube.htm#thisal.
 [^singmaster-1981-1]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 32.
 [^singmaster-1981-2]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, pp. 36, 39.
 [^longridge-nd]: M. Longridge, "Progress in Solving Algorithms," CubeMan, [Online]. Available: http://cubeman.org/dotcs.txt.
