@@ -99,6 +99,13 @@ A chain of influence is therefore as follows [^heise-2007]:
 3. Jelínek (partial) (// to mjstraughan: the code say "3", but displayed is "4". It should be edited as it should display "3" (along with Reid), and "4" for Kociemba)
 4. Kociemba (old: 2-phase, new: optimal and partial)
 
+<ol>
+<li>Sam
+<li value=1>Ben
+<li value=3>Susan
+<li>Chris
+</ol>
+
 Among other things, Reid is also credited with proving that the Superflip requires exactly 20 optimal moves to solve [^reid-1995]. The Superflip is a cube state where all corners are solved and all edges are correctly positioned but flipped. This discovery effectively raised the lower bound of God's number from 18 to 20.
 
 
