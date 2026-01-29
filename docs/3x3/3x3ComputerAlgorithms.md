@@ -82,21 +82,25 @@ A pruning table is a precomputed table containing the minimum number of moves re
 
 Of the 10 randomly scrambled cubes used in his demonstration, six were optimally solvable in 18 moves, three in 17 moves, and one in 16 moves. In this regard he was quite lucky not to have generated a scramble requiring 19 moves, as the probability of doing so is higher than that of generating a scramble requiring 16 moves. To optimally solve a single depth-19 cube would most likely have taken more than a month on the hardware used (in fact, somewhere between 27 and 360 days of uninterrupted searching).
 
-## Mike Reid (1992, 1994)
+## Michael Reid (1997)
 
-On May 22, 1992, Mike Reid submitted an alternative algorithm to the Cube Lovers mailing list [^reid-1992-2] [^longridge-nd] [^rokicki-kociemba-davidson-dethridge-2010-1]. Using this algorithm, Reid reduced the upper bound to 39 moves.
+Expending on the work of Korf and Kociemba, Michael Reid developed his own optimal solver just months after Korf.
 
-1. Solve a 2x2x2 block at dbl. (Group 1: \<U, R, F\>). Moves: 8.
-2. Orient all edges and corners and move all U/D pieces to U/D. (Group 2: \<U, R2, F2\>). Moves: 13.
-3. Solve using the move group from step 2. Moves: 19.
+Reid used only one pruning table which was the combination of edge orientation + corner twist + edge position of 4 cubies (cubers know this state as Domino Reduction which is literally the first goal state of Kociemba's algorithm). He then used the pruning table three times by rotating the cube to get a different set of 4 edge cubies each time. Additionally he used symmetry reduction to reduce the size of the pruning table by a factor of 16 (the 16 symmetries are all of the cube states that are reached by rotating on the same axis or flipping the axis 180 degrees or taking the mirror image of those positions).
 
-![](img/ComputerAlgorithms/Reid1.png)
+![](img/ComputerAlgorithms/Reid3.png)
 
-In 1995, Reid ran a calculation on the \<U, D, F2, R2, B2, L2\> group, reducing the maximum to 29 moves [^reid-1995] [^rokicki-kociemba-davidson-dethridge-2010-1].
+The principles established by both Reid and Kociemba were widely adopted in later software developments. In 2000, Josef Jelínek released ACube, a versatile program capable of finding both optimal and suboptimal move sequences for fully or partially solved state. Similarly, Herbert Kociemba integrated Reid's concepts into his Cube Explorer program to implement an optimal solving feature [^kociemba-1997]. 
 
-![](img/ComputerAlgorithms/Reid2.png)
+A chain of influence is therefore as follows [^heise-2007]: 
+1. Thistlethwaite (4-phase)
+2. Kociemba (2-phase)
+3. Reid (optimal)
+3. Jelínek (partial)
+4. Kociemba (old: 2-phase, new: optimal and partial)
 
-new upper bounds, Cube Lovers, January 7, 1995
+Among other things, Reid is also credited with proving that the Superflip requires exactly 20 optimal moves to solve [^reid-1995]. The Superflip is a cube state where all corners are solved and all edges are correctly positioned but flipped. This discovery effectively raised the lower bound of God's number from 18 to 20.
+
 
 
 [^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 14-15. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
@@ -110,7 +114,11 @@ new upper bounds, Cube Lovers, January 7, 1995
 [^pochmann-2008-2]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 15-16. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^kociemba-nd]: H. Kociemba, "Two-Phase Algorithm Details". [Online]. Available: https://kociemba.org/math/imptwophase.htm
 [^korf-1997]: R. E. Korf: "Finding Optimal Solutions to Rubik's Cube Using Pattern Databases", July 1997. [Online]. Available: https://www.semanticscholar.org/paper/Finding-Optimal-Solutions-to-Rubik%27s-Cube-Using-Korf/e6ab7d5d5d38a659fd2ffa53d72ab67e6abc61af
-[^kociemba-2024]: H. Kociemba: forum post, December 2024. [Online]. Available: https://www.speedsolving.com/threads/computer-solving-a-new-two-phase-algorithm.93083/page-3#post-1634814
+[^kociemba-2024]: H. Kociemba, forum post, December 2024. [Online]. Available: https://www.speedsolving.com/threads/computer-solving-a-new-two-phase-algorithm.93083/page-3#post-1634814
+[^kociemba-1997]: H. Kociemba, "The Optimal Solvers". [Online]. Available: https://kociemba.org/math/optimal.htm
+[^heise-2007]: R. Heise, "Re: FW: [fewestmoveschallenge] FMC 148", Yahoo! Groups, Fewest Moves Challenge subgroup, 14 April 2007. [Online]. Available: https://www.cubinghistory.com/archive/YahooGroups/YahooGroups.html 
+[^reid-1995]: M. Reid, "superflip requires 20 face turns", 18 January 1995. [Online]. Available: https://www.cube20.org/cubelovers/CL15/002.txt
+
 
 [^singmaster-1981-1]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 32.
 [^singmaster-1981-2]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, pp. 36, 39.
