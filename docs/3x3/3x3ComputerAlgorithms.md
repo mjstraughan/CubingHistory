@@ -122,6 +122,7 @@ Number of states in multi-phase algorithms:
 
 <table>
 <tr><td></td><td align=center>phase 1</td><td align=center>phase 2</td><td align=center>phase 3</td><td align=center>phase 4</td></tr>
+<tr><td></td><td colsapen=2 align=center>phase 1</td><td colsapn=2 align=center>phase 2</td></tr>
 <tr><td>Thistlethwaite</td><td align=center>2048</td><td align=center>1082565</td><td align=center>29400</td><td align=center>663552</td></tr>
 <tr><td>Kloosterman</td><td align=center>2048</td><td align=center>1082565</td><td align=center>4900</td><td align=center>3981312</td></tr>
 <tr><td>Kociemba</td><td colspan=2 align=center>2048 · 1082565 <sup>a</sup></td><td colspan=2 align=center>29400 · 663552 <sup>b</sup></td></tr>
@@ -138,6 +139,7 @@ Optimal move count per phase:
 
 <table>
 <tr><td></td><td align=center>phase 1</td><td align=center>phase 2</td><td align=center>phase 3</td><td align=center>phase 4</td></tr>
+<tr><td></td><td colsapen=2 align=center>phase 1</td><td colsapn=2 align=center>phase 2</td></tr>
 <tr><td>Thistlethwaite</td><td align=center>7 <sup>a</sup></td><td align=center>10 <sup>b</sup></td><td align=center>13 <sup>c</sup></td><td align=center>15 <sup>d</sup></td></tr>
 <tr><td>Kloosterman</td><td align=center>7 <sup>a</sup></td><td align=center>10 <sup>b</sup></td><td align=center>8 <sup>c</sup></td><td align=center>18 <sup>c</sup></td></tr>
 <tr><td>Kociemba</td><td colspan=2 align=center>12 <sup>a</sup></td><td colspan=2 align=center>18 <sup>c</sup></td></tr>
