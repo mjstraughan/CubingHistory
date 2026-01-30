@@ -114,7 +114,7 @@ Depending on the specific solver variant, the length of phase 2 can be limited t
 
 Instead of terminating at the first solution, the algorithm continues to search by incrementally increasing the phase 1 length while decreasing the phase 2 length until it finds an optimal solution. Furthermore, the solver is capable of finding quick and short suboptimal solutions (20 moves or less) using the same logic.
 
-![](img/ComputerAlgorithmsFeather.png)
+![](img/ComputerAlgorithms/Feather.png)
 
 ## Stats
 
