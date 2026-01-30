@@ -132,7 +132,7 @@ a = 2217093120<br>
 b = 19508428800<br>
 c = unlimited phase 2 variant
 
-Naturally, there is an inherent mathematical relation between Kloosterman's phase 3 and Thistlethwaite's phase 3: 4900 = 29400/6, as well as Kloosterman's phase 4 and Thistlethwaite's phase 4: 663552 = 3981312/6. Interestingly and despite a very different solving approaches, the number of move sequences in Kloosterman's phase 4 matches the number of move sequences in unlimited phase 2 of Feather's algorithm: both being 3981312 = (4!^5)/2.
+Naturally, there is an inherent mathematical relation between Kloosterman's phase 3 and Thistlethwaite's phase 3: 4900 = 29400/6, as well as Kloosterman's phase 4 and Thistlethwaite's phase 4: 663552 = 3981312/6. Interestingly and despite very different solving approaches, the number of move sequences in Kloosterman's phase 4 matches the number of states in unlimited phase 2 of Feather's algorithm: both are 3981312 = (4!^5)/2.
 
 Optimal move count per phase: 
 
