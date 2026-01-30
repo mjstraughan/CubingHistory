@@ -133,8 +133,8 @@ Optimal move count per phase:
 <tr><td>Thistlethwaite</td><td align=center>7*</td><td align=center>10**</td><td align=center>13***</td><td align=center>15****</td></tr>
 <tr><td>Kloosterman</td><td align=center>7*</td><td align=center>10**</td><td align=center>8***</td><td align=center>18***</td></tr>
 <tr><td>Kociemba</td><td colspan=2 align=center>12*</td><td colspan=2 align=center>18***</td></tr>
-<tr><td>Feather<br>(unlimited)<br>variant</td><td colspan=2 align=center>15*</td><td colspan=2 align=center>16*</td></tr>
-<tr><td>Feather<br>(limited)<br>variant</td><td colspan=2 align=center>16*****</td><td colspan=2 align=center>8*</td></tr>
+<tr><td>Feather<br>(unlimited<br>variant)</td><td colspan=2 align=center>15*</td><td colspan=2 align=center>16*</td></tr>
+<tr><td>Feather<br>(limited<br>variant)</td><td colspan=2 align=center>16*****</td><td colspan=2 align=center>8*</td></tr>
 </table>
 
 <pre>
