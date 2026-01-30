@@ -145,10 +145,10 @@ Optimal move count per phase:
 <tr><td>Feather<br>(limited<br>variant)</td><td colspan=2 align=center>16 <sup>e</sup></td><td colspan=2 align=center>8 <sup>a</sup></td></tr>
 </table>
 
-a = <U, D, R, L, F, B> move set
-b = <U2, D2, R, L, F, B> move set
-c = <U2, D2, R, L, F2, B2> move set (or equivalent <U, D, R2, L2, F2, B2> or <U2, D2, R2, L2, F, B> move set)
-d = <U2, D2, R2, L2, F2, B2> move set
+a = <U, D, R, L, F, B> move set<br>
+b = <U2, D2, R, L, F, B> move set<br>
+c = <U2, D2, R, L, F2, B2> move set (or equivalent <U, D, R2, L2, F2, B2> or <U2, D2, R2, L2, F, B> move set)<br>
+d = <U2, D2, R2, L2, F2, B2> move set<br>
 e = lower bound [^miler-2024] and <U, D, R, L, F, B> move set
 
 See also the [similarities and differences among algorithms](https://en.wikipedia.org/wiki/Optimal_solutions_for_the_Rubik%27s_Cube#Similarities_and_differences_among_algorithms) on Wikipedia.
