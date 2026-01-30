@@ -171,4 +171,4 @@ See also the [similarities and differences among algorithms](https://en.wikipedi
 [^heise-2007]: R. Heise, "Re: FW: [fewestmoveschallenge] FMC 148", Yahoo! Groups, Fewest Moves Challenge subgroup, 14 April 2007. [Online]. Available: https://www.cubinghistory.com/archive/YahooGroups/YahooGroups.html 
 [^reid-1995]: M. Reid, "superflip requires 20 face turns", 18 January 1995. [Online]. Available: https://www.cube20.org/cubelovers/CL15/002.txt
 [^miler-2024]: T. Miler, forum post, August 2024. [Online]. Available: https://www.speedsolving.com/threads/computer-solving-a-new-two-phase-algorithm.93083/#post-1617184
-[^speedsolving.com-wiki-nd]: speedsolving.com wiki. [Online]. Available: https://www.speedsolving.com/wiki/index.php?title=Feather%27s_algorithm#Variants
+[^speedsolving.com-wiki-nd]: speedsolving.com wiki, "Feather's algorithm". [Online]. Available: https://www.speedsolving.com/wiki/index.php?title=Feather%27s_algorithm#Variants
