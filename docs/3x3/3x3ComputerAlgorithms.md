@@ -104,50 +104,7 @@ A chain of influence is therefore as follows [^heise-2007]:
 
 Among other things, Reid is also credited with proving that the Superflip requires exactly 20 optimal moves to solve [^reid-1995]. The Superflip is a cube state where all corners are solved and all edges are correctly positioned but flipped. This discovery effectively raised the lower bound of God's number from 18 to 20.
 
-## Stats
 
-Number of states in multi-phase algorithms:
-
-<table>
-<tr><td></td><td align=center>phase 1</td><td align=center>phase 2</td><td align=center>phase 3</td><td align=center>phase 4</td></tr>
-<tr><td>Thistlethwaite</td><td align=center>2048</td><td align=center>1082565</td><td align=center>29400</td><td align=center>663552</td></tr>
-<tr><td>Kloosterman</td><td align=center>2048</td><td align=center>1082565</td><td align=center>4900</td><td align=center>3981312</td></tr>
-<tr><td>Kociemba</td><td colspan=2 align=center>2048 · 1082565*</td><td colspan=2 align=center>29400 · 663552**</td></tr>
-<tr><td>Feather</td><td colspan=2 align=center>10863756288000</td><td colspan=2 align=center>3981312***</td></tr>
-</table>
-
-<pre>
-*   = 2217093120
-**  = 19508428800
-*** = unlimited variant
-</pre>
-
-(// format the text above better)
-
-Naturally, there is an inherent mathematical relation between Kloosterman's phase 3 and Thistlethwaite's phase 3: 4900 = 29400/6, as well as Kloosterman's phase 4 and Thistlethwaite's phase 4: 663552 = 3981312/6. Interestingly and despite a very different solving approaches, the number of move sequences in Kloosterman's phase 4 matches the number of move sequences in unlimited phase 2 of Feather's algorithm: both being 3981312 = (4!^5)/2.
-
-Optimal move count per phase: 
-
-<table>
-<tr><td></td><td align=center>phase 1</td><td align=center>phase 2</td><td align=center>phase 3</td><td align=center>phase 4</td></tr>
-<tr><td>Thistlethwaite</td><td align=center>7*</td><td align=center>10**</td><td align=center>13***</td><td align=center>15****</td></tr>
-<tr><td>Kloosterman</td><td align=center>7*</td><td align=center>10**</td><td align=center>8***</td><td align=center>18***</td></tr>
-<tr><td>Kociemba</td><td colspan=2 align=center>12*</td><td colspan=2 align=center>18***</td></tr>
-<tr><td>Feather<br>(unlimited<br>variant)</td><td colspan=2 align=center>15*</td><td colspan=2 align=center>16*</td></tr>
-<tr><td>Feather<br>(limited<br>variant)</td><td colspan=2 align=center>16*****</td><td colspan=2 align=center>8*</td></tr>
-</table>
-
-<pre>
-*     = <U, D, R, L, F, B> move set
-**    = <U2, D2, R, L, F, B> move set
-***   = <U2, D2, R, L, F2, B2> move set (or equivalent <U, D, R2, L2, F2, B2> or <U2, D2, R2, L2, F, B> move set)
-****  = <U2, D2, R2, L2, F2, B2> move set
-***** = lower bound [^miler-2024] and <U, D, R, L, F, B> move set
-</pre>
-
-(// format the text above better)
-
-Wikipedia has a section [Similarities and differences among algorithms](https://en.wikipedia.org/wiki/Optimal_solutions_for_the_Rubik%27s_Cube#Similarities_and_differences_among_algorithms).
 
 [^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 14-15. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^scherphuis-nd]: J. Scherphuis, "Computer Puzzling". [Online]. Available: https://www.jaapsch.net/puzzles/compcube.htm#thisal
