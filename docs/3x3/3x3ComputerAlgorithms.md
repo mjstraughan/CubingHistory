@@ -48,7 +48,7 @@ Driven by a fascination with the 2x3x3 Rubik's Domino, Hans Kloosterman's 1989 c
 
 The shortest solution for the Rubik's Domino he knew involved applying Thistlethwaite's third and fourth phases (these are optimally solvable in at most 13+15 moves on Rubik's Cube) [^kloosterman-1989]. He optimized them into a two-step process with a maximum of 25 moves.
 
-In step 1, he placed all U-face cubies to the upper layer; essentially orienting both layers. This can be done in 8 moves. In step 2, he restored the rest of the puzzle; essentially permuting both layers. This can be done in 17 moves. Kloosterman noted that stages 3 and 4 of the Thistlethwaite's algorithm share the same class of moves as his Domino solution, which allowed him to successfully adapt those principles to the Rubik's Cube.
+In step 1, he placed all top-face cubies to the upper layer; essentially orienting both layers. This can be done in 8 moves. In step 2, he restored the rest of the puzzle; essentially permuting both layers. This can be done in 17 moves. Kloosterman noted that stages 3 and 4 of the Thistlethwaite's algorithm share the same class of moves as his Domino solution, which allowed him to successfully adapt those principles to the Rubik's Cube.
 
 ![](img/ComputerAlgorithms/Kloosterman1.png)
 
@@ -72,7 +72,7 @@ Since its release to the public, Kociemba's 2-phase algorithm has become very po
 
 ## Richard Earl Korf (1997)
 
-A new era of optimal solving began with the introduction of Korf's solver in 1997 [^korf-1997]. Richard Korf was the first to demonstrate that the IDA* search algorithm could be employed to find optimal solutions for randomly scrambled Rubik's Cubes, and all well-performing optimal solvers use this technique since then [^kociemba-2024].
+A new era of optimal solving has begun with the introduction of Korf's solver in 1997 [^korf-1997]. Richard Korf was the first to demonstrate that the IDA* search algorithm could be employed to find optimal solutions for randomly scrambled Rubik's Cubes, and all well-performing optimal solvers use this technique since then [^kociemba-2024].
 
 ![](img/ComputerAlgorithms/Korf.png)
 
@@ -106,7 +106,7 @@ Among other things, Reid is also credited with proving that the Superflip requir
 
 ## Michael Feather (2015)
 
-For nearly two decades following 1998, the research into alternative pruning tables was minimal. This trend persisted until 2015, marked by the release of Michael Feather's two-phase solver.
+For nearly two decades following 1997, the research into alternative pruning tables was minimal. This trend persisted until 2015, marked by the release of Michael Feather's two-phase solver.
 
 It uses IDA* to find optimal and suboptimal solutions in phase 1 to get the cube into an intermediate 3-color state characterized by having a maximum of two colors per face, and then again uses IDA* to reach the final solution in phase 2. To make this work, Feather had to build fundamentally new set of pruning tables for both phases from scratch.
 
@@ -153,7 +153,9 @@ c = <U2, D2, R, L, F2, B2> move set (or equivalent <U, D, R2, L2, F2, B2> or <U2
 d = <U2, D2, R2, L2, F2, B2> move set<br>
 e = lower bound [^miler-2024] and <U, D, R, L, F, B> move set
 
-See also the [similarities and differences among algorithms](https://en.wikipedia.org/wiki/Optimal_solutions_for_the_Rubik%27s_Cube#Similarities_and_differences_among_algorithms) on Wikipedia.
+See also:
+- [example solves](https://animcubejs.cubing.net/sources/codes/enhancement/parameters/cube3.html?butbgcolor=99aacc&initrevmove=%23&move={4-list%20one-phase%20algorithm,%20optimal%20solution.}R%27%20L2%20B%27%20U2%20B%27%20U%20F%20U%20L%27%20F2%20B2%20L%27%20U2%20R%27%20U2%20F%20U%20B%27;{Korf%27s%20one-phase%20algorithm,%20optimal%20solution.}R%20B%20U2%20L2%20U%20F2%20R2%20F2%20U%20F%27%20U2%20R2%20F%27%20U%27%20F2%20L%20B%20L%27;{Reid%27s%20one-phase%20algorithm,%20optimal%20solution.}U%20R%27%20U2%20L2%20B%27%20R2%20D%20F2%20R%20L2%20B%20R2%20U%20R2%20D%27%20R%20U%27%20D2;{Feather%27s%20two-phase%20algorithm,%20optimal%20solution%20[15+3].}U%27%20D%27%20F2%20D%20F%27%20R2%20F%20B2%20D%20F%27%20B%27%20L2%20D2%20L%27%20F%27%20L2%20R2%20F2;{Thistlethwaite%27s%20four-phase%20algorithm,%20suboptimal%20solution%20[3+8+10+8].}D2%20L%27%20F%27%20U%27%20D%20R%20B2%20D%27%20R%20U%20L%27%20U%27%20R2%20U%20F2%20U%27%20F2%20U%20L2%20F2%20U%20R2%20U2%20L2%20U2%20F2%20L2%20B2%20R2;{Klooserman%27s%20four-phase%20algorithm,%20suboptimal%20solution%20[3+8+6+12].}D2%20L%27%20F%27%20U%27%20D%20R%20B2%20D%27%20R%20U%20L%27%20U%20B2%20U%20F2%20U%27%20F2%20D%20F2%20U%20L2%20U%27%20L2%20D%20R2%20D%27%20F2%20L2%20D%27;{4-list%20one-phase%20algorithm,%20suboptimal%20solution.}B%20U2%20B%20U2%20D%27%20B2%20U2%20F2%20R%20F%27%20B%20U2%20B%20D%27%20B2%20D%20L%27%20D2%20F%20R%27;{Kociemba%27s%20two-phase%20algorithm,%20suboptimal%20solution%20[10+10].}L%20F%27%20R2%20B2%20D2%20B%27%20L%27%20B%20R%20B%20U%27%20B2%20D%27%20L2%20F2%20L2%20D2%20R2%20D%20F2;{Feather%27s%20two-phase%20algorithm,%20suboptimal%20solution%20[12+8].}D%20L%20D2%20L%20B%20R2%20B%27%20L%20F%20R%27%20U%20L%27%20B2%20R2%20U2%20F2%20U2%20B2%20R2%20D2&colorscheme=wygbor&edit=1&snap=1&movetext=1&buttonheight=20&textsize=18&scale=2)
+- [similarities and differences among algorithms](https://en.wikipedia.org/wiki/Optimal_solutions_for_the_Rubik%27s_Cube#Similarities_and_differences_among_algorithms)
 
 [^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 14-15. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^scherphuis-nd]: J. Scherphuis, "Computer Puzzling". [Online]. Available: https://www.jaapsch.net/puzzles/compcube.htm#thisal
