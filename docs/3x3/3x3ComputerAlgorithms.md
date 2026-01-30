@@ -124,12 +124,12 @@ Number of states in multi-phase algorithms:
 <tr><td></td><td align=center>phase 1</td><td align=center>phase 2</td><td align=center>phase 3</td><td align=center>phase 4</td></tr>
 <tr><td>Thistlethwaite</td><td align=center>2048</td><td align=center>1082565</td><td align=center>29400</td><td align=center>663552</td></tr>
 <tr><td>Kloosterman</td><td align=center>2048</td><td align=center>1082565</td><td align=center>4900</td><td align=center>3981312</td></tr>
-<tr><td>Kociemba</td><td colspan=2 align=center>2048 · 1082565<sup>a</sup></td><td colspan=2 align=center>29400 · 663552<sup>b</sup></td></tr>
-<tr><td>Feather</td><td colspan=2 align=center>10863756288000</td><td colspan=2 align=center>3981312<sup>c</sup></td></tr>
+<tr><td>Kociemba</td><td colspan=2 align=center>2048 · 1082565 <sup>a</sup></td><td colspan=2 align=center>29400 · 663552 <sup>b</sup></td></tr>
+<tr><td>Feather</td><td colspan=2 align=center>10863756288000</td><td colspan=2 align=center>3981312 <sup>c</sup></td></tr>
 </table>
 
-a = 2217093120
-b = 19508428800
+a = 2217093120<br>
+b = 19508428800<br>
 c = unlimited variant
 
 Naturally, there is an inherent mathematical relation between Kloosterman's phase 3 and Thistlethwaite's phase 3: 4900 = 29400/6, as well as Kloosterman's phase 4 and Thistlethwaite's phase 4: 663552 = 3981312/6. Interestingly and despite a very different solving approaches, the number of move sequences in Kloosterman's phase 4 matches the number of move sequences in unlimited phase 2 of Feather's algorithm: both being 3981312 = (4!^5)/2.
@@ -138,22 +138,18 @@ Optimal move count per phase:
 
 <table>
 <tr><td></td><td align=center>phase 1</td><td align=center>phase 2</td><td align=center>phase 3</td><td align=center>phase 4</td></tr>
-<tr><td>Thistlethwaite</td><td align=center>7*</td><td align=center>10**</td><td align=center>13***</td><td align=center>15****</td></tr>
-<tr><td>Kloosterman</td><td align=center>7*</td><td align=center>10**</td><td align=center>8***</td><td align=center>18***</td></tr>
-<tr><td>Kociemba</td><td colspan=2 align=center>12*</td><td colspan=2 align=center>18***</td></tr>
-<tr><td>Feather<br>(unlimited<br>variant)</td><td colspan=2 align=center>15*</td><td colspan=2 align=center>16*</td></tr>
-<tr><td>Feather<br>(limited<br>variant)</td><td colspan=2 align=center>16*****</td><td colspan=2 align=center>8*</td></tr>
+<tr><td>Thistlethwaite</td><td align=center>7 <sup>a</sup></td><td align=center>10 <sup>b</sup></td><td align=center>13 <sup>c</sup></td><td align=center>15 <sup>d</sup></td></tr>
+<tr><td>Kloosterman</td><td align=center>7 <sup>a</sup></td><td align=center>10 <sup>b</sup></td><td align=center>8 <sup>c</sup></td><td align=center>18 <sup>c</sup></td></tr>
+<tr><td>Kociemba</td><td colspan=2 align=center>12 <sup>a</sup></td><td colspan=2 align=center>18 <sup>c</sup></td></tr>
+<tr><td>Feather<br>(unlimited<br>variant)</td><td colspan=2 align=center>15 <sup>a</sup></td><td colspan=2 align=center>16 <sup>a</sup></td></tr>
+<tr><td>Feather<br>(limited<br>variant)</td><td colspan=2 align=center>16 <sup>e</sup></td><td colspan=2 align=center>8 <sup>a</sup></td></tr>
 </table>
 
-<pre>
-*     = <U, D, R, L, F, B> move set
-**    = <U2, D2, R, L, F, B> move set
-***   = <U2, D2, R, L, F2, B2> move set (or equivalent <U, D, R2, L2, F2, B2> or <U2, D2, R2, L2, F, B> move set)
-****  = <U2, D2, R2, L2, F2, B2> move set
-***** = lower bound [^miler-2024] and <U, D, R, L, F, B> move set
-</pre>
-
-(// format the text above better)
+a = <U, D, R, L, F, B> move set
+b = <U2, D2, R, L, F, B> move set
+c = <U2, D2, R, L, F2, B2> move set (or equivalent <U, D, R2, L2, F2, B2> or <U2, D2, R2, L2, F, B> move set)
+d = <U2, D2, R2, L2, F2, B2> move set
+e = lower bound [^miler-2024] and <U, D, R, L, F, B> move set
 
 See also the [similarities and differences among algorithms](https://en.wikipedia.org/wiki/Optimal_solutions_for_the_Rubik%27s_Cube#Similarities_and_differences_among_algorithms) on Wikipedia.
 
