@@ -93,22 +93,61 @@ Reid used only one pruning table which was the combination of edge orientation +
 The principles established by both Reid and Kociemba were widely adopted in later software developments. In 2000, Josef Jelínek released ACube, a versatile program capable of finding both optimal and suboptimal move sequences for fully or partially solved state. Similarly, Herbert Kociemba integrated Reid's concepts into his Cube Explorer program to implement an optimal solving feature [^kociemba-1997]. 
 
 A chain of influence is therefore as follows [^heise-2007]: 
-1. Thistlethwaite (4-phase)
-2. Kociemba (2-phase)
-3. Reid (optimal)
-3. Jelínek (partial) (// to mjstraughan: the code say "3", but displayed is "4". It should be edited as it should display "3" (along with Reid), and "4" for Kociemba)
-4. Kociemba (old: 2-phase, new: optimal and partial)
 
 <ol>
-<li>Sam
-<li value=1>Ben
-<li value=3>Susan
-<li>Chris
+<li>Thistlethwaite (4-phase)
+<li>Kociemba (2-phase)
+<li>Reid (optimal)
+<li value=3>Jelínek (partial)
+<li value=4>Kociemba (old: 2-phase, new: optimal and partial)
 </ol>
 
 Among other things, Reid is also credited with proving that the Superflip requires exactly 20 optimal moves to solve [^reid-1995]. The Superflip is a cube state where all corners are solved and all edges are correctly positioned but flipped. This discovery effectively raised the lower bound of God's number from 18 to 20.
 
+## Stats
 
+Number of states in multi-phase algorithms:
+
+<table>
+<tr><td></td><td align=center>phase 1</td><td align=center>phase 2</td><td align=center>phase 3</td><td align=center>phase 4</td></tr>
+<tr><td>Thistlethwaite</td><td align=center>2048</td><td align=center>1082565</td><td align=center>29400</td><td align=center>663552</td></tr>
+<tr><td>Kloosterman</td><td align=center>2048</td><td align=center>1082565</td><td align=center>4900</td><td align=center>3981312</td></tr>
+<tr><td>Kociemba</td><td colspan=2 align=center>2048 · 1082565*</td><td colspan=2 align=center>29400 · 663552**</td></tr>
+<tr><td>Feather</td><td colspan=2 align=center>10863756288000</td><td colspan=2 align=center>3981312***</td></tr>
+</table>
+
+<pre>
+*   = 2217093120
+**  = 19508428800
+*** = unlimited variant
+</pre>
+
+(// format the text above better)
+
+Naturally, there is an inherent mathematical relation between Kloosterman's phase 3 and Thistlethwaite's phase 3: 4900 = 29400/6, as well as Kloosterman's phase 4 and Thistlethwaite's phase 4: 663552 = 3981312/6. Interestingly and despite a very different solving approaches, the number of move sequences in Kloosterman's phase 4 matches the number of move sequences in unlimited phase 2 of Feather's algorithm: both being 3981312 = (4!^5)/2.
+
+Optimal move count per phase: 
+
+<table>
+<tr><td></td><td align=center>phase 1</td><td align=center>phase 2</td><td align=center>phase 3</td><td align=center>phase 4</td></tr>
+<tr><td>Thistlethwaite</td><td align=center>7*</td><td align=center>10**</td><td align=center>13***</td><td align=center>15****</td></tr>
+<tr><td>Kloosterman</td><td align=center>7*</td><td align=center>10**</td><td align=center>8***</td><td align=center>18***</td></tr>
+<tr><td>Kociemba</td><td colspan=2 align=center>12*</td><td colspan=2 align=center>18***</td></tr>
+<tr><td>Feather<br>(unlimited)<br>variant</td><td colspan=2 align=center>15*</td><td colspan=2 align=center>16*</td></tr>
+<tr><td>Feather<br>(limited)<br>variant</td><td colspan=2 align=center>16*****</td><td colspan=2 align=center>8*</td></tr>
+</table>
+
+<pre>
+*     = <U, D, R, L, F, B> move set
+**    = <U2, D2, R, L, F, B> move set
+***   = <U2, D2, R, L, F2, B2> move set (or equivalent <U, D, R2, L2, F2, B2> or <U2, D2, R2, L2, F, B> move set)
+****  = <U2, D2, R2, L2, F2, B2> move set
+***** = lower bound [^miler-2024] and <U, D, R, L, F, B> move set
+</pre>
+
+(// format the text above better)
+
+Wikipedia has a section [Similarities and differences among algorithms](https://en.wikipedia.org/wiki/Optimal_solutions_for_the_Rubik%27s_Cube#Similarities_and_differences_among_algorithms).
 
 [^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 14-15. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^scherphuis-nd]: J. Scherphuis, "Computer Puzzling". [Online]. Available: https://www.jaapsch.net/puzzles/compcube.htm#thisal
@@ -125,6 +164,7 @@ Among other things, Reid is also credited with proving that the Superflip requir
 [^kociemba-1997]: H. Kociemba, "The Optimal Solvers". [Online]. Available: https://kociemba.org/math/optimal.htm
 [^heise-2007]: R. Heise, "Re: FW: [fewestmoveschallenge] FMC 148", Yahoo! Groups, Fewest Moves Challenge subgroup, 14 April 2007. [Online]. Available: https://www.cubinghistory.com/archive/YahooGroups/YahooGroups.html 
 [^reid-1995]: M. Reid, "superflip requires 20 face turns", 18 January 1995. [Online]. Available: https://www.cube20.org/cubelovers/CL15/002.txt
+[^miler-2024]: T. Miler, forum post, August 2024. [Online]. Available: https://www.speedsolving.com/threads/computer-solving-a-new-two-phase-algorithm.93083/#post-1617184
 
 
 [^singmaster-1981-1]: D. Singmaster, in Notes on Rubik’s 'Magic Cube', Hillside, NJ, Enslow Publishers, 1981, p. 32.
