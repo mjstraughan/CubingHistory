@@ -32,7 +32,7 @@ To navigate between the stages, big lookup tables are required: for phase 1 a se
 
 The version originally presented by Thistlethwaite guaranteed a solution within 52 moves based on worst-case scenarios in all four stages (7+13+15+17). Subsequent research has optimized those figures. We now know that the algorithm as described above can solve any cube configuration in at most 45 moves (7+10+13+15), with a typical solution averaging 31 turns [^scherphuis-nd]. Furthermore, phase 4 is optimally solvable in just 13 moves if quarter-turns are allowed as well.
 
-It is worth mentioning that already in 1980, Michael Feather and George Christos independently developed the [3-Color method](Methods/3Color.md). Much like Thistlethwaite's approach, this method simplifies the cube by treating opposite colors as identical. However, while Thistlethwaite's algorithm was computionally driven, the 3-Color method was designed specifically for human use. In 2002, Ryan Heise devised the [Human Thistlethwaite method](Methods/HumanThistlethwaite.md) which has the same four distinct steps as its computer counterpart. Today, Thistlethwaite's legacy persists, as his 4-phase algorithm serves as a base for a high-level FMC. (// link to the FMC page once it is published on Cubing History).
+It is worth mentioning that already in 1980, Michael Feather and George Christos independently developed the [3-Color method](Methods/3Color.md). Much like Thistlethwaite's approach, this method simplifies the cube by treating opposite colors as identical. However, while Thistlethwaite's algorithm was computionally driven, the 3-Color method was designed specifically for human use. In 2002, Ryan Heise proposed the [Human Thistlethwaite method](Methods/HumanThistlethwaite.md) which has the same four distinct steps as its computer counterpart. Today, Thistlethwaite's legacy persists, as his 4-phase algorithm serves as a base for a high-level FMC. (// link to the FMC page once it is published on Cubing History).
 
 ## Adi Shamir, et al. (1987, 1989)
 
@@ -76,15 +76,15 @@ A new era of optimal solving has begun with the introduction of Korf's solver in
 
 ![](img/ComputerAlgorithms/Korf.png)
 
-IDA* (Iterative Deepening A*) is an algorithm that searches for the shortest move sequence by gradually increasing the allowed solution length. Given that God's Number for the Rubik's Cube is 20, Korf's algorithm will always find a solution within that limit. It is using pruning tables stored in memory to quickly estimate the remaining moves needed.
+IDA* (Iterative Deepening A*) is an algorithm that searches for the shortest move sequence by gradually increasing the allowed solution length. Given that God's Number for the Rubik's Cube is 20, Korf's algorithm will always find a solution within that limit. It utilizes pruning tables stored in memory to quickly estimate the remaining moves needed.
 
 A pruning table is a precomputed table containing the minimum number of moves required to solve specific parts of the cube (like just the corners), used to "guess" how far away the full solution is and to prune the tree accordingly. Korf used three pruning tables which were corners as one component and edges evenly split into two sub-components.
 
-Of the 10 randomly scrambled cubes used in his demonstration, six were optimally solvable in 18 moves, three in 17 moves, and one in 16 moves. In this regard he was quite lucky not to have generated a scramble requiring 19 moves, as the probability of doing so is higher than that of generating a scramble requiring 16 moves. To optimally solve a single depth-19 cube would most likely have taken more than a month on the hardware used (in fact, somewhere between 27 and 360 days of uninterrupted search).
+Of the 10 randomly scrambled cubes featured in his demonstration, six were optimally solvable in 18 moves, three in 17 moves, and one in 16 moves. In this regard he was quite lucky not to have generated a scramble requiring 19 moves, as the probability of doing so is higher than that of generating a scramble requiring 16 moves. To optimally solve a single depth-19 cube would most likely have taken more than a month on the hardware used (in fact, somewhere between 27 and 360 days of uninterrupted search).
 
 ## Michael Reid (1997)
 
-Expending on the work of Korf and Kociemba, Michael Reid developed his own optimal solver just months after Korf.
+Expanding on the work of Korf and Kociemba, Michael Reid developed his own optimal solver just months after Korf.
 
 Reid used only one pruning table which was the combination of edge orientation + corner twist + edge position of 4 cubies (cubers know this state as Domino Reduction which is literally the first goal state of Kociemba's algorithm). He then used the pruning table three times by rotating the cube to get a different set of 4 edge cubies each time. Additionally he used symmetry reduction to reduce the size of the pruning table by a factor of 16 (the 16 symmetries are all of the cube states that are reached by rotating on the same axis or flipping the axis 180 degrees or taking the mirror image of those positions).
 
