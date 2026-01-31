@@ -46,7 +46,7 @@ A simple counting argument known from the early 1980s dictates that there are st
 
 Driven by a fascination with the 2x3x3 Rubik's Domino, Hans Kloosterman's 1989 contribution focused on refining computer-generated solution for that puzzle. This work served as a foundantion for his later development of a full 3x3x3 cube algorithm.
 
-The shortest solution for the Rubik's Domino he knew involved applying Thistlethwaite's third and fourth phases (these are optimally solvable in at most 13+15 moves on Rubik's Cube) [^kloosterman-1989]. He optimized them into a two-step process with a maximum of 25 moves.
+The shortest solution for the Rubik's Domino known to him involved applying Thistlethwaite's third and fourth phases (these are optimally solvable in at most 13+15 moves on Rubik's Cube) [^kloosterman-1989]. He optimized them into a two-step process with a maximum of 25 moves.
 
 In step 1, he placed all top-face cubies to the upper layer; essentially orienting both layers. This can be done in 8 moves. In step 2, he restored the rest of the puzzle; essentially permuting both layers. This can be done in 17 moves. Kloosterman noted that stages 3 and 4 of the Thistlethwaite's algorithm share the same class of moves as his Domino solution, which allowed him to successfully adapt those principles to the Rubik's Cube.
 
@@ -68,7 +68,7 @@ Phase 1 contains roughly 2 billion states and can be solved in 12 moves. Phase 2
 
 ![](img/ComputerAlgorithms/Kociemba.png)
 
-Since its release to the public, Kociemba's 2-phase algorithm has become very popular in the cubing community. It is often - though not always - powering cube-solving robots or generating scrambling & solving sequences in cubing apps. It was also utilized in the search for God's number (// link to Maksymilian´s page once it is ready) to name a few applications where a quick and not necessarily optimal solution (but still 20 moves or less) for a randomly scrambled cube is needed.
+Kociemba's 2-phase algorithm has become very popular in the cubing community since its public release. It is often - though not always - powering cube-solving robots or generating scrambling & solving sequences in cubing apps. It was also utilized in the search for God's number (// link to Maksymilian´s page once it is ready) to name a few applications where a quick and not necessarily optimal solution (but still 20 moves or less) for a randomly scrambled cube is needed.
 
 ## Richard Earl Korf (1997)
 
@@ -112,7 +112,7 @@ It uses IDA* to find optimal and suboptimal solutions in phase 1 to get the cube
 
 Depending on the specific solver variant, the length of phase 2 can be limited to 8 moves or left unlimited [^speedsolving.com-wiki-nd]. In the unlimited version, phase 2 contains 3981312 states that can be solved within 16 moves, while phase 1 constains nearly 11 trillion states with a maximum of 15 moves.
 
-Instead of terminating at the first solution, the algorithm continues to search by incrementally increasing the phase 1 length while decreasing the phase 2 length until it finds an optimal solution. Furthermore, the solver is capable of finding quick and short suboptimal solutions (20 moves or less) using the same logic.
+Instead of terminating at the first solution, the algorithm continues to search by incrementally increasing the phase 1 length while decreasing the phase 2 length until it finds an optimal solution or reach the desired solution length. Furthermore, the solver is capable of finding quick and short suboptimal solutions (20 moves or less) using the same logic.
 
 A notable feature is that the Feather's algorithm finds suboptimal solutions while searching for an optimal one. Consequently, the phase 2 length does not necessarily have to be 0 in order to prove that the solution found is optimal.
 
