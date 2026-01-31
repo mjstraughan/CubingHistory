@@ -68,7 +68,7 @@ Phase 1 contains roughly 2 billion states and can be solved in 12 moves. Phase 2
 
 ![](img/ComputerAlgorithms/Kociemba.png)
 
-Kociemba's 2-phase algorithm has become very popular in the cubing community since its public release. It is often - though not always - powering cube-solving robots or generating scrambling & solving sequences in cubing apps. It was also utilized in the search for God's number (// link to Maksymilian´s page once it is ready) to name a few applications where a quick and not necessarily optimal solution (but still 20 moves or less) for a randomly scrambled cube is needed.
+Kociemba's 2-phase algorithm has become very popular in the cubing community since its public release. It is often — though not always — powering cube-solving robots or generating scrambling & solving sequences in cubing apps. It was also utilized in the search for God's number (// link to Maksymilian´s page once it is ready) to name a few applications where a quick and not necessarily optimal solution (but still 20 moves or less) for a randomly scrambled cube is needed.
 
 ## Richard Earl Korf (1997)
 
@@ -108,7 +108,7 @@ Among other things, Reid is also credited with proving that the Superflip requir
 
 For nearly two decades following 1997, the research into alternative pruning tables was minimal. This trend persisted until 2015, marked by the release of Michael Feather's two-phase solver.
 
-It uses IDA* to find optimal and suboptimal solutions in phase 1 to get the cube into an intermediate 3-color state characterized by having a maximum of two colors per face, and then again uses IDA* to reach the final solution in phase 2. To make this work, Feather had to build fundamentally new set of pruning tables for both phases from scratch.
+It uses IDA* to find optimal and suboptimal solutions in phase 1 to get the cube into an intermediate 3-color state characterized by having a maximum of two colors per face, and then again uses IDA* to reach the final solution in phase 2. To make this work, Feather had to build a fundamentally new set of pruning tables for both phases from scratch.
 
 Depending on the specific solver variant, the length of phase 2 can be limited to 8 moves or left unlimited [^speedsolving.com-wiki-nd]. In the unlimited version, phase 2 contains 3981312 states that can be solved within 16 moves, while phase 1 constains nearly 11 trillion states with a maximum of 15 moves.
 
@@ -135,7 +135,7 @@ a = 2217093120<br>
 b = 19508428800<br>
 c = unlimited phase 2 variant
 
-Naturally, there is an inherent mathematical relation between Kloosterman's phase 3 and Thistlethwaite's phase 3: 4900 = 29400/6, as well as Kloosterman's phase 4 and Thistlethwaite's phase 4: 663552 = 3981312/6. Interestingly and despite very different solving approaches, the number of move sequences in Kloosterman's phase 4 matches the number of states in unlimited phase 2 variant of Feather's algorithm: both are 3981312 = (4!^5)/2.
+Naturally, there is an inherent mathematical relation between Kloosterman's phase 3 and Thistlethwaite's phase 3: 4900 = 29400/6, as well as Kloosterman's phase 4 and Thistlethwaite's phase 4: 663552 = 3981312/6. Interestingly, and despite very different solving approaches, the number of move sequences in Kloosterman's phase 4 matches the number of states in the unlimited phase 2 variant of Feather's algorithm: both are 3981312 = (4!^5)/2.
 
 Optimal move count per phase: 
 
@@ -150,7 +150,7 @@ Optimal move count per phase:
 </table>
 
 a = <U, D, R, L, F, B> move set<br>
-b = <U2, D2, R, L, F, B> move set<br>
+b = <U2, D2, R, L, F, B> move set (or equivalent <U, D, R, L, F2, B2> or <U, D, R2, L2, F, B> move set)<br>
 c = <U2, D2, R, L, F2, B2> move set (or equivalent <U, D, R2, L2, F2, B2> or <U2, D2, R2, L2, F, B> move set)<br>
 d = <U2, D2, R2, L2, F2, B2> move set<br>
 e = lower bound [^miler-2024] and <U, D, R, L, F, B> move set
