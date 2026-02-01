@@ -128,12 +128,12 @@ Number of states in multi-phase algorithms:
 <tr><td>Thistlethwaite</td><td align=center>2048</td><td align=center>1082565</td><td align=center>29400</td><td align=center>663552</td></tr>
 <tr><td>Kloosterman</td><td align=center>2048</td><td align=center>1082565</td><td align=center>4900</td><td align=center>3981312</td></tr>
 <tr><td>Kociemba</td><td colspan=2 align=center>2048 · 1082565 <sup>a</sup></td><td colspan=2 align=center>29400 · 663552 <sup>b</sup></td></tr>
-<tr><td>Feather</td><td colspan=2 align=center>10863756288000 <sup>c</sup></td><td colspan=2 align=center>3981312 <sup>c</sup></td></tr>
+<tr><td>Feather</td><td colspan=2 align=center>10863756288000</td><td colspan=2 align=center>3981312 <sup>c</sup></td></tr>
 </table>
 
 a = 2217093120<br>
 b = 19508428800<br>
-c = unlimited phase 2 variant
+c = variant with unlimited solution length
 
 Naturally, there is an inherent mathematical relation between Kloosterman's phase 3 and Thistlethwaite's phase 3: 4900 = 29400/6, as well as Kloosterman's phase 4 and Thistlethwaite's phase 4: 663552 = 3981312/6. Interestingly, and despite very different solving approaches, the number of move sequences in Kloosterman's phase 4 matches the number of states in the unlimited phase 2 variant of Feather's algorithm: both are 3981312 = (4!^5)/2.
 
