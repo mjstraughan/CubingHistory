@@ -106,7 +106,7 @@ Among other things, Reid is also credited with proving that the Superflip requir
 
 ## Michael Feather (2015)
 
-For nearly two decades following 1997, the research into alternative pruning tables was minimal. This trend persisted until 2015, marked by the release of Michael Feather's two-phase solver.
+For nearly two decades following 1997, the research into alternative pruning tables was minimal. This trend persisted until 2015, marked by the release of Michael Feather's two-phase solver [^tsai-2015].
 
 It uses IDA* to find optimal and suboptimal solutions in phase 1 to get the cube into an intermediate 3-color state characterized by having a maximum of two colors per face, and then again uses IDA* to reach the final solution in phase 2. To make this work, Feather had to build a fundamentally new set of pruning tables for both phases from scratch.
 
@@ -176,5 +176,6 @@ See also:
 [^kociemba-1997]: H. Kociemba, "The Optimal Solvers". [Online]. Available: https://kociemba.org/math/optimal.htm
 [^heise-2007]: R. Heise, "Re: FW: [fewestmoveschallenge] FMC 148", Yahoo! Groups, Fewest Moves Challenge subgroup, 14 April 2007. [Online]. Available: https://www.cubinghistory.com/archive/YahooGroups/YahooGroups.html 
 [^reid-1995]: M. Reid, "superflip requires 20 face turns", Cube Lovers, 18 January 1995. [Online]. Available: https://www.cube20.org/cubelovers/CL15/002.txt
-[^miler-2024]: T. Miler, forum post, August 2024. [Online]. Available: https://www.speedsolving.com/threads/computer-solving-a-new-two-phase-algorithm.93083/#post-1617184
+[^tsai-2015]: Ch. Tsai, forum post, July 2015. [Online]. Available: https://www.speedsolving.com/threads/3-color-3x3x3-algorithm-thread.53552/page-2#post-1097456
 [^speedsolving.com-wiki-nd]: speedsolving.com wiki, "Feather's algorithm". [Online]. Available: https://www.speedsolving.com/wiki/index.php?title=Feather%27s_algorithm#Variants
+[^miler-2024]: T. Miler, forum post, August 2024. [Online]. Available: https://www.speedsolving.com/threads/computer-solving-a-new-two-phase-algorithm.93083/#post-1617184
