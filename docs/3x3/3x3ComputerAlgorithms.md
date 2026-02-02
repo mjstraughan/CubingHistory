@@ -72,7 +72,7 @@ Kociemba's 2-phase algorithm has become very popular in the cubing community sin
 
 ## Richard Earl Korf (1997)
 
-A new era of optimal solving has begun with the introduction of Korf's solver in 1997 [^korf-1997]. Richard Korf was the first to demonstrate that the IDA* search algorithm could be employed to find optimal solutions for randomly scrambled Rubik's Cubes, and all well-performing optimal solvers use this technique since then [^kociemba-2024].
+A new era of optimal solving has begun with the introduction of Korf's solver in 1997 [^korf-1997-1]. Richard Korf was the first to demonstrate that the IDA* search algorithm could be employed to find optimal solutions for randomly scrambled Rubik's Cubes, and all well-performing optimal solvers use this technique since then [^kociemba-2024].
 
 ![](img/ComputerAlgorithms/Korf.png)
 
@@ -80,7 +80,7 @@ IDA* (Iterative Deepening A*) is an algorithm that searches for the shortest mov
 
 A pruning table is a precomputed table containing the minimum number of moves required to solve specific parts of the cube (like just the corners), used to "guess" how far away the full solution is and to prune the tree accordingly. Korf used three pruning tables which were corners as one component and edges evenly split into two sub-components.
 
-Of the 10 randomly scrambled cubes featured in his demonstration, six were optimally solvable in 18 moves, three in 17 moves, and one in 16 moves. In this regard he was quite lucky not to have generated a scramble requiring 19 moves, as the probability of doing so is higher than that of generating a scramble requiring 16 moves. To optimally solve a single depth-19 cube would most likely have taken more than a month on the hardware used (in fact, somewhere between 27 and 360 days of uninterrupted search).
+Of the 10 randomly scrambled cubes featured in his demonstration, six were optimally solvable in 18 moves, three in 17 moves, and one in 16 moves. In this regard he was quite lucky not to have generated a scramble requiring 19 moves, as the probability of doing so is higher than that of generating a scramble requiring 16 moves. To optimally solve a single depth-19 cube would most likely have taken more than a month on the hardware used (in fact, somewhere between 27 and 360 days of uninterrupted search) [^korf-1997-2].
 
 ## Michael Reid (1997)
 
@@ -170,8 +170,9 @@ See also:
 [^kociemba-1992]: H. Kociemba, "Close to God's algorithm" Cubism For Fun #28, April 1992, pp. 10-13.
 [^pochmann-2008-2]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 15-16. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^kociemba-nd]: H. Kociemba, "Two-Phase Algorithm Details". [Online]. Available: https://kociemba.org/math/imptwophase.htm
-[^korf-1997]: R. E. Korf: "Finding Optimal Solutions to Rubik's Cube Using Pattern Databases", July 1997. [Online]. Available: https://www.semanticscholar.org/paper/Finding-Optimal-Solutions-to-Rubik%27s-Cube-Using-Korf/e6ab7d5d5d38a659fd2ffa53d72ab67e6abc61af
+[^korf-1997-1]: R. E. Korf, "Finding Optimal Solutions to Rubik's Cube Using Pattern Databases", July 1997. [Online]. Available: https://www.semanticscholar.org/paper/Finding-Optimal-Solutions-to-Rubik%27s-Cube-Using-Korf/e6ab7d5d5d38a659fd2ffa53d72ab67e6abc61af
 [^kociemba-2024]: H. Kociemba, forum post, December 2024. [Online]. Available: https://www.speedsolving.com/threads/computer-solving-a-new-two-phase-algorithm.93083/page-3#post-1634814
+[^korf-1997-2]: R. E. Korf, "Description of algorithm for finding minimal-move solutions to Rubik's Cube", Cube Lovers, 29 May 1997. [Online]. Available: https://www.cube20.org/cubelovers/CL22/078.txt
 [^reid-1997]: M. Reid, "optimal cube solver", Cube Lovers, 5 July 1997. [Online]. Available: https://www.cube20.org/cubelovers/CL23/041.txt
 [^kociemba-1997]: H. Kociemba, "The Optimal Solvers". [Online]. Available: https://kociemba.org/math/optimal.htm
 [^heise-2007]: R. Heise, "Re: FW: [fewestmoveschallenge] FMC 148", Yahoo! Groups, Fewest Moves Challenge subgroup, 14 April 2007. [Online]. Available: https://www.cubinghistory.com/archive/YahooGroups/YahooGroups.html 
