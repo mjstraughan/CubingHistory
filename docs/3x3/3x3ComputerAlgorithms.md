@@ -54,7 +54,7 @@ In step 1, he placed all top-face cubies to the upper layer; essentially orienti
 
 By substituting Thistlethwaite's third and fourth stages with his two-phase Domino algorithm, Kloosterman found out that the new 3x3x3 phase 3 remained solvable within 8 moves using the <U, D, R2, L2, F2, B2> move set, and the new 3x3x3 phase 4 could be completed in a maximum of 19 moves within the same move set.
 
-In 1990, following an exhaustive computer-aided search, Kloosterman lowered the phase 4 move count by one, achieving the optimal value of 18. He subsequently demonstrated that the overall move count could be further reduced by canceling out moves at the transition between phase 3 and 4.
+In 1990, following an exhaustive computer-aided search, Kloosterman lowered the phase 4 move count by one, achieving the optimal value of 18 [^kloosterman-1990]. He subsequently demonstrated that the overall move count could be further reduced by canceling out moves at the transition between phase 3 and 4.
 
 ![](img/ComputerAlgorithms/Kloosterman2.png)
 
@@ -167,6 +167,7 @@ See also:
 [^singmaster-1981]: D. Singmaster, "Notes on Rubik's Magic Cube", Hillside, NJ, Enslow Publishers, 1981, p. 34.
 [^smith-nd]: R. Smith, "Can a Rubik's Cube be brute-forced?". [Online]. Available: https://www.stylewarning.com/posts/brute-force-rubiks-cube/#the-4-list-algorithm-and-solving-the-rubiks-cube
 [^kloosterman-1989]: H. Kloosterman, "Rubik's Cube in 44 moves", Cubism For Fun #22, December 1989, p. 9.
+[^kloosterman-1990]: H. Kloosterman, "Rubik's Cube in 42 moves", Cubism For Fun #25, December 1990, p. 19.
 [^kociemba-1992]: H. Kociemba, "Close to God's algorithm" Cubism For Fun #28, April 1992, pp. 10-13.
 [^pochmann-2008-2]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 15-16. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^kociemba-nd]: H. Kociemba, "Two-Phase Algorithm Details". [Online]. Available: https://kociemba.org/math/imptwophase.htm
