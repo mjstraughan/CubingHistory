@@ -4,16 +4,26 @@ description: A guide for setting up development, editing pages, and research res
 
 # Cubing History Guide
 
-## Development set up:
+## Rules
+
+* No AI writing. This is a human created source designed to respect human contributions. If there are coding, automation, or other technical issues, it is fine to get assistance. But the writing must be the author's work.
+* Try to be fair and neutral if discussing controversies.
+* No offensive writing or material.
+
+## Development set up
 
 1. Set up a GitHub account.
 2. Download Visual Studio Code.
 3. Install Git if necessary. https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 4. Add your GitHub username and email to Git. Open Terminal and enter:
 
-```git config --global user.name your_username```
+```
+git config --global user.name your_username
+```
 
-```git config --global user.email your_email```
+```
+git config --global user.email your_email
+```
 
 5. Install node.js: https://nodejs.org/en/download/. Then in VSCode, go to Terminal in the top menu bar then New Terminal. In the Terminal at the bottom of VSCode, install npm by typing ```npm install```
 6. In VSCode, go to Extensions on the left and install the extension called GitHub Pull Requests.
@@ -22,15 +32,15 @@ description: A guide for setting up development, editing pages, and research res
 9. Save the repository in a memorable place, then choose to open it when prompted by VSCode. Otherwise, go to File > Open Folder and choose the Cubing History folder then open it. Each time you want to make site changes, you can open the same cloned folder that you saved.
 10. From here, there is a pretty standard file system on the left side of VSCode. Go to the “docs” folder to add or edit pages.
 
-## Making edits:
+## Making edits
 
 The site uses Docusaurus and pages are written in Markdown.
 
-* In the Terminal in VSCode, enter ```npm run start``` to open a local preview of the page in your browser. Each time you make changes in VSCode and save, this page will automatically update.
+* In the Terminal in VSCode, enter ```npm run start``` to open a local preview of the page in your browser. Each time you make changes in VSCode and save, the local preview will automatically update. You can design an entire page this way, ensuring that it works, then commit to GitHub when finished.
+* When ready to commit, click the Source Control icon on the left, then click the + next to the changed files that you want to commit. This will "stage", or add items to make them ready to be committed. Or hover over "Changes" itself and click the + to stage all files. Then add a short message about the changes, click the Commit button, then Sync.
+* If you are just joining the team, it is best that you submit your pages or changes through a pull request or a new branch rather than making a commit to the main branch. Or create the content then have someone else add it to GitHub.
 
-* If you are just joining the team, it is best that you submit your pages or changes through a pull request rather than making a commit.
-
-## Markdown and tags:
+## Markdown and tags
 
 * Simply type text for it to be displayed normally.
 * #, ##, ###, and so on before text produces varying header sizes.
@@ -48,11 +58,15 @@ description: History of Rubik's Cube.
 * Similarly, each section contains a \_category_.json file for changing the displayed name of the category and the position number where the category should be in the sidebar.
 * To add images to a page, use:
 
-```![](path_to_image)```
+```
+![](path_to_image)
+```
 
 * To add multiple images into a collage with individual images having a click to zoom feature, add an import line just below the double \--- header code at the top of the page. Then wherever you want the image collage, use the Image Collage tag, adding as many images as needed within the tag.
 
-```import ImageCollage from '@site/src/components/ImageCollage';```
+```
+import ImageCollage from '@site/src/components/ImageCollage';
+```
 
 ```
 <ImageCollage
@@ -65,13 +79,20 @@ images={[
 
 * YouTube videos import line and tag:
 
-```import YouTube from "@site/src/components/YouTube";```
+```
+import YouTube from "@site/src/components/YouTube";
+```
 
-```<YouTube embedId="" />``` (add the video id within the quotes)
+```
+<YouTube embedId="" />
+```
+(add the video id within the quotes)
 
 * Videos stored within the GitHub repository:
 
-```import ReactPlayer from 'react-player'```
+```
+import ReactPlayer from 'react-player'
+```
 
 ```
 <div className='player-wrapper'>
@@ -86,7 +107,9 @@ images={[
 ```
 * Adding a rotation enabled only puzzle applet:
 
-```import Exhibit from "@site/src/components/Exhibit";```
+```
+import Exhibit from "@site/src/components/Exhibit";
+```
 
 ```
 <Exhibit
@@ -99,7 +122,9 @@ To get an idea of possible ways of setting up the puzzle, check the Method Shape
 
 * For more complex functionality with the puzzle applet, such as more custom stickering, or displaying a control bar:
 
-```import TwistyPlayer from "@site/src/components/TwistyPlayer";```
+```
+import TwistyPlayer from "@site/src/components/TwistyPlayer";
+```
 
 ```
 <TwistyPlayer
@@ -110,7 +135,9 @@ To get an idea of possible ways of setting up the puzzle, check the Method Shape
 
 * To show a turn by turn reconstruction along with the puzzle applet:
 
-```import ReconViewer from "@site/src/components/ReconViewer";```
+```
+import ReconViewer from "@site/src/components/ReconViewer";
+```
 
 ```
 <ReconViewer
