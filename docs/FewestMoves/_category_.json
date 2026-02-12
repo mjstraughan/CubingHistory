@@ -1,6 +1,6 @@
 {
-  "label": "Archive",
-  "position": 12,
+  "label": "Fewest Moves",
+  "position": 9,
   "link": {
     "type": "generated-index"
   }

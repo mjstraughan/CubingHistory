@@ -12,6 +12,7 @@ import ImageCollage from '@site/src/components/ImageCollage';
 import YouTube from "@site/src/components/YouTube";
 
 # Fewest Moves Solving Origins
+**Author: Michael James Straughan**
 
 After the cube craze came to an end in the early 1980s, many enthusiasts continued exploring the puzzle's potential. One new way to competitively solve the cube was to attempt to solve it in fewer moves than other competitors. This type of competition proved to be popular, leading to it becoming an official event of the World Cube Association.
 
@@ -21,9 +22,9 @@ After the cube craze came to an end in the early 1980s, many enthusiasts continu
 
 In February 1985, the 9th issue of Cubism For Fun introduced a new kind of solving competition to its members [^steenhuis-1985-1]. Instead of solving Rubik's Cube as quickly as possible, the idea was for the members to solve given scrambles in as few moves as possible and send in their solutions. The submission with the fewest moves was declared the winner. This competition was accompanied by a few rules:
 
-1. Every turn must be included. Simply referencing a sequence of moves, or an algorithm, from a previous Cubism For Fun issue without writing the sequence wasn't allowed. There was one exception to this rule, which was that members were allowed to send in reference numbers from the one look last layer table that was in development and peridically published in Cubism For Fun.
+1. Every turn must be included. Simply referencing a sequence of moves, or an algorithm, from an algorithm table published in a previous Cubism For Fun issue without writing the sequence wasn't allowed. There was one exception to this rule, which was that members were allowed to send in reference numbers from the one look last layer table that was in development and peridically published in Cubism For Fun.
 2. The moves were counted in the half turn metric.
-3. The notation must be understandable and rotations must be indicated.
+3. The chosen notation must be understandable and rotations must be indicated.
 
 For the first competition the thought process was that if a simple scramble was provided anyone could submit the inverse. So it was decided to provide a 72 move scramble, from which a shorter solution would likely be found.
 
@@ -63,7 +64,7 @@ solution={`U F D' R' B' D' R2 B2 U R B2 D B' L U' D2 B R`}
 
 #### Solutions
 
-In the 11th issue, four people submitted solutions to the scramble [^steenhuis-1985-3]. Analyzing the solutions and the Cubism For Fun leadership discussing among themselves, it was realized that attempting to strictly follow the steps of the CFOP style method promoted by Cubism For Fun often led to long solutions. This is because existing blocks that may be advantageous to preserve, can be broken during steps. Those who submitted attempted to preserve any grouped pieces by trying several solutions around those blocks. The four submissions are as follows:
+In the 11th issue, four people submitted solutions to the scramble [^steenhuis-1985-3]. The Cubism For Fun leadership analyzed the solutions and discussed them among themselves. It was realized that attempting to strictly follow the steps of the CFOP style method promoted by Cubism For Fun often led to long solutions. This is because existing blocks that may be advantageous to preserve can be broken during steps. Those who submitted attempted to preserve any grouped pieces by trying several solutions around those blocks. The four submissions are as follows:
 
 **Hans van der Zijden (45 moves)**
 <ReconViewer
@@ -200,26 +201,6 @@ u R' u R2 u' R2 u U2 R' U R u // 2x2x3 + EO
 U R U2 R2 U' R' U' R U2 R' // Right block
 U' R U2 R' U' R U' R' U // 2GLL`}
 />
-
-Mirek inverse scramble solve:
-D B2 U2 R2 U' F2 L2 R2 U B2 F' R2 D B2 U2 F D' F' U2
-https://web.archive.org/web/20030802215137/http://www.cubestation.co.uk:80/
-
-## Added to WCA
-
-## Block Building
-
-## Domino Reduction
-
-History and transition.
-
-## General Techniques
-
-Insertions
-
-Pre-moves
-
-NISS
 
 [^steenhuis-1985-1]: K. Steenhuis, "NIEUWE WEDSTRIJD MET KUBUS: WIE GEEFT OPLOOSING IN KLEINSTE AANTAL SLAGEN?," Cubism For Fun, no. 9, pp. 5-8, February 1985.
 [^steenhuis-1985-2]: K. Steenhuis, "WEDSTRIJD/COMPETITIE," Cubism For Fun, no. 10, pp. 7, June 1985.
