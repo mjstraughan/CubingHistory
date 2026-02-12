@@ -35,7 +35,7 @@ D U' F' R U R' U' R' F R2 U' R' U' R U R' U D' // Parity`}
 
 ## Early Proposals
 
-The suggestion of the idea of the use of 5-cycles can be seen throughout the puzzle community starting not long after the adoption of the 3-Style method. In October 2012 one SpeedSolving.com member, Mantas Sidabras, suggested that a method based around 5-cycles would allow for breaking the sub-20 barrier [^sidabras-2012]. At the time of the post the world record was around 23 seconds [^wca-nd]. Around six months later a discussion was started in which several members of SpeedSolving.com debated the viability of the use of 5-cycles [^randomtypos-2013]. In August 2014 Cale Schoon posted an example solve showing the efficiency difference between 5-style and 3-style [^schoon-2014]. The solve made use of `M U` based 5-cycles that had been developed by Oleg Gritsenko in 2013 [^gritsenko-2013-1] [^gritsenko-2013-2]. Some other users asked if a 5-cycle method was possible or if any algorithms had been developed [^fp4316-2016] [^cuevas-2018].
+The suggestion of the idea of the use of 5-cycles can be seen throughout the puzzle community starting not long after the adoption of the 3-Style method. In October 2012 one SpeedSolving.com member, Mantas Sidabras, suggested that a method based around 5-cycles would allow for breaking the sub-20 barrier [^sidabras-2012]. At the time of the post the world record was around 23 seconds [^wca-nd]. Around six months later a discussion was started in which several members of SpeedSolving.com debated the viability of the use of 5-cycles [^randomtypos-2013]. In August 2014 Cale Schoon posted an example solve showing the efficiency difference between 5-style and 3-style [^schoon-2014]. The solve made use of `M U` based 5-cycles that had been developed by Oleg Gritsenko in 2013 [^gritsenko-2013-1] [^gritsenko-2013-2]. Some other users, Ishaan Agrawal and Theo Daniel Gallegos Cuevas for example, asked if a 5-cycle method was possible or if any algorithms had been developed [^agrawal-2016] [^cuevas-2018].
 
 <ImageCollage
 images={[
@@ -133,7 +133,7 @@ images={[
 [^schoon-2014]: C. Schoon, "Random Blindfold Cubing Discussion," SpeedSolving.com, 17 August 2014. [Online]. Available: https://www.speedsolving.com/threads/random-blindfold-cubing-discussion.27436/post-1008573.
 [^gritsenko-2013-1]: O. Gritsenko, "What do you think is the absolute human limit of 3BLD?," SpeedSolving.com, 1 May 2013. [Online]. Available: https://www.speedsolving.com/threads/what-do-you-think-is-the-absolute-human-limit-of-3bld.41783/post-848844.
 [^gritsenko-2013-2]: O. Gritsenko, "MU 5-cycles," 1 May 2013. [Online]. Available: https://docs.google.com/spreadsheets/d/1GR_1q5lrBbkCGIcziMhN5UjrhpILwmrRd3v59-8wTyA/edit?gid=0#gid=0.
-[^fp4316-2016]: fp4316, "5cyles," SpeedSolving.com, 16 July 2016. [Online]. Available: https://www.speedsolving.com/threads/5cyles.61725/.
+[^agrawal-2016]: I. Agrawal, "5cyles," SpeedSolving.com, 16 July 2016. [Online]. Available: https://www.speedsolving.com/threads/5cyles.61725/.
 [^cuevas-2018]: T. D. G. Cuevas, "5 edge commutators," SpeedSolving.com, 6 August 2018. [Online]. Available: https://www.speedsolving.com/threads/5-edge-commutators.70664/.
 [^straughan-ghodgaonkar-2025]: M. J. Straughan and A. Ghodgaonkar, Personal Communication, 6 May 2025. [Online].
 [^ghodgaonkar-2018-1]: A. Ghodgaonkar, "Thoughts about the BH method," SpeedSolving.com, 30 September 2018. [Online]. Available: https://www.speedsolving.com/threads/thoughts-about-the-bh-method.11909/post-1302959.

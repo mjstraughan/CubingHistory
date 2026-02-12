@@ -91,11 +91,11 @@ const config = {
             label: "Tutorial",
           },*/
           //{ to: "/blog", label: "Blog", position: "left" },
-          {
+          /*{
             href: "https://ko-fi.com/straughan",
             label: "Donate",
             position: "right",
-          },
+          },*/
           {
             href: "https://discord.gg/GJB2ER2Q3M",
             label: "Discord",

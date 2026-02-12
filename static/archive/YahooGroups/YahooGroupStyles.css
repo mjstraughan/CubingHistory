@@ -2,6 +2,15 @@ body {
   font-family: monospace;
   font-size: large;
 }
+body,
+div,
+strong,
+em,
+a,
+p,
+h1 {
+  user-select: text !important;
+}
 .email-item {
   margin-bottom: 20px;
   padding: 10px;
@@ -102,6 +111,7 @@ label {
   font-family: monospace; /* Ensure proper ASCII display */
   overflow-x: auto; /* Enable horizontal scrolling */
   max-width: 100%; /* Prevents content from exceeding screen width */
+  user-select: text; /* Explicitly ensure content is selectable */
 }
 
 #toTopBtn {
