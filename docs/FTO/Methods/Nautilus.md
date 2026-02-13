@@ -54,7 +54,7 @@ Various last layer strategies were proposed upon the initial release of the meth
 
 ### Software
 
-There weren’t many FTO image generators available at the time of the development of Nautilus. Eric Xu stepped in to assist the development team by created an image generator that is based on cubing.js [^xu-2024].
+There weren’t many FTO image generators available at the time of the development of Nautilus. crystalcuber stepped in to assist the development team by created an image generator that is based on cubing.js [^xu-2024].
 
 ![](img/Nautilus/Xu1.png)
 ![](img/Nautilus/Xu2.png)
