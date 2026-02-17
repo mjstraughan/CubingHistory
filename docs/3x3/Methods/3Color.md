@@ -70,7 +70,7 @@ images={[
    1. Solve the edges as a 3-Color cube. This means to orient and position opposite colored edges on either side.
    2. Permute edges to their correct sides.
 
-A note is that the corners and edges can be made half-turn solvable in either order, with an additional placement of slightly misplaced edge facelets if the edges are made half-solvable first.
+A note is that the corners and edges can be made half-turn solvable in either order, with an additional placement of slightly misplaced edge facelets if the edges are made half-turn solvable first.
 
 ## George Christos
 
