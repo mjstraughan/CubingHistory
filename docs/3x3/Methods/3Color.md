@@ -64,13 +64,13 @@ images={[
 
 1. Corners
    1. Solve the corners as a 3-Color cube. On Rubik's Cube (a six color cube) this means to ensure that the corners of each face consist of any mix of opposite face colors.
-   2. Reduce the corners to be half turn solvable.
+   2. Reduce the corners to be half-turn solvable.
    3. Optionally, the user can completely solve the corners at this point, or at a later stage.
 2. Edges
    1. Solve the edges as a 3-Color cube. This means to orient and position opposite colored edges on either side.
-   2. Permute edges to their correct sides.
+   2. (Restore corners with half-turns and then) permute edges to their correct sides.
 
-A note is that the corners and edges can be made half-turn solvable in either order, with an additional placement of slightly misplaced edge facelets if the edges are made half-turn solvable first.
+A note is that with the 3-colors corners being solved, the 6-color corners and the 3-color edges can be solved in either order. If the 3-color edges are solved first then there is a 5/6 chance of encountering a case requiring an additional placement of slightly misplaced edge facelets after solving the 6-color corners (or at least reducing them to be half-turn solvable).
 
 ## George Christos
 
