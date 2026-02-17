@@ -113,7 +113,7 @@ Through August - October 2025, Christos posted another 3 videos.
 1. Solve as a 3-Color cube on each face.
    1. Create two opposite oriented faces consisting of colors from either side.
    2. Form another two opposite faces consisting of opposite colors. Afterward, the remaining two faces will automatically contain opposite colors.
-   3. Permute the corners, if necessary, to be half turn solvable.
+   3. Permute the corners, if necessary, to be half-turn solvable.
 2. Solve each opposite colored face.
    1. Solve a pair of opposite faces.
    2. Solve another pair of opposite faces.
