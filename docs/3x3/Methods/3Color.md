@@ -70,7 +70,7 @@ images={[
    1. Solve the edges as a 3-Color cube. This means to orient and position opposite colored edges on either side.
    2. (Restore corners with half-turns and then) permute edges to their correct sides.
 
-A note is that with the 3-color corners already solved, the 6-color corners and the 3-color edges can be solved in either order. A disadvantage of solving the 3-color edges first is that some edge facelets may end up being misplaced after solving the 6-color corners (or at least reducing them to be half-turn solvable). This can be avoided by solving the 6-color corners (or at least reducing them to be half-turn solvable) prior to solving the 3-color edges.
+A note is that with the 3-color corners already solved, the 6-color corners and the 3-color edges can be solved in either order. A disadvantage of solving the 3-color edges first is that some edge facelets might end up being misplaced after solving the 6-color corners (or at least reducing them to be half-turn solvable). This can be avoided by solving the 6-color corners (or at least reducing them to be half-turn solvable) prior to solving the 3-color edges.
 
 ## George Christos
 
