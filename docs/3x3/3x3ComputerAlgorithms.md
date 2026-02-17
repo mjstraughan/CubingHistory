@@ -11,7 +11,7 @@ import ImageCollage from '@site/src/components/ImageCollage';
 
 The number of 3x3x3 Rubik's Cube states is 43,252,003,274,489,856,000. Even at a million turns per second it would take a computer about 650,000 years on average to solve the cube with a simple brute-force search. 
 
-An alternative method is to use a complete lookup table storing every state. While this would be very fast once the table was built, storing the solutions for all 43 quintillion possible states in memory is practically impossible. 
+An alternative method is to use a complete lookup table storing every state. While this would be very fast once the table was built, storing the solutions for all 43 quintillion possible states in memory is practically impossible with today's technology. 
 
 Hence, another technique must be used. Since we lack the time to compute everything on the fly and the capacity to store a full index of states with corresponding solutions, we must seek a middle ground.
 
@@ -40,7 +40,7 @@ The core idea behind the Shamir's algorithm, also known as the 4-list algorithm,
 
 Even though advertised as "the first practical algorithm for finding the shortest solution for any given state of Rubik's cube", this claim remained unfulfilled by the authors. Presumably due to hardware limitations they have only reported that the algorithm was successfully implemented for the list of all states within 4 (and not needed 5) face turns [^shamir-fiat-moses-shimshoni-tardos-1989].
 
-A simple counting argument known from the early 1980s dictates that there are states requiring at least 18 face turns [^singmaster-1981]. Unfortunately, such states seemed to be beyond the reach of the 4-list algorithm executed on the hardware of the late 1980s. Today, however, running the same algorithm on a modern PC guarantees a solution within 20 moves, including the optimal one [^smith-nd].
+A simple counting argument known from the early 1980s dictates that there are states requiring at least 18 face turns [^singmaster-1981]. Unfortunately, such states seemed to be beyond the reach of the 4-list algorithm executed on the hardware of the late 1980s. Today, however, running the same algorithm on a modern PC guarantees a solution within 20 moves, including the optimal one [^smith-nd] [^dinur-dunkelman-keller-shamir-2014].
 
 ## Hans Kloosterman (1989)
 
@@ -112,6 +112,8 @@ It uses IDA* to find optimal and suboptimal solutions in phase 1 to get the cube
 
 Depending on the specific solver variant, the length of phase 2 can be limited to 8 moves or left unlimited [^speedsolving.com-wiki-nd]. In the unlimited version, phase 2 contains 3981312 states that can be solved within 16 moves, while phase 1 constains nearly 11 trillion states with a maximum of 15 moves.
 
+> There was never any claim that my solver worked by reaching HTR state prior to you making it. If you recall the discussion we had about it I had to do a test to confirm that it did, in fact, reach all HTR states in 8 moves or less. My solver has always worked by reaching a 3-color solved state and the fact that I chose to limit to 8 moves had nothing to do with HTR, it was done because generating beyond 8 moves starts to noticeably increase init time and there is minimal downside to limiting because the only solutions that are eliminated are the longer ones. I did a lot of testing of setting the limit to various lengths above 8 and concluded that 8 was the best tradeoff in terms of init time vs solution length. Whether or not anyone agrees with my choice of an 8 move limit is no reflection on my solving method which is perfectly capable of working with any length for phase 2, up to and including the max length of 16 which is exactly what my latest solver does as mentioned already. The fact that my choice of 8 had the incidental side-effect of also providing HTR solutions is also no reflection on my solving method, it is an inherent property of the cube.
+
 Instead of terminating at the first solution, the algorithm continues to search by incrementally increasing the phase 1 length while decreasing the phase 2 length until it finds an optimal solution or reach the desired solution length. Furthermore, the solver is capable of finding quick and short suboptimal solutions (20 moves or less) using the same logic.
 
 A notable feature is that the Feather's algorithm finds suboptimal solutions while searching for an optimal one. Consequently, the phase 2 length does not necessarily have to be 0 in order to prove that the solution found is optimal.
@@ -166,6 +168,7 @@ See also:
 [^shamir-fiat-moses-shimshoni-tardos-1989]: A. Shamir, A. Fiat, S. Moses, I. Shimshoni, G. Tardos, "Planning and learning in permutation groups", January 1989, pp. 274-276. [Online]. Available: https://www.researchgate.net/publication/3501931_Planning_and_learning_in_permutation_groups
 [^singmaster-1981]: D. Singmaster, "Notes on Rubik's Magic Cube", Hillside, NJ, Enslow Publishers, 1981, p. 34.
 [^smith-nd]: R. Smith, "Can a Rubik's Cube be brute-forced?". [Online]. Available: https://www.stylewarning.com/posts/brute-force-rubiks-cube/#the-4-list-algorithm-and-solving-the-rubiks-cube
+[^dinur-dunkelman-keller-shamir-2014]: I. Dinur, O. Dunkelman, N. Keller, A. Shamir, "Dissection A New Paradigm for Solving Bicomposite Search Problems", October 2014, pp. 100-102. [Online]. Available: https://dl.acm.org/doi/epdf/10.1145/2661434
 [^kloosterman-1989]: H. Kloosterman, "Rubik's Cube in 44 moves", Cubism For Fun #22, December 1989, p. 9.
 [^kloosterman-1990]: H. Kloosterman, "Rubik's Cube in 42 moves", Cubism For Fun #25, December 1990, p. 19.
 [^kociemba-1992]: H. Kociemba, "Close to God's algorithm" Cubism For Fun #28, April 1992, pp. 10-13.
