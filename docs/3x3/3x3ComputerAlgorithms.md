@@ -13,7 +13,7 @@ The number of 3x3x3 Rubik's Cube states is 43,252,003,274,489,856,000. Even at a
 
 An alternative method is to use a complete lookup table storing every state. While this would be very fast once the table was built, storing the solutions for all 43 quintillion possible states in memory is practically impossible with today's technology. 
 
-Hence, another technique must be used. Since we lack the time to compute everything on the fly and the capacity to store a full index of states with corresponding solutions, we must seek a middle ground.
+Hence, another technique must be used. Since we lack the time to compute everything on the fly and the capacity to store a full index of states & corresponding solutions, we must seek a middle ground.
 
 <TwistyPlayer
   alg="x2 D2 U2 L2 B2 L2"
