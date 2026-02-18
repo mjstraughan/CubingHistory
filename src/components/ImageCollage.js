@@ -57,17 +57,25 @@ export default function ImageCollage({ images = [] }) {
         />
       )}
       <Lightbox
-        open={index >= 0}
-        close={() => {
+  open={index >= 0}
+  index={index}
+  slides={slides}
+  close={() => setIndex(-1)}
 
-          if (window.history.state?.lightboxOpen) {
-            window.history.back();
-          }
-          setIndex(-1);
-        }}
-        slides={slides}
-        index={index}
-      />
+  render={{ 
+    container: (props) => (index >= 0 ? <div {...props} /> : null) 
+  }}
+
+  controller={{ closeOnBackdropClick: true }}
+  on={{
+    exit: () => {
+
+      document.body.style.overflow = "auto";
+      document.body.style.height = "auto";
+    },
+  }}
+/>
+
     </>
   );
 }
