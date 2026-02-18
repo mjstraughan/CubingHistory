@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { RowsPhotoAlbum } from "react-photo-album";
 import "react-photo-album/rows.css";
 import Lightbox from "yet-another-react-lightbox";
@@ -11,38 +11,43 @@ export default function ImageCollage({ images = [] }) {
   useEffect(() => {
     const loadImageDimensions = async () => {
       const promises = images.map
-      (
-        (image) =>
-          new Promise((resolve) => {
-            const img = new Image();
-            img.src = image.src;
-            img.onload = () =>
-              resolve({
-                src: image.src,
-                width: img.naturalWidth,
-                height: img.naturalHeight,
-              });
-          })
+      ((image) =>
+        new Promise((resolve) => {
+          const img = new Image();
+          img.src = image.src;
+          img.onload = () => resolve({ src: image.src, width: img.naturalWidth, height: img.naturalHeight });
+        })
       );
-
       const resolvedImages = await Promise.all(promises);
       setLoadedImages(resolvedImages);
     };
-
     loadImageDimensions();
   }, [images]);
+
+  
+  const closeLightbox = useCallback(() => {
+    if (index >= 0) {
+      setIndex(-1);
+
+      if (window.history.state?.lightbox) {
+        window.history.back();
+      }
+    }
+  }, [index]);
 
   useEffect(() => {
     if (index >= 0) {
 
-      window.history.pushState({ lightboxOpen: true }, "");
+      window.history.pushState({ lightbox: true }, "");
 
-      const handlePopState = () => {
-        setIndex(-1);
+      const handleBack = () => setIndex(-1);
+      window.addEventListener("popstate", handleBack);
+
+      return () => {
+        window.removeEventListener("popstate", handleBack);
+
+        document.body.style.overflow = "auto";
       };
-
-      window.addEventListener("popstate", handlePopState);
-      return () => window.removeEventListener("popstate", handlePopState);
     }
   }, [index]);
 
@@ -53,29 +58,16 @@ export default function ImageCollage({ images = [] }) {
       {loadedImages.length > 0 && (
         <RowsPhotoAlbum
           photos={loadedImages}
-          onClick={({ index }) => setIndex(index)}
+          onClick={({ index: i }) => setIndex(i)}
         />
       )}
       <Lightbox
-  open={index >= 0}
-  index={index}
-  slides={slides}
-  close={() => setIndex(-1)}
-
-  render={{ 
-    container: (props) => (index >= 0 ? <div {...props} /> : null) 
-  }}
-
-  controller={{ closeOnBackdropClick: true }}
-  on={{
-    exit: () => {
-
-      document.body.style.overflow = "auto";
-      document.body.style.height = "auto";
-    },
-  }}
-/>
-
+        open={index >= 0}
+        index={index}
+        slides={slides}
+        close={closeLightbox}
+        on={{ exit: () => (document.body.style.overflow = "auto") }}
+      />
     </>
   );
 }
