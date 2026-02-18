@@ -168,7 +168,7 @@ See also:
 [^shamir-fiat-moses-shimshoni-tardos-1989]: A. Shamir, A. Fiat, S. Moses, I. Shimshoni, G. Tardos, "Planning and learning in permutation groups", January 1989, pp. 274-276. [Online]. Available: https://www.researchgate.net/publication/3501931_Planning_and_learning_in_permutation_groups
 [^singmaster-1981]: D. Singmaster, "Notes on Rubik's Magic Cube", Hillside, NJ, Enslow Publishers, 1981, p. 34.
 [^smith-nd]: R. Smith, "Can a Rubik's Cube be brute-forced?". [Online]. Available: https://www.stylewarning.com/posts/brute-force-rubiks-cube/#the-4-list-algorithm-and-solving-the-rubiks-cube
-[^dinur-dunkelman-keller-shamir-2014]: I. Dinur, O. Dunkelman, N. Keller, A. Shamir, "Dissection A New Paradigm for Solving Bicomposite Search Problems", October 2014, pp. 100-102. [Online]. Available: https://dl.acm.org/doi/epdf/10.1145/2661434
+[^dinur-dunkelman-keller-shamir-2014]: I. Dinur, O. Dunkelman, N. Keller, A. Shamir, "Dissection: A New Paradigm for Solving Bicomposite Search Problems", October 2014, pp. 100-102. [Online]. Available: https://dl.acm.org/doi/epdf/10.1145/2661434
 [^kloosterman-1989]: H. Kloosterman, "Rubik's Cube in 44 moves", Cubism For Fun #22, December 1989, p. 9.
 [^kloosterman-1990]: H. Kloosterman, "Rubik's Cube in 42 moves", Cubism For Fun #25, December 1990, p. 19.
 [^kociemba-1992]: H. Kociemba, "Close to God's algorithm" Cubism For Fun #28, April 1992, pp. 10-13.
