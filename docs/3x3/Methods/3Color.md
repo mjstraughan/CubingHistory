@@ -100,7 +100,7 @@ images={[
 ]}
 />
 
-Through August - October 2025, Christos posted another 3 videos.
+During August - October 2025, Christos posted another 3 videos.
 
 <YouTube embedId="2FJcAtCcZug" />
 <br/>
