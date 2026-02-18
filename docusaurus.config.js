@@ -128,20 +128,21 @@ const config = {
       goatcounter: {
         code: "cubinghistory",
       },
-      zooming: {
-        selector: ".markdown img",
-        delay: 500,
+      zoom: {
+        selector: '.markdown img:not(.collage-image)', // Exclude your custom collage
+        //
         background: {
-          light: "rgba(101,108,133,0.8)",
-          dark: "rgba(9,10,17,0.8)",
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)'
         },
-        options: {
-          // See the docs of zooming for all available options: https://github.com/francoischalifour/medium-zoom#usage
+        config: {
+          margin: 24,
+          scrollOffset: 0,
         },
-      },
       imageZoom: {
         selector: '.markdown img:not(.collage-image)',
       },
+    },
     }),
 };
 
