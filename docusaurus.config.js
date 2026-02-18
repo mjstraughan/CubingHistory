@@ -139,6 +139,9 @@ const config = {
           // See the docs of zooming for all available options: https://github.com/francoischalifour/medium-zoom#usage
         },
       },
+      imageZoom: {
+        selector: '.markdown img:not(.collage-image)',
+      },
     }),
 };
 

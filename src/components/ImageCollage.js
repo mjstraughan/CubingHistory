@@ -57,9 +57,18 @@ export default function ImageCollage({ images = [] }) {
     <>
       {loadedImages.length > 0 && (
         <RowsPhotoAlbum
-          photos={loadedImages}
-          onClick={({ index: i }) => setIndex(i)}
-        />
+  photos={loadedImages}
+  onClick={({ index: i }) => setIndex(i)}
+  // This tells the album how to render each image tag
+  renderPhoto={({ photo, imageProps, wrapperProps }) => (
+    <div {...wrapperProps}>
+      <img 
+        {...imageProps} 
+        className="collage-image" // <--- The plugin will see this and skip it
+      />
+    </div>
+  )}
+/>
       )}
       <Lightbox
         open={index >= 0}
