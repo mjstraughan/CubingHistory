@@ -21,7 +21,7 @@ cameraLongitude={-20}
 
 **Proposer:** [John Li](CubingContributors/MethodDevelopers.md#li-john-teoidus)
 
-**Proposed:** 2017test
+**Proposed:** 2017
 
 **Steps:**
 
