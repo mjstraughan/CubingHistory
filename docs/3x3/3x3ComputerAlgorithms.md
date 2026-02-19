@@ -97,7 +97,7 @@ A chain of influence is therefore as follows [^heise-2007]:
 <ol>
 <li>Thistlethwaite (4-phase)
 <li>Kociemba (2-phase)
-<li>Reid (optimal)
+<li>Reid (optimal, 1-phase)
 <li value=3>Jelínek (partial)
 <li value=4>Kociemba (old: 2-phase, new: optimal and partial)
 </ol>
