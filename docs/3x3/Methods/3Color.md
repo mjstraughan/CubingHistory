@@ -33,7 +33,7 @@ import YouTube from "@site/src/components/YouTube";
 
 In 1980, two individuals independently arrived at the idea of a human solving method based on reducing a scrambled Rubik's Cube to a 3-Color version of Rubik's Cube. One being Michael Feather and the other George Christos. However, the steps each person follows contain some key differences.
 
-The 3 Color method is described as a human solving method to distinguish it from the similar, and prior existing, computer algorithm [Thistlethwaite](3x3/3x3ComputerAlgorithms.md). There is also the method called [Human Thistlethwaite](HumanThistlethwaite.md), which is an adaption of the Thistlethwaite algorithm for human use. For now, Human Thistlethwaite is kept as a separate entity due to its steps intentionally closely following those of the computer algorithm.
+The 3 Color method is described as a human solving method to distinguish it from the similar, and prior existing, computer algorithm [Thistlethwaite](../3x3ComputerAlgorithms.md#morwen-bernard-thistlethwaite-1980). There is also the method called [Human Thistlethwaite](HumanThistlethwaite.md), which is an adaption of the Thistlethwaite algorithm for human use. For now, Human Thistlethwaite is kept as a separate entity due to its steps intentionally closely following those of the computer algorithm.
 
 ## Michael Feather
 
