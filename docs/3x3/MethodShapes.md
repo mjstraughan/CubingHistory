@@ -65,7 +65,7 @@ stickering={{
  controlPanel="none"
 />
 
-**Method:** [Thistlethwaite](3x3ComputerAlgorithms.md##morwen-bernard-thistlethwaite-1980), [Kociemba](3x3/3x3ComputerAlgorithms.md#herbert-kociemba-1992), [Human Thistlethwaite](3x3/Methods/HumanThistlethwaite.md), [Polaris](Methods/Polaris), [SSC](3x3/Methods/Ssc.md), [Square 101](3x3/Methods/Square101.md)
+**Method:** [Thistlethwaite](3x3ComputerAlgorithms.md#morwen-bernard-thistlethwaite-1980), [Kociemba](3x3/3x3ComputerAlgorithms.md#herbert-kociemba-1992), [Human Thistlethwaite](3x3/Methods/HumanThistlethwaite.md), [Polaris](Methods/Polaris), [SSC](3x3/Methods/Ssc.md), [Square 101](3x3/Methods/Square101.md)
 
 **Proposer:** [Morwen Thistlethwaite](CubingContributors/MethodDevelopers.md#thistlethwaite-morwen) (1979-1980)
 
