@@ -24,7 +24,13 @@ Hence, another technique must be used. Since we lack the time to compute everyth
 
 Early human-based methods for solving the Rubik's Cube typically required around 100 moves. A significant breakthrough occurred in 1980 when Morwen Thistlethwaite developed a novel four-phase algorithm that reduced the maximum move count to 52. Each of its 4 steps progressively restricts the allowed types of turns until the cube reaches a solved state.
 
-In phase 1, all 18 cube turns (U, U', U2, D, D', D2, R, R', R2, L, L', L2, F, F', F2, B, B', B2) are allowed. In phase 2, U and D are restricted to half-turns only (that means no U and D quarter-turns anymore). Phase 3 additionally disallows F and B quarter-turns, and finally phase 4 restricts all six faces to half-turns only [^pochmann-2008-1].
+In phase 1, all 18 cube turns (U, U', U2, D, D', D2, R, R', R2, L, L', L2, F, F', F2, B, B', B2) are allowed. In phase 2, U and D are restricted to half-turns only (that means no U and D quarter-turns anymore). Phase 3 additionally disallows F and B quarter-turns, and finally phase 4 restricts all six faces to half-turns only [^pochmann-2008-1]. The first three phases are denoted as follows in modern cubing terminology:
+
+<ol>
+<li>EO (Edge orientation)
+<li>DR (Domino Reduction)
+<li>HTR (Half-turn reduction)
+</ol>
 
 ![](img/ComputerAlgorithms/Thistlethwaite2.png)
 
@@ -32,7 +38,7 @@ To navigate between the stages, big lookup tables are required: for phase 1 a se
 
 The version originally presented by Thistlethwaite guaranteed a solution within 52 moves based on worst-case scenarios in all four stages (7+13+15+17). Subsequent research has optimized those figures. We now know that the algorithm as described above can solve any cube configuration in at most 45 moves (7+10+13+15), with a typical solution averaging 31 turns [^scherphuis-nd]. Furthermore, phase 4 is optimally solvable in just 13 moves if quarter-turns are allowed as well.
 
-It is worth mentioning that already in 1980, Michael Feather and George Christos independently developed the [3-Color method](Methods/3Color.md). Much like Thistlethwaite's approach, this method simplifies the cube by treating opposite colors as identical. However, while Thistlethwaite's algorithm was computionally driven, the 3-Color method was designed specifically for human use. In 2002, Ryan Heise proposed the [Human Thistlethwaite method](Methods/HumanThistlethwaite.md) which has the same four distinct steps as its computer counterpart. Today, Thistlethwaite's legacy persists, as his 4-phase algorithm serves as a base for a high-level FMC. (// link to the FMC page once it is published on Cubing History).
+It is worth mentioning that already in 1980, Michael Feather and George Christos independently developed the [3-Color method](Methods/3Color.md). Much like Thistlethwaite's approach, this method simplifies the cube by treating opposite colors as identical. They also both finish by reaching a state which can be solved using half-turns only. However, while Thistlethwaite's algorithm was computationally driven, the 3-Color method was designed specifically for human use. In 2002, Ryan Heise proposed the [Human Thistlethwaite method](Methods/HumanThistlethwaite.md) which has the same four distinct steps as its computer counterpart. Today, Thistlethwaite's legacy persists, as his 4-phase algorithm serves as a base for a high-level FMC. (// link to the FMC page once it is published on Cubing History).
 
 ## Adi Shamir, et al. (1987, 1989)
 
