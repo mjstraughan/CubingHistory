@@ -24,12 +24,13 @@ Hence, another technique must be used. Since we lack the time to compute everyth
 
 Early human-based methods for solving the Rubik's Cube typically required around 100 moves. A significant breakthrough occurred in 1980 when Morwen Thistlethwaite developed a novel four-phase algorithm that reduced the maximum move count to 52. Each of its 4 steps progressively restricts the allowed types of turns until the cube reaches a solved state.
 
-In phase 1, all 18 cube turns (U, U', U2, D, D', D2, R, R', R2, L, L', L2, F, F', F2, B, B', B2) are allowed. In phase 2, U and D are restricted to half-turns only (that means no U and D quarter-turns anymore). Phase 3 additionally disallows F and B quarter-turns, and finally phase 4 restricts all six faces to half-turns only [^pochmann-2008-1]. The first three phases are denoted as follows in modern cubing terminology:
+In phase 1, all 18 cube turns (U, U', U2, D, D', D2, R, R', R2, L, L', L2, F, F', F2, B, B', B2) are allowed. In phase 2, U and D are restricted to half-turns only (that means no U and D quarter-turns anymore). Phase 3 additionally disallows F and B quarter-turns, and finally phase 4 restricts all six faces to half-turns only [^pochmann-2008-1]. The phases are denoted as follows in modern cubing terminology:
 
 <ol>
 <li>EO (Edge Orientation)
 <li>DR (Domino Reduction)
 <li>HTR (Half-Turn Reduction)
+<li>Finish
 </ol>
 
 ![](img/ComputerAlgorithms/Thistlethwaite2.png)
