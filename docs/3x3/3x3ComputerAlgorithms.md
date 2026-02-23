@@ -27,9 +27,9 @@ Early human-based methods for solving the Rubik's Cube typically required around
 In phase 1, all 18 cube turns (U, U', U2, D, D', D2, R, R', R2, L, L', L2, F, F', F2, B, B', B2) are allowed. In phase 2, U and D are restricted to half-turns only (that means no U and D quarter-turns anymore). Phase 3 additionally disallows F and B quarter-turns, and finally phase 4 restricts all six faces to half-turns only [^pochmann-2008-1]. The first three phases are denoted as follows in modern cubing terminology:
 
 <ol>
-<li>EO (Edge orientation)
+<li>EO (Edge Orientation)
 <li>DR (Domino Reduction)
-<li>HTR (Half-turn reduction)
+<li>HTR (Half-Turn Reduction)
 </ol>
 
 ![](img/ComputerAlgorithms/Thistlethwaite2.png)
