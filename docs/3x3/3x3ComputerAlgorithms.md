@@ -83,7 +83,7 @@ A new era of optimal solving has begun with the introduction of Korf's solver in
 
 ![](img/ComputerAlgorithms/Korf.png)
 
-IDA* (Iterative Deepening A*) is an algorithm that searches for the shortest move sequence by gradually increasing the allowed solution length. Given that God's Number for the Rubik's Cube is 20, Korf's algorithm will always find a solution within that limit. It utilizes pruning tables stored in memory to quickly estimate the remaining moves needed.
+IDA* (Iterative Deepening A*) is an algorithm that searches for the shortest move sequence by gradually increasing the allowed solution length. Given that God's Number for the Rubik's Cube is 20 in the face-turn metric, Korf's algorithm will always find a solution within that limit. It utilizes pruning tables stored in memory to quickly estimate the remaining moves needed.
 
 A pruning table is a precomputed table containing the minimum number of moves required to solve specific parts of the cube (like just the corners), used to "guess" how far away the full solution is and to prune the tree accordingly. Korf used three pruning tables which were corners as one component and edges evenly split into two sub-components.
 
@@ -115,7 +115,7 @@ Among other things, Reid is also credited with proving that the Superflip requir
 
 For nearly two decades following 1997, the research into alternative pruning tables was minimal. This trend persisted until 2015, marked by the release of Michael Feather's two-phase solver [^tsai-2015].
 
-It uses IDA* to find optimal and suboptimal solutions in phase 1 to get the cube into an intermediate 3-color state characterized by having a maximum of two colors per face, and then again uses IDA* to reach the final solution in phase 2. To make this work, Feather had to build a fundamentally new set of pruning tables for both phases from scratch [^feather-nd] [^miler-2026].
+It uses IDA* to find optimal and suboptimal solutions in phase 1 to bring the cube into an intermediate 3-color state where each face has no more than two colors, and then again uses IDA* (as seen in the original implementation) or a pre-calculated move sequence (as implemented in the modern version) to reach the final solution in phase 2. To make this work, Feather had to build a fundamentally new set of pruning tables for both phases from scratch [^feather-nd] [^miler-2026].
 
 Depending on the specific solver variant, the length of phase 2 can be limited to 8 moves or left unlimited [^speedsolving.com-wiki-nd]. In the unlimited version, phase 2 contains 3981312 states that can be solved within 16 moves, while phase 1 constains nearly 11 trillion states with a maximum of 15 moves.
 
