@@ -115,7 +115,7 @@ Among other things, Reid is also credited with proving that the Superflip requir
 
 For nearly two decades following 1997, the research into alternative pruning tables was minimal. This trend persisted until 2015, marked by the release of Michael Feather's two-phase solver [^tsai-2015].
 
-It uses IDA* to find optimal and suboptimal solutions in phase 1 to bring the cube into an intermediate 3-color state where each face has no more than two colors, and then again uses IDA* (as seen in the original implementation) or a pre-calculated move sequence (as implemented in the modern version) to reach the final solution in phase 2. To make this work, Feather had to build a fundamentally new set of pruning tables for both phases from scratch [^feather-nd] [^miler-2026].
+It uses IDA* to find optimal and suboptimal solutions in phase 1 to bring the cube into an intermediate 3-color state where each face has no more than two colors, and then again uses IDA* (as seen in the original implementation) or a pre-calculated move sequence (as implemented in the modern version) to reach the final solution in phase 2 [^feather-nd-1]. To make this work, Feather had to build a fundamentally new set of pruning tables for both phases from scratch [^feather-nd-2] [^miler-2026].
 
 Depending on the specific solver variant, the length of phase 2 can be limited to 8 moves or left unlimited [^speedsolving.com-wiki-nd]. In the unlimited version, phase 2 contains 3981312 states that can be solved within 16 moves, while phase 1 constains nearly 11 trillion states with a maximum of 15 moves.
 
@@ -189,7 +189,8 @@ See also:
 [^heise-2007]: R. Heise, "Re: FW: [fewestmoveschallenge] FMC 148", Yahoo! Groups, Fewest Moves Challenge subgroup, 14 April 2007. [Online]. Available: https://www.cubinghistory.com/archive/YahooGroups/YahooGroups.html 
 [^reid-1995]: M. Reid, "superflip requires 20 face turns", Cube Lovers, 18 January 1995. [Online]. Available: https://www.cube20.org/cubelovers/CL15/002.txt
 [^tsai-2015]: Ch. W. Tsai, forum post, July 2015. [Online]. Available: https://www.speedsolving.com/threads/3-color-3x3x3-algorithm-thread.53552/page-2#post-1097456
-[^feather-nd]: M. Feather, "Dist File Contents". [Online]. Available: https://mfeather1.github.io/3ColorCube/dist_file_contents.html
+[^feather-nd-1]: M. Feather, "Cube Solver Help". [Online]. Available: https://mfeather1.github.io/3ColorCube/solver_qc/solver_help.html#snc
+[^feather-nd-2]: M. Feather, "Dist File Contents". [Online]. Available: https://mfeather1.github.io/3ColorCube/dist_file_contents.html
 [^miler-2026]: T. Miler, forum post, February 2026, [Online]. Available: https://www.speedsolving.com/threads/computer-solving-a-new-two-phase-algorithm.93083/page-5#post-1688441
 [^speedsolving.com-wiki-nd]: speedsolving.com wiki, "Feather's algorithm". [Online]. Available: https://www.speedsolving.com/wiki/index.php?title=Feather%27s_algorithm#Variants
 [^miler-2024]: T. Miler, forum post, August 2024. [Online]. Available: https://www.speedsolving.com/threads/computer-solving-a-new-two-phase-algorithm.93083/#post-1617184
