@@ -115,7 +115,7 @@ Among other things, Reid is also credited with proving that the Superflip requir
 
 For nearly two decades following 1997, the research into alternative pruning tables was minimal. This trend persisted until 2015, marked by the release of Michael Feather's two-phase solver [^tsai-2015].
 
-It uses IDA* to find optimal and suboptimal solutions in phase 1 to bring the cube into an intermediate 3-color state where each face has no more than two colors. Then, phase 2 uses either a second IDA* search (as seen in the original implementation) or a pre-calculated move sequence (as implemented in the modern version) to reach the final solution [^feather-nd-1]. To make this work, Feather had to build a fundamentally new set of pruning tables for both phases from scratch [^feather-nd-2] [^miler-2026].
+It uses IDA* to find optimal and suboptimal solutions in phase 1 to bring the cube into an intermediate 3-color state where each face has no more than two colors. Then, phase 2 uses either a second IDA* search (as seen in the original implementation) or a precomputed move sequence (as implemented in the modern version) to reach the final solution [^feather-nd-1]. To make this work, Feather had to build a fundamentally new set of pruning tables for both phases from scratch [^feather-nd-2] [^miler-2026].
 
 Depending on the specific solver variant, the length of phase 2 can be limited to 8 moves or left unlimited [^speedsolving.com-wiki-nd]. In the unlimited version, phase 2 contains 3981312 states that can be solved within 16 moves, while phase 1 constains nearly 11 trillion states with a maximum of 15 moves.
 
