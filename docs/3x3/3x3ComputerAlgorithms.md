@@ -22,16 +22,16 @@ Hence, another technique must be used. Since we lack the time to compute everyth
 
 ## Morwen Bernard Thistlethwaite (1980)
 
-Early human-based methods for solving the Rubik's Cube typically required around 100 moves. A significant breakthrough occurred in 1980 when Morwen Thistlethwaite developed a novel four-phase algorithm that reduced the maximum move count to 52. Each of its 4 steps progressively restricts the allowed types of turns until the cube reaches a solved state.
-
-In phase 1, all 18 cube turns (U, U', U2, D, D', D2, R, R', R2, L, L', L2, F, F', F2, B, B', B2) are allowed. In phase 2, U and D are restricted to half-turns only (that means no U and D quarter-turns anymore). Phase 3 additionally disallows F and B quarter-turns, and finally phase 4 restricts all six faces to half-turns only [^pochmann-2008-1]. The phases are denoted as follows in modern cubing terminology:
+Early human-based methods for solving the Rubik's Cube typically required around 100 moves. A significant breakthrough occurred in 1980 when Morwen Thistlethwaite developed a novel algorithm that reduced the maximum move count to 52. The solving process is divided into four distinct phases, each narrowing the available move set [^pochmann-2008-1]:
 
 <ol>
-<li>EO (Edge Orientation)
-<li>DR (Domino Reduction)
-<li>HTR (Half-Turn Reduction)
-<li>Finish
+<li>Phase 1 (EO; Edge Orientation): all 18 cube turns (U, U', U2, D, D', D2, R, R', R2, L, L', L2, F, F', F2, B, B', B2) are permitted.
+<li>Phase2 (DR; Domino Reduction): U and D are restricted to half-turns only - that means no U and D quarter-turns anymore.
+<li>Phase 3 (HTR; Half-Turn Reduction): in addition to previous constrains, F and B are restricted to half-turns only.
+<li>Phase 4 (Finish): only half-turns are permitted. 
 </ol>
+
+No further turns are possible beyond this point. Thus, a solved state is reached at the end of phase 4.
 
 ![](img/ComputerAlgorithms/Thistlethwaite2.png)
 
@@ -55,7 +55,7 @@ Driven by a fascination with the 2x3x3 Rubik's Domino, Hans Kloosterman's 1989 c
 
 The shortest solution for the Rubik's Domino known to him involved applying Thistlethwaite's third and fourth phases (these are optimally solvable in at most 13+15 moves on Rubik's Cube) [^kloosterman-1989]. He optimized them into a two-step process with a maximum of 25 moves.
 
-In step 1, he placed all top-face cubies to the upper layer; essentially orienting both layers. This can be done in 8 moves. In step 2, he restored the rest of the puzzle; essentially permuting both layers. This can be done in 17 moves. Kloosterman noted that stages 3 and 4 of the Thistlethwaite's algorithm share the same class of moves as his Domino solution, which allowed him to successfully adapt those principles to the Rubik's Cube.
+In step 1, he placed all top-face cubies to the upper layer; essentially separating the black and white pieces into their respective layers. This can be done in 8 moves. In step 2, he restored the rest of the puzzle; essentially permuting both layers. This can be done in 17 moves. Kloosterman noted that stages 3 and 4 of the Thistlethwaite's algorithm share the same class of moves as his Domino solution, which allowed him to successfully adapt those principles to the Rubik's Cube.
 
 ![](img/ComputerAlgorithms/Kloosterman1.png)
 
