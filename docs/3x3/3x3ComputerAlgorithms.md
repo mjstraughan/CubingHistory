@@ -74,7 +74,7 @@ Phase 1 contains roughly 2 billion states and can be solved in 12 moves. Phase 2
 
 ![](img/ComputerAlgorithms/Kociemba.png)
 
-Kociemba's 2-phase algorithm has become very popular in the cubing community since its public release. It is often — though not always — powering cube-solving robots or generating scrambling & solving sequences in cubing apps. It was also utilized in the search for God's number to name a few applications where a quick and not necessarily optimal solution (but still 20 moves or less) for a randomly scrambled cube is needed.
+Kociemba's 2-phase algorithm has become very popular in the cubing community since its public release. It is often — though not always — powering cube-solving robots or generating scrambling & solving sequences in cubing apps. It was also utilized in the search for God's number to name a few applications where a quick and not necessarily optimal solution (but still 20 moves or less) for a randomly scrambled cube is wanted.
 
 ## Richard Earl Korf (1997)
 
