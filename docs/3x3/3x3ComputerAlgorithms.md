@@ -26,7 +26,7 @@ Early human-based methods for solving the Rubik's Cube typically required around
 
 <ul>
 <li>Phase 1 (also known as Edge Orientation; EO): all 18 cube turns (U, U', U2, D, D', D2, R, R', R2, L, L', L2, F, F', F2, B, B', B2) are permitted.
-<li>Phase 2 (Domino Reduction; DR): U and D are restricted to half-turns only - that means no U and D quarter-turns anymore.
+<li>Phase 2 (Domino Reduction; DR): U and D are restricted to half-turns only - it means no U and D quarter-turns anymore.
 <li>Phase 3 (Half-Turn Reduction; HTR): in addition to previous constrains, F and B are restricted to half-turns only.
 <li>Phase 4 (Finish): only half-turns are permitted.
 <li>No further turns are allowed at this point. Thus, a solved state is reached by the end of phase 4.
