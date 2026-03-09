@@ -31,7 +31,7 @@ Early human-based methods for solving the Rubik's Cube typically required around
 <li>Phase 4 (Finish): only half-turns are permitted. 
 </ul>
 
-No further turns are possible beyond this point. Thus, a solved state is reached at the end of phase 4.
+No further turns can be executed beyond this point. Thus, a solved state is reached at the end of phase 4.
 
 ![](img/ComputerAlgorithms/Thistlethwaite2.png)
 
