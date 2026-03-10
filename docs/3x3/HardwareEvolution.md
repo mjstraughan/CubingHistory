@@ -297,7 +297,7 @@ In 2009, Martin Smith responded to a thread where a user was selling a replica o
 
 #### Implementation
 
-In 2013 Michael Fuentes-Vasques-Wilson posted a thread to SpeedSolving.com stating the intent to modify a Zhanchi 3x3x3 by adding internal magnets [^fuentes-vasques-wilson-2013-1]. The idea was to add 48 neodymium magnets inside of each piece with the hope that it would lead to more accurate turning.
+In 2013 Michael Fuentes-Vasques-Wilson posted a thread to SpeedSolving.com stating the intent to modify a Zhanchi 3x3x3 by adding internal magnets [^fuentes-vasques-wilson-2013-1]. The idea was to add 48 neodymium magnets, four inside each center and two inside each edge, with the hope that it would lead to more accurate turning.
 
 ![](img/HardwareEvolution/Wilson1.webp)
 
