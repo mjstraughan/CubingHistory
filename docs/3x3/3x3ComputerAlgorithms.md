@@ -71,7 +71,7 @@ In 1992, Herbert Kociemba created an algorithm that was both evolutionary and re
 
 He basically combined Thistlethwaite's first two and last two steps into one step each, resulting in a two-phase algorithm capable of finding instant and near-optimal solutions with minimal memory usage. The algorithm does not stop after finding its first solution but continues searching with an increasing phase 1 length and decreasing phase 2 length, which leads to a shorter overall solution [^pochmann-2008-2]. However, it is not designed to find optimal solutions.
 
-Phase 1 contains roughly 2 billion states and can be solved in 12 moves. Phase 2 contains almost 20 billion states and it needs at most 18 moves. Kociemba's contribution was not only developing a two-phase algorithm, but also introducing new and efficient ways to represent cube permutations and orientations that made large-scale searches possible [^kociemba-nd]. 
+While Thistlethwaite's algorithm relies on precomputed move sequences, Kociemba's approach utilizes IDA*, a search algorithm described by Richard Korf in 1985 [^korf-1985] [^kociemba-2024-1]. Phase 1 contains roughly 2 billion states and can be solved in 12 moves. Phase 2 contains almost 20 billion states and it needs at most 18 moves. Kociemba's contribution was not only developing a two-phase algorithm, but also introducing new and efficient ways to represent cube permutations and orientations that made large-scale searches possible [^kociemba-nd]. 
 
 ![](img/ComputerAlgorithms/Kociemba.png)
 
@@ -79,7 +79,7 @@ Kociemba's 2-phase algorithm has become very popular in the cubing community sin
 
 ## Richard Earl Korf (1997)
 
-A new era of optimal solving began with the introduction of Korf's solver in 1997 [^korf-1997-1]. Richard Korf was the first to demonstrate that the IDA* search algorithm could be employed to find optimal solutions for randomly scrambled Rubik's Cubes, and all well-performing optimal solvers use this technique since then [^kociemba-2024].
+A new era of optimal solving began with the introduction of Korf's solver in 1997 [^korf-1997-1]. Richard Korf was the first to demonstrate that the IDA* search algorithm could be employed to find optimal solutions for randomly scrambled Rubik's Cubes, and all well-performing optimal solvers use this technique since then [^kociemba-2024-2].
 
 ![](img/ComputerAlgorithms/Korf.png)
 
@@ -182,9 +182,11 @@ See also:
 [^kloosterman-1990]: H. Kloosterman, "Rubik's Cube in 42 moves", Cubism For Fun #25, December 1990, p. 19.
 [^kociemba-1992]: H. Kociemba, "Close to God's algorithm" Cubism For Fun #28, April 1992, pp. 10-13.
 [^pochmann-2008-2]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 15-16. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
+[^korf-1985]: R. E. Korf, "Depth-First Iterative-Deepening: An Optimal Admissible Tree Search", Artificial Intelligence (Volume 27, Issue 1), September 1985, pp. 103-108. [Online]. Available: http://www.cse.sc.edu/~mgv/csce580f09/gradPres/korf_IDAStar_1985.pdf
+[^kociemba-2024-1]: H. Kociemba, "Time Complexity O-Notation for Kociemba, Korf, and Thistlethwaite's Algorithms? (Rubik cube)", forum post, 28 March 2024. [Online]. Available: https://cs.stackexchange.com/a/167312
 [^kociemba-nd]: H. Kociemba, "Two-Phase Algorithm Details". [Online]. Available: https://kociemba.org/math/imptwophase.htm
 [^korf-1997-1]: R. E. Korf, "Finding Optimal Solutions to Rubik's Cube Using Pattern Databases", July 1997. [Online]. Available: https://www.semanticscholar.org/paper/Finding-Optimal-Solutions-to-Rubik%27s-Cube-Using-Korf/e6ab7d5d5d38a659fd2ffa53d72ab67e6abc61af
-[^kociemba-2024]: H. Kociemba, forum post, December 2024. [Online]. Available: https://www.speedsolving.com/threads/computer-solving-a-new-two-phase-algorithm.93083/page-3#post-1634814
+[^kociemba-2024-2]: H. Kociemba, forum post, December 2024. [Online]. Available: https://www.speedsolving.com/threads/computer-solving-a-new-two-phase-algorithm.93083/page-3#post-1634814
 [^korf-1997-2]: R. E. Korf, "Description of algorithm for finding minimal-move solutions to Rubik's Cube", Cube Lovers, 29 May 1997. [Online]. Available: https://www.cube20.org/cubelovers/CL22/078.txt
 [^reid-1997]: M. Reid, "optimal cube solver", Cube Lovers, 5 July 1997. [Online]. Available: https://www.cube20.org/cubelovers/CL23/041.txt
 [^kociemba-1997]: H. Kociemba, "The Optimal Solvers". [Online]. Available: https://kociemba.org/math/optimal.htm
