@@ -174,10 +174,10 @@ See also:
 [^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 14-15. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^scherphuis-nd]: J. Scherphuis, "Computer Puzzling". [Online]. Available: https://www.jaapsch.net/puzzles/compcube.htm#thisal
 [^bawden-1987]: A. Bawden, "Shamir's talk really was about how to solve the cube!", Cube Lovers, 27 May 1987. [Online]. Available: https://www.cube20.org/cubelovers/CL06/024.txt
-[^shamir-fiat-moses-shimshoni-tardos-1989]: A. Shamir, A. Fiat, S. Moses, I. Shimshoni, G. Tardos, "Planning and learning in permutation groups", January 1989, pp. 274-276. [Online]. Available: https://www.researchgate.net/publication/3501931_Planning_and_learning_in_permutation_groups
+[^shamir-fiat-moses-shimshoni-tardos-1989]: A. Shamir, A. Fiat, S. Moses, I. Shimshoni, G. Tardos, "Planning and learning in permutation groups", 30th Annual Symposium on Foundations of Computer Science, January 1989, pp. 274-276. [Online]. Available: https://www.researchgate.net/publication/3501931_Planning_and_learning_in_permutation_groups
 [^singmaster-1981]: D. Singmaster, "Notes on Rubik's Magic Cube", Hillside, NJ, Enslow Publishers, 1981, p. 34.
 [^smith-nd]: R. Smith, "Can a Rubik's Cube be brute-forced?". [Online]. Available: https://www.stylewarning.com/posts/brute-force-rubiks-cube/#the-4-list-algorithm-and-solving-the-rubiks-cube
-[^dinur-dunkelman-keller-shamir-2014]: I. Dinur, O. Dunkelman, N. Keller, A. Shamir, "Dissection: A New Paradigm for Solving Bicomposite Search Problems", October 2014, pp. 100-102. [Online]. Available: https://dl.acm.org/doi/epdf/10.1145/2661434
+[^dinur-dunkelman-keller-shamir-2014]: I. Dinur, O. Dunkelman, N. Keller, A. Shamir, "Dissection: A New Paradigm for Solving Bicomposite Search Problems", Communications of the ACM (Volume 57, Issue 10), October 2014, pp. 100-102. [Online]. Available: https://dl.acm.org/doi/epdf/10.1145/2661434
 [^kloosterman-1989]: H. Kloosterman, "Rubik's Cube in 44 moves", Cubism For Fun #22, December 1989, p. 9.
 [^kloosterman-1990]: H. Kloosterman, "Rubik's Cube in 42 moves", Cubism For Fun #25, December 1990, p. 19.
 [^kociemba-1992]: H. Kociemba, "Close to God's algorithm" Cubism For Fun #28, April 1992, pp. 10-13.
@@ -185,7 +185,7 @@ See also:
 [^korf-1985]: R. E. Korf, "Depth-First Iterative-Deepening: An Optimal Admissible Tree Search", Artificial Intelligence (Volume 27, Issue 1), September 1985, pp. 103-108. [Online]. Available: http://www.cse.sc.edu/~mgv/csce580f09/gradPres/korf_IDAStar_1985.pdf
 [^kociemba-2024-1]: H. Kociemba, "Time Complexity O-Notation for Kociemba, Korf, and Thistlethwaite's Algorithms? (Rubik cube)", forum post, 28 March 2024. [Online]. Available: https://cs.stackexchange.com/a/167312
 [^kociemba-nd]: H. Kociemba, "Two-Phase Algorithm Details". [Online]. Available: https://kociemba.org/math/imptwophase.htm
-[^korf-1997-1]: R. E. Korf, "Finding Optimal Solutions to Rubik's Cube Using Pattern Databases", July 1997. [Online]. Available: https://www.semanticscholar.org/paper/Finding-Optimal-Solutions-to-Rubik%27s-Cube-Using-Korf/e6ab7d5d5d38a659fd2ffa53d72ab67e6abc61af
+[^korf-1997-1]: R. E. Korf, "Finding Optimal Solutions to Rubik's Cube Using Pattern Databases", AAAI'97/IAAI'97: Proceedings of the fourteenth national conference on artificial intelligence and ninth conference on Innovative applications of artificial intelligence, July 1997, pp. 700-705. [Online]. Available: https://www.semanticscholar.org/paper/Finding-Optimal-Solutions-to-Rubik%27s-Cube-Using-Korf/e6ab7d5d5d38a659fd2ffa53d72ab67e6abc61af
 [^kociemba-2024-2]: H. Kociemba, forum post, December 2024. [Online]. Available: https://www.speedsolving.com/threads/computer-solving-a-new-two-phase-algorithm.93083/page-3#post-1634814
 [^korf-1997-2]: R. E. Korf, "Description of algorithm for finding minimal-move solutions to Rubik's Cube", Cube Lovers, 29 May 1997. [Online]. Available: https://www.cube20.org/cubelovers/CL22/078.txt
 [^reid-1997]: M. Reid, "optimal cube solver", Cube Lovers, 5 July 1997. [Online]. Available: https://www.cube20.org/cubelovers/CL23/041.txt
