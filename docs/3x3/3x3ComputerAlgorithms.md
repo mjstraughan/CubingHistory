@@ -180,7 +180,7 @@ See also:
 [^dinur-dunkelman-keller-shamir-2014]: I. Dinur, O. Dunkelman, N. Keller, A. Shamir, "Dissection: A New Paradigm for Solving Bicomposite Search Problems", Communications of the ACM (Volume 57, Issue 10), October 2014, pp. 100-102. [Online]. Available: https://dl.acm.org/doi/epdf/10.1145/2661434
 [^kloosterman-1989]: H. Kloosterman, "Rubik's Cube in 44 moves", Cubism For Fun #22, December 1989, p. 9.
 [^kloosterman-1990]: H. Kloosterman, "Rubik's Cube in 42 moves", Cubism For Fun #25, December 1990, p. 19.
-[^kociemba-1992]: H. Kociemba, "Close to God's algorithm" Cubism For Fun #28, April 1992, pp. 10-13.
+[^kociemba-1992]: H. Kociemba, "Close to God's algorithm", Cubism For Fun #28, April 1992, pp. 10-13.
 [^pochmann-2008-2]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 15-16. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^korf-1985]: R. E. Korf, "Depth-First Iterative-Deepening: An Optimal Admissible Tree Search", Artificial Intelligence (Volume 27, Issue 1), September 1985, pp. 103-108. [Online]. Available: http://www.cse.sc.edu/~mgv/csce580f09/gradPres/korf_IDAStar_1985.pdf
 [^kociemba-2024-1]: H. Kociemba, "Time Complexity O-Notation for Kociemba, Korf, and Thistlethwaite's Algorithms? (Rubik cube)", forum post, 28 March 2024. [Online]. Available: https://cs.stackexchange.com/a/167312
