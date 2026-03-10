@@ -99,8 +99,9 @@ images={[
 { src: require("@site/docs/3x3/Methods/img/3-Color/Booklet3.png").default}
 ]}
 />
+<br/>
 
-During August - October 2025, Christos posted another 3 videos.
+From August through October 2025, Christos posted an additional three videos demonstrating the method.
 
 <YouTube embedId="2FJcAtCcZug" />
 <br/>
