@@ -8,6 +8,7 @@ import YouTube from "@site/src/components/YouTube";
 import ImageCollage from '@site/src/components/ImageCollage';
 
 # Computer Algorithms
+**Author: Tadeáš Miler**
 
 The number of 3x3x3 Rubik's Cube states is 43,252,003,274,489,856,000. Even at a million turns per second it would take a computer about 650,000 years on average to solve the cube with a simple brute-force search. 
 
@@ -22,14 +23,14 @@ Hence, another technique must be used. Since we lack the time to compute everyth
 
 ## Morwen Bernard Thistlethwaite (1980)
 
-Early human-based methods for solving the Rubik's Cube typically required around 100 moves. A significant breakthrough occurred in 1980 when Morwen Thistlethwaite developed a novel algorithm that reduced the maximum move count to 52. The solving process is divided into four distinct phases, each narrowing the available move set [^pochmann-2008-1]:
+Early human-based methods for solving Rubik's Cube typically required around 100 moves. A significant breakthrough occurred in 1980 when Morwen Thistlethwaite developed a novel algorithm that reduced the maximum move count to 52. The solving process is divided into four distinct phases, each narrowing the available move set [^pochmann-2008-1]:
 
 <ul>
-<li>Phase 1 (also known as Edge Orientation; EO): all 18 cube turns (U, U', U2, D, D', D2, R, R', R2, L, L', L2, F, F', F2, B, B', B2) are permitted.
-<li>Phase 2 (Domino Reduction; DR): U and D are restricted to half-turns only - it means no U and D quarter-turns anymore.
-<li>Phase 3 (Half-Turn Reduction; HTR): in addition to previous constrains, F and B are restricted to half-turns only.
-<li>Phase 4 (Finish): only half-turns are permitted.
-<li>No further turns are allowed at this point. Thus, a solved state is reached by the end of phase 4.
+<li>Phase 1 (also known as Edge Orientation; EO): all 18 cube turns (U, U', U2, D, D', D2, R, R', R2, L, L', L2, F, F', F2, B, B', B2) are permitted.</li>
+<li>Phase 2 (Domino Reduction; DR): U and D are restricted to half-turns only - it means no U and D quarter-turns anymore.</li>
+<li>Phase 3 (Half-Turn Reduction; HTR): in addition to previous constrains, F and B are restricted to half-turns only.</li>
+<li>Phase 4 (Finish): only half-turns are permitted.</li>
+<li>No further turns are allowed at this point. Thus, a solved state is reached by the end of phase 4.</li>
 </ul>
 
 ![](img/ComputerAlgorithms/Thistlethwaite2.png)
@@ -42,23 +43,23 @@ It is worth mentioning that already in 1980, Michael Feather and George Christos
 
 ## Adi Shamir, et al. (1987, 1989)
 
-The core idea behind the Shamir's algorithm, also known as the 4-list algorithm, is using the meet-in-the-middle approach. The algorithm generates the product of the list of states for the first 5 moves from the solved state multiplied by itself cleverly (which is equivalent to generating the first 10 moves) and finding the intersection with the same process done to the scrambled state [^bawden-1987].
+The core idea behind Shamir's algorithm, also known as the 4-list algorithm, is using a meet-in-the-middle approach. The algorithm generates the product of the list of states for the first 5 moves from the solved state multiplied by itself cleverly (which is equivalent to generating the first 10 moves) and finding the intersection with the same process done to the scrambled state [^bawden-1987].
 
-Even though advertised as "the first practical algorithm for finding the shortest solution for any given state of Rubik's cube", this claim remained unfulfilled by the authors. Presumably due to hardware limitations they have only reported that the algorithm was successfully implemented for the list of all states within 4 (and not needed 5) face turns [^shamir-fiat-moses-shimshoni-tardos-1989].
+Even though advertised as "the first practical algorithm for finding the shortest solution for any given state of Rubik's cube", this claim remained unfulfilled by the authors. Presumably due to hardware limitations they have only reported that the algorithm was successfully implemented for the list of all states within 4 (and not the needed 5) face turns [^shamir-fiat-moses-shimshoni-tardos-1989].
 
 A simple counting argument known from the early 1980s dictates that there are states requiring at least 18 face turns [^singmaster-1981]. Unfortunately, such states seemed to be beyond the reach of the 4-list algorithm executed on the hardware of the late 1980s. Today, however, running the same algorithm on a modern PC guarantees a solution within 20 moves, including the optimal one [^smith-nd] [^dinur-dunkelman-keller-shamir-2014].
 
 ## Hans Kloosterman (1989)
 
-Driven by a fascination with the 2x3x3 Rubik's Domino, Hans Kloosterman's 1989 contribution focused on refining computer-generated solution for that puzzle. This work served as a foundantion for his later development of a full 3x3x3 cube algorithm.
+Driven by a fascination with the 2x3x3 Rubik's Domino, Hans Kloosterman's 1989 contribution focused on refining computer-generated solutions for that puzzle. This work served as a foundantion for his later development of a full 3x3x3 cube algorithm.
 
-The shortest solution for the Rubik's Domino known to him involved applying Thistlethwaite's third and fourth phases (these are optimally solvable in at most 13+15 moves on Rubik's Cube) [^kloosterman-1989]. He optimized them into a two-step process with a maximum of 25 moves.
+The shortest solution for Rubik's Domino known to him involved applying Thistlethwaite's third and fourth phases (these are optimally solvable in at most 13+15 moves on Rubik's Cube) [^kloosterman-1989]. He optimized them into a two-step process with a maximum of 25 moves.
 
-In step 1, he placed all top-face cubies to the upper layer; essentially separating the black and white pieces into their respective layers. This can be done in 8 moves. In step 2, he restored the rest of the puzzle; essentially permuting both layers. This can be done in 17 moves. Kloosterman noted that stages 3 and 4 of the Thistlethwaite's algorithm share the same class of moves as his Domino solution, which allowed him to successfully adapt those principles to the Rubik's Cube.
+In step 1, he placed all top-face cubies to the upper layer; essentially separating the black and white pieces into their respective layers. This can be done in 8 moves. In step 2, he restored the rest of the puzzle; essentially permuting both layers. This can be done in 17 moves. Kloosterman noted that stages 3 and 4 of Thistlethwaite's algorithm share the same class of moves as his Domino solution, which allowed him to successfully adapt those principles to Rubik's Cube.
 
 ![](img/ComputerAlgorithms/Kloosterman1.png)
 
-By substituting Thistlethwaite's third and fourth stages with his two-phase Domino algorithm, Kloosterman found out that the new 3x3x3 phase 3 remained solvable within 8 moves using the <U, D, R2, L2, F2, B2> move set, and the new 3x3x3 phase 4 could be completed in a maximum of 19 moves within the same move set.
+By substituting Thistlethwaite's third and fourth stages with his two-phase Domino algorithm, Kloosterman found out that the new 3x3x3 phase 3 remained solvable within 8 moves using the \<U, D, R2, L2, F2, B2\> move set, and the new 3x3x3 phase 4 could be completed in a maximum of 19 moves within the same move set.
 
 In 1990, following an exhaustive computer-aided search, Kloosterman lowered the phase 4 move count by one, achieving the optimal value of 18 [^kloosterman-1990]. He subsequently demonstrated that the overall move count could be further reduced by canceling out moves at the transition between phase 3 and 4.
 
@@ -66,7 +67,7 @@ In 1990, following an exhaustive computer-aided search, Kloosterman lowered the 
 
 ## Herbert Kociemba (1992)
 
-In 1992, Herbert Kociemba created an algorithm that was both evolutionary and revolutionary at the same time [^kociemba-1992].
+In 1992, Herbert Kociemba created an algorithm that was both evolutionary and revolutionary [^kociemba-1992].
 
 He basically combined Thistlethwaite's first two and last two steps into one step each, resulting in a two-phase algorithm capable of finding instant and near-optimal solutions with minimal memory usage. The algorithm does not stop after finding its first solution but continues searching with an increasing phase 1 length and decreasing phase 2 length, which leads to a shorter overall solution [^pochmann-2008-2]. However, it is not designed to find optimal solutions.
 
@@ -78,11 +79,11 @@ Kociemba's 2-phase algorithm has become very popular in the cubing community sin
 
 ## Richard Earl Korf (1997)
 
-A new era of optimal solving has begun with the introduction of Korf's solver in 1997 [^korf-1997-1]. Richard Korf was the first to demonstrate that the IDA* search algorithm could be employed to find optimal solutions for randomly scrambled Rubik's Cubes, and all well-performing optimal solvers use this technique since then [^kociemba-2024].
+A new era of optimal solving began with the introduction of Korf's solver in 1997 [^korf-1997-1]. Richard Korf was the first to demonstrate that the IDA* search algorithm could be employed to find optimal solutions for randomly scrambled Rubik's Cubes, and all well-performing optimal solvers use this technique since then [^kociemba-2024].
 
 ![](img/ComputerAlgorithms/Korf.png)
 
-IDA* (Iterative Deepening A*) is an algorithm that searches for the shortest move sequence by gradually increasing the allowed solution length. Given that God's Number for the Rubik's Cube is 20 in the face-turn metric, Korf's algorithm will always find a solution within that limit. It utilizes pruning tables stored in memory to quickly estimate the remaining moves needed.
+IDA* (Iterative Deepening A*) is an algorithm that searches for the shortest move sequence by gradually increasing the allowed solution length. Given that God's Number for Rubik's Cube is 20 in the face-turn metric, Korf's algorithm will always find a solution within that limit. It utilizes pruning tables stored in memory to quickly estimate the remaining moves needed.
 
 A pruning table is a precomputed table containing the minimum number of moves required to solve specific parts of the cube (like just the corners), used to "guess" how far away the full solution is and to prune the tree accordingly. Korf used three pruning tables which were corners as one component and edges evenly split into two sub-components.
 
@@ -92,20 +93,20 @@ Of the 10 randomly scrambled cubes featured in his demonstration, six were optim
 
 Expanding on the work of Korf and Kociemba, Michael Reid developed his own optimal solver just months after Korf.
 
-Reid used only one pruning table which was the combination of edge orientation + corner twist + edge position of 4 cubies (cubers know this state as Domino Reduction which is literally the first goal state of Kociemba's algorithm). He then used the pruning table three times by rotating the cube to get a different set of 4 edge cubies each time. Additionally he used symmetry reduction to reduce the size of the pruning table by a factor of 16 (the 16 symmetries are all of the cube states that are reached by rotating on the same axis or flipping the axis 180 degrees or taking the mirror image of those positions) [^reid-1997].
+Reid used only one pruning table which was the combination of edge orientation + corner twist + edge position of 4 cubies (cubers know this state as Domino Reduction, which is literally the first goal state of Kociemba's algorithm). He then used the pruning table three times by rotating the cube to get a different set of 4 edge cubies each time. Additionally he used symmetry reduction to reduce the size of the pruning table by a factor of 16 (the 16 symmetries are all of the cube states that are reached by rotating on the same axis or flipping the axis 180 degrees or taking the mirror image of those positions) [^reid-1997].
 
 ![](img/ComputerAlgorithms/Reid3.png)
 
-The principles established by both Reid and Kociemba were widely adopted in later software developments. In 2000, Josef Jelínek released ACube, a versatile program capable of finding both optimal and suboptimal move sequences for fully or partially solved state. Similarly, Herbert Kociemba integrated Reid's concepts into his Cube Explorer program to implement an optimal solving feature [^kociemba-1997]. 
+The principles established by both Reid and Kociemba were widely adopted in later software developments. In 2000, Josef Jelínek released ACube, a versatile program capable of finding both optimal and suboptimal move sequences for fully or partially solved states. Similarly, Herbert Kociemba integrated Reid's concepts into his Cube Explorer program to implement an optimal solving feature [^kociemba-1997].
 
 A chain of influence is therefore as follows [^heise-2007]: 
 
 <ol>
-<li>Thistlethwaite (4-phase)
-<li>Kociemba (2-phase)
-<li>Reid (optimal, 1-phase)
-<li value=3>Jelínek (partial)
-<li value=4>Kociemba (improved 2-phase: symmetry reduction and parallel triple-axis search, optimal and partial)
+<li>Thistlethwaite (4-phase)</li>
+<li>Kociemba (2-phase)</li>
+<li>Reid (optimal, 1-phase)</li>
+<li value="3">Jelínek (partial)</li>
+<li value="4">Kociemba (improved 2-phase: symmetry reduction and parallel triple-axis search, optimal and partial)</li>
 </ol>
 
 Among other things, Reid is also credited with proving that the Superflip requires exactly 20 optimal moves to solve [^reid-1995]. The Superflip is a cube state where all corners are solved and all edges are correctly positioned but flipped. This discovery effectively raised the lower bound of God's number from 18 to 20.
@@ -120,9 +121,9 @@ Depending on the specific solver variant, the length of phase 2 can be limited t
 
 > There was never any claim that my solver worked by reaching HTR state prior to you making it. If you recall the discussion we had about it I had to do a test to confirm that it did, in fact, reach all HTR states in 8 moves or less. My solver has always worked by reaching a 3-color solved state and the fact that I chose to limit to 8 moves had nothing to do with HTR, it was done because generating beyond 8 moves starts to noticeably increase init time and there is minimal downside to limiting because the only solutions that are eliminated are the longer ones. I did a lot of testing of setting the limit to various lengths above 8 and concluded that 8 was the best tradeoff in terms of init time vs solution length. Whether or not anyone agrees with my choice of an 8 move limit is no reflection on my solving method which is perfectly capable of working with any length for phase 2, up to and including the max length of 16 which is exactly what my latest solver does as mentioned already. The fact that my choice of 8 had the incidental side-effect of also providing HTR solutions is also no reflection on my solving method, it is an inherent property of the cube.
 
-Instead of terminating at the first solution, the algorithm continues to search by incrementally increasing the phase 1 length while decreasing the phase 2 length until it finds an optimal solution or reach the desired solution length. Furthermore, the solver is capable of finding quick and short suboptimal solutions (20 moves or less) using the same logic.
+Instead of terminating at the first solution, the algorithm continues to search by incrementally increasing the phase 1 length while decreasing the phase 2 length until it finds an optimal solution or reaches the desired solution length. Furthermore, the solver is capable of finding quick and short suboptimal solutions (20 moves or less) using the same logic.
 
-A notable feature is that the Feather's algorithm finds suboptimal solutions while searching for an optimal one. Consequently, the phase 2 length does not necessarily have to be 0 in order to prove that the solution found is optimal.
+A notable feature is that Feather's algorithm finds suboptimal solutions while searching for an optimal one. Consequently, the phase 2 length does not necessarily have to be 0 in order to prove that the solution found is optimal.
 
 ![](img/ComputerAlgorithms/Feather.png)
 
@@ -131,17 +132,17 @@ A notable feature is that the Feather's algorithm finds suboptimal solutions whi
 Number of states in multi-phase algorithms:
 
 <table>
-<tr><td></td><td align=center>phase 1</td><td align=center>phase 2</td><td align=center>phase 3</td><td align=center>phase 4</td></tr>
-<tr><td></td><td colspan=2 align=center>phase 1</td><td colspan=2 align=center>phase 2</td></tr>
-<tr><td>Thistlethwaite</td><td align=center>2048</td><td align=center>1082565</td><td align=center>29400</td><td align=center>663552</td></tr>
-<tr><td>Kloosterman</td><td align=center>2048</td><td align=center>1082565</td><td align=center>4900</td><td align=center>3981312</td></tr>
-<tr><td>Kociemba</td><td colspan=2 align=center>2048 · 1082565 <sup>a</sup></td><td colspan=2 align=center>29400 · 663552 <sup>b</sup></td></tr>
-<tr><td>Feather</td><td colspan=2 align=center>10863756288000</td><td colspan=2 align=center>3981312 <sup>c</sup><br>(117265 <sup>d</sup>)</td></tr>
+<tr><td></td><td align="center">phase 1</td><td align="center">phase 2</td><td align="center">phase 3</td><td align="center">phase 4</td></tr>
+<tr><td></td><td colspan="2" align="center">phase 1</td><td colspan="2" align="center">phase 2</td></tr>
+<tr><td>Thistlethwaite</td><td align="center">2048</td><td align="center">1082565</td><td align="center">29400</td><td align="center">663552</td></tr>
+<tr><td>Kloosterman</td><td align="center">2048</td><td align="center">1082565</td><td align="center">4900</td><td align="center">3981312</td></tr>
+<tr><td>Kociemba</td><td colspan="2" align="center">2048 · 1082565 <sup>a</sup></td><td colspan="2" align="center">29400 · 663552 <sup>b</sup></td></tr>
+<tr><td>Feather</td><td colspan="2" align="center">10863756288000</td><td colspan="2" align="center">3981312 <sup>c</sup><br/>(117265 <sup>d</sup>)</td></tr>
 </table>
 
-a = 2217093120<br>
-b = 19508428800<br>
-c = variant with unlimited solution length<br>
+a = 2217093120<br/>
+b = 19508428800<br/>
+c = variant with unlimited solution length<br/>
 d = variant with solution length limited to 8 moves
 
 Naturally, there is an inherent mathematical relation between Kloosterman's phase 3 and Thistlethwaite's phase 3: 4900 = 29400/6, as well as Kloosterman's phase 4 and Thistlethwaite's phase 4: 663552 = 3981312/6. Interestingly, and despite very different solving approaches, the number of move sequences in Kloosterman's phase 4 matches the number of states in the unlimited phase 2 variant of Feather's algorithm: both are 3981312 = (4!<sup>5</sup>)/2.
@@ -149,26 +150,26 @@ Naturally, there is an inherent mathematical relation between Kloosterman's phas
 Optimal move count per phase: 
 
 <table>
-<tr><td></td><td align=center>phase 1</td><td align=center>phase 2</td><td align=center>phase 3</td><td align=center>phase 4</td></tr>
-<tr><td></td><td colspan=2 align=center>phase 1</td><td colspan=2 align=center>phase 2</td></tr>
-<tr><td>Thistlethwaite</td><td align=center>7 <sup>a</sup></td><td align=center>10 <sup>b</sup></td><td align=center>13 <sup>c</sup></td><td align=center>15 <sup>d</sup></td></tr>
-<tr><td>Kloosterman</td><td align=center>7 <sup>a</sup></td><td align=center>10 <sup>b</sup></td><td align=center>8 <sup>c</sup></td><td align=center>18 <sup>c</sup></td></tr>
-<tr><td>Kociemba</td><td colspan=2 align=center>12 <sup>a</sup></td><td colspan=2 align=center>18 <sup>c</sup></td></tr>
-<tr><td>Feather<br>(unlimited<br>variant)</td><td colspan=2 align=center>15 <sup>a</sup></td><td colspan=2 align=center>16 <sup>a</sup></td></tr>
-<tr><td>Feather<br>(limited<br>variant)</td><td colspan=2 align=center>16 <sup>e</sup></td><td colspan=2 align=center>8 <sup>a</sup></td></tr>
+<tr><td></td><td align="center">phase 1</td><td align="center">phase 2</td><td align="center">phase 3</td><td align="center">phase 4</td></tr>
+<tr><td></td><td colspan="2" align="center">phase 1</td><td colspan="2" align="center">phase 2</td></tr>
+<tr><td>Thistlethwaite</td><td align="center">7 <sup>a</sup></td><td align="center">10 <sup>b</sup></td><td align="center">13 <sup>c</sup></td><td align="center">15 <sup>d</sup></td></tr>
+<tr><td>Kloosterman</td><td align="center">7 <sup>a</sup></td><td align="center">10 <sup>b</sup></td><td align="center">8 <sup>c</sup></td><td align="center">18 <sup>c</sup></td></tr>
+<tr><td>Kociemba</td><td colspan="2" align="center">12 <sup>a</sup></td><td colspan="2" align="center">18 <sup>c</sup></td></tr>
+<tr><td>Feather<br/>(unlimited<br/>variant)</td><td colspan="2" align="center">15 <sup>a</sup></td><td colspan="2" align="center">16 <sup>a</sup></td></tr>
+<tr><td>Feather<br/>(limited<br/>variant)</td><td colspan="2" align="center">16 <sup>e</sup></td><td colspan="2" align="center">8 <sup>a</sup></td></tr>
 </table>
 
-a = <U, D, R, L, F, B> move set<br>
-b = <U2, D2, R, L, F, B> move set (or equivalent <U, D, R, L, F2, B2> or <U, D, R2, L2, F, B> move set)<br>
-c = <U2, D2, R, L, F2, B2> move set (or equivalent <U, D, R2, L2, F2, B2> or <U2, D2, R2, L2, F, B> move set)<br>
-d = <U2, D2, R2, L2, F2, B2> move set<br>
-e = known lower bound [^miler-2024] and <U, D, R, L, F, B> move set
+a = \<U, D, R, L, F, B\> move set<br/>
+b = \<U2, D2, R, L, F, B\> move set (or equivalent \<U, D, R, L, F2, B2\> or \<U, D, R2, L2, F, B\> move set)<br/>
+c = \<U2, D2, R, L, F2, B2\> move set (or equivalent \<U, D, R2, L2, F2, B2\> or \<U2, D2, R2, L2, F, B\> move set)<br/>
+d = \<U2, D2, R2, L2, F2, B2\> move set<br/>
+e = known lower bound [^miler-2024] and \<U, D, R, L, F, B\> move set
 
 See also:
-- [example solves](https://animcubejs.cubing.net/sources/codes/enhancement/parameters/cube3.html?butbgcolor=99aacc&initrevmove=%23&move={4-list%20one-phase%20algorithm,%20optimal%20solution.}R%27%20L2%20B%27%20U2%20B%27%20U%20F%20U%20L%27%20F2%20B2%20L%27%20U2%20R%27%20U2%20F%20U%20B%27;{Korf%27s%20one-phase%20algorithm,%20optimal%20solution.}R%20B%20U2%20L2%20U%20F2%20R2%20F2%20U%20F%27%20U2%20R2%20F%27%20U%27%20F2%20L%20B%20L%27;{Reid%27s%20one-phase%20algorithm,%20optimal%20solution.}U%20R%27%20U2%20L2%20B%27%20R2%20D%20F2%20R%20L2%20B%20R2%20U%20R2%20D%27%20R%20U%27%20D2;{Feather%27s%20two-phase%20algorithm,%20optimal%20solution%20[15+3].}U%27%20D%27%20F2%20D%20F%27%20R2%20F%20B2%20D%20F%27%20B%27%20L2%20D2%20L%27%20F%27%20L2%20R2%20F2;{Thistlethwaite%27s%20four-phase%20algorithm,%20suboptimal%20solution%20[3+8+10+8].}D2%20L%27%20F%27%20U%27%20D%20R%20B2%20D%27%20R%20U%20L%27%20U%27%20R2%20U%20F2%20U%27%20F2%20U%20L2%20F2%20U%20R2%20U2%20L2%20U2%20F2%20L2%20B2%20R2;{Klooserman%27s%20four-phase%20algorithm,%20suboptimal%20solution%20[3+8+6+12].}D2%20L%27%20F%27%20U%27%20D%20R%20B2%20D%27%20R%20U%20L%27%20U%20B2%20U%20F2%20U%27%20F2%20D%20F2%20U%20L2%20U%27%20L2%20D%20R2%20D%27%20F2%20L2%20D%27;{4-list%20one-phase%20algorithm,%20suboptimal%20solution.}B%20U2%20B%20U2%20D%27%20B2%20U2%20F2%20R%20F%27%20B%20U2%20B%20D%27%20B2%20D%20L%27%20D2%20F%20R%27;{Kociemba%27s%20two-phase%20algorithm,%20suboptimal%20solution%20[10+10].}L%20F%27%20R2%20B2%20D2%20B%27%20L%27%20B%20R%20B%20U%27%20B2%20D%27%20L2%20F2%20L2%20D2%20R2%20D%20F2;{Feather%27s%20two-phase%20algorithm,%20suboptimal%20solution%20[12+8].}D%20L%20D2%20L%20B%20R2%20B%27%20L%20F%20R%27%20U%20L%27%20B2%20R2%20U2%20F2%20U2%20B2%20R2%20D2&colorscheme=wygbor&edit=1&snap=1&movetext=1&buttonheight=20&textsize=18&scale=2)
-- [similarities and differences among algorithms](https://en.wikipedia.org/wiki/Optimal_solutions_for_the_Rubik%27s_Cube#Similarities_and_differences_among_algorithms)
-- terms [God's algorithm](https://www.speedsolving.com/wiki/index.php?title=God%27s_Algorithm) and [Devil's algorithm](https://www.speedsolving.com/threads/hamiltonian-circuit-for-the-entire-2x2x2-cube-group.34318/#post-690251)
-- honorable mention: [Hamiltonian circuit for Rubik's Cube](https://www.speedsolving.com/threads/a-hamiltonian-circuit-for-rubiks-cube.35505/#post-715307) by Bruce Norskog (interesting from a theoretical standpoint but impractical for solving the cube because of both time and space requirements)
+- [Example solves](https://animcubejs.cubing.net/sources/codes/enhancement/parameters/cube3.html?butbgcolor=99aacc&initrevmove=%23&move={4-list%20one-phase%20algorithm,%20optimal%20solution.}R%27%20L2%20B%27%20U2%20B%27%20U%20F%20U%20L%27%20F2%20B2%20L%27%20U2%20R%27%20U2%20F%20U%20B%27;{Korf%27s%20one-phase%20algorithm,%20optimal%20solution.}R%20B%20U2%20L2%20U%20F2%20R2%20F2%20U%20F%27%20U2%20R2%20F%27%20U%27%20F2%20L%20B%20L%27;{Reid%27s%20one-phase%20algorithm,%20optimal%20solution.}U%20R%27%20U2%20L2%20B%27%20R2%20D%20F2%20R%20L2%20B%20R2%20U%20R2%20D%27%20R%20U%27%20D2;{Feather%27s%20two-phase%20algorithm,%20optimal%20solution%20[15+3].}U%27%20D%27%20F2%20D%20F%27%20R2%20F%20B2%20D%20F%27%20B%27%20L2%20D2%20L%27%20F%27%20L2%20R2%20F2;{Thistlethwaite%27s%20four-phase%20algorithm,%20suboptimal%20solution%20[3+8+10+8].}D2%20L%27%20F%27%20U%27%20D%20R%20B2%20D%27%20R%20U%20L%27%20U%27%20R2%20U%20F2%20U%27%20F2%20U%20L2%20F2%20U%20R2%20U2%20L2%20U2%20F2%20L2%20B2%20R2;{Klooserman%27s%20four-phase%20algorithm,%20suboptimal%20solution%20[3+8+6+12].}D2%20L%27%20F%27%20U%27%20D%20R%20B2%20D%27%20R%20U%20L%27%20U%20B2%20U%20F2%20U%27%20F2%20D%20F2%20U%20L2%20U%27%20L2%20D%20R2%20D%27%20F2%20L2%20D%27;{4-list%20one-phase%20algorithm,%20suboptimal%20solution.}B%20U2%20B%20U2%20D%27%20B2%20U2%20F2%20R%20F%27%20B%20U2%20B%20D%27%20B2%20D%20L%27%20D2%20F%20R%27;{Kociemba%27s%20two-phase%20algorithm,%20suboptimal%20solution%20[10+10].}L%20F%27%20R2%20B2%20D2%20B%27%20L%27%20B%20R%20B%20U%27%20B2%20D%27%20L2%20F2%20L2%20D2%20R2%20D%20F2;{Feather%27s%20two-phase%20algorithm,%20suboptimal%20solution%20[12+8].}D%20L%20D2%20L%20B%20R2%20B%27%20L%20F%20R%27%20U%20L%27%20B2%20R2%20U2%20F2%20U2%20B2%20R2%20D2&colorscheme=wygbor&edit=1&snap=1&movetext=1&buttonheight=20&textsize=18&scale=2)
+- [Similarities and differences among algorithms](https://en.wikipedia.org/wiki/Optimal_solutions_for_the_Rubik%27s_Cube#Similarities_and_differences_among_algorithms)
+- Terms [God's algorithm](https://www.speedsolving.com/wiki/index.php?title=God%27s_Algorithm) and [Devil's algorithm](https://www.speedsolving.com/threads/hamiltonian-circuit-for-the-entire-2x2x2-cube-group.34318/#post-690251)
+- Honorable mention: [Hamiltonian circuit for Rubik's Cube](https://www.speedsolving.com/threads/a-hamiltonian-circuit-for-rubiks-cube.35505/#post-715307) by Bruce Norskog (interesting from a theoretical standpoint but impractical for solving the cube because of both time and space requirements)
 
 [^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 14-15. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^scherphuis-nd]: J. Scherphuis, "Computer Puzzling". [Online]. Available: https://www.jaapsch.net/puzzles/compcube.htm#thisal
