@@ -84,7 +84,7 @@ A new era of optimal solving began with the introduction of Korf's solver in 199
 
 ![](img/ComputerAlgorithms/Korf.png)
 
-IDA* (Iterative Deepening A*) is an algorithm that searches for the shortest move sequence by gradually increasing the allowed solution length. Given that God's Number for Rubik's Cube is 20 in the face-turn metric, Korf's algorithm will always find a solution within that limit. It utilizes pruning tables stored in memory to quickly estimate the remaining moves needed.
+IDA* (Iterative Deepening A*) is an algorithm that searches for the shortest move sequence by gradually increasing the allowed solution length. Given that God's number for Rubik's Cube is 20 in the face-turn metric, Korf's algorithm will always find a solution within that limit. It utilizes pruning tables stored in memory to quickly estimate the remaining moves needed.
 
 A pruning table is a precomputed table containing the minimum number of moves required to solve specific parts of the cube (like just the corners), used to "guess" how far away the full solution is and to prune the tree accordingly. Korf used three pruning tables which were corners as one component and edges evenly split into two sub-components.
 
