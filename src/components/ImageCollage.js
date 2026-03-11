@@ -7,11 +7,11 @@ import "yet-another-react-lightbox/styles.css";
 export default function ImageCollage({ images = [] }) {
   const [loadedImages, setLoadedImages] = useState([]);
   const [index, setIndex] = useState(-1);
+  const [isLoading, setIsLoading] = useState(true); // Track loading state
 
   useEffect(() => {
     const loadImageDimensions = async () => {
-      const promises = images.map
-      ((image) =>
+      const promises = images.map((image) =>
         new Promise((resolve) => {
           const img = new Image();
           img.src = image.src;
@@ -20,15 +20,14 @@ export default function ImageCollage({ images = [] }) {
       );
       const resolvedImages = await Promise.all(promises);
       setLoadedImages(resolvedImages);
+      setIsLoading(false); // Done loading!
     };
     loadImageDimensions();
   }, [images]);
 
-  
   const closeLightbox = useCallback(() => {
     if (index >= 0) {
       setIndex(-1);
-
       if (window.history.state?.lightbox) {
         window.history.back();
       }
@@ -37,15 +36,11 @@ export default function ImageCollage({ images = [] }) {
 
   useEffect(() => {
     if (index >= 0) {
-
       window.history.pushState({ lightbox: true }, "");
-
       const handleBack = () => setIndex(-1);
       window.addEventListener("popstate", handleBack);
-
       return () => {
         window.removeEventListener("popstate", handleBack);
-
         document.body.style.overflow = "auto";
       };
     }
@@ -54,22 +49,35 @@ export default function ImageCollage({ images = [] }) {
   const slides = loadedImages.map(({ src }) => ({ src }));
 
   return (
-    <>
-      {loadedImages.length > 0 && (
+    <div style={{ 
+      minHeight: isLoading ? "300px" : "auto", // Reserve space immediately
+      position: "relative",
+      marginBottom: "2rem" 
+    }}>
+      {isLoading ? (
+        /* This placeholder prevents the "jump" by giving the page height before images load */
+        <div style={{ 
+          height: "300px", 
+          display: "flex", 
+          alignItems: "center", 
+          justifyContent: "center", 
+          background: "var(--ifm-color-emphasis-200)", // Docusaurus gray
+          borderRadius: "8px"
+        }}>
+          <span>Loading Gallery...</span>
+        </div>
+      ) : (
         <RowsPhotoAlbum
-  photos={loadedImages}
-  onClick={({ index: i }) => setIndex(i)}
-  // This tells the album how to render each image tag
-  renderPhoto={({ photo, imageProps, wrapperProps }) => (
-    <div {...wrapperProps}>
-      <img 
-        {...imageProps} 
-        className="collage-image" // <--- The plugin will see this and skip it
-      />
-    </div>
-  )}
-/>
+          photos={loadedImages}
+          onClick={({ index: i }) => setIndex(i)}
+          renderPhoto={({ photo, imageProps, wrapperProps }) => (
+            <div {...wrapperProps}>
+              <img {...imageProps} className="collage-image" />
+            </div>
+          )}
+        />
       )}
+
       <Lightbox
         open={index >= 0}
         index={index}
@@ -77,6 +85,6 @@ export default function ImageCollage({ images = [] }) {
         close={closeLightbox}
         on={{ exit: () => (document.body.style.overflow = "auto") }}
       />
-    </>
+    </div>
   );
 }
