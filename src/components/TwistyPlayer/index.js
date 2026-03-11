@@ -80,8 +80,15 @@ const TwistyPlayer = forwardRef(
     });
 
     return (
-      <span
-        style={{ maxWidth: "100%", position: "relative" }}
+      <div
+        style={{ 
+          maxWidth: "100%", 
+          position: "relative",
+          minHeight: "280px",
+          display: "block",
+          //aspectRatio: "1 / 1",
+          containIntrinsicSize: "280px"
+        }}
         className={rootClassName}
         ref={spanRef}
       >
@@ -97,7 +104,7 @@ const TwistyPlayer = forwardRef(
             }}
           />
         )}
-      </span>
+      </div>
     );
   }
 );

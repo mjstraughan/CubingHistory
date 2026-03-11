@@ -56,7 +56,7 @@
 
 /* Keep headers visible after the Navbar */
 h1[id], h2[id], h3[id], h4[id] {
-  scroll-margin-top: 20px;
+  scroll-margin-top: 80px;
 }
 
 .player-wrapper {
