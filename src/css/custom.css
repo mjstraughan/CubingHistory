@@ -54,6 +54,11 @@
 }
 */
 
+/* Keep headers visible after the Navbar */
+h1[id], h2[id], h3[id], h4[id] {
+  scroll-margin-top: 100px;
+}
+
 .player-wrapper {
   position: relative;
   padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
