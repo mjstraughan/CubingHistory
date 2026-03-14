@@ -86,7 +86,7 @@ A new era of optimal solving began with the introduction of Korf's solver in 199
 
 IDA* (Iterative Deepening A*) is an algorithm that searches for the shortest move sequence by gradually increasing the allowed solution length. Given that God's number for Rubik's Cube is 20 in the face-turn metric, Korf's algorithm will always find a solution within that limit. It utilizes pruning tables stored in memory to quickly estimate the remaining moves needed.
 
-A pruning table is a precomputed table containing the minimum number of moves required to solve specific parts of the cube (like just the corners), used to "guess" how far away the full solution is and to prune the tree accordingly. Korf used three pruning tables which were corners as one component and edges evenly split into two sub-components.
+A pruning table is a precomputed table containing the minimum number of moves required to solve specific parts of the cube (like just the corners), used to "guess" how far away the full solution is and to prune the search tree accordingly. Korf used three pruning tables which were corners as one component and edges evenly split into two sub-components.
 
 Of the 10 randomly scrambled cubes featured in his demonstration, six were optimally solvable in 18 moves, three in 17 moves, and one in 16 moves. In this regard he was quite lucky not to have generated a scramble requiring 19 moves, as the probability of doing so is higher than that of generating a scramble requiring 16 moves. To optimally solve a single depth-19 cube would most likely have taken more than a month on the hardware used (in fact, somewhere between 27 and 360 days of uninterrupted search) [^korf-1997-2].
 
