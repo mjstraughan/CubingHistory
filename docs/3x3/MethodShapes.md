@@ -199,14 +199,14 @@ stickering={{
 
 **Proposer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre) (2006)
 
-## 1x2x3 + 2x2x2 block
+## LXSLL / F2L-LXS (Shell)
 
 <Exhibit
 stickering={{
     solved: "U D F B L R DL DB DR DFL DBL DBR FL BL BR"}}
 />
 
-**Method:** [Nautilus](3x3/Methods/Nautilus.md)
+**Method:** [Nautilus](3x3/Methods/Nautilus.md), [APB](3x3/Methods/APB.md)
 
 **Proposer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre) (2006)
 
