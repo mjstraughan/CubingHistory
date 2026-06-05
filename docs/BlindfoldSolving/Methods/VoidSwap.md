@@ -62,15 +62,16 @@ images={[
 ]}
 />
 
-## Previous Proposal
+## Pochmann's Proposal
 
-In November 2005, Stefan Pochmann suggested a similar idea of swapping two edges while cycling centers [^pochmann-2005-1]. Pochmanns version swapped the edges at UR and UL and cycled the S slice centers. However, the idea received no further development beyond the introduction of an alternate edge swapping algorithm [^pochmann-2005-2].
+In November 2005, Stefan Pochmann suggested a similar idea of swapping edges and corners while cycling centers [^pochmann-2005-1]. Pochmann's version swapped the edges at UR and UL and cycled the S slice centers, and the corner swap phase involved the UBL and DFR corners and the equivalent of M2 E' or x2 y on the centers. However, the idea received no further development to find more ergonomic algorithms or to place on a webpage or document for further promotion [^pochmann-2005-2]. Additional development was hindered at the time due to limitations of available algorithm generating software. The less ergonomic algorithm quality likely prevented the idea from having a more positive community reception, and possibly being the reason that the idea wasn't further documented.
 
 <ImageCollage
 images={[
 { src: require("@site/docs/BlindfoldSolving/img/VoidSwap/Pochmann.png").default},
 { src: require("@site/docs/BlindfoldSolving/img/VoidSwap/Pochmann2.png").default},
-{ src: require("@site/docs/BlindfoldSolving/img/VoidSwap/Pochmann3.png").default}
+{ src: require("@site/docs/BlindfoldSolving/img/VoidSwap/Pochmann3.png").default},
+{ src: require("@site/docs/BlindfoldSolving/img/VoidSwap/Pochmann4.png").default}
 ]}
 />
 
