@@ -64,7 +64,7 @@ images={[
 
 ## Pochmann's Proposal
 
-In November 2005, Stefan Pochmann suggested a similar idea of swapping edges and corners while cycling centers [^pochmann-2005-1]. Pochmann's version swapped the edges at UR and UL and cycled the S slice centers, and the corner swap phase involved the UBL and DFR corners and the equivalent of M2 E' or x2 y on the centers. However, the idea received no further development to find more ergonomic algorithms or to place on a webpage or document for further promotion [^pochmann-2005-2]. Additional development was hindered at the time due to limitations of available algorithm generating software. The less ergonomic algorithm quality likely prevented the idea from having a more positive community reception, and possibly being the reason that the idea wasn't further documented.
+In November 2005, Stefan Pochmann suggested a similar idea of swapping edges and corners while cycling centers [^pochmann-2005-1]. Pochmann provided various algorithms for the community to choose from that each may swap different edge or corner locations, and cycle the centers in a different way. However, the idea received no further development to find more ergonomic algorithms or to place on a webpage or document for further promotion [^pochmann-2005-2]. Additional development was hindered at the time due to limitations of available algorithm generating software. The less ergonomic algorithm quality likely prevented the idea from having a more positive community reception, and possibly being the reason that the idea wasn't further documented.
 
 <ImageCollage
 images={[
