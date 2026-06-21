@@ -103,4 +103,4 @@ Thanks to Ron van Bruchem for searching through the Frans Schiereck books that h
 [^makisumi-nd]: S. Makisumi, "Notation," Makisumi's Website, [Online]. Available: https://web.archive.org/web/20070915082213/http://www.cubefreak.net/notation.html.
 [^straughan-2010]: M. J. Straughan, "Random Cubing Discussion," SpeedSolving.com, 1 December 2010. [Online]. Available: https://www.speedsolving.com/threads/random-cubing-discussion.22862/post-494718.
 [^straughan-2021-1]: M. J. Straughan, "Notation Based Reference System (NBRS): A standard for defining methods and states," SpeedSolving.com, 4 March 2021. [Online]. Available: https://www.speedsolving.com/threads/notation-based-reference-system-nbrs-a-standard-for-defining-methods-and-states.79862/.
-[^straughan-2021-2]: M. J. Straughan, "Notation Based Reference System," Google Sites, 2021. [Online]. Available: https://sites.google.com/site/athefre/concepts/nbrs?authuser=0.
+[^straughan-2021-2]: M. J. Straughan, "Notation Based Reference System," Google Sites, 2021. [Online]. Available: https://sites.google.com/site/athefre/steps-concepts/nbrs.

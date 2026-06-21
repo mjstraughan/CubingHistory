@@ -63,7 +63,7 @@ In 2021, Straughan devised a new recognition method that was then developed into
 [^straughan-roux-2006]: M. J. Straughan and G. Roux, Personal communication, 3 October 2006. [Online].
 [^roux-2006]: G. Roux, "Step 3," Roux's website, 2006. [Online]. Available: http://grrroux.free.fr/method/Step_3.html.
 [^straughan-2012-1]: M. J. Straughan, "2x2 Pseudo Solving: Improving CLL and EG," SpeedSolving.com, 1 June 2012. [Online]. Available: https://www.speedsolving.com/threads/2x2-pseudo-solving-improving-cll-and-eg.37073/.
-[^straughan-2012-2]: M. J. Straughan, "A2," Straughan's website, 2012. [Online]. Available: https://sites.google.com/site/athefre/other/nmcll?authuser=0.
+[^straughan-2012-2]: M. J. Straughan, "A2," Straughan's website, 2012. [Online]. Available: https://sites.google.com/site/athefre/other-puzzles/nmcll.
 [^straughan-roux-2010]: M. J. Straughan and G. Roux, Personal communication, 26 April 2010. [Online].
 [^roux-2010]: G. Roux, "Step 3," Roux's website, 2010. [Online]. Available: https://web.archive.org/web/20111204185452/http://grrroux.free.fr/method/Step_3.html.
-[^straughan-mosher-2021]: M. J. Straughan and T. Mosher, "ATCRM," Straughan's Website, 2021. [Online]. Available: https://sites.google.com/site/athefre/atcrm?authuser=0.
+[^straughan-mosher-2021]: M. J. Straughan and T. Mosher, "ATCRM," Straughan's Website, 2021. [Online]. Available: https://sites.google.com/site/athefre/recognition/atcrm.

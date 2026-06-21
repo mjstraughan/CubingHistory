@@ -39,7 +39,7 @@ In late 2009, Michael James Straughan began experimenting with combining the EOL
 
 Polaris was placed on Straughan's first website under the placeholder name MI2, which was short for Major Idea 2. This website wasn't preserved well on archive.org and only the main page remains archived [^straughan-2010-2].
 
-![](img/MI1/Site.png)
+![](img/Solaris/Site.png)
 
 In October 2011, Straughan changed the initial steps to an oriented blockbuilding concept [^straughan-2011-2]. This set the steps of the method to what they are now.
 

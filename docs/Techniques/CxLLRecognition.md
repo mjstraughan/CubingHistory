@@ -69,5 +69,5 @@ The Straughan recognition method contains one step and is based on finding the m
 [^jmark-2021]: JMark, Discord, 19 December 2021. [Online]. Available: https://discord.com/channels/913104731814105088/913129515541233734/922200195092066355.
 [^straughan-mosher-2021]: M. J. Straughan and T. Mosher, "ATCRM," Straughan's Website, 2021. [Online]. Available: https://sites.google.com/site/athefre/recognition/atcrm.
 [^straughan-2024-1]: M. J. Straughan, Discord, 17 May 2024. [Online]. Available: https://discord.com/channels/885722463521103892/885722523013103667/1240932644334866442.
-[^straughan-2024-2]: M. J. Straughan, "Straughan Recognition," 2024. [Online]. Available: https://sites.google.com/site/athefre/recognition/straughan-recognition?authuser=0.
+[^straughan-2024-2]: M. J. Straughan, "Straughan Recognition," 2024. [Online]. Available: https://sites.google.com/site/athefre/recognition/straughan-recognition.
 [^straughan-2025]: M. J. Straughan, "Straughan Recognition," 17 May 2025. [Online]. Available: https://sites.google.com/site/athefre/recognition/straughan-recognition.

@@ -36,7 +36,7 @@ stickering={{
 
 During development of the MI1 method, Michael James Straughan determined that the empty edge slot at DR for the primary shape caused ergonomics issues [^straughan-2010]. It was decided to solve the edge as part of the primary shape. This led to a new variant of MI1 and was later branched off as its own method called Nautilus.
 
-![](img/MI1/Site.png)
+![](img/Solaris/Site.png)
 
 ### Re-Development
 
