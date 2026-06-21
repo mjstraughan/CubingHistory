@@ -195,7 +195,7 @@ stickering={{
     solved: "U D F B L R DL DB DFL DBL DBR FL BL BR"}}
 />
 
-**Method:** [MI1](3x3/Methods/Mi1.md)
+**Method:** [MI1](3x3/Methods/Solaris.md)
 
 **Proposer:** [Michael James Straughan](CubingContributors/MethodDevelopers.md#straughan-michael-james-athefre) (2006)
 
