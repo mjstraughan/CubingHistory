@@ -62,7 +62,8 @@ images={[
 
 ## A New Method
 
-In October 2004 Pochmann improved upon the one algorithm method, evolving it into what is now called “Classic Pochmann” [^pochmann-2004-3] [^pochmann-2004-4]. Instead of a single algorithm, this new method uses four algorithms taken from the PLL algorithm set – T, Ja, Jb, and a modified T permutation that swaps the UBL and DFR corners and UB and UL edges. These additional algorithms bring versatility to setting up positions and solving pieces.
+In October 2004 Pochmann improved upon the one algorithm method, evolving it into what is now called “Classic Pochmann” [^pochmann-2004-3] [^pochmann-2004-4]. Instead of a single algorithm, this new method uses four algorithms taken from the PLL algorithm set: T, Ja, Jb, and a modified T permutation that swaps the UBL and DFR corners and UB and UL edges. An additional algorithm is required in the case of parity at the end of the solve. The solver could learn a PLL algorithm to directly solve the corners and edges or, as in Pochmann's preference, use the already known T permutation algorithm to swap the corners then use an easier to learn U permutation algorithm to cycle the edges. Other two step pairty handling possibilities exist depending on user preference. These additional algorithms introduced in this upgrade to the one algorithm method bring versatility to setting up positions and solving pieces.
+
 <ImageCollage
 images={[
 { src: require("@site/docs/BlindfoldSolving/img/ClassicPochmann/PochmannSite.png").default},
