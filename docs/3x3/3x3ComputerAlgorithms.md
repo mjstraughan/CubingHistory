@@ -171,6 +171,7 @@ See also:
 - [Similarities and differences among algorithms](https://en.wikipedia.org/wiki/Optimal_solutions_for_the_Rubik%27s_Cube#Similarities_and_differences_among_algorithms)
 - Terms [God's algorithm](https://www.speedsolving.com/wiki/index.php?title=God%27s_Algorithm) and [Devil's algorithm](https://www.speedsolving.com/threads/hamiltonian-circuit-for-the-entire-2x2x2-cube-group.34318/#post-690251)
 - Honorable mention: [Hamiltonian circuit for Rubik's Cube](https://www.speedsolving.com/threads/a-hamiltonian-circuit-for-rubiks-cube.35505/#post-715307) by Bruce Norskog (interesting from a theoretical standpoint but impractical for solving the cube because of both time and space requirements)
+- [Two-phase algorithm](https://www.speedsolving.com/threads/computer-solving-david-gilday%C2%B4s-two-phase-algorithm.97241/) by David Gilday
 
 [^pochmann-2008-1]: S. Pochmann, "Analyzing Human Solving Methods for Rubik’s Cube and similar Puzzles", 2008, pp. 14-15. [Online]. Available: https://www.stefan-pochmann.info/hume/hume_diploma_thesis.pdf
 [^scherphuis-nd]: J. Scherphuis, "Computer Puzzling". [Online]. Available: https://www.jaapsch.net/puzzles/compcube.htm#thisal
