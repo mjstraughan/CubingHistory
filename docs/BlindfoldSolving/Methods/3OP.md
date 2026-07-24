@@ -44,7 +44,7 @@ In September 2001, Olly Hayden presented a blindfold solving method on his websi
 
 ![](../img/3OP/Hayden.png)
 
-## Expanded Development (Richard Carr, Shotaro Makisumi)
+## Additional Development (Richard Carr, Shotaro Makisumi)
 
 Around 2002, Richard Carr developed a blindfold solving method that contained the same steps as Hayden's method. In Carr's permutation step corners are permuted using simple one move setups in combination with a corner three cycle algorithm executed on the U layer. Carr’s guides were eventually hosted on Jessica Fridrich’s website [^carr-2002-1] [^carr-2002-2] [^carr-2002-3].
 
