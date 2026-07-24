@@ -140,27 +140,18 @@ Knights later added a description of the method to his website [^knights-nd].
 
 ![](img/BlindfoldSolvingOrigins/Knights5.png)
 
-### Richard Carr
-
-In the early 2000s, Richard Carr began discussing his method with the Speed Solving Rubik’s Cube Yahoo group. Eventually Jessica Fridrich started hosting some of his webpages on her website. Carr’s solving process is described on three different pages [^carr-2002-1] [^carr-2002-2] [^carr-2002-3]. This method is sort of the opposite of Dan Knights’ method in that pieces are oriented then permuted. The steps of the method as listed in the PDF:
-
-1. Orient corners
-2. Orient edges
-3. Permute corners
-4. Permute edges
-
-Carr also explained his memorization process. First the cube is oriented to have the desired DBL corner in its correct position. The remaining seven corners are given a fixed number in order from 1 to 7. Going through each position, the corner currently in each numbered position produces a sequence of seven numbers describing the total corner permutation state. Then in each of those seven positions in line, a number is given to show its current orientation, either 0, 1, or 2. There is now one sequence of numbers to memorize for the corner permutation and one for the orientation. A similar process is followed for memorizing the edges.
-
-![](img/BlindfoldSolvingOrigins/Carr2.png)
-
 ### Olly Hayden
 
-On March 23 2002, Olly Hayden added pages to his website describing blindfold solving [^hayden-2002-1]. The steps of the method are the same as those used by Richard Carr [^hayden-2002-2]. Hayden’s memorization process of assigning numbers to each piece is also similar [^hayden-2002-3]. In August 2002, Hayden explained the thought process behind the development of the method [^hayden-2002-4].
+In September 2001 Olly Hayden added pages to his website describing blindfold solving [^hayden-2001-1] [^hayden-2001-2] [^hayden-2001-3]. This may be the first published complete guide for blindfold solving Rubik's Cube. In August 2002, Hayden explained the thought process behind the development of the method [^hayden-2002-1]. The steps are as follows:
 
 1. Orient corners
 2. Orient edges
 3. Permute corners
 4. Permute edges
+
+The memorization process was also described in the webpages. Each corner is given a number from 1 to 8 and each edge is given a number from 1 to 12. During the memorization process strings of numbers are memorized to note the locations of misoriented pieces and pieces that need to be swapped. Hayden also described several memorization technique ideas [^hayden-2001-4].
+
+During an email exchange with Cubing History, Hayden explained the origin of his solving method [^hayden-2026]. He and a few others at the time saw the original message from Dan Knights and attempted to work out on their own how to blindfold solve the cube. David Barr, going by the username "krrash" in the Speed Solving Rubik's Cube Yahoo! group, described a method for solving the corners. This post no longer remains because it occurred within the timeframe of messages that were deleted from the group after a company merger. Soon after Barr's post, Hayden posted a method that described how to solve the entire cube. The method eventually came to be known as [3OP](BlindfoldSolving/Methods/3OP.md). Several of the top solvers of the time used the method, including Shotaro Makisumi who used a variation of the method to set world records [^makisumi-2005].
 
 <ImageCollage
 images={[
@@ -170,9 +161,26 @@ images={[
 ]}
 />
 
+### Richard Carr
+
+In 2002, Richard Carr began posting a method similar to Hayden's in the Speed Solving Rubik’s Cube Yahoo group. Eventually Jessica Fridrich started hosting some of his webpages on her website. Carr’s solving process is described on three different pages [^carr-2002-1] [^carr-2002-2] [^carr-2002-3].The steps of the method as listed in the PDF:
+
+1. Orient corners
+2. Orient edges
+3. Permute corners
+4. Permute edges
+
+Carr explained his memorization process, which is similar to Hayden's but with some modifications. First the cube is oriented to have the desired DBL corner in its correct position. The remaining seven corners are given a fixed number in order from 1 to 7. Going through each position, the corner currently in each numbered position produces a sequence of seven numbers describing the total corner permutation state. Then in each of those seven positions in line, a number is given to show its current orientation, either 0, 1, or 2. There is now one sequence of numbers to memorize for the corner permutation and one for the orientation. A similar process is followed for memorizing the edges.
+
+![](img/BlindfoldSolvingOrigins/Carr2.png)
+
+Although Carr's Rubik's Cube blindfold solving method is similar to Hayden's, Carr may be the first to have published a complete guide for blindfold solving big cubes [^carr-2002-2].
+
+![](img/BlindfoldSolvingOrigins/Carr3.png)
+
 ### Grant Tregay
 
-On December 1 2002, Grant Tregay created a webpage describing blindfold solving [^tregay-2002-1]. On the page, Tregay states that his method is the same as Richard Carr’s [^tregay-2002-2]. One key difference is that Tregay used algorithms that he had already been using for normal solving rather than more blindfold solving optimal algorithms.
+On December 1 2002, Grant Tregay created a webpage describing blindfold solving [^tregay-2002-1]. On the page, Tregay states that his method is based on Richard Carr’s guides [^tregay-2002-2]. One key difference is that Tregay used algorithms that he had already been using for normal solving rather than more blindfold solving optimal algorithms.
 
 ![](img/BlindfoldSolvingOrigins/Tregay.png)
 
@@ -224,7 +232,7 @@ It is unknown who popularized or first used the term “blindfold” solving ver
 [^guimond-nd]: G. Guimond, "TV Apparitions," [Online]. Available: https://web.archive.org/web/20050405213835/http://www.rubikscuberecord.com/.
 [^laue-nd]: R. Laue, "World Record For Doing A Rubik's Cube While Blindfolded," recordholders.org, [Online]. Available: https://www.recordholders.org/en/records/rubik-blindfold.html.
 [^carr-2002]: R. Carr, "A night of 4s," Speed Solving Rubik's Cube, 29 August 2002. [Online].
-[^carr-nd]: R. Carr, Carr's Page on Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/times.html.
+[^carr-nd]: R. Carr, Carr's Page on Fridrich's Website, [Online]. Available: http://ws2.binghamton.edu/fridrich/Richard/times.html.
 [^bruchem-2002]: R. v. Bruchem, "Cheers for another 3 cubes blindfold!," Speed Solving Rubik's Cube Yahoo Group, 16 August 2002. [Online].
 [^bruchem-nd]: R. v. Bruchem, "Rubik's Cube: Blindfolded number of cubes," speedcubing.com, [Online]. Available: https://speedcubing.com/records/recs_bf_333num.html.
 [^dicks-2004]: D. Dicks, "Re: [Speed cubing group] Finally, I solved 3x3 in blindfold manner!," Speed Solving Rubik's Cube Yahoo Group, 8 January 2004. [Online].
@@ -233,13 +241,16 @@ It is unknown who popularized or first used the term “blindfold” solving ver
 [^knights-1999-1]: D. Knights, "3-Cube in 1 One-Look," Cube Lovers, 4 October 1999. [Online].
 [^knights-1999-2]: D. Knights, "3-Cube in 1 Look," Cube Lovers, 28 October 1999. [Online].
 [^knights-nd]: D. Knights, "About Rubik's Cube: You can solve it with your eyes closed?-->," Dan Knights, [Online]. Available: https://web.archive.org/web/20010421113506/http://benjerry.middlebury.edu/~knights/Cube/CubeInfo1.html.
-[^carr-2002-1]: R. Carr, Carr's Page on Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/blindfoldtechnique.html.
-[^carr-2002-2]: R. Carr, "Blindfold cubing," Carr's Page on Fridrich's Website, [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/BC.html.
-[^carr-2002-3]: R. Carr, "Blindfold Cubing," Carr's Page on Fridrich's Website, 23 February 2002. [Online]. Available: http://www.ws.binghamton.edu/fridrich/Richard/BlindfoldRevenge.pdf.
-[^hayden-2002-1]: O. Hayden, "Blindfold Cubing," Olly Hayden, 23 March 2002. [Online]. Available: https://web.archive.org/web/20021221012211fw_/http://homepage.ntlworld.com/angela.hayden/cube/blindfold_frontpage.html.
-[^hayden-2002-2]: O. Hayden, "Blindfold Cubing," Olly Hayden, 23 March 2002. [Online]. Available: https://web.archive.org/web/20030407141931fw_/http://homepage.ntlworld.com/angela.hayden/cube/blind4.html.
-[^hayden-2002-3]: O. Hayden, "Blindfold Cubing," Olly Hayden, 23 March 2002. [Online]. Available: https://web.archive.org/web/20030407141316fw_/http://homepage.ntlworld.com/angela.hayden/cube/blind2.html.
-[^hayden-2002-4]: O. Hayden, "Re: [Speed Solving Rubik's Cube] Blindfold," Speed Solving Rubik's Cube Yahoo Group, 19 August 2002. [Online].
+[^carr-2002-1]: R. Carr, Carr's Page on Fridrich's Website, [Online]. Available: http://ws2.binghamton.edu/fridrich/Richard/blindfoldtechnique.html.
+[^carr-2002-2]: R. Carr, "Blindfold cubing," Carr's Page on Fridrich's Website, [Online]. Available: http://ws2.binghamton.edu/fridrich/Richard/BC.html.
+[^carr-2002-3]: R. Carr, "Blindfold Cubing," Carr's Page on Fridrich's Website, 23 February 2002. [Online]. Available: http://ws2.binghamton.edu/fridrich/Richard/BlindfoldRevenge.pdf.
+[^hayden-2001-1]: O. Hayden, "Blindfold Cubing," Olly Hayden, September 2001. [Online]. Available: https://web.archive.org/web/20021221012211fw_/http://homepage.ntlworld.com/angela.hayden/cube/blindfold_frontpage.html.
+[^hayden-2001-2]: O. Hayden, "Blindfold Cubing," Olly Hayden, September 2001. [Online]. Available: https://web.archive.org/web/20030407141931fw_/http://homepage.ntlworld.com/angela.hayden/cube/blind4.html.
+[^hayden-2001-3]: O. Hayden, "Blindfold Cubing," Olly Hayden, September 2001. [Online]. Available: https://web.archive.org/web/20030407141316fw_/http://homepage.ntlworld.com/angela.hayden/cube/blind2.html.
+[^hayden-2001-4]: O. Hayden, "Q&A; plus Memorisation," Olly Hayden, September 2001. [Online]. Available: https://web.archive.org/web/20021218024123fw_/http://homepage.ntlworld.com/angela.hayden/cube/blind6.html
+[^hayden-2002-1]: O. Hayden, "Re: [Speed Solving Rubik's Cube] Blindfold," Speed Solving Rubik's Cube Yahoo Group, 19 August 2002. [Online].
+[^hayden-2026]: O. Hayden, "Personal Communication," 21 June 2026, [Online].
+[^makisumi-2005]: S. Makisumi, "A 3-Cycle Guide to 3x3 Blindfold Cubing," Shotaro Makisumi, June 2005. [Online]. Available: https://web.archive.org/web/20070103140543/http://www.cubefreak.net/blindfoldcubing_guide.html
 [^tregay-2002-1]: G. Tregay, "Grant Tregay and Ernö Rubik's Cube," Grant Tregay, 1 December 2002. [Online]. Available: https://www.grantnbetty.com/cube/.
 [^tregay-2002-2]: G. Tregay, "Blindfold Cubing," Grant Tregay, 1 December 2002. [Online]. Available: https://www.grantnbetty.com/cube/blindfold.html.
 [^pochmann-2004-1]: S. Pochmann, "Re: Blindfold cubing: Parity error," Speed Solving Rubik's Cube Yahoo Group, 7 March 2004. [Online].
