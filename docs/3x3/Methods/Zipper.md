@@ -22,7 +22,7 @@ stickering={{
 **Steps:**
 
 1. Solve the bottom layer edges and one bottom layer corner.
-2. olve the three empty F2L slots.
+2. Solve the three empty F2L slots.
 3. Solve the last layer corners while orienting all remaining edges.
 4. Permute the remaining edges.
 
