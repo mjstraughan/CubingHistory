@@ -8,11 +8,13 @@ description: The history of the Rubik's Cube, world records, solving methods, Me
 
 ## Purpose
 
-This website was created to serve as an archive of Rubik's Cube history - including world records, solving methods, hardware, and more - as well as the history of other puzzles such as Megaminx, Pyraminx, Skewb, Square-1, FTO, 2x2, and big cubes. The history of the community has been poorly documented so this is an attempt to recover and preserve everyone's contributions. Information has been compiled from various message boards, mailing lists, newsletters, books, conversing with others through private messages, and many years of my own experience and knowledge since joining the community in 2005. All content on the site is original research starting from the ground up for each subject. In addition, the original creators of contributions have been contacted in many cases and they have provided information, scans, images, and files.
+This website was created to serve as an archive of Rubik's Cube history - including world records, solving methods, hardware, and more - as well as the history of other puzzles such as Megaminx, Pyraminx, Skewb, Square-1, FTO, 2x2, and big cubes. The history of the community has been poorly documented so this is an attempt to recover and preserve everyone's contributions. Information has been compiled from various message boards, mailing lists, newsletters, books, conversing with others through private messages, and many years of my own experience and knowledge since joining the community in 2005.
+
+All content on Cubing History is original research starting from the ground up for each subject. A lot of information covered on Cubing History wasn't known to the community, whether it was a mention in a book that no one noticed or even something major that was forgotten and not archived by anyone. So there are many historical discoveries that originated on this site. None of the articles are written or edited in any form using AI, it is all human written so as to respect the human achievements that this site is all about. In addition to these efforts, the original creators of contributions have been contacted in many cases and they have provided information, scans, images, and files.
 
 ## Content Use
 
-If you want to use information from this website, I would love to work with you. Send me an email at athefre@gmail.com or contact me on one of the various puzzle communities such as speedsolving.com or Discord. My username everywhere is Athefre. My real name is Michael James Straughan.
+If you want to use information from this website, it would be appreciated if credit is given in your video, article, or any sort of production. I would also love to work with you if interested. Send me an email at athefre@gmail.com or contact me on one of the various puzzle communities such as speedsolving.com or Discord. My username everywhere is Athefre. My real name is Michael James Straughan.
 
 [Visit my personal website to see my method developments](https://sites.google.com/site/athefre)
 
